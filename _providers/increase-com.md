@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -159,31 +159,32 @@ plans:
 - name: Increase Com Plans Pricing
   plan_count: 2
   slug: increase-com-plans-pricing
-random_paper: 33
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Increase Com Rate Limits
   slug: increase-com-rate-limits
 score:
   band: thin
-  composite: 35.9
-  delta: 0.5
+  composite: 38.7
+  delta: 2.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 54.8
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 35.4
+  previous_composite: 35.9
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 39.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/increase-com/refs/heads/main/screenshots/increase-com-2026-07-25T222238.png
 security:
 - kind: authentication
   name: Increase Com Authentication

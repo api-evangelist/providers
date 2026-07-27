@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 39.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'PSD2 open-banking platform API: Authentication, General, Payment Initiation (PIS) and Account Information (AIS) services for account-to-account bank payments, card (hybrid) payments, refunds and accou'
@@ -133,7 +133,7 @@ overview: 'Kevin. publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Kevin.''s developer surface includes documentation, API reference, CLI, authentication, and 15 more developer resources.'
-random_paper: 31
+random_paper: 65
 scopes:
 - name: Kevin Scopes
   scope_count: 2
@@ -142,7 +142,7 @@ scopes:
 score:
   band: thin
   composite: 31.6
-  delta: 4.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 22.6
@@ -150,14 +150,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 26.8
+  previous_composite: 31.6
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

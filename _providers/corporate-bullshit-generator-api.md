@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -97,7 +97,7 @@ plans:
 - name: Corporate Bullshit Generator Api Plans Pricing
   plan_count: 3
   slug: corporate-bullshit-generator-api-plans-pricing
-random_paper: 49
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Corporate Bullshit Generator Api Rate Limits
@@ -113,18 +113,18 @@ rules:
   slug: corporate-bullshit-generator-api-rules
 score:
   band: thin
-  composite: 36.0
-  delta: 0.0
+  composite: 39.2
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 56.6
     developer_ergonomics: 0.0
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 26.3
     operational_transparency: 36.8
   previous_composite: 36.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/corporate-bullshit-generator-api/refs/heads/main/screenshots/corporate-bullshit-generator-api-2026-06-20T175036.png
 security:

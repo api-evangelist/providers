@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -101,11 +101,11 @@ overview: 'Binti is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Binti''s developer surface includes engineering blog, product news, support, changelog, signup flow, and 10 more developer resources.'
-random_paper: 24
+random_paper: 58
 score:
   band: emerging
   composite: 23.9
-  delta: 3.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -113,15 +113,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 20.8
+  previous_composite: 23.9
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/binti/refs/heads/main/screenshots/binti-2026-07-25T203015.png
 security:
 - kind: domain-security
   name: Binti Domain Security

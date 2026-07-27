@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 7
@@ -519,19 +519,19 @@ rules:
   slug: hookdeck-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 72.0
-  delta: 0.0
+  composite: 77.5
+  delta: 5.5
   facets:
     commercial_clarity: 84.2
-    contract_quality: 65.1
+    contract_quality: 74.0
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 78.9
   previous_composite: 72.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/hookdeck/refs/heads/main/screenshots/hookdeck-2026-06-20T182825.png
 security:
 - kind: authentication

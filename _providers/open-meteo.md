@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -168,7 +168,7 @@ plans:
 - name: Open Meteo Plans Pricing
   plan_count: 4
   slug: open-meteo-plans-pricing
-random_paper: 48
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Open Meteo Rate Limits
@@ -195,7 +195,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 51.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-meteo/refs/heads/main/screenshots/open-meteo-2026-06-20T190840.png
 security:

@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Lens is Tempus' real-world multimodal data and agentic AI platform for life sciences and oncology drug development, providing exploration of one of the world's largest de-identified clinical and molec
@@ -89,11 +107,31 @@ plans:
 - name: Tempus Ai Plans Pricing
   plan_count: 1
   slug: tempus-ai-plans-pricing
-random_paper: 35
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Tempus Ai Rate Limits
   slug: tempus-ai-rate-limits
+score:
+  band: emerging
+  composite: 18.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 87.5
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 18.7
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: domain-security
   name: Tempus Ai Domain Security

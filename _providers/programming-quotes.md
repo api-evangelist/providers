@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Public read endpoints (no auth) plus authenticated write endpoints over a MongoDB-backed corpus of programming quotes. Provides random quote lookups, paginated lists, author filtering, and full CRUD f
@@ -143,7 +143,7 @@ overview: 'Programming Quotes publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   The Programming Quotes catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 18
+random_paper: 1
 rules:
 - name: Programming Quotes API Rules
   rule_count: 5
@@ -174,7 +174,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 39.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/programming-quotes/refs/heads/main/screenshots/programming-quotes-2026-06-20T192146.png
 security:

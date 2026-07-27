@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 9
 apis:
 - description: The Assets API from Mesh — 2 operation(s) for assets.
@@ -201,7 +201,7 @@ random_paper: 21
 score:
   band: developing
   composite: 58.1
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 63.2
@@ -209,14 +209,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 56.8
+  previous_composite: 58.1
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

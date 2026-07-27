@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 278
   human_in_the_loop: 1
@@ -248,7 +248,7 @@ plans:
 - name: Yonsei Plans Pricing
   plan_count: 2
   slug: yonsei-plans-pricing
-random_paper: 0
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Yonsei Rate Limits
@@ -283,7 +283,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 44.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yonsei/refs/heads/main/screenshots/yonsei-2026-06-20T201758.png
 security:

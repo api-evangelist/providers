@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Public management API for the Maverics platform, automated with confidential OAuth 2.0 client-credentials API clients (private_key_jwt / JWT client assertion, ES256). Region-specific auth surfaces are
@@ -147,7 +147,7 @@ overview: 'Strata Identity publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Strata Identity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 18 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: thin
   composite: 34.5
@@ -161,7 +161,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 34.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

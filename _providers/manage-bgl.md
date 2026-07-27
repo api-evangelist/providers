@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -165,11 +165,11 @@ overview: 'Manage BGL publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Manage BGL''s developer surface includes API reference, documentation, sandbox, pricing, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 2
+random_paper: 19
 score:
   band: developing
   composite: 45.9
-  delta: 1.9
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 53.5
@@ -177,15 +177,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 44.0
+  previous_composite: 45.9
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 56.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/manage-bgl/refs/heads/main/screenshots/manage-bgl-2026-07-25T230015.png
 security:
 - kind: authentication
   name: Manage Bgl Authentication

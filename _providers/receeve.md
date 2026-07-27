@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -191,11 +191,11 @@ overview: 'Receeve publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Receeve''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 17 more developer resources.'
-random_paper: 21
+random_paper: 55
 score:
   band: thin
   composite: 43.9
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 68.4
@@ -203,14 +203,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 43.2
+  previous_composite: 43.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

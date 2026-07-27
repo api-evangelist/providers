@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST and WebSocket API for fixed-income reference data, evaluated pricing, order books, analytics, order/RFQ execution, and portfolio optimization.
@@ -141,7 +141,7 @@ random_paper: 44
 score:
   band: thin
   composite: 31.4
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 22.6
@@ -149,14 +149,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 32.3
+  previous_composite: 31.4
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

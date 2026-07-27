@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,11 +90,11 @@ overview: 'Countable is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Countable''s developer surface includes support, FAQ, and 10 more developer resources.'
-random_paper: 39
+random_paper: 5
 score:
   band: emerging
   composite: 16.8
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -102,15 +102,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.5
+  previous_composite: 16.8
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/countable/refs/heads/main/screenshots/countable-2026-07-25T210505.png
 security:
 - kind: domain-security
   name: Countable Domain Security

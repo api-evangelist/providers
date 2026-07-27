@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 27
+random_paper: 61
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -127,7 +127,7 @@ rules:
 score:
   band: thin
   composite: 38.3
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 64.9
@@ -135,14 +135,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 0.0
-  previous_composite: 40.8
+  previous_composite: 38.3
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unfao/refs/heads/main/screenshots/unfao-2026-06-20T200026.png
 security:

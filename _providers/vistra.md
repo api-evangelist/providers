@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ plans:
 - name: Vistra Plans Pricing
   plan_count: 1
   slug: vistra-plans-pricing
-random_paper: 2
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Vistra Rate Limits
@@ -188,18 +188,18 @@ rules:
   slug: vistra-rules
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 54.8
+  delta: 3.2
   facets:
     commercial_clarity: 47.4
     contract_quality: 70.8
     developer_ergonomics: 26.1
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 21.1
   previous_composite: 51.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vistra/refs/heads/main/screenshots/vistra-2026-06-20T201057.png
 security:

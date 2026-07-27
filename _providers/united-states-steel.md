@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -233,7 +233,7 @@ press:
 - date: '2026-05-25'
   title: U. S. Steel Aims to Improve Operational Efficiencies and ...
   url: https://www.ussteel.com/prereleases/-/blogs/u-s-steel-aims-to-improve-operational-efficiencies-and-employee-experiences-with-google-cloud-s-generative-ai
-random_paper: 2
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: United States Steel Rate Limits
@@ -257,19 +257,19 @@ rules:
   slug: united-states-steel-spectral-rules
 score:
   band: developing
-  composite: 53.2
-  delta: 0.0
+  composite: 58.7
+  delta: 5.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 73.5
+    contract_quality: 82.3
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 53.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-steel/refs/heads/main/screenshots/united-states-steel-2026-06-20T200102.png
 security:
 - kind: authentication

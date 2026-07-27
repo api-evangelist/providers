@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for Imply Polaris, the managed Apache Druid DBaaS. Manage tables, files, streaming/batch ingestion jobs, SQL and native queries, dashboards, data cubes, alerts, collections, API keys, network
@@ -162,7 +162,7 @@ overview: 'Imply publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Imply''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 45
+random_paper: 11
 score:
   band: thin
   composite: 40.6
@@ -176,8 +176,9 @@ score:
     operational_transparency: 47.4
   previous_composite: 40.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/imply/refs/heads/main/screenshots/imply-2026-07-25T222154.png
 security:
 - kind: authentication
   name: Imply Authentication

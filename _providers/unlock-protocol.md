@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 56.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 34
 apis:
 - description: GraphQL subgraphs deployed on The Graph for each Unlock Protocol network, indexing locks, keys, and protocol data from the smart contracts. Unlock hosts a development endpoint per chain; production us
@@ -276,11 +276,11 @@ overview: 'Unlock Protocol publishes 33 APIs on the [APIs.io](https://apis.io/) 
 
 
   Unlock Protocol''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: developing
   composite: 52.4
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 58.7
@@ -288,14 +288,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 52.0
+  previous_composite: 52.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

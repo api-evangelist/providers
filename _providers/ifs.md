@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ plans:
 - name: Ifs Plans Pricing
   plan_count: 1
   slug: ifs-plans-pricing
-random_paper: 16
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Ifs Rate Limits
@@ -139,19 +139,19 @@ scopes:
   slug: ifs-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: thin
-  composite: 44.0
-  delta: 0.0
+  band: developing
+  composite: 46.5
+  delta: 2.5
   facets:
     commercial_clarity: 28.9
     contract_quality: 69.0
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 21.1
   previous_composite: 44.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ifs/refs/heads/main/screenshots/ifs-2026-06-20T183215.png
 security:

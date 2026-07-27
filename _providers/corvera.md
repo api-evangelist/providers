@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 29.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Corvera''s hosted Model Context Protocol server. A single OAuth-secured HTTP MCP endpoint that exposes governed CPG datasets — retailer, distributor, logistics, ERP, warehouse, and ecommerce data — as '
@@ -127,7 +127,7 @@ overview: 'Corvera publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Corvera''s developer surface includes documentation, getting-started guide, authentication, changelog, engineering blog, signup flow, and 13 more developer resources.'
-random_paper: 40
+random_paper: 6
 scopes:
 - name: Corvera Scopes
   scope_count: 4
@@ -146,8 +146,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 30.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/corvera/refs/heads/main/screenshots/corvera-2026-07-25T210449.png
 security:
 - kind: authentication
   name: Corvera Authentication

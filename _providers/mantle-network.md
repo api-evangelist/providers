@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 12.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: Standard Ethereum JSON-RPC endpoint for Mantle mainnet (chain ID 5000). Used by wallets, dApps, indexers, and tooling to read chain state and submit transactions on the Mantle L2.
@@ -145,7 +145,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 33.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mantle-network/refs/heads/main/screenshots/mantle-network-2026-06-20T184930.png
 security:

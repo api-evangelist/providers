@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The Ubidots Data API v1.6 provides REST endpoints for sending and retrieving time-series data (dots) from IoT devices. Supports device and variable creation, data ingestion via HTTP POST, and historic
@@ -136,7 +136,7 @@ plans:
 - name: Ubidots Plans Pricing
   plan_count: 4
   slug: ubidots-plans-pricing
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 14
   name: Ubidots Rate Limits
@@ -154,7 +154,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 35.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ubidots/refs/heads/main/screenshots/ubidots-2026-06-20T195930.png
 security:

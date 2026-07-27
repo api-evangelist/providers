@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Balance API powers embedded B2B payments, digital trade credit, net terms, and order-to-cash automation. Developer documentation is gated behind a request form (ReadMe-hosted) and the production A
@@ -129,7 +129,7 @@ random_paper: 10
 score:
   band: thin
   composite: 34.6
-  delta: 5.4
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -137,15 +137,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 29.2
+  previous_composite: 34.6
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/getbalance/refs/heads/main/screenshots/getbalance-2026-07-25T215722.png
 security:
 - kind: domain-security
   name: Getbalance Domain Security

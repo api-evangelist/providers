@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ random_paper: 46
 score:
   band: developing
   composite: 50.6
-  delta: 2.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.7
@@ -187,15 +187,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 48.0
+  previous_composite: 50.6
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bitoasis/refs/heads/main/screenshots/bitoasis-2026-07-25T203200.png
 security:
 - kind: authentication
   name: Bitoasis Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Comprehensive reference documentation for all .NET APIs including the .NET Runtime, base class libraries, ASP.NET Core, Entity Framework, and Azure SDK libraries. Browse types, members, namespaces, an
@@ -119,7 +119,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-dotnet/refs/heads/main/screenshots/microsoft-dotnet-2026-06-20T185454.png
 security:

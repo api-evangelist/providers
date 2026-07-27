@@ -16,7 +16,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,6 +84,7 @@ random_paper: 30
 score:
   band: emerging
   composite: 20.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -91,13 +92,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 10.5
+  previous_composite: 20.2
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/everbank/refs/heads/main/screenshots/everbank-2026-07-25T213722.png
 security:
 - kind: domain-security
   name: Everbank Domain Security

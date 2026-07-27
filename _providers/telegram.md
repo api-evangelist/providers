@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -194,23 +194,23 @@ rules:
   slug: telegram-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.9
-  delta: 0.6
+  composite: 53.6
+  delta: 2.7
   facets:
     commercial_clarity: 60.5
     contract_quality: 64.6
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 34.2
     operational_transparency: 52.6
-  previous_composite: 50.3
+  previous_composite: 50.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telegram/refs/heads/main/screenshots/telegram-2026-06-20T195033.png
 security:

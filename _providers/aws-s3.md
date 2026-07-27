@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -5331,7 +5331,7 @@ plans:
 - name: Aws S3 Plans Pricing
   plan_count: 3
   slug: aws-s3-plans-pricing
-random_paper: 32
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Aws S3 Rate Limits
@@ -5366,7 +5366,7 @@ score:
     operational_transparency: 63.2
   previous_composite: 60.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-s3/refs/heads/main/screenshots/aws-s3-2026-06-20T172817.png
 security:

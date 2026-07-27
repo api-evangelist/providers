@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 74.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 196
   human_in_the_loop: 0
@@ -455,7 +455,7 @@ arazzos:
 - description: Find a member by email and update them, otherwise add them to the audience.
   name: Mailchimp Upsert Audience Member
   slug: mailchimp-upsert-member-workflow
-artifact_total: 335
+artifact_total: 336
 collections:
 - collection_type: postman
   name: Mailchimp Marketing API
@@ -1219,6 +1219,10 @@ jsonld:
   property_count: 0
   slug: mailchimp-transactional-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: mailchimp-mcp.yml
+  slug: mailchimp-mcpyml
 modified: '2026-06-20'
 name: Mailchimp
 nav: Providers
@@ -1234,7 +1238,7 @@ plans:
 - name: Mailchimp Plans Pricing
   plan_count: 4
   slug: mailchimp-plans-pricing
-random_paper: 30
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Mailchimp Rate Limits
@@ -1257,20 +1261,20 @@ rules:
     warn: 9
   slug: mailchimp-spectral-rules
 score:
-  band: strong
-  composite: 63.6
-  delta: 0.0
+  band: exemplar
+  composite: 70.8
+  delta: 7.2
   facets:
     commercial_clarity: 84.2
-    contract_quality: 47.2
+    contract_quality: 66.0
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 63.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailchimp/refs/heads/main/screenshots/mailchimp-2026-06-20T184854.png
 security:
 - kind: authentication

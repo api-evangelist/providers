@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,11 +77,11 @@ overview: 'Prax Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Prax Health''s developer surface includes signup flow, getting-started guide, support, and 6 more developer resources.'
-random_paper: 47
+random_paper: 30
 score:
   band: emerging
   composite: 18.7
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -89,14 +89,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.6
+  previous_composite: 18.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

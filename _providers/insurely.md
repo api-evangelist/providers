@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 34.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Create end users, capture consent, run data collections (including PSD2 banking data), and retrieve structured wealth data. Dual auth (backend API key + per-user JWT), date-based versioning, and colle
@@ -145,11 +145,11 @@ overview: 'Insurely publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Insurely''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 24
+random_paper: 7
 score:
   band: thin
   composite: 40.0
-  delta: 1.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 22.6
@@ -157,15 +157,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 38.6
+  previous_composite: 40.0
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/insurely/refs/heads/main/screenshots/insurely-2026-07-25T222626.png
 security:
 - kind: authentication
   name: Insurely Authentication

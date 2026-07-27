@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -192,18 +192,18 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 56.2
-  delta: 0.0
+  composite: 59.4
+  delta: 3.2
   facets:
     commercial_clarity: 84.2
     contract_quality: 53.1
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 56.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-maps/refs/heads/main/screenshots/microsoft-azure-maps-2026-06-20T185424.png
 security:

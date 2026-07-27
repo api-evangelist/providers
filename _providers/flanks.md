@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 35.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: OAuth2-secured wealth-data API covering the Connect flow (connectors, sessions, SCA resolution), Credentials, Entities, Aggregation, and Letters, returning standardized portfolios, investments, accoun
@@ -170,7 +170,7 @@ random_paper: 27
 score:
   band: thin
   composite: 44.2
-  delta: 6.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -178,15 +178,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 38.1
+  previous_composite: 44.2
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/flanks/refs/heads/main/screenshots/flanks-2026-07-25T214706.png
 security:
 - kind: authentication
   name: Flanks Authentication

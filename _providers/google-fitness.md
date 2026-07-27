@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -139,23 +139,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.6
-  delta: 3.4
+  composite: 56.5
+  delta: 3.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.7
+    contract_quality: 69.0
     developer_ergonomics: 21.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 31.6
-  previous_composite: 49.2
+  previous_composite: 52.6
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 71.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-fitness/refs/heads/main/screenshots/google-fitness-2026-06-20T182201.png
 security:

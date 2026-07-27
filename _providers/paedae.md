@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: The Applications API from Paedae — 2 operation(s) for applications.
@@ -125,7 +125,7 @@ overview: 'Paedae publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Paedae''s developer surface includes documentation, API reference, developer portal, signup flow, support, and 10 more developer resources.'
-random_paper: 47
+random_paper: 64
 scopes:
 - name: Paedae Scopes
   scope_count: 0
@@ -144,7 +144,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 39.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

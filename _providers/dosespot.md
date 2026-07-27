@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -121,31 +121,32 @@ plans:
 - name: Dosespot Plans Pricing
   plan_count: 2
   slug: dosespot-plans-pricing
-random_paper: 14
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Dosespot Rate Limits
   slug: dosespot-rate-limits
 score:
   band: thin
-  composite: 32.3
-  delta: -1.0
+  composite: 35.0
+  delta: 2.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 54.9
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 33.3
+  previous_composite: 32.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/screenshots/dosespot-2026-07-25T212312.png
 security:
 - kind: authentication
   name: Dosespot Authentication

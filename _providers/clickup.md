@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -339,7 +339,7 @@ plans:
 - name: Clickup Plans Pricing
   plan_count: 4
   slug: clickup-plans-pricing
-random_paper: 33
+random_paper: 67
 rate_limits:
 - limit_count: 4
   name: Clickup Rate Limits
@@ -363,18 +363,18 @@ rules:
   slug: clickup-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 49.4
+  delta: 2.5
   facets:
     commercial_clarity: 47.4
     contract_quality: 77.9
     developer_ergonomics: 13.0
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 52.6
     operational_transparency: 36.8
   previous_composite: 46.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clickup/refs/heads/main/screenshots/clickup-2026-06-20T174517.png
 security:

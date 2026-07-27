@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: 'Retrieve real-time financial account information with user consent from over 40 Asian banks. Returns key financial data including real-time account balances, transaction and balance history for up to '
@@ -101,7 +101,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.9
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -109,14 +109,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 24.6
+  previous_composite: 22.9
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finverse/refs/heads/main/screenshots/finverse-2026-06-20T181225.png
 security:

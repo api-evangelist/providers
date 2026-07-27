@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Retention API from brightback — 1 operation(s) for retention.
@@ -136,8 +136,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 38.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/brightback/refs/heads/main/screenshots/brightback-2026-07-25T203931.png
 security:
 - kind: authentication
   name: Brightback Authentication

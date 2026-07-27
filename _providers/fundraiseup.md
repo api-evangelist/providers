@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -118,31 +118,32 @@ plans:
 - name: Fundraiseup Plans Pricing
   plan_count: 2
   slug: fundraiseup-plans-pricing
-random_paper: 17
+random_paper: 34
 rate_limits:
 - limit_count: 3
   name: Fundraiseup Rate Limits
   slug: fundraiseup-rate-limits
 score:
   band: thin
-  composite: 34.8
-  delta: -1.5
+  composite: 37.5
+  delta: 2.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.2
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 36.3
+  previous_composite: 34.8
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fundraiseup/refs/heads/main/screenshots/fundraiseup-2026-07-25T215319.png
 security:
 - kind: authentication
   name: Fundraiseup Authentication

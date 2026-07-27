@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -1021,7 +1021,7 @@ plans:
 - name: Amazon Athena Plans Pricing
   plan_count: 1
   slug: amazon-athena-plans-pricing
-random_paper: 41
+random_paper: 24
 rate_limits:
 - limit_count: 2
   name: Amazon Athena Rate Limits
@@ -1044,20 +1044,20 @@ rules:
     warn: 13
   slug: amazon-athena-spectral-rules
 score:
-  band: thin
-  composite: 41.9
-  delta: 0.0
+  band: developing
+  composite: 47.3
+  delta: 5.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 67.3
+    contract_quality: 76.1
     developer_ergonomics: 10.9
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 21.1
   previous_composite: 41.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-athena/refs/heads/main/screenshots/amazon-athena-2026-06-20T171608.png
 security:
 - kind: authentication

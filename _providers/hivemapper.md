@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 37.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Devices, calibration, and query history.
@@ -158,7 +158,7 @@ overview: 'Hivemapper publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Hivemapper''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 17 more developer resources.'
-random_paper: 2
+random_paper: 53
 score:
   band: developing
   composite: 49.9
@@ -172,8 +172,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 49.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hivemapper/refs/heads/main/screenshots/hivemapper-2026-07-25T221306.png
 security:
 - kind: authentication
   name: Hivemapper Authentication

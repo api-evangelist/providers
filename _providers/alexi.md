@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -126,7 +126,7 @@ overview: 'Alexi is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Alexi''s developer surface includes engineering blog, FAQ, product news, and 18 more developer resources.'
-random_paper: 21
+random_paper: 55
 score:
   band: minimal
   composite: 14.3
@@ -140,7 +140,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alexi/refs/heads/main/screenshots/alexi-2026-06-20T171519.png
 security:

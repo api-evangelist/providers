@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 56.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 36
 apis:
 - description: Create and manage approval requests for documents, plans, and tickets
@@ -274,7 +274,7 @@ overview: 'PlanRadar publishes 36 APIs on the [APIs.io](https://apis.io/) networ
 
 
   PlanRadar''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 31
+random_paper: 65
 score:
   band: developing
   composite: 53.8
@@ -288,7 +288,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 53.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

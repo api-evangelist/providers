@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -234,7 +234,7 @@ press:
 - date: '2026-05-25'
   title: United Technologies - Oak Ridge Leadership Computing Facility
   url: https://www.olcf.ornl.gov/tag/united-technologies/
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: United Technologies Rate Limits
@@ -258,19 +258,19 @@ rules:
   slug: united-technologies-spectral-rules
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 59.1
+  delta: 5.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 73.5
+    contract_quality: 82.3
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 53.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-technologies/refs/heads/main/screenshots/united-technologies-2026-06-20T200101.png
 security:
 - kind: authentication

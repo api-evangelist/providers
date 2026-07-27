@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: Information on all classes offered in a selected term, including title, description, notes and final exam details, as well as class sections with meeting times, locations, enrollment details, units an
@@ -131,7 +131,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 23.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucla/refs/heads/main/screenshots/ucla-2026-06-20T195941.png
 security:

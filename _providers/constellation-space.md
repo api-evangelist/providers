@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ overview: 'Constellation Space publishes 3 APIs on the [APIs.io](https://apis.io
 
 
   Constellation Space''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, authentication, and 23 more developer resources.'
-random_paper: 38
+random_paper: 4
 scopes:
 - name: Constellation Space Scopes
   scope_count: 3
@@ -202,8 +202,9 @@ score:
     operational_transparency: 26.3
   previous_composite: 50.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/constellation-space/refs/heads/main/screenshots/constellation-space-2026-07-25T210309.png
 security:
 - kind: authentication
   name: Constellation Space Authentication

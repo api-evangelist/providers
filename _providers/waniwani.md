@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 29.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The WaniWani AI-distribution platform and its hosted MCP server — build MCP funnels with the open-source SDK/CLI, operate environments, API keys, analytics and sessions via the OAuth 2.1 MCP server.
@@ -191,7 +191,7 @@ scopes:
 score:
   band: developing
   composite: 52.3
-  delta: 8.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -199,15 +199,15 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 43.9
+  previous_composite: 52.3
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 100.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Waniwani Authentication

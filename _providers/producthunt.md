@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: A GraphQL API providing access to Product Hunt's platform data including daily product launches, votes, comments, maker profiles, topics, and collections. Supports OAuth 2.0 authentication with public
@@ -106,7 +106,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 43
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 25.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/producthunt/refs/heads/main/screenshots/producthunt-2026-06-20T192141.png
 security:

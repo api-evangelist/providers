@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: The TVM Python API provides a comprehensive interface for model compilation, optimization, and deployment. Key modules include tvm.relay for defining and optimizing computational graphs, tvm.auto_sche
@@ -121,7 +121,7 @@ plans:
 - name: Apache Tvm Plans Pricing
   plan_count: 3
   slug: apache-tvm-plans-pricing
-random_paper: 29
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Apache Tvm Rate Limits
@@ -139,7 +139,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 31.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tvm/refs/heads/main/screenshots/apache-tvm-2026-06-20T172156.png
 security:

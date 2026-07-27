@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: List the studies available to your account and read their configuration - domains, enabled features, reason-for-data-change options, and the reference data a study is built from (sites, roles, groups,
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.7
-  delta: -3.3
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 37.7
@@ -125,14 +125,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 35.0
+  previous_composite: 31.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ plans:
 - name: Discgolfapi Plans Pricing
   plan_count: 2
   slug: discgolfapi-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Discgolfapi Rate Limits
@@ -194,13 +194,13 @@ rules:
   slug: discgolfapi-rules
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 49.5
+  delta: 4.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.8
+    contract_quality: 70.6
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 45.5
@@ -210,7 +210,7 @@ score:
     regime_id: government
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discgolfapi/refs/heads/main/screenshots/discgolfapi-2026-06-20T180032.png
 security:

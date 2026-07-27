@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 67.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -80,7 +80,7 @@ arazzos:
 - description: Score the same instances against a pinned candidate version and the default version to measure rollout drift.
   name: TensorFlow Serving Compare a Candidate Version Against the Default
   slug: tensorflow-version-canary-compare-workflow
-artifact_total: 30
+artifact_total: 31
 collections:
 - collection_type: open
   name: TensorFlow Serving REST API
@@ -256,6 +256,10 @@ jsonld:
   property_count: 15
   slug: tensorflow-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: tensorflow-mcp.yml
+  slug: tensorflow-mcpyml
 modified: '2026-06-20'
 name: TensorFlow
 nav: Providers
@@ -271,7 +275,7 @@ plans:
 - name: Tensorflow Plans Pricing
   plan_count: 1
   slug: tensorflow-plans-pricing
-random_paper: 36
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Tensorflow Rate Limits
@@ -296,18 +300,18 @@ rules:
   slug: tensorflow-serving-rules
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 52.7
+  delta: 2.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.1
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 42.1
   previous_composite: 50.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tensorflow/refs/heads/main/screenshots/tensorflow-2026-06-20T195120.png
 security:

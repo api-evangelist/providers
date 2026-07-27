@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -111,7 +111,7 @@ plans:
 - name: Iec Cim Plans Pricing
   plan_count: 3
   slug: iec-cim-plans-pricing
-random_paper: 0
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Iec Cim Rate Limits
@@ -132,18 +132,18 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 48.2
+  delta: 2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 68.5
     developer_ergonomics: 10.9
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

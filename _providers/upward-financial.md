@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 17
 apis:
 - description: The accounts API from Upward Financial — 2 operation(s) for accounts.
@@ -222,7 +222,7 @@ scopes:
 score:
   band: developing
   composite: 51.4
-  delta: 4.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 58.9
@@ -230,14 +230,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 47.0
+  previous_composite: 51.4
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

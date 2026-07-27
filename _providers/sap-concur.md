@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -714,7 +714,7 @@ plans:
 - name: Sap Concur Plans Pricing
   plan_count: 1
   slug: sap-concur-plans-pricing
-random_paper: 50
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Sap Concur Rate Limits
@@ -738,18 +738,18 @@ rules:
   slug: sap-concur-spectral-rules
 score:
   band: developing
-  composite: 55.4
-  delta: 0.0
+  composite: 59.2
+  delta: 3.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.8
+    contract_quality: 76.1
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 55.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-concur/refs/heads/main/screenshots/sap-concur-2026-06-20T193423.png
 security:

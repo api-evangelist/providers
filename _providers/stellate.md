@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Stellate public GraphQL API at graph.stellate.co enables programmatic access to organizational and service-level data. It supports querying organizations and their associated services, with authen
@@ -111,7 +111,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 15.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stellate/refs/heads/main/screenshots/stellate-2026-06-20T194539.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ plans:
 - name: Stonex Plans Pricing
   plan_count: 1
   slug: stonex-plans-pricing
-random_paper: 10
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Stonex Rate Limits
@@ -177,23 +177,23 @@ rules:
   slug: stonex-rules
 score:
   band: developing
-  composite: 47.3
-  delta: 0.5
+  composite: 49.0
+  delta: 1.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 65.5
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 26.3
-  previous_composite: 46.8
+  previous_composite: 47.3
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stonex/refs/heads/main/screenshots/stonex-2026-06-20T194558.png
 security:

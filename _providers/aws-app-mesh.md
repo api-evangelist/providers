@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -3244,7 +3244,7 @@ plans:
 - name: Aws App Mesh Plans Pricing
   plan_count: 3
   slug: aws-app-mesh-plans-pricing
-random_paper: 49
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Aws App Mesh Rate Limits
@@ -3279,7 +3279,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 68.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-app-mesh/refs/heads/main/screenshots/aws-app-mesh-2026-06-20T172740.png
 security:

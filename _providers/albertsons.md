@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -244,7 +244,7 @@ plans:
 - name: Albertsons Plans Pricing
   plan_count: 1
   slug: albertsons-plans-pricing
-random_paper: 14
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Albertsons Rate Limits
@@ -268,19 +268,19 @@ rules:
   slug: albertsons-spectral-rules
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 57.7
+  delta: 5.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 73.5
+    contract_quality: 82.3
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 21.1
   previous_composite: 52.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 security:
 - kind: authentication
   name: Albertsons Authentication

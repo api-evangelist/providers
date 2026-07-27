@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ plans:
 - name: Pg And E Plans Pricing
   plan_count: 1
   slug: pg-and-e-plans-pricing
-random_paper: 50
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Pg And E Rate Limits
@@ -114,19 +114,19 @@ scopes:
   slug: pg-and-e-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: emerging
-  composite: 29.5
-  delta: 0.0
+  band: thin
+  composite: 32.0
+  delta: 2.5
   facets:
     commercial_clarity: 28.9
     contract_quality: 50.4
     developer_ergonomics: 10.9
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 29.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pg-and-e/refs/heads/main/screenshots/pg-and-e-2026-06-20T191630.png
 security:

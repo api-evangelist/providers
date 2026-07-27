@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 119
@@ -187,7 +187,7 @@ random_paper: 12
 score:
   band: developing
   composite: 50.6
-  delta: 2.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 56.9
@@ -195,14 +195,14 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 48.0
+  previous_composite: 50.6
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/screenshots/dxfeed-2026-07-22T202337.png
 security:

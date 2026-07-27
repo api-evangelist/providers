@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -230,25 +230,25 @@ plans:
 - name: Usercentrics Plans Pricing
   plan_count: 19
   slug: usercentrics-plans-pricing
-random_paper: 31
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Usercentrics Rate Limits
   slug: usercentrics-rate-limits
 score:
-  band: thin
-  composite: 43.1
-  delta: 0.0
+  band: developing
+  composite: 45.1
+  delta: 2.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 50.4
     developer_ergonomics: 23.9
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 43.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usercentrics/refs/heads/main/screenshots/usercentrics-2026-06-20T200655.png
 security:

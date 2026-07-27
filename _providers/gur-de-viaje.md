@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -46,7 +46,7 @@ name: Gurú de Viaje
 nav: Providers
 network: true
 overview: Gurú de Viaje is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Flights, Travel Deals, and Airfare.
-random_paper: 30
+random_paper: 64
 score:
   band: minimal
   composite: 6.8
@@ -60,8 +60,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gur-de-viaje/refs/heads/main/screenshots/gur-de-viaje-2026-07-25T220437.png
 security:
 - kind: domain-security
   name: Gur De Viaje Domain Security

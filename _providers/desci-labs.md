@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 57.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ overview: 'DeSci Labs publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   DeSci Labs'' developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, engineering blog, support, and 16 more developer resources.'
-random_paper: 14
+random_paper: 31
 score:
   band: developing
   composite: 47.6
@@ -169,8 +169,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 47.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/desci-labs/refs/heads/main/screenshots/desci-labs-2026-07-25T211750.png
 security:
 - kind: authentication
   name: Desci Labs Authentication

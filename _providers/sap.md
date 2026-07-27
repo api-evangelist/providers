@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 70.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -130,7 +130,7 @@ apis:
 - description: Business partner tax identification numbers
   name: SAP Tax Numbers API
   slug: sap-tax-numbers-api
-artifact_total: 144
+artifact_total: 145
 asyncapis:
 - description: Event-driven messaging API for SAP Business Technology Platform supporting AMQP, MQTT, and REST protocols. Enables publish/subscribe patterns for business events across SAP and third-party application
   name: SAP Event Mesh Events
@@ -557,6 +557,10 @@ jsonld:
   property_count: 0
   slug: sap-s4hana-cloud-business-partner-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: SAP
 nav: Providers
@@ -572,7 +576,7 @@ plans:
 - name: Sap Plans Pricing
   plan_count: 1
   slug: sap-plans-pricing
-random_paper: 18
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Sap Rate Limits
@@ -609,18 +613,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: strong
-  composite: 60.9
-  delta: 0.0
+  composite: 61.7
+  delta: 0.8
   facets:
     commercial_clarity: 63.2
     contract_quality: 74.1
     developer_ergonomics: 52.2
-    discoverability: 55.0
+    discoverability: 62.5
     governance: 52.6
     operational_transparency: 57.9
   previous_composite: 60.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap/refs/heads/main/screenshots/sap-2026-06-20T193411.png
 security:

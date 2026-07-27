@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -121,24 +121,25 @@ rate_limits:
   slug: airdna-rate-limits
 score:
   band: thin
-  composite: 31.5
-  delta: -1.0
+  composite: 34.3
+  delta: 2.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 53.1
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 32.5
+  previous_composite: 31.5
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/airdna/refs/heads/main/screenshots/airdna-2026-07-25T195414.png
 security:
 - kind: authentication
   name: Airdna Authentication

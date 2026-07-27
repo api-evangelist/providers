@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -90,25 +90,25 @@ plans:
 - name: Minerstat Plans Pricing
   plan_count: 3
   slug: minerstat-plans-pricing
-random_paper: 14
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Minerstat Rate Limits
   slug: minerstat-rate-limits
 score:
   band: thin
-  composite: 34.6
-  delta: 0.0
+  composite: 37.9
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.4
     developer_ergonomics: 13.0
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 34.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minerstat/refs/heads/main/screenshots/minerstat-2026-06-20T185609.png
 security:

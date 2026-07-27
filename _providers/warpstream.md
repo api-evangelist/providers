@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ plans:
 - name: Warpstream Plans Pricing
   plan_count: 6
   slug: warpstream-plans-pricing
-random_paper: 23
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Warpstream Rate Limits
@@ -207,7 +207,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 56.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/warpstream/refs/heads/main/screenshots/warpstream-2026-06-20T201333.png
 security:

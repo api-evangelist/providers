@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ plans:
 - name: Smallest Ai Plans Pricing
   plan_count: 4
   slug: smallest-ai-plans-pricing
-random_paper: 45
+random_paper: 28
 rate_limits:
 - limit_count: 3
   name: Smallest Ai Rate Limits
@@ -146,18 +146,18 @@ rules:
   slug: smallest-ai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 52.6
+  delta: 3.2
   facets:
     commercial_clarity: 47.4
     contract_quality: 72.6
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 36.8
   previous_composite: 49.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

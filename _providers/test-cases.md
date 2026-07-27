@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -223,18 +223,18 @@ rules:
   slug: test-cases-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.3
-  delta: 0.0
+  composite: 52.5
+  delta: 3.2
   facets:
     commercial_clarity: 47.4
     contract_quality: 58.4
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 49.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-cases/refs/heads/main/screenshots/test-cases-2026-06-20T195140.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ press:
 - date: '2026-05-25'
   title: UNFI and Symbotic Announce Agreement to Implement ...
   url: https://ir.unfi.com/news/press-release-details/2022/UNFI-and-Symbotic-Announce-Agreement-to-Implement-Industry-Leading-Warehouse-Automation-Systems/default.aspx
-random_paper: 48
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: United Natural Foods Rate Limits
@@ -207,18 +207,18 @@ rules:
   slug: united-natural-foods-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.0
-  delta: 0.0
+  composite: 43.2
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 67.3
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 47.4
     operational_transparency: 21.1
   previous_composite: 40.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

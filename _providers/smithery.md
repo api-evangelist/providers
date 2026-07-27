@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 60
   human_in_the_loop: 12
@@ -64,7 +64,7 @@ apis:
 - description: The tokens API from Smithery — 1 operation(s) for tokens.
   name: Smithery tokens API
   slug: smithery-tokens-api
-artifact_total: 30
+artifact_total: 32
 collections:
 - collection_type: open
   name: Smithery Platform API
@@ -235,6 +235,13 @@ jsonld:
   property_count: 0
   slug: smithery-context
 layout: provider
+mcp_servers:
+- description: Hosted MCP gateway endpoint that bundles all connections in a namespace behind a single URL
+  name: Smithery MCP Server (mcp.smithery.run)
+  slug: smithery-mcp-server-mcpsmitheryrun
+- description: 'Smithery-built tool: Rust MCP server for macOS desktop control'
+  name: mouseless
+  slug: mouseless
 modified: '2026-05-22'
 name: Smithery
 nav: Providers
@@ -250,7 +257,7 @@ plans:
 - name: Smithery Plans Pricing
   plan_count: 3
   slug: smithery-plans-pricing
-random_paper: 18
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Smithery Rate Limits
@@ -273,20 +280,20 @@ rules:
     warn: 6
   slug: smithery-rules
 score:
-  band: developing
-  composite: 54.6
-  delta: 0.0
+  band: strong
+  composite: 60.1
+  delta: 5.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 65.3
+    contract_quality: 74.1
     developer_ergonomics: 50.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 54.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 security:
 - kind: authentication
   name: Smithery Authentication

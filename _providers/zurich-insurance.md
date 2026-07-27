@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 12
 apis:
 - description: Returns customer profile information for Zurich policyholders through the ConnectZ open insurance framework. Used by partners and aggregators that need normalized customer attributes to support cross-
@@ -132,7 +132,7 @@ random_paper: 42
 score:
   band: minimal
   composite: 12.3
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -140,14 +140,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.2
+  previous_composite: 12.3
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zurich-insurance/refs/heads/main/screenshots/zurich-insurance-2026-06-20T202007.png
 security:

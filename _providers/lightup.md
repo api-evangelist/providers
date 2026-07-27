@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 57.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -215,7 +215,7 @@ overview: 'Lightup publishes 12 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Lightup''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 0
+random_paper: 17
 score:
   band: developing
   composite: 52.7
@@ -229,8 +229,9 @@ score:
     operational_transparency: 31.6
   previous_composite: 52.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lightup/refs/heads/main/screenshots/lightup-2026-07-25T225143.png
 security:
 - kind: authentication
   name: Lightup Authentication

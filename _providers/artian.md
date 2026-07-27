@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,7 +93,7 @@ random_paper: 27
 score:
   band: emerging
   composite: 21.1
-  delta: 5.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -101,15 +101,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 15.6
+  previous_composite: 21.1
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 52.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/artian/refs/heads/main/screenshots/artian-2026-07-25T201333.png
 security:
 - kind: domain-security
   name: Artian Domain Security

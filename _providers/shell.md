@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -294,7 +294,7 @@ plans:
 - name: Shell Plans Pricing
   plan_count: 1
   slug: shell-plans-pricing
-random_paper: 26
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Shell Rate Limits
@@ -322,19 +322,19 @@ scopes:
   slug: shell-scopes
   summary_line: 9 scopes · clientCredentials
 score:
-  band: developing
-  composite: 56.5
-  delta: 0.0
+  band: strong
+  composite: 60.8
+  delta: 4.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 66.0
+    contract_quality: 74.9
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 42.1
   previous_composite: 56.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shell/refs/heads/main/screenshots/shell-2026-06-20T193753.png
 security:

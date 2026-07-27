@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: E-commerce integration API for the Tempur-Pedic brand enabling retailers, affiliates, and platform partners to access product catalogs, check inventory, manage orders, and track shipments for Tempur-P
@@ -164,7 +164,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 37.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/screenshots/tempur-sealy-international-2026-06-20T195104.png
 security:

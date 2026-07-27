@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 90.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ arazzos:
 - description: Resolve a ticker's details, pull recent news, and read its previous close.
   name: Polygon Ticker News Context
   slug: polygon-ticker-news-context-workflow
-artifact_total: 78
+artifact_total: 79
 asyncapis:
 - description: 'Polygon real-time market data WebSocket clusters. Each asset class (stocks, options, indices, forex, crypto) has its own dedicated cluster at `wss://socket.polygon.io/{cluster}`. Clients authenticate '
   name: Polygon WebSocket Streaming API
@@ -460,6 +460,10 @@ jsonld:
   property_count: 40
   slug: polygon-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: Massive MCP server — remote https://mcp.massive.com (OAuth) + open-source mcp_massive (stdio)
+  slug: massive-mcp-server-remote-httpsmcpmassivecom-oauth-open-source-mcp-massive-stdio
 modified: '2026-07-22'
 name: Polygon
 nav: Providers
@@ -475,7 +479,7 @@ plans:
 - name: Polygon Plans Pricing
   plan_count: 12
   slug: polygon-plans-pricing
-random_paper: 11
+random_paper: 28
 rate_limits:
 - limit_count: 6
   name: Polygon Rate Limits
@@ -512,23 +516,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 75.3
-  delta: 0.1
+  composite: 79.7
+  delta: 4.4
   facets:
     commercial_clarity: 84.2
-    contract_quality: 69.5
+    contract_quality: 77.1
     developer_ergonomics: 87.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 65.8
     operational_transparency: 68.4
-  previous_composite: 75.2
+  previous_composite: 75.3
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/screenshots/polygon-2026-06-20T191902.png
 security:

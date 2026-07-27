@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -127,30 +127,30 @@ plans:
 - name: Tickettailor Plans Pricing
   plan_count: 3
   slug: tickettailor-plans-pricing
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Tickettailor Rate Limits
   slug: tickettailor-rate-limits
 score:
   band: thin
-  composite: 36.8
-  delta: 0.4
+  composite: 39.6
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 54.9
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 36.4
+  previous_composite: 36.8
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 39.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

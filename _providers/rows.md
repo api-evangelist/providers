@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ overview: 'Rows publishes 5 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Rows'' developer surface includes documentation, API reference, engineering blog, pricing, changelog, authentication, and 20 more developer resources.'
-random_paper: 0
+random_paper: 51
 score:
   band: developing
   composite: 48.2
@@ -183,7 +183,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 48.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

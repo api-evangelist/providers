@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 4.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Python interfaces for the core T-code components that drive a Trilobot fleet — Commands, Labware, Locations, Scripts — plus the T-code Servicer client for runtime control and the Integrator client for
@@ -98,11 +98,11 @@ overview: 'Trilobio publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Trilobio''s developer surface includes documentation, getting-started guide, API reference, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 1
+random_paper: 52
 score:
   band: emerging
   composite: 26.2
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -110,14 +110,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 25.5
+  previous_composite: 26.2
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

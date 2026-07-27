@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 7
 common:
@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: 'Rcs: capital increase from 27 June to 5 July - FIRSTonline'
   url: https://www.firstonline.info/en/rcs-capital-increase-from-27-June-to-5-July/
-random_paper: 36
+random_paper: 19
 rules:
 - name: RCS Capital API Rules
   rule_count: 5
@@ -147,7 +147,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 22.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rcs-capital/refs/heads/main/screenshots/rcs-capital-2026-06-20T192624.png
 security:

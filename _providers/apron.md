@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,11 +93,11 @@ overview: 'Apron is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Apron''s developer surface includes pricing, signup flow, support, engineering blog, and 9 more developer resources.'
-random_paper: 34
+random_paper: 0
 score:
   band: emerging
   composite: 23.5
-  delta: 3.2
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -105,15 +105,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.3
+  previous_composite: 23.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/apron/refs/heads/main/screenshots/apron-2026-07-25T200909.png
 security:
 - kind: domain-security
   name: Apron Domain Security

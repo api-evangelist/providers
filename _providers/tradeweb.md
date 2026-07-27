@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Electronic trading API for executing trades across fixed income, derivatives, and ETF markets. Supports RFQ (Request for Quote), click-to-trade, and automated execution via AiEX (Automated Intelligent
@@ -187,7 +187,7 @@ rules:
 score:
   band: thin
   composite: 44.6
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 15.1
@@ -195,14 +195,14 @@ score:
     discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
-  previous_composite: 45.2
+  previous_composite: 44.6
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

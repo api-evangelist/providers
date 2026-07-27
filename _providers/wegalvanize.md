@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: medium
-  generated: '2026-07-22'
   label: Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: unknown
   public: false
@@ -11,17 +9,381 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 54.8
+  scored_at: '2026-07-27'
 api_count: 69
-artifact_total: 0
+apis:
+- description: An action is a specific follow-up measure that is associated with an identified issue. You can add actions and assign action owners. You can also set up reminders for yourself to retest issues or trac
+  name: Wegalvanize Actions API
+  slug: wegalvanize-actions-api
+- description: The Activities API from Wegalvanize — 2 operation(s) for activities.
+  name: Wegalvanize Activities API
+  slug: wegalvanize-activities-api
+- description: An analysis is a second-level container. Analyses live in collections, and they are used to organize tables. Once you have created a collection, you can add one or more analyses to that collection. Yo
+  name: Wegalvanize Analyses API
+  slug: wegalvanize-analyses-api
+- description: Attachments are supporting files linked to Controls and Control Tests.
+  name: Wegalvanize Attachments API
+  slug: wegalvanize-attachments-api
+- description: 'A collaborator is a representation of user roles, which are associated with projects and frameworks, that you can manipulate. Collaborators are accessible both in project and framework resources. The '
+  name: Wegalvanize Collaborators API
+  slug: wegalvanize-collaborators-api
+- description: A collection is a container used to organize analyses that relate to different departments, business processes, or data sets. Collections are the highest level of organization in the Results app. Your
+  name: Wegalvanize Collections API
+  slug: wegalvanize-collections-api
+- description: You can use Compliance Maps to associate industry standards and regulations with your control frameworks. <a href="https://help.highbond.com/helpdocs/highbond/en-us/Default.htm#cshid=pm-compliance-map
+  name: Wegalvanize Compliance Maps API
+  slug: wegalvanize-compliance-maps-api
+- description: A control performance schedule is a schedule of control tests that are performed on a recurring basis. Control performance schedules are associated with controls. > **Note:** Control performance sched
+  name: Wegalvanize Control performance schedules API
+  slug: wegalvanize-control-performance-schedules-api
+- description: A test plan is a document that details how controls are assessed. Test plans identify the testing method or type of evidence obtained, specify the total sample size (split amongst testing rounds), and
+  name: Wegalvanize Control test plans API
+  slug: wegalvanize-control-test-plans-api
+- description: Control tests evaluate the operating effectiveness of a control. * If your project includes one testing round, each control you create has one corresponding control test. * If your project includes mu
+  name: Wegalvanize Control tests API
+  slug: wegalvanize-control-tests-api
+- description: A control is a program, policy, routine, or activity that is intended to mitigate a risk. Controls are organized by objectives, and can be associated with one or more risks. The combination of identif
+  name: Wegalvanize Controls API
+  slug: wegalvanize-controls-api
+- description: 'Custom attributes are the customizable fields that are associated with supported objects. Custom attributes are defined on the project type and used by the project and its children (i.e. objectives). '
+  name: Wegalvanize Custom attributes API
+  slug: wegalvanize-custom-attributes-api
+- description: 'Entities may be business units, departments, locations, or key initiatives that are within the scope of the organization. Entities have a hierarchical structure composed of parent and child entities. '
+  name: Wegalvanize Entities API
+  slug: wegalvanize-entities-api
+- description: A event report table stores responses to a questionnaire that are distributed through an anonymous link. Each event report table can hold a maximum of 100,000 rows, 500 columns, and 256 characters per
+  name: Wegalvanize Event Reports API
+  slug: wegalvanize-event-reports-api
+- description: An Event links a status to handlers. When an event is fired, the associated handlers will be triggered.
+  name: Wegalvanize Events API
+  slug: wegalvanize-events-api
+- description: Service to extract the resources from an organization based on resource ids.
+  name: Wegalvanize Extract API
+  slug: wegalvanize-extract-api
+- description: The Flow Key API from Wegalvanize — 1 operation(s) for flow key.
+  name: Wegalvanize Flow Key API
+  slug: wegalvanize-flow-key-api
+- description: A framework is a management system that allows you to define objectives, risks, and controls, perform tests, and compile information for reporting purposes. Frameworks may also be known as audits, com
+  name: Wegalvanize Frameworks API
+  slug: wegalvanize-frameworks-api
+- description: Groups are a security feature in Launchpad that allow you to assign the same level of access to multiple users simultaneously. <a href="https://help.highbond.com/helpdocs/highbond/en-us/Default.htm#cs
+  name: Wegalvanize Groups API
+  slug: wegalvanize-groups-api
+- description: Handlers contain a set of conditions and actions that occur upon certain situation, e.g. an event fired, on scheduled time, a message received, etc.
+  name: Wegalvanize Handlers API
+  slug: wegalvanize-handlers-api
+- description: Importer for HighBond, responsible for importing HighBond resources. You can bulk import HighBond resources if you want to avoid time-consuming manual data entry associated with individually adding re
+  name: Wegalvanize Importer API
+  slug: wegalvanize-importer-api
+- description: An interpretation is a bundled collection of filters, visualizations, and statistics based on a table in a collection. Use them to interpret and visualize results to gain a deeper understanding of the
+  name: Wegalvanize Interpretations API
+  slug: wegalvanize-interpretations-api
+- description: An issue is a problem, control gap, or exception that has been identified within a project. Adding an issue involves recording basic information about the issue and assigning the issue to an owner. Is
+  name: Wegalvanize Issues API
+  slug: wegalvanize-issues-api
+- description: A metric is a calculation that you label as a specific type of key indicator. Key indicators are quantitative measurements of success (KPI, KCI) or risk (KRI) that are associated with a company's obje
+  name: Wegalvanize Metrics API
+  slug: wegalvanize-metrics-api
+- description: '> **Note —** Only controls in projects that have an `"active"` state can be accessed using the API.'
+  name: Wegalvanize Mitigations API
+  slug: wegalvanize-mitigations-api
+- description: 'A narrative is a description of a business process or area under review. Narratives are also known as policies, IT policies, process narratives, process descriptions, or control guides. > **Note:** > '
+  name: Wegalvanize Narratives API
+  slug: wegalvanize-narratives-api
+- description: Use non-project time categories to divide non-project time entries by categories. <a href="https://help.highbond.com/helpdocs/highbond/en-us/Default.htm#cshid=pm-managing-timesheets" target="_blank">L
+  name: Wegalvanize Non-project time categories API
+  slug: wegalvanize-non-project-time-categories-api
+- description: 'Objectives are the basis of a project or framework. They are also the organizing containers for the work done in a project or framework. Each objective states the subject matter under examination and '
+  name: Wegalvanize Objectives API
+  slug: wegalvanize-objectives-api
+- description: A planning file (also known as a reference file) is a supporting document that relates to a project or framework. Planning files typically contain information associated with the planning phase of a p
+  name: Wegalvanize Planning files API
+  slug: wegalvanize-planning-files-api
+- description: Project types define the structure of a project or framework, including the terminology used in the project or framework. Updates to project types apply to all active projects, archived projects, temp
+  name: Wegalvanize Project types API
+  slug: wegalvanize-project-types-api
+- description: A project is a management system that allows you to define objectives, risks, and controls, perform tests, and compile information for reporting purposes. Projects may also be known as audits, complia
+  name: Wegalvanize Projects API
+  slug: wegalvanize-projects-api
+- description: Questionnaires are used to gather information from respondents and contextualize data. Each Collection can have one or more questionnaires that you deploy as surveys, event reports, or as follow-up me
+  name: Wegalvanize Questionnaires API
+  slug: wegalvanize-questionnaires-api
+- description: The Record columns API from Wegalvanize — 1 operation(s) for record columns.
+  name: Wegalvanize Record columns API
+  slug: wegalvanize-record-columns-api
+- description: A dictionary of table record statuses
+  name: Wegalvanize Record statuses API
+  slug: wegalvanize-record-statuses-api
+- description: Records are rows in a table. Each record can have multiple attributes with values.
+  name: Wegalvanize Records API
+  slug: wegalvanize-records-api
+- description: Request statuses provide visibility into the progress of request resolutions. The number of available statuses, and the terms used for each status, can be customized by the organization. <a href="http
+  name: Wegalvanize Request item statuses API
+  slug: wegalvanize-request-item-statuses-api
+- description: A request item is used by Auditors to request documentation from business owners and other stakeholders to gather further information. <a href="https://help.highbond.com/helpdocs/highbond/en-us/Defaul
+  name: Wegalvanize Request Items API
+  slug: wegalvanize-request-items-api
+- description: A results file is a supporting document or concluding memo that relates to a project. Results files typically contain information associated with the reporting phase of a project. > **Note —** Only re
+  name: Wegalvanize Results files API
+  slug: wegalvanize-results-files-api
+- description: Results triggers are automation definitions created by users in the Results app.
+  name: Wegalvanize Results Triggers API
+  slug: wegalvanize-results-triggers-api
+- description: Results users are users who have access to the Results app.
+  name: Wegalvanize Results Users API
+  slug: wegalvanize-results-users-api
+- description: 'A risk is an effect of uncertainty on an objective, with the effect having a positive or negative deviation from what is expected. Risks are organized by objectives, and can be associated with one or '
+  name: Wegalvanize Risks API
+  slug: wegalvanize-risks-api
+- description: 'The Robots app provides two environments for managing and running analytic scripts that you author in Analytics: **development mode** and **production**. In development mode, you can test newly commit'
+  name: Wegalvanize Robot Activations API
+  slug: wegalvanize-robot-activations-api
+- description: An analytic script is a regular script with an analytic header. You can upload analytic scripts to a robot. The analytic header is a series of declarative tags that allow the script to run in the Robo
+  name: Wegalvanize Robot Apps API
+  slug: wegalvanize-robot-apps-api
+- description: Robot collaborators are users who have access to that particular robot.
+  name: Wegalvanize Robot Collaborators API
+  slug: wegalvanize-robot-collaborators-api
+- description: Related files in an ACL robot are non-Analytics files such as Excel or delimited that can be used as input for scripts in the robot. <a href="https://help.highbond.com/helpdocs/robotics/en-us/Default.
+  name: Wegalvanize Robot Files API
+  slug: wegalvanize-robot-files-api
+- description: Robot task runs, also known as robot jobs, are individual executions of a robot task. For example, for any given robot task, you can schedule a task run once every 24 hours, or you can initiate a task
+  name: Wegalvanize Robot Jobs API
+  slug: wegalvanize-robot-jobs-api
+- description: A version of a robot that includes the hcl script in json. You can upload new version of your hcl script to your highbond robot or workflow robot. Flow json includes python script, variables and syste
+  name: Wegalvanize Robot Script Versions API
+  slug: wegalvanize-robot-script-versions-api
+- description: When you create a task, a robot runs the task according to the settings that you configure. A task can be scheduled or run ad hoc (manually). Each task has its own unique settings. <a href="https://he
+  name: Wegalvanize Robot Tasks API
+  slug: wegalvanize-robot-tasks-api
+- description: Users of the Robots module including some Robots-specific fields. Only Robots Admins can access this endpoint.
+  name: Wegalvanize Robot Users API
+  slug: wegalvanize-robot-users-api
+- description: Working files in a HighBond robot or a Workflow robot are files such as Excel or CSV that can be used as input for scripts in the robot.
+  name: Wegalvanize Robot Working Files API
+  slug: wegalvanize-robot-working-files-api
+- description: A Robots Agent is the on-premise or cloud-based Robots component that uses the Analytics script engine to run scripts against data. <a href="https://help.highbond.com/helpdocs/robotics/en-us/Default.h
+  name: Wegalvanize Robots Agents API
+  slug: wegalvanize-robots-agents-api
+- description: 'A robot is a tool that lets you automate repetitive tasks using scripts built in Analytics. Once you create the scripts, you upload them to a robot in the Robots app and configure the task automation '
+  name: Wegalvanize Robots API
+  slug: wegalvanize-robots-api
+- description: Folders to organize Robots.
+  name: Wegalvanize Robots Folders API
+  slug: wegalvanize-robots-folders-api
+- description: Folder's collaborators are users who have access to all the robots in that folder.
+  name: Wegalvanize Robots Folders Collaborators API
+  slug: wegalvanize-robots-folders-collaborators-api
+- description: Get the hours a user is currently scheduled for. <a href="https://help.highbond.com/helpdocs/highbond/en-us/Default.htm#cshid=pm-schedule-resources" target="_blank">Learn more</a>.
+  name: Wegalvanize Scheduled Hours API
+  slug: wegalvanize-scheduled-hours-api
+- description: Get the list of projects a user is scheduled for, and the projects' start and end dates. <a href="https://help.highbond.com/helpdocs/highbond/en-us/Default.htm#cshid=pm-schedule-resources" target="_bl
+  name: Wegalvanize Scheduled Projects API
+  slug: wegalvanize-scheduled-projects-api
+- description: Get a list of all of the users currently scheduled for a project. <a href="https://help.highbond.com/helpdocs/highbond/en-us/Default.htm#cshid=pm-schedule-resources" target="_blank">Learn more</a>.
+  name: Wegalvanize Scheduled Users API
+  slug: wegalvanize-scheduled-users-api
+- description: Sign-off on work you have prepared or reviewed, and assign another person as the next reviewer <a href="https://help.highbond.com/helpdocs/highbond/en-us/Content/projects/fieldwork/reviews/reviewing_w
+  name: Wegalvanize Sign-offs API
+  slug: wegalvanize-sign-offs-api
+- description: A storyboard is a communication platform that displays multiple visualizations and rich text content in rows and columns. You can use this API to create, configure, update, and delete storyboards. How
+  name: Wegalvanize Storyboards API
+  slug: wegalvanize-storyboards-api
+- description: You can use the Strategy app to identify, assess, and monitor strategic risks. <a href="https://help.highbond.com/helpdocs/highbond/en-us/Content/strategy/landing_pages/user_guide.htm" target="_blank"
+  name: Wegalvanize Strategy API
+  slug: wegalvanize-strategy-api
+- description: The Surveys API from Wegalvanize — 2 operation(s) for surveys.
+  name: Wegalvanize Surveys API
+  slug: wegalvanize-surveys-api
+- description: A group of columns defines a table's schema. A column's `field_name` must be unique within a table, follow the <a href="https://help.highbond.com/helpdocs/highbond/en-us/Default.htm#cshid=rm-import-ex
+  name: Wegalvanize Table columns API
+  slug: wegalvanize-table-columns-api
+- description: 'Tables store records of data in rows and columns. They are a third level of organization in Results. Each table lives in an analysis, which lives in a collection. Your organization can have a maximum '
+  name: Wegalvanize Tables API
+  slug: wegalvanize-tables-api
+- description: Use time entries to record time spent on projects, or on other tasks, for reporting purposes. <a href="https://help.highbond.com/helpdocs/highbond/en-us/Default.htm#cshid=pm-managing-timesheets" targe
+  name: Wegalvanize Time entries API
+  slug: wegalvanize-time-entries-api
+- description: To-dos are a collaboration tool between teammates and reviewers. <a href="https://help.highbond.com/helpdocs/highbond/en-us/Content/projects/fieldwork/reviews/assigning_to-dos.html" target="_blank">Le
+  name: Wegalvanize To-dos API
+  slug: wegalvanize-to-dos-api
+- description: A user represents a member of HighBond. Users can belong to multiple instances. <a href="https://help.highbond.com/helpdocs/highbond/en-us/Default.htm#cshid=lp-adding-users" target="_blank">Learn more
+  name: Wegalvanize Users API
+  slug: wegalvanize-users-api
+- description: 'A walkthrough is a series of steps you perform to establish the reliability of controls and test the design of controls. Each control you define has a corresponding walkthrough that is used to verify '
+  name: Wegalvanize Walkthroughs API
+  slug: wegalvanize-walkthroughs-api
+- description: Workflow groups are a permissions feature that allow you to define users as members of a specific group. A single user can belong to multiple workflow groups. <a href="https://help.highbond.com/helpdo
+  name: Wegalvanize Workflow Groups API
+  slug: wegalvanize-workflow-groups-api
+- description: Workflows contain a set of statuses that a certain item belonging to that workflow can be in. Any items in this workflow can move between certain statuses and the transition can trigger certain events
+  name: Wegalvanize Workflows in Asset Inventory/Asset Manager API
+  slug: wegalvanize-workflows-in-asset-inventory-asset-manager-api
+artifact_total: 74
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/wegalvanize-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://wegalvanize.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs-apis.highbond.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://help.highbond.com/helpdocs/highbond/en-us/Default.htm
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs-apis.highbond.com/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://help.highbond.com/helpdocs/highbond/en-us/Default.htm#cshid=lp-access-tokens
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/wegalvanize-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/wegalvanize-scopes.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/wegalvanize-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/wegalvanize-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/wegalvanize-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://trust.diligent.com/
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/wegalvanize-trust-center.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/wegalvanize-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.diligent.com
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/wegalvanize-data-model.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/wegalvanize-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/wegalvanize-well-known.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/diligentcorp
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.highbond.com/helpdocs/highbond/en-us/Default.htm
+- group: start
+  title: ''
+  type: Login
+  url: https://www.highbond.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.diligent.com/legal/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.diligent.com/privacy
 created: '2026-07-17'
 description: Wegalvanize.com is the former web home of Galvanize, the governance, risk, and compliance (GRC) software company behind the HighBond platform; Galvanize was acquired by Diligent and wegalvanize.com now redirects to diligent.com. The HighBond platform (audit, risk, controls, compliance, data analytics, and Robots automation) exposes a substantial public REST API built on the JSON:API v1.0 specification, documented at docs-apis.highbond.com and authenticated with OAuth 2.0 bearer tokens issued through Launchpad. This profile was seeded as a Norwest Venture Partners portfolio lead and has been enriched from the live HighBond OpenAPI (390 operations across 67 resource groups) and the provider's public identity/security surface.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wegalvanize.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: wegalvanize-mcp.yml
+  slug: wegalvanize-mcpyml
 modified: '2026-07-21'
 name: Wegalvanize
 nav: Providers
 network: true
-random_paper: 8
+overview: 'Wegalvanize publishes 69 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Activities API, Analyses API, and 66 more. Tagged areas include Company, Governance, Risk, Compliance, and Audit.
+
+
+  Wegalvanize''s developer surface includes documentation, API reference, getting-started guide, authentication, support, and 19 more developer resources.'
+random_paper: 25
+scopes:
+- name: Wegalvanize Scopes
+  scope_count: 7
+  slug: wegalvanize-scopes
+  summary_line: 7 scopes · authorizationCode/clientCredentials/implicit/refreshToken/tokenExchange
+score:
+  band: developing
+  composite: 49.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 56.2
+    developer_ergonomics: 65.2
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 49.1
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+security:
+- kind: authentication
+  name: Wegalvanize Authentication
+  slug: wegalvanize-authentication
+  summary_line: http/oauth2/openIdConnect · 1 scheme
+- kind: domain-security
+  name: Wegalvanize Domain Security
+  slug: wegalvanize-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
+- kind: trust-center
+  name: Wegalvanize Trust Center
+  slug: wegalvanize-trust-center
+  summary_line: SOC 1, SOC 2, ISO 27001, ISO 27017, ISO 27018, HIPAA, FedRAMP, GDPR
 slug: wegalvanize
 tags:
 - Company
@@ -33,4 +395,5 @@ tags:
 - Analytics
 - Automation
 - Security
+website: https://wegalvanize.com
 ---

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -450,7 +450,7 @@ plans:
 - name: Messagebird Plans Pricing
   plan_count: 6
   slug: messagebird-plans-pricing
-random_paper: 36
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Messagebird Rate Limits
@@ -474,18 +474,18 @@ rules:
   slug: messagebird-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 47.6
+  delta: 2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 75.0
     developer_ergonomics: 10.9
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 60.5
     operational_transparency: 36.8
   previous_composite: 45.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/messagebird/refs/heads/main/screenshots/messagebird-2026-06-20T185240.png
 security:

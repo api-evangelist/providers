@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ plans:
 - name: Rutter Plans Pricing
   plan_count: 1
   slug: rutter-plans-pricing
-random_paper: 15
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Rutter Rate Limits
@@ -228,23 +228,23 @@ rules:
   slug: rutter-spectral-rules
 score:
   band: developing
-  composite: 49.0
-  delta: -2.1
+  composite: 50.7
+  delta: 1.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 67.8
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 26.3
-  previous_composite: 51.1
+  previous_composite: 49.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rutter/refs/heads/main/screenshots/rutter-2026-06-20T193303.png
 security:

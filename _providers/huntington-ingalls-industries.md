@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,7 +82,7 @@ press:
 - date: '2026-04-16'
   title: HII to Showcase Company’s Role as America’s Seapower Company at Sea-Air-Space 2026
   url: https://hiicomstg.wpengine.com/news/hii-to-showcase-companys-role-as-americas-seapower-company-at-sea-air-space-2026/
-random_paper: 27
+random_paper: 44
 score:
   band: minimal
   composite: 5.9
@@ -96,7 +96,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/huntington-ingalls-industries/refs/heads/main/screenshots/huntington-ingalls-industries-2026-06-20T182948.png
 security:

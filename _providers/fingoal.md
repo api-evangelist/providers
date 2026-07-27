@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 56.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The Insights API's transaction enrichment endpoints enable developers to clean and enhance their transaction data. This process includes standardizing merchant names, categorizing transactions, and ad
@@ -167,7 +167,7 @@ overview: 'FinGoal publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   FinGoal''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 22
+random_paper: 56
 scopes:
 - name: Fingoal Scopes
   scope_count: 3
@@ -176,7 +176,7 @@ scopes:
 score:
   band: developing
   composite: 58.7
-  delta: 5.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 69.0
@@ -184,15 +184,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 53.7
+  previous_composite: 58.7
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fingoal/refs/heads/main/screenshots/fingoal-2026-07-25T214520.png
 security:
 - kind: authentication
   name: Fingoal Authentication

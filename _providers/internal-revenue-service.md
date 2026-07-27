@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: The IRS Modernized e-File (MeF) system is the web-based electronic filing platform supporting individual, business, and tax-exempt return submission via XML-based schemas. Software developers and tran
@@ -99,7 +99,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 21.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/internal-revenue-service/refs/heads/main/screenshots/internal-revenue-service-2026-06-20T183453.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -141,24 +141,25 @@ rate_limits:
   slug: chimoney-rate-limits
 score:
   band: thin
-  composite: 36.1
-  delta: -1.8
+  composite: 38.9
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.9
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 37.9
+  previous_composite: 36.1
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/chimoney/refs/heads/main/screenshots/chimoney-2026-07-25T205233.png
 security:
 - kind: authentication
   name: Chimoney Authentication

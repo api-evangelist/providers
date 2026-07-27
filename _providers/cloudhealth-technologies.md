@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The CloudHealth Platform REST API programmatically retrieves and manages data from the CloudHealth Platform — AWS/Azure/GCP accounts, assets, perspectives, billing rules, metrics, OLAP reports, polici
@@ -108,8 +108,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 19.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cloudhealth-technologies/refs/heads/main/screenshots/cloudhealth-technologies-2026-07-25T205700.png
 security:
 - kind: authentication
   name: Cloudhealth Technologies Authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -74,7 +74,7 @@ press:
 - date: '2026-05-25'
   title: Siemens in agreed $7.6 billion deal to buy Dresser-Rand
   url: https://www.reuters.com/article/technology/siemens-in-agreed-76-billion-deal-to-buy-dresser-rand-idUSKCN0HH0CM/
-random_paper: 43
+random_paper: 60
 score:
   band: minimal
   composite: 5.5
@@ -88,7 +88,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dresser-rand-group/refs/heads/main/screenshots/dresser-rand-group-2026-06-20T180225.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,7 +74,7 @@ overview: 'Bright Moments DAO is profiled on the [APIs.io](https://apis.io/) net
 
 
   Bright Moments DAO''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 24
+random_paper: 41
 score:
   band: minimal
   composite: 13.7
@@ -88,8 +88,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 13.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bright-moments-dao/refs/heads/main/screenshots/bright-moments-dao-2026-07-25T203826.png
 security:
 - kind: domain-security
   name: Bright Moments Dao Domain Security

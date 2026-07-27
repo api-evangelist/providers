@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Ensembl REST API (v15.12) provides language-agnostic HTTP access to genome annotation data across hundreds of vertebrate and eukaryotic species. It exposes 19 endpoint categories covering genome s
@@ -106,7 +106,7 @@ plans:
 - name: Ensembl Plans Pricing
   plan_count: 1
   slug: ensembl-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Ensembl Rate Limits
@@ -114,7 +114,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.3
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -122,14 +122,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 24.4
+  previous_composite: 25.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ensembl/refs/heads/main/screenshots/ensembl-2026-06-20T180726.png
 security:

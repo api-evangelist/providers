@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 56
   human_in_the_loop: 3
@@ -1050,7 +1050,7 @@ plans:
 - name: Microsoft Windows 10 Plans Pricing
   plan_count: 5
   slug: microsoft-windows-10-plans-pricing
-random_paper: 10
+random_paper: 44
 rate_limits:
 - limit_count: 3
   name: Microsoft Windows 10 Rate Limits
@@ -1066,18 +1066,18 @@ rules:
   slug: microsoft-windows-10-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 67.1
-  delta: 0.0
+  composite: 69.6
+  delta: 2.5
   facets:
     commercial_clarity: 73.7
     contract_quality: 60.9
     developer_ergonomics: 63.0
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 67.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-10/refs/heads/main/screenshots/microsoft-windows-10-2026-06-20T185545.png
 security:

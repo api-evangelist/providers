@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 68
   human_in_the_loop: 1
@@ -190,7 +190,7 @@ overview: 'Overops publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Overops'' developer surface includes authentication, changelog, documentation, API reference, support, and 17 more developer resources.'
-random_paper: 17
+random_paper: 34
 score:
   band: thin
   composite: 42.1
@@ -204,7 +204,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 42.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

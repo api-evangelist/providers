@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -66,7 +66,7 @@ apis:
 - description: The Routes API from Micronaut — 1 operation(s) for routes.
   name: Micronaut Routes API
   slug: micronaut-routes-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: Micronaut Management Endpoints API
@@ -120,6 +120,10 @@ json_schemas:
   property_count: 5
   slug: micronaut-application-config
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Micronaut
 nav: Providers
@@ -135,7 +139,7 @@ plans:
 - name: Micronaut Plans Pricing
   plan_count: 3
   slug: micronaut-plans-pricing
-random_paper: 9
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Micronaut Rate Limits
@@ -150,19 +154,19 @@ rules:
     warn: 3
   slug: micronaut-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 44.4
-  delta: 0.0
+  band: developing
+  composite: 47.7
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 45.0
+    contract_quality: 50.3
     developer_ergonomics: 30.4
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 44.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/micronaut/refs/heads/main/screenshots/micronaut-2026-06-20T185335.png
 security:

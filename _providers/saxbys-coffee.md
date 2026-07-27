@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -134,7 +134,7 @@ overview: 'Saxbys Coffee is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Saxbys Coffee''s developer surface includes developer portal, engineering blog, and 21 more developer resources.'
-random_paper: 1
+random_paper: 35
 score:
   band: minimal
   composite: 11.7
@@ -148,7 +148,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/saxbys-coffee/refs/heads/main/screenshots/saxbys-coffee-2026-06-20T193447.png
 security:

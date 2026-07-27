@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 43.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: The Auth API from CodeCombat — 1 operation(s) for auth.
@@ -171,8 +171,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 45.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/codecombat/refs/heads/main/screenshots/codecombat-2026-07-25T205918.png
 security:
 - kind: authentication
   name: Codecombat Authentication

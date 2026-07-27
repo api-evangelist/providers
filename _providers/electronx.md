@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'The ElectronX FIX API provides programmatic access to the exchange through three session types: Order Entry (submit, modify, cancel orders and receive execution reports), Market Data (real-time prices'
@@ -114,11 +114,11 @@ overview: 'Electronx publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Electronx''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 10 more developer resources.'
-random_paper: 11
+random_paper: 28
 score:
   band: thin
   composite: 32.1
-  delta: 5.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -126,15 +126,16 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 26.3
+  previous_composite: 32.1
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/electronx/refs/heads/main/screenshots/electronx-2026-07-25T213109.png
 security:
 - kind: authentication
   name: Electronx Authentication

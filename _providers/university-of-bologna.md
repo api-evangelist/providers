@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Open data portal for the University of Bologna built on CKAN, exposing the standard CKAN Action API over institutional datasets (course catalog, curricula, financial and social reports, organizational
@@ -101,7 +101,7 @@ plans:
 - name: University Of Bologna Plans Pricing
   plan_count: 2
   slug: university-of-bologna-plans-pricing
-random_paper: 21
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: University Of Bologna Rate Limits
@@ -124,7 +124,7 @@ score:
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-bologna/refs/heads/main/screenshots/university-of-bologna-2026-06-20T200136.png
 security:

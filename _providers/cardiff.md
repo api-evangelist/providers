@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ plans:
 - name: Cardiff Plans Pricing
   plan_count: 2
   slug: cardiff-plans-pricing
-random_paper: 5
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Cardiff Rate Limits
@@ -229,7 +229,7 @@ scopes:
 score:
   band: developing
   composite: 47.1
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 55.1
@@ -237,14 +237,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 21.1
-  previous_composite: 45.1
+  previous_composite: 47.1
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cardiff/refs/heads/main/screenshots/cardiff-2026-06-20T173956.png
 security:

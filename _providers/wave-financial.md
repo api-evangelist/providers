@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: GraphQL API providing programmatic access to Wave accounting features including businesses, customers, invoices, products, accounts, transactions, vendors, taxes, and webhooks.
@@ -106,7 +106,7 @@ plans:
 - name: Wave Financial Plans Pricing
   plan_count: 3
   slug: wave-financial-plans-pricing
-random_paper: 36
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Wave Financial Rate Limits
@@ -114,7 +114,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.0
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -122,14 +122,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 28.3
+  previous_composite: 26.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wave-financial/refs/heads/main/screenshots/wave-financial-2026-06-20T201254.png
 security:

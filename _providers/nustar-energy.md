@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -97,7 +97,7 @@ press:
 - date: '2026-05-25'
   title: Sunoco LP completes acquisition of NuStar Energy
   url: https://www.facebook.com/nustarenergy1/posts/we-are-pleased-to-announce-that-effective-may-3-2024-sunoco-lp-completed-its-acq/960027296127588/
-random_paper: 38
+random_paper: 4
 score:
   band: minimal
   composite: 11.0
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: nustar-energy
 tags:

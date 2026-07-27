@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -487,18 +487,18 @@ rules:
   slug: rapidapi-rules
 score:
   band: developing
-  composite: 54.4
-  delta: 0.0
+  composite: 57.8
+  delta: 3.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.3
+    contract_quality: 76.1
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 54.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rapidapi/refs/heads/main/screenshots/rapidapi-2026-06-20T192601.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 262
   human_in_the_loop: 7
@@ -265,7 +265,7 @@ rules:
 score:
   band: thin
   composite: 35.0
-  delta: -2.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 40.7
@@ -273,14 +273,14 @@ score:
     discoverability: 87.5
     governance: 73.7
     operational_transparency: 26.3
-  previous_composite: 37.0
+  previous_composite: 35.0
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/universite-de-montreal/refs/heads/main/screenshots/universite-de-montreal-2026-06-20T200115.png
 security:

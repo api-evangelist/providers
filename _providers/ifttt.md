@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 31.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -95,21 +95,21 @@ overview: 'IFTTT publishes 1 API on the [APIs.io](https://apis.io/) network: Tri
 
 
   IFTTT''s developer surface includes documentation, pricing, signup flow, and 6 more developer resources.'
-random_paper: 45
+random_paper: 11
 score:
   band: emerging
-  composite: 21.8
-  delta: 0.0
+  composite: 25.1
+  delta: 3.3
   facets:
     commercial_clarity: 10.5
     contract_quality: 45.1
     developer_ergonomics: 8.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 21.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ifttt/refs/heads/main/screenshots/ifttt-2026-06-20T183215.png
 security:

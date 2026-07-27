@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: The clients API from Tesseract — 3 operation(s) for clients.
@@ -166,7 +166,7 @@ overview: 'Tesseract publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Tesseract''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, support, engineering blog, and 19 more developer resources.'
-random_paper: 5
+random_paper: 22
 score:
   band: developing
   composite: 46.3
@@ -180,7 +180,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 46.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

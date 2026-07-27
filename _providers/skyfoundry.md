@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: SkySpark is a native Project Haystack server. External applications integrate through the Haystack HTTP REST API, exposing operations such as about, read, hisRead, hisWrite, pointWrite, watchSub, watc
@@ -87,7 +87,7 @@ overview: 'SkyFoundry publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   SkyFoundry''s developer surface includes documentation, API reference, engineering blog, authentication, and 6 more developer resources.'
-random_paper: 47
+random_paper: 30
 score:
   band: emerging
   composite: 16.4
@@ -101,7 +101,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 16.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Get Context Output API from Truth Systems — 1 operation(s) for get context output.
@@ -114,7 +114,7 @@ overview: 'Truth Systems publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Truth Systems'' developer surface includes developer portal, documentation, support, authentication, and 12 more developer resources.'
-random_paper: 27
+random_paper: 44
 score:
   band: thin
   composite: 30.5
@@ -128,7 +128,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 30.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

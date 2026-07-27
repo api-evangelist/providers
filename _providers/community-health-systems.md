@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ press:
 - date: '2026-05-25'
   title: Community Health Systems Completes Data Migration and ...
   url: https://www.prnewswire.com/news-releases/community-health-systems-completes-data-migration-and-implements-new-generative-ai-innovations-with-google-cloud-302048799.html
-random_paper: 10
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Community Health Systems Rate Limits
@@ -191,23 +191,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.4
-  delta: 3.5
+  composite: 50.2
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.9
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 21.1
-  previous_composite: 43.9
+  previous_composite: 47.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/community-health-systems/refs/heads/main/screenshots/community-health-systems-2026-06-20T174823.png
 security:

@@ -16,7 +16,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 68.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -163,6 +163,7 @@ scopes:
 score:
   band: thin
   composite: 44.7
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 64.6
@@ -170,13 +171,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
+  previous_composite: 44.7
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lloyds-banking-group/refs/heads/main/screenshots/lloyds-banking-group-2026-07-25T225413.png
 security:
 - kind: authentication
   name: Lloyds Banking Group Authentication

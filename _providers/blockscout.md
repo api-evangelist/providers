@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -168,25 +168,25 @@ plans:
 - name: Blockscout Plans Pricing
   plan_count: 4
   slug: blockscout-plans-pricing
-random_paper: 10
+random_paper: 61
 rate_limits:
 - limit_count: 3
   name: Blockscout Rate Limits
   slug: blockscout-rate-limits
 score:
   band: thin
-  composite: 34.4
-  delta: 0.0
+  composite: 37.6
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 44.0
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 34.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blockscout/refs/heads/main/screenshots/blockscout-2026-06-20T173404.png
 security:

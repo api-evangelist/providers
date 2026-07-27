@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 67.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: The Audit API from Siro — 1 operation(s) for audit.
@@ -181,7 +181,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 44.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

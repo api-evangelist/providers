@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
 - description: Project and DSN management
   name: Uptrace Projects API
   slug: uptrace-projects-api
-artifact_total: 20
+artifact_total: 21
 collections:
 - collection_type: open
   name: Uptrace API
@@ -129,6 +129,10 @@ jsonld:
   property_count: 19
   slug: uptrace-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Uptrace
 nav: Providers
@@ -144,7 +148,7 @@ plans:
 - name: Uptrace Plans Pricing
   plan_count: 3
   slug: uptrace-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Uptrace Rate Limits
@@ -168,18 +172,18 @@ rules:
   slug: uptrace-rules
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 53.6
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 65.5
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 50.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uptrace/refs/heads/main/screenshots/uptrace-2026-06-20T200501.png
 security:

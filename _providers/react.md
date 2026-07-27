@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: The react-dom package provides DOM-specific methods for React.
@@ -85,7 +85,7 @@ plans:
 - name: React Plans Pricing
   plan_count: 3
   slug: react-plans-pricing
-random_paper: 17
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: React Rate Limits
@@ -103,7 +103,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/react/refs/heads/main/screenshots/react-2026-06-20T192631.png
 security:

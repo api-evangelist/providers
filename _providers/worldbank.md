@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ overview: 'World Bank publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   World Bank''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 9
   name: Worldbank Rate Limits
@@ -166,7 +166,7 @@ rules:
 score:
   band: thin
   composite: 41.8
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 61.9
@@ -174,14 +174,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
-  previous_composite: 45.0
+  previous_composite: 41.8
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldbank/refs/heads/main/screenshots/worldbank-2026-06-20T201620.png
 security:

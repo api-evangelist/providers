@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 33.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API v3 for ecommerce logistics — orders, shipments, tracking, shipping-rate and coverage calculation, PDF/ZPL label generation, location resolution and webhook subscriptions.
@@ -153,7 +153,7 @@ overview: '99minutos publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   99minutos'' developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, changelog, support, and 17 more developer resources.'
-random_paper: 30
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: 99Minutos Rate Limits
@@ -171,8 +171,9 @@ score:
     operational_transparency: 23.7
   previous_composite: 41.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/99minutos/refs/heads/main/screenshots/99minutos-2026-07-25T181252.png
 security:
 - kind: authentication
   name: 99Minutos Authentication

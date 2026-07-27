@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -89,7 +89,7 @@ arazzos:
 - description: Offer the model a tool, capture its tool_use request, then return a tool_result for a final answer.
   name: Claude Tool Use Round Trip
   slug: claude-tool-use-round-trip-workflow
-artifact_total: 176
+artifact_total: 177
 collections:
 - collection_type: postman
   name: Claude Messages API
@@ -652,6 +652,10 @@ jsonld:
   property_count: 0
   slug: claude-messages-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Claude
 nav: Providers
@@ -690,20 +694,20 @@ rules:
     warn: 11
   slug: claude-spectral-rules
 score:
-  band: strong
-  composite: 68.2
-  delta: 0.0
+  band: exemplar
+  composite: 73.6
+  delta: 5.4
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.6
+    contract_quality: 78.5
     developer_ergonomics: 58.7
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 68.4
   previous_composite: 68.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/claude/refs/heads/main/screenshots/claude-2026-06-20T174448.png
 security:
 - kind: authentication

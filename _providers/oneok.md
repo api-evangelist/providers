@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,7 +70,7 @@ press:
 - date: '2026-05-25'
   title: ONEOK has benefited from President Donald Trump's Big ...
   url: https://www.facebook.com/tulsaworld/posts/oneok-has-benefited-from-president-donald-trumps-big-beautiful-bill-and-is-poise/1260554342772753/
-random_paper: 30
+random_paper: 64
 score:
   band: minimal
   composite: 5.5
@@ -84,7 +84,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oneok/refs/heads/main/screenshots/oneok-2026-06-20T190714.png
 security:

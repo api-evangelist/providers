@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -1214,18 +1214,18 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 50.4
+  delta: 4.7
   facets:
     commercial_clarity: 28.9
-    contract_quality: 68.7
+    contract_quality: 77.5
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/application-research/refs/heads/main/screenshots/application-research-2026-06-20T172330.png
 security:

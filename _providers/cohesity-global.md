@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: RESTful interface for data management, backup and recovery, cyber resilience, reporting, and site continuity operations across Cohesity Helios (multi-cluster SaaS control plane) and on-premises Cohesi
@@ -146,7 +146,7 @@ overview: 'Cohesity Global publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Cohesity Global''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 12
+random_paper: 46
 scopes:
 - name: Cohesity Global Scopes
   scope_count: 6
@@ -165,8 +165,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 36.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cohesity-global/refs/heads/main/screenshots/cohesity-global-2026-07-25T210017.png
 security:
 - kind: authentication
   name: Cohesity Global Authentication

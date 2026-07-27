@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Saashub Plans Pricing
   plan_count: 3
   slug: saashub-plans-pricing
-random_paper: 29
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Saashub Rate Limits
@@ -160,18 +160,18 @@ rules:
   slug: saashub-spectral-rules
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 53.9
+  delta: 3.3
   facets:
     commercial_clarity: 63.2
     contract_quality: 62.8
     developer_ergonomics: 19.6
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 50.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

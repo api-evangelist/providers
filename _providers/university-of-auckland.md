@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -204,7 +204,7 @@ scopes:
 score:
   band: developing
   composite: 49.0
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 67.0
@@ -212,14 +212,14 @@ score:
     discoverability: 87.5
     governance: 86.8
     operational_transparency: 26.3
-  previous_composite: 47.3
+  previous_composite: 49.0
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-auckland/refs/heads/main/screenshots/university-of-auckland-2026-06-20T200126.png
 security:

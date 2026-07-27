@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -124,25 +124,25 @@ plans:
 - name: Sleekflow Plans Pricing
   plan_count: 5
   slug: sleekflow-plans-pricing
-random_paper: 3
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Sleekflow Rate Limits
   slug: sleekflow-rate-limits
 score:
   band: thin
-  composite: 36.8
-  delta: 0.0
+  composite: 40.1
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 54.9
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 36.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sleekflow/refs/heads/main/screenshots/sleekflow-2026-06-20T194028.png
 security:

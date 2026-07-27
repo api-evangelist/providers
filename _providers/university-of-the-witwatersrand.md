@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -196,7 +196,7 @@ plans:
 - name: University Of The Witwatersrand Plans Pricing
   plan_count: 2
   slug: university-of-the-witwatersrand-plans-pricing
-random_paper: 1
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: University Of The Witwatersrand Rate Limits
@@ -226,7 +226,7 @@ scopes:
 score:
   band: developing
   composite: 51.4
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 73.5
@@ -234,14 +234,14 @@ score:
     discoverability: 100.0
     governance: 86.8
     operational_transparency: 26.3
-  previous_composite: 50.2
+  previous_composite: 51.4
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

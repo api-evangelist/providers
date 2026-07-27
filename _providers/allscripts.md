@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The Veradigm FHIR R4 API provides RESTful access to clinical, demographic, and facility data using the HL7 FHIR R4 standard. It supports 28 FHIR resources including Patient, Condition, Observation, Me
@@ -131,7 +131,7 @@ plans:
 - name: Veradigm Fhir Plans
   plan_count: 6
   slug: veradigm-fhir-plans
-random_paper: 18
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Unity Api Rate Limits
@@ -142,7 +142,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.1
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 52.8
@@ -150,14 +150,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 37.5
+  previous_composite: 38.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/screenshots/allscripts-2026-06-20T171537.png
 security:

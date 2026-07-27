@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -118,26 +118,27 @@ plans:
 - name: Jarvislabs Plans Pricing
   plan_count: 3
   slug: jarvislabs-plans-pricing
-random_paper: 2
+random_paper: 53
 rate_limits:
 - limit_count: 4
   name: Jarvislabs Rate Limits
   slug: jarvislabs-rate-limits
 score:
   band: thin
-  composite: 38.0
-  delta: 0.0
+  composite: 41.2
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.4
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 38.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/jarvislabs/refs/heads/main/screenshots/jarvislabs-2026-07-25T223101.png
 security:
 - kind: authentication
   name: Jarvislabs Authentication

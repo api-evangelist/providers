@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for the Zomentum revenue platform, documented as public Postman documentation. Uses Bearer token authentication (Auth0-issued access and refresh tokens) via an API User provisioned in the das
@@ -126,11 +126,11 @@ overview: 'Zomentum publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Zomentum''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 28
+random_paper: 11
 score:
   band: thin
   composite: 35.6
-  delta: 3.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -138,14 +138,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 31.9
+  previous_composite: 35.6
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 56.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

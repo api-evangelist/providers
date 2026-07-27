@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: SunGard Financial Systems offered software and services for trading, treasury, risk management, capital markets, and investment management. Products included Adaptiv (credit and market risk), Front Ar
@@ -105,7 +105,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 20.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ press:
 - date: '2026-05-25'
   title: ScanSource Q3 Earnings Call Highlights
   url: https://www.theglobeandmail.com/investing/markets/stocks/SCSC/pressreleases/1832981/scansource-q3-earnings-call-highlights/
-random_paper: 7
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Scansource Rate Limits
@@ -212,19 +212,19 @@ rules:
   slug: scansource-rules
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 56.0
+  delta: 5.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 68.1
+    contract_quality: 77.0
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 21.1
   previous_composite: 50.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/scansource/refs/heads/main/screenshots/scansource-2026-06-20T193517.png
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ overview: 'StockX publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   StockX''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 20 more developer resources.'
-random_paper: 5
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Stockx Rate Limits
@@ -197,7 +197,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 49.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

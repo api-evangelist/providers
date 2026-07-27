@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ plans:
 - name: Weave Hq Plans Pricing
   plan_count: 4
   slug: weave-hq-plans-pricing
-random_paper: 33
+random_paper: 50
 rate_limits:
 - limit_count: 4
   name: Weave Hq Rate Limits
@@ -150,24 +150,24 @@ scopes:
   slug: weave-hq-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 44.4
-  delta: 4.9
+  band: developing
+  composite: 47.1
+  delta: 2.7
   facets:
     commercial_clarity: 47.4
     contract_quality: 58.4
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 39.5
+  previous_composite: 44.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 71.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

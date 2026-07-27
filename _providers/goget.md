@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 34.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Automate on-demand deliveries with GoGet — create, update, and cancel jobs, estimate fees, check coverage and availability, track GoGetters live, and receive job-status webhooks. Authenticated with an
@@ -141,7 +141,7 @@ overview: 'GoGet publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   GoGet''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 14 more developer resources.'
-random_paper: 24
+random_paper: 58
 score:
   band: thin
   composite: 39.1
@@ -155,8 +155,9 @@ score:
     operational_transparency: 23.7
   previous_composite: 39.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/goget/refs/heads/main/screenshots/goget-2026-07-25T220015.png
 security:
 - kind: authentication
   name: Goget Authentication

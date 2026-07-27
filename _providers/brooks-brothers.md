@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 23
 common:
@@ -129,7 +129,7 @@ overview: 'Brooks Brothers is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Brooks Brothers'' developer surface includes signup flow, authentication, and 8 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: minimal
   composite: 13.2
@@ -143,7 +143,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brooks-brothers/refs/heads/main/screenshots/brooks-brothers-2026-06-20T173720.png
 security:

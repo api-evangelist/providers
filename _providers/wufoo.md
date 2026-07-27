@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -334,7 +334,7 @@ plans:
 - name: Wufoo Plans Pricing
   plan_count: 5
   slug: wufoo-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Wufoo Rate Limits
@@ -366,23 +366,23 @@ rules:
   slug: wufoo-rest-v3-rules
 score:
   band: strong
-  composite: 61.5
-  delta: -1.3
+  composite: 65.9
+  delta: 4.4
   facets:
     commercial_clarity: 84.2
-    contract_quality: 69.3
+    contract_quality: 76.9
     developer_ergonomics: 67.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 47.4
     operational_transparency: 21.1
-  previous_composite: 62.8
+  previous_composite: 61.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wufoo/refs/heads/main/screenshots/wufoo-2026-06-20T201637.png
 security:

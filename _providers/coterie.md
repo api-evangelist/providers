@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ plans:
 - name: Coterie Plans Pricing
   plan_count: 2
   slug: coterie-plans-pricing
-random_paper: 33
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Coterie Rate Limits
@@ -141,24 +141,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 35.3
-  delta: 2.2
+  composite: 38.1
+  delta: 2.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 51.3
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 33.1
+  previous_composite: 35.3
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/coterie/refs/heads/main/screenshots/coterie-2026-07-25T210459.png
 security:
 - kind: authentication
   name: Coterie Authentication

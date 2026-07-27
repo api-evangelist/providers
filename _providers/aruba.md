@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -474,7 +474,7 @@ plans:
 - name: Aruba Plans Pricing
   plan_count: 1
   slug: aruba-plans-pricing
-random_paper: 13
+random_paper: 47
 rate_limits:
 - limit_count: 3
   name: Aruba Rate Limits
@@ -498,18 +498,18 @@ rules:
   slug: aruba-spectral-rules
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 53.4
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 68.1
     developer_ergonomics: 26.1
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 51.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aruba/refs/heads/main/screenshots/aruba-2026-06-20T172454.png
 security:

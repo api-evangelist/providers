@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Rent Manager Web API (WAPI12) is a RESTful API that provides both read and write access to the Rent Manager Online (RMO) database. It supports property management operations including tenants, lea
@@ -114,7 +114,7 @@ plans:
 - name: Rent Manager Plans Pricing
   plan_count: 5
   slug: rent-manager-plans-pricing
-random_paper: 44
+random_paper: 61
 rate_limits:
 - limit_count: 0
   name: Rent Manager Rate Limits
@@ -132,7 +132,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 26.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rent-manager/refs/heads/main/screenshots/rent-manager-2026-06-20T192855.png
 security:

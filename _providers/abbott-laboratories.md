@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 14
 common:
@@ -105,11 +105,11 @@ press:
 - date: '2026-05-25'
   title: Abbott Reports First-Quarter 2026 Results; Updates ...
   url: https://www.prnewswire.com/news-releases/abbott-reports-first-quarter-2026-results-updates-guidance-to-reflect-acquisition-of-exact-sciences-302744652.html
-random_paper: 30
+random_paper: 64
 score:
   band: emerging
   composite: 15.4
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -117,14 +117,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.7
+  previous_composite: 15.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abbott-laboratories/refs/heads/main/screenshots/abbott-laboratories-2026-06-20T163122.png
 security:

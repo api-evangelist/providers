@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -656,7 +656,7 @@ plans:
 - name: Amazon Ecs Plans Pricing
   plan_count: 3
   slug: amazon-ecs-plans-pricing
-random_paper: 37
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Amazon Ecs Rate Limits
@@ -680,18 +680,18 @@ rules:
   slug: amazon-ecs-spectral-rules
 score:
   band: strong
-  composite: 63.7
-  delta: 0.0
+  composite: 67.5
+  delta: 3.8
   facets:
     commercial_clarity: 65.8
-    contract_quality: 67.4
+    contract_quality: 72.7
     developer_ergonomics: 52.2
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 63.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ecs/refs/heads/main/screenshots/amazon-ecs-2026-06-20T171639.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -97,25 +97,25 @@ plans:
 - name: Api Pulse Plans Pricing
   plan_count: 3
   slug: api-pulse-plans-pricing
-random_paper: 45
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Api Pulse Rate Limits
   slug: api-pulse-rate-limits
 score:
   band: thin
-  composite: 32.4
-  delta: 0.0
+  composite: 34.4
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 57.5
     developer_ergonomics: 0.0
-    discoverability: 60.0
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 32.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-pulse/refs/heads/main/screenshots/api-pulse-2026-06-20T172215.png
 security:

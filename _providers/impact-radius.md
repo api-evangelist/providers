@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 33.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: REST API for brands/advertisers to manage campaigns, partner recruitment and contracts, catalogs, reporting, and payouts across affiliate and partnership programs. Current version v13.
@@ -175,7 +175,7 @@ overview: 'Impact Radius publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Impact Radius'' developer surface includes documentation, getting-started guide, authentication, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 5
+random_paper: 39
 score:
   band: thin
   composite: 44.3
@@ -189,8 +189,9 @@ score:
     operational_transparency: 57.9
   previous_composite: 44.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/impact-radius/refs/heads/main/screenshots/impact-radius-2026-07-25T222140.png
 security:
 - kind: authentication
   name: Impact Radius Authentication

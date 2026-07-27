@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 86.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -284,7 +284,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.9
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 66.9
@@ -292,15 +292,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 60.2
+  previous_composite: 60.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/finix-payments/refs/heads/main/screenshots/finix-payments-2026-07-25T214524.png
 security:
 - kind: authentication
   name: Finix Payments Authentication

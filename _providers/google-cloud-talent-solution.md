@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ plans:
 - name: Google Cloud Talent Solution Plans Pricing
   plan_count: 3
   slug: google-cloud-talent-solution-plans-pricing
-random_paper: 43
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Google Cloud Talent Solution Rate Limits
@@ -145,18 +145,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 54.3
+  delta: 4.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.4
+    contract_quality: 63.7
     developer_ergonomics: 23.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 49.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-talent-solution/refs/heads/main/screenshots/google-cloud-talent-solution-2026-06-20T182140.png
 security:

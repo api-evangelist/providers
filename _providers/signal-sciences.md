@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Signal Sciences Core API (now the Fastly Next-Gen WAF control-plane API) is a REST API served at https://dashboard.signalsciences.net/api/v0 that lets developers manage the Next-Gen WAF programmat
@@ -90,7 +90,7 @@ overview: 'Signal Sciences publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Signal Sciences'' developer surface includes documentation, API reference, authentication, and 8 more developer resources.'
-random_paper: 49
+random_paper: 32
 score:
   band: emerging
   composite: 16.9
@@ -104,7 +104,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 16.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

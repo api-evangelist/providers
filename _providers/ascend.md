@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -238,7 +238,7 @@ random_paper: 10
 score:
   band: developing
   composite: 55.8
-  delta: 3.9
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 58.6
@@ -246,15 +246,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 51.9
+  previous_composite: 55.8
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ascend/refs/heads/main/screenshots/ascend-2026-07-25T201401.png
 security:
 - kind: authentication
   name: Ascend Authentication

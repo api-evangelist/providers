@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ overview: 'Rainway publishes 1 API on the [APIs.io](https://apis.io/) network: P
 
 
   Rainway''s developer surface includes documentation, getting-started guide, API reference, signup flow, authentication, and 17 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: thin
   composite: 42.7
@@ -159,7 +159,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 42.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,25 +81,25 @@ plans:
 - name: Farm Machinery And Equipment Api Plans Pricing
   plan_count: 3
   slug: farm-machinery-and-equipment-api-plans-pricing
-random_paper: 5
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Farm Machinery And Equipment Api Rate Limits
   slug: farm-machinery-and-equipment-api-rate-limits
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 36.3
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 56.6
     developer_ergonomics: 10.9
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 33.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farm-machinery-and-equipment-api/refs/heads/main/screenshots/farm-machinery-and-equipment-api-2026-06-20T181042.png
 security:

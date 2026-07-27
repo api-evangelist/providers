@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ plans:
 - name: Buywhere Plans Pricing
   plan_count: 3
   slug: buywhere-plans-pricing
-random_paper: 8
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Buywhere Rate Limits
@@ -224,19 +224,19 @@ rules:
   slug: buywhere-rules
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 56.3
+  delta: 5.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.1
+    contract_quality: 77.0
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 50.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/buywhere/refs/heads/main/screenshots/buywhere-2026-06-20T173822.png
 security:
 - kind: authentication

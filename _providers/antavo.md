@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 14
 apis:
 - description: Records customer interactions from e-commerce, POS, websites, and mobile apps as loyalty events (for example point_add, checkout_accept), driving the rules and workflows of the loyalty program. Suppor
@@ -147,8 +147,9 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/antavo/refs/heads/main/screenshots/antavo-2026-07-25T200404.png
 security:
 - kind: domain-security
   name: Antavo Domain Security

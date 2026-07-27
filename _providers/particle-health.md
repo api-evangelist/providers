@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -281,7 +281,7 @@ plans:
 - name: Particle Health Plans Pricing
   plan_count: 3
   slug: particle-health-plans-pricing
-random_paper: 48
+random_paper: 31
 rate_limits:
 - limit_count: 3
   name: Particle Health Rate Limits
@@ -296,24 +296,24 @@ rules:
     warn: 4
   slug: particle-health-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 59.0
-  delta: 0.3
+  band: strong
+  composite: 61.2
+  delta: 2.2
   facets:
     commercial_clarity: 47.4
     contract_quality: 57.9
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 68.4
-  previous_composite: 58.7
+  previous_composite: 59.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 60.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/screenshots/particle-health-2026-06-20T191425.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Simple REST API exposing the full Connect The Dots relationship graph — reachable people and companies, warm paths to a target (including natural-language and stage-filtered path search), recent job c
@@ -142,7 +142,7 @@ overview: 'Connect The Dots publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Connect The Dots'' developer surface includes authentication, API reference, documentation, pricing, engineering blog, support, signup flow, and 16 more developer resources.'
-random_paper: 9
+random_paper: 43
 scopes:
 - name: Ctd Scopes
   scope_count: 0
@@ -161,8 +161,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 31.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ctd/refs/heads/main/screenshots/ctd-2026-07-25T210842.png
 security:
 - kind: authentication
   name: Ctd Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 88.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ overview: 'Leadspace publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Leadspace''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 28 more developer resources.'
-random_paper: 12
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Leadspace Rate Limits
@@ -234,8 +234,9 @@ score:
     operational_transparency: 63.2
   previous_composite: 58.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/leadspace/refs/heads/main/screenshots/leadspace-2026-07-25T224715.png
 security:
 - kind: authentication
   name: Leadspace Authentication

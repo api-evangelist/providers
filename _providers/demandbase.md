@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -503,18 +503,18 @@ rules:
   slug: demandbase-real-time-identification-api-rules
 score:
   band: developing
-  composite: 53.7
-  delta: 0.0
+  composite: 58.4
+  delta: 4.7
   facets:
     commercial_clarity: 57.9
-    contract_quality: 67.3
+    contract_quality: 76.1
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 47.4
     operational_transparency: 42.1
   previous_composite: 53.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demandbase/refs/heads/main/screenshots/demandbase-2026-06-20T175908.png
 security:

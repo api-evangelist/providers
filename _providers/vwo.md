@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -126,25 +126,25 @@ plans:
 - name: Vwo Plans Pricing
   plan_count: 1
   slug: vwo-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Vwo Rate Limits
   slug: vwo-rate-limits
 score:
   band: thin
-  composite: 32.6
-  delta: 0.0
+  composite: 35.9
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 54.4
     developer_ergonomics: 21.7
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 32.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vwo/refs/heads/main/screenshots/vwo-2026-06-20T201152.png
 security:

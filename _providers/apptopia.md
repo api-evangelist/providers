@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Real-time REST API exposing raw mobile app-store data — apps, publishers, parent companies, SDKs, download/revenue/usage estimates, ratings, top charts, and advertising intelligence across iTunes, Goo
@@ -128,8 +128,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 28.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/apptopia/refs/heads/main/screenshots/apptopia-2026-07-25T200850.png
 security:
 - kind: authentication
   name: Apptopia Authentication

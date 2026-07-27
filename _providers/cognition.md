@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 2
@@ -159,25 +159,25 @@ plans:
 - name: Cognition Plans Pricing
   plan_count: 1
   slug: cognition-plans-pricing
-random_paper: 1
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Cognition Rate Limits
   slug: cognition-rate-limits
 score:
-  band: thin
-  composite: 42.0
-  delta: 0.0
+  band: developing
+  composite: 45.2
+  delta: 3.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 56.0
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 42.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cognition/refs/heads/main/screenshots/cognition-2026-06-20T174713.png
 security:

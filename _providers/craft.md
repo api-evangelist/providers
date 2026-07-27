@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 15.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Craft Connect exposes a user's Craft Space, Daily Notes, tasks, and selected documents over REST as part of the Imagine platform, so tools like Apple Shortcuts, n8n, Zapier, Replit, and custom code ca
@@ -144,7 +144,7 @@ overview: 'craft publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   craft''s developer surface includes documentation, API reference, support, engineering blog, pricing, changelog, and 17 more developer resources.'
-random_paper: 18
+random_paper: 52
 score:
   band: thin
   composite: 34.0
@@ -158,8 +158,9 @@ score:
     operational_transparency: 47.4
   previous_composite: 34.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/craft/refs/heads/main/screenshots/craft-2026-07-25T210634.png
 security:
 - kind: domain-security
   name: Craft Domain Security

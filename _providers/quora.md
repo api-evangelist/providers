@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -154,25 +154,25 @@ plans:
 - name: Quora Plans Pricing
   plan_count: 3
   slug: quora-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Quora Rate Limits
   slug: quora-rate-limits
 score:
-  band: thin
-  composite: 44.7
-  delta: 0.0
+  band: developing
+  composite: 45.9
+  delta: 1.2
   facets:
     commercial_clarity: 73.7
     contract_quality: 62.8
     developer_ergonomics: 26.1
-    discoverability: 42.5
+    discoverability: 55.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 44.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quora/refs/heads/main/screenshots/quora-2026-06-20T192444.png
 security:

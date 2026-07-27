@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -117,31 +117,32 @@ plans:
 - name: Intakeq Plans Pricing
   plan_count: 4
   slug: intakeq-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Intakeq Rate Limits
   slug: intakeq-rate-limits
 score:
   band: thin
-  composite: 34.5
-  delta: -1.5
+  composite: 37.2
+  delta: 2.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 53.1
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 36.0
+  previous_composite: 34.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/intakeq/refs/heads/main/screenshots/intakeq-2026-07-25T222634.png
 security:
 - kind: authentication
   name: Intakeq Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 39.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Extend''s REST API for product and shipping protection: manage offers, contracts, orders and line items, refunds, claims, service orders, and leads. Header-based date versioning; OAuth2 client-credenti'
@@ -169,7 +169,7 @@ random_paper: 36
 score:
   band: thin
   composite: 44.1
-  delta: 1.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 22.6
@@ -177,15 +177,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 42.3
+  previous_composite: 44.1
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/extend/refs/heads/main/screenshots/extend-2026-07-25T213943.png
 security:
 - kind: authentication
   name: Extend Authentication

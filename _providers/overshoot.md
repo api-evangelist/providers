@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 57.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: Pricing, prepaid balance, and checkout.
@@ -163,7 +163,7 @@ overview: 'Overshoot publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Overshoot''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 32
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Overshoot Rate Limits
@@ -181,7 +181,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 44.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

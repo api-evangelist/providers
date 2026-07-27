@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 12
 apis:
 - description: The Access Management resource offers methods for managing groups, members, roles, and scopes.
@@ -202,7 +202,7 @@ overview: 'Upwind Security publishes 12 APIs on the [APIs.io](https://apis.io/) 
 
 
   Upwind Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, CLI, and 21 more developer resources.'
-random_paper: 15
+random_paper: 32
 scopes:
 - name: Upwind Security Scopes
   scope_count: 26
@@ -221,7 +221,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 53.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

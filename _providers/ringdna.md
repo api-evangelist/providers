@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API endpoints for managing Guided Selling participant actions within Revenue.io sales engagement workflows, including completing and skipping participant steps in sales cadences.
@@ -106,7 +106,7 @@ plans:
 - name: Ringdna Plans Pricing
   plan_count: 3
   slug: ringdna-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Ringdna Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 25.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ringdna/refs/heads/main/screenshots/ringdna-2026-06-20T193122.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -163,18 +163,18 @@ rules:
   slug: nakama-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 47.4
-  delta: 0.0
+  composite: 50.6
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 62.9
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 65.8
     operational_transparency: 36.8
   previous_composite: 47.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 33.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Hypercore's production GraphQL API for private-credit loan management — a single GraphQL endpoint covering loans, equities, clients, funding sources, documents, statements, data tables, deal onboardin
@@ -138,7 +138,7 @@ overview: 'Hypercore publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Hypercore''s developer surface includes documentation, API reference, authentication, changelog, engineering blog, support, and 16 more developer resources.'
-random_paper: 8
+random_paper: 25
 score:
   band: thin
   composite: 31.3
@@ -152,8 +152,9 @@ score:
     operational_transparency: 26.3
   previous_composite: 31.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hypercore/refs/heads/main/screenshots/hypercore-2026-07-25T221846.png
 security:
 - kind: authentication
   name: Hypercore Authentication

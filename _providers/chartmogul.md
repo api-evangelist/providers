@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 58.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -60,7 +60,7 @@ apis:
 - description: The Subscriptions API from ChartMogul — 1 operation(s) for subscriptions.
   name: ChartMogul Subscriptions API
   slug: chartmogul-subscriptions-api
-artifact_total: 15
+artifact_total: 16
 collections:
 - collection_type: open
   name: ChartMogul Webhooks AsyncAPI
@@ -125,6 +125,10 @@ created: '2026-05-11'
 description: ChartMogul is a subscription analytics platform for SaaS companies that unifies billing data, customer information, and revenue analytics into one real-time view of MRR, churn, LTV, cohorts, and growth trends. The ChartMogul REST API provides programmatic access to import customers, subscriptions, invoices, transactions, and plans, and to read metrics, customer segments, and forecasts.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chartmogul.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-30'
 name: ChartMogul
 nav: Providers
@@ -133,21 +137,21 @@ overview: 'ChartMogul publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   ChartMogul''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 7
+random_paper: 58
 score:
   band: thin
-  composite: 32.7
-  delta: 0.0
+  composite: 34.7
+  delta: 2.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 61.9
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 32.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chartmogul/refs/heads/main/screenshots/chartmogul-2026-06-20T174231.png
 security:

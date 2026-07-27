@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ arazzos:
 - description: Read an issue, discover its legal transitions, apply one, and verify the new status.
   name: Jira Transition an Issue to a New Status
   slug: jira-transition-issue-workflow
-artifact_total: 199
+artifact_total: 200
 asyncapis:
 - description: Jira Cloud webhooks deliver HTTP POST payloads to a configured URL whenever specified events occur in your Jira instance. Webhooks can be registered via the Jira REST API or through the Jira administr
   name: Jira Cloud Webhooks
@@ -752,6 +752,10 @@ jsonld:
   property_count: 15
   slug: jira-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: Atlassian Rovo MCP Server
+  slug: atlassian-rovo-mcp-server
 modified: '2026-06-20'
 name: Jira
 nav: Providers
@@ -803,19 +807,19 @@ scopes:
   slug: jira-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: strong
-  composite: 68.0
-  delta: 0.0
+  band: exemplar
+  composite: 71.2
+  delta: 3.2
   facets:
     commercial_clarity: 68.4
     contract_quality: 80.9
     developer_ergonomics: 58.7
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 60.5
     operational_transparency: 73.7
   previous_composite: 68.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jira/refs/heads/main/screenshots/jira-2026-06-20T183734.png
 security:

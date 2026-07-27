@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -148,21 +148,21 @@ overview: 'ShippingEasy publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   ShippingEasy''s developer surface includes authentication, pricing, documentation, signup flow, support, engineering blog, YouTube channel, and 15 more developer resources.'
-random_paper: 25
+random_paper: 8
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 39.1
+  delta: 3.2
   facets:
     commercial_clarity: 44.7
     contract_quality: 60.2
     developer_ergonomics: 26.1
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 35.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shippingeasy/refs/heads/main/screenshots/shippingeasy-2026-06-20T193821.png
 security:

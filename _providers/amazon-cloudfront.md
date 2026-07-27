@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -263,7 +263,7 @@ plans:
 - name: Amazon Cloudfront Plans Pricing
   plan_count: 1
   slug: amazon-cloudfront-plans-pricing
-random_paper: 45
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Amazon Cloudfront Rate Limits
@@ -286,20 +286,20 @@ rules:
     warn: 11
   slug: amazon-cloudfront-spectral-rules
 score:
-  band: developing
-  composite: 56.6
-  delta: 0.0
+  band: strong
+  composite: 62.0
+  delta: 5.4
   facets:
     commercial_clarity: 65.8
-    contract_quality: 63.7
+    contract_quality: 72.6
     developer_ergonomics: 30.4
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 42.1
   previous_composite: 56.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudfront/refs/heads/main/screenshots/amazon-cloudfront-2026-06-20T171615.png
 security:
 - kind: domain-security

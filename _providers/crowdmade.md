@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Agent-driven commerce over the Universal Commerce Protocol (UCP) served by the crowdmade.com Shopify storefront, plus read-only catalog JSON endpoints and Shopify Customer Accounts OpenID Connect auth
@@ -94,7 +94,7 @@ overview: 'CrowdMade publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   CrowdMade''s developer surface includes documentation, authentication, and 9 more developer resources.'
-random_paper: 32
+random_paper: 66
 scopes:
 - name: Crowdmade Scopes
   scope_count: 4
@@ -113,7 +113,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 3
@@ -656,7 +656,7 @@ plans:
 - name: Oracle Database Plans Pricing
   plan_count: 6
   slug: oracle-database-plans-pricing
-random_paper: 17
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Oracle Database Rate Limits
@@ -685,18 +685,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 64.8
-  delta: 0.0
+  composite: 66.7
+  delta: 1.9
   facets:
     commercial_clarity: 71.1
-    contract_quality: 75.9
+    contract_quality: 83.5
     developer_ergonomics: 52.2
     discoverability: 55.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 64.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-database/refs/heads/main/screenshots/oracle-database-2026-06-20T191126.png
 security:

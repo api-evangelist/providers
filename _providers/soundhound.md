@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: The Houndify platform provides HTTP and WebSocket APIs that accept text or audio queries and return actionable JSON responses. Built on SoundHound's Speech-to-Meaning and Deep Meaning Understanding te
@@ -108,7 +108,7 @@ plans:
 - name: Music Id
   plan_count: 2
   slug: music-id
-random_paper: 24
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Houndify Voice Ai
@@ -129,7 +129,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 23.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soundhound/refs/heads/main/screenshots/soundhound-2026-06-20T194221.png
 security:

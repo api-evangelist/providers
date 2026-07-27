@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 57.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -290,7 +290,7 @@ overview: 'Amazon CloudTrail publishes 3 APIs on the [APIs.io](https://apis.io/)
 
 
   Amazon CloudTrail''s developer surface includes developer portal, documentation, support, engineering blog, developer console, signup flow, YouTube channel, and 23 more developer resources.'
-random_paper: 32
+random_paper: 66
 rules:
 - name: Amazon CloudTrail API Rules
   rule_count: 5
@@ -321,8 +321,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 59.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloudtrail/refs/heads/main/screenshots/amazon-cloudtrail-2026-07-25T195952.png
 security:
 - kind: domain-security
   name: Amazon Cloudtrail Domain Security

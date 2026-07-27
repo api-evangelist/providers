@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -256,7 +256,7 @@ overview: 'Puzzle publishes 22 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Puzzle''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 27 more developer resources.'
-random_paper: 19
+random_paper: 2
 scopes:
 - name: Puzzle Scopes
   scope_count: 21
@@ -275,7 +275,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 50.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

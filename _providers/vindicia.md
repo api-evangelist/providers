@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 23.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: REST API for subscription management and recurring billing — accounts, subscriptions, campaigns, tokens/virtual currency, and payment operations.
@@ -132,7 +132,7 @@ random_paper: 23
 score:
   band: thin
   composite: 32.8
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 22.6
@@ -140,14 +140,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 34.0
+  previous_composite: 32.8
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

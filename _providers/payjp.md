@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 6
@@ -272,7 +272,7 @@ plans:
 - name: Payjp Plans Pricing
   plan_count: 6
   slug: payjp-plans-pricing
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Payjp Rate Limits
@@ -280,7 +280,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 73.4
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
     contract_quality: 63.5
@@ -288,14 +288,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 84.2
-  previous_composite: 72.5
+  previous_composite: 73.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

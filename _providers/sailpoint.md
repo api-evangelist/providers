@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -426,7 +426,7 @@ plans:
 - name: Sailpoint Plans Pricing
   plan_count: 1
   slug: sailpoint-plans-pricing
-random_paper: 10
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Sailpoint Rate Limits
@@ -455,18 +455,18 @@ scopes:
   summary_line: 11 scopes · clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 63.2
-  delta: 0.0
+  composite: 66.5
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.9
+    contract_quality: 75.2
     developer_ergonomics: 63.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 57.9
   previous_composite: 63.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sailpoint/refs/heads/main/screenshots/sailpoint-2026-06-20T193336.png
 security:

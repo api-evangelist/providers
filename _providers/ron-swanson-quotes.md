@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -188,19 +188,19 @@ rules:
   slug: ron-swanson-quotes-rules
 score:
   band: thin
-  composite: 38.7
-  delta: 0.0
+  composite: 44.2
+  delta: 5.5
   facets:
     commercial_clarity: 0.0
-    contract_quality: 60.2
+    contract_quality: 69.0
     developer_ergonomics: 26.1
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 15.8
   previous_composite: 38.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ron-swanson-quotes/refs/heads/main/screenshots/ron-swanson-quotes-2026-06-20T193218.png
 security:
 - kind: domain-security

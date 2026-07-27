@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -154,23 +154,23 @@ rules:
   slug: evolutionaryscale-rules
 score:
   band: developing
-  composite: 45.3
-  delta: -1.5
+  composite: 48.9
+  delta: 3.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.1
+    contract_quality: 77.0
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 31.6
-  previous_composite: 46.8
+  previous_composite: 45.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evolutionaryscale/refs/heads/main/screenshots/evolutionaryscale-2026-06-20T180917.png
 security:

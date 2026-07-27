@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: high
-  generated: '2026-07-22'
   label: Freemium · Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: freemium
   public: false
@@ -12,17 +10,328 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 64.4
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 88
+  human_in_the_loop: 3
+  name: Signoz Agentic Access
+  operation_count: 161
+  slug: signoz-agentic-access
+  summary_line: 161 operations · 88 acting · 3 human-in-the-loop
 api_count: 29
-artifact_total: 0
+apis:
+- description: The alerts API from SigNoz — 1 operation(s) for alerts.
+  name: SigNoz alerts API
+  slug: signoz-alerts-api
+- description: The authdomains API from SigNoz — 2 operation(s) for authdomains.
+  name: SigNoz authdomains API
+  slug: signoz-authdomains-api
+- description: The authz API from SigNoz — 2 operation(s) for authz.
+  name: SigNoz authz API
+  slug: signoz-authz-api
+- description: The channels API from SigNoz — 4 operation(s) for channels.
+  name: SigNoz channels API
+  slug: signoz-channels-api
+- description: The cloudintegration API from SigNoz — 8 operation(s) for cloudintegration.
+  name: SigNoz cloudintegration API
+  slug: signoz-cloudintegration-api
+- description: The dashboard API from SigNoz — 3 operation(s) for dashboard.
+  name: SigNoz dashboard API
+  slug: signoz-dashboard-api
+- description: The downtimeschedules API from SigNoz — 2 operation(s) for downtimeschedules.
+  name: SigNoz downtimeschedules API
+  slug: signoz-downtimeschedules-api
+- description: The features API from SigNoz — 1 operation(s) for features.
+  name: SigNoz features API
+  slug: signoz-features-api
+- description: The fields API from SigNoz — 2 operation(s) for fields.
+  name: SigNoz fields API
+  slug: signoz-fields-api
+- description: The gateway API from SigNoz — 5 operation(s) for gateway.
+  name: SigNoz gateway API
+  slug: signoz-gateway-api
+- description: The global API from SigNoz — 1 operation(s) for global.
+  name: SigNoz global API
+  slug: signoz-global-api
+- description: The health API from SigNoz — 3 operation(s) for health.
+  name: SigNoz health API
+  slug: signoz-health-api
+- description: The inframonitoring API from SigNoz — 2 operation(s) for inframonitoring.
+  name: SigNoz inframonitoring API
+  slug: signoz-inframonitoring-api
+- description: The llmpricingrules API from SigNoz — 2 operation(s) for llmpricingrules.
+  name: SigNoz llmpricingrules API
+  slug: signoz-llmpricingrules-api
+- description: The logs API from SigNoz — 2 operation(s) for logs.
+  name: SigNoz logs API
+  slug: signoz-logs-api
+- description: The metrics API from SigNoz — 10 operation(s) for metrics.
+  name: SigNoz metrics API
+  slug: signoz-metrics-api
+- description: The orgs API from SigNoz — 1 operation(s) for orgs.
+  name: SigNoz orgs API
+  slug: signoz-orgs-api
+- description: The preferences API from SigNoz — 4 operation(s) for preferences.
+  name: SigNoz preferences API
+  slug: signoz-preferences-api
+- description: The querier API from SigNoz — 2 operation(s) for querier.
+  name: SigNoz querier API
+  slug: signoz-querier-api
+- description: The role API from SigNoz — 3 operation(s) for role.
+  name: SigNoz role API
+  slug: signoz-role-api
+- description: The routepolicies API from SigNoz — 2 operation(s) for routepolicies.
+  name: SigNoz routepolicies API
+  slug: signoz-routepolicies-api
+- description: The rules API from SigNoz — 9 operation(s) for rules.
+  name: SigNoz rules API
+  slug: signoz-rules-api
+- description: The serviceaccount API from SigNoz — 7 operation(s) for serviceaccount.
+  name: SigNoz serviceaccount API
+  slug: signoz-serviceaccount-api
+- description: The sessions API from SigNoz — 7 operation(s) for sessions.
+  name: SigNoz sessions API
+  slug: signoz-sessions-api
+- description: The spanmapper API from SigNoz — 4 operation(s) for spanmapper.
+  name: SigNoz spanmapper API
+  slug: signoz-spanmapper-api
+- description: The tracedetail API from SigNoz — 1 operation(s) for tracedetail.
+  name: SigNoz tracedetail API
+  slug: signoz-tracedetail-api
+- description: The traces API from SigNoz — 1 operation(s) for traces.
+  name: SigNoz traces API
+  slug: signoz-traces-api
+- description: The users API from SigNoz — 16 operation(s) for users.
+  name: SigNoz users API
+  slug: signoz-users-api
+- description: The zeus API from SigNoz — 2 operation(s) for zeus.
+  name: SigNoz zeus API
+  slug: signoz-zeus-api
+artifact_total: 59
+collections:
+- collection_type: open
+  name: SigNoz
+  slug: open-signoz
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/signoz-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/signoz-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/signoz-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/signozio
+- group: company
+  title: ''
+  type: Website
+  url: https://signoz.io
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://signoz.io/docs/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://signoz.io/api-reference/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/SigNoz
+- group: company
+  title: ''
+  type: Blog
+  url: https://signoz.io/blog/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://signoz.io/pricing/
+- group: operate
+  title: ''
+  type: Support
+  url: https://signoz.io/support/
+- group: operate
+  title: ''
+  type: Community
+  url: https://signoz.io/slack/
+- group: other
+  title: ''
+  type: Enterprise
+  url: https://signoz.io/enterprise/
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://signoz.io/changelog/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.signoz.io/
+- group: agent
+  title: ''
+  type: MCPServer
+  url: https://github.com/SigNoz/signoz-mcp-server
+- group: agent
+  title: ''
+  type: AgentSkills
+  url: https://github.com/SigNoz/agent-skills
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://signoz.io/llms.txt
 created: '2026-03-25'
 description: SigNoz is an open source observability platform with logs, traces, and metrics in a single pane, built natively on OpenTelemetry. It is a full-stack open-source APM and observability tool that serves as an open-source alternative to DataDog, NewRelic, and other proprietary monitoring solutions. SigNoz provides distributed tracing, log management, infrastructure monitoring, and alerting capabilities unified under a single interface.
+examples:
+- key_count: 3
+  name: Signoz Create Alert Example
+  slug: signoz-create-alert-example
+- key_count: 3
+  name: Signoz List Ingestion Keys Example
+  slug: signoz-list-ingestion-keys-example
+- key_count: 3
+  name: Signoz Query Traces Example
+  slug: signoz-query-traces-example
+finops:
+- name: Signoz Finops
+  service_category: API
+  slug: signoz-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/signoz.png
+json_schemas:
+- name: SigNoz Alert
+  property_count: 15
+  slug: signoz-alert
+- name: SigNoz Dashboard
+  property_count: 9
+  slug: signoz-dashboard
+- name: SigNoz Ingestion Key
+  property_count: 7
+  slug: signoz-ingestion-key
+json_structures:
+- name: Signoz Alert Structure
+  property_count: 0
+  slug: signoz-alert-structure
+- name: Signoz Dashboard Structure
+  property_count: 0
+  slug: signoz-dashboard-structure
+jsonld:
+- class_count: 35
+  name: Signoz Context
+  property_count: 3
+  slug: signoz-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: SigNoz
 nav: Providers
 network: true
-random_paper: 3
+overview: 'SigNoz publishes 29 APIs on the [APIs.io](https://apis.io/) network, including alerts API, authdomains API, authz API, and 26 more. Tagged areas include APM, Alerting, Cloud Monitoring, Dashboards, and Distributed Tracing.
+
+
+  The SigNoz catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  SigNoz''s developer surface includes authentication, documentation, API reference, engineering blog, pricing, support, changelog, and 11 more developer resources.'
+plans:
+- name: Signoz Plans Pricing
+  plan_count: 3
+  slug: signoz-plans-pricing
+random_paper: 54
+rate_limits:
+- limit_count: 5
+  name: Signoz Rate Limits
+  slug: signoz-rate-limits
+rules:
+- name: SigNoz API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: signoz-jsonschema-spectral-rules
+- name: SigNoz API Rules
+  rule_count: 8
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 6
+  slug: signoz-rules
+score:
+  band: strong
+  composite: 61.1
+  delta: 3.3
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 60.4
+    developer_ergonomics: 41.3
+    discoverability: 100.0
+    governance: 73.7
+    operational_transparency: 68.4
+  previous_composite: 57.8
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/signoz/refs/heads/main/screenshots/signoz-2026-06-20T193914.png
+security:
+- kind: authentication
+  name: Signoz Authentication
+  slug: signoz-authentication
+  summary_line: apiKey/http · 2 schemes
+- kind: domain-security
+  name: Signoz Domain Security
+  slug: signoz-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+skill_count: 11
+skills:
+- name: signoz-creating-alerts
+  slug: signoz-creating-alerts
+- name: signoz-creating-dashboards
+  slug: signoz-creating-dashboards
+- name: signoz-explaining-alerts
+  slug: signoz-explaining-alerts
+- name: signoz-explaining-dashboards
+  slug: signoz-explaining-dashboards
+- name: signoz-generating-queries
+  slug: signoz-generating-queries
+- name: signoz-investigating-alerts
+  slug: signoz-investigating-alerts
+- name: signoz-managing-views
+  slug: signoz-managing-views
+- name: signoz-mcp-setup
+  slug: signoz-mcp-setup
+- name: signoz-modifying-dashboards
+  slug: signoz-modifying-dashboards
+- name: signoz-searching-docs
+  slug: signoz-searching-docs
+- name: signoz-writing-clickhouse-queries
+  slug: signoz-writing-clickhouse-queries
 slug: signoz
 tags:
 - APM
@@ -36,4 +345,5 @@ tags:
 - Observability
 - OpenTelemetry
 - Open Source
+website: https://signoz.io
 ---

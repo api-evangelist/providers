@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'OAuth 2.0 protected REST API for the AstroPrint cloud 3D printing platform. Manage printers, designs, and print jobs. Confirmed live: https://api.astroprint.com/v2/printers returns HTTP 401 without a '
@@ -106,7 +106,7 @@ overview: '3DaGoGo publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   3DaGoGo''s developer surface includes documentation, API reference, engineering blog, support, signup flow, pricing, and 9 more developer resources.'
-random_paper: 13
+random_paper: 64
 score:
   band: emerging
   composite: 24.1
@@ -120,8 +120,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 24.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/3dagogo/refs/heads/main/screenshots/3dagogo-2026-07-25T181146.png
 security:
 - kind: authentication
   name: 3Dagogo Authentication

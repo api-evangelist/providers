@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 56.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: The Agent API from Sobot — 1 operation(s) for agent.
@@ -178,7 +178,7 @@ overview: 'Sobot publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Sobot''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: developing
   composite: 49.4
@@ -192,7 +192,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 49.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

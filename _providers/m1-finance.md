@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: M1 Invest provides automated fractional share portfolio management using the Pies system, allowing users to set target allocations across stocks and ETFs with dynamic rebalancing, auto-invest, and div
@@ -112,7 +112,7 @@ plans:
 - name: M1 Finance Plans Pricing
   plan_count: 1
   slug: m1-finance-plans-pricing
-random_paper: 9
+random_paper: 43
 rate_limits:
 - limit_count: 0
   name: M1 Finance Rate Limits
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.3
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -128,14 +128,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 22.8
+  previous_composite: 21.3
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/m1-finance/refs/heads/main/screenshots/m1-finance-2026-06-20T184822.png
 security:

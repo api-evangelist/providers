@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Enables incorporation partners and law firms to programmatically onboard new companies onto the Carta platform, streamlining the company formation and cap table initialisation workflow.
@@ -126,7 +126,7 @@ plans:
 - name: Carta Plans Pricing
   plan_count: 3
   slug: carta-plans-pricing
-random_paper: 13
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Carta Rate Limits
@@ -144,7 +144,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 30.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carta/refs/heads/main/screenshots/carta-2026-06-20T174019.png
 security:

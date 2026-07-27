@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 81.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 0
@@ -266,7 +266,7 @@ overview: 'Catchpoint Systems publishes 31 APIs on the [APIs.io](https://apis.io
 
 
   Catchpoint Systems'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 19
+random_paper: 2
 score:
   band: developing
   composite: 52.4
@@ -280,8 +280,9 @@ score:
     operational_transparency: 23.7
   previous_composite: 52.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/catchpoint-systems/refs/heads/main/screenshots/catchpoint-systems-2026-07-25T204812.png
 security:
 - kind: authentication
   name: Catchpoint Systems Authentication

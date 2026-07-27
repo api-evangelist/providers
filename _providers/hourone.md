@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -163,7 +163,7 @@ overview: 'Hourone publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Hourone''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 15 more developer resources.'
-random_paper: 3
+random_paper: 20
 score:
   band: thin
   composite: 44.0
@@ -177,8 +177,9 @@ score:
     operational_transparency: 13.2
   previous_composite: 44.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hourone/refs/heads/main/screenshots/hourone-2026-07-25T221530.png
 security:
 - kind: authentication
   name: Hourone Authentication

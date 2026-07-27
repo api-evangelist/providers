@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -335,7 +335,7 @@ plans:
 - name: Acord Plans Pricing
   plan_count: 1
   slug: acord-plans-pricing
-random_paper: 11
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Acord Rate Limits
@@ -364,23 +364,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 51.9
-  delta: 1.2
+  composite: 56.5
+  delta: 4.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 71.7
+    contract_quality: 80.5
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 5.3
-  previous_composite: 50.7
+  previous_composite: 51.9
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

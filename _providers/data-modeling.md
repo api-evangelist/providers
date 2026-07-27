@@ -20,7 +20,7 @@ modified: '2026-04-30'
 name: Data Modeling
 nav: Providers
 network: true
-random_paper: 27
+random_paper: 10
 slug: data-modeling
 tags:
 - Data Architecture

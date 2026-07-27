@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ plans:
 - name: 6Sense Plans Pricing
   plan_count: 4
   slug: 6sense-plans-pricing
-random_paper: 35
+random_paper: 52
 rate_limits:
 - limit_count: 6
   name: 6Sense Rate Limits
@@ -198,18 +198,18 @@ rules:
   slug: 6sense-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.0
-  delta: 0.0
+  composite: 58.2
+  delta: 4.2
   facets:
     commercial_clarity: 57.9
-    contract_quality: 61.7
+    contract_quality: 70.5
     developer_ergonomics: 34.8
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 54.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/6sense/refs/heads/main/screenshots/6sense-2026-06-20T162740.png
 security:

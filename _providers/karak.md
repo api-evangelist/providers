@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -85,7 +85,7 @@ overview: 'Karak is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Karak''s developer surface includes documentation, getting-started guide, engineering blog, and 8 more developer resources.'
-random_paper: 12
+random_paper: 46
 score:
   band: emerging
   composite: 18.4
@@ -99,8 +99,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/karak/refs/heads/main/screenshots/karak-2026-07-25T223500.png
 security:
 - kind: domain-security
   name: Karak Domain Security

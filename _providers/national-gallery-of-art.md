@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ random_paper: 37
 score:
   band: minimal
   composite: 9.2
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -85,14 +85,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.5
+  previous_composite: 9.2
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-gallery-of-art/refs/heads/main/screenshots/national-gallery-of-art-2026-06-20T190020.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,11 +93,11 @@ overview: '10x Genomics is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   10x Genomics'' developer surface includes documentation, support, engineering blog, and 10 more developer resources.'
-random_paper: 44
+random_paper: 27
 score:
   band: emerging
   composite: 20.2
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -105,15 +105,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 16.1
+  previous_composite: 20.2
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/10x-genomics/refs/heads/main/screenshots/10x-genomics-2026-07-25T181057.png
 security:
 - kind: domain-security
   name: 10X Genomics Domain Security

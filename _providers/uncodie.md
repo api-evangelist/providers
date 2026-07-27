@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Core Makinari platform API covering Visitors (tracking and identification), Finder (contact and company search), Robots (browser-automation instances), Instances, Requirements, and Secure Tokens. API-
@@ -176,7 +176,7 @@ overview: 'Uncodie (now Makinari) publishes 2 APIs on the [APIs.io](https://apis
 
 
   Uncodie (now Makinari)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 29
+random_paper: 63
 score:
   band: thin
   composite: 43.1
@@ -190,7 +190,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 43.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

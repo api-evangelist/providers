@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,7 +81,7 @@ overview: 'Elementary is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Elementary''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 7
+random_paper: 58
 score:
   band: minimal
   composite: 10.2
@@ -95,8 +95,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/elementary/refs/heads/main/screenshots/elementary-2026-07-25T213123.png
 security:
 - kind: domain-security
   name: Elementary Domain Security

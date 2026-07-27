@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 15.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for programmatically uploading and processing video, managing templates/branding/output settings, retrieving results, and accessing analytics. Bearer API-key authentication with signed webhoo
@@ -101,7 +101,7 @@ overview: 'JoySpace Technologies, Inc. publishes 1 API on the [APIs.io](https://
 
 
   JoySpace Technologies, Inc.''s developer surface includes documentation, API reference, pricing, signup flow, engineering blog, support, authentication, and 5 more developer resources.'
-random_paper: 0
+random_paper: 34
 score:
   band: thin
   composite: 31.4
@@ -115,8 +115,9 @@ score:
     operational_transparency: 7.9
   previous_composite: 31.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/joyspace-technologies-inc/refs/heads/main/screenshots/joyspace-technologies-inc-2026-07-25T223249.png
 security:
 - kind: authentication
   name: Joyspace Technologies Inc Authentication

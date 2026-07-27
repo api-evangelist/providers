@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Navattic REST API allows developers to programmatically create and manage interactive product demos, retrieve analytics and engagement data, and integrate demo activity into downstream systems. Th
@@ -140,7 +140,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 27.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/navattic/refs/heads/main/screenshots/navattic-2026-06-20T190058.png
 security:

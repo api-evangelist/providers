@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -112,7 +112,7 @@ plans:
 - name: Glhf Chat Plans Pricing
   plan_count: 2
   slug: glhf-chat-plans-pricing
-random_paper: 11
+random_paper: 62
 rate_limits:
 - limit_count: 3
   name: Glhf Chat Rate Limits
@@ -128,18 +128,18 @@ rules:
   slug: glhf-chat-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 41.1
-  delta: 0.0
+  composite: 44.4
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 72.6
     developer_ergonomics: 19.6
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 26.3
     operational_transparency: 31.6
   previous_composite: 41.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -65,11 +65,11 @@ overview: 'Rally Rd is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Rally Rd''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 42
+random_paper: 59
 score:
   band: emerging
   composite: 15.3
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -77,14 +77,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.9
+  previous_composite: 15.3
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 17.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: rally-rd
 tags:

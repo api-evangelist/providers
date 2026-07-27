@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -410,7 +410,7 @@ plans:
 - name: Shareworks Plans Pricing
   plan_count: 2
   slug: shareworks-plans-pricing
-random_paper: 26
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Shareworks Rate Limits
@@ -437,7 +437,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 48.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shareworks/refs/heads/main/screenshots/shareworks-2026-06-20T193746.png
 security:

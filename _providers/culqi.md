@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 7
@@ -270,7 +270,7 @@ plans:
 - name: Culqi Plans Pricing
   plan_count: 5
   slug: culqi-plans-pricing
-random_paper: 32
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Culqi Rate Limits
@@ -278,7 +278,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 71.6
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
     contract_quality: 66.4
@@ -286,15 +286,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 70.4
+  previous_composite: 71.6
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/culqi/refs/heads/main/screenshots/culqi-2026-07-25T210916.png
 security:
 - kind: authentication
   name: Culqi Authentication

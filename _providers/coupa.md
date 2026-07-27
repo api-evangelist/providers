@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 55.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -363,7 +363,7 @@ plans:
 - name: Coupa Plans Pricing
   plan_count: 1
   slug: coupa-plans-pricing
-random_paper: 26
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Coupa Rate Limits
@@ -392,18 +392,18 @@ scopes:
   summary_line: 8 scopes · clientCredentials
 score:
   band: developing
-  composite: 54.8
-  delta: 0.0
+  composite: 59.6
+  delta: 4.8
   facets:
     commercial_clarity: 57.9
-    contract_quality: 69.9
+    contract_quality: 78.8
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 34.2
     operational_transparency: 57.9
   previous_composite: 54.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coupa/refs/heads/main/screenshots/coupa-2026-06-20T175107.png
 security:

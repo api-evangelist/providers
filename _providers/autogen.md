@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: AutoGen is a Microsoft framework for building multi-agent conversational AI systems.
@@ -66,7 +66,7 @@ plans:
 - name: Autogen Plans Pricing
   plan_count: 3
   slug: autogen-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Autogen Rate Limits
@@ -84,7 +84,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 19.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autogen/refs/heads/main/screenshots/autogen-2026-06-20T172641.png
 slug: autogen

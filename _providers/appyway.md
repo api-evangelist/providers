@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 69
   human_in_the_loop: 0
@@ -251,7 +251,7 @@ plans:
 - name: Appyway Plans Pricing
   plan_count: 1
   slug: appyway-plans-pricing
-random_paper: 14
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Appyway Rate Limits
@@ -279,19 +279,19 @@ scopes:
   slug: appyway-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: thin
-  composite: 43.6
-  delta: 0.0
+  band: developing
+  composite: 46.2
+  delta: 2.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 65.0
+    contract_quality: 70.3
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 43.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appyway/refs/heads/main/screenshots/appyway-2026-06-20T172339.png
 security:

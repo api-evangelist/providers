@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Amgen discovers, develops, manufactures, and delivers innovative biologic medicines for patients with serious illnesses. The company does not currently publish a public developer API.
@@ -127,7 +127,7 @@ press:
 - date: '2026-05-25'
   title: 'On the Global Stage: Amgen''s Top Voices Drive ...'
   url: https://www.amgen.com/stories/2025/05/on-the-global-stage-amgens-top-voices-drive-conversations-on-ai-and-innovation
-random_paper: 10
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Amgen Rate Limits
@@ -135,7 +135,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.4
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -143,14 +143,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 25.7
+  previous_composite: 26.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amgen/refs/heads/main/screenshots/amgen-2026-06-20T171930.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -235,7 +235,7 @@ overview: 'Augustus publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Augustus'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, sandbox, and 26 more developer resources.'
-random_paper: 30
+random_paper: 13
 scopes:
 - name: Augustus Scopes
   scope_count: 16
@@ -244,7 +244,7 @@ scopes:
 score:
   band: developing
   composite: 56.1
-  delta: 3.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 63.7
@@ -252,15 +252,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 52.5
+  previous_composite: 56.1
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/augustus/refs/heads/main/screenshots/augustus-2026-07-25T201725.png
 security:
 - kind: authentication
   name: Augustus Authentication

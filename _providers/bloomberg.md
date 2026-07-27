@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 84.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -52,7 +52,7 @@ apis:
 - description: The Bloomberg Open API (BLPAPI) Core — the foundational service-oriented, socket-based API used by the Desktop API, Server API (SAPI), B-PIPE, and Bloomberg Platform products. Provides Request/Respons
   name: Bloomberg BLPAPI Core
   slug: bloomberg-blpapi-core
-artifact_total: 53
+artifact_total: 54
 asyncapis:
 - description: Event surface of the Bloomberg Open API (BLPAPI) Subscription paradigm. Clients call Session.subscribe(SubscriptionList) over a BLPAPI SDK session (Desktop API localhost:8194 or SAPI/B-PIPE host); str
   name: Bloomberg BLPAPI Market Data Subscriptions
@@ -296,6 +296,10 @@ jsonld:
   property_count: 0
   slug: blpapi-core-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: bloomberg-mcp.yml
+  slug: bloomberg-mcpyml
 modified: '2026-06-20'
 name: Bloomberg
 nav: Providers
@@ -311,7 +315,7 @@ plans:
 - name: Bloomberg Plans Pricing
   plan_count: 2
   slug: bloomberg-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Bloomberg Rate Limits
@@ -340,23 +344,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode/refreshToken
 score:
   band: exemplar
-  composite: 72.9
-  delta: 2.8
+  composite: 76.5
+  delta: 3.6
   facets:
     commercial_clarity: 63.2
-    contract_quality: 69.0
+    contract_quality: 77.9
     developer_ergonomics: 73.9
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 63.2
-  previous_composite: 70.1
+  previous_composite: 72.9
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 89.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png
 security:

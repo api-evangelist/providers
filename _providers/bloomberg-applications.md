@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Provides programmatic access to Bloomberg's financial market data including real-time and historical pricing, reference data, and analytics.
@@ -93,7 +93,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.1
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -101,14 +101,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 27.7
+  previous_composite: 30.1
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-applications/refs/heads/main/screenshots/bloomberg-applications-2026-06-20T173410.png
 security:

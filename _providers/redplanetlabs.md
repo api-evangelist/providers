@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 37.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: In-cluster HTTP+JSON RPC surface exposed by Rama Supervisors (default port 2000) for appending to depots, querying PStates by navigation path, and invoking query topologies. POST-only; no application-
@@ -138,7 +138,7 @@ overview: 'Redplanetlabs publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Redplanetlabs'' developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, CLI, authentication, and 15 more developer resources.'
-random_paper: 0
+random_paper: 17
 score:
   band: emerging
   composite: 26.3
@@ -152,7 +152,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 26.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

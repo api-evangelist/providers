@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -105,11 +105,11 @@ press:
 - date: '2026-05-25'
   title: Q1 2026 CNO Financial Group Inc Earnings Call
   url: https://s28.q4cdn.com/966891126/files/doc_financials/2026/q1/CNO-USQ_Transcript_2026-05-01.pdf
-random_paper: 13
+random_paper: 64
 score:
   band: minimal
   composite: 11.5
-  delta: 1.8
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -117,14 +117,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.7
+  previous_composite: 11.5
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cno-financial-group/refs/heads/main/screenshots/cno-financial-group-2026-06-20T174640.png
 security:

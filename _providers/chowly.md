@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -123,19 +123,20 @@ rate_limits:
   slug: chowly-rate-limits
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 38.1
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 58.4
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 34.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/chowly/refs/heads/main/screenshots/chowly-2026-07-25T205258.png
 security:
 - kind: authentication
   name: Chowly Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: Full-text search over asset payloads.
@@ -112,7 +112,7 @@ overview: 'Bigchaindb publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Bigchaindb''s developer surface includes documentation, getting-started guide, engineering blog, and 9 more developer resources.'
-random_paper: 50
+random_paper: 67
 score:
   band: thin
   composite: 35.1
@@ -126,8 +126,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 35.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bigchaindb/refs/heads/main/screenshots/bigchaindb-2026-07-25T202922.png
 security:
 - kind: authentication
   name: Bigchaindb Authentication

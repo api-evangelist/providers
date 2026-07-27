@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: 'Modeled partner-gated surface for submitting laboratory requisitions (test orders) electronically to Antech''s reference lab from a veterinary PIMS. Carries the ordering clinic, patient, and requested '
@@ -96,8 +96,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/antech-diagnostics/refs/heads/main/screenshots/antech-diagnostics-2026-07-25T200433.png
 security:
 - kind: domain-security
   name: Antech Diagnostics Domain Security

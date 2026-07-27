@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ plans:
 - name: Koala Plans Pricing
   plan_count: 4
   slug: koala-plans-pricing
-random_paper: 10
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Koala Rate Limits
@@ -201,7 +201,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 56.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/koala/refs/heads/main/screenshots/koala-2026-06-20T184118.png
 security:

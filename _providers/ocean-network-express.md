@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -114,7 +114,7 @@ overview: 'Ocean Network Express is profiled on the [APIs.io](https://apis.io/) 
 
 
   Ocean Network Express'' developer surface includes product news, GitHub presence, YouTube channel, and 15 more developer resources.'
-random_paper: 22
+random_paper: 56
 score:
   band: minimal
   composite: 9.2
@@ -128,7 +128,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ocean-network-express/refs/heads/main/screenshots/ocean-network-express-2026-06-20T190604.png
 security:

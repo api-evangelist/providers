@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -140,25 +140,25 @@ plans:
 - name: Mapquest Plans Pricing
   plan_count: 3
   slug: mapquest-plans-pricing
-random_paper: 13
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Mapquest Rate Limits
   slug: mapquest-rate-limits
 score:
-  band: thin
-  composite: 41.9
-  delta: 0.0
+  band: developing
+  composite: 45.1
+  delta: 3.2
   facets:
     commercial_clarity: 73.7
     contract_quality: 41.6
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 41.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mapquest/refs/heads/main/screenshots/mapquest-2026-06-20T184933.png
 security:

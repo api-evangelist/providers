@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 50
 apis:
 - description: The Analytics API from Wispr AI — 3 operation(s) for analytics.
@@ -313,7 +313,7 @@ overview: 'Wispr AI publishes 50 APIs on the [APIs.io](https://apis.io/) network
 
 
   Wispr AI''s developer surface includes engineering blog, pricing, support, signup flow, changelog, authentication, and 23 more developer resources.'
-random_paper: 47
+random_paper: 64
 score:
   band: developing
   composite: 47.1
@@ -327,7 +327,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 47.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

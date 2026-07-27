@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 76
   human_in_the_loop: 2
@@ -1373,7 +1373,7 @@ plans:
 - name: Envestnet Plans Pricing
   plan_count: 2
   slug: envestnet-plans-pricing
-random_paper: 19
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Envestnet Rate Limits
@@ -1390,7 +1390,7 @@ rules:
 score:
   band: developing
   composite: 46.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 52.4
@@ -1398,14 +1398,14 @@ score:
     discoverability: 75.0
     governance: 73.7
     operational_transparency: 42.1
-  previous_composite: 47.1
+  previous_composite: 46.6
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envestnet/refs/heads/main/screenshots/envestnet-2026-06-20T180737.png
 security:

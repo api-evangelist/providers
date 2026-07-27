@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Medtronic API provides access to platform services and data for enterprise integration and automation.
@@ -74,7 +74,7 @@ plans:
 - name: Medtronic Plans Pricing
   plan_count: 1
   slug: medtronic-plans-pricing
-random_paper: 47
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Medtronic Rate Limits
@@ -82,7 +82,7 @@ rate_limits:
 score:
   band: emerging
   composite: 15.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -90,14 +90,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 16.4
+  previous_composite: 15.9
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medtronic/refs/heads/main/screenshots/medtronic-2026-06-20T185126.png
 security:

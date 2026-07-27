@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: high
-  generated: '2026-07-22'
   label: Free · Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: free
   public: false
@@ -12,17 +10,228 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 92
+  human_in_the_loop: 0
+  name: Braintrust Agentic Access
+  operation_count: 208
+  slug: braintrust-agentic-access
+  summary_line: 208 operations · 92 acting
 api_count: 29
-artifact_total: 0
+apis:
+- description: The Braintrust REST API provides programmatic access to projects, experiments, datasets, prompts, functions, logs, and organization resources. It supports both US (api.braintrust.dev) and EU (api-eu.b
+  name: Braintrust API
+  slug: braintrust-api
+- description: The Acls API from Braintrust — 4 operation(s) for acls.
+  name: Braintrust Acls API
+  slug: braintrust-acls-api
+- description: The AiSecrets API from Braintrust — 2 operation(s) for aisecrets.
+  name: Braintrust AiSecrets API
+  slug: braintrust-aisecrets-api
+- description: The ApiKeys API from Braintrust — 2 operation(s) for apikeys.
+  name: Braintrust ApiKeys API
+  slug: braintrust-apikeys-api
+- description: The CORS API from Braintrust — 65 operation(s) for cors.
+  name: Braintrust CORS API
+  slug: braintrust-cors-api
+- description: The CrossObject API from Braintrust — 1 operation(s) for crossobject.
+  name: Braintrust CrossObject API
+  slug: braintrust-crossobject-api
+- description: The Datasets API from Braintrust — 6 operation(s) for datasets.
+  name: Braintrust Datasets API
+  slug: braintrust-datasets-api
+- description: The DatasetSnapshots API from Braintrust — 2 operation(s) for datasetsnapshots.
+  name: Braintrust DatasetSnapshots API
+  slug: braintrust-datasetsnapshots-api
+- description: The Environments API from Braintrust — 2 operation(s) for environments.
+  name: Braintrust Environments API
+  slug: braintrust-environments-api
+- description: The EnvVars API from Braintrust — 2 operation(s) for envvars.
+  name: Braintrust EnvVars API
+  slug: braintrust-envvars-api
+- description: The Evals API from Braintrust — 1 operation(s) for evals.
+  name: Braintrust Evals API
+  slug: braintrust-evals-api
+- description: The Experiments API from Braintrust — 6 operation(s) for experiments.
+  name: Braintrust Experiments API
+  slug: braintrust-experiments-api
+- description: The Functions API from Braintrust — 3 operation(s) for functions.
+  name: Braintrust Functions API
+  slug: braintrust-functions-api
+- description: The Groups API from Braintrust — 2 operation(s) for groups.
+  name: Braintrust Groups API
+  slug: braintrust-groups-api
+- description: The Logs API from Braintrust — 3 operation(s) for logs.
+  name: Braintrust Logs API
+  slug: braintrust-logs-api
+- description: The McpServers API from Braintrust — 2 operation(s) for mcpservers.
+  name: Braintrust McpServers API
+  slug: braintrust-mcpservers-api
+- description: The Organizations API from Braintrust — 3 operation(s) for organizations.
+  name: Braintrust Organizations API
+  slug: braintrust-organizations-api
+- description: The Other API from Braintrust — 1 operation(s) for other.
+  name: Braintrust Other API
+  slug: braintrust-other-api
+- description: The ProjectAutomations API from Braintrust — 2 operation(s) for projectautomations.
+  name: Braintrust ProjectAutomations API
+  slug: braintrust-projectautomations-api
+- description: The Projects API from Braintrust — 2 operation(s) for projects.
+  name: Braintrust Projects API
+  slug: braintrust-projects-api
+- description: The ProjectScores API from Braintrust — 2 operation(s) for projectscores.
+  name: Braintrust ProjectScores API
+  slug: braintrust-projectscores-api
+- description: The ProjectTags API from Braintrust — 2 operation(s) for projecttags.
+  name: Braintrust ProjectTags API
+  slug: braintrust-projecttags-api
+- description: The Prompts API from Braintrust — 2 operation(s) for prompts.
+  name: Braintrust Prompts API
+  slug: braintrust-prompts-api
+- description: The Proxy API from Braintrust — 6 operation(s) for proxy.
+  name: Braintrust Proxy API
+  slug: braintrust-proxy-api
+- description: The Roles API from Braintrust — 2 operation(s) for roles.
+  name: Braintrust Roles API
+  slug: braintrust-roles-api
+- description: The ServiceTokens API from Braintrust — 2 operation(s) for servicetokens.
+  name: Braintrust ServiceTokens API
+  slug: braintrust-servicetokens-api
+- description: The SpanIframes API from Braintrust — 2 operation(s) for spaniframes.
+  name: Braintrust SpanIframes API
+  slug: braintrust-spaniframes-api
+- description: The Users API from Braintrust — 2 operation(s) for users.
+  name: Braintrust Users API
+  slug: braintrust-users-api
+- description: The Views API from Braintrust — 2 operation(s) for views.
+  name: Braintrust Views API
+  slug: braintrust-views-api
+artifact_total: 36
+collections:
+- collection_type: open
+  name: Braintrust API
+  slug: open-braintrust
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/braintrust-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/braintrust-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/braintrust-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.braintrust.dev
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.braintrust.dev/docs
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.braintrust.dev/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/braintrustdata
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.braintrust.dev/pricing
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.braintrust.dev/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.braintrust.dev/legal/privacy
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/braintrustdata
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/braintrustdata
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.braintrust.dev/changelog
 created: '2026-05-23'
 description: Braintrust is an enterprise-grade AI observability and evaluation platform for teams building LLM applications. It provides experiment tracking, dataset management, production tracing, prompt versioning, online and offline scoring, and human review workflows. Customers include AI-native startups and large enterprises that need to compare models, iterate on prompts, catch regressions, and leverage real user data to continuously improve their AI features. Braintrust offers a SaaS platform, plus self-hosted deployments in AWS, GCP, and Azure, and monetizes through usage-based pricing tied to spans and seats.
+finops:
+- name: Braintrust Finops
+  service_category: API
+  slug: braintrust-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/braintrust.png
 layout: provider
 modified: '2026-05-23'
 name: Braintrust
 nav: Providers
 network: true
-random_paper: 31
+overview: 'Braintrust publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Acls API, AiSecrets API, ApiKeys API, and 25 more. Tagged areas include Artificial Intelligence, LLM, Observability, Evaluation, and Experiments.
+
+
+  Braintrust''s developer surface includes authentication, documentation, engineering blog, pricing, changelog, and 8 more developer resources.'
+plans:
+- name: Braintrust Plans Pricing
+  plan_count: 1
+  slug: braintrust-plans-pricing
+random_paper: 14
+rate_limits:
+- limit_count: 2
+  name: Braintrust Rate Limits
+  slug: braintrust-rate-limits
+score:
+  band: developing
+  composite: 45.8
+  delta: 3.3
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 55.4
+    developer_ergonomics: 21.7
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 42.1
+  previous_composite: 42.5
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/braintrust/refs/heads/main/screenshots/braintrust-2026-06-20T173630.png
+security:
+- kind: authentication
+  name: Braintrust Authentication
+  slug: braintrust-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Braintrust Domain Security
+  slug: braintrust-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: braintrust
 tags:
 - Artificial Intelligence
@@ -37,4 +246,5 @@ tags:
 - Scoring
 - AI Engineering
 - Generative AI
+website: https://www.braintrust.dev
 ---

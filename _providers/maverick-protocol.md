@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Latest API from Maverick Protocol — 1 operation(s) for latest.
@@ -89,11 +89,11 @@ overview: 'Maverick Protocol publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Maverick Protocol''s developer surface includes documentation, API reference, getting-started guide, signup flow, and 7 more developer resources.'
-random_paper: 43
+random_paper: 9
 score:
   band: thin
   composite: 31.7
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 54.0
@@ -101,14 +101,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 32.7
+  previous_composite: 31.7
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

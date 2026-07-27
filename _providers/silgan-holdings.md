@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -106,7 +106,7 @@ press:
 - date: '2026-05-25'
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/849869/000084986924000067/slgn-20240507.htm
-random_paper: 9
+random_paper: 43
 score:
   band: minimal
   composite: 10.5
@@ -120,7 +120,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

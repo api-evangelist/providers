@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: RESTful API for the Wild Apricot small-association product, secured with OAuth 2.0 against base https://api.wildapricot.org (versioned paths such as /v2.2/accounts/{accountId}/...). Split into an admi
@@ -75,7 +75,7 @@ plans:
 - name: Personifycorp Plans Pricing
   plan_count: 0
   slug: personifycorp-plans-pricing
-random_paper: 50
+random_paper: 67
 score:
   band: minimal
   composite: 11.7
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

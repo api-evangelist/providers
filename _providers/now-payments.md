@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ rules:
 score:
   band: developing
   composite: 51.4
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 61.4
@@ -201,14 +201,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 0.0
-  previous_composite: 52.8
+  previous_composite: 51.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/now-payments/refs/heads/main/screenshots/now-payments-2026-06-20T190442.png
 security:

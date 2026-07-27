@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: 'REST API for relevance-scored, ticker-linked financial news with nine stable endpoints covering news feeds, trending, insider (SEC Form 4) data, symbols, and sentiment/insider rollups. API key bearer '
@@ -47,11 +47,11 @@ name: AlphaAI
 nav: Providers
 network: true
 overview: 'AlphaAI publishes 1 API on the [APIs.io](https://apis.io/) network: REST API. Tagged areas include Financial News, Stock Market, SEC Filings, Insider Trading, and Fintech.'
-random_paper: 6
+random_paper: 40
 score:
   band: emerging
   composite: 15.9
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 37.7
@@ -59,14 +59,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.7
+  previous_composite: 15.9
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 0.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: alphaai
 tags:

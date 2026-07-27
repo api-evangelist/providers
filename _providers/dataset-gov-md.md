@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: CKAN Action API for dataset.gov.md, a consistent JSON-over-HTTP interface over a catalog of roughly 1,275 datasets. Standard actions include package_search, package_show, package_list, organization_li
@@ -61,11 +61,11 @@ overview: 'dataset.gov.md (Portalul Datelor Deschise) publishes 1 API on the [AP
 
 
   dataset.gov.md (Portalul Datelor Deschise)''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 47
+random_paper: 13
 score:
   band: minimal
   composite: 11.3
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -73,15 +73,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.0
+  previous_composite: 11.3
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dataset-gov-md/refs/heads/main/screenshots/dataset-gov-md-2026-07-25T211354.png
 security:
 - kind: domain-security
   name: Dataset Gov Md Domain Security

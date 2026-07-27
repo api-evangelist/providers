@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 94
   human_in_the_loop: 1
@@ -199,18 +199,18 @@ rate_limits:
   slug: timecamp-rate-limits
 score:
   band: thin
-  composite: 39.4
-  delta: 0.0
+  composite: 41.9
+  delta: 2.5
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.8
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 39.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

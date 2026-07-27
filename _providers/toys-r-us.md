@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ press:
 - date: '2026-05-25'
   title: Toys 'R' Us calls AI-made video successful despite criticism
   url: https://www.nbcnews.com/tech/internet/toys-r-us-ai-video-ad-controversy-explained-commercial-rcna159030
-random_paper: 32
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Toys R Us Rate Limits
@@ -177,18 +177,18 @@ rules:
   slug: toys-r-us-rules
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 55.1
+  delta: 4.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 67.3
+    contract_quality: 72.6
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 50.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/toys-r-us/refs/heads/main/screenshots/toys-r-us-2026-06-20T195516.png
 security:

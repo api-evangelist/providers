@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Public GraphQL API for the Cato Management Application (CMA): site and account provisioning, policy configuration, network/security analytics, entity lookup, and event streaming. Single GraphQL endpoi'
@@ -158,7 +158,7 @@ overview: 'Cato Networks publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Cato Networks'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 20 more developer resources.'
-random_paper: 35
+random_paper: 1
 score:
   band: thin
   composite: 36.5
@@ -172,8 +172,9 @@ score:
     operational_transparency: 39.5
   previous_composite: 36.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cato-networks/refs/heads/main/screenshots/cato-networks-2026-07-25T204914.png
 security:
 - kind: authentication
   name: Cato Networks Authentication

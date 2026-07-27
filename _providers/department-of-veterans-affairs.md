@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -253,7 +253,7 @@ plans:
 - name: Department Of Veterans Affairs Plans Pricing
   plan_count: 2
   slug: department-of-veterans-affairs-plans-pricing
-random_paper: 19
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Department Of Veterans Affairs Rate Limits
@@ -282,23 +282,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 49.2
-  delta: 4.0
+  composite: 52.1
+  delta: 2.9
   facets:
     commercial_clarity: 28.9
-    contract_quality: 57.0
+    contract_quality: 65.9
     developer_ergonomics: 37.0
-    discoverability: 55.0
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 26.3
-  previous_composite: 45.2
+  previous_composite: 49.2
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 71.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-veterans-affairs/refs/heads/main/screenshots/department-of-veterans-affairs-2026-06-20T175926.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -108,18 +108,18 @@ rate_limits:
   slug: ford-motor-rate-limits
 score:
   band: thin
-  composite: 31.2
-  delta: 0.0
+  composite: 33.7
+  delta: 2.5
   facets:
     commercial_clarity: 28.9
     contract_quality: 60.2
     developer_ergonomics: 10.9
-    discoverability: 47.5
+    discoverability: 72.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 31.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ford-motor/refs/heads/main/screenshots/ford-motor-2026-06-20T181422.png
 security:

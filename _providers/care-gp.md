@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,11 +69,11 @@ overview: 'Care GP is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Care GP''s developer surface includes pricing, YouTube channel, and 5 more developer resources.'
-random_paper: 8
+random_paper: 59
 score:
   band: minimal
   composite: 14.7
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -81,15 +81,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.1
+  previous_composite: 14.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/care-gp/refs/heads/main/screenshots/care-gp-2026-07-25T204525.png
 security:
 - kind: domain-security
   name: Care Gp Domain Security

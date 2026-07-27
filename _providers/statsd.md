@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 37.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -381,18 +381,18 @@ rules:
   slug: statsd-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 35.6
-  delta: 0.0
+  composite: 38.7
+  delta: 3.1
   facets:
     commercial_clarity: 0.0
-    contract_quality: 63.1
+    contract_quality: 70.7
     developer_ergonomics: 15.2
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 60.5
     operational_transparency: 21.1
   previous_composite: 35.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/statsd/refs/heads/main/screenshots/statsd-2026-06-20T194527.png
 slug: statsd

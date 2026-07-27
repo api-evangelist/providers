@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: API for the Open Voice Network, providing programmatic access to open standards and interoperability frameworks for AI-enabled voice assistance systems across platforms and devices.
@@ -88,7 +88,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 21.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-voice-network/refs/heads/main/screenshots/open-voice-network-2026-06-20T190859.png
 security:

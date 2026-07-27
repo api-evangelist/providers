@@ -16,7 +16,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 62.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -197,6 +197,7 @@ scopes:
 score:
   band: thin
   composite: 43.4
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 54.0
@@ -204,13 +205,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
+  previous_composite: 43.4
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/investec/refs/heads/main/screenshots/investec-2026-07-25T222744.png
 security:
 - kind: authentication
   name: Investec Authentication

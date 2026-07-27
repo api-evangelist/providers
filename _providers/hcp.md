@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -146,25 +146,25 @@ press:
 - date: '2026-05-25'
   title: Charter HCP Announces Direct Investment Focus on ...
   url: https://www.jacksonville.com/press-release/story/990353/charter-hcp-announces-direct-investment-focus-on-financial-services-and-ai-guardrail-startups/
-random_paper: 9
+random_paper: 43
 rate_limits:
 - limit_count: 4
   name: Hcp Rate Limits
   slug: hcp-rate-limits
 score:
   band: thin
-  composite: 40.0
-  delta: 0.0
+  composite: 43.2
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 51.3
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 40.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hcp/refs/heads/main/screenshots/hcp-2026-06-20T182554.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Partner parking locations (POIs)
@@ -131,7 +131,7 @@ overview: 'Autopass publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Autopass'' developer surface includes documentation, API reference, authentication, and 14 more developer resources.'
-random_paper: 13
+random_paper: 64
 scopes:
 - name: Autopass Scopes
   scope_count: 1
@@ -140,7 +140,7 @@ scopes:
 score:
   band: developing
   composite: 45.5
-  delta: 3.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 67.3
@@ -148,15 +148,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 42.1
+  previous_composite: 45.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/autopass/refs/heads/main/screenshots/autopass-2026-07-25T201842.png
 security:
 - kind: authentication
   name: Autopass Authentication

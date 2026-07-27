@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ plans:
 - name: Bls Gov Plans Pricing
   plan_count: 3
   slug: bls-gov-plans-pricing
-random_paper: 35
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Bls Gov Rate Limits
@@ -171,23 +171,23 @@ rules:
   slug: bls-public-data-api-rules
 score:
   band: developing
-  composite: 49.7
-  delta: -0.7
+  composite: 53.6
+  delta: 3.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.0
+    contract_quality: 72.3
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 31.6
-  previous_composite: 50.4
+  previous_composite: 49.7
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bls-gov/refs/heads/main/screenshots/bls-gov-2026-06-20T173524.png
 security:

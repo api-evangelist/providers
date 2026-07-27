@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -201,7 +201,7 @@ random_paper: 21
 score:
   band: thin
   composite: 36.4
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 69.7
@@ -209,14 +209,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 36.3
+  previous_composite: 36.4
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,7 +82,7 @@ press:
 - date: '2026-05-25'
   title: MWI - Furscription Asset Purchase Agreement.
   url: https://www.sec.gov/Archives/edgar/data/1842356/000184235625000088/furscription-assetpurchase.htm
-random_paper: 12
+random_paper: 29
 score:
   band: minimal
   composite: 11.0
@@ -96,7 +96,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mwi-veterinary-supply/refs/heads/main/screenshots/mwi-veterinary-supply-2026-06-20T185912.png
 security:

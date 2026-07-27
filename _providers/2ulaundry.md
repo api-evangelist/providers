@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,7 +81,7 @@ overview: '2ULaundry is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   2ULaundry''s developer surface includes pricing, getting-started guide, support, engineering blog, and 6 more developer resources.'
-random_paper: 16
+random_paper: 50
 score:
   band: emerging
   composite: 17.2
@@ -95,8 +95,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/2ulaundry/refs/heads/main/screenshots/2ulaundry-2026-07-25T181138.png
 security:
 - kind: domain-security
   name: 2Ulaundry Domain Security

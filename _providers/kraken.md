@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ arazzos:
 - description: Check balance and withdrawal fees, withdraw to a saved address, then track status.
   name: Kraken Withdraw Funds with Fee Preview
   slug: kraken-withdraw-funds-workflow
-artifact_total: 388
+artifact_total: 389
 asyncapis:
 - description: 'Public WebSocket API for the Kraken cryptocurrency exchange (Spot v2). Provides real-time market data through subscribe/unsubscribe semantics over JSON. Channels documented here are restricted to the '
   name: Kraken Spot WebSocket API v2
@@ -1393,6 +1393,10 @@ jsonld:
   property_count: 25
   slug: kraken-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: kraken-mcp.yml
+  slug: kraken-mcpyml
 modified: '2026-06-20'
 name: Kraken
 nav: Providers
@@ -1440,23 +1444,23 @@ rules:
   slug: kraken-rules
 score:
   band: exemplar
-  composite: 71.5
-  delta: 1.2
+  composite: 74.3
+  delta: 2.8
   facets:
     commercial_clarity: 78.9
     contract_quality: 69.6
     developer_ergonomics: 78.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 65.8
     operational_transparency: 52.6
-  previous_composite: 70.3
+  previous_composite: 71.5
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kraken/refs/heads/main/screenshots/kraken-2026-06-20T184148.png
 security:

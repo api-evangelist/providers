@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -97,7 +97,7 @@ plans:
 - name: Proompty Plans Pricing
   plan_count: 3
   slug: proompty-plans-pricing
-random_paper: 39
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Proompty Rate Limits
@@ -115,7 +115,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 36.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/proompty/refs/heads/main/screenshots/proompty-2026-06-20T192204.png
 security:

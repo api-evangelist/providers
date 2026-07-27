@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ overview: 'FreeAgent publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   FreeAgent''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 27
+random_paper: 61
 scopes:
 - name: Freeagent Scopes
   scope_count: 0
@@ -130,18 +130,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 30.7
-  delta: 0.0
+  composite: 33.9
+  delta: 3.2
   facets:
     commercial_clarity: 10.5
     contract_quality: 51.3
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 15.8
   previous_composite: 30.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freeagent/refs/heads/main/screenshots/freeagent-2026-06-20T181523.png
 security:

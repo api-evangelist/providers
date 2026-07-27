@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 207
   human_in_the_loop: 0
@@ -386,7 +386,7 @@ random_paper: 28
 score:
   band: developing
   composite: 47.7
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 52.6
@@ -394,15 +394,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 46.5
+  previous_composite: 47.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cenevo/refs/heads/main/screenshots/cenevo-2026-07-25T204916.png
 security:
 - kind: authentication
   name: Cenevo Authentication

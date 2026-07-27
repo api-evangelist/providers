@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: The APIs/Authentication API from BALAD CORP — 1 operation(s) for apis/authentication.
@@ -179,7 +179,7 @@ overview: 'BALAD CORP publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   BALAD CORP''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 12
+random_paper: 29
 scopes:
 - name: Balad Corp Scopes
   scope_count: 0
@@ -188,7 +188,7 @@ scopes:
 score:
   band: thin
   composite: 43.8
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 63.0
@@ -196,15 +196,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 41.1
+  previous_composite: 43.8
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/balad-corp/refs/heads/main/screenshots/balad-corp-2026-07-25T202259.png
 security:
 - kind: authentication
   name: Balad Corp Authentication

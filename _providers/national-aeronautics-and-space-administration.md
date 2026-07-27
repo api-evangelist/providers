@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -159,30 +159,30 @@ plans:
 - name: National Aeronautics And Space Administration Plans Pricing
   plan_count: 3
   slug: national-aeronautics-and-space-administration-plans-pricing
-random_paper: 18
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: National Aeronautics And Space Administration Rate Limits
   slug: national-aeronautics-and-space-administration-rate-limits
 score:
   band: thin
-  composite: 36.8
-  delta: -0.3
+  composite: 39.6
+  delta: 2.8
   facets:
     commercial_clarity: 50.0
     contract_quality: 47.8
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.1
+  previous_composite: 36.8
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 34.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-aeronautics-and-space-administration/refs/heads/main/screenshots/national-aeronautics-and-space-administration-2026-06-20T185958.png
 security:

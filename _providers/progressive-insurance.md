@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Returns an estimated auto insurance rate from consumer-supplied vehicle and driver data; partners embed the quote flow directly inside their own product surfaces and complete the policy purchase end-t
@@ -85,7 +85,7 @@ plans:
 - name: Progressive Insurance Plans Pricing
   plan_count: 1
   slug: progressive-insurance-plans-pricing
-random_paper: 29
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Progressive Insurance Rate Limits
@@ -93,7 +93,7 @@ rate_limits:
 score:
   band: emerging
   composite: 18.7
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -101,14 +101,14 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 19.7
+  previous_composite: 18.7
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/progressive-insurance/refs/heads/main/screenshots/progressive-insurance-2026-06-20T192148.png
 security:

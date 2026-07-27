@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ plans:
 - name: Sap Api Management Plans Pricing
   plan_count: 1
   slug: sap-api-management-plans-pricing
-random_paper: 47
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Sap Api Management Rate Limits
@@ -237,19 +237,19 @@ scopes:
   slug: sap-api-management-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: developing
-  composite: 56.0
-  delta: 0.0
+  band: strong
+  composite: 60.2
+  delta: 4.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.9
+    contract_quality: 70.8
     developer_ergonomics: 45.7
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 86.8
     operational_transparency: 42.1
   previous_composite: 56.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-api-management/refs/heads/main/screenshots/sap-api-management-2026-06-20T193414.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 70.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1576
   human_in_the_loop: 52
@@ -368,7 +368,7 @@ arazzos:
 - description: Find a DNS record by name and update it if present, otherwise create it.
   name: Cloudflare Upsert DNS Record
   slug: cloudflare-upsert-dns-record-workflow
-artifact_total: 446
+artifact_total: 460
 asyncapis:
 - description: Cloudflare Notifications sends webhook events to configured endpoints when various alerts fire across your account. Webhooks deliver JSON payloads for events including DDoS attacks, SSL certificate ex
   name: Cloudflare Notifications Webhooks
@@ -1636,6 +1636,49 @@ jsonld:
   property_count: 0
   slug: cloudflare-workers-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server (monorepo)
+  slug: mcp-server-monorepo
+- description: ''
+  name: Observability MCP
+  slug: observability-mcp
+- description: ''
+  name: Workers Bindings MCP
+  slug: workers-bindings-mcp
+- description: ''
+  name: Workers Builds MCP
+  slug: workers-builds-mcp
+- description: ''
+  name: Radar MCP
+  slug: radar-mcp
+- description: ''
+  name: DNS Analytics MCP
+  slug: dns-analytics-mcp
+- description: ''
+  name: AI Gateway MCP
+  slug: ai-gateway-mcp
+- description: ''
+  name: Browser Rendering MCP
+  slug: browser-rendering-mcp
+- description: ''
+  name: Logpush MCP
+  slug: logpush-mcp
+- description: ''
+  name: GraphQL MCP
+  slug: graphql-mcp
+- description: ''
+  name: CASB MCP
+  slug: casb-mcp
+- description: ''
+  name: Container Sandbox MCP
+  slug: container-sandbox-mcp
+- description: ''
+  name: Audit Logs MCP
+  slug: audit-logs-mcp
+- description: ''
+  name: DEM MCP
+  slug: dem-mcp
 modified: '2026-05-22'
 name: Cloudflare
 nav: Providers
@@ -1683,18 +1726,18 @@ rules:
   slug: cloudflare-spectral-rules
 score:
   band: exemplar
-  composite: 71.2
-  delta: 0.0
+  composite: 72.5
+  delta: 1.3
   facets:
     commercial_clarity: 71.1
     contract_quality: 71.8
     developer_ergonomics: 87.0
-    discoverability: 55.0
+    discoverability: 67.5
     governance: 60.5
     operational_transparency: 68.4
   previous_composite: 71.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare/refs/heads/main/screenshots/cloudflare-2026-06-20T174548.png
 security:

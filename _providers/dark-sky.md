@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ plans:
 - name: Dark Sky Plans Pricing
   plan_count: 2
   slug: dark-sky-plans-pricing
-random_paper: 41
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Dark Sky Rate Limits
@@ -167,7 +167,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 54.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dark-sky/refs/heads/main/screenshots/dark-sky-2026-06-20T175456.png
 security:

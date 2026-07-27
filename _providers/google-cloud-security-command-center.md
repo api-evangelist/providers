@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ plans:
 - name: Google Cloud Security Command Center Plans Pricing
   plan_count: 3
   slug: google-cloud-security-command-center-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Google Cloud Security Command Center Rate Limits
@@ -176,18 +176,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 65.9
+  delta: 4.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 61.9
+    contract_quality: 67.3
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 61.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-security-command-center/refs/heads/main/screenshots/google-cloud-security-command-center-2026-06-20T182136.png
 security:

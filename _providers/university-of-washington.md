@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -222,7 +222,7 @@ plans:
 - name: University Of Washington Plans Pricing
   plan_count: 2
   slug: university-of-washington-plans-pricing
-random_paper: 16
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: University Of Washington Rate Limits
@@ -247,7 +247,7 @@ rules:
 score:
   band: thin
   composite: 40.8
-  delta: -3.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 59.2
@@ -255,14 +255,14 @@ score:
     discoverability: 87.5
     governance: 73.7
     operational_transparency: 26.3
-  previous_composite: 43.8
+  previous_composite: 40.8
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-washington/refs/heads/main/screenshots/university-of-washington-2026-06-20T200317.png
 security:

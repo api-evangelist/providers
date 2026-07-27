@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -776,7 +776,7 @@ plans:
 - name: Cisco Voice Portal Plans Pricing
   plan_count: 1
   slug: cisco-voice-portal-plans-pricing
-random_paper: 26
+random_paper: 43
 rate_limits:
 - limit_count: 2
   name: Cisco Voice Portal Rate Limits
@@ -807,19 +807,19 @@ rules:
     warn: 7
   slug: cisco-voice-portal-spectral-rules
 score:
-  band: developing
-  composite: 59.4
-  delta: 0.0
+  band: strong
+  composite: 62.6
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 73.5
     developer_ergonomics: 45.7
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 57.9
   previous_composite: 59.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-voice-portal/refs/heads/main/screenshots/cisco-voice-portal-2026-06-20T174408.png
 security:

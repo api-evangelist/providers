@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: high
-  generated: '2026-07-22'
   label: Freemium · Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: freemium
   public: false
@@ -12,19 +10,208 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Openaq Agentic Access
+  operation_count: 64
+  slug: openaq-agentic-access
+  summary_line: 64 operations
 api_count: 28
-artifact_total: 0
+apis:
+- description: The Averages API from OpenAQ — 1 operation(s) for averages.
+  name: OpenAQ Averages API
+  slug: openaq-averages-api
+- description: The Cities API from OpenAQ — 2 operation(s) for cities.
+  name: OpenAQ Cities API
+  slug: openaq-cities-api
+- description: The Countries API from OpenAQ — 6 operation(s) for countries.
+  name: OpenAQ Countries API
+  slug: openaq-countries-api
+- description: The Daily API from OpenAQ — 2 operation(s) for daily.
+  name: OpenAQ Daily API
+  slug: openaq-daily-api
+- description: The Days API from OpenAQ — 5 operation(s) for days.
+  name: OpenAQ Days API
+  slug: openaq-days-api
+- description: The Flags API from OpenAQ — 2 operation(s) for flags.
+  name: OpenAQ Flags API
+  slug: openaq-flags-api
+- description: The Hourly API from OpenAQ — 1 operation(s) for hourly.
+  name: OpenAQ Hourly API
+  slug: openaq-hourly-api
+- description: The Hours API from OpenAQ — 7 operation(s) for hours.
+  name: OpenAQ Hours API
+  slug: openaq-hours-api
+- description: The Instruments API from OpenAQ — 3 operation(s) for instruments.
+  name: OpenAQ Instruments API
+  slug: openaq-instruments-api
+- description: The Latest API from OpenAQ — 6 operation(s) for latest.
+  name: OpenAQ Latest API
+  slug: openaq-latest-api
+- description: The Licenses API from OpenAQ — 2 operation(s) for licenses.
+  name: OpenAQ Licenses API
+  slug: openaq-licenses-api
+- description: The Locations API from OpenAQ — 11 operation(s) for locations.
+  name: OpenAQ Locations API
+  slug: openaq-locations-api
+- description: The Manufacturers API from OpenAQ — 3 operation(s) for manufacturers.
+  name: OpenAQ Manufacturers API
+  slug: openaq-manufacturers-api
+- description: The Measurements API from OpenAQ — 5 operation(s) for measurements.
+  name: OpenAQ Measurements API
+  slug: openaq-measurements-api
+- description: The Monthly API from OpenAQ — 2 operation(s) for monthly.
+  name: OpenAQ Monthly API
+  slug: openaq-monthly-api
+- description: The Owners API from OpenAQ — 2 operation(s) for owners.
+  name: OpenAQ Owners API
+  slug: openaq-owners-api
+- description: The Parameters API from OpenAQ — 5 operation(s) for parameters.
+  name: OpenAQ Parameters API
+  slug: openaq-parameters-api
+- description: The Project API from OpenAQ — 1 operation(s) for project.
+  name: OpenAQ Project API
+  slug: openaq-project-api
+- description: The Projects API from OpenAQ — 2 operation(s) for projects.
+  name: OpenAQ Projects API
+  slug: openaq-projects-api
+- description: The Providers API from OpenAQ — 2 operation(s) for providers.
+  name: OpenAQ Providers API
+  slug: openaq-providers-api
+- description: The Readme API from OpenAQ — 1 operation(s) for readme.
+  name: OpenAQ Readme API
+  slug: openaq-readme-api
+- description: The Sensor API from OpenAQ — 1 operation(s) for sensor.
+  name: OpenAQ Sensor API
+  slug: openaq-sensor-api
+- description: The Sensors API from OpenAQ — 19 operation(s) for sensors.
+  name: OpenAQ Sensors API
+  slug: openaq-sensors-api
+- description: The Slug API from OpenAQ — 1 operation(s) for slug.
+  name: OpenAQ Slug API
+  slug: openaq-slug-api
+- description: The Sources API from OpenAQ — 3 operation(s) for sources.
+  name: OpenAQ Sources API
+  slug: openaq-sources-api
+- description: The Summary API from OpenAQ — 1 operation(s) for summary.
+  name: OpenAQ Summary API
+  slug: openaq-summary-api
+- description: The Yearly API from OpenAQ — 2 operation(s) for yearly.
+  name: OpenAQ Yearly API
+  slug: openaq-yearly-api
+- description: The Years API from OpenAQ — 1 operation(s) for years.
+  name: OpenAQ Years API
+  slug: openaq-years-api
+artifact_total: 36
+collections:
+- collection_type: open
+  name: OpenAQ
+  slug: open-openaq
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/openaq-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/openaq-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/openaq-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/openaq-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/openaq
+- group: start
+  title: ''
+  type: Portal
+  url: https://openaq.org/developers/platform-overview/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/openaq
 created: '2024-11-11'
 description: OpenAQ is a non-profit organization that focuses on collecting and sharing air quality data from around the world. By providing access to this information through their open-source platform, OpenAQ aims to empower individuals, communities, and organizations to take action towards improving air quality and public health.
+finops:
+- name: Openaq Finops
+  service_category: API
+  slug: openaq-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/openaq.png
 layout: provider
 modified: '2026-05-19'
 name: OpenAQ
 nav: Providers
 network: true
+overview: 'OpenAQ publishes 28 APIs on the [APIs.io](https://apis.io/) network, including Averages API, Cities API, Countries API, and 25 more. Tagged areas include Data and Data Quality.
+
+
+  OpenAQ''s developer surface includes authentication, developer portal, and 5 more developer resources.'
+plans:
+- name: Openaq Plans Pricing
+  plan_count: 3
+  slug: openaq-plans-pricing
 random_paper: 32
+rate_limits:
+- limit_count: 5
+  name: Openaq Rate Limits
+  slug: openaq-rate-limits
+score:
+  band: thin
+  composite: 39.4
+  delta: 3.3
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 56.1
+    developer_ergonomics: 19.6
+    discoverability: 87.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 36.1
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/openaq/refs/heads/main/screenshots/openaq-2026-06-20T190913.png
+security:
+- kind: authentication
+  name: Openaq Authentication
+  slug: openaq-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Openaq Domain Security
+  slug: openaq-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Openaq Vulnerability Disclosure
+  slug: openaq-vulnerability-disclosure
+  summary_line: security.txt · contact published
 slug: openaq
 tags:
 - Data
 - Data Quality
+website: https://openaq.org/developers/platform-overview/
 ---

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -355,18 +355,18 @@ rules:
   slug: octopus-energy-rules
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 58.9
+  delta: 4.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 58.9
+    contract_quality: 67.8
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 63.2
   previous_composite: 54.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octopus-energy/refs/heads/main/screenshots/octopus-energy-2026-06-20T190615.png
 security:

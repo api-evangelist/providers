@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 9
 common:
@@ -82,7 +82,7 @@ press:
 - date: '2026-05-25'
   title: /C O R R E C T I O N -- Bemis Associates Inc/
   url: https://www.newswire.ca/news-releases/bemis-associates-appoints-christina-chen-as-president-and-chief-operating-officer-885168229.html
-random_paper: 18
+random_paper: 52
 score:
   band: minimal
   composite: 6.8
@@ -96,7 +96,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bemis/refs/heads/main/screenshots/bemis-2026-06-20T173134.png
 security:

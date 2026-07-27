@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -303,7 +303,7 @@ plans:
 - name: Amazon Fraud Detector Plans Pricing
   plan_count: 3
   slug: amazon-fraud-detector-plans-pricing
-random_paper: 33
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Amazon Fraud Detector Rate Limits
@@ -327,19 +327,19 @@ rules:
   slug: amazon-fraud-detector-spectral-rules
 score:
   band: strong
-  composite: 63.8
-  delta: 0.0
+  composite: 69.3
+  delta: 5.5
   facets:
     commercial_clarity: 68.4
-    contract_quality: 72.9
+    contract_quality: 81.8
     developer_ergonomics: 45.7
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 63.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-fraud-detector/refs/heads/main/screenshots/amazon-fraud-detector-2026-06-20T171653.png
 security:
 - kind: authentication

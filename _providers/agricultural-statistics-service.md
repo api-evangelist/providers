@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ plans:
 - name: Agricultural Statistics Service Plans Pricing
   plan_count: 3
   slug: agricultural-statistics-service-plans-pricing
-random_paper: 24
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Agricultural Statistics Service Rate Limits
@@ -221,7 +221,7 @@ rules:
 score:
   band: strong
   composite: 60.6
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 80.5
@@ -229,14 +229,14 @@ score:
     discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
-  previous_composite: 61.8
+  previous_composite: 60.6
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agricultural-statistics-service/refs/heads/main/screenshots/agricultural-statistics-service-2026-06-20T170425.png
 security:

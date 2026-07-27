@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -466,7 +466,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 17
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -483,7 +483,7 @@ rules:
 score:
   band: thin
   composite: 44.6
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.5
@@ -491,14 +491,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 5.3
-  previous_composite: 46.0
+  previous_composite: 44.6
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cms/refs/heads/main/screenshots/cms-2026-06-20T174629.png
 security:

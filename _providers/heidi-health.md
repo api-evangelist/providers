@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -330,7 +330,7 @@ plans:
 - name: Heidi Health Plans Pricing
   plan_count: 4
   slug: heidi-health-plans-pricing
-random_paper: 17
+random_paper: 34
 rate_limits:
 - limit_count: 0
   name: Heidi Health Rate Limits
@@ -354,23 +354,23 @@ rules:
   slug: heidi-health-rules
 score:
   band: strong
-  composite: 65.6
-  delta: 2.2
+  composite: 69.2
+  delta: 3.6
   facets:
     commercial_clarity: 100.0
-    contract_quality: 60.5
+    contract_quality: 69.4
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 31.6
-  previous_composite: 63.4
+  previous_composite: 65.6
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heidi-health/refs/heads/main/screenshots/heidi-health-2026-06-20T182614.png
 security:

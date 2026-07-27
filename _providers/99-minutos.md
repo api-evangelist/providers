@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 75.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ overview: '99 Minutos publishes 9 APIs on the [APIs.io](https://apis.io/) networ
 
 
   99 Minutos'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 24
+random_paper: 58
 score:
   band: developing
   composite: 51.3
@@ -218,8 +218,9 @@ score:
     operational_transparency: 13.2
   previous_composite: 51.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/99-minutos/refs/heads/main/screenshots/99-minutos-2026-07-25T181249.png
 security:
 - kind: authentication
   name: 99 Minutos Authentication

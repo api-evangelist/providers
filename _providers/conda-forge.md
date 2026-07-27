@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: REST API hosted on api.anaconda.org that provides read access to conda-forge package metadata including package details, version lists, platform availability, download counts, licensing, and distribut
@@ -101,7 +101,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 22
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -119,7 +119,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 32.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conda-forge/refs/heads/main/screenshots/conda-forge-2026-06-20T174843.png
 security:

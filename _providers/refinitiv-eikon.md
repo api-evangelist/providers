@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -489,7 +489,7 @@ plans:
 - name: Refinitiv Eikon Plans Pricing
   plan_count: 1
   slug: refinitiv-eikon-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Refinitiv Eikon Rate Limits
@@ -521,23 +521,23 @@ rules:
   slug: refinitiv-eikon-rules
 score:
   band: strong
-  composite: 63.5
-  delta: -1.6
+  composite: 65.6
+  delta: 2.1
   facets:
     commercial_clarity: 63.2
     contract_quality: 75.5
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 57.9
-  previous_composite: 65.1
+  previous_composite: 63.5
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refinitiv-eikon/refs/heads/main/screenshots/refinitiv-eikon-2026-06-20T192745.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for PDF generation (HTML, URL, visual-editor templates) and image generation. Bearer-token auth via API key. Regional endpoints improve latency.
@@ -94,7 +94,7 @@ plans:
 - name: Apitemplate Plans Pricing
   plan_count: 8
   slug: apitemplate-plans-pricing
-random_paper: 1
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Apitemplate Rate Limits
@@ -112,7 +112,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 26.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apitemplate/refs/heads/main/screenshots/apitemplate-2026-06-20T172257.png
 security:

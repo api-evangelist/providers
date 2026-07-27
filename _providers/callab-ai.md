@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 15.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Callab AI's REST API, documented at docs.callab.ai/api-reference, is organized around REST principles with predictable resource-oriented URLs, standard HTTP verbs, and standard HTTP response codes for
@@ -131,8 +131,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 23.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/callab-ai/refs/heads/main/screenshots/callab-ai-2026-07-25T204336.png
 security:
 - kind: domain-security
   name: Callab Ai Domain Security

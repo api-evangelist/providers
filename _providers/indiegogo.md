@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -156,11 +156,11 @@ overview: 'Indiegogo publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Indiegogo''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 31
+random_paper: 65
 score:
   band: developing
   composite: 46.0
-  delta: 1.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 57.5
@@ -168,15 +168,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 44.6
+  previous_composite: 46.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/indiegogo/refs/heads/main/screenshots/indiegogo-2026-07-25T222320.png
 security:
 - kind: authentication
   name: Indiegogo Authentication

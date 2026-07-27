@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ apis:
 - description: OpsLevel GraphQL endpoint.
   name: OpsLevel GraphQL API
   slug: opslevel-graphql-api
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: open
   name: OpsLevel GraphQL API
@@ -149,6 +149,10 @@ graphqls:
   slug: opslevel-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/opslevel.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: OpsLevel
 nav: Providers
@@ -161,25 +165,25 @@ plans:
 - name: Opslevel Plans Pricing
   plan_count: 3
   slug: opslevel-plans-pricing
-random_paper: 7
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Opslevel Rate Limits
   slug: opslevel-rate-limits
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 56.8
+  delta: 3.2
   facets:
     commercial_clarity: 84.2
     contract_quality: 63.7
     developer_ergonomics: 39.1
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 63.2
   previous_composite: 53.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opslevel/refs/heads/main/screenshots/opslevel-2026-06-20T191105.png
 security:

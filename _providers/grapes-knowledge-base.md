@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ plans:
 - name: Grapes Knowledge Base Plans Pricing
   plan_count: 3
   slug: grapes-knowledge-base-plans-pricing
-random_paper: 12
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Grapes Knowledge Base Rate Limits
@@ -144,18 +144,18 @@ rules:
   slug: grapes-knowledge-base-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 47.7
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 54.9
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grapes-knowledge-base/refs/heads/main/screenshots/grapes-knowledge-base-2026-06-20T182323.png
 security:

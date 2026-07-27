@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -476,7 +476,7 @@ overview: 'AniList publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   AniList''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, developer console, sandbox, and 21 more developer resources.'
-random_paper: 42
+random_paper: 8
 rules:
 - name: AniList API Rules
   rule_count: 5
@@ -501,18 +501,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 55.2
-  delta: 0.0
+  composite: 58.4
+  delta: 3.2
   facets:
     commercial_clarity: 44.7
     contract_quality: 67.7
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 5.3
   previous_composite: 55.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anilist/refs/heads/main/screenshots/anilist-2026-06-20T172003.png
 security:

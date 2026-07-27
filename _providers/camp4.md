@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -66,11 +66,11 @@ overview: 'CAMP4 Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   CAMP4 Therapeutics'' developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
-random_paper: 10
+random_paper: 61
 score:
   band: minimal
   composite: 9.1
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -78,15 +78,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.7
+  previous_composite: 9.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 0.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/camp4/refs/heads/main/screenshots/camp4-2026-07-25T204307.png
 slug: camp4
 tags:
 - Company

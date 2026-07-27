@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 23.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for OpenComputer — create and manage persistent cloud sandbox VMs, run commands and files inside them, checkpoint/fork, expose preview URLs, run durable agent sessions, and register signed we
@@ -151,8 +151,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 36.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/digger/refs/heads/main/screenshots/digger-2026-07-25T212000.png
 security:
 - kind: authentication
   name: Digger Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ plans:
 - name: Thesports Plans Pricing
   plan_count: 1
   slug: thesports-plans-pricing
-random_paper: 35
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Thesports Rate Limits
@@ -187,19 +187,19 @@ rules:
   slug: thesports-rules
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 53.0
+  delta: 5.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 64.3
+    contract_quality: 73.2
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 21.1
   previous_composite: 47.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/thesports/refs/heads/main/screenshots/thesports-2026-06-20T195259.png
 security:
 - kind: authentication

@@ -1,4 +1,22 @@
 ---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 23.1
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Server-to-server JSON API (the Secure Trading Payment Platform / STPP) for card processing and management on the TRU Connect gateway. Supports request types including AUTH, ACCOUNTCHECK, REFUND, SUBSC
@@ -141,7 +159,27 @@ overview: 'Trust Payments publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Trust Payments'' developer surface includes documentation, API reference, pricing, engineering blog, getting-started guide, support, authentication, and 21 more developer resources.'
-random_paper: 55
+random_paper: 8
+score:
+  band: developing
+  composite: 45.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 22.6
+    developer_ergonomics: 65.2
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 28.9
+  previous_composite: 45.7
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 65.2
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Trust Payments Authentication

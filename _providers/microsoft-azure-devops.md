@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ arazzos:
 - description: Create a work item, transition its state, and append a comment in one flow.
   name: Azure DevOps Create, Update, and Comment on a Work Item
   slug: microsoft-azure-devops-work-item-create-update-comment-workflow
-artifact_total: 208
+artifact_total: 209
 asyncapis:
 - description: AsyncAPI specification for Azure DevOps Service Hooks (webhooks and event subscriptions). Azure DevOps delivers event notifications via HTTP POST requests to subscriber endpoints when events occur suc
   name: Azure DevOps Service Hooks AsyncAPI
@@ -863,6 +863,10 @@ jsonld:
   property_count: 15
   slug: azure-devops-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Azure DevOps
 nav: Providers
@@ -901,19 +905,19 @@ rules:
     warn: 4
   slug: microsoft-azure-devops-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 69.2
-  delta: 0.0
+  band: exemplar
+  composite: 71.7
+  delta: 2.5
   facets:
     commercial_clarity: 71.1
     contract_quality: 81.1
     developer_ergonomics: 65.2
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 60.5
     operational_transparency: 68.4
   previous_composite: 69.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-devops/refs/heads/main/screenshots/microsoft-azure-devops-2026-06-20T185413.png
 security:

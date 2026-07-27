@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -531,7 +531,7 @@ plans:
 - name: Words Plans Pricing
   plan_count: 5
   slug: words-plans-pricing
-random_paper: 49
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Words Rate Limits
@@ -555,19 +555,19 @@ rules:
   slug: words-rules
 score:
   band: developing
-  composite: 54.0
-  delta: 0.0
+  composite: 59.5
+  delta: 5.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.9
+    contract_quality: 79.7
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 54.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/words/refs/heads/main/screenshots/words-2026-06-20T201547.png
 security:
 - kind: authentication

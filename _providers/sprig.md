@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 67.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ overview: 'Sprig publishes 2 APIs on the [APIs.io](https://apis.io/) network: V1
 
 
   Sprig''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 39
+random_paper: 5
 scopes:
 - name: Sprig Scopes
   scope_count: 5
@@ -198,7 +198,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 55.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: The Users API from Egnyte — 2 operation(s) for users.
   name: Egnyte Users API
   slug: egnyte-users-api
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: open
   name: Egnyte Public API
@@ -161,6 +161,10 @@ graphqls:
   slug: egnyte-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/egnyte.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Egnyte
 nav: Providers
@@ -176,19 +180,19 @@ scopes:
   slug: egnyte-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: thin
-  composite: 43.4
-  delta: 0.0
+  band: developing
+  composite: 46.7
+  delta: 3.3
   facets:
     commercial_clarity: 44.7
     contract_quality: 51.3
     developer_ergonomics: 60.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 43.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/egnyte/refs/heads/main/screenshots/egnyte-2026-06-20T180523.png
 security:

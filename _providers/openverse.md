@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -326,7 +326,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 14
+random_paper: 31
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -343,7 +343,7 @@ rules:
 score:
   band: thin
   composite: 42.0
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 54.3
@@ -351,14 +351,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 0.0
-  previous_composite: 42.9
+  previous_composite: 42.0
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openverse/refs/heads/main/screenshots/openverse-2026-06-20T191047.png
 security:

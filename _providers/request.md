@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 26.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Accounts Payable and Receivable REST API for issuing invoices, accepting crypto and fiat payments, running payroll, and managing organizations and clients. JSON request and response bodies, Bearer
@@ -157,7 +157,7 @@ overview: 'Request Finance publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Request Finance''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 19 more developer resources.'
-random_paper: 12
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Request Rate Limits
@@ -170,7 +170,7 @@ scopes:
 score:
   band: developing
   composite: 47.0
-  delta: 3.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 22.6
@@ -178,14 +178,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 43.1
+  previous_composite: 47.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 69.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 40.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Front Core API is a REST API over Front's shared-inbox platform. It exposes conversations, messages, drafts, comments, contacts, accounts, inboxes, channels, tags, teammates, teams, knowledge base
@@ -193,7 +193,7 @@ overview: 'FrontApp publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   FrontApp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 27 more developer resources.'
-random_paper: 7
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: Frontapp Rate Limits
@@ -216,8 +216,9 @@ score:
     operational_transparency: 55.3
   previous_composite: 48.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/frontapp/refs/heads/main/screenshots/frontapp-2026-07-25T215228.png
 security:
 - kind: authentication
   name: Frontapp Authentication

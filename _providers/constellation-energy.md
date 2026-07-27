@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 5
 collections:
@@ -102,25 +102,25 @@ plans:
 - name: Constellation Energy Plans Pricing
   plan_count: 1
   slug: constellation-energy-plans-pricing
-random_paper: 11
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Constellation Energy Rate Limits
   slug: constellation-energy-rate-limits
 score:
   band: emerging
-  composite: 19.6
-  delta: 0.0
+  composite: 20.4
+  delta: 0.8
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
     developer_ergonomics: 4.3
-    discoverability: 60.0
+    discoverability: 67.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 19.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/constellation-energy/refs/heads/main/screenshots/constellation-energy-2026-06-20T174911.png
 security:

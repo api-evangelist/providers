@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ plans:
 - name: Ibm Translate Plans Pricing
   plan_count: 2
   slug: ibm-translate-plans-pricing
-random_paper: 5
+random_paper: 39
 rate_limits:
 - limit_count: 3
   name: Ibm Translate Rate Limits
@@ -189,7 +189,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 55.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-translate/refs/heads/main/screenshots/ibm-translate-2026-06-20T183233.png
 security:

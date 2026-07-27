@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Authenticated REST API for Palette's multimodal generation platform, accessed with API keys managed in the Studio profile. The base path /api/v1 is auth-gated (returns HTTP 401 without credentials). N
@@ -112,7 +112,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 21.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

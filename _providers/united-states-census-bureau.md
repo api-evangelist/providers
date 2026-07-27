@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ plans:
 - name: United States Census Bureau Plans Pricing
   plan_count: 3
   slug: united-states-census-bureau-plans-pricing
-random_paper: 42
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: United States Census Bureau Rate Limits
@@ -186,23 +186,23 @@ rules:
   slug: united-states-census-bureau-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.7
-  delta: -2.6
+  composite: 41.5
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 64.1
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 34.2
     operational_transparency: 36.8
-  previous_composite: 41.3
+  previous_composite: 38.7
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-census-bureau/refs/heads/main/screenshots/united-states-census-bureau-2026-06-20T200100.png
 security:

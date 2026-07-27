@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,11 +73,11 @@ overview: 'ATC (Alquila tu cancha) is profiled on the [APIs.io](https://apis.io/
 
 
   ATC (Alquila tu cancha)''s developer surface includes pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 42
+random_paper: 59
 score:
   band: emerging
   composite: 15.5
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -85,15 +85,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.5
+  previous_composite: 15.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/atc-alquila-tu-cancha/refs/heads/main/screenshots/atc-alquila-tu-cancha-2026-07-25T201531.png
 security:
 - kind: domain-security
   name: Atc Alquila Tu Cancha Domain Security

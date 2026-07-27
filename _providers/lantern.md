@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -97,11 +97,11 @@ overview: 'Lantern is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lantern''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: emerging
   composite: 20.8
-  delta: 3.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -109,15 +109,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 17.2
+  previous_composite: 20.8
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lantern/refs/heads/main/screenshots/lantern-2026-07-25T224520.png
 security:
 - kind: domain-security
   name: Lantern Domain Security

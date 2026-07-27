@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The store's Universal Commerce Protocol surface — a live MCP endpoint for agent-driven catalog search, cart, checkout, and fulfillment, gated by an agent profile URI and buyer payment approval, plus r
@@ -94,7 +94,7 @@ overview: 'ShopShops publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   ShopShops'' developer surface includes support, authentication, and 9 more developer resources.'
-random_paper: 30
+random_paper: 47
 scopes:
 - name: Shopshops Scopes
   scope_count: 4
@@ -113,7 +113,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

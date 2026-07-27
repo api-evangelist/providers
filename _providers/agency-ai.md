@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -81,7 +81,7 @@ overview: 'Agency Ai is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Agency Ai''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 11
+random_paper: 62
 score:
   band: emerging
   composite: 16.6
@@ -95,8 +95,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 16.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/agency-ai/refs/heads/main/screenshots/agency-ai-2026-07-25T181758.png
 security:
 - kind: domain-security
   name: Agency Ai Domain Security

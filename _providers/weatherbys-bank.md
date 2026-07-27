@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ overview: 'Weatherbys Bank publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Weatherbys Bank''s developer surface includes authentication, documentation, engineering blog, support, and 21 more developer resources.'
-random_paper: 13
+random_paper: 47
 scopes:
 - name: Weatherbys Bank Scopes
   scope_count: 4
@@ -185,6 +185,7 @@ scopes:
 score:
   band: thin
   composite: 42.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 37.7
@@ -192,13 +193,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 15.8
+  previous_composite: 42.1
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Weatherbys Bank Authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Start, stop, extend, and query active and historical parking sessions across pay-station, mobile-app, and permit channels, and expose real-time session state to enforcement and occupancy consumers. En
@@ -82,7 +82,7 @@ random_paper: 41
 score:
   band: minimal
   composite: 11.2
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -90,15 +90,16 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 10.9
+  previous_composite: 11.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/flowbird/refs/heads/main/screenshots/flowbird-2026-07-25T214835.png
 security:
 - kind: domain-security
   name: Flowbird Domain Security

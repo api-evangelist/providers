@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -183,7 +183,7 @@ overview: 'GetPaid publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   GetPaid''s developer surface includes documentation, API reference, quickstart, signup flow, support, changelog, authentication, and 19 more developer resources.'
-random_paper: 20
+random_paper: 54
 scopes:
 - name: Getpaid Scopes
   scope_count: 4
@@ -192,7 +192,7 @@ scopes:
 score:
   band: developing
   composite: 56.6
-  delta: 3.9
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 72.4
@@ -200,15 +200,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 52.7
+  previous_composite: 56.6
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/getpaid/refs/heads/main/screenshots/getpaid-2026-07-25T215736.png
 security:
 - kind: authentication
   name: Getpaid Authentication

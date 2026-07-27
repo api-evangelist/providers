@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ plans:
 - name: Google Cloud Binary Authorization Plans Pricing
   plan_count: 3
   slug: google-cloud-binary-authorization-plans-pricing
-random_paper: 11
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Google Cloud Binary Authorization Rate Limits
@@ -173,18 +173,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 61.1
-  delta: 0.0
+  composite: 65.6
+  delta: 4.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 61.1
+    contract_quality: 66.4
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 61.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-binary-authorization/refs/heads/main/screenshots/google-cloud-binary-authorization-2026-06-20T182045.png
 security:

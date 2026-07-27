@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 28.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Control plane (api.tabtabtab.ai) plus per-environment agent/webhook surface (<env>.tabtabtab.app). Driven via the tabtabtab CLI and inbound webhooks; no public OpenAPI is published.
@@ -137,7 +137,7 @@ overview: 'TabTabTab publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   TabTabTab''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 14 more developer resources.'
-random_paper: 15
+random_paper: 49
 score:
   band: thin
   composite: 40.2
@@ -151,7 +151,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 40.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

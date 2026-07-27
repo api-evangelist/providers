@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ plans:
 - name: Nasa Firms Plans Pricing
   plan_count: 2
   slug: nasa-firms-plans-pricing
-random_paper: 40
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Nasa Firms Rate Limits
@@ -176,7 +176,7 @@ rules:
 score:
   band: developing
   composite: 55.8
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 69.0
@@ -184,14 +184,14 @@ score:
     discoverability: 100.0
     governance: 86.8
     operational_transparency: 26.3
-  previous_composite: 57.6
+  previous_composite: 55.8
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-firms/refs/heads/main/screenshots/nasa-firms-2026-06-20T185947.png
 security:

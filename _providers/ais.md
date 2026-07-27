@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'The AIS Client Portal provides investment analytics, portfolio management, and reporting tools for financial advisors and individual investors. The portal enables access to AIS investment strategies, '
@@ -78,7 +78,7 @@ plans:
 - name: Ais Plans Pricing
   plan_count: 3
   slug: ais-plans-pricing
-random_paper: 11
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Ais Rate Limits
@@ -86,7 +86,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.0
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -94,14 +94,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 22.1
+  previous_composite: 22.0
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ais/refs/heads/main/screenshots/ais-2026-06-20T171439.png
 security:

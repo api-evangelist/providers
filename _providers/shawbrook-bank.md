@@ -16,7 +16,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 66.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -146,6 +146,7 @@ scopes:
 score:
   band: thin
   composite: 34.9
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 54.0
@@ -153,13 +154,15 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 34.9
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Shawbrook Bank Authentication

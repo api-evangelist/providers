@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Cadence Design Systems delivers software and IP for electronic design automation, including IC and PCB design, verification, emulation, and system analysis. No public developer API is currently docume
@@ -98,7 +98,7 @@ plans:
 - name: Cadence Plans Pricing
   plan_count: 3
   slug: cadence-plans-pricing
-random_paper: 44
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Cadence Rate Limits
@@ -116,7 +116,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 25.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cadence/refs/heads/main/screenshots/cadence-2026-06-20T173836.png
 security:

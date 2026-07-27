@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -188,25 +188,25 @@ plans:
 - name: Microsoft Net Plans Pricing
   plan_count: 3
   slug: microsoft-net-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Microsoft Net Rate Limits
   slug: microsoft-net-rate-limits
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 52.2
+  delta: 3.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.3
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 49.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-net/refs/heads/main/screenshots/microsoft-net-2026-06-20T185509.png
 security:

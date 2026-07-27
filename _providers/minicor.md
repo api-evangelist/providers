@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -206,11 +206,11 @@ overview: 'Minicor publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Minicor''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 27 more developer resources.'
-random_paper: 39
+random_paper: 5
 score:
   band: strong
   composite: 62.1
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 69.0
@@ -218,14 +218,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 55.3
-  previous_composite: 59.2
+  previous_composite: 62.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -164,31 +164,32 @@ plans:
 - name: Lemonsqueezy Plans Pricing
   plan_count: 2
   slug: lemonsqueezy-plans-pricing
-random_paper: 3
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Lemonsqueezy Rate Limits
   slug: lemonsqueezy-rate-limits
 score:
   band: thin
-  composite: 31.7
-  delta: -1.0
+  composite: 33.9
+  delta: 2.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 49.8
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 32.7
+  previous_composite: 31.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lemonsqueezy/refs/heads/main/screenshots/lemonsqueezy-2026-07-25T224849.png
 security:
 - kind: authentication
   name: Lemonsqueezy Authentication

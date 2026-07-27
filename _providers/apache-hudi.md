@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ plans:
 - name: Apache Hudi Plans Pricing
   plan_count: 3
   slug: apache-hudi-plans-pricing
-random_paper: 10
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Apache Hudi Rate Limits
@@ -221,18 +221,18 @@ rules:
   slug: apache-hudi-spectral-rules
 score:
   band: developing
-  composite: 49.2
-  delta: 0.0
+  composite: 52.6
+  delta: 3.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 60.2
+    contract_quality: 65.5
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 49.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-hudi/refs/heads/main/screenshots/apache-hudi-2026-06-20T172109.png
 security:

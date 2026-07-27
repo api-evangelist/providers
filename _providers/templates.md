@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: Mustache is a logic-less template syntax available for HTML, config files, source code, and more. Used widely for API client SDK generation, documentation generation, and configuration templating.
@@ -106,7 +106,7 @@ plans:
 - name: Templates Plans Pricing
   plan_count: 3
   slug: templates-plans-pricing
-random_paper: 6
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Templates Rate Limits
@@ -133,7 +133,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 34.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/templates/refs/heads/main/screenshots/templates-2026-06-20T195055.png
 security:

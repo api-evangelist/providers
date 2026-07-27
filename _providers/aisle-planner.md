@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -70,7 +70,7 @@ plans:
 - name: Aisle Planner Plans Pricing
   plan_count: 6
   slug: aisle-planner-plans-pricing
-random_paper: 48
+random_paper: 31
 score:
   band: emerging
   composite: 15.3
@@ -84,8 +84,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aisle-planner/refs/heads/main/screenshots/aisle-planner-2026-07-25T195450.png
 security:
 - kind: domain-security
   name: Aisle Planner Domain Security

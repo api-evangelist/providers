@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Logical, modeled grouping for the pizzeria (shop) records that anchor the Slice platform - profile, address, hours, service areas, and pickup/delivery availability. Reflected in the Owner's Portal sho
@@ -99,7 +99,7 @@ random_paper: 3
 score:
   band: emerging
   composite: 15.9
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -107,14 +107,14 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 16.4
+  previous_composite: 15.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

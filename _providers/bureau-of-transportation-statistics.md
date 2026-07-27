@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -118,30 +118,30 @@ plans:
 - name: Bureau Of Transportation Statistics Plans Pricing
   plan_count: 3
   slug: bureau-of-transportation-statistics-plans-pricing
-random_paper: 14
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Bureau Of Transportation Statistics Rate Limits
   slug: bureau-of-transportation-statistics-rate-limits
 score:
   band: thin
-  composite: 37.8
-  delta: -0.5
+  composite: 39.5
+  delta: 1.7
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.3
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 38.3
+  previous_composite: 37.8
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 34.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-transportation-statistics/refs/heads/main/screenshots/bureau-of-transportation-statistics-2026-06-20T173820.png
 security:

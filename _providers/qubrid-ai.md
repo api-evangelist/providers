@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -176,7 +176,7 @@ plans:
 - name: Qubrid Ai Plans Pricing
   plan_count: 4
   slug: qubrid-ai-plans-pricing
-random_paper: 27
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Qubrid Ai Rate Limits
@@ -192,19 +192,19 @@ rules:
   slug: qubrid-ai-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 56.9
+  delta: 5.4
   facets:
     commercial_clarity: 52.6
-    contract_quality: 65.1
+    contract_quality: 74.0
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 51.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/qubrid-ai/refs/heads/main/screenshots/qubrid-ai-2026-06-20T192419.png
 security:
 - kind: authentication

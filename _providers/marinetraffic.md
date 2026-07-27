@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ plans:
 - name: Marinetraffic Plans Pricing
   plan_count: 1
   slug: marinetraffic-plans-pricing
-random_paper: 45
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Marinetraffic Rate Limits
@@ -190,18 +190,18 @@ rules:
   slug: marinetraffic-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 52.8
+  delta: 4.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 67.6
+    contract_quality: 72.9
     developer_ergonomics: 28.3
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 48.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marinetraffic/refs/heads/main/screenshots/marinetraffic-2026-06-20T184951.png
 security:

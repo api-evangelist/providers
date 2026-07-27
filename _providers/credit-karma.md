@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -93,11 +93,11 @@ overview: 'Credit Karma is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Credit Karma''s developer surface includes support and 12 more developer resources.'
-random_paper: 31
+random_paper: 48
 score:
   band: emerging
   composite: 22.6
-  delta: 5.6
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -105,15 +105,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 17.0
+  previous_composite: 22.6
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/credit-karma/refs/heads/main/screenshots/credit-karma-2026-07-25T210716.png
 security:
 - kind: domain-security
   name: Credit Karma Domain Security

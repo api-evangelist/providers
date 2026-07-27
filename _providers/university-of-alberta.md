@@ -10,6 +10,24 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -123,7 +141,7 @@ plans:
 - name: University Of Alberta Plans Pricing
   plan_count: 2
   slug: university-of-alberta-plans-pricing
-random_paper: 14
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: University Of Alberta Rate Limits
@@ -145,6 +163,26 @@ rules:
     info: 0
     warn: 3
   slug: university-of-alberta-rules
+score:
+  band: developing
+  composite: 46.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 67.3
+    developer_ergonomics: 19.6
+    discoverability: 87.5
+    governance: 73.7
+    operational_transparency: 26.3
+  previous_composite: 46.0
+  regulatory:
+    applies: true
+    regime: Government & Public Sector
+    regime_id: government
+    score: 37.0
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: University Of Alberta Authentication

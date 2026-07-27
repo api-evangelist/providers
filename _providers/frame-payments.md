@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 36.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Frame REST API for payments, payouts, accounts, KYC/identity, disputes, subscriptions, invoices, and usage-based billing. Bearer secret-key auth over HTTPS; page-based pagination; HMAC-SHA256 sign
@@ -165,7 +165,7 @@ random_paper: 21
 score:
   band: thin
   composite: 42.8
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 22.6
@@ -173,15 +173,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 40.8
+  previous_composite: 42.8
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/frame-payments/refs/heads/main/screenshots/frame-payments-2026-07-25T215103.png
 security:
 - kind: authentication
   name: Frame Payments Authentication

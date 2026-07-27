@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -194,11 +194,11 @@ overview: 'Palla publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Palla''s developer surface includes documentation, API reference, authentication, and 25 more developer resources.'
-random_paper: 12
+random_paper: 46
 score:
   band: developing
   composite: 53.0
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 70.0
@@ -206,14 +206,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 50.8
+  previous_composite: 53.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -119,25 +119,25 @@ plans:
 - name: Flowable Api Plans Pricing
   plan_count: 3
   slug: flowable-api-plans-pricing
-random_paper: 30
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Flowable Api Rate Limits
   slug: flowable-api-rate-limits
 score:
   band: thin
-  composite: 33.6
-  delta: 0.0
+  composite: 36.8
+  delta: 3.2
   facets:
     commercial_clarity: 47.4
     contract_quality: 41.6
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 33.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flowable-api/refs/heads/main/screenshots/flowable-api-2026-06-20T181328.png
 security:

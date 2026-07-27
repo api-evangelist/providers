@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,7 +53,7 @@ overview: 'Golden Ventures is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Golden Ventures'' developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 40
+random_paper: 6
 score:
   band: minimal
   composite: 7.2
@@ -67,8 +67,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/golden-ventures/refs/heads/main/screenshots/golden-ventures-2026-07-25T220028.png
 security:
 - kind: domain-security
   name: Golden Ventures Domain Security

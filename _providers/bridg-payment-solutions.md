@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,11 +61,11 @@ overview: 'Bridg Payment Solutions is profiled on the [APIs.io](https://apis.io/
 
 
   Bridg Payment Solutions'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 38
+random_paper: 4
 score:
   band: minimal
   composite: 12.8
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -73,15 +73,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.3
+  previous_composite: 12.8
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 32.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bridg-payment-solutions/refs/heads/main/screenshots/bridg-payment-solutions-2026-07-25T203804.png
 security:
 - kind: domain-security
   name: Bridg Payment Solutions Domain Security

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -47,7 +47,7 @@ name: Binary Thumbs
 nav: Providers
 network: true
 overview: Binary Thumbs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Inactive, Y Combinator, Productivity, and Spreadsheets.
-random_paper: 23
+random_paper: 57
 score:
   band: minimal
   composite: 7.4
@@ -61,8 +61,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/binary-thumbs/refs/heads/main/screenshots/binary-thumbs-2026-07-25T203004.png
 slug: binary-thumbs
 tags:
 - Company

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Community-accessible interface to HowLongToBeat game completion time data. Provides search-by-game-name and game-detail lookups returning main story, main story plus extras, completionist, and all-sty
@@ -102,7 +102,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 28
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 22.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/howlongtobeat/refs/heads/main/screenshots/howlongtobeat-2026-06-20T182851.png
 security:

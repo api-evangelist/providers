@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 61.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 17
 apis:
 - description: API to retrieve or manipulate ASN related information.
@@ -166,7 +166,7 @@ overview: 'Vinculum publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   Vinculum''s developer surface includes documentation, engineering blog, support, authentication, and 13 more developer resources.'
-random_paper: 16
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Vinculum Rate Limits
@@ -184,7 +184,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 29.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

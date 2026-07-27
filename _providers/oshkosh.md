@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,7 +89,7 @@ press:
 - date: '2026-05-25'
   title: Oshkosh Corporation
   url: https://www.facebook.com/oshkoshcorporation/posts/were-excited-to-announce-that-oshkosh-corporation-has-been-named-a-cio-100-award/1367076805458783/
-random_paper: 2
+random_paper: 19
 score:
   band: minimal
   composite: 11.4
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oshkosh/refs/heads/main/screenshots/oshkosh-2026-06-20T191215.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -103,7 +103,7 @@ plans:
 - name: United States Fire Administration Plans Pricing
   plan_count: 3
   slug: united-states-fire-administration-plans-pricing
-random_paper: 10
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: United States Fire Administration Rate Limits
@@ -127,18 +127,18 @@ rules:
   slug: united-states-fire-administration-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 36.0
-  delta: 0.0
+  composite: 39.2
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 59.3
     developer_ergonomics: 0.0
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 26.3
     operational_transparency: 31.6
   previous_composite: 36.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-fire-administration/refs/heads/main/screenshots/united-states-fire-administration-2026-06-20T200055.png
 security:

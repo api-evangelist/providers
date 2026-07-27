@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 3
@@ -553,7 +553,7 @@ plans:
 - name: Propelauth Plans Pricing
   plan_count: 4
   slug: propelauth-plans-pricing
-random_paper: 21
+random_paper: 4
 rate_limits:
 - limit_count: 4
   name: Propelauth Rate Limits
@@ -576,19 +576,19 @@ rules:
     warn: 6
   slug: propelauth-rules
 score:
-  band: strong
-  composite: 68.1
-  delta: 0.0
+  band: exemplar
+  composite: 72.3
+  delta: 4.2
   facets:
     commercial_clarity: 78.9
-    contract_quality: 61.2
+    contract_quality: 70.0
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 68.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propelauth/refs/heads/main/screenshots/propelauth-2026-06-20T192214.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 80.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -101,7 +101,7 @@ arazzos:
 - description: Start an asynchronous video label detection job, poll until it succeeds, then read the results.
   name: Amazon Rekognition Video Label Detection Job
   slug: amazon-rekognition-video-label-detection-job-workflow
-artifact_total: 166
+artifact_total: 167
 collections:
 - collection_type: postman
   name: Amazon Rekognition
@@ -1127,6 +1127,10 @@ jsonld:
   property_count: 108
   slug: amazon-rekognition-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-rekognition-mcp.yml
+  slug: amazon-rekognition-mcpyml
 modified: '2026-06-20'
 name: Amazon Rekognition
 nav: Providers
@@ -1166,18 +1170,18 @@ rules:
   slug: amazon-rekognition-spectral-rules
 score:
   band: exemplar
-  composite: 74.9
-  delta: 0.0
+  composite: 77.4
+  delta: 2.5
   facets:
     commercial_clarity: 86.8
     contract_quality: 71.7
     developer_ergonomics: 60.9
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 78.9
   previous_composite: 74.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-rekognition/refs/heads/main/screenshots/amazon-rekognition-2026-06-20T171807.png
 security:

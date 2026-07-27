@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -61,7 +61,7 @@ press:
 - date: '2026-05-25'
   title: Primoris Services Corporation Reports Second Quarter ...
   url: https://ir.prim.com/news-and-events/news-releases/2025/08-04-2025-211559739
-random_paper: 13
+random_paper: 30
 score:
   band: minimal
   composite: 4.8
@@ -75,7 +75,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: primoris-services
 tags:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -225,7 +225,7 @@ plans:
 - name: Apache Seatunnel Plans Pricing
   plan_count: 3
   slug: apache-seatunnel-plans-pricing
-random_paper: 49
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Apache Seatunnel Rate Limits
@@ -260,7 +260,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 47.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-seatunnel/refs/heads/main/screenshots/apache-seatunnel-2026-06-20T172141.png
 security:

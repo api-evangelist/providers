@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ plans:
 - name: Td Synnex Plans Pricing
   plan_count: 1
   slug: td-synnex-plans-pricing
-random_paper: 20
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Td Synnex Rate Limits
@@ -204,18 +204,18 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 51.1
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 66.2
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 21.1
   previous_composite: 47.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/td-synnex/refs/heads/main/screenshots/td-synnex-2026-06-20T194950.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 80.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -200,7 +200,7 @@ overview: 'Boom Ai publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Boom Ai''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 13
+random_paper: 64
 score:
   band: developing
   composite: 50.8
@@ -214,8 +214,9 @@ score:
     operational_transparency: 31.6
   previous_composite: 50.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/boom-ai/refs/heads/main/screenshots/boom-ai-2026-07-25T203612.png
 security:
 - kind: authentication
   name: Boom Ai Authentication

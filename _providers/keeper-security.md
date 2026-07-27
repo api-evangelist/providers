@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -137,7 +137,7 @@ overview: 'Keeper Security is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Keeper Security''s developer surface includes documentation, engineering blog, support, pricing, CLI, and 19 more developer resources.'
-random_paper: 39
+random_paper: 5
 score:
   band: thin
   composite: 30.4
@@ -151,8 +151,9 @@ score:
     operational_transparency: 31.6
   previous_composite: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/keeper-security/refs/heads/main/screenshots/keeper-security-2026-07-25T223552.png
 security:
 - kind: domain-security
   name: Keeper Security Domain Security

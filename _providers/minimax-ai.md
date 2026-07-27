@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -128,25 +128,25 @@ plans:
 - name: Minimax Ai Plans Pricing
   plan_count: 4
   slug: minimax-ai-plans-pricing
-random_paper: 33
+random_paper: 50
 rate_limits:
 - limit_count: 8
   name: Minimax Ai Rate Limits
   slug: minimax-ai-rate-limits
 score:
   band: thin
-  composite: 37.9
-  delta: 0.0
+  composite: 41.2
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 56.6
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 37.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minimax-ai/refs/heads/main/screenshots/minimax-ai-2026-06-20T185605.png
 security:

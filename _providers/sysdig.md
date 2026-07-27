@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -116,7 +116,7 @@ arazzos:
 - description: List vulnerability results, drill into one image, and pull its SBOM.
   name: Sysdig Triage Image Vulnerabilities
   slug: sysdig-triage-image-vulnerabilities-workflow
-artifact_total: 43
+artifact_total: 44
 collections:
 - collection_type: open
   name: Sysdig Monitor API
@@ -304,6 +304,10 @@ jsonld:
   property_count: 0
   slug: sysdig-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Sysdig
 nav: Providers
@@ -343,18 +347,18 @@ rules:
   slug: sysdig-rules
 score:
   band: strong
-  composite: 65.3
-  delta: 0.0
+  composite: 68.5
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 63.0
     developer_ergonomics: 67.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 68.4
   previous_composite: 65.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sysdig/refs/heads/main/screenshots/sysdig-2026-06-20T194836.png
 security:

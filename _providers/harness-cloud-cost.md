@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Harness Cloud Cost Plans Pricing
   plan_count: 3
   slug: harness-cloud-cost-plans-pricing
-random_paper: 37
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Harness Cloud Cost Rate Limits
@@ -152,18 +152,18 @@ rules:
   slug: harness-cloud-cost-rules
 score:
   band: developing
-  composite: 45.2
-  delta: 0.0
+  composite: 48.4
+  delta: 3.2
   facets:
     commercial_clarity: 57.9
     contract_quality: 51.0
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 13.2
     operational_transparency: 52.6
   previous_composite: 45.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/harness-cloud-cost/refs/heads/main/screenshots/harness-cloud-cost-2026-06-20T182521.png
 security:

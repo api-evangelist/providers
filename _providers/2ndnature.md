@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ overview: '2NDNATURE is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   2NDNATURE''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 48
+random_paper: 31
 score:
   band: minimal
   composite: 13.5
@@ -83,8 +83,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/2ndnature/refs/heads/main/screenshots/2ndnature-2026-07-25T181133.png
 security:
 - kind: domain-security
   name: 2Ndnature Domain Security

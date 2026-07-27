@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 104
   human_in_the_loop: 104
@@ -240,7 +240,7 @@ overview: '360Learning publishes 17 APIs on the [APIs.io](https://apis.io/) netw
 
 
   360Learning''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 25 more developer resources.'
-random_paper: 32
+random_paper: 49
 scopes:
 - name: 360Learning Scopes
   scope_count: 45
@@ -259,8 +259,9 @@ score:
     operational_transparency: 47.4
   previous_composite: 58.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/360learning/refs/heads/main/screenshots/360learning-2026-07-25T181148.png
 security:
 - kind: authentication
   name: 360Learning Authentication

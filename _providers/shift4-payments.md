@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -239,7 +239,7 @@ plans:
 - name: Shift4 Payments Plans Pricing
   plan_count: 1
   slug: shift4-payments-plans-pricing
-random_paper: 41
+random_paper: 24
 rate_limits:
 - limit_count: 2
   name: Shift4 Payments Rate Limits
@@ -262,24 +262,24 @@ rules:
     warn: 3
   slug: shift4-payments-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 42.9
-  delta: -1.0
+  band: developing
+  composite: 45.8
+  delta: 2.9
   facets:
     commercial_clarity: 28.9
-    contract_quality: 54.0
+    contract_quality: 62.8
     developer_ergonomics: 39.1
-    discoverability: 55.0
+    discoverability: 67.5
     governance: 65.8
     operational_transparency: 26.3
-  previous_composite: 43.9
+  previous_composite: 42.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/screenshots/shift4-payments-2026-06-20T193806.png
 security:

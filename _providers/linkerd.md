@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -209,7 +209,7 @@ plans:
 - name: Linkerd Plans Pricing
   plan_count: 5
   slug: linkerd-plans-pricing
-random_paper: 31
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Linkerd Rate Limits
@@ -225,18 +225,18 @@ rules:
   slug: linkerd-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 57.3
+  delta: 4.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 53.0
+    contract_quality: 61.8
     developer_ergonomics: 26.1
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 63.2
   previous_composite: 53.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkerd/refs/heads/main/screenshots/linkerd-2026-06-20T184545.png
 security:

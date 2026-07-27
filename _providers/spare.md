@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 2
@@ -236,7 +236,7 @@ overview: 'Spare publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Spare''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 24 more developer resources.'
-random_paper: 29
+random_paper: 63
 scopes:
 - name: Spare Scopes
   scope_count: 0
@@ -245,7 +245,7 @@ scopes:
 score:
   band: developing
   composite: 58.2
-  delta: 5.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 57.9
@@ -253,15 +253,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 53.2
+  previous_composite: 58.2
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Spare Authentication

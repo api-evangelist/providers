@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -50,7 +50,7 @@ name: The Farmer&#8217;s Dog
 nav: Providers
 network: true
 overview: The Farmer&#8217;s Dog is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Pet Food, Direct to Consumer, and Subscription.
-random_paper: 38
+random_paper: 21
 score:
   band: minimal
   composite: 7.4
@@ -64,7 +64,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

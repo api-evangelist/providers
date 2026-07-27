@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 24
@@ -176,7 +176,7 @@ overview: 'Luxury Presence publishes 5 APIs on the [APIs.io](https://apis.io/) n
 
 
   Luxury Presence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 14
+random_paper: 31
 score:
   band: developing
   composite: 50.5
@@ -190,8 +190,9 @@ score:
     operational_transparency: 7.9
   previous_composite: 50.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/luxury-presence/refs/heads/main/screenshots/luxury-presence-2026-07-25T225740.png
 security:
 - kind: authentication
   name: Luxury Presence Authentication

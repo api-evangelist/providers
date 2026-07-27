@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for managing Infogram projects programmatically — list and copy projects, read and update project entities, upload image assets, publish and unpublish, delete, and export projects as image/PD
@@ -164,8 +164,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 32.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/infogram/refs/heads/main/screenshots/infogram-2026-07-25T222416.png
 security:
 - kind: authentication
   name: Infogram Authentication

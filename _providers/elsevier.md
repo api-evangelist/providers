@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -147,23 +147,23 @@ rate_limits:
   slug: elsevier-rate-limits
 score:
   band: developing
-  composite: 46.4
-  delta: -0.5
+  composite: 48.1
+  delta: 1.7
   facets:
     commercial_clarity: 60.5
     contract_quality: 54.0
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 46.9
+  previous_composite: 46.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/screenshots/elsevier-2026-06-20T180616.png
 security:

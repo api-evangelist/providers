@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -100,7 +100,7 @@ plans:
 - name: Princess Beef Heavy Industries Plans Pricing
   plan_count: 3
   slug: princess-beef-heavy-industries-plans-pricing
-random_paper: 38
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Princess Beef Heavy Industries Rate Limits
@@ -116,18 +116,18 @@ rules:
   slug: princess-beef-heavy-industries-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 49.7
+  delta: 4.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.1
+    contract_quality: 77.0
     developer_ergonomics: 10.9
-    discoverability: 47.5
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 45.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/princess-beef-heavy-industries/refs/heads/main/screenshots/princess-beef-heavy-industries-2026-06-20T192117.png
 security:

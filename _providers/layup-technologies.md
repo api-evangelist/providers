@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 1
@@ -272,7 +272,7 @@ random_paper: 48
 score:
   band: developing
   composite: 49.1
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 60.4
@@ -280,15 +280,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 49.7
+  previous_composite: 49.1
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/layup-technologies/refs/heads/main/screenshots/layup-technologies-2026-07-25T224705.png
 security:
 - kind: authentication
   name: Layup Technologies Authentication

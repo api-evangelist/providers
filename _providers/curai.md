@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -145,11 +145,11 @@ overview: 'Curai publishes 1 API on the [APIs.io](https://apis.io/) network: Par
 
 
   Curai''s developer surface includes documentation, getting-started guide, authentication, sandbox, and 18 more developer resources.'
-random_paper: 22
+random_paper: 56
 score:
   band: thin
   composite: 40.2
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 54.9
@@ -157,15 +157,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 39.2
+  previous_composite: 40.2
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/curai/refs/heads/main/screenshots/curai-2026-07-25T210929.png
 security:
 - kind: authentication
   name: Curai Authentication

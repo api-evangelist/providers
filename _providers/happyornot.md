@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 21
 apis:
 - description: Endpoints and data definitions related to alert comments which have been written for alerts
@@ -240,7 +240,7 @@ overview: 'HappyOrNot publishes 21 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   HappyOrNot''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 23 more developer resources.'
-random_paper: 37
+random_paper: 20
 score:
   band: developing
   composite: 51.9
@@ -254,8 +254,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 51.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/happyornot/refs/heads/main/screenshots/happyornot-2026-07-25T220655.png
 security:
 - kind: authentication
   name: Happyornot Authentication

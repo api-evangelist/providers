@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: The Authologic Identity API enables businesses to initiate identity verification processes and receive results programmatically. Supports document verification, eID, Bank ID, and biometric liveness ch
@@ -112,7 +112,7 @@ plans:
 - name: Authologic Plans Pricing
   plan_count: 3
   slug: authologic-plans-pricing
-random_paper: 0
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Authologic Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 30.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authologic/refs/heads/main/screenshots/authologic-2026-06-20T172610.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ plans:
 - name: Google Business Profile Plans Pricing
   plan_count: 3
   slug: google-business-profile-plans-pricing
-random_paper: 10
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Google Business Profile Rate Limits
@@ -167,18 +167,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 60.5
-  delta: 0.0
+  composite: 65.1
+  delta: 4.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 63.7
+    contract_quality: 69.0
     developer_ergonomics: 43.5
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 60.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-business-profile/refs/heads/main/screenshots/google-business-profile-2026-06-20T182034.png
 security:

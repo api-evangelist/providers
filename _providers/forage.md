@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API to tokenize EBT cards, run PIN-secured balance inquiries, and create, capture, void, and refund EBT SNAP, EBT Cash, and HSA/FSA payments and orders for online and in-store checkout.
@@ -197,7 +197,7 @@ random_paper: 16
 score:
   band: developing
   composite: 51.1
-  delta: 2.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 22.6
@@ -205,15 +205,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 48.6
+  previous_composite: 51.1
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/forage/refs/heads/main/screenshots/forage-2026-07-25T214925.png
 security:
 - kind: authentication
   name: Forage Authentication

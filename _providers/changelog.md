@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: The Changelog podcast RSS feed provides access to all episodes of The Changelog, a weekly podcast covering software development, open source, and the people and projects behind the code. The feed retu
@@ -154,7 +154,7 @@ plans:
 - name: Changelog Plans Pricing
   plan_count: 3
   slug: changelog-plans-pricing
-random_paper: 18
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Changelog Rate Limits
@@ -172,7 +172,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 23.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/changelog/refs/heads/main/screenshots/changelog-2026-06-20T174212.png
 security:

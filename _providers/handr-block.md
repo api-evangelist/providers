@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,7 +66,7 @@ press:
 - date: '2026-05-25'
   title: AI Tax Assist
   url: https://www.hrblock.com/tax-center/media-kit/ai-tax-assist/?srsltid=AfmBOoo9UfHXAtALeWIBQ8Fr2laaQ9u6R6b7PQNkNEAu7ef3T_RwB_E3
-random_paper: 22
+random_paper: 5
 score:
   band: minimal
   composite: 4.9
@@ -80,7 +80,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 4.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/handr-block/refs/heads/main/screenshots/handr-block-2026-06-20T182502.png
 security:

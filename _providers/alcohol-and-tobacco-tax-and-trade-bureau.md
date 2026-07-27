@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The TTB Open Data API provides programmatic access to TTB statistical and regulatory datasets via the Socrata Open Data API (SODA). Available datasets include alcohol beverage tax collections by commo
@@ -126,7 +126,7 @@ plans:
 - name: Alcohol And Tobacco Tax And Trade Bureau Plans Pricing
   plan_count: 3
   slug: alcohol-and-tobacco-tax-and-trade-bureau-plans-pricing
-random_paper: 33
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Alcohol And Tobacco Tax And Trade Bureau Rate Limits
@@ -144,7 +144,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 27.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alcohol-and-tobacco-tax-and-trade-bureau/refs/heads/main/screenshots/alcohol-and-tobacco-tax-and-trade-bureau-2026-06-20T171512.png
 security:

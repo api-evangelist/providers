@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 29.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Agent-native commerce surface for the Italist Shopify storefront — a Universal Commerce Protocol (UCP) merchant profile and a Model Context Protocol (MCP) shopping endpoint for catalog search, cart, a
@@ -110,7 +110,7 @@ overview: 'Italist publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Italist''s developer surface includes support, engineering blog, signup flow, authentication, and 11 more developer resources.'
-random_paper: 48
+random_paper: 14
 scopes:
 - name: Italist Scopes
   scope_count: 4
@@ -129,7 +129,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 22.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

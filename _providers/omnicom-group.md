@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -58,7 +58,7 @@ press:
 - date: '2026-05-25'
   title: 'Omnicom AI: Strategy in PR Dominance'
   url: https://www.klover.ai/omnicom_ai_strategy_in_pr_dominance/
-random_paper: 30
+random_paper: 64
 score:
   band: minimal
   composite: 3.5
@@ -72,7 +72,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/omnicom-group/refs/heads/main/screenshots/omnicom-group-2026-06-20T190704.png
 slug: omnicom-group

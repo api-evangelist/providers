@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 43.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Manage API keys (also called API tokens) used to authenticate Control Plane API requests. Distinct from disk tokens.
@@ -186,8 +186,9 @@ score:
     operational_transparency: 47.4
   previous_composite: 60.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/archil/refs/heads/main/screenshots/archil-2026-07-25T201028.png
 security:
 - kind: authentication
   name: Archil Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 75.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -228,7 +228,7 @@ overview: 'Scrunch AI publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Scrunch AI''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 24 more developer resources.'
-random_paper: 36
+random_paper: 53
 scopes:
 - name: Scrunch Ai Scopes
   scope_count: 3
@@ -247,7 +247,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 53.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -258,7 +258,7 @@ plans:
 - name: Orion Plans Pricing
   plan_count: 1
   slug: orion-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Orion Rate Limits
@@ -287,23 +287,23 @@ scopes:
   summary_line: 24 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 62.4
-  delta: 2.5
+  composite: 66.4
+  delta: 4.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 80.4
+    contract_quality: 89.3
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 52.6
-  previous_composite: 59.9
+  previous_composite: 62.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orion/refs/heads/main/screenshots/orion-2026-06-20T191207.png
 security:

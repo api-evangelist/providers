@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'REST API for the Patronus platform: evaluate (run a built-in or custom evaluator), criteria, datasets, projects, experiments, and judge endpoints. Authentication via API key. Python SDK at patronus-ai'
@@ -86,7 +86,7 @@ plans:
 - name: Patronus Plans Pricing
   plan_count: 2
   slug: patronus-plans-pricing
-random_paper: 25
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Patronus Rate Limits
@@ -104,7 +104,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 20.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patronus/refs/heads/main/screenshots/patronus-2026-06-20T191444.png
 security:

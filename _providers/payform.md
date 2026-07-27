@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 5.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,11 +89,11 @@ overview: 'Payform is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Payform''s developer surface includes signup flow, pricing, documentation, engineering blog, support, and 7 more developer resources.'
-random_paper: 1
+random_paper: 18
 score:
   band: emerging
   composite: 21.4
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -101,14 +101,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 19.8
+  previous_composite: 21.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

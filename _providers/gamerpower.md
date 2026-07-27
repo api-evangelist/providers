@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 45.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ plans:
 - name: Gamerpower Plans Pricing
   plan_count: 2
   slug: gamerpower-plans-pricing
-random_paper: 10
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Gamerpower Rate Limits
@@ -178,20 +178,20 @@ rules:
     warn: 17
   slug: gamerpower-rules
 score:
-  band: thin
-  composite: 40.2
-  delta: 0.0
+  band: developing
+  composite: 45.6
+  delta: 5.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 62.2
+    contract_quality: 71.1
     developer_ergonomics: 8.7
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 21.1
   previous_composite: 40.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/gamerpower/refs/heads/main/screenshots/gamerpower-2026-06-20T181638.png
 security:
 - kind: domain-security

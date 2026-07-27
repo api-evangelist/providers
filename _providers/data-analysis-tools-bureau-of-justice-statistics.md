@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ plans:
 - name: Data Analysis Tools Bureau Of Justice Statistics Plans Pricing
   plan_count: 3
   slug: data-analysis-tools-bureau-of-justice-statistics-plans-pricing
-random_paper: 30
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Data Analysis Tools Bureau Of Justice Statistics Rate Limits
@@ -152,23 +152,23 @@ rules:
   slug: data-analysis-tools-bureau-of-justice-statistics-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.6
-  delta: -0.3
+  composite: 42.5
+  delta: 3.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 55.8
+    contract_quality: 61.1
     developer_ergonomics: 10.9
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 39.5
     operational_transparency: 31.6
-  previous_composite: 38.9
+  previous_composite: 38.6
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-analysis-tools-bureau-of-justice-statistics/refs/heads/main/screenshots/data-analysis-tools-bureau-of-justice-statistics-2026-06-20T175505.png
 security:

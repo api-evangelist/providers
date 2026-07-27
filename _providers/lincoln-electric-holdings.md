@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ press:
 - date: '2026-05-25'
   title: Lincoln Electric Reports First Quarter 2026 Results
   url: https://www.businesswire.com/news/home/20260430107151/en/Lincoln-Electric-Reports-First-Quarter-2026-Results
-random_paper: 41
+random_paper: 24
 score:
   band: minimal
   composite: 8.3
@@ -99,7 +99,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 8.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lincoln-electric-holdings/refs/heads/main/screenshots/lincoln-electric-holdings-2026-06-20T184535.png
 security:

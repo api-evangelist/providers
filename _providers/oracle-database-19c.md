@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ plans:
 - name: Oracle Database 19C Plans Pricing
   plan_count: 5
   slug: oracle-database-19c-plans-pricing
-random_paper: 12
+random_paper: 46
 rate_limits:
 - limit_count: 4
   name: Oracle Database 19C Rate Limits
@@ -186,19 +186,19 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 52.0
+  delta: 5.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.1
+    contract_quality: 69.9
     developer_ergonomics: 10.9
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 46.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 security:
 - kind: authentication
   name: Oracle Database 19C Authentication

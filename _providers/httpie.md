@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -138,18 +138,18 @@ rules:
   slug: httpie-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 50.0
+  delta: 3.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 59.3
+    contract_quality: 64.6
     developer_ergonomics: 10.9
-    discoverability: 60.0
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 46.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/httpie/refs/heads/main/screenshots/httpie-2026-06-20T182915.png
 security:

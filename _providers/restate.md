@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 45.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -196,7 +196,7 @@ plans:
 - name: Restate Plans Pricing
   plan_count: 3
   slug: restate-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Restate Rate Limits
@@ -220,18 +220,18 @@ rules:
   slug: restate-rules
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 52.1
+  delta: 4.2
   facets:
     commercial_clarity: 47.4
-    contract_quality: 51.3
+    contract_quality: 60.2
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 47.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/restate/refs/heads/main/screenshots/restate-2026-06-20T193014.png
 security:

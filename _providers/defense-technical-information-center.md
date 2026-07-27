@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: 'Public-facing website of the Defense Technical Information Center describing DTIC services, products, and access programs. The site links to Discover, R&E Gateway, training, and registration but does '
@@ -102,7 +102,7 @@ plans:
 - name: Defense Technical Information Center Plans Pricing
   plan_count: 3
   slug: defense-technical-information-center-plans-pricing
-random_paper: 14
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Defense Technical Information Center Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 25.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

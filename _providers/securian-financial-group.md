@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Securian Financial Group
   url: https://www.cuinsight.com/companies/securian-financial-group/
-random_paper: 41
+random_paper: 58
 score:
   band: minimal
   composite: 5.2
@@ -82,7 +82,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: securian-financial-group
 tags:

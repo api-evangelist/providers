@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 91
   human_in_the_loop: 0
@@ -289,7 +289,7 @@ overview: 'Oneschema publishes 28 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Oneschema''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 29 more developer resources.'
-random_paper: 29
+random_paper: 63
 score:
   band: strong
   composite: 63.4
@@ -303,7 +303,7 @@ score:
     operational_transparency: 55.3
   previous_composite: 63.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

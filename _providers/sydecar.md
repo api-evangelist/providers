@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Sydecar API lets developers programmatically run funding processes on Sydecar's legal, banking, and compliance rails, with the Special Purpose Vehicle (SPV) as the foundational unit — create, find
@@ -94,7 +94,7 @@ overview: 'Sydecar publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Sydecar''s developer surface includes authentication, sandbox, engineering blog, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 33
+random_paper: 67
 score:
   band: emerging
   composite: 23.0
@@ -108,7 +108,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 23.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

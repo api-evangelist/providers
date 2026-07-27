@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 61.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -379,7 +379,7 @@ plans:
 - name: Leonardo Ai Plans Pricing
   plan_count: 5
   slug: leonardo-ai-plans-pricing
-random_paper: 28
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Leonardo Ai Rate Limits
@@ -411,18 +411,18 @@ rules:
   slug: leonardo-ai-rules
 score:
   band: strong
-  composite: 62.7
-  delta: 0.0
+  composite: 66.2
+  delta: 3.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 71.5
+    contract_quality: 80.4
     developer_ergonomics: 60.9
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 60.5
     operational_transparency: 34.2
   previous_composite: 62.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leonardo-ai/refs/heads/main/screenshots/leonardo-ai-2026-06-20T184426.png
 security:

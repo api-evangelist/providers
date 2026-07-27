@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -559,18 +559,18 @@ rules:
   slug: argus-enterprise-spectral-rules
 score:
   band: strong
-  composite: 60.0
-  delta: 0.0
+  composite: 63.2
+  delta: 3.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 64.3
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 42.1
   previous_composite: 60.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argus-enterprise/refs/heads/main/screenshots/argus-enterprise-2026-06-20T172428.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Nextdata OS platform for building autonomous data products across structured and unstructured data, with AI-native data management, governance, and discovery primitives.
@@ -89,7 +89,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 20.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nextdata/refs/heads/main/screenshots/nextdata-2026-06-20T190256.png
 security:

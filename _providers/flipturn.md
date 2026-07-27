@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ overview: 'Flipturn publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Flipturn''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 18 more developer resources.'
-random_paper: 17
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Flipturn Rate Limits
@@ -211,8 +211,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 50.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/flipturn/refs/heads/main/screenshots/flipturn-2026-07-25T214806.png
 security:
 - kind: authentication
   name: Flipturn Authentication

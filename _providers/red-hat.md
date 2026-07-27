@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -305,7 +305,7 @@ arazzos:
 - description: Find a host, review its applicable errata, and update its content view assignment.
   name: Red Hat Satellite Host Errata Remediation
   slug: red-hat-satellite-host-errata-remediation-workflow
-artifact_total: 280
+artifact_total: 281
 asyncapis:
 - description: The Red Hat Streams for Apache Kafka Bridge provides an HTTP-based interface for producing and consuming messages to and from Apache Kafka topics without requiring a native Kafka client. Deployed on O
   name: Red Hat Streams for Apache Kafka Bridge Events
@@ -1180,6 +1180,10 @@ jsonld:
   property_count: 0
   slug: red-hat-satellite-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: red-hat-mcp.yml
+  slug: red-hat-mcpyml
 modified: '2026-06-20'
 name: Red Hat
 nav: Providers
@@ -1195,7 +1199,7 @@ plans:
 - name: Red Hat Plans Pricing
   plan_count: 1
   slug: red-hat-plans-pricing
-random_paper: 14
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Red Hat Rate Limits
@@ -1238,7 +1242,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 70.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red-hat/refs/heads/main/screenshots/red-hat-2026-06-20T192716.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -227,7 +227,7 @@ press:
 - date: '2026-05-25'
   title: AI could pose risk for food and ag companies
   url: https://www.agriculturedive.com/news/ai-could-create-risk-for-food-and-ag-companies-ADM-Coca-Cola/724981/
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Archer Daniels Midland Rate Limits
@@ -251,18 +251,18 @@ rules:
   slug: archer-daniels-midland-spectral-rules
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 51.2
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 71.7
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 21.1
   previous_composite: 48.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/screenshots/archer-daniels-midland-2026-06-20T172404.png
 security:

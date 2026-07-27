@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 6
 common:
@@ -117,7 +117,7 @@ overview: 'Regular Expressions is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Regular Expressions'' developer surface includes documentation, code examples, and 12 more developer resources.'
-random_paper: 29
+random_paper: 46
 rules:
 - name: Regular Expressions API Rules
   rule_count: 5
@@ -140,7 +140,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 23.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regular-expressions/refs/heads/main/screenshots/regular-expressions-2026-06-20T192758.png
 security:

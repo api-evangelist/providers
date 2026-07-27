@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -155,18 +155,18 @@ rate_limits:
   slug: base-l2-rate-limits
 score:
   band: thin
-  composite: 31.6
-  delta: 0.0
+  composite: 34.9
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 54.0
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 31.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/base-l2/refs/heads/main/screenshots/base-l2-2026-06-20T173043.png
 security:

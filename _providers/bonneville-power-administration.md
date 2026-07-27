@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -142,25 +142,25 @@ plans:
 - name: Bonneville Power Administration Plans Pricing
   plan_count: 3
   slug: bonneville-power-administration-plans-pricing
-random_paper: 14
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Bonneville Power Administration Rate Limits
   slug: bonneville-power-administration-rate-limits
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 32.5
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 45.1
     developer_ergonomics: 2.2
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 30.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bonneville-power-administration/refs/heads/main/screenshots/bonneville-power-administration-2026-06-20T173608.png
 security:

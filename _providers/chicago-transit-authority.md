@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -182,30 +182,30 @@ plans:
 - name: Chicago Transit Authority Plans Pricing
   plan_count: 3
   slug: chicago-transit-authority-plans-pricing
-random_paper: 32
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Chicago Transit Authority Rate Limits
   slug: chicago-transit-authority-rate-limits
 score:
-  band: thin
-  composite: 44.0
-  delta: 1.8
+  band: developing
+  composite: 46.7
+  delta: 2.7
   facets:
     commercial_clarity: 60.5
     contract_quality: 61.1
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 42.2
+  previous_composite: 44.0
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chicago-transit-authority/refs/heads/main/screenshots/chicago-transit-authority-2026-06-20T174303.png
 security:

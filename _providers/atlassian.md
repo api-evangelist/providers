@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1290
   human_in_the_loop: 26
@@ -1166,7 +1166,7 @@ arazzos:
 - description: Read an existing issue, comment on it, then transition it to a triaged status.
   name: Atlassian Jira Triage Issue
   slug: atlassian-triage-issue-workflow
-artifact_total: 3362
+artifact_total: 3363
 collections:
 - collection_type: postman
   name: Atlassian Admin API
@@ -10243,6 +10243,10 @@ jsonld:
   property_count: 10
   slug: atlassian-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Atlassian
 nav: Providers
@@ -10258,7 +10262,7 @@ plans:
 - name: Atlassian Plans Pricing
   plan_count: 4
   slug: atlassian-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Atlassian Rate Limits
@@ -10286,19 +10290,19 @@ scopes:
   slug: atlassian-scopes
   summary_line: 288 scopes · authorizationCode
 score:
-  band: strong
-  composite: 69.6
-  delta: 0.0
+  band: exemplar
+  composite: 73.0
+  delta: 3.4
   facets:
     commercial_clarity: 68.4
-    contract_quality: 68.7
+    contract_quality: 77.5
     developer_ergonomics: 56.5
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 78.9
   previous_composite: 69.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/atlassian/refs/heads/main/screenshots/atlassian-2026-06-20T172524.png
 security:

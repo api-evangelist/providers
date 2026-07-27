@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Check budget allocations and remaining GPU hours
@@ -163,7 +163,7 @@ overview: 'Chamber publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Chamber''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 8
+random_paper: 42
 score:
   band: developing
   composite: 48.8
@@ -177,8 +177,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 48.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/chamber/refs/heads/main/screenshots/chamber-2026-07-25T205029.png
 security:
 - kind: authentication
   name: Chamber Authentication

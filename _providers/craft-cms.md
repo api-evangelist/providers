@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: 'Auto-generated GraphQL API providing schema-based access to Craft CMS content including entries, assets, categories, tags, and custom fields. Access is controlled via bearer token authentication tied '
@@ -133,7 +133,7 @@ plans:
 - name: Craft Cms Plans Pricing
   plan_count: 4
   slug: craft-cms-plans-pricing
-random_paper: 29
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Craft Cms Rate Limits
@@ -151,7 +151,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 30.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/craft-cms/refs/heads/main/screenshots/craft-cms-2026-06-20T175204.png
 security:

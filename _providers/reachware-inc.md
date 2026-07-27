@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Card save / tokenization flows
@@ -141,11 +141,11 @@ overview: 'Reachware Inc. publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Reachware Inc.''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, and 16 more developer resources.'
-random_paper: 30
+random_paper: 13
 score:
   band: developing
   composite: 49.4
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 58.4
@@ -153,14 +153,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 46.6
+  previous_composite: 49.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

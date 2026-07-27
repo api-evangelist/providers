@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 49.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -369,7 +369,7 @@ plans:
 - name: Postmark Plans Pricing
   plan_count: 4
   slug: postmark-plans-pricing
-random_paper: 14
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Postmark Rate Limits
@@ -393,18 +393,18 @@ rules:
   slug: postmark-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.3
-  delta: 0.0
+  composite: 57.8
+  delta: 2.5
   facets:
     commercial_clarity: 84.2
     contract_quality: 50.7
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 52.6
     operational_transparency: 57.9
   previous_composite: 55.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postmark/refs/heads/main/screenshots/postmark-2026-06-20T192003.png
 security:

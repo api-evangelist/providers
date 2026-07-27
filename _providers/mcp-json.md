@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -61,7 +61,7 @@ overview: 'mcp.json is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   mcp.json''s developer surface includes engineering blog, documentation, and 3 more developer resources.'
-random_paper: 42
+random_paper: 59
 score:
   band: minimal
   composite: 8.9
@@ -75,7 +75,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mcp-json/refs/heads/main/screenshots/mcp-json-2026-06-20T185109.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: MarineCadastre.gov is the authoritative source for marine cadastre data and services. It provides an interactive map viewer with integrated submerged lands information including legal, property owners
@@ -96,7 +96,7 @@ plans:
 - name: Bureau Of Ocean Energy Management Plans Pricing
   plan_count: 3
   slug: bureau-of-ocean-energy-management-plans-pricing
-random_paper: 45
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Bureau Of Ocean Energy Management Rate Limits
@@ -114,7 +114,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 25.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bureau-of-ocean-energy-management/refs/heads/main/screenshots/bureau-of-ocean-energy-management-2026-06-20T173814.png
 security:

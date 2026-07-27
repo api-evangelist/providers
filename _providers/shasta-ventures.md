@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Shasta Ventures
 nav: Providers
 network: true
-random_paper: 0
+random_paper: 17
 slug: shasta-ventures
 tags:
 - Venture Capital

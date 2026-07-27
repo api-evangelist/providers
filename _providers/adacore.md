@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,7 +93,7 @@ overview: 'AdaCore is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   AdaCore''s developer surface includes documentation, getting-started guide, engineering blog, support, and 9 more developer resources.'
-random_paper: 5
+random_paper: 39
 score:
   band: emerging
   composite: 15.1
@@ -107,8 +107,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 15.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/adacore/refs/heads/main/screenshots/adacore-2026-07-25T181546.png
 security:
 - kind: domain-security
   name: Adacore Domain Security

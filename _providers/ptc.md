@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: The ThingWorx Industrial IoT platform REST API enables developers to interact with Things, Properties, Services, Events, and Subscriptions via HTTP. Authentication uses an AppKey passed as an HTTP hea
@@ -145,7 +145,7 @@ plans:
 - name: Ptc Plans Pricing
   plan_count: 9
   slug: ptc-plans-pricing
-random_paper: 21
+random_paper: 55
 rate_limits:
 - limit_count: 6
   name: Ptc Rate Limits
@@ -163,7 +163,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 38.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ptc/refs/heads/main/screenshots/ptc-2026-06-20T192239.png
 security:

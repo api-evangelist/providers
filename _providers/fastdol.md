@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 2
@@ -425,7 +425,7 @@ plans:
 - name: Fastdol Plans Pricing
   plan_count: 2
   slug: fastdol-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 10
   name: Fastdol Rate Limits
@@ -448,19 +448,19 @@ rules:
     warn: 18
   slug: fastdol-rules
 score:
-  band: developing
-  composite: 59.8
-  delta: 0.0
+  band: strong
+  composite: 64.4
+  delta: 4.6
   facets:
     commercial_clarity: 73.7
-    contract_quality: 63.8
+    contract_quality: 69.1
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 59.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fastdol/refs/heads/main/screenshots/fastdol-2026-06-20T181047.png
 security:

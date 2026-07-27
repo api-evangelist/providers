@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ plans:
 - name: S And P Global Plans Pricing
   plan_count: 1
   slug: s-and-p-global-plans-pricing
-random_paper: 19
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: S And P Global Rate Limits
@@ -190,18 +190,18 @@ rules:
   slug: s-and-p-global-spectral-rules
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 51.2
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 64.4
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 21.1
   previous_composite: 48.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/s-and-p-global/refs/heads/main/screenshots/s-and-p-global-2026-06-20T193312.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -413,7 +413,7 @@ plans:
 - name: Vault Plans Pricing
   plan_count: 3
   slug: vault-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Vault Rate Limits
@@ -436,20 +436,20 @@ rules:
     warn: 17
   slug: vault-spectral-rules
 score:
-  band: developing
-  composite: 56.8
-  delta: 0.0
+  band: strong
+  composite: 62.2
+  delta: 5.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.7
+    contract_quality: 80.5
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 56.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/vault/refs/heads/main/screenshots/vault-2026-06-20T200835.png
 security:
 - kind: authentication

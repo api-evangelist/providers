@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -252,21 +252,21 @@ overview: 'Lex Machina publishes 21 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Lex Machina''s developer surface includes authentication, developer portal, documentation, engineering blog, YouTube channel, support, and 21 more developer resources.'
-random_paper: 24
+random_paper: 7
 score:
   band: thin
-  composite: 38.4
-  delta: 0.0
+  composite: 41.6
+  delta: 3.2
   facets:
     commercial_clarity: 42.1
     contract_quality: 57.1
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 38.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lex-machina/refs/heads/main/screenshots/lex-machina-2026-06-20T184441.png
 security:

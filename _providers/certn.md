@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -129,26 +129,27 @@ plans:
 - name: Certn Plans Pricing
   plan_count: 4
   slug: certn-plans-pricing
-random_paper: 30
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Certn Rate Limits
   slug: certn-rate-limits
 score:
   band: thin
-  composite: 38.2
-  delta: 0.0
+  composite: 41.5
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 57.8
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 38.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/certn/refs/heads/main/screenshots/certn-2026-07-25T205011.png
 security:
 - kind: authentication
   name: Certn Authentication

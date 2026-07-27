@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Agent-native commerce surface for the Ketone-IQ (HVMN) Shopify store: a Universal Commerce Protocol (UCP) merchant profile and live MCP endpoint for catalog search, cart, and buyer-approved checkout, '
@@ -111,7 +111,7 @@ scopes:
 score:
   band: thin
   composite: 31.7
-  delta: 7.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -119,15 +119,15 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 23.9
+  previous_composite: 31.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Hvmn Authentication

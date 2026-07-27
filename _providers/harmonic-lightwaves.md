@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ overview: 'Harmonic Lightwaves is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Harmonic Lightwaves'' developer surface includes documentation, API reference, support, engineering blog, and 7 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: emerging
   composite: 17.3
@@ -99,8 +99,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/harmonic-lightwaves/refs/heads/main/screenshots/harmonic-lightwaves-2026-07-25T220724.png
 security:
 - kind: domain-security
   name: Harmonic Lightwaves Domain Security

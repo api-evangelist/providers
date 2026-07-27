@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -232,7 +232,7 @@ plans:
 - name: Amazon Web Services Aws Plans Pricing
   plan_count: 3
   slug: amazon-web-services-aws-plans-pricing
-random_paper: 3
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Amazon Web Services Aws Rate Limits
@@ -248,18 +248,18 @@ rules:
   slug: amazon-web-services-aws-spectral-rules
 score:
   band: strong
-  composite: 65.0
-  delta: 0.0
+  composite: 67.5
+  delta: 2.5
   facets:
     commercial_clarity: 86.8
     contract_quality: 64.6
     developer_ergonomics: 65.2
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 39.5
     operational_transparency: 63.2
   previous_composite: 65.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-web-services-aws/refs/heads/main/screenshots/amazon-web-services-aws-2026-06-20T171847.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Read Applied Epic client (account) records - client lookup, benefits data such as employee counts and HIPAA compliance, and identifiers used for VoIP caller identification. Confirmed endpoint GET /crm
@@ -98,7 +98,7 @@ plans:
 - name: Applied Systems Plans Pricing
   plan_count: 3
   slug: applied-systems-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Applied Systems Rate Limits
@@ -106,7 +106,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.6
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -114,15 +114,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 25.5
+  previous_composite: 23.6
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/applied-systems/refs/heads/main/screenshots/applied-systems-2026-07-25T200753.png
 security:
 - kind: domain-security
   name: Applied Systems Domain Security

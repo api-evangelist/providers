@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -205,7 +205,7 @@ overview: 'Understudy Labs publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
 
   Understudy Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, CLI, and 20 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: developing
   composite: 47.2
@@ -219,7 +219,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 47.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

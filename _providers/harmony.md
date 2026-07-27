@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ overview: 'Harmony publishes 1 API on the [APIs.io](https://apis.io/) network: t
 
 
   Harmony''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 12 more developer resources.'
-random_paper: 1
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Harmony Rate Limits
@@ -150,8 +150,9 @@ score:
     operational_transparency: 42.1
   previous_composite: 44.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/harmony/refs/heads/main/screenshots/harmony-2026-07-25T220731.png
 security:
 - kind: authentication
   name: Harmony Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Ionis Pharmaceuticals API provides access to platform services and data for enterprise integration and automation.
@@ -70,7 +70,7 @@ plans:
 - name: Ionis Pharmaceuticals Plans Pricing
   plan_count: 1
   slug: ionis-pharmaceuticals-plans-pricing
-random_paper: 39
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Ionis Pharmaceuticals Rate Limits
@@ -88,7 +88,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 17.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ionis-pharmaceuticals/refs/heads/main/screenshots/ionis-pharmaceuticals-2026-06-20T183531.png
 security:

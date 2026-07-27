@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -132,7 +132,7 @@ random_paper: 18
 score:
   band: thin
   composite: 36.1
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 22.6
@@ -140,14 +140,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 33.3
+  previous_composite: 36.1
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 52.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

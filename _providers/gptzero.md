@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ plans:
 - name: Gptzero Plans
   plan_count: 4
   slug: gptzero-plans
-random_paper: 14
+random_paper: 31
 rate_limits:
 - limit_count: 0
   name: Gptzero Rate Limits
@@ -206,8 +206,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 55.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gptzero/refs/heads/main/screenshots/gptzero-2026-07-25T220147.png
 security:
 - kind: authentication
   name: Gptzero Authentication

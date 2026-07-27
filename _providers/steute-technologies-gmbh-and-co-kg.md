@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 18
@@ -166,7 +166,7 @@ overview: 'steute Technologies GmbH & Co. KG publishes 7 APIs on the [APIs.io](h
 
 
   steute Technologies GmbH & Co. KG''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 14 more developer resources.'
-random_paper: 1
+random_paper: 52
 score:
   band: thin
   composite: 43.5
@@ -180,7 +180,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

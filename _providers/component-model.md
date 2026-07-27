@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: The Component Model specification repository under the W3C WebAssembly Community Group. Contains design documents, the formal specification drafts, the WIT grammar, the canonical ABI, and the binary a
@@ -95,7 +95,7 @@ plans:
 - name: Component Model Plans Pricing
   plan_count: 3
   slug: component-model-plans-pricing
-random_paper: 23
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Component Model Rate Limits
@@ -113,7 +113,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 25.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/component-model/refs/heads/main/screenshots/component-model-2026-06-20T174832.png
 security:

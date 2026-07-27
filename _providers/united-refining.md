@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -86,7 +86,7 @@ press:
 - date: '2026-05-25'
   title: Manufacturer - 🔥Fueling Growth is almost here! Join Paul ...
   url: https://m.facebook.com/ManufacturerandBusinessAssociation/photos/fueling-growth-is-almost-herejoin-paul-rankin-of-united-refining-company-and-ste/1148620823948063/
-random_paper: 14
+random_paper: 48
 score:
   band: minimal
   composite: 12.1
@@ -100,7 +100,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-refining/refs/heads/main/screenshots/united-refining-2026-06-20T200045.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: The `allProducts` query on Nacelle's Storefront GraphQL API returns normalized product entries (variants, pricing, media, metafields) drawn from ingested Shopify or other commerce sources, with Relay-
@@ -118,25 +118,25 @@ plans:
 - name: Nacelle Plans Pricing
   plan_count: 1
   slug: nacelle-plans-pricing
-random_paper: 10
+random_paper: 44
 rate_limits:
 - limit_count: 3
   name: Nacelle Rate Limits
   slug: nacelle-rate-limits
 score:
   band: emerging
-  composite: 21.1
-  delta: 0.0
+  composite: 24.3
+  delta: 3.2
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 21.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

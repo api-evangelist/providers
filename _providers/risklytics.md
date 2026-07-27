@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Ember API returns per-structure property risk scores, modeled expected annual loss, and retrofit-impact evaluation for individual homes, driven by physics-based hazard simulation and a learned sur
@@ -96,11 +96,11 @@ plans:
 - name: Risklytics Plans Pricing
   plan_count: 2
   slug: risklytics-plans-pricing
-random_paper: 34
+random_paper: 17
 score:
   band: emerging
   composite: 27.3
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 55.3
     contract_quality: 0.0
@@ -108,14 +108,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 26.0
+  previous_composite: 27.3
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 34.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

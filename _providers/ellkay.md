@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 39.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Single-endpoint healthcare interoperability API exposing proprietary LK* operations (appointments, patient bridge/search, documents, charges, patient balance, master lists) that bi-directionally conne
@@ -141,7 +141,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.4
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -149,15 +149,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 30.1
+  previous_composite: 32.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ellkay/refs/heads/main/screenshots/ellkay-2026-07-25T213153.png
 security:
 - kind: authentication
   name: Ellkay Authentication

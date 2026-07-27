@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 11
 common:
@@ -152,7 +152,7 @@ overview: 'The Estée Lauder Companies is profiled on the [APIs.io](https://apis
 
 
   The The Estée Lauder Companies catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 27
+random_paper: 44
 score:
   band: minimal
   composite: 12.8
@@ -166,7 +166,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/estee-lauder-companies/refs/heads/main/screenshots/estee-lauder-companies-2026-06-20T180829.png
 security:

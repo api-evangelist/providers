@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -275,19 +275,19 @@ rules:
     warn: 4
   slug: triton-one-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 57.6
-  delta: 0.0
+  band: strong
+  composite: 61.8
+  delta: 4.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.7
+    contract_quality: 70.5
     developer_ergonomics: 58.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 21.1
   previous_composite: 57.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triton-one/refs/heads/main/screenshots/triton-one-2026-06-20T195737.png
 security:

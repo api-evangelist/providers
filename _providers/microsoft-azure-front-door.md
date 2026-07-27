@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -124,19 +124,19 @@ scopes:
   slug: microsoft-azure-front-door-scopes
   summary_line: 1 scope · implicit
 score:
-  band: thin
-  composite: 43.1
-  delta: 0.0
+  band: developing
+  composite: 46.3
+  delta: 3.2
   facets:
     commercial_clarity: 71.1
     contract_quality: 53.1
     developer_ergonomics: 23.9
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 43.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-front-door/refs/heads/main/screenshots/microsoft-azure-front-door-2026-06-20T185415.png
 security:

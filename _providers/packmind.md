@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Packmind captures and governs your development playbook so every AI agent follows your rules consistently, across teams and repos.
@@ -85,7 +85,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 18.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packmind/refs/heads/main/screenshots/packmind-2026-06-20T191315.png
 security:

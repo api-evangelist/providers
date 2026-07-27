@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 62.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 246
   human_in_the_loop: 0
@@ -307,11 +307,11 @@ overview: 'Patsnap publishes 47 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Patsnap''s developer surface includes documentation, API reference, getting-started guide, sandbox, support, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 45
+random_paper: 11
 score:
   band: developing
   composite: 49.7
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 58.3
@@ -319,14 +319,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 47.0
+  previous_composite: 49.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

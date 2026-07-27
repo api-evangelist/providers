@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ plans:
 - name: Braintrust Data Plans Pricing
   plan_count: 3
   slug: braintrust-data-plans-pricing
-random_paper: 27
+random_paper: 61
 rate_limits:
 - limit_count: 7
   name: Braintrust Data Rate Limits
@@ -165,19 +165,19 @@ rules:
     warn: 3
   slug: braintrust-data-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 43.2
-  delta: 0.0
+  band: developing
+  composite: 46.4
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 65.0
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 26.3
     operational_transparency: 36.8
   previous_composite: 43.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/braintrust-data/refs/heads/main/screenshots/braintrust-data-2026-06-20T173631.png
 security:

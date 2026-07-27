@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 28.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The developer surface of the Toucan AI cloud - server-side token generation (POST /embed/generate-token with an x-api-key header), embed delivery via web components loaded from /embed/embed.js, and an
@@ -166,7 +166,7 @@ overview: 'Toucan Toco publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Toucan Toco''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 16
+random_paper: 67
 score:
   band: thin
   composite: 39.3
@@ -180,7 +180,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 39.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

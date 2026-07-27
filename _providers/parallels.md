@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Self-hosted administration REST API for Parallels RAS (Remote Application Server). Applications authenticate with administrator credentials to obtain an authToken, then manage infrastructure (agents, '
@@ -130,7 +130,7 @@ overview: 'Parallels publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Parallels'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 14 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: thin
   composite: 30.7
@@ -144,7 +144,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 30.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -332,7 +332,7 @@ plans:
 - name: Sorsa Plans Pricing
   plan_count: 4
   slug: sorsa-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Sorsa Rate Limits
@@ -355,19 +355,19 @@ rules:
     warn: 2
   slug: sorsa-rules
 score:
-  band: developing
-  composite: 56.7
-  delta: 0.0
+  band: strong
+  composite: 61.4
+  delta: 4.7
   facets:
     commercial_clarity: 63.2
-    contract_quality: 68.1
+    contract_quality: 77.0
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 15.8
   previous_composite: 56.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sorsa/refs/heads/main/screenshots/sorsa-2026-06-20T194217.png
 security:

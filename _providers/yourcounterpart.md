@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Broker and partner API to generate bindable management and professional liability insurance quotes and bind coverage within a partner's own platform with custom branding. Access is granted on applicat
@@ -85,7 +85,7 @@ random_paper: 38
 score:
   band: emerging
   composite: 22.7
-  delta: 3.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -93,14 +93,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.5
+  previous_composite: 22.7
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

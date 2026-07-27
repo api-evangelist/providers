@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Platformable's API governance training resources and tools help your organisation to build a comprehensive, automated, high quality API governance system. Platformable also publishes industry trends r
@@ -86,7 +86,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.9
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -94,14 +94,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 21.1
+  previous_composite: 19.9
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/platformable/refs/heads/main/screenshots/platformable-2026-06-20T191759.png
 security:

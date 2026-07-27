@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: JSON ad-request endpoint (mobile.mng-ads.com) that returns a single ad (banner, interstitial, native) for a given placement, device User-Agent, SDK version and consent signal. GET or POST.
@@ -125,7 +125,7 @@ overview: 'Madvertise publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Madvertise''s developer surface includes documentation, API reference, engineering blog, changelog, authentication, and 14 more developer resources.'
-random_paper: 5
+random_paper: 56
 score:
   band: emerging
   composite: 23.8
@@ -139,8 +139,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 23.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/madvertise/refs/heads/main/screenshots/madvertise-2026-07-25T225832.png
 security:
 - kind: authentication
   name: Madvertise Authentication

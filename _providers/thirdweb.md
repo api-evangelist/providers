@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -141,23 +141,23 @@ rate_limits:
   slug: thirdweb-rate-limits
 score:
   band: thin
-  composite: 34.8
-  delta: -1.5
+  composite: 37.5
+  delta: 2.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 50.1
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 36.3
+  previous_composite: 34.8
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thirdweb/refs/heads/main/screenshots/thirdweb-2026-06-20T195307.png
 security:

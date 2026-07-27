@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 81.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ apis:
 - description: The Eod API from EODHD — 1 operation(s) for eod.
   name: EODHD Eod API
   slug: eodhd-eod-api
-artifact_total: 23
+artifact_total: 25
 asyncapis:
 - description: Real-time streaming of US equity trades and quotes, forex, and cryptocurrency prices over WebSockets with sub-50ms latency. Authenticates with the same api_token used by the REST API (validated during
   name: EODHD WebSockets Real-Time API
@@ -272,6 +272,13 @@ json_structures:
   property_count: 0
   slug: eodhd-structure
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
+- description: ''
+  name: MCP Server announcement
+  slug: mcp-server-announcement
 modified: '2026-07-22'
 name: EODHD
 nav: Providers
@@ -287,7 +294,7 @@ plans:
 - name: Eodhd Plans Pricing
   plan_count: 6
   slug: eodhd-plans-pricing
-random_paper: 6
+random_paper: 40
 rate_limits:
 - limit_count: 3
   name: Eodhd Rate Limits
@@ -308,23 +315,23 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 74.0
-  delta: 0.3
+  composite: 76.8
+  delta: 2.8
   facets:
     commercial_clarity: 84.2
     contract_quality: 69.7
     developer_ergonomics: 84.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
-  previous_composite: 73.7
+  previous_composite: 74.0
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/screenshots/eodhd-2026-06-20T180745.png
 security:

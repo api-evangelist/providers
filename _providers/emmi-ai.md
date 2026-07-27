@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -113,7 +113,7 @@ overview: 'Emmi Ai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Emmi Ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, changelog, and 11 more developer resources.'
-random_paper: 8
+random_paper: 59
 score:
   band: emerging
   composite: 27.7
@@ -127,8 +127,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 27.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/emmi-ai/refs/heads/main/screenshots/emmi-ai-2026-07-25T213243.png
 security:
 - kind: domain-security
   name: Emmi Ai Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 81.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
 - description: Asset Reference & Classification (ARC) — reference data, classifications, and updates for digital assets.
   name: Amberdata ARC API
   slug: amberdata-arc-api
-artifact_total: 19
+artifact_total: 20
 asyncapis:
 - description: AsyncAPI 2.6 description of Amberdata's **real-time WebSocket streaming** surface. Unlike the Groq reference (which exposes no WebSocket), Amberdata DOES publish a documented public WebSocket API. Cli
   name: Amberdata WebSocket Streaming API
@@ -217,6 +217,10 @@ finops:
   slug: amberdata-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amberdata.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: amberdata-mcp.yml
+  slug: amberdata-mcpyml
 modified: '2026-07-22'
 name: Amberdata
 nav: Providers
@@ -232,7 +236,7 @@ plans:
 - name: Amberdata Plans Pricing
   plan_count: 2
   slug: amberdata-plans-pricing
-random_paper: 11
+random_paper: 45
 rate_limits:
 - limit_count: 3
   name: Amberdata Rate Limits
@@ -248,24 +252,24 @@ rules:
   slug: amberdata-asyncapi-spectral-rules
 score:
   band: strong
-  composite: 62.0
-  delta: 17.9
+  composite: 64.8
+  delta: 2.8
   facets:
     commercial_clarity: 60.5
     contract_quality: 57.5
     developer_ergonomics: 69.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 76.3
-  previous_composite: 44.1
+  previous_composite: 62.0
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/screenshots/amberdata-2026-07-22T202146.png
 security:
 - kind: authentication

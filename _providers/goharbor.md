@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -140,18 +140,18 @@ rate_limits:
   slug: goharbor-rate-limits
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 37.3
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 51.3
     developer_ergonomics: 21.7
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 35.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goharbor/refs/heads/main/screenshots/goharbor-2026-06-20T181946.png
 security:

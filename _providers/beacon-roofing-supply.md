@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Beacon PRO+ API provides roofing contractors and integration partners with programmatic access to Beacon's product catalog, real-time inventory and pricing, order management, delivery tracking, ac
@@ -116,7 +116,7 @@ press:
 - date: '2026-05-25'
   title: QXO launches $11 billion tender offer for Beacon Roofing ...
   url: https://www.investing.com/news/company-news/qxo-launches-11-billion-tender-offer-for-beacon-roofing-supply-93CH-3831708
-random_paper: 5
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Beacon Roofing Supply Rate Limits
@@ -134,7 +134,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 30.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/beacon-roofing-supply/refs/heads/main/screenshots/beacon-roofing-supply-2026-06-20T173105.png
 security:

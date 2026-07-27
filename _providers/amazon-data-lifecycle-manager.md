@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -379,20 +379,20 @@ rules:
     warn: 11
   slug: amazon-data-lifecycle-manager-spectral-rules
 score:
-  band: strong
-  composite: 65.5
-  delta: 0.0
+  band: exemplar
+  composite: 71.0
+  delta: 5.5
   facets:
     commercial_clarity: 81.6
-    contract_quality: 69.0
+    contract_quality: 77.9
     developer_ergonomics: 43.5
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 65.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-data-lifecycle-manager/refs/heads/main/screenshots/amazon-data-lifecycle-manager-2026-06-20T171613.png
 security:
 - kind: authentication

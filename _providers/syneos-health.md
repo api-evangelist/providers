@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Syneos Health API provides access to platform services and data for enterprise integration and automation.
@@ -67,7 +67,7 @@ plans:
 - name: Syneos Health Plans Pricing
   plan_count: 1
   slug: syneos-health-plans-pricing
-random_paper: 22
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Syneos Health Rate Limits
@@ -85,7 +85,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 17.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/syneos-health/refs/heads/main/screenshots/syneos-health-2026-06-20T194827.png
 security:

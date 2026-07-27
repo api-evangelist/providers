@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -312,7 +312,7 @@ plans:
 - name: Azure Functions Plans Pricing
   plan_count: 3
   slug: azure-functions-plans-pricing
-random_paper: 0
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Azure Functions Rate Limits
@@ -347,7 +347,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 59.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-functions/refs/heads/main/screenshots/azure-functions-2026-06-20T172856.png
 security:

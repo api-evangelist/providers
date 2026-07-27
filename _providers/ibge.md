@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Aggregate services of IBGE (Brazilian Institute of Geography and Statistics)
@@ -54,7 +54,7 @@ name: IBGE
 nav: Providers
 network: true
 overview: IBGE publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 50
+random_paper: 67
 score:
   band: minimal
   composite: 6.8
@@ -68,8 +68,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ibge/refs/heads/main/screenshots/ibge-2026-07-25T221953.png
 security:
 - kind: domain-security
   name: Ibge Domain Security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -176,7 +176,7 @@ random_paper: 49
 score:
   band: developing
   composite: 46.3
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 68.3
@@ -184,15 +184,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 46.1
+  previous_composite: 46.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/healthsherpa/refs/heads/main/screenshots/healthsherpa-2026-07-25T220840.png
 security:
 - kind: authentication
   name: Healthsherpa Authentication

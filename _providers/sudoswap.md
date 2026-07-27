@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: On-chain smart contract interface for the Sudoswap AMM protocol. Developers interact with LSSVMPairFactory to create pools, with LSSVMPair contracts to deposit/withdraw assets, and with VeryFastRouter
@@ -111,7 +111,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 19
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -129,7 +129,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 27.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sudoswap/refs/heads/main/screenshots/sudoswap-2026-06-20T194636.png
 security:

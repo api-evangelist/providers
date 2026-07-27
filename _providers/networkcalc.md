@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -89,7 +89,7 @@ plans:
 - name: Networkcalc Plans Pricing
   plan_count: 3
   slug: networkcalc-plans-pricing
-random_paper: 8
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Networkcalc Rate Limits
@@ -107,7 +107,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 35.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/networkcalc/refs/heads/main/screenshots/networkcalc-2026-06-20T190215.png
 security:

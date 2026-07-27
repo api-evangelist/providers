@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 20.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The bitdrift Capture public API — schema-first protobuf service definitions exposed over gRPC, Connect, and gRPC-over-JSON at api-public.bitdrift.io. Services under the bitdrift.public.unary.* package
@@ -183,8 +183,9 @@ score:
     operational_transparency: 42.1
   previous_composite: 45.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bitdrift/refs/heads/main/screenshots/bitdrift-2026-07-25T203143.png
 security:
 - kind: authentication
   name: Bitdrift Authentication

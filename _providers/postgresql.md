@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Open-source relational database with advanced SQL compliance and extensibility. Client libraries available in many languages.
@@ -78,7 +78,7 @@ plans:
 - name: Postgresql Plans Pricing
   plan_count: 3
   slug: postgresql-plans-pricing
-random_paper: 37
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Postgresql Rate Limits
@@ -96,7 +96,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postgresql/refs/heads/main/screenshots/postgresql-2026-06-20T191957.png
 security:

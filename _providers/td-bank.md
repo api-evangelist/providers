@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -307,7 +307,7 @@ plans:
 - name: Td Bank Plans Pricing
   plan_count: 3
   slug: td-bank-plans-pricing
-random_paper: 10
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Td Bank Rate Limits
@@ -336,23 +336,23 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: developing
-  composite: 55.1
-  delta: 2.2
+  composite: 57.9
+  delta: 2.8
   facets:
     commercial_clarity: 50.0
     contract_quality: 55.8
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 47.4
-  previous_composite: 52.9
+  previous_composite: 55.1
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

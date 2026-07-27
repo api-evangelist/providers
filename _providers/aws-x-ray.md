@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -359,7 +359,7 @@ plans:
 - name: Aws X Ray Plans Pricing
   plan_count: 3
   slug: aws-x-ray-plans-pricing
-random_paper: 6
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Aws X Ray Rate Limits
@@ -383,18 +383,18 @@ rules:
   slug: aws-x-ray-spectral-rules
 score:
   band: strong
-  composite: 61.2
-  delta: 0.0
+  composite: 65.8
+  delta: 4.6
   facets:
     commercial_clarity: 78.9
-    contract_quality: 63.7
+    contract_quality: 69.0
     developer_ergonomics: 37.0
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 47.4
   previous_composite: 61.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-x-ray/refs/heads/main/screenshots/aws-x-ray-2026-06-20T172820.png
 security:

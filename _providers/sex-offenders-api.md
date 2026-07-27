@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -81,25 +81,25 @@ plans:
 - name: Sex Offenders Api Plans Pricing
   plan_count: 3
   slug: sex-offenders-api-plans-pricing
-random_paper: 13
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Sex Offenders Api Rate Limits
   slug: sex-offenders-api-rate-limits
 score:
-  band: emerging
-  composite: 29.6
-  delta: 0.0
+  band: thin
+  composite: 31.6
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 47.8
     developer_ergonomics: 10.9
-    discoverability: 35.0
+    discoverability: 55.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 29.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sex-offenders-api/refs/heads/main/screenshots/sex-offenders-api-2026-06-20T193740.png
 security:

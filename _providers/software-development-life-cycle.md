@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: APIs and tools for capturing, tracking, and managing software requirements throughout the development life cycle, including user stories, acceptance criteria, and traceability matrices.
@@ -135,7 +135,7 @@ plans:
 - name: Software Development Life Cycle Plans Pricing
   plan_count: 3
   slug: software-development-life-cycle-plans-pricing
-random_paper: 30
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Software Development Life Cycle Rate Limits
@@ -162,7 +162,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 45.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/software-development-life-cycle/refs/heads/main/screenshots/software-development-life-cycle-2026-06-20T194134.png
 security:

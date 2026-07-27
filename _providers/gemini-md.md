@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 4.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -65,7 +65,7 @@ overview: 'GEMINI.md is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   GEMINI.md''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 20
+random_paper: 3
 score:
   band: minimal
   composite: 9.2
@@ -79,7 +79,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gemini-md/refs/heads/main/screenshots/gemini-md-2026-06-20T181723.png
 skill_count: 3

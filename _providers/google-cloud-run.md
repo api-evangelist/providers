@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ plans:
 - name: Google Cloud Run Plans Pricing
   plan_count: 3
   slug: google-cloud-run-plans-pricing
-random_paper: 22
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Google Cloud Run Rate Limits
@@ -169,18 +169,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.0
-  delta: 0.0
+  composite: 64.6
+  delta: 4.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 63.7
+    contract_quality: 69.0
     developer_ergonomics: 43.5
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 60.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-run/refs/heads/main/screenshots/google-cloud-run-2026-06-20T182136.png
 security:

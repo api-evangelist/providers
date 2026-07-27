@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -102,7 +102,7 @@ overview: 'Leaner Technologies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Leaner Technologies'' developer surface includes engineering blog, product news, pricing, and 12 more developer resources.'
-random_paper: 22
+random_paper: 56
 score:
   band: emerging
   composite: 15.0
@@ -116,8 +116,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 15.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/leaner-technologies/refs/heads/main/screenshots/leaner-technologies-2026-07-25T224738.png
 security:
 - kind: domain-security
   name: Leaner Technologies Domain Security

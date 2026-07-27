@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ plans:
 - name: Esri Arcgis Plans Pricing
   plan_count: 9
   slug: esri-arcgis-plans-pricing
-random_paper: 42
+random_paper: 25
 rate_limits:
 - limit_count: 7
   name: Esri Arcgis Rate Limits
@@ -191,18 +191,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 49.5
+  delta: 2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 68.7
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 47.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/esri-arcgis/refs/heads/main/screenshots/esri-arcgis-2026-06-20T180823.png
 security:

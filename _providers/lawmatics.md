@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: RESTful OAuth API for managing leads, matters, contacts, intake forms, pipelines, and automated client follow-ups within the Lawmatics legal CRM platform.
@@ -106,7 +106,7 @@ plans:
 - name: Lawmatics Plans Pricing
   plan_count: 3
   slug: lawmatics-plans-pricing
-random_paper: 47
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Lawmatics Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 36.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lawmatics/refs/heads/main/screenshots/lawmatics-2026-06-20T184337.png
 security:

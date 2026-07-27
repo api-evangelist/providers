@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Weave's developer platform API for building apps and integrations against Weave communication, scheduling, and payments data. Authorized via OpenID Connect / OAuth 2.0 (authorization_code + client_cre
@@ -142,7 +142,7 @@ overview: 'Weave publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Weave''s developer surface includes documentation, signup flow, pricing, support, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 26
+random_paper: 60
 scopes:
 - name: Weave Scopes
   scope_count: 3
@@ -151,7 +151,7 @@ scopes:
 score:
   band: thin
   composite: 42.6
-  delta: 10.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -159,15 +159,15 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 32.4
+  previous_composite: 42.6
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 100.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Weave Authentication

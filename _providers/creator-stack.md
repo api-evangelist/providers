@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,7 +57,7 @@ overview: 'Creator Stack is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Creator Stack''s developer surface includes signup flow, support, and 2 more developer resources.'
-random_paper: 5
+random_paper: 39
 score:
   band: minimal
   composite: 10.3
@@ -71,8 +71,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/creator-stack/refs/heads/main/screenshots/creator-stack-2026-07-25T210707.png
 security:
 - kind: domain-security
   name: Creator Stack Domain Security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 18.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Graylog provides a REST API for managing log data, streams, dashboards, alerts, users, and system configuration. The API is browseable via the bundled API Browser at /api/api-browser/.
@@ -90,7 +90,7 @@ plans:
 - name: Graylog Plans Pricing
   plan_count: 3
   slug: graylog-plans-pricing
-random_paper: 43
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Graylog Rate Limits
@@ -108,7 +108,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 23.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graylog/refs/heads/main/screenshots/graylog-2026-06-20T182348.png
 security:

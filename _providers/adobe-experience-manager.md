@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -108,7 +108,7 @@ overview: 'Adobe Experience Manager publishes 1 API on the [APIs.io](https://api
 
 
   Adobe Experience Manager''s developer surface includes authentication, documentation, pricing, signup flow, and 7 more developer resources.'
-random_paper: 46
+random_paper: 12
 scopes:
 - name: Adobe Experience Manager Scopes
   scope_count: 6
@@ -116,18 +116,18 @@ scopes:
   summary_line: 6 scopes · clientCredentials
 score:
   band: emerging
-  composite: 22.9
-  delta: 0.0
+  composite: 26.1
+  delta: 3.2
   facets:
     commercial_clarity: 10.5
     contract_quality: 40.7
     developer_ergonomics: 19.6
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 22.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-experience-manager/refs/heads/main/screenshots/adobe-experience-manager-2026-06-20T164924.png
 security:

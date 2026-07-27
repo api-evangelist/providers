@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Partner-delivered, contact-sales data API that serves PREDIK''s enriched location-intelligence products - POI data, aggregated foot-traffic and mobility data, company and commercial-area intelligence, '
@@ -69,7 +69,7 @@ plans:
 - name: Predikt Ai Plans Pricing
   plan_count: 0
   slug: predikt-ai-plans-pricing
-random_paper: 33
+random_paper: 50
 score:
   band: minimal
   composite: 9.7
@@ -83,7 +83,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: predikt-ai
 tags:

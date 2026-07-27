@@ -1,0 +1,61 @@
+---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 17.3
+  scored_at: '2026-07-27'
+api_count: 1
+apis:
+- description: REST API for food & nutrition data — search, barcode lookup, food-by-id, popular foods, categories, and health probe. Bearer auth optional; read endpoints work anonymously.
+  name: DietlyAPI
+  slug: dietlyapi
+artifact_total: 1
+created: '2026-07-17'
+description: Food & nutrition data REST API with 4.2M+ foods, calories, macros, 17 micronutrients, barcode lookup, and confidence-ranked full-text search. Data primarily from Open Food Facts (ODbL), EU-hosted, with key-optional read access.
+layout: provider
+modified: '2026-07-17'
+name: DietlyAPI
+nav: Providers
+network: true
+overview: 'DietlyAPI publishes 1 API on the [APIs.io](https://apis.io/) network: DietlyAPI. Tagged areas include food, nutrition, barcode, open-food-facts, and health.'
+random_paper: 13
+score:
+  band: minimal
+  composite: 14.8
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 37.7
+    developer_ergonomics: 0.0
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 0.0
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 0.0
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+screenshot: https://raw.githubusercontent.com/api-evangelist/dietlyapi/refs/heads/main/screenshots/dietlyapi-2026-07-25T211947.png
+slug: dietlyapi
+tags:
+- food
+- nutrition
+- barcode
+- open-food-facts
+- health
+- open-data
+---

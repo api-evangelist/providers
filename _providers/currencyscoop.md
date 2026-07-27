@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Real-time and historical currency rates JSON API
@@ -54,7 +54,7 @@ name: CurrencyScoop
 nav: Providers
 network: true
 overview: CurrencyScoop publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Currency Exchange and Public APIs.
-random_paper: 46
+random_paper: 63
 score:
   band: minimal
   composite: 6.8
@@ -68,7 +68,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencyscoop/refs/heads/main/screenshots/currencyscoop-2026-06-20T175339.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -266,7 +266,7 @@ plans:
 - name: Bump Sh Plans Pricing
   plan_count: 4
   slug: bump-sh-plans-pricing
-random_paper: 37
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Bump Sh Rate Limits
@@ -301,7 +301,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 60.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bump-sh/refs/heads/main/screenshots/bump-sh-2026-06-20T173758.png
 security:

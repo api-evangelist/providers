@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 7
@@ -273,7 +273,7 @@ overview: 'Structify publishes 32 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Structify''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, changelog, and 22 more developer resources.'
-random_paper: 36
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Structify Rate Limits
@@ -291,7 +291,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 52.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 57.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 11
 apis:
 - description: The Approvals API from N3XT — 2 operation(s) for approvals.
@@ -204,7 +204,7 @@ overview: 'N3XT publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   N3XT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
-random_paper: 40
+random_paper: 57
 scopes:
 - name: N3Xt Scopes
   scope_count: 8
@@ -213,7 +213,7 @@ scopes:
 score:
   band: strong
   composite: 60.0
-  delta: 7.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.9
@@ -221,15 +221,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 52.9
+  previous_composite: 60.0
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 100.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: N3Xt Authentication

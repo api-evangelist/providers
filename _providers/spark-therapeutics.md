@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,11 +77,11 @@ name: spark-therapeutics
 nav: Providers
 network: true
 overview: spark-therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Biotechnology, Pharmaceuticals, Gene Therapy, Rare Disease, and Ophthalmology.
-random_paper: 0
+random_paper: 51
 score:
   band: minimal
   composite: 12.0
-  delta: 4.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -89,14 +89,14 @@ score:
     discoverability: 60.0
     governance: 13.2
     operational_transparency: 0.0
-  previous_composite: 7.6
+  previous_composite: 12.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spark-therapeutics/refs/heads/main/screenshots/spark-therapeutics-2026-06-20T194244.png
 security:

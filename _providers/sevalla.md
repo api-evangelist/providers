@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -128,25 +128,25 @@ plans:
 - name: Sevalla Plans Pricing
   plan_count: 4
   slug: sevalla-plans-pricing
-random_paper: 30
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Sevalla Rate Limits
   slug: sevalla-rate-limits
 score:
   band: thin
-  composite: 36.2
-  delta: 0.0
+  composite: 39.4
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 49.6
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 36.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

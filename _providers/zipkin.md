@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -223,18 +223,18 @@ rules:
   slug: zipkin-spectral
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 51.9
+  delta: 4.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 57.2
+    contract_quality: 66.1
     developer_ergonomics: 23.9
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 47.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zipkin/refs/heads/main/screenshots/zipkin-2026-06-20T201916.png
 security:

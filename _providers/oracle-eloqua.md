@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -110,21 +110,21 @@ overview: 'Oracle Eloqua publishes 6 APIs on the [APIs.io](https://apis.io/) net
 
 
   Oracle Eloqua''s developer surface includes authentication, documentation, pricing, signup flow, and 4 more developer resources.'
-random_paper: 47
+random_paper: 30
 score:
   band: emerging
-  composite: 26.4
-  delta: 0.0
+  composite: 29.7
+  delta: 3.3
   facets:
     commercial_clarity: 10.5
     contract_quality: 51.9
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 26.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-eloqua/refs/heads/main/screenshots/oracle-eloqua-2026-06-20T191129.png
 security:

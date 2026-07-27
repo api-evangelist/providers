@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: 'Modeled product-area API for client/patient records - the people a practice serves, their demographics, contact details, and intake information. endpointsModeled: true. Carepatron does not publish a d'
@@ -70,7 +88,28 @@ plans:
 - name: Carepatron Plans Pricing
   plan_count: 3
   slug: carepatron-plans-pricing
-random_paper: 0
+random_paper: 51
+score:
+  band: emerging
+  composite: 21.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 87.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 21.6
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 23.9
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/carepatron/refs/heads/main/screenshots/carepatron-2026-07-25T204552.png
 security:
 - kind: domain-security
   name: Carepatron Domain Security

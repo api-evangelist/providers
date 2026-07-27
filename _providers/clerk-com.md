@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 273
   human_in_the_loop: 16
@@ -753,7 +753,7 @@ plans:
 - name: Clerk Com Plans Pricing
   plan_count: 4
   slug: clerk-com-plans-pricing
-random_paper: 26
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Clerk Com Rate Limits
@@ -777,18 +777,18 @@ rules:
   slug: clerk-rules
 score:
   band: strong
-  composite: 66.0
-  delta: 0.0
+  composite: 68.5
+  delta: 2.5
   facets:
     commercial_clarity: 84.2
     contract_quality: 65.2
     developer_ergonomics: 47.8
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 47.4
   previous_composite: 66.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk-com/refs/heads/main/screenshots/clerk-com-2026-06-20T174512.png
 security:

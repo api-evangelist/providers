@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 20
 common:
@@ -141,7 +141,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 15.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/werf/refs/heads/main/screenshots/werf-2026-06-20T201353.png
 security:

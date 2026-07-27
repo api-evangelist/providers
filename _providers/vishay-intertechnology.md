@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Access Vishay component data programmatically through the Octopart/Nexar API. Search for Vishay parts by part number or category, retrieve datasheets, specifications, pricing, and distributor inventor
@@ -131,7 +131,7 @@ press:
 - date: '2026-05-25'
   title: of 2020 China AI Innovation Excellence Award
   url: https://www.vishay.com/en/company/press/releases/2020/microBRICKwins2020AIAward/
-random_paper: 40
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Vishay Intertechnology Rate Limits
@@ -148,7 +148,7 @@ rules:
 score:
   band: thin
   composite: 34.8
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 15.1
@@ -156,14 +156,14 @@ score:
     discoverability: 87.5
     governance: 86.8
     operational_transparency: 31.6
-  previous_composite: 36.7
+  previous_composite: 34.8
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vishay-intertechnology/refs/heads/main/screenshots/vishay-intertechnology-2026-06-20T201047.png
 security:

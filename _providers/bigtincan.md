@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Bigtincan Hub Public API provides programmatic access to the Bigtincan sales enablement platform, enabling management of sales content, training programs, coaching insights, buyer engagement analy
@@ -102,7 +102,7 @@ plans:
 - name: Bigtincan Plans Pricing
   plan_count: 5
   slug: bigtincan-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Bigtincan Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 37.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigtincan/refs/heads/main/screenshots/bigtincan-2026-06-20T173235.png
 security:

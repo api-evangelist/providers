@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 32.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Maisa''s developer REST API. Key-authenticated (X-API-Key), base URL https://api.maisa.ai, all operations under /v1. Surfaces: capabilities (compare/extract/summarize over text and media), models (embe'
@@ -123,11 +123,11 @@ overview: 'Maisa publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Maisa''s developer surface includes authentication, API reference, documentation, engineering blog, support, and 13 more developer resources.'
-random_paper: 13
+random_paper: 47
 score:
   band: emerging
   composite: 26.7
-  delta: 3.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -135,15 +135,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 23.7
+  previous_composite: 26.7
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/maisa/refs/heads/main/screenshots/maisa-2026-07-25T225927.png
 security:
 - kind: authentication
   name: Maisa Authentication

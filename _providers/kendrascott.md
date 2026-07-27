@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ overview: 'Kendra Scott is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Kendra Scott''s developer surface includes support and 4 more developer resources.'
-random_paper: 13
+random_paper: 30
 score:
   band: minimal
   composite: 11.8
@@ -75,8 +75,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kendrascott/refs/heads/main/screenshots/kendrascott-2026-07-25T223614.png
 security:
 - kind: domain-security
   name: Kendrascott Domain Security

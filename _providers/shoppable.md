@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 57.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -160,11 +160,11 @@ overview: 'Shoppable publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Shoppable''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 15 more developer resources.'
-random_paper: 40
+random_paper: 6
 score:
   band: developing
   composite: 51.2
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 56.3
@@ -172,14 +172,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 50.6
+  previous_composite: 51.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

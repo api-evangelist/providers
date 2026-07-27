@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 5
 collections:
@@ -80,11 +98,31 @@ plans:
 - name: Carbon Direct Plans Pricing
   plan_count: 1
   slug: carbon-direct-plans-pricing
-random_paper: 49
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Carbon Direct Rate Limits
   slug: carbon-direct-rate-limits
+score:
+  band: minimal
+  composite: 14.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.5
+  regulatory:
+    applies: true
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carbon-direct/refs/heads/main/screenshots/carbon-direct-2026-06-20T173954.png
 security:
 - kind: domain-security

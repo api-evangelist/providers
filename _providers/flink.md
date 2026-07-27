@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -115,7 +115,7 @@ plans:
 - name: Flink Plans Pricing
   plan_count: 3
   slug: flink-plans-pricing
-random_paper: 22
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Flink Rate Limits
@@ -133,7 +133,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 34.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flink/refs/heads/main/screenshots/flink-2026-06-20T181313.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -145,18 +145,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 35.7
+  delta: 2.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 53.8
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 33.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/formlabs/refs/heads/main/screenshots/formlabs-2026-06-20T181439.png
 security:

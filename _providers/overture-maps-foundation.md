@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: API for accessing Overture Maps Foundation open map datasets including places, buildings, transportation networks, and administrative boundary data.
@@ -86,7 +86,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.3
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -94,14 +94,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 21.6
+  previous_composite: 20.3
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overture-maps-foundation/refs/heads/main/screenshots/overture-maps-foundation-2026-06-20T191240.png
 security:

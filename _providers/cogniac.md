@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 22.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Multi-tenant REST API for the Cogniac computer-vision platform (CloudCore): manage tenants, applications, subjects, media, detections, EdgeFlow/CloudFlow appliances, network cameras, deployment groups'
@@ -138,7 +138,7 @@ overview: 'Cogniac publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Cogniac''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 16 more developer resources.'
-random_paper: 10
+random_paper: 44
 score:
   band: thin
   composite: 32.7
@@ -152,8 +152,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 32.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cogniac/refs/heads/main/screenshots/cogniac-2026-07-25T210000.png
 security:
 - kind: authentication
   name: Cogniac Authentication

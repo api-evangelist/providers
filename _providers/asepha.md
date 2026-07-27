@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,7 +90,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 18.0
-  delta: 4.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -98,15 +98,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.8
+  previous_composite: 18.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/asepha/refs/heads/main/screenshots/asepha-2026-07-25T201409.png
 security:
 - kind: domain-security
   name: Asepha Domain Security

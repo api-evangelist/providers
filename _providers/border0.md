@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -219,7 +219,7 @@ overview: 'Border0 publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Border0''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 23 more developer resources.'
-random_paper: 23
+random_paper: 6
 score:
   band: developing
   composite: 52.0
@@ -233,8 +233,9 @@ score:
     operational_transparency: 47.4
   previous_composite: 52.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/border0/refs/heads/main/screenshots/border0-2026-07-25T203633.png
 security:
 - kind: authentication
   name: Border0 Authentication

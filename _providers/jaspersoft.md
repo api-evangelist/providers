@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ overview: 'Jaspersoft is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Jaspersoft''s developer surface includes documentation, support, changelog, and 6 more developer resources.'
-random_paper: 18
+random_paper: 1
 score:
   band: minimal
   composite: 13.4
@@ -91,8 +91,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 13.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/jaspersoft/refs/heads/main/screenshots/jaspersoft-2026-07-25T223102.png
 security:
 - kind: domain-security
   name: Jaspersoft Domain Security

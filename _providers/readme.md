@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -409,18 +409,18 @@ rules:
   slug: readme-rules
 score:
   band: strong
-  composite: 66.4
-  delta: 0.0
+  composite: 68.4
+  delta: 2.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 66.2
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 47.4
     operational_transparency: 57.9
   previous_composite: 66.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/readme/refs/heads/main/screenshots/readme-2026-06-20T192737.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 67.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -134,7 +134,7 @@ arazzos:
 - description: Find the most severe open incident, inspect its events, and clear it.
   name: Oracle Enterprise Manager Triage and Clear Incident
   slug: oracle-enterprise-manager-triage-clear-incident-workflow
-artifact_total: 234
+artifact_total: 235
 collections:
 - collection_type: postman
   name: Oracle Enterprise Manager Cloud Control REST API
@@ -866,6 +866,10 @@ jsonld:
   property_count: 13
   slug: oracle-enterprise-manager-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: oracle-enterprise-manager-mcp.yml
+  slug: oracle-enterprise-manager-mcpyml
 modified: '2026-06-20'
 name: Oracle Enterprise Manager
 nav: Providers
@@ -881,7 +885,7 @@ plans:
 - name: Oracle Enterprise Manager Plans Pricing
   plan_count: 6
   slug: oracle-enterprise-manager-plans-pricing
-random_paper: 41
+random_paper: 24
 rate_limits:
 - limit_count: 3
   name: Oracle Enterprise Manager Rate Limits
@@ -904,19 +908,19 @@ rules:
     warn: 7
   slug: oracle-enterprise-manager-spectral-rules
 score:
-  band: strong
-  composite: 69.4
-  delta: 0.0
+  band: exemplar
+  composite: 74.0
+  delta: 4.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 73.5
+    contract_quality: 78.8
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 63.2
   previous_composite: 69.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-enterprise-manager/refs/heads/main/screenshots/oracle-enterprise-manager-2026-06-20T191128.png
 security:

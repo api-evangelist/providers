@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 57.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Split an audio track into vocal and instrument stems.
@@ -158,7 +158,7 @@ overview: 'Arpeggi Labs publishes 5 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Arpeggi Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 17 more developer resources.'
-random_paper: 25
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Arpeggi Labs Rate Limits
@@ -176,8 +176,9 @@ score:
     operational_transparency: 26.3
   previous_composite: 50.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/arpeggi-labs/refs/heads/main/screenshots/arpeggi-labs-2026-07-25T201241.png
 security:
 - kind: authentication
   name: Arpeggi Labs Authentication

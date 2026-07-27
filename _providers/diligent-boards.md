@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: 'REST API for the Diligent One Platform (formerly HighBond) covering the governance, risk, and compliance surface - organizations, projects, control tests, risks, controls, issues, frameworks, results '
@@ -90,7 +90,7 @@ overview: 'Diligent publishes 4 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Diligent''s developer surface includes documentation and 8 more developer resources.'
-random_paper: 49
+random_paper: 32
 score:
   band: emerging
   composite: 15.4
@@ -104,8 +104,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/diligent-boards/refs/heads/main/screenshots/diligent-boards-2026-07-25T212042.png
 security:
 - kind: domain-security
   name: Diligent Boards Domain Security

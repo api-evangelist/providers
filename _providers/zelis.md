@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Zelis'' partner-facing API platform, published through the Zelis developer portal and API marketplace. The catalog spans claims document search and viewing, member ID card search and viewing, provider '
@@ -110,11 +110,11 @@ overview: 'Zelis publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Zelis'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 9 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: thin
   composite: 32.5
-  delta: 3.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -122,14 +122,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 28.6
+  previous_composite: 32.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

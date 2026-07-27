@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 9
 common:
@@ -133,7 +133,7 @@ overview: 'RDF is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   RDF''s developer surface includes code examples, documentation, GitHub presence, and 12 more developer resources.'
-random_paper: 10
+random_paper: 44
 rules:
 - name: RDF API Rules
   rule_count: 6
@@ -156,7 +156,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 23.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rdf/refs/heads/main/screenshots/rdf-2026-06-20T192625.png
 slug: rdf

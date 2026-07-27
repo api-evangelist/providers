@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The CentralReach Enhanced API lets partner organizations connect securely to the CentralReach platform and integrate with third-party applications. Authentication is OAuth 2.0 client-credentials again
@@ -143,7 +143,7 @@ scopes:
 score:
   band: thin
   composite: 39.5
-  delta: 8.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -151,15 +151,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 31.1
+  previous_composite: 39.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/centralreach/refs/heads/main/screenshots/centralreach-2026-07-25T204931.png
 security:
 - kind: authentication
   name: Centralreach Authentication

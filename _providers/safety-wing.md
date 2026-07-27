@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,11 +65,11 @@ overview: 'Safety Wing is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Safety Wing''s developer surface includes pricing, support, and 4 more developer resources.'
-random_paper: 12
+random_paper: 46
 score:
   band: emerging
   composite: 16.4
-  delta: 2.5
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -77,14 +77,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.9
+  previous_composite: 16.4
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

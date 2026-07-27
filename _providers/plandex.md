@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 1
@@ -378,7 +378,7 @@ plans:
 - name: Plandex Plans Pricing
   plan_count: 3
   slug: plandex-plans-pricing
-random_paper: 34
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Plandex Rate Limits
@@ -402,18 +402,18 @@ rules:
   slug: plandex-rules
 score:
   band: strong
-  composite: 63.6
-  delta: 0.0
+  composite: 67.1
+  delta: 3.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 61.3
+    contract_quality: 70.1
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 63.2
   previous_composite: 63.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

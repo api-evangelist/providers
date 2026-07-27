@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 10
 apis:
 - description: The set of stable userspace-facing interfaces exposed by the Linux kernel, including system calls, ioctls, eBPF, futex2, and the netlink protocol.
@@ -101,7 +101,7 @@ plans:
 - name: Linux Plans Pricing
   plan_count: 3
   slug: linux-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Linux Rate Limits
@@ -119,7 +119,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 23.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linux/refs/heads/main/screenshots/linux-2026-06-20T184549.png
 security:

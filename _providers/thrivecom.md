@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 32.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Form-encoded REST API for phone verification and OTP: issue a session token, normalize a phone number, send a pincode over SMS or voice, and verify the user-entered code. Responses carry status plus p'
@@ -142,7 +142,7 @@ overview: 'RingCaptcha (ThriveCom) publishes 1 API on the [APIs.io](https://apis
 
 
   RingCaptcha (ThriveCom)''s developer surface includes documentation, API reference, engineering blog, pricing, signup flow, support, authentication, and 16 more developer resources.'
-random_paper: 8
+random_paper: 25
 score:
   band: thin
   composite: 31.8
@@ -156,7 +156,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 31.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

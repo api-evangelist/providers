@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: RESTful API for managing Chameleon experiences including Tours, Tooltips, Launchers, Microsurveys, and Embeddables. Supports user profile management, segmentation, experience delivery, survey response
@@ -120,7 +120,7 @@ plans:
 - name: Chameleon Co Plans Pricing
   plan_count: 4
   slug: chameleon-co-plans-pricing
-random_paper: 22
+random_paper: 39
 rate_limits:
 - limit_count: 2
   name: Chameleon Co Rate Limits
@@ -138,7 +138,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 33.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chameleon-co/refs/heads/main/screenshots/chameleon-co-2026-06-20T174211.png
 security:

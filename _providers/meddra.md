@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -138,18 +138,18 @@ rules:
   slug: meddra-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 50.2
+  delta: 3.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 64.6
+    contract_quality: 69.9
     developer_ergonomics: 19.6
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 46.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meddra/refs/heads/main/screenshots/meddra-2026-06-20T185114.png
 security:

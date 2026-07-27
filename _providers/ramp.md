@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -397,19 +397,19 @@ scopes:
   summary_line: 12 scopes · clientCredentials
 score:
   band: strong
-  composite: 62.5
-  delta: 0.0
+  composite: 67.9
+  delta: 5.4
   facets:
     commercial_clarity: 78.9
-    contract_quality: 69.5
+    contract_quality: 78.4
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 65.8
     operational_transparency: 52.6
   previous_composite: 62.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/screenshots/ramp-2026-06-20T192620.png
 security:
 - kind: authentication

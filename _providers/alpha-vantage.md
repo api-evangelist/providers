@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -40,7 +40,7 @@ apis:
 - description: Intraday, daily, weekly, and monthly stock price and volume data
   name: Alpha Vantage Stock Time Series API
   slug: alpha-vantage-stock-time-series-api
-artifact_total: 36
+artifact_total: 37
 collections:
 - collection_type: open
   name: Alpha Vantage API
@@ -274,6 +274,10 @@ jsonld:
   property_count: 35
   slug: alpha-vantage-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: alpha-vantage-mcp.yml
+  slug: alpha-vantage-mcpyml
 modified: '2026-07-22'
 name: Alpha Vantage
 nav: Providers
@@ -289,7 +293,7 @@ plans:
 - name: Alpha Vantage Plans Pricing
   plan_count: 7
   slug: alpha-vantage-plans-pricing
-random_paper: 30
+random_paper: 13
 rate_limits:
 - limit_count: 7
   name: Alpha Vantage Rate Limits
@@ -318,23 +322,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: exemplar
-  composite: 72.5
-  delta: 0.7
+  composite: 75.2
+  delta: 2.7
   facets:
     commercial_clarity: 84.2
     contract_quality: 69.0
     developer_ergonomics: 82.6
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 36.8
-  previous_composite: 71.8
+  previous_composite: 72.5
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/screenshots/alpha-vantage-2026-06-20T171545.png
 security:

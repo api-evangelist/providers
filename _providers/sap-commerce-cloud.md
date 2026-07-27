@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -550,7 +550,7 @@ plans:
 - name: Sap Commerce Cloud Plans Pricing
   plan_count: 1
   slug: sap-commerce-cloud-plans-pricing
-random_paper: 7
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Sap Commerce Cloud Rate Limits
@@ -579,18 +579,18 @@ scopes:
   summary_line: 3 scopes · clientCredentials/password
 score:
   band: developing
-  composite: 56.1
-  delta: 0.0
+  composite: 58.6
+  delta: 2.5
   facets:
     commercial_clarity: 50.0
     contract_quality: 66.1
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 42.1
   previous_composite: 56.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-commerce-cloud/refs/heads/main/screenshots/sap-commerce-cloud-2026-06-20T193424.png
 security:

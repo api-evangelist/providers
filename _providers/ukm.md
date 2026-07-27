@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: DSpace-based institutional repository operated by Perpustakaan Tun Seri Lanang (UKM Library) providing access to theses, past-year exam papers, selected government publications and law documents. It e
@@ -90,7 +90,7 @@ plans:
 - name: Ukm Plans Pricing
   plan_count: 2
   slug: ukm-plans-pricing
-random_paper: 27
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Ukm Rate Limits
@@ -108,7 +108,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 21.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ukm/refs/heads/main/screenshots/ukm-2026-06-20T200011.png
 security:

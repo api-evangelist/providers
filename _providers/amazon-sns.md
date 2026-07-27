@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -452,19 +452,19 @@ rules:
     warn: 9
   slug: amazon-sns-spectral-rules
 score:
-  band: developing
-  composite: 59.0
-  delta: 0.0
+  band: strong
+  composite: 62.2
+  delta: 3.2
   facets:
     commercial_clarity: 76.3
     contract_quality: 78.8
     developer_ergonomics: 23.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 47.4
   previous_composite: 59.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sns/refs/heads/main/screenshots/amazon-sns-2026-06-20T171830.png
 security:

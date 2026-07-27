@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 3
@@ -225,7 +225,7 @@ plans:
 - name: Timescaledb Plans Pricing
   plan_count: 6
   slug: timescaledb-plans-pricing
-random_paper: 27
+random_paper: 61
 rate_limits:
 - limit_count: 4
   name: Timescaledb Rate Limits
@@ -241,18 +241,18 @@ rules:
   slug: timescaledb-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 51.3
+  delta: 3.3
   facets:
     commercial_clarity: 57.9
     contract_quality: 52.2
     developer_ergonomics: 15.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 48.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/timescaledb/refs/heads/main/screenshots/timescaledb-2026-06-20T195406.png
 security:

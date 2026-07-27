@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 37.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 12
 apis:
 - description: The Business Details API from Mamo — 2 operation(s) for business details.
@@ -198,7 +198,7 @@ random_paper: 18
 score:
   band: strong
   composite: 60.0
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 69.8
@@ -206,15 +206,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 58.8
+  previous_composite: 60.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mamo/refs/heads/main/screenshots/mamo-2026-07-25T230010.png
 security:
 - kind: authentication
   name: Mamo Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -119,25 +119,25 @@ plans:
 - name: Capsule Plans Pricing
   plan_count: 3
   slug: capsule-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Capsule Rate Limits
   slug: capsule-rate-limits
 score:
   band: thin
-  composite: 42.2
-  delta: 0.0
+  composite: 44.2
+  delta: 2.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 47.8
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 42.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capsule/refs/heads/main/screenshots/capsule-2026-06-20T173941.png
 security:

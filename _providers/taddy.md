@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 9
 apis:
 - description: Blazing-fast full-text `search` query across all 4M+ podcasts and 200M+ episodes, with filters for country, genre, language, publish date, and whether a transcript is available, and sortable by exactn
@@ -122,25 +122,25 @@ plans:
 - name: Taddy Plans Pricing
   plan_count: 4
   slug: taddy-plans-pricing
-random_paper: 24
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Taddy Rate Limits
   slug: taddy-rate-limits
 score:
   band: emerging
-  composite: 21.6
-  delta: 0.0
+  composite: 24.9
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 21.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

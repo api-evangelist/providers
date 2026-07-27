@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -109,7 +109,7 @@ plans:
 - name: Uber Direct Plans Pricing
   plan_count: 1
   slug: uber-direct-plans-pricing
-random_paper: 39
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Uber Direct Rate Limits
@@ -121,18 +121,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 30.7
-  delta: 0.0
+  composite: 33.9
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 51.3
     developer_ergonomics: 19.6
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 30.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uber-direct/refs/heads/main/screenshots/uber-direct-2026-06-20T195931.png
 security:

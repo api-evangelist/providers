@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Fashion Style Classification API detects and categorizes clothing items from images, including shirts, pants, dresses, and accessories, and produces stylistic labels suitable for personal styling,
@@ -78,7 +78,7 @@ plans:
 - name: Classif Io Plans Pricing
   plan_count: 3
   slug: classif-io-plans-pricing
-random_paper: 33
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Classif Io Rate Limits
@@ -105,7 +105,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 28.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: classif-io
 tags:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -163,25 +163,25 @@ plans:
 - name: Persona Plans Pricing
   plan_count: 3
   slug: persona-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Persona Rate Limits
   slug: persona-rate-limits
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 54.0
+  delta: 3.3
   facets:
     commercial_clarity: 92.1
     contract_quality: 52.1
     developer_ergonomics: 34.8
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 50.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/persona/refs/heads/main/screenshots/persona-2026-06-20T191619.png
 security:

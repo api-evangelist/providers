@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -125,25 +125,25 @@ plans:
 - name: Respond Plans Pricing
   plan_count: 4
   slug: respond-plans-pricing
-random_paper: 49
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Respond Rate Limits
   slug: respond-rate-limits
 score:
   band: thin
-  composite: 40.0
-  delta: 0.0
+  composite: 43.3
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 61.4
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 40.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/respond/refs/heads/main/screenshots/respond-2026-06-20T192954.png
 security:

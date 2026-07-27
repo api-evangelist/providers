@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -168,25 +168,25 @@ plans:
 - name: F5 Load Balancer Plans Pricing
   plan_count: 4
   slug: f5-load-balancer-plans-pricing
-random_paper: 6
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: F5 Load Balancer Rate Limits
   slug: f5-load-balancer-rate-limits
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 50.5
+  delta: 3.3
   facets:
     commercial_clarity: 68.4
     contract_quality: 60.2
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 47.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f5-load-balancer/refs/heads/main/screenshots/f5-load-balancer-2026-06-20T180957.png
 security:

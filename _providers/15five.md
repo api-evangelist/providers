@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: RESTful API for reading and modifying 15Five account data, including users, groups, objectives (OKRs), check-ins, review cycles, and performance data. Supports bulk list fetches with pagination and us
@@ -130,7 +130,7 @@ plans:
 - name: 15Five Plans Pricing
   plan_count: 3
   slug: 15five-plans-pricing
-random_paper: 18
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: 15Five Rate Limits
@@ -148,7 +148,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 33.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/15five/refs/heads/main/screenshots/15five-2026-06-20T162310.png
 security:

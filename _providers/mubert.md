@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -264,19 +264,19 @@ rules:
   slug: mubert-rules
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 55.9
+  delta: 5.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.1
+    contract_quality: 79.9
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 5.3
   previous_composite: 50.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mubert/refs/heads/main/screenshots/mubert-2026-06-20T185853.png
 security:
 - kind: authentication

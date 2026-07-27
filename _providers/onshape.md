@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 142
   human_in_the_loop: 2
@@ -323,7 +323,7 @@ overview: 'Onshape publishes 42 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Onshape''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 27 more developer resources.'
-random_paper: 36
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Onshape Rate Limits
@@ -346,7 +346,7 @@ score:
     operational_transparency: 63.2
   previous_composite: 57.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

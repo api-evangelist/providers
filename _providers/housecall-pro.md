@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 39.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Housecall Pro Public API is a REST + JSON API hosted on Stoplight that gives MAX-plan customers programmatic access to core platform resources — customers, leads, jobs, estimates, invoices, paymen
@@ -216,7 +216,7 @@ plans:
 - name: Housecall Pro Plans Pricing
   plan_count: 3
   slug: housecall-pro-plans-pricing
-random_paper: 16
+random_paper: 50
 rate_limits:
 - limit_count: 0
   name: Housecall Pro Rate Limits
@@ -233,7 +233,7 @@ rules:
 score:
   band: strong
   composite: 63.5
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 71.7
@@ -241,14 +241,14 @@ score:
     discoverability: 92.5
     governance: 73.7
     operational_transparency: 23.7
-  previous_composite: 65.1
+  previous_composite: 63.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/housecall-pro/refs/heads/main/screenshots/housecall-pro-2026-06-20T182849.png
 security:

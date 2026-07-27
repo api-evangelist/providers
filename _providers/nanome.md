@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 37.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: REST API to create workspaces, load molecular structures, create and rename scenes, and add visualization components. Bearer-token auth. Powers the MARA workspace builder, the official Nanome MCP serv
@@ -149,7 +149,7 @@ random_paper: 26
 score:
   band: thin
   composite: 34.8
-  delta: 3.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -157,14 +157,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 31.4
+  previous_composite: 34.8
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

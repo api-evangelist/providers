@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 common:
@@ -74,7 +74,7 @@ overview: 'Treasury is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Treasury''s developer surface includes authentication and 6 more developer resources.'
-random_paper: 28
+random_paper: 11
 scopes:
 - name: Treasury Scopes
   scope_count: 1
@@ -83,7 +83,7 @@ scopes:
 score:
   band: emerging
   composite: 18.5
-  delta: 5.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -91,15 +91,15 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.3
+  previous_composite: 18.5
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Treasury Authentication

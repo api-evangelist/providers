@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 26.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The NeuBird production-operations API — projects, connections, investigation sessions, and root-cause analysis. Documented and driven through the official MCP server; authenticated with an Auth0-issue
@@ -146,7 +146,7 @@ overview: 'Neubird publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Neubird''s developer surface includes documentation, API reference, quickstart, authentication, sandbox, engineering blog, pricing, and 17 more developer resources.'
-random_paper: 31
+random_paper: 65
 score:
   band: thin
   composite: 38.1
@@ -160,7 +160,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 38.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

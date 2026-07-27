@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 63.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 12
 apis:
 - description: 3D Secure is a security protocol designed to prevent fraud in online card transactions. It adds an additional layer of authentication during the payment process.
@@ -226,11 +226,11 @@ overview: 'Evervault publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Evervault''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 27 more developer resources.'
-random_paper: 21
+random_paper: 38
 score:
   band: strong
   composite: 64.3
-  delta: 2.5
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 70.2
@@ -238,14 +238,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 55.3
-  previous_composite: 61.8
+  previous_composite: 64.3
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

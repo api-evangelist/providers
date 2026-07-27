@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -231,7 +231,7 @@ overview: 'Edge Delta publishes 19 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Edge Delta''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 3
+random_paper: 20
 score:
   band: developing
   composite: 51.1
@@ -245,8 +245,9 @@ score:
     operational_transparency: 36.8
   previous_composite: 51.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/edge-delta/refs/heads/main/screenshots/edge-delta-2026-07-25T212824.png
 security:
 - kind: authentication
   name: Edge Delta Authentication

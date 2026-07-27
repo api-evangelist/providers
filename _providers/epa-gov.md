@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,11 +65,11 @@ overview: 'EPA.gov is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   EPA.gov''s developer surface includes developer portal and 5 more developer resources.'
-random_paper: 24
+random_paper: 7
 score:
   band: minimal
   composite: 8.7
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -77,14 +77,14 @@ score:
     discoverability: 55.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 7.9
+  previous_composite: 8.7
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/epa-gov/refs/heads/main/screenshots/epa-gov-2026-06-20T180750.png
 security:

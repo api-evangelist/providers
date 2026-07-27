@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: high
-  generated: '2026-07-22'
   label: Freemium · Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: freemium
   public: false
@@ -12,17 +10,548 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 361
+  human_in_the_loop: 6
+  name: Windmill Agentic Access
+  operation_count: 714
+  slug: windmill-agentic-access
+  summary_line: 714 operations · 361 acting · 6 human-in-the-loop
 api_count: 59
-artifact_total: 0
+apis:
+- description: The admin API from Windmill — 6 operation(s) for admin.
+  name: Windmill admin API
+  slug: windmill-admin-api
+- description: The agent_workers API from Windmill — 5 operation(s) for agent_workers.
+  name: Windmill agent_workers API
+  slug: windmill-agent-workers-api
+- description: The app API from Windmill — 30 operation(s) for app.
+  name: Windmill app API
+  slug: windmill-app-api
+- description: The asset API from Windmill — 3 operation(s) for asset.
+  name: Windmill asset API
+  slug: windmill-asset-api
+- description: The audit API from Windmill — 2 operation(s) for audit.
+  name: Windmill audit API
+  slug: windmill-audit-api
+- description: The azure_trigger API from Windmill — 13 operation(s) for azure_trigger.
+  name: Windmill azure_trigger API
+  slug: windmill-azure-trigger-api
+- description: The capture API from Windmill — 6 operation(s) for capture.
+  name: Windmill capture API
+  slug: windmill-capture-api
+- description: The concurrencyGroups API from Windmill — 4 operation(s) for concurrencygroups.
+  name: Windmill concurrencyGroups API
+  slug: windmill-concurrencygroups-api
+- description: The config API from Windmill — 9 operation(s) for config.
+  name: Windmill config API
+  slug: windmill-config-api
+- description: The documentation API from Windmill — 1 operation(s) for documentation.
+  name: Windmill documentation API
+  slug: windmill-documentation-api
+- description: The draft API from Windmill — 2 operation(s) for draft.
+  name: Windmill draft API
+  slug: windmill-draft-api
+- description: The email_trigger API from Windmill — 8 operation(s) for email_trigger.
+  name: Windmill email_trigger API
+  slug: windmill-email-trigger-api
+- description: The favorite API from Windmill — 2 operation(s) for favorite.
+  name: Windmill favorite API
+  slug: windmill-favorite-api
+- description: The flow API from Windmill — 21 operation(s) for flow.
+  name: Windmill flow API
+  slug: windmill-flow-api
+- description: The flow_conversations API from Windmill — 3 operation(s) for flow_conversations.
+  name: Windmill flow_conversations API
+  slug: windmill-flow-conversations-api
+- description: The folder API from Windmill — 11 operation(s) for folder.
+  name: Windmill folder API
+  slug: windmill-folder-api
+- description: The gcp_trigger API from Windmill — 11 operation(s) for gcp_trigger.
+  name: Windmill gcp_trigger API
+  slug: windmill-gcp-trigger-api
+- description: The Git Sync API from Windmill — 7 operation(s) for git sync.
+  name: Windmill Git Sync API
+  slug: windmill-git-sync-api
+- description: The granular_acl API from Windmill — 3 operation(s) for granular_acl.
+  name: Windmill granular_acl API
+  slug: windmill-granular-acl-api
+- description: The group API from Windmill — 19 operation(s) for group.
+  name: Windmill group API
+  slug: windmill-group-api
+- description: The health API from Windmill — 2 operation(s) for health.
+  name: Windmill health API
+  slug: windmill-health-api
+- description: The helpers API from Windmill — 22 operation(s) for helpers.
+  name: Windmill helpers API
+  slug: windmill-helpers-api
+- description: The http_trigger API from Windmill — 9 operation(s) for http_trigger.
+  name: Windmill http_trigger API
+  slug: windmill-http-trigger-api
+- description: The indexSearch API from Windmill — 7 operation(s) for indexsearch.
+  name: Windmill indexSearch API
+  slug: windmill-indexsearch-api
+- description: The input API from Windmill — 6 operation(s) for input.
+  name: Windmill input API
+  slug: windmill-input-api
+- description: The integration API from Windmill — 1 operation(s) for integration.
+  name: Windmill integration API
+  slug: windmill-integration-api
+- description: The job API from Windmill — 77 operation(s) for job.
+  name: Windmill job API
+  slug: windmill-job-api
+- description: The kafka_trigger API from Windmill — 10 operation(s) for kafka_trigger.
+  name: Windmill kafka_trigger API
+  slug: windmill-kafka-trigger-api
+- description: The mcp API from Windmill — 1 operation(s) for mcp.
+  name: Windmill mcp API
+  slug: windmill-mcp-api
+- description: The mcp_oauth API from Windmill — 3 operation(s) for mcp_oauth.
+  name: Windmill mcp_oauth API
+  slug: windmill-mcp-oauth-api
+- description: The metrics API from Windmill — 3 operation(s) for metrics.
+  name: Windmill metrics API
+  slug: windmill-metrics-api
+- description: The mqtt_trigger API from Windmill — 8 operation(s) for mqtt_trigger.
+  name: Windmill mqtt_trigger API
+  slug: windmill-mqtt-trigger-api
+- description: The native_trigger API from Windmill — 13 operation(s) for native_trigger.
+  name: Windmill native_trigger API
+  slug: windmill-native-trigger-api
+- description: The nats_trigger API from Windmill — 8 operation(s) for nats_trigger.
+  name: Windmill nats_trigger API
+  slug: windmill-nats-trigger-api
+- description: The npm_proxy API from Windmill — 4 operation(s) for npm_proxy.
+  name: Windmill npm_proxy API
+  slug: windmill-npm-proxy-api
+- description: The oauth API from Windmill — 13 operation(s) for oauth.
+  name: Windmill oauth API
+  slug: windmill-oauth-api
+- description: The oidc API from Windmill — 1 operation(s) for oidc.
+  name: Windmill oidc API
+  slug: windmill-oidc-api
+- description: The openapi API from Windmill — 2 operation(s) for openapi.
+  name: Windmill openapi API
+  slug: windmill-openapi-api
+- description: The path_autocomplete API from Windmill — 1 operation(s) for path_autocomplete.
+  name: Windmill path_autocomplete API
+  slug: windmill-path-autocomplete-api
+- description: The postgres_trigger API from Windmill — 20 operation(s) for postgres_trigger.
+  name: Windmill postgres_trigger API
+  slug: windmill-postgres-trigger-api
+- description: The raw_app API from Windmill — 1 operation(s) for raw_app.
+  name: Windmill raw_app API
+  slug: windmill-raw-app-api
+- description: The resource API from Windmill — 23 operation(s) for resource.
+  name: Windmill resource API
+  slug: windmill-resource-api
+- description: The schedule API from Windmill — 10 operation(s) for schedule.
+  name: Windmill schedule API
+  slug: windmill-schedule-api
+- description: The script API from Windmill — 34 operation(s) for script.
+  name: Windmill script API
+  slug: windmill-script-api
+- description: The service_logs API from Windmill — 2 operation(s) for service_logs.
+  name: Windmill service_logs API
+  slug: windmill-service-logs-api
+- description: The setting API from Windmill — 43 operation(s) for setting.
+  name: Windmill setting API
+  slug: windmill-setting-api
+- description: The settings API from Windmill — 4 operation(s) for settings.
+  name: Windmill settings API
+  slug: windmill-settings-api
+- description: The sqs_trigger API from Windmill — 8 operation(s) for sqs_trigger.
+  name: Windmill sqs_trigger API
+  slug: windmill-sqs-trigger-api
+- description: The teams API from Windmill — 1 operation(s) for teams.
+  name: Windmill teams API
+  slug: windmill-teams-api
+- description: The token API from Windmill — 1 operation(s) for token.
+  name: Windmill token API
+  slug: windmill-token-api
+- description: The trigger API from Windmill — 2 operation(s) for trigger.
+  name: Windmill trigger API
+  slug: windmill-trigger-api
+- description: The user API from Windmill — 53 operation(s) for user.
+  name: Windmill user API
+  slug: windmill-user-api
+- description: The variable API from Windmill — 10 operation(s) for variable.
+  name: Windmill variable API
+  slug: windmill-variable-api
+- description: The volume API from Windmill — 4 operation(s) for volume.
+  name: Windmill volume API
+  slug: windmill-volume-api
+- description: The websocket_trigger API from Windmill — 8 operation(s) for websocket_trigger.
+  name: Windmill websocket_trigger API
+  slug: windmill-websocket-trigger-api
+- description: The worker API from Windmill — 9 operation(s) for worker.
+  name: Windmill worker API
+  slug: windmill-worker-api
+- description: The workspace API from Windmill — 96 operation(s) for workspace.
+  name: Windmill workspace API
+  slug: windmill-workspace-api
+- description: The workspace_dependencies API from Windmill — 5 operation(s) for workspace_dependencies.
+  name: Windmill workspace_dependencies API
+  slug: windmill-workspace-dependencies-api
+- description: The workspace_integration API from Windmill — 8 operation(s) for workspace_integration.
+  name: Windmill workspace_integration API
+  slug: windmill-workspace-integration-api
+arazzos:
+- description: Create a workspace, confirm it exists, then read back its display name.
+  name: Windmill Bootstrap a Workspace
+  slug: windmill-bootstrap-workspace-workflow
+- description: Deploy a new script from source, confirm it deployed, then run it.
+  name: Windmill Create and Run a Script
+  slug: windmill-create-and-run-script-workflow
+- description: Create a typed resource, verify its value, then run a script that consumes it.
+  name: Windmill Provision a Resource and Run a Consuming Script
+  slug: windmill-provision-resource-and-run-script-workflow
+- description: Create a variable, verify its value, then run a script that reads it.
+  name: Windmill Provision a Variable and Run a Consuming Script
+  slug: windmill-provision-variable-and-run-script-workflow
+- description: Trigger a flow by path, poll job updates until completion, then read the result.
+  name: Windmill Run a Flow and Await its Result
+  slug: windmill-run-flow-and-await-result-workflow
+- description: Trigger a script by path, poll the job until it completes, then read the result.
+  name: Windmill Run a Script and Await its Result
+  slug: windmill-run-script-and-await-result-workflow
+- description: Run a script, await its result, capture it, then delete the completed job record.
+  name: Windmill Run a Script and Clean up its Job
+  slug: windmill-run-script-and-cleanup-job-workflow
+- description: Run a script, inspect the job, and cancel it if it is still queued or running.
+  name: Windmill Run a Script with a Cancel Guard
+  slug: windmill-run-script-with-timeout-cancel-workflow
+- description: Resolve a flow, create a cron schedule for it, then read the schedule back.
+  name: Windmill Schedule a Flow
+  slug: windmill-schedule-flow-workflow
+- description: Resolve a script, create a cron schedule for it, then read the schedule back.
+  name: Windmill Schedule a Script
+  slug: windmill-schedule-script-workflow
+artifact_total: 100
+collections:
+- collection_type: open
+  name: Windmill API
+  slug: open-windmill-api
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/windmill-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/windmill-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/windmill-authentication.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/windmill-bootstrap-workspace-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/windmill-create-and-run-script-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/windmill-provision-resource-and-run-script-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/windmill-provision-variable-and-run-script-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/windmill-run-flow-and-await-result-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/windmill-run-script-and-await-result-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/windmill-run-script-and-cleanup-job-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/windmill-run-script-with-timeout-cancel-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/windmill-schedule-flow-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/windmill-schedule-script-workflow.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/windmill-dev
+- group: start
+  title: ''
+  type: Portal
+  url: https://www.windmill.dev
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.windmill.dev/docs/intro
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://www.windmill.dev/docs/getting_started/how_to_use_windmill
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.windmill.dev/pricing
+- group: commercial
+  title: ''
+  type: Plans
+  url: https://www.windmill.dev/docs/misc/plans_details
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.windmill.dev/blog
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://www.windmill.dev/changelog
+- group: operate
+  title: ''
+  type: RoadMap
+  url: https://www.windmill.dev/roadmap
+- group: start
+  title: ''
+  type: Login
+  url: https://app.windmill.dev/user/login
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/windmill-labs
+- group: build
+  title: ''
+  type: GitHubRepo
+  url: https://github.com/windmill-labs/windmill
+- group: build
+  title: ''
+  type: IntegrationHub
+  url: https://hub.windmill.dev
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://windmill.betteruptime.com/
+- group: operate
+  title: ''
+  type: Discord
+  url: https://discord.com/invite/V7PM2YHsPB
+- group: operate
+  title: ''
+  type: CommunityForum
+  url: https://questions.windmill.dev/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://raw.githubusercontent.com/windmill-labs/windmill/main/backend/windmill-api/openapi.yaml
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.windmill.dev/terms_of_service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.windmill.dev/privacy_policy
+- group: commercial
+  title: ''
+  type: LicenseTerms
+  url: https://www.windmill.dev/terms
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: https://trust.windmill.dev
+- group: company
+  title: ''
+  type: Careers
+  url: https://www.windmill.dev/careers
+- group: company
+  title: ''
+  type: Partners
+  url: https://www.windmill.dev/partners
+- group: other
+  title: ''
+  type: CaseStudies
+  url: https://www.windmill.dev/case-studies
+- group: other
+  title: ''
+  type: Brand
+  url: https://www.windmill.dev/brand
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/json-ld/windmill-context.jsonld
+- group: design
+  title: ''
+  type: Vocabulary
+  url: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/vocabulary/windmill-vocabulary.yml
 created: '2026-03-03'
 description: Windmill is an open-source developer platform and workflow engine for turning scripts into webhooks, workflows, and internal apps. It supports TypeScript, Python, Go, PHP, Bash, C#, SQL, and Rust, and serves as an open-source alternative to Retool, Airflow, and Temporal for building comprehensive internal tools including endpoints, workflows, and UIs.
+examples:
+- key_count: 6
+  name: Windmill Create Script Example
+  slug: windmill-create-script-example
+- key_count: 6
+  name: Windmill Get Workspace Example
+  slug: windmill-get-workspace-example
+- key_count: 6
+  name: Windmill List Completed Jobs Example
+  slug: windmill-list-completed-jobs-example
+- key_count: 6
+  name: Windmill Run Script Example
+  slug: windmill-run-script-example
+finops:
+- name: Windmill Finops
+  service_category: API
+  slug: windmill-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/windmill.png
+json_schemas:
+- name: CompletedJob
+  property_count: 38
+  slug: windmill-completedjob
+- name: CreateVariable
+  property_count: 8
+  slug: windmill-createvariable
+- name: Flow
+  property_count: 0
+  slug: windmill-flow
+- name: Job
+  property_count: 0
+  slug: windmill-job
+- name: QueuedJob
+  property_count: 35
+  slug: windmill-queuedjob
+- name: Resource
+  property_count: 10
+  slug: windmill-resource
+- name: Schedule
+  property_count: 32
+  slug: windmill-schedule
+- name: Script
+  property_count: 45
+  slug: windmill-script
+- name: User
+  property_count: 13
+  slug: windmill-user
+- name: Workspace
+  property_count: 6
+  slug: windmill-workspace
+json_structures:
+- name: Windmill Flow Structure
+  property_count: 0
+  slug: windmill-flow-structure
+- name: Windmill Job Structure
+  property_count: 0
+  slug: windmill-job-structure
+- name: Windmill Resource Structure
+  property_count: 0
+  slug: windmill-resource-structure
+- name: Windmill Schedule Structure
+  property_count: 0
+  slug: windmill-schedule-structure
+- name: Windmill Script Structure
+  property_count: 0
+  slug: windmill-script-structure
+- name: Windmill User Structure
+  property_count: 0
+  slug: windmill-user-structure
+- name: Windmill Workspace Structure
+  property_count: 0
+  slug: windmill-workspace-structure
+jsonld:
+- class_count: 17
+  name: Windmill Context
+  property_count: 16
+  slug: windmill-context
 layout: provider
 modified: '2026-05-19'
 name: Windmill
 nav: Providers
 network: true
+overview: 'Windmill publishes 59 APIs on the [APIs.io](https://apis.io/) network, including admin API, agent_workers API, app API, and 56 more. Tagged areas include Automation, Internal Tools, Open Source, ProCode API Composition, and Scripts.
+
+
+  The Windmill catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Windmill''s developer surface includes authentication, developer portal, documentation, getting-started guide, pricing, engineering blog, changelog, and 33 more developer resources.'
+plans:
+- name: Windmill Plans Pricing
+  plan_count: 3
+  slug: windmill-plans-pricing
 random_paper: 48
+rate_limits:
+- limit_count: 5
+  name: Windmill Rate Limits
+  slug: windmill-rate-limits
+rules:
+- name: Windmill API Rules
+  rule_count: 10
+  severity_counts:
+    error: 4
+    hint: 0
+    info: 1
+    warn: 5
+  slug: windmill-api-rules
+- name: Windmill API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 1
+    warn: 4
+  slug: windmill-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 65.1
+  delta: 2.5
+  facets:
+    commercial_clarity: 92.1
+    contract_quality: 55.8
+    developer_ergonomics: 41.3
+    discoverability: 92.5
+    governance: 47.4
+    operational_transparency: 73.7
+  previous_composite: 62.6
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/windmill/refs/heads/main/screenshots/windmill-2026-06-20T201510.png
+security:
+- kind: authentication
+  name: Windmill Authentication
+  slug: windmill-authentication
+  summary_line: apiKey/http · 2 schemes
+- kind: domain-security
+  name: Windmill Domain Security
+  slug: windmill-domain-security
+  summary_line: TLSv1.3 · DNSSEC · DMARC
 slug: windmill
 tags:
 - Automation
@@ -33,4 +562,5 @@ tags:
 - Webhooks
 - Workflow Engine
 - Workflows
+website: https://www.windmill.dev
 ---

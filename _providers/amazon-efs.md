@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -276,7 +276,7 @@ plans:
 - name: Amazon Efs Plans Pricing
   plan_count: 3
   slug: amazon-efs-plans-pricing
-random_paper: 40
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Amazon Efs Rate Limits
@@ -299,19 +299,19 @@ rules:
     warn: 19
   slug: amazon-efs-spectral-rules
 score:
-  band: strong
-  composite: 68.7
-  delta: 0.0
+  band: exemplar
+  composite: 71.3
+  delta: 2.6
   facets:
     commercial_clarity: 89.5
-    contract_quality: 68.1
+    contract_quality: 73.5
     developer_ergonomics: 45.7
-    discoverability: 60.0
+    discoverability: 72.5
     governance: 86.8
     operational_transparency: 63.2
   previous_composite: 68.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-efs/refs/heads/main/screenshots/amazon-efs-2026-06-20T171636.png
 security:

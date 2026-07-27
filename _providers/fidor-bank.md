@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Fidor''s REST API for Customers, Accounts, Transfers, Transactions and Account Information, secured with OAuth2 (authorization-code flow). Now retired: the sandbox (*.sandbox.fidor.com) and production '
@@ -66,7 +66,7 @@ overview: 'Fidor Bank publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Fidor Bank''s developer surface includes authentication and 4 more developer resources.'
-random_paper: 20
+random_paper: 37
 score:
   band: minimal
   composite: 13.4
@@ -85,8 +85,9 @@ score:
     regime_id: banking_open_finance
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fidor-bank/refs/heads/main/screenshots/fidor-bank-2026-07-25T214428.png
 security:
 - kind: authentication
   name: Fidor Bank Authentication

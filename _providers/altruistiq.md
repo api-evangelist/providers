@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 25
@@ -264,7 +264,7 @@ plans:
 - name: Altruistiq Plans Pricing
   plan_count: 4
   slug: altruistiq-plans-pricing
-random_paper: 35
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Altruistiq Rate Limits
@@ -293,18 +293,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 53.7
-  delta: 0.0
+  composite: 58.4
+  delta: 4.7
   facets:
     commercial_clarity: 68.4
-    contract_quality: 65.0
+    contract_quality: 73.9
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 15.8
   previous_composite: 53.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/altruistiq/refs/heads/main/screenshots/altruistiq-2026-06-20T171616.png
 security:

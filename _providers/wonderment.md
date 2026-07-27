@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ overview: 'Wonderment publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Wonderment''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 15 more developer resources.'
-random_paper: 20
+random_paper: 3
 score:
   band: thin
   composite: 42.4
@@ -171,7 +171,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 42.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

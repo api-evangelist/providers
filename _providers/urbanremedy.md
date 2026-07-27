@@ -9,6 +9,24 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 13.5
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Platform-provided WooCommerce Store API on urbanremedy.com, discovered live at /wp-json/wc/store/v1. Public, unauthenticated read access to the product catalog (verified 200 with product JSON); cart a
@@ -68,7 +86,22 @@ overview: 'Urban Remedy publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Urban Remedy''s developer surface includes engineering blog, support, signup flow, authentication, and 6 more developer resources.'
-random_paper: 48
+random_paper: 26
+score:
+  band: emerging
+  composite: 19.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 34.2
+    contract_quality: 0.0
+    developer_ergonomics: 17.4
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 19.6
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Urbanremedy Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -220,7 +220,7 @@ overview: 'Vitally publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Vitally''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 8
+random_paper: 25
 rate_limits:
 - limit_count: 0
   name: Vitally Rate Limits
@@ -238,7 +238,7 @@ score:
     operational_transparency: 50.0
   previous_composite: 58.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

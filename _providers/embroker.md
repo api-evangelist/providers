@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -202,7 +202,7 @@ random_paper: 39
 score:
   band: emerging
   composite: 15.1
-  delta: 1.1
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -210,14 +210,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 14.0
+  previous_composite: 15.1
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/embroker/refs/heads/main/screenshots/embroker-2026-06-20T180627.png
 security:

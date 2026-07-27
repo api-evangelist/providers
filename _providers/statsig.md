@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 5
@@ -240,7 +240,7 @@ plans:
 - name: Statsig Plans Pricing
   plan_count: 3
   slug: statsig-plans-pricing
-random_paper: 2
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Statsig Rate Limits
@@ -272,18 +272,18 @@ rules:
   slug: statsig-rules
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 51.4
+  delta: 2.5
   facets:
     commercial_clarity: 47.4
     contract_quality: 77.5
     developer_ergonomics: 10.9
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 48.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/statsig/refs/heads/main/screenshots/statsig-2026-06-20T194528.png
 security:

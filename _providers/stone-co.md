@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -130,11 +130,11 @@ overview: 'Stone Co is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Stone Co''s developer surface includes developer portal, documentation, signup flow, engineering blog, YouTube channel, and 17 more developer resources.'
-random_paper: 43
+random_paper: 60
 score:
   band: minimal
   composite: 14.2
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -142,14 +142,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 14.4
+  previous_composite: 14.2
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stone-co/refs/heads/main/screenshots/stone-co-2026-06-20T194557.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ press:
 - date: '2026-05-25'
   title: Vantiv and Worldpay Complete Combination to Form ...
   url: https://www.prnewswire.com/news-releases/vantiv-and-worldpay-complete-combination-to-form-worldpay-inc-300583008.html
-random_paper: 1
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Vantiv Rate Limits
@@ -223,23 +223,23 @@ rules:
   slug: vantiv-rules
 score:
   band: developing
-  composite: 49.4
-  delta: -2.2
+  composite: 52.2
+  delta: 2.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 69.9
     developer_ergonomics: 50.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 21.1
-  previous_composite: 51.6
+  previous_composite: 49.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

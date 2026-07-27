@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -118,7 +118,7 @@ overview: 'rakam is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   rakam''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 12 more developer resources.'
-random_paper: 14
+random_paper: 48
 score:
   band: emerging
   composite: 26.8
@@ -132,7 +132,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 26.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

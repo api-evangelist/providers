@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST booking API for searching experiences, retrieving options and availability, and assembling and confirming booking orders. Authenticated with an X-API-Key header; versioned in the URI path (/v2).
@@ -122,7 +122,7 @@ overview: 'Turneo publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Turneo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 13 more developer resources.'
-random_paper: 6
+random_paper: 57
 score:
   band: emerging
   composite: 28.3
@@ -136,7 +136,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 28.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

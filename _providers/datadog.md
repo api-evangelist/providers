@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 324
   human_in_the_loop: 4
@@ -980,7 +980,7 @@ arazzos:
 - description: Fetch a Datadog monitor, then update its options and alert thresholds.
   name: Datadog Tune Monitor Thresholds
   slug: datadog-tune-monitor-thresholds-workflow
-artifact_total: 557
+artifact_total: 558
 collections:
 - collection_type: postman
   name: Datadog API
@@ -1955,6 +1955,10 @@ jsonld:
   property_count: 106
   slug: datadog-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Datadog
 nav: Providers
@@ -1970,7 +1974,7 @@ plans:
 - name: Datadog Plans Pricing
   plan_count: 7
   slug: datadog-plans-pricing
-random_paper: 10
+random_paper: 44
 rate_limits:
 - limit_count: 6
   name: Datadog Rate Limits
@@ -2010,7 +2014,7 @@ score:
     operational_transparency: 63.2
   previous_composite: 73.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datadog/refs/heads/main/screenshots/datadog-2026-06-20T175637.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 1
@@ -281,11 +281,11 @@ overview: 'Griffin publishes 28 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Griffin''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 27 more developer resources.'
-random_paper: 27
+random_paper: 61
 score:
   band: developing
   composite: 56.2
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 60.4
@@ -293,15 +293,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 56.5
+  previous_composite: 56.2
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/griffin/refs/heads/main/screenshots/griffin-2026-07-25T220332.png
 security:
 - kind: authentication
   name: Griffin Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -144,18 +144,18 @@ rate_limits:
   slug: mashable-rate-limits
 score:
   band: thin
-  composite: 40.5
-  delta: 0.0
+  composite: 43.8
+  delta: 3.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 54.9
     developer_ergonomics: 19.6
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 40.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mashable/refs/heads/main/screenshots/mashable-2026-06-20T185014.png
 security:

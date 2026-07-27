@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -257,7 +257,7 @@ overview: 'KolayIK publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   KolayIK''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, changelog, and 33 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: developing
   composite: 52.9
@@ -271,8 +271,9 @@ score:
     operational_transparency: 47.4
   previous_composite: 52.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kolayik/refs/heads/main/screenshots/kolayik-2026-07-25T224126.png
 security:
 - kind: authentication
   name: Kolayik Authentication

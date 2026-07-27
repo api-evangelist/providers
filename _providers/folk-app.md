@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -130,26 +130,27 @@ plans:
 - name: Folk App Plans Pricing
   plan_count: 4
   slug: folk-app-plans-pricing
-random_paper: 29
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Folk App Rate Limits
   slug: folk-app-rate-limits
 score:
   band: thin
-  composite: 35.4
-  delta: 0.0
+  composite: 38.7
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 54.7
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 35.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/folk-app/refs/heads/main/screenshots/folk-app-2026-07-25T214908.png
 security:
 - kind: authentication
   name: Folk App Authentication

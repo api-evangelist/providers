@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 74.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -95,7 +95,7 @@ arazzos:
 - description: Open an item usage feed from a start time, then continue paging with the cursor while more remain.
   name: 1Password Stream Item Usages
   slug: 1password-stream-item-usages-workflow
-artifact_total: 147
+artifact_total: 148
 collections:
 - collection_type: postman
   name: 1Password Connect Server API
@@ -633,6 +633,10 @@ jsonld:
   property_count: 6
   slug: 1password-partnership-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: 1password-mcp.yml
+  slug: 1password-mcpyml
 modified: '2026-06-20'
 name: 1Password
 nav: Providers
@@ -648,7 +652,7 @@ plans:
 - name: 1Password Plans Pricing
   plan_count: 5
   slug: 1password-plans-pricing
-random_paper: 14
+random_paper: 48
 rate_limits:
 - limit_count: 4
   name: 1Password Rate Limits
@@ -671,19 +675,19 @@ rules:
     warn: 11
   slug: 1password-spectral-rules
 score:
-  band: strong
-  composite: 69.2
-  delta: 0.0
+  band: exemplar
+  composite: 73.5
+  delta: 4.3
   facets:
     commercial_clarity: 68.4
-    contract_quality: 66.9
+    contract_quality: 75.8
     developer_ergonomics: 80.4
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 69.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1password/refs/heads/main/screenshots/1password-2026-06-20T162519.png
 security:

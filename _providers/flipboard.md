@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Flipboard supports RSS feeds as the primary integration mechanism for publishers and content creators. Publishers can submit RSS feeds to be featured as Flipboard Magazines, enabling content distribut
@@ -129,7 +129,7 @@ plans:
 - name: Flipboard Plans Pricing
   plan_count: 3
   slug: flipboard-plans-pricing
-random_paper: 29
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Flipboard Rate Limits
@@ -147,7 +147,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 30.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flipboard/refs/heads/main/screenshots/flipboard-2026-06-20T181315.png
 security:

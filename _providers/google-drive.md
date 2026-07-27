@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -56,7 +56,7 @@ arazzos:
 - description: Find a file by name within a folder and update it if it exists, otherwise create it.
   name: Google Drive Upsert a File by Name
   slug: google-drive-upsert-file-by-name-workflow
-artifact_total: 35
+artifact_total: 36
 collections:
 - collection_type: open
   name: Google Drive API
@@ -224,6 +224,10 @@ jsonld:
   property_count: 0
   slug: google-drive-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: google-drive-mcp.yml
+  slug: google-drive-mcpyml
 modified: '2026-06-20'
 name: Google Drive
 nav: Providers
@@ -239,7 +243,7 @@ plans:
 - name: Google Drive Plans Pricing
   plan_count: 3
   slug: google-drive-plans-pricing
-random_paper: 47
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Google Drive Rate Limits
@@ -268,18 +272,18 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 54.0
-  delta: 0.0
+  composite: 58.6
+  delta: 4.6
   facets:
     commercial_clarity: 47.4
-    contract_quality: 57.5
+    contract_quality: 62.8
     developer_ergonomics: 39.1
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 57.9
   previous_composite: 54.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-drive/refs/heads/main/screenshots/google-drive-2026-06-20T182159.png
 security:

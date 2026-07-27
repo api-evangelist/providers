@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -463,18 +463,18 @@ rules:
   slug: dell-servers-openmanage-enterprise-rules
 score:
   band: strong
-  composite: 62.9
-  delta: 0.0
+  composite: 64.2
+  delta: 1.3
   facets:
     commercial_clarity: 73.7
     contract_quality: 69.9
     developer_ergonomics: 56.5
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 65.8
     operational_transparency: 36.8
   previous_composite: 62.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dell-servers/refs/heads/main/screenshots/dell-servers-2026-06-20T175900.png
 security:

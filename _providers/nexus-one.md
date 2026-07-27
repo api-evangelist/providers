@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 18.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 common:
@@ -109,7 +109,7 @@ overview: 'Nexus One is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Nexus One''s developer surface includes engineering blog and 15 more developer resources.'
-random_paper: 12
+random_paper: 46
 score:
   band: emerging
   composite: 17.2
@@ -123,7 +123,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 17.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

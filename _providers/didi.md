@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: DiDi Enterprise Services (DDES) Open API for corporate employee travel management — approval, bills, budget/cost centers, city info, company entities, single sign-on, users, orders, ranks, regulations
@@ -108,8 +108,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 19.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/didi/refs/heads/main/screenshots/didi-2026-07-25T211941.png
 security:
 - kind: authentication
   name: Didi Authentication

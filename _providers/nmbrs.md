@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -141,25 +141,25 @@ plans:
 - name: Nmbrs Plans Pricing
   plan_count: 4
   slug: nmbrs-plans-pricing
-random_paper: 36
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Nmbrs Rate Limits
   slug: nmbrs-rate-limits
 score:
   band: thin
-  composite: 41.1
-  delta: 0.0
+  composite: 44.4
+  delta: 3.3
   facets:
     commercial_clarity: 52.6
     contract_quality: 61.9
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 41.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

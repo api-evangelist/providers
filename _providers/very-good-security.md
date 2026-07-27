@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Unique IDs that retain all the essential information about the data without compromising its security.
@@ -214,7 +214,7 @@ scopes:
 score:
   band: strong
   composite: 65.6
-  delta: 3.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 69.0
@@ -222,14 +222,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 61.8
+  previous_composite: 65.6
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

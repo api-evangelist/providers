@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: Upload files referenced by response fields.
@@ -163,11 +163,11 @@ overview: 'Department of Better Technology publishes 8 APIs on the [APIs.io](htt
 
 
   Department of Better Technology''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 43
+random_paper: 26
 score:
   band: thin
   composite: 43.7
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 58.4
@@ -175,15 +175,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 43.4
+  previous_composite: 43.7
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-better-technology/refs/heads/main/screenshots/department-of-better-technology-2026-07-25T211725.png
 security:
 - kind: authentication
   name: Department Of Better Technology Authentication

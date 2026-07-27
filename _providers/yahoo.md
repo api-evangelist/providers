@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Fantasy Sports APIs provide URIs used to access fantasy sports data. Currently the APIs support retrieval of Fantasy Football, Baseball, Basketball, and Hockey data including game, league, team, a
@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: How to Structure Press Releases for Maximum AI Visibility
   url: https://finance.yahoo.com/news/structure-press-releases-maximum-ai-091000311.html
-random_paper: 34
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Yahoo Rate Limits
@@ -101,7 +101,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 19.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yahoo/refs/heads/main/screenshots/yahoo-2026-06-20T201726.png
 security:

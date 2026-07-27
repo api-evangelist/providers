@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -197,11 +197,11 @@ overview: 'Spade publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Spade''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, authentication, and 21 more developer resources.'
-random_paper: 15
+random_paper: 49
 score:
   band: developing
   composite: 58.9
-  delta: 3.4
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 69.0
@@ -209,14 +209,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 55.5
+  previous_composite: 58.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

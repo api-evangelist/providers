@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Map an IP to a country
@@ -54,7 +54,7 @@ name: IP 2 Country
 nav: Providers
 network: true
 overview: IP 2 Country publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 23
+random_paper: 57
 score:
   band: minimal
   composite: 6.8
@@ -68,7 +68,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ip-2-country/refs/heads/main/screenshots/ip-2-country-2026-06-20T183535.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Honeybook Plans Pricing
   plan_count: 4
   slug: honeybook-plans-pricing
-random_paper: 5
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Honeybook Rate Limits
@@ -148,24 +148,25 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: thin
-  composite: 38.7
-  delta: 1.7
+  composite: 41.4
+  delta: 2.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 53.1
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.0
+  previous_composite: 38.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/honeybook/refs/heads/main/screenshots/honeybook-2026-07-25T221358.png
 security:
 - kind: authentication
   name: Honeybook Authentication

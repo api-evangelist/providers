@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: The canonical RISC-V Instruction Set Architecture specifications including the Unprivileged ISA (RV32I/RV64I base integer instructions) and Privileged Architecture specification. Freely available as r
@@ -134,7 +134,7 @@ plans:
 - name: Risc V Plans Pricing
   plan_count: 3
   slug: risc-v-plans-pricing
-random_paper: 35
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Risc V Rate Limits
@@ -161,7 +161,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 39.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/risc-v/refs/heads/main/screenshots/risc-v-2026-06-20T193125.png
 security:

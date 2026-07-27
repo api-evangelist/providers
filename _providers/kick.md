@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Kick's programmatic surface — a hosted MCP server and CLI executing against the Kick REST API under the same auth, workspace, permission, and audit checks as the web app. No public OpenAPI is publishe
@@ -173,8 +173,9 @@ score:
     operational_transparency: 31.6
   previous_composite: 35.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kick/refs/heads/main/screenshots/kick-2026-07-25T223718.png
 security:
 - kind: authentication
   name: Kick Authentication

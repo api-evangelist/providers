@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -141,25 +141,25 @@ plans:
 - name: Cat Plans Pricing
   plan_count: 3
   slug: cat-plans-pricing
-random_paper: 6
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Cat Rate Limits
   slug: cat-rate-limits
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 41.5
+  delta: 2.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 43.4
     developer_ergonomics: 8.7
-    discoverability: 60.0
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 47.4
   previous_composite: 39.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cat/refs/heads/main/screenshots/cat-2026-06-20T174039.png
 security:

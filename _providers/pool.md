@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Pool.com offers Web3 domain registration and distribution services with partner integration available to ICANN-accredited registrars through their API.
@@ -104,7 +104,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 20.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pool/refs/heads/main/screenshots/pool-2026-06-20T191917.png
 security:

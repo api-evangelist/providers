@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 7
 common:
@@ -85,7 +85,7 @@ overview: 'Blue River Technology is profiled on the [APIs.io](https://apis.io/) 
 
 
   Blue River Technology''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 8
+random_paper: 42
 score:
   band: minimal
   composite: 9.3
@@ -99,8 +99,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/blue-river-technology/refs/heads/main/screenshots/blue-river-technology-2026-07-25T203435.png
 security:
 - kind: domain-security
   name: Blue River Technology Domain Security

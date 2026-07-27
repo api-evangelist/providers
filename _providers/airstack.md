@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ rules:
 score:
   band: thin
   composite: 36.2
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 49.4
@@ -188,14 +188,14 @@ score:
     discoverability: 100.0
     governance: 86.8
     operational_transparency: 5.3
-  previous_composite: 36.1
+  previous_composite: 36.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airstack/refs/heads/main/screenshots/airstack-2026-06-20T171431.png
 security:

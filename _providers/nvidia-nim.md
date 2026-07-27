@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 82.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -92,7 +92,7 @@ arazzos:
 - description: Transcribe an audio clip with Riva ASR, answer the transcript with an LLM, then synthesize the reply with Riva TTS.
   name: NVIDIA NIM Voice Assistant Loop
   slug: nvidia-nim-voice-assistant-loop-workflow
-artifact_total: 92
+artifact_total: 93
 collections:
 - collection_type: postman
   name: NVIDIA NIM Biology (BioNeMo) API
@@ -495,6 +495,10 @@ jsonld:
   property_count: 10
   slug: nvidia-nim-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: nvidia-nim-mcp.yml
+  slug: nvidia-nim-mcpyml
 modified: '2026-06-20'
 name: NVIDIA NIM
 nav: Providers
@@ -510,7 +514,7 @@ plans:
 - name: Nvidia Nim Plans Pricing
   plan_count: 3
   slug: nvidia-nim-plans-pricing
-random_paper: 35
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Nvidia Nim Rate Limits
@@ -526,18 +530,18 @@ rules:
   slug: nvidia-nim-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 70.1
-  delta: 0.0
+  composite: 73.4
+  delta: 3.3
   facets:
     commercial_clarity: 78.9
-    contract_quality: 69.5
+    contract_quality: 74.8
     developer_ergonomics: 82.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 70.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nvidia-nim/refs/heads/main/screenshots/nvidia-nim-2026-06-20T190540.png
 security:

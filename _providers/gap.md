@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,7 +74,7 @@ press:
 - date: '2026-05-25'
   title: Inspectorio's AI Platform Will Enable Greater Traceability in ...
   url: https://www.businesswire.com/news/home/20260409206762/en/Inspectorios-AI-Platform-Will-Enable-Greater-Traceability-in-Gap-Inc.-Global-Supply-Chain
-random_paper: 6
+random_paper: 40
 score:
   band: minimal
   composite: 6.2
@@ -88,7 +88,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

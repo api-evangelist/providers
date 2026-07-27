@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 47.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ overview: 'Vimeo publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Vimeo''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 8 more developer resources.'
-random_paper: 34
+random_paper: 0
 scopes:
 - name: Vimeo Scopes
   scope_count: 6
@@ -136,18 +136,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 31.1
-  delta: 0.0
+  composite: 34.3
+  delta: 3.2
   facets:
     commercial_clarity: 10.5
     contract_quality: 61.9
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 31.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vimeo/refs/heads/main/screenshots/vimeo-2026-06-20T201045.png
 security:

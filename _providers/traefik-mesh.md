@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 31.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ overview: 'Traefik Mesh publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Traefik Mesh''s developer surface includes documentation, engineering blog, release notes, changelog, and 15 more developer resources.'
-random_paper: 43
+random_paper: 60
 rules:
 - name: Traefik Mesh API Rules
   rule_count: 5
@@ -209,20 +209,20 @@ rules:
     warn: 7
   slug: traefik-mesh-rules
 score:
-  band: thin
-  composite: 41.8
-  delta: 0.0
+  band: developing
+  composite: 47.3
+  delta: 5.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 58.7
+    contract_quality: 67.6
     developer_ergonomics: 15.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 21.1
   previous_composite: 41.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/traefik-mesh/refs/heads/main/screenshots/traefik-mesh-2026-06-20T195533.png
 security:
 - kind: domain-security

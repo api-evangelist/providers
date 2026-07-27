@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: HTTPS REST access to OneTick Cloud market data and analytics queries, authenticated with an OAuth2 client-credentials Bearer token issued by the OneTick Keycloak realm (https://cloud-auth.parent.oneti
@@ -149,7 +149,7 @@ overview: 'OneTick (OneMarketData) publishes 5 APIs on the [APIs.io](https://api
 
 
   OneTick (OneMarketData)''s developer surface includes authentication, changelog, getting-started guide, API reference, developer portal, documentation, engineering blog, and 16 more developer resources.'
-random_paper: 35
+random_paper: 1
 scopes:
 - name: Onetick Scopes
   scope_count: 28
@@ -158,7 +158,7 @@ scopes:
 score:
   band: thin
   composite: 39.0
-  delta: 6.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -166,15 +166,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 32.5
+  previous_composite: 39.0
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onetick/refs/heads/main/screenshots/onetick-2026-07-22T202525.png
 security:
 - kind: authentication

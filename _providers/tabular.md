@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -46,7 +46,7 @@ name: Tabular
 nav: Providers
 network: true
 overview: Tabular is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Data Platform, Apache Iceberg, and Data Lakehouse.
-random_paper: 33
+random_paper: 67
 score:
   band: minimal
   composite: 7.4
@@ -60,7 +60,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: tabular
 tags:

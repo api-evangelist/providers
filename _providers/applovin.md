@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -288,7 +288,7 @@ plans:
 - name: Applovin Plans Pricing
   plan_count: 1
   slug: applovin-plans-pricing
-random_paper: 6
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Applovin Rate Limits
@@ -323,7 +323,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 60.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/screenshots/applovin-2026-06-20T172326.png
 security:

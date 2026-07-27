@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Multifamily Database is a Ginnie Mae database that contains information about Ginnie Maes multifamily mortgage-backed securities at the security and loan level.
@@ -63,7 +63,7 @@ plans:
 - name: Ginnie Mae Plans Pricing
   plan_count: 3
   slug: ginnie-mae-plans-pricing
-random_paper: 17
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Ginnie Mae Rate Limits
@@ -81,7 +81,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 18.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ginnie-mae/refs/heads/main/screenshots/ginnie-mae-2026-06-20T181827.png
 security:

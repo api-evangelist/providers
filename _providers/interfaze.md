@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ overview: 'Interfaze publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Interfaze''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 20 more developer resources.'
-random_paper: 50
+random_paper: 16
 score:
   band: developing
   composite: 51.5
@@ -179,8 +179,9 @@ score:
     operational_transparency: 36.8
   previous_composite: 51.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/interfaze/refs/heads/main/screenshots/interfaze-2026-07-25T222700.png
 security:
 - kind: authentication
   name: Interfaze Authentication

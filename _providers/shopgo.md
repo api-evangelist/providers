@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Obtain and test API keys
@@ -145,7 +145,7 @@ random_paper: 44
 score:
   band: thin
   composite: 38.1
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 66.5
@@ -153,14 +153,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 38.3
+  previous_composite: 38.1
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

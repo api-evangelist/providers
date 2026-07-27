@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 74.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ arazzos:
 - description: Find an organization, list its folders, then list the projects directly under it.
   name: Google Cloud Platform Walk Resource Hierarchy
   slug: google-cloud-platform-walk-resource-hierarchy-workflow
-artifact_total: 185
+artifact_total: 186
 collections:
 - collection_type: postman
   name: Google Cloud Platform Google Cloud Resource Manager API
@@ -825,6 +825,10 @@ jsonld:
   property_count: 22
   slug: google-cloud-platform-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: google-cloud-platform-mcp.yml
+  slug: google-cloud-platform-mcpyml
 modified: '2026-06-20'
 name: Google Cloud Platform
 nav: Providers
@@ -840,7 +844,7 @@ plans:
 - name: Google Cloud Platform Plans Pricing
   plan_count: 5
   slug: google-cloud-platform-plans-pricing
-random_paper: 40
+random_paper: 23
 rate_limits:
 - limit_count: 7
   name: Google Cloud Platform Rate Limits
@@ -869,18 +873,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 76.6
-  delta: 0.0
+  composite: 80.4
+  delta: 3.8
   facets:
     commercial_clarity: 100.0
-    contract_quality: 70.2
+    contract_quality: 75.5
     developer_ergonomics: 78.3
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 78.9
   previous_composite: 76.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-platform/refs/heads/main/screenshots/google-cloud-platform-2026-06-20T182128.png
 security:

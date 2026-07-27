@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -98,7 +98,7 @@ arazzos:
 - description: Run an SPL search, wait for it to finish, then pull the untransformed events.
   name: Splunk Search and Retrieve Raw Events
   slug: splunk-search-events-workflow
-artifact_total: 175
+artifact_total: 176
 collections:
 - collection_type: postman
   name: Splunk Enterprise REST API
@@ -699,6 +699,10 @@ jsonld:
   property_count: 0
   slug: splunk-enterprise-rest-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Splunk
 nav: Providers
@@ -714,7 +718,7 @@ plans:
 - name: Splunk Plans Pricing
   plan_count: 3
   slug: splunk-plans-pricing
-random_paper: 6
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Splunk Rate Limits
@@ -738,18 +742,18 @@ rules:
   slug: splunk-spectral-rules
 score:
   band: exemplar
-  composite: 71.5
-  delta: 0.0
+  composite: 75.7
+  delta: 4.2
   facets:
     commercial_clarity: 78.9
-    contract_quality: 70.8
+    contract_quality: 79.6
     developer_ergonomics: 73.9
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 71.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splunk/refs/heads/main/screenshots/splunk-2026-06-20T194332.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: FHFA provides housing finance data datasets including house price indexes and other housing market statistics.
@@ -70,7 +70,7 @@ plans:
 - name: Federal Housing Finance Agency Plans Pricing
   plan_count: 3
   slug: federal-housing-finance-agency-plans-pricing
-random_paper: 20
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Federal Housing Finance Agency Rate Limits
@@ -88,7 +88,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 20.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/federal-housing-finance-agency/refs/heads/main/screenshots/federal-housing-finance-agency-2026-06-20T181116.png
 security:

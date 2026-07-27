@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ overview: 'Ship24 publishes 3 APIs on the [APIs.io](https://apis.io/) network: â
 
 
   Ship24''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, signup flow, status page, and 15 more developer resources.'
-random_paper: 28
+random_paper: 62
 rules:
 - name: Ship24 API Rules
   rule_count: 5
@@ -214,19 +214,19 @@ rules:
   slug: ship24-rules
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 55.3
+  delta: 5.5
   facets:
     commercial_clarity: 44.7
-    contract_quality: 63.1
+    contract_quality: 72.0
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 13.2
   previous_composite: 49.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ship24/refs/heads/main/screenshots/ship24-2026-06-20T193813.png
 security:
 - kind: authentication

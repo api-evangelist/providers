@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -105,7 +105,7 @@ press:
 - date: '2026-05-25'
   title: Textron Systems Collaborates with Kodiak to Develop ...
   url: https://www.prnewswire.com/news-releases/textron-systems-collaborates-with-kodiak-to-develop-uncrewed-military-vehicle-302149440.html
-random_paper: 23
+random_paper: 40
 score:
   band: minimal
   composite: 12.1
@@ -119,7 +119,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/textron/refs/heads/main/screenshots/textron-2026-06-20T195209.png
 security:

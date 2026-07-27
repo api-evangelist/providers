@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -54,7 +54,7 @@ name: Caba
 nav: Providers
 network: true
 overview: Caba is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Furniture, Home Goods, Home Furnishings, and Direct-to-Consumer.
-random_paper: 34
+random_paper: 51
 score:
   band: minimal
   composite: 8.9
@@ -68,7 +68,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

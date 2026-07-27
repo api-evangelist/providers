@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -237,7 +237,7 @@ plans:
 - name: Openmercantil Plans Pricing
   plan_count: 3
   slug: openmercantil-plans-pricing
-random_paper: 16
+random_paper: 33
 rate_limits:
 - limit_count: 3
   name: Openmercantil Rate Limits
@@ -261,23 +261,23 @@ rules:
   slug: openmercantil-rules
 score:
   band: developing
-  composite: 53.2
-  delta: -1.3
+  composite: 56.0
+  delta: 2.8
   facets:
     commercial_clarity: 60.5
     contract_quality: 65.5
     developer_ergonomics: 23.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
-  previous_composite: 54.5
+  previous_composite: 53.2
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/screenshots/openmercantil-2026-06-20T191016.png
 security:

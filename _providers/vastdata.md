@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: medium
-  generated: '2026-07-22'
   label: Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: unknown
   public: false
@@ -11,17 +9,543 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 54.8
+  scored_at: '2026-07-27'
 api_count: 126
-artifact_total: 0
+apis:
+- description: Active Directory is supported as an external authorization and authentication provider. Active Directory may store and provide user and group attributes used by both NFS and SMB protocols. Active Dire
+  name: VAST Data activedirectory API
+  slug: vastdata-activedirectory-api
+- description: Alarms can be raised by events.
+  name: VAST Data alarms API
+  slug: vastdata-alarms-api
+- description: API tokens are tokens created by VMS that enable VMS users to securely authenticate REST API requests.
+  name: VAST Data apitokens API
+  slug: vastdata-apitokens-api
+- description: This endpoint provides basic settings for users that do not have permissions to access any security realm."
+  name: VAST Data basicsettings API
+  slug: vastdata-basicsettings-api
+- description: BGP Configs are Border Gateway Protocol (BGP) configurations. You can configure a virtual IP pool to use layer 3 connectivity, instead of the default layer 2 connectivity, by attaching a BGP configura
+  name: VAST Data bgpconfigs API
+  slug: vastdata-bgpconfigs-api
+- description: The Blob Expansions API from VAST Data — 5 operation(s) for blob expansions.
+  name: VAST Data Blob Expansions API
+  slug: vastdata-blob-expansions-api
+- description: The Block Hosts API from VAST Data — 1 operation(s) for block hosts.
+  name: VAST Data Block Hosts API
+  slug: vastdata-block-hosts-api
+- description: Block Hosts are block storage client hosts. They must be added to VMS in order to enable block storage volumes to be made available to them.
+  name: VAST Data blockhosts API
+  slug: vastdata-blockhosts-api
+- description: Block Mappings are mappings of Blockhosts to Volumes. They make block storage volumes available to block storage hosts.
+  name: VAST Data blockmappings API
+  slug: vastdata-blockmappings-api
+- description: The callhomeconfigs path provides access to the cluster's Call Home configuration. Call Home is a service that sends non-sensitive data from your VAST Cluster to our central support server to enable u
+  name: VAST Data callhomeconfigs API
+  slug: vastdata-callhomeconfigs-api
+- description: This endpoint enables you to query capacity details of any path on any tenant and its direct child paths."
+  name: VAST Data capacity API
+  slug: vastdata-capacity-api
+- description: Carriers represent DBox slots that house SSDs and NVRAMs.
+  name: VAST Data carriers API
+  slug: vastdata-carriers-api
+- description: A CBox is a server chassis containing four CNodes. The cboxes path represents the CBoxes in the cluster, exposes information about the cBoxes and maintenance operations.
+  name: VAST Data cboxes API
+  slug: vastdata-cboxes-api
+- description: The Certificates API from VAST Data — 3 operation(s) for certificates.
+  name: VAST Data Certificates API
+  slug: vastdata-certificates-api
+- description: Challenge tokens are used to unlock the cluster's indestructibility mechanism.
+  name: VAST Data challengetokens API
+  slug: vastdata-challengetokens-api
+- description: VMS manages configuration of a single VAST cluster. The clusters path provides access to many configurations and settings that apply to the cluster.
+  name: VAST Data clusters API
+  slug: vastdata-clusters-api
+- description: CNode groups are groups of CNodes that managed applications can run on. See also Managed Applications.
+  name: VAST Data cnodegroups API
+  slug: vastdata-cnodegroups-api
+- description: The Cnodes API from VAST Data — 8 operation(s) for cnodes.
+  name: VAST Data Cnodes API
+  slug: vastdata-cnodes-api
+- description: The columns endpoint enables you to manage the columns in tables in a schema in a VAST database.
+  name: VAST Data columns API
+  slug: vastdata-columns-api
+- description: The Compute Clusters API from VAST Data — 23 operation(s) for compute clusters.
+  name: VAST Data Compute Clusters API
+  slug: vastdata-compute-clusters-api
+- description: The config API from VAST Data — 3 operation(s) for config.
+  name: VAST Data config API
+  slug: vastdata-config-api
+- description: The dataspace API from VAST Data — 2 operation(s) for dataspace.
+  name: VAST Data dataspace API
+  slug: vastdata-dataspace-api
+- description: A DBox is an NVMe-oF JBOF, otherwise known as a VAST enclosure, or an enclosure containing NVMe-oF controller cards and flash SSDs. The dboxes path represents the DBoxes in the cluster, exposes inform
+  name: VAST Data dboxes API
+  slug: vastdata-dboxes-api
+- description: The delta API from VAST Data — 2 operation(s) for delta.
+  name: VAST Data delta API
+  slug: vastdata-delta-api
+- description: A DNode is an NVMe-oF controller card in a DBox. The dnodes path represents the DNodes in the cluster, exposes information about the DNodes and maintenance operations.
+  name: VAST Data dnodes API
+  slug: vastdata-dnodes-api
+- description: The DNS path represents a VAST Cluster DNS service. You can create one VAST Cluster DNS service per cluster. The VAST Cluster DNS service can distribute incoming DNS requests to specific VIP pools, ac
+  name: VAST Data dns API
+  slug: vastdata-dns-api
+- description: A DTray is a component of the CERES DBox. It is a canister that has two DNodes installed within. The DTray is a component of the CERES DBox. There are two Dtrays in each CERES DBox.
+  name: VAST Data dtrays API
+  slug: vastdata-dtrays-api
+- description: An EBox is a VAST enclosure that contains a server and SSDs. The server runs a CNode and two DNodes in containers.
+  name: VAST Data eboxes API
+  slug: vastdata-eboxes-api
+- description: An encrypted path is a path that is encrypted with a dedicated encryption group which is a subgroup of the encryption group of the tenant on which the path resides. Encrypted paths can be created on a
+  name: VAST Data encryptedpaths API
+  slug: vastdata-encryptedpaths-api
+- description: When data encryption is enabled on a VAST cluster with keys managed by an external key manager, each tenant must belong to an encryption group. Multiple tenants can belong to the same encryption group
+  name: VAST Data encryptiongroups API
+  slug: vastdata-encryptiongroups-api
+- description: The envs API from VAST Data — 2 operation(s) for envs.
+  name: VAST Data envs API
+  slug: vastdata-envs-api
+- description: The eventdefinitionconfigs path exposes event definition configurations that affect event definitions and quotas. These include default actions that apply globally to event definitions and are overrid
+  name: VAST Data eventdefinitionconfigs API
+  slug: vastdata-eventdefinitionconfigs-api
+- description: Event definitions define the conditions that trigger events, the raising of alarms, alarm severity, and which actions are triggered on events, such as email notifications, webhooks and sending to sysl
+  name: VAST Data eventdefinitions API
+  slug: vastdata-eventdefinitions-api
+- description: VMS logs system driven events, such as changes to object states and properties, and user driven events, such as the creation, modification or deletion of any object in the system.
+  name: VAST Data events API
+  slug: vastdata-events-api
+- description: Fans represent fans on the CBoxes and DBoxes
+  name: VAST Data fans API
+  slug: vastdata-fans-api
+- description: The filesystem API from VAST Data — 1 operation(s) for filesystem.
+  name: VAST Data filesystem API
+  slug: vastdata-filesystem-api
+- description: The folders endpoint enables the ability to manage directories and to set and get a directory's owner user and group attributes.
+  name: VAST Data folders API
+  slug: vastdata-folders-api
+- description: 'Global snapshot streams create instantly writable directories cloned from snapshots. Clones can be created from any snapshot residing on the cluster itself or on a cluster that has a replication peer '
+  name: VAST Data globalsnapstreams API
+  slug: vastdata-globalsnapstreams-api
+- description: 'Groups are user groups that can be authorized to access any data on the cluster via any supported client protocol. The groups path provides: management of groups on the cluster''s local provider, query'
+  name: VAST Data groups API
+  slug: vastdata-groups-api
+- description: The Health API from VAST Data — 1 operation(s) for health.
+  name: VAST Data Health API
+  slug: vastdata-health-api
+- description: Hosts are network discoverable CNodes and DNodes that can be included in a new cluster configuration.
+  name: VAST Data hosts API
+  slug: vastdata-hosts-api
+- description: The iamroles API from VAST Data — 4 operation(s) for iamroles.
+  name: VAST Data iamroles API
+  slug: vastdata-iamroles-api
+- description: 'VAST Cluster enables you to create and maintain immutable backups using a feature called Indestructibility. Snapshots and protection policies can be flagged indestructible and they are then protected '
+  name: VAST Data indestructibility API
+  slug: vastdata-indestructibility-api
+- description: The injections API from VAST Data — 1 operation(s) for injections.
+  name: VAST Data injections API
+  slug: vastdata-injections-api
+- description: The iodata path provides data flow analytics.
+  name: VAST Data iodata API
+  slug: vastdata-iodata-api
+- description: The issues API from VAST Data — 2 operation(s) for issues.
+  name: VAST Data issues API
+  slug: vastdata-issues-api
+- description: Kafka Broker is the VAST Event Broker. Event publishing is available for S3 bucket views. In the context of event publishing, an event is a change that has occurred for an element in VAST Element Stor
+  name: VAST Data kafkabroker API
+  slug: vastdata-kafkabroker-api
+- description: The Kerberos API from VAST Data — 4 operation(s) for kerberos.
+  name: VAST Data Kerberos API
+  slug: vastdata-kerberos-api
+- description: Lightweight Directory Access Protocol (LDAP)-based directory servers may store and provide POSIX user and group attributes, as used by the NFS client access protocol. Up to two LDAP configurations are
+  name: VAST Data ldaps API
+  slug: vastdata-ldaps-api
+- description: A license entitles the VAST Cluster operator to an amount of storage capacity for a given period from a given start time. Licenses can be aggregated to increase the licensed capacity. Operating a VAST
+  name: VAST Data licenses API
+  slug: vastdata-licenses-api
+- description: Local Providers are providers configured on the cluster, to which you can add users for authorizing access to the cluster or tenants of the cluster.
+  name: VAST Data localproviders API
+  slug: vastdata-localproviders-api
+- description: Local S3 Keys are S3 access keys created for and owned by users on local providers.
+  name: VAST Data locals3keys API
+  slug: vastdata-locals3keys-api
+- description: NLMv4 locks help NFSv3 clients protect NFS files from data consistency conflicts. NFS client applications can acquire read or write NLM locks on byte ranges or on whole files. VAST Cluster uses NSM to
+  name: VAST Data locks API
+  slug: vastdata-locks-api
+- description: The login path is used to log into VMS.
+  name: VAST Data login API
+  slug: vastdata-login-api
+- description: The logout path is used to log out of VMS.
+  name: VAST Data logout API
+  slug: vastdata-logout-api
+- description: Managed applications is a feature that enables you to run 3D applications on CNodes by distributing an image across a group of CNodes.
+  name: VAST Data managedapplications API
+  slug: vastdata-managedapplications-api
+- description: VAST Management System (VMS) users are called managers. A manager has login credentials and must be assigned at least one role in order to have any VMS permissions. A manager can have multiple roles.
+  name: VAST Data managers API
+  slug: vastdata-managers-api
+- description: Metrics available to be included in analytics reports (using the /monitors/ endpoint) can be listed using either the /metrics/ endpoint or the /analytics/ endpoint.
+  name: VAST Data metrics API
+  slug: vastdata-metrics-api
+- description: The modules API from VAST Data — 2 operation(s) for modules.
+  name: VAST Data modules API
+  slug: vastdata-modules-api
+- description: Monitors are analytics reports that can provide insight into capacity utilization and cluster performance. Top performer analytics are performance metrics of the n most active client users, views, cli
+  name: VAST Data monitors API
+  slug: vastdata-monitors-api
+- description: A replication peer is a remote cluster configured as a peer for async replication. A replication peer also represents a configured and mirrored async replication relationship between two clusters.
+  name: VAST Data nativereplicationremotetargets API
+  slug: vastdata-nativereplicationremotetargets-api
+- description: The nicports API from VAST Data — 3 operation(s) for nicports.
+  name: VAST Data nicports API
+  slug: vastdata-nicports-api
+- description: NICs represent interfaces on Network Interface Cards (NICs) in the CNodes and DNodes.
+  name: VAST Data nics API
+  slug: vastdata-nics-api
+- description: NIS is a supported external authorization provider. NIS can be used for authorizing user access to files and directories via NFS. NIS netgroups can be used to specify NFS hosts in view policies when c
+  name: VAST Data nis API
+  slug: vastdata-nis-api
+- description: NVRAMs represent flash SSDs resident in DBoxes that are deployed as SCM devices, formerly known as NVRAM devices.
+  name: VAST Data nvrams API
+  slug: vastdata-nvrams-api
+- description: Object permissions reflect the access types, permission realms and managers associated with each object type. They can be listed but not modified.
+  name: VAST Data objectpermissions API
+  slug: vastdata-objectpermissions-api
+- description: The oidcs API from VAST Data — 3 operation(s) for oidcs.
+  name: VAST Data oidcs API
+  slug: vastdata-oidcs-api
+- description: The openfilehandles API from VAST Data — 2 operation(s) for openfilehandles.
+  name: VAST Data openfilehandles API
+  slug: vastdata-openfilehandles-api
+- description: The openfiles API from VAST Data — 3 operation(s) for openfiles.
+  name: VAST Data openfiles API
+  slug: vastdata-openfiles-api
+- description: The openfilesqueries API from VAST Data — 2 operation(s) for openfilesqueries.
+  name: VAST Data openfilesqueries API
+  slug: vastdata-openfilesqueries-api
+- description: The permissions endpoint returns permissions that can be assigned to VMS managers and roles. VMS Each permission enables a type of permission, such as create or read permission, on a realm. Each realm
+  name: VAST Data permissions API
+  slug: vastdata-permissions-api
+- description: Ports represent switch ports.
+  name: VAST Data ports API
+  slug: vastdata-ports-api
+- description: Projection columns are columns that are included in a projection, either as the columns used to sort the projection or as additional columns included in a projection.
+  name: VAST Data projectioncolumns API
+  slug: vastdata-projectioncolumns-api
+- description: Projections are subsets of a full table in the VAST Database that allow for optimized queries that use only the columns included in the projection.
+  name: VAST Data projections API
+  slug: vastdata-projections-api
+- description: prometheusmetrics is VAST's Prometheus exporter resource. Prometheus is an open-source systems monitoring and alerting toolkit that provides a data model for describing and recording metrics over time
+  name: VAST Data prometheusmetrics API
+  slug: vastdata-prometheusmetrics-api
+- description: A protected path is a data path in the Element Store (file/object system) that is protected by snapshots which may be replicated to an S3 replication peer or to an async replication peer. Scheduling a
+  name: VAST Data protectedpaths API
+  slug: vastdata-protectedpaths-api
+- description: A protection policy is a reusable configuration that defines a schedule for taking snapshots and optionally replicating them to a specified async replication peer or S3 replication peer. It defines ho
+  name: VAST Data protectionpolicies API
+  slug: vastdata-protectionpolicies-api
+- description: PSUs represent power supply units on the CBoxes and DBoxes.
+  name: VAST Data psus API
+  slug: vastdata-psus-api
+- description: The QoS Policies API from VAST Data — 1 operation(s) for qos policies.
+  name: VAST Data QoS Policies API
+  slug: vastdata-qos-policies-api
+- description: Quality of Service policies enable you to define quality of service per view. Quality of service policies can set maximum limits on read and write bandwidth and IOPS per view.
+  name: VAST Data qospolicies API
+  slug: vastdata-qospolicies-api
+- description: QuotaEntityInfo objects contain details of all users and groups that wrote to quota directories. Provides VAST-internal ID from the VAST Cluster user database and email address.
+  name: VAST Data quotaentityinfos API
+  slug: vastdata-quotaentityinfos-api
+- description: The quotagroups API from VAST Data — 5 operation(s) for quotagroups.
+  name: VAST Data quotagroups API
+  slug: vastdata-quotagroups-api
+- description: A quota limits the amount of storage and/or the number of files or objects and directories that can be contained in a specified directory. A quota can include default limits on usage per user and grou
+  name: VAST Data quotas API
+  slug: vastdata-quotas-api
+- description: The Racks API from VAST Data — 6 operation(s) for racks.
+  name: VAST Data Racks API
+  slug: vastdata-racks-api
+- description: Realms are user defined customized permission realms for VMS manager users. They define sets of object types and can be granted to managers and roles for VMS permissions.
+  name: VAST Data realms API
+  slug: vastdata-realms-api
+- description: The replicationpolicies API from VAST Data — 2 operation(s) for replicationpolicies.
+  name: VAST Data replicationpolicies API
+  slug: vastdata-replicationpolicies-api
+- description: A replication restore point is a location to which a snapshot was replicated and from which files can be restored.A restore point may reside on an S3 replication peer or on an async replication peer.
+  name: VAST Data replicationrestorepoints API
+  slug: vastdata-replicationrestorepoints-api
+- description: This path enables you to manage replication streams. Note that for the general case, replication streams belong to protected paths and are managed as part of protected path management. However, for th
+  name: VAST Data replicationstreams API
+  slug: vastdata-replicationstreams-api
+- description: 'An S3 replication peer represents a specific S3 destination to which snapshots can be replicated or were replicated. S3 replication peers can be configured in order to enable replication of data to a '
+  name: VAST Data replicationtargets API
+  slug: vastdata-replicationtargets-api
+- description: Roles are sets of VMS permissions. They can specify one or more LDAP groups. Mapping roles to LDAP groups gives LDAP group members the ability to log into VMS and be authorized with the aggregate of p
+  name: VAST Data roles API
+  slug: vastdata-roles-api
+- description: The s3keys endpoint enables users to manage their own S3 access key pairs.
+  name: VAST Data S3 Keys API
+  slug: vastdata-s3-keys-api
+- description: 'An S3 Lifecycle configuration is a set of rules that define actions that an S3 service applies to a group of objects. VAST Cluster supports S3 Lifecycle configurations that define expiration actions. '
+  name: VAST Data s3lifecyclerules API
+  slug: vastdata-s3lifecyclerules-api
+- description: Identity policies comprise statements that grant or deny permissions for any combination of specific actions on any combination of specified resources. They are the primary access control method avail
+  name: VAST Data s3policies API
+  slug: vastdata-s3policies-api
+- description: The schemas endpoint enables you to manage the schemas in a VAST database.
+  name: VAST Data schemas API
+  slug: vastdata-schemas-api
+- description: The settingsdiff API from VAST Data — 1 operation(s) for settingsdiff.
+  name: VAST Data settingsdiff API
+  slug: vastdata-settingsdiff-api
+- description: The snapshotpolicies API from VAST Data — 2 operation(s) for snapshotpolicies.
+  name: VAST Data snapshotpolicies API
+  slug: vastdata-snapshotpolicies-api
+- description: A snapshot is an image of the data existing at a point in time under a specific Element Store path. Snapshots can be created on a one off basis or scheduled using a protected path. Scheduled snapshots
+  name: VAST Data snapshots API
+  slug: vastdata-snapshots-api
+- description: SSDs represent flash SSDs resident in the cluster's DBoxes.
+  name: VAST Data ssds API
+  slug: vastdata-ssds-api
+- description: The subnetmanager monitors an OpenSM service. Clusters operating in larger IB networks must have an OpenSM service configured on some of the CNodes in the cluster. The OpenSM services running on those
+  name: VAST Data subnetmanager API
+  slug: vastdata-subnetmanager-api
+- description: The Support Bundles API from VAST Data — 2 operation(s) for support bundles.
+  name: VAST Data Support Bundles API
+  slug: vastdata-support-bundles-api
+- description: A support bundle is a compressed file consisting of logs that are extracted from the VAST Cluster. Support bundles can be sent to VAST Support for troubleshooting purposes. They can also be downloaded
+  name: VAST Data supportbundles API
+  slug: vastdata-supportbundles-api
+- description: The supporteddrives API from VAST Data — 2 operation(s) for supporteddrives.
+  name: VAST Data supporteddrives API
+  slug: vastdata-supporteddrives-api
+- description: Switches represent switches in the cluster.
+  name: VAST Data switches API
+  slug: vastdata-switches-api
+- description: With VAST Database you can store, access and manage tabular data on a VAST cluster. The tables endpoint enables you to interface with the VAST Database tables. You can create tables, filter data, perf
+  name: VAST Data tables API
+  slug: vastdata-tables-api
+- description: The Tenants API from VAST Data — 21 operation(s) for tenants.
+  name: VAST Data Tenants API
+  slug: vastdata-tenants-api
+- description: The tlscertificates API from VAST Data — 4 operation(s) for tlscertificates.
+  name: VAST Data tlscertificates API
+  slug: vastdata-tlscertificates-api
+- description: Tokens are JSON Web Tokens (JWTs), which can be used instead of Apitokens to authenticate requests to the VMS REST API.
+  name: VAST Data token API
+  slug: vastdata-token-api
+- description: Topics store categories of events collected by VAST Event Broker.
+  name: VAST Data topics API
+  slug: vastdata-topics-api
+- description: A userquota object defines a user or group quota. A user or group quota limits the capacity and number of files or directories that a specified user or group can own within a directory. A userquota ob
+  name: VAST Data userquotas API
+  slug: vastdata-userquotas-api
+- description: Users who can be authorized to access any data on the cluster via any supported client protocol can be created on a local provider. They are more typically stored on external authorization providers (
+  name: VAST Data users API
+  slug: vastdata-users-api
+- description: 'The VAST audit log is a database that can store VAST cluster protocol audits. If protocol auditing is enabled and configured to be logged to VAST audit log, the endpoint can be used to query the VAST '
+  name: VAST Data vastauditlog API
+  slug: vastdata-vastauditlog-api
+- description: The bigcatalogconfig endpoint enables you to manage the configuration of VAST Catalog and to query the VAST Catalog. VAST Catalog is a database that indexes metadata attributes of all data on the clus
+  name: VAST Data vastcatalogconfig API
+  slug: vastdata-vastcatalogconfig-api
+- description: The bigcatalogindexedcolumns endpoint enables you to add columns to the VAST Catalog table for S3 tags and S3 metadata attributes.
+  name: VAST Data vastcatalogindexedcolumns API
+  slug: vastdata-vastcatalogindexedcolumns-api
+- description: The vastdb API from VAST Data — 1 operation(s) for vastdb.
+  name: VAST Data vastdb API
+  slug: vastdata-vastdb-api
+- description: The cluster platform and VMS software is installed and upgraded via packages that have a version number per release and a software build number. The versions path exposes the cluster's version history
+  name: VAST Data versions API
+  slug: vastdata-versions-api
+- description: A view policy specifies view configuration parameters. A view policy can be used by multiple views. Every view is attached to one view policy.
+  name: VAST Data viewpolicies API
+  slug: vastdata-viewpolicies-api
+- description: The Views API from VAST Data — 10 operation(s) for views.
+  name: VAST Data Views API
+  slug: vastdata-views-api
+- description: 'A VIP pool is a pool of virtual IP operations (VIPs). VAST Cluster listens on VIPs for requests from data traffic. Each VIP pool is dedicated to one of two roles: PROTOCOLS or REPLICATION. Protocols V'
+  name: VAST Data vippools API
+  slug: vastdata-vippools-api
+- description: A VIP is a virtual IP address that belongs to a VIP pool.
+  name: VAST Data vips API
+  slug: vastdata-vips-api
+- description: Virtual machines can include EBox hosts and virtual machine hosts that comprise VAST on Cloud (VoC) clusters. Each virtual machine runs CNodes and DNodes in containers. Both EBoxes and GCP VoC virtual
+  name: VAST Data vm API
+  slug: vastdata-vm-api
+- description: The VMS path represents VMS settings, such as the management VIP used to access the VMS interfaces, login banner text for the VMS CLI and Web UI, access token lifetimes for the REST API and more.
+  name: VAST Data vms API
+  slug: vastdata-vms-api
+- description: The Volumes API from VAST Data — 7 operation(s) for volumes.
+  name: VAST Data Volumes API
+  slug: vastdata-volumes-api
+- description: The vpntunnels API from VAST Data — 3 operation(s) for vpntunnels.
+  name: VAST Data vpntunnels API
+  slug: vastdata-vpntunnels-api
+- description: The vsettings API from VAST Data — 1 operation(s) for vsettings.
+  name: VAST Data vsettings API
+  slug: vastdata-vsettings-api
+- description: The vtasks API from VAST Data — 3 operation(s) for vtasks.
+  name: VAST Data vtasks API
+  slug: vastdata-vtasks-api
+- description: Webhooks send event information to external applications. Once defined, you can set them to be triggered by specific events.
+  name: VAST Data webhooks API
+  slug: vastdata-webhooks-api
+artifact_total: 129
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://vastdata.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.vastdata.com/platform/developers
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://support.vastdata.com/s/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://github.com/vast-data/cosmos-labs
+- group: operate
+  title: ''
+  type: Support
+  url: https://community.vastdata.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.vastdata.com/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/vast-data
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.vastdata.com/legal/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.vastdata.com/legal/privacy-policy
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/vastdata-authentication.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/vastdata-domain-security.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/vastdata-packages.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/vastdata-packages.yml
+- group: build
+  title: ''
+  type: CLI
+  url: cli/vastdata-cli.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/vastdata-mcp.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/vastdata-llms.txt
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/vastdata-well-known.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/vastdata-problem-types.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/vastdata-conformance.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/vastdata-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/vastdata-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/vastdata-data-model.yml
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/vastdata-vms-overlay.yaml
 created: '2026-07-17'
 description: VAST Data is an enterprise AI infrastructure company building a unified data platform for AI. Its VAST AI Operating System combines the VAST DataStore (all-flash file, object, and block storage over NFS, SMB, S3, and CSI), VAST DataBase (structured data, vectors, and streams), VAST DataSpace (a global namespace across on-prem, cloud, and edge), and VAST DataEngine (serverless functions, event triggers, and a Kafka-compatible broker). Everything is managed through the VAST Management System (VMS) REST API — an OpenAPI-documented surface with 770+ operations — plus official Python and Go SDKs, a Terraform provider, the vastde DataEngine CLI, an official MCP server for cluster administration, and published agent skills.
 image: https://github.com/vast-data.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: vastdata-mcp.yml
+  slug: vastdata-mcpyml
 modified: '2026-07-21'
 name: VAST Data
 nav: Providers
 network: true
+overview: 'VAST Data publishes 126 APIs on the [APIs.io](https://apis.io/) network, including activedirectory API, alarms API, apitokens API, and 123 more. Tagged areas include Company, Infrastructure, Storage, Data, and AI.
+
+
+  VAST Data''s developer surface includes documentation, getting-started guide, support, engineering blog, authentication, CLI, and 18 more developer resources.'
 random_paper: 40
+score:
+  band: thin
+  composite: 38.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 48.5
+    developer_ergonomics: 73.9
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 38.6
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+security:
+- kind: authentication
+  name: Vastdata Authentication
+  slug: vastdata-authentication
+  summary_line: apiKey/http · 2 schemes
+- kind: domain-security
+  name: Vastdata Domain Security
+  slug: vastdata-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: vastdata
 tags:
 - Company
@@ -32,4 +556,5 @@ tags:
 - Database
 - Kubernetes
 - HPC
+website: https://vastdata.com
 ---

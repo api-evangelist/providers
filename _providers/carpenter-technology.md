@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -101,11 +101,11 @@ press:
 - date: '2026-05-25'
   title: A Look At Carpenter Technology (CRS) Valuation After ...
   url: https://finance.yahoo.com/news/look-carpenter-technology-crs-valuation-151330338.html
-random_paper: 2
+random_paper: 53
 score:
   band: minimal
   composite: 10.3
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -113,14 +113,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.8
+  previous_composite: 10.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carpenter-technology/refs/heads/main/screenshots/carpenter-technology-2026-06-20T174016.png
 security:

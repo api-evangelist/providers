@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Generate PDF documents from templates with a drop-and-drop editor and a simple API
@@ -61,7 +61,7 @@ overview: 'CraftMyPDF publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   CraftMyPDF''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 1
+random_paper: 52
 score:
   band: minimal
   composite: 7.2
@@ -75,7 +75,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/craftmypdf/refs/heads/main/screenshots/craftmypdf-2026-06-20T175209.png
 security:

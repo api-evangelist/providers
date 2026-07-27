@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 45.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Scalable virtual servers in the cloud.
@@ -180,7 +180,7 @@ plans:
 - name: Aws Plans Pricing
   plan_count: 3
   slug: aws-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Aws Rate Limits
@@ -198,7 +198,7 @@ score:
     operational_transparency: 57.9
   previous_composite: 54.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws/refs/heads/main/screenshots/aws-2026-06-20T172738.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 70.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -100,7 +100,7 @@ apis:
 - description: Endpoints for managing the currently authenticated user profile.
   name: Supabase User Management API
   slug: supabase-user-management-api
-artifact_total: 63
+artifact_total: 64
 asyncapis:
 - description: 'The Supabase Realtime API enables real-time communication over WebSocket connections using the Phoenix Channel protocol (v2). It supports three main features: Postgres Changes for subscribing to INSER'
   name: Supabase Realtime API
@@ -238,6 +238,10 @@ jsonld:
   property_count: 9
   slug: supabase-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Supabase
 nav: Providers
@@ -285,18 +289,18 @@ rules:
   slug: supabase-rules
 score:
   band: developing
-  composite: 57.0
-  delta: 0.0
+  composite: 59.0
+  delta: 2.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 74.4
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 52.6
     operational_transparency: 52.6
   previous_composite: 57.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/supabase/refs/heads/main/screenshots/supabase-2026-06-20T194707.png
 security:

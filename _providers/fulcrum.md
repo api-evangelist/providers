@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -172,25 +172,25 @@ plans:
 - name: Fulcrum Plans Pricing
   plan_count: 3
   slug: fulcrum-plans-pricing
-random_paper: 1
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Fulcrum Rate Limits
   slug: fulcrum-rate-limits
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 53.5
+  delta: 3.2
   facets:
     commercial_clarity: 92.1
     contract_quality: 51.7
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 50.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fulcrum/refs/heads/main/screenshots/fulcrum-2026-06-20T181606.png
 security:

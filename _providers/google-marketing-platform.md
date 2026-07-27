@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -225,7 +225,7 @@ plans:
 - name: Google Marketing Platform Plans Pricing
   plan_count: 3
   slug: google-marketing-platform-plans-pricing
-random_paper: 8
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Google Marketing Platform Rate Limits
@@ -254,18 +254,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.2
-  delta: 0.0
+  composite: 65.8
+  delta: 4.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 64.6
+    contract_quality: 69.9
     developer_ergonomics: 45.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 61.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-marketing-platform/refs/heads/main/screenshots/google-marketing-platform-2026-06-20T182213.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ overview: 'Bloxtel, Inc. is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Bloxtel, Inc.''s developer surface includes getting-started guide, support, pricing, and 4 more developer resources.'
-random_paper: 50
+random_paper: 33
 score:
   band: minimal
   composite: 14.0
@@ -83,8 +83,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bloxtel-inc/refs/heads/main/screenshots/bloxtel-inc-2026-07-25T203423.png
 security:
 - kind: domain-security
   name: Bloxtel Inc Domain Security

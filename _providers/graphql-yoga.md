@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'GraphQL Yoga is a self-hosted GraphQL server library — each deployment exposes its own GraphQL endpoint (default: /graphql). The library handles request parsing, execution, subscriptions, file uploads'
@@ -95,7 +95,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphql-yoga/refs/heads/main/screenshots/graphql-yoga-2026-06-20T182340.png
 security:

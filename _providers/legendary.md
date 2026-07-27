@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 43
 apis:
 - description: The block-directory API from Legendary Entertainment — 1 operation(s) for block-directory.
@@ -240,7 +240,7 @@ overview: 'Legendary Entertainment publishes 43 APIs on the [APIs.io](https://ap
 
 
   Legendary Entertainment''s developer surface includes engineering blog, authentication, and 14 more developer resources.'
-random_paper: 37
+random_paper: 3
 score:
   band: thin
   composite: 34.3
@@ -254,8 +254,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 34.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/legendary/refs/heads/main/screenshots/legendary-2026-07-25T224830.png
 security:
 - kind: authentication
   name: Legendary Authentication

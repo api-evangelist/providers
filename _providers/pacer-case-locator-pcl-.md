@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The PACER Case Locator (PCL) API allows users to programmatically search the nationwide index of federal court cases for U.S. district, bankruptcy, and appellate courts.
@@ -74,7 +74,7 @@ plans:
 - name: Pacer Case Locator Pcl  Plans Pricing
   plan_count: 3
   slug: pacer-case-locator-pcl--plans-pricing
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Pacer Case Locator Pcl  Rate Limits
@@ -82,7 +82,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.7
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -90,14 +90,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 20.9
+  previous_composite: 19.7
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pacer-case-locator-pcl-/refs/heads/main/screenshots/pacer-case-locator-pcl--2026-06-20T191307.png
 security:

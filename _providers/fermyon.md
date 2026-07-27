@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -152,25 +152,25 @@ plans:
 - name: Fermyon Plans Pricing
   plan_count: 3
   slug: fermyon-plans-pricing
-random_paper: 3
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Fermyon Rate Limits
   slug: fermyon-rate-limits
 score:
   band: thin
-  composite: 36.2
-  delta: 0.0
+  composite: 38.2
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 38.9
     developer_ergonomics: 41.3
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 36.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fermyon/refs/heads/main/screenshots/fermyon-2026-06-20T181140.png
 security:

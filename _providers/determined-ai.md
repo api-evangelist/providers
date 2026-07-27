@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -119,26 +119,27 @@ plans:
 - name: Determined Ai Plans Pricing
   plan_count: 3
   slug: determined-ai-plans-pricing
-random_paper: 29
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Determined Ai Rate Limits
   slug: determined-ai-rate-limits
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 36.5
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 49.6
     developer_ergonomics: 19.6
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 34.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/determined-ai/refs/heads/main/screenshots/determined-ai-2026-07-25T211812.png
 security:
 - kind: authentication
   name: Determined Ai Authentication

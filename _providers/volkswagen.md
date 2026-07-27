@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ plans:
 - name: Volkswagen Plans Pricing
   plan_count: 3
   slug: volkswagen-plans-pricing
-random_paper: 18
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Volkswagen Rate Limits
@@ -201,18 +201,18 @@ rules:
   slug: volkswagen-rules
 score:
   band: developing
-  composite: 54.9
-  delta: 0.0
+  composite: 59.4
+  delta: 4.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.8
+    contract_quality: 76.1
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 54.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volkswagen/refs/heads/main/screenshots/volkswagen-2026-06-20T201131.png
 security:

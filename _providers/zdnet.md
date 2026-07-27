@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ plans:
 - name: Zdnet Plans Pricing
   plan_count: 3
   slug: zdnet-plans-pricing
-random_paper: 39
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Zdnet Rate Limits
@@ -215,18 +215,18 @@ rules:
   slug: zdnet-rules
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 50.8
+  delta: 4.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 56.6
+    contract_quality: 61.9
     developer_ergonomics: 0.0
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 46.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zdnet/refs/heads/main/screenshots/zdnet-2026-06-20T201804.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 45.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -238,18 +238,18 @@ rules:
   slug: disney-rules
 score:
   band: thin
-  composite: 40.5
-  delta: 0.0
+  composite: 43.8
+  delta: 3.3
   facets:
     commercial_clarity: 0.0
     contract_quality: 61.9
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 47.4
   previous_composite: 40.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/screenshots/disney-2026-06-20T180046.png
 security:

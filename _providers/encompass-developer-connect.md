@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ plans:
 - name: Encompass Developer Connect Plans Pricing
   plan_count: 3
   slug: encompass-developer-connect-plans-pricing
-random_paper: 17
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Encompass Developer Connect Rate Limits
@@ -135,19 +135,19 @@ scopes:
   slug: encompass-developer-connect-scopes
   summary_line: 2 scopes · password/clientCredentials
 score:
-  band: thin
-  composite: 44.9
-  delta: 0.0
+  band: developing
+  composite: 48.2
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 59.3
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 44.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/encompass-developer-connect/refs/heads/main/screenshots/encompass-developer-connect-2026-06-20T180652.png
 security:

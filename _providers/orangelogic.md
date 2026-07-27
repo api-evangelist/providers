@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: Authenticate against an Orange Logic instance and obtain tokens for subsequent calls. Supports OAuth 2.0 (client ID and secret), non-expiring bearer tokens, and basic username/password login. The OAut
@@ -104,7 +104,7 @@ plans:
 - name: Orangelogic Plans Pricing
   plan_count: 1
   slug: orangelogic-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Orangelogic Rate Limits
@@ -122,7 +122,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 23.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

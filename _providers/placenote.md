@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -50,7 +50,7 @@ name: Placenote
 nav: Providers
 network: true
 overview: Placenote is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Augmented Reality, Spatial Computing, SDK, and Mobile.
-random_paper: 37
+random_paper: 3
 score:
   band: minimal
   composite: 8.7
@@ -64,7 +64,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 8.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: placenote
 tags:

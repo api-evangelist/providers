@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 5
 common:
@@ -118,7 +118,7 @@ overview: 'Pointfive is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Pointfive''s developer surface includes documentation, authentication, engineering blog, support, and 14 more developer resources.'
-random_paper: 11
+random_paper: 28
 scopes:
 - name: Pointfive Scopes
   scope_count: 2
@@ -137,7 +137,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 25.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -109,7 +109,7 @@ overview: 'Flick is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Flick''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, YouTube channel, and 10 more developer resources.'
-random_paper: 11
+random_paper: 45
 score:
   band: emerging
   composite: 20.9
@@ -123,8 +123,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 20.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/flick/refs/heads/main/screenshots/flick-2026-07-25T214754.png
 security:
 - kind: domain-security
   name: Flick Domain Security

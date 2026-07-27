@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -85,7 +85,7 @@ overview: 'Innertrends is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Innertrends'' developer surface includes engineering blog, pricing, support, and 8 more developer resources.'
-random_paper: 23
+random_paper: 40
 score:
   band: emerging
   composite: 18.9
@@ -99,8 +99,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/innertrends/refs/heads/main/screenshots/innertrends-2026-07-25T222456.png
 security:
 - kind: domain-security
   name: Innertrends Domain Security

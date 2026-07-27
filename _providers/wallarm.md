@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ plans:
 - name: Wallarm Plans Pricing
   plan_count: 3
   slug: wallarm-plans-pricing
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Wallarm Rate Limits
@@ -223,19 +223,19 @@ rules:
   slug: wallarm-rules
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 57.9
+  delta: 5.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.5
+    contract_quality: 77.4
     developer_ergonomics: 41.3
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 52.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/wallarm/refs/heads/main/screenshots/wallarm-2026-06-20T201213.png
 security:
 - kind: authentication

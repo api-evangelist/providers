@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 80.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ arazzos:
 - description: Answer a question with the built-in web search tool and return citations.
   name: ChatGPT Web Search Grounded Answer
   slug: chatgpt-web-search-answer-workflow
-artifact_total: 158
+artifact_total: 159
 collections:
 - collection_type: postman
   name: ChatGPT Chat Completions API
@@ -666,6 +666,10 @@ jsonld:
   property_count: 0
   slug: chatgpt-responses-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: chatgpt-mcp.yml
+  slug: chatgpt-mcpyml
 modified: '2026-06-20'
 name: ChatGPT
 nav: Providers
@@ -681,7 +685,7 @@ plans:
 - name: Chatgpt Plans Pricing
   plan_count: 7
   slug: chatgpt-plans-pricing
-random_paper: 33
+random_paper: 67
 rate_limits:
 - limit_count: 6
   name: Chatgpt Rate Limits
@@ -704,20 +708,20 @@ rules:
     warn: 8
   slug: chatgpt-spectral-rules
 score:
-  band: strong
-  composite: 69.8
-  delta: 0.0
+  band: exemplar
+  composite: 75.9
+  delta: 6.1
   facets:
     commercial_clarity: 92.1
-    contract_quality: 52.8
+    contract_quality: 64.2
     developer_ergonomics: 71.7
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 78.9
   previous_composite: 69.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatgpt/refs/heads/main/screenshots/chatgpt-2026-06-20T174235.png
 security:
 - kind: authentication

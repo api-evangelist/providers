@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: Banking Account Balance endpoints
@@ -159,7 +159,7 @@ random_paper: 8
 score:
   band: thin
   composite: 39.6
-  delta: 2.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 55.8
@@ -167,14 +167,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 37.0
+  previous_composite: 39.6
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mystate-bank/refs/heads/main/screenshots/mystate-bank-2026-07-21T130910.png
 security:

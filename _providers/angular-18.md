@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: Core Angular 18 framework APIs featuring experimental zoneless change detection, stable deferrable views and built-in control flow, stable Material 3 components, functional route redirects, improved S
@@ -128,7 +128,7 @@ plans:
 - name: Angular 18 Plans Pricing
   plan_count: 3
   slug: angular-18-plans-pricing
-random_paper: 29
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Angular 18 Rate Limits
@@ -146,7 +146,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 26.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angular-18/refs/heads/main/screenshots/angular-18-2026-06-20T171957.png
 security:

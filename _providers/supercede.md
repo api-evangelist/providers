@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,11 +81,11 @@ overview: 'Supercede is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Supercede''s developer surface includes engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: emerging
   composite: 22.9
-  delta: 5.2
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -93,15 +93,15 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.7
+  previous_composite: 22.9
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 52.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: domain-security
   name: Supercede Domain Security

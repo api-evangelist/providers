@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: US Foods MOXe is a comprehensive foodservice eCommerce platform enabling restaurants, healthcare facilities, and institutional customers to place orders, manage inventory, track deliveries, and pay in
@@ -87,7 +105,7 @@ press:
 - date: '2026-05-25'
   title: US Foods Reports First Quarter Fiscal Year 2026 Earnings
   url: https://ir.usfoods.com/newsroom/news/news-details/2026/US-Foods-Reports-First-Quarter-Fiscal-Year-2026-Earnings/default.aspx
-random_paper: 60
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Us Foods Rate Limits
@@ -101,6 +119,21 @@ rules:
     info: 2
     warn: 3
   slug: us-foods-jsonschema-spectral-rules
+score:
+  band: emerging
+  composite: 29.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 15.1
+    developer_ergonomics: 0.0
+    discoverability: 80.0
+    governance: 73.7
+    operational_transparency: 21.1
+  previous_composite: 29.1
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: domain-security
   name: Us Foods Domain Security

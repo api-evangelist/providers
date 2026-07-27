@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 45.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ plans:
 - name: Thesportsdb Plans Pricing
   plan_count: 3
   slug: thesportsdb-plans-pricing
-random_paper: 29
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Thesportsdb Rate Limits
@@ -155,24 +155,24 @@ rules:
     warn: 5
   slug: thesportsdb-rules
 score:
-  band: thin
-  composite: 42.0
-  delta: -3.2
+  band: developing
+  composite: 45.9
+  delta: 3.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 54.9
+    contract_quality: 60.2
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 31.6
-  previous_composite: 45.2
+  previous_composite: 42.0
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thesportsdb/refs/heads/main/screenshots/thesportsdb-2026-06-20T195300.png
 security:

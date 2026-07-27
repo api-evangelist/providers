@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Gated integration API for embedding Ambience''s ambient AI clinical documentation into EHR and partner workflows — medical encounter transcription, clinical note generation, integrated CDI with ICD-10 '
@@ -97,7 +97,7 @@ random_paper: 4
 score:
   band: emerging
   composite: 23.3
-  delta: 3.2
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -105,15 +105,16 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.1
+  previous_composite: 23.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ambience/refs/heads/main/screenshots/ambience-2026-07-25T200021.png
 security:
 - kind: domain-security
   name: Ambience Domain Security

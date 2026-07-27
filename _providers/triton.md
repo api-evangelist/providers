@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ plans:
 - name: Triton Plans Pricing
   plan_count: 2
   slug: triton-plans-pricing
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Triton Rate Limits
@@ -246,18 +246,18 @@ rules:
   slug: triton-rules
 score:
   band: developing
-  composite: 45.8
-  delta: 0.0
+  composite: 47.8
+  delta: 2.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 56.7
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 45.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triton/refs/heads/main/screenshots/triton-2026-06-20T195735.png
 slug: triton

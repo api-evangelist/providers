@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: Real-time freight and shipment visibility. Lets a shipper, broker, or 3PL create, update, monitor, and stop tracking sessions on loads directly from a TMS or ERP and receive location, order-status, tr
@@ -105,7 +105,7 @@ plans:
 - name: Descartes Plans Pricing
   plan_count: 4
   slug: descartes-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 4
   name: Descartes Rate Limits
@@ -123,8 +123,9 @@ score:
     operational_transparency: 31.6
   previous_composite: 25.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/descartes/refs/heads/main/screenshots/descartes-2026-07-25T211743.png
 security:
 - kind: domain-security
   name: Descartes Domain Security

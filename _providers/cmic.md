@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -189,18 +189,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 58.2
+  delta: 4.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.6
+    contract_quality: 72.9
     developer_ergonomics: 41.3
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 53.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cmic/refs/heads/main/screenshots/cmic-2026-06-20T174629.png
 security:

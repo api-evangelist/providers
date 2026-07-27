@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: AK Steel Holding Corporation investor relations portal providing access to financial reports, SEC filings, news releases, and shareholder information. Following acquisition by Cleveland-Cliffs in 2020
@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: AK Steel Holding (AKS,N) reports earnings for 3d qtr to Sept 30
   url: https://www.nytimes.com/1995/10/12/business/ak-steel-holding-aksn-reports-earnings-for-3d-qtr-to-sept-30.html
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Ak Steel Holding Rate Limits
@@ -106,7 +106,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 16.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ak-steel-holding/refs/heads/main/screenshots/ak-steel-holding-2026-06-20T171441.png
 security:

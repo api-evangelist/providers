@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -137,19 +137,19 @@ scopes:
   slug: accelo-scopes
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
-  band: emerging
-  composite: 28.2
-  delta: 0.0
+  band: thin
+  composite: 31.5
+  delta: 3.3
   facets:
     commercial_clarity: 23.7
     contract_quality: 43.4
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 28.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accelo/refs/heads/main/screenshots/accelo-2026-06-20T163557.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +65,7 @@ press:
 - date: '2026-05-25'
   title: Grainger expands AI in sales, marketing, and KeepStock ...
   url: https://www.digitalcommerce360.com/2026/02/04/grainger-ai-sales-marketing-keepstock-tools/
-random_paper: 8
+random_paper: 42
 score:
   band: minimal
   composite: 4.2
@@ -79,7 +79,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 4.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ww-grainger/refs/heads/main/screenshots/ww-grainger-2026-06-20T201645.png
 security:

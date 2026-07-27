@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 3
@@ -773,7 +773,7 @@ plans:
 - name: Ispring Plans Pricing
   plan_count: 3
   slug: ispring-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Ispring Rate Limits
@@ -800,7 +800,7 @@ score:
     operational_transparency: 55.3
   previous_composite: 59.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ispring/refs/heads/main/screenshots/ispring-2026-06-20T183622.png
 security:

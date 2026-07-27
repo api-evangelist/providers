@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ plans:
 - name: Trainingpeaks Plans Pricing
   plan_count: 6
   slug: trainingpeaks-plans-pricing
-random_paper: 15
+random_paper: 32
 rate_limits:
 - limit_count: 4
   name: Trainingpeaks Rate Limits
@@ -153,23 +153,23 @@ scopes:
   summary_line: 17 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.9
-  delta: 1.4
+  composite: 42.6
+  delta: 2.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.8
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 38.5
+  previous_composite: 39.9
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -119,18 +119,18 @@ overview: 'Ceph publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 random_paper: 8
 score:
   band: emerging
-  composite: 25.5
-  delta: 0.0
+  composite: 28.8
+  delta: 3.3
   facets:
     commercial_clarity: 0.0
     contract_quality: 54.9
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 25.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ceph/refs/heads/main/screenshots/ceph-2026-06-20T174133.png
 security:

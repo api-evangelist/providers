@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: 'Core Angular 20 framework APIs with all fundamental reactivity primitives graduated to stable: signal, effect, linkedSignal, signal-based queries, and signal inputs. Zoneless change detection reaches '
@@ -128,7 +128,7 @@ plans:
 - name: Angular 20 Plans Pricing
   plan_count: 3
   slug: angular-20-plans-pricing
-random_paper: 22
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Angular 20 Rate Limits
@@ -146,7 +146,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 26.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angular-20/refs/heads/main/screenshots/angular-20-2026-06-20T171958.png
 security:

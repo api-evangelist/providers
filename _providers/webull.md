@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 51.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: 'Order management across stocks, options, futures, crypto, and event contracts — place, preview, replace, cancel, batch (combo OTO/OCO/OTOCO), and algo (TWAP/VWAP/POV) orders, plus accounts, balances, '
@@ -163,7 +163,7 @@ random_paper: 39
 score:
   band: thin
   composite: 35.7
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 22.6
@@ -171,14 +171,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 35.5
+  previous_composite: 35.7
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

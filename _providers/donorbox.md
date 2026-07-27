@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -136,31 +136,32 @@ plans:
 - name: Donorbox Plans Pricing
   plan_count: 4
   slug: donorbox-plans-pricing
-random_paper: 8
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Donorbox Rate Limits
   slug: donorbox-rate-limits
 score:
   band: thin
-  composite: 40.3
-  delta: 1.7
+  composite: 43.1
+  delta: 2.8
   facets:
     commercial_clarity: 47.4
     contract_quality: 58.4
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 38.6
+  previous_composite: 40.3
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 50.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/donorbox/refs/heads/main/screenshots/donorbox-2026-07-25T212301.png
 security:
 - kind: authentication
   name: Donorbox Authentication

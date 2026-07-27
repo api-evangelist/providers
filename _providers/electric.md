@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -99,8 +99,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/electric/refs/heads/main/screenshots/electric-2026-07-25T213101.png
 security:
 - kind: domain-security
   name: Electric Domain Security

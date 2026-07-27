@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -263,7 +263,7 @@ plans:
 - name: Bloomberg Lp Plans Pricing
   plan_count: 6
   slug: bloomberg-lp-plans-pricing
-random_paper: 45
+random_paper: 62
 rate_limits:
 - limit_count: 6
   name: Bloomberg Lp Rate Limits
@@ -287,23 +287,23 @@ rules:
   slug: openfigi-rules
 score:
   band: strong
-  composite: 61.5
-  delta: -1.3
+  composite: 64.4
+  delta: 2.9
   facets:
     commercial_clarity: 84.2
-    contract_quality: 68.1
+    contract_quality: 73.5
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 36.8
-  previous_composite: 62.8
+  previous_composite: 61.5
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-lp/refs/heads/main/screenshots/bloomberg-lp-2026-06-20T173441.png
 security:

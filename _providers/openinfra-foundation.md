@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -136,18 +136,18 @@ rate_limits:
   slug: openinfra-foundation-rate-limits
 score:
   band: thin
-  composite: 32.0
-  delta: 0.0
+  composite: 34.0
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 41.6
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 32.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openinfra-foundation/refs/heads/main/screenshots/openinfra-foundation-2026-06-20T191011.png
 security:

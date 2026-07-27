@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Aella's Fintech-as-a-Service API gateway for businesses, exposing wallet-as-a- service, KYC/identity verification (BVN, NIN), bank-account lookup and validation, sub-accounts/pooling, and direct-debit
@@ -70,11 +70,11 @@ overview: 'Aella Credit publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Aella Credit''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 18
+random_paper: 35
 score:
   band: minimal
   composite: 14.1
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -82,15 +82,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 14.3
+  previous_composite: 14.1
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aella-credit/refs/heads/main/screenshots/aella-credit-2026-07-25T181715.png
 security:
 - kind: domain-security
   name: Aella Credit Domain Security

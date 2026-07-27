@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 1
@@ -474,7 +474,7 @@ plans:
 - name: Lunchbox Plans Pricing
   plan_count: 2
   slug: lunchbox-plans-pricing
-random_paper: 0
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Lunchbox Rate Limits
@@ -498,18 +498,18 @@ rules:
   slug: lunchbox-spectral-rules
 score:
   band: developing
-  composite: 53.7
-  delta: 0.0
+  composite: 56.9
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 62.8
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 53.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lunchbox/refs/heads/main/screenshots/lunchbox-2026-06-20T184805.png
 security:

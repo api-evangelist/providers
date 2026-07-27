@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Create and manage pre-authorization orders.
@@ -157,11 +157,11 @@ overview: 'PreAuth (Instacash) publishes 1 API on the [APIs.io](https://apis.io/
 
 
   PreAuth (Instacash)''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 18 more developer resources.'
-random_paper: 30
+random_paper: 64
 score:
   band: developing
   composite: 49.6
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 72.6
@@ -169,14 +169,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 49.9
+  previous_composite: 49.6
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

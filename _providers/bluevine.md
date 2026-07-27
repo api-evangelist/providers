@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 5
 common:
@@ -120,11 +138,31 @@ plans:
 - name: Bluevine Plans Pricing
   plan_count: 3
   slug: bluevine-plans-pricing
-random_paper: 39
+random_paper: 42
 rate_limits:
 - limit_count: 0
   name: Bluevine Rate Limits
   slug: bluevine-rate-limits
+score:
+  band: thin
+  composite: 31.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 84.2
+    contract_quality: 9.4
+    developer_ergonomics: 15.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 31.4
+  regulatory:
+    applies: true
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 41.3
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bluevine/refs/heads/main/screenshots/bluevine-2026-06-20T173536.png
 security:
 - kind: domain-security

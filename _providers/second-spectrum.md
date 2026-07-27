@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Customer-facing platform delivering Second Spectrum tracking data, visualizations, and clips to club analysts and coaching staff. Access is gated by Auth0-backed login under the Genius Sports Performa
@@ -80,7 +80,7 @@ overview: 'Second Spectrum (Genius Sports) publishes 2 APIs on the [APIs.io](htt
 
 
   Second Spectrum (Genius Sports)''s developer surface includes developer portal and 7 more developer resources.'
-random_paper: 34
+random_paper: 0
 score:
   band: minimal
   composite: 11.0
@@ -94,7 +94,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/second-spectrum/refs/heads/main/screenshots/second-spectrum-2026-06-20T193622.png
 security:

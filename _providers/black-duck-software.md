@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 5
 common:
@@ -158,7 +158,7 @@ overview: 'Black Duck Software is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Black Duck Software''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 21 more developer resources.'
-random_paper: 10
+random_paper: 61
 score:
   band: thin
   composite: 36.1
@@ -172,8 +172,9 @@ score:
     operational_transparency: 55.3
   previous_composite: 36.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/black-duck-software/refs/heads/main/screenshots/black-duck-software-2026-07-25T203232.png
 security:
 - kind: authentication
   name: Black Duck Software Authentication

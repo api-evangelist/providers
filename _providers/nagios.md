@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -306,19 +306,19 @@ rules:
   slug: ncpa-rules
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 52.6
+  delta: 5.5
   facets:
     commercial_clarity: 42.1
-    contract_quality: 60.7
+    contract_quality: 69.6
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 5.3
   previous_composite: 47.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/nagios/refs/heads/main/screenshots/nagios-2026-06-20T185930.png
 security:
 - kind: authentication

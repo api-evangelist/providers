@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: 'Access to dealership customer and prospect records held in the Reynolds ERA-IGNITE / POWER DMS - contact details, ownership history, and marketing consent - read and (per certification scope) written '
@@ -89,7 +89,7 @@ plans:
 - name: Reynolds Reynolds Plans Pricing
   plan_count: 2
   slug: reynolds-reynolds-plans-pricing
-random_paper: 20
+random_paper: 37
 score:
   band: emerging
   composite: 17.3
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

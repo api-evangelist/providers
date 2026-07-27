@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 75.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -208,11 +208,11 @@ overview: 'TreasurySpring publishes 13 APIs on the [APIs.io](https://apis.io/) n
 
 
   TreasurySpring''s developer surface includes authentication, sandbox, getting-started guide, engineering blog, signup flow, support, and 21 more developer resources.'
-random_paper: 24
+random_paper: 58
 score:
   band: developing
   composite: 50.7
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 73.5
@@ -220,14 +220,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 50.0
+  previous_composite: 50.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

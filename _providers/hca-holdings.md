@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -90,11 +90,11 @@ press:
 - date: '2026-05-25'
   title: HCA HCA Healthcare, Inc. Stock Price & Overview
   url: https://seekingalpha.com/symbol/HCA
-random_paper: 28
+random_paper: 45
 score:
   band: minimal
   composite: 10.2
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -102,14 +102,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 7.4
+  previous_composite: 10.2
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hca-holdings/refs/heads/main/screenshots/hca-holdings-2026-06-20T182547.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ plans:
 - name: Apple Pay Plans Pricing
   plan_count: 2
   slug: apple-pay-plans-pricing
-random_paper: 38
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Apple Pay Rate Limits
@@ -215,24 +215,24 @@ rules:
     warn: 16
   slug: apple-pay-spectral-rules
 score:
-  band: developing
-  composite: 55.7
-  delta: 0.5
+  band: strong
+  composite: 60.4
+  delta: 4.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.1
+    contract_quality: 77.0
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 47.4
-  previous_composite: 55.2
+  previous_composite: 55.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple-pay/refs/heads/main/screenshots/apple-pay-2026-06-20T172320.png
 security:

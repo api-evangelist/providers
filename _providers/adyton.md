@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -82,7 +82,7 @@ random_paper: 43
 score:
   band: emerging
   composite: 22.5
-  delta: 5.9
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -90,15 +90,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.6
+  previous_composite: 22.5
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 56.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/adyton/refs/heads/main/screenshots/adyton-2026-07-25T181712.png
 security:
 - kind: authentication
   name: Adyton Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -286,7 +286,7 @@ rules:
 score:
   band: strong
   composite: 63.0
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 71.7
@@ -294,14 +294,14 @@ score:
     discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
-  previous_composite: 62.2
+  previous_composite: 63.0
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amtrust-financial-services/refs/heads/main/screenshots/amtrust-financial-services-2026-06-20T171943.png
 security:

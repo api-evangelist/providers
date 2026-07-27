@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,7 +93,7 @@ overview: 'Intrro is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Intrro''s developer surface includes documentation, support, changelog, engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 7
+random_paper: 58
 score:
   band: emerging
   composite: 22.1
@@ -107,8 +107,9 @@ score:
     operational_transparency: 26.3
   previous_composite: 22.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/intrro/refs/heads/main/screenshots/intrro-2026-07-25T222734.png
 security:
 - kind: domain-security
   name: Intrro Domain Security

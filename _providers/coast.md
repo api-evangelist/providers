@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Coast's stable v2 REST API for programmatic access to fleet and fuel expense data — cards, drivers, vehicles, transactions, receipts, and spending controls. The API reference is served via a gated (OI
@@ -105,11 +105,11 @@ overview: 'Coast publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Coast''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 28
+random_paper: 62
 score:
   band: emerging
   composite: 26.9
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -117,15 +117,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 26.3
+  previous_composite: 26.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/coast/refs/heads/main/screenshots/coast-2026-07-25T205831.png
 security:
 - kind: domain-security
   name: Coast Domain Security

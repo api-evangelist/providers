@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -82,7 +82,7 @@ press:
 - date: '2026-05-25'
   title: Caleres Q4 net sales rise 8.7% to USD 695.06 million, Brand ...
   url: https://www.sahmcapital.com/news/content/caleres-q4-net-sales-rise-87-to-usd-69506-million-brand-portfolio-sales-jump-203-to-usd-36125-million-2026-03-19
-random_paper: 21
+random_paper: 55
 score:
   band: minimal
   composite: 6.8
@@ -96,7 +96,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caleres/refs/heads/main/screenshots/caleres-2026-06-20T173844.png
 security:

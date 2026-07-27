@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Oomnitza is an enterprise technology management platform providing IT asset lifecycle management, SaaS management, and technology workflow automation.
@@ -78,7 +78,7 @@ plans:
 - name: Oomnitza Plans Pricing
   plan_count: 3
   slug: oomnitza-plans-pricing
-random_paper: 14
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Oomnitza Rate Limits
@@ -96,7 +96,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 20.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oomnitza/refs/heads/main/screenshots/oomnitza-2026-06-20T190735.png
 security:

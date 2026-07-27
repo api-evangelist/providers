@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 81.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -240,7 +240,7 @@ plans:
 - name: Kaleyra Plans Pricing
   plan_count: 2
   slug: kaleyra-plans-pricing
-random_paper: 31
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Kaleyra Rate Limits
@@ -258,8 +258,9 @@ score:
     operational_transparency: 86.8
   previous_composite: 67.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kaleyra/refs/heads/main/screenshots/kaleyra-2026-07-25T223430.png
 security:
 - kind: authentication
   name: Kaleyra Authentication

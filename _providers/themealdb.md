@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ plans:
 - name: Themealdb Plans Pricing
   plan_count: 1
   slug: themealdb-plans-pricing
-random_paper: 16
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Themealdb Rate Limits
@@ -201,19 +201,19 @@ rules:
     warn: 12
   slug: themealdb-spectral-rules
 score:
-  band: thin
-  composite: 42.5
-  delta: 0.0
+  band: developing
+  composite: 47.1
+  delta: 4.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.9
+    contract_quality: 67.3
     developer_ergonomics: 8.7
-    discoverability: 42.5
+    discoverability: 75.0
     governance: 86.8
     operational_transparency: 21.1
   previous_composite: 42.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/themealdb/refs/heads/main/screenshots/themealdb-2026-06-20T195246.png
 security:

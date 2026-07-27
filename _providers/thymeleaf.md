@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The core Thymeleaf template engine library providing HTML, XML, TEXT, JavaScript, and CSS template mode processing. Includes the Standard Dialect with th:text, th:each, th:if, th:unless, th:switch, th
@@ -124,7 +124,7 @@ plans:
 - name: Thymeleaf Plans Pricing
   plan_count: 3
   slug: thymeleaf-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Thymeleaf Rate Limits
@@ -151,7 +151,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 38.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thymeleaf/refs/heads/main/screenshots/thymeleaf-2026-06-20T195323.png
 security:

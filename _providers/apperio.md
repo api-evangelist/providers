@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ overview: 'Apperio publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Apperio''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 20 more developer resources.'
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Apperio Rate Limits
@@ -195,8 +195,9 @@ score:
     operational_transparency: 44.7
   previous_composite: 52.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/apperio/refs/heads/main/screenshots/apperio-2026-07-25T200728.png
 security:
 - kind: authentication
   name: Apperio Authentication

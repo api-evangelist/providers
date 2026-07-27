@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 43.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 52
 apis:
 - description: The Agent Documents API from Oper — 2 operation(s) for agent documents.
@@ -287,7 +287,7 @@ random_paper: 30
 score:
   band: thin
   composite: 44.5
-  delta: 4.4
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 40.0
@@ -295,14 +295,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 40.1
+  previous_composite: 44.5
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 69.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

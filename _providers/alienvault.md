@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 43.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Indicator of compromise detail lookups and submission
@@ -127,7 +127,7 @@ overview: 'AlienVault publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AlienVault''s developer surface includes documentation, API reference, signup flow, authentication, and 13 more developer resources.'
-random_paper: 6
+random_paper: 57
 score:
   band: thin
   composite: 39.3
@@ -141,8 +141,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 39.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alienvault/refs/heads/main/screenshots/alienvault-2026-07-25T195617.png
 security:
 - kind: authentication
   name: Alienvault Authentication

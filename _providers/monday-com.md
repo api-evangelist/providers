@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ plans:
 - name: Monday Com Plans Pricing
   plan_count: 5
   slug: monday-com-plans-pricing
-random_paper: 43
+random_paper: 60
 rate_limits:
 - limit_count: 3
   name: Monday Com Rate Limits
@@ -154,18 +154,18 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 49.4
+  delta: 3.2
   facets:
     commercial_clarity: 47.4
     contract_quality: 74.3
     developer_ergonomics: 13.0
-    discoverability: 35.0
+    discoverability: 67.5
     governance: 60.5
     operational_transparency: 36.8
   previous_composite: 46.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/screenshots/monday-com-2026-06-20T185722.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -180,18 +180,18 @@ rate_limits:
   slug: matomo-rate-limits
 score:
   band: developing
-  composite: 56.0
-  delta: 0.0
+  composite: 58.0
+  delta: 2.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 55.8
     developer_ergonomics: 50.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 56.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/matomo/refs/heads/main/screenshots/matomo-2026-06-20T185037.png
 security:

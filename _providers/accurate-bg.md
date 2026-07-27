@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ plans:
 - name: Accurate Bg Plans Pricing
   plan_count: 3
   slug: accurate-bg-plans-pricing
-random_paper: 15
+random_paper: 66
 rate_limits:
 - limit_count: 3
   name: Accurate Bg Rate Limits
@@ -160,8 +160,9 @@ score:
     operational_transparency: 31.6
   previous_composite: 42.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/accurate-bg/refs/heads/main/screenshots/accurate-bg-2026-07-25T181442.png
 security:
 - kind: authentication
   name: Accurate Bg Authentication

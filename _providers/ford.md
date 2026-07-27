@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -143,18 +143,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 33.5
-  delta: 0.0
+  composite: 35.5
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 47.8
     developer_ergonomics: 19.6
-    discoverability: 42.5
+    discoverability: 62.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 33.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ford/refs/heads/main/screenshots/ford-2026-06-20T181414.png
 security:

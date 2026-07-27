@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -174,18 +174,18 @@ rules:
   slug: amazon-vpn-spectral-rules
 score:
   band: developing
-  composite: 56.6
-  delta: 0.0
+  composite: 59.9
+  delta: 3.3
   facets:
     commercial_clarity: 81.6
     contract_quality: 64.6
     developer_ergonomics: 39.1
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 39.5
     operational_transparency: 52.6
   previous_composite: 56.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-vpn/refs/heads/main/screenshots/amazon-vpn-2026-06-20T171844.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -86,7 +86,7 @@ press:
 - date: '2026-05-25'
   title: Paper Excellence acquires Resolute Forest Products | Work
   url: https://www.torys.com/work/2022/07/296eef18-d4aa-4451-bd37-acae30a77034
-random_paper: 17
+random_paper: 0
 score:
   band: minimal
   composite: 12.1
@@ -100,7 +100,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/resolute-forest-products/refs/heads/main/screenshots/resolute-forest-products-2026-06-20T192958.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 5.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'RESTful v2 API for healthcare provider data management. Endpoints create, retrieve, and manage provider and facility profiles, run real-time primary source verification (PSV), retrieve CAQH data, and '
@@ -108,11 +108,11 @@ overview: 'Certifyos publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Certifyos'' developer surface includes documentation, API reference, support, engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 15
+random_paper: 32
 score:
   band: thin
   composite: 31.4
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 22.6
@@ -120,15 +120,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 31.6
+  previous_composite: 31.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/certifyos/refs/heads/main/screenshots/certifyos-2026-07-25T205001.png
 security:
 - kind: domain-security
   name: Certifyos Domain Security

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: CrossEngage REST API for managing users/customer profiles (User Management v1.0 and v2.0), product feeds, file attachments, data export, and campaign statistics. Served from api.crossengage.io.
@@ -135,8 +135,9 @@ score:
     operational_transparency: 26.3
   previous_composite: 28.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/crossenagage/refs/heads/main/screenshots/crossenagage-2026-07-25T210755.png
 security:
 - kind: domain-security
   name: Crossenagage Domain Security

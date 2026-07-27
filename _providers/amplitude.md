@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 70.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ arazzos:
 - description: Download flag configurations for local evaluation, then remotely evaluate variant assignments for a user.
   name: Amplitude Variant Evaluation
   slug: amplitude-variant-evaluation-workflow
-artifact_total: 514
+artifact_total: 515
 asyncapis:
 - description: 'AsyncAPI description of two outbound, push-style surfaces offered by Amplitude''s Data destination catalog: 1. Webhooks Streaming destination - a generic event/user forwarding destination that delivers'
   name: Amplitude Webhooks and Cohort Sync
@@ -1640,6 +1640,10 @@ jsonld:
   property_count: 12
   slug: amplitude-user-profile-api-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-30'
 name: Amplitude
 nav: Providers
@@ -1655,7 +1659,7 @@ plans:
 - name: Amplitude Plans Pricing
   plan_count: 4
   slug: amplitude-plans-pricing
-random_paper: 47
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Amplitude Rate Limits
@@ -1686,19 +1690,19 @@ rules:
     warn: 15
   slug: amplitude-spectral-rules
 score:
-  band: strong
-  composite: 69.2
-  delta: 0.0
+  band: exemplar
+  composite: 70.4
+  delta: 1.2
   facets:
     commercial_clarity: 78.9
     contract_quality: 75.4
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 65.8
     operational_transparency: 52.6
   previous_composite: 69.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amplitude/refs/heads/main/screenshots/amplitude-2026-06-20T171944.png
 security:

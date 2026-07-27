@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -295,18 +295,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.9
-  delta: 0.0
+  composite: 67.1
+  delta: 4.2
   facets:
     commercial_clarity: 92.1
-    contract_quality: 69.7
+    contract_quality: 78.5
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 62.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/choreo/refs/heads/main/screenshots/choreo-2026-06-20T174326.png
 security:

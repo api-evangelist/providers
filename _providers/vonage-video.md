@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 4
@@ -130,25 +130,25 @@ plans:
 - name: Vonage Video Plans Pricing
   plan_count: 3
   slug: vonage-video-plans-pricing
-random_paper: 47
+random_paper: 64
 rate_limits:
 - limit_count: 7
   name: Vonage Video Rate Limits
   slug: vonage-video-rate-limits
 score:
   band: thin
-  composite: 36.4
-  delta: 0.0
+  composite: 39.7
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 52.3
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 36.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vonage-video/refs/heads/main/screenshots/vonage-video-2026-06-20T201136.png
 security:

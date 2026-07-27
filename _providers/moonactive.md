@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -62,7 +62,7 @@ name: MoonActive
 nav: Providers
 network: true
 overview: MoonActive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Mobile Games, and Entertainment.
-random_paper: 6
+random_paper: 57
 score:
   band: minimal
   composite: 8.1
@@ -76,7 +76,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 8.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

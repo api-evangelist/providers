@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: GraphQL Code Generator generates typed code from GraphQL schemas and operations, supporting TypeScript, React Query, Apollo Client, and many other frameworks through its plugin system.
@@ -86,7 +86,7 @@ plans:
 - name: Graphql Codegen Plans Pricing
   plan_count: 3
   slug: graphql-codegen-plans-pricing
-random_paper: 42
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Graphql Codegen Rate Limits
@@ -104,7 +104,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 21.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphql-codegen/refs/heads/main/screenshots/graphql-codegen-2026-06-20T182333.png
 security:

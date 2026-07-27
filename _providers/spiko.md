@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -282,7 +282,7 @@ overview: 'Spiko publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Spiko''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 40
+random_paper: 6
 scopes:
 - name: Spiko Scopes
   scope_count: 3
@@ -291,7 +291,7 @@ scopes:
 score:
   band: developing
   composite: 58.4
-  delta: 5.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 61.1
@@ -299,15 +299,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 53.3
+  previous_composite: 58.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Spiko Authentication

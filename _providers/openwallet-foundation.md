@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -152,25 +152,25 @@ plans:
 - name: Openwallet Foundation Plans Pricing
   plan_count: 3
   slug: openwallet-foundation-plans-pricing
-random_paper: 14
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Openwallet Foundation Rate Limits
   slug: openwallet-foundation-rate-limits
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 43.6
+  delta: 2.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 55.9
     developer_ergonomics: 26.1
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 41.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openwallet-foundation/refs/heads/main/screenshots/openwallet-foundation-2026-06-20T191051.png
 security:

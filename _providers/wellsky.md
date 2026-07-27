@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Integration hub API for WellSky's CareTend home infusion and specialty pharmacy platform, providing programmatic access to patient management, billing authorizations, clinical visits, inventory, purch
@@ -95,7 +95,7 @@ plans:
 - name: Wellsky Plans Pricing
   plan_count: 4
   slug: wellsky-plans-pricing
-random_paper: 14
+random_paper: 31
 rate_limits:
 - limit_count: 4
   name: Wellsky Rate Limits
@@ -103,7 +103,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 15.1
@@ -111,14 +111,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 27.1
+  previous_composite: 26.6
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wellsky/refs/heads/main/screenshots/wellsky-2026-06-20T201350.png
 security:

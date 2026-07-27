@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 80.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 2
@@ -260,7 +260,7 @@ overview: 'Scott Ai publishes 30 APIs on the [APIs.io](https://apis.io/) network
 
 
   Scott Ai''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 22 more developer resources.'
-random_paper: 39
+random_paper: 56
 score:
   band: developing
   composite: 48.1
@@ -274,7 +274,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 48.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

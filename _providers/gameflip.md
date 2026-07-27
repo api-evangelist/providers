@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 33.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: Account and wallet service.
@@ -133,7 +133,7 @@ rate_limits:
 score:
   band: thin
   composite: 41.6
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 54.9
@@ -141,15 +141,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 41.3
+  previous_composite: 41.6
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gameflip/refs/heads/main/screenshots/gameflip-2026-07-25T215417.png
 security:
 - kind: authentication
   name: Gameflip Authentication

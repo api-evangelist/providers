@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 42.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ overview: 'Fixie publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Fixie''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 23
+random_paper: 57
 score:
   band: developing
   composite: 51.7
@@ -205,8 +205,9 @@ score:
     operational_transparency: 52.6
   previous_composite: 51.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fixie/refs/heads/main/screenshots/fixie-2026-07-25T214652.png
 security:
 - kind: authentication
   name: Fixie Authentication

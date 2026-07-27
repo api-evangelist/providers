@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -311,7 +311,7 @@ plans:
 - name: 7Shifts Plans Pricing
   plan_count: 4
   slug: 7shifts-plans-pricing
-random_paper: 49
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: 7Shifts Rate Limits
@@ -340,18 +340,18 @@ scopes:
   summary_line: 18 scopes · clientCredentials
 score:
   band: developing
-  composite: 55.2
-  delta: 0.0
+  composite: 58.4
+  delta: 3.2
   facets:
     commercial_clarity: 63.2
     contract_quality: 63.5
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 55.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/7shifts/refs/heads/main/screenshots/7shifts-2026-06-20T162818.png
 security:

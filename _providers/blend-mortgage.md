@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 1
@@ -141,31 +141,32 @@ plans:
 - name: Blend Mortgage Plans Pricing
   plan_count: 3
   slug: blend-mortgage-plans-pricing
-random_paper: 39
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Blend Mortgage Rate Limits
   slug: blend-mortgage-rate-limits
 score:
   band: thin
-  composite: 37.6
-  delta: -2.0
+  composite: 40.3
+  delta: 2.7
   facets:
     commercial_clarity: 52.6
     contract_quality: 50.3
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 39.6
+  previous_composite: 37.6
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/blend-mortgage/refs/heads/main/screenshots/blend-mortgage-2026-07-25T203309.png
 security:
 - kind: authentication
   name: Blend Mortgage Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 70.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 3
@@ -272,7 +272,7 @@ arazzos:
 - description: Generate a vulnerability report and poll until it completes.
   name: JFrog Xray Vulnerability Report
   slug: jfrog-xray-vulnerability-report-workflow
-artifact_total: 229
+artifact_total: 230
 collections:
 - collection_type: postman
   name: JFrog Access REST API
@@ -1003,6 +1003,10 @@ jsonld:
   property_count: 13
   slug: jfrog-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: JFrog
 nav: Providers
@@ -1018,7 +1022,7 @@ plans:
 - name: Jfrog Plans Pricing
   plan_count: 8
   slug: jfrog-plans-pricing
-random_paper: 26
+random_paper: 60
 rate_limits:
 - limit_count: 3
   name: Jfrog Rate Limits
@@ -1034,18 +1038,18 @@ rules:
   slug: jfrog-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 75.1
-  delta: 0.0
+  composite: 77.6
+  delta: 2.5
   facets:
     commercial_clarity: 84.2
     contract_quality: 66.8
     developer_ergonomics: 80.4
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 76.3
   previous_composite: 75.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jfrog/refs/heads/main/screenshots/jfrog-2026-06-20T183730.png
 security:

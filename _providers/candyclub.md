@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Agent-facing commerce surface for the CandyClub Shopify storefront: a Universal Commerce Protocol (UCP) MCP endpoint plus read-only storefront browsing, governed by an llms.txt agent guide and Shopify'
@@ -94,7 +94,7 @@ overview: 'CandyClub publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   CandyClub''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 31
+random_paper: 65
 scopes:
 - name: Candyclub Scopes
   scope_count: 4
@@ -113,7 +113,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 20.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

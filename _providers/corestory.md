@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 6
@@ -299,7 +299,7 @@ overview: 'CoreStory publishes 47 APIs on the [APIs.io](https://apis.io/) networ
 
 
   CoreStory''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 19 more developer resources.'
-random_paper: 33
+random_paper: 50
 scopes:
 - name: Corestory Scopes
   scope_count: 7
@@ -318,8 +318,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 45.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/corestory/refs/heads/main/screenshots/corestory-2026-07-25T210432.png
 security:
 - kind: authentication
   name: Corestory Authentication

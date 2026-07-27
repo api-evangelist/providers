@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ plans:
 - name: Salesforce Automation System Plans Pricing
   plan_count: 1
   slug: salesforce-automation-system-plans-pricing
-random_paper: 12
+random_paper: 63
 rate_limits:
 - limit_count: 4
   name: Salesforce Automation System Rate Limits
@@ -189,19 +189,19 @@ scopes:
   slug: salesforce-automation-system-scopes
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 56.6
-  delta: 0.0
+  band: strong
+  composite: 60.9
+  delta: 4.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 69.0
+    contract_quality: 77.9
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 56.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-automation-system/refs/heads/main/screenshots/salesforce-automation-system-2026-06-20T193343.png
 security:

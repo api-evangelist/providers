@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Public GraphQL endpoint exposing Fluidity's on-chain and webapp data — transactions, rewards, prize-pool and Fluid Asset metrics across Arbitrum, Solana, Sui, and the Superposition devnet.
@@ -117,7 +117,7 @@ overview: 'Fluidity publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Fluidity''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, and 13 more developer resources.'
-random_paper: 7
+random_paper: 58
 score:
   band: emerging
   composite: 22.3
@@ -131,8 +131,9 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fluidity/refs/heads/main/screenshots/fluidity-2026-07-25T214846.png
 security:
 - kind: domain-security
   name: Fluidity Domain Security

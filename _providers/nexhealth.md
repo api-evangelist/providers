@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -296,11 +296,11 @@ overview: 'NexHealth publishes 33 APIs on the [APIs.io](https://apis.io/) networ
 
 
   NexHealth''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 27 more developer resources.'
-random_paper: 43
+random_paper: 9
 score:
   band: strong
   composite: 62.4
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 69.3
@@ -308,14 +308,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 61.9
+  previous_composite: 62.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'CloudChipr publishes a developer API Reference at docs.cloudchipr.com/reference covering the same multi-cloud cost-management capabilities as the web app: connecting cloud provider accounts, viewing i'
@@ -112,7 +112,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 26.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudchipr/refs/heads/main/screenshots/cloudchipr-2026-06-20T174545.png
 security:

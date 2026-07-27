@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -298,7 +298,7 @@ plans:
 - name: Traefik Plans Pricing
   plan_count: 5
   slug: traefik-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Traefik Rate Limits
@@ -322,18 +322,18 @@ rules:
   slug: traefik-proxy-rules
 score:
   band: developing
-  composite: 53.0
-  delta: 0.0
+  composite: 55.0
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 55.2
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 53.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/traefik/refs/heads/main/screenshots/traefik-2026-06-20T195532.png
 security:

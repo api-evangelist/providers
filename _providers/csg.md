@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ plans:
 - name: Csg Plans Pricing
   plan_count: 1
   slug: csg-plans-pricing
-random_paper: 11
+random_paper: 45
 rate_limits:
 - limit_count: 2
   name: Csg Rate Limits
@@ -200,23 +200,23 @@ rules:
   slug: csg-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.8
-  delta: -0.3
+  composite: 55.6
+  delta: 3.8
   facets:
     commercial_clarity: 28.9
-    contract_quality: 67.3
+    contract_quality: 72.6
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 39.5
     operational_transparency: 57.9
-  previous_composite: 52.1
+  previous_composite: 51.8
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 50.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/csg/refs/heads/main/screenshots/csg-2026-06-20T175316.png
 security:

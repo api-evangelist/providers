@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 46.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: v2 REST API for submitting candidate screening checks and retrieving report findings (person, profiles, posts, web content, summary, and signed PDF). Bearer-token auth; report completion via HTTP call
@@ -165,7 +165,7 @@ overview: 'Fama publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fama''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 48
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Fama Rate Limits
@@ -183,8 +183,9 @@ score:
     operational_transparency: 31.6
   previous_composite: 43.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fama/refs/heads/main/screenshots/fama-2026-07-25T214205.png
 security:
 - kind: authentication
   name: Fama Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -432,23 +432,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 60.3
-  delta: 2.8
+  composite: 64.3
+  delta: 4.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.5
+    contract_quality: 76.4
     developer_ergonomics: 50.0
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 26.3
-  previous_composite: 57.5
+  previous_composite: 60.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dexcom/refs/heads/main/screenshots/dexcom-2026-06-20T175957.png
 security:

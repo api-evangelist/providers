@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -277,7 +277,7 @@ plans:
 - name: Canvas Medical Plans Pricing
   plan_count: 2
   slug: canvas-medical-plans-pricing
-random_paper: 23
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Canvas Medical Rate Limits
@@ -299,7 +299,7 @@ scopes:
 score:
   band: developing
   composite: 56.4
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 63.1
@@ -307,14 +307,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
-  previous_composite: 56.0
+  previous_composite: 56.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canvas-medical/refs/heads/main/screenshots/canvas-medical-2026-06-20T173934.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ arazzos:
 - description: Generate a Sensible-signed upload URL for a document type, then poll the extraction id until results are ready.
   name: Sensible Upload URL Extract And Poll
   slug: sensible-so-upload-url-extract-and-poll-workflow
-artifact_total: 70
+artifact_total: 71
 collections:
 - collection_type: postman
   name: Sensible Classification API
@@ -382,6 +382,10 @@ jsonld:
   property_count: 6
   slug: sensible-so-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: Sensible MCP Endpoint
+  slug: sensible-mcp-endpoint
 modified: '2026-05-25'
 name: sensible-so
 nav: Providers
@@ -397,7 +401,7 @@ plans:
 - name: Sensible So Plans Pricing
   plan_count: 4
   slug: sensible-so-plans-pricing
-random_paper: 2
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Sensible So Rate Limits
@@ -420,19 +424,19 @@ rules:
     warn: 3
   slug: sensible-so-rules
 score:
-  band: strong
-  composite: 66.7
-  delta: 0.0
+  band: exemplar
+  composite: 70.9
+  delta: 4.2
   facets:
     commercial_clarity: 57.9
-    contract_quality: 65.4
+    contract_quality: 74.2
     developer_ergonomics: 69.6
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 86.8
     operational_transparency: 68.4
   previous_composite: 66.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensible-so/refs/heads/main/screenshots/sensible-so-2026-06-20T193703.png
 security:

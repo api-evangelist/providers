@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ press:
 - date: '2026-05-25'
   title: Western Union Builds on Accelerator Momentum with New ...
   url: https://ir.westernunion.com/news/archived-press-releases/press-release-details/2019/Western-Union-Builds-on-Accelerator-Momentum-with-New-Artificial-Intelligence-Projects/default.aspx
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Western Union Rate Limits
@@ -203,18 +203,18 @@ rules:
   slug: western-union-rules
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 53.3
+  delta: 2.5
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.8
     developer_ergonomics: 30.4
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 50.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/screenshots/western-union-2026-06-20T201410.png
 security:

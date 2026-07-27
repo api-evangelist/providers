@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 26.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 18
 apis:
 - description: The cdn API from Alokai (formerly Vue Storefront) — 2 operation(s) for cdn.
@@ -215,8 +215,9 @@ score:
     operational_transparency: 36.8
   previous_composite: 46.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alokai-formerly-vue-storefront/refs/heads/main/screenshots/alokai-formerly-vue-storefront-2026-07-25T195748.png
 security:
 - kind: authentication
   name: Alokai Formerly Vue Storefront Authentication

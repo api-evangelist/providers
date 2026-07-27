@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: RESTful interface for the nGeniusONE platform, enabling network performance monitoring, analytics, and service assurance automation.
@@ -143,7 +143,7 @@ plans:
 - name: Netscout Plans Pricing
   plan_count: 3
   slug: netscout-plans-pricing
-random_paper: 18
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Netscout Rate Limits
@@ -161,7 +161,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 36.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netscout/refs/heads/main/screenshots/netscout-2026-06-20T190205.png
 security:

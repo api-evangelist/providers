@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Single REST surface for publish, subscribe (long-poll), presence, history, signal, and App Context. Pub/Sub key authentication. SDKs available for 50+ languages and platforms.
@@ -139,7 +139,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 44.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pubnub/refs/heads/main/screenshots/pubnub-2026-06-20T192250.png
 security:

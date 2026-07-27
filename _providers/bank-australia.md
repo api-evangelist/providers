@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -163,11 +163,11 @@ overview: 'Bank Australia publishes 7 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Bank Australia''s developer surface includes documentation, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 46
+random_paper: 63
 score:
   band: thin
   composite: 42.8
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 54.0
@@ -175,14 +175,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 40.8
+  previous_composite: 42.8
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-australia/refs/heads/main/screenshots/bank-australia-2026-07-21T114657.png
 security:

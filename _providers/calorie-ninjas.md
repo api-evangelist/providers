@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -116,25 +116,25 @@ plans:
 - name: Calorie Ninjas Plans Pricing
   plan_count: 3
   slug: calorie-ninjas-plans-pricing
-random_paper: 46
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Calorie Ninjas Rate Limits
   slug: calorie-ninjas-rate-limits
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 49.9
+  delta: 3.3
   facets:
     commercial_clarity: 84.2
     contract_quality: 53.1
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 46.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calorie-ninjas/refs/heads/main/screenshots/calorie-ninjas-2026-06-20T173849.png
 security:

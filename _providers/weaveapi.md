@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: OpenAI-wire-compatible REST API for chat completions, responses, and model catalog. Authenticated with a bearer API key. Also offers an Anthropic/Claude-compatible Messages route on the api.weaveapi.d
@@ -55,7 +55,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: weaveapi
 tags:

@@ -10,6 +10,24 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -148,7 +166,7 @@ plans:
 - name: Uon Plans Pricing
   plan_count: 2
   slug: uon-plans-pricing
-random_paper: 23
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Uon Rate Limits
@@ -175,6 +193,21 @@ scopes:
   scope_count: 1
   slug: uon-scopes
   summary_line: 1 scope · authorizationCode
+score:
+  band: developing
+  composite: 47.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 67.4
+    developer_ergonomics: 10.9
+    discoverability: 100.0
+    governance: 73.7
+    operational_transparency: 26.3
+  previous_composite: 47.1
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uon/refs/heads/main/screenshots/uon-2026-06-20T200428.png
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 19.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: The Custody API in the Northern Trust API Store gives institutional clients programmatic access to global custody data — holdings, positions, safekept assets, settlements, and account-level custody in
@@ -164,7 +164,7 @@ press:
 - date: '2026-05-25'
   title: Uncovering Alpha In The Networked Economy
   url: https://www.northerntrust.com/content/dam/northerntrust/pws/nt/documents/asset-management/uncovering-alpha-in-the-networked-economy.pdf
-random_paper: 24
+random_paper: 7
 scopes:
 - name: Northern Trust Scopes
   scope_count: 10
@@ -173,7 +173,7 @@ scopes:
 score:
   band: thin
   composite: 38.9
-  delta: 29.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 22.6
@@ -181,15 +181,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 9.2
+  previous_composite: 38.9
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/northern-trust/refs/heads/main/screenshots/northern-trust-2026-06-20T190416.png
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -323,23 +323,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: strong
-  composite: 63.6
-  delta: 4.5
+  composite: 67.5
+  delta: 3.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 72.4
+    contract_quality: 77.7
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 52.6
-  previous_composite: 59.1
+  previous_composite: 63.6
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 89.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikidata/refs/heads/main/screenshots/wikidata-2026-06-20T201453.png
 security:

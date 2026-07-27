@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: 'Razer Chroma REST API for controlling 16.8-million-color RGB lighting effects across Chroma-enabled keyboards, mice, headsets, mousepads, keypads and ChromaLink devices. Clients POST application info '
@@ -101,11 +101,11 @@ overview: 'Razer publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Razer''s developer surface includes documentation, engineering blog, support, authentication, and 9 more developer resources.'
-random_paper: 38
+random_paper: 4
 score:
   band: emerging
   composite: 19.4
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -113,14 +113,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 18.2
+  previous_composite: 19.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

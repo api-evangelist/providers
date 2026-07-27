@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: REST API for programmatically sending digital gift cards, virtual prepaid Visa/Mastercard, e-gift cards, and other digital rewards instantly to recipients. Supports campaign management, recipient trac
@@ -123,7 +123,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 34.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rybbon/refs/heads/main/screenshots/rybbon-2026-06-20T193311.png
 security:

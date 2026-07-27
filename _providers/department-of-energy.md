@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -205,30 +205,30 @@ plans:
 - name: Department Of Energy Plans Pricing
   plan_count: 3
   slug: department-of-energy-plans-pricing
-random_paper: 40
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Department Of Energy Rate Limits
   slug: department-of-energy-rate-limits
 score:
-  band: thin
-  composite: 42.4
-  delta: 0.6
+  band: developing
+  composite: 45.2
+  delta: 2.8
   facets:
     commercial_clarity: 50.0
     contract_quality: 57.5
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 13.2
     operational_transparency: 36.8
-  previous_composite: 41.8
+  previous_composite: 42.4
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-energy/refs/heads/main/screenshots/department-of-energy-2026-06-20T175917.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -46,7 +46,7 @@ name: Protent
 nav: Providers
 network: true
 overview: Protent is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Public Safety, Law Enforcement, Video Intelligence, and Artificial Intelligence.
-random_paper: 15
+random_paper: 32
 score:
   band: minimal
   composite: 6.8
@@ -60,7 +60,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: protent
 tags:

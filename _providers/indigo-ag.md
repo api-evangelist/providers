@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Soil-carbon program that enrolls growers, captures on-farm management practice data, and uses Indigo's MRV engine to quantify and verify soil organic-carbon outcomes that are sold as carbon credits to
@@ -91,7 +91,7 @@ plans:
 - name: Indigo Ag Plans Pricing
   plan_count: 1
   slug: indigo-ag-plans-pricing
-random_paper: 12
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Indigo Ag Rate Limits
@@ -109,7 +109,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 19.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indigo-ag/refs/heads/main/screenshots/indigo-ag-2026-06-20T183318.png
 security:

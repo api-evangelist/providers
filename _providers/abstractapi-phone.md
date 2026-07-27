@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -106,26 +106,27 @@ plans:
 - name: Abstractapi Phone Plans Pricing
   plan_count: 3
   slug: abstractapi-phone-plans-pricing
-random_paper: 15
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Abstractapi Phone Rate Limits
   slug: abstractapi-phone-rate-limits
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 39.1
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.4
     developer_ergonomics: 19.6
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 35.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/abstractapi-phone/refs/heads/main/screenshots/abstractapi-phone-2026-07-25T181408.png
 security:
 - kind: authentication
   name: Abstractapi Phone Authentication

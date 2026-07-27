@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 9
 apis:
 - description: The core REST API to process payments from customers across multiple payment methods including credit and debit cards, bank transfers (BLIK, EPS, iDEAL, Interac e-Transfer, ACH, SEPA), cash vouchers (
@@ -165,7 +165,7 @@ plans:
 - name: Paysafe Plans Pricing
   plan_count: 5
   slug: paysafe-plans-pricing
-random_paper: 31
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Paysafe Rate Limits
@@ -173,7 +173,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.9
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -181,14 +181,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 33.8
+  previous_composite: 33.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 34.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paysafe/refs/heads/main/screenshots/paysafe-2026-06-20T191509.png
 security:

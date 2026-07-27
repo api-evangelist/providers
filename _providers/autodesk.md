@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 88.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 1
@@ -296,7 +296,7 @@ arazzos:
 - description: Discover event systems and events, set a signing secret, create a scoped hook, and confirm it is active.
   name: Autodesk Subscribe to Events with a Signed Webhook
   slug: autodesk-webhook-subscription-workflow
-artifact_total: 276
+artifact_total: 277
 asyncapis:
 - description: Event-driven API for receiving real-time notifications from Autodesk Platform Services. When subscribed via the Webhooks REST API, Autodesk sends HTTP POST callbacks to your registered URL when events
   name: Autodesk Webhooks Events
@@ -1111,6 +1111,10 @@ jsonld:
   property_count: 34
   slug: autodesk-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: autodesk-mcp.yml
+  slug: autodesk-mcpyml
 modified: '2026-06-20'
 name: Autodesk
 nav: Providers
@@ -1171,19 +1175,20 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 73.3
-  delta: 0.0
+  composite: 75.8
+  delta: 2.5
   facets:
     commercial_clarity: 92.1
     contract_quality: 79.1
     developer_ergonomics: 60.9
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 60.5
     operational_transparency: 68.4
   previous_composite: 73.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk/refs/heads/main/screenshots/autodesk-2026-07-25T201825.png
 security:
 - kind: authentication
   name: Autodesk Authentication

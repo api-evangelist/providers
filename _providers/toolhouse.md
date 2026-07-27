@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 1
@@ -341,7 +341,7 @@ overview: 'Toolhouse publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Toolhouse''s developer surface includes authentication, documentation, engineering blog, pricing, YouTube channel, support, tooling, and 38 more developer resources.'
-random_paper: 25
+random_paper: 42
 rate_limits:
 - limit_count: 10
   name: Toolhouse Rate Limits
@@ -376,7 +376,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 64.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

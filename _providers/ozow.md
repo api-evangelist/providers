@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 2
@@ -218,7 +218,7 @@ plans:
 - name: Ozow Plans Pricing
   plan_count: 2
   slug: ozow-plans-pricing
-random_paper: 4
+random_paper: 55
 rate_limits:
 - limit_count: 2
   name: Ozow Rate Limits
@@ -226,7 +226,7 @@ rate_limits:
 score:
   band: strong
   composite: 64.4
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
     contract_quality: 67.3
@@ -234,14 +234,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 62.0
+  previous_composite: 64.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

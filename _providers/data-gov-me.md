@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: CKAN API for Montenegro Open Data (data.gov.me), ~894 datasets.
@@ -93,7 +93,7 @@ rate_limits:
 score:
   band: minimal
   composite: 11.9
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 0.0
@@ -101,14 +101,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.8
+  previous_composite: 11.9
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-gov-me/refs/heads/main/screenshots/data-gov-me-2026-06-20T175540.png
 security:

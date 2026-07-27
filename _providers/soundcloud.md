@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ plans:
 - name: Soundcloud Plans Pricing
   plan_count: 2
   slug: soundcloud-plans-pricing
-random_paper: 17
+random_paper: 0
 rate_limits:
 - limit_count: 4
   name: Soundcloud Rate Limits
@@ -149,18 +149,18 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 34.3
-  delta: 0.0
+  composite: 37.5
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 50.4
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 34.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soundcloud/refs/heads/main/screenshots/soundcloud-2026-06-20T194220.png
 security:

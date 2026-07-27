@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ overview: 'Nas.com (Nas Academy) publishes 2 APIs on the [APIs.io](https://apis.
 
 
   Nas.com (Nas Academy)''s developer surface includes documentation, API reference, pricing, support, authentication, getting-started guide, signup flow, and 17 more developer resources.'
-random_paper: 20
+random_paper: 3
 scopes:
 - name: Nas Academy Scopes
   scope_count: 6
@@ -175,7 +175,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 43.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

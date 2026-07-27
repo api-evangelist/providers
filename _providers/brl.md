@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 66.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -180,11 +180,11 @@ overview: 'BRL publishes 10 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   BRL''s developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, and 17 more developer resources.'
-random_paper: 14
+random_paper: 48
 score:
   band: thin
   composite: 42.3
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 60.4
@@ -192,15 +192,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 41.7
+  previous_composite: 42.3
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/brl/refs/heads/main/screenshots/brl-2026-07-25T203938.png
 security:
 - kind: authentication
   name: Brl Authentication

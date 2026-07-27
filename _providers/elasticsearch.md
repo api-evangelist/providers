@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -77,7 +77,7 @@ arazzos:
 - description: Search an index for a document matching a business key and update it if found, otherwise index a new one.
   name: Elasticsearch Upsert a Document by Business Key
   slug: elasticsearch-upsert-document-workflow
-artifact_total: 34
+artifact_total: 35
 collections:
 - collection_type: open
   name: Elasticsearch REST API
@@ -252,6 +252,10 @@ finops:
   slug: elasticsearch-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/elasticsearch.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: elasticsearch-mcp.yml
+  slug: elasticsearch-mcpyml
 modified: '2026-06-20'
 name: Elasticsearch
 nav: Providers
@@ -264,25 +268,25 @@ plans:
 - name: Elasticsearch Plans Pricing
   plan_count: 3
   slug: elasticsearch-plans-pricing
-random_paper: 45
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Elasticsearch Rate Limits
   slug: elasticsearch-rate-limits
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 55.3
+  delta: 2.0
   facets:
     commercial_clarity: 78.9
     contract_quality: 51.3
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 57.9
   previous_composite: 53.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/elasticsearch/refs/heads/main/screenshots/elasticsearch-2026-06-20T180540.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 1
@@ -127,26 +127,27 @@ plans:
 - name: Listmonk Plans Pricing
   plan_count: 1
   slug: listmonk-plans-pricing
-random_paper: 14
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Listmonk Rate Limits
   slug: listmonk-rate-limits
 score:
   band: thin
-  composite: 33.0
-  delta: 0.0
+  composite: 35.0
+  delta: 2.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 46.9
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 33.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/listmonk/refs/heads/main/screenshots/listmonk-2026-07-25T225325.png
 security:
 - kind: authentication
   name: Listmonk Authentication

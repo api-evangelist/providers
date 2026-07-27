@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: REST API for integrating KakaoPay online payment functionality into PC and mobile web or app environments. Supports single payments, subscription (recurring) billing, order inquiry, and payment cancel
@@ -119,7 +119,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.7
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -127,14 +127,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 25.6
+  previous_composite: 23.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kakaopay/refs/heads/main/screenshots/kakaopay-2026-06-20T183907.png
 security:

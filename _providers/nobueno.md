@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 43.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 32
 apis:
 - description: The admin API from NoBueno — 51 operation(s) for admin.
@@ -187,7 +187,7 @@ overview: 'NoBueno publishes 32 APIs on the [APIs.io](https://apis.io/) network,
 
 
   NoBueno''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: emerging
   composite: 24.6
@@ -201,7 +201,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 24.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

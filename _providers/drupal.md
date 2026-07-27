@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -171,19 +171,19 @@ scopes:
   slug: drupal-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: thin
-  composite: 44.8
-  delta: 0.0
+  band: developing
+  composite: 48.6
+  delta: 3.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 65.5
+    contract_quality: 70.8
     developer_ergonomics: 13.0
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 44.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drupal/refs/heads/main/screenshots/drupal-2026-06-20T180306.png
 security:

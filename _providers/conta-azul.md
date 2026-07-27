@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Conjunto de recursos para acompanhar e administrar operações relacionadas ao gerenciamento de baixas - esses recursos incluem criar uma nova baixa, retornar as baixas pelo id da parcela, atualizar par
@@ -171,7 +171,7 @@ scopes:
 score:
   band: developing
   composite: 54.9
-  delta: 3.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 54.9
@@ -179,15 +179,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 51.2
+  previous_composite: 54.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/conta-azul/refs/heads/main/screenshots/conta-azul-2026-07-25T210322.png
 security:
 - kind: authentication
   name: Conta Azul Authentication

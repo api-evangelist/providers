@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ plans:
 - name: Zylo Plans Pricing
   plan_count: 3
   slug: zylo-plans-pricing
-random_paper: 3
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Zylo Rate Limits
@@ -213,20 +213,20 @@ rules:
     warn: 3
   slug: zylo-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 56.3
-  delta: 0.0
+  band: strong
+  composite: 61.8
+  delta: 5.5
   facets:
     commercial_clarity: 92.1
-    contract_quality: 64.6
+    contract_quality: 73.5
     developer_ergonomics: 13.0
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 56.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/zylo/refs/heads/main/screenshots/zylo-2026-06-20T202009.png
 security:
 - kind: authentication

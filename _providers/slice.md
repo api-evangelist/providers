@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ plans:
 - name: Slice Plans Pricing
   plan_count: 3
   slug: slice-plans-pricing
-random_paper: 18
+random_paper: 52
 rate_limits:
 - limit_count: 2
   name: Slice Rate Limits
@@ -160,18 +160,18 @@ rules:
   slug: slice-rules
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 48.6
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 60.2
     developer_ergonomics: 37.0
-    discoverability: 60.0
+    discoverability: 80.0
     governance: 39.5
     operational_transparency: 26.3
   previous_composite: 46.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slice/refs/heads/main/screenshots/slice-2026-06-20T194029.png
 security:

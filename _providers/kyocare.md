@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Attain platform API is the backend serving the Kyo Care portal (portal.kyocare.com) and the Kyo Care mobile app. It is an OAuth 2.0 / OpenID Connect protected API fronted by AWS Cognito, publishin
@@ -102,7 +102,7 @@ overview: 'Kyo publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Kyo''s developer surface includes developer portal, signup flow, support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 36
+random_paper: 2
 scopes:
 - name: Kyocare Scopes
   scope_count: 2
@@ -111,7 +111,7 @@ scopes:
 score:
   band: emerging
   composite: 26.4
-  delta: 7.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -119,15 +119,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.2
+  previous_composite: 26.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kyocare/refs/heads/main/screenshots/kyocare-2026-07-25T224350.png
 security:
 - kind: authentication
   name: Kyocare Authentication

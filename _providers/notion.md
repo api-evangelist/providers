@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 86.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -89,7 +89,7 @@ arazzos:
 - description: Identify the integration bot, list workspace users, then retrieve the first user in detail.
   name: Notion Resolve a Workspace User Directory
   slug: notion-user-directory-resolve-workflow
-artifact_total: 63
+artifact_total: 64
 asyncapis:
 - description: AsyncAPI 2.6 description of the Notion webhooks surface. Notion delivers workspace events (page, database, data source, and comment changes) to a subscriber-hosted HTTPS endpoint via signed POST reque
   name: Notion Webhooks
@@ -615,6 +615,10 @@ jsonld:
   property_count: 12
   slug: notion-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: notion-mcp.yml
+  slug: notion-mcpyml
 modified: '2026-06-20'
 name: Notion
 nav: Providers
@@ -630,7 +634,7 @@ plans:
 - name: Notion Plans Pricing
   plan_count: 4
   slug: notion-plans-pricing
-random_paper: 0
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Notion Rate Limits
@@ -654,18 +658,18 @@ rules:
   slug: notion-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 75.7
-  delta: 0.0
+  composite: 79.2
+  delta: 3.5
   facets:
     commercial_clarity: 78.9
-    contract_quality: 81.4
+    contract_quality: 90.3
     developer_ergonomics: 76.1
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 52.6
     operational_transparency: 86.8
   previous_composite: 75.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/notion/refs/heads/main/screenshots/notion-2026-06-20T190428.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -116,21 +116,21 @@ overview: 'Breathe HR publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Breathe HR''s developer surface includes authentication, documentation, pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 25
+random_paper: 42
 score:
-  band: emerging
-  composite: 28.2
-  delta: 0.0
+  band: thin
+  composite: 31.4
+  delta: 3.2
   facets:
     commercial_clarity: 10.5
     contract_quality: 51.3
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 28.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/breathe-hr/refs/heads/main/screenshots/breathe-hr-2026-06-20T173649.png
 security:

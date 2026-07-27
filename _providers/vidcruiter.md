@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The real, documented programmatic surface. VidCruiter provisions each institution a unique web-services API endpoint (obtained from a VidCruiter account representative) used for bidirectional integrat
@@ -52,7 +70,22 @@ plans:
 - name: Vidcruiter Plans Pricing
   plan_count: 1
   slug: vidcruiter-plans-pricing
-random_paper: 18
+random_paper: 1
+score:
+  band: minimal
+  composite: 14.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.0
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: domain-security
   name: Vidcruiter Domain Security

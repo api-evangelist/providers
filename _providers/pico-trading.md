@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -106,7 +106,7 @@ overview: 'Pico is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Pico''s developer surface includes authentication, changelog, documentation, developer portal, engineering blog, support, and 10 more developer resources.'
-random_paper: 44
+random_paper: 61
 scopes:
 - name: Pico Trading Scopes
   scope_count: 36
@@ -115,7 +115,7 @@ scopes:
 score:
   band: emerging
   composite: 29.0
-  delta: 8.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -123,15 +123,15 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 20.7
+  previous_composite: 29.0
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pico-trading/refs/heads/main/screenshots/pico-trading-2026-07-22T202550.png
 security:
 - kind: authentication

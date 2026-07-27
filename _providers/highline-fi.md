@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -149,30 +149,30 @@ plans:
 - name: Highline Fi Plans Pricing
   plan_count: 1
   slug: highline-fi-plans-pricing
-random_paper: 21
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Highline Fi Rate Limits
   slug: highline-fi-rate-limits
 score:
   band: thin
-  composite: 30.9
-  delta: -0.9
+  composite: 32.6
+  delta: 1.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 48.6
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 31.8
+  previous_composite: 30.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highline-fi/refs/heads/main/screenshots/highline-fi-2026-06-20T182729.png
 security:

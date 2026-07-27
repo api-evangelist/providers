@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 84.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 207
   human_in_the_loop: 5
@@ -324,7 +324,7 @@ overview: 'Kiteworks publishes 41 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Kiteworks'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 26
+random_paper: 43
 rate_limits:
 - limit_count: 0
   name: Kiteworks Rate Limits
@@ -347,8 +347,9 @@ score:
     operational_transparency: 39.5
   previous_composite: 56.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kiteworks/refs/heads/main/screenshots/kiteworks-2026-07-25T223908.png
 security:
 - kind: authentication
   name: Kiteworks Authentication

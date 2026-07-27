@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ overview: 'Shiftmove publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Shiftmove''s developer surface includes documentation, API reference, support, signup flow, authentication, changelog, and 18 more developer resources.'
-random_paper: 12
+random_paper: 29
 rate_limits:
 - limit_count: 0
   name: Shiftmove Rate Limits
@@ -198,7 +198,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 43.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

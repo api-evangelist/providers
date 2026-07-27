@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: medium
-  generated: '2026-07-22'
   label: Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: unknown
   public: false
@@ -11,17 +9,292 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 63.5
+  scored_at: '2026-07-27'
 api_count: 18
-artifact_total: 0
+apis:
+- description: Public applications must authenticate using the OAuth 2.0 specification to use Attentive’s API resources. Attentive uses OAuth 2.0’s authorization code grant flow to issue access tokens on behalf of u
+  name: Attentive Access Token API
+  slug: attentive-access-token-api
+- description: The Bulk Segment Operations API from Attentive — 1 operation(s) for bulk segment operations.
+  name: Attentive Bulk Segment Operations API
+  slug: attentive-bulk-segment-operations-api
+- description: Endpoints for managing bulk data ingestion jobs. Use these endpoints to monitor the processing status asynchronously.
+  name: Attentive Bulk Status API
+  slug: attentive-bulk-status-api
+- description: The Bulk User Operations API from Attentive — 1 operation(s) for bulk user operations.
+  name: Attentive Bulk User Operations API
+  slug: attentive-bulk-user-operations-api
+- description: Use the Custom Attributes API to apply customizable data or characteristics to each of your subscribers. This API will either create a new custom attribute if it doesn't already exist or update an exi
+  name: Attentive Custom Attributes API
+  slug: attentive-custom-attributes-api
+- description: Use the Custom Events API to send user actions to use in the Attentive Segment Builder and Journey Builder for both email and text messages. This data cannot contain any sensitive or special categorie
+  name: Attentive Custom Events API
+  slug: attentive-custom-events-api
+- description: Use the eCommerce API to trigger an event when a user views a product, adds a product to their shopping cart, or makes a purchase.
+  name: Attentive eCommerce API
+  slug: attentive-ecommerce-api
+- description: Use the Identity API to manage user identifiers. With this API, you can programmatically add a client user identifier or custom identifier(s) to a user. You should only use clientUserId and customIden
+  name: Attentive Identity API
+  slug: attentive-identity-api
+- description: 'You can use the Offers API to add discount codes to an existing offer. <br> <h2> Create an offer </h2> <ol> <li> Navigate to the [Offers](https://ui.attentivemobile.com/offers) page. </li> <li> Click '
+  name: Attentive Offers API
+  slug: attentive-offers-api
+- description: You can use the Privacy Request API in order to comply with [California Consumer Privacy Act](https://epic.org/california-consumer-privacy-act-ccpa/) deletion requests through Attentive. For more info
+  name: Attentive Privacy Request API
+  slug: attentive-privacy-request-api
+- description: Our product catalog API unlocks the ability to send high-performing journeys such as back in stock, low inventory, and price drop. It also lets you segment your customers and branch journeys using pro
+  name: Attentive Product Catalog API
+  slug: attentive-product-catalog-api
+- description: 'Endpoints for submitting bulk segment member additions and removals. Use these endpoints to manage segment memberships in bulk and monitor the processing status asynchronously. ## Processing Times The'
+  name: Attentive Segments API
+  slug: attentive-segments-api
+- description: Use the Subscribers API to manage subscriptions. With this API, you can programmatically subscribe and unsubscribe users from subscriptions.
+  name: Attentive Subscribers API
+  slug: attentive-subscribers-api
+- description: Use the Test Authentication endpoint to test your unique token that you received from Attentive. Make sure to save your token because all API requests are authenticated using bearer tokens. The respon
+  name: Attentive Test Authentication API
+  slug: attentive-test-authentication-api
+- description: Use the V2 Test Authentication endpoint to test your unique token that you received from Attentive. Make sure to save your token because all API requests are authenticated using bearer tokens. The res
+  name: Attentive Test Authentication V2 API
+  slug: attentive-test-authentication-v2-api
+- description: 'Endpoints for submitting bulk user attribute updates. Use these endpoints to upload large datasets of user data in a single request and monitor the processing status asynchronously. Typical use cases '
+  name: Attentive User Attributes API
+  slug: attentive-user-attributes-api
+- description: 'This API will either create a new user if it doesn''t already exist or update an existing one with the attributes provided. You can then use these attributes as macros in messages or build segments to '
+  name: Attentive User Properties API
+  slug: attentive-user-properties-api
+- description: Create and manage webhooks
+  name: Attentive Webhooks API
+  slug: attentive-webhooks-api
+artifact_total: 26
+asyncapis:
+- description: ''
+  name: Attentive Webhooks
+  slug: attentive-webhooks
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.attentive.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.attentive.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.attentive.com/docs/introduction
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.attentive.com/openapi/reference/overview/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://docs.attentive.com/docs/introduction
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/attentive-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/attentive-scopes.yml
+- group: build
+  title: ''
+  type: SDKs
+  url: packages/attentive-packages.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/attentive-packages.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/attentive-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/attentive-llms.txt
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/attentive-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://security.attentive.com/
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/attentive-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/attentive-lifecycle.yml
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.attentivemobile.com/
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/attentive-conventions.yml
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: changelog/attentive-changelog.yml
+- group: design
+  title: ''
+  type: Components
+  url: components/attentive-components.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/attentive-data-model.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/attentive-webhooks.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/attentive-rate-limits.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/attentive-sandbox.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/attentive-domain-security.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/attentive-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: Security
+  url: https://www.attentive.com/legal/security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/attentive-trust-center.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/attentive-mobile
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.attentive.com/blog
+- group: operate
+  title: ''
+  type: Support
+  url: https://help.attentivemobile.com
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.attentive.com/pricing
+- group: start
+  title: ''
+  type: SignUp
+  url: https://www.attentive.com/demo
+- group: start
+  title: ''
+  type: Login
+  url: https://ui.attentivemobile.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.attentive.com/legal/terms
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.attentive.com/legal/privacy
 created: '2026-07-17'
 description: Attentive is a martech SMS and email marketing platform for e-commerce and retail brands. Its developer platform exposes REST APIs (v1 and v2) plus a GraphQL API for managing subscribers and subscriptions, sending SMS/email and ecommerce events (product view, add-to-cart, purchase), setting custom attributes and custom events, uploading product catalogs, distributing offers/coupon codes, resolving identity across phone/email/Shopify/Klaviyo/custom identifiers, handling CCPA privacy deletion requests, and subscribing to webhooks. It also ships iOS, Android, and React Native SDKs and an on-site JavaScript Tag for creative rendering and event collection. Authentication is OAuth 2.0 (authorization code grant) or a bearer API token.
 image: https://cdn.prod.website-files.com/684306b795a2c402456e92ba/6a037c0d3dadcc6de287311a_Rebrand-OpenGraphImage_5005x2622.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: attentive-mcp.yml
+  slug: attentive-mcpyml
 modified: '2026-07-18'
 name: Attentive
 nav: Providers
 network: true
-random_paper: 11
+overview: 'Attentive publishes 18 APIs on the [APIs.io](https://apis.io/) network, including Access Token API, Bulk Segment Operations API, Bulk Status API, and 15 more. Tagged areas include Company, Martech, SMS Marketing, Email Marketing, and Ecommerce.
+
+
+  The Attentive catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Attentive''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 29 more developer resources.'
+random_paper: 28
+rate_limits:
+- limit_count: 7
+  name: Attentive Rate Limits
+  slug: attentive-rate-limits
+scopes:
+- name: Attentive Scopes
+  scope_count: 14
+  slug: attentive-scopes
+  summary_line: 14 scopes · authorizationCode
+score:
+  band: strong
+  composite: 63.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 67.6
+    developer_ergonomics: 80.4
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 86.8
+  previous_composite: 63.1
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/attentive/refs/heads/main/screenshots/attentive-2026-07-25T201630.png
+security:
+- kind: authentication
+  name: Attentive Authentication
+  slug: attentive-authentication
+  summary_line: http/oauth2 · 2 schemes
+- kind: domain-security
+  name: Attentive Domain Security
+  slug: attentive-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Attentive Vulnerability Disclosure
+  slug: attentive-vulnerability-disclosure
+  summary_line: disclosure policy published
+- kind: trust-center
+  name: Attentive Trust Center
+  slug: attentive-trust-center
+  summary_line: SOC 2, GDPR
 slug: attentive
 tags:
 - Company
@@ -33,4 +306,5 @@ tags:
 - Subscribers
 - Webhooks
 - Customer Engagement
+website: https://www.attentive.com
 ---

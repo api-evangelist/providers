@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 29.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Agent-driven commerce over the official 52TOYS Shopify storefront via the Universal Commerce Protocol MCP endpoint — catalog search, cart, and buyer-approved checkout. Read-only catalog browsing is un
@@ -110,7 +110,7 @@ overview: '52TOYS publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   52TOYS''s developer surface includes authentication, signup flow, support, and 12 more developer resources.'
-random_paper: 5
+random_paper: 22
 scopes:
 - name: 52Toys Scopes
   scope_count: 4
@@ -129,8 +129,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/52toys/refs/heads/main/screenshots/52toys-2026-07-25T181212.png
 security:
 - kind: authentication
   name: 52Toys Authentication

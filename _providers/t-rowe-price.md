@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -97,7 +97,7 @@ press:
 - date: '2026-05-25'
   title: Newsroom
   url: https://www.troweprice.com/en/us/press
-random_paper: 9
+random_paper: 26
 score:
   band: minimal
   composite: 7.2
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/t-rowe-price/refs/heads/main/screenshots/t-rowe-price-2026-06-20T194842.png
 security:

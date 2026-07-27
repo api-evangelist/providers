@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ arazzos:
 - description: Upload new function code, wait for the update to settle, smoke-test $LATEST, and publish an immutable version guarded by the code hash.
   name: AWS Lambda Ship New Code and Cut an Immutable Version
   slug: aws-lambda-update-code-publish-version-workflow
-artifact_total: 166
+artifact_total: 167
 asyncapis:
 - description: AWS Lambda integrates with other AWS services to invoke functions in response to events. Lambda functions can be triggered by event sources including Amazon S3, Amazon DynamoDB Streams, Amazon Kinesis
   name: AWS Lambda Event Triggers
@@ -654,6 +654,10 @@ jsonld:
   property_count: 0
   slug: aws-lambda-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: aws-lambda-mcp.yml
+  slug: aws-lambda-mcpyml
 modified: '2026-06-20'
 name: AWS Lambda
 nav: Providers
@@ -669,7 +673,7 @@ plans:
 - name: Aws Lambda Plans Pricing
   plan_count: 7
   slug: aws-lambda-plans-pricing
-random_paper: 16
+random_paper: 33
 rate_limits:
 - limit_count: 13
   name: Aws Lambda Rate Limits
@@ -701,18 +705,18 @@ rules:
   slug: aws-lambda-spectral-rules
 score:
   band: strong
-  composite: 61.0
-  delta: 0.0
+  composite: 65.6
+  delta: 4.6
   facets:
     commercial_clarity: 76.3
-    contract_quality: 78.3
+    contract_quality: 83.6
     developer_ergonomics: 28.3
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 47.4
   previous_composite: 61.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-lambda/refs/heads/main/screenshots/aws-lambda-2026-06-20T172758.png
 security:

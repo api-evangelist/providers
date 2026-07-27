@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The BRICK ontology v1.4.4 defines a standardized vocabulary of building system concepts, relationships, and data model for smart building analytics. Available as RDF/OWL files, BRICK describes sensors
@@ -86,7 +86,7 @@ plans:
 - name: Brick Plans Pricing
   plan_count: 3
   slug: brick-plans-pricing
-random_paper: 13
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Brick Rate Limits
@@ -104,7 +104,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 23.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brick/refs/heads/main/screenshots/brick-2026-06-20T173653.png
 security:

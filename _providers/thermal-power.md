@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ plans:
 - name: Thermal Power Plans Pricing
   plan_count: 3
   slug: thermal-power-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Thermal Power Rate Limits
@@ -151,18 +151,18 @@ rules:
   slug: thermal-power-rules
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 52.2
+  delta: 4.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 64.6
+    contract_quality: 69.9
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 47.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thermal-power/refs/heads/main/screenshots/thermal-power-2026-06-20T195251.png
 security:

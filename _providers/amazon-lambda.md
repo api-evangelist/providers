@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -294,7 +294,7 @@ plans:
 - name: Amazon Lambda Plans Pricing
   plan_count: 3
   slug: amazon-lambda-plans-pricing
-random_paper: 25
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Amazon Lambda Rate Limits
@@ -317,20 +317,20 @@ rules:
     warn: 15
   slug: amazon-lambda-spectral-rules
 score:
-  band: strong
-  composite: 67.8
-  delta: 0.0
+  band: exemplar
+  composite: 73.3
+  delta: 5.5
   facets:
     commercial_clarity: 89.5
-    contract_quality: 64.6
+    contract_quality: 73.5
     developer_ergonomics: 45.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 63.2
   previous_composite: 67.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lambda/refs/heads/main/screenshots/amazon-lambda-2026-06-20T171722.png
 security:
 - kind: authentication

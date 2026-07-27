@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -236,7 +236,7 @@ press:
 - date: '2026-05-25'
   title: How UPS is using AI, from shipper pricing to customs ...
   url: https://www.supplychaindive.com/news/ups-ai-employee-upskilling-network-changes/816412/
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Ups Rate Limits
@@ -265,18 +265,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 45.8
-  delta: 0.0
+  composite: 49.0
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 67.3
     developer_ergonomics: 30.4
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 21.1
   previous_composite: 45.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/screenshots/ups-2026-06-20T200507.png
 security:

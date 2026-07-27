@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 3
@@ -156,7 +156,7 @@ plans:
 - name: Letta Ai Plans Pricing
   plan_count: 5
   slug: letta-ai-plans-pricing
-random_paper: 20
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Letta Ai Rate Limits
@@ -172,19 +172,20 @@ rules:
   slug: letta-ai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 48.5
+  delta: 2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 63.6
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 52.6
     operational_transparency: 36.8
   previous_composite: 46.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/letta-ai/refs/heads/main/screenshots/letta-ai-2026-07-25T224937.png
 security:
 - kind: authentication
   name: Letta Ai Authentication

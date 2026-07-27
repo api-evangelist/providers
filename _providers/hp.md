@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -122,18 +122,18 @@ rate_limits:
   slug: hp-rate-limits
 score:
   band: thin
-  composite: 31.5
-  delta: 0.0
+  composite: 34.7
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 51.6
     developer_ergonomics: 8.7
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 31.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hp/refs/heads/main/screenshots/hp-2026-06-20T182854.png
 security:

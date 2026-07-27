@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -147,25 +147,25 @@ plans:
 - name: Milvus Plans Pricing
   plan_count: 1
   slug: milvus-plans-pricing
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Milvus Rate Limits
   slug: milvus-rate-limits
 score:
   band: thin
-  composite: 31.8
-  delta: 0.0
+  composite: 35.0
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 48.7
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 31.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/milvus/refs/heads/main/screenshots/milvus-2026-06-20T185554.png
 security:

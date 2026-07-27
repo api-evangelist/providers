@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ overview: 'Boost publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Boost''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 18 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: thin
   composite: 42.5
@@ -192,8 +192,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 42.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/boost/refs/heads/main/screenshots/boost-2026-07-25T203625.png
 security:
 - kind: authentication
   name: Boost Authentication

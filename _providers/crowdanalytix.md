@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -46,7 +46,7 @@ name: CrowdAnalytix
 nav: Providers
 network: true
 overview: CrowdAnalytix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Machine Learning, Data Science, and Predictive Analytics.
-random_paper: 40
+random_paper: 57
 score:
   band: minimal
   composite: 6.8
@@ -60,8 +60,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/crowdanalytix/refs/heads/main/screenshots/crowdanalytix-2026-07-25T210803.png
 security:
 - kind: domain-security
   name: Crowdanalytix Domain Security

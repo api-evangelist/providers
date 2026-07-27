@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -53,7 +53,7 @@ overview: 'Fox-Tech is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Fox-Tech''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 33
+random_paper: 50
 score:
   band: minimal
   composite: 7.2
@@ -67,8 +67,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fox-tech/refs/heads/main/screenshots/fox-tech-2026-07-25T215055.png
 security:
 - kind: domain-security
   name: Fox Tech Domain Security

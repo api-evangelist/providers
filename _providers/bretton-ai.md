@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -98,7 +98,7 @@ overview: 'Bretton AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Bretton AI''s developer surface includes engineering blog, documentation, signup flow, support, and 10 more developer resources.'
-random_paper: 44
+random_paper: 61
 score:
   band: emerging
   composite: 19.8
@@ -112,8 +112,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bretton-ai/refs/heads/main/screenshots/bretton-ai-2026-07-25T203754.png
 security:
 - kind: domain-security
   name: Bretton Ai Domain Security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 15.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 asyncapis:
@@ -129,7 +129,7 @@ overview: 'Quarterzip is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Quarterzip''s developer surface includes documentation, API reference, getting-started guide, signup flow, changelog, authentication, and 14 more developer resources.'
-random_paper: 40
+random_paper: 23
 score:
   band: thin
   composite: 33.8
@@ -143,7 +143,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 33.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 26.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The hila REST APIs provide CRUD operations to deploy, manage, and monitor machine-learning models — drift detection, explainability, model performance, alerts, data profiling, inference tracking, pipe
@@ -144,7 +144,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 30.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

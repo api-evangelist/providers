@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 63.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: The metering API from Gradium — 1 operation(s) for metering.
@@ -216,7 +216,7 @@ overview: 'Gradium publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Gradium''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, changelog, sandbox, and 29 more developer resources.'
-random_paper: 31
+random_paper: 65
 score:
   band: developing
   composite: 57.4
@@ -230,8 +230,9 @@ score:
     operational_transparency: 44.7
   previous_composite: 57.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gradium/refs/heads/main/screenshots/gradium-2026-07-25T220210.png
 security:
 - kind: authentication
   name: Gradium Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -273,7 +273,7 @@ plans:
 - name: Magiceden Plans
   plan_count: 2
   slug: magiceden-plans
-random_paper: 7
+random_paper: 41
 rate_limits:
 - limit_count: 4
   name: Magiceden Rate Limits
@@ -305,7 +305,7 @@ score:
     regime_id: securities_market_data
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magiceden/refs/heads/main/screenshots/magiceden-2026-06-20T184844.png
 security:

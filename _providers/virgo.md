@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Authenticated GraphQL API powering the Virgo Cloud endoscopy video capture and management portal. The endpoint is live but access requires an authenticated session (returns 401/403 unauthenticated); n
@@ -97,11 +97,11 @@ overview: 'Virgo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Virgo''s developer surface includes engineering blog, product news, support, and 10 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: emerging
   composite: 21.1
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -109,14 +109,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 19.4
+  previous_composite: 21.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

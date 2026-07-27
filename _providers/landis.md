@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -147,8 +147,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 23.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/landis/refs/heads/main/screenshots/landis-2026-07-25T224507.png
 security:
 - kind: domain-security
   name: Landis Domain Security

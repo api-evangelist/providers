@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -113,25 +113,25 @@ plans:
 - name: Topaz Plans Pricing
   plan_count: 2
   slug: topaz-plans-pricing
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Topaz Rate Limits
   slug: topaz-rate-limits
 score:
   band: thin
-  composite: 33.5
-  delta: 0.0
+  composite: 35.5
+  delta: 2.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 57.9
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 33.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: topaz
 tags:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: Daily-updated CSV dataset containing information on 85,000+ airports worldwide, including ICAO/IATA codes, coordinates, elevation, type, scheduled service status, and links to official and Wikipedia p
@@ -110,7 +110,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.8
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 9.4
@@ -118,14 +118,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 21.1
+  previous_composite: 22.8
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 32.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ourairports/refs/heads/main/screenshots/ourairports-2026-06-20T191224.png
 security:

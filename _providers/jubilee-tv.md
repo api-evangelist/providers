@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 29.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 common:
@@ -106,7 +106,7 @@ overview: 'Jubilee TV is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Jubilee TV''s developer surface includes engineering blog, support, pricing, authentication, and 11 more developer resources.'
-random_paper: 46
+random_paper: 63
 scopes:
 - name: Jubilee Tv Scopes
   scope_count: 4
@@ -125,7 +125,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

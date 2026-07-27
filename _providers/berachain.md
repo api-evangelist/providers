@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 10
 apis:
 - description: Public Ethereum-compatible JSON-RPC endpoint for Berachain mainnet (chain ID 80094). Supports the standard eth_* method set used by web3 clients, wallets, and indexers.
@@ -153,7 +153,7 @@ plans:
 - name: Berachain Plans Pricing
   plan_count: 1
   slug: berachain-plans-pricing
-random_paper: 7
+random_paper: 41
 rate_limits:
 - limit_count: 2
   name: Berachain Rate Limits
@@ -171,7 +171,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 29.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/berachain/refs/heads/main/screenshots/berachain-2026-06-20T173147.png
 security:

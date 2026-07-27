@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: MikMak Commerce enables checkout across retailers through various channels including social media, retail media, brand websites, search, CTV, display, QR codes, and more, with AI-powered inventory acc
@@ -106,7 +106,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 23.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mikmak/refs/heads/main/screenshots/mikmak-2026-06-20T185553.png
 security:

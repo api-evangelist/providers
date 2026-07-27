@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ apis:
 - description: The Users API from Apollo.io — 1 operation(s) for users.
   name: Apollo.io Users API
   slug: apollo-io-users-api
-artifact_total: 53
+artifact_total: 54
 collections:
 - collection_type: open
   name: Apollo.io API
@@ -262,6 +262,10 @@ graphqls:
   slug: apollo-io-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/apollo-io.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Apollo.io
 nav: Providers
@@ -274,25 +278,25 @@ plans:
 - name: Apollo Io Plans Pricing
   plan_count: 7
   slug: apollo-io-plans-pricing
-random_paper: 41
+random_paper: 24
 rate_limits:
 - limit_count: 7
   name: Apollo Io Rate Limits
   slug: apollo-io-rate-limits
 score:
   band: developing
-  composite: 51.7
-  delta: 0.0
+  composite: 52.4
+  delta: 0.7
   facets:
     commercial_clarity: 92.1
     contract_quality: 41.6
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 60.5
   previous_composite: 51.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-io/refs/heads/main/screenshots/apollo-io-2026-06-20T172312.png
 security:

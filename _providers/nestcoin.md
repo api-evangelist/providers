@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 67.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -222,11 +222,11 @@ overview: 'Nestcoin publishes 23 APIs on the [APIs.io](https://apis.io/) network
 
 
   Nestcoin''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 0
+random_paper: 51
 score:
   band: developing
   composite: 50.3
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 68.7
@@ -234,14 +234,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 49.7
+  previous_composite: 50.3
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ arazzos:
 - description: Read a payment for its SyncToken and then void it.
   name: Intuit Void Payment Safely
   slug: intuit-void-payment-safely-workflow
-artifact_total: 124
+artifact_total: 125
 asyncapis:
 - description: QuickBooks Online Webhooks provide near real-time notifications when data changes in a QuickBooks Online company. When an entity is created, updated, merged, deleted, or voided, Intuit sends an HTTP P
   name: QuickBooks Online Webhooks
@@ -575,6 +575,10 @@ jsonld:
   property_count: 0
   slug: quickbooks-accounting-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Intuit
 nav: Providers
@@ -606,7 +610,7 @@ press:
 - date: '2026-05-25'
   title: Intuit and OpenAI Join Forces to Revolutionize Financial ...
   url: https://investors.intuit.com/news-events/press-releases/detail/1284/intuit-and-openai-join-forces-to-revolutionize-financial-intelligence-powering-every-person-business-and-dream-with-personalized-experiences
-random_paper: 6
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Intuit Rate Limits
@@ -643,23 +647,23 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 64.9
-  delta: 2.0
+  composite: 68.5
+  delta: 3.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 75.2
+    contract_quality: 84.1
     developer_ergonomics: 60.9
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 34.2
     operational_transparency: 78.9
-  previous_composite: 62.9
+  previous_composite: 64.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intuit/refs/heads/main/screenshots/intuit-2026-06-20T183515.png
 security:

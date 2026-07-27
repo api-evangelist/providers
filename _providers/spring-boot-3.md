@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -184,18 +184,18 @@ rules:
   slug: spring-boot-3-rules
 score:
   band: developing
-  composite: 45.0
-  delta: 0.0
+  composite: 47.0
+  delta: 2.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.6
     developer_ergonomics: 17.4
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 45.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-boot-3/refs/heads/main/screenshots/spring-boot-3-2026-06-20T194407.png
 security:

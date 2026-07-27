@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 56.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: Branch Management APIs
@@ -199,11 +199,11 @@ overview: 'EdfaPay, Inc. publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   EdfaPay, Inc.''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 24 more developer resources.'
-random_paper: 18
+random_paper: 1
 score:
   band: developing
   composite: 55.9
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 62.3
@@ -211,15 +211,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 54.3
+  previous_composite: 55.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/edfapay-inc/refs/heads/main/screenshots/edfapay-inc-2026-07-25T212824.png
 security:
 - kind: authentication
   name: Edfapay Inc Authentication

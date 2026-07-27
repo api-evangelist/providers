@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: FMX Futures Exchange launched September 23, 2024, initially listing SOFR futures (the largest notional futures contract in the world) and adding U.S. Treasury futures in Q1 2025. Equity partners inclu
@@ -176,7 +176,7 @@ rate_limits:
 score:
   band: thin
   composite: 33.0
-  delta: 3.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 15.1
@@ -184,14 +184,14 @@ score:
     discoverability: 100.0
     governance: 13.2
     operational_transparency: 0.0
-  previous_composite: 29.2
+  previous_composite: 33.0
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

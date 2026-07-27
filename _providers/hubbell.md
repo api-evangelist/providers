@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,7 +77,7 @@ press:
 - date: '2026-05-25'
   title: 'Artificial Intelligence Part 1: The Basics for Utilities'
   url: https://blog.hubbell.com/en/aclara/artificial-intelligence-part-1-the-basics-for-utilities
-random_paper: 20
+random_paper: 54
 rules:
 - name: Hubbell API Rules
   rule_count: 0
@@ -100,7 +100,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

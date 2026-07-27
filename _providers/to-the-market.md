@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Agent-driven commerce surface for the TO THE MARKET store, implementing the Universal Commerce Protocol over a hosted MCP endpoint. Agents can search the catalog, create carts, and run buyer-approved '
@@ -106,7 +106,7 @@ overview: 'TO THE MARKET publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   TO THE MARKET''s developer surface includes authentication, signup flow, support, and 11 more developer resources.'
-random_paper: 7
+random_paper: 58
 scopes:
 - name: To The Market Scopes
   scope_count: 4
@@ -125,7 +125,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 20.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -277,7 +277,7 @@ plans:
 - name: Amazon S3 Glacier Plans Pricing
   plan_count: 3
   slug: amazon-s3-glacier-plans-pricing
-random_paper: 48
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Amazon S3 Glacier Rate Limits
@@ -301,18 +301,18 @@ rules:
   slug: amazon-s3-glacier-spectral-rules
 score:
   band: strong
-  composite: 60.1
-  delta: 0.0
+  composite: 63.4
+  delta: 3.3
   facets:
     commercial_clarity: 81.6
     contract_quality: 61.1
     developer_ergonomics: 32.6
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 60.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-s3-glacier/refs/heads/main/screenshots/amazon-s3-glacier-2026-06-20T171814.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ overview: 'Bank of Queensland publishes 7 APIs on the [APIs.io](https://apis.io/
 
 
   Bank of Queensland''s developer surface includes authentication, documentation, support, and 18 more developer resources.'
-random_paper: 2
+random_paper: 19
 scopes:
 - name: Bank Of Queensland Scopes
   scope_count: 9
@@ -168,7 +168,7 @@ scopes:
 score:
   band: developing
   composite: 46.1
-  delta: 7.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 54.0
@@ -176,15 +176,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 38.8
+  previous_composite: 46.1
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-queensland/refs/heads/main/screenshots/bank-of-queensland-2026-07-21T114702.png
 security:
 - kind: authentication

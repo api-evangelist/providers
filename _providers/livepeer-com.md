@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 5
@@ -530,18 +530,18 @@ rules:
   slug: livepeer-studio-rules
 score:
   band: strong
-  composite: 61.0
-  delta: 0.0
+  composite: 65.7
+  delta: 4.7
   facets:
     commercial_clarity: 84.2
-    contract_quality: 57.1
+    contract_quality: 65.9
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 47.4
     operational_transparency: 73.7
   previous_composite: 61.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/livepeer-com/refs/heads/main/screenshots/livepeer-com-2026-06-20T184614.png
 security:

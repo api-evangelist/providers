@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -930,7 +930,7 @@ overview: 'Amazon CodeStar publishes 18 APIs on the [APIs.io](https://apis.io/) 
 
 
   Amazon CodeStar''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 15 more developer resources.'
-random_paper: 14
+random_paper: 48
 rules:
 - name: Amazon CodeStar API Rules
   rule_count: 5
@@ -961,8 +961,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 57.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codestar/refs/heads/main/screenshots/amazon-codestar-2026-07-25T200001.png
 security:
 - kind: authentication
   name: Amazon Codestar Authentication

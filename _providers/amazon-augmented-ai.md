@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 45.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -222,7 +222,7 @@ overview: 'Amazon Augmented AI publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Amazon Augmented AI''s developer surface includes authentication and 6 more developer resources.'
-random_paper: 5
+random_paper: 56
 rules:
 - name: Amazon Augmented AI API Rules
   rule_count: 4
@@ -253,8 +253,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 37.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-augmented-ai/refs/heads/main/screenshots/amazon-augmented-ai-2026-07-25T195931.png
 security:
 - kind: authentication
   name: Amazon Augmented Ai Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -130,25 +130,25 @@ plans:
 - name: Openlaws Plans Pricing
   plan_count: 3
   slug: openlaws-plans-pricing
-random_paper: 6
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Openlaws Rate Limits
   slug: openlaws-rate-limits
 score:
-  band: thin
-  composite: 44.0
-  delta: 0.0
+  band: developing
+  composite: 47.3
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 60.2
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 47.4
   previous_composite: 44.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openlaws/refs/heads/main/screenshots/openlaws-2026-06-20T191009.png
 security:

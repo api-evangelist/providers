@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -248,7 +248,7 @@ plans:
 - name: Amazon Lake Formation Plans Pricing
   plan_count: 3
   slug: amazon-lake-formation-plans-pricing
-random_paper: 33
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Amazon Lake Formation Rate Limits
@@ -272,19 +272,19 @@ rules:
   slug: amazon-lake-formation-spectral-rules
 score:
   band: exemplar
-  composite: 70.7
-  delta: 0.0
+  composite: 76.2
+  delta: 5.5
   facets:
     commercial_clarity: 86.8
-    contract_quality: 64.6
+    contract_quality: 73.5
     developer_ergonomics: 69.6
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 70.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lake-formation/refs/heads/main/screenshots/amazon-lake-formation-2026-06-20T171721.png
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Finds and returns the optimal swap route across 420+ liquidity sources on 17+ EVM chains. Returns the best route and encodes calldata for submission to the KyberSwap Aggregator smart contract.
@@ -76,7 +76,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 15
+random_paper: 32
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -94,7 +94,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 29.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kyberswap/refs/heads/main/screenshots/kyberswap-2026-06-20T184226.png
 security:

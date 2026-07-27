@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -343,23 +343,23 @@ rules:
   slug: avaloq-spectral-rules
 score:
   band: developing
-  composite: 48.8
-  delta: -2.0
+  composite: 51.5
+  delta: 2.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 70.1
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 26.3
-  previous_composite: 50.8
+  previous_composite: 48.8
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avaloq/refs/heads/main/screenshots/avaloq-2026-06-20T172720.png
 security:

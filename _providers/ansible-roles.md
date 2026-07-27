@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ plans:
 - name: Ansible Roles Plans Pricing
   plan_count: 3
   slug: ansible-roles-plans-pricing
-random_paper: 2
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Ansible Roles Rate Limits
@@ -204,18 +204,18 @@ rules:
   slug: ansible-roles-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.5
-  delta: 0.0
+  composite: 55.8
+  delta: 3.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 56.5
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 52.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansible-roles/refs/heads/main/screenshots/ansible-roles-2026-06-20T172023.png
 security:

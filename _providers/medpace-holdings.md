@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Medpace Holdings API provides access to platform services and data for enterprise integration and automation.
@@ -74,7 +74,7 @@ plans:
 - name: Medpace Holdings Plans Pricing
   plan_count: 1
   slug: medpace-holdings-plans-pricing
-random_paper: 39
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Medpace Holdings Rate Limits
@@ -92,7 +92,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 17.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medpace-holdings/refs/heads/main/screenshots/medpace-holdings-2026-06-20T185121.png
 security:

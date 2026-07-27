@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Centralized HKUST API platform run by the IT Services Office on Azure API Management. Departments publish application APIs to the portal, where users can discover APIs, read documentation, try them in
@@ -97,7 +97,7 @@ plans:
 - name: Hkust Plans Pricing
   plan_count: 2
   slug: hkust-plans-pricing
-random_paper: 49
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Hkust Rate Limits
@@ -105,7 +105,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.0
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 15.1
@@ -113,14 +113,14 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 22.8
+  previous_composite: 23.0
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hkust/refs/heads/main/screenshots/hkust-2026-06-20T182813.png
 security:

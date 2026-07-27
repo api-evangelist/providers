@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -238,7 +238,7 @@ plans:
 - name: Samsung Plans Pricing
   plan_count: 1
   slug: samsung-plans-pricing
-random_paper: 1
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Samsung Rate Limits
@@ -262,18 +262,18 @@ rules:
   slug: samsung-rules
 score:
   band: developing
-  composite: 47.4
-  delta: 0.0
+  composite: 49.4
+  delta: 2.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 66.7
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 47.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/samsung/refs/heads/main/screenshots/samsung-2026-06-20T193400.png
 security:

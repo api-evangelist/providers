@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 4
@@ -237,7 +237,7 @@ plans:
 - name: Truora Plans Pricing
   plan_count: 3
   slug: truora-plans-pricing
-random_paper: 6
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Truora Rate Limits
@@ -260,7 +260,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 68.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

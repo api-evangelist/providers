@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: The Tasks API from Chatwork — 3 operation(s) for tasks.
   name: Chatwork Tasks API
   slug: chatwork-tasks-api
-artifact_total: 14
+artifact_total: 15
 collections:
 - collection_type: open
   name: Chatwork API v2
@@ -145,6 +145,10 @@ created: '2026-05-11'
 description: Chatwork is a Japanese business messaging and collaboration platform similar to Slack, providing group chat rooms, task management, file sharing, and video calls for teams and organizations. The Chatwork REST API v2 enables programmatic access to user info, contacts, chat rooms, messages, tasks, and files, authenticated via an API token sent in the X-ChatWorkToken HTTP header.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chatwork.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Chatwork
 nav: Providers
@@ -153,21 +157,21 @@ overview: 'Chatwork publishes 9 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Chatwork''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, and 12 more developer resources.'
-random_paper: 0
+random_paper: 51
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 38.1
+  delta: 3.2
   facets:
     commercial_clarity: 23.7
     contract_quality: 51.3
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 34.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatwork/refs/heads/main/screenshots/chatwork-2026-06-20T174238.png
 security:

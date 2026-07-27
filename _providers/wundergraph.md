@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
 - description: Manage subgraphs - isolated GraphQL schemas that compose into federated graphs.
   name: WunderGraph Subgraphs API
   slug: wundergraph-subgraphs-api
-artifact_total: 59
+artifact_total: 60
 collections:
 - collection_type: open
   name: WunderGraph Cosmo Platform API
@@ -241,6 +241,10 @@ jsonld:
   property_count: 10
   slug: wundergraph-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: WunderGraph
 nav: Providers
@@ -256,7 +260,7 @@ plans:
 - name: Wundergraph Plans Pricing
   plan_count: 3
   slug: wundergraph-plans-pricing
-random_paper: 18
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Wundergraph Rate Limits
@@ -272,18 +276,18 @@ rules:
   slug: wundergraph-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.9
-  delta: 0.0
+  composite: 65.1
+  delta: 4.2
   facets:
     commercial_clarity: 89.5
-    contract_quality: 63.7
+    contract_quality: 72.6
     developer_ergonomics: 32.6
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 47.4
   previous_composite: 60.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wundergraph/refs/heads/main/screenshots/wundergraph-2026-06-20T201655.png
 security:

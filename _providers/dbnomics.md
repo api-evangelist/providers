@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -112,25 +112,26 @@ rate_limits:
   name: Dbnomics Rate Limits
   slug: dbnomics-rate-limits
 score:
-  band: emerging
-  composite: 29.8
-  delta: -3.0
+  band: thin
+  composite: 32.6
+  delta: 2.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 54.9
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 32.8
+  previous_composite: 29.8
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dbnomics/refs/heads/main/screenshots/dbnomics-2026-07-25T211453.png
 security:
 - kind: domain-security
   name: Dbnomics Domain Security

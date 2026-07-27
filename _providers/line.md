@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 58.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: The Profile API from LINE — 1 operation(s) for profile.
   name: LINE Profile API
   slug: line-profile-api
-artifact_total: 11
+artifact_total: 12
 asyncapis:
 - description: 'AsyncAPI description of the webhook event surface published by the LINE Messaging API to bot servers. The Messaging API delivers webhook events as HTTPS POST requests to the configured webhook URL of '
   name: LINE Messaging Webhook Event Surface
@@ -118,6 +118,10 @@ created: '2026-05-11'
 description: LINE is a Japan-based messaging platform with over 200 million monthly active users across Japan, Taiwan, Thailand, and Indonesia, offering messaging, payments, news, and a broad ecosystem of services. The LINE Developers platform exposes public APIs for building chatbots, mini-apps, social login, and audience marketing, all documented as OpenAPI specifications. APIs use Bearer token authentication with channel access tokens issued per LINE channel.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/line.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-29'
 name: LINE
 nav: Providers
@@ -141,18 +145,18 @@ rules:
   slug: line-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 37.7
-  delta: 0.0
+  composite: 41.0
+  delta: 3.3
   facets:
     commercial_clarity: 10.5
     contract_quality: 66.8
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 34.2
     operational_transparency: 5.3
   previous_composite: 37.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/screenshots/line-2026-06-20T184539.png
 security:

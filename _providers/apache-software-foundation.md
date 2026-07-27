@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -216,18 +216,18 @@ rules:
   slug: apache-software-foundation-spectral-rules
 score:
   band: developing
-  composite: 51.8
-  delta: 0.0
+  composite: 56.0
+  delta: 4.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.7
+    contract_quality: 72.6
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 51.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-software-foundation/refs/heads/main/screenshots/apache-software-foundation-2026-06-20T172144.png
 security:

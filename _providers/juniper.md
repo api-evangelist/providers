@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ apis:
 - description: Wireless LAN configuration
   name: Juniper Networks WLANs API
   slug: juniper-wlans-api
-artifact_total: 136
+artifact_total: 137
 collections:
 - collection_type: open
   name: Juniper Networks Juniper Apstra API
@@ -527,6 +527,10 @@ jsonld:
   property_count: 8
   slug: juniper-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Juniper Networks
 nav: Providers
@@ -542,7 +546,7 @@ plans:
 - name: Juniper Plans Pricing
   plan_count: 1
   slug: juniper-plans-pricing
-random_paper: 0
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Juniper Rate Limits
@@ -558,18 +562,18 @@ rules:
   slug: juniper-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.8
-  delta: 0.0
+  composite: 54.3
+  delta: 2.5
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.3
     developer_ergonomics: 43.5
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 51.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/juniper/refs/heads/main/screenshots/juniper-2026-06-20T183833.png
 security:

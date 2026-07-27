@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ plans:
 - name: Crossplane Plans Pricing
   plan_count: 3
   slug: crossplane-plans-pricing
-random_paper: 11
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Crossplane Rate Limits
@@ -209,20 +209,20 @@ rules:
     warn: 2
   slug: crossplane-kubernetes-api-rules
 score:
-  band: developing
-  composite: 58.1
-  delta: 0.0
+  band: strong
+  composite: 63.6
+  delta: 5.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 69.9
+    contract_quality: 78.8
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 58.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/crossplane/refs/heads/main/screenshots/crossplane-2026-06-20T175248.png
 security:
 - kind: authentication

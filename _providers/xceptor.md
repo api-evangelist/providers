@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -328,7 +328,7 @@ plans:
 - name: Xceptor Plans Pricing
   plan_count: 1
   slug: xceptor-plans-pricing
-random_paper: 8
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Xceptor Rate Limits
@@ -344,18 +344,18 @@ rules:
   slug: xceptor-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 54.7
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 59.8
     developer_ergonomics: 37.0
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 51.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xceptor/refs/heads/main/screenshots/xceptor-2026-06-20T201656.png
 security:

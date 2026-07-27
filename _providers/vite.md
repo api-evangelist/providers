@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -174,18 +174,18 @@ rules:
   slug: vite-rules
 score:
   band: developing
-  composite: 47.4
-  delta: 0.0
+  composite: 49.4
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 59.3
     developer_ergonomics: 15.2
-    discoverability: 60.0
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 47.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vite/refs/heads/main/screenshots/vite-2026-06-20T201105.png
 security:

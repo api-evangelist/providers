@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: RESTful phishing threat intelligence API. Look up URL/host reputation, run real-time SEER-engine URL scans (async url/scan and blocking url/scansync), pull forensic downloads (screenshot/html/text) by
@@ -78,7 +78,7 @@ overview: 'SlashNext publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   SlashNext''s developer surface includes documentation, authentication, and 6 more developer resources.'
-random_paper: 17
+random_paper: 34
 score:
   band: minimal
   composite: 13.2
@@ -92,7 +92,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

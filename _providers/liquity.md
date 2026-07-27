@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 31.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ overview: 'Liquity publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Liquity''s developer surface includes documentation, engineering blog, and 16 more developer resources.'
-random_paper: 20
+random_paper: 37
 rules:
 - name: Liquity API Rules
   rule_count: 6
@@ -193,7 +193,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 44.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liquity/refs/heads/main/screenshots/liquity-2026-06-20T184559.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 11
 apis:
 - description: Open dataset of global address points and ranges, released as cloud-native GeoParquet alongside the other Overture themes.
@@ -124,7 +124,7 @@ plans:
 - name: Overture Maps Plans Pricing
   plan_count: 1
   slug: overture-maps-plans-pricing
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Overture Maps Rate Limits
@@ -132,7 +132,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.1
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -140,14 +140,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 21.4
+  previous_composite: 20.1
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/overture-maps/refs/heads/main/screenshots/overture-maps-2026-06-20T191239.png
 security:

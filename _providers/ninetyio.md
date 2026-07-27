@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 19
@@ -209,7 +209,7 @@ overview: 'Ninety.io publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Ninety.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 12
+random_paper: 63
 score:
   band: developing
   composite: 50.0
@@ -223,7 +223,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 50.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

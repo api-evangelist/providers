@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -90,7 +90,7 @@ press:
 - date: '2026-05-25'
   title: Owens Corning, Roof Scout Launch Virtual Sales Tool
   url: https://www.roofingcontractor.com/articles/102170-owens-corning-roof-scout-launch-virtual-sales-tool
-random_paper: 27
+random_paper: 61
 score:
   band: minimal
   composite: 7.4
@@ -104,7 +104,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/owens-corning/refs/heads/main/screenshots/owens-corning-2026-06-20T191252.png
 security:

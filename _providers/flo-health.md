@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -74,7 +74,7 @@ name: Flo Health
 nav: Providers
 network: true
 overview: Flo Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Femtech, Women's Health, Reproductive Health, Period Tracker, and Cycle Tracking.
-random_paper: 27
+random_paper: 44
 score:
   band: minimal
   composite: 9.0
@@ -88,7 +88,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flo-health/refs/heads/main/screenshots/flo-health-2026-06-20T181317.png
 security:

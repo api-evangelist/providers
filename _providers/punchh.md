@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -370,19 +370,19 @@ rules:
     warn: 23
   slug: punchh-spectral-rules
 score:
-  band: developing
-  composite: 55.7
-  delta: 0.0
+  band: strong
+  composite: 60.4
+  delta: 4.7
   facets:
     commercial_clarity: 28.9
-    contract_quality: 71.2
+    contract_quality: 80.0
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 44.7
   previous_composite: 55.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/punchh/refs/heads/main/screenshots/punchh-2026-06-20T192311.png
 security:

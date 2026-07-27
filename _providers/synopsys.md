@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ press:
 - date: '2026-05-25'
   title: Synopsys Outlines Vision for Engineering the Future
   url: https://www.prnewswire.com/news-releases/synopsys-outlines-vision-for-engineering-the-future-302711205.html
-random_paper: 2
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Synopsys Rate Limits
@@ -202,18 +202,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 51.4
+  delta: 2.5
   facets:
     commercial_clarity: 28.9
     contract_quality: 65.5
     developer_ergonomics: 23.9
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 48.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synopsys/refs/heads/main/screenshots/synopsys-2026-06-20T194831.png
 security:

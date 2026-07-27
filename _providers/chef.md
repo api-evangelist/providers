@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 63.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ arazzos:
 - description: Create a role, read it back, then place it in a node's run list.
   name: Chef Define a Role and Assign It to a Node
   slug: chef-role-assignment-workflow
-artifact_total: 38
+artifact_total: 39
 collections:
 - collection_type: open
   name: Chef Automate API
@@ -299,6 +299,10 @@ jsonld:
   property_count: 7
   slug: chef-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: chef-mcp.yml
+  slug: chef-mcpyml
 modified: '2026-06-20'
 name: Chef
 nav: Providers
@@ -314,7 +318,7 @@ plans:
 - name: Chef Plans Pricing
   plan_count: 3
   slug: chef-plans-pricing
-random_paper: 49
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Chef Rate Limits
@@ -330,18 +334,18 @@ rules:
   slug: chef-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.6
-  delta: 0.0
+  composite: 64.6
+  delta: 2.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 55.8
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 62.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chef/refs/heads/main/screenshots/chef-2026-06-20T174250.png
 security:

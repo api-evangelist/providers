@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -104,18 +104,18 @@ rate_limits:
   slug: packer-rate-limits
 score:
   band: thin
-  composite: 33.6
-  delta: 0.0
+  composite: 35.6
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 40.7
     developer_ergonomics: 23.9
-    discoverability: 60.0
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 33.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/packer/refs/heads/main/screenshots/packer-2026-06-20T191313.png
 security:

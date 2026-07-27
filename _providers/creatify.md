@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -140,19 +140,20 @@ rate_limits:
   slug: creatify-rate-limits
 score:
   band: thin
-  composite: 36.9
-  delta: 0.0
+  composite: 40.1
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 55.2
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 36.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/creatify/refs/heads/main/screenshots/creatify-2026-07-25T210659.png
 security:
 - kind: authentication
   name: Creatify Authentication

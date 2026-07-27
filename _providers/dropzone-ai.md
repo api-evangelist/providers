@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Dropzone AI's primary "API surface" is its catalog of 90+ outbound integrations to SIEM, EDR/XDR, identity, cloud, and threat intel tools. The autonomous SOC analyst consumes alerts and enrichment dat
@@ -94,7 +94,7 @@ plans:
 - name: Dropzone Ai Plans Pricing
   plan_count: 1
   slug: dropzone-ai-plans-pricing
-random_paper: 6
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Dropzone Ai Rate Limits
@@ -112,7 +112,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 20.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dropzone-ai/refs/heads/main/screenshots/dropzone-ai-2026-06-20T180248.png
 security:

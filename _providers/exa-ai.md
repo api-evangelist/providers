@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -128,7 +128,7 @@ arazzos:
 - description: Build a Webset, list its items, and deep-fetch the top item's contents.
   name: Exa Webset Item Deep Contents
   slug: exa-ai-webset-item-deep-contents-workflow
-artifact_total: 75
+artifact_total: 76
 collections:
 - collection_type: postman
   name: Exa Agent API
@@ -493,6 +493,10 @@ jsonld:
   property_count: 12
   slug: exa-ai-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: exa-ai-mcp.yml
+  slug: exa-ai-mcpyml
 modified: '2026-06-20'
 name: Exa
 nav: Providers
@@ -508,7 +512,7 @@ plans:
 - name: Exa Ai Plans Pricing
   plan_count: 8
   slug: exa-ai-plans-pricing
-random_paper: 4
+random_paper: 21
 rate_limits:
 - limit_count: 6
   name: Exa Ai Rate Limits
@@ -524,18 +528,18 @@ rules:
   slug: exa-ai-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 70.2
-  delta: 0.0
+  composite: 74.9
+  delta: 4.7
   facets:
     commercial_clarity: 78.9
-    contract_quality: 62.2
+    contract_quality: 71.0
     developer_ergonomics: 71.7
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 70.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exa-ai/refs/heads/main/screenshots/exa-ai-2026-06-20T180928.png
 security:

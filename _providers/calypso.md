@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: Main REST API for the Nasdaq Calypso platform. Provides programmatic access to remotely control calls to the Calypso platform from other software, enabling regulatory analytics, current limits usage q
@@ -123,7 +123,7 @@ plans:
 - name: Calypso Plans Pricing
   plan_count: 3
   slug: calypso-plans-pricing
-random_paper: 49
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Calypso Rate Limits
@@ -146,7 +146,7 @@ score:
     regime_id: securities_market_data
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calypso/refs/heads/main/screenshots/calypso-2026-06-20T173858.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -219,7 +219,7 @@ plans:
 - name: Growthbook Plans Pricing
   plan_count: 1
   slug: growthbook-plans-pricing
-random_paper: 23
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Growthbook Rate Limits
@@ -237,7 +237,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 35.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/growthbook/refs/heads/main/screenshots/growthbook-2026-06-20T182422.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 73.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ arazzos:
 - description: Authenticate, initialize a user state, fetch the current step, submit step data, then read the profile.
   name: Trulioo Workflow Studio Drive A Flow
   slug: trulioo-workflow-studio-run-flow-workflow
-artifact_total: 91
+artifact_total: 92
 collections:
 - collection_type: postman
   name: Trulioo Business Verification API
@@ -571,6 +571,10 @@ jsonld:
   property_count: 17
   slug: trulioo-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: Trulioo MCP Server (KYB)
+  slug: trulioo-mcp-server-kyb
 modified: '2026-05-25'
 name: Trulioo
 nav: Providers
@@ -586,7 +590,7 @@ plans:
 - name: Trulioo Plans Pricing
   plan_count: 6
   slug: trulioo-plans-pricing
-random_paper: 17
+random_paper: 34
 rate_limits:
 - limit_count: 3
   name: Trulioo Rate Limits
@@ -615,19 +619,19 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 79.0
-  delta: 0.0
+  composite: 84.5
+  delta: 5.5
   facets:
     commercial_clarity: 100.0
-    contract_quality: 67.1
+    contract_quality: 76.0
     developer_ergonomics: 87.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 71.1
   previous_composite: 79.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/screenshots/trulioo-2026-06-20T195758.png
 security:
 - kind: authentication

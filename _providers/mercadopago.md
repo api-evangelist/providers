@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -163,30 +163,30 @@ plans:
 - name: Mercadopago Plans Pricing
   plan_count: 1
   slug: mercadopago-plans-pricing
-random_paper: 32
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Mercadopago Rate Limits
   slug: mercadopago-rate-limits
 score:
   band: thin
-  composite: 32.4
-  delta: -1.2
+  composite: 34.6
+  delta: 2.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 47.8
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 33.6
+  previous_composite: 32.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

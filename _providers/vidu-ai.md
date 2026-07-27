@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -105,25 +105,25 @@ plans:
 - name: Vidu Ai Plans Pricing
   plan_count: 2
   slug: vidu-ai-plans-pricing
-random_paper: 24
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Vidu Ai Rate Limits
   slug: vidu-ai-rate-limits
 score:
   band: thin
-  composite: 34.6
-  delta: 0.0
+  composite: 37.9
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 56.6
     developer_ergonomics: 19.6
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 34.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

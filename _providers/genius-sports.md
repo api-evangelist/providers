@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 66
   human_in_the_loop: 0
@@ -190,25 +190,25 @@ plans:
 - name: Genius Sports Plans Pricing
   plan_count: 3
   slug: genius-sports-plans-pricing
-random_paper: 2
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Genius Sports Rate Limits
   slug: genius-sports-rate-limits
 score:
   band: thin
-  composite: 31.5
-  delta: 0.0
+  composite: 33.5
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 37.7
     developer_ergonomics: 19.6
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 31.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genius-sports/refs/heads/main/screenshots/genius-sports-2026-06-20T181734.png
 security:

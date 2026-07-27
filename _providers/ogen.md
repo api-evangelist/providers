@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Ogen is a high-performance Go code generator that produces type-safe HTTP clients and servers from OpenAPI v3 specifications with validation, middleware, and observability built in.
@@ -88,7 +88,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 19.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ogen/refs/heads/main/screenshots/ogen-2026-06-20T190640.png
 security:

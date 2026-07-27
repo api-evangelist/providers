@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Single REST API spanning Cryptocurrency endpoints (listings, quotes, OHLCV, market pairs, historical), Exchange endpoints (listings, quotes, market pairs), DEX/on-chain data (networks, dexes, spot pai
@@ -94,7 +94,7 @@ plans:
 - name: Coinmarketcap Plans Pricing
   plan_count: 6
   slug: coinmarketcap-plans-pricing
-random_paper: 0
+random_paper: 17
 rate_limits:
 - limit_count: 8
   name: Coinmarketcap Rate Limits
@@ -102,7 +102,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.4
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -110,14 +110,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 28.8
+  previous_composite: 26.4
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinmarketcap/refs/heads/main/screenshots/coinmarketcap-2026-06-20T174738.png
 security:

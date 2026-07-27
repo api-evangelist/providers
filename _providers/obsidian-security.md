@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Obsidian Security is a SaaS security platform providing threat detection, posture management, and compliance monitoring for cloud applications.
@@ -82,7 +82,7 @@ plans:
 - name: Obsidian Security Plans Pricing
   plan_count: 3
   slug: obsidian-security-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Obsidian Security Rate Limits
@@ -100,7 +100,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 21.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/obsidian-security/refs/heads/main/screenshots/obsidian-security-2026-06-20T190555.png
 security:

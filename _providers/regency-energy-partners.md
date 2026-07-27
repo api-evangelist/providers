@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -81,7 +81,7 @@ press:
 - date: '2026-05-25'
   title: Regency Energy to buy field services co for $185 million
   url: https://www.reuters.com/article/business/regency-energy-to-buy-field-services-co-for-185-million-idUSTRE67822L/
-random_paper: 22
+random_paper: 56
 score:
   band: minimal
   composite: 11.4
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

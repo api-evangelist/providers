@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Developer portals with multiple api gateways. No vendor lock-in. Enjoy the freedom of an open source developer portal that can connect to many API gateways.
@@ -63,7 +63,7 @@ plans:
 - name: Pronovix Plans Pricing
   plan_count: 3
   slug: pronovix-plans-pricing
-random_paper: 34
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Pronovix Rate Limits
@@ -81,7 +81,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 18.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pronovix/refs/heads/main/screenshots/pronovix-2026-06-20T192203.png
 security:

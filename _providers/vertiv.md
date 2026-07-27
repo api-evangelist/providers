@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ plans:
 - name: Vertiv Plans Pricing
   plan_count: 1
   slug: vertiv-plans-pricing
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Vertiv Rate Limits
@@ -230,18 +230,18 @@ rules:
   slug: vertiv-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.8
-  delta: 0.0
+  composite: 49.2
+  delta: 3.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 69.6
+    contract_quality: 74.9
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 60.5
     operational_transparency: 26.3
   previous_composite: 45.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/screenshots/vertiv-2026-06-20T200959.png
 security:

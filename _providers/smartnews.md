@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 78.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -211,7 +211,7 @@ overview: 'SmartNews publishes 15 APIs on the [APIs.io](https://apis.io/) networ
 
 
   SmartNews'' developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, changelog, and 21 more developer resources.'
-random_paper: 27
+random_paper: 44
 rate_limits:
 - limit_count: 2
   name: Smartnews Rate Limits
@@ -229,7 +229,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 49.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

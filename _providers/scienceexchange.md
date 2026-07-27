@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -118,11 +118,11 @@ overview: 'Science Exchange is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Science Exchange''s developer surface includes API reference, engineering blog, support, authentication, and 15 more developer resources.'
-random_paper: 35
+random_paper: 1
 score:
   band: emerging
   composite: 28.1
-  delta: 4.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -130,14 +130,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 23.5
+  previous_composite: 28.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

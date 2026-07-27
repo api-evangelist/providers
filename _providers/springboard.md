@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -54,7 +54,7 @@ name: Springboard
 nav: Providers
 network: true
 overview: Springboard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Online Learning, and Bootcamp.
-random_paper: 6
+random_paper: 23
 score:
   band: minimal
   composite: 8.1
@@ -68,7 +68,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 8.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

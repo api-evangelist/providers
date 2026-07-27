@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -250,7 +250,7 @@ plans:
 - name: Uwa Plans Pricing
   plan_count: 2
   slug: uwa-plans-pricing
-random_paper: 27
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Uwa Rate Limits
@@ -285,7 +285,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 47.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uwa/refs/heads/main/screenshots/uwa-2026-06-20T200736.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -423,7 +423,7 @@ plans:
 - name: Hyperbolic Ai Plans Pricing
   plan_count: 16
   slug: hyperbolic-ai-plans-pricing
-random_paper: 45
+random_paper: 28
 rate_limits:
 - limit_count: 3
   name: Hyperbolic Ai Rate Limits
@@ -447,18 +447,18 @@ rules:
   slug: hyperbolic-ai-rules
 score:
   band: strong
-  composite: 65.2
-  delta: 0.0
+  composite: 68.6
+  delta: 3.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.4
+    contract_quality: 72.7
     developer_ergonomics: 71.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbolic-ai/refs/heads/main/screenshots/hyperbolic-ai-2026-06-20T183118.png
 security:

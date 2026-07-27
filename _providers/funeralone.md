@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -102,7 +102,7 @@ plans:
 - name: Funeralone Plans Pricing
   plan_count: 3
   slug: funeralone-plans-pricing
-random_paper: 0
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Funeralone Rate Limits
@@ -120,8 +120,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 39.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/funeralone/refs/heads/main/screenshots/funeralone-2026-07-25T215318.png
 security:
 - kind: authentication
   name: Funeralone Authentication

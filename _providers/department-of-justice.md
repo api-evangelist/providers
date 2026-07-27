@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: The DOJ News API exposes more than 14,000 press releases, speeches, and blog entries from the Office of Public Affairs as a JSON web service. Endpoints under /api/v1/ provide list and detail views for
@@ -166,7 +166,7 @@ plans:
 - name: Department Of Justice Plans Pricing
   plan_count: 3
   slug: department-of-justice-plans-pricing
-random_paper: 47
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Department Of Justice Rate Limits
@@ -174,7 +174,7 @@ rate_limits:
 score:
   band: emerging
   composite: 29.7
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 9.4
@@ -182,14 +182,14 @@ score:
     discoverability: 100.0
     governance: 13.2
     operational_transparency: 36.8
-  previous_composite: 29.2
+  previous_composite: 29.7
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 32.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-justice/refs/heads/main/screenshots/department-of-justice-2026-06-20T175938.png
 security:

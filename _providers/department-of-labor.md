@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: The DOL Open Data API v4 is the Department of Labor's modernized REST API replacing the retired developer.dol.gov APIv1 and APIv2. It is served from the DOL Data Portal at dataportal.dol.gov and expos
@@ -158,7 +158,7 @@ plans:
 - name: Department Of Labor Plans Pricing
   plan_count: 3
   slug: department-of-labor-plans-pricing
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Department Of Labor Rate Limits
@@ -166,7 +166,7 @@ rate_limits:
 score:
   band: emerging
   composite: 29.3
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 9.4
@@ -174,14 +174,14 @@ score:
     discoverability: 100.0
     governance: 13.2
     operational_transparency: 36.8
-  previous_composite: 28.7
+  previous_composite: 29.3
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 32.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-labor/refs/heads/main/screenshots/department-of-labor-2026-06-20T175920.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -330,7 +330,7 @@ plans:
 - name: Giphy Plans Pricing
   plan_count: 3
   slug: giphy-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Giphy Rate Limits
@@ -353,19 +353,19 @@ rules:
     warn: 3
   slug: giphy-rules
 score:
-  band: developing
-  composite: 59.2
-  delta: 0.0
+  band: strong
+  composite: 63.9
+  delta: 4.7
   facets:
     commercial_clarity: 81.6
-    contract_quality: 67.0
+    contract_quality: 75.9
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 5.3
   previous_composite: 59.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/giphy/refs/heads/main/screenshots/giphy-2026-06-20T181827.png
 security:

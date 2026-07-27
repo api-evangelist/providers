@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -146,7 +146,7 @@ overview: 'evroc is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   evroc''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 19 more developer resources.'
-random_paper: 33
+random_paper: 67
 score:
   band: thin
   composite: 35.6
@@ -160,8 +160,9 @@ score:
     operational_transparency: 44.7
   previous_composite: 35.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/evroc/refs/heads/main/screenshots/evroc-2026-07-25T213819.png
 security:
 - kind: authentication
   name: Evroc Authentication

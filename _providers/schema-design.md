@@ -21,7 +21,7 @@ modified: '2026-05-02'
 name: Schema Design
 nav: Providers
 network: true
-random_paper: 29
+random_paper: 12
 slug: schema-design
 tags:
 - Schema Design

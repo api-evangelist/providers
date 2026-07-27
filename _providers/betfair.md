@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ plans:
 - name: Betfair Plans Pricing
   plan_count: 4
   slug: betfair-plans-pricing
-random_paper: 19
+random_paper: 53
 rate_limits:
 - limit_count: 7
   name: Betfair Rate Limits
@@ -142,24 +142,24 @@ rules:
     warn: 6
   slug: betfair-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 44.1
-  delta: -3.1
+  band: developing
+  composite: 46.8
+  delta: 2.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 62.9
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 31.6
-  previous_composite: 47.2
+  previous_composite: 44.1
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

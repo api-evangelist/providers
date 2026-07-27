@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -134,25 +134,25 @@ plans:
 - name: Sambanova Plans Pricing
   plan_count: 1
   slug: sambanova-plans-pricing
-random_paper: 34
+random_paper: 0
 rate_limits:
 - limit_count: 2
   name: Sambanova Rate Limits
   slug: sambanova-rate-limits
 score:
   band: thin
-  composite: 39.3
-  delta: 0.0
+  composite: 42.6
+  delta: 3.3
   facets:
     commercial_clarity: 36.8
     contract_quality: 59.3
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 39.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sambanova/refs/heads/main/screenshots/sambanova-2026-06-20T193358.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -525,7 +525,7 @@ plans:
 - name: Sap Hana Plans Pricing
   plan_count: 1
   slug: sap-hana-plans-pricing
-random_paper: 12
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Sap Hana Rate Limits
@@ -553,19 +553,19 @@ scopes:
   slug: sap-hana-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 55.7
-  delta: 0.0
+  band: strong
+  composite: 60.4
+  delta: 4.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 70.1
+    contract_quality: 78.9
     developer_ergonomics: 34.8
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 55.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-hana/refs/heads/main/screenshots/sap-hana-2026-06-20T193427.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 5
@@ -239,7 +239,7 @@ overview: 'Smol Machines publishes 19 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Smol Machines'' developer surface includes authentication, documentation, API reference, getting-started guide, quickstart, signup flow, pricing, and 25 more developer resources.'
-random_paper: 2
+random_paper: 36
 score:
   band: developing
   composite: 49.9
@@ -253,7 +253,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 49.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

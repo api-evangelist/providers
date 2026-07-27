@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ plans:
 - name: Kareo Plans Pricing
   plan_count: 5
   slug: kareo-plans-pricing
-random_paper: 20
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Kareo Rate Limits
@@ -183,7 +183,7 @@ rules:
 score:
   band: developing
   composite: 51.5
-  delta: -3.0
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 65.5
@@ -191,14 +191,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 42.1
-  previous_composite: 54.5
+  previous_composite: 51.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 34.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kareo/refs/heads/main/screenshots/kareo-2026-06-20T183920.png
 security:

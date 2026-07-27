@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -201,7 +201,7 @@ plans:
 - name: Userpilot Plans Pricing
   plan_count: 1
   slug: userpilot-plans-pricing
-random_paper: 30
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Userpilot Rate Limits
@@ -217,18 +217,18 @@ rules:
   slug: userpilot-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.8
-  delta: 0.0
+  composite: 42.0
+  delta: 3.2
   facets:
     commercial_clarity: 36.8
     contract_quality: 45.9
     developer_ergonomics: 10.9
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 38.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/userpilot/refs/heads/main/screenshots/userpilot-2026-06-20T200701.png
 security:

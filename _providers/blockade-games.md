@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: The Skybox Exports API from Blockade Games — 2 operation(s) for skybox exports.
@@ -184,7 +184,7 @@ overview: 'Blockade Games publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Blockade Games'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
-random_paper: 14
+random_paper: 31
 score:
   band: developing
   composite: 52.9
@@ -198,8 +198,9 @@ score:
     operational_transparency: 34.2
   previous_composite: 52.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/blockade-games/refs/heads/main/screenshots/blockade-games-2026-07-25T203333.png
 security:
 - kind: authentication
   name: Blockade Games Authentication

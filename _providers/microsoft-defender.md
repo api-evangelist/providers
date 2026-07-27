@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -215,18 +215,18 @@ scopes:
   summary_line: 1 scope · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 53.0
-  delta: 0.0
+  composite: 55.1
+  delta: 2.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.1
+    contract_quality: 73.5
     developer_ergonomics: 19.6
-    discoverability: 42.5
+    discoverability: 50.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 53.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-defender/refs/heads/main/screenshots/microsoft-defender-2026-06-20T185449.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 67.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 136
   human_in_the_loop: 2
@@ -246,11 +246,11 @@ overview: 'Drippay publishes 23 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Drippay''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 22 more developer resources.'
-random_paper: 47
+random_paper: 13
 score:
   band: developing
   composite: 57.5
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 63.4
@@ -258,15 +258,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 58.0
+  previous_composite: 57.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/drippay/refs/heads/main/screenshots/drippay-2026-07-25T212410.png
 security:
 - kind: authentication
   name: Drippay Authentication

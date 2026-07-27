@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: A REST API for programmatically sending letters, postcards, checks, and self-mailers. Handles printing, postage, and delivery with support for templates, contacts, tracking, webhooks, and both test an
@@ -128,7 +128,7 @@ plans:
 - name: Postgrid Plans Pricing
   plan_count: 13
   slug: postgrid-plans-pricing
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 3
   name: Postgrid Rate Limits
@@ -146,7 +146,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 45.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postgrid/refs/heads/main/screenshots/postgrid-2026-06-20T191958.png
 security:

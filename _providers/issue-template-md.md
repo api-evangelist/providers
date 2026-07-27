@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -48,7 +48,7 @@ overview: 'ISSUE_TEMPLATE.md is profiled on the [APIs.io](https://apis.io/) netw
 
 
   ISSUE_TEMPLATE.md''s developer surface includes documentation.'
-random_paper: 29
+random_paper: 12
 rules:
 - name: ISSUE_TEMPLATE.md API Rules
   rule_count: 0
@@ -71,7 +71,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/issue-template-md/refs/heads/main/screenshots/issue-template-md-2026-06-20T183624.png
 slug: issue-template-md

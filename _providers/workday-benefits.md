@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -239,20 +239,20 @@ scopes:
   slug: workday-benefits-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: developing
-  composite: 56.1
-  delta: 0.0
+  band: strong
+  composite: 61.5
+  delta: 5.4
   facets:
     commercial_clarity: 57.9
-    contract_quality: 71.7
+    contract_quality: 80.5
     developer_ergonomics: 39.1
-    discoverability: 42.5
+    discoverability: 75.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 56.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-benefits/refs/heads/main/screenshots/workday-benefits-2026-06-20T201559.png
 security:
 - kind: authentication

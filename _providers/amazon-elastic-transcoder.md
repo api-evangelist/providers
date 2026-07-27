@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -1505,7 +1505,7 @@ plans:
 - name: Amazon Elastic Transcoder Plans Pricing
   plan_count: 3
   slug: amazon-elastic-transcoder-plans-pricing
-random_paper: 4
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Amazon Elastic Transcoder Rate Limits
@@ -1528,20 +1528,20 @@ rules:
     warn: 13
   slug: amazon-elastic-transcoder-spectral-rules
 score:
-  band: strong
-  composite: 67.3
-  delta: 0.0
+  band: exemplar
+  composite: 72.8
+  delta: 5.5
   facets:
     commercial_clarity: 89.5
-    contract_quality: 64.6
+    contract_quality: 73.5
     developer_ergonomics: 45.7
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 63.2
   previous_composite: 67.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-elastic-transcoder/refs/heads/main/screenshots/amazon-elastic-transcoder-2026-06-20T171639.png
 security:
 - kind: authentication

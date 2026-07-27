@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 75.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ overview: 'Adaptive ML publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Adaptive ML''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 21 more developer resources.'
-random_paper: 37
+random_paper: 20
 score:
   band: developing
   composite: 48.5
@@ -214,8 +214,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 48.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-ml/refs/heads/main/screenshots/adaptive-ml-2026-07-25T181557.png
 security:
 - kind: authentication
   name: Adaptive Ml Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 3
@@ -82,7 +82,7 @@ apis:
 - description: Operations about workflows
   name: N8n Workflow API
   slug: n8n-workflow-api
-artifact_total: 42
+artifact_total: 43
 collections:
 - collection_type: open
   name: n8n Public API
@@ -201,6 +201,10 @@ json_structures:
   property_count: 0
   slug: n8n-structure
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: N8n
 nav: Providers
@@ -213,25 +217,25 @@ plans:
 - name: N8N Plans Pricing
   plan_count: 4
   slug: n8n-plans-pricing
-random_paper: 21
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: N8N Rate Limits
   slug: n8n-rate-limits
 score:
   band: developing
-  composite: 55.5
-  delta: 0.0
+  composite: 57.5
+  delta: 2.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 50.2
     developer_ergonomics: 54.3
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 63.2
   previous_composite: 55.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n8n/refs/heads/main/screenshots/n8n-2026-06-20T185922.png
 security:

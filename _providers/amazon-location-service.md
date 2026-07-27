@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -285,7 +285,7 @@ plans:
 - name: Amazon Location Service Plans Pricing
   plan_count: 3
   slug: amazon-location-service-plans-pricing
-random_paper: 0
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Amazon Location Service Rate Limits
@@ -308,20 +308,20 @@ rules:
     warn: 15
   slug: amazon-location-service-spectral-rules
 score:
-  band: strong
-  composite: 64.9
-  delta: 0.0
+  band: exemplar
+  composite: 70.3
+  delta: 5.4
   facets:
     commercial_clarity: 81.6
-    contract_quality: 64.6
+    contract_quality: 73.5
     developer_ergonomics: 45.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 64.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-location-service/refs/heads/main/screenshots/amazon-location-service-2026-06-20T171726.png
 security:
 - kind: authentication

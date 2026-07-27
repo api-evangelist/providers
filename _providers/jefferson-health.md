@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -302,24 +302,24 @@ scopes:
   summary_line: 13 scopes · authorizationCode
 score:
   band: developing
-  composite: 48.1
-  delta: 6.9
+  composite: 50.2
+  delta: 2.1
   facets:
     commercial_clarity: 68.4
     contract_quality: 55.5
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 39.5
     operational_transparency: 0.0
-  previous_composite: 41.2
+  previous_composite: 48.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jefferson-health/refs/heads/main/screenshots/jefferson-health-2026-06-20T183715.png
 security:
 - kind: authentication

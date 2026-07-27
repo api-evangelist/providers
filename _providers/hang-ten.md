@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ overview: 'Hang Ten is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Hang Ten''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 21
+random_paper: 38
 score:
   band: minimal
   composite: 7.2
@@ -75,8 +75,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hang-ten/refs/heads/main/screenshots/hang-ten-2026-07-25T220622.png
 security:
 - kind: domain-security
   name: Hang Ten Domain Security

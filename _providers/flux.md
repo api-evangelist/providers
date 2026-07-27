@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - description: Endpoints for polling the status and retrieving completed image editing results.
   name: Flux Results API
   slug: flux-results-api
-artifact_total: 14
+artifact_total: 15
 collections:
 - collection_type: open
   name: Flux Image Editing API
@@ -136,6 +136,10 @@ jsonld:
   property_count: 5
   slug: flux-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Flux
 nav: Providers
@@ -166,19 +170,19 @@ rules:
     warn: 5
   slug: flux-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 57.7
-  delta: 0.0
+  band: strong
+  composite: 62.3
+  delta: 4.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.6
+    contract_quality: 69.9
     developer_ergonomics: 41.3
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 57.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flux/refs/heads/main/screenshots/flux-2026-06-20T181418.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 61.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -387,7 +387,7 @@ plans:
 - name: Argyle Financial Plans Pricing
   plan_count: 3
   slug: argyle-financial-plans-pricing
-random_paper: 41
+random_paper: 58
 rate_limits:
 - limit_count: 4
   name: Argyle Financial Rate Limits
@@ -410,24 +410,24 @@ rules:
     warn: 0
   slug: argyle-rules
 score:
-  band: strong
-  composite: 68.5
-  delta: 1.8
+  band: exemplar
+  composite: 70.6
+  delta: 2.1
   facets:
     commercial_clarity: 92.1
     contract_quality: 55.6
     developer_ergonomics: 47.8
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 71.1
-  previous_composite: 66.7
+  previous_composite: 68.5
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argyle-financial/refs/heads/main/screenshots/argyle-financial-2026-06-20T172425.png
 security:

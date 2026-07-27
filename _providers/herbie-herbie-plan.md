@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ overview: 'Herbie, Herbie Plan is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Herbie, Herbie Plan''s developer surface includes pricing, engineering blog, signup flow, support, and 4 more developer resources.'
-random_paper: 29
+random_paper: 63
 score:
   band: emerging
   composite: 17.0
@@ -87,8 +87,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/herbie-herbie-plan/refs/heads/main/screenshots/herbie-herbie-plan-2026-07-25T221017.png
 security:
 - kind: domain-security
   name: Herbie Herbie Plan Domain Security

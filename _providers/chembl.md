@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ rules:
 score:
   band: thin
   composite: 40.7
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 51.5
@@ -194,14 +194,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 0.0
-  previous_composite: 41.8
+  previous_composite: 40.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 34.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chembl/refs/heads/main/screenshots/chembl-2026-06-20T174255.png
 security:

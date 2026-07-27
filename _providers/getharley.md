@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,11 +77,11 @@ overview: 'GetHarley is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   GetHarley''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 47
+random_paper: 13
 score:
   band: emerging
   composite: 17.2
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -89,15 +89,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.9
+  previous_composite: 17.2
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/getharley/refs/heads/main/screenshots/getharley-2026-07-25T215733.png
 security:
 - kind: domain-security
   name: Getharley Domain Security

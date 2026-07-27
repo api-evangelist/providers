@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -118,25 +118,25 @@ plans:
 - name: N2Yo Plans Pricing
   plan_count: 3
   slug: n2yo-plans-pricing
-random_paper: 35
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: N2Yo Rate Limits
   slug: n2yo-rate-limits
 score:
   band: thin
-  composite: 39.7
-  delta: 0.0
+  composite: 42.9
+  delta: 3.2
   facets:
     commercial_clarity: 73.7
     contract_quality: 54.9
     developer_ergonomics: 10.9
-    discoverability: 42.5
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 39.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/n2yo/refs/heads/main/screenshots/n2yo-2026-06-20T185921.png
 security:

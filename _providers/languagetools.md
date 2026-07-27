@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ plans:
 - name: Plans
   plan_count: 6
   slug: plans
-random_paper: 20
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -171,7 +171,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 41.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/languagetools/refs/heads/main/screenshots/languagetools-2026-06-20T184312.png
 security:

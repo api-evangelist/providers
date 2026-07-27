@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -573,7 +573,7 @@ plans:
 - name: Lightroom Plans Pricing
   plan_count: 3
   slug: lightroom-plans-pricing
-random_paper: 12
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Lightroom Rate Limits
@@ -602,18 +602,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 60.5
-  delta: 0.0
+  composite: 62.5
+  delta: 2.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 67.8
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 60.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lightroom/refs/heads/main/screenshots/lightroom-2026-06-20T184522.png
 security:

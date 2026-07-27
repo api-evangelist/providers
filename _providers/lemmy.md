@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -185,7 +185,7 @@ plans:
 - name: Lemmy Plans Pricing
   plan_count: 3
   slug: lemmy-plans-pricing
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 6
   name: Lemmy Rate Limits
@@ -212,7 +212,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 56.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemmy/refs/heads/main/screenshots/lemmy-2026-06-20T184415.png
 security:

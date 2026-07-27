@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 73.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -299,7 +299,7 @@ arazzos:
 - description: Find a CSM contact by email and update it if it exists, otherwise create it.
   name: ServiceNow Upsert Contact
   slug: servicenow-upsert-contact-workflow
-artifact_total: 286
+artifact_total: 287
 asyncapis:
 - description: ServiceNow supports outbound event-driven integrations through business rules, event management, and outbound REST messages. When records are created, updated, or deleted in ServiceNow tables, busines
   name: ServiceNow Events and Notifications
@@ -1274,6 +1274,10 @@ jsonld:
   property_count: 12
   slug: trouble-ticket-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: servicenow-mcp.yml
+  slug: servicenow-mcpyml
 modified: '2026-06-20'
 name: ServiceNow
 nav: Providers
@@ -1289,7 +1293,7 @@ plans:
 - name: Servicenow Plans Pricing
   plan_count: 1
   slug: servicenow-plans-pricing
-random_paper: 22
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Servicenow Rate Limits
@@ -1326,18 +1330,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: exemplar
-  composite: 73.5
-  delta: 0.0
+  composite: 76.0
+  delta: 2.5
   facets:
     commercial_clarity: 81.6
     contract_quality: 77.1
     developer_ergonomics: 84.8
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 65.8
     operational_transparency: 57.9
   previous_composite: 73.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicenow/refs/heads/main/screenshots/servicenow-2026-06-20T193735.png
 security:

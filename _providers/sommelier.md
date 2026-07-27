@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 43.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Integration-specific datasets (Kelp, ether.fi).
@@ -100,7 +100,7 @@ overview: 'Sommelier publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Sommelier''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 4
+random_paper: 21
 score:
   band: emerging
   composite: 29.3
@@ -114,7 +114,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 29.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

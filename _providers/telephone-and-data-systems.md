@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: TDS Telecom provides high-speed broadband, video, and voice services to residential and business customers across more than 900 rural and suburban communities in 30 states. TDS Telecom delivers fiber-
@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: Telephone & Data Systems (TDS) on Track to Boost Fiber Suite
   url: https://finance.yahoo.com/news/telephone-data-systems-tds-track-122312251.html
-random_paper: 7
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Telephone And Data Systems Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 21.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telephone-and-data-systems/refs/heads/main/screenshots/telephone-and-data-systems-2026-06-20T195038.png
 security:

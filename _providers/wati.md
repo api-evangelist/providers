@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Send WhatsApp template messages.
   name: WATI Templates API
   slug: wati-templates-api
-artifact_total: 9
+artifact_total: 10
 collections:
 - collection_type: open
   name: WATI WhatsApp Business API
@@ -114,6 +114,10 @@ created: '2026-05-11'
 description: WATI is an official WhatsApp Business Platform that provides a shared team inbox, no-code chatbot builder, broadcast campaigns, and CRM integrations for businesses communicating with customers over WhatsApp. The platform offers a tenant-scoped REST API for sending template and session messages, managing contacts, and integrating with external systems. WATI APIs use Bearer token authentication tied to each customer's WATI workspace.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wati.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: WATI
 nav: Providers
@@ -125,18 +129,18 @@ overview: 'WATI publishes 3 APIs on the [APIs.io](https://apis.io/) network: Con
 random_paper: 29
 score:
   band: thin
-  composite: 32.2
-  delta: 0.0
+  composite: 35.5
+  delta: 3.3
   facets:
     commercial_clarity: 18.4
     contract_quality: 56.6
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 32.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wati/refs/heads/main/screenshots/wati-2026-06-20T201254.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ plans:
 - name: Tidio Plans Pricing
   plan_count: 5
   slug: tidio-plans-pricing
-random_paper: 27
+random_paper: 61
 rate_limits:
 - limit_count: 6
   name: Tidio Rate Limits
@@ -207,7 +207,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 58.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tidio/refs/heads/main/screenshots/tidio-2026-06-20T195338.png
 security:

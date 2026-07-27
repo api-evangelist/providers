@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Firebolt is Comcast's application platform for building apps that run on TVs, set-top boxes, and other connected home devices. The Firebolt SDK exposes a family of JavaScript APIs (Lifecycle, Metrics,
@@ -128,7 +128,7 @@ press:
 - date: '2026-05-25'
   title: 'Comcast''s AI Strategy: Analysis of Dominance in ...'
   url: https://www.klover.ai/comcast-ai-strategy-analysis-of-dominance-in-telecommunications-and-media/
-random_paper: 32
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Comcast Rate Limits
@@ -146,7 +146,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 21.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/comcast/refs/heads/main/screenshots/comcast-2026-06-20T174802.png
 security:

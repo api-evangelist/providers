@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -64,8 +64,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/burt/refs/heads/main/screenshots/burt-2026-07-25T204116.png
 slug: burt
 tags:
 - Company

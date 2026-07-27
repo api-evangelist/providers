@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -270,7 +270,7 @@ plans:
 - name: Ucl Plans Pricing
   plan_count: 2
   slug: ucl-plans-pricing
-random_paper: 18
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Ucl Rate Limits
@@ -300,7 +300,7 @@ scopes:
 score:
   band: developing
   composite: 50.6
-  delta: 1.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 59.0
@@ -308,14 +308,14 @@ score:
     discoverability: 87.5
     governance: 86.8
     operational_transparency: 26.3
-  previous_composite: 49.2
+  previous_composite: 50.6
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucl/refs/heads/main/screenshots/ucl-2026-06-20T195940.png
 security:

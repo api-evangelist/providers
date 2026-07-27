@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -66,7 +66,7 @@ press:
 - date: '2026-05-25'
   title: Pep Boys agrees to be bought by Icahn for $1 billion
   url: https://www.chicagotribune.com/2015/12/30/pep-boys-agrees-to-be-bought-by-icahn-for-1-billion/
-random_paper: 29
+random_paper: 63
 score:
   band: minimal
   composite: 4.3
@@ -80,7 +80,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pep-boys-manny-moe-and-jack/refs/heads/main/screenshots/pep-boys-manny-moe-and-jack-2026-06-20T191558.png
 security:

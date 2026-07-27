@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 46.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: Core API for AutoCAD automation, drawing manipulation, and entity management.
@@ -234,7 +234,7 @@ plans:
 - name: Autocad Plans Pricing
   plan_count: 3
   slug: autocad-plans-pricing
-random_paper: 23
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Autocad Rate Limits
@@ -257,7 +257,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 49.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autocad/refs/heads/main/screenshots/autocad-2026-06-20T172619.png
 security:

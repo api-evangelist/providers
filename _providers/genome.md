@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -97,24 +97,24 @@ rate_limits:
   name: Genome Rate Limits
   slug: genome-rate-limits
 score:
-  band: emerging
-  composite: 29.5
-  delta: -2.9
+  band: thin
+  composite: 31.2
+  delta: 1.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 57.5
     developer_ergonomics: 8.7
-    discoverability: 42.5
+    discoverability: 62.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 32.4
+  previous_composite: 29.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/genome/refs/heads/main/screenshots/genome-2026-06-20T181737.png
 security:

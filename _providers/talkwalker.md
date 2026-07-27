@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: Search and export a subset of documents from a Talkwalker project, including brand mentions and social data across supported channels. Results are metered at 1 credit per result plus a minimum of 10 c
@@ -113,7 +113,7 @@ plans:
 - name: Talkwalker Plans Pricing
   plan_count: 3
   slug: talkwalker-plans-pricing
-random_paper: 3
+random_paper: 54
 rate_limits:
 - limit_count: 9
   name: Talkwalker Rate Limits
@@ -131,7 +131,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 27.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/talkwalker/refs/heads/main/screenshots/talkwalker-2026-06-20T194908.png
 security:

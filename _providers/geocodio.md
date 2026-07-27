@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -134,19 +134,20 @@ rate_limits:
   slug: geocodio-rate-limits
 score:
   band: thin
-  composite: 40.4
-  delta: 0.0
+  composite: 43.7
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 60.2
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 40.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/geocodio/refs/heads/main/screenshots/geocodio-2026-07-25T215651.png
 security:
 - kind: authentication
   name: Geocodio Authentication

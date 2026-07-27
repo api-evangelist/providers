@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Daily horoscope info for yesterday, today, and tomorrow
@@ -54,7 +54,7 @@ name: aztro
 nav: Providers
 network: true
 overview: aztro publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social and Public APIs.
-random_paper: 50
+random_paper: 16
 score:
   band: minimal
   composite: 6.8
@@ -68,8 +68,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aztro/refs/heads/main/screenshots/aztro-2026-07-25T202125.png
 security:
 - kind: domain-security
   name: Aztro Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -171,25 +171,25 @@ plans:
 - name: Lumos Plans Pricing
   plan_count: 3
   slug: lumos-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Lumos Rate Limits
   slug: lumos-rate-limits
 score:
-  band: thin
-  composite: 43.6
-  delta: 0.0
+  band: developing
+  composite: 45.6
+  delta: 2.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 51.3
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 43.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lumos/refs/heads/main/screenshots/lumos-2026-06-20T184756.png
 security:

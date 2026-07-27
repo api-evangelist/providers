@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 35.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -107,7 +107,7 @@ overview: 'Gemnote publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Gemnote''s developer surface includes documentation, API reference, engineering blog, pricing, support, and 7 more developer resources.'
-random_paper: 37
+random_paper: 3
 score:
   band: thin
   composite: 36.5
@@ -121,8 +121,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 36.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gemnote/refs/heads/main/screenshots/gemnote-2026-07-25T215530.png
 security:
 - kind: authentication
   name: Gemnote Authentication

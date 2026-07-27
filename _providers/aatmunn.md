@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -89,7 +89,7 @@ overview: 'Aatmunn is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Aatmunn''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: emerging
   composite: 19.4
@@ -103,8 +103,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 19.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aatmunn/refs/heads/main/screenshots/aatmunn-2026-07-25T181321.png
 security:
 - kind: domain-security
   name: Aatmunn Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ plans:
 - name: Ptc Thingworx Plans Pricing
   plan_count: 1
   slug: ptc-thingworx-plans-pricing
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Ptc Thingworx Rate Limits
@@ -191,18 +191,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 50.5
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 73.5
     developer_ergonomics: 30.4
-    discoverability: 42.5
+    discoverability: 75.0
     governance: 60.5
     operational_transparency: 26.3
   previous_composite: 47.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

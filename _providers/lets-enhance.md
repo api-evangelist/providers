@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ overview: 'Let''s Enhance publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Let''s Enhance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 34
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: Lets Enhance Rate Limits
@@ -213,8 +213,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 52.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lets-enhance/refs/heads/main/screenshots/lets-enhance-2026-07-25T224934.png
 security:
 - kind: authentication
   name: Lets Enhance Authentication

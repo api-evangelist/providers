@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Modeled matter and contact/client management surface that third-party Marketplace apps integrate against - matters (number, title, practice area, status, responsible attorney), contacts/clients (indiv
@@ -86,7 +86,7 @@ plans:
 - name: Leap Legal Plans Pricing
   plan_count: 2
   slug: leap-legal-plans-pricing
-random_paper: 11
+random_paper: 28
 score:
   band: emerging
   composite: 15.2
@@ -100,8 +100,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/leap-legal/refs/heads/main/screenshots/leap-legal-2026-07-25T224746.png
 security:
 - kind: domain-security
   name: Leap Legal Domain Security

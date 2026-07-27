@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -238,18 +238,18 @@ rules:
   slug: amc-theatres-rules
 score:
   band: developing
-  composite: 48.1
-  delta: 0.0
+  composite: 50.3
+  delta: 2.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.6
+    contract_quality: 69.5
     developer_ergonomics: 19.6
     discoverability: 67.5
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 48.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/screenshots/amc-entertainment-holdings-2026-06-20T171856.png
 security:

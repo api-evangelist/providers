@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -220,7 +220,7 @@ plans:
 - name: Todoist Plans Pricing
   plan_count: 3
   slug: todoist-plans-pricing
-random_paper: 9
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Todoist Rate Limits
@@ -244,18 +244,18 @@ rules:
   slug: todoist-rules
 score:
   band: strong
-  composite: 63.1
-  delta: 0.0
+  composite: 67.7
+  delta: 4.6
   facets:
     commercial_clarity: 92.1
-    contract_quality: 63.7
+    contract_quality: 69.0
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 44.7
   previous_composite: 63.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/todoist/refs/heads/main/screenshots/todoist-2026-06-20T195429.png
 security:

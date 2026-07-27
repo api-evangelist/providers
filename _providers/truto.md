@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -91,7 +91,7 @@ apis:
 - description: Time off requests and leave management
   name: Truto Timeoff API
   slug: truto-timeoff-api
-artifact_total: 41
+artifact_total: 42
 collections:
 - collection_type: open
   name: Truto Admin API
@@ -217,6 +217,10 @@ jsonld:
   property_count: 16
   slug: truto-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Truto
 nav: Providers
@@ -232,7 +236,7 @@ plans:
 - name: Truto Plans Pricing
   plan_count: 2
   slug: truto-plans-pricing
-random_paper: 13
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Truto Rate Limits
@@ -256,18 +260,18 @@ rules:
   slug: truto-rules
 score:
   band: developing
-  composite: 53.8
-  delta: 0.0
+  composite: 57.0
+  delta: 3.2
   facets:
     commercial_clarity: 47.4
     contract_quality: 68.1
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 53.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truto/refs/heads/main/screenshots/truto-2026-06-20T195809.png
 security:

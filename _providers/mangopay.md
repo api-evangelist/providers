@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: high
-  generated: '2026-07-22'
   label: Enterprise · Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: enterprise
   public: false
@@ -12,17 +10,272 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 53.8
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 116
+  human_in_the_loop: 0
+  name: Mangopay Agentic Access
+  operation_count: 215
+  slug: mangopay-agentic-access
+  summary_line: 215 operations · 116 acting
 api_count: 24
-artifact_total: 0
+apis:
+- description: The Bank Accounts API from Mangopay — 7 operation(s) for bank accounts.
+  name: Mangopay Bank Accounts API
+  slug: mangopay-bank-accounts-api
+- description: The Client (Platform) API from Mangopay — 2 operation(s) for client (platform).
+  name: Mangopay Client (Platform) API
+  slug: mangopay-client-platform-api
+- description: The Client Wallets API from Mangopay — 4 operation(s) for client wallets.
+  name: Mangopay Client Wallets API
+  slug: mangopay-client-wallets-api
+- description: The Conversions (FX) API from Mangopay — 6 operation(s) for conversions (fx).
+  name: Mangopay Conversions (FX) API
+  slug: mangopay-conversions-fx-api
+- description: The Country authorizations API from Mangopay — 2 operation(s) for country authorizations.
+  name: Mangopay Country authorizations API
+  slug: mangopay-country-authorizations-api
+- description: The Disputes API from Mangopay — 16 operation(s) for disputes.
+  name: Mangopay Disputes API
+  slug: mangopay-disputes-api
+- description: The Echo API from Mangopay — 17 operation(s) for echo.
+  name: Mangopay Echo API
+  slug: mangopay-echo-api
+- description: The IDV Sessions (hosted KYC API from Mangopay — 2 operation(s) for idv sessions (hosted kyc.
+  name: Mangopay IDV Sessions (hosted KYC API
+  slug: mangopay-idv-sessions-hosted-kyc-api
+- description: The KYC Documents API from Mangopay — 5 operation(s) for kyc documents.
+  name: Mangopay KYC Documents API
+  slug: mangopay-kyc-documents-api
+- description: The Notifications API from Mangopay — 3 operation(s) for notifications.
+  name: Mangopay Notifications API
+  slug: mangopay-notifications-api
+- description: The Payment methods API from Mangopay — 61 operation(s) for payment methods.
+  name: Mangopay Payment methods API
+  slug: mangopay-payment-methods-api
+- description: The Payouts API from Mangopay — 4 operation(s) for payouts.
+  name: Mangopay Payouts API
+  slug: mangopay-payouts-api
+- description: The Recipients API from Mangopay — 5 operation(s) for recipients.
+  name: Mangopay Recipients API
+  slug: mangopay-recipients-api
+- description: The Refunds API from Mangopay — 5 operation(s) for refunds.
+  name: Mangopay Refunds API
+  slug: mangopay-refunds-api
+- description: The Reporting API from Mangopay — 6 operation(s) for reporting.
+  name: Mangopay Reporting API
+  slug: mangopay-reporting-api
+- description: The Transactions API from Mangopay — 6 operation(s) for transactions.
+  name: Mangopay Transactions API
+  slug: mangopay-transactions-api
+- description: The Transfers API from Mangopay — 2 operation(s) for transfers.
+  name: Mangopay Transfers API
+  slug: mangopay-transfers-api
+- description: The UBO Declarations API from Mangopay — 5 operation(s) for ubo declarations.
+  name: Mangopay UBO Declarations API
+  slug: mangopay-ubo-declarations-api
+- description: The User Data Format API from Mangopay — 1 operation(s) for user data format.
+  name: Mangopay User Data Format API
+  slug: mangopay-user-data-format-api
+- description: The User EMoney API from Mangopay — 1 operation(s) for user emoney.
+  name: Mangopay User EMoney API
+  slug: mangopay-user-emoney-api
+- description: The User Regulatory Status API from Mangopay — 1 operation(s) for user regulatory status.
+  name: Mangopay User Regulatory Status API
+  slug: mangopay-user-regulatory-status-api
+- description: The Users API from Mangopay — 16 operation(s) for users.
+  name: Mangopay Users API
+  slug: mangopay-users-api
+- description: The View an API Response API from Mangopay — 1 operation(s) for view an api response.
+  name: Mangopay View an API Response API
+  slug: mangopay-view-an-api-response-api
+- description: The Wallets API from Mangopay — 9 operation(s) for wallets.
+  name: Mangopay Wallets API
+  slug: mangopay-wallets-api
+artifact_total: 35
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/mangopay-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/mangopay-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/mangopay-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/mangopay-scopes.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://mangopay.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.mangopay.com
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://mangopay.com/pricing
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://hub.mangopay.com/service-status
+- group: company
+  title: ''
+  type: Blog
+  url: https://blog.mangopay.com
+- group: start
+  title: ''
+  type: Sandbox
+  url: https://api.sandbox.mangopay.com
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://docs.mangopay.com/api-reference/overview/authentication
+- group: operate
+  title: ''
+  type: RateLimits
+  url: https://docs.mangopay.com/api-reference/overview/rate-limiting
+- group: design
+  title: ''
+  type: Webhooks
+  url: https://docs.mangopay.com/webhooks
+- group: operate
+  title: ''
+  type: ChangeLog
+  url: https://docs.mangopay.com/release-notes
+- group: build
+  title: ''
+  type: SDKs
+  url: https://docs.mangopay.com/sdks
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Mangopay
+- group: build
+  title: ''
+  type: Postman
+  url: https://docs.mangopay.com/postman
+- group: commercial
+  title: ''
+  type: Plans
+  url: https://raw.githubusercontent.com/api-evangelist/mangopay/refs/heads/main/plans/plans.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: https://raw.githubusercontent.com/api-evangelist/mangopay/refs/heads/main/rate-limits/rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: https://raw.githubusercontent.com/api-evangelist/mangopay/refs/heads/main/finops/finops.yml
 created: '2026-06-13'
 description: European payment infrastructure platform providing REST APIs for marketplace payments, digital wallet management, user KYC/KYB verification, fund transfers, currency conversion, and payment card processing. Serves multi-party payment flows across product marketplaces, financial platforms, on-demand services, and SaaS companies.
+examples:
+- key_count: 1
+  name: Request Examples
+  slug: request-examples
+finops:
+- name: Finops
+  service_category: ''
+  slug: finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mangopay.png
+json_schemas:
+- name: Mangopay Schemas
+  property_count: 0
+  slug: mangopay-schemas
+jsonld:
+- class_count: 60
+  name: Mangopay Context
+  property_count: 2
+  slug: mangopay
 layout: provider
 modified: '2026-06-13'
 name: Mangopay
 nav: Providers
 network: true
+overview: 'Mangopay publishes 24 APIs on the [APIs.io](https://apis.io/) network, including Bank Accounts API, Client (Platform) API, Client Wallets API, and 21 more. Tagged areas include Payments, Marketplace Payments, Digital Wallets, KYC, and KYB.
+
+
+  The Mangopay catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Mangopay''s developer surface includes authentication, documentation, pricing, engineering blog, sandbox, changelog, and 14 more developer resources.'
+plans:
+- name: Plans
+  plan_count: 1
+  slug: plans
 random_paper: 44
+rate_limits:
+- limit_count: 0
+  name: Rate Limits
+  slug: rate-limits
+rules:
+- name: Mangopay API Rules
+  rule_count: 2
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 0
+    warn: 2
+  slug: mangopay-jsonschema-spectral-rules
+scopes:
+- name: Mangopay Scopes
+  scope_count: 20
+  slug: mangopay-scopes
+  summary_line: 20 scopes · clientCredentials
+score:
+  band: developing
+  composite: 55.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 65.3
+    developer_ergonomics: 39.1
+    discoverability: 92.5
+    governance: 65.8
+    operational_transparency: 44.7
+  previous_composite: 55.6
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 58.7
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mangopay/refs/heads/main/screenshots/mangopay-2026-06-20T184919.png
+security:
+- kind: authentication
+  name: Mangopay Authentication
+  slug: mangopay-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Mangopay Domain Security
+  slug: mangopay-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: mangopay
 tags:
 - Payments
@@ -35,4 +288,5 @@ tags:
 - Payment Cards
 - Fintech
 - European
+website: https://mangopay.com
 ---

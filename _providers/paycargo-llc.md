@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Partner-facing PayCargo API for retrieving charges due, processing payments, and reconciling transactions directly from a customer's accounting or transportation-management system. Uses GET and POST c
@@ -105,11 +105,11 @@ overview: 'PayCargo, LLC publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   PayCargo, LLC''s developer surface includes documentation, support, engineering blog, pricing, signup flow, changelog, and 9 more developer resources.'
-random_paper: 41
+random_paper: 58
 score:
   band: emerging
   composite: 29.0
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -117,14 +117,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 24.9
+  previous_composite: 29.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 52.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

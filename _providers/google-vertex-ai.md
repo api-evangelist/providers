@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ plans:
 - name: Google Vertex Ai Plans Pricing
   plan_count: 3
   slug: google-vertex-ai-plans-pricing
-random_paper: 18
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Google Vertex Ai Rate Limits
@@ -173,19 +173,19 @@ scopes:
   slug: google-vertex-ai-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 59.9
-  delta: 0.0
+  band: strong
+  composite: 64.5
+  delta: 4.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 56.6
+    contract_quality: 61.9
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 59.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-vertex-ai/refs/heads/main/screenshots/google-vertex-ai-2026-06-20T182247.png
 security:

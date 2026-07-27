@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ overview: 'Trunk publishes 2 APIs on the [APIs.io](https://apis.io/) network: Fl
 
 
   Trunk''s developer surface includes documentation, engineering blog, authentication, CLI, and 17 more developer resources.'
-random_paper: 3
+random_paper: 20
 score:
   band: thin
   composite: 41.4
@@ -174,7 +174,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 41.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

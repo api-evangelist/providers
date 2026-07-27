@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ rules:
 score:
   band: developing
   composite: 46.6
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 57.7
@@ -195,14 +195,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 21.1
-  previous_composite: 48.3
+  previous_composite: 46.6
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cfpb/refs/heads/main/screenshots/cfpb-2026-06-20T174148.png
 security:

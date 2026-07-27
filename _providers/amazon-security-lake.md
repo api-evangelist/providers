@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -312,7 +312,7 @@ plans:
 - name: Amazon Security Lake Plans Pricing
   plan_count: 3
   slug: amazon-security-lake-plans-pricing
-random_paper: 48
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Amazon Security Lake Rate Limits
@@ -335,20 +335,20 @@ rules:
     warn: 15
   slug: amazon-security-lake-spectral-rules
 score:
-  band: strong
-  composite: 69.8
-  delta: 0.0
+  band: exemplar
+  composite: 75.3
+  delta: 5.5
   facets:
     commercial_clarity: 86.8
-    contract_quality: 68.4
+    contract_quality: 77.3
     developer_ergonomics: 63.0
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 69.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-security-lake/refs/heads/main/screenshots/amazon-security-lake-2026-06-20T171817.png
 security:
 - kind: authentication

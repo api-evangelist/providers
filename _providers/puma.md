@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -138,18 +138,18 @@ overview: 'Puma publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 random_paper: 27
 score:
   band: emerging
-  composite: 26.4
-  delta: 0.0
+  composite: 29.7
+  delta: 3.3
   facets:
     commercial_clarity: 0.0
     contract_quality: 60.2
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 26.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/puma/refs/heads/main/screenshots/puma-2026-06-20T192302.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for programmatic creation of animation-ready 3D avatars from images, video, measurements and text, built on the SMPL body-model family.
@@ -115,7 +115,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 24.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

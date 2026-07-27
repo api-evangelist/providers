@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ plans:
 - name: Amazon Bedrock Plans Pricing
   plan_count: 1
   slug: amazon-bedrock-plans-pricing
-random_paper: 44
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Amazon Bedrock Rate Limits
@@ -211,18 +211,18 @@ rules:
   slug: amazon-bedrock-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.9
-  delta: 0.0
+  composite: 65.5
+  delta: 4.6
   facets:
     commercial_clarity: 81.6
-    contract_quality: 61.1
+    contract_quality: 66.4
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 42.1
   previous_composite: 60.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-bedrock/refs/heads/main/screenshots/amazon-bedrock-2026-06-20T171613.png
 security:

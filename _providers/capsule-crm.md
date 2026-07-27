@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: The Tasks API from Capsule CRM — 2 operation(s) for tasks.
   name: Capsule CRM Tasks API
   slug: capsule-crm-tasks-api
-artifact_total: 10
+artifact_total: 11
 collections:
 - collection_type: open
   name: Capsule CRM API v2
@@ -112,6 +112,10 @@ created: '2026-05-11'
 description: Capsule is a simple online CRM for small and midsize businesses that manages contacts, sales pipelines, tasks, projects, and email integration with a focus on ease of use. The Capsule API v2 is a REST/JSON service exposing parties (people and organisations), opportunities, projects, tasks, cases, users, and custom fields for integration with marketing, finance, and productivity tools. Authentication uses a Bearer token (personal access token or OAuth 2 access token) against the base URL https://api.capsulecrm.com/api/v2/.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/capsule-crm.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-07-12'
 name: Capsule CRM
 nav: Providers
@@ -120,21 +124,21 @@ overview: 'Capsule CRM publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Capsule CRM''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 45
+random_paper: 28
 score:
   band: thin
-  composite: 30.4
-  delta: 0.0
+  composite: 33.6
+  delta: 3.2
   facets:
     commercial_clarity: 10.5
     contract_quality: 51.3
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capsule-crm/refs/heads/main/screenshots/capsule-crm-2026-06-20T173943.png
 security:

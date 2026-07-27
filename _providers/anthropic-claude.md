@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 73.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: Count tokens for a prospective Messages request.
   name: Anthropic Claude Token Counting API
   slug: anthropic-claude-token-counting-api
-artifact_total: 11
+artifact_total: 12
 asyncapis:
 - description: 'AsyncAPI specification modeling the Server-Sent Events (SSE) stream produced by Anthropic''s Claude Messages API when `"stream": true` is set on a POST to `/v1/messages`. Transport: HTTP/1.1 with `Cont'
   name: Anthropic Claude Messages Streaming API
@@ -182,6 +182,10 @@ created: '2026-05-11'
 description: Anthropic Claude is a family of frontier large language models (Opus, Sonnet, Haiku) accessible via the Anthropic API for building AI assistants, agents, and integrations. The API supports streaming chat completions, tool use, vision, prompt caching, batch processing, the Files API, computer use, and the Model Context Protocol, with authentication via x-api-key headers and a base URL at api.anthropic.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/anthropic-claude.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-29'
 name: Anthropic Claude
 nav: Providers
@@ -205,18 +209,18 @@ rules:
   slug: anthropic-claude-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 54.9
+  delta: 3.3
   facets:
     commercial_clarity: 31.6
     contract_quality: 66.4
     developer_ergonomics: 54.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 36.8
   previous_composite: 51.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anthropic-claude/refs/heads/main/screenshots/anthropic-claude-2026-06-20T172031.png
 security:

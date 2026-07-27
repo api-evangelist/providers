@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -392,7 +392,7 @@ plans:
 - name: Amazon Data Pipeline Plans Pricing
   plan_count: 3
   slug: amazon-data-pipeline-plans-pricing
-random_paper: 11
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Amazon Data Pipeline Rate Limits
@@ -415,20 +415,20 @@ rules:
     warn: 8
   slug: amazon-data-pipeline-spectral-rules
 score:
-  band: strong
-  composite: 65.8
-  delta: 0.0
+  band: exemplar
+  composite: 71.3
+  delta: 5.5
   facets:
     commercial_clarity: 81.6
-    contract_quality: 67.3
+    contract_quality: 76.1
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 65.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-data-pipeline/refs/heads/main/screenshots/amazon-data-pipeline-2026-06-20T171620.png
 security:
 - kind: authentication

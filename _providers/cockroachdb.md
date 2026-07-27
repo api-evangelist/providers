@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 5
@@ -530,7 +530,7 @@ plans:
 - name: Cockroachdb Plans Pricing
   plan_count: 3
   slug: cockroachdb-plans-pricing
-random_paper: 17
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Cockroachdb Rate Limits
@@ -561,19 +561,19 @@ rules:
     warn: 4
   slug: cockroachdb-rules
 score:
-  band: developing
-  composite: 58.1
-  delta: 0.0
+  band: strong
+  composite: 61.4
+  delta: 3.3
   facets:
     commercial_clarity: 57.9
     contract_quality: 77.6
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 65.8
     operational_transparency: 52.6
   previous_composite: 58.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cockroachdb/refs/heads/main/screenshots/cockroachdb-2026-06-20T174648.png
 security:

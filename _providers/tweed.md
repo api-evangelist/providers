@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 49.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 12
 apis:
 - description: Legacy marketplace/collections API — obtain a JWT with your API key and secret, then manage NFT collections and in-platform tokens for token checkout.
@@ -174,11 +174,11 @@ overview: 'Tweed publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Tweed''s developer surface includes documentation, API reference, getting-started guide, pricing, authentication, sandbox, and 15 more developer resources.'
-random_paper: 27
+random_paper: 61
 score:
   band: thin
   composite: 43.2
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 51.6
@@ -186,14 +186,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 42.4
+  previous_composite: 43.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

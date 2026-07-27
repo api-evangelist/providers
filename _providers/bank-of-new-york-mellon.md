@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -294,7 +294,7 @@ press:
 - date: '2026-05-25'
   title: BNY Shares Jump 65% As AI Hiring Push Accelerates
   url: https://finance.yahoo.com/sectors/technology/articles/bny-shares-jump-65-ai-115004909.html
-random_paper: 42
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Bank Of New York Mellon Rate Limits
@@ -331,23 +331,23 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: developing
-  composite: 54.9
-  delta: 2.2
+  composite: 57.6
+  delta: 2.7
   facets:
     commercial_clarity: 50.0
     contract_quality: 65.5
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
-  previous_composite: 52.7
+  previous_composite: 54.9
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/screenshots/bank-of-new-york-mellon-2026-06-20T172950.png
 security:

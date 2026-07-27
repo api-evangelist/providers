@@ -16,7 +16,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'National Bank of Canada exposes no public, self-serve first-party developer API. Consumer financial-data access is consent-based and aggregator-mediated: when a customer links a fintech app, National '
@@ -78,10 +78,11 @@ name: National Bank of Canada
 nav: Providers
 network: true
 overview: National Bank of Canada publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Canada, Big Six, and Open Banking.
-random_paper: 21
+random_paper: 38
 score:
   band: minimal
   composite: 14.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -89,13 +90,15 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 14.9
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: domain-security
   name: National Bank Of Canada Domain Security

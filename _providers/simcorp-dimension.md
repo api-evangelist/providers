@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: RESTful API for accessing portfolio data, positions, transactions, and market data from SimCorp Dimension.
@@ -173,7 +173,7 @@ plans:
 - name: Simcorp Dimension Plans Pricing
   plan_count: 3
   slug: simcorp-dimension-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Simcorp Dimension Rate Limits
@@ -190,7 +190,7 @@ rules:
 score:
   band: thin
   composite: 44.1
-  delta: -3.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 47.2
@@ -198,14 +198,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
-  previous_composite: 47.7
+  previous_composite: 44.1
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simcorp-dimension/refs/heads/main/screenshots/simcorp-dimension-2026-06-20T193926.png
 security:

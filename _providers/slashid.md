@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 6
@@ -245,7 +245,7 @@ plans:
 - name: Slashid Plans Pricing
   plan_count: 3
   slug: slashid-plans-pricing
-random_paper: 30
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Slashid Rate Limits
@@ -272,7 +272,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 58.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slashid/refs/heads/main/screenshots/slashid-2026-06-20T194022.png
 security:

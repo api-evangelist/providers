@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: The You.com Search API returns real-time web search results tailored for AI agents and LLMs, with controls for freshness, category, and result shape.
@@ -111,7 +111,7 @@ plans:
 - name: You Com Plans Pricing
   plan_count: 1
   slug: you-com-plans-pricing
-random_paper: 50
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: You Com Rate Limits
@@ -129,7 +129,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 27.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

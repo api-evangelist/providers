@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -130,25 +130,25 @@ plans:
 - name: Recraft Plans Pricing
   plan_count: 1
   slug: recraft-plans-pricing
-random_paper: 29
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Recraft Rate Limits
   slug: recraft-rate-limits
 score:
   band: thin
-  composite: 32.5
-  delta: 0.0
+  composite: 35.7
+  delta: 3.2
   facets:
     commercial_clarity: 36.8
     contract_quality: 44.2
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 32.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/recraft/refs/heads/main/screenshots/recraft-2026-06-20T192705.png
 security:

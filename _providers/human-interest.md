@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 15.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Partner GraphQL API for onboarding 401(k)/403(b) retirement plans, OpenID Connect single sign-on, and webhook event subscriptions.
@@ -151,8 +151,9 @@ score:
     operational_transparency: 18.4
   previous_composite: 36.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/human-interest/refs/heads/main/screenshots/human-interest-2026-07-25T221647.png
 security:
 - kind: authentication
   name: Human Interest Authentication

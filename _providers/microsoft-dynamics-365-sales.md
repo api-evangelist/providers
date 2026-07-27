@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -150,19 +150,19 @@ scopes:
   slug: microsoft-dynamics-365-sales-scopes
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
-  band: emerging
-  composite: 28.3
-  delta: 0.0
+  band: thin
+  composite: 31.5
+  delta: 3.2
   facets:
     commercial_clarity: 18.4
     contract_quality: 51.3
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 28.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-sales/refs/heads/main/screenshots/microsoft-dynamics-365-sales-2026-06-20T185455.png
 security:

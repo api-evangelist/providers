@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Versioned REST API (/v2/) for matched cross-venue market catalog, priced arbitrage view, pair history, leagues, coverage, bad-arb reporting, and stream-ticket minting. Bearer API key auth (sk_live_).
@@ -48,7 +48,7 @@ random_paper: 6
 score:
   band: emerging
   composite: 15.2
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 37.7
@@ -56,14 +56,14 @@ score:
     discoverability: 85.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.9
+  previous_composite: 15.2
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 0.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: dino-markets
 tags:

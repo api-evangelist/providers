@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -89,7 +89,7 @@ overview: 'Shapr3D is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Shapr3D''s developer surface includes pricing, support, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 30
+random_paper: 13
 score:
   band: emerging
   composite: 21.5
@@ -103,7 +103,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 21.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

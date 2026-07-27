@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -54,7 +54,7 @@ name: Bluevoyant
 nav: Providers
 network: true
 overview: Bluevoyant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Managed Detection and Response, Threat Intelligence, and Supply Chain Security.
-random_paper: 26
+random_paper: 9
 score:
   band: minimal
   composite: 9.0
@@ -68,8 +68,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bluevoyant/refs/heads/main/screenshots/bluevoyant-2026-07-25T203508.png
 security:
 - kind: domain-security
   name: Bluevoyant Domain Security

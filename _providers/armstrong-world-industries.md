@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 9
 common:
@@ -84,7 +84,7 @@ press:
 - date: ''
   title: 'INVESTOR ALERT: Pomerantz Law Firm Investigates ...'
   url: https://www.prnewswire.com/news-releases/investor-alert-pomerantz-law-firm-investigates-claims-on-behalf-of-investors-of-armstrong-world-industries-inc
-random_paper: 26
+random_paper: 9
 score:
   band: minimal
   composite: 8.5
@@ -98,7 +98,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/armstrong-world-industries/refs/heads/main/screenshots/armstrong-world-industries-2026-06-20T172435.png
 security:

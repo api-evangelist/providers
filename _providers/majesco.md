@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ plans:
 - name: Majesco Plans Pricing
   plan_count: 3
   slug: majesco-plans-pricing
-random_paper: 24
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Majesco Rate Limits
@@ -155,18 +155,18 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 47.6
-  delta: 0.0
+  composite: 51.5
+  delta: 3.9
   facets:
     commercial_clarity: 47.4
-    contract_quality: 68.1
+    contract_quality: 73.5
     developer_ergonomics: 19.6
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 47.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/majesco/refs/heads/main/screenshots/majesco-2026-06-20T184906.png
 security:

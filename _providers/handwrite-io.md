@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -118,18 +118,18 @@ rules:
   slug: handwrite-io-rules
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 40.9
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.4
     developer_ergonomics: 19.6
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 13.2
     operational_transparency: 31.6
   previous_composite: 37.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/handwrite-io/refs/heads/main/screenshots/handwrite-io-2026-06-20T182501.png
 security:

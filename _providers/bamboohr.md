@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 47.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -157,18 +157,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: thin
-  composite: 34.4
-  delta: 0.0
+  composite: 36.4
+  delta: 2.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 61.9
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 34.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bamboohr/refs/heads/main/screenshots/bamboohr-2026-06-20T172934.png
 security:

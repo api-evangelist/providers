@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 27.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Tsenta's backend API (api.autojobs.me) powers the job-matching, resume tailoring, and application-submission agent, and is exposed to AI clients as a hosted MCP server authorized over OAuth 2.0 (autho
@@ -168,7 +168,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 33.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

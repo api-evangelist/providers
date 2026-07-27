@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -101,7 +101,7 @@ overview: 'eBPF Foundation is profiled on the [APIs.io](https://apis.io/) networ
 
 
   eBPF Foundation''s developer surface includes engineering blog and 14 more developer resources.'
-random_paper: 7
+random_paper: 41
 score:
   band: minimal
   composite: 7.9
@@ -115,7 +115,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ebpf-foundation/refs/heads/main/screenshots/ebpf-foundation-2026-06-20T180415.png
 security:

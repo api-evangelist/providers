@@ -8,6 +8,24 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -56,7 +74,28 @@ overview: 'Florence Healthcare is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Florence Healthcare''s developer surface includes documentation, signup flow, pricing, and 5 more developer resources.'
-random_paper: 45
+random_paper: 56
+score:
+  band: minimal
+  composite: 13.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 23.7
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 13.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 13.0
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/florence-ebinder/refs/heads/main/screenshots/florence-ebinder-2026-07-25T214822.png
 security:
 - kind: domain-security
   name: Florence Ebinder Domain Security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 9
 apis:
 - description: 'Unified task API for all Tripo generative 3D operations. A single POST creates an asynchronous task keyed by task_type (text_to_model, image_to_model, multiview_to_model, texture_model, refine_model, '
@@ -114,7 +114,7 @@ plans:
 - name: Tripo Ai Plans Pricing
   plan_count: 1
   slug: tripo-ai-plans-pricing
-random_paper: 40
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Tripo Ai Rate Limits
@@ -132,7 +132,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 22.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripo-ai/refs/heads/main/screenshots/tripo-ai-2026-06-20T195733.png
 security:

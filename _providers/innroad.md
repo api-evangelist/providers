@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -66,7 +66,7 @@ plans:
 - name: Innroad Plans Pricing
   plan_count: 3
   slug: innroad-plans-pricing
-random_paper: 33
+random_paper: 67
 score:
   band: minimal
   composite: 13.5
@@ -80,8 +80,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/innroad/refs/heads/main/screenshots/innroad-2026-07-25T222515.png
 security:
 - kind: domain-security
   name: Innroad Domain Security

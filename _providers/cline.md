@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Open-source autonomous coding agent for VS Code. Reads/writes files, runs commands, browses the web, calls MCP tools, and connects to LLM providers (Anthropic, OpenAI, Google, OpenRouter, Ollama, etc.
@@ -106,7 +106,7 @@ plans:
 - name: Cline Plans Pricing
   plan_count: 1
   slug: cline-plans-pricing
-random_paper: 13
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Cline Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cline/refs/heads/main/screenshots/cline-2026-06-20T174524.png
 security:

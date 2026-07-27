@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ overview: 'Agreena is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Agreena''s developer surface includes signup flow, documentation, support, engineering blog, and 4 more developer resources.'
-random_paper: 9
+random_paper: 43
 score:
   band: emerging
   composite: 16.6
@@ -87,8 +87,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/agreena/refs/heads/main/screenshots/agreena-2026-07-25T195320.png
 security:
 - kind: domain-security
   name: Agreena Domain Security

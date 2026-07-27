@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -208,7 +208,7 @@ overview: 'Feldera publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Feldera''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, sandbox, changelog, and 27 more developer resources.'
-random_paper: 9
+random_paper: 43
 score:
   band: developing
   composite: 59.4
@@ -222,8 +222,9 @@ score:
     operational_transparency: 44.7
   previous_composite: 59.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/feldera/refs/heads/main/screenshots/feldera-2026-07-25T214327.png
 security:
 - kind: authentication
   name: Feldera Authentication

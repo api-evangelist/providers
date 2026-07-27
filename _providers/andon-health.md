@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: OAuth 2.0-authorized REST API that lets registered third-party applications read a consenting iHealth user's connected-device data (blood pressure and user-profile resources confirmed live). Developer
@@ -106,7 +106,7 @@ overview: 'Andon Health publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Andon Health''s developer surface includes documentation, signup flow, support, authentication, and 10 more developer resources.'
-random_paper: 30
+random_paper: 47
 scopes:
 - name: Andon Health Scopes
   scope_count: 0
@@ -115,7 +115,7 @@ scopes:
 score:
   band: thin
   composite: 32.1
-  delta: 7.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -123,15 +123,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 24.3
+  previous_composite: 32.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/andon-health/refs/heads/main/screenshots/andon-health-2026-07-25T200224.png
 security:
 - kind: authentication
   name: Andon Health Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Single JSON API for issuing, receiving, and archiving locally compliant invoices — e-invoicing, PEPPOL exchange, fiscalization, and real-time tax reporting across 30+ countries. Uses a custom IoT conn
@@ -130,7 +130,7 @@ overview: 'DDD Invoices publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   DDD Invoices'' developer surface includes documentation, API reference, quickstart, pricing, signup flow, engineering blog, support, and 13 more developer resources.'
-random_paper: 36
+random_paper: 53
 score:
   band: thin
   composite: 31.5
@@ -144,8 +144,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 31.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ddd-invoices/refs/heads/main/screenshots/ddd-invoices-2026-07-25T211507.png
 security:
 - kind: authentication
   name: Ddd Invoices Authentication

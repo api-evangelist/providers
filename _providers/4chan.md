@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -283,7 +283,7 @@ plans:
 - name: 4Chan Plans Pricing
   plan_count: 2
   slug: 4chan-plans-pricing
-random_paper: 3
+random_paper: 54
 rate_limits:
 - limit_count: 4
   name: 4Chan Rate Limits
@@ -307,18 +307,18 @@ rules:
   slug: 4chan-rules
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 50.6
+  delta: 3.3
   facets:
     commercial_clarity: 21.1
     contract_quality: 65.5
     developer_ergonomics: 23.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 47.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/4chan/refs/heads/main/screenshots/4chan-2026-06-20T162723.png
 security:

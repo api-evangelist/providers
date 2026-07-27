@@ -24,7 +24,7 @@ modified: '2026-06-13'
 name: Open Charge Map
 nav: Providers
 network: true
-random_paper: 44
+random_paper: 10
 slug: openchargemap
 tags:
 - Electric Vehicles

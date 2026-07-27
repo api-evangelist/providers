@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -279,7 +279,7 @@ plans:
 - name: Nutanix Plans Pricing
   plan_count: 5
   slug: nutanix-plans-pricing
-random_paper: 10
+random_paper: 27
 rate_limits:
 - limit_count: 3
   name: Nutanix Rate Limits
@@ -295,18 +295,18 @@ rules:
   slug: nutanix-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.8
-  delta: 0.0
+  composite: 67.8
+  delta: 2.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 59.5
     developer_ergonomics: 58.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 65.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutanix/refs/heads/main/screenshots/nutanix-2026-06-20T190530.png
 security:

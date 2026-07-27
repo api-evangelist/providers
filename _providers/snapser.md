@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -126,7 +126,7 @@ overview: 'Snapser is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Snapser''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 14 more developer resources.'
-random_paper: 50
+random_paper: 16
 score:
   band: emerging
   composite: 27.3
@@ -140,7 +140,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 27.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

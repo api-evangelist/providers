@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 27.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST JSON API for the Toshl personal finance platform. Manage accounts, entries (expenses and incomes with repeats per RFC 5545, transactions, images, locations), budgets, categories, tags, currencies
@@ -150,7 +150,7 @@ overview: 'Toshl publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Toshl''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 19 more developer resources.'
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Toshl Rate Limits
@@ -163,7 +163,7 @@ scopes:
 score:
   band: thin
   composite: 39.8
-  delta: 6.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -171,15 +171,15 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 33.4
+  previous_composite: 39.8
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Toshl Authentication

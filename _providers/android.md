@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 78.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -146,7 +146,7 @@ arazzos:
 - description: Validate a new subscription purchase with the Subscriptions v2 API and acknowledge it before the three-day auto-refund window closes.
   name: Android Verify and Acknowledge a Subscription Purchase
   slug: android-verify-acknowledge-subscription-purchase-workflow
-artifact_total: 232
+artifact_total: 233
 collections:
 - collection_type: open
   name: Google Play Developer API
@@ -812,6 +812,10 @@ jsonld:
   property_count: 0
   slug: google-play-developer-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: android-mcp.yml
+  slug: android-mcpyml
 modified: '2026-06-20'
 name: Android
 nav: Providers
@@ -827,7 +831,7 @@ plans:
 - name: Android Plans Pricing
   plan_count: 6
   slug: android-plans-pricing
-random_paper: 23
+random_paper: 57
 rate_limits:
 - limit_count: 10
   name: Android Rate Limits
@@ -855,19 +859,19 @@ scopes:
   slug: android-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 57.2
-  delta: 0.0
+  band: strong
+  composite: 61.8
+  delta: 4.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 69.0
+    contract_quality: 74.3
     developer_ergonomics: 54.3
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 57.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/android/refs/heads/main/screenshots/android-2026-06-20T171952.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -242,19 +242,19 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.0
-  delta: 0.0
+  composite: 50.5
+  delta: 5.5
   facets:
     commercial_clarity: 31.6
-    contract_quality: 67.8
+    contract_quality: 76.7
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 5.3
   previous_composite: 45.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 security:
 - kind: authentication
   name: Genius Authentication

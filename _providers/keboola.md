@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: high
-  generated: '2026-07-22'
   label: Freemium · Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: freemium
   public: false
@@ -12,17 +10,1601 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 376
+  human_in_the_loop: 13
+  name: Keboola Agentic Access
+  operation_count: 631
+  slug: keboola-agentic-access
+  summary_line: 631 operations · 376 acting · 13 human-in-the-loop
 api_count: 79
-artifact_total: 0
+apis:
+- description: The Actions API from Keboola — 1 operation(s) for actions.
+  name: Keboola Actions API
+  slug: keboola-actions-api
+- description: The Admin Apps API from Keboola — 5 operation(s) for admin apps.
+  name: Keboola Admin Apps API
+  slug: keboola-admin-apps-api
+- description: The Admin Stacks API from Keboola — 1 operation(s) for admin stacks.
+  name: Keboola Admin Stacks API
+  slug: keboola-admin-stacks-api
+- description: The Admin Users API from Keboola — 5 operation(s) for admin users.
+  name: Keboola Admin Users API
+  slug: keboola-admin-users-api
+- description: The Admin Vendors API from Keboola — 3 operation(s) for admin vendors.
+  name: Keboola Admin Vendors API
+  slug: keboola-admin-vendors-api
+- description: App (component) management for a vendor.
+  name: Keboola App API
+  slug: keboola-app-api
+- description: Authentication, account confirmation and MFA.
+  name: Keboola Auth API
+  slug: keboola-auth-api
+- description: The Authorize API from Keboola — 2 operation(s) for authorize.
+  name: Keboola Authorize API
+  slug: keboola-authorize-api
+- description: The Branch metadata API from Keboola — 2 operation(s) for branch metadata.
+  name: Keboola Branch metadata API
+  slug: keboola-branch-metadata-api
+- description: The Buckets API from Keboola — 28 operation(s) for buckets.
+  name: Keboola Buckets API
+  slug: keboola-buckets-api
+- description: The Columns API from Keboola — 6 operation(s) for columns.
+  name: Keboola Columns API
+  slug: keboola-columns-api
+- description: The Component Configuration Metadata API from Keboola — 4 operation(s) for component configuration metadata.
+  name: Keboola Component Configuration Metadata API
+  slug: keboola-component-configuration-metadata-api
+- description: The Component Configuration Row Versions API from Keboola — 8 operation(s) for component configuration row versions.
+  name: Keboola Component Configuration Row Versions API
+  slug: keboola-component-configuration-row-versions-api
+- description: The Component Configuration Rows API from Keboola — 7 operation(s) for component configuration rows.
+  name: Keboola Component Configuration Rows API
+  slug: keboola-component-configuration-rows-api
+- description: The Component Configuration Versions API from Keboola — 8 operation(s) for component configuration versions.
+  name: Keboola Component Configuration Versions API
+  slug: keboola-component-configuration-versions-api
+- description: The Component Configurations API from Keboola — 11 operation(s) for component configurations.
+  name: Keboola Component Configurations API
+  slug: keboola-component-configurations-api
+- description: The Components API from Keboola — 2 operation(s) for components.
+  name: Keboola Components API
+  slug: keboola-components-api
+- description: The configuration API from Keboola — 26 operation(s) for configuration.
+  name: Keboola configuration API
+  slug: keboola-configuration-api
+- description: The Configurations Jobs API from Keboola — 1 operation(s) for configurations jobs.
+  name: Keboola Configurations Jobs API
+  slug: keboola-configurations-jobs-api
+- description: The Consumers API from Keboola — 2 operation(s) for consumers.
+  name: Keboola Consumers API
+  slug: keboola-consumers-api
+- description: The Credentials API from Keboola — 3 operation(s) for credentials.
+  name: Keboola Credentials API
+  slug: keboola-credentials-api
+- description: The Credits API from Keboola — 1 operation(s) for credits.
+  name: Keboola Credits API
+  slug: keboola-credits-api
+- description: The Data Apps API from Keboola — 14 operation(s) for data apps.
+  name: Keboola Data Apps API
+  slug: keboola-data-apps-api
+- description: Inspect and purge soft-deleted projects.
+  name: Keboola Deleted Projects API
+  slug: keboola-deleted-projects-api
+- description: The Description API from Keboola — 7 operation(s) for description.
+  name: Keboola Description API
+  slug: keboola-description-api
+- description: The Documentation API from Keboola — 9 operation(s) for documentation.
+  name: Keboola Documentation API
+  slug: keboola-documentation-api
+- description: The Duration API from Keboola — 3 operation(s) for duration.
+  name: Keboola Duration API
+  slug: keboola-duration-api
+- description: The Encrypt API from Keboola — 1 operation(s) for encrypt.
+  name: Keboola Encrypt API
+  slug: keboola-encrypt-api
+- description: The Events API from Keboola — 5 operation(s) for events.
+  name: Keboola Events API
+  slug: keboola-events-api
+- description: The Files API from Keboola — 4 operation(s) for files.
+  name: Keboola Files API
+  slug: keboola-files-api
+- description: The Git API from Keboola — 2 operation(s) for git.
+  name: Keboola Git API
+  slug: keboola-git-api
+- description: The health API from Keboola — 1 operation(s) for health.
+  name: Keboola health API
+  slug: keboola-health-api
+- description: Import operations
+  name: Keboola import API
+  slug: keboola-import-api
+- description: The Internal API from Keboola — 2 operation(s) for internal.
+  name: Keboola Internal API
+  slug: keboola-internal-api
+- description: The jobs API from Keboola — 13 operation(s) for jobs.
+  name: Keboola jobs API
+  slug: keboola-jobs-api
+- description: The Latest Configurations Jobs API from Keboola — 1 operation(s) for latest configurations jobs.
+  name: Keboola Latest Configurations Jobs API
+  slug: keboola-latest-configurations-jobs-api
+- description: Manage maintainer records, their members and invitations.
+  name: Keboola Maintainers API
+  slug: keboola-maintainers-api
+- description: The Marketplaces API from Keboola — 2 operation(s) for marketplaces.
+  name: Keboola Marketplaces API
+  slug: keboola-marketplaces-api
+- description: The Merge Requests API from Keboola — 7 operation(s) for merge requests.
+  name: Keboola Merge Requests API
+  slug: keboola-merge-requests-api
+- description: The Migrate API from Keboola — 1 operation(s) for migrate.
+  name: Keboola Migrate API
+  slug: keboola-migrate-api
+- description: Endpoints scoped to the current user — invitations, join requests and session tokens.
+  name: Keboola My Account API
+  slug: keboola-my-account-api
+- description: The Notifications API from Keboola — 1 operation(s) for notifications.
+  name: Keboola Notifications API
+  slug: keboola-notifications-api
+- description: The Orchestration Rerun Plan API from Keboola — 1 operation(s) for orchestration rerun plan.
+  name: Keboola Orchestration Rerun Plan API
+  slug: keboola-orchestration-rerun-plan-api
+- description: Manage organizations, their members and invitations.
+  name: Keboola Organizations API
+  slug: keboola-organizations-api
+- description: The Others API from Keboola — 2 operation(s) for others.
+  name: Keboola Others API
+  slug: keboola-others-api
+- description: The Project Jobs Stats API from Keboola — 1 operation(s) for project jobs stats.
+  name: Keboola Project Jobs Stats API
+  slug: keboola-project-jobs-stats-api
+- description: The Project Subscriptions API from Keboola — 2 operation(s) for project subscriptions.
+  name: Keboola Project Subscriptions API
+  slug: keboola-project-subscriptions-api
+- description: Manage projects, project members, invitations, join requests and per-project settings.
+  name: Keboola Projects API
+  slug: keboola-projects-api
+- description: Unauthenticated read access to published apps and vendors.
+  name: Keboola Public API API
+  slug: keboola-public-api-api
+- description: The queries API from Keboola — 1 operation(s) for queries.
+  name: Keboola queries API
+  slug: keboola-queries-api
+- description: The Resolve Config Variables API from Keboola — 1 operation(s) for resolve config variables.
+  name: Keboola Resolve Config Variables API
+  slug: keboola-resolve-config-variables-api
+- description: The Runtimes API from Keboola — 1 operation(s) for runtimes.
+  name: Keboola Runtimes API
+  slug: keboola-runtimes-api
+- description: The Sandboxes API from Keboola — 2 operation(s) for sandboxes.
+  name: Keboola Sandboxes API
+  slug: keboola-sandboxes-api
+- description: The schedules API from Keboola — 4 operation(s) for schedules.
+  name: Keboola schedules API
+  slug: keboola-schedules-api
+- description: The Search API from Keboola — 2 operation(s) for search.
+  name: Keboola Search API
+  slug: keboola-search-api
+- description: The service API from Keboola — 1 operation(s) for service.
+  name: Keboola service API
+  slug: keboola-service-api
+- description: The Shared Buckets API from Keboola — 2 operation(s) for shared buckets.
+  name: Keboola Shared Buckets API
+  slug: keboola-shared-buckets-api
+- description: The SQL Editor API from Keboola — 13 operation(s) for sql editor.
+  name: Keboola SQL Editor API
+  slug: keboola-sql-editor-api
+- description: The Storage API from Keboola — 64 operation(s) for storage.
+  name: Keboola Storage API
+  slug: keboola-storage-api
+- description: The Storage Buckets API from Keboola — 2 operation(s) for storage buckets.
+  name: Keboola Storage Buckets API
+  slug: keboola-storage-buckets-api
+- description: The Storage Jobs API from Keboola — 1 operation(s) for storage jobs.
+  name: Keboola Storage Jobs API
+  slug: keboola-storage-jobs-api
+- description: Run Keboola Connection CLI commands asynchronously via the commands queue.
+  name: Keboola SUPER - Commands API
+  slug: keboola-super-commands-api
+- description: Manage feature flags and assign features to projects, users or organizations.
+  name: Keboola SUPER - Features API
+  slug: keboola-super-features-api
+- description: Manage S3, GCS and ABS file storage backends and their credentials.
+  name: Keboola SUPER - File Storage Management API
+  slug: keboola-super-file-storage-management-api
+- description: Read-only access to Kubernetes service accounts discovered in the stack.
+  name: Keboola SUPER - Kubernetes API
+  slug: keboola-super-kubernetes-api
+- description: Manage Snowflake, BigQuery and other storage backends used by projects.
+  name: Keboola SUPER - Storage Backends Management API
+  slug: keboola-super-storage-backends-management-api
+- description: Manage UI applications and their deployed versions.
+  name: Keboola SUPER - UI Management API
+  slug: keboola-super-ui-management-api
+- description: The Tables API from Keboola — 13 operation(s) for tables.
+  name: Keboola Tables API
+  slug: keboola-tables-api
+- description: The test API from Keboola — 1 operation(s) for test.
+  name: Keboola test API
+  slug: keboola-test-api
+- description: The Tickets API from Keboola — 2 operation(s) for tickets.
+  name: Keboola Tickets API
+  slug: keboola-tickets-api
+- description: Inspect the manage token used for the request.
+  name: Keboola Token Verification API
+  slug: keboola-token-verification-api
+- description: The Tokens API from Keboola — 9 operation(s) for tokens.
+  name: Keboola Tokens API
+  slug: keboola-tokens-api
+- description: The Triggers API from Keboola — 4 operation(s) for triggers.
+  name: Keboola Triggers API
+  slug: keboola-triggers-api
+- description: Manage Keboola users by super admins.
+  name: Keboola Users API
+  slug: keboola-users-api
+- description: The Validate API from Keboola — 2 operation(s) for validate.
+  name: Keboola Validate API
+  slug: keboola-validate-api
+- description: The Variables API from Keboola — 4 operation(s) for variables.
+  name: Keboola Variables API
+  slug: keboola-variables-api
+- description: Vendor membership and service accounts.
+  name: Keboola Vendor API
+  slug: keboola-vendor-api
+- description: The Webalize API from Keboola — 4 operation(s) for webalize.
+  name: Keboola Webalize API
+  slug: keboola-webalize-api
+- description: The Workspaces API from Keboola — 24 operation(s) for workspaces.
+  name: Keboola Workspaces API
+  slug: keboola-workspaces-api
+artifact_total: 477
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/keboola-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/keboola-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/keboola-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/keboola-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/keboola-authentication.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.keboola.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.keboola.com/
+- group: docs
+  title: ''
+  type: UserDocumentation
+  url: https://help.keboola.com/
+- group: start
+  title: ''
+  type: APIPortal
+  url: https://api.keboola.com/
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/keboola
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/keboola
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.keboola.com/blog
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.keboola.com/business-solutions/pay-as-you-go-pricing
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.keboola.com/
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/keboola
+- group: build
+  title: ''
+  type: CLI
+  url: https://developers.keboola.com/cli/
+- group: agent
+  title: ''
+  type: MCP
+  url: https://github.com/keboola/mcp-server
+- group: build
+  title: ''
+  type: PythonSDK
+  url: https://pypi.org/project/kbcstorage
+- group: start
+  title: ''
+  type: ComponentRegistry
+  url: https://components.keboola.com/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/keboola-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/keboola-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/keboola-finops.yml
 created: '2026-06-13'
 description: Keboola is a data operations platform providing a comprehensive REST API for managing data pipelines, storage buckets, transformations, configurations, orchestrations, and component jobs. The platform enables teams to build, automate, and scale data workflows across multiple cloud backends including Snowflake, BigQuery, and DuckDB, with support for 700+ data connectors.
+examples:
+- key_count: 1
+  name: Ai Api Healthcheck Response 200
+  slug: ai-api-healthCheck-response-200
+- key_count: 3
+  name: Ai Api Index Response 200
+  slug: ai-api-index-response-200
+- key_count: 3
+  name: Billing Api Marketplaces.Confirmsubscription Request
+  slug: billing-api-marketplaces.confirmSubscription-request
+- key_count: 2
+  name: Billing Api Marketplaces.Resolvetoken Request
+  slug: billing-api-marketplaces.resolveToken-request
+- key_count: 11
+  name: Billing Api Marketplaces.Resolvetoken Response 200
+  slug: billing-api-marketplaces.resolveToken-response-200
+- key_count: 11
+  name: Editor Api Getsqleditorsessioncredentials Response 200
+  slug: editor-api-getSqlEditorSessionCredentials-response-200
+- key_count: 1
+  name: Editor Api Getsqleditorsessionschema Response 200
+  slug: editor-api-getSqlEditorSessionSchema-response-200
+- key_count: 1
+  name: Editor Api Gettableddl Response 200
+  slug: editor-api-getTableDDL-response-200
+- key_count: 1
+  name: Editor Api Healthcheck Response 200
+  slug: editor-api-healthCheck-response-200
+- key_count: 3
+  name: Editor Api Index Response 200
+  slug: editor-api-index-response-200
+- key_count: 1
+  name: Encryption Api Encryptdata Request
+  slug: encryption-api-encryptData-request
+- key_count: 1
+  name: Encryption Api Encryptdata Response 200
+  slug: encryption-api-encryptData-response-200
+- key_count: 1
+  name: Encryption Api Healthcheck Response 200
+  slug: encryption-api-healthCheck-response-200
+- key_count: 3
+  name: Encryption Api Index Response 200
+  slug: encryption-api-index-response-200
+- key_count: 11
+  name: Notifications Api Createsubscription Request
+  slug: notifications-api-createSubscription-request
+- key_count: 1
+  name: Notifications Api Postevent Request
+  slug: notifications-api-postEvent-request
+- key_count: 3
+  name: Notifications Api Postnotification Request
+  slug: notifications-api-postNotification-request
+- key_count: 2
+  name: Oauth Broker Api Healthcheck Response 200
+  slug: oauth-broker-api-healthCheck-response-200
+- key_count: 9
+  name: Queue Api Createjob Request
+  slug: queue-api-createJob-request
+- key_count: 3
+  name: Sandboxes Api Getappproxyconfig Response 200
+  slug: sandboxes-api-getAppProxyConfig-response-200
+- key_count: 2
+  name: Sandboxes Api Healthcheck Response 200
+  slug: sandboxes-api-healthCheck-response-200
+- key_count: 2
+  name: Scheduler Api Activate Request
+  slug: scheduler-api-activate-request
+- key_count: 2
+  name: Vault Api Createvariable Request
+  slug: vault-api-createVariable-request
+- key_count: 2
+  name: Vault Api Healthcheck Response 200
+  slug: vault-api-healthCheck-response-200
+finops:
+- name: Keboola Finops
+  service_category: ''
+  slug: keboola-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keboola.png
+json_schemas:
+- name: AddMaintainerAdministratorRequest
+  property_count: 2
+  slug: keboola-addmaintaineradministratorrequest
+- name: AggregatedSink
+  property_count: 14
+  slug: keboola-aggregatedsink
+- name: AggregatedSource
+  property_count: 13
+  slug: keboola-aggregatedsource
+- name: AggregatedSourcesResult
+  property_count: 4
+  slug: keboola-aggregatedsourcesresult
+- name: AggregatedStatistics
+  property_count: 3
+  slug: keboola-aggregatedstatistics
+- name: App
+  property_count: 10
+  slug: keboola-app
+- name: AppRun
+  property_count: 11
+  slug: keboola-apprun
+- name: AskDocsQuestionRequest
+  property_count: 1
+  slug: keboola-askdocsquestionrequest
+- name: AssignFeatureRequest
+  property_count: 1
+  slug: keboola-assignfeaturerequest
+- name: AssignStorageBackendRequest
+  property_count: 1
+  slug: keboola-assignstoragebackendrequest
+- name: AuthBridgeStorageTokenResolveRequest
+  property_count: 1
+  slug: keboola-authbridgestoragetokenresolverequest
+- name: AuthBridgeStorageTokenResolveResponse
+  property_count: 6
+  slug: keboola-authbridgestoragetokenresolveresponse
+- name: BackendConfigurationRequest
+  property_count: 1
+  slug: keboola-backendconfigurationrequest
+- name: BatchDeleteRequest
+  property_count: 1
+  slug: keboola-batchdeleterequest
+- name: BigqueryAddColumnToTableRequest
+  property_count: 2
+  slug: keboola-bigqueryaddcolumntotablerequest
+- name: BigQueryBucketListingDetailResponse
+  property_count: 3
+  slug: keboola-bigquerybucketlistingdetailresponse
+- name: BigQueryColumnsDefinitionUpdateRequest
+  property_count: 0
+  slug: keboola-bigquerycolumnsdefinitionupdaterequest
+- name: BigQueryListingSection
+  property_count: 2
+  slug: keboola-bigquerylistingsection
+- name: BucketCreateResponse
+  property_count: 25
+  slug: keboola-bucketcreateresponse
+- name: BucketDetailRequest
+  property_count: 1
+  slug: keboola-bucketdetailrequest
+- name: BucketDetailResponse
+  property_count: 29
+  slug: keboola-bucketdetailresponse
+- name: BucketGetTablesRequest
+  property_count: 1
+  slug: keboola-bucketgettablesrequest
+- name: BucketListingCreateJobParams
+  property_count: 7
+  slug: keboola-bucketlistingcreatejobparams
+- name: BucketListingCreateJobResult
+  property_count: 4
+  slug: keboola-bucketlistingcreatejobresult
+- name: BucketListingDeleteJobParams
+  property_count: 3
+  slug: keboola-bucketlistingdeletejobparams
+- name: BucketListingDeleteResponse
+  property_count: 14
+  slug: keboola-bucketlistingdeleteresponse
+- name: BucketListingDetailResponse
+  property_count: 5
+  slug: keboola-bucketlistingdetailresponse
+- name: BucketListingUpdateJobParams
+  property_count: 7
+  slug: keboola-bucketlistingupdatejobparams
+- name: BucketListingUpdateJobResponse
+  property_count: 4
+  slug: keboola-bucketlistingupdatejobresponse
+- name: BucketOwnerDetailResponse
+  property_count: 3
+  slug: keboola-bucketownerdetailresponse
+- name: BucketOwnerUpdateRequest
+  property_count: 2
+  slug: keboola-bucketownerupdaterequest
+- name: BucketRegisterGuideRequest
+  property_count: 3
+  slug: keboola-bucketregisterguiderequest
+- name: BucketRegisterGuideResponse
+  property_count: 1
+  slug: keboola-bucketregisterguideresponse
+- name: BucketShareDeleteResponse
+  property_count: 14
+  slug: keboola-bucketsharedeleteresponse
+- name: BucketShareOrganizationProjectResponse
+  property_count: 14
+  slug: keboola-bucketshareorganizationprojectresponse
+- name: BucketShareOrganizationResponse
+  property_count: 14
+  slug: keboola-bucketshareorganizationresponse
+- name: By
+  property_count: 5
+  slug: keboola-by
+- name: CancelProjectDeletionRequest
+  property_count: 1
+  slug: keboola-cancelprojectdeletionrequest
+- name: Catalog
+  property_count: 3
+  slug: keboola-catalog
+- name: CloneLoadRequest
+  property_count: 0
+  slug: keboola-cloneloadrequest
+- name: Column
+  property_count: 2
+  slug: keboola-column
+- name: ColumnCreateRequest
+  property_count: 2
+  slug: keboola-columncreaterequest
+- name: ComponentArrayRead
+  property_count: 28
+  slug: keboola-componentarrayread
+- name: ComponentDocsResponse
+  property_count: 15
+  slug: keboola-componentdocsresponse
+- name: ComponentSuggestion
+  property_count: 2
+  slug: keboola-componentsuggestion
+- name: ComponentSuggestionRequest
+  property_count: 1
+  slug: keboola-componentsuggestionrequest
+- name: ComponentSuggestionsFeedbackSubject
+  property_count: 2
+  slug: keboola-componentsuggestionsfeedbacksubject
+- name: ConfigurationDescriptionRequest
+  property_count: 4
+  slug: keboola-configurationdescriptionrequest
+- name: ConfigurationDiffResponse
+  property_count: 3
+  slug: keboola-configurationdiffresponse
+- name: ConfigurationMergeRequest
+  property_count: 4
+  slug: keboola-configurationmergerequest
+- name: ConfigurationRowDiffResponse
+  property_count: 3
+  slug: keboola-configurationrowdiffresponse
+- name: ConfigurationRowVersionResponse
+  property_count: 10
+  slug: keboola-configurationrowversionresponse
+- name: ConfigurationVersionDescription
+  property_count: 2
+  slug: keboola-configurationversiondescription
+- name: ConfigurationVersionRequest
+  property_count: 6
+  slug: keboola-configurationversionrequest
+- name: ConfigurationVersionResponse
+  property_count: 10
+  slug: keboola-configurationversionresponse
+- name: Consumer
+  property_count: 10
+  slug: keboola-consumer
+- name: CreateBucketListingRequest
+  property_count: 3
+  slug: keboola-createbucketlistingrequest
+- name: CreateBucketRequest
+  property_count: 6
+  slug: keboola-createbucketrequest
+- name: CreateBucketSharingToProjectsRequest
+  property_count: 0
+  slug: keboola-createbucketsharingtoprojectsrequest
+- name: CreateBucketSharingToUsersRequest
+  property_count: 0
+  slug: keboola-createbucketsharingtousersrequest
+- name: CreateConfigurationRequest
+  property_count: 0
+  slug: keboola-createconfigurationrequest
+- name: CreateConfigurationRowRequest
+  property_count: 0
+  slug: keboola-createconfigurationrowrequest
+- name: CreateConfigurationRowVersionRequest
+  property_count: 0
+  slug: keboola-createconfigurationrowversionrequest
+- name: CreateConfigurationVersionRequest
+  property_count: 0
+  slug: keboola-createconfigurationversionrequest
+- name: CreateCredentialRequest
+  property_count: 4
+  slug: keboola-createcredentialrequest
+- name: CreatedCredential
+  property_count: 0
+  slug: keboola-createdcredential
+- name: CreatedEntity
+  property_count: 2
+  slug: keboola-createdentity
+- name: CreateDevBranchRequest
+  property_count: 0
+  slug: keboola-createdevbranchrequest
+- name: CreateEventRequest
+  property_count: 0
+  slug: keboola-createeventrequest
+- name: CreateMaintainerInvitationRequest
+  property_count: 1
+  slug: keboola-createmaintainerinvitationrequest
+- name: CreateMaintainerOrganizationRequest
+  property_count: 2
+  slug: keboola-createmaintainerorganizationrequest
+- name: CreateMaintainerRequest
+  property_count: 9
+  slug: keboola-createmaintainerrequest
+- name: CreateMetadataRequest
+  property_count: 0
+  slug: keboola-createmetadatarequest
+- name: CreateMetadataWithProviderRequest
+  property_count: 2
+  slug: keboola-createmetadatawithproviderrequest
+- name: CreateSnapshotRequest
+  property_count: 1
+  slug: keboola-createsnapshotrequest
+- name: CreateSnowflakeBackendWithCertRequest
+  property_count: 11
+  slug: keboola-createsnowflakebackendwithcertrequest
+- name: CreateSnowflakeStorageBackendResponse
+  property_count: 20
+  slug: keboola-createsnowflakestoragebackendresponse
+- name: CreateSqlEditorSessionRequest
+  property_count: 4
+  slug: keboola-createsqleditorsessionrequest
+- name: CreateTableAsyncFromFileRequest
+  property_count: 9
+  slug: keboola-createtableasyncfromfilerequest
+- name: CreateTableAsyncFromSnapshotRequest
+  property_count: 9
+  slug: keboola-createtableasyncfromsnapshotrequest
+- name: CreateTableAsyncFromTimeTravelRequest
+  property_count: 10
+  slug: keboola-createtableasyncfromtimetravelrequest
+- name: CreateTableAsyncFromWorkspaceRequest
+  property_count: 11
+  slug: keboola-createtableasyncfromworkspacerequest
+- name: CreateTableMetadataRequest
+  property_count: 0
+  slug: keboola-createtablemetadatarequest
+- name: CreateTagRequest
+  property_count: 0
+  slug: keboola-createtagrequest
+- name: CreateTriggerRequest
+  property_count: 5
+  slug: keboola-createtriggerrequest
+- name: CreateWorkspaceRequest
+  property_count: 8
+  slug: keboola-createworkspacerequest
+- name: Credential
+  property_count: 6
+  slug: keboola-credential
+- name: CredentialList
+  property_count: 1
+  slug: keboola-credentiallist
+- name: Credentials
+  property_count: 9
+  slug: keboola-credentials
+- name: Credits
+  property_count: 3
+  slug: keboola-credits
+- name: DeleteConfigurationRowRequest
+  property_count: 0
+  slug: keboola-deleteconfigurationrowrequest
+- name: DeletedEntity
+  property_count: 2
+  slug: keboola-deletedentity
+- name: DeletedProjectResponse
+  property_count: 31
+  slug: keboola-deletedprojectresponse
+- name: DeletedProjectsListRequest
+  property_count: 4
+  slug: keboola-deletedprojectslistrequest
+- name: DeletedProjectsListResponse
+  property_count: 0
+  slug: keboola-deletedprojectslistresponse
+- name: DescribeConfigurationFeedbackSubject
+  property_count: 5
+  slug: keboola-describeconfigurationfeedbacksubject
+- name: DisabledEntity
+  property_count: 3
+  slug: keboola-disabledentity
+- name: DocsResponse
+  property_count: 2
+  slug: keboola-docsresponse
+- name: DurationJob
+  property_count: 5
+  slug: keboola-durationjob
+- name: DurationWorkspace
+  property_count: 6
+  slug: keboola-durationworkspace
+- name: EnqueueCommandRequest
+  property_count: 2
+  slug: keboola-enqueuecommandrequest
+- name: EnqueueCommandResponse
+  property_count: 1
+  slug: keboola-enqueuecommandresponse
+- name: EntityVersions
+  property_count: 2
+  slug: keboola-entityversions
+- name: Error
+  property_count: 5
+  slug: keboola-error
+- name: ErrorExplanation
+  property_count: 2
+  slug: keboola-errorexplanation
+- name: ErrorExplanationRequest
+  property_count: 2
+  slug: keboola-errorexplanationrequest
+- name: EventName
+  property_count: 0
+  slug: keboola-eventname
+- name: ExecuteQueryRequest
+  property_count: 1
+  slug: keboola-executequeryrequest
+- name: ExecuteQueryResponse
+  property_count: 3
+  slug: keboola-executequeryresponse
+- name: ExistingApp
+  property_count: 18
+  slug: keboola-existingapp
+- name: ExplainFeedbackSubject
+  property_count: 2
+  slug: keboola-explainfeedbacksubject
+- name: FeatureCreateRequest
+  property_count: 6
+  slug: keboola-featurecreaterequest
+- name: FeatureListRequest
+  property_count: 1
+  slug: keboola-featurelistrequest
+- name: FeatureListResponse
+  property_count: 0
+  slug: keboola-featurelistresponse
+- name: FeatureResponse
+  property_count: 8
+  slug: keboola-featureresponse
+- name: FeatureUpdateRequest
+  property_count: 4
+  slug: keboola-featureupdaterequest
+- name: Feedback
+  property_count: 4
+  slug: keboola-feedback
+- name: FileDeleteJobParams
+  property_count: 4
+  slug: keboola-filedeletejobparams
+- name: FileDeleteResponse
+  property_count: 14
+  slug: keboola-filedeleteresponse
+- name: FileResource
+  property_count: 15
+  slug: keboola-fileresource
+- name: FileStorageAbsResponse
+  property_count: 9
+  slug: keboola-filestorageabsresponse
+- name: FileStorageCreateAbsRequest
+  property_count: 5
+  slug: keboola-filestoragecreateabsrequest
+- name: FileStorageCreateGcsRequest
+  property_count: 4
+  slug: keboola-filestoragecreategcsrequest
+- name: FileStorageCreateS3Request
+  property_count: 5
+  slug: keboola-filestoragecreates3request
+- name: FileStorageGcsResponse
+  property_count: 10
+  slug: keboola-filestoragegcsresponse
+- name: FileStorageRotateAbsRequest
+  property_count: 0
+  slug: keboola-filestoragerotateabsrequest
+- name: FileStorageRotateGcsRequest
+  property_count: 0
+  slug: keboola-filestoragerotategcsrequest
+- name: FileStorageRotateS3Request
+  property_count: 0
+  slug: keboola-filestoragerotates3request
+- name: FileStorageS3Response
+  property_count: 9
+  slug: keboola-filestorages3response
+- name: FilterTriggerRequest
+  property_count: 0
+  slug: keboola-filtertriggerrequest
+- name: GenerateNewIdResponse
+  property_count: 1
+  slug: keboola-generatenewidresponse
+- name: GenericError
+  property_count: 3
+  slug: keboola-genericerror
+- name: GetOutputTablesRequest
+  property_count: 1
+  slug: keboola-getoutputtablesrequest
+- name: GetOutputTablesResponse
+  property_count: 1
+  slug: keboola-getoutputtablesresponse
+- name: GetSnapshotsRequest
+  property_count: 2
+  slug: keboola-getsnapshotsrequest
+- name: GitEntrypointsResponse
+  property_count: 1
+  slug: keboola-gitentrypointsresponse
+- name: GitRepositoryResponse
+  property_count: 1
+  slug: keboola-gitrepositoryresponse
+- name: GitRequest
+  property_count: 0
+  slug: keboola-gitrequest
+- name: GitRequestPublic
+  property_count: 2
+  slug: keboola-gitrequestpublic
+- name: GitRequestWithSshKey
+  property_count: 3
+  slug: keboola-gitrequestwithsshkey
+- name: GitRequestWithUsernamePassword
+  property_count: 4
+  slug: keboola-gitrequestwithusernamepassword
+- name: GlobalSearchRequest
+  property_count: 0
+  slug: keboola-globalsearchrequest
+- name: handlers.CancelQueryJobRequest
+  property_count: 1
+  slug: keboola-handlers.cancelqueryjobrequest
+- name: handlers.CancelQueryJobResponse
+  property_count: 1
+  slug: keboola-handlers.cancelqueryjobresponse
+- name: handlers.Column
+  property_count: 4
+  slug: keboola-handlers.column
+- name: handlers.IndexResponse
+  property_count: 3
+  slug: keboola-handlers.indexresponse
+- name: handlers.JobStatusResponse
+  property_count: 9
+  slug: keboola-handlers.jobstatusresponse
+- name: handlers.Operation
+  property_count: 8
+  slug: keboola-handlers.operation
+- name: handlers.Profile
+  property_count: 2
+  slug: keboola-handlers.profile
+- name: handlers.QueryHistoryResponse
+  property_count: 1
+  slug: keboola-handlers.queryhistoryresponse
+- name: handlers.ResultResponse
+  property_count: 6
+  slug: keboola-handlers.resultresponse
+- name: handlers.Statement
+  property_count: 10
+  slug: keboola-handlers.statement
+- name: handlers.StatementWithWorkspaceInfo
+  property_count: 13
+  slug: keboola-handlers.statementwithworkspaceinfo
+- name: handlers.SubmitJobResponse
+  property_count: 2
+  slug: keboola-handlers.submitjobresponse
+- name: handlers.SubmitQueryJobRequest
+  property_count: 6
+  slug: keboola-handlers.submitqueryjobrequest
+- name: httperrors.ErrorResponse
+  property_count: 7
+  slug: keboola-httperrors.errorresponse
+- name: HTTPSource
+  property_count: 1
+  slug: keboola-httpsource
+- name: ImportDataAsyncFromFileRequest
+  property_count: 9
+  slug: keboola-importdataasyncfromfilerequest
+- name: ImportDataAsyncFromWorkspaceRequest
+  property_count: 10
+  slug: keboola-importdataasyncfromworkspacerequest
+- name: IndexRequest
+  property_count: 0
+  slug: keboola-indexrequest
+- name: InputMappingLoadDryRunResponse
+  property_count: 3
+  slug: keboola-inputmappingloaddryrunresponse
+- name: InputMappingLoadRequest
+  property_count: 2
+  slug: keboola-inputmappingloadrequest
+- name: Job
+  property_count: 29
+  slug: keboola-job
+- name: JobResponse
+  property_count: 14
+  slug: keboola-jobresponse
+- name: JobStatus
+  property_count: 0
+  slug: keboola-jobstatus
+- name: JobType
+  property_count: 0
+  slug: keboola-jobtype
+- name: KubernetesServiceAccountListResponse
+  property_count: 0
+  slug: keboola-kubernetesserviceaccountlistresponse
+- name: KubernetesServiceAccountResponse
+  property_count: 3
+  slug: keboola-kubernetesserviceaccountresponse
+- name: Level
+  property_count: 5
+  slug: keboola-level
+- name: Levels
+  property_count: 3
+  slug: keboola-levels
+- name: LinkBucketRequest
+  property_count: 5
+  slug: keboola-linkbucketrequest
+- name: ListBucketsRequest
+  property_count: 0
+  slug: keboola-listbucketsrequest
+- name: ListComponentsRequest
+  property_count: 0
+  slug: keboola-listcomponentsrequest
+- name: ListFilesRequest
+  property_count: 0
+  slug: keboola-listfilesrequest
+- name: ListRowVersionsRequest
+  property_count: 0
+  slug: keboola-listrowversionsrequest
+- name: ListSharedBucketsRequest
+  property_count: 1
+  slug: keboola-listsharedbucketsrequest
+- name: ListVersionsRequest
+  property_count: 0
+  slug: keboola-listversionsrequest
+- name: LoadSessionRequest
+  property_count: 2
+  slug: keboola-loadsessionrequest
+- name: MaintainerDetailResponse
+  property_count: 0
+  slug: keboola-maintainerdetailresponse
+- name: MaintainerInvitationDetailResponse
+  property_count: 4
+  slug: keboola-maintainerinvitationdetailresponse
+- name: MaintainerInvitationResponse
+  property_count: 4
+  slug: keboola-maintainerinvitationresponse
+- name: MaintainerResponse
+  property_count: 12
+  slug: keboola-maintainerresponse
+- name: ManageTokenVerifyResponse
+  property_count: 12
+  slug: keboola-managetokenverifyresponse
+- name: MarketplaceSubscription
+  property_count: 10
+  slug: keboola-marketplacesubscription
+- name: MergeRequestCreateRequest
+  property_count: 8
+  slug: keboola-mergerequestcreaterequest
+- name: MergeRequestDetailRequest
+  property_count: 1
+  slug: keboola-mergerequestdetailrequest
+- name: MergeRequestDetailResponse
+  property_count: 0
+  slug: keboola-mergerequestdetailresponse
+- name: MergeRequestRejectRequest
+  property_count: 1
+  slug: keboola-mergerequestrejectrequest
+- name: MergeRequestRejectRequest2
+  property_count: 1
+  slug: keboola-mergerequestrejectrequest2
+- name: MergeRequestResponse
+  property_count: 13
+  slug: keboola-mergerequestresponse
+- name: MergeRequestUpdateRequest
+  property_count: 6
+  slug: keboola-mergerequestupdaterequest
+- name: MergeRequestWithChangeLogResponse
+  property_count: 0
+  slug: keboola-mergerequestwithchangelogresponse
+- name: MetadataCreateRequest
+  property_count: 1
+  slug: keboola-metadatacreaterequest
+- name: MetadataItemResponse
+  property_count: 5
+  slug: keboola-metadataitemresponse
+- name: MetadataRequest
+  property_count: 2
+  slug: keboola-metadatarequest
+- name: MigrateConfigurationPayload
+  property_count: 6
+  slug: keboola-migrateconfigurationpayload
+- name: MigrateConfigurationSucceeded
+  property_count: 3
+  slug: keboola-migrateconfigurationsucceeded
+- name: models.ActorType
+  property_count: 0
+  slug: keboola-models.actortype
+- name: models.JobState
+  property_count: 0
+  slug: keboola-models.jobstate
+- name: models.StatementState
+  property_count: 0
+  slug: keboola-models.statementstate
+- name: NewProjectSubscription
+  property_count: 5
+  slug: keboola-newprojectsubscription
+- name: Notification
+  property_count: 1
+  slug: keboola-notification
+- name: NumericString
+  property_count: 0
+  slug: keboola-numericstring
+- name: ObjectDescription
+  property_count: 2
+  slug: keboola-objectdescription
+- name: ObjectListResponse
+  property_count: 2
+  slug: keboola-objectlistresponse
+- name: OpenLineageCompleteEvent
+  property_count: 6
+  slug: keboola-openlineagecompleteevent
+- name: OpenLineageEvent
+  property_count: 0
+  slug: keboola-openlineageevent
+- name: OpenLineageEventList
+  property_count: 0
+  slug: keboola-openlineageeventlist
+- name: OpenLineageStartEvent
+  property_count: 6
+  slug: keboola-openlineagestartevent
+- name: OrganizationCreateProjectResponse
+  property_count: 0
+  slug: keboola-organizationcreateprojectresponse
+- name: OrganizationDetailResponse
+  property_count: 0
+  slug: keboola-organizationdetailresponse
+- name: OrganizationInvitationDetailResponse
+  property_count: 4
+  slug: keboola-organizationinvitationdetailresponse
+- name: OrganizationInvitationResponse
+  property_count: 4
+  slug: keboola-organizationinvitationresponse
+- name: OrganizationListResponse
+  property_count: 8
+  slug: keboola-organizationlistresponse
+- name: OrganizationMetadataRequest
+  property_count: 2
+  slug: keboola-organizationmetadatarequest
+- name: OrganizationResponse
+  property_count: 7
+  slug: keboola-organizationresponse
+- name: OrganizationsListResponse
+  property_count: 0
+  slug: keboola-organizationslistresponse
+- name: OrganizationWithProjectsResponse
+  property_count: 0
+  slug: keboola-organizationwithprojectsresponse
+- name: OTLPSource
+  property_count: 3
+  slug: keboola-otlpsource
+- name: PaginatedResponse
+  property_count: 4
+  slug: keboola-paginatedresponse
+- name: ProjectBucketListingResponse
+  property_count: 7
+  slug: keboola-projectbucketlistingresponse
+- name: ProjectCreditRequest
+  property_count: 2
+  slug: keboola-projectcreditrequest
+- name: ProjectDetailResponse
+  property_count: 0
+  slug: keboola-projectdetailresponse
+- name: ProjectInvitationDetailResponse
+  property_count: 7
+  slug: keboola-projectinvitationdetailresponse
+- name: ProjectInvitationResponse
+  property_count: 7
+  slug: keboola-projectinvitationresponse
+- name: ProjectJoinRequestDetailResponse
+  property_count: 5
+  slug: keboola-projectjoinrequestdetailresponse
+- name: ProjectJoinRequestResponse
+  property_count: 5
+  slug: keboola-projectjoinrequestresponse
+- name: ProjectPurgeRequest
+  property_count: 1
+  slug: keboola-projectpurgerequest
+- name: ProjectResponse
+  property_count: 27
+  slug: keboola-projectresponse
+- name: ProjectReviewersUpdateRequest
+  property_count: 1
+  slug: keboola-projectreviewersupdaterequest
+- name: ProjectStats
+  property_count: 1
+  slug: keboola-projectstats
+- name: ProjectSubscription
+  property_count: 0
+  slug: keboola-projectsubscription
+- name: ProjectTemplateResponse
+  property_count: 7
+  slug: keboola-projecttemplateresponse
+- name: ProjectUpdateRequest
+  property_count: 8
+  slug: keboola-projectupdaterequest
+- name: PromptRequest
+  property_count: 1
+  slug: keboola-promptrequest
+- name: PromptResponse
+  property_count: 2
+  slug: keboola-promptresponse
+- name: RecipientChannel_Email
+  property_count: 2
+  slug: keboola-recipientchannel-email
+- name: RecipientChannel_Webhook
+  property_count: 2
+  slug: keboola-recipientchannel-webhook
+- name: RefreshJobParams
+  property_count: 3
+  slug: keboola-refreshjobparams
+- name: RefreshJobResponse
+  property_count: 27
+  slug: keboola-refreshjobresponse
+- name: RegisterExistingBucketRequest
+  property_count: 0
+  slug: keboola-registerexistingbucketrequest
+- name: RegistrationRequest
+  property_count: 2
+  slug: keboola-registrationrequest
+- name: ReloadSessionRequest
+  property_count: 1
+  slug: keboola-reloadsessionrequest
+- name: ResetCredentialsResponse
+  property_count: 2
+  slug: keboola-resetcredentialsresponse
+- name: ResetPasswordResponse
+  property_count: 6
+  slug: keboola-resetpasswordresponse
+- name: RollbackConfigurationRowRequest
+  property_count: 0
+  slug: keboola-rollbackconfigurationrowrequest
+- name: RollbackConfigurationVersionRequest
+  property_count: 0
+  slug: keboola-rollbackconfigurationversionrequest
+- name: RunQueryRequest
+  property_count: 1
+  slug: keboola-runqueryrequest
+- name: RunQueryResponse
+  property_count: 2
+  slug: keboola-runqueryresponse
+- name: Runtime
+  property_count: 11
+  slug: keboola-runtime
+- name: SandboxResponse
+  property_count: 33
+  slug: keboola-sandboxresponse
+- name: Schedule
+  property_count: 7
+  slug: keboola-schedule
+- name: ScheduleRefreshRequest
+  property_count: 0
+  slug: keboola-schedulerefreshrequest
+- name: Schema
+  property_count: 4
+  slug: keboola
+- name: SearchComponentConfigurationsRequest
+  property_count: 0
+  slug: keboola-searchcomponentconfigurationsrequest
+- name: SearchTablesRequest
+  property_count: 0
+  slug: keboola-searchtablesrequest
+- name: ServiceDetail
+  property_count: 2
+  slug: keboola-servicedetail
+- name: SessionTokenResponse
+  property_count: 6
+  slug: keboola-sessiontokenresponse
+- name: SetMaintainerMetadataRequest
+  property_count: 2
+  slug: keboola-setmaintainermetadatarequest
+- name: SettingPatch
+  property_count: 2
+  slug: keboola-settingpatch
+- name: SettingResult
+  property_count: 8
+  slug: keboola-settingresult
+- name: SettingsResult
+  property_count: 1
+  slug: keboola-settingsresult
+- name: SetWorkspacePublicKeyRequest
+  property_count: 1
+  slug: keboola-setworkspacepublickeyrequest
+- name: ShareTokenRequest
+  property_count: 0
+  slug: keboola-sharetokenrequest
+- name: Sink
+  property_count: 13
+  slug: keboola-sink
+- name: SinkFile
+  property_count: 9
+  slug: keboola-sinkfile
+- name: SinkFileStatistics
+  property_count: 2
+  slug: keboola-sinkfilestatistics
+- name: SinksList
+  property_count: 5
+  slug: keboola-sinkslist
+- name: SinkStatisticsFilesResult
+  property_count: 1
+  slug: keboola-sinkstatisticsfilesresult
+- name: SinkStatisticsTotalResult
+  property_count: 2
+  slug: keboola-sinkstatisticstotalresult
+- name: SnowflakeAddColumnToTableRequest
+  property_count: 2
+  slug: keboola-snowflakeaddcolumntotablerequest
+- name: SnowflakeColumnsDefinitionUpdateRequest
+  property_count: 0
+  slug: keboola-snowflakecolumnsdefinitionupdaterequest
+- name: Source
+  property_count: 12
+  slug: keboola-source
+- name: SourcesList
+  property_count: 4
+  slug: keboola-sourceslist
+- name: SourceTableResponse
+  property_count: 4
+  slug: keboola-sourcetableresponse
+- name: SqlEditorSession
+  property_count: 21
+  slug: keboola-sqleditorsession
+- name: StatsListRequest
+  property_count: 0
+  slug: keboola-statslistrequest
+- name: StorageBackendBigqueryResponse
+  property_count: 9
+  slug: keboola-storagebackendbigqueryresponse
+- name: StorageBackendCreateBigqueryRequest
+  property_count: 6
+  slug: keboola-storagebackendcreatebigqueryrequest
+- name: StorageBackendDetailResponse
+  property_count: 19
+  slug: keboola-storagebackenddetailresponse
+- name: StorageBackendListResponse
+  property_count: 0
+  slug: keboola-storagebackendlistresponse
+- name: StorageBackendResponse
+  property_count: 15
+  slug: keboola-storagebackendresponse
+- name: StorageBackendUpdateBigqueryRequest
+  property_count: 4
+  slug: keboola-storagebackendupdatebigqueryrequest
+- name: StorageBackendUpdateRequest
+  property_count: 7
+  slug: keboola-storagebackendupdaterequest
+- name: StorageJobsListQueryRequest
+  property_count: 13
+  slug: keboola-storagejobslistqueryrequest
+- name: StreamCreateSinkRequestBody
+  property_count: 6
+  slug: keboola-streamcreatesinkrequestbody
+- name: StreamCreateSourceRequestBody
+  property_count: 4
+  slug: keboola-streamcreatesourcerequestbody
+- name: StreamUpdateSinkRequestBody
+  property_count: 6
+  slug: keboola-streamupdatesinkrequestbody
+- name: StreamUpdateSinkSettingsRequestBody
+  property_count: 2
+  slug: keboola-streamupdatesinksettingsrequestbody
+- name: StreamUpdateSourceRequestBody
+  property_count: 4
+  slug: keboola-streamupdatesourcerequestbody
+- name: StreamUpdateSourceSettingsRequestBody
+  property_count: 2
+  slug: keboola-streamupdatesourcesettingsrequestbody
+- name: Success
+  property_count: 0
+  slug: keboola-success
+- name: SuggestedComponent
+  property_count: 2
+  slug: keboola-suggestedcomponent
+- name: SwapJobParams
+  property_count: 3
+  slug: keboola-swapjobparams
+- name: Table
+  property_count: 7
+  slug: keboola-table
+- name: TableColumn
+  property_count: 6
+  slug: keboola-tablecolumn
+- name: TableColumnTemplate
+  property_count: 2
+  slug: keboola-tablecolumntemplate
+- name: TableCreateOrUpdateMetadataResponse
+  property_count: 2
+  slug: keboola-tablecreateorupdatemetadataresponse
+- name: TableCreateResponse
+  property_count: 26
+  slug: keboola-tablecreateresponse
+- name: TableDDLResponse
+  property_count: 1
+  slug: keboola-tableddlresponse
+- name: TableDefinitions
+  property_count: 1
+  slug: keboola-tabledefinitions
+- name: TableDefinitionUpdateJobParams
+  property_count: 10
+  slug: keboola-tabledefinitionupdatejobparams
+- name: TableDefinitionUpdateRequest
+  property_count: 3
+  slug: keboola-tabledefinitionupdaterequest
+- name: TableDetailResponse
+  property_count: 31
+  slug: keboola-tabledetailresponse
+- name: TableExportJobResponse
+  property_count: 1
+  slug: keboola-tableexportjobresponse
+- name: TableLifecycle
+  property_count: 3
+  slug: keboola-tablelifecycle
+- name: TableMapping
+  property_count: 1
+  slug: keboola-tablemapping
+- name: TableMetrics
+  property_count: 2
+  slug: keboola-tablemetrics
+- name: TablePreviewRequest
+  property_count: 3
+  slug: keboola-tablepreviewrequest
+- name: TablePreviewResponse
+  property_count: 2
+  slug: keboola-tablepreviewresponse
+- name: TableResource
+  property_count: 5
+  slug: keboola-tableresource
+- name: TableSink
+  property_count: 3
+  slug: keboola-tablesink
+- name: TableSinkCreate
+  property_count: 3
+  slug: keboola-tablesinkcreate
+- name: TableSinkUpdate
+  property_count: 3
+  slug: keboola-tablesinkupdate
+- name: TablesListRequest
+  property_count: 0
+  slug: keboola-tableslistrequest
+- name: TableSnapshotCreateJobResult
+  property_count: 7
+  slug: keboola-tablesnapshotcreatejobresult
+- name: TableSwapRequest
+  property_count: 1
+  slug: keboola-tableswaprequest
+- name: TableSwapResult
+  property_count: 2
+  slug: keboola-tableswapresult
+- name: Task
+  property_count: 11
+  slug: keboola-task
+- name: TaskOutputs
+  property_count: 5
+  slug: keboola-taskoutputs
+- name: TestResult
+  property_count: 4
+  slug: keboola-testresult
+- name: TestResultColumn
+  property_count: 2
+  slug: keboola-testresultcolumn
+- name: TestResultRow
+  property_count: 1
+  slug: keboola-testresultrow
+- name: TestResultTable
+  property_count: 3
+  slug: keboola-testresulttable
+- name: TokenCreateLimitedRequest
+  property_count: 2
+  slug: keboola-tokencreatelimitedrequest
+- name: TokenCreateRequest
+  property_count: 11
+  slug: keboola-tokencreaterequest
+- name: TokenCreateResponse
+  property_count: 21
+  slug: keboola-tokencreateresponse
+- name: TokenEventAttachmentResponse
+  property_count: 8
+  slug: keboola-tokeneventattachmentresponse
+- name: TokenEventResponse
+  property_count: 10
+  slug: keboola-tokeneventresponse
+- name: TokenEventsListResponse
+  property_count: 0
+  slug: keboola-tokeneventslistresponse
+- name: TokenListResponse
+  property_count: 23
+  slug: keboola-tokenlistresponse
+- name: TokenRefreshResponse
+  property_count: 21
+  slug: keboola-tokenrefreshresponse
+- name: TokensListResponse
+  property_count: 0
+  slug: keboola-tokenslistresponse
+- name: TokenVerifyResponse
+  property_count: 26
+  slug: keboola-tokenverifyresponse
+- name: TriggerResponse
+  property_count: 8
+  slug: keboola-triggerresponse
+- name: UiAppResponse
+  property_count: 8
+  slug: keboola-uiappresponse
+- name: UiAppsListResponse
+  property_count: 0
+  slug: keboola-uiappslistresponse
+- name: UiAppsRegistrationResponse
+  property_count: 2
+  slug: keboola-uiappsregistrationresponse
+- name: UnloadSessionRequest
+  property_count: 1
+  slug: keboola-unloadsessionrequest
+- name: UpdateBucketListingRequest
+  property_count: 3
+  slug: keboola-updatebucketlistingrequest
+- name: UpdateBucketSharingRequest
+  property_count: 0
+  slug: keboola-updatebucketsharingrequest
+- name: UpdateConfigurationRequest
+  property_count: 0
+  slug: keboola-updateconfigurationrequest
+- name: UpdateConfigurationRowRequest
+  property_count: 0
+  slug: keboola-updateconfigurationrowrequest
+- name: UpdateConfigurationRowStateRequest
+  property_count: 0
+  slug: keboola-updateconfigurationrowstaterequest
+- name: UpdateConfigurationStateRequest
+  property_count: 0
+  slug: keboola-updateconfigurationstaterequest
+- name: UpdateDevBranchRequest
+  property_count: 0
+  slug: keboola-updatedevbranchrequest
+- name: UpdateMaintainerRequest
+  property_count: 9
+  slug: keboola-updatemaintainerrequest
+- name: UpdateTokenRequest
+  property_count: 0
+  slug: keboola-updatetokenrequest
+- name: UpdateTriggerRequest
+  property_count: 5
+  slug: keboola-updatetriggerrequest
+- name: User
+  property_count: 4
+  slug: keboola-user
+- name: UserResponse
+  property_count: 7
+  slug: keboola-userresponse
+- name: ValidateColumnNamesRequest
+  property_count: 1
+  slug: keboola-validatecolumnnamesrequest
+- name: Variable
+  property_count: 5
+  slug: keboola-variable
+- name: VariableWithHash
+  property_count: 0
+  slug: keboola-variablewithhash
+- name: Vendor
+  property_count: 6
+  slug: keboola-vendor
+- name: Version
+  property_count: 5
+  slug: keboola-version
+- name: WebalizeColumnNameRequest
+  property_count: 1
+  slug: keboola-webalizecolumnnamerequest
+- name: WebalizeColumnNamesResponse
+  property_count: 1
+  slug: keboola-webalizecolumnnamesresponse
+- name: WebalizeDisplayNameRequest
+  property_count: 1
+  slug: keboola-webalizedisplaynamerequest
+- name: WebalizeDisplayNameResponse
+  property_count: 1
+  slug: keboola-webalizedisplaynameresponse
+- name: WorkspaceDetailResponse
+  property_count: 13
+  slug: keboola-workspacedetailresponse
+- name: WorkspaceDetailResponseWithSecret
+  property_count: 13
+  slug: keboola-workspacedetailresponsewithsecret
+- name: WorkspaceStorageCredentialsCreateRequest
+  property_count: 1
+  slug: keboola-workspacestoragecredentialscreaterequest
+- name: WorkspaceTableExportRequest
+  property_count: 4
+  slug: keboola-workspacetableexportrequest
+jsonld:
+- class_count: 4
+  name: Keboola Context
+  property_count: 42
+  slug: keboola-context
 layout: provider
 modified: '2026-06-13'
 name: Keboola
 nav: Providers
 network: true
-random_paper: 19
+overview: 'Keboola publishes 79 APIs on the [APIs.io](https://apis.io/) network, including Actions API, Admin Apps API, Admin Stacks API, and 76 more. Tagged areas include Data Platform, ETL, ELT, Data Pipelines, and Data Storage.
+
+
+  The Keboola catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Keboola''s developer surface includes authentication, documentation, engineering blog, pricing, CLI, and 17 more developer resources.'
+plans:
+- name: Keboola Plans Pricing
+  plan_count: 2
+  slug: keboola-plans-pricing
+random_paper: 53
+rate_limits:
+- limit_count: 0
+  name: Keboola Rate Limits
+  slug: keboola-rate-limits
+rules:
+- name: Keboola API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: keboola-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 50.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 47.4
+    contract_quality: 56.8
+    developer_ergonomics: 28.3
+    discoverability: 92.5
+    governance: 73.7
+    operational_transparency: 21.1
+  previous_composite: 50.2
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/keboola/refs/heads/main/screenshots/keboola-2026-06-20T183937.png
+security:
+- kind: authentication
+  name: Keboola Authentication
+  slug: keboola-authentication
+  summary_line: apiKey/http · 6 schemes
+- kind: domain-security
+  name: Keboola Domain Security
+  slug: keboola-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Keboola Vulnerability Disclosure
+  slug: keboola-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Keboola Trust Center
+  slug: keboola-trust-center
+  summary_line: SOC 2
 slug: keboola
 tags:
 - Data Platform
@@ -36,4 +1618,5 @@ tags:
 - Cloud Data
 - Snowflake
 - BigQuery
+website: https://www.keboola.com/
 ---

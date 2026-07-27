@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 63.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 9
 apis:
 - description: The Documents API from LeaseAccelerator — 4 operation(s) for documents.
@@ -212,8 +212,9 @@ score:
     operational_transparency: 39.5
   previous_composite: 55.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/leaseaccelerator/refs/heads/main/screenshots/leaseaccelerator-2026-07-25T224805.png
 security:
 - kind: authentication
   name: Leaseaccelerator Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 160
   human_in_the_loop: 122
@@ -365,25 +365,25 @@ plans:
 - name: Loadsmart Plans Pricing
   plan_count: 6
   slug: loadsmart-plans-pricing
-random_paper: 49
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Loadsmart Rate Limits
   slug: loadsmart-rate-limits
 score:
   band: thin
-  composite: 38.0
-  delta: 0.0
+  composite: 39.2
+  delta: 1.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 46.6
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 38.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/loadsmart/refs/heads/main/screenshots/loadsmart-2026-06-20T184627.png
 security:

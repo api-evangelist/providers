@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST-based cloud API for MYOB AccountRight, MYOB Essentials, and MYOB Business. Provides endpoints for managing invoices, bills, contacts (customers, suppliers, employees), general ledger accounts, ba
@@ -136,7 +136,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 31.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/myob/refs/heads/main/screenshots/myob-2026-06-20T185917.png
 security:

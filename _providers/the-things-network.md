@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 174
   human_in_the_loop: 3
@@ -492,20 +492,20 @@ rules:
     warn: 2
   slug: the-things-network-rules
 score:
-  band: developing
-  composite: 56.0
-  delta: 0.0
+  band: strong
+  composite: 62.0
+  delta: 6.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 52.8
+    contract_quality: 71.7
     developer_ergonomics: 47.8
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 63.2
   previous_composite: 56.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-things-network/refs/heads/main/screenshots/the-things-network-2026-06-20T195339.png
 security:
 - kind: authentication

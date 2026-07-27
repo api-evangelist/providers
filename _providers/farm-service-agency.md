@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: As directed by the OPEN (Open, Public, Electronic, and Necessary) Government Data Act and through its commitment to United States agriculturalists and interested public, FSA provides numerous data res
@@ -59,7 +59,7 @@ plans:
 - name: Farm Service Agency Plans Pricing
   plan_count: 3
   slug: farm-service-agency-plans-pricing
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Farm Service Agency Rate Limits
@@ -77,7 +77,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 18.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farm-service-agency/refs/heads/main/screenshots/farm-service-agency-2026-06-20T181041.png
 security:

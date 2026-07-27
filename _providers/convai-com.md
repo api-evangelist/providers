@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -242,7 +242,7 @@ plans:
 - name: Convai Plans Pricing
   plan_count: 5
   slug: convai-plans-pricing
-random_paper: 35
+random_paper: 52
 rate_limits:
 - limit_count: 7
   name: Convai Rate Limits
@@ -257,19 +257,19 @@ rules:
     warn: 3
   slug: convai-com-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 57.9
-  delta: 0.0
+  band: strong
+  composite: 62.1
+  delta: 4.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 56.4
+    contract_quality: 65.2
     developer_ergonomics: 52.2
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 57.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convai-com/refs/heads/main/screenshots/convai-com-2026-06-20T174957.png
 security:

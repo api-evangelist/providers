@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ plans:
 - name: Tillo Plans Pricing
   plan_count: 3
   slug: tillo-plans-pricing
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Tillo Rate Limits
@@ -196,23 +196,23 @@ rules:
   slug: tillo-rules
 score:
   band: developing
-  composite: 55.9
-  delta: -1.8
+  composite: 58.7
+  delta: 2.8
   facets:
     commercial_clarity: 60.5
     contract_quality: 64.4
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
-  previous_composite: 57.7
+  previous_composite: 55.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tillo/refs/heads/main/screenshots/tillo-2026-06-20T195353.png
 security:

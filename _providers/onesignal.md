@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: The Apps API from OneSignal — 21 operation(s) for apps.
@@ -111,25 +111,25 @@ plans:
 - name: Onesignal Plans Pricing
   plan_count: 1
   slug: onesignal-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Onesignal Rate Limits
   slug: onesignal-rate-limits
 score:
   band: thin
-  composite: 30.3
-  delta: 0.0
+  composite: 33.6
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 60.8
     developer_ergonomics: 2.2
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 30.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onesignal/refs/heads/main/screenshots/onesignal-2026-06-20T190717.png
 security:

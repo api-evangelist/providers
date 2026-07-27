@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -97,7 +97,7 @@ overview: 'Strawberry is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Strawberry''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, and 9 more developer resources.'
-random_paper: 38
+random_paper: 21
 score:
   band: emerging
   composite: 19.7
@@ -111,7 +111,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 19.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

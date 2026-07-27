@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 3
@@ -219,7 +219,7 @@ plans:
 - name: Wompi Plans Pricing
   plan_count: 2
   slug: wompi-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Wompi Rate Limits
@@ -227,7 +227,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.4
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 69.3
@@ -235,14 +235,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 61.2
+  previous_composite: 62.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 69.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

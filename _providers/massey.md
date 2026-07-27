@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: OAI-PMH 2.0 metadata-harvesting interface for Massey Research Online (MRO), the DSpace institutional repository providing free full-text access to Massey University research outputs, theses, and disse
@@ -108,7 +108,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 21.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/massey/refs/heads/main/screenshots/massey-2026-06-20T185021.png
 security:

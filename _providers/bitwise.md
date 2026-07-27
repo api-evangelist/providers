@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 36.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -123,11 +123,11 @@ overview: 'Bitwise publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Bitwise''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 45
+random_paper: 11
 score:
   band: thin
   composite: 41.3
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 63.7
@@ -135,15 +135,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 43.2
+  previous_composite: 41.3
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bitwise/refs/heads/main/screenshots/bitwise-2026-07-25T203218.png
 security:
 - kind: authentication
   name: Bitwise Authentication

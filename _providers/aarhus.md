@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 278
   human_in_the_loop: 1
@@ -283,7 +283,7 @@ rules:
 score:
   band: developing
   composite: 45.3
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 62.0
@@ -291,14 +291,14 @@ score:
     discoverability: 87.5
     governance: 73.7
     operational_transparency: 26.3
-  previous_composite: 44.5
+  previous_composite: 45.3
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aarhus/refs/heads/main/screenshots/aarhus-2026-06-20T163007.png
 security:

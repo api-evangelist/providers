@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Read-only JSON API for the FreiDok plus institutional repository and university bibliography, returning publication and research-data metadata records. Supports pagination via startitem/maxitems param
@@ -105,7 +105,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.5
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 15.1
@@ -113,14 +113,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 22.3
+  previous_composite: 24.5
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-freiburg/refs/heads/main/screenshots/university-of-freiburg-2026-06-20T200150.png
 security:

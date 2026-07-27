@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 33.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: The recommended tenant-scoped Open API for customers, tickets, organizations, agents, agent groups, departments, knowledge base, IM sessions, call center, outbound call tasks, questionnaires, work log
@@ -173,7 +173,7 @@ overview: 'Udesk publishes 5 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Udesk''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 30
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Udesk Rate Limits
@@ -191,7 +191,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 43.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -127,18 +127,18 @@ rules:
   slug: open-liberty-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 49.8
+  delta: 3.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 51.6
+    contract_quality: 56.9
     developer_ergonomics: 32.6
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 46.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-liberty/refs/heads/main/screenshots/open-liberty-2026-06-20T190837.png
 security:

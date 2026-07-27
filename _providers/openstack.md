@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -204,7 +204,7 @@ plans:
 - name: Openstack Plans Pricing
   plan_count: 1
   slug: openstack-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Openstack Rate Limits
@@ -220,18 +220,18 @@ rules:
   slug: openstack-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 55.3
+  delta: 4.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 58.8
+    contract_quality: 64.1
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 50.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstack/refs/heads/main/screenshots/openstack-2026-06-20T191039.png
 security:

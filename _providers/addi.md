@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API that lets e-commerce merchants create Addi buy-now-pay-later credit applications at checkout. Authentication is handled through Auth0 using the OAuth2 client-credentials flow (client_id + cli
@@ -110,11 +110,11 @@ overview: 'Addi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Addi''s developer surface includes documentation, engineering blog, support, signup flow, authentication, sandbox, and 10 more developer resources.'
-random_paper: 45
+random_paper: 62
 score:
   band: thin
   composite: 30.5
-  delta: 4.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -122,15 +122,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 26.3
+  previous_composite: 30.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/addi/refs/heads/main/screenshots/addi-2026-07-25T181615.png
 security:
 - kind: authentication
   name: Addi Authentication

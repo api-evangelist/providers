@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 56.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - description: The ICE Mortgage Technology Developer Portal is a self-service solution providing developers with resources and documentation to build and deploy mortgage lending applications. It includes a comprehen
   name: ICE Mortgage Technology Developer Portal
   slug: mortgage-technology-api
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: open
   name: ICE Consolidated Feed API
@@ -160,6 +160,10 @@ finops:
   slug: intercontinental-exchange-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intercontinental-exchange.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: intercontinental-exchange-mcp.yml
+  slug: intercontinental-exchange-mcpyml
 modified: '2026-07-22'
 name: Intercontinental Exchange
 nav: Providers
@@ -188,30 +192,30 @@ press:
 - date: '2026-05-25'
   title: National Housing Conference and ICE host industry ...
   url: https://nhc.org/press-release/national-housing-conference-and-ice-host-industry-leaders-and-experts-to-explore-technologys-transformative-impact-on-housing-finance/
-random_paper: 8
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Intercontinental Exchange Rate Limits
   slug: intercontinental-exchange-rate-limits
 score:
   band: developing
-  composite: 48.7
-  delta: 2.9
+  composite: 51.5
+  delta: 2.8
   facets:
     commercial_clarity: 65.8
     contract_quality: 50.4
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 45.8
+  previous_composite: 48.7
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/screenshots/intercontinental-exchange-2026-06-20T183442.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 39.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Kin Euphorics Shopify storefront agent-commerce surface. Its UCP discovery document (/.well-known/ucp) advertises a Universal Commerce Protocol shopping service over MCP transport, supporting cata
@@ -106,7 +106,7 @@ overview: 'Kin Euphorics publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Kin Euphorics'' developer surface includes developer portal, signup flow, authentication, and 11 more developer resources.'
-random_paper: 19
+random_paper: 53
 scopes:
 - name: Kin Euphorics Scopes
   scope_count: 4
@@ -125,7 +125,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 21.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

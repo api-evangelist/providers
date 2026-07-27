@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -272,7 +272,7 @@ overview: 'The Trade Desk publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   The Trade Desk''s developer surface includes developer portal, getting-started guide, authentication, engineering blog, and 13 more developer resources.'
-random_paper: 36
+random_paper: 2
 rules:
 - name: The Trade Desk API Rules
   rule_count: 5
@@ -295,7 +295,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 40.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-trade-desk/refs/heads/main/screenshots/the-trade-desk-2026-06-20T195241.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ overview: 'Vela Labs is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Vela Labs'' developer surface includes pricing, signup flow, support, FAQ, and 4 more developer resources.'
-random_paper: 20
+random_paper: 3
 score:
   band: emerging
   composite: 15.1
@@ -87,7 +87,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 15.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

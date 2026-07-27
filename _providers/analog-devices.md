@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The libiio library provides a cross-platform C API for interfacing with Linux Industrial I/O (IIO) devices including ADCs, DACs, and RF transceivers. It supports local and remote device access via a n
@@ -166,7 +166,7 @@ press:
 - date: '2026-05-25'
   title: Q1 2026 Analog Devices Inc Earnings Call EVENT DATE/TIME
   url: https://investor.analog.com/static-files/6040f10c-669c-487e-bfa8-60eb1db6c369
-random_paper: 33
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Analog Devices Rate Limits
@@ -201,7 +201,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 38.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

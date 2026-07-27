@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -296,7 +296,7 @@ plans:
 - name: Google Apps Script Plans Pricing
   plan_count: 3
   slug: google-apps-script-plans-pricing
-random_paper: 39
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Google Apps Script Rate Limits
@@ -320,18 +320,18 @@ rules:
   slug: google-apps-script-spectral-rules
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 57.4
+  delta: 4.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.4
+    contract_quality: 63.7
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 52.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-apps-script/refs/heads/main/screenshots/google-apps-script-2026-06-20T182017.png
 security:

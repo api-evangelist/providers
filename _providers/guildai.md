@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Guildcode REST API for creating workspace-scoped agent sessions, posting events, and reading session events and tasks. HTTP Basic authentication; no public OpenAPI spec.
@@ -126,7 +126,7 @@ overview: 'Guild.ai publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Guild.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 12 more developer resources.'
-random_paper: 21
+random_paper: 55
 score:
   band: thin
   composite: 33.0
@@ -140,8 +140,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 33.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/guildai/refs/heads/main/screenshots/guildai-2026-07-25T220430.png
 security:
 - kind: authentication
   name: Guildai Authentication

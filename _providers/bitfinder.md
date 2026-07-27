@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ overview: 'Bitfinder publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Bitfinder''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 33
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Bitfinder Rate Limits
@@ -188,7 +188,7 @@ scopes:
 score:
   band: developing
   composite: 52.3
-  delta: 4.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 60.2
@@ -196,15 +196,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 48.1
+  previous_composite: 52.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bitfinder/refs/heads/main/screenshots/bitfinder-2026-07-25T203146.png
 security:
 - kind: authentication
   name: Bitfinder Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: ONEiO is a managed integration service provider delivering IntegrationOps as a Service, providing cloud-based, automation-led integrations for enterprise IT that go live in weeks and evolve automatica
@@ -74,7 +74,7 @@ plans:
 - name: Oneio Plans Pricing
   plan_count: 3
   slug: oneio-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Oneio Rate Limits
@@ -92,7 +92,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 21.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oneio/refs/heads/main/screenshots/oneio-2026-06-20T190711.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 257
   human_in_the_loop: 10
@@ -1487,19 +1487,19 @@ rules:
     warn: 6
   slug: scaleway-rules
 score:
-  band: developing
-  composite: 59.8
-  delta: 0.0
+  band: strong
+  composite: 61.0
+  delta: 1.2
   facets:
     commercial_clarity: 47.4
     contract_quality: 60.3
     developer_ergonomics: 63.0
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 42.1
   previous_composite: 59.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

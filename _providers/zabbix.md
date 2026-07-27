@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -191,18 +191,18 @@ rules:
   slug: zabbix-rules
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 48.8
+  delta: 3.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 57.7
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 26.3
     operational_transparency: 36.8
   previous_composite: 45.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zabbix/refs/heads/main/screenshots/zabbix-2026-06-20T201756.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 97
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ rules:
 score:
   band: thin
   composite: 39.1
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 53.9
@@ -179,14 +179,14 @@ score:
     discoverability: 87.5
     governance: 73.7
     operational_transparency: 21.1
-  previous_composite: 41.8
+  previous_composite: 39.1
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nano/refs/heads/main/screenshots/nano-2026-06-20T185939.png
 security:

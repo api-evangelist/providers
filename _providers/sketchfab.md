@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -327,7 +327,7 @@ plans:
 - name: Sketchfab Plans Pricing
   plan_count: 5
   slug: sketchfab-plans-pricing
-random_paper: 21
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Sketchfab Rate Limits
@@ -348,18 +348,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 65.8
-  delta: 0.0
+  composite: 69.1
+  delta: 3.3
   facets:
     commercial_clarity: 84.2
-    contract_quality: 65.5
+    contract_quality: 70.8
     developer_ergonomics: 60.9
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 65.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sketchfab/refs/heads/main/screenshots/sketchfab-2026-06-20T194108.png
 security:

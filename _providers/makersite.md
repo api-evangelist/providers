@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -89,7 +89,7 @@ overview: 'Makersite is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Makersite''s developer surface includes pricing, engineering blog, support, and 9 more developer resources.'
-random_paper: 47
+random_paper: 13
 score:
   band: emerging
   composite: 16.8
@@ -103,8 +103,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 16.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/makersite/refs/heads/main/screenshots/makersite-2026-07-25T225948.png
 security:
 - kind: domain-security
   name: Makersite Domain Security

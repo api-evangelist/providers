@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 84.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 1
@@ -252,7 +252,7 @@ plans:
 - name: Lev Plans
   plan_count: 4
   slug: lev-plans
-random_paper: 21
+random_paper: 55
 rate_limits:
 - limit_count: 6
   name: Lev Rate Limits
@@ -265,7 +265,7 @@ scopes:
 score:
   band: strong
   composite: 69.8
-  delta: 3.0
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 56.1
@@ -273,15 +273,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 73.7
-  previous_composite: 66.8
+  previous_composite: 69.8
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lev/refs/heads/main/screenshots/lev-2026-07-25T224941.png
 security:
 - kind: authentication
   name: Lev Authentication

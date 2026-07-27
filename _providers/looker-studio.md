@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 55.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -326,7 +326,7 @@ plans:
 - name: Looker Studio Plans Pricing
   plan_count: 2
   slug: looker-studio-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Looker Studio Rate Limits
@@ -347,18 +347,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.7
-  delta: 0.0
+  composite: 69.4
+  delta: 4.7
   facets:
     commercial_clarity: 73.7
-    contract_quality: 65.2
+    contract_quality: 74.1
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 64.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/looker-studio/refs/heads/main/screenshots/looker-studio-2026-06-20T184714.png
 security:

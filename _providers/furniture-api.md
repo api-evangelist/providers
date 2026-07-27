@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -77,25 +77,25 @@ plans:
 - name: Furniture Api Plans Pricing
   plan_count: 3
   slug: furniture-api-plans-pricing
-random_paper: 29
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Furniture Api Rate Limits
   slug: furniture-api-rate-limits
 score:
   band: thin
-  composite: 31.5
-  delta: 0.0
+  composite: 34.8
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 52.2
     developer_ergonomics: 8.7
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 31.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/furniture-api/refs/heads/main/screenshots/furniture-api-2026-06-20T181622.png
 slug: furniture-api

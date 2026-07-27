@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -42,7 +42,7 @@ name: Managed by Q *
 nav: Providers
 network: true
 overview: Managed by Q * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Enterprise.
-random_paper: 17
+random_paper: 51
 score:
   band: minimal
   composite: 5.5
@@ -56,8 +56,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/managed-by-q/refs/heads/main/screenshots/managed-by-q-2026-07-25T230019.png
 slug: managed-by-q
 tags:
 - Company

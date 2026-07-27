@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -213,7 +213,7 @@ plans:
 - name: Azure Plans Pricing
   plan_count: 5
   slug: azure-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Azure Rate Limits
@@ -253,7 +253,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 64.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure/refs/heads/main/screenshots/azure-2026-06-20T172833.png
 security:

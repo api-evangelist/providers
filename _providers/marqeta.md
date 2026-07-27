@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 204
   human_in_the_loop: 12
@@ -379,7 +379,7 @@ plans:
 - name: Marqeta Plans Pricing
   plan_count: 2
   slug: marqeta-plans-pricing
-random_paper: 33
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Marqeta Rate Limits
@@ -403,23 +403,23 @@ rules:
   slug: marqeta-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.7
-  delta: 2.5
+  composite: 48.8
+  delta: 2.1
   facets:
     commercial_clarity: 36.8
     contract_quality: 72.8
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 52.6
     operational_transparency: 26.3
-  previous_composite: 44.2
+  previous_composite: 46.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 60.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/screenshots/marqeta-2026-06-20T185001.png
 security:

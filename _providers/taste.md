@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The health API from Taste — 2 operation(s) for health.
@@ -108,7 +108,7 @@ overview: 'Taste publishes 3 APIs on the [APIs.io](https://apis.io/) network: he
 
 
   Taste''s developer surface includes engineering blog, authentication, and 11 more developer resources.'
-random_paper: 35
+random_paper: 1
 score:
   band: emerging
   composite: 27.6
@@ -122,7 +122,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 27.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

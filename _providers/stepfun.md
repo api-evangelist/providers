@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 45.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 12
 apis:
 - description: OpenAI-compatible chat completions for the Step model family (e.g. step-3.7-flash, step-3.5-flash, stepaudio-2.5-chat), with multimodal image/video/audio message parts, tool calling, JSON mode, stream
@@ -190,7 +190,7 @@ overview: 'StepFun publishes 1 API on the [APIs.io](https://apis.io/) network: R
 
 
   StepFun''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 8
+random_paper: 25
 rate_limits:
 - limit_count: 18
   name: Stepfun Rate Limits
@@ -208,7 +208,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 44.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

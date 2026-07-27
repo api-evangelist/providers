@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -254,7 +254,7 @@ plans:
 - name: Dub Plans Pricing
   plan_count: 5
   slug: dub-plans-pricing
-random_paper: 9
+random_paper: 43
 rate_limits:
 - limit_count: 8
   name: Dub Rate Limits
@@ -281,7 +281,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 66.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dub/refs/heads/main/screenshots/dub-2026-06-20T180305.png
 security:

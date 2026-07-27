@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: REST API for managing users, teams, on-call schedules, escalation policies, incidents, and routing keys in Splunk On-Call (VictorOps). Authentication uses X-VO-Api-Id and X-VO-Api-Key headers generate
@@ -100,7 +100,7 @@ overview: 'Splunk On-Call (VictorOps) publishes 2 APIs on the [APIs.io](https://
 
 
   Splunk On-Call (VictorOps)''s developer surface includes documentation, pricing, signup flow, support, and 8 more developer resources.'
-random_paper: 32
+random_paper: 49
 score:
   band: emerging
   composite: 20.2
@@ -114,7 +114,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 20.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/victorops/refs/heads/main/screenshots/victorops-2026-06-20T201030.png
 security:

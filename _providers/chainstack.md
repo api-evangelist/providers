@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1123
   human_in_the_loop: 0
@@ -464,18 +464,18 @@ rules:
   slug: chainstack-rules
 score:
   band: strong
-  composite: 65.0
-  delta: 0.0
+  composite: 68.5
+  delta: 3.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 62.6
+    contract_quality: 71.4
     developer_ergonomics: 50.0
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 73.7
   previous_composite: 65.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chainstack/refs/heads/main/screenshots/chainstack-2026-06-20T174203.png
 security:

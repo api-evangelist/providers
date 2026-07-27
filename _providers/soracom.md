@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 616
   human_in_the_loop: 72
@@ -732,7 +732,7 @@ plans:
 - name: Soracom Plans Pricing
   plan_count: 17
   slug: soracom-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Soracom Rate Limits
@@ -755,19 +755,19 @@ rules:
     warn: 5
   slug: soracom-rules
 score:
-  band: strong
-  composite: 67.9
-  delta: 0.0
+  band: exemplar
+  composite: 72.7
+  delta: 4.8
   facets:
     commercial_clarity: 84.2
-    contract_quality: 59.2
+    contract_quality: 68.1
     developer_ergonomics: 71.7
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 67.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/screenshots/soracom-2026-06-20T194218.png
 security:

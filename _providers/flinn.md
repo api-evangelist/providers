@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -101,11 +101,11 @@ overview: 'Flinn is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Flinn''s developer surface includes engineering blog, support, signup flow, and 12 more developer resources.'
-random_paper: 25
+random_paper: 59
 score:
   band: emerging
   composite: 23.0
-  delta: 5.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -113,15 +113,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 17.8
+  previous_composite: 23.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 52.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/flinn/refs/heads/main/screenshots/flinn-2026-07-25T214759.png
 security:
 - kind: domain-security
   name: Flinn Domain Security

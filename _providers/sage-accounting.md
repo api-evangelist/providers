@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for Sage Business Cloud Accounting providing access to contacts, sales invoices, sales credit notes, purchase invoices, purchase credit notes, ledger accounts, journals, products, services, t
@@ -105,7 +105,7 @@ overview: 'Sage Accounting publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Sage Accounting''s developer surface includes engineering blog, documentation, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 49
+random_paper: 32
 score:
   band: emerging
   composite: 18.9
@@ -119,7 +119,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 18.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

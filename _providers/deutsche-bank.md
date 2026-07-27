@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Deutsche Bank is a global financial institution that offers a wide range of banking and financial services to individuals, corporations, and institutional clients. The bank provides services such as i
@@ -82,7 +82,7 @@ plans:
 - name: Deutsche Bank Plans Pricing
   plan_count: 3
   slug: deutsche-bank-plans-pricing
-random_paper: 35
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Deutsche Bank Rate Limits
@@ -90,7 +90,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.0
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -98,14 +98,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 22.4
+  previous_composite: 23.0
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deutsche-bank/refs/heads/main/screenshots/deutsche-bank-2026-06-20T175943.png
 security:

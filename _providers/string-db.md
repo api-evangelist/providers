@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for accessing protein-protein interaction networks, functional enrichment results, homology data, and annotation information from the STRING database. Supports multiple output formats includi
@@ -105,7 +105,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 39
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -122,7 +122,7 @@ rules:
 score:
   band: thin
   composite: 38.7
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 52.8
@@ -130,14 +130,14 @@ score:
     discoverability: 85.0
     governance: 73.7
     operational_transparency: 0.0
-  previous_composite: 39.7
+  previous_composite: 38.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 32.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/string-db/refs/heads/main/screenshots/string-db-2026-06-20T194621.png
 security:

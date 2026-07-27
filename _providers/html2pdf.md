@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: HTML/URL to PDF
@@ -61,7 +61,7 @@ overview: 'Html2PDF publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Html2PDF''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 36
+random_paper: 53
 score:
   band: minimal
   composite: 7.2
@@ -75,7 +75,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/html2pdf/refs/heads/main/screenshots/html2pdf-2026-06-20T182901.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ overview: 'Landing publishes 1 API on the [APIs.io](https://apis.io/) network: P
 
 
   Landing''s developer surface includes documentation, API reference, getting-started guide, authentication, code examples, support, engineering blog, and 21 more developer resources.'
-random_paper: 19
+random_paper: 53
 score:
   band: thin
   composite: 42.4
@@ -184,7 +184,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 42.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

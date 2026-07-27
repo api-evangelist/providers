@@ -1,0 +1,204 @@
+---
+access_model:
+  confidence: high
+  label: Free · Open public API · No registration
+  onboarding: unknown
+  pricing: free
+  public: true
+  source:
+  - documentation
+  trial: false
+  try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 51.9
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Openprescribing Agentic Access
+  operation_count: 19
+  slug: openprescribing-agentic-access
+  summary_line: 19 operations
+api_count: 3
+apis:
+- description: Retrieve total prescribing spending, quantity and items across the last five years of the English Prescribing Dataset — by BNF code (section, chemical or presentation) and by NHS organisation (practic
+  name: OpenPrescribing Spending API
+  slug: openprescribing-spending-api
+- description: Standardised NHS prescribing-quality and safety measures (numerators, denominators and calculated values) at national, Regional Team, ICB, Sub-ICB Location, PCN and practice level. These endpoints pow
+  name: OpenPrescribing Measures API
+  slug: openprescribing-measures-api
+- description: Reference-data lookups for the prescribing dataset — search BNF sections, chemicals and presentations by name or code; look up NHS organisations (Sub-ICB Location or practice) by code or name; retriev
+  name: OpenPrescribing Information API
+  slug: openprescribing-information-api
+artifact_total: 7
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/openprescribing-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/openprescribing-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://openprescribing.net/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://openprescribing.net/api/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://openprescribing.net/api/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://openprescribing.net/api/
+- group: company
+  title: ''
+  type: About
+  url: https://openprescribing.net/about/
+- group: operate
+  title: ''
+  type: Support
+  url: https://openprescribing.net/faq/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/bennettoxford
+- group: build
+  title: ''
+  type: SourceCode
+  url: https://github.com/bennettoxford/openprescribing
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.bennett.ox.ac.uk/openprescribing/blog/
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://openprescribing.net/api/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/openprescribing-openapi.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/openprescribing-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/openprescribing-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/openprescribing-problem-types.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/openprescribing-data-model.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/openprescribing-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/openprescribing-conformance.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/openprescribing-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/openprescribing-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/openprescribing-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/openprescribing-openapi-overlay.yaml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+created: '2026-07-24'
+description: OpenPrescribing.net is an open-data service built and operated by the Bennett Institute for Applied Data Science at the University of Oxford. It turns the English Prescribing Dataset published monthly by the NHS Business Services Authority into public dashboards, prescribing-safety measures, and a free RESTful API covering primary-care GP prescribing across England. The API exposes spending, quantity and item counts by BNF code and by NHS organisation (practice, PCN, Sub-ICB Location, ICB, Regional Team), standardised prescribing measures, drug-tariff and price-per-unit data, and organisation reference/boundary lookups, all returned as JSON, CSV or GeoJSON. Home market is the United Kingdom (England prescribing data). It is an independent academic analytics platform layered on NHS open data, not an NHS FHIR clinical system; there is no OAuth, no SMART-on-FHIR, and currently no registration or API key is required.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+layout: provider
+mcp_servers:
+- description: ''
+  name: openprescribing-mcp.yml
+  slug: openprescribing-mcpyml
+modified: '2026-07-24'
+name: OpenPrescribing
+nav: Providers
+network: true
+overview: 'OpenPrescribing publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United Kingdom, NHS, Prescribing, and Pharmacy.
+
+
+  OpenPrescribing''s developer surface includes documentation, API reference, support, engineering blog, getting-started guide, authentication, and 18 more developer resources.'
+random_paper: 46
+score:
+  band: emerging
+  composite: 26.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 67.4
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 26.1
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 37.0
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+security:
+- kind: authentication
+  name: Openprescribing Authentication
+  slug: openprescribing-authentication
+  summary_line: none · 0 schemes
+- kind: domain-security
+  name: Openprescribing Domain Security
+  slug: openprescribing-domain-security
+  summary_line: TLSv1.3 · DMARC
+slug: openprescribing
+tags:
+- Healthcare
+- United Kingdom
+- NHS
+- Prescribing
+- Pharmacy
+- Open Data
+- Primary Care
+- Public Health
+- Analytics
+website: https://openprescribing.net/
+---

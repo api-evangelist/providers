@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Go Micro is a distributed systems framework for building microservices in Go, providing service discovery, load balancing, message encoding, RPC, and async messaging out of the box.
@@ -88,7 +88,7 @@ plans:
 - name: Go Micro Plans Pricing
   plan_count: 3
   slug: go-micro-plans-pricing
-random_paper: 32
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Go Micro Rate Limits
@@ -115,7 +115,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 37.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/go-micro/refs/heads/main/screenshots/go-micro-2026-06-20T181938.png
 security:

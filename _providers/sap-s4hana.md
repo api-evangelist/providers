@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -380,7 +380,7 @@ plans:
 - name: Sap S4Hana Plans Pricing
   plan_count: 1
   slug: sap-s4hana-plans-pricing
-random_paper: 26
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Sap S4Hana Rate Limits
@@ -409,18 +409,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 57.1
-  delta: 0.0
+  composite: 59.3
+  delta: 2.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 72.9
+    contract_quality: 81.7
     developer_ergonomics: 34.8
     discoverability: 55.0
     governance: 73.7
     operational_transparency: 57.9
   previous_composite: 57.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-s4hana/refs/heads/main/screenshots/sap-s4hana-2026-06-20T193430.png
 security:

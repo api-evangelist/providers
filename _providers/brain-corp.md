@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -153,7 +153,7 @@ overview: 'Brain Corp is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Brain Corp''s developer surface includes legal docs, developer portal, engineering blog, and 25 more developer resources.'
-random_paper: 36
+random_paper: 53
 score:
   band: minimal
   composite: 14.0
@@ -167,7 +167,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brain-corp/refs/heads/main/screenshots/brain-corp-2026-06-20T173628.png
 security:

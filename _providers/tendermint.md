@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 56.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: ABCI APIs
@@ -173,7 +173,7 @@ overview: 'Tendermint publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Tendermint''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 19 more developer resources.'
-random_paper: 11
+random_paper: 62
 score:
   band: developing
   composite: 45.6
@@ -187,7 +187,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 45.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

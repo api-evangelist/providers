@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -133,21 +133,21 @@ overview: 'Nifty publishes 9 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Nifty''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
-  band: emerging
-  composite: 27.6
-  delta: 0.0
+  band: thin
+  composite: 30.9
+  delta: 3.3
   facets:
     commercial_clarity: 18.4
     contract_quality: 47.8
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 27.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nifty/refs/heads/main/screenshots/nifty-2026-06-20T190320.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -247,7 +247,7 @@ plans:
 - name: Chess Com Plans Pricing
   plan_count: 5
   slug: chess-com-plans-pricing
-random_paper: 31
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Chess Com Rate Limits
@@ -271,19 +271,19 @@ rules:
   slug: chess-com-rules
 score:
   band: developing
-  composite: 51.0
-  delta: 0.0
+  composite: 56.5
+  delta: 5.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 49.6
+    contract_quality: 58.4
     developer_ergonomics: 39.1
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 5.3
   previous_composite: 51.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/chess-com/refs/heads/main/screenshots/chess-com-2026-06-20T174300.png
 security:
 - kind: domain-security

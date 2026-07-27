@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 44.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'The Knewton Enterprise Platform REST API (v0) that partner learning applications integrate with to deliver continuously adaptive learning. Partners create anonymized user accounts, establish learning '
@@ -150,7 +150,7 @@ overview: 'Knewton publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Knewton''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 19 more developer resources.'
-random_paper: 9
+random_paper: 26
 rate_limits:
 - limit_count: 0
   name: Knewton Rate Limits
@@ -173,8 +173,9 @@ score:
     operational_transparency: 23.7
   previous_composite: 30.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/knewton/refs/heads/main/screenshots/knewton-2026-07-25T223953.png
 security:
 - kind: authentication
   name: Knewton Authentication

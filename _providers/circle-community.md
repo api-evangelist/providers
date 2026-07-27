@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -145,20 +145,21 @@ rules:
     warn: 7
   slug: circle-community-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 43.5
-  delta: 0.0
+  band: developing
+  composite: 46.8
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.2
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 31.6
   previous_composite: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/circle-community/refs/heads/main/screenshots/circle-community-2026-07-25T205412.png
 security:
 - kind: authentication
   name: Circle Community Authentication

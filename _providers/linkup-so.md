@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -123,25 +123,25 @@ plans:
 - name: Linkup So Plans Pricing
   plan_count: 3
   slug: linkup-so-plans-pricing
-random_paper: 12
+random_paper: 46
 rate_limits:
 - limit_count: 3
   name: Linkup So Rate Limits
   slug: linkup-so-rate-limits
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 42.8
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 56.6
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 39.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkup-so/refs/heads/main/screenshots/linkup-so-2026-06-20T184547.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The BP API Marketplace is a developer portal providing access to BP's digital APIs and services. Features include API discovery and browsing, a testing playground, documentation and tutorials, API spe
@@ -97,8 +97,9 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bp/refs/heads/main/screenshots/bp-2026-07-25T203719.png
 security:
 - kind: domain-security
   name: Bp Domain Security

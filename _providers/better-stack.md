@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -556,18 +556,18 @@ rules:
   slug: better-stack-spectral-rules
 score:
   band: strong
-  composite: 61.6
-  delta: 0.0
+  composite: 64.9
+  delta: 3.3
   facets:
     commercial_clarity: 57.9
     contract_quality: 69.9
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 68.4
   previous_composite: 61.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/better-stack/refs/heads/main/screenshots/better-stack-2026-06-20T173204.png
 security:

@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: true
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 6
 common:
@@ -93,11 +111,26 @@ plans:
 - name: Ivalua Plans Pricing
   plan_count: 1
   slug: ivalua-plans-pricing
-random_paper: 12
+random_paper: 30
 rate_limits:
 - limit_count: 3
   name: Ivalua Rate Limits
   slug: ivalua-rate-limits
+score:
+  band: emerging
+  composite: 27.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 15.1
+    developer_ergonomics: 10.9
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 52.6
+  previous_composite: 27.4
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ivalua/refs/heads/main/screenshots/ivalua-2026-06-20T183638.png
 security:
 - kind: domain-security

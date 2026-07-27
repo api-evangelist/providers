@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Core library for creating mock objects and defining expectations in Java tests using an expressive DSL. Supports JUnit 4 and JUnit 5, modern JDK versions, and integrates seamlessly with IDE refactorin
@@ -74,7 +74,7 @@ plans:
 - name: Jmock Plans Pricing
   plan_count: 3
   slug: jmock-plans-pricing
-random_paper: 22
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Jmock Rate Limits
@@ -92,7 +92,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jmock/refs/heads/main/screenshots/jmock-2026-06-20T183739.png
 security:

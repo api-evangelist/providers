@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Export Data from Rhumbix
@@ -112,7 +112,7 @@ overview: 'Rhumbix publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Rhumbix''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 2
+random_paper: 19
 score:
   band: thin
   composite: 37.2
@@ -126,7 +126,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 37.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 6
@@ -217,7 +217,7 @@ rules:
 score:
   band: developing
   composite: 53.0
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 50.9
@@ -225,14 +225,14 @@ score:
     discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
-  previous_composite: 55.8
+  previous_composite: 53.0
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mexc/refs/heads/main/screenshots/mexc-2026-06-20T185344.png
 security:

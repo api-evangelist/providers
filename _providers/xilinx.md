@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: AI Engine Technology
   url: https://www.amd.com/en/products/adaptive-socs-and-fpgas/technologies/ai-engine.html
-random_paper: 5
+random_paper: 56
 score:
   band: minimal
   composite: 4.2
@@ -83,7 +83,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 4.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xilinx/refs/heads/main/screenshots/xilinx-2026-06-20T201706.png
 security:

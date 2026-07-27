@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 29.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Agent-driven commerce surface for the Molekule storefront implementing the Universal Commerce Protocol over MCP. Agents discover capabilities at /.well-known/ucp, then search the catalog, build a cart
@@ -117,7 +117,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 1
@@ -304,7 +304,7 @@ plans:
 - name: Nomba Plans Pricing
   plan_count: 1
   slug: nomba-plans-pricing
-random_paper: 15
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: Nomba Rate Limits
@@ -328,23 +328,23 @@ rules:
   slug: nomba-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.1
-  delta: -1.5
+  composite: 47.9
+  delta: 2.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 78.8
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 60.5
     operational_transparency: 21.1
-  previous_composite: 46.6
+  previous_composite: 45.1
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nomba/refs/heads/main/screenshots/nomba-2026-06-20T190355.png
 security:

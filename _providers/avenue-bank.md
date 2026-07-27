@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ overview: 'Avenue Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Avenue Bank''s developer surface includes engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 30
+random_paper: 13
 scopes:
 - name: Avenue Bank Scopes
   scope_count: 5
@@ -165,7 +165,7 @@ scopes:
 score:
   band: thin
   composite: 42.6
-  delta: 6.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 53.1
@@ -173,15 +173,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 36.6
+  previous_composite: 42.6
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avenue-bank/refs/heads/main/screenshots/avenue-bank-2026-07-21T114700.png
 security:
 - kind: authentication

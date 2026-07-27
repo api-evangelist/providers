@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for the Leiden University Scholarly Publications repository, an Islandora-based institutional repository providing open access to PhD theses, articles, journal
@@ -112,7 +112,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 22.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leiden/refs/heads/main/screenshots/leiden-2026-06-20T184415.png
 security:

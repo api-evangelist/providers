@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -117,7 +117,7 @@ overview: 'Aztec is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Aztec''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, changelog, and 12 more developer resources.'
-random_paper: 25
+random_paper: 59
 score:
   band: emerging
   composite: 25.6
@@ -131,8 +131,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 25.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aztec/refs/heads/main/screenshots/aztec-2026-07-25T202121.png
 security:
 - kind: domain-security
   name: Aztec Domain Security

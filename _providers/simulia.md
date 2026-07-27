@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Industry-standard finite element analysis suite covering Abaqus/Standard, Abaqus/Explicit, Abaqus/CAE, Abaqus Multiphysics, CAD Associative Interface, Composites Modeler, and Czone. Automation and int
@@ -106,7 +106,7 @@ plans:
 - name: Simulia Plans Pricing
   plan_count: 1
   slug: simulia-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Simulia Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 22.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simulia/refs/heads/main/screenshots/simulia-2026-06-20T193942.png
 security:

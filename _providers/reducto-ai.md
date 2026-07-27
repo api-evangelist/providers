@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -412,7 +412,7 @@ plans:
 - name: Reducto Plans Pricing
   plan_count: 3
   slug: reducto-plans-pricing
-random_paper: 36
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Reducto Rate Limits
@@ -428,18 +428,18 @@ rules:
   slug: reducto-ai-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.4
-  delta: 0.0
+  composite: 68.8
+  delta: 3.4
   facets:
     commercial_clarity: 78.9
-    contract_quality: 61.2
+    contract_quality: 70.0
     developer_ergonomics: 58.7
-    discoverability: 55.0
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 63.2
   previous_composite: 65.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reducto-ai/refs/heads/main/screenshots/reducto-ai-2026-06-20T192741.png
 security:

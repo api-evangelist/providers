@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 67.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Notams API from Skymerse — 9 operation(s) for notams.
@@ -169,7 +169,7 @@ overview: 'Skymerse publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Skymerse''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, and 21 more developer resources.'
-random_paper: 16
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Skymerse Rate Limits
@@ -187,7 +187,7 @@ score:
     operational_transparency: 50.0
   previous_composite: 50.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

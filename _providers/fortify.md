@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 1
@@ -323,7 +323,7 @@ plans:
 - name: Fortify Plans Pricing
   plan_count: 4
   slug: fortify-plans-pricing
-random_paper: 6
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Fortify Rate Limits
@@ -350,7 +350,7 @@ score:
     operational_transparency: 57.9
   previous_composite: 65.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fortify/refs/heads/main/screenshots/fortify-2026-06-20T181440.png
 security:

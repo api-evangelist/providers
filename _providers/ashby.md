@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 0
@@ -331,7 +331,7 @@ plans:
 - name: Ashby Plans Pricing
   plan_count: 6
   slug: ashby-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Ashby Rate Limits
@@ -349,7 +349,7 @@ score:
     operational_transparency: 60.5
   previous_composite: 54.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ashby/refs/heads/main/screenshots/ashby-2026-06-20T172459.png
 security:

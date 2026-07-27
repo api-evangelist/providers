@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 13
 common:
@@ -87,11 +87,11 @@ press:
   url: https://www.gibsondunn.com/lawyer/lanin-ari/?pdf=display
 - date: '2026-05-25'
   title: Contracts - API Evangelist Contracts
-  url: https://providers.apievangelist.com/
+  url: https://contracts.apievangelist.com/
 - date: '2026-05-25'
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1838163/000149315224024559/forms-1.htm
-random_paper: 15
+random_paper: 49
 score:
   band: minimal
   composite: 8.5
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-tire-distributors-holdings/refs/heads/main/screenshots/american-tire-distributors-holdings-2026-06-20T171922.png
 security:

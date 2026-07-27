@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -122,26 +122,27 @@ plans:
 - name: Kenjo Plans Pricing
   plan_count: 3
   slug: kenjo-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Kenjo Rate Limits
   slug: kenjo-rate-limits
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 37.8
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 54.4
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 34.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kenjo/refs/heads/main/screenshots/kenjo-2026-07-25T223611.png
 slug: kenjo
 tags:
 - Human Resources

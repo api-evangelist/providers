@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -94,11 +94,11 @@ overview: 'Earn.com is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Earn.com''s developer surface includes CLI, changelog, authentication, and 10 more developer resources.'
-random_paper: 27
+random_paper: 61
 score:
   band: emerging
   composite: 16.0
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -106,15 +106,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 14.3
+  previous_composite: 16.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/earncom/refs/heads/main/screenshots/earncom-2026-07-25T212653.png
 security:
 - kind: authentication
   name: Earncom Authentication

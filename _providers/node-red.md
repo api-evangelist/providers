@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 3
@@ -133,7 +133,7 @@ plans:
 - name: Node Red Plans Pricing
   plan_count: 3
   slug: node-red-plans-pricing
-random_paper: 17
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Node Red Rate Limits
@@ -149,18 +149,18 @@ rules:
   slug: node-red-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 49.9
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 58.4
+    contract_quality: 63.7
     developer_ergonomics: 28.3
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 46.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/node-red/refs/heads/main/screenshots/node-red-2026-06-20T190350.png
 security:

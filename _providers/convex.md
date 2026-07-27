@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -79,7 +79,7 @@ apis:
 - description: Manage Convex teams, team members, and team-level access tokens. Teams are the billing and administrative unit that owns projects.
   name: Convex Teams API
   slug: convex-teams-api
-artifact_total: 50
+artifact_total: 51
 asyncapis:
 - description: AsyncAPI description of the Convex WebSocket sync protocol used between Convex client SDKs (browser/Node/React/React Native) and a Convex deployment's sync worker. The client opens a WebSocket to `wss
   name: Convex Sync Protocol
@@ -248,6 +248,10 @@ jsonld:
   property_count: 10
   slug: convex-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-29'
 name: Convex
 nav: Providers
@@ -311,18 +315,18 @@ rules:
   slug: convex-management-api-rules
 score:
   band: strong
-  composite: 64.8
-  delta: 0.0
+  composite: 66.8
+  delta: 2.0
   facets:
     commercial_clarity: 81.6
     contract_quality: 74.9
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 64.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/convex/refs/heads/main/screenshots/convex-2026-06-20T175006.png
 security:

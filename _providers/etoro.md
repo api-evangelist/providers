@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -1199,7 +1199,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 43
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -1216,7 +1216,7 @@ rules:
 score:
   band: thin
   composite: 42.5
-  delta: -3.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 47.3
@@ -1224,14 +1224,14 @@ score:
     discoverability: 100.0
     governance: 86.8
     operational_transparency: 0.0
-  previous_composite: 45.8
+  previous_composite: 42.5
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/etoro/refs/heads/main/screenshots/etoro-2026-06-20T180841.png
 security:

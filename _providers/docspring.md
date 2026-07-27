@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -253,7 +253,7 @@ plans:
 - name: Docspring Plans Pricing
   plan_count: 4
   slug: docspring-plans-pricing
-random_paper: 0
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Docspring Rate Limits
@@ -280,7 +280,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 57.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docspring/refs/heads/main/screenshots/docspring-2026-06-20T180114.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,7 +93,7 @@ overview: 'Useful Sensors is profiled on the [APIs.io](https://apis.io/) network
 
 
   Useful Sensors'' developer surface includes documentation, getting-started guide, support, CLI, changelog, and 8 more developer resources.'
-random_paper: 7
+random_paper: 58
 score:
   band: emerging
   composite: 18.6
@@ -107,7 +107,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 18.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

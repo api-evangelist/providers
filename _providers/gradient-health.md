@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -109,7 +109,7 @@ overview: 'Gradient Health is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Gradient Health''s developer surface includes documentation, getting-started guide, engineering blog, signup flow, support, and 12 more developer resources.'
-random_paper: 42
+random_paper: 25
 score:
   band: emerging
   composite: 24.1
@@ -123,8 +123,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 24.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gradient-health/refs/heads/main/screenshots/gradient-health-2026-07-25T220201.png
 security:
 - kind: domain-security
   name: Gradient Health Domain Security

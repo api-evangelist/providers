@@ -16,7 +16,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: F.N.B. Corporation publishes no first-party developer API. Consumer-permissioned account, balance and transaction data for First National Bank of Pennsylvania is available only through third-party dat
@@ -65,10 +65,11 @@ overview: 'F.N.B. Corporation publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   F.N.B. Corporation''s developer surface includes support and 6 more developer resources.'
-random_paper: 26
+random_paper: 43
 score:
   band: emerging
   composite: 15.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -76,13 +77,16 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 15.7
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fnb-corp/refs/heads/main/screenshots/fnb-corp-2026-07-25T214900.png
 security:
 - kind: domain-security
   name: Fnb Corp Domain Security

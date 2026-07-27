@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 759
   human_in_the_loop: 29
@@ -316,7 +316,7 @@ overview: 'Spectro Cloud publishes 42 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Spectro Cloud''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 27 more developer resources.'
-random_paper: 22
+random_paper: 56
 rate_limits:
 - limit_count: 0
   name: Spectro Cloud Rate Limits
@@ -334,7 +334,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 49.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

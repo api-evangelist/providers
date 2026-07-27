@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -174,18 +174,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 48.9
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 47.8
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 63.2
   previous_composite: 45.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-service-mesh/refs/heads/main/screenshots/google-cloud-service-mesh-2026-06-20T182137.png
 security:

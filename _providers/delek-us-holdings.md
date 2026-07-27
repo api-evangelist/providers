@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 common:
@@ -84,11 +102,26 @@ press:
 - date: '2026-05-25'
   title: Delek US Holdings Inc
   url: https://www.reuters.com/company/delek-us-holdings-inc/
-random_paper: 57
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Delek Us Holdings Rate Limits
   slug: delek-us-holdings-rate-limits
+score:
+  band: emerging
+  composite: 19.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 19.5
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: domain-security
   name: Delek Us Holdings Domain Security

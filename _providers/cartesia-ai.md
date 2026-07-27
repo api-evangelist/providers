@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ plans:
 - name: Cartesia Ai Plans Pricing
   plan_count: 6
   slug: cartesia-ai-plans-pricing
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 15
   name: Cartesia Ai Rate Limits
@@ -193,19 +193,20 @@ rules:
   slug: cartesia-ai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 46.1
-  delta: 0.0
+  composite: 48.6
+  delta: 2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 64.2
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 52.6
     operational_transparency: 36.8
   previous_composite: 46.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cartesia-ai/refs/heads/main/screenshots/cartesia-ai-2026-07-25T204650.png
 security:
 - kind: authentication
   name: Cartesia Ai Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 27.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Simpplr's REST API for managing intranet content and community — sites, pages, blogs, events, alerts, notifications, people and audiences, content approval/engagement, search, media uploads, and adopt
@@ -138,7 +138,7 @@ overview: 'Simpplr publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Simpplr''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 15 more developer resources.'
-random_paper: 10
+random_paper: 27
 score:
   band: thin
   composite: 32.8
@@ -152,7 +152,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 32.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

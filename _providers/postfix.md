@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Postfix implements SMTP (RFC 5321) for sending and receiving electronic mail, with submission (port 587), SMTPS (port 465), and standard SMTP (port 25) endpoints. There is no public HTTP/REST API; int
@@ -85,7 +85,7 @@ overview: 'Postfix publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Postfix''s developer surface includes documentation and 9 more developer resources.'
-random_paper: 16
+random_paper: 33
 score:
   band: minimal
   composite: 11.1
@@ -99,7 +99,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 11.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postfix/refs/heads/main/screenshots/postfix-2026-06-20T191954.png
 security:

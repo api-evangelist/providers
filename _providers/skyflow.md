@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 32.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Insert, retrieve, tokenize/detokenize, query, and manage records and files in a Skyflow data privacy vault. Authenticated with a JWT bearer token or API key (RFC 6750). Base URLs are per-vault under t
@@ -177,11 +177,11 @@ overview: 'Skyflow publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Skyflow''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 24 more developer resources.'
-random_paper: 18
+random_paper: 35
 score:
   band: developing
   composite: 46.6
-  delta: 5.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -189,15 +189,15 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 41.0
+  previous_composite: 46.6
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Skyflow Authentication

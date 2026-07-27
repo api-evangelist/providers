@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ plans:
 - name: Conceptnet Plans Pricing
   plan_count: 2
   slug: conceptnet-plans-pricing
-random_paper: 4
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Conceptnet Rate Limits
@@ -184,7 +184,7 @@ rules:
 score:
   band: thin
   composite: 42.9
-  delta: -5.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 55.8
@@ -192,15 +192,15 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
-  previous_composite: 48.1
+  previous_composite: 42.9
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: falling
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conceptnet/refs/heads/main/screenshots/conceptnet-2026-06-20T174840.png
 security:
 - kind: domain-security

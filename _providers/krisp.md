@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 66.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ overview: 'Krisp publishes 2 APIs on the [APIs.io](https://apis.io/) network: SD
 
 
   Krisp''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 43
+random_paper: 9
 score:
   band: developing
   composite: 58.4
@@ -213,8 +213,9 @@ score:
     operational_transparency: 31.6
   previous_composite: 58.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/krisp/refs/heads/main/screenshots/krisp-2026-07-25T224259.png
 security:
 - kind: authentication
   name: Krisp Authentication

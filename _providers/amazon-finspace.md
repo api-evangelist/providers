@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -236,7 +236,7 @@ plans:
 - name: Amazon Finspace Plans Pricing
   plan_count: 3
   slug: amazon-finspace-plans-pricing
-random_paper: 2
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Amazon Finspace Rate Limits
@@ -260,19 +260,19 @@ rules:
   slug: amazon-finspace-spectral-rules
 score:
   band: strong
-  composite: 63.1
-  delta: 0.0
+  composite: 68.5
+  delta: 5.4
   facets:
     commercial_clarity: 68.4
-    contract_quality: 73.5
+    contract_quality: 82.3
     developer_ergonomics: 41.3
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 63.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-finspace/refs/heads/main/screenshots/amazon-finspace-2026-06-20T171652.png
 security:
 - kind: authentication

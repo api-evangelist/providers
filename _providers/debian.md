@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ plans:
 - name: Debian Plans Pricing
   plan_count: 3
   slug: debian-plans-pricing
-random_paper: 50
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Debian Rate Limits
@@ -185,18 +185,18 @@ rules:
   slug: debian-sources-api-rules
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 50.9
+  delta: 4.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 48.7
+    contract_quality: 54.0
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 46.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debian/refs/heads/main/screenshots/debian-2026-06-20T175746.png
 security:

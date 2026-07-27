@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -342,7 +342,7 @@ plans:
 - name: Google Chrome Plans Pricing
   plan_count: 4
   slug: google-chrome-plans-pricing
-random_paper: 45
+random_paper: 28
 rate_limits:
 - limit_count: 7
   name: Google Chrome Rate Limits
@@ -363,18 +363,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 57.5
-  delta: 0.0
+  composite: 58.2
+  delta: 0.7
   facets:
     commercial_clarity: 60.5
     contract_quality: 69.3
     developer_ergonomics: 30.4
-    discoverability: 42.5
+    discoverability: 50.0
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 57.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-chrome/refs/heads/main/screenshots/google-chrome-2026-06-20T182034.png
 security:

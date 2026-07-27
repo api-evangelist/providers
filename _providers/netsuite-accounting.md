@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: 'REST API exposing NetSuite accounting and financial records as JSON resources including invoices, bills, journal entries, payments, accounts, customers, and vendors, with SuiteQL query support and an '
@@ -71,7 +71,7 @@ overview: 'NetSuite Accounting publishes 3 APIs on the [APIs.io](https://apis.io
 
 
   NetSuite Accounting''s developer surface includes documentation, pricing, signup flow, and 2 more developer resources.'
-random_paper: 4
+random_paper: 21
 score:
   band: minimal
   composite: 13.8
@@ -85,7 +85,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netsuite-accounting/refs/heads/main/screenshots/netsuite-accounting-2026-06-20T190213.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 48
@@ -107,7 +107,7 @@ arazzos:
 - description: Build a two-assistant squad, place an outbound call to it, and poll until the call ends.
   name: Vapi Squad Outbound Call
   slug: vapi-ai-squad-outbound-call-workflow
-artifact_total: 120
+artifact_total: 121
 asyncapis:
 - description: 'AsyncAPI description of Vapi''s realtime surfaces: 1. The WebSocket Transport (`wss://api.vapi.ai/{callId}/transport`) used to stream binary audio and JSON control messages to and from an active call. '
   name: Vapi Realtime API (WebSocket Transport + Server URL Events)
@@ -610,6 +610,10 @@ jsonld:
   property_count: 12
   slug: vapi-ai-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: vapi-ai-mcp.yml
+  slug: vapi-ai-mcpyml
 modified: '2026-06-20'
 name: Vapi
 nav: Providers
@@ -625,7 +629,7 @@ plans:
 - name: Vapi Ai Plans Pricing
   plan_count: 4
   slug: vapi-ai-plans-pricing
-random_paper: 16
+random_paper: 67
 rate_limits:
 - limit_count: 4
   name: Vapi Ai Rate Limits
@@ -657,18 +661,18 @@ rules:
   slug: vapi-ai-rules
 score:
   band: exemplar
-  composite: 71.9
-  delta: 0.0
+  composite: 75.4
+  delta: 3.5
   facets:
     commercial_clarity: 78.9
-    contract_quality: 68.0
+    contract_quality: 76.9
     developer_ergonomics: 76.1
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 60.5
     operational_transparency: 76.3
   previous_composite: 71.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vapi-ai/refs/heads/main/screenshots/vapi-ai-2026-06-20T200922.png
 security:

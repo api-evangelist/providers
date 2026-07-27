@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ overview: 'Limitless publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Limitless'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, privacy policy, authentication, and 27 more developer resources.'
-random_paper: 13
+random_paper: 30
 rate_limits:
 - limit_count: 0
   name: Limitless Rate Limits
@@ -226,8 +226,9 @@ score:
     operational_transparency: 13.2
   previous_composite: 41.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/limitless/refs/heads/main/screenshots/limitless-2026-07-25T225205.png
 security:
 - kind: authentication
   name: Limitless Authentication

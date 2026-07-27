@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -192,19 +192,19 @@ rules:
     warn: 3
   slug: united-states-army-corps-of-engineers-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 44.5
-  delta: 0.0
+  band: developing
+  composite: 47.7
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 62.4
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 60.5
     operational_transparency: 36.8
   previous_composite: 44.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-army-corps-of-engineers/refs/heads/main/screenshots/united-states-army-corps-of-engineers-2026-06-20T200046.png
 security:

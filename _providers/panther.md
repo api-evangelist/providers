@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 67.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -232,7 +232,7 @@ overview: 'Panther publishes 21 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Panther''s developer surface includes authentication, CLI, documentation, getting-started guide, support, engineering blog, pricing, and 20 more developer resources.'
-random_paper: 40
+random_paper: 6
 score:
   band: developing
   composite: 54.6
@@ -246,7 +246,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 54.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

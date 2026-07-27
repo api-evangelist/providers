@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 32.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Schema-driven object API for building clinical applications on Medable: custom objects and typed properties, querying and aggregation, server-side scripting, accounts, connections, notifications, and '
@@ -158,11 +158,11 @@ overview: 'Medable publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Medable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 20 more developer resources.'
-random_paper: 0
+random_paper: 34
 score:
   band: thin
   composite: 39.6
-  delta: 2.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -170,14 +170,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.0
+  previous_composite: 39.6
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

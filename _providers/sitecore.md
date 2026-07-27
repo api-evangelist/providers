@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -299,19 +299,19 @@ rules:
     warn: 6
   slug: sitecore-rules
 score:
-  band: thin
-  composite: 43.8
-  delta: 0.0
+  band: developing
+  composite: 47.4
+  delta: 3.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 76.2
+    contract_quality: 80.7
     developer_ergonomics: 10.9
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 65.8
     operational_transparency: 26.3
   previous_composite: 43.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sitecore/refs/heads/main/screenshots/sitecore-2026-06-20T194003.png
 security:

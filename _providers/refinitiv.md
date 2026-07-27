@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -402,7 +402,7 @@ plans:
 - name: Refinitiv Plans Pricing
   plan_count: 1
   slug: refinitiv-plans-pricing
-random_paper: 7
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Refinitiv Rate Limits
@@ -434,18 +434,18 @@ rules:
   slug: refinitiv-rules
 score:
   band: developing
-  composite: 56.7
-  delta: 0.0
+  composite: 59.2
+  delta: 2.5
   facets:
     commercial_clarity: 63.2
     contract_quality: 73.5
     developer_ergonomics: 45.7
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 56.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/refinitiv/refs/heads/main/screenshots/refinitiv-2026-06-20T192746.png
 security:

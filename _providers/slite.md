@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -332,7 +332,7 @@ plans:
 - name: Slite Plans Pricing
   plan_count: 3
   slug: slite-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Slite Rate Limits
@@ -359,7 +359,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 50.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slite/refs/heads/main/screenshots/slite-2026-06-20T194030.png
 security:

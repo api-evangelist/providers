@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -200,7 +200,7 @@ plans:
 - name: Envoy Plans Pricing
   plan_count: 2
   slug: envoy-plans-pricing
-random_paper: 0
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Envoy Rate Limits
@@ -216,18 +216,18 @@ rules:
   slug: envoy-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 52.7
+  delta: 4.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 56.6
+    contract_quality: 65.5
     developer_ergonomics: 37.0
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 48.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/envoy/refs/heads/main/screenshots/envoy-2026-06-20T180740.png
 security:

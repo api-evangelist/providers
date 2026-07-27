@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 47.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ overview: 'Gorgias publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Gorgias'' developer surface includes authentication, engineering blog, documentation, pricing, signup flow, changelog, and 10 more developer resources.'
-random_paper: 34
+random_paper: 0
 rules:
 - name: Gorgias API Rules
   rule_count: 5
@@ -184,18 +184,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.8
-  delta: 0.0
+  composite: 41.8
+  delta: 2.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 58.4
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 52.6
     operational_transparency: 36.8
   previous_composite: 39.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gorgias/refs/heads/main/screenshots/gorgias-2026-06-20T182307.png
 security:

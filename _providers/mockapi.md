@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: mockAPI is a hosted platform for generating REST mock APIs. Users define resources, fields, and relationships through a web UI and mockAPI exposes auto-generated CRUD endpoints with optional custom re
@@ -102,7 +102,7 @@ plans:
 - name: Mockapi Plans Pricing
   plan_count: 3
   slug: mockapi-plans-pricing
-random_paper: 26
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Mockapi Rate Limits
@@ -129,7 +129,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 39.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mockapi/refs/heads/main/screenshots/mockapi-2026-06-20T185632.png
 security:

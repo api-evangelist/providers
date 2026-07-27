@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ apis:
 - description: User CRUD and credential operations
   name: Casdoor Users API
   slug: casdoor-users-api
-artifact_total: 66
+artifact_total: 67
 collections:
 - collection_type: open
   name: Casdoor REST API
@@ -216,6 +216,10 @@ integrations:
 - name: React
 - name: Casbin
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Casdoor
 nav: Providers
@@ -228,25 +232,25 @@ plans:
 - name: Casdoor Plans Pricing
   plan_count: 3
   slug: casdoor-plans-pricing
-random_paper: 33
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Casdoor Rate Limits
   slug: casdoor-rate-limits
 score:
   band: developing
-  composite: 45.6
-  delta: 0.0
+  composite: 47.6
+  delta: 2.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.3
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 45.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/casdoor/refs/heads/main/screenshots/casdoor-2026-06-20T174037.png
 security:

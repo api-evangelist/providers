@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: high
-  generated: '2026-07-22'
   label: Freemium · Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: freemium
   public: false
@@ -12,17 +10,306 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 112
+  human_in_the_loop: 3
+  name: Miro Agentic Access
+  operation_count: 197
+  slug: miro-agentic-access
+  summary_line: 197 operations · 112 acting · 3 human-in-the-loop
 api_count: 51
-artifact_total: 0
+apis:
+- description: The AI Interaction Logs API from Miro — 1 operation(s) for ai interaction logs.
+  name: Miro AI Interaction Logs API
+  slug: miro-ai-interaction-logs-api
+- description: The App card items API from Miro — 2 operation(s) for app card items.
+  name: Miro App card items API
+  slug: miro-app-card-items-api
+- description: The App metrics (experimental) API from Miro — 2 operation(s) for app metrics (experimental).
+  name: Miro App metrics (experimental) API
+  slug: miro-app-metrics-experimental-api
+- description: The Audit Logs API from Miro — 1 operation(s) for audit logs.
+  name: Miro Audit Logs API
+  slug: miro-audit-logs-api
+- description: 'The Board classification: Board level API from Miro — 1 operation(s) for board classification: board level.'
+  name: 'Miro Board classification: Board level API'
+  slug: miro-board-classification-board-level-api
+- description: 'The Board classification: Organization level API from Miro — 1 operation(s) for board classification: organization level.'
+  name: 'Miro Board classification: Organization level API'
+  slug: miro-board-classification-organization-level-api
+- description: 'The Board classification: Team level API from Miro — 2 operation(s) for board classification: team level.'
+  name: 'Miro Board classification: Team level API'
+  slug: miro-board-classification-team-level-api
+- description: The Board Content Logs API from Miro — 1 operation(s) for board content logs.
+  name: Miro Board Content Logs API
+  slug: miro-board-content-logs-api
+- description: The Board Export API from Miro — 6 operation(s) for board export.
+  name: Miro Board Export API
+  slug: miro-board-export-api
+- description: The Board members API from Miro — 2 operation(s) for board members.
+  name: Miro Board members API
+  slug: miro-board-members-api
+- description: The Boards API from Miro — 2 operation(s) for boards.
+  name: Miro Boards API
+  slug: miro-boards-api
+- description: The Bulk operations API from Miro — 2 operation(s) for bulk operations.
+  name: Miro Bulk operations API
+  slug: miro-bulk-operations-api
+- description: The Card items API from Miro — 2 operation(s) for card items.
+  name: Miro Card items API
+  slug: miro-card-items-api
+- description: The Code widget items (experimental) API from Miro — 3 operation(s) for code widget items (experimental).
+  name: Miro Code widget items (experimental) API
+  slug: miro-code-widget-items-experimental-api
+- description: The Connectors API from Miro — 2 operation(s) for connectors.
+  name: Miro Connectors API
+  slug: miro-connectors-api
+- description: The Discovery API from Miro — 5 operation(s) for discovery.
+  name: Miro Discovery API
+  slug: miro-discovery-api
+- description: The doc formats API from Miro — 2 operation(s) for doc formats.
+  name: Miro doc formats API
+  slug: miro-doc-formats-api
+- description: The Document items API from Miro — 2 operation(s) for document items.
+  name: Miro Document items API
+  slug: miro-document-items-api
+- description: The documents API from Miro — 2 operation(s) for documents.
+  name: Miro documents API
+  slug: miro-documents-api
+- description: The Embed items API from Miro — 2 operation(s) for embed items.
+  name: Miro Embed items API
+  slug: miro-embed-items-api
+- description: The Flowchart shapes (experimental) API from Miro — 4 operation(s) for flowchart shapes (experimental).
+  name: Miro Flowchart shapes (experimental) API
+  slug: miro-flowchart-shapes-experimental-api
+- description: The frames API from Miro — 2 operation(s) for frames.
+  name: Miro frames API
+  slug: miro-frames-api
+- description: The Group API from Miro — 2 operation(s) for group.
+  name: Miro Group API
+  slug: miro-group-api
+- description: The groups API from Miro — 4 operation(s) for groups.
+  name: Miro groups API
+  slug: miro-groups-api
+- description: The Image items API from Miro — 2 operation(s) for image items.
+  name: Miro Image items API
+  slug: miro-image-items-api
+- description: The images API from Miro — 2 operation(s) for images.
+  name: Miro images API
+  slug: miro-images-api
+- description: The Items API from Miro — 4 operation(s) for items.
+  name: Miro Items API
+  slug: miro-items-api
+- description: The Legal holds API from Miro — 6 operation(s) for legal holds.
+  name: Miro Legal holds API
+  slug: miro-legal-holds-api
+- description: The Mind map nodes (experimental) API from Miro — 2 operation(s) for mind map nodes (experimental).
+  name: Miro Mind map nodes (experimental) API
+  slug: miro-mind-map-nodes-experimental-api
+- description: The OAuth API from Miro — 1 operation(s) for oauth.
+  name: Miro OAuth API
+  slug: miro-oauth-api
+- description: The Organization Members API from Miro — 2 operation(s) for organization members.
+  name: Miro Organization Members API
+  slug: miro-organization-members-api
+- description: The Organizations API from Miro — 1 operation(s) for organizations.
+  name: Miro Organizations API
+  slug: miro-organizations-api
+- description: The Project Members API from Miro — 2 operation(s) for project members.
+  name: Miro Project Members API
+  slug: miro-project-members-api
+- description: The Project Settings API from Miro — 1 operation(s) for project settings.
+  name: Miro Project Settings API
+  slug: miro-project-settings-api
+- description: The Projects API from Miro — 2 operation(s) for projects.
+  name: Miro Projects API
+  slug: miro-projects-api
+- description: The Reset all sessions of a user API from Miro — 1 operation(s) for reset all sessions of a user.
+  name: Miro Reset all sessions of a user API
+  slug: miro-reset-all-sessions-of-a-user-api
+- description: The Shape items API from Miro — 2 operation(s) for shape items.
+  name: Miro Shape items API
+  slug: miro-shape-items-api
+- description: The Share boards with groups API from Miro — 2 operation(s) for share boards with groups.
+  name: Miro Share boards with groups API
+  slug: miro-share-boards-with-groups-api
+- description: The Share projects with groups API from Miro — 2 operation(s) for share projects with groups.
+  name: Miro Share projects with groups API
+  slug: miro-share-projects-with-groups-api
+- description: The Sticky note items API from Miro — 2 operation(s) for sticky note items.
+  name: Miro Sticky note items API
+  slug: miro-sticky-note-items-api
+- description: The tags API from Miro — 5 operation(s) for tags.
+  name: Miro tags API
+  slug: miro-tags-api
+- description: The Team Members API from Miro — 2 operation(s) for team members.
+  name: Miro Team Members API
+  slug: miro-team-members-api
+- description: The Team Settings API from Miro — 2 operation(s) for team settings.
+  name: Miro Team Settings API
+  slug: miro-team-settings-api
+- description: The Team user groups API from Miro — 2 operation(s) for team user groups.
+  name: Miro Team user groups API
+  slug: miro-team-user-groups-api
+- description: The Teams API from Miro — 2 operation(s) for teams.
+  name: Miro Teams API
+  slug: miro-teams-api
+- description: The Text items API from Miro — 2 operation(s) for text items.
+  name: Miro Text items API
+  slug: miro-text-items-api
+- description: The tokens API from Miro — 2 operation(s) for tokens.
+  name: Miro tokens API
+  slug: miro-tokens-api
+- description: The User API from Miro — 2 operation(s) for user.
+  name: Miro User API
+  slug: miro-user-api
+- description: The User group members API from Miro — 2 operation(s) for user group members.
+  name: Miro User group members API
+  slug: miro-user-group-members-api
+- description: The User group to teams API from Miro — 2 operation(s) for user group to teams.
+  name: Miro User group to teams API
+  slug: miro-user-group-to-teams-api
+- description: The User groups API from Miro — 2 operation(s) for user groups.
+  name: Miro User groups API
+  slug: miro-user-groups-api
+artifact_total: 60
+collections:
+- collection_type: open
+  name: Miro Developer Platform
+  slug: open-miro
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/miro-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/miro-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/miro-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/miro-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/miro-scopes.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/mirohq
+- group: company
+  title: ''
+  type: Website
+  url: https://miro.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.miro.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://miro.com/pricing/
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/miroapp
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/miro-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/miro-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/miro-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://miro.com/blog/
 created: '2026-05-08'
 description: Miro is an online collaborative whiteboard used by distributed teams for brainstorming, diagramming, and workshops. The Miro REST API exposes boards, board items (sticky notes, cards, shapes, frames, images, embeds, etc.), connectors, tags, mind maps, members, organizations, teams, webhooks, audit logs, and SCIM provisioning. Miro also offers a Web SDK for in-board apps.
+finops:
+- name: Miro Finops
+  service_category: Productivity
+  slug: miro-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/miro.png
 layout: provider
 modified: '2026-05-19'
 name: Miro
 nav: Providers
 network: true
+overview: 'Miro publishes 51 APIs on the [APIs.io](https://apis.io/) network, including AI Interaction Logs API, App card items API, App metrics (experimental) API, and 48 more. Tagged areas include Productivity, Whiteboard, Visual Collaboration, Diagramming, and SaaS.
+
+
+  Miro''s developer surface includes authentication, pricing, GitHub presence, engineering blog, and 10 more developer resources.'
+plans:
+- name: Miro Plans Pricing
+  plan_count: 4
+  slug: miro-plans-pricing
 random_paper: 31
+rate_limits:
+- limit_count: 4
+  name: Miro Rate Limits
+  slug: miro-rate-limits
+scopes:
+- name: Miro Scopes
+  scope_count: 8
+  slug: miro-scopes
+  summary_line: 8 scopes · authorizationCode
+score:
+  band: thin
+  composite: 41.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 57.9
+    contract_quality: 54.9
+    developer_ergonomics: 21.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 41.2
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+security:
+- kind: authentication
+  name: Miro Authentication
+  slug: miro-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Miro Domain Security
+  slug: miro-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Miro Trust Center
+  slug: miro-trust-center
+  summary_line: SOC 2, ISO 27001
 slug: miro
 tags:
 - Productivity
@@ -30,4 +317,5 @@ tags:
 - Visual Collaboration
 - Diagramming
 - SaaS
+website: https://miro.com/
 ---

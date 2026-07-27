@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: AI-powered conversational interface over your production systems.
@@ -153,7 +153,7 @@ overview: 'Deeptrace publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Deeptrace''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, changelog, authentication, and 18 more developer resources.'
-random_paper: 23
+random_paper: 57
 score:
   band: developing
   composite: 50.4
@@ -167,8 +167,9 @@ score:
     operational_transparency: 31.6
   previous_composite: 50.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/deeptrace/refs/heads/main/screenshots/deeptrace-2026-07-25T211610.png
 security:
 - kind: authentication
   name: Deeptrace Authentication

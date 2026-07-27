@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -262,7 +262,7 @@ plans:
 - name: Currencylayer Plans Pricing
   plan_count: 6
   slug: currencylayer-plans-pricing
-random_paper: 39
+random_paper: 56
 rate_limits:
 - limit_count: 0
   name: Currencylayer Rate Limits
@@ -285,20 +285,20 @@ rules:
     warn: 8
   slug: currencylayer-rules
 score:
-  band: developing
-  composite: 59.1
-  delta: 0.0
+  band: strong
+  composite: 64.6
+  delta: 5.5
   facets:
     commercial_clarity: 84.2
-    contract_quality: 71.7
+    contract_quality: 80.5
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 5.3
   previous_composite: 59.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/currencylayer/refs/heads/main/screenshots/currencylayer-2026-06-20T175338.png
 security:
 - kind: authentication

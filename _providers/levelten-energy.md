@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The authenticated API behind the LevelTen Energy Marketplace. The host at api.levelten.energy self-identifies as "the API for LevelTen Energy" and directs callers to log in at marketplace.levelten.ene
@@ -77,7 +77,7 @@ overview: 'LevelTen Energy publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   LevelTen Energy''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 28
+random_paper: 62
 score:
   band: emerging
   composite: 17.4
@@ -91,8 +91,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/levelten-energy/refs/heads/main/screenshots/levelten-energy-2026-07-25T224950.png
 security:
 - kind: domain-security
   name: Levelten Energy Domain Security

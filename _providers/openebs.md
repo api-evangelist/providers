@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: OpenEBS is an open source Container Native Storage solution that provides persistent storage for Kubernetes workloads. It enables dynamic provisioning of storage using containerized storage controller
@@ -90,7 +90,7 @@ plans:
 - name: Openebs Plans Pricing
   plan_count: 3
   slug: openebs-plans-pricing
-random_paper: 34
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Openebs Rate Limits
@@ -108,7 +108,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 23.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openebs/refs/heads/main/screenshots/openebs-2026-06-20T190956.png
 security:

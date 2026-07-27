@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Otter.ai REST API enables Enterprise customers to programmatically upload audio and video files for transcription, retrieve speaker-identified transcripts, receive webhook notifications when speec
@@ -122,7 +122,7 @@ plans:
 - name: Otter Ai Plans Pricing
   plan_count: 4
   slug: otter-ai-plans-pricing
-random_paper: 40
+random_paper: 57
 rate_limits:
 - limit_count: 9
   name: Otter Ai Rate Limits
@@ -140,7 +140,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 33.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/otter-ai/refs/heads/main/screenshots/otter-ai-2026-06-20T191223.png
 security:

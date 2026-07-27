@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: GraphQL API powering the full Monte Carlo platform, enabling programmatic access to data monitors, incidents, field health, lineage, table and warehouse asset management, and the Push Ingest API for c
@@ -118,7 +118,7 @@ plans:
 - name: Montecarlodata Plans Pricing
   plan_count: 3
   slug: montecarlodata-plans-pricing
-random_paper: 7
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Montecarlodata Rate Limits
@@ -136,7 +136,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 44.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/montecarlodata/refs/heads/main/screenshots/montecarlodata-2026-06-20T185743.png
 security:

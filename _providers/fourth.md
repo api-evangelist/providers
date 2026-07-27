@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 22.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: Platform notifications API secured with OAuth 2.0 (scope NotificationService).
@@ -168,7 +168,7 @@ overview: 'Fourth publishes 7 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Fourth''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 19 more developer resources.'
-random_paper: 1
+random_paper: 52
 scopes:
 - name: Fourth Scopes
   scope_count: 1
@@ -187,8 +187,9 @@ score:
     operational_transparency: 57.9
   previous_composite: 36.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fourth/refs/heads/main/screenshots/fourth-2026-07-25T215048.png
 security:
 - kind: authentication
   name: Fourth Authentication

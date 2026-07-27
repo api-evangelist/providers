@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -62,11 +62,11 @@ press:
   url: https://investors.xerox.com/static-files/6b7bc5b3-72cd-4b9f-ba5f-e6fc6570a86a
 - date: '2026-05-25'
   title: D - API Evangelist Contracts - Contracts
-  url: https://providers.apievangelist.com/d/
+  url: https://contracts.apievangelist.com/d/
 - date: '2026-05-25'
   title: Investors - Governance - Board of Directors
   url: https://www.albertsonscompanies.com/investors/governance/board-of-directors/default.aspx
-random_paper: 31
+random_paper: 14
 score:
   band: minimal
   composite: 6.8
@@ -80,7 +80,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/delta-tucker-holdings/refs/heads/main/screenshots/delta-tucker-holdings-2026-06-20T175904.png
 slug: delta-tucker-holdings

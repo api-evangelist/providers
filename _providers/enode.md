@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -138,26 +138,27 @@ plans:
 - name: Enode Plans Pricing
   plan_count: 2
   slug: enode-plans-pricing
-random_paper: 13
+random_paper: 47
 rate_limits:
 - limit_count: 3
   name: Enode Rate Limits
   slug: enode-rate-limits
 score:
   band: thin
-  composite: 34.2
-  delta: 0.0
+  composite: 37.4
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 50.0
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 34.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/enode/refs/heads/main/screenshots/enode-2026-07-25T213409.png
 security:
 - kind: authentication
   name: Enode Authentication

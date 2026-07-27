@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 97.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -273,7 +273,7 @@ rate_limits:
 score:
   band: strong
   composite: 67.1
-  delta: 1.9
+  delta: 0.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 70.4
@@ -281,15 +281,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 65.2
+  previous_composite: 67.1
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kita/refs/heads/main/screenshots/kita-2026-07-25T223855.png
 security:
 - kind: authentication
   name: Kita Authentication

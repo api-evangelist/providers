@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: The NHS England API platform hosts a catalogue of national APIs for health and care, including FHIR and REST APIs covering patient demographics, prescriptions, appointments, records, screening, and cl
@@ -157,7 +157,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.6
-  delta: 1.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -165,14 +165,14 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 34.2
+  previous_composite: 35.6
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

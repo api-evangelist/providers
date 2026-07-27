@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -61,7 +61,7 @@ apis:
 - description: Manage spaces, which are logical containers within a tenant that control access for users and groups through role-based assignments.
   name: Qlik Sense Spaces API
   slug: qlik-sense-spaces-api
-artifact_total: 40
+artifact_total: 41
 collections:
 - collection_type: open
   name: Qlik Cloud REST API
@@ -235,6 +235,10 @@ jsonld:
   property_count: 6
   slug: qlik-sense-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Qlik Sense
 nav: Providers
@@ -266,18 +270,18 @@ rules:
   slug: qlik-sense-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 64.9
-  delta: 0.0
+  composite: 66.9
+  delta: 2.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 64.6
     developer_ergonomics: 60.9
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 57.9
   previous_composite: 64.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qlik-sense/refs/heads/main/screenshots/qlik-sense-2026-06-20T192340.png
 security:

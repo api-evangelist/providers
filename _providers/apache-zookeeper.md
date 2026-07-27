@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -179,18 +179,18 @@ rules:
   slug: apache-zookeeper-spectral-rules
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 49.7
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.3
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 34.2
     operational_transparency: 47.4
   previous_composite: 47.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-zookeeper/refs/heads/main/screenshots/apache-zookeeper-2026-06-20T172200.png
 security:

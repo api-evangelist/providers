@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ plans:
 - name: Uppsala Plans Pricing
   plan_count: 2
   slug: uppsala-plans-pricing
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Uppsala Rate Limits
@@ -190,7 +190,7 @@ rules:
 score:
   band: thin
   composite: 44.5
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 53.1
@@ -198,14 +198,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 26.3
-  previous_composite: 43.5
+  previous_composite: 44.5
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uppsala/refs/heads/main/screenshots/uppsala-2026-06-20T200453.png
 security:

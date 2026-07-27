@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -119,25 +119,25 @@ press:
 - date: '2026-05-25'
   title: JLL News and Press Releases
   url: https://www.prnewswire.com/news/jll/
-random_paper: 0
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Jones Lang Lasalle Rate Limits
   slug: jones-lang-lasalle-rate-limits
 score:
   band: thin
-  composite: 30.7
-  delta: 0.0
+  composite: 34.0
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 50.4
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 30.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

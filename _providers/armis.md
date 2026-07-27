@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 26.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 common:
@@ -110,7 +110,7 @@ overview: 'Armis is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Armis'' developer surface includes documentation, engineering blog, support, authentication, CLI, and 11 more developer resources.'
-random_paper: 30
+random_paper: 64
 score:
   band: emerging
   composite: 23.2
@@ -124,8 +124,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 23.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/armis/refs/heads/main/screenshots/armis-2026-07-25T201217.png
 security:
 - kind: authentication
   name: Armis Authentication

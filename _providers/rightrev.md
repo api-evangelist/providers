@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 28.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: RightRev's REST (and GraphQL) API for revenue recognition — transaction ingestion (orders, invoices, events, bulk uploads), policy-set and company configuration, Revenue Desk 360 contract search and d
@@ -114,7 +114,7 @@ overview: 'Rightrev publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Rightrev''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 11 more developer resources.'
-random_paper: 8
+random_paper: 59
 scopes:
 - name: Rightrev Scopes
   scope_count: 2
@@ -133,7 +133,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 21.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

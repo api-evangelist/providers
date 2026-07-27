@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The canonical Cloudflare REST API at https://api.cloudflare.com/client/v4 covering account management, DNS and zones, SSL/TLS certificates, WAF and firewall rules, Workers and KV, R2 object storage, P
@@ -89,7 +89,7 @@ overview: 'Cloudflare.com publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Cloudflare.com''s developer surface includes documentation, API reference, engineering blog, and 8 more developer resources.'
-random_paper: 44
+random_paper: 61
 score:
   band: emerging
   composite: 16.9
@@ -103,7 +103,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 16.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-com/refs/heads/main/screenshots/cloudflare-com-2026-06-20T174554.png
 security:

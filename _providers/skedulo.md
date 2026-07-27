@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 75.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 139
   human_in_the_loop: 10
@@ -382,7 +382,7 @@ overview: 'Skedulo publishes 67 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Skedulo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 23 more developer resources.'
-random_paper: 45
+random_paper: 11
 score:
   band: developing
   composite: 54.4
@@ -396,7 +396,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 54.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

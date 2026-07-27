@@ -10,6 +10,24 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -135,11 +153,26 @@ plans:
 - name: Obsidian Plans Pricing
   plan_count: 5
   slug: obsidian-plans-pricing
-random_paper: 22
+random_paper: 25
 rate_limits:
 - limit_count: 4
   name: Obsidian Rate Limits
   slug: obsidian-rate-limits
+score:
+  band: thin
+  composite: 41.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 49.7
+    developer_ergonomics: 21.7
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 41.5
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/obsidian/refs/heads/main/screenshots/obsidian-2026-06-20T190555.png
 security:
 - kind: authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,11 +69,11 @@ overview: 'Snackpass is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Snackpass'' developer surface includes support, signup flow, and 5 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: emerging
   composite: 17.4
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -81,14 +81,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 15.1
+  previous_composite: 17.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

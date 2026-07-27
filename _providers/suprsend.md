@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 4
@@ -214,7 +214,7 @@ plans:
 - name: Suprsend Plans Pricing
   plan_count: 4
   slug: suprsend-plans-pricing
-random_paper: 17
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Suprsend Rate Limits
@@ -241,7 +241,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 62.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suprsend/refs/heads/main/screenshots/suprsend-2026-06-20T194803.png
 security:

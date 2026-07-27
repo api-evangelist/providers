@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Query and retrieve off-chain VASP due-diligence entities.
@@ -150,7 +150,7 @@ overview: 'Merkle Science publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Merkle Science''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, sandbox, and 18 more developer resources.'
-random_paper: 38
+random_paper: 55
 score:
   band: developing
   composite: 50.6
@@ -164,7 +164,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 50.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

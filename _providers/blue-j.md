@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -89,7 +89,7 @@ overview: 'Blue J is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Blue J''s developer surface includes pricing, support, engineering blog, and 9 more developer resources.'
-random_paper: 14
+random_paper: 31
 score:
   band: emerging
   composite: 21.5
@@ -103,8 +103,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 21.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/blue-j/refs/heads/main/screenshots/blue-j-2026-07-25T203430.png
 security:
 - kind: domain-security
   name: Blue J Domain Security

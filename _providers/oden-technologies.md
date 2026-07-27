@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ overview: 'Oden Technologies publishes 12 APIs on the [APIs.io](https://apis.io/
 
 
   Oden Technologies'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 17
+random_paper: 51
 score:
   band: thin
   composite: 42.6
@@ -184,7 +184,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 42.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

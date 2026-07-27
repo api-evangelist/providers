@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 31.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ overview: 'ClinicalTrials.gov publishes 3 APIs on the [APIs.io](https://apis.io/
 
 
   ClinicalTrials.gov''s developer surface includes documentation, developer portal, product news, GitHub presence, and 11 more developer resources.'
-random_paper: 21
+random_paper: 4
 rules:
 - name: ClinicalTrials.gov API Rules
   rule_count: 9
@@ -151,23 +151,23 @@ rules:
   slug: clinical-trials-gov-rules
 score:
   band: thin
-  composite: 31.6
+  composite: 33.3
   delta: 1.7
   facets:
     commercial_clarity: 21.1
     contract_quality: 42.5
     developer_ergonomics: 17.4
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 34.2
     operational_transparency: 5.3
-  previous_composite: 29.9
+  previous_composite: 31.6
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clinical-trials-gov/refs/heads/main/screenshots/clinical-trials-gov-2026-06-20T174525.png
 security:

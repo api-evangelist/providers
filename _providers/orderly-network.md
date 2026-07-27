@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 4
@@ -189,11 +189,11 @@ overview: 'Orderly Network publishes 4 APIs on the [APIs.io](https://apis.io/) n
 
 
   Orderly Network''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 22 more developer resources.'
-random_paper: 11
+random_paper: 28
 score:
   band: developing
   composite: 49.6
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 53.5
@@ -201,14 +201,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 48.8
+  previous_composite: 49.6
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

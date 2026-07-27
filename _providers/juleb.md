@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Juleb's REST API for the health/retail/distribution platform, documented at docs.juleb.com. Documented resource surface spans inventory (batch, picking, product, product-template), point of sale (conf
@@ -73,11 +73,11 @@ overview: 'Juleb publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Juleb''s developer surface includes documentation, engineering blog, and 5 more developer resources.'
-random_paper: 20
+random_paper: 54
 score:
   band: minimal
   composite: 13.4
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -85,15 +85,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 13.5
+  previous_composite: 13.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/juleb/refs/heads/main/screenshots/juleb-2026-07-25T223303.png
 security:
 - kind: domain-security
   name: Juleb Domain Security

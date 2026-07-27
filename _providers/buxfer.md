@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: List accounts and balances.
@@ -158,7 +158,7 @@ random_paper: 40
 score:
   band: developing
   composite: 50.8
-  delta: 2.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 59.5
@@ -166,15 +166,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 48.3
+  previous_composite: 50.8
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/buxfer/refs/heads/main/screenshots/buxfer-2026-07-25T204124.png
 security:
 - kind: authentication
   name: Buxfer Authentication

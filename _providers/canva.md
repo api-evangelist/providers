@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -790,7 +790,7 @@ plans:
 - name: Canva Plans Pricing
   plan_count: 2
   slug: canva-plans-pricing
-random_paper: 11
+random_paper: 45
 rate_limits:
 - limit_count: 2
   name: Canva Rate Limits
@@ -819,18 +819,18 @@ scopes:
   summary_line: 11 scopes · authorizationCode
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 64.6
+  delta: 3.8
   facets:
     commercial_clarity: 57.9
-    contract_quality: 70.8
+    contract_quality: 76.1
     developer_ergonomics: 41.3
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 60.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canva/refs/heads/main/screenshots/canva-2026-06-20T173931.png
 security:

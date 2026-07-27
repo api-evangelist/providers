@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 29.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 11
 apis:
 - description: FDX-aligned REST endpoints returning the list of a consumer's permissioned accounts and detailed account information (account identifiers, type, status, nickname, and product details) for the accounts
@@ -216,7 +216,7 @@ plans:
 - name: Akoya Plans Pricing
   plan_count: 2
   slug: akoya-plans-pricing
-random_paper: 23
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Akoya Rate Limits
@@ -224,7 +224,7 @@ rate_limits:
 score:
   band: developing
   composite: 55.0
-  delta: 31.1
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
     contract_quality: 22.6
@@ -232,15 +232,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 60.5
-  previous_composite: 23.9
+  previous_composite: 55.0
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akoya/refs/heads/main/screenshots/akoya-2026-06-20T171457.png
 security:
 - kind: authentication

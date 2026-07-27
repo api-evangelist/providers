@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 49.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Credit underwriting and risk scoring for partner card issuance.
@@ -109,11 +109,11 @@ overview: 'alt.bank publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   alt.bank''s developer surface includes documentation, API reference, authentication, sandbox, and 9 more developer resources.'
-random_paper: 19
+random_paper: 53
 score:
   band: thin
   composite: 36.9
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 69.0
@@ -121,15 +121,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 38.8
+  previous_composite: 36.9
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/altbank/refs/heads/main/screenshots/altbank-2026-07-25T195815.png
 security:
 - kind: authentication
   name: Altbank Authentication

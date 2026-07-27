@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: Mirantis enterprise Kubernetes and container platform overview, indexing product, documentation, and developer resources.
@@ -117,7 +117,7 @@ plans:
 - name: Mirantis Plans Pricing
   plan_count: 3
   slug: mirantis-plans-pricing
-random_paper: 4
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Mirantis Rate Limits
@@ -135,7 +135,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 26.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mirantis/refs/heads/main/screenshots/mirantis-2026-06-20T185609.png
 security:

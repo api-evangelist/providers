@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The WNS Holdings API provides access to platform services and data for enterprise integration and automation.
@@ -81,7 +81,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 16.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wns-holdings/refs/heads/main/screenshots/wns-holdings-2026-06-20T201534.png
 security:

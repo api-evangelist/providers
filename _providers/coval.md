@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 86
   human_in_the_loop: 0
@@ -260,7 +260,7 @@ overview: 'Coval publishes 25 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Coval''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 24 more developer resources.'
-random_paper: 23
+random_paper: 57
 score:
   band: strong
   composite: 62.1
@@ -274,8 +274,9 @@ score:
     operational_transparency: 44.7
   previous_composite: 62.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/coval/refs/heads/main/screenshots/coval-2026-07-25T210531.png
 security:
 - kind: authentication
   name: Coval Authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ overview: 'Draftea is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Draftea''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 13
+random_paper: 47
 score:
   band: minimal
   composite: 13.0
@@ -87,8 +87,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/draftea/refs/heads/main/screenshots/draftea-2026-07-25T212334.png
 security:
 - kind: domain-security
   name: Draftea Domain Security

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -53,11 +53,11 @@ overview: 'Fed10 is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Fed10''s developer surface includes signup flow and 2 more developer resources.'
-random_paper: 43
+random_paper: 60
 score:
   band: minimal
   composite: 11.1
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -65,15 +65,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.5
+  previous_composite: 11.1
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 8.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fed10/refs/heads/main/screenshots/fed10-2026-07-25T214310.png
 slug: fed10
 tags:
 - Company

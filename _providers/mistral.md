@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -436,7 +436,7 @@ plans:
 - name: Mistral Plans Pricing
   plan_count: 6
   slug: mistral-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Mistral Rate Limits
@@ -460,18 +460,18 @@ rules:
   slug: mistral-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.3
-  delta: 0.0
+  composite: 66.5
+  delta: 3.2
   facets:
     commercial_clarity: 71.1
     contract_quality: 80.1
     developer_ergonomics: 47.8
-    discoverability: 42.5
+    discoverability: 75.0
     governance: 52.6
     operational_transparency: 68.4
   previous_composite: 63.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mistral/refs/heads/main/screenshots/mistral-2026-06-20T185615.png
 security:

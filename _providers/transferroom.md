@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Real-time football market-intelligence API exposing valuation data (Expected Transfer Value / xTV base and development values), transfer data (availability signals, contract expiry, estimated salary b
@@ -77,7 +77,7 @@ overview: 'TransferRoom publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   TransferRoom''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
-random_paper: 39
+random_paper: 22
 score:
   band: emerging
   composite: 17.0
@@ -91,7 +91,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

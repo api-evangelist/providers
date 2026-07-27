@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 8
@@ -1557,7 +1557,7 @@ plans:
 - name: Websphere Plans Pricing
   plan_count: 1
   slug: websphere-plans-pricing
-random_paper: 47
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Websphere Rate Limits
@@ -1581,18 +1581,18 @@ rules:
   slug: websphere-spectral-rules
 score:
   band: strong
-  composite: 63.5
-  delta: 0.0
+  composite: 67.0
+  delta: 3.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.8
+    contract_quality: 76.7
     developer_ergonomics: 63.0
-    discoverability: 55.0
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 57.9
   previous_composite: 63.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/websphere/refs/heads/main/screenshots/websphere-2026-06-20T201348.png
 security:

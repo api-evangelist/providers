@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Cuvva''s fleet of public single-purpose service APIs — auth (OAuth 2.0), vehicle lookup, MOT status, motor-coverage quotes/policies, billing, promo, profile, upload, terms, notification and more. Most '
@@ -134,7 +134,7 @@ overview: 'Cuvva publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cuvva''s developer surface includes documentation, API reference, support, authentication, and 18 more developer resources.'
-random_paper: 39
+random_paper: 5
 scopes:
 - name: Cuvva Scopes
   scope_count: 1
@@ -143,7 +143,7 @@ scopes:
 score:
   band: thin
   composite: 36.1
-  delta: 9.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -151,15 +151,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 26.7
+  previous_composite: 36.1
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 89.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cuvva/refs/heads/main/screenshots/cuvva-2026-07-25T211014.png
 security:
 - kind: authentication
   name: Cuvva Authentication

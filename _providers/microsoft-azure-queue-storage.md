@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -122,25 +122,25 @@ plans:
 - name: Microsoft Azure Queue Storage Plans Pricing
   plan_count: 3
   slug: microsoft-azure-queue-storage-plans-pricing
-random_paper: 16
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Queue Storage Rate Limits
   slug: microsoft-azure-queue-storage-rate-limits
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 54.0
+  delta: 3.2
   facets:
     commercial_clarity: 71.1
     contract_quality: 53.1
     developer_ergonomics: 52.2
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 50.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-queue-storage/refs/heads/main/screenshots/microsoft-azure-queue-storage-2026-06-20T185432.png
 security:

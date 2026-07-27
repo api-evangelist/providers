@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -61,7 +61,7 @@ apis:
 - description: Stacks (Service Catalog) and StackForms.
   name: Cycloid ServiceCatalogs API
   slug: cycloid-servicecatalogs-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: Cycloid HTTP API
@@ -183,6 +183,10 @@ jsonld:
   property_count: 0
   slug: cycloid-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Cycloid
 nav: Providers
@@ -198,7 +202,7 @@ plans:
 - name: Cycloid Plans Pricing
   plan_count: 3
   slug: cycloid-plans-pricing
-random_paper: 29
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Cycloid Rate Limits
@@ -226,19 +230,19 @@ scopes:
   slug: cycloid-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: developing
-  composite: 57.0
-  delta: 0.0
+  band: strong
+  composite: 60.2
+  delta: 3.2
   facets:
     commercial_clarity: 92.1
     contract_quality: 56.6
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 39.5
     operational_transparency: 52.6
   previous_composite: 57.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cycloid/refs/heads/main/screenshots/cycloid-2026-06-20T175412.png
 security:

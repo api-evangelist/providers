@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -339,7 +339,7 @@ press:
 - date: '2026-05-25'
   title: Advanced Micro Devices, Inc. (AMD) Stock Price, News ...
   url: https://finance.yahoo.com/quote/AMD/
-random_paper: 47
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Advanced Micro Devices Rate Limits
@@ -370,19 +370,19 @@ rules:
     warn: 11
   slug: amd-spectral-rules
 score:
-  band: developing
-  composite: 57.5
-  delta: 0.0
+  band: strong
+  composite: 62.1
+  delta: 4.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 69.0
+    contract_quality: 74.3
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 57.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advanced-micro-devices/refs/heads/main/screenshots/advanced-micro-devices-2026-06-20T165331.png
 security:

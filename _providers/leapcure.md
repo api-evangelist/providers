@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 11
 apis:
 - description: The categories API from Leapcure — 2 operation(s) for categories.
@@ -144,7 +144,7 @@ random_paper: 33
 score:
   band: thin
   composite: 36.2
-  delta: 3.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 52.3
@@ -152,15 +152,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 33.0
+  previous_composite: 36.2
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/leapcure/refs/heads/main/screenshots/leapcure-2026-07-25T224748.png
 security:
 - kind: authentication
   name: Leapcure Authentication

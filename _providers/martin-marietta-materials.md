@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -89,7 +89,7 @@ press:
 - date: '2026-05-25'
   title: Martin Marietta reaffirms 2026 adjusted EBITDA guidance ...
   url: https://seekingalpha.com/news/4583528-martin-marietta-reaffirms-2026-adjusted-ebitda-guidance-of-2_43b-midpoint-as-quikrete
-random_paper: 8
+random_paper: 42
 score:
   band: minimal
   composite: 7.2
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: martin-marietta-materials
 tags:

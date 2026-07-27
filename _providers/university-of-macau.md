@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The University of Macau Data and Open Data API Platform provides JSON APIs to data published by UM, organized into categories including About UM (organizational units and public holidays), Academic (c
@@ -102,7 +102,7 @@ plans:
 - name: University Of Macau Plans Pricing
   plan_count: 2
   slug: university-of-macau-plans-pricing
-random_paper: 6
+random_paper: 40
 rate_limits:
 - limit_count: 1
   name: University Of Macau Rate Limits
@@ -110,7 +110,7 @@ rate_limits:
 score:
   band: emerging
   composite: 29.2
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 15.1
@@ -118,14 +118,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 26.3
+  previous_composite: 29.2
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-macau/refs/heads/main/screenshots/university-of-macau-2026-06-20T200211.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -116,7 +116,7 @@ plans:
 - name: Appsmith Plans Pricing
   plan_count: 3
   slug: appsmith-plans-pricing
-random_paper: 3
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Appsmith Rate Limits
@@ -151,7 +151,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 52.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appsmith/refs/heads/main/screenshots/appsmith-2026-06-20T172348.png
 security:

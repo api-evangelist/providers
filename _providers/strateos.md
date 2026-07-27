@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Strateos / Transcriptic web API is a JSON:API-based interface for managing organizations, projects, runs, datasets, inventory, protocols, and packages on the robotic cloud lab. It is consumed thro
@@ -110,11 +110,11 @@ overview: 'Strateos publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Strateos'' developer surface includes documentation, API reference, getting-started guide, CLI, authentication, and 11 more developer resources.'
-random_paper: 18
+random_paper: 1
 score:
   band: emerging
   composite: 26.2
-  delta: 1.9
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -122,14 +122,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 24.3
+  previous_composite: 26.2
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

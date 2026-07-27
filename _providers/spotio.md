@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 5.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: Create, read, update, and delete leads and prospects, including custom data-object fields, stages, and location. Lead lifecycle changes are also delivered as outbound webhook events (lead.added, lead.
@@ -93,7 +93,7 @@ plans:
 - name: Spotio Plans Pricing
   plan_count: 4
   slug: spotio-plans-pricing
-random_paper: 7
+random_paper: 58
 score:
   band: emerging
   composite: 19.4
@@ -107,7 +107,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 19.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

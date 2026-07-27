@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Public and authenticated REST endpoints for spot and margin trading, including order placement, cancellation, order-book queries, trade history, and account balance management.
@@ -122,7 +122,7 @@ plans:
 - name: Gate Io Plans Pricing
   plan_count: 5
   slug: gate-io-plans-pricing
-random_paper: 15
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Gate Io Rate Limits
@@ -130,7 +130,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.0
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 52.8
@@ -138,14 +138,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 38.1
+  previous_composite: 36.0
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gate-io/refs/heads/main/screenshots/gate-io-2026-06-20T181655.png
 security:

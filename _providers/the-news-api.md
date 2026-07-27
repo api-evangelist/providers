@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ plans:
 - name: The News Api Plans Pricing
   plan_count: 3
   slug: the-news-api-plans-pricing
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: The News Api Rate Limits
@@ -169,18 +169,18 @@ rules:
   slug: the-news-api-rules
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 54.8
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 65.5
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 51.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-news-api/refs/heads/main/screenshots/the-news-api-2026-06-20T195226.png
 security:

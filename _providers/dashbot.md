@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 39.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Export API from Dashbot — 1 operation(s) for export.
@@ -114,7 +114,7 @@ overview: 'Dashbot publishes 1 API on the [APIs.io](https://apis.io/) network: E
 
 
   Dashbot''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, and 11 more developer resources.'
-random_paper: 27
+random_paper: 61
 score:
   band: thin
   composite: 38.5
@@ -128,8 +128,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 38.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dashbot/refs/heads/main/screenshots/dashbot-2026-07-25T211226.png
 security:
 - kind: authentication
   name: Dashbot Authentication

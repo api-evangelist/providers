@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Asset metadata lookup
@@ -183,7 +183,7 @@ random_paper: 19
 score:
   band: developing
   composite: 57.9
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 63.7
@@ -191,15 +191,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 56.6
+  previous_composite: 57.9
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bitpanda/refs/heads/main/screenshots/bitpanda-2026-07-25T203204.png
 security:
 - kind: authentication
   name: Bitpanda Authentication

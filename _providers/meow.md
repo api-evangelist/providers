@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 1
@@ -276,7 +276,7 @@ scopes:
 score:
   band: developing
   composite: 58.6
-  delta: 3.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 70.7
@@ -284,14 +284,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 55.5
+  previous_composite: 58.6
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -95,25 +95,25 @@ plans:
 - name: National Interagency Fire Center Plans Pricing
   plan_count: 3
   slug: national-interagency-fire-center-plans-pricing
-random_paper: 16
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: National Interagency Fire Center Rate Limits
   slug: national-interagency-fire-center-rate-limits
 score:
   band: thin
-  composite: 31.4
-  delta: 0.0
+  composite: 34.7
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 48.7
     developer_ergonomics: 8.7
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 31.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-interagency-fire-center/refs/heads/main/screenshots/national-interagency-fire-center-2026-06-20T190038.png
 security:

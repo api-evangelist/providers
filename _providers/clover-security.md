@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -81,7 +81,7 @@ overview: 'Clover Security is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Clover Security''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 3
+random_paper: 20
 score:
   band: emerging
   composite: 16.1
@@ -95,8 +95,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 16.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/clover-security/refs/heads/main/screenshots/clover-security-2026-07-25T205736.png
 security:
 - kind: domain-security
   name: Clover Security Domain Security

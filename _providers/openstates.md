@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ plans:
 - name: Openstates Plans Pricing
   plan_count: 4
   slug: openstates-plans-pricing
-random_paper: 23
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Openstates Rate Limits
@@ -172,7 +172,7 @@ rules:
 score:
   band: thin
   composite: 42.0
-  delta: -3.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 53.7
@@ -180,14 +180,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 5.3
-  previous_composite: 45.1
+  previous_composite: 42.0
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstates/refs/heads/main/screenshots/openstates-2026-06-20T191040.png
 security:

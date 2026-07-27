@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -234,7 +234,7 @@ plans:
 - name: Mailboxlayer Plans Pricing
   plan_count: 5
   slug: mailboxlayer-plans-pricing
-random_paper: 14
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Mailboxlayer Rate Limits
@@ -257,20 +257,20 @@ rules:
     warn: 4
   slug: mailboxlayer-rules
 score:
-  band: developing
-  composite: 57.7
-  delta: 0.0
+  band: strong
+  composite: 63.2
+  delta: 5.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 65.5
+    contract_quality: 74.3
     developer_ergonomics: 50.0
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 5.3
   previous_composite: 57.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mailboxlayer/refs/heads/main/screenshots/mailboxlayer-2026-06-20T184850.png
 security:
 - kind: authentication

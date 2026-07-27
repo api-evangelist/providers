@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -444,7 +444,7 @@ plans:
 - name: Circana Plans Pricing
   plan_count: 1
   slug: circana-plans-pricing
-random_paper: 7
+random_paper: 41
 rate_limits:
 - limit_count: 2
   name: Circana Rate Limits
@@ -479,7 +479,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 60.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circana/refs/heads/main/screenshots/circana-2026-06-20T174349.png
 security:

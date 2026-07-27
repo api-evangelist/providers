@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 0
@@ -387,18 +387,18 @@ rules:
   slug: honeycomb-rules
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 63.3
+  delta: 2.5
   facets:
     commercial_clarity: 57.9
     contract_quality: 66.5
     developer_ergonomics: 50.0
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 63.2
   previous_composite: 60.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeycomb-io/refs/heads/main/screenshots/honeycomb-io-2026-06-20T182823.png
 security:

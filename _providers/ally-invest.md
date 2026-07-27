@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ plans:
 - name: Ally Invest Plans Pricing
   plan_count: 1
   slug: ally-invest-plans-pricing
-random_paper: 22
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Ally Invest Rate Limits
@@ -239,7 +239,7 @@ rules:
 score:
   band: developing
   composite: 58.7
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 69.3
@@ -247,14 +247,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
-  previous_composite: 61.0
+  previous_composite: 58.7
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

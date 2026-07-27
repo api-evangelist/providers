@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -114,30 +114,30 @@ plans:
 - name: Photon Health Plans Pricing
   plan_count: 2
   slug: photon-health-plans-pricing
-random_paper: 13
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Photon Health Rate Limits
   slug: photon-health-rate-limits
 score:
   band: thin
-  composite: 33.7
-  delta: -1.3
+  composite: 36.4
+  delta: 2.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.9
     developer_ergonomics: 21.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 35.0
+  previous_composite: 33.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

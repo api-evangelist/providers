@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 28.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Retrieve campaign spend data for the authenticated customer via a keyed GET request, filterable by date range, campaign, bundle, platform, and country.
@@ -126,7 +126,7 @@ overview: 'App Samurai publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   App Samurai''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 49
+random_paper: 32
 score:
   band: emerging
   composite: 28.4
@@ -140,8 +140,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 28.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/app-samurai/refs/heads/main/screenshots/app-samurai-2026-07-25T200710.png
 security:
 - kind: authentication
   name: App Samurai Authentication

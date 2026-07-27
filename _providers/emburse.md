@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 77
@@ -303,7 +303,7 @@ plans:
 - name: Emburse Plans Pricing
   plan_count: 7
   slug: emburse-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Emburse Rate Limits
@@ -330,7 +330,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 51.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emburse/refs/heads/main/screenshots/emburse-2026-06-20T180630.png
 security:

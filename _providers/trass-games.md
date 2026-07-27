@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 15.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Live Shopify-hosted storefront MCP endpoint for the Yeeps store, exposing catalog search, cart management, product details, and shop policy/FAQ tools over JSON-RPC (streamable HTTP). Probed live 2026-
@@ -101,7 +101,7 @@ overview: 'Trass Games publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Trass Games'' developer surface includes support and 12 more developer resources.'
-random_paper: 5
+random_paper: 39
 score:
   band: emerging
   composite: 16.8
@@ -115,7 +115,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 16.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

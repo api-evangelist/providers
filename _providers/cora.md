@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Cora''s transactional banking API for Direct Integration: registered boleto and carnê (installment) issuance, Pix QR codes, account data, balance and statement queries, payment and transfer initiation '
@@ -145,7 +145,7 @@ random_paper: 13
 score:
   band: thin
   composite: 39.5
-  delta: 2.6
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 22.6
@@ -153,15 +153,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 36.9
+  previous_composite: 39.5
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/screenshots/cora-2026-07-25T210413.png
 security:
 - kind: authentication
   name: Cora Authentication

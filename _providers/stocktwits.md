@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ overview: 'StockTwits publishes 9 APIs on the [APIs.io](https://apis.io/) networ
 
 
   StockTwits'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 22 more developer resources.'
-random_paper: 48
+random_paper: 31
 scopes:
 - name: Stocktwits Scopes
   scope_count: 6
@@ -206,7 +206,7 @@ scopes:
 score:
   band: developing
   composite: 49.8
-  delta: 4.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 56.4
@@ -214,14 +214,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 45.1
+  previous_composite: 49.8
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

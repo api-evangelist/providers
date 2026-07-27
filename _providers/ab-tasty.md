@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -326,7 +326,7 @@ plans:
 - name: Ab Tasty Plans Pricing
   plan_count: 4
   slug: ab-tasty-plans-pricing
-random_paper: 40
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Ab Tasty Rate Limits
@@ -349,19 +349,19 @@ rules:
     warn: 27
   slug: ab-tasty-spectral-rules
 score:
-  band: developing
-  composite: 59.3
-  delta: 0.0
+  band: strong
+  composite: 63.5
+  delta: 4.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 73.5
+    contract_quality: 82.3
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 59.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ab-tasty/refs/heads/main/screenshots/ab-tasty-2026-06-20T163043.png
 security:

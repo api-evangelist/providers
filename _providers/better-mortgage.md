@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Better's OpenID Connect / OAuth 2.0 identity provider for partner single sign-on, backed by AWS Cognito. Endpoints and metadata are published via the standard OIDC and OAuth authorization-server disco
@@ -86,7 +86,7 @@ overview: 'Better Mortgage publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Better Mortgage''s developer surface includes engineering blog, support, pricing, authentication, and 6 more developer resources.'
-random_paper: 15
+random_paper: 49
 scopes:
 - name: Better Mortgage Scopes
   scope_count: 4
@@ -105,8 +105,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/better-mortgage/refs/heads/main/screenshots/better-mortgage-2026-07-25T202809.png
 security:
 - kind: authentication
   name: Better Mortgage Authentication

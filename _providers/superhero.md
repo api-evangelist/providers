@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ plans:
 - name: Superhero Plans Pricing
   plan_count: 1
   slug: superhero-plans-pricing
-random_paper: 20
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: Superhero Rate Limits
@@ -155,7 +155,7 @@ rules:
 score:
   band: developing
   composite: 46.8
-  delta: -4.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 69.0
@@ -163,14 +163,14 @@ score:
     discoverability: 92.5
     governance: 73.7
     operational_transparency: 42.1
-  previous_composite: 50.9
+  previous_composite: 46.8
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superhero/refs/heads/main/screenshots/superhero-2026-06-20T194712.png
 security:

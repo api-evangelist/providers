@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 1
@@ -1181,18 +1181,18 @@ rules:
   slug: amazon-connect-spectral-rules
 score:
   band: exemplar
-  composite: 70.6
-  delta: 0.0
+  composite: 75.3
+  delta: 4.7
   facets:
     commercial_clarity: 89.5
-    contract_quality: 72.6
+    contract_quality: 81.4
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 63.2
   previous_composite: 70.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-connect/refs/heads/main/screenshots/amazon-connect-2026-06-20T171608.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: '@hey-api/openapi-ts is an OpenAPI to TypeScript codegen tool that generates reliable API clients and SDKs from OpenAPI specifications. It is MIT-licensed and supports over 1,000,000 monthly downloads.'
@@ -74,7 +74,7 @@ plans:
 - name: Hey Api Plans Pricing
   plan_count: 3
   slug: hey-api-plans-pricing
-random_paper: 22
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Hey Api Rate Limits
@@ -92,7 +92,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hey-api/refs/heads/main/screenshots/hey-api-2026-06-20T182713.png
 security:

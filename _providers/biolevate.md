@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -197,11 +197,11 @@ overview: 'Biolevate publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Biolevate''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, engineering blog, and 22 more developer resources.'
-random_paper: 37
+random_paper: 3
 score:
   band: developing
   composite: 47.4
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 59.4
@@ -209,15 +209,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 46.2
+  previous_composite: 47.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/biolevate/refs/heads/main/screenshots/biolevate-2026-07-25T203041.png
 security:
 - kind: authentication
   name: Biolevate Authentication

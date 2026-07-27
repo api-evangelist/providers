@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Agent-driven commerce for the Piper storefront over the Universal Commerce Protocol (UCP), exposed as an MCP endpoint on the store's Shopify platform (store id 9256256). Catalog search/lookup, cart, c
@@ -98,7 +98,7 @@ overview: 'Piper Inc. publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Piper Inc.''s developer surface includes engineering blog, support, authentication, and 9 more developer resources.'
-random_paper: 36
+random_paper: 19
 scopes:
 - name: Piper Inc Scopes
   scope_count: 4
@@ -117,7 +117,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

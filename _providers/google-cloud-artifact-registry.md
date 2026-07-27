@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ plans:
 - name: Google Cloud Artifact Registry Plans Pricing
   plan_count: 3
   slug: google-cloud-artifact-registry-plans-pricing
-random_paper: 33
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Google Cloud Artifact Registry Rate Limits
@@ -143,19 +143,19 @@ rules:
     warn: 3
   slug: google-cloud-artifact-registry-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 57.6
-  delta: 0.0
+  band: strong
+  composite: 62.2
+  delta: 4.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 50.4
+    contract_quality: 55.8
     developer_ergonomics: 45.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 57.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-artifact-registry/refs/heads/main/screenshots/google-cloud-artifact-registry-2026-06-20T182041.png
 security:

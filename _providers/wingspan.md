@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 0
@@ -234,7 +234,7 @@ overview: 'Wingspan publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   Wingspan''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 25 more developer resources.'
-random_paper: 4
+random_paper: 55
 rate_limits:
 - limit_count: 2
   name: Wingspan Rate Limits
@@ -242,7 +242,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.1
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 62.6
@@ -250,14 +250,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 60.3
+  previous_composite: 61.1
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

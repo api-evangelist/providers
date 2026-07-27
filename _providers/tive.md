@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -128,18 +128,18 @@ rate_limits:
   slug: tive-rate-limits
 score:
   band: thin
-  composite: 34.5
-  delta: 0.0
+  composite: 37.7
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 54.0
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 34.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

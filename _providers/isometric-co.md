@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 46
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ apis:
 - description: The Transfers API from Isometric — 3 operation(s) for transfers.
   name: Isometric Transfers API
   slug: isometric-co-transfers-api
-artifact_total: 40
+artifact_total: 41
 collections:
 - collection_type: open
   name: Isometric Certify Data Ingestion API
@@ -323,6 +323,10 @@ description: Isometric is a London- and New York-based carbon removal registry a
   79 schemas) for credit balances, issuances, transfers, retirements, deliveries, orders, and Stripe checkout. Both speak OpenAPI 3.1.0, share bearer + x-client-secret authentication, run separate sandbox and production environments, and use Relay-style cursor pagination. No official SDKs are published; clients are expected to generate from the OpenAPI specs. An MCP server is available for AI assistant integration. Data providers including CDR.fyi, MSCI, Sylvera, and CEEZER consume the Registry API for real-time CDR market data.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/isometric-co.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp-server
+  slug: mcp-server
 modified: '2026-05-25'
 name: Isometric
 nav: Providers
@@ -334,23 +338,23 @@ overview: 'Isometric publishes 35 APIs on the [APIs.io](https://apis.io/) networ
 random_paper: 6
 score:
   band: thin
-  composite: 37.4
-  delta: -1.9
+  composite: 39.5
+  delta: 2.1
   facets:
     commercial_clarity: 23.7
     contract_quality: 58.0
     developer_ergonomics: 56.5
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 39.3
+  previous_composite: 37.4
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/isometric-co/refs/heads/main/screenshots/isometric-co-2026-06-20T183621.png
 security:

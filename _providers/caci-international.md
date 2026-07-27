@@ -9,6 +9,24 @@ access_model:
   - finops
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 5
 common:
@@ -97,11 +115,26 @@ press:
 - date: '2026-05-25'
   title: CACI Awarded $290 Million Contract to Provide AI and ...
   url: https://investor.caci.com/news/news-details/2024/CACI-Awarded-290-Million-Contract-to-Provide-AI-and-Geospatial-Expertise-to-the-National-Geospatial-Intelligence-Agency-NGA/default.aspx
-random_paper: 18
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Caci International Rate Limits
   slug: caci-international-rate-limits
+score:
+  band: emerging
+  composite: 18.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 20.8
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 18.4
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caci-international/refs/heads/main/screenshots/caci-international-2026-06-20T173834.png
 security:
 - kind: domain-security

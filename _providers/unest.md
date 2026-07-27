@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,11 +81,11 @@ overview: 'UNest is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   UNest''s developer surface includes pricing, engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: emerging
   composite: 19.0
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -93,14 +93,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.0
+  previous_composite: 19.0
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

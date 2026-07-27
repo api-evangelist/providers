@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,7 +49,7 @@ apis:
 - description: Server metadata and version information
   name: Trivy Server API
   slug: trivy-server-api
-artifact_total: 19
+artifact_total: 20
 collections:
 - collection_type: open
   name: Trivy Server API
@@ -203,6 +203,10 @@ jsonld:
   property_count: 0
   slug: trivy-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Trivy
 nav: Providers
@@ -218,7 +222,7 @@ plans:
 - name: Trivy Plans Pricing
   plan_count: 3
   slug: trivy-plans-pricing
-random_paper: 13
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Trivy Rate Limits
@@ -242,18 +246,18 @@ rules:
   slug: trivy-rules
 score:
   band: developing
-  composite: 54.8
-  delta: 0.0
+  composite: 56.8
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 60.2
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 54.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trivy/refs/heads/main/screenshots/trivy-2026-06-20T195737.png
 security:

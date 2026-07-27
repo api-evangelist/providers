@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -124,25 +124,25 @@ press:
 - date: '2026-05-25'
   title: Lowe's deploys First at-scale AI assistant for Retail ...
   url: https://corporate.lowes.com/newsroom/press-releases/lowes-deploys-first-scale-ai-assistant-retail-associates-05-05-25
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Lowes Rate Limits
   slug: lowes-rate-limits
 score:
   band: thin
-  composite: 35.1
-  delta: 0.0
+  composite: 38.4
+  delta: 3.3
   facets:
     commercial_clarity: 42.1
     contract_quality: 50.4
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 35.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/screenshots/lowes-2026-06-20T184736.png
 security:

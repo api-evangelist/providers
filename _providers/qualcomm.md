@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -120,18 +120,18 @@ rate_limits:
   slug: qualcomm-rate-limits
 score:
   band: thin
-  composite: 30.3
-  delta: 0.0
+  composite: 32.8
+  delta: 2.5
   facets:
     commercial_clarity: 28.9
     contract_quality: 60.2
     developer_ergonomics: 13.0
-    discoverability: 35.0
+    discoverability: 60.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 30.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qualcomm/refs/heads/main/screenshots/qualcomm-2026-06-20T192405.png
 security:

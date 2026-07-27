@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 common:
@@ -76,7 +76,7 @@ overview: 'Telewerken is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Telewerken''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 7
+random_paper: 58
 rules:
 - name: Telewerken API Rules
   rule_count: 5
@@ -89,7 +89,7 @@ rules:
 score:
   band: emerging
   composite: 20.3
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 9.4
@@ -97,14 +97,14 @@ score:
     discoverability: 67.5
     governance: 73.7
     operational_transparency: 0.0
-  previous_composite: 19.7
+  previous_composite: 20.3
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/telewerken/refs/heads/main/screenshots/telewerken-2026-06-20T195045.png
 security:

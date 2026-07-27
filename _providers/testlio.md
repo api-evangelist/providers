@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -97,7 +97,7 @@ overview: 'Testlio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Testlio''s developer surface includes support, documentation, engineering blog, and 11 more developer resources.'
-random_paper: 7
+random_paper: 24
 score:
   band: emerging
   composite: 20.5
@@ -111,7 +111,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 20.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

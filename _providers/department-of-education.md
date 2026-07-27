@@ -10,6 +10,24 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -145,11 +163,31 @@ plans:
 - name: Department Of Education Plans Pricing
   plan_count: 3
   slug: department-of-education-plans-pricing
-random_paper: 4
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Department Of Education Rate Limits
   slug: department-of-education-rate-limits
+score:
+  band: developing
+  composite: 47.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 68.1
+    developer_ergonomics: 21.7
+    discoverability: 100.0
+    governance: 13.2
+    operational_transparency: 36.8
+  previous_composite: 47.4
+  regulatory:
+    applies: true
+    regime: Government & Public Sector
+    regime_id: government
+    score: 45.7
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-education/refs/heads/main/screenshots/department-of-education-2026-06-20T175915.png
 security:
 - kind: authentication

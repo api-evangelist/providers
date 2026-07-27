@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ plans:
 - name: Rainbow Ai Plans Pricing
   plan_count: 3
   slug: rainbow-ai-plans-pricing
-random_paper: 32
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Rainbow Ai Rate Limits
@@ -183,19 +183,19 @@ rules:
     warn: 5
   slug: rainbow-ai-rules
 score:
-  band: developing
-  composite: 57.9
-  delta: 0.0
+  band: strong
+  composite: 62.5
+  delta: 4.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.7
+    contract_quality: 77.0
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 57.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rainbow-ai/refs/heads/main/screenshots/rainbow-ai-2026-06-20T192610.png
 security:

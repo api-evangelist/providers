@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -170,11 +170,11 @@ overview: 'Garner Health publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Garner Health''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 39
+random_paper: 22
 score:
   band: developing
   composite: 50.1
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 57.1
@@ -182,15 +182,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 47.4
+  previous_composite: 50.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/garner-health/refs/heads/main/screenshots/garner-health-2026-07-25T215450.png
 security:
 - kind: authentication
   name: Garner Health Authentication

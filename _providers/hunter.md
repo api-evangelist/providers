@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ arazzos:
 - description: Verify an email, add it to a campaign when valid, then start the campaign.
   name: Hunter Verify and Add to Campaign
   slug: hunter-verify-add-to-campaign-workflow
-artifact_total: 139
+artifact_total: 140
 collections:
 - collection_type: postman
   name: Hunter API
@@ -557,6 +557,10 @@ jsonld:
   property_count: 0
   slug: hunter-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Hunter
 nav: Providers
@@ -595,19 +599,19 @@ rules:
     warn: 8
   slug: hunter-spectral-rules
 score:
-  band: strong
-  composite: 66.7
-  delta: 0.0
+  band: exemplar
+  composite: 71.3
+  delta: 4.6
   facets:
     commercial_clarity: 84.2
-    contract_quality: 68.1
+    contract_quality: 73.5
     developer_ergonomics: 47.8
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 66.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hunter/refs/heads/main/screenshots/hunter-2026-06-20T182943.png
 security:

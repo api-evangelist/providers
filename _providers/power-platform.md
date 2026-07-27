@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
 - description: Operations for managing billing policies and licensing across the Power Platform tenant.
   name: Microsoft Power Platform APIs Licensing API
   slug: power-platform-licensing-api
-artifact_total: 139
+artifact_total: 140
 collections:
 - collection_type: open
   name: Microsoft Power Platform REST API
@@ -413,6 +413,10 @@ jsonld:
   property_count: 0
   slug: power-platform-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Microsoft Power Platform APIs
 nav: Providers
@@ -457,18 +461,18 @@ scopes:
   summary_line: 1 scope · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 60.3
-  delta: 0.0
+  composite: 63.6
+  delta: 3.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 68.1
     developer_ergonomics: 50.0
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 60.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-platform/refs/heads/main/screenshots/power-platform-2026-06-20T192023.png
 security:

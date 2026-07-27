@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -98,25 +98,25 @@ plans:
 - name: Fake Store Api Plans Pricing
   plan_count: 3
   slug: fake-store-api-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Fake Store Api Rate Limits
   slug: fake-store-api-rate-limits
 score:
   band: thin
-  composite: 31.9
-  delta: 0.0
+  composite: 35.1
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 45.6
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 31.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fake-store-api/refs/heads/main/screenshots/fake-store-api-2026-06-20T181017.png
 security:

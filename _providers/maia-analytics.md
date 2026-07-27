@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 74.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 108
   human_in_the_loop: 12
@@ -229,7 +229,7 @@ overview: 'Maia-analytics publishes 33 APIs on the [APIs.io](https://apis.io/) n
 
 
   Maia-analytics'' developer surface includes documentation, API reference, authentication, and 16 more developer resources.'
-random_paper: 44
+random_paper: 61
 score:
   band: thin
   composite: 38.7
@@ -243,8 +243,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 38.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/maia-analytics/refs/heads/main/screenshots/maia-analytics-2026-07-25T225910.png
 security:
 - kind: authentication
   name: Maia Analytics Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ plans:
 - name: Paigo Plans Pricing
   plan_count: 1
   slug: paigo-plans-pricing
-random_paper: 18
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Paigo Rate Limits
@@ -226,7 +226,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 46.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paigo/refs/heads/main/screenshots/paigo-2026-06-20T191330.png
 security:

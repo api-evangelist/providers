@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Semantic search across Quran, Hadith, Tafsir & 18K+ Rijal narrators
@@ -54,7 +54,7 @@ name: Amanah Sunnah
 nav: Providers
 network: true
 overview: Amanah Sunnah publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Books and Public APIs.
-random_paper: 37
+random_paper: 20
 score:
   band: minimal
   composite: 6.8
@@ -68,7 +68,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amanah-sunnah/refs/heads/main/screenshots/amanah-sunnah-2026-06-20T171601.png
 security:

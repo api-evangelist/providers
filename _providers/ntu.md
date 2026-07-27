@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ plans:
 - name: Ntu Plans Pricing
   plan_count: 2
   slug: ntu-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Ntu Rate Limits
@@ -178,7 +178,7 @@ rules:
 score:
   band: thin
   composite: 40.6
-  delta: -2.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.9
@@ -186,14 +186,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 26.3
-  previous_composite: 43.5
+  previous_composite: 40.6
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntu/refs/heads/main/screenshots/ntu-2026-06-20T190501.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -131,8 +131,9 @@ score:
     operational_transparency: 26.3
   previous_composite: 24.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/emdash/refs/heads/main/screenshots/emdash-2026-07-25T213231.png
 security:
 - kind: domain-security
   name: Emdash Domain Security

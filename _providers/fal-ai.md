@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -101,7 +101,7 @@ arazzos:
 - description: Submit an inference job with a webhook callback and confirm it was accepted into the queue.
   name: fal Webhook-Backed Submission
   slug: fal-ai-webhook-submission-workflow
-artifact_total: 65
+artifact_total: 66
 asyncapis:
 - description: 'AsyncAPI description of fal''s event-driven inference surfaces. fal exposes two real-time channels in addition to its REST queue: (1) a Server-Sent Events stream that pushes incremental status updates '
   name: fal Event-Driven APIs
@@ -450,6 +450,10 @@ jsonld:
   property_count: 9
   slug: fal-ai-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: fal-ai-mcp.yml
+  slug: fal-ai-mcpyml
 modified: '2026-06-20'
 name: fal
 nav: Providers
@@ -465,7 +469,7 @@ plans:
 - name: Fal Ai Plans Pricing
   plan_count: 2
   slug: fal-ai-plans-pricing
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Fal Ai Rate Limits
@@ -497,19 +501,19 @@ rules:
   slug: fal-ai-rules
 score:
   band: exemplar
-  composite: 70.3
-  delta: 0.0
+  composite: 75.5
+  delta: 5.2
   facets:
     commercial_clarity: 68.4
-    contract_quality: 74.5
+    contract_quality: 82.1
     developer_ergonomics: 80.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 68.4
   previous_composite: 70.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/fal-ai/refs/heads/main/screenshots/fal-ai-2026-06-20T181030.png
 security:
 - kind: authentication

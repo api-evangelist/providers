@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 5.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -146,7 +146,7 @@ overview: 'Spline is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Spline''s developer surface includes documentation, pricing, engineering blog, academy / training, GitHub presence, YouTube channel, and 20 more developer resources.'
-random_paper: 4
+random_paper: 38
 score:
   band: emerging
   composite: 15.2
@@ -160,7 +160,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 15.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spline-design/refs/heads/main/screenshots/spline-design-2026-06-20T194406.png
 security:

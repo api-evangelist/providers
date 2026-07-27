@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for retrieving uploaded timing data and sending remote control commands to RACE RESULT decoders and Track Boxes.
@@ -63,7 +63,7 @@ plans:
 - name: Race Result Plans Pricing
   plan_count: 3
   slug: race-result-plans-pricing
-random_paper: 5
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Race Result Rate Limits
@@ -81,7 +81,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 20.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/race-result/refs/heads/main/screenshots/race-result-2026-06-20T192512.png
 security:

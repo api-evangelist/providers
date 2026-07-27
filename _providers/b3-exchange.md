@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 57.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 10
 apis:
 - description: D-1 investor data for authorized fintechs and custodians - investment positions, account transactions, listed-asset buy/sell activity, public offering participation, and provisioned corporate events -
@@ -197,7 +197,7 @@ scopes:
 score:
   band: developing
   composite: 49.7
-  delta: 25.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 37.7
@@ -205,15 +205,15 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 24.6
+  previous_composite: 49.7
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 89.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/screenshots/b3-exchange-2026-07-22T202200.png
 security:
 - kind: authentication

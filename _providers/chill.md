@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 39.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -117,7 +117,7 @@ overview: 'Chill is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Chill''s developer surface includes documentation, authentication, engineering blog, support, and 12 more developer resources.'
-random_paper: 14
+random_paper: 48
 scopes:
 - name: Chill Scopes
   scope_count: 4
@@ -126,7 +126,7 @@ scopes:
 score:
   band: emerging
   composite: 28.9
-  delta: 8.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -134,15 +134,15 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.6
+  previous_composite: 28.9
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Chill Authentication

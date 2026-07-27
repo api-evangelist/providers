@@ -16,7 +16,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Citigroup's group-level institutional API platform (Citi Developer Experience / CitiConnect, from Treasury and Trade Solutions) that Citi Canada's corporate and institutional clients integrate with fo
@@ -69,10 +69,11 @@ overview: 'Citibank Canada publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Citibank Canada''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 3
+random_paper: 54
 score:
   band: emerging
   composite: 15.4
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -80,13 +81,16 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 5.3
+  previous_composite: 15.4
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/citibank-canada/refs/heads/main/screenshots/citibank-canada-2026-07-25T205424.png
 security:
 - kind: domain-security
   name: Citibank Canada Domain Security

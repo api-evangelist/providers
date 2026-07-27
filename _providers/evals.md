@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 20
 apis:
 - description: OpenAI Evals is the open-source framework released by OpenAI for evaluating large language models and LLM-based systems. The README states "Evals provide a framework for evaluating large language mode
@@ -251,7 +251,7 @@ overview: 'Evals publishes 20 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   The Evals catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 29
+random_paper: 63
 rules:
 - name: Evals API Rules
   rule_count: 5
@@ -274,7 +274,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 26.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/evals/refs/heads/main/screenshots/evals-2026-06-20T180857.png
 security:

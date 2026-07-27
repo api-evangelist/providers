@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Access Bloomberg ESG scores, environmental KPIs, social metrics, and governance data for thousands of companies globally. Sourced from company disclosures and standardized for comparability across sec
@@ -100,7 +100,7 @@ plans:
 - name: Bloomberg Sustainable Finance Products Plans Pricing
   plan_count: 3
   slug: bloomberg-sustainable-finance-products-plans-pricing
-random_paper: 50
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Bloomberg Sustainable Finance Products Rate Limits
@@ -118,7 +118,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 29.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-sustainable-finance-products/refs/heads/main/screenshots/bloomberg-sustainable-finance-products-2026-06-20T173508.png
 security:

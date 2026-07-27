@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 12
 common:
@@ -124,7 +124,7 @@ overview: 'Bootc is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Bootc''s developer surface includes documentation, release notes, engineering blog, and 5 more developer resources.'
-random_paper: 25
+random_paper: 59
 score:
   band: minimal
   composite: 12.5
@@ -138,7 +138,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 12.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bootc/refs/heads/main/screenshots/bootc-2026-06-20T173605.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 20
@@ -165,7 +165,7 @@ overview: 'NaviStone publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   NaviStone''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 15 more developer resources.'
-random_paper: 14
+random_paper: 31
 score:
   band: thin
   composite: 37.2
@@ -179,7 +179,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 37.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

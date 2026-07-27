@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 45.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -270,7 +270,7 @@ overview: 'Allianz Future Cloud Platform publishes 5 APIs on the [APIs.io](https
 
 
   Allianz Future Cloud Platform''s developer surface includes authentication, documentation, engineering blog, and 12 more developer resources.'
-random_paper: 46
+random_paper: 29
 rules:
 - name: Allianz Future Cloud Platform API Rules
   rule_count: 5
@@ -296,7 +296,7 @@ scopes:
 score:
   band: developing
   composite: 49.5
-  delta: 3.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 80.5
@@ -304,15 +304,16 @@ score:
     discoverability: 100.0
     governance: 86.8
     operational_transparency: 5.3
-  previous_composite: 45.6
+  previous_composite: 49.5
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 71.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-future-cloud-platform/refs/heads/main/screenshots/allianz-future-cloud-platform-2026-07-25T195701.png
 security:
 - kind: authentication
   name: Allianz Future Cloud Platform Authentication

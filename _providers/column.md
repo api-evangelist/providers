@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -176,23 +176,23 @@ rate_limits:
   slug: column-rate-limits
 score:
   band: thin
-  composite: 30.8
-  delta: -0.8
+  composite: 33.5
+  delta: 2.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 59.8
     developer_ergonomics: 13.0
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 31.6
+  previous_composite: 30.8
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

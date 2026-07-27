@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -151,7 +151,7 @@ plans:
 - name: Oracle Financials Plans Pricing
   plan_count: 2
   slug: oracle-financials-plans-pricing
-random_paper: 40
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Oracle Financials Rate Limits
@@ -167,18 +167,18 @@ rules:
   slug: oracle-financials-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 54.7
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 60.2
     developer_ergonomics: 26.1
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 51.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-financials/refs/heads/main/screenshots/oracle-financials-2026-06-20T191131.png
 security:

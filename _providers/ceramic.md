@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 10
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -233,7 +233,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 42.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ceramic/refs/heads/main/screenshots/ceramic-2026-06-20T174136.png
 security:

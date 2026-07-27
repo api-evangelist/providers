@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ overview: 'TRM Labs publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   TRM Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 19 more developer resources.'
-random_paper: 37
+random_paper: 54
 rate_limits:
 - limit_count: 0
   name: Trm Labs Rate Limits
@@ -185,7 +185,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 48.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for merchants to originate Aplazo installment loans at checkout, retrieve loan status, and process refunds and cancellations. Credentials (apiToken + merchantId) are exchanged at POST /api/au
@@ -137,7 +137,7 @@ random_paper: 35
 score:
   band: thin
   composite: 31.6
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 22.6
@@ -145,15 +145,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 29.5
+  previous_composite: 31.6
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aplazo/refs/heads/main/screenshots/aplazo-2026-07-25T200637.png
 security:
 - kind: authentication
   name: Aplazo Authentication

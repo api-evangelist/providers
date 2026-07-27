@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -183,7 +183,7 @@ overview: 'KUKA is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   KUKA''s developer surface includes GitHub presence, YouTube channel, and 31 more developer resources.'
-random_paper: 16
+random_paper: 50
 score:
   band: minimal
   composite: 12.6
@@ -197,7 +197,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kuka-robotics/refs/heads/main/screenshots/kuka-robotics-2026-06-20T184213.png
 security:

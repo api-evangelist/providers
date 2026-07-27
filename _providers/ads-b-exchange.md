@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Access real-time and historical data of any and all airborne aircraft
@@ -54,7 +54,7 @@ name: ADS-B Exchange
 nav: Providers
 network: true
 overview: ADS-B Exchange publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 9
+random_paper: 43
 score:
   band: minimal
   composite: 6.8
@@ -68,7 +68,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ads-b-exchange/refs/heads/main/screenshots/ads-b-exchange-2026-06-20T165139.png
 security:

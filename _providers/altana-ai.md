@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -89,11 +89,11 @@ overview: 'Altana AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Altana AI''s developer surface includes engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 5
+random_paper: 56
 score:
   band: emerging
   composite: 20.8
-  delta: 3.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -101,15 +101,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.2
+  previous_composite: 20.8
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/altana-ai/refs/heads/main/screenshots/altana-ai-2026-07-25T195831.png
 security:
 - kind: domain-security
   name: Altana Ai Domain Security

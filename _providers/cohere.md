@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -325,18 +325,18 @@ rules:
   slug: cohere-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 48.5
+  delta: 2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 80.6
     developer_ergonomics: 13.0
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 52.6
     operational_transparency: 36.8
   previous_composite: 46.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cohere/refs/heads/main/screenshots/cohere-2026-06-20T174719.png
 security:

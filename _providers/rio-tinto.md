@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 8
 common:
@@ -73,7 +73,7 @@ name: Rio Tinto
 nav: Providers
 network: true
 overview: Rio Tinto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Mining, Metals, Resources, and Critical Minerals.
-random_paper: 15
+random_paper: 49
 score:
   band: minimal
   composite: 7.8
@@ -87,7 +87,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rio-tinto/refs/heads/main/screenshots/rio-tinto-2026-06-20T193124.png
 security:

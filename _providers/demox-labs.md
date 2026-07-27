@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Free public JSON-RPC 2.0 API for reading the Aleo zero-knowledge blockchain — latest blocks and heights, transactions and transitions, records, deployed programs, mapping values, public NFTs and token
@@ -130,11 +130,11 @@ overview: 'Demox Labs publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Demox Labs'' developer surface includes documentation, getting-started guide, API reference, engineering blog, support, signup flow, authentication, and 13 more developer resources.'
-random_paper: 35
+random_paper: 52
 score:
   band: thin
   composite: 33.9
-  delta: 3.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -142,15 +142,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 30.3
+  previous_composite: 33.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/demox-labs/refs/heads/main/screenshots/demox-labs-2026-07-25T211716.png
 security:
 - kind: authentication
   name: Demox Labs Authentication

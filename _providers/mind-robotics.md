@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -50,7 +50,7 @@ name: Mind Robotics
 nav: Providers
 network: true
 overview: Mind Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardtech, Robotics, Industrial Automation, and Artificial Intelligence.
-random_paper: 12
+random_paper: 46
 score:
   band: minimal
   composite: 6.8
@@ -64,7 +64,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

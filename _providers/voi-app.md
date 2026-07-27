@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Voi's read-only open mobility API surface, exposing GBFS v2/v3 auto-discovery, system information, free bike status (with optional battery extension), and service areas, plus MDS 0.4 trips, status_cha
@@ -129,7 +129,7 @@ overview: 'Voi publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Voi''s developer surface includes developer portal, documentation, engineering blog, YouTube channel, and 16 more developer resources.'
-random_paper: 37
+random_paper: 20
 score:
   band: emerging
   composite: 16.8
@@ -143,7 +143,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 16.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voi-app/refs/heads/main/screenshots/voi-app-2026-06-20T201128.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -212,7 +212,7 @@ random_paper: 34
 score:
   band: developing
   composite: 52.6
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 65.1
@@ -220,15 +220,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 50.4
+  previous_composite: 52.6
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/loop/refs/heads/main/screenshots/loop-2026-07-25T225523.png
 security:
 - kind: authentication
   name: Loop Authentication

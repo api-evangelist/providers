@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 62.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -483,7 +483,7 @@ plans:
 - name: Thanx Plans Pricing
   plan_count: 1
   slug: thanx-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Thanx Rate Limits
@@ -506,19 +506,19 @@ rules:
     warn: 24
   slug: thanx-spectral-rules
 score:
-  band: developing
-  composite: 57.9
-  delta: 0.0
+  band: strong
+  composite: 62.6
+  delta: 4.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 70.9
+    contract_quality: 79.8
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 57.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thanx/refs/heads/main/screenshots/thanx-2026-06-20T195212.png
 security:

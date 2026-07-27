@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Quissly's REST API powers AI product search (QSearch) and the conversational shopping assistant (QChat) for any e-commerce platform, alongside native Shopify, WooCommerce and CS-Cart plugins.
@@ -130,7 +130,7 @@ plans:
 - name: Quissly Inc Plans
   plan_count: 10
   slug: quissly-inc-plans
-random_paper: 31
+random_paper: 65
 score:
   band: thin
   composite: 32.5
@@ -144,7 +144,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 32.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

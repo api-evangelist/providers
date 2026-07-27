@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ plans:
 - name: Google Apigee Plans Pricing
   plan_count: 5
   slug: google-apigee-plans-pricing
-random_paper: 26
+random_paper: 9
 rate_limits:
 - limit_count: 23
   name: Google Apigee Rate Limits
@@ -221,18 +221,18 @@ rules:
   slug: google-apigee-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.5
-  delta: 0.0
+  composite: 63.8
+  delta: 3.3
   facets:
     commercial_clarity: 71.1
-    contract_quality: 50.4
+    contract_quality: 55.8
     developer_ergonomics: 52.2
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 60.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-apigee/refs/heads/main/screenshots/google-apigee-2026-06-20T182017.png
 security:

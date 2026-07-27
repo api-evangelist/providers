@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -212,7 +212,7 @@ plans:
 - name: Lattice Plans Pricing
   plan_count: 6
   slug: lattice-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 3
   name: Lattice Rate Limits
@@ -239,7 +239,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 59.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lattice/refs/heads/main/screenshots/lattice-2026-06-20T184350.png
 security:

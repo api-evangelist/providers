@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -177,18 +177,18 @@ rate_limits:
   slug: apollo-api-documentation-rate-limits
 score:
   band: thin
-  composite: 39.2
-  delta: 0.0
+  composite: 41.2
+  delta: 2.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 41.6
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 39.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-api-documentation/refs/heads/main/screenshots/apollo-api-documentation-2026-06-20T172307.png
 security:

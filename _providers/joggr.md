@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Joggr is a documentation platform purpose-built for software teams, helping engineering teams create and maintain technical documentation. Joggr exposes APIs and a Model Context Protocol (MCP) server '
@@ -74,7 +74,7 @@ plans:
 - name: Joggr Plans Pricing
   plan_count: 3
   slug: joggr-plans-pricing
-random_paper: 27
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Joggr Rate Limits
@@ -92,7 +92,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/joggr/refs/heads/main/screenshots/joggr-2026-06-20T183747.png
 security:

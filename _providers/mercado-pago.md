@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 0
@@ -328,7 +328,7 @@ plans:
 - name: Mercado Pago Plans Pricing
   plan_count: 2
   slug: mercado-pago-plans-pricing
-random_paper: 26
+random_paper: 43
 rate_limits:
 - limit_count: 3
   name: Mercado Pago Rate Limits
@@ -365,23 +365,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.9
-  delta: 1.2
+  composite: 54.0
+  delta: 2.1
   facets:
     commercial_clarity: 28.9
     contract_quality: 70.6
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 65.8
     operational_transparency: 36.8
-  previous_composite: 50.7
+  previous_composite: 51.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/screenshots/mercado-pago-2026-06-20T185325.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -124,25 +124,25 @@ plans:
 - name: Microsoft Bookings Plans Pricing
   plan_count: 3
   slug: microsoft-bookings-plans-pricing
-random_paper: 0
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Microsoft Bookings Rate Limits
   slug: microsoft-bookings-rate-limits
 score:
   band: thin
-  composite: 37.4
-  delta: 0.0
+  composite: 40.7
+  delta: 3.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 47.8
     developer_ergonomics: 21.7
-    discoverability: 42.5
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 37.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-bookings/refs/heads/main/screenshots/microsoft-bookings-2026-06-20T185445.png
 security:

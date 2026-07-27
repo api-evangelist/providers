@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -258,25 +258,25 @@ plans:
 - name: Steam Plans Pricing
   plan_count: 3
   slug: steam-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Steam Rate Limits
   slug: steam-rate-limits
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 46.7
+  delta: 0.7
   facets:
     commercial_clarity: 63.2
     contract_quality: 47.8
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 46.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/steam/refs/heads/main/screenshots/steam-2026-06-20T194532.png
 security:

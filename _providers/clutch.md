@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Clutch API provides programmatic access to Clutch's B2B ratings and reviews platform, covering IT services, marketing agencies, and business service providers. Approved vendors and partners can re
@@ -140,7 +140,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 35.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clutch/refs/heads/main/screenshots/clutch-2026-06-20T174626.png
 security:

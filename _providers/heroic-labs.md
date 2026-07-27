@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 118
   human_in_the_loop: 2
@@ -195,7 +195,7 @@ overview: 'Heroic Labs publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Heroic Labs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 26
+random_paper: 9
 score:
   band: developing
   composite: 56.0
@@ -209,8 +209,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 56.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/heroic-labs/refs/heads/main/screenshots/heroic-labs-2026-07-25T221028.png
 security:
 - kind: authentication
   name: Heroic Labs Authentication

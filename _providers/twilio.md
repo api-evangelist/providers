@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 546
   human_in_the_loop: 2
@@ -467,7 +467,7 @@ arazzos:
 - description: Start a verification, fetch it to read its status, and cancel it if it is still pending.
   name: Twilio Verify Start, Poll, and Cancel a Verification
   slug: twilio-verify-start-poll-and-cancel-workflow
-artifact_total: 234
+artifact_total: 236
 asyncapis:
 - description: 'AsyncAPI 2.6 specification for Twilio''s public WebSocket APIs: - **Media Streams** — Bidirectional and one-way raw audio over WebSocket. Twilio acts as the WebSocket *client* and connects out to a cus'
   name: Twilio Real-Time WebSocket APIs
@@ -1110,6 +1110,13 @@ jsonld:
   property_count: 12
   slug: twilio-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
+- description: ''
+  name: Twilio MCP servers (hosted twilio-docs + executing @twilio-alpha/mcp)
+  slug: twilio-mcp-servers-hosted-twilio-docs-executing-twilio-alphamcp
 modified: '2026-07-17'
 name: Twilio
 nav: Providers
@@ -1125,7 +1132,7 @@ plans:
 - name: Twilio Plans Pricing
   plan_count: 2
   slug: twilio-plans-pricing
-random_paper: 1
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Twilio Rate Limits
@@ -1157,18 +1164,18 @@ rules:
   slug: twilio-rules
 score:
   band: exemplar
-  composite: 75.6
-  delta: 0.0
+  composite: 76.8
+  delta: 1.2
   facets:
     commercial_clarity: 76.3
     contract_quality: 61.8
     developer_ergonomics: 84.8
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 94.7
   previous_composite: 75.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -105,11 +105,11 @@ overview: 'Built is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Built''s developer surface includes documentation, support, engineering blog, changelog, and 12 more developer resources.'
-random_paper: 34
+random_paper: 0
 score:
   band: emerging
   composite: 26.5
-  delta: 2.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -117,15 +117,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 23.9
+  previous_composite: 26.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/built/refs/heads/main/screenshots/built-2026-07-25T204100.png
 security:
 - kind: domain-security
   name: Built Domain Security

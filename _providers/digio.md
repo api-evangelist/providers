@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 4
@@ -224,7 +224,7 @@ plans:
 - name: Digio Plans Pricing
   plan_count: 1
   slug: digio-plans-pricing
-random_paper: 14
+random_paper: 48
 rate_limits:
 - limit_count: 3
   name: Digio Rate Limits
@@ -242,8 +242,9 @@ score:
     operational_transparency: 44.7
   previous_composite: 64.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/digio/refs/heads/main/screenshots/digio-2026-07-25T212007.png
 security:
 - kind: authentication
   name: Digio Authentication

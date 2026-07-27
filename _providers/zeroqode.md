@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Air Native is a conversion service that transforms Bubble web applications into native iOS and Android mobile apps. It delivers ready-made app builds within 24 hours (business days) at a one-time pric
@@ -85,7 +85,7 @@ plans:
 - name: Zeroqode Plans Pricing
   plan_count: 3
   slug: zeroqode-plans-pricing
-random_paper: 6
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Zeroqode Rate Limits
@@ -103,7 +103,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zeroqode/refs/heads/main/screenshots/zeroqode-2026-06-20T201842.png
 security:

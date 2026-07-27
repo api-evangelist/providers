@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -172,18 +172,18 @@ rules:
   slug: bizapi-spectral-rules
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 53.8
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 70.8
+    contract_quality: 76.1
     developer_ergonomics: 21.7
-    discoverability: 60.0
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 50.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bizapi/refs/heads/main/screenshots/bizapi-2026-06-20T173328.png
 security:

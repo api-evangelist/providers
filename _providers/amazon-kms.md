@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -282,18 +282,18 @@ rules:
   slug: amazon-kms-spectral-rules
 score:
   band: exemplar
-  composite: 70.7
-  delta: 0.0
+  composite: 75.3
+  delta: 4.6
   facets:
     commercial_clarity: 86.8
-    contract_quality: 64.6
+    contract_quality: 69.9
     developer_ergonomics: 69.6
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 70.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-kms/refs/heads/main/screenshots/amazon-kms-2026-06-20T171719.png
 security:

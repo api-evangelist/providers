@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -54,11 +54,11 @@ name: Indian Energy Exchange
 nav: Providers
 network: true
 overview: Indian Energy Exchange is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Electricity, Power Trading, and Exchange.
-random_paper: 9
+random_paper: 26
 score:
   band: minimal
   composite: 13.9
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -66,15 +66,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.0
+  previous_composite: 13.9
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/indian-energy-exchange/refs/heads/main/screenshots/indian-energy-exchange-2026-07-25T222308.png
 security:
 - kind: domain-security
   name: Indian Energy Exchange Domain Security

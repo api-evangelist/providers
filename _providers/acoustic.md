@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 7.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Headless CMS and digital asset management REST API (authoring and delivery) for managing assets, content items, categories/taxonomies, libraries, and publishing workflow states. Multi-tenant SaaS; the
@@ -118,8 +118,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 24.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/acoustic/refs/heads/main/screenshots/acoustic-2026-07-25T181511.png
 security:
 - kind: domain-security
   name: Acoustic Domain Security

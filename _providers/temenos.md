@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 57.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 3
@@ -641,7 +641,7 @@ plans:
 - name: Temenos Plans Pricing
   plan_count: 1
   slug: temenos-plans-pricing
-random_paper: 49
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Temenos Rate Limits
@@ -677,24 +677,24 @@ scopes:
   slug: temenos-scopes
   summary_line: 3 scopes · authorizationCode
 score:
-  band: strong
-  composite: 68.7
-  delta: 1.3
+  band: exemplar
+  composite: 70.9
+  delta: 2.2
   facets:
     commercial_clarity: 63.2
     contract_quality: 75.2
     developer_ergonomics: 56.5
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 57.9
-  previous_composite: 67.4
+  previous_composite: 68.7
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/temenos/refs/heads/main/screenshots/temenos-2026-06-20T195053.png
 security:

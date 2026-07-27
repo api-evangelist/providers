@@ -9,6 +9,24 @@ access_model:
   - review
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +94,28 @@ overview: 'Datavant is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Datavant''s developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 32
+random_paper: 35
+score:
+  band: emerging
+  composite: 16.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 18.4
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 16.5
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 32.6
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/datavant/refs/heads/main/screenshots/datavant-2026-07-25T211401.png
 security:
 - kind: domain-security
   name: Datavant Domain Security

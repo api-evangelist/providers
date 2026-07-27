@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,7 +78,7 @@ name: C16 Biosciences
 nav: Providers
 network: true
 overview: C16 Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Synthetic Biology, Biotechnology, Sustainable Ingredients, and Palm Oil Alternative.
-random_paper: 29
+random_paper: 46
 score:
   band: minimal
   composite: 6.8
@@ -92,8 +92,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/c16-biosciences/refs/heads/main/screenshots/c16-biosciences-2026-07-25T204151.png
 security:
 - kind: domain-security
   name: C16 Biosciences Domain Security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 19.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: HTTP API to programmatically create custom and dynamic QR Codes (20+ types), manage landing pages and forms, retrieve real-time scan analytics (device, location, timing), and configure webhooks. Token
@@ -167,8 +167,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 39.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/beaconstac/refs/heads/main/screenshots/beaconstac-2026-07-25T202531.png
 security:
 - kind: authentication
   name: Beaconstac Authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -54,11 +54,11 @@ name: PolicyPal
 nav: Providers
 network: true
 overview: PolicyPal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, InsurTech, FinTech, Insurance, and Insurance Broker.
-random_paper: 4
+random_paper: 21
 score:
   band: minimal
   composite: 8.3
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -66,14 +66,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 7.4
+  previous_composite: 8.3
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

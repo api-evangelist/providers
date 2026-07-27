@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Public API from Listen Labs — 9 operation(s) for public.
@@ -162,7 +162,7 @@ overview: 'Listen Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Listen Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, YouTube channel, and 21 more developer resources.'
-random_paper: 47
+random_paper: 30
 score:
   band: developing
   composite: 47.3
@@ -176,8 +176,9 @@ score:
     operational_transparency: 13.2
   previous_composite: 47.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/listen-labs/refs/heads/main/screenshots/listen-labs-2026-07-25T225342.png
 security:
 - kind: authentication
   name: Listen Labs Authentication

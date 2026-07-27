@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 31.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 1
@@ -202,21 +202,21 @@ overview: 'Conductor OSS publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Conductor OSS''s developer surface includes documentation, getting-started guide, GitHub presence, engineering blog, YouTube channel, pricing, developer portal, and 18 more developer resources.'
-random_paper: 37
+random_paper: 3
 score:
   band: thin
-  composite: 32.6
-  delta: 0.0
+  composite: 34.6
+  delta: 2.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 50.4
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 32.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/conductor-oss/refs/heads/main/screenshots/conductor-oss-2026-06-20T174846.png
 security:

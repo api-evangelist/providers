@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -264,23 +264,23 @@ rules:
   slug: fiserv-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 43.1
-  delta: -1.1
+  composite: 44.8
+  delta: 1.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 73.3
     developer_ergonomics: 19.6
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 60.5
     operational_transparency: 26.3
-  previous_composite: 44.2
+  previous_composite: 43.1
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiserv/refs/heads/main/screenshots/fiserv-2026-06-20T181247.png
 security:

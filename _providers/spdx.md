@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: API for accessing SPDX open standard resources for software bill of materials, license compliance, and software supply chain transparency information.
@@ -88,7 +88,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 21.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spdx/refs/heads/main/screenshots/spdx-2026-06-20T194248.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,11 +89,11 @@ overview: 'Climate-X is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Climate-X''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 33
+random_paper: 16
 score:
   band: emerging
   composite: 23.6
-  delta: 5.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -101,15 +101,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 18.5
+  previous_composite: 23.6
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 52.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/climate-x/refs/heads/main/screenshots/climate-x-2026-07-25T205623.png
 security:
 - kind: domain-security
   name: Climate X Domain Security

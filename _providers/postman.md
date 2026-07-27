@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ arazzos:
 - description: Create a workspace, then set and verify its global variables.
   name: Postman Manage Workspace Global Variables
   slug: postman-workspace-global-variables-workflow
-artifact_total: 207
+artifact_total: 208
 asyncapis:
 - description: Postman Webhooks enable you to receive incoming HTTP POST requests that trigger collection runs. When an external system sends a POST request to a Postman webhook URL, the webhook triggers a collectio
   name: Postman Webhooks
@@ -721,6 +721,10 @@ json_structures:
   property_count: 1
   slug: postman-workspace-structure
 layout: provider
+mcp_servers:
+- description: ''
+  name: Postman MCP Server
+  slug: postman-mcp-server
 modified: '2026-05-19'
 name: Postman
 nav: Providers
@@ -736,7 +740,7 @@ plans:
 - name: Postman Plans Pricing
   plan_count: 4
   slug: postman-plans-pricing
-random_paper: 5
+random_paper: 22
 rate_limits:
 - limit_count: 6
   name: Postman Rate Limits
@@ -768,18 +772,18 @@ rules:
   slug: postman-rules
 score:
   band: exemplar
-  composite: 75.2
-  delta: 0.0
+  composite: 79.1
+  delta: 3.9
   facets:
     commercial_clarity: 100.0
-    contract_quality: 68.1
+    contract_quality: 75.6
     developer_ergonomics: 69.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 60.5
     operational_transparency: 78.9
   previous_composite: 75.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postman/refs/heads/main/screenshots/postman-2026-06-20T192015.png
 security:

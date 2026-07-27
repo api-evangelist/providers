@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -125,11 +125,11 @@ overview: 'Feedzai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Feedzai''s developer surface includes documentation, support, engineering blog, and 18 more developer resources.'
-random_paper: 14
+random_paper: 48
 score:
   band: thin
   composite: 30.4
-  delta: 6.1
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -137,15 +137,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 24.3
+  previous_composite: 30.4
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/feedzai/refs/heads/main/screenshots/feedzai-2026-07-25T214321.png
 security:
 - kind: domain-security
   name: Feedzai Domain Security

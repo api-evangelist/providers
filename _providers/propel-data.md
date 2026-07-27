@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -113,25 +113,25 @@ plans:
 - name: Propel Data Plans Pricing
   plan_count: 3
   slug: propel-data-plans-pricing
-random_paper: 42
+random_paper: 25
 rate_limits:
 - limit_count: 4
   name: Propel Data Rate Limits
   slug: propel-data-rate-limits
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 41.0
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 60.6
     developer_ergonomics: 19.6
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 37.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/propel-data/refs/heads/main/screenshots/propel-data-2026-06-20T192200.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 47.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: LeoLabs catalog of tracked LEO objects, their measurements, states and propagations.
@@ -145,7 +145,7 @@ overview: 'LeoLabs publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   LeoLabs'' developer surface includes documentation, signup flow, engineering blog, support, authentication, CLI, and 17 more developer resources.'
-random_paper: 18
+random_paper: 35
 scopes:
 - name: Leo Labs Scopes
   scope_count: 0
@@ -164,8 +164,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 44.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/leo-labs/refs/heads/main/screenshots/leo-labs-2026-07-25T224917.png
 security:
 - kind: authentication
   name: Leo Labs Authentication

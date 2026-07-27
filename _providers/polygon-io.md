@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -158,23 +158,23 @@ rules:
   slug: polygon-io-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 48.3
-  delta: -3.9
+  composite: 51.1
+  delta: 2.8
   facets:
     commercial_clarity: 50.0
     contract_quality: 66.7
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 52.6
-  previous_composite: 52.2
+  previous_composite: 48.3
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polygon-io/refs/heads/main/screenshots/polygon-io-2026-06-20T191906.png
 security:

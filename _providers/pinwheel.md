@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 3
@@ -638,7 +638,7 @@ rules:
 score:
   band: developing
   composite: 57.3
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 69.7
@@ -646,14 +646,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
-  previous_composite: 59.0
+  previous_composite: 57.3
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pinwheel/refs/heads/main/screenshots/pinwheel-2026-06-20T191723.png
 security:

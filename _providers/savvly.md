@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ overview: 'Savvly publishes 3 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Savvly''s developer surface includes API reference, documentation, and 17 more developer resources.'
-random_paper: 14
+random_paper: 65
 score:
   band: thin
   composite: 30.4
@@ -152,7 +152,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

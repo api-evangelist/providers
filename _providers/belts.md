@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 16
 common:
@@ -85,7 +85,7 @@ overview: 'Belts is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Belts'' developer surface includes documentation and 3 more developer resources.'
-random_paper: 28
+random_paper: 62
 score:
   band: minimal
   composite: 13.7
@@ -99,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/belts/refs/heads/main/screenshots/belts-2026-06-20T173127.png
 security:

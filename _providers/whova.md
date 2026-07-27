@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Modeled view of Whova's attendee integration surface. Whova exposes attendee data to organizers only through the Zapier CRM integration - a Get Attendees trigger that fires when the attendee list chan
@@ -68,7 +86,22 @@ plans:
 - name: Whova Plans Pricing
   plan_count: 2
   slug: whova-plans-pricing
-random_paper: 45
+random_paper: 5
+score:
+  band: minimal
+  composite: 14.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.4
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: domain-security
   name: Whova Domain Security

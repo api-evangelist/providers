@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: RESTful API for programmatic access to Intellectible projects - list and run workflows synchronously, and manage Library files (create signed upload URLs, upload bytes, finalize, retrieve, list, and d
@@ -102,11 +102,11 @@ overview: 'Intellectible publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Intellectible''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 8 more developer resources.'
-random_paper: 50
+random_paper: 16
 score:
   band: emerging
   composite: 24.7
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -114,15 +114,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 24.5
+  previous_composite: 24.7
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/intellectible/refs/heads/main/screenshots/intellectible-2026-07-25T222643.png
 security:
 - kind: authentication
   name: Intellectible Authentication

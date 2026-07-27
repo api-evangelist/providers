@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -212,7 +212,7 @@ plans:
 - name: Charmhealth Plans Pricing
   plan_count: 3
   slug: charmhealth-plans-pricing
-random_paper: 31
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Charmhealth Rate Limits
@@ -232,25 +232,25 @@ scopes:
   slug: charmhealth-scopes
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 59.1
-  delta: 5.3
+  band: strong
+  composite: 61.8
+  delta: 2.7
   facets:
     commercial_clarity: 71.1
     contract_quality: 55.8
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
-  previous_composite: 53.8
+  previous_composite: 59.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 89.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charmhealth/refs/heads/main/screenshots/charmhealth-2026-06-20T174227.png
 security:
 - kind: authentication

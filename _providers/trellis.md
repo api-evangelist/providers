@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 15.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Programmatic access to Trellis''s state and federal trial court dataset: Smart Search over rulings, dockets and documents; docket/case data (parties, attorneys, documents, events); docket refresh; ruli'
@@ -105,7 +105,7 @@ overview: 'Trellis publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Trellis'' developer surface includes documentation, API reference, support, engineering blog, authentication, changelog, and 7 more developer resources.'
-random_paper: 2
+random_paper: 19
 score:
   band: emerging
   composite: 26.2
@@ -119,7 +119,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 26.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

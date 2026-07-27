@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -85,25 +85,25 @@ plans:
 - name: Serpwow Plans Pricing
   plan_count: 3
   slug: serpwow-plans-pricing
-random_paper: 26
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Serpwow Rate Limits
   slug: serpwow-rate-limits
 score:
   band: thin
-  composite: 31.6
-  delta: 0.0
+  composite: 33.6
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 47.8
     developer_ergonomics: 10.9
-    discoverability: 47.5
+    discoverability: 67.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 31.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/serpwow/refs/heads/main/screenshots/serpwow-2026-06-20T193727.png
 security:

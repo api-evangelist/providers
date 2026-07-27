@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ plans:
 - name: New York Public Library Whats On The Menu Plans Pricing
   plan_count: 3
   slug: new-york-public-library-whats-on-the-menu-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: New York Public Library Whats On The Menu Rate Limits
@@ -148,7 +148,7 @@ rules:
 score:
   band: developing
   composite: 49.9
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 69.9
@@ -156,14 +156,14 @@ score:
     discoverability: 92.5
     governance: 73.7
     operational_transparency: 36.8
-  previous_composite: 52.2
+  previous_composite: 49.9
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/new-york-public-library-whats-on-the-menu/refs/heads/main/screenshots/new-york-public-library-whats-on-the-menu-2026-06-20T190231.png
 security:

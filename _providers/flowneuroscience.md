@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -57,11 +57,11 @@ overview: 'Flowneuroscience is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Flowneuroscience''s developer surface includes signup flow and 3 more developer resources.'
-random_paper: 40
+random_paper: 23
 score:
   band: minimal
   composite: 9.9
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -69,15 +69,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.4
+  previous_composite: 9.9
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/flowneuroscience/refs/heads/main/screenshots/flowneuroscience-2026-07-25T214839.png
 security:
 - kind: domain-security
   name: Flowneuroscience Domain Security

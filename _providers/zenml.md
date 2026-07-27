@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -116,7 +116,7 @@ arazzos:
 - description: Resolve a schedule, find the run it produced for its pipeline, and read that run.
   name: ZenML Track Scheduled Pipeline
   slug: zenml-track-scheduled-pipeline-workflow
-artifact_total: 47
+artifact_total: 48
 collections:
 - collection_type: postman
   name: ZenML OSS REST API
@@ -331,6 +331,10 @@ jsonld:
   property_count: 3
   slug: zenml-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: ZenML
 nav: Providers
@@ -346,7 +350,7 @@ plans:
 - name: Zenml Plans Pricing
   plan_count: 3
   slug: zenml-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Zenml Rate Limits
@@ -370,18 +374,18 @@ rules:
   slug: zenml-rules
 score:
   band: strong
-  composite: 65.2
-  delta: 0.0
+  composite: 69.4
+  delta: 4.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 57.2
+    contract_quality: 66.0
     developer_ergonomics: 60.9
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenml/refs/heads/main/screenshots/zenml-2026-06-20T201813.png
 security:

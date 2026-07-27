@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: FOIA-accessible data from the National Council on Disability including performance and results act reports, congressional budget justification reports, financial audit reports, strategic plans, bylaws
@@ -240,7 +240,7 @@ plans:
 - name: National Council On Disability Plans Pricing
   plan_count: 3
   slug: national-council-on-disability-plans-pricing
-random_paper: 20
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: National Council On Disability Rate Limits
@@ -257,7 +257,7 @@ rules:
 score:
   band: thin
   composite: 38.1
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 9.4
@@ -265,14 +265,14 @@ score:
     discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
-  previous_composite: 39.1
+  previous_composite: 38.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 32.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-council-on-disability/refs/heads/main/screenshots/national-council-on-disability-2026-06-20T190008.png
 security:

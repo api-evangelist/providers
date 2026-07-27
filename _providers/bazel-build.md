@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -313,7 +313,7 @@ overview: 'Bazel publishes 2 APIs on the [APIs.io](https://apis.io/) network: Mo
 
 
   Bazel''s developer surface includes developer portal, documentation, getting-started guide, API reference, engineering blog, changelog, Stack Overflow tag, and 41 more developer resources.'
-random_paper: 28
+random_paper: 11
 rules:
 - name: Bazel API Rules
   rule_count: 5
@@ -333,18 +333,18 @@ rules:
   slug: bazel-build-rules
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 54.0
+  delta: 4.2
   facets:
     commercial_clarity: 10.5
-    contract_quality: 61.1
+    contract_quality: 69.9
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 49.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bazel-build/refs/heads/main/screenshots/bazel-build-2026-06-20T173055.png
 security:

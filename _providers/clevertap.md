@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -179,7 +179,7 @@ plans:
 - name: Clevertap Plans Pricing
   plan_count: 3
   slug: clevertap-plans-pricing
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Clevertap Rate Limits
@@ -195,18 +195,18 @@ rules:
   slug: clevertap-rules
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 54.8
+  delta: 2.0
   facets:
     commercial_clarity: 78.9
     contract_quality: 56.6
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 26.3
     operational_transparency: 52.6
   previous_composite: 52.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clevertap/refs/heads/main/screenshots/clevertap-2026-06-20T174517.png
 security:

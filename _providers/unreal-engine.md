@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: The Unreal Engine C++ API is the primary programmatic surface of the engine. It is shipped as engine source on GitHub (under the Unreal Engine EULA) and documented as a per-module class reference cove
@@ -149,7 +149,7 @@ plans:
 - name: Unreal Engine Plans Pricing
   plan_count: 1
   slug: unreal-engine-plans-pricing
-random_paper: 47
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Unreal Engine Rate Limits
@@ -167,7 +167,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 24.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

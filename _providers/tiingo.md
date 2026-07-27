@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -223,7 +223,7 @@ rate_limits:
 score:
   band: strong
   composite: 62.9
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 55.8
@@ -231,14 +231,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 64.5
+  previous_composite: 62.9
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/screenshots/tiingo-2026-06-20T195345.png
 security:

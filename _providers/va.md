@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -235,7 +235,7 @@ scopes:
 score:
   band: developing
   composite: 47.3
-  delta: 4.3
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.3
@@ -243,14 +243,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 43.0
+  previous_composite: 47.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 71.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/va/refs/heads/main/screenshots/va-2026-06-20T200739.png
 security:

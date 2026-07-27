@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -197,7 +197,7 @@ plans:
 - name: Spring Boot Plans Pricing
   plan_count: 3
   slug: spring-boot-plans-pricing
-random_paper: 18
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Spring Boot Rate Limits
@@ -220,19 +220,19 @@ rules:
     warn: 3
   slug: spring-boot-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 41.6
-  delta: 0.0
+  band: developing
+  composite: 45.9
+  delta: 4.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 52.9
+    contract_quality: 61.8
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 39.5
     operational_transparency: 52.6
   previous_composite: 41.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-boot/refs/heads/main/screenshots/spring-boot-2026-06-20T194406.png
 security:

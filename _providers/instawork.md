@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 29.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server that lets business partners find hourly workers and book shifts on Instawork using natural language via an AI assistant. Secured with OAuth 2.1 (PKCE + dynamic cli
@@ -118,7 +118,7 @@ overview: 'Instawork publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Instawork''s developer surface includes authentication, documentation, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 25
+random_paper: 42
 scopes:
 - name: Instawork Scopes
   scope_count: 2
@@ -137,8 +137,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 27.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/instawork/refs/heads/main/screenshots/instawork-2026-07-25T222614.png
 security:
 - kind: authentication
   name: Instawork Authentication

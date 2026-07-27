@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: 'REST API for end-to-end identity verification including document verification, facial biometrics with liveness detection, address verification, AML screening against 1700+ watchlists, phone and email '
@@ -137,7 +137,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 34.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shufti-pro/refs/heads/main/screenshots/shufti-pro-2026-06-20T193953.png
 security:

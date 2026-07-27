@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ plans:
 - name: Transit Plans Pricing
   plan_count: 3
   slug: transit-plans-pricing
-random_paper: 8
+random_paper: 25
 rate_limits:
 - limit_count: 3
   name: Transit Rate Limits
@@ -201,19 +201,19 @@ rules:
   slug: transit-rules
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 58.7
+  delta: 5.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.5
+    contract_quality: 74.3
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 53.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/transit/refs/heads/main/screenshots/transit-2026-06-20T195544.png
 security:
 - kind: authentication

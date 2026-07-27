@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 0
@@ -510,7 +510,7 @@ plans:
 - name: Freshworks Plans Pricing
   plan_count: 3
   slug: freshworks-plans-pricing
-random_paper: 31
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Freshworks Rate Limits
@@ -533,19 +533,19 @@ rules:
     warn: 4
   slug: freshworks-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 44.2
-  delta: 0.0
+  band: developing
+  composite: 46.7
+  delta: 2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 75.2
     developer_ergonomics: 10.9
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 52.6
     operational_transparency: 36.8
   previous_composite: 44.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshworks/refs/heads/main/screenshots/freshworks-2026-06-20T181551.png
 security:

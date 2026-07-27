@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -491,7 +491,7 @@ plans:
 - name: Amazon Data Exchange Plans Pricing
   plan_count: 3
   slug: amazon-data-exchange-plans-pricing
-random_paper: 43
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Amazon Data Exchange Rate Limits
@@ -514,20 +514,20 @@ rules:
     warn: 16
   slug: amazon-data-exchange-spectral-rules
 score:
-  band: strong
-  composite: 67.0
-  delta: 0.0
+  band: exemplar
+  composite: 72.5
+  delta: 5.5
   facets:
     commercial_clarity: 81.6
-    contract_quality: 70.2
+    contract_quality: 79.1
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 67.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-data-exchange/refs/heads/main/screenshots/amazon-data-exchange-2026-06-20T171621.png
 security:
 - kind: authentication

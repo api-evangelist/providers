@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: ModiFace, a L'Oréal company, provides an augmented reality virtual try-on platform for beauty brands and retailers. The platform offers a software development kit (SDK), embeddable miniprogram, and AP
@@ -115,7 +115,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

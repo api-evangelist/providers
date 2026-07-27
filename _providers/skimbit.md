@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ overview: 'SkimBit publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   SkimBit''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Skimbit Rate Limits
@@ -205,7 +205,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 43.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

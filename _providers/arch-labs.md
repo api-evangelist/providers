@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 26.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 15
 apis:
 - description: The Accounts API from Arch Labs — 2 operation(s) for accounts.
@@ -168,7 +168,7 @@ overview: 'Arch Labs publishes 15 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Arch Labs'' developer surface includes documentation, API reference, getting-started guide, authentication, support, signup flow, and 14 more developer resources.'
-random_paper: 10
+random_paper: 61
 score:
   band: developing
   composite: 46.7
@@ -182,8 +182,9 @@ score:
     operational_transparency: 26.3
   previous_composite: 46.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/arch-labs/refs/heads/main/screenshots/arch-labs-2026-07-25T201015.png
 security:
 - kind: authentication
   name: Arch Labs Authentication

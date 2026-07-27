@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'RESTful API (version 3) providing broad access across a Reduct workspace: projects, recordings, media, redactions and redaction motions, highlights, comments, and reels, plus transcript retrieval, tra'
@@ -152,7 +152,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 34.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

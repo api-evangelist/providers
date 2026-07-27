@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -143,7 +143,7 @@ arazzos:
 - description: Create a resumable named event stream, read its cursor position, and fetch the last persisted event by ULID.
   name: Prisma Pulse Create and Resume a Named Stream
   slug: prisma-pulse-named-stream-resume-workflow
-artifact_total: 124
+artifact_total: 125
 collections:
 - collection_type: postman
   name: Prisma Accelerate API
@@ -560,6 +560,10 @@ jsonld:
   property_count: 16
   slug: prisma-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Prisma
 nav: Providers
@@ -602,7 +606,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 68.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prisma/refs/heads/main/screenshots/prisma-2026-06-20T192111.png
 security:

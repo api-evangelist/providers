@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ overview: 'Mindlogic publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Mindlogic''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 15 more developer resources.'
-random_paper: 32
+random_paper: 66
 score:
   band: thin
   composite: 39.4
@@ -173,7 +173,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 39.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

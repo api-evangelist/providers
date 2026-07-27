@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ rate_limits:
 score:
   band: developing
   composite: 54.1
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 59.5
@@ -178,14 +178,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 53.7
+  previous_composite: 54.1
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 56.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coingate/refs/heads/main/screenshots/coingate-2026-06-20T174732.png
 security:

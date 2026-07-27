@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -248,7 +248,7 @@ arazzos:
 - description: Read an instance, find an active console connection for it, and if none exists fall back to a diagnostic reboot.
   name: Oracle OCI Troubleshoot Instance via Console Connection
   slug: oracle-troubleshoot-instance-console-workflow
-artifact_total: 218
+artifact_total: 219
 collections:
 - collection_type: postman
   name: Oracle OCI Compute API
@@ -794,6 +794,10 @@ jsonld:
   property_count: 9
   slug: oracle-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Oracle
 nav: Providers
@@ -849,18 +853,18 @@ rules:
   slug: oracle-spectral-rules
 score:
   band: exemplar
-  composite: 72.8
-  delta: 0.0
+  composite: 74.1
+  delta: 1.3
   facets:
     commercial_clarity: 84.2
     contract_quality: 67.6
     developer_ergonomics: 78.3
-    discoverability: 55.0
+    discoverability: 67.5
     governance: 86.8
     operational_transparency: 57.9
   previous_composite: 72.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle/refs/heads/main/screenshots/oracle-2026-06-20T191118.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 193
   human_in_the_loop: 11
@@ -202,7 +202,7 @@ apis:
 - description: Manage Gravitee users
   name: Gravitee Users API
   slug: gravitee-users-api
-artifact_total: 78
+artifact_total: 79
 collections:
 - collection_type: open
   name: Gravitee.io - Access Management API
@@ -402,6 +402,10 @@ jsonld:
   property_count: 10
   slug: gravitee-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-21'
 name: Gravitee
 nav: Providers
@@ -440,19 +444,19 @@ rules:
     warn: 3
   slug: gravitee-rules
 score:
-  band: developing
-  composite: 57.0
-  delta: 0.0
+  band: strong
+  composite: 61.7
+  delta: 4.7
   facets:
     commercial_clarity: 57.9
-    contract_quality: 55.2
+    contract_quality: 64.0
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 57.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gravitee/refs/heads/main/screenshots/gravitee-2026-06-20T182344.png
 security:

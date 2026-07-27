@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ plans:
 - name: Tier Mobility Plans Pricing
   plan_count: 2
   slug: tier-mobility-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 0
   name: Tier Mobility Rate Limits
@@ -209,14 +209,14 @@ rules:
     warn: 5
   slug: tier-mobility-rules
 score:
-  band: thin
-  composite: 41.7
-  delta: 0.0
+  band: developing
+  composite: 45.2
+  delta: 3.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 59.3
+    contract_quality: 68.1
     developer_ergonomics: 6.5
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 0.0
   previous_composite: 41.7
@@ -226,7 +226,7 @@ score:
     regime_id: government
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tier-mobility/refs/heads/main/screenshots/tier-mobility-2026-06-20T195343.png
 security:

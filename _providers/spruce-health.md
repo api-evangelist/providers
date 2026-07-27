@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -115,30 +115,30 @@ plans:
 - name: Spruce Health Plans Pricing
   plan_count: 3
   slug: spruce-health-plans-pricing
-random_paper: 7
+random_paper: 41
 rate_limits:
 - limit_count: 4
   name: Spruce Health Rate Limits
   slug: spruce-health-rate-limits
 score:
   band: thin
-  composite: 37.1
-  delta: -1.9
+  composite: 39.8
+  delta: 2.7
   facets:
     commercial_clarity: 52.6
     contract_quality: 54.9
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 39.0
+  previous_composite: 37.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

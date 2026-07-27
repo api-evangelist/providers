@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,7 +94,7 @@ overview: 'Kouper Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Kouper Health''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 11
+random_paper: 45
 score:
   band: minimal
   composite: 12.3
@@ -108,8 +108,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kouper-health/refs/heads/main/screenshots/kouper-health-2026-07-25T224246.png
 security:
 - kind: domain-security
   name: Kouper Health Domain Security

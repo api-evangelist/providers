@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ plans:
 - name: Usda Agricultural Research Service Ars  Plans Pricing
   plan_count: 3
   slug: usda-agricultural-research-service-ars--plans-pricing
-random_paper: 48
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Usda Agricultural Research Service Ars  Rate Limits
@@ -141,24 +141,24 @@ rules:
     warn: 3
   slug: usda-agricultural-research-service-ars--rules
 score:
-  band: thin
-  composite: 43.7
-  delta: -1.2
+  band: developing
+  composite: 45.4
+  delta: 1.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.7
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 31.6
-  previous_composite: 44.9
+  previous_composite: 43.7
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usda-agricultural-research-service-ars-/refs/heads/main/screenshots/usda-agricultural-research-service-ars--2026-06-20T200650.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -86,7 +86,7 @@ arazzos:
 - description: Page the asteroid catalog, look up a specific near-Earth object, and pull every other object approaching on the same date.
   name: NASA Near Earth Object Close Approach Analysis
   slug: nasa-neo-close-approach-analysis-workflow
-artifact_total: 41
+artifact_total: 42
 collections:
 - collection_type: open
   name: NASA Astronomy Picture of the Day (APOD) API
@@ -283,6 +283,10 @@ jsonld:
   property_count: 0
   slug: nasa-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: nasa-mcp.yml
+  slug: nasa-mcpyml
 modified: '2026-06-20'
 name: NASA
 nav: Providers
@@ -314,13 +318,13 @@ rules:
   slug: nasa-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.9
-  delta: 0.0
+  composite: 51.6
+  delta: 1.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 55.0
     developer_ergonomics: 45.7
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 49.9
@@ -330,7 +334,7 @@ score:
     regime_id: government
     score: 50.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa/refs/heads/main/screenshots/nasa-2026-06-20T185945.png
 security:

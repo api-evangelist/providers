@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ overview: 'CODE_OF_CONDUCT.md is profiled on the [APIs.io](https://apis.io/) net
 
 
   CODE_OF_CONDUCT.md''s developer surface includes documentation and 10 more developer resources.'
-random_paper: 37
+random_paper: 20
 score:
   band: minimal
   composite: 9.8
@@ -99,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/code-of-conduct-md/refs/heads/main/screenshots/code-of-conduct-md-2026-06-20T174654.png
 security:

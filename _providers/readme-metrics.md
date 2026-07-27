@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -142,25 +142,25 @@ plans:
 - name: Readme Metrics Plans Pricing
   plan_count: 3
   slug: readme-metrics-plans-pricing
-random_paper: 49
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Readme Metrics Rate Limits
   slug: readme-metrics-rate-limits
 score:
   band: developing
-  composite: 46.2
-  delta: 0.0
+  composite: 48.2
+  delta: 2.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 54.0
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 46.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/readme-metrics/refs/heads/main/screenshots/readme-metrics-2026-06-20T192740.png
 security:

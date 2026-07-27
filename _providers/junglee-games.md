@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ overview: 'Junglee Games is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Junglee Games'' developer surface includes support and 7 more developer resources.'
-random_paper: 41
+random_paper: 24
 score:
   band: minimal
   composite: 11.8
@@ -87,8 +87,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/junglee-games/refs/heads/main/screenshots/junglee-games-2026-07-25T223320.png
 security:
 - kind: domain-security
   name: Junglee Games Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -287,7 +287,7 @@ plans:
 - name: Autodesk Construction Cloud Plans Pricing
   plan_count: 3
   slug: autodesk-construction-cloud-plans-pricing
-random_paper: 7
+random_paper: 24
 rate_limits:
 - limit_count: 3
   name: Autodesk Construction Cloud Rate Limits
@@ -316,18 +316,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 61.0
-  delta: 0.0
+  composite: 65.6
+  delta: 4.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 73.1
+    contract_quality: 78.4
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 68.4
   previous_composite: 61.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autodesk-construction-cloud/refs/heads/main/screenshots/autodesk-construction-cloud-2026-06-20T172629.png
 security:

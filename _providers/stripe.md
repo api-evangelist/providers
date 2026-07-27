@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 100.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 483
   human_in_the_loop: 2
@@ -608,7 +608,7 @@ arazzos:
 - description: Create and finalize an invoice, then mark it uncollectible.
   name: Stripe Write Off Invoice
   slug: stripe-write-off-invoice-workflow
-artifact_total: 348
+artifact_total: 350
 asyncapis:
 - description: Stripe uses webhooks to notify your application when an event happens in your account. Webhooks are particularly useful for asynchronous events like when a customer's bank confirms a payment, a custom
   name: Stripe Webhooks
@@ -1533,6 +1533,13 @@ jsonld:
   property_count: 8
   slug: stripe-context
 layout: provider
+mcp_servers:
+- description: Stripe's remote MCP server exposes the Stripe API and knowledge base to MCP clients over OAuth or restricted API keys; npx @stripe/mcp for local use.
+  name: MCP Server
+  slug: mcp-server
+- description: ''
+  name: Stripe MCP Server manifest
+  slug: stripe-mcp-server-manifest
 modified: '2026-07-17'
 name: Stripe
 nav: Providers
@@ -1548,7 +1555,7 @@ plans:
 - name: Stripe Plans Pricing
   plan_count: 9
   slug: stripe-plans-pricing
-random_paper: 0
+random_paper: 51
 rate_limits:
 - limit_count: 6
   name: Stripe Rate Limits
@@ -1586,7 +1593,7 @@ scopes:
 score:
   band: exemplar
   composite: 84.5
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
     contract_quality: 64.0
@@ -1594,14 +1601,14 @@ score:
     discoverability: 55.0
     governance: 65.8
     operational_transparency: 94.7
-  previous_composite: 81.7
+  previous_composite: 84.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 100.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stripe/refs/heads/main/screenshots/stripe-2026-06-20T161306.png
 security:

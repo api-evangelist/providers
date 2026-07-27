@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -252,7 +252,7 @@ overview: 'Coactive AI publishes 22 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Coactive AI''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 26 more developer resources.'
-random_paper: 22
+random_paper: 5
 score:
   band: developing
   composite: 53.8
@@ -266,8 +266,9 @@ score:
     operational_transparency: 44.7
   previous_composite: 53.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/coactive-ai/refs/heads/main/screenshots/coactive-ai-2026-07-25T205821.png
 security:
 - kind: authentication
   name: Coactive Ai Authentication

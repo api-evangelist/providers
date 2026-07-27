@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Almanac API V1 (private beta) for programmatic access to an Almanac workspace — import and move files and folders, view users and groups, read and update document properties, manage document access, a
@@ -113,7 +113,7 @@ overview: 'Almanac Labs publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Almanac Labs'' developer surface includes documentation, getting-started guide, support, engineering blog, changelog, pricing, signup flow, and 10 more developer resources.'
-random_paper: 7
+random_paper: 24
 score:
   band: thin
   composite: 30.4
@@ -127,8 +127,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/almanac-labs/refs/heads/main/screenshots/almanac-labs-2026-07-25T195738.png
 security:
 - kind: domain-security
   name: Almanac Labs Domain Security

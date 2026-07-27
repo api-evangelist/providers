@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The OpenAPI Specification (OAS) defines a standard, programming language-agnostic interface description for HTTP APIs.
@@ -250,7 +250,7 @@ plans:
 - name: Openapi Plans Pricing
   plan_count: 3
   slug: openapi-plans-pricing
-random_paper: 34
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Openapi Rate Limits
@@ -266,18 +266,18 @@ rules:
   slug: openapi-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 32.2
-  delta: 0.0
+  composite: 34.2
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 15.1
     developer_ergonomics: 10.9
-    discoverability: 47.5
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 32.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openapi/refs/heads/main/screenshots/openapi-2026-06-20T190906.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'B2B REST API for investment-portfolio consolidation and analytics: create portfolios, ingest transactions, and retrieve NAV, P&L, TWR, and IRR time series. Authenticated with a static API key in the A'
@@ -140,8 +140,9 @@ score:
     operational_transparency: 36.8
   previous_composite: 33.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gorila/refs/heads/main/screenshots/gorila-2026-07-25T220111.png
 security:
 - kind: authentication
   name: Gorila Authentication

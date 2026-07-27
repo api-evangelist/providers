@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ plans:
 - name: Table Format Plans Pricing
   plan_count: 3
   slug: table-format-plans-pricing
-random_paper: 41
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Table Format Rate Limits
@@ -191,18 +191,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 50.0
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 64.9
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 48.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/table-format/refs/heads/main/screenshots/table-format-2026-06-20T194843.png
 security:

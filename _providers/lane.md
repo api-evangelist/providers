@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -89,8 +89,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 10.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lane/refs/heads/main/screenshots/lane-2026-07-25T224541.png
 security:
 - kind: authentication
   name: Lane Authentication

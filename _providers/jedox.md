@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,7 +93,7 @@ overview: 'Jedox is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Jedox''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 8 more developer resources.'
-random_paper: 28
+random_paper: 62
 score:
   band: emerging
   composite: 22.1
@@ -107,8 +107,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 22.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/jedox/refs/heads/main/screenshots/jedox-2026-07-25T223119.png
 security:
 - kind: domain-security
   name: Jedox Domain Security

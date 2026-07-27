@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 61.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 18
 apis:
 - description: custom-columns operations
@@ -201,7 +201,7 @@ overview: 'ComboCurve publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ComboCurve''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 6
+random_paper: 57
 score:
   band: developing
   composite: 47.8
@@ -215,8 +215,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/combocurve/refs/heads/main/screenshots/combocurve-2026-07-25T210107.png
 security:
 - kind: authentication
   name: Combocurve Authentication

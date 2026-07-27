@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -227,7 +227,7 @@ plans:
 - name: At Bay Plans Pricing
   plan_count: 4
   slug: at-bay-plans-pricing
-random_paper: 13
+random_paper: 30
 rate_limits:
 - limit_count: 0
   name: At Bay Rate Limits
@@ -251,23 +251,23 @@ rules:
   slug: at-bay-rules
 score:
   band: developing
-  composite: 49.2
-  delta: -2.2
+  composite: 53.8
+  delta: 4.6
   facets:
     commercial_clarity: 52.6
-    contract_quality: 64.1
+    contract_quality: 72.9
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 5.3
-  previous_composite: 51.4
+  previous_composite: 49.2
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/at-bay/refs/heads/main/screenshots/at-bay-2026-06-20T172516.png
 security:

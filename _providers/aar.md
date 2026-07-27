@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: AAR's parts supply division distributes new and used aircraft and engine parts to commercial airlines, MROs, and government customers globally. Shipped and received 23 million commercial parts in FY20
@@ -121,7 +121,7 @@ press:
 - date: '2026-05-25'
   title: After-Action Review for AI (AAR/AI)
   url: https://dl.acm.org/doi/10.1145/3453173
-random_paper: 2
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Aar Rate Limits
@@ -129,7 +129,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.6
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -137,14 +137,14 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 17.3
+  previous_composite: 16.6
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aar/refs/heads/main/screenshots/aar-2026-06-20T162956.png
 security:

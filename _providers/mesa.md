@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 43.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Exchange API keys for a session token.
@@ -145,7 +145,7 @@ random_paper: 14
 score:
   band: developing
   composite: 49.5
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 60.6
@@ -153,14 +153,14 @@ score:
     discoverability: 85.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 46.7
+  previous_composite: 49.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

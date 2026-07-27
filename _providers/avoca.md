@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ overview: 'Avoca publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Avoca''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, changelog, and 14 more developer resources.'
-random_paper: 12
+random_paper: 46
 score:
   band: developing
   composite: 52.0
@@ -179,8 +179,9 @@ score:
     operational_transparency: 39.5
   previous_composite: 52.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/avoca/refs/heads/main/screenshots/avoca-2026-07-25T202002.png
 security:
 - kind: authentication
   name: Avoca Authentication

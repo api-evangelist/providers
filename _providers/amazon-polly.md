@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -758,19 +758,19 @@ rules:
     warn: 11
   slug: amazon-polly-spectral-rules
 score:
-  band: strong
-  composite: 69.8
-  delta: 0.0
+  band: exemplar
+  composite: 73.0
+  delta: 3.2
   facets:
     commercial_clarity: 78.9
     contract_quality: 69.6
     developer_ergonomics: 63.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 69.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-polly/refs/heads/main/screenshots/amazon-polly-2026-06-20T171758.png
 security:

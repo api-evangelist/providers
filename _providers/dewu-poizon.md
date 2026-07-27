@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -74,7 +74,7 @@ overview: 'Dewu (POIZON) is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Dewu (POIZON)''s developer surface includes authentication, documentation, API reference, and 5 more developer resources.'
-random_paper: 31
+random_paper: 65
 score:
   band: minimal
   composite: 13.7
@@ -88,8 +88,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dewu-poizon/refs/heads/main/screenshots/dewu-poizon-2026-07-25T211934.png
 security:
 - kind: authentication
   name: Dewu Poizon Authentication

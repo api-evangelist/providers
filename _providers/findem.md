@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 11
 apis:
 - description: Assistive AI product that searches Findem's enriched people graph using natural-language attribute queries, returning ranked candidate lists with contact data and outreach workflows.
@@ -123,7 +123,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 18.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/findem/refs/heads/main/screenshots/findem-2026-06-20T181216.png
 security:

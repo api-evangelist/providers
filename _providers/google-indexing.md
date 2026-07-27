@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ plans:
 - name: Google Indexing Plans Pricing
   plan_count: 3
   slug: google-indexing-plans-pricing
-random_paper: 6
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Google Indexing Rate Limits
@@ -165,19 +165,19 @@ scopes:
   slug: google-indexing-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 58.6
-  delta: 0.0
+  band: strong
+  composite: 63.2
+  delta: 4.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.3
+    contract_quality: 72.6
     developer_ergonomics: 43.5
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 47.4
   previous_composite: 58.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-indexing/refs/heads/main/screenshots/google-indexing-2026-06-20T182255.png
 security:

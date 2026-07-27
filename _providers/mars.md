@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Mars exposes a public Azure-API-Management developer portal at developer.mars.com that hosts APIs and API Products for partners, suppliers, and B2B integrations. The catalog itself sits behind a regis
@@ -132,7 +132,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 18.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mars/refs/heads/main/screenshots/mars-2026-06-20T185004.png
 security:

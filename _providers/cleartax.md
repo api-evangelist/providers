@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Generate, cancel, and retrieve GST e-invoices (IRN) and e-waybills, including government IRP/NIC-compatible endpoints, DSC PDF signing, and bulk operations.
@@ -150,7 +150,7 @@ random_paper: 36
 score:
   band: thin
   composite: 36.7
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -158,15 +158,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 33.2
+  previous_composite: 36.7
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 56.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/screenshots/cleartax-2026-07-25T205549.png
 security:
 - kind: authentication
   name: Cleartax Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 3
@@ -2435,18 +2435,18 @@ rules:
   slug: amazon-storage-gateway-spectral-rules
 score:
   band: strong
-  composite: 65.3
-  delta: 0.0
+  composite: 67.8
+  delta: 2.5
   facets:
     commercial_clarity: 81.6
     contract_quality: 66.7
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 65.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-storage-gateway/refs/heads/main/screenshots/amazon-storage-gateway-2026-06-20T171833.png
 security:

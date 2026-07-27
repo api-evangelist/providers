@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Drillster REST API (v2.1.1) lets developers integrate Drillster's adaptive learning and training platform into external applications. It supports user account provisioning, group assignment, progr
@@ -82,7 +82,7 @@ plans:
 - name: Drillster Plans Pricing
   plan_count: 3
   slug: drillster-plans-pricing
-random_paper: 12
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Drillster Rate Limits
@@ -100,7 +100,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drillster/refs/heads/main/screenshots/drillster-2026-06-20T180231.png
 security:

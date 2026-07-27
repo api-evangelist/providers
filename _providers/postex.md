@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 47.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Booking, tracking, and listing shipment orders
@@ -81,11 +81,11 @@ overview: 'PostEx publishes 2 APIs on the [APIs.io](https://apis.io/) network: O
 
 
   PostEx''s developer surface includes authentication and 6 more developer resources.'
-random_paper: 12
+random_paper: 63
 score:
   band: emerging
   composite: 29.4
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 61.9
@@ -93,14 +93,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 29.9
+  previous_composite: 29.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

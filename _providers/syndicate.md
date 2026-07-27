@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ overview: 'Syndicate publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Syndicate''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: developing
   composite: 49.7
@@ -203,7 +203,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 49.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

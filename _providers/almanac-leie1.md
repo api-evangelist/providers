@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Almanac API V1 (private beta) for programmatic workspace management: import files, move files and folders, view workspace users and groups, view and update document properties and access, and access a'
@@ -99,8 +99,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 25.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/almanac-leie1/refs/heads/main/screenshots/almanac-leie1-2026-07-25T195738.png
 slug: almanac-leie1
 tags:
 - Company

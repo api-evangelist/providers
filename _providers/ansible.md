@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -85,7 +85,7 @@ apis:
 - description: The Workflow Jobs API from Ansible — 1 operation(s) for workflow jobs.
   name: Ansible Workflow Jobs API
   slug: ansible-workflow-jobs-api
-artifact_total: 45
+artifact_total: 46
 collections:
 - collection_type: open
   name: Ansible Automation Controller API
@@ -220,6 +220,10 @@ jsonld:
   property_count: 10
   slug: ansible-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Ansible
 nav: Providers
@@ -235,7 +239,7 @@ plans:
 - name: Ansible Plans Pricing
   plan_count: 3
   slug: ansible-plans-pricing
-random_paper: 20
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Ansible Rate Limits
@@ -251,18 +255,18 @@ rules:
   slug: ansible-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 64.1
+  delta: 3.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 58.4
     developer_ergonomics: 60.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 60.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansible/refs/heads/main/screenshots/ansible-2026-06-20T172015.png
 security:

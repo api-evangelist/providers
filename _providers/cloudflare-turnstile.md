@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -125,25 +125,25 @@ plans:
 - name: Cloudflare Turnstile Plans Pricing
   plan_count: 1
   slug: cloudflare-turnstile-plans-pricing
-random_paper: 13
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Cloudflare Turnstile Rate Limits
   slug: cloudflare-turnstile-rate-limits
 score:
   band: thin
-  composite: 32.8
-  delta: 0.0
+  composite: 36.1
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 45.1
     developer_ergonomics: 17.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 32.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-turnstile/refs/heads/main/screenshots/cloudflare-turnstile-2026-06-20T174557.png
 security:

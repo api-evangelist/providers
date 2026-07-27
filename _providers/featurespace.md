@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -97,7 +97,7 @@ random_paper: 48
 score:
   band: emerging
   composite: 16.9
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -105,15 +105,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 16.1
+  previous_composite: 16.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/featurespace/refs/heads/main/screenshots/featurespace-2026-07-25T214316.png
 security:
 - kind: domain-security
   name: Featurespace Domain Security

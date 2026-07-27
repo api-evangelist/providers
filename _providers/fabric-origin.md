@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -115,25 +115,25 @@ plans:
 - name: Fabric Origin Plans Pricing
   plan_count: 3
   slug: fabric-origin-plans-pricing
-random_paper: 33
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Fabric Origin Rate Limits
   slug: fabric-origin-rate-limits
 score:
   band: thin
-  composite: 36.9
-  delta: 0.0
+  composite: 40.1
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 49.9
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 36.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fabric-origin/refs/heads/main/screenshots/fabric-origin-2026-06-20T181001.png
 security:

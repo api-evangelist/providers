@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 33.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: REST API for spot trading on Bitget including market data, order management, account queries, wallet operations, and sub-account management.
@@ -119,7 +119,7 @@ random_paper: 27
 score:
   band: thin
   composite: 35.7
-  delta: 1.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 37.7
@@ -127,14 +127,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 34.3
+  previous_composite: 35.7
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitget/refs/heads/main/screenshots/bitget-2026-06-20T173307.png
 security:

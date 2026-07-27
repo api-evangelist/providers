@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: GraphQL operations for managing screens - pair and depair devices (pairScreen, depairScreen), list and search screens (allScreens, screen, screenByDeviceId, searchScreen), organize screen groups, assi
@@ -121,25 +121,25 @@ plans:
 - name: Screencloud Plans Pricing
   plan_count: 3
   slug: screencloud-plans-pricing
-random_paper: 2
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Screencloud Rate Limits
   slug: screencloud-rate-limits
 score:
   band: emerging
-  composite: 25.8
-  delta: 0.0
+  composite: 29.1
+  delta: 3.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 25.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

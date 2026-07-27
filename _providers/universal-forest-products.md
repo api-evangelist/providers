@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -89,7 +89,7 @@ press:
 - date: '2026-05-25'
   title: XBRL Viewer
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/912767/000091276723000013/ufpi-20230502x8k.htm
-random_paper: 17
+random_paper: 34
 score:
   band: minimal
   composite: 13.1
@@ -103,7 +103,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/universal-forest-products/refs/heads/main/screenshots/universal-forest-products-2026-06-20T200123.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -81,7 +81,7 @@ overview: 'FTP is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   FTP''s developer surface includes documentation and 9 more developer resources.'
-random_paper: 24
+random_paper: 58
 score:
   band: minimal
   composite: 8.5
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ftp/refs/heads/main/screenshots/ftp-2026-06-20T181601.png
 slug: ftp

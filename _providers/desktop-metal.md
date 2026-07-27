@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: 'Live Platform provisions and manages Desktop Metal AM systems and users, and Live Monitor surfaces real-time fleet, printer, and furnace data (job/event status, time reporting, consumable usage, OEE) '
@@ -92,25 +92,25 @@ plans:
 - name: Desktop Metal Plans Pricing
   plan_count: 1
   slug: desktop-metal-plans-pricing
-random_paper: 12
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Desktop Metal Rate Limits
   slug: desktop-metal-rate-limits
 score:
   band: emerging
-  composite: 23.7
-  delta: 0.0
+  composite: 25.7
+  delta: 2.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 37.7
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 23.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/desktop-metal/refs/heads/main/screenshots/desktop-metal-2026-06-20T175940.png
 security:

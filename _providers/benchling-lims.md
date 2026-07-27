@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ plans:
 - name: Benchling Lims Plans Pricing
   plan_count: 4
   slug: benchling-lims-plans-pricing
-random_paper: 43
+random_paper: 60
 rate_limits:
 - limit_count: 4
   name: Benchling Lims Rate Limits
@@ -187,24 +187,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 41.0
-  delta: 3.1
+  composite: 43.1
+  delta: 2.1
   facets:
     commercial_clarity: 47.4
     contract_quality: 50.0
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.9
+  previous_composite: 41.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/benchling-lims/refs/heads/main/screenshots/benchling-lims-2026-07-25T202730.png
 security:
 - kind: authentication
   name: Benchling Lims Authentication

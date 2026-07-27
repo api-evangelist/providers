@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 5.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Low-latency WebSocket feed (service-mango-fills) that parses Mango V4 Perp and Openbook event queues and emits individual fill events as they are processed by the validator. Supports getMarkets discov
@@ -71,7 +71,7 @@ overview: 'Mango Markets publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Mango Markets'' developer surface includes documentation and 3 more developer resources.'
-random_paper: 8
+random_paper: 42
 rules:
 - name: Mango Markets API Rules
   rule_count: 6
@@ -84,7 +84,7 @@ rules:
 score:
   band: emerging
   composite: 20.8
-  delta: -3.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 22.2
@@ -92,14 +92,14 @@ score:
     discoverability: 92.5
     governance: 60.5
     operational_transparency: 5.3
-  previous_composite: 24.5
+  previous_composite: 20.8
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 0.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: mango-markets
 tags:

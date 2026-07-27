@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -171,25 +171,25 @@ plans:
 - name: Brocade Plans Pricing
   plan_count: 3
   slug: brocade-plans-pricing
-random_paper: 6
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Brocade Rate Limits
   slug: brocade-rate-limits
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 54.8
+  delta: 3.2
   facets:
     commercial_clarity: 73.7
     contract_quality: 51.3
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 51.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brocade/refs/heads/main/screenshots/brocade-2026-06-20T173715.png
 security:

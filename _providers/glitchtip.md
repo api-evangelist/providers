@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 77
   human_in_the_loop: 0
@@ -285,7 +285,7 @@ plans:
 - name: Glitchtip Plans Pricing
   plan_count: 5
   slug: glitchtip-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Glitchtip Rate Limits
@@ -312,7 +312,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 55.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glitchtip/refs/heads/main/screenshots/glitchtip-2026-06-20T181917.png
 security:

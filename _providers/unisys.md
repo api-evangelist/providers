@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ press:
 - date: '2026-05-25'
   title: Earnings Releases
   url: https://www.unisys.com/investor-relations/earnings-releases/
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Unisys Rate Limits
@@ -191,7 +191,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 48.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

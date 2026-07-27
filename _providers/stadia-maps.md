@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 45.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 11
 apis:
 - description: The Attributes API from Stadia Maps — 1 operation(s) for attributes.
@@ -173,7 +173,7 @@ plans:
 - name: Stadia Maps Plans Pricing
   plan_count: 3
   slug: stadia-maps-plans-pricing
-random_paper: 37
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Stadia Maps Rate Limits
@@ -208,7 +208,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 62.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stadia-maps/refs/heads/main/screenshots/stadia-maps-2026-06-20T194456.png
 security:

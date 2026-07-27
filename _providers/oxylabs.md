@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ arazzos:
 - description: Find a sub-user by name and patch its traffic limit and status.
   name: Oxylabs Throttle Sub-user Traffic
   slug: oxylabs-throttle-sub-user-traffic-workflow
-artifact_total: 65
+artifact_total: 66
 collections:
 - collection_type: postman
   name: Oxylabs Web Intelligence APIs
@@ -439,6 +439,10 @@ finops:
   slug: oxylabs-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oxylabs.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: oxylabs-mcp
+  slug: oxylabs-mcp
 modified: '2026-05-25'
 name: Oxylabs
 nav: Providers
@@ -451,25 +455,25 @@ plans:
 - name: Oxylabs Plans Pricing
   plan_count: 3
   slug: oxylabs-plans-pricing
-random_paper: 5
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Oxylabs Rate Limits
   slug: oxylabs-rate-limits
 score:
-  band: developing
-  composite: 59.5
-  delta: 0.0
+  band: strong
+  composite: 62.7
+  delta: 3.2
   facets:
     commercial_clarity: 78.9
     contract_quality: 53.1
     developer_ergonomics: 73.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 59.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oxylabs/refs/heads/main/screenshots/oxylabs-2026-06-20T191301.png
 security:

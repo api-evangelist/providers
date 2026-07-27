@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: Query and mutate client (customer) records synced from Boulevard's CRM - profiles, contact details, custom fields, loyalty point balances, and appointment history. Third parties such as Klaviyo and Ex
@@ -116,31 +116,32 @@ plans:
 - name: Boulevard Plans Pricing
   plan_count: 5
   slug: boulevard-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Boulevard Rate Limits
   slug: boulevard-rate-limits
 score:
   band: emerging
-  composite: 20.3
-  delta: -1.3
+  composite: 23.1
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 21.6
+  previous_composite: 20.3
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/boulevard/refs/heads/main/screenshots/boulevard-2026-07-25T203646.png
 security:
 - kind: domain-security
   name: Boulevard Domain Security

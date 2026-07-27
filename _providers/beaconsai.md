@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -97,7 +97,7 @@ overview: 'Beacons.ai is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Beacons.ai''s developer surface includes pricing, support, engineering blog, and 11 more developer resources.'
-random_paper: 15
+random_paper: 49
 score:
   band: emerging
   composite: 15.1
@@ -111,8 +111,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 15.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/beaconsai/refs/heads/main/screenshots/beaconsai-2026-07-25T202526.png
 security:
 - kind: domain-security
   name: Beaconsai Domain Security

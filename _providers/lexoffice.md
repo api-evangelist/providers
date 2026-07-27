@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -141,26 +141,27 @@ plans:
 - name: Lexoffice Plans Pricing
   plan_count: 4
   slug: lexoffice-plans-pricing
-random_paper: 31
+random_paper: 65
 rate_limits:
 - limit_count: 3
   name: Lexoffice Rate Limits
   slug: lexoffice-rate-limits
 score:
   band: thin
-  composite: 37.4
-  delta: 0.0
+  composite: 40.6
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.7
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 37.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/screenshots/lexoffice-2026-07-25T225004.png
 security:
 - kind: authentication
   name: Lexoffice Authentication

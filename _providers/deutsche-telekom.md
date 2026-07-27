@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 6
@@ -372,18 +372,18 @@ scopes:
   summary_line: 13 scopes · clientCredentials
 score:
   band: emerging
-  composite: 27.4
-  delta: 0.0
+  composite: 28.7
+  delta: 1.3
   facets:
     commercial_clarity: 0.0
     contract_quality: 46.9
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 27.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/screenshots/deutsche-telekom-2026-06-20T175944.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,11 +78,11 @@ overview: 'Grandhood is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Grandhood''s developer surface includes pricing, signup flow, support, and 6 more developer resources.'
-random_paper: 32
+random_paper: 66
 score:
   band: emerging
   composite: 18.6
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -90,15 +90,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.6
+  previous_composite: 18.6
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/grandhood/refs/heads/main/screenshots/grandhood-2026-07-25T220222.png
 security:
 - kind: domain-security
   name: Grandhood Domain Security

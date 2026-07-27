@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -268,7 +268,7 @@ plans:
 - name: Forethought Plans Pricing
   plan_count: 6
   slug: forethought-plans-pricing
-random_paper: 26
+random_paper: 43
 rate_limits:
 - limit_count: 0
   name: Forethought Rate Limits
@@ -292,18 +292,18 @@ rules:
   slug: forethought-rules
 score:
   band: developing
-  composite: 51.4
-  delta: 0.0
+  composite: 55.6
+  delta: 4.2
   facets:
     commercial_clarity: 57.9
-    contract_quality: 64.6
+    contract_quality: 73.5
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 5.3
   previous_composite: 51.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forethought/refs/heads/main/screenshots/forethought-2026-06-20T181426.png
 security:

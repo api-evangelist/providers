@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 80.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -211,7 +211,7 @@ scopes:
 score:
   band: developing
   composite: 53.3
-  delta: 8.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 56.0
@@ -219,15 +219,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 45.1
+  previous_composite: 53.3
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 100.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Zopa Authentication

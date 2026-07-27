@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 11
 apis:
 - description: Microsoft's organization-wide REST API design guidelines, originally published in 2016 and now maintained as separate Azure and Microsoft Graph guideline documents under the umbrella Guidelines.md. Li
@@ -213,7 +213,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 30.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/style-guides/refs/heads/main/screenshots/style-guides-2026-06-20T194625.png
 security:

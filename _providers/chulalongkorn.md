@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Single sign-on authentication service for Chulalongkorn University, allowing applications to securely authenticate students and staff using their Chula ID without handling credentials directly. In pro
@@ -104,7 +104,7 @@ plans:
 - name: Chulalongkorn Plans Pricing
   plan_count: 2
   slug: chulalongkorn-plans-pricing
-random_paper: 22
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Chulalongkorn Rate Limits
@@ -122,7 +122,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 23.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chulalongkorn/refs/heads/main/screenshots/chulalongkorn-2026-06-20T174339.png
 security:

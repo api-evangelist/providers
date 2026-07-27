@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 31.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -96,11 +96,11 @@ plans:
 - name: Rxnt Plans Pricing
   plan_count: 4
   slug: rxnt-plans-pricing
-random_paper: 1
+random_paper: 52
 score:
   band: thin
   composite: 30.5
-  delta: -3.1
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 52.2
@@ -108,14 +108,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 33.6
+  previous_composite: 30.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

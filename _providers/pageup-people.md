@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API suite for the PageUp talent management platform, secured with OAuth 2.0 client-credentials. Covers Core HR, Recruitment, Partner, Performance, and Platform (Exports) endpoint groups. Per-tena
@@ -131,7 +131,7 @@ overview: 'PageUp People publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   PageUp People''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, pricing, authentication, and 14 more developer resources.'
-random_paper: 6
+random_paper: 40
 score:
   band: thin
   composite: 31.5
@@ -145,7 +145,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 31.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

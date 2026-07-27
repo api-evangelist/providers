@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -76,7 +76,7 @@ apis:
 - description: The Webhooks API from Qlik Cloud — 1 operation(s) for webhooks.
   name: Qlik Cloud Webhooks API
   slug: qlik-cloud-webhooks-api
-artifact_total: 20
+artifact_total: 21
 collections:
 - collection_type: open
   name: Qlik Cloud REST API
@@ -146,6 +146,10 @@ finops:
   slug: qlik-cloud-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/qlik-cloud.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Qlik Cloud
 nav: Providers
@@ -158,25 +162,25 @@ plans:
 - name: Qlik Cloud Plans Pricing
   plan_count: 3
   slug: qlik-cloud-plans-pricing
-random_paper: 44
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Qlik Cloud Rate Limits
   slug: qlik-cloud-rate-limits
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 47.1
+  delta: 2.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 47.8
     developer_ergonomics: 43.5
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 45.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qlik-cloud/refs/heads/main/screenshots/qlik-cloud-2026-06-20T192341.png
 security:

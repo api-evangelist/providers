@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Zenoss is an AIOps and full-stack monitoring platform for hybrid IT infrastructure observability and event management.
@@ -78,7 +78,7 @@ plans:
 - name: Zenoss Plans Pricing
   plan_count: 3
   slug: zenoss-plans-pricing
-random_paper: 11
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Zenoss Rate Limits
@@ -96,7 +96,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 20.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenoss/refs/heads/main/screenshots/zenoss-2026-06-20T201817.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ press:
 - date: '2026-05-25'
   title: TD SYNNEX Evolves AI Go-to-Market Strategy Through ...
   url: https://www.thecannatareport.com/td-synnex-ai-gtm/
-random_paper: 14
+random_paper: 65
 rate_limits:
 - limit_count: 3
   name: Synnex Rate Limits
@@ -190,18 +190,18 @@ rules:
   slug: synnex-rules
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 51.4
+  delta: 2.5
   facets:
     commercial_clarity: 28.9
     contract_quality: 63.7
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 48.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synnex/refs/heads/main/screenshots/synnex-2026-06-20T194829.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 6
 common:
@@ -121,7 +121,7 @@ press:
 - date: '2026-05-25'
   title: Ryerson targets $120M in annual synergies post-Olympic ...
   url: https://seekingalpha.com/news/4554819-ryerson-targets-120m-in-annual-synergies-post-olympic-steel-merger-as-demand-rebounds
-random_paper: 42
+random_paper: 8
 rules:
 - name: Ryerson Holding API Rules
   rule_count: 5
@@ -144,7 +144,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 20.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

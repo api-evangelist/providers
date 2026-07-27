@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -141,24 +141,24 @@ rules:
     warn: 7
   slug: science-museum-group-rules
 score:
-  band: thin
-  composite: 41.7
-  delta: -3.2
+  band: developing
+  composite: 45.6
+  delta: 3.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 66.4
+    contract_quality: 71.7
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
-  previous_composite: 44.9
+  previous_composite: 41.7
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/science-museum-group/refs/heads/main/screenshots/science-museum-group-2026-06-20T193534.png
 security:

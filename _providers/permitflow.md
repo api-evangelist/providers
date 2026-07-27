@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,11 +93,11 @@ overview: 'PermitFlow is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   PermitFlow''s developer surface includes engineering blog, support, signup flow, and 10 more developer resources.'
-random_paper: 26
+random_paper: 9
 score:
   band: emerging
   composite: 20.9
-  delta: 4.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -105,14 +105,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 16.9
+  previous_composite: 20.9
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

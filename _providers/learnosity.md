@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 39.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 12
 apis:
 - description: Server-side JSON API for the Learnosity platform. Endpoint families cover Item bank content (Items, Questions, Features, Activities, Tags, Pools, Templates, Workflows), learner sessions and responses,
@@ -248,7 +248,7 @@ overview: 'Learnosity publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Learnosity''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 34 more developer resources.'
-random_paper: 27
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Learnosity Rate Limits
@@ -266,8 +266,9 @@ score:
     operational_transparency: 55.3
   previous_composite: 44.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/learnosity/refs/heads/main/screenshots/learnosity-2026-07-25T224755.png
 security:
 - kind: authentication
   name: Learnosity Authentication

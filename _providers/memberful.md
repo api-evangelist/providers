@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Query members and their profiles, emails, subscriptions, downloads, and custom JSON metadata (up to 50 keys), and create, update, or delete members through GraphQL mutations. Cursor-based pagination (
@@ -110,30 +110,30 @@ plans:
 - name: Memberful Plans Pricing
   plan_count: 3
   slug: memberful-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 4
   name: Memberful Rate Limits
   slug: memberful-rate-limits
 score:
   band: emerging
-  composite: 21.9
-  delta: 0.7
+  composite: 24.7
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 21.2
+  previous_composite: 21.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

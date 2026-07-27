@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -128,26 +128,27 @@ plans:
 - name: Census Ci Plans Pricing
   plan_count: 3
   slug: census-ci-plans-pricing
-random_paper: 39
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Census Ci Rate Limits
   slug: census-ci-rate-limits
 score:
   band: thin
-  composite: 38.4
-  delta: 0.0
+  composite: 41.7
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 53.9
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 38.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/census-ci/refs/heads/main/screenshots/census-ci-2026-07-25T204919.png
 security:
 - kind: authentication
   name: Census Ci Authentication

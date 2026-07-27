@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 9
 apis:
 - description: 'Programmatically create, list, retrieve, and update bills and vendor invoices flowing through Airbase''s AP automation - including bill line items, approval state, payment status, and payment method - '
@@ -107,7 +107,7 @@ plans:
 - name: Airbase Plans Pricing
   plan_count: 2
   slug: airbase-plans-pricing
-random_paper: 13
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Airbase Rate Limits
@@ -125,8 +125,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/airbase/refs/heads/main/screenshots/airbase-2026-07-25T195412.png
 security:
 - kind: domain-security
   name: Airbase Domain Security

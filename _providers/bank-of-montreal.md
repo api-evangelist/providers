@@ -16,7 +16,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: Real-time access to BMO Online Banking for Business account data — current balances; day-end, month-end and year-end balances; and transaction histories that can replace BAI files and other settlement
@@ -128,10 +128,11 @@ overview: 'BMO Financial Group publishes 6 APIs on the [APIs.io](https://apis.io
 
 
   BMO Financial Group''s developer surface includes authentication, sandbox, API reference, getting-started guide, documentation, signup flow, support, and 12 more developer resources.'
-random_paper: 0
+random_paper: 17
 score:
   band: thin
   composite: 35.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -139,13 +140,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 10.5
+  previous_composite: 35.6
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-montreal/refs/heads/main/screenshots/bank-of-montreal-2026-07-25T202338.png
 security:
 - kind: authentication
   name: Bank Of Montreal Authentication

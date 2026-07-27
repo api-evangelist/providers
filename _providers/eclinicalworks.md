@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Provider-centric and backend/bulk FHIR APIs for integrating with eClinicalWorks EHR. Supports SMART on FHIR EHR Launch, Standalone Launch, Backend Services, and CDS Hooks. Enables access to clinical d
@@ -117,7 +117,7 @@ plans:
 - name: Eclinicalworks Plans Pricing
   plan_count: 4
   slug: eclinicalworks-plans-pricing
-random_paper: 19
+random_paper: 2
 rate_limits:
 - limit_count: 0
   name: Eclinicalworks Rate Limits
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.3
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 15.1
@@ -133,14 +133,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 27.9
+  previous_composite: 27.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eclinicalworks/refs/heads/main/screenshots/eclinicalworks-2026-06-20T180425.png
 security:

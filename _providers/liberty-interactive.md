@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,7 +86,7 @@ press:
 - date: '2026-02-17'
   title: QVC Group, Inc. Announces Semi-Annual Interest Payment and Regular Additional Distribution on 3.75% Senior Exchangeable Debentures Due 2030
   url: https://investors.qvcgrp.com/news-media/press-releases/detail/665/qvc-group-inc-announces-semi-annual-interest-payment-and
-random_paper: 1
+random_paper: 18
 score:
   band: minimal
   composite: 7.2
@@ -100,7 +100,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberty-interactive/refs/heads/main/screenshots/liberty-interactive-2026-06-20T184457.png
 security:

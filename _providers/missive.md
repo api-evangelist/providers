@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ plans:
 - name: Missive Plans Pricing
   plan_count: 3
   slug: missive-plans-pricing
-random_paper: 3
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Missive Rate Limits
@@ -170,7 +170,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 44.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/missive/refs/heads/main/screenshots/missive-2026-06-20T185610.png
 security:

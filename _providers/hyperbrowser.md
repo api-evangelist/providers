@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 12
@@ -393,7 +393,7 @@ plans:
 - name: Hyperbrowser Plans Pricing
   plan_count: 1
   slug: hyperbrowser-plans-pricing
-random_paper: 49
+random_paper: 32
 rate_limits:
 - limit_count: 2
   name: Hyperbrowser Rate Limits
@@ -416,19 +416,19 @@ rules:
     warn: 3
   slug: hyperbrowser-rules
 score:
-  band: developing
-  composite: 59.0
-  delta: 0.0
+  band: strong
+  composite: 63.6
+  delta: 4.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.4
+    contract_quality: 63.7
     developer_ergonomics: 58.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 59.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbrowser/refs/heads/main/screenshots/hyperbrowser-2026-06-20T183036.png
 security:

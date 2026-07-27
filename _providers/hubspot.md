@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 181
   human_in_the_loop: 3
@@ -386,7 +386,7 @@ arazzos:
 - description: Find a contact by email and update it if it exists, otherwise create it.
   name: HubSpot Upsert a Contact
   slug: hubspot-upsert-contact-workflow
-artifact_total: 2488
+artifact_total: 2489
 asyncapis:
 - description: 'The HubSpot Webhooks API enables real-time event notifications for changes to CRM objects and conversations in a HubSpot portal. When subscribed events occur, HubSpot delivers HTTP POST requests to a '
   name: HubSpot Webhooks API
@@ -7895,6 +7895,10 @@ jsonld:
   property_count: 10
   slug: hubspot-source-code-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: HubSpot
 nav: Providers
@@ -7910,7 +7914,7 @@ plans:
 - name: Hubspot Plans Pricing
   plan_count: 4
   slug: hubspot-plans-pricing
-random_paper: 8
+random_paper: 25
 rate_limits:
 - limit_count: 6
   name: Hubspot Rate Limits
@@ -7947,18 +7951,18 @@ scopes:
   summary_line: 16 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 78.5
-  delta: 0.0
+  composite: 80.4
+  delta: 1.9
   facets:
     commercial_clarity: 92.1
-    contract_quality: 78.6
+    contract_quality: 86.1
     developer_ergonomics: 87.0
     discoverability: 55.0
     governance: 60.5
     operational_transparency: 78.9
   previous_composite: 78.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png
 security:

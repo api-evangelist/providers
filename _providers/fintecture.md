@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -461,7 +461,7 @@ plans:
 - name: Fintecture Plans Pricing
   plan_count: 9
   slug: fintecture-plans-pricing
-random_paper: 10
+random_paper: 61
 rate_limits:
 - limit_count: 4
   name: Fintecture Rate Limits
@@ -485,23 +485,23 @@ rules:
   slug: fintecture-rules
 score:
   band: strong
-  composite: 65.7
-  delta: -2.0
+  composite: 68.6
+  delta: 2.9
   facets:
     commercial_clarity: 71.1
-    contract_quality: 58.6
+    contract_quality: 67.5
     developer_ergonomics: 71.7
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 68.4
-  previous_composite: 67.7
+  previous_composite: 65.7
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/screenshots/fintecture-2026-06-20T181225.png
 security:

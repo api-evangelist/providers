@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 3
@@ -138,7 +138,7 @@ plans:
 - name: Jupyter Hub Plans Pricing
   plan_count: 3
   slug: jupyter-hub-plans-pricing
-random_paper: 29
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Jupyter Hub Rate Limits
@@ -154,18 +154,18 @@ rules:
   slug: jupyter-hub-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.8
-  delta: 0.0
+  composite: 54.4
+  delta: 4.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 56.6
+    contract_quality: 61.9
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 49.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jupyter-hub/refs/heads/main/screenshots/jupyter-hub-2026-06-20T183837.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -96,25 +96,25 @@ plans:
 - name: Semrush Plans Pricing
   plan_count: 3
   slug: semrush-plans-pricing
-random_paper: 10
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Semrush Rate Limits
   slug: semrush-rate-limits
 score:
   band: thin
-  composite: 33.9
-  delta: 0.0
+  composite: 35.9
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 54.0
     developer_ergonomics: 10.9
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 33.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semrush/refs/heads/main/screenshots/semrush-2026-06-20T193655.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ plans:
 - name: Jaggaer Plans Pricing
   plan_count: 4
   slug: jaggaer-plans-pricing
-random_paper: 7
+random_paper: 41
 rate_limits:
 - limit_count: 0
   name: Jaggaer Rate Limits
@@ -221,7 +221,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 49.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jaggaer/refs/heads/main/screenshots/jaggaer-2026-06-20T183653.png
 security:

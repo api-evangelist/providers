@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ plans:
 - name: Squarespace Plans Pricing
   plan_count: 1
   slug: squarespace-plans-pricing
-random_paper: 8
+random_paper: 25
 rate_limits:
 - limit_count: 3
   name: Squarespace Rate Limits
@@ -227,7 +227,7 @@ rules:
 score:
   band: developing
   composite: 57.2
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 77.9
@@ -235,14 +235,14 @@ score:
     discoverability: 67.5
     governance: 52.6
     operational_transparency: 52.6
-  previous_composite: 55.5
+  previous_composite: 57.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/squarespace/refs/heads/main/screenshots/squarespace-2026-06-20T194430.png
 security:

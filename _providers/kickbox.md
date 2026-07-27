@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -117,21 +117,21 @@ overview: 'Kickbox publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kickbox''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 33
+random_paper: 67
 score:
-  band: emerging
-  composite: 28.3
-  delta: 0.0
+  band: thin
+  composite: 31.5
+  delta: 3.2
   facets:
     commercial_clarity: 10.5
     contract_quality: 54.0
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 28.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kickbox/refs/heads/main/screenshots/kickbox-2026-06-20T184032.png
 security:

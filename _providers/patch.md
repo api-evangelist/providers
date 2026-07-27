@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ plans:
 - name: Patch Plans Pricing
   plan_count: 2
   slug: patch-plans-pricing
-random_paper: 18
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Patch Rate Limits
@@ -180,7 +180,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 51.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/patch/refs/heads/main/screenshots/patch-2026-06-20T191437.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Embedded-finance REST API for submitting and converting leads, managing finance applications and agreements, funds requests and credit-backed offers. Authenticated with a JWT bearer token plus an x-ap
@@ -133,7 +133,7 @@ overview: 'Muse Finance publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Muse Finance''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 13 more developer resources.'
-random_paper: 38
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Muse Finance Rate Limits
@@ -151,7 +151,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 33.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

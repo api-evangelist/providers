@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 70.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -188,7 +188,7 @@ arazzos:
 - description: Query an entity by a key field and update the match or create a new record.
   name: UiPath Upsert a Data Service Entity Record
   slug: uipath-upsert-entity-record-workflow
-artifact_total: 408
+artifact_total: 409
 asyncapis:
 - description: The UiPath Orchestrator webhook system delivers real-time event notifications to registered HTTP endpoints when automation events occur within the platform. Webhooks cover events for jobs, robots, que
   name: UiPath Orchestrator Webhook Events
@@ -1363,6 +1363,10 @@ jsonld:
   property_count: 26
   slug: uipath-test-manager-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: UiPath
 nav: Providers
@@ -1410,18 +1414,18 @@ rules:
   slug: uipath-spectral-rules
 score:
   band: exemplar
-  composite: 74.3
-  delta: 0.0
+  composite: 79.0
+  delta: 4.7
   facets:
     commercial_clarity: 78.9
-    contract_quality: 84.0
+    contract_quality: 92.8
     developer_ergonomics: 80.4
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 65.8
     operational_transparency: 52.6
   previous_composite: 74.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uipath/refs/heads/main/screenshots/uipath-2026-06-20T200001.png
 security:

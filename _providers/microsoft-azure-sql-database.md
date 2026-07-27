@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -138,25 +138,25 @@ plans:
 - name: Microsoft Azure Sql Database Plans Pricing
   plan_count: 3
   slug: microsoft-azure-sql-database-plans-pricing
-random_paper: 20
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Sql Database Rate Limits
   slug: microsoft-azure-sql-database-rate-limits
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 49.6
+  delta: 3.2
   facets:
     commercial_clarity: 71.1
     contract_quality: 47.8
     developer_ergonomics: 45.7
-    discoverability: 42.5
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 46.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-sql-database/refs/heads/main/screenshots/microsoft-azure-sql-database-2026-06-20T185438.png
 security:

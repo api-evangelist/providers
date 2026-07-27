@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -211,7 +211,7 @@ plans:
 - name: Cloudzero Plans Pricing
   plan_count: 1
   slug: cloudzero-plans-pricing
-random_paper: 14
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Cloudzero Rate Limits
@@ -234,20 +234,20 @@ rules:
     warn: 7
   slug: cloudzero-rules
 score:
-  band: developing
-  composite: 57.7
-  delta: 0.0
+  band: strong
+  composite: 63.1
+  delta: 5.4
   facets:
     commercial_clarity: 68.4
-    contract_quality: 67.3
+    contract_quality: 76.1
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 42.1
   previous_composite: 57.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudzero/refs/heads/main/screenshots/cloudzero-2026-06-20T174620.png
 security:
 - kind: authentication

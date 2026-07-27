@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ overview: 'nexos.ai publishes 16 APIs on the [APIs.io](https://apis.io/) network
 
 
   nexos.ai''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 18 more developer resources.'
-random_paper: 45
+random_paper: 11
 score:
   band: thin
   composite: 41.5
@@ -208,7 +208,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 41.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

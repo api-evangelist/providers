@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -107,7 +107,7 @@ arazzos:
 - description: Find pods that are not Running, read the failing pod's detail, tail its logs, and pull namespace events.
   name: Kubernetes Troubleshoot a Failing Pod
   slug: kubernetes-troubleshoot-pod-workflow
-artifact_total: 36
+artifact_total: 37
 asyncapis:
 - description: The Kubernetes Watch API provides a streaming event interface for receiving real-time notifications about changes to cluster resources. Clients subscribe to resource types and receive a stream of ADDE
   name: Kubernetes Watch Events
@@ -390,6 +390,10 @@ jsonld:
   property_count: 36
   slug: kubernetes-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: kubernetes-mcp.yml
+  slug: kubernetes-mcpyml
 modified: '2026-06-20'
 name: Kubernetes
 nav: Providers
@@ -405,7 +409,7 @@ plans:
 - name: Kubernetes Plans Pricing
   plan_count: 3
   slug: kubernetes-plans-pricing
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Kubernetes Rate Limits
@@ -429,18 +433,18 @@ rules:
   slug: kubernetes-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 65.9
+  delta: 4.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 77.4
+    contract_quality: 82.7
     developer_ergonomics: 58.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 71.1
   previous_composite: 61.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubernetes/refs/heads/main/screenshots/kubernetes-2026-06-20T184206.png
 security:

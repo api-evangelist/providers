@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 30.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: 'REST API for programmatic, end-to-end video creation and automated delivery. OAuth 2.0 client-credentials + bearer auth. Resources: TemplateStyleVersion, Mapping, RenderSession.'
@@ -136,7 +136,7 @@ overview: 'Shakr Media publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Shakr Media''s developer surface includes documentation, API reference, getting-started guide, authentication, and 15 more developer resources.'
-random_paper: 23
+random_paper: 6
 scopes:
 - name: Shakr Media Scopes
   scope_count: 6
@@ -155,7 +155,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 28.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

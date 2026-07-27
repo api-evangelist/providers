@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 45
+random_paper: 62
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -191,7 +191,7 @@ rules:
 score:
   band: developing
   composite: 52.9
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 68.7
@@ -199,14 +199,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 7.9
-  previous_composite: 52.6
+  previous_composite: 52.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptomus/refs/heads/main/screenshots/cryptomus-2026-06-20T175312.png
 security:

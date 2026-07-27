@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: AURA NEXT is RGA's SaaS-based automated underwriting decision management platform powered by 40+ years of underwriting expertise. The API enables insurance carriers to integrate real-time underwriting
@@ -163,7 +163,7 @@ press:
 - date: '2026-05-25'
   title: Reinsurance Group of America Reports Fourth Quarter Results
   url: https://investor.rgare.com/news-releases/news-release-details/reinsurance-group-america-reports-fourth-quarter-results-16?mobile=1
-random_paper: 5
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Reinsurance Group Of America Rate Limits
@@ -180,7 +180,7 @@ rules:
 score:
   band: thin
   composite: 31.6
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 9.4
@@ -188,14 +188,14 @@ score:
     discoverability: 92.5
     governance: 86.8
     operational_transparency: 26.3
-  previous_composite: 33.0
+  previous_composite: 31.6
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/screenshots/reinsurance-group-of-america-2026-06-20T192806.png
 security:

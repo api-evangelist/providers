@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 30.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST and SOAP object API (v1) for reading and writing Impartner platform records (accounts, partners, deals, and tenant-defined custom objects) using the THQL query language with skip/take paging, fie
@@ -149,7 +149,7 @@ overview: 'Impartner publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Impartner''s developer surface includes documentation, API reference, pricing, engineering blog, support, authentication, CLI, and 16 more developer resources.'
-random_paper: 9
+random_paper: 26
 scopes:
 - name: Impartner Scopes
   scope_count: 14
@@ -168,8 +168,9 @@ score:
     operational_transparency: 23.7
   previous_composite: 37.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/impartner/refs/heads/main/screenshots/impartner-2026-07-25T222146.png
 security:
 - kind: authentication
   name: Impartner Authentication

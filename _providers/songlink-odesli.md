@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Get all the services on which a song is available
@@ -62,7 +62,7 @@ name: Songlink / Odesli
 nav: Providers
 network: true
 overview: Songlink / Odesli publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Music and Public APIs.
-random_paper: 24
+random_paper: 58
 score:
   band: minimal
   composite: 8.3
@@ -76,7 +76,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/songlink-odesli/refs/heads/main/screenshots/songlink-odesli-2026-06-20T194212.png
 security:

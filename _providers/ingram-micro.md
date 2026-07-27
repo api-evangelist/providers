@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -108,25 +108,25 @@ press:
 - date: '2026-05-25'
   title: Ingram Micro Announces Agentic AI Capabilities, Adds ...
   url: https://www.businesswire.com/news/home/20251028908276/en/Ingram-Micro-Announces-Agentic-AI-Capabilities-Adds-Googles-Gemini-Models-to-Xvantage-AI-Factory
-random_paper: 48
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Ingram Micro Rate Limits
   slug: ingram-micro-rate-limits
 score:
-  band: emerging
-  composite: 29.5
-  delta: 0.0
+  band: thin
+  composite: 32.0
+  delta: 2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 50.4
     developer_ergonomics: 0.0
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 29.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ingram-micro/refs/heads/main/screenshots/ingram-micro-2026-06-20T183355.png
 security:

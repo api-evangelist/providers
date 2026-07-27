@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -115,25 +115,25 @@ plans:
 - name: Maven Central Plans Pricing
   plan_count: 3
   slug: maven-central-plans-pricing
-random_paper: 50
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Maven Central Rate Limits
   slug: maven-central-rate-limits
 score:
   band: developing
-  composite: 45.1
-  delta: 0.0
+  composite: 48.4
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 56.6
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 45.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maven-central/refs/heads/main/screenshots/maven-central-2026-06-20T185044.png
 security:

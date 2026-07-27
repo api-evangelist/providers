@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -76,8 +76,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 8.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/macromedia/refs/heads/main/screenshots/macromedia-2026-07-25T225827.png
 security:
 - kind: domain-security
   name: Macromedia Domain Security

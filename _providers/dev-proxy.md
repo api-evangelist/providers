@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 43.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -99,25 +99,25 @@ plans:
 - name: Dev Proxy Plans Pricing
   plan_count: 3
   slug: dev-proxy-plans-pricing
-random_paper: 24
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Dev Proxy Rate Limits
   slug: dev-proxy-rate-limits
 score:
-  band: emerging
-  composite: 29.3
-  delta: 0.0
+  band: thin
+  composite: 31.3
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 42.5
     developer_ergonomics: 8.7
-    discoverability: 42.5
+    discoverability: 62.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 29.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dev-proxy/refs/heads/main/screenshots/dev-proxy-2026-06-20T175945.png
 security:

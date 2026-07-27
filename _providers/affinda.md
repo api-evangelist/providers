@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 146
   human_in_the_loop: 0
@@ -607,7 +607,7 @@ plans:
 - name: Affinda Plans Pricing
   plan_count: 3
   slug: affinda-plans-pricing
-random_paper: 50
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Affinda Rate Limits
@@ -631,23 +631,23 @@ rules:
   slug: affinda-rules
 score:
   band: exemplar
-  composite: 72.7
-  delta: -1.3
+  composite: 75.5
+  delta: 2.8
   facets:
     commercial_clarity: 100.0
-    contract_quality: 64.8
+    contract_quality: 70.1
     developer_ergonomics: 71.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 60.5
-  previous_composite: 74.0
+  previous_composite: 72.7
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/affinda/refs/heads/main/screenshots/affinda-2026-06-20T165616.png
 security:

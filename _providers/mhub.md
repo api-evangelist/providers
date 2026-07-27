@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: MHub's REST API for its property-sales platform. The API is served from api.mhub.my and is authentication-gated (all probed endpoints return HTTP 401); no public OpenAPI/Swagger definition was availab
@@ -95,7 +95,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 17.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

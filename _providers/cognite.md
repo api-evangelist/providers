@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: medium
-  generated: '2026-07-22'
   label: Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: unknown
   public: false
@@ -11,17 +9,472 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 41.3
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 708
+  human_in_the_loop: 4
+  name: Cognite Agentic Access
+  operation_count: 980
+  slug: cognite-agentic-access
+  summary_line: 980 operations · 708 acting · 4 human-in-the-loop
 api_count: 90
-artifact_total: 0
+apis:
+- description: The Cognite Data Fusion (CDF) REST API provides programmatic access to industrial data including assets, time series, events, files, sequences, 3D models, data modeling spaces and instances, entity ma
+  name: Cognite Data Fusion API
+  slug: cognite-data-fusion-api
+- description: The 3D Asset Mapping API from Cognite — 5 operation(s) for 3d asset mapping.
+  name: Cognite 3D Asset Mapping API
+  slug: cognite-3d-asset-mapping-api
+- description: The 3D Files API from Cognite — 2 operation(s) for 3d files.
+  name: Cognite 3D Files API
+  slug: cognite-3d-files-api
+- description: The 3D Jobs API from Cognite — 6 operation(s) for 3d jobs.
+  name: Cognite 3D Jobs API
+  slug: cognite-3d-jobs-api
+- description: The 3D Model Revisions API from Cognite — 11 operation(s) for 3d model revisions.
+  name: Cognite 3D Model Revisions API
+  slug: cognite-3d-model-revisions-api
+- description: The 3D Models API from Cognite — 4 operation(s) for 3d models.
+  name: Cognite 3D Models API
+  slug: cognite-3d-models-api
+- description: 'Annotations reflect contextual information in base CDF resource types, such as Files and Time series, that are not present on the object itself. The benefits of the annotations concept are threefold: '
+  name: Cognite Annotations API
+  slug: cognite-annotations-api
+- description: The assets resource type stores digital representations of objects or groups of objects from the physical world. Assets are organized in hierarchies. For example, a water pump asset can be a part of a
+  name: Cognite Assets API
+  slug: cognite-assets-api
+- description: The Connections API from Cognite — 3 operation(s) for connections.
+  name: Cognite Connections API
+  slug: cognite-connections-api
+- description: The Containers API from Cognite — 9 operation(s) for containers.
+  name: Cognite Containers API
+  slug: cognite-containers-api
+- description: The Data models API from Cognite — 3 operation(s) for data models.
+  name: Cognite Data models API
+  slug: cognite-data-models-api
+- description: A data point subscription is a way to listen to changes to time series data points, in ingestion order. A single subscription can listen to many time series, and a time series can be part of many subs
+  name: Cognite Data point subscriptions API
+  slug: cognite-data-point-subscriptions-api
+- description: 'Data products are governed, ready-for-consumption data assets derived from data domains, following data mesh principles. **Key characteristics:** - **Clear ownership**: Defined data product owners wit'
+  name: Cognite Data products API
+  slug: cognite-data-products-api
+- description: 'Data sets let you document and track data lineage, ensure data integrity, and allow 3rd parties to write their insights securely back to a Cognite Data Fusion (CDF) project. Data sets group and track '
+  name: Cognite Data sets API
+  slug: cognite-data-sets-api
+- description: 'A hosted extractor writes to a **destination**. The destination contains credentials for CDF, and additional information about where the data should land, such as data set ID. Multiple jobs can share '
+  name: Cognite Destinations API
+  slug: cognite-destinations-api
+- description: The Diagrams API from Cognite — 6 operation(s) for diagrams.
+  name: Cognite Diagrams API
+  slug: cognite-diagrams-api
+- description: The Document AI API from Cognite — 2 operation(s) for document ai.
+  name: Cognite Document AI API
+  slug: cognite-document-ai-api
+- description: The Document parsing API from Cognite — 1 operation(s) for document parsing.
+  name: Cognite Document parsing API
+  slug: cognite-document-parsing-api
+- description: The document preview service is a utility API that can render most document types as an image or PDF. This can be very helpful if you want to display a preview of a file in a frontend, or for other ta
+  name: Cognite Document preview API
+  slug: cognite-document-preview-api
+- description: A document is a file that has been indexed by the document search engine. Every time a file is uploaded, updated or deleted in the Files API, it will also be scheduled for processing by the document s
+  name: Cognite Documents API
+  slug: cognite-documents-api
+- description: The Engineering diagrams API from Cognite — 4 operation(s) for engineering diagrams.
+  name: Cognite Engineering diagrams API
+  slug: cognite-engineering-diagrams-api
+- description: The Entities API from Cognite — 4 operation(s) for entities.
+  name: Cognite Entities API
+  slug: cognite-entities-api
+- description: 'The entity matching contextualization endpoints lets you match CDF resources. For example, you can match time series to assets. The model uses similarity between string-fields from the source and the '
+  name: Cognite Entity matching API
+  slug: cognite-entity-matching-api
+- description: Events objects store complex information about multiple assets over a time period. Typical types of events that would be stored in this service might include Alarms, Process Data, and Logs.\ For the s
+  name: Cognite Events API
+  slug: cognite-events-api
+- description: Extraction Pipeline objects represent the applications and software that are deployed to ingest operational data into CDF. An extraction pipeline can consist of a number of different software componen
+  name: Cognite Extraction Pipelines API
+  slug: cognite-extraction-pipelines-api
+- description: Extraction Pipelines Configs are configuration file revisions tied to an extraction pipeline. Users can create new configuration revisions, and extractors can fetch the latest, making it easy to deplo
+  name: Cognite Extraction Pipelines Config API
+  slug: cognite-extraction-pipelines-config-api
+- description: 'Extraction Pipelines Runs are CDF objects to store statuses related to an extraction pipeline. The supported statuses are: success, failure and seen. The statuses are related to two different types of'
+  name: Cognite Extraction Pipelines Runs API
+  slug: cognite-extraction-pipelines-runs-api
+- description: Extractors are tools used to move data from various source systems to CDF. The extractors API is used to manage extractor releases, give access to downloads, and contextualize which source systems eac
+  name: Cognite Extractors API
+  slug: cognite-extractors-api
+- description: 'A file stores a sequence of bytes connected to one or more assets. For example, a file can contain a piping and instrumentation diagram (P&IDs) showing how multiple assets are connected. Each file is '
+  name: Cognite Files API
+  slug: cognite-files-api
+- description: Function calls let you execute functions asynchronously with a timeout of 15 minutes.
+  name: Cognite Function calls API
+  slug: cognite-function-calls-api
+- description: Function schedules allow you to run functions with a specific input at intervals defined by a cron expression. These function calls will be asynchronous and show up in the function call list. Visit ht
+  name: Cognite Function schedules API
+  slug: cognite-function-schedules-api
+- description: Functions enables Python code to be hosted and executed in the cloud, on demand or by using a schedule. Execution, status and logs are available through the API. A function is uploaded to the Files AP
+  name: Cognite Functions API
+  slug: cognite-functions-api
+- description: The Geometries API from Cognite — 4 operation(s) for geometries.
+  name: Cognite Geometries API
+  slug: cognite-geometries-api
+- description: The Geospatial API allows to model a problem domain when data has a geometric or geographic nature. The geospatial data is organized in feature types that are homogeneous collections of features (geos
+  name: Cognite Geospatial API
+  slug: cognite-geospatial-api
+- description: Groups are used to give principals the capabilities to access CDF resources. One principal can be a member in multiple groups and one group can have multiple members. Note that having more than 20 gro
+  name: Cognite Groups API
+  slug: cognite-groups-api
+- description: The Instances API from Cognite — 9 operation(s) for instances.
+  name: Cognite Instances API
+  slug: cognite-instances-api
+- description: Each integration represents an application running on-premises.
+  name: Cognite Integrations API
+  slug: cognite-integrations-api
+- description: A hosted extractor **job** represents the running extractor. Jobs produce logs and metrics that give the state of the job. For details on available states and metrics see documentation [here](https://
+  name: Cognite Jobs API
+  slug: cognite-jobs-api
+- description: The Labels API from Cognite — 4 operation(s) for labels.
+  name: Cognite Labels API
+  slug: cognite-labels-api
+- description: The Libraries API from Cognite — 6 operation(s) for libraries.
+  name: Cognite Libraries API
+  slug: cognite-libraries-api
+- description: A **mapping** is a custom transformation, translating the source format to a format that can be ingested into CDF. Mappings are written in the Cognite transformation language. For more details see doc
+  name: Cognite Mappings API
+  slug: cognite-mappings-api
+- description: An **organization** is used to group CDF projects and facilitate their management. An organization holds users, projects, and perhaps other organizations. The organization ID is what the users enter w
+  name: Cognite Organizations API
+  slug: cognite-organizations-api
+- description: The Parsing API from Cognite — 3 operation(s) for parsing.
+  name: Cognite Parsing API
+  slug: cognite-parsing-api
+- description: View and create foreign **tables** for a given **user**
+  name: Cognite Postgres Gateway Tables API
+  slug: cognite-postgres-gateway-tables-api
+- description: A postgres gateway **user** (also a typical postgres user) owns the foreign tables (built in or custom). The created postgres user only has access to use foreign tables and cannot directly create tabl
+  name: Cognite Postgres Gateway Users API
+  slug: cognite-postgres-gateway-users-api
+- description: A **preview** is a temporary job that runs until it times out, fails, or receives a single message, then stores the result. This is useful for development, as it allows you to easily inspect the outpu
+  name: Cognite Previews API
+  slug: cognite-previews-api
+- description: '**Principal** is an umbrella term for **user accounts** and **service accounts**. Both entities can be uniquely identified, authenticated, and authorized in CDF. Principals are unique within an organi'
+  name: Cognite Principals API
+  slug: cognite-principals-api
+- description: Projects are used to isolate data in CDF from each other. All objects in CDF belong to a single project, and objects in different projects are generally isolated from each other.
+  name: Cognite Projects API
+  slug: cognite-projects-api
+- description: Query lets the users preview the result of their queries.
+  name: Cognite Query API
+  slug: cognite-query-api
+- description: Manage data in the raw NoSQL database. Each project will have a variable number of raw databases, each of which will have a variable number of tables, each of which will have a variable number of key-
+  name: Cognite Raw API
+  slug: cognite-raw-api
+- description: Records are mutable or immutable data objects (depending on the stream template) stored in a stream. Records are created by ingesting data into a stream. Records are shaped similarly to instances in t
+  name: Cognite Records API
+  slug: cognite-records-api
+- description: The relationships resource type represents connections between resource objects in CDF. Relationships allow you to organize assets in other structures in addition to the standard hierarchical asset st
+  name: Cognite Relationships API
+  slug: cognite-relationships-api
+- description: An SAP **endpoint** represents a configuration to an SAP S/4HANA OData endpoint (and its related OData entity) the API will send the writeback requests. It defines which SAP Instance destination and w
+  name: Cognite SAP Endpoints API
+  slug: cognite-sap-endpoints-api
+- description: An SAP **instance** represents a configuration to an external SAP S/4HANA destination system. The **instance** resource contains all the information this API service needs to connect to an SAP S/4HANA
+  name: Cognite SAP Instances API
+  slug: cognite-sap-instances-api
+- description: Schema provides the expected schema for CDF resources.
+  name: Cognite Schema API
+  slug: cognite-schema-api
+- description: 'A **mapping** uses field and value mapping(s) to perform an in-flight transformation from source CDF entities to SAP S/4HANA entities. Mappings are written in the Cognite transformation language. For '
+  name: Cognite Schema Mappings API
+  slug: cognite-schema-mappings-api
+- description: Manage security categories for a specific project. Security categories can be used to restrict access to a resource. Applying a security category to a resource means that only principals (users or ser
+  name: Cognite Security categories API
+  slug: cognite-security-categories-api
+- description: 'A sequence stores a table with up to 400 columns indexed by row number. There can be at most 400 numeric columns and 200 string columns. Each of the columns has a pre-defined type: a string, integer, '
+  name: Cognite Sequences API
+  slug: cognite-sequences-api
+- description: 'Sessions are used to maintain access to CDF resources for an extended period of time. The methods available to extend a sessions lifetime are client credentials and token exchange. Sessions depend on '
+  name: Cognite Sessions API
+  slug: cognite-sessions-api
+- description: A signal is a notification that something has occurred in a CDF process. Users and systems may listen to signals by creating a sink and attaching subscriptions with a filter that matches the signals t
+  name: Cognite Signals API
+  slug: cognite-signals-api
+- description: Every time a simulation routine executes, a simulation run object is created. This object ensures that each execution of a routine is documented and traceable. Each run has an associated simulation da
+  name: Cognite Simulation Runs API
+  slug: cognite-simulation-runs-api
+- description: 'The simulator integration resource represents a simulator connector in Cognite Data Fusion (CDF). It provides information about the configured connectors for a given simulator, including their status '
+  name: Cognite Simulator Integrations API
+  slug: cognite-simulator-integrations-api
+- description: 'Simulator logs track what happens during simulation runs, model parsing, and generic connector logic. They provide valuable information for monitoring, debugging, and auditing. Simulator logs capture '
+  name: Cognite Simulator Logs API
+  slug: cognite-simulator-logs-api
+- description: The simulator model resource represents an asset modeled in a simulator. This asset could range from a pump or well to a complete processing facility or refinery. The simulator model is the root of it
+  name: Cognite Simulator Models API
+  slug: cognite-simulator-models-api
+- description: 'The simulator routine resource defines instructions on interacting with a simulator model. A simulator routine includes: - Inputs (values set into the simulator model) - Commands (actions to be perfor'
+  name: Cognite Simulator Routines API
+  slug: cognite-simulator-routines-api
+- description: The simulator resource contains the definitions necessary for Cognite Data Fusion (CDF) to interact with a given simulator. It serves as a central contract that allows APIs, UIs, and integrations (con
+  name: Cognite Simulators API
+  slug: cognite-simulators-api
+- description: A hosted extractor **source** represents an external source system on the internet. The **source** resource in CDF contains all the information the extractor needs to connect to the external source sy
+  name: Cognite Sources API
+  slug: cognite-sources-api
+- description: The Spaces API from Cognite — 3 operation(s) for spaces.
+  name: Cognite Spaces API
+  slug: cognite-spaces-api
+- description: The Statistics API from Cognite — 3 operation(s) for statistics.
+  name: Cognite Statistics API
+  slug: cognite-statistics-api
+- description: Use the streams and records API to build high-volume extensions to industrial knowledge graphs that are built with [Data Modeling](https://docs.cognite.com/cdf/dm). The streams API lets you manage the
+  name: Cognite Streams API
+  slug: cognite-streams-api
+- description: The SVG Data API from Cognite — 2 operation(s) for svg data.
+  name: Cognite SVG Data API
+  slug: cognite-svg-data-api
+- description: The Symbols API from Cognite — 4 operation(s) for symbols.
+  name: Cognite Symbols API
+  slug: cognite-symbols-api
+- description: Synthetic Time Series (STS) is a way to combine various input time series, constants and operators, to create completely new time series. For example can we use the expression `24 * TS{externalId='pro
+  name: Cognite Synthetic Time Series API
+  slug: cognite-synthetic-time-series-api
+- description: The Tasks API from Cognite — 1 operation(s) for tasks.
+  name: Cognite Tasks API
+  slug: cognite-tasks-api
+- description: A time series consists of a sequence of data points connected to a single asset. For example, a water pump asset can have a temperature time series that records a data point in units of Â°C every seco
+  name: Cognite Time series API
+  slug: cognite-time-series-api
+- description: Access tokens issued by an IdP (Azure AD, Google, etc.) are used to access CDF resources.
+  name: Cognite Token API
+  slug: cognite-token-api
+- description: Transformation jobs let you list jobs and their metrics. A maximum of 1000 jobs per transformation are retained, provided they are not older than 90 days.
+  name: Cognite Transformation Jobs API
+  slug: cognite-transformation-jobs-api
+- description: Transformation notifications let users know when a job fails if subscribed.
+  name: Cognite Transformation Notifications API
+  slug: cognite-transformation-notifications-api
+- description: Transformation schedules allow you to run transformations with a specific input at intervals defined by a cron expression. These transformation jobs will be asynchronous and show up in the transformat
+  name: Cognite Transformation Schedules API
+  slug: cognite-transformation-schedules-api
+- description: 'Transformations enable users to use Spark SQL queries to transform data from the CDF staging area, RAW, into the CDF data model. ### Concurrency limits The number of concurrent (parallel) jobs are gov'
+  name: Cognite Transformations API
+  slug: cognite-transformations-api
+- description: Unit system is a collection of default units for different quantities. This API provides a list of supported unit systems and their associated quantities and respective unit.
+  name: Cognite Unit Systems API
+  slug: cognite-unit-systems-api
+- description: Units Catalog API provides a standardized list of units that can be used in Cognite Data Fusion. The content this API serves is based on the [CDF Units Catalog](https://github.com/cognitedata/units-ca
+  name: Cognite Units API
+  slug: cognite-units-api
+- description: User profiles is an authoritative source of core user profile information (email, name, job title, etc.) for principals based on data from the identity provider configured for the CDF project. User pr
+  name: Cognite User profiles API
+  slug: cognite-user-profiles-api
+- description: The Views API from Cognite — 3 operation(s) for views.
+  name: Cognite Views API
+  slug: cognite-views-api
+- description: Vision API is deprecated. See [Deprecated and retired features](https://docs.cognite.com/cdf/deprecated) for details and timelines. The Vision contextualization endpoints enable extraction of informat
+  name: Cognite Vision API
+  slug: cognite-vision-api
+- description: The Workflow executions API from Cognite — 5 operation(s) for workflow executions.
+  name: Cognite Workflow executions API
+  slug: cognite-workflow-executions-api
+- description: Triggers allow you to automate the execution of your data workflows based on specific conditions, such as scheduled times (defined by cron expressions).
+  name: Cognite Workflow triggers API
+  slug: cognite-workflow-triggers-api
+- description: The Workflow versions API from Cognite — 4 operation(s) for workflow versions.
+  name: Cognite Workflow versions API
+  slug: cognite-workflow-versions-api
+- description: 'Define and orchestrate data workflows consisting of CDF Transformations, Cognite Functions, and other processes. This service enables you to build data pipelines and business solutions leveraging the '
+  name: Cognite Workflows API
+  slug: cognite-workflows-api
+- description: A writeback **request** to the SAP S/4HANA destination. The request body contains the target SAP endpoint destination, and the payload to send.
+  name: Cognite Writeback Requests API
+  slug: cognite-writeback-requests-api
+artifact_total: 107
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/cognite-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/cognite-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/cognite-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cognite-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/cognite-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/cognite-scopes.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cognite.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.cognite.com/
+- group: start
+  title: ''
+  type: Portal
+  url: https://api-docs.cognite.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.cognite.com/en/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/cognitedata
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/cognite
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/@CogniteData
+- group: build
+  title: ''
+  type: SDKs
+  url: https://developer.cognite.com/sdks/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.cognite.com/en/pricing
+- group: company
+  title: ''
+  type: About
+  url: https://www.cognite.com/en/about
 created: '2026-06-05'
 description: Cognite is an industrial AI and data platform provider whose core product, Cognite Data Fusion (CDF), contextualizes and integrates data from OT, IT, and ET systems across oil and gas, energy, manufacturing, and mining industries. CDF exposes a comprehensive REST API covering assets, time series, events, files, 3D models, data modeling, entity matching, transformations, functions, and workflows, with SDKs available for Python, JavaScript, Java, .NET, and Rust.
+examples:
+- key_count: 2
+  name: Cognite Assets List Example
+  slug: cognite-assets-list-example
+- key_count: 2
+  name: Cognite Events Create Example
+  slug: cognite-events-create-example
+- key_count: 2
+  name: Cognite Timeseries Datapoints Example
+  slug: cognite-timeseries-datapoints-example
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cognite.png
+json_schemas:
+- name: Asset
+  property_count: 15
+  slug: cognite-asset
+- name: Event
+  property_count: 13
+  slug: cognite-event
+- name: TimeSeries
+  property_count: 16
+  slug: cognite-timeseries
+json_structures:
+- name: Cognite Asset Structure
+  property_count: 0
+  slug: cognite-asset-structure
+- name: Cognite Timeseries Structure
+  property_count: 0
+  slug: cognite-timeseries-structure
+jsonld:
+- class_count: 11
+  name: Cognite Context
+  property_count: 36
+  slug: cognite-context
 layout: provider
 modified: '2026-06-05'
 name: Cognite
 nav: Providers
 network: true
-random_paper: 31
+overview: 'Cognite publishes 89 APIs on the [APIs.io](https://apis.io/) network, including 3D Asset Mapping API, 3D Files API, 3D Jobs API, and 86 more. Tagged areas include Industrial IoT, Manufacturing, Industrial Data, Digital Twin, and Asset Management.
+
+
+  The Cognite catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.
+
+
+  Cognite''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, and 10 more developer resources.'
+random_paper: 65
+rules:
+- name: Cognite API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: cognite-jsonschema-spectral-rules
+- name: Cognite API Rules
+  rule_count: 9
+  severity_counts:
+    error: 1
+    hint: 0
+    info: 3
+    warn: 5
+  slug: cognite-rules
+scopes:
+- name: Cognite Scopes
+  scope_count: 3
+  slug: cognite-scopes
+  summary_line: 3 scopes · clientCredentials/authorizationCode
+score:
+  band: developing
+  composite: 45.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 18.4
+    contract_quality: 71.8
+    developer_ergonomics: 37.0
+    discoverability: 67.5
+    governance: 73.7
+    operational_transparency: 5.3
+  previous_composite: 45.3
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cognite/refs/heads/main/screenshots/cognite-2026-06-20T174714.png
+security:
+- kind: authentication
+  name: Cognite Authentication
+  slug: cognite-authentication
+  summary_line: http/oauth2/openIdConnect · 4 schemes
+- kind: domain-security
+  name: Cognite Domain Security
+  slug: cognite-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Cognite Vulnerability Disclosure
+  slug: cognite-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Cognite Trust Center
+  slug: cognite-trust-center
+  summary_line: SOC 2, ISO 27001, ISO 27018, GDPR, CSA STAR
 slug: cognite
 tags:
 - Industrial IoT
@@ -31,4 +484,5 @@ tags:
 - Asset Management
 - Time Series
 - Industrial AI
+website: https://www.cognite.com
 ---

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Jib is an open-source container image builder from Google that builds optimized Docker and OCI images for Java applications without requiring a Docker daemon or writing a Dockerfile, available as Mave
@@ -70,7 +70,7 @@ plans:
 - name: Jib Plans Pricing
   plan_count: 3
   slug: jib-plans-pricing
-random_paper: 3
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Jib Rate Limits
@@ -88,7 +88,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 24.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jib/refs/heads/main/screenshots/jib-2026-06-20T183730.png
 slug: jib

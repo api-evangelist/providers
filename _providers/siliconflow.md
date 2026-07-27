@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: OpenAI- and Anthropic-compatible inference covering chat completions, messages, embeddings, reranking, image generation, video (Wan2.2), audio (speech, transcription, voice cloning, voice list), files
@@ -94,7 +94,7 @@ plans:
 - name: Siliconflow Plans Pricing
   plan_count: 1
   slug: siliconflow-plans-pricing
-random_paper: 20
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Siliconflow Rate Limits
@@ -112,7 +112,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 30.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/siliconflow/refs/heads/main/screenshots/siliconflow-2026-06-20T193920.png
 security:

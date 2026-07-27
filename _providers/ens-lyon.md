@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint scoped to the ENS de Lyon (ens-lyon) collection of the national HAL open archive. Exposes the institution's open-access scholarly publication metadata (article
@@ -129,7 +129,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 24.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ens-lyon/refs/heads/main/screenshots/ens-lyon-2026-06-20T180729.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 0
@@ -101,7 +101,7 @@ arazzos:
 - description: Freeze a workspace into a container version and publish it live.
   name: Google Tag Manager Version and Publish a Workspace
   slug: google-tag-manager-version-and-publish-workspace-workflow
-artifact_total: 170
+artifact_total: 171
 collections:
 - collection_type: postman
   name: Google Tag Manager API
@@ -695,6 +695,10 @@ jsonld:
   property_count: 0
   slug: google-tag-manager-v2-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: google-tag-manager-mcp.yml
+  slug: google-tag-manager-mcpyml
 modified: '2026-06-20'
 name: Google Tag Manager
 nav: Providers
@@ -710,7 +714,7 @@ plans:
 - name: Google Tag Manager Plans Pricing
   plan_count: 3
   slug: google-tag-manager-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Google Tag Manager Rate Limits
@@ -738,19 +742,19 @@ scopes:
   slug: google-tag-manager-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: strong
-  composite: 67.0
-  delta: 0.0
+  band: exemplar
+  composite: 71.6
+  delta: 4.6
   facets:
     commercial_clarity: 73.7
-    contract_quality: 66.8
+    contract_quality: 72.1
     developer_ergonomics: 65.2
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 63.2
   previous_composite: 67.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-tag-manager/refs/heads/main/screenshots/google-tag-manager-2026-06-20T182239.png
 security:

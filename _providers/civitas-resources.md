@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -50,7 +50,7 @@ name: Civitas Resources
 nav: Providers
 network: true
 overview: Civitas Resources is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Oil and Gas, Upstream, Colorado, and Permian Basin.
-random_paper: 2
+random_paper: 19
 score:
   band: minimal
   composite: 6.0
@@ -64,7 +64,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/civitas-resources/refs/heads/main/screenshots/civitas-resources-2026-06-20T174431.png
 security:

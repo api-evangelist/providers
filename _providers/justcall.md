@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -121,18 +121,18 @@ overview: 'JustCall publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 random_paper: 50
 score:
   band: thin
-  composite: 31.5
-  delta: 0.0
+  composite: 34.8
+  delta: 3.3
   facets:
     commercial_clarity: 18.4
     contract_quality: 56.6
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 31.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/justcall/refs/heads/main/screenshots/justcall-2026-06-20T183845.png
 security:

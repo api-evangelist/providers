@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ random_paper: 36
 score:
   band: thin
   composite: 43.7
-  delta: 1.9
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 46.0
@@ -175,15 +175,16 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 41.8
+  previous_composite: 43.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/confrere/refs/heads/main/screenshots/confrere-2026-07-25T210253.png
 security:
 - kind: authentication
   name: Confrere Authentication

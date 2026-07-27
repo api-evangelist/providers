@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Campaign Spend API from Appsamurai — 1 operation(s) for campaign spend.
@@ -138,7 +138,7 @@ overview: 'Appsamurai publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Appsamurai''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 4
+random_paper: 55
 score:
   band: thin
   composite: 43.4
@@ -152,8 +152,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 43.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/appsamurai/refs/heads/main/screenshots/appsamurai-2026-07-25T200844.png
 security:
 - kind: authentication
   name: Appsamurai Authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,7 +86,7 @@ press:
 - date: '2026-04-30'
   title: Global Partners Declares First-Quarter 2026 Cash Distribution of $0.7650  on Common Units
   url: https://www.globalp.com/who-we-are/news-media/global-partners-declares-first-quarter-2026-cash-distribution-of-0-7650-on-common-units
-random_paper: 19
+random_paper: 53
 score:
   band: minimal
   composite: 7.2
@@ -100,7 +100,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/global-partners/refs/heads/main/screenshots/global-partners-2026-06-20T181914.png
 security:

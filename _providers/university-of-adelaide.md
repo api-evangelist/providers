@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -165,7 +165,7 @@ plans:
 - name: University Of Adelaide Plans Pricing
   plan_count: 2
   slug: university-of-adelaide-plans-pricing
-random_paper: 41
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: University Of Adelaide Rate Limits
@@ -195,7 +195,7 @@ scopes:
 score:
   band: developing
   composite: 50.1
-  delta: 1.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 73.5
@@ -203,14 +203,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 26.3
-  previous_composite: 48.6
+  previous_composite: 50.1
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-adelaide/refs/heads/main/screenshots/university-of-adelaide-2026-06-20T200125.png
 security:

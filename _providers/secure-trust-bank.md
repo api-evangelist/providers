@@ -16,7 +16,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 74.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ overview: 'Secure Trust Bank publishes 4 APIs on the [APIs.io](https://apis.io/)
 
 
   Secure Trust Bank''s developer surface includes authentication, engineering blog, support, and 21 more developer resources.'
-random_paper: 44
+random_paper: 27
 scopes:
 - name: Secure Trust Bank Scopes
   scope_count: 3
@@ -162,6 +162,7 @@ scopes:
 score:
   band: thin
   composite: 41.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 54.0
@@ -169,13 +170,15 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 18.4
+  previous_composite: 41.5
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Secure Trust Bank Authentication

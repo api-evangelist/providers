@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ plans:
 - name: Scalability Testing Plans Pricing
   plan_count: 3
   slug: scalability-testing-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Scalability Testing Rate Limits
@@ -161,18 +161,18 @@ rules:
   slug: scalability-testing-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 51.0
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.1
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 49.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalability-testing/refs/heads/main/screenshots/scalability-testing-2026-06-20T193451.png
 security:

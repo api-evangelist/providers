@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -112,26 +112,27 @@ plans:
 - name: Counter Dev Plans Pricing
   plan_count: 2
   slug: counter-dev-plans-pricing
-random_paper: 10
+random_paper: 44
 rate_limits:
 - limit_count: 3
   name: Counter Dev Rate Limits
   slug: counter-dev-rate-limits
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 38.1
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 52.8
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 34.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/counter-dev/refs/heads/main/screenshots/counter-dev-2026-07-25T210507.png
 security:
 - kind: authentication
   name: Counter Dev Authentication

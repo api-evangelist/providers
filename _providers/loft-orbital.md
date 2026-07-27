@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Cockpit is Loft Orbital's mission-control interface for tasking payloads, monitoring telemetry, and downlinking data across Loft's fleet of LEO satellites. Advanced operators can integrate Cockpit int
@@ -91,8 +91,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 16.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/loft-orbital/refs/heads/main/screenshots/loft-orbital-2026-07-25T225454.png
 security:
 - kind: domain-security
   name: Loft Orbital Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -371,7 +371,7 @@ plans:
 - name: Inworld Ai Plans Pricing
   plan_count: 5
   slug: inworld-ai-plans-pricing
-random_paper: 45
+random_paper: 62
 rate_limits:
 - limit_count: 4
   name: Inworld Ai Rate Limits
@@ -402,19 +402,19 @@ rules:
     warn: 5
   slug: inworld-ai-rules
 score:
-  band: strong
-  composite: 67.1
-  delta: 0.0
+  band: exemplar
+  composite: 70.4
+  delta: 3.3
   facets:
     commercial_clarity: 57.9
-    contract_quality: 72.9
+    contract_quality: 78.2
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 60.5
     operational_transparency: 78.9
   previous_composite: 67.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inworld-ai/refs/heads/main/screenshots/inworld-ai-2026-06-20T183526.png
 security:

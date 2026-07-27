@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: 'Real-time, bidirectional read access to Dealertrack DMS data through the Opentrack third-party integration program. Certified vendors can retrieve dealership data domains including vehicle inventory, '
@@ -96,7 +96,7 @@ plans:
 - name: Dealertrack Plans Pricing
   plan_count: 3
   slug: dealertrack-plans-pricing
-random_paper: 32
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Dealertrack Rate Limits
@@ -114,8 +114,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 22.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dealertrack/refs/heads/main/screenshots/dealertrack-2026-07-25T211612.png
 security:
 - kind: domain-security
   name: Dealertrack Domain Security

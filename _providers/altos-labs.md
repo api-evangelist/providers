@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -54,11 +54,11 @@ name: Altos Labs
 nav: Providers
 network: true
 overview: Altos Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Life Sciences, and Longevity.
-random_paper: 41
+random_paper: 58
 score:
   band: minimal
   composite: 11.4
-  delta: 1.9
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -66,15 +66,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 9.5
+  previous_composite: 11.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/altos-labs/refs/heads/main/screenshots/altos-labs-2026-07-25T195840.png
 security:
 - kind: domain-security
   name: Altos Labs Domain Security

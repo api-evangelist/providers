@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 created: '2025'
@@ -37,7 +37,7 @@ name: Security by Design
 nav: Providers
 network: true
 overview: Security by Design is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Best Practices, Development Methodology, Security, and Software Development.
-random_paper: 46
+random_paper: 63
 score:
   band: minimal
   composite: 4.8
@@ -51,7 +51,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: security-by-design
 tags:

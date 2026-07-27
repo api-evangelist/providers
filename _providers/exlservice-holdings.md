@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The ExlService Holdings API provides access to platform services and data for enterprise integration and automation.
@@ -63,7 +63,7 @@ plans:
 - name: Exlservice Holdings Plans Pricing
   plan_count: 1
   slug: exlservice-holdings-plans-pricing
-random_paper: 45
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Exlservice Holdings Rate Limits
@@ -81,7 +81,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 16.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

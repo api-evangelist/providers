@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 19
 common:
@@ -106,7 +106,7 @@ plans:
 - name: Accenture Plans Pricing
   plan_count: 1
   slug: accenture-plans-pricing
-random_paper: 36
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Accenture Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 18.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/accenture/refs/heads/main/screenshots/accenture-2026-06-20T163607.png
 security:

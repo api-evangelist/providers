@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 4
@@ -254,7 +254,7 @@ plans:
 - name: Doe Plans Pricing
   plan_count: 5
   slug: doe-plans-pricing
-random_paper: 6
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Doe Rate Limits
@@ -271,7 +271,7 @@ rules:
 score:
   band: developing
   composite: 46.2
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 47.6
@@ -279,14 +279,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 21.1
-  previous_composite: 47.8
+  previous_composite: 46.2
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doe/refs/heads/main/screenshots/doe-2026-06-20T180122.png
 security:

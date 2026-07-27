@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: The Root API from Octopus Deploy — 1 operation(s) for root.
   name: Octopus Deploy Root API
   slug: octopus-deploy-root-api
-artifact_total: 14
+artifact_total: 15
 collections:
 - collection_type: open
   name: Octopus Deploy REST API
@@ -147,6 +147,10 @@ created: '2026-05-11'
 description: Octopus Deploy is a continuous delivery and release orchestration platform for managing deployments across development, test, and production environments to virtual machines, containers, Kubernetes, and cloud services. The platform handles environments, tenants, runbooks, release promotion, and approvals for both regulated and high-velocity teams. The Octopus REST API provides programmatic access to projects, environments, releases, deployments, runbooks, variables, accounts, and tasks via API-key authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/octopus-deploy.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Octopus Deploy
 nav: Providers
@@ -155,7 +159,7 @@ overview: 'Octopus Deploy publishes 6 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Octopus Deploy''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, CLI, and 13 more developer resources.'
-random_paper: 0
+random_paper: 51
 scopes:
 - name: Octopus Deploy Scopes
   scope_count: 0
@@ -163,18 +167,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 36.8
-  delta: 0.0
+  composite: 40.0
+  delta: 3.2
   facets:
     commercial_clarity: 31.6
     contract_quality: 48.7
     developer_ergonomics: 54.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 36.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/octopus-deploy/refs/heads/main/screenshots/octopus-deploy-2026-06-20T190613.png
 security:

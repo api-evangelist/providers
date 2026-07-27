@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Rolled aluminum sheet, plate, and coil products serving aerospace, automotive, commercial transportation, packaging (can sheet, can end stock, tab stock), and industrial customers. Manufactured at int
@@ -110,7 +110,7 @@ plans:
 - name: Arconic Plans Pricing
   plan_count: 2
   slug: arconic-plans-pricing
-random_paper: 21
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Arconic Rate Limits
@@ -128,7 +128,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arconic/refs/heads/main/screenshots/arconic-2026-06-20T172414.png
 security:

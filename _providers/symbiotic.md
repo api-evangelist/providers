@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 55.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ overview: 'Symbiotic publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Symbiotic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, changelog, and 19 more developer resources.'
-random_paper: 10
+random_paper: 27
 score:
   band: thin
   composite: 34.6
@@ -170,7 +170,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 34.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

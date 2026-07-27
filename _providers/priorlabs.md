@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ overview: 'Prior Labs publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Prior Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 21 more developer resources.'
-random_paper: 5
+random_paper: 22
 score:
   band: developing
   composite: 50.6
@@ -186,7 +186,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 50.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

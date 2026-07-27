@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 35.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Ingest API from CashFlo — 3 operation(s) for ingest.
@@ -110,11 +110,11 @@ overview: 'CashFlo publishes 1 API on the [APIs.io](https://apis.io/) network: I
 
 
   CashFlo''s developer surface includes documentation, API reference, authentication, engineering blog, support, and 11 more developer resources.'
-random_paper: 22
+random_paper: 56
 score:
   band: thin
   composite: 43.5
-  delta: 3.8
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 52.2
@@ -122,15 +122,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 39.7
+  previous_composite: 43.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cashflo/refs/heads/main/screenshots/cashflo-2026-07-25T204721.png
 security:
 - kind: authentication
   name: Cashflo Authentication

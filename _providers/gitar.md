@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ overview: 'Gitar publishes 3 APIs on the [APIs.io](https://apis.io/) network: Gi
 
 
   Gitar''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
-random_paper: 25
+random_paper: 59
 score:
   band: developing
   composite: 52.5
@@ -193,8 +193,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 52.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gitar/refs/heads/main/screenshots/gitar-2026-07-25T215835.png
 security:
 - kind: authentication
   name: Gitar Authentication

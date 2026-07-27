@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -178,11 +178,11 @@ overview: 'Greater Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Greater Bank''s developer surface includes authentication, documentation, getting-started guide, API reference, support, and 19 more developer resources.'
-random_paper: 30
+random_paper: 47
 score:
   band: thin
   composite: 44.3
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 55.8
@@ -190,14 +190,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 42.6
+  previous_composite: 44.3
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/screenshots/greater-bank-2026-07-21T130910.png
 security:

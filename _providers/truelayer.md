@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -55,7 +55,7 @@ apis:
 - description: Refund payments back to users
   name: TrueLayer Refunds API
   slug: truelayer-refunds-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: TrueLayer Payments API
@@ -165,6 +165,10 @@ jsonld:
   property_count: 5
   slug: truelayer-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: TrueLayer
 nav: Providers
@@ -180,7 +184,7 @@ plans:
 - name: Truelayer Plans Pricing
   plan_count: 3
   slug: truelayer-plans-pricing
-random_paper: 20
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Truelayer Rate Limits
@@ -203,24 +207,24 @@ rules:
     warn: 2
   slug: truelayer-rules
 score:
-  band: developing
-  composite: 58.7
-  delta: 0.4
+  band: strong
+  composite: 62.6
+  delta: 3.9
   facets:
     commercial_clarity: 47.4
-    contract_quality: 65.5
+    contract_quality: 70.8
     developer_ergonomics: 50.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
-  previous_composite: 58.3
+  previous_composite: 58.7
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/screenshots/truelayer-2026-06-20T195753.png
 security:

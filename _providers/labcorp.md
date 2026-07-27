@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Labcorp supports HL7 FHIR-based exchange of laboratory orders, results, and diagnostic reports with provider and health-system EHR systems. The interface typically exposes FHIR resources such as Servi
@@ -72,11 +90,31 @@ plans:
 - name: Labcorp Plans Pricing
   plan_count: 2
   slug: labcorp-plans-pricing
-random_paper: 46
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Labcorp Rate Limits
   slug: labcorp-rate-limits
+score:
+  band: emerging
+  composite: 20.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 20.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 21.7
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labcorp/refs/heads/main/screenshots/labcorp-2026-06-20T184236.png
 security:
 - kind: domain-security

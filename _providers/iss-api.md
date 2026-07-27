@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -121,7 +121,7 @@ plans:
 - name: Iss Api Plans
   plan_count: 1
   slug: iss-api-plans
-random_paper: 31
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Iss Api Rate Limits
@@ -148,7 +148,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 43.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/iss-api/refs/heads/main/screenshots/iss-api-2026-06-20T183624.png
 security:

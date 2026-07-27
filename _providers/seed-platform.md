@@ -20,7 +20,7 @@ modified: '2024-11-14'
 name: Seed
 nav: Providers
 network: true
-random_paper: 5
+random_paper: 39
 slug: seed-platform
 tags:
 - Payments

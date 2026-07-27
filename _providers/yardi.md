@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -274,7 +274,7 @@ plans:
 - name: Yardi Plans Pricing
   plan_count: 1
   slug: yardi-plans-pricing
-random_paper: 27
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Yardi Rate Limits
@@ -297,19 +297,19 @@ rules:
     warn: 8
   slug: yardi-rules
 score:
-  band: developing
-  composite: 59.7
-  delta: 0.0
+  band: strong
+  composite: 62.9
+  delta: 3.2
   facets:
     commercial_clarity: 63.2
     contract_quality: 67.3
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 42.1
   previous_composite: 59.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/screenshots/yardi-2026-06-20T201730.png
 security:

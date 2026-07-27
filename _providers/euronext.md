@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: On-demand real-time, delayed, and reference market data over HTTP in JSON (REST) covering equities, fixed income, ETFs and funds, warrants and certificates, derivatives, commodities, and indices, with
@@ -134,11 +134,11 @@ overview: 'Euronext publishes 5 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Euronext''s developer surface includes authentication, changelog, sandbox, getting-started guide, developer portal, documentation, engineering blog, and 12 more developer resources.'
-random_paper: 23
+random_paper: 6
 score:
   band: thin
   composite: 30.4
-  delta: 4.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -146,14 +146,14 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 26.2
+  previous_composite: 30.4
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/euronext/refs/heads/main/screenshots/euronext-2026-07-22T202350.png
 security:

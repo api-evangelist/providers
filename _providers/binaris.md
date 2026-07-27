@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -61,7 +61,7 @@ overview: 'Binaris is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Binaris'' developer surface includes CLI and 4 more developer resources.'
-random_paper: 30
+random_paper: 64
 score:
   band: minimal
   composite: 10.0
@@ -75,8 +75,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/binaris/refs/heads/main/screenshots/binaris-2026-07-25T203008.png
 slug: binaris
 tags:
 - Company

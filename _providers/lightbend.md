@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 5
 common:
@@ -182,7 +182,7 @@ overview: 'Lightbend is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Lightbend''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 27 more developer resources.'
-random_paper: 27
+random_paper: 61
 score:
   band: thin
   composite: 40.0
@@ -196,8 +196,9 @@ score:
     operational_transparency: 55.3
   previous_composite: 40.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lightbend/refs/heads/main/screenshots/lightbend-2026-07-25T225107.png
 security:
 - kind: authentication
   name: Lightbend Authentication

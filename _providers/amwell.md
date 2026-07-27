@@ -1,0 +1,144 @@
+---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 9.6
+  scored_at: '2026-07-27'
+api_count: 3
+apis:
+- description: Amwell's Converge platform REST APIs, which leverage HL7 FHIR and single sign-on, let partners embed and orchestrate virtual care — urgent, scheduled, behavioral, and specialty visits — into their own
+  name: Amwell Converge Platform API
+  slug: amwell-converge-platform-api
+- description: Amwell's embedded telehealth software development kits for iOS, Android, and web, enabling organizations to plug live virtual visits directly into their own consumer and clinical applications. SDK doc
+  name: Amwell Telehealth SDK
+  slug: amwell-telehealth-sdk
+- description: Amwell's verified embedded-telehealth integrations for the Epic and Oracle Cerner electronic health records, using single sign-on and FHIR-based workflows to launch virtual visits from within existing
+  name: Amwell EHR Integration
+  slug: amwell-ehr-integration
+artifact_total: 5
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/amwell-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.amwell.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.amwell.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://business.amwell.com/the-amwell-platform
+- group: company
+  title: ''
+  type: Blog
+  url: https://business.amwell.com/blog
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.amwell.com
+- group: operate
+  title: ''
+  type: Support
+  url: https://business.amwell.com/contact-us/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://business.amwell.com/privacy-policy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://business.amwell.com/terms-of-use/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/amwell
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/amwell-authentication.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/amwell-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://business.amwell.com/government/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/amwell-llms.txt
+created: '2026-07-24'
+description: Amwell (American Well) is a United States telehealth and hybrid-care technology company headquartered in Boston, Massachusetts, whose Converge platform delivers virtual and in-person care at scale for health systems, health plans, and government programs. Converge is built on an open architecture whose APIs leverage HL7 FHIR, single sign-on, and embedded telehealth mobile and web SDKs (iOS, Android, web) so partners can plug urgent, scheduled, behavioral, and specialty virtual visits directly into their own consumer apps, patient portals, and clinical workflows. Amwell ships verified embedded-telehealth integrations with the Epic and Oracle Cerner EHRs and connects software-enabled Carepoint devices. The developer surface is a gated partner developer portal (developers.amwell.com) — the REST/FHIR API reference, SDKs, and sandbox sit behind a partner login rather than an anonymous public spec.
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+layout: provider
+modified: '2026-07-24'
+name: Amwell
+nav: Providers
+network: true
+overview: 'Amwell publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, United States, Telehealth, Virtual Care, and FHIR.
+
+
+  Amwell''s developer surface includes documentation, engineering blog, support, authentication, and 10 more developer resources.'
+random_paper: 30
+score:
+  band: emerging
+  composite: 29.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 34.8
+    discoverability: 87.5
+    governance: 0.0
+    operational_transparency: 15.8
+  previous_composite: 29.8
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 65.2
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/amwell/refs/heads/main/screenshots/amwell-2026-07-25T200143.png
+security:
+- kind: authentication
+  name: Amwell Authentication
+  slug: amwell-authentication
+  summary_line: oauth2/openIdConnect/saml · 4 schemes
+- kind: domain-security
+  name: Amwell Domain Security
+  slug: amwell-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: amwell
+tags:
+- Healthcare
+- United States
+- Telehealth
+- Virtual Care
+- FHIR
+- HL7
+- Interoperability
+- EHR
+- SDK
+website: https://www.amwell.com
+---

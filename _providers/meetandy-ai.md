@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,7 +93,7 @@ overview: 'MeetAndy AI is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   MeetAndy AI''s developer surface includes documentation, getting-started guide, signup flow, changelog, and 8 more developer resources.'
-random_paper: 31
+random_paper: 14
 score:
   band: emerging
   composite: 23.3
@@ -107,7 +107,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 23.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Drug Enforcement Administration (DEA) Registration File API for Web Developers (on the Internet) (25,000 Inquiries). DEA25000. Publication Date: 2006: Page Count: 0: Abstract: The DEA API (Application'
@@ -59,7 +59,7 @@ plans:
 - name: Drug Enforcement Administration Plans Pricing
   plan_count: 3
   slug: drug-enforcement-administration-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Drug Enforcement Administration Rate Limits
@@ -77,7 +77,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 18.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drug-enforcement-administration/refs/heads/main/screenshots/drug-enforcement-administration-2026-06-20T180253.png
 security:

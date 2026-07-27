@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: 'Programmatic access to Bloomberg''s secure IB messaging network for sending and receiving messages within the Bloomberg Terminal ecosystem. Supports integration with trading and compliance systems for '
@@ -94,7 +94,7 @@ plans:
 - name: Bloomberg Instant Messaging Plans Pricing
   plan_count: 3
   slug: bloomberg-instant-messaging-plans-pricing
-random_paper: 16
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Bloomberg Instant Messaging Rate Limits
@@ -112,7 +112,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 28.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-instant-messaging/refs/heads/main/screenshots/bloomberg-instant-messaging-2026-06-20T173443.png
 security:

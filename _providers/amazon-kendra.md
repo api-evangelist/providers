@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -335,7 +335,7 @@ plans:
 - name: Amazon Kendra Plans Pricing
   plan_count: 3
   slug: amazon-kendra-plans-pricing
-random_paper: 45
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Amazon Kendra Rate Limits
@@ -359,19 +359,19 @@ rules:
   slug: amazon-kendra-spectral-rules
 score:
   band: exemplar
-  composite: 72.9
-  delta: 0.0
+  composite: 78.3
+  delta: 5.4
   facets:
     commercial_clarity: 86.8
-    contract_quality: 70.4
+    contract_quality: 79.2
     developer_ergonomics: 69.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 72.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-kendra/refs/heads/main/screenshots/amazon-kendra-2026-06-20T171715.png
 security:
 - kind: authentication

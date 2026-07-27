@@ -8,6 +8,24 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,7 +73,22 @@ overview: 'Drexel University is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Drexel University''s developer surface includes developer portal, GitHub presence, and 6 more developer resources.'
-random_paper: 47
+random_paper: 43
+score:
+  band: minimal
+  composite: 7.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 55.0
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 7.9
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drexel-university/refs/heads/main/screenshots/drexel-university-2026-06-20T180224.png
 security:
 - kind: domain-security

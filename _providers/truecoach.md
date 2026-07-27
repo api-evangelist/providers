@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -98,11 +98,11 @@ overview: 'TrueCoach is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   TrueCoach''s developer surface includes support, engineering blog, pricing, signup flow, authentication, and 9 more developer resources.'
-random_paper: 40
+random_paper: 6
 score:
   band: emerging
   composite: 25.0
-  delta: 5.1
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -110,15 +110,15 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 19.9
+  previous_composite: 25.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Truecoach Authentication

@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: medium
-  generated: '2026-07-22'
   label: Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: unknown
   public: false
@@ -11,17 +9,288 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: true
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 90.4
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 57
+  human_in_the_loop: 0
+  name: Total Expert Agentic Access
+  operation_count: 129
+  slug: total-expert-agentic-access
+  summary_line: 129 operations · 57 acting
 api_count: 17
-artifact_total: 0
+apis:
+- description: The Account Endpoints API from Total Expert — 7 operation(s) for account endpoints.
+  name: Total Expert Account Endpoints API
+  slug: total-expert-account-endpoints-api
+- description: The Activity Endpoints API from Total Expert — 2 operation(s) for activity endpoints.
+  name: Total Expert Activity Endpoints API
+  slug: total-expert-activity-endpoints-api
+- description: The ALM Leads (formerly Lead Opportunities) API from Total Expert — 2 operation(s) for alm leads (formerly lead opportunities).
+  name: Total Expert ALM Leads (formerly Lead Opportunities) API
+  slug: total-expert-alm-leads-formerly-lead-opportunities-api
+- description: The Authentication API from Total Expert — 1 operation(s) for authentication.
+  name: Total Expert Authentication API
+  slug: total-expert-authentication-api
+- description: The Contact Endpoints API from Total Expert — 21 operation(s) for contact endpoints.
+  name: Total Expert Contact Endpoints API
+  slug: total-expert-contact-endpoints-api
+- description: The Email APIs API from Total Expert — 4 operation(s) for email apis.
+  name: Total Expert Email APIs API
+  slug: total-expert-email-apis-api
+- description: The Email Unsubscribes API from Total Expert — 3 operation(s) for email unsubscribes.
+  name: Total Expert Email Unsubscribes API
+  slug: total-expert-email-unsubscribes-api
+- description: The Entities API from Total Expert — 3 operation(s) for entities.
+  name: Total Expert Entities API
+  slug: total-expert-entities-api
+- description: The Heartbeat API from Total Expert — 2 operation(s) for heartbeat.
+  name: Total Expert Heartbeat API
+  slug: total-expert-heartbeat-api
+- description: The Insight Endpoints API from Total Expert — 3 operation(s) for insight endpoints.
+  name: Total Expert Insight Endpoints API
+  slug: total-expert-insight-endpoints-api
+- description: The Lead Opportunities (New) API from Total Expert — 2 operation(s) for lead opportunities (new).
+  name: Total Expert Lead Opportunities (New) API
+  slug: total-expert-lead-opportunities-new-api
+- description: The Loan Endpoints API from Total Expert — 10 operation(s) for loan endpoints.
+  name: Total Expert Loan Endpoints API
+  slug: total-expert-loan-endpoints-api
+- description: The Scenarios API from Total Expert — 2 operation(s) for scenarios.
+  name: Total Expert Scenarios API
+  slug: total-expert-scenarios-api
+- description: The Schema Endpoints API from Total Expert — 2 operation(s) for schema endpoints.
+  name: Total Expert Schema Endpoints API
+  slug: total-expert-schema-endpoints-api
+- description: The SMS Opting API from Total Expert — 2 operation(s) for sms opting.
+  name: Total Expert SMS Opting API
+  slug: total-expert-sms-opting-api
+- description: The User Endpoints API from Total Expert — 9 operation(s) for user endpoints.
+  name: Total Expert User Endpoints API
+  slug: total-expert-user-endpoints-api
+- description: The Webhooks API from Total Expert — 3 operation(s) for webhooks.
+  name: Total Expert Webhooks API
+  slug: total-expert-webhooks-api
+artifact_total: 26
+asyncapis:
+- description: ''
+  name: Total Expert Webhooks
+  slug: total-expert-webhooks
+collections:
+- collection_type: postman
+  name: Total Expert Public API
+  slug: postman-total-expert-public-api
+common:
+- group: company
+  title: ''
+  type: Website
+  url: https://www.totalexpert.com
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.totalexpert.net
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://documenter.getpostman.com/view/1929166/total-expert-public-api/6Z2RYyU
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://documenter.getpostman.com/view/1929166/total-expert-public-api/6Z2RYyU
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://public.totalexpert.net/v1/docs/Getting+Started.pdf
+- group: build
+  title: ''
+  type: Postman
+  url: https://documenter.getpostman.com/view/1929166/total-expert-public-api/6Z2RYyU
+- group: operate
+  title: ''
+  type: Support
+  url: https://www.totalexpert.com/services/support
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.totalexpert.com/resources/blog
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/TotalExpert
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.totalexpert.com
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.totalexpert.com/terms-of-service
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.totalexpert.com/privacy-policy
+- group: auth
+  title: ''
+  type: Compliance
+  url: https://www.totalexpert.com/security
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/total-expert-trust-center.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/total-expert-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/total-expert-scopes.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/total-expert-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/total-expert-domain-security.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/total-expert-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/total-expert-well-known.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/total-expert-mcp.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/total-expert-llms.txt
+- group: other
+  title: ''
+  type: Overlay
+  url: overlays/total-expert-openapi-overlay.yaml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/total-expert-conformance.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/total-expert-problem-types.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/total-expert-lifecycle.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/total-expert-sandbox.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/total-expert-conventions.yml
+- group: design
+  title: ''
+  type: Idempotency
+  url: conventions/total-expert-conventions.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/total-expert-rate-limits.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/total-expert-webhooks.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/total-expert-data-model.yml
 created: '2026-07-17'
 description: Total Expert is a fintech CRM and customer-engagement platform built for banks, credit unions, lenders, and mortgage companies. Its Public API is a REST/JSON surface at public.totalexpert.net/v1, secured with OAuth 2.0 (client-credentials for admin integrations, authorization-code for user-level access), covering contacts, leads, loans, insights, surveys, campaigns, users, teams, accounts, and webhook subscriptions, with documented deduplication, pagination, and rate-limit contracts and an isolated sandbox environment for integration partners.
 image: https://developer.totalexpert.net/img/Total-Expert-Logo-Color.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: total-expert-mcp.yml
+  slug: total-expert-mcpyml
 modified: '2026-07-21'
 name: Total Expert
 nav: Providers
 network: true
+overview: 'Total Expert publishes 17 APIs on the [APIs.io](https://apis.io/) network, including Account Endpoints API, Activity Endpoints API, ALM Leads (formerly Lead Opportunities) API, and 14 more. Tagged areas include Company, Fintech, CRM, Marketing Automation, and Mortgage.
+
+
+  The Total Expert catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Total Expert''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 26 more developer resources.'
 random_paper: 33
+rate_limits:
+- limit_count: 2
+  name: Total Expert Rate Limits
+  slug: total-expert-rate-limits
+scopes:
+- name: Total Expert Scopes
+  scope_count: 5
+  slug: total-expert-scopes
+  summary_line: 5 scopes · clientCredentials/authorizationCode
+score:
+  band: strong
+  composite: 61.1
+  delta: 2.8
+  facets:
+    commercial_clarity: 36.8
+    contract_quality: 67.9
+    developer_ergonomics: 78.3
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 50.0
+  previous_composite: 58.3
+  regulatory:
+    applies: true
+    regime: Banking & Open Finance
+    regime_id: banking_open_finance
+    score: 87.0
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+security:
+- kind: authentication
+  name: Total Expert Authentication
+  slug: total-expert-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Total Expert Domain Security
+  slug: total-expert-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Total Expert Trust Center
+  slug: total-expert-trust-center
+  summary_line: SOC 2, ISO 27001
 slug: total-expert
 tags:
 - Company
@@ -32,4 +301,5 @@ tags:
 - Banking
 - Lending
 - Customer Engagement
+website: https://www.totalexpert.com
 ---

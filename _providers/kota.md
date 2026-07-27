@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -317,7 +317,7 @@ random_paper: 23
 score:
   band: strong
   composite: 61.8
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 65.2
@@ -325,15 +325,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 58.9
+  previous_composite: 61.8
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kota/refs/heads/main/screenshots/kota-2026-07-25T224240.png
 security:
 - kind: authentication
   name: Kota Authentication

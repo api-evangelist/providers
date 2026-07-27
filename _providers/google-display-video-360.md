@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -137,7 +137,7 @@ plans:
 - name: Google Display Video 360 Plans Pricing
   plan_count: 3
   slug: google-display-video-360-plans-pricing
-random_paper: 25
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Google Display Video 360 Rate Limits
@@ -157,19 +157,19 @@ scopes:
   slug: google-display-video-360-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 58.8
-  delta: 0.0
+  band: strong
+  composite: 63.3
+  delta: 4.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 56.6
+    contract_quality: 61.9
     developer_ergonomics: 43.5
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 58.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-display-video-360/refs/heads/main/screenshots/google-display-video-360-2026-06-20T182156.png
 security:

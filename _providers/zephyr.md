@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The Zephyr kernel C API exposes scheduling, threading, synchronization, memory management, and timer services for real-time embedded applications. It is the foundation that device drivers and applicat
@@ -148,7 +148,7 @@ plans:
 - name: Zephyr Plans Pricing
   plan_count: 3
   slug: zephyr-plans-pricing
-random_paper: 11
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Zephyr Rate Limits
@@ -166,7 +166,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 43.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zephyr/refs/heads/main/screenshots/zephyr-2026-06-20T201826.png
 security:

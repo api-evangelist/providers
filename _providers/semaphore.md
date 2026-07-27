@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 3
@@ -164,7 +164,7 @@ plans:
 - name: Semaphore Plans Pricing
   plan_count: 4
   slug: semaphore-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 6
   name: Semaphore Rate Limits
@@ -182,7 +182,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 48.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semaphore/refs/heads/main/screenshots/semaphore-2026-06-20T193644.png
 security:

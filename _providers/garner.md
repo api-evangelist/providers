@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 43.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: The Facilities API from Garner — 1 operation(s) for facilities.
@@ -127,7 +127,7 @@ random_paper: 27
 score:
   band: thin
   composite: 44.9
-  delta: 3.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 57.1
@@ -135,15 +135,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 41.4
+  previous_composite: 44.9
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/garner/refs/heads/main/screenshots/garner-2026-07-25T215448.png
 security:
 - kind: authentication
   name: Garner Authentication

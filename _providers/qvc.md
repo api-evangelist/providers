@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -62,7 +62,7 @@ name: QVC
 nav: Providers
 network: true
 overview: QVC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Ecommerce, Television Shopping, and Fortune 500.
-random_paper: 24
+random_paper: 58
 score:
   band: minimal
   composite: 6.2
@@ -76,7 +76,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qvc/refs/heads/main/screenshots/qvc-2026-06-20T192456.png
 security:

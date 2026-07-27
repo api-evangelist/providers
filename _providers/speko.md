@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 63.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -161,7 +161,7 @@ overview: 'Speko publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Speko''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, support, and 15 more developer resources.'
-random_paper: 36
+random_paper: 2
 score:
   band: developing
   composite: 55.6
@@ -175,7 +175,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 55.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

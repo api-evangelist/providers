@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -81,11 +81,11 @@ overview: 'Cyberpsyc is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cyberpsyc''s developer surface includes support, engineering blog, getting-started guide, and 7 more developer resources.'
-random_paper: 11
+random_paper: 28
 score:
   band: emerging
   composite: 23.4
-  delta: 3.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -93,15 +93,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.2
+  previous_composite: 23.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cyberpsyc/refs/heads/main/screenshots/cyberpsyc-2026-07-25T211024.png
 security:
 - kind: domain-security
   name: Cyberpsyc Domain Security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 15.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: Monitor and retrieve data across social platforms (X, Instagram, Intercom, and more); apply filters, configure alerts, and track API usage.
@@ -176,7 +176,7 @@ overview: 'Lucidya Ltd publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Lucidya Ltd''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 20 more developer resources.'
-random_paper: 45
+random_paper: 28
 score:
   band: developing
   composite: 45.4
@@ -190,8 +190,9 @@ score:
     operational_transparency: 55.3
   previous_composite: 45.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lucidya-ltd/refs/heads/main/screenshots/lucidya-ltd-2026-07-25T225641.png
 security:
 - kind: authentication
   name: Lucidya Ltd Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -164,23 +164,23 @@ rules:
   slug: smithsonian-rules
 score:
   band: developing
-  composite: 45.4
-  delta: -1.4
+  composite: 48.1
+  delta: 2.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 65.5
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
-  previous_composite: 46.8
+  previous_composite: 45.4
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/smithsonian-institution/refs/heads/main/screenshots/smithsonian-institution-2026-06-20T194059.png
 security:

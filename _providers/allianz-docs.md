@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 45.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -309,7 +309,7 @@ overview: 'Allianz publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Allianz''s developer surface includes authentication, support, engineering blog, and 9 more developer resources.'
-random_paper: 44
+random_paper: 61
 rules:
 - name: Allianz API Rules
   rule_count: 5
@@ -335,7 +335,7 @@ scopes:
 score:
   band: developing
   composite: 45.7
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 80.5
@@ -343,15 +343,16 @@ score:
     discoverability: 87.5
     governance: 86.8
     operational_transparency: 5.3
-  previous_composite: 43.5
+  previous_composite: 45.7
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-docs/refs/heads/main/screenshots/allianz-docs-2026-07-25T195659.png
 security:
 - kind: authentication
   name: Allianz Docs Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: RESTful management API for JBoss Enterprise Application Platform (EAP) administration and monitoring of server configuration, deployments, and runtime state.
@@ -94,7 +94,7 @@ plans:
 - name: Jboss Plans Pricing
   plan_count: 3
   slug: jboss-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Jboss Rate Limits
@@ -112,7 +112,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 36.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jboss/refs/heads/main/screenshots/jboss-2026-06-20T183710.png
 security:

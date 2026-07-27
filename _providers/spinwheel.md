@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -124,30 +124,30 @@ plans:
 - name: Spinwheel Plans Pricing
   plan_count: 2
   slug: spinwheel-plans-pricing
-random_paper: 6
+random_paper: 23
 rate_limits:
 - limit_count: 4
   name: Spinwheel Rate Limits
   slug: spinwheel-rate-limits
 score:
   band: thin
-  composite: 32.3
-  delta: -1.1
+  composite: 35.0
+  delta: 2.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 49.6
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 33.4
+  previous_composite: 32.3
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spinwheel/refs/heads/main/screenshots/spinwheel-2026-06-20T194318.png
 security:

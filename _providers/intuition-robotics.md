@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 15.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,11 +77,11 @@ overview: 'Intuition Robotics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Intuition Robotics'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 22
+random_paper: 5
 score:
   band: emerging
   composite: 15.7
-  delta: 2.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -89,15 +89,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.2
+  previous_composite: 15.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/intuition-robotics/refs/heads/main/screenshots/intuition-robotics-2026-07-25T222727.png
 security:
 - kind: domain-security
   name: Intuition Robotics Domain Security

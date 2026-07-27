@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 80
   human_in_the_loop: 0
@@ -277,7 +277,7 @@ plans:
 - name: Magicbell Plans Pricing
   plan_count: 3
   slug: magicbell-plans-pricing
-random_paper: 10
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Magicbell Rate Limits
@@ -304,7 +304,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 56.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magicbell/refs/heads/main/screenshots/magicbell-2026-06-20T184842.png
 security:

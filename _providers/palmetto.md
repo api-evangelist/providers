@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Submit customers, designs and pricing into Palmetto's transparent, auditable clean-energy fulfillment pipeline.
@@ -178,7 +178,7 @@ overview: 'Palmetto publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Palmetto''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 21 more developer resources.'
-random_paper: 3
+random_paper: 54
 score:
   band: developing
   composite: 52.2
@@ -192,7 +192,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 52.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

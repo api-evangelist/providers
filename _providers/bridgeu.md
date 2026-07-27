@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ overview: 'BridgeU is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   BridgeU''s developer surface includes signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 24
+random_paper: 58
 score:
   band: emerging
   composite: 15.6
@@ -91,8 +91,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 15.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bridgeu/refs/heads/main/screenshots/bridgeu-2026-07-25T203817.png
 security:
 - kind: domain-security
   name: Bridgeu Domain Security

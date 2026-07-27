@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -141,7 +141,7 @@ press:
 - date: '2026-05-25'
   title: Cracker Barrel introduced a new look this week, but it was ...
   url: https://www.facebook.com/KTSM9News/posts/cracker-barrel-introduced-a-new-look-this-week-but-it-was-met-with-backlash-and-/1185710306926708/
-random_paper: 45
+random_paper: 11
 score:
   band: minimal
   composite: 10.2
@@ -155,7 +155,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cracker-barrel-old-country-store/refs/heads/main/screenshots/cracker-barrel-old-country-store-2026-06-20T175201.png
 security:

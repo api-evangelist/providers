@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,7 +78,7 @@ press:
 - date: '2026-05-25'
   title: FirstEnergy Looks To Capture Long-Term Growth Amid AI ...
   url: https://www.investors.com/research/the-income-investor/firstenergy-stock-fe-ai-dividend-yield-earnings-growth-markets-investing/
-random_paper: 29
+random_paper: 46
 score:
   band: minimal
   composite: 9.7
@@ -92,7 +92,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firstenergy/refs/heads/main/screenshots/firstenergy-2026-06-20T181242.png
 security:

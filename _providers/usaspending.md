@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -104,30 +104,30 @@ overview: 'USAspending.gov publishes 9 APIs on the [APIs.io](https://apis.io/) n
 
 
   USAspending.gov''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 12
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Usaspending Rate Limits
   slug: usaspending-rate-limits
 score:
   band: emerging
-  composite: 24.3
-  delta: -2.0
+  composite: 27.1
+  delta: 2.8
   facets:
     commercial_clarity: 0.0
     contract_quality: 52.2
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 26.3
+  previous_composite: 24.3
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

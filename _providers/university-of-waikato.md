@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: 'DSpace 7.6.5 REST API for the University of Waikato''s Research Commons open access institutional repository, providing programmatic access to communities, collections, items, bitstreams and discovery '
@@ -114,7 +114,7 @@ plans:
 - name: University Of Waikato Plans Pricing
   plan_count: 2
   slug: university-of-waikato-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: University Of Waikato Rate Limits
@@ -132,7 +132,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-waikato/refs/heads/main/screenshots/university-of-waikato-2026-06-20T200327.png
 security:

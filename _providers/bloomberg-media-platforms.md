@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Access Bloomberg's real-time financial news, market reports, and editorial content through Bloomberg's news data feeds. Available to Bloomberg Terminal subscribers and enterprise data license clients.
@@ -98,7 +98,7 @@ plans:
 - name: Bloomberg Media Platforms Plans Pricing
   plan_count: 3
   slug: bloomberg-media-platforms-plans-pricing
-random_paper: 40
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Bloomberg Media Platforms Rate Limits
@@ -116,8 +116,9 @@ score:
     operational_transparency: 36.8
   previous_composite: 29.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-media-platforms/refs/heads/main/screenshots/bloomberg-media-platforms-2026-07-25T203403.png
 security:
 - kind: domain-security
   name: Bloomberg Media Platforms Domain Security

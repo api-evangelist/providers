@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 68.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -502,7 +502,7 @@ plans:
 - name: Nanonets Plans Pricing
   plan_count: 3
   slug: nanonets-plans-pricing
-random_paper: 3
+random_paper: 54
 rate_limits:
 - limit_count: 3
   name: Nanonets Rate Limits
@@ -526,18 +526,18 @@ rules:
   slug: nanonets-rules
 score:
   band: strong
-  composite: 64.1
-  delta: 0.0
+  composite: 66.7
+  delta: 2.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 62.3
+    contract_quality: 67.6
     developer_ergonomics: 67.4
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 44.7
   previous_composite: 64.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nanonets/refs/heads/main/screenshots/nanonets-2026-06-20T185940.png
 security:

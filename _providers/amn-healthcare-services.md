@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -42,7 +42,7 @@ name: AMN Healthcare Services
 nav: Providers
 network: true
 overview: AMN Healthcare Services is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 20
+random_paper: 3
 score:
   band: minimal
   composite: 3.5
@@ -56,7 +56,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amn-healthcare-services/refs/heads/main/screenshots/amn-healthcare-services-2026-06-20T171934.png
 slug: amn-healthcare-services

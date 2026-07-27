@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ plans:
 - name: Easypost Plans Pricing
   plan_count: 5
   slug: easypost-plans-pricing
-random_paper: 21
+random_paper: 4
 rate_limits:
 - limit_count: 2
   name: Easypost Rate Limits
@@ -171,24 +171,25 @@ rules:
   slug: easypost-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 45.3
-  delta: -1.5
+  composite: 48.1
+  delta: 2.8
   facets:
     commercial_clarity: 47.4
     contract_quality: 62.1
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 60.5
     operational_transparency: 26.3
-  previous_composite: 46.8
+  previous_composite: 45.3
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/easypost/refs/heads/main/screenshots/easypost-2026-07-25T212719.png
 security:
 - kind: authentication
   name: Easypost Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -112,25 +112,25 @@ plans:
 - name: Unrealspeech Plans Pricing
   plan_count: 6
   slug: unrealspeech-plans-pricing
-random_paper: 4
+random_paper: 55
 rate_limits:
 - limit_count: 7
   name: Unrealspeech Rate Limits
   slug: unrealspeech-rate-limits
 score:
   band: thin
-  composite: 38.8
-  delta: 0.0
+  composite: 42.1
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.9
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 38.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

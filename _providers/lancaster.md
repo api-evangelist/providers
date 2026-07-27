@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ plans:
 - name: Lancaster Plans Pricing
   plan_count: 2
   slug: lancaster-plans-pricing
-random_paper: 39
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Lancaster Rate Limits
@@ -166,7 +166,7 @@ rules:
 score:
   band: thin
   composite: 42.1
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 64.6
@@ -174,14 +174,14 @@ score:
     discoverability: 87.5
     governance: 73.7
     operational_transparency: 26.3
-  previous_composite: 42.9
+  previous_composite: 42.1
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lancaster/refs/heads/main/screenshots/lancaster-2026-06-20T184256.png
 security:

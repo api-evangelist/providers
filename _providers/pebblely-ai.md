@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: AI-powered product photo generation and image editing API enabling programmatic creation of professional product photography, background removal, and stylized image variations from a single product im
@@ -82,7 +82,7 @@ plans:
 - name: Pebblely Ai Plans Pricing
   plan_count: 3
   slug: pebblely-ai-plans-pricing
-random_paper: 23
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Pebblely Ai Rate Limits
@@ -100,7 +100,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 20.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pebblely-ai/refs/heads/main/screenshots/pebblely-ai-2026-06-20T191523.png
 security:

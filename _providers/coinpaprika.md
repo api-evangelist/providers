@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ overview: 'CoinPaprika publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   CoinPaprika''s developer surface includes documentation, engineering blog, pricing, and 11 more developer resources.'
-random_paper: 47
+random_paper: 13
 rules:
 - name: CoinPaprika API Rules
   rule_count: 5
@@ -159,7 +159,7 @@ rules:
 score:
   band: thin
   composite: 33.9
-  delta: -1.4
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 37.7
@@ -167,14 +167,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 21.1
-  previous_composite: 35.3
+  previous_composite: 33.9
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinpaprika/refs/heads/main/screenshots/coinpaprika-2026-06-20T174741.png
 security:

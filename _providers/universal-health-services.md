@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,11 +81,11 @@ press:
 - date: '2026-05-25'
   title: UHS News Releases | UHS, King of Prussia, PA
   url: https://uhs.com/news-releases/
-random_paper: 23
+random_paper: 57
 score:
   band: minimal
   composite: 12.2
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 20.8
@@ -93,14 +93,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.4
+  previous_composite: 12.2
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 10.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: universal-health-services
 tags:

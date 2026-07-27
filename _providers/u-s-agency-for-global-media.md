@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'The Open Technology Fund (OTF) is a U.S. government-funded independent nonprofit that supports the development of open-source internet freedom technologies to advance human rights and open societies. '
@@ -104,11 +122,26 @@ plans:
 - name: U S Agency For Global Media Plans Pricing
   plan_count: 3
   slug: u-s-agency-for-global-media-plans-pricing
-random_paper: 32
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: U S Agency For Global Media Rate Limits
   slug: u-s-agency-for-global-media-rate-limits
+score:
+  band: emerging
+  composite: 27.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 20.8
+    developer_ergonomics: 2.2
+    discoverability: 80.0
+    governance: 13.2
+    operational_transparency: 36.8
+  previous_composite: 27.9
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-agency-for-global-media/refs/heads/main/screenshots/u-s-agency-for-global-media-2026-06-20T195915.png
 security:
 - kind: domain-security

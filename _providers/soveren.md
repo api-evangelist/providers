@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ overview: 'Soveren publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Soveren''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 5
+random_paper: 22
 score:
   band: developing
   composite: 47.0
@@ -196,7 +196,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 47.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

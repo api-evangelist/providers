@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -122,26 +122,27 @@ plans:
 - name: Linearb Plans Pricing
   plan_count: 3
   slug: linearb-plans-pricing
-random_paper: 19
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Linearb Rate Limits
   slug: linearb-rate-limits
 score:
   band: thin
-  composite: 36.7
-  delta: 0.0
+  composite: 40.0
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 52.7
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 36.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/linearb/refs/heads/main/screenshots/linearb-2026-07-25T225235.png
 security:
 - kind: authentication
   name: Linearb Authentication

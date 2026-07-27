@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -1835,7 +1835,7 @@ plans:
 - name: Dynatrace Plans Pricing
   plan_count: 12
   slug: dynatrace-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 6
   name: Dynatrace Rate Limits
@@ -1872,18 +1872,18 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: exemplar
-  composite: 78.3
-  delta: 0.0
+  composite: 83.0
+  delta: 4.7
   facets:
     commercial_clarity: 78.9
-    contract_quality: 84.1
+    contract_quality: 92.9
     developer_ergonomics: 78.3
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 78.9
   previous_composite: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dynatrace/refs/heads/main/screenshots/dynatrace-2026-06-20T180345.png
 security:

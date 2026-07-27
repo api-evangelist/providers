@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -203,25 +203,25 @@ plans:
 - name: Fargate Plans Pricing
   plan_count: 3
   slug: fargate-plans-pricing
-random_paper: 16
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Fargate Rate Limits
   slug: fargate-rate-limits
 score:
   band: strong
-  composite: 60.9
-  delta: 0.0
+  composite: 64.1
+  delta: 3.2
   facets:
     commercial_clarity: 78.9
     contract_quality: 60.2
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 78.9
   previous_composite: 60.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fargate/refs/heads/main/screenshots/fargate-2026-06-20T181042.png
 security:

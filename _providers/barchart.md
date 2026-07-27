@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 80.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ apis:
 - description: Current conditions and forecasts.
   name: Barchart Weather API
   slug: barchart-weather-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: Barchart OnDemand API
@@ -220,6 +220,10 @@ finops:
   slug: barchart-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/barchart.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: barchart-mcp.yml
+  slug: barchart-mcpyml
 modified: '2026-07-22'
 name: Barchart
 nav: Providers
@@ -238,24 +242,24 @@ rate_limits:
   name: Barchart Rate Limits
   slug: barchart-rate-limits
 score:
-  band: developing
-  composite: 58.6
-  delta: -0.8
+  band: strong
+  composite: 61.4
+  delta: 2.8
   facets:
     commercial_clarity: 84.2
     contract_quality: 61.9
     developer_ergonomics: 67.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 59.4
+  previous_composite: 58.6
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

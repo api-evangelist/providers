@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Scispot Plans Pricing
   plan_count: 3
   slug: scispot-plans-pricing
-random_paper: 8
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Scispot Rate Limits
@@ -160,23 +160,23 @@ rules:
   slug: scispot-rules
 score:
   band: developing
-  composite: 48.6
-  delta: -2.1
+  composite: 52.5
+  delta: 3.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.0
+    contract_quality: 73.3
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 31.6
-  previous_composite: 50.7
+  previous_composite: 48.6
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scispot/refs/heads/main/screenshots/scispot-2026-06-20T193537.png
 security:

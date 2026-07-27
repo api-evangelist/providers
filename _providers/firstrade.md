@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -137,7 +137,7 @@ rate_limits:
 score:
   band: thin
   composite: 40.2
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 57.9
@@ -145,14 +145,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 39.6
+  previous_composite: 40.2
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/firstrade/refs/heads/main/screenshots/firstrade-2026-06-20T181243.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -234,7 +234,7 @@ plans:
 - name: Coingecko Plans Pricing
   plan_count: 5
   slug: coingecko-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 9
   name: Coingecko Rate Limits
@@ -266,23 +266,23 @@ rules:
   slug: coingecko-rules
 score:
   band: strong
-  composite: 60.9
-  delta: -1.2
+  composite: 63.7
+  delta: 2.8
   facets:
     commercial_clarity: 84.2
     contract_quality: 73.6
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 52.6
-  previous_composite: 62.1
+  previous_composite: 60.9
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coingecko/refs/heads/main/screenshots/coingecko-2026-06-20T174737.png
 security:

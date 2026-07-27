@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 5
 common:
@@ -97,7 +97,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 15.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/continental-ag/refs/heads/main/screenshots/continental-ag-2026-06-20T174943.png
 security:

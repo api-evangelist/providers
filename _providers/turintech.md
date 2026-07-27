@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -86,7 +86,7 @@ overview: 'Turintech is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Turintech''s developer surface includes documentation, engineering blog, signup flow, CLI, authentication, and 6 more developer resources.'
-random_paper: 13
+random_paper: 30
 score:
   band: emerging
   composite: 17.5
@@ -100,7 +100,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

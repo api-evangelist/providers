@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Free and simple counting service. You can use it to track page hits and specific events
@@ -50,7 +50,7 @@ name: CountAPI
 nav: Providers
 network: true
 overview: CountAPI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 0
+random_paper: 51
 score:
   band: minimal
   composite: 6.8
@@ -64,7 +64,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: countapi
 tags:

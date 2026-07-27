@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 128
   human_in_the_loop: 1
@@ -1052,7 +1052,7 @@ rules:
 score:
   band: developing
   composite: 51.0
-  delta: -0.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.2
@@ -1060,14 +1060,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 21.1
-  previous_composite: 51.2
+  previous_composite: 51.0
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 50.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/root/refs/heads/main/screenshots/root-2026-06-20T193217.png
 security:

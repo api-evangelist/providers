@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 61.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -722,7 +722,7 @@ plans:
 - name: Whatsapp Plans Pricing
   plan_count: 2
   slug: whatsapp-plans-pricing
-random_paper: 5
+random_paper: 56
 rate_limits:
 - limit_count: 6
   name: Whatsapp Rate Limits
@@ -754,18 +754,18 @@ rules:
   slug: whatsapp-spectral-rules
 score:
   band: strong
-  composite: 64.0
-  delta: 0.0
+  composite: 67.4
+  delta: 3.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 80.8
+    contract_quality: 89.6
     developer_ergonomics: 54.3
-    discoverability: 42.5
+    discoverability: 55.0
     governance: 52.6
     operational_transparency: 78.9
   previous_composite: 64.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whatsapp/refs/heads/main/screenshots/whatsapp-2026-06-20T201434.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 86.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -240,7 +240,7 @@ plans:
 - name: Paytabs Plans Pricing
   plan_count: 2
   slug: paytabs-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Paytabs Rate Limits
@@ -248,7 +248,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 70.6
-  delta: 1.4
+  delta: 0.0
   facets:
     commercial_clarity: 89.5
     contract_quality: 69.0
@@ -256,14 +256,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 60.5
-  previous_composite: 69.2
+  previous_composite: 70.6
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

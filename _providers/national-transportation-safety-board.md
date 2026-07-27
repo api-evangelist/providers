@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The NTSB provides transportation accident investigation data and safety recommendations for aviation, rail, highway, marine, and pipeline transportation.
@@ -88,7 +88,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 19.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-transportation-safety-board/refs/heads/main/screenshots/national-transportation-safety-board-2026-06-20T190047.png
 security:

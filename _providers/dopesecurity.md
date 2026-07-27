@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ overview: 'dope.security publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   dope.security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, CLI, and 27 more developer resources.'
-random_paper: 37
+random_paper: 20
 score:
   band: developing
   composite: 57.6
@@ -216,8 +216,9 @@ score:
     operational_transparency: 47.4
   previous_composite: 57.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dopesecurity/refs/heads/main/screenshots/dopesecurity-2026-07-25T212307.png
 security:
 - kind: authentication
   name: Dopesecurity Authentication

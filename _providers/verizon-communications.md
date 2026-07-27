@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Verizon Network APIs provide authentication, fraud prevention, and device intelligence capabilities leveraging Verizon's mobile network. Includes Number Verification API for seamless device authentica
@@ -140,7 +140,7 @@ plans:
 - name: Verizon Communications Plans Pricing
   plan_count: 1
   slug: verizon-communications-plans-pricing
-random_paper: 44
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Verizon Communications Rate Limits
@@ -158,7 +158,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 29.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verizon-communications/refs/heads/main/screenshots/verizon-communications-2026-06-20T200941.png
 security:

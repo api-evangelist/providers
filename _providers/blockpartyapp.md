@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ overview: 'Blockpartyapp is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Blockpartyapp''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 27
+random_paper: 44
 score:
   band: emerging
   composite: 17.0
@@ -91,8 +91,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/blockpartyapp/refs/heads/main/screenshots/blockpartyapp-2026-07-25T203340.png
 security:
 - kind: domain-security
   name: Blockpartyapp Domain Security

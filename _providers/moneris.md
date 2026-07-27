@@ -16,7 +16,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ overview: 'Moneris publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Moneris'' developer surface includes authentication, sandbox, getting-started guide, changelog, signup flow, documentation, engineering blog, and 26 more developer resources.'
-random_paper: 0
+random_paper: 17
 scopes:
 - name: Moneris Scopes
   scope_count: 14
@@ -223,6 +223,7 @@ scopes:
 score:
   band: developing
   composite: 58.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 60.4
@@ -230,13 +231,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 44.7
+  previous_composite: 58.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Moneris Authentication

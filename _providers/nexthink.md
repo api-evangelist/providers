@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ overview: 'Nexthink publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Nexthink''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 23 more developer resources.'
-random_paper: 6
+random_paper: 57
 scopes:
 - name: Nexthink Scopes
   scope_count: 1
@@ -217,7 +217,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 48.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

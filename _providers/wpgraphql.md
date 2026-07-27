@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Extendable GraphQL API for WordPress that exposes posts, pages, custom post types, users, menus, taxonomies, media, and settings as GraphQL types and connections. Supports queries, mutations, and subs
@@ -97,7 +97,7 @@ overview: 'WPGraphQL publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   WPGraphQL''s developer surface includes documentation, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 13
+random_paper: 30
 score:
   band: minimal
   composite: 14.2
@@ -111,7 +111,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wpgraphql/refs/heads/main/screenshots/wpgraphql-2026-06-20T201626.png
 security:

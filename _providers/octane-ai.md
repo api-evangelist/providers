@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -106,7 +106,7 @@ overview: 'Octane AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Octane AI''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 10 more developer resources.'
-random_paper: 14
+random_paper: 65
 score:
   band: emerging
   composite: 23.3
@@ -120,7 +120,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 23.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

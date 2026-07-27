@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: MassTransit provides a consistent abstraction on top of message transports like RabbitMQ, Azure Service Bus, and Amazon SQS, with support for sagas, state machines, routing slip activities, and a stan
@@ -92,7 +92,7 @@ plans:
 - name: Masstransit Plans Pricing
   plan_count: 3
   slug: masstransit-plans-pricing
-random_paper: 36
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Masstransit Rate Limits
@@ -119,7 +119,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 38.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/masstransit/refs/heads/main/screenshots/masstransit-2026-06-20T185019.png
 security:

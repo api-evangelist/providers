@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -199,18 +199,18 @@ rules:
   slug: akka-spectral-rules
 score:
   band: developing
-  composite: 51.1
-  delta: 0.0
+  composite: 53.1
+  delta: 2.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 52.8
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 51.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akka/refs/heads/main/screenshots/akka-2026-06-20T171452.png
 security:

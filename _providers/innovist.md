@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 common:
@@ -94,7 +94,7 @@ overview: 'Innovist is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Innovist''s developer surface includes engineering blog, support, authentication, and 9 more developer resources.'
-random_paper: 23
+random_paper: 6
 scopes:
 - name: Innovist Scopes
   scope_count: 4
@@ -113,7 +113,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

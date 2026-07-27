@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Historical public REST API for the 8tracks internet-radio platform. Exposes mix discovery and search, per-session play tokens, playback control (play/next/skip/report), similar-mix recommendation, and
@@ -90,7 +90,7 @@ overview: '8Tracks publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   8Tracks'' developer surface includes documentation, API reference, engineering blog, authentication, and 7 more developer resources.'
-random_paper: 41
+random_paper: 24
 score:
   band: emerging
   composite: 17.7
@@ -104,7 +104,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 17.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

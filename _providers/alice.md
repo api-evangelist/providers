@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: medium
-  generated: '2026-07-22'
   label: Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: unknown
   public: false
@@ -11,17 +9,193 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 75.0
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 16
+  human_in_the_loop: 1
+  name: Alice Agentic Access
+  operation_count: 18
+  slug: alice-agentic-access
+  summary_line: 18 operations · 16 acting · 1 human-in-the-loop
 api_count: 7
-artifact_total: 0
+apis:
+- description: Provides APIs to manage API key(s), including adding new keys, listing existing keys, and deleting keys.
+  name: Alice api keys API
+  slug: alice-api-keys-api
+- description: Collection API Represents grouped entities. A collection is comprised of multiple items grouped together in a playlist, album, folder, group or channel on your platform. For example, a playlist of vid
+  name: Alice collection API
+  slug: alice-collection-api
+- description: Content APIs Represents WHAT content was created on your platform, such as a post, comment, review, message, article or data. For example, a web page containing a video, a customer review of a product
+  name: Alice content API
+  slug: alice-content-api
+- description: The Flags API enables you to send details about the flag made on an item on your platform to the Alice T&S platform.
+  name: Alice flags API
+  slug: alice-flags-api
+- description: Users API Represents WHO created content on your platform. These are the end users that have uploaded content to your platform, meaning the people who are the creators or publishers of the content. Fo
+  name: Alice users API
+  slug: alice-users-api
+- description: WonderBuild provides red teaming and security assessment tools for AI applications. APIs for running comprehensive security assessments on gen-AI applications.
+  name: Alice WonderBuild API
+  slug: alice-wonderbuild-api
+- description: 'WonderFence provides real-time guardrails for AI-generated content. APIs for evaluating and moderating AI-generated content and interactions to protect against harmful outputs and prompt attacks. ## A'
+  name: Alice WonderFence API
+  slug: alice-wonderfence-api
+artifact_total: 12
+asyncapis:
+- description: ''
+  name: Alice Webhooks
+  slug: alice-webhooks
+common:
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.alice.io
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://docs.alice.io
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://docs.alice.io/reference
+- group: company
+  title: ''
+  type: Blog
+  url: https://alice.io/blog
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://alice.io/terms-of-use
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://alice.io/privacy-policy
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/alice-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/alice-authentication.yml
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/alice-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/alice-domain-security.yml
+- group: agent
+  title: ''
+  type: MCPServer
+  url: mcp/alice-mcp.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/alice-webhooks.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/alice-problem-types.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/alice-conventions.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/alice-lifecycle.yml
+- group: design
+  title: ''
+  type: DataModel
+  url: data-model/alice-data-model.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/alice-conformance.yml
+- group: auth
+  title: ''
+  type: Compliance
+  url: conformance/alice-conformance.yml
+- group: build
+  title: ''
+  type: Packages
+  url: packages/alice-packages.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/alice-well-known.yml
+- group: agent
+  title: ''
+  type: AgentSkill
+  url: skills/_index.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://alice.io/
 created: '2026-07-17'
 description: Alice (formerly ActiveFence) is an enterprise AI security, safety, and trust platform for the GenAI era. Its WonderSuite platform stress-tests, guards, and monitors AI models, applications, and agents against jailbreaks, prompt injection, unsafe outputs, and policy violations. The Alice API provides content analysis (text, image, video, and audio moderation), real-time GenAI message evaluation (WonderFence), and adversarial red-team assessments (WonderBuild), authenticated with an af-api-key header and delivering asynchronous results via callback webhooks. Alice safeguards more than 3 billion users across 120+ languages and is SOC 2 and ISO 27001 certified.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alice.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: alice-mcp.yml
+  slug: alice-mcpyml
 modified: '2026-07-17'
 name: Alice
 nav: Providers
 network: true
-random_paper: 0
+overview: 'Alice publishes 7 APIs on the [APIs.io](https://apis.io/) network, including api keys API, collection API, content API, and 4 more. Tagged areas include Company, Developer Tools, AI Security, AI Safety, and Content Moderation.
+
+
+  The Alice catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  Alice''s developer surface includes documentation, API reference, engineering blog, authentication, and 18 more developer resources.'
+random_paper: 34
+score:
+  band: developing
+  composite: 45.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 72.8
+    developer_ergonomics: 52.2
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 7.9
+  previous_composite: 45.4
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alice/refs/heads/main/screenshots/alice-2026-07-25T195611.png
+security:
+- kind: authentication
+  name: Alice Authentication
+  slug: alice-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Alice Domain Security
+  slug: alice-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: alice
 tags:
 - Company
@@ -33,4 +207,5 @@ tags:
 - LLM Guardrails
 - Red Teaming
 - GenAI
+website: https://alice.io/
 ---

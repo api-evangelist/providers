@@ -10,6 +10,24 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -202,7 +220,7 @@ plans:
 - name: Agricultural Marketing Service Plans Pricing
   plan_count: 3
   slug: agricultural-marketing-service-plans-pricing
-random_paper: 13
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Agricultural Marketing Service Rate Limits
@@ -224,6 +242,21 @@ rules:
     info: 0
     warn: 19
   slug: agricultural-marketing-service-spectral-rules
+score:
+  band: strong
+  composite: 60.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 60.5
+    contract_quality: 76.1
+    developer_ergonomics: 21.7
+    discoverability: 100.0
+    governance: 86.8
+    operational_transparency: 36.8
+  previous_composite: 60.7
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agricultural-marketing-service/refs/heads/main/screenshots/agricultural-marketing-service-2026-06-20T170415.png
 security:
 - kind: authentication

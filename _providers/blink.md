@@ -9,6 +9,24 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 41.3
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -77,7 +95,23 @@ overview: 'Blink Charging publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Blink Charging''s developer surface includes authentication, documentation, product news, and 6 more developer resources.'
-random_paper: 24
+random_paper: 52
+score:
+  band: emerging
+  composite: 29.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 58.4
+    developer_ergonomics: 19.6
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 29.2
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/blink/refs/heads/main/screenshots/blink-2026-07-25T203318.png
 security:
 - kind: authentication
   name: Blink Authentication

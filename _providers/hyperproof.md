@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: 'REST API exposing 20+ resources for compliance management: Controls, Policies, Policy Versions, Programs, Risks, Proof, Test Results, Issues, Tasks, Task Statuses, Questionnaires, Custom Apps, Labels,'
@@ -97,7 +97,7 @@ plans:
 - name: Hyperproof Plans Pricing
   plan_count: 1
   slug: hyperproof-plans-pricing
-random_paper: 31
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Hyperproof Rate Limits
@@ -115,7 +115,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 17.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperproof/refs/heads/main/screenshots/hyperproof-2026-06-20T183046.png
 security:

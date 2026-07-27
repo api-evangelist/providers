@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ plans:
 - name: Rest Countries Plans Pricing
   plan_count: 2
   slug: rest-countries-plans-pricing
-random_paper: 0
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Rest Countries Rate Limits
@@ -174,19 +174,19 @@ rules:
     warn: 4
   slug: rest-countries-rules
 score:
-  band: thin
-  composite: 43.4
-  delta: 0.0
+  band: developing
+  composite: 48.0
+  delta: 4.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 64.6
+    contract_quality: 69.9
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 43.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rest-countries/refs/heads/main/screenshots/rest-countries-2026-06-20T193003.png
 security:

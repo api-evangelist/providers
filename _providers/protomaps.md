@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: CDN-backed hosted basemap tile API serving OpenStreetMap-derived vector tiles in MVT format. Provides Style JSON, TileJSON, and ZXY tile endpoints. Free for non-commercial use; commercial use requires
@@ -108,7 +108,7 @@ plans:
 - name: Protomaps Plans Pricing
   plan_count: 4
   slug: protomaps-plans-pricing
-random_paper: 28
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Protomaps Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 40.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/protomaps/refs/heads/main/screenshots/protomaps-2026-06-20T192223.png
 security:

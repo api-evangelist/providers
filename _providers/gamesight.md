@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ overview: 'Gamesight publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Gamesight''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, support, and 21 more developer resources.'
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Gamesight Rate Limits
@@ -190,8 +190,9 @@ score:
     operational_transparency: 36.8
   previous_composite: 51.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gamesight/refs/heads/main/screenshots/gamesight-2026-07-25T215419.png
 security:
 - kind: authentication
   name: Gamesight Authentication

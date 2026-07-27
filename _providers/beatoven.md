@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -223,19 +223,19 @@ rules:
   slug: beatoven-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 57.0
+  delta: 5.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 68.1
+    contract_quality: 77.0
     developer_ergonomics: 52.2
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 26.3
     operational_transparency: 5.3
   previous_composite: 51.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 security:
 - kind: authentication
   name: Beatoven Authentication

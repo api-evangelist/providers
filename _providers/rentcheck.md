@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 31
 apis:
 - description: The Account Settings API from RentCheck — 9 operation(s) for account settings.
@@ -244,7 +244,7 @@ overview: 'RentCheck publishes 31 APIs on the [APIs.io](https://apis.io/) networ
 
 
   RentCheck''s developer surface includes authentication, changelog, documentation, getting-started guide, support, engineering blog, pricing, and 19 more developer resources.'
-random_paper: 33
+random_paper: 67
 score:
   band: developing
   composite: 49.5
@@ -258,7 +258,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 49.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

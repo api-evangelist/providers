@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: 'Jane''s documented HTTP API (published as a Swagger UI at api.iheartjane.com/jane-api-docs) for retrieving live store menu products and for generating the access tokens used to authenticate downstream '
@@ -82,8 +82,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/iheartjane/refs/heads/main/screenshots/iheartjane-2026-07-25T222053.png
 security:
 - kind: domain-security
   name: Iheartjane Domain Security

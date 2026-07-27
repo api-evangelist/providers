@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: true
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 51.0
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -327,7 +345,7 @@ plans:
 - name: Jito Plans Pricing
   plan_count: 3
   slug: jito-plans-pricing
-random_paper: 60
+random_paper: 30
 rate_limits:
 - limit_count: 0
   name: Jito Rate Limits
@@ -357,6 +375,21 @@ rules:
     info: 0
     warn: 3
   slug: jito-rules
+score:
+  band: developing
+  composite: 53.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 74.0
+    developer_ergonomics: 39.1
+    discoverability: 87.5
+    governance: 78.9
+    operational_transparency: 5.3
+  previous_composite: 53.1
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jito/refs/heads/main/screenshots/jito-2026-06-20T183736.png
 security:
 - kind: domain-security

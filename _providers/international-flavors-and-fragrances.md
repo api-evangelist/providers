@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,7 +74,7 @@ press:
 - date: '2026-05-25'
   title: IFF
   url: https://www.facebook.com/InternationalFlavorsandFragrances/posts/-a-135-year-legacy-a-future-powered-by-bioscience-and-regenerative-aiiff-ceo-eri/1153883630118934/
-random_paper: 38
+random_paper: 55
 score:
   band: minimal
   composite: 6.8
@@ -88,7 +88,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/international-flavors-and-fragrances/refs/heads/main/screenshots/international-flavors-and-fragrances-2026-06-20T183457.png
 security:

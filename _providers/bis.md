@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -144,7 +144,7 @@ plans:
 - name: Bis Plans Pricing
   plan_count: 1
   slug: bis-plans-pricing
-random_paper: 12
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Bis Rate Limits
@@ -161,7 +161,7 @@ rules:
 score:
   band: thin
   composite: 42.2
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 44.2
@@ -169,14 +169,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 42.1
-  previous_composite: 45.4
+  previous_composite: 42.2
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bis/refs/heads/main/screenshots/bis-2026-06-20T173300.png
 security:

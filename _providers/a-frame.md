@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,7 +58,7 @@ name: A-Frame
 nav: Providers
 network: true
 overview: A-Frame is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Consumer Packaged Goods, Personal Care, and Beauty.
-random_paper: 2
+random_paper: 53
 score:
   band: minimal
   composite: 8.9
@@ -72,8 +72,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/a-frame/refs/heads/main/screenshots/a-frame-2026-07-25T181307.png
 security:
 - kind: domain-security
   name: A Frame Domain Security

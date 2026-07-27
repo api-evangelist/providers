@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for text analysis including sentiment analysis, keyword extraction, topic classification, and custom ML model training. Supports classifiers and extractors with Token-based authentication.
@@ -102,7 +102,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 16
+random_paper: 33
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 33.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monkeylearn/refs/heads/main/screenshots/monkeylearn-2026-06-20T185730.png
 security:

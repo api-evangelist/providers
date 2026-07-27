@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Hosted, OAuth 2.1-secured Model Context Protocol server that lets agents run read-only structured queries against a tenant's endpoint and agent observability data (schema discovery + analytics query),
@@ -126,7 +126,7 @@ overview: 'Prelude publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Prelude''s developer surface includes documentation, getting-started guide, support, engineering blog, changelog, pricing, authentication, and 12 more developer resources.'
-random_paper: 39
+random_paper: 5
 score:
   band: thin
   composite: 30.6
@@ -140,7 +140,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 30.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

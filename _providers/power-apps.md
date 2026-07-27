@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
 - description: CRUD operations against Dataverse tables (entities).
   name: Microsoft Power Apps Tables API
   slug: power-apps-tables-api
-artifact_total: 61
+artifact_total: 62
 collections:
 - collection_type: open
   name: Microsoft Dataverse Web API (Power Apps)
@@ -186,6 +186,10 @@ integrations:
 - SharePoint
 - SQL Server
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Microsoft Power Apps
 nav: Providers
@@ -210,18 +214,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 48.3
-  delta: 0.0
+  composite: 51.6
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 54.0
     developer_ergonomics: 52.2
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 48.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-apps/refs/heads/main/screenshots/power-apps-2026-06-20T192021.png
 security:

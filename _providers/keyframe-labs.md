@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -178,7 +178,7 @@ overview: 'Keyframe Labs publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Keyframe Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 21 more developer resources.'
-random_paper: 40
+random_paper: 23
 score:
   band: thin
   composite: 43.7
@@ -192,8 +192,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 43.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/keyframe-labs/refs/heads/main/screenshots/keyframe-labs-2026-07-25T223654.png
 security:
 - kind: authentication
   name: Keyframe Labs Authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -65,11 +65,11 @@ overview: 'NFC (Near Field Communication) is profiled on the [APIs.io](https://a
 
 
   NFC (Near Field Communication)''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 5
+random_paper: 39
 score:
   band: minimal
   composite: 7.2
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -77,14 +77,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.5
+  previous_composite: 7.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 0.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nfc/refs/heads/main/screenshots/nfc-2026-06-20T190305.png
 slug: nfc

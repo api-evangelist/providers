@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -225,23 +225,23 @@ rules:
   slug: lavu-spectral-rules
 score:
   band: developing
-  composite: 47.7
-  delta: -1.8
+  composite: 48.3
+  delta: 0.6
   facets:
     commercial_clarity: 50.0
     contract_quality: 68.1
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 75.0
     governance: 86.8
     operational_transparency: 21.1
-  previous_composite: 49.5
+  previous_composite: 47.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lavu/refs/heads/main/screenshots/lavu-2026-06-20T184344.png
 security:

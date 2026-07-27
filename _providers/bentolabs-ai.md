@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 26.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -118,7 +118,7 @@ overview: 'Bentolabs AI is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Bentolabs AI''s developer surface includes documentation, getting-started guide, engineering blog, CLI, authentication, and 13 more developer resources.'
-random_paper: 28
+random_paper: 45
 score:
   band: emerging
   composite: 28.2
@@ -132,8 +132,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 28.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bentolabs-ai/refs/heads/main/screenshots/bentolabs-ai-2026-07-25T202737.png
 security:
 - kind: authentication
   name: Bentolabs Ai Authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,7 +58,7 @@ name: Carnot Fleet
 nav: Providers
 network: true
 overview: Carnot Fleet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cold Chain, Logistics, Supply Chain, and Refrigeration.
-random_paper: 47
+random_paper: 64
 score:
   band: minimal
   composite: 11.7
@@ -72,8 +72,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/carnot-fleet/refs/heads/main/screenshots/carnot-fleet-2026-07-25T204630.png
 security:
 - kind: domain-security
   name: Carnot Fleet Domain Security

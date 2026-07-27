@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -154,25 +154,25 @@ plans:
 - name: Glassnode Plans Pricing
   plan_count: 4
   slug: glassnode-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Glassnode Rate Limits
   slug: glassnode-rate-limits
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 42.3
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.3
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 39.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glassnode/refs/heads/main/screenshots/glassnode-2026-06-20T181914.png
 security:

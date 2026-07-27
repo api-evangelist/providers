@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -233,7 +233,7 @@ plans:
 - name: Npm Plans Pricing
   plan_count: 4
   slug: npm-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Npm Rate Limits
@@ -257,18 +257,18 @@ rules:
   slug: npm-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 61.1
-  delta: 0.0
+  composite: 64.4
+  delta: 3.3
   facets:
     commercial_clarity: 73.7
-    contract_quality: 74.3
+    contract_quality: 79.6
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 60.5
     operational_transparency: 52.6
   previous_composite: 61.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/npm/refs/heads/main/screenshots/npm-2026-06-20T190449.png
 security:

@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 16.3
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 5
 common:
@@ -88,11 +106,26 @@ plans:
 - name: Case Western Reserve University Plans Pricing
   plan_count: 2
   slug: case-western-reserve-university-plans-pricing
-random_paper: 59
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Case Western Reserve University Rate Limits
   slug: case-western-reserve-university-rate-limits
+score:
+  band: emerging
+  composite: 22.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 15.1
+    developer_ergonomics: 13.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 22.3
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/case-western-reserve-university/refs/heads/main/screenshots/case-western-reserve-university-2026-06-20T174030.png
 security:
 - kind: domain-security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -197,7 +197,7 @@ overview: 'Allowance publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Allowance''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 32
+random_paper: 66
 scopes:
 - name: Allowance Scopes
   scope_count: 3
@@ -206,7 +206,7 @@ scopes:
 score:
   band: developing
   composite: 58.0
-  delta: 3.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 72.0
@@ -214,15 +214,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 54.8
+  previous_composite: 58.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/allowance/refs/heads/main/screenshots/allowance-2026-07-25T195707.png
 security:
 - kind: authentication
   name: Allowance Authentication

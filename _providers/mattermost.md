@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 58.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -54,7 +54,7 @@ apis:
 - description: The Users API from Mattermost — 8 operation(s) for users.
   name: Mattermost Users API
   slug: mattermost-users-api
-artifact_total: 15
+artifact_total: 16
 asyncapis:
 - description: Mattermost's WebSocket API delivers real-time events from a Mattermost server to authenticated clients and accepts a small set of WebSocket actions for client-to-server interaction. A client opens a s
   name: Mattermost WebSocket API
@@ -128,6 +128,10 @@ graphqls:
   slug: mattermost-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mattermost.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-29'
 name: Mattermost
 nav: Providers
@@ -139,7 +143,7 @@ overview: 'Mattermost publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Mattermost''s developer surface includes authentication, documentation, signup flow, pricing, engineering blog, and 9 more developer resources.'
-random_paper: 33
+random_paper: 16
 rules:
 - name: Mattermost API Rules
   rule_count: 8
@@ -151,18 +155,18 @@ rules:
   slug: mattermost-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 39.9
-  delta: 0.0
+  composite: 43.1
+  delta: 3.2
   facets:
     commercial_clarity: 18.4
     contract_quality: 58.4
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 5.3
   previous_composite: 39.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mattermost/refs/heads/main/screenshots/mattermost-2026-06-20T185042.png
 security:

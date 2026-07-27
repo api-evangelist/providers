@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 66.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
 - description: The Venues API from SeatGeek — 2 operation(s) for venues.
   name: SeatGeek Venues API
   slug: seatgeek-venues-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: SeatGeek Platform API
@@ -155,6 +155,10 @@ jsonld:
   property_count: 4
   slug: seatgeek-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: SeatGeek
 nav: Providers
@@ -193,19 +197,19 @@ rules:
     warn: 4
   slug: seatgeek-rules
 score:
-  band: developing
-  composite: 57.5
-  delta: 0.0
+  band: strong
+  composite: 60.8
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 64.1
     developer_ergonomics: 47.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 57.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seatgeek/refs/heads/main/screenshots/seatgeek-2026-06-20T193620.png
 security:

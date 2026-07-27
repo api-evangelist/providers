@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: The CKAN Action API exposes the full Data.gov catalog programmatically. It provides read access to packages (datasets), resources (file/URL distributions), organizations (publishers — federal agencies
@@ -114,11 +114,11 @@ overview: 'Data.gov publishes 4 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Data.gov''s developer surface includes GitHub presence, developer portal, documentation, engineering blog, privacy policy, and 10 more developer resources.'
-random_paper: 22
+random_paper: 39
 score:
   band: emerging
   composite: 21.9
-  delta: 1.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 11.3
@@ -126,14 +126,14 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 20.4
+  previous_composite: 21.9
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-gov/refs/heads/main/screenshots/data-gov-2026-06-20T175527.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -224,7 +224,7 @@ plans:
 - name: Unitedhealthcare Plans Pricing
   plan_count: 3
   slug: unitedhealthcare-plans-pricing
-random_paper: 7
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Unitedhealthcare Rate Limits
@@ -248,23 +248,23 @@ rules:
   slug: unitedhealthcare-spectral-rules
 score:
   band: developing
-  composite: 46.3
-  delta: -1.6
+  composite: 49.1
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 69.9
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
-  previous_composite: 47.9
+  previous_composite: 46.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unitedhealthcare/refs/heads/main/screenshots/unitedhealthcare-2026-06-20T200108.png
 security:

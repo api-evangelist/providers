@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -143,18 +143,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 30.0
-  delta: 0.0
+  composite: 33.3
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 50.9
     developer_ergonomics: 13.0
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 30.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/screenshots/pitney-bowes-2026-06-20T191739.png
 security:

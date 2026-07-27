@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -138,30 +138,30 @@ plans:
 - name: Tatum Plans Pricing
   plan_count: 5
   slug: tatum-plans-pricing
-random_paper: 45
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Tatum Rate Limits
   slug: tatum-rate-limits
 score:
   band: thin
-  composite: 37.6
-  delta: -0.2
+  composite: 40.4
+  delta: 2.8
   facets:
     commercial_clarity: 47.4
     contract_quality: 56.6
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.8
+  previous_composite: 37.6
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tatum/refs/heads/main/screenshots/tatum-2026-06-20T194929.png
 security:

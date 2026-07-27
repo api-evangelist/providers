@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -85,7 +85,7 @@ plans:
 - name: Interpol Plans Pricing
   plan_count: 3
   slug: interpol-plans-pricing
-random_paper: 10
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Interpol Rate Limits
@@ -100,19 +100,19 @@ rules:
     warn: 0
   slug: interpol-rules
 score:
-  band: emerging
-  composite: 29.5
-  delta: 0.0
+  band: thin
+  composite: 32.8
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 39.8
     developer_ergonomics: 0.0
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 13.2
     operational_transparency: 31.6
   previous_composite: 29.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interpol/refs/heads/main/screenshots/interpol-2026-06-20T183505.png
 security:

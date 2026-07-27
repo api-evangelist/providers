@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -459,7 +459,7 @@ plans:
 - name: Highlight Io Plans Pricing
   plan_count: 6
   slug: highlight-io-plans-pricing
-random_paper: 40
+random_paper: 57
 rate_limits:
 - limit_count: 7
   name: Highlight Io Rate Limits
@@ -482,19 +482,19 @@ rules:
     warn: 5
   slug: highlight-io-rules
 score:
-  band: strong
-  composite: 67.8
-  delta: 0.0
+  band: exemplar
+  composite: 72.0
+  delta: 4.2
   facets:
     commercial_clarity: 78.9
-    contract_quality: 55.8
+    contract_quality: 64.6
     developer_ergonomics: 50.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 84.2
   previous_composite: 67.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highlight-io/refs/heads/main/screenshots/highlight-io-2026-06-20T182728.png
 security:

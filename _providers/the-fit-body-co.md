@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -62,7 +62,7 @@ overview: 'The Fit Body Co is profiled on the [APIs.io](https://apis.io/) networ
 
 
   The Fit Body Co''s developer surface includes authentication and 4 more developer resources.'
-random_paper: 42
+random_paper: 59
 scopes:
 - name: The Fit Body Co Scopes
   scope_count: 4
@@ -81,7 +81,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

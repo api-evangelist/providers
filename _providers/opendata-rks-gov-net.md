@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Historical CKAN Action API for Kosovo's national open-data portal. Platform confirmed as CKAN ~2.7 from archived snapshots. The canonical CKAN endpoint path would be /api/3/action/, but the host is cu
@@ -54,11 +54,11 @@ name: opendata.rks-gov.net (Kosovo Open Data) [offline]
 nav: Providers
 network: true
 overview: opendata.rks-gov.net (Kosovo Open Data) [offline] publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, CKAN, Data Catalog, Government Data, and National Government.
-random_paper: 36
+random_paper: 2
 score:
   band: minimal
   composite: 9.8
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -66,14 +66,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.3
+  previous_composite: 9.8
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

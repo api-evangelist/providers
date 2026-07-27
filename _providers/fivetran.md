@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
 - description: The Webhooks API from Fivetran — 5 operation(s) for webhooks.
   name: Fivetran Webhooks API
   slug: fivetran-webhooks-api
-artifact_total: 34
+artifact_total: 35
 collections:
 - collection_type: open
   name: Fivetran REST API
@@ -151,6 +151,10 @@ graphqls:
   slug: fivetran-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fivetran.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Fivetran
 nav: Providers
@@ -170,18 +174,18 @@ rate_limits:
   slug: fivetran-rate-limits
 score:
   band: thin
-  composite: 39.9
-  delta: 0.0
+  composite: 43.2
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 51.3
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 39.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fivetran/refs/heads/main/screenshots/fivetran-2026-06-20T181255.png
 security:

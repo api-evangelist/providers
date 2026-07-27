@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Miter exposes a REST API used to build custom integrations between the Miter HCM platform and construction ERPs, accounting, and workforce systems — syncing projects, cost codes, accounts, employees, '
@@ -93,7 +93,7 @@ overview: 'Miter publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Miter''s developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 35
+random_paper: 1
 score:
   band: emerging
   composite: 22.6
@@ -107,7 +107,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 22.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

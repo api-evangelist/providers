@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 37.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API delivering airspace data and services for UAS applications — B4UFLY airspace briefings, LAANC SDSP operations and authorizations, ASL and ephemeral operations, surface/risk/routing, elevation
@@ -158,7 +158,7 @@ overview: 'Airspace Link publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Airspace Link''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 40
+random_paper: 23
 scopes:
 - name: Airspace Link Scopes
   scope_count: 15
@@ -177,8 +177,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 35.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/airspace-link/refs/heads/main/screenshots/airspace-link-2026-07-25T195436.png
 security:
 - kind: authentication
   name: Airspace Link Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 163
   human_in_the_loop: 0
@@ -639,7 +639,7 @@ scopes:
 score:
   band: developing
   composite: 55.6
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.2
@@ -647,14 +647,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 42.1
-  previous_composite: 53.6
+  previous_composite: 55.6
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drchrono/refs/heads/main/screenshots/drchrono-2026-06-20T180219.png
 security:

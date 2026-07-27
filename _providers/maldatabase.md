@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Provide malware datasets and threat intelligence feeds
@@ -54,7 +54,7 @@ name: MalDatabase
 nav: Providers
 network: true
 overview: MalDatabase publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anti Malware and Public APIs.
-random_paper: 13
+random_paper: 47
 score:
   band: minimal
   composite: 6.8
@@ -68,7 +68,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maldatabase/refs/heads/main/screenshots/maldatabase-2026-06-20T184909.png
 security:

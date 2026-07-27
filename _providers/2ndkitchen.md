@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 26.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 12
 apis:
 - description: The Authentication API from 2ndKitchen — 5 operation(s) for authentication.
@@ -103,11 +103,11 @@ overview: '2ndKitchen publishes 12 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   2ndKitchen''s developer surface includes authentication, documentation, API reference, and 3 more developer resources.'
-random_paper: 33
+random_paper: 50
 score:
   band: emerging
   composite: 25.6
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 41.0
@@ -115,15 +115,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 25.5
+  previous_composite: 25.6
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/2ndkitchen/refs/heads/main/screenshots/2ndkitchen-2026-07-25T181134.png
 security:
 - kind: authentication
   name: 2Ndkitchen Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ plans:
 - name: Debbie Collect Plans Pricing
   plan_count: 3
   slug: debbie-collect-plans-pricing
-random_paper: 13
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Debbie Collect Rate Limits
@@ -183,23 +183,23 @@ rules:
   slug: debbie-platform-api-rules
 score:
   band: developing
-  composite: 49.1
-  delta: -2.2
+  composite: 53.8
+  delta: 4.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.1
+    contract_quality: 69.9
     developer_ergonomics: 23.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 47.4
-  previous_composite: 51.3
+  previous_composite: 49.1
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debbie-collect/refs/heads/main/screenshots/debbie-collect-2026-06-20T175744.png
 security:

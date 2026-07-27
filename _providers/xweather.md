@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -320,7 +320,7 @@ plans:
 - name: Xweather Plans Pricing
   plan_count: 3
   slug: xweather-plans-pricing
-random_paper: 5
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Xweather Rate Limits
@@ -344,18 +344,18 @@ rules:
   slug: xweather-rules
 score:
   band: developing
-  composite: 54.9
-  delta: 0.0
+  composite: 58.1
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 70.8
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 54.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xweather/refs/heads/main/screenshots/xweather-2026-06-20T201723.png
 security:

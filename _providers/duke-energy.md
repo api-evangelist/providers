@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +65,7 @@ press:
 - date: '2026-05-25'
   title: Duke Energy leverages AI to protect customers and combat ...
   url: https://www.prnewswire.com/news-releases/duke-energy-leverages-ai-to-protect-customers-and-combat-scams-302686573.html
-random_paper: 49
+random_paper: 32
 score:
   band: minimal
   composite: 3.5
@@ -79,7 +79,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

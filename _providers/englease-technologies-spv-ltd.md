@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -61,7 +61,7 @@ overview: 'Englease Technologies SPV Ltd is profiled on the [APIs.io](https://ap
 
 
   Englease Technologies SPV Ltd''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 17
+random_paper: 0
 score:
   band: minimal
   composite: 14.0
@@ -75,8 +75,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/englease-technologies-spv-ltd/refs/heads/main/screenshots/englease-technologies-spv-ltd-2026-07-25T213352.png
 slug: englease-technologies-spv-ltd
 tags:
 - Company

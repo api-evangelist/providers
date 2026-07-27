@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 90.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ overview: 'Currencycloud publishes 27 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Currencycloud''s developer surface includes documentation, API reference, getting-started guide, authentication, signup flow, support, changelog, and 27 more developer resources.'
-random_paper: 33
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Currencycloud Rate Limits
@@ -286,7 +286,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.6
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 63.2
@@ -294,15 +294,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 84.2
-  previous_composite: 63.3
+  previous_composite: 63.6
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/currencycloud/refs/heads/main/screenshots/currencycloud-2026-07-25T210947.png
 security:
 - kind: authentication
   name: Currencycloud Authentication

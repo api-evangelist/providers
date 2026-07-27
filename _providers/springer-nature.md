@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,7 +49,7 @@ apis:
 - description: The Search API from Springer Nature — 2 operation(s) for search.
   name: Springer Nature Search API
   slug: springer-nature-search-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: Springer Nature Meta API
@@ -135,6 +135,10 @@ jsonld:
   property_count: 15
   slug: springer-nature-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Springer Nature
 nav: Providers
@@ -150,7 +154,7 @@ plans:
 - name: Springer Nature Plans Pricing
   plan_count: 1
   slug: springer-nature-plans-pricing
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Springer Nature Rate Limits
@@ -174,18 +178,18 @@ rules:
   slug: springer-nature-rules
 score:
   band: developing
-  composite: 48.3
-  delta: 0.0
+  composite: 51.6
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 69.9
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 48.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/springer-nature/refs/heads/main/screenshots/springer-nature-2026-06-20T194417.png
 security:

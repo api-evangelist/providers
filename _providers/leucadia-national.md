@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,7 +70,7 @@ press:
 - date: '2026-05-25'
   title: Uncategorized Archives - Page 2 of 2
   url: https://leucadia-am.com/category/uncategorized/page/2/
-random_paper: 40
+random_paper: 23
 score:
   band: minimal
   composite: 6.8
@@ -84,7 +84,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leucadia-national/refs/heads/main/screenshots/leucadia-national-2026-06-20T184430.png
 security:

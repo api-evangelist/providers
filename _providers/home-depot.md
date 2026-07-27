@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -105,25 +105,25 @@ press:
 - date: '2026-05-25'
   title: The Home Depot Introduces Magic Apron, a Suite of ...
   url: https://ir.homedepot.com/news-releases/2025/03-06-2025-130241718
-random_paper: 41
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Home Depot Rate Limits
   slug: home-depot-rate-limits
 score:
   band: thin
-  composite: 31.2
-  delta: 0.0
+  composite: 33.7
+  delta: 2.5
   facets:
     commercial_clarity: 28.9
     contract_quality: 60.2
     developer_ergonomics: 10.9
-    discoverability: 47.5
+    discoverability: 72.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 31.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/home-depot/refs/heads/main/screenshots/home-depot-2026-06-20T182823.png
 security:

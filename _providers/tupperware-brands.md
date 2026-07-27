@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,7 +70,7 @@ press:
 - date: '2026-05-25'
   title: Tupperware Brands Corporation Reaches Agreement to ...
   url: https://www.prnewswire.com/news-releases/tupperware-brands-corporation-reaches-agreement-to-form-the-new-tupperware-company-302283842.html
-random_paper: 48
+random_paper: 14
 score:
   band: minimal
   composite: 6.8
@@ -84,7 +84,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

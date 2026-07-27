@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 15
 common:
@@ -134,7 +134,7 @@ press:
 - date: '2026-05-25'
   title: Chiquita Brings Immersive Brand Experiences and ...
   url: https://www.prnewswire.com/news-releases/chiquita-brings-immersive-brand-experiences-and-innovation-to-ifpa-2025-302586784.html
-random_paper: 22
+random_paper: 56
 score:
   band: minimal
   composite: 11.4
@@ -148,7 +148,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chiquita-brands-international/refs/heads/main/screenshots/chiquita-brands-international-2026-06-20T174318.png
 security:

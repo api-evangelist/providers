@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -125,21 +125,21 @@ overview: 'AWS Glue publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   AWS Glue''s developer surface includes authentication, documentation, API reference, pricing, CLI, support, engineering blog, and 10 more developer resources.'
-random_paper: 40
+random_paper: 57
 score:
   band: thin
-  composite: 35.7
-  delta: 0.0
+  composite: 39.0
+  delta: 3.3
   facets:
     commercial_clarity: 18.4
     contract_quality: 56.6
     developer_ergonomics: 45.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 35.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-glue/refs/heads/main/screenshots/aws-glue-2026-06-20T172756.png
 security:

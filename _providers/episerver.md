@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 19.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: GraphQL Content Graph API that indexes CMS/Commerce content for fast, federated querying across the Optimizely platform.
@@ -171,7 +171,7 @@ overview: 'Episerver publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Episerver''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
-random_paper: 12
+random_paper: 29
 score:
   band: developing
   composite: 45.1
@@ -185,8 +185,9 @@ score:
     operational_transparency: 63.2
   previous_composite: 45.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/episerver/refs/heads/main/screenshots/episerver-2026-07-25T213522.png
 security:
 - kind: authentication
   name: Episerver Authentication

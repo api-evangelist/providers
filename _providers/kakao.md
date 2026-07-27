@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -202,30 +202,30 @@ plans:
 - name: Kakao Plans Pricing
   plan_count: 1
   slug: kakao-plans-pricing
-random_paper: 9
+random_paper: 43
 rate_limits:
 - limit_count: 2
   name: Kakao Rate Limits
   slug: kakao-rate-limits
 score:
   band: thin
-  composite: 34.3
-  delta: -1.5
+  composite: 37.1
+  delta: 2.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 54.9
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 35.8
+  previous_composite: 34.3
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kakao/refs/heads/main/screenshots/kakao-2026-06-20T183903.png
 security:

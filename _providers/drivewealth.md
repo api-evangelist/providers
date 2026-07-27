@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -272,7 +272,7 @@ plans:
 - name: Drivewealth Plans Pricing
   plan_count: 2
   slug: drivewealth-plans-pricing
-random_paper: 10
+random_paper: 27
 rate_limits:
 - limit_count: 0
   name: Drivewealth Rate Limits
@@ -289,7 +289,7 @@ rules:
 score:
   band: developing
   composite: 48.6
-  delta: -2.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 60.8
@@ -297,14 +297,14 @@ score:
     discoverability: 100.0
     governance: 86.8
     operational_transparency: 21.1
-  previous_composite: 50.6
+  previous_composite: 48.6
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drivewealth/refs/heads/main/screenshots/drivewealth-2026-06-20T180237.png
 security:

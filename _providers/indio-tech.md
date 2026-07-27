@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -61,7 +79,27 @@ plans:
 - name: Indio Tech Plans Pricing
   plan_count: 2
   slug: indio-tech-plans-pricing
-random_paper: 51
+random_paper: 44
+score:
+  band: minimal
+  composite: 14.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 14.7
+  regulatory:
+    applies: true
+    regime: Insurance
+    regime_id: insurance
+    score: 26.1
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: domain-security
   name: Indio Tech Domain Security

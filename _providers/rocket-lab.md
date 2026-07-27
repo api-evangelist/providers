@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 13
 common:
@@ -124,11 +124,11 @@ overview: 'Rocket Lab is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Rocket Lab''s developer surface includes YouTube channel, authentication, and 10 more developer resources.'
-random_paper: 27
+random_paper: 44
 score:
   band: emerging
   composite: 20.6
-  delta: 5.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -136,15 +136,15 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.7
+  previous_composite: 20.6
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rocket-lab/refs/heads/main/screenshots/rocket-lab-2026-06-20T193150.png
 security:
 - kind: domain-security

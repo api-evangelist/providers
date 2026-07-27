@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for Control-M that lets developers programmatically build, schedule, run, and manage application and data workflows as code (Jobs-as-Code), including deploy, run, provision, and config servic
@@ -119,8 +119,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 27.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bmc-software/refs/heads/main/screenshots/bmc-software-2026-07-25T203516.png
 security:
 - kind: domain-security
   name: Bmc Software Domain Security

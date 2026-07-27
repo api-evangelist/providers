@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 26
 apis:
 - description: The Actions API from WorkSpan — 2 operation(s) for actions.
@@ -244,7 +244,7 @@ overview: 'WorkSpan publishes 26 APIs on the [APIs.io](https://apis.io/) network
 
 
   WorkSpan''s developer surface includes API reference, documentation, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 18
+random_paper: 1
 score:
   band: developing
   composite: 53.4
@@ -258,7 +258,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 53.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -259,7 +259,7 @@ plans:
 - name: U S Bureau Of Labor Statistics Plans Pricing
   plan_count: 3
   slug: u-s-bureau-of-labor-statistics-plans-pricing
-random_paper: 34
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: U S Bureau Of Labor Statistics Rate Limits
@@ -294,7 +294,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 56.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/u-s-bureau-of-labor-statistics/refs/heads/main/screenshots/u-s-bureau-of-labor-statistics-2026-06-20T195913.png
 security:

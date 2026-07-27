@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -130,7 +130,7 @@ overview: 'Audi Connect / myAudi is profiled on the [APIs.io](https://apis.io/) 
 
 
   Audi Connect / myAudi''s developer surface includes privacy policy, terms of service, GitHub presence, YouTube channel, and 18 more developer resources.'
-random_paper: 37
+random_paper: 54
 score:
   band: minimal
   composite: 9.5
@@ -144,7 +144,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audi-connect/refs/heads/main/screenshots/audi-connect-2026-06-20T172549.png
 security:

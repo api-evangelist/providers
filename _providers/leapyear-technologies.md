@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -95,7 +95,7 @@ overview: 'LeapYear Technologies is profiled on the [APIs.io](https://apis.io/) 
 
 
   LeapYear Technologies'' developer surface includes documentation, API reference, getting-started guide, authentication, and 9 more developer resources.'
-random_paper: 38
+random_paper: 4
 score:
   band: emerging
   composite: 15.5
@@ -109,8 +109,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/leapyear-technologies/refs/heads/main/screenshots/leapyear-technologies-2026-07-25T224956.png
 security:
 - kind: authentication
   name: Leapyear Technologies Authentication

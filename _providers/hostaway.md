@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -281,7 +281,7 @@ plans:
 - name: Hostaway Plans Pricing
   plan_count: 2
   slug: hostaway-plans-pricing
-random_paper: 13
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Hostaway Rate Limits
@@ -302,18 +302,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 54.3
-  delta: 0.0
+  composite: 57.6
+  delta: 3.3
   facets:
     commercial_clarity: 60.5
-    contract_quality: 56.1
+    contract_quality: 61.4
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hostaway/refs/heads/main/screenshots/hostaway-2026-06-20T182839.png
 security:

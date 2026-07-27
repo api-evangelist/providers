@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -85,7 +85,7 @@ overview: 'Wayhome is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Wayhome''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 48
+random_paper: 14
 score:
   band: emerging
   composite: 16.3
@@ -99,7 +99,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 16.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

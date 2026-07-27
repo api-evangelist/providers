@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -114,18 +114,18 @@ rules:
   slug: grounded-tools-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 43.3
+  delta: 4.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 54.0
+    contract_quality: 62.8
     developer_ergonomics: 0.0
-    discoverability: 47.5
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 39.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grounded-tools/refs/heads/main/screenshots/grounded-tools-2026-06-20T182414.png
 security:

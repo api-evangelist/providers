@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: OAI-PMH metadata-harvesting interface for the DSpace-based institutional repository of electronic dissertations and habilitations of Universität Hamburg, operated by the Staats- und Universitätsbiblio
@@ -105,7 +105,7 @@ plans:
 - name: Universitat Hamburg Plans Pricing
   plan_count: 2
   slug: universitat-hamburg-plans-pricing
-random_paper: 12
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Universitat Hamburg Rate Limits
@@ -123,7 +123,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 23.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/universitat-hamburg/refs/heads/main/screenshots/universitat-hamburg-2026-06-20T200115.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: 'Multiplexed WebSocket gateway for all QFEX real-time market data streams: order book, trades, candles, BBO, mark price, funding rate, open interest, market stats and reference data. Documented as Asyn'
@@ -199,7 +199,7 @@ random_paper: 28
 score:
   band: developing
   composite: 58.5
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 63.0
@@ -207,14 +207,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 56.9
+  previous_composite: 58.5
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 164
   human_in_the_loop: 6
@@ -335,7 +335,7 @@ overview: 'ConductorOne publishes 46 APIs on the [APIs.io](https://apis.io/) net
 
 
   ConductorOne''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, CLI, and 27 more developer resources.'
-random_paper: 24
+random_paper: 7
 scopes:
 - name: Conductorone Scopes
   scope_count: 0
@@ -354,8 +354,9 @@ score:
     operational_transparency: 55.3
   previous_composite: 59.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/conductorone/refs/heads/main/screenshots/conductorone-2026-07-25T210248.png
 security:
 - kind: authentication
   name: Conductorone Authentication

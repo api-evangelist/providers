@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: 'The Clerk.io API provides REST endpoints for managing products, categories, orders, customers, recommendations, and search. The API uses a dual-key authentication model: a public key identifies the st'
@@ -133,7 +133,7 @@ plans:
 - name: Clerk Io Plans Pricing
   plan_count: 3
   slug: clerk-io-plans-pricing
-random_paper: 25
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Clerk Io Rate Limits
@@ -160,7 +160,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clerk-io/refs/heads/main/screenshots/clerk-io-2026-06-20T174507.png
 security:

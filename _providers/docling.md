@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 31.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -275,7 +275,7 @@ overview: 'Docling publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Docling''s developer surface includes developer portal, documentation, getting-started guide, CLI, release notes, changelog, engineering blog, and 22 more developer resources.'
-random_paper: 22
+random_paper: 56
 rules:
 - name: Docling API Rules
   rule_count: 6
@@ -294,19 +294,19 @@ rules:
     warn: 5
   slug: docling-rules
 score:
-  band: thin
-  composite: 44.1
-  delta: 0.0
+  band: developing
+  composite: 48.3
+  delta: 4.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 61.1
+    contract_quality: 69.9
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 21.1
   previous_composite: 44.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docling/refs/heads/main/screenshots/docling-2026-06-20T180109.png
 slug: docling

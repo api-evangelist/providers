@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Canopy Connect API returns structured property and casualty insurance data directly from 400+ carriers in real time. Applications can verify coverage, retrieve policy documents, pull driver and ve
@@ -114,7 +114,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.2
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -122,14 +122,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 30.2
+  previous_composite: 32.2
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canopy/refs/heads/main/screenshots/canopy-2026-06-20T173925.png
 security:

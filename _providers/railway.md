@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Railway public API is a GraphQL API that powers the Railway dashboard, enabling automation of projects, services, deployments, environments, variables, volumes, and team workflows.
@@ -123,7 +123,7 @@ plans:
 - name: Railway Plans Pricing
   plan_count: 5
   slug: railway-plans-pricing
-random_paper: 47
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Railway Rate Limits
@@ -141,7 +141,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 34.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/railway/refs/heads/main/screenshots/railway-2026-06-20T192535.png
 security:

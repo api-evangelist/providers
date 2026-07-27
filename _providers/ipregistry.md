@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: A REST API that resolves IPv4/IPv6 addresses and Autonomous System Numbers to rich intelligence including geolocation, ISP/carrier details, company data, currency and time zone, and threat classificat
@@ -126,7 +126,7 @@ plans:
 - name: Ipregistry Plans Pricing
   plan_count: 6
   slug: ipregistry-plans-pricing
-random_paper: 35
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Ipregistry Rate Limits
@@ -144,7 +144,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ipregistry/refs/heads/main/screenshots/ipregistry-2026-06-20T183556.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,11 +77,11 @@ overview: 'Calibrate is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Calibrate''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 17
+random_paper: 51
 score:
   band: emerging
   composite: 19.0
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -89,15 +89,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.0
+  previous_composite: 19.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/calibrate/refs/heads/main/screenshots/calibrate-2026-07-25T204230.png
 security:
 - kind: domain-security
   name: Calibrate Domain Security

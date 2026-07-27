@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ overview: 'Rasayel publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Rasayel''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 39
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Rasayel Rate Limits
@@ -213,7 +213,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 51.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -258,7 +258,7 @@ plans:
 - name: Cloudbeds Plans Pricing
   plan_count: 2
   slug: cloudbeds-plans-pricing
-random_paper: 31
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Cloudbeds Rate Limits
@@ -286,24 +286,24 @@ scopes:
   slug: cloudbeds-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: thin
-  composite: 44.9
-  delta: 2.4
+  band: developing
+  composite: 47.8
+  delta: 2.9
   facets:
     commercial_clarity: 28.9
-    contract_quality: 54.0
+    contract_quality: 62.8
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 26.3
-  previous_composite: 42.5
+  previous_composite: 44.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

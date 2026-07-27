@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -51,7 +51,7 @@ name: Adelphic Mobile *
 nav: Providers
 network: true
 overview: Adelphic Mobile * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Advertising, AdTech, and Programmatic Advertising.
-random_paper: 24
+random_paper: 7
 score:
   band: minimal
   composite: 6.8
@@ -65,8 +65,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/adelphic-mobile/refs/heads/main/screenshots/adelphic-mobile-2026-07-25T181622.png
 security:
 - kind: authentication
   name: Adelphic Mobile Authentication

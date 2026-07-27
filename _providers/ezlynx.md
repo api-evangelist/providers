@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Create and update applicants, contacts, prospects, and opportunities in the EZLynx management system and CRM so external lead-capture, marketing, and onboarding tools stay in sync without rekeying dat
@@ -93,11 +93,11 @@ overview: 'EZLynx publishes 5 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   EZLynx''s developer surface includes documentation, API reference, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 19
+random_paper: 2
 score:
   band: emerging
   composite: 19.5
-  delta: 3.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -105,15 +105,16 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.5
+  previous_composite: 19.5
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ezlynx/refs/heads/main/screenshots/ezlynx-2026-07-25T214056.png
 security:
 - kind: domain-security
   name: Ezlynx Domain Security

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 8
 common:
@@ -110,7 +110,7 @@ overview: 'GraphQL is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   GraphQL''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, and 7 more developer resources.'
-random_paper: 37
+random_paper: 3
 rules:
 - name: GraphQL API Rules
   rule_count: 6
@@ -133,7 +133,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 24.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphql/refs/heads/main/screenshots/graphql-2026-06-20T182329.png
 security:

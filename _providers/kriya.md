@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 56.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: The Buyers API from Kriya — 6 operation(s) for buyers.
@@ -176,11 +176,11 @@ overview: 'Kriya publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Kriya''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 34
+random_paper: 0
 score:
   band: developing
   composite: 51.2
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 57.2
@@ -188,15 +188,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 48.3
+  previous_composite: 51.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kriya/refs/heads/main/screenshots/kriya-2026-07-25T224301.png
 security:
 - kind: authentication
   name: Kriya Authentication

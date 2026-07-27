@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: List, inspect, and manage custom and base AI models available to a Scenario account. Returns training status, training progress, model type (image, video, audio, 3D), and metadata for the 500+ base mo
@@ -174,7 +174,7 @@ overview: 'Scenario publishes 5 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Scenario''s developer surface includes developer portal, documentation, getting-started guide, authentication, signup flow, tooling, code examples, and 18 more developer resources.'
-random_paper: 32
+random_paper: 15
 score:
   band: emerging
   composite: 23.1
@@ -188,7 +188,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 23.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scenario-gg/refs/heads/main/screenshots/scenario-gg-2026-06-20T193511.png
 security:

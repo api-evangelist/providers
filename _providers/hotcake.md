@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,7 +89,7 @@ overview: 'hotcake 夯客 is profiled on the [APIs.io](https://apis.io/) network
 
 
   hotcake 夯客''s developer surface includes documentation, getting-started guide, support, pricing, signup flow, changelog, and 6 more developer resources.'
-random_paper: 21
+random_paper: 55
 score:
   band: emerging
   composite: 22.5
@@ -103,8 +103,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 22.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hotcake/refs/heads/main/screenshots/hotcake-2026-07-25T221501.png
 security:
 - kind: domain-security
   name: Hotcake Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ apis:
 - description: The Resource API from Frappe — 2 operation(s) for resource.
   name: Frappe Resource API
   slug: frappe-resource-api
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: open
   name: Frappe Framework REST API
@@ -105,6 +105,10 @@ finops:
   slug: frappe-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/frappe.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Frappe
 nav: Providers
@@ -136,18 +140,18 @@ rules:
   slug: frappe-rest-rules
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 40.3
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 47.8
     developer_ergonomics: 30.4
-    discoverability: 60.0
+    discoverability: 80.0
     governance: 13.2
     operational_transparency: 36.8
   previous_composite: 38.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frappe/refs/heads/main/screenshots/frappe-2026-06-20T181510.png
 security:

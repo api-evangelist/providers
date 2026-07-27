@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Student lifecycle actions exposed through Ruzuku's Zapier integration - enroll a student in a course, unenroll a student, and find a student by email or ID. Authentication uses an API Key, API Secret,
@@ -77,7 +77,7 @@ plans:
 - name: Ruzuku Plans Pricing
   plan_count: 3
   slug: ruzuku-plans-pricing
-random_paper: 31
+random_paper: 14
 score:
   band: emerging
   composite: 17.6
@@ -91,7 +91,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

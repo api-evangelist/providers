@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Spredfast social marketing API, now delivered as the Khoros Marketing API family — Conversations, Publishing, Analytics Reporting, Notification, and CRM APIs — authenticated with OAuth 2.0 and doc
@@ -70,7 +70,7 @@ overview: 'Spredfast publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Spredfast''s developer surface includes documentation, API reference, authentication, and 3 more developer resources.'
-random_paper: 3
+random_paper: 20
 score:
   band: emerging
   composite: 16.2
@@ -84,7 +84,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 9
 apis:
 - description: 'The primary protocol for KurrentDB. The published protocol buffer definitions cover the v2 streams service (multi-stream appends, reads), the schema registry service, the secondary index service, and '
@@ -266,7 +266,7 @@ overview: 'Kurrent publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Kurrent''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 39 more developer resources.'
-random_paper: 14
+random_paper: 31
 scopes:
 - name: Kurrent Scopes
   scope_count: 14
@@ -285,8 +285,9 @@ score:
     operational_transparency: 52.6
   previous_composite: 61.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kurrent/refs/heads/main/screenshots/kurrent-2026-07-25T224337.png
 security:
 - kind: authentication
   name: Kurrent Authentication

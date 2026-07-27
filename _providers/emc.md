@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: The ECS Management REST API provides programmatic access to manage Dell EMC Elastic Cloud Storage (ECS) object storage platform. It supports namespace management, user management, storage pool configu
@@ -117,7 +117,7 @@ press:
 - date: '2026-05-25'
   title: Comparative Study of AI Methods for EMC Prediction in ...
   url: https://www.mdpi.com/2079-9292/15/1/165
-random_paper: 3
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Emc Rate Limits
@@ -135,7 +135,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 26.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emc/refs/heads/main/screenshots/emc-2026-06-20T180631.png
 security:

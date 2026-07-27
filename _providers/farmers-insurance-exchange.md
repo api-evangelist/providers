@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,11 +66,11 @@ press:
 - date: '2026-05-25'
   title: Farmers Insurance Exchange Outlook Revised To Pos
   url: https://www.spglobal.com/ratings/en/regulatory/article/-/view/type/HTML/id/3396101
-random_paper: 44
+random_paper: 61
 score:
   band: minimal
   composite: 6.6
-  delta: 1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -78,14 +78,14 @@ score:
     discoverability: 55.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.5
+  previous_composite: 6.6
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/farmers-insurance-exchange/refs/heads/main/screenshots/farmers-insurance-exchange-2026-06-20T181045.png
 security:

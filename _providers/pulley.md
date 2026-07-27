@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for programmatic management of cap table data including stakeholders, equity grants, option pools, convertible instruments, vesting schedules, and investor reporting. Used by integrations wit
@@ -114,7 +114,7 @@ plans:
 - name: Pulley Plans Pricing
   plan_count: 6
   slug: pulley-plans-pricing
-random_paper: 4
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Pulley Rate Limits
@@ -132,7 +132,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 33.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulley/refs/heads/main/screenshots/pulley-2026-06-20T192253.png
 security:

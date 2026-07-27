@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Historical REST API that exposed job listings, employer reviews, salary reports, and company metadata to approved partners. Required a partner ID and partner key as query parameters. The program stopp
@@ -81,7 +81,7 @@ plans:
 - name: Glassdoor Plans Pricing
   plan_count: 1
   slug: glassdoor-plans-pricing
-random_paper: 5
+random_paper: 22
 rate_limits:
 - limit_count: 2
   name: Glassdoor Rate Limits
@@ -99,7 +99,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 19.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/glassdoor/refs/heads/main/screenshots/glassdoor-2026-06-20T181902.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,11 +73,11 @@ overview: 'AvoMD is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   AvoMD''s developer surface includes support and 7 more developer resources.'
-random_paper: 25
+random_paper: 59
 score:
   band: emerging
   composite: 18.2
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -85,15 +85,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 14.1
+  previous_composite: 18.2
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/avomd/refs/heads/main/screenshots/avomd-2026-07-25T202000.png
 security:
 - kind: domain-security
   name: Avomd Domain Security

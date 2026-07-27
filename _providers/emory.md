@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 187
   human_in_the_loop: 4
@@ -233,7 +233,7 @@ plans:
 - name: Emory Plans Pricing
   plan_count: 2
   slug: emory-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Emory Rate Limits
@@ -268,8 +268,9 @@ score:
     operational_transparency: 26.3
   previous_composite: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/emory/refs/heads/main/screenshots/emory-2026-07-25T213244.png
 security:
 - kind: authentication
   name: Emory Authentication

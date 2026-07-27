@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -97,11 +97,11 @@ overview: 'Forus is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Forus'' developer surface includes engineering blog, signup flow, and 12 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: emerging
   composite: 23.9
-  delta: 5.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -109,15 +109,15 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 18.6
+  previous_composite: 23.9
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: domain-security
   name: Forus Domain Security

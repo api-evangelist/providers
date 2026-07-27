@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 36
 common:
@@ -147,7 +147,7 @@ overview: 'Sierra is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sierra''s developer surface includes developer portal, documentation, pricing, engineering blog, and 12 more developer resources.'
-random_paper: 26
+random_paper: 9
 score:
   band: emerging
   composite: 15.9
@@ -161,7 +161,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sierra-ai/refs/heads/main/screenshots/sierra-ai-2026-06-20T193901.png
 security:

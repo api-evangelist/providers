@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -183,18 +183,18 @@ rules:
   slug: windsurfrules-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 51.5
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.9
     developer_ergonomics: 17.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 47.4
     operational_transparency: 52.6
   previous_composite: 48.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/windsurfrules/refs/heads/main/screenshots/windsurfrules-2026-06-20T201512.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 9
 apis:
 - description: GraphQL API for managing Git repositories, branches, commits, tags, artifacts, access control lists, and repository webhooks on SourceHut.
@@ -122,7 +122,7 @@ plans:
 - name: Sourcehut Plans Pricing
   plan_count: 3
   slug: sourcehut-plans-pricing
-random_paper: 25
+random_paper: 42
 rate_limits:
 - limit_count: 3
   name: Sourcehut Rate Limits
@@ -140,7 +140,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 29.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourcehut/refs/heads/main/screenshots/sourcehut-2026-06-20T194223.png
 security:

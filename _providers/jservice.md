@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 31.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -147,20 +147,20 @@ rules:
     warn: 5
   slug: jservice-rules
 score:
-  band: emerging
-  composite: 29.5
-  delta: 0.0
+  band: thin
+  composite: 34.9
+  delta: 5.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 55.5
+    contract_quality: 64.3
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 0.0
   previous_composite: 29.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/jservice/refs/heads/main/screenshots/jservice-2026-06-20T183813.png
 security:
 - kind: domain-security

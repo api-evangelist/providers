@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 common:
@@ -134,7 +134,7 @@ overview: 'KAYAK is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   KAYAK''s developer surface includes privacy policy, terms of service, GitHub presence, YouTube channel, engineering blog, and 17 more developer resources.'
-random_paper: 26
+random_paper: 9
 score:
   band: minimal
   composite: 12.4
@@ -148,7 +148,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kayak-com/refs/heads/main/screenshots/kayak-com-2026-06-20T183926.png
 security:

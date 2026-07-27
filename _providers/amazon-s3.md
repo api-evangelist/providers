@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 74.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 1
@@ -152,7 +152,7 @@ arazzos:
 - description: Write a bucket tag set then read it back to confirm it was stored.
   name: Amazon S3 Set and Verify Bucket Tags
   slug: amazon-s3-set-bucket-tagging-workflow
-artifact_total: 238
+artifact_total: 239
 collections:
 - collection_type: postman
   name: Amazon S3 Control API
@@ -928,6 +928,10 @@ jsonld:
   property_count: 0
   slug: amazon-s3-tables-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-s3-mcp.yml
+  slug: amazon-s3-mcpyml
 modified: '2026-06-20'
 name: Amazon S3
 nav: Providers
@@ -967,18 +971,18 @@ rules:
   slug: amazon-s3-spectral-rules
 score:
   band: exemplar
-  composite: 72.7
-  delta: 0.0
+  composite: 77.4
+  delta: 4.7
   facets:
     commercial_clarity: 89.5
-    contract_quality: 71.9
+    contract_quality: 80.8
     developer_ergonomics: 60.9
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 78.9
   previous_composite: 72.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-s3/refs/heads/main/screenshots/amazon-s3-2026-06-20T171813.png
 security:

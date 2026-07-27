@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,7 +81,7 @@ overview: 'Imagine Ai is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Imagine Ai''s developer surface includes engineering blog, pricing, and 8 more developer resources.'
-random_paper: 8
+random_paper: 25
 score:
   band: minimal
   composite: 13.5
@@ -95,8 +95,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/imagine-ai/refs/heads/main/screenshots/imagine-ai-2026-07-25T222121.png
 security:
 - kind: domain-security
   name: Imagine Ai Domain Security

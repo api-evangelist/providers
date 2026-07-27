@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 1
@@ -209,7 +209,7 @@ arazzos:
 - description: Create a COR termination request, confirm it, and submit the termination.
   name: Remote Terminate A Contractor Of Record Engagement
   slug: remote-com-terminate-contractor-workflow
-artifact_total: 96
+artifact_total: 97
 asyncapis:
 - description: Remote emits webhook events for nearly every state change across its Companies, Employments, Contractors, Payroll, Billing, Time Off, Timesheets, Benefits, Identity Verification, and SSO surfaces. All
   name: Remote Webhooks
@@ -562,6 +562,10 @@ jsonld:
   property_count: 10
   slug: remote-com-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: remote-com-mcp.yml
+  slug: remote-com-mcpyml
 modified: '2026-06-20'
 name: Remote
 nav: Providers
@@ -577,7 +581,7 @@ plans:
 - name: Remote Com Plans Pricing
   plan_count: 11
   slug: remote-com-plans-pricing
-random_paper: 47
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Remote Com Rate Limits
@@ -613,19 +617,19 @@ scopes:
   slug: remote-com-scopes
   summary_line: 74 scopes · authorizationCode/clientCredentials/urn:ietf:params:oauth:grant-type:jwt-bearer
 score:
-  band: strong
-  composite: 69.5
-  delta: 0.0
+  band: exemplar
+  composite: 73.8
+  delta: 4.3
   facets:
     commercial_clarity: 78.9
-    contract_quality: 66.7
+    contract_quality: 74.2
     developer_ergonomics: 67.4
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 65.8
     operational_transparency: 68.4
   previous_composite: 69.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/remote-com/refs/heads/main/screenshots/remote-com-2026-06-20T192847.png
 security:

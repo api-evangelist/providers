@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ overview: 'Summerland Bank publishes 7 APIs on the [APIs.io](https://apis.io/) n
 
 
   Summerland Bank''s developer surface includes documentation, engineering blog, support, getting-started guide, authentication, and 18 more developer resources.'
-random_paper: 7
+random_paper: 41
 scopes:
 - name: Summerland Bank Scopes
   scope_count: 5
@@ -176,7 +176,7 @@ scopes:
 score:
   band: developing
   composite: 46.1
-  delta: 5.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 53.6
@@ -184,15 +184,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 40.8
+  previous_composite: 46.1
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/summerland-bank/refs/heads/main/screenshots/summerland-bank-2026-07-21T114749.png
 security:
 - kind: authentication

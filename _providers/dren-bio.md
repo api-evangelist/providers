@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,7 +66,7 @@ overview: 'Dren Bio is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Dren Bio''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 19
+random_paper: 36
 score:
   band: minimal
   composite: 12.3
@@ -80,8 +80,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dren-bio/refs/heads/main/screenshots/dren-bio-2026-07-25T212402.png
 security:
 - kind: domain-security
   name: Dren Bio Domain Security

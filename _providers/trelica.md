@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -196,7 +196,7 @@ plans:
 - name: Trelica Plans Pricing
   plan_count: 3
   slug: trelica-plans-pricing
-random_paper: 26
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Trelica Rate Limits
@@ -225,18 +225,18 @@ scopes:
   summary_line: 9 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 55.1
-  delta: 0.0
+  composite: 58.4
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 69.9
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 55.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trelica/refs/heads/main/screenshots/trelica-2026-06-20T195649.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -118,30 +118,30 @@ plans:
 - name: Zus Plans Pricing
   plan_count: 2
   slug: zus-plans-pricing
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 4
   name: Zus Rate Limits
   slug: zus-rate-limits
 score:
   band: thin
-  composite: 33.5
-  delta: -1.3
+  composite: 36.2
+  delta: 2.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 55.2
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 34.8
+  previous_composite: 33.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: High-performance GraphQL runtime for composing multiple upstream REST, gRPC, and GraphQL APIs into a unified GraphQL schema. Configuration-driven via declarative .graphql files with @server, @http, @u
@@ -131,7 +131,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 25.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tailcall/refs/heads/main/screenshots/tailcall-2026-06-20T194904.png
 security:

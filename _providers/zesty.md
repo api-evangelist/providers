@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 47
   human_in_the_loop: 2
@@ -241,7 +241,7 @@ plans:
 - name: Zesty Plans Pricing
   plan_count: 4
   slug: zesty-plans-pricing
-random_paper: 14
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Zesty Rate Limits
@@ -257,18 +257,18 @@ rules:
   slug: zesty-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 51.5
-  delta: 0.0
+  composite: 55.8
+  delta: 4.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 67.0
+    contract_quality: 75.9
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 51.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zesty/refs/heads/main/screenshots/zesty-2026-06-20T201845.png
 security:

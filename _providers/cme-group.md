@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 27.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: A set of JSON RESTful web service APIs that provide access to product and instrument reference data for CME Group, BrokerTec, EBS, hosted partners, and CME Group-cleared markets. Supports OAuth-secure
@@ -213,7 +213,7 @@ press:
 - date: '2026-05-25'
   title: CME Group and Silicon Data Partner to Launch First ...
   url: https://www.prnewswire.com/news-releases/cme-group-and-silicon-data-partner-to-launch-first-compute-futures-302769215.html
-random_paper: 44
+random_paper: 27
 rate_limits:
 - limit_count: 3
   name: Cme Group Rate Limits
@@ -226,7 +226,7 @@ scopes:
 score:
   band: developing
   composite: 51.4
-  delta: 6.7
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 0.0
@@ -234,15 +234,15 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 63.2
-  previous_composite: 44.7
+  previous_composite: 51.4
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 89.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/screenshots/cme-group-2026-06-20T174629.png
 security:
 - kind: authentication

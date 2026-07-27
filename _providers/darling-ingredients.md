@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -101,7 +101,7 @@ press:
 - date: '2026-05-25'
   title: EBS Upgrade Sets Foundation for Continuous Support and ...
   url: https://www.centroid.com/customer_stories/darling-ingredients-success-story/
-random_paper: 24
+random_paper: 58
 score:
   band: minimal
   composite: 7.2
@@ -115,7 +115,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/darling-ingredients/refs/heads/main/screenshots/darling-ingredients-2026-06-20T175500.png
 security:

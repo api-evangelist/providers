@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ plans:
 - name: Papaya Global Plans Pricing
   plan_count: 6
   slug: papaya-global-plans-pricing
-random_paper: 31
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Papaya Global Rate Limits
@@ -175,7 +175,7 @@ rules:
 score:
   band: developing
   composite: 53.7
-  delta: -2.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 71.3
@@ -183,14 +183,14 @@ score:
     discoverability: 87.5
     governance: 73.7
     operational_transparency: 52.6
-  previous_composite: 56.6
+  previous_composite: 53.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/papaya-global/refs/heads/main/screenshots/papaya-global-2026-06-20T191348.png
 security:

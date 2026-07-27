@@ -8,8 +8,26 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 3.8
+  scored_at: '2026-07-27'
 api_count: 0
-artifact_total: 0
+artifact_total: 1
 common:
 - group: auth
   title: ''
@@ -50,11 +68,62 @@ common:
 - group: auth
   title: ''
   type: Compliance
-  url: https://fleetpanda.com/blog/protecting-what-matters-fleetpanda-achieves-soc-2
+  url: https://fleetpanda.com/blog/protecting-what-matters-fleetpanda-achieves-soc-2---type-1-compliance
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/fuelpanda-conformance.yml
+- group: agent
+  title: ''
+  type: WellKnown
+  url: well-known/fuelpanda-well-known.yml
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/fuelpanda-llms.txt
+created: '2026-07-17'
+description: FleetPanda is a cloud-based dispatch and delivery platform for fuel distributors, describing itself as "the operating system for fuel distributors." It manages fuel distribution operations across multiple business lines including tank wagon / wet hosing, truck & trailer, transport, lubricants, and propane delivery. The platform provides a dispatch dashboard with real-time driver and inventory visibility, order management, same-day billing and invoicing with auto-BOL linking, automated reconciliation, pricing and fee management, reporting and analytics, an iOS/Android driver app, and a customer portal. FleetPanda is SOC 2 Type 1 compliant and is backed by 500 Global. The company is catalogued in the API Evangelist network; it does not currently publish a public API, developer portal, or SDKs.
+image: https://fleetpanda.com/favicon.ico
 layout: provider
-name: fuelpanda
+modified: '2026-07-19'
+name: FleetPanda
 nav: Providers
 network: true
-random_paper: 26
+overview: 'FleetPanda is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fuel Distribution, Fleet Management, Dispatch, and Delivery Logistics.
+
+
+  FleetPanda''s developer surface includes engineering blog, support, pricing, and 10 more developer resources.'
+random_paper: 60
+score:
+  band: emerging
+  composite: 19.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 0.0
+    developer_ergonomics: 6.5
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 5.3
+  previous_composite: 19.3
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fuelpanda/refs/heads/main/screenshots/fuelpanda-2026-07-25T215251.png
+security:
+- kind: domain-security
+  name: Fuelpanda Domain Security
+  slug: fuelpanda-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
 slug: fuelpanda
+tags:
+- Company
+- Fuel Distribution
+- Fleet Management
+- Dispatch
+- Delivery Logistics
+- Energy
+- Transportation
+- SaaS
+website: https://fleetpanda.com
 ---

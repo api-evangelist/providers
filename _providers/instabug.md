@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -396,18 +396,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 57.6
-  delta: 0.0
+  composite: 58.8
+  delta: 1.2
   facets:
     commercial_clarity: 63.2
     contract_quality: 65.9
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 65.8
     operational_transparency: 52.6
   previous_composite: 57.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instabug/refs/heads/main/screenshots/instabug-2026-06-20T183406.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: The Ingest API from Axiom Controller — 1 operation(s) for ingest.
   name: Axiom Controller Ingest API
   slug: axiom-controller-ingest-api
-artifact_total: 34
+artifact_total: 35
 collections:
 - collection_type: open
   name: Axiom Ingest Controller API
@@ -144,6 +144,10 @@ integrations:
 - description: Send CI/CD pipeline logs to Axiom from GitHub Actions workflows.
   name: GitHub Actions
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Axiom Controller
 nav: Providers
@@ -163,18 +167,18 @@ rate_limits:
   slug: axiom-controller-rate-limits
 score:
   band: developing
-  composite: 47.8
-  delta: 0.0
+  composite: 51.0
+  delta: 3.2
   facets:
     commercial_clarity: 71.1
     contract_quality: 39.8
     developer_ergonomics: 50.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axiom-controller/refs/heads/main/screenshots/axiom-controller-2026-06-20T172809.png
 security:

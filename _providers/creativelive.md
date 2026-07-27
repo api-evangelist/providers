@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ overview: 'creativeLIVE is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   creativeLIVE''s developer surface includes engineering blog, pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 8
+random_paper: 59
 score:
   band: emerging
   composite: 17.0
@@ -91,8 +91,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/creativelive/refs/heads/main/screenshots/creativelive-2026-07-25T210708.png
 security:
 - kind: domain-security
   name: Creativelive Domain Security

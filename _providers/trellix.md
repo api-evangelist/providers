@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -353,7 +353,7 @@ plans:
 - name: Trellix Plans Pricing
   plan_count: 1
   slug: trellix-plans-pricing
-random_paper: 7
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Trellix Rate Limits
@@ -377,18 +377,18 @@ rules:
   slug: trellix-spectral-rules
 score:
   band: strong
-  composite: 64.2
-  delta: 0.0
+  composite: 67.4
+  delta: 3.2
   facets:
     commercial_clarity: 63.2
     contract_quality: 67.3
     developer_ergonomics: 50.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 57.9
   previous_composite: 64.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trellix/refs/heads/main/screenshots/trellix-2026-06-20T195650.png
 security:

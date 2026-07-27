@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Demostack webhooks push real-time demo engagement events to any CRM, data warehouse, BI tool, or custom HTTP endpoint. Events are fired when prospects view, interact with, or complete a demo, enabling
@@ -118,7 +118,7 @@ plans:
 - name: Demostack Plans Pricing
   plan_count: 4
   slug: demostack-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Demostack Rate Limits
@@ -136,7 +136,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 35.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/demostack/refs/heads/main/screenshots/demostack-2026-06-20T175910.png
 security:

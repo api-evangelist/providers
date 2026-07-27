@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -82,7 +82,7 @@ overview: 'Owletcare is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Owletcare''s developer surface includes engineering blog, support, signup flow, authentication, and 6 more developer resources.'
-random_paper: 48
+random_paper: 14
 scopes:
 - name: Owletcare Scopes
   scope_count: 4
@@ -101,7 +101,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

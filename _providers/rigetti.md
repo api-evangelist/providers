@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -386,7 +386,7 @@ plans:
 - name: Rigetti Plans Pricing
   plan_count: 6
   slug: rigetti-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Rigetti Rate Limits
@@ -401,19 +401,19 @@ rules:
     warn: 3
   slug: rigetti-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 67.4
-  delta: 0.0
+  band: exemplar
+  composite: 70.8
+  delta: 3.4
   facets:
     commercial_clarity: 71.1
-    contract_quality: 64.5
+    contract_quality: 73.3
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rigetti/refs/heads/main/screenshots/rigetti-2026-06-20T193115.png
 security:

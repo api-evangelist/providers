@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 27
 apis:
 - description: The Attachments API from COR — 1 operation(s) for attachments.
@@ -216,7 +216,7 @@ overview: 'COR publishes 27 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   COR''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 15 more developer resources.'
-random_paper: 18
+random_paper: 52
 score:
   band: developing
   composite: 45.0
@@ -230,8 +230,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 45.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cor/refs/heads/main/screenshots/cor-2026-07-25T210412.png
 security:
 - kind: authentication
   name: Cor Authentication

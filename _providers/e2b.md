@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -135,18 +135,18 @@ rate_limits:
   slug: e2b-rate-limits
 score:
   band: thin
-  composite: 39.9
-  delta: 0.0
+  composite: 43.1
+  delta: 3.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 53.1
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 39.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/e2b/refs/heads/main/screenshots/e2b-2026-06-20T180350.png
 security:

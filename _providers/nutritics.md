@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API providing access to over one million foods including generic, branded, and recipe items, with up to 258 nutrient parameters, allergen information, and regional compliance datasets. JSON respo
@@ -98,7 +98,7 @@ plans:
 - name: Nutritics Plans Pricing
   plan_count: 3
   slug: nutritics-plans-pricing
-random_paper: 28
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Nutritics Rate Limits
@@ -106,7 +106,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.0
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 0.0
@@ -114,14 +114,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 31.1
+  previous_composite: 31.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nutritics/refs/heads/main/screenshots/nutritics-2026-06-20T190532.png
 security:

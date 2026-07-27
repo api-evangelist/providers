@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -391,7 +391,7 @@ plans:
 - name: Workday Finance Plans Pricing
   plan_count: 1
   slug: workday-finance-plans-pricing
-random_paper: 8
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: Workday Finance Rate Limits
@@ -415,18 +415,18 @@ rules:
   slug: workday-finance-rules
 score:
   band: strong
-  composite: 64.4
-  delta: 0.0
+  composite: 67.7
+  delta: 3.3
   facets:
     commercial_clarity: 57.9
     contract_quality: 67.3
     developer_ergonomics: 63.0
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 57.9
   previous_composite: 64.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-finance/refs/heads/main/screenshots/workday-finance-2026-06-20T201558.png
 security:

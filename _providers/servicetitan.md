@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -492,7 +492,7 @@ overview: 'ServiceTitan publishes 40 APIs on the [APIs.io](https://apis.io/) net
 
 
   ServiceTitan''s developer surface includes authentication, developer portal, getting-started guide, documentation, engineering blog, pricing, tooling, and 38 more developer resources.'
-random_paper: 22
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: Servicetitan Rate Limits
@@ -512,19 +512,19 @@ scopes:
   slug: servicetitan-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 57.6
-  delta: 0.0
+  band: strong
+  composite: 62.3
+  delta: 4.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 58.4
+    contract_quality: 67.3
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 42.1
   previous_composite: 57.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/servicetitan/refs/heads/main/screenshots/servicetitan-2026-06-20T193732.png
 security:

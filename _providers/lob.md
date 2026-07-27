@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 47.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 46
 apis:
 - description: The Accounts API from Lob — 1 operation(s) for accounts.
@@ -265,7 +265,7 @@ plans:
 - name: Lob Plans Pricing
   plan_count: 3
   slug: lob-plans-pricing
-random_paper: 11
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Lob Rate Limits
@@ -283,7 +283,7 @@ score:
     operational_transparency: 60.5
   previous_composite: 52.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lob/refs/heads/main/screenshots/lob-2026-06-20T184626.png
 security:

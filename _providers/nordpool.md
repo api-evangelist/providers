@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: high
-  generated: '2026-07-22'
   label: Paid · Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: paid
   public: false
@@ -12,17 +10,200 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 53.8
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 0
+  human_in_the_loop: 0
+  name: Nordpool Agentic Access
+  operation_count: 59
+  slug: nordpool-agentic-access
+  summary_line: 59 operations
 api_count: 10
-artifact_total: 0
+apis:
+- description: WebSocket API for continuous intraday power trading - clients speak STOMP over secure WebSocket (port 443) to parallel Market Data and Trading services for streaming contracts, order books, and capaci
+  name: Nord Pool Intraday Trading API
+  slug: nordpool-intraday-trading-api
+- description: JSON REST API for day-ahead auction trading - integrated order submission and trade capture across the Nordic and Baltic auctions, CWE auctions, Poland, the GB Half Hourly Auction, and SEM-GB intraday
+  name: Nord Pool Auction API
+  slug: nordpool-auction-trading-api
+- description: The Auction API from Nord Pool — 14 operation(s) for auction.
+  name: Nord Pool Auction API
+  slug: nordpool-auction-api
+- description: The BalanceMarket API from Nord Pool — 2 operation(s) for balancemarket.
+  name: Nord Pool BalanceMarket API
+  slug: nordpool-balancemarket-api
+- description: Public day-ahead auction prices and price indices.
+  name: Nord Pool Day-Ahead Prices API
+  slug: nordpool-day-ahead-prices-api
+- description: The ExchangeRate API from Nord Pool — 2 operation(s) for exchangerate.
+  name: Nord Pool ExchangeRate API
+  slug: nordpool-exchangerate-api
+- description: The Intraday API from Nord Pool — 17 operation(s) for intraday.
+  name: Nord Pool Intraday API
+  slug: nordpool-intraday-api
+- description: The PowerSystem API from Nord Pool — 17 operation(s) for powersystem.
+  name: Nord Pool PowerSystem API
+  slug: nordpool-powersystem-api
+- description: The PriceCurves API from Nord Pool — 1 operation(s) for pricecurves.
+  name: Nord Pool PriceCurves API
+  slug: nordpool-pricecurves-api
+- description: The System API from Nord Pool — 4 operation(s) for system.
+  name: Nord Pool System API
+  slug: nordpool-system-api
+artifact_total: 21
+asyncapis:
+- description: Nord Pool's Intraday Trading API is a genuine WebSocket API. Clients open secure WebSocket connections (port 443) and speak STOMP over them to two web services - a Market Data service (public market d
+  name: Nord Pool Intraday Trading API (WebSocket/STOMP)
+  slug: nordpool-intraday-asyncapi
+collections:
+- collection_type: open
+  name: Nord Pool Market Data API
+  slug: open-nordpool
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/nordpool-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/nordpool-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/nordpool-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/nordpool-authentication.yml
+- group: auth
+  title: ''
+  type: OAuthScopes
+  url: scopes/nordpool-scopes.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.nordpoolgroup.com/
+- group: start
+  title: ''
+  type: Portal
+  url: https://developers.nordpoolgroup.com/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/nord-pool
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/NordPool
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://www.nordpoolgroup.com/en/trading/api/
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/nordpool-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/nordpool-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/nordpool-finops.yml
 created: '2026-07-11'
 description: Nord Pool, part of the Euronext group, operates Europe's leading power exchange, running day-ahead auctions and continuous intraday electricity markets across the Nordics, Baltics, Central Western Europe, and the UK. Its Market Data API delivers day-ahead prices, kWh-level electricity rates by bidding area, volumes, capacities, flows, and power system data, while WebSocket and REST trading APIs serve exchange members.
+finops:
+- name: Nordpool Finops
+  service_category: Market Data and Financial Services
+  slug: nordpool-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nordpool.png
 layout: provider
 modified: '2026-07-11'
 name: Nord Pool
 nav: Providers
 network: true
-random_paper: 10
+overview: 'Nord Pool publishes 9 APIs on the [APIs.io](https://apis.io/) network, including Intraday Trading API, Auction API, BalanceMarket API, and 6 more. Tagged areas include Day-Ahead Prices, Electricity, Energy Markets, Power Exchange, and Intraday Trading.
+
+
+  The Nord Pool catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.
+
+
+  Nord Pool''s developer surface includes authentication, developer portal, documentation, and 10 more developer resources.'
+plans:
+- name: Nordpool Plans Pricing
+  plan_count: 5
+  slug: nordpool-plans-pricing
+random_paper: 61
+rate_limits:
+- limit_count: 5
+  name: Nordpool Rate Limits
+  slug: nordpool-rate-limits
+rules:
+- name: Nord Pool API Rules
+  rule_count: 6
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 0
+    warn: 6
+  slug: nordpool-asyncapi-spectral-rules
+scopes:
+- name: Nordpool Scopes
+  scope_count: 1
+  slug: nordpool-scopes
+  summary_line: 1 scope · authorizationCode
+score:
+  band: developing
+  composite: 52.6
+  delta: 2.7
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 59.7
+    developer_ergonomics: 28.3
+    discoverability: 100.0
+    governance: 65.8
+    operational_transparency: 36.8
+  previous_composite: 49.9
+  regulatory:
+    applies: true
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 60.9
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+security:
+- kind: authentication
+  name: Nordpool Authentication
+  slug: nordpool-authentication
+  summary_line: oauth2 · 1 scheme
+- kind: domain-security
+  name: Nordpool Domain Security
+  slug: nordpool-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Nordpool Vulnerability Disclosure
+  slug: nordpool-vulnerability-disclosure
+  summary_line: security.txt · contact published
 slug: nordpool
 tags:
 - Day-Ahead Prices
@@ -32,4 +213,5 @@ tags:
 - Intraday Trading
 - Market Data
 - Europe
+website: https://www.nordpoolgroup.com/
 ---

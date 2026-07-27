@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Production HAL/HATEOAS (Spring Data REST style) backend API served at api.investly.co. The root returns a hypermedia _links document exposing a profile link; no public OpenAPI/Swagger specification, d
@@ -81,7 +81,7 @@ overview: 'Investly publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Investly''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 27
+random_paper: 10
 score:
   band: emerging
   composite: 19.5
@@ -95,8 +95,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/investly/refs/heads/main/screenshots/investly-2026-07-25T222744.png
 security:
 - kind: domain-security
   name: Investly Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ plans:
 - name: Mercury Plans Pricing
   plan_count: 3
   slug: mercury-plans-pricing
-random_paper: 10
+random_paper: 27
 rate_limits:
 - limit_count: 4
   name: Mercury Rate Limits
@@ -185,24 +185,24 @@ rules:
     warn: 6
   slug: mercury-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 42.9
-  delta: -2.9
+  band: developing
+  composite: 45.6
+  delta: 2.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 59.1
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 60.5
     operational_transparency: 36.8
-  previous_composite: 45.8
+  previous_composite: 42.9
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercury/refs/heads/main/screenshots/mercury-2026-06-20T185218.png
 security:

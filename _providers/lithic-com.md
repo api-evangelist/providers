@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 109
   human_in_the_loop: 1
@@ -208,31 +208,32 @@ plans:
 - name: Lithic Com Plans Pricing
   plan_count: 4
   slug: lithic-com-plans-pricing
-random_paper: 32
+random_paper: 49
 rate_limits:
 - limit_count: 13
   name: Lithic Com Rate Limits
   slug: lithic-com-rate-limits
 score:
   band: thin
-  composite: 41.4
-  delta: 1.5
+  composite: 43.5
+  delta: 2.1
   facets:
     commercial_clarity: 47.4
     contract_quality: 58.2
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 39.9
+  previous_composite: 41.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 50.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lithic-com/refs/heads/main/screenshots/lithic-com-2026-07-25T225335.png
 security:
 - kind: authentication
   name: Lithic Com Authentication

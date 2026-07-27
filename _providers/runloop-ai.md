@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 154
   human_in_the_loop: 8
@@ -607,18 +607,18 @@ rules:
   slug: runloop-ai-rules
 score:
   band: strong
-  composite: 63.6
-  delta: 0.0
+  composite: 68.3
+  delta: 4.7
   facets:
     commercial_clarity: 65.8
-    contract_quality: 66.1
+    contract_quality: 75.0
     developer_ergonomics: 63.0
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 63.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runloop-ai/refs/heads/main/screenshots/runloop-ai-2026-06-20T193255.png
 security:

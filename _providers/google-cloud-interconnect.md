@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ plans:
 - name: Google Cloud Interconnect Plans Pricing
   plan_count: 3
   slug: google-cloud-interconnect-plans-pricing
-random_paper: 4
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Google Cloud Interconnect Rate Limits
@@ -159,19 +159,19 @@ scopes:
   slug: google-cloud-interconnect-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: developing
-  composite: 59.5
-  delta: 0.0
+  band: strong
+  composite: 64.1
+  delta: 4.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 56.6
+    contract_quality: 61.9
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 59.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-interconnect/refs/heads/main/screenshots/google-cloud-interconnect-2026-06-20T182115.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ plans:
 - name: Gemfury Plans Pricing
   plan_count: 14
   slug: gemfury-plans-pricing
-random_paper: 2
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Gemfury Rate Limits
@@ -209,7 +209,7 @@ score:
     operational_transparency: 57.9
   previous_composite: 59.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gemfury/refs/heads/main/screenshots/gemfury-2026-06-20T181711.png
 security:

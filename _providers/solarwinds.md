@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -934,7 +934,7 @@ plans:
 - name: Solarwinds Plans Pricing
   plan_count: 1
   slug: solarwinds-plans-pricing
-random_paper: 23
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Solarwinds Rate Limits
@@ -958,18 +958,18 @@ rules:
   slug: solarwinds-spectral-rules
 score:
   band: strong
-  composite: 60.4
-  delta: 0.0
+  composite: 62.9
+  delta: 2.5
   facets:
     commercial_clarity: 63.2
     contract_quality: 68.1
     developer_ergonomics: 47.8
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 60.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solarwinds/refs/heads/main/screenshots/solarwinds-2026-06-20T194153.png
 security:

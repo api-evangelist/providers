@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ plans:
 - name: Zenserp Plans Pricing
   plan_count: 6
   slug: zenserp-plans-pricing
-random_paper: 10
+random_paper: 27
 rate_limits:
 - limit_count: 0
   name: Zenserp Rate Limits
@@ -173,7 +173,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 53.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenserp/refs/heads/main/screenshots/zenserp-2026-06-20T201820.png
 security:

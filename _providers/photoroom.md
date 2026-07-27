@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: high
-  generated: '2026-07-22'
   label: Freemium · Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: freemium
   public: false
@@ -12,17 +10,149 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 3
+  human_in_the_loop: 0
+  name: Photoroom Agentic Access
+  operation_count: 7
+  slug: photoroom-agentic-access
+  summary_line: 7 operations · 3 acting
 api_count: 4
-artifact_total: 0
+apis:
+- description: The Account API from Photoroom — 2 operation(s) for account.
+  name: Photoroom Account API
+  slug: photoroom-account-api
+- description: The Edit API from Photoroom — 1 operation(s) for edit.
+  name: Photoroom Edit API
+  slug: photoroom-edit-api
+- description: The Render API from Photoroom — 1 operation(s) for render.
+  name: Photoroom Render API
+  slug: photoroom-render-api
+- description: The Segment API from Photoroom — 1 operation(s) for segment.
+  name: Photoroom Segment API
+  slug: photoroom-segment-api
+artifact_total: 11
+collections:
+- collection_type: open
+  name: Photoroom API
+  slug: open-photoroom
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/photoroom-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/photoroom-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/photoroom-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Photoroom
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/photoroom
+- group: company
+  title: ''
+  type: Website
+  url: https://www.photoroom.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.photoroom.com/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/photoroom-openapi.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/photoroom-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/photoroom-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/photoroom-finops.yml
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.photoroom.com/llms.txt
 created: '2026-05-08'
 description: Photoroom is an AI image editing platform with strong background removal and e-commerce-style product photo generation. Public APIs include the Remove Background API and the Image Editing API (Plus plan), with specialized endpoints for PhotoFix, Reposition, Product Beautifier, Analyze QA, Image to Video, Photo Composition, Virtual Model, Flat Lay, and Ghost Mannequin. OpenAPI spec is published.
+finops:
+- name: Photoroom Finops
+  service_category: AI
+  slug: photoroom-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/photoroom.png
 layout: provider
 modified: '2026-05-19'
 name: Photoroom
 nav: Providers
 network: true
-random_paper: 30
+overview: 'Photoroom publishes 4 APIs on the [APIs.io](https://apis.io/) network, including Account API, Edit API, Render API, and 1 more. Tagged areas include AI, Image Editing, Background Removal, E-commerce, and Visual.
+
+
+  Photoroom''s developer surface includes authentication, documentation, and 10 more developer resources.'
+plans:
+- name: Photoroom Plans Pricing
+  plan_count: 5
+  slug: photoroom-plans-pricing
+random_paper: 47
+rate_limits:
+- limit_count: 3
+  name: Photoroom Rate Limits
+  slug: photoroom-rate-limits
+score:
+  band: thin
+  composite: 41.9
+  delta: 3.3
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 61.1
+    developer_ergonomics: 19.6
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 38.6
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/photoroom/refs/heads/main/screenshots/photoroom-2026-06-20T191651.png
+security:
+- kind: authentication
+  name: Photoroom Authentication
+  slug: photoroom-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Photoroom Domain Security
+  slug: photoroom-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: photoroom
 tags:
 - AI
@@ -30,4 +160,5 @@ tags:
 - Background Removal
 - E-commerce
 - Visual
+website: https://www.photoroom.com/
 ---

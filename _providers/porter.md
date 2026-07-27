@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ plans:
 - name: Porter Plans Pricing
   plan_count: 1
   slug: porter-plans-pricing
-random_paper: 5
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Porter Rate Limits
@@ -164,18 +164,18 @@ rules:
   slug: porter-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 51.2
+  delta: 4.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 62.7
+    contract_quality: 68.0
     developer_ergonomics: 37.0
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 46.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/porter/refs/heads/main/screenshots/porter-2026-06-20T191932.png
 security:

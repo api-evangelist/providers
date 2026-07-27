@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ overview: 'Hula Earth is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Hula Earth''s developer surface includes support, engineering blog, YouTube channel, and 6 more developer resources.'
-random_paper: 34
+random_paper: 51
 score:
   band: minimal
   composite: 13.0
@@ -91,8 +91,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hula-earth/refs/heads/main/screenshots/hula-earth-2026-07-25T221634.png
 security:
 - kind: domain-security
   name: Hula Earth Domain Security

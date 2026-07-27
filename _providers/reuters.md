@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ plans:
 - name: Reuters Plans Pricing
   plan_count: 3
   slug: reuters-plans-pricing
-random_paper: 13
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Reuters Rate Limits
@@ -202,18 +202,18 @@ rules:
   slug: reuters-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.5
-  delta: 0.0
+  composite: 56.7
+  delta: 4.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.7
+    contract_quality: 80.5
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 47.4
     operational_transparency: 36.8
   previous_composite: 52.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

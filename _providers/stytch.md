@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 188
   human_in_the_loop: 18
@@ -251,7 +251,7 @@ arazzos:
 - description: Send a WhatsApp one-time passcode and authenticate the code the user enters.
   name: Stytch WhatsApp One-Time Passcode Login
   slug: stytch-whatsapp-otp-login-workflow
-artifact_total: 1084
+artifact_total: 1085
 collections:
 - collection_type: postman
   name: Stytch B2B Authentication API
@@ -3634,6 +3634,10 @@ jsonld:
   property_count: 30
   slug: stytch-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp-stytch-consumer-todo-list
+  slug: mcp-stytch-consumer-todo-list
 modified: '2026-05-22'
 name: Stytch
 nav: Providers
@@ -3649,7 +3653,7 @@ plans:
 - name: Stytch Plans Pricing
   plan_count: 2
   slug: stytch-plans-pricing
-random_paper: 8
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Stytch Rate Limits
@@ -3672,19 +3676,19 @@ rules:
     warn: 6
   slug: stytch-rules
 score:
-  band: strong
-  composite: 68.2
-  delta: 0.0
+  band: exemplar
+  composite: 70.7
+  delta: 2.5
   facets:
     commercial_clarity: 60.5
     contract_quality: 66.8
     developer_ergonomics: 71.7
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 60.5
   previous_composite: 68.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stytch/refs/heads/main/screenshots/stytch-2026-06-20T194631.png
 security:

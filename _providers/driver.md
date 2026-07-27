@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Hosted Model Context Protocol server (15 tools) plus REST API for compiling and querying codebase context: architecture overviews, code maps, file and symbol documentation, source retrieval, changelog'
@@ -157,8 +157,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 32.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/driver/refs/heads/main/screenshots/driver-2026-07-25T212415.png
 security:
 - kind: authentication
   name: Driver Authentication

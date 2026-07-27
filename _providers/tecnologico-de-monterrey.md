@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 177
   human_in_the_loop: 5
@@ -231,7 +231,7 @@ rules:
 score:
   band: thin
   composite: 36.8
-  delta: -2.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 42.0
@@ -239,14 +239,14 @@ score:
     discoverability: 87.5
     governance: 73.7
     operational_transparency: 26.3
-  previous_composite: 39.0
+  previous_composite: 36.8
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tecnologico-de-monterrey/refs/heads/main/screenshots/tecnologico-de-monterrey-2026-06-20T195020.png
 security:

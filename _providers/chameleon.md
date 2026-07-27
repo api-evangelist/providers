@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -161,25 +161,25 @@ plans:
 - name: Chameleon Plans Pricing
   plan_count: 1
   slug: chameleon-plans-pricing
-random_paper: 22
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Chameleon Rate Limits
   slug: chameleon-rate-limits
 score:
   band: thin
-  composite: 32.3
-  delta: 0.0
+  composite: 35.6
+  delta: 3.3
   facets:
     commercial_clarity: 36.8
     contract_quality: 51.3
     developer_ergonomics: 19.6
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 32.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chameleon/refs/heads/main/screenshots/chameleon-2026-06-20T174207.png
 security:

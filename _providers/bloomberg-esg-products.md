@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Access Bloomberg ESG scores, environmental metrics, social indicators, and governance data for thousands of publicly listed companies globally. Data sourced directly from company disclosures and stand
@@ -115,7 +115,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 29.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-esg-products/refs/heads/main/screenshots/bloomberg-esg-products-2026-06-20T173426.png
 security:

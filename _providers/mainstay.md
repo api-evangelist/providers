@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: AdmitHub/Mainstay REST API v1.0 for syncing student and employee records and engagement data between Mainstay and external systems, with Bearer API-token authentication.
@@ -110,7 +110,7 @@ overview: 'Mainstay publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Mainstay''s developer surface includes documentation, API reference, support, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 3
+random_paper: 54
 score:
   band: emerging
   composite: 28.2
@@ -124,8 +124,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 28.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mainstay/refs/heads/main/screenshots/mainstay-2026-07-25T225921.png
 security:
 - kind: authentication
   name: Mainstay Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: 'Read-only API subscription (Day-Ahead and pan-EU Intraday API Read-only, EUR 1,040.00/month for internal usage) delivering day-ahead and intraday auction results - prices and volumes - for all market '
@@ -95,11 +95,11 @@ plans:
 - name: Epex Spot Plans Pricing
   plan_count: 10
   slug: epex-spot-plans-pricing
-random_paper: 15
+random_paper: 49
 score:
   band: emerging
   composite: 18.4
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -107,14 +107,14 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 19.4
+  previous_composite: 18.4
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

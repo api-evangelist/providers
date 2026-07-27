@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ plans:
 - name: Charliehr Plans Pricing
   plan_count: 4
   slug: charliehr-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Charliehr Rate Limits
@@ -139,19 +139,20 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 42.7
+  delta: 3.2
   facets:
     commercial_clarity: 47.4
     contract_quality: 61.9
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 39.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/charliehr/refs/heads/main/screenshots/charliehr-2026-07-25T205104.png
 security:
 - kind: authentication
   name: Charliehr Authentication

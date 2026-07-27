@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -512,7 +512,7 @@ plans:
 - name: Alteryx Plans Pricing
   plan_count: 3
   slug: alteryx-plans-pricing
-random_paper: 12
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Alteryx Rate Limits
@@ -541,18 +541,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.1
-  delta: 0.0
+  composite: 64.4
+  delta: 3.3
   facets:
     commercial_clarity: 78.9
     contract_quality: 67.3
     developer_ergonomics: 43.5
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 42.1
   previous_composite: 61.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alteryx/refs/heads/main/screenshots/alteryx-2026-06-20T171552.png
 security:

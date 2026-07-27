@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 74.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6530
   human_in_the_loop: 347
@@ -5081,7 +5081,7 @@ arazzos:
 - description: Read a resource group, apply new tags with a patch, and confirm the tags were written.
   name: Microsoft Azure Tag an Existing Resource Group
   slug: microsoft-azure-tag-resource-group-workflow
-artifact_total: 2940
+artifact_total: 2941
 collections:
 - collection_type: postman
   name: Microsoft Azure AccessControlClient
@@ -8985,6 +8985,10 @@ jsonld:
   property_count: 28
   slug: microsoft-azure-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: microsoft-azure-mcp.yml
+  slug: microsoft-azure-mcpyml
 modified: '2026-06-20'
 name: Microsoft Azure
 nav: Providers
@@ -9000,7 +9004,7 @@ plans:
 - name: Microsoft Azure Plans Pricing
   plan_count: 3
   slug: microsoft-azure-plans-pricing
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Microsoft Azure Rate Limits
@@ -9028,20 +9032,20 @@ scopes:
   slug: microsoft-azure-scopes
   summary_line: 25 scopes · implicit/authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 67.8
-  delta: 0.0
+  band: exemplar
+  composite: 73.8
+  delta: 6.0
   facets:
     commercial_clarity: 92.1
-    contract_quality: 52.8
+    contract_quality: 71.7
     developer_ergonomics: 71.7
-    discoverability: 55.0
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 57.9
   previous_composite: 67.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure/refs/heads/main/screenshots/microsoft-azure-2026-06-20T185349.png
 security:
 - kind: authentication

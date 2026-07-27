@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: DRINKOTEC API is a powerful tool that enables developers to integrate various drink-related functionalities into their applications. This API provides access to a wide range of features including reci
@@ -59,7 +59,7 @@ plans:
 - name: Drinkotec Plans Pricing
   plan_count: 3
   slug: drinkotec-plans-pricing
-random_paper: 45
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Drinkotec Rate Limits
@@ -77,7 +77,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 18.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drinkotec/refs/heads/main/screenshots/drinkotec-2026-06-20T180234.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 2
@@ -106,18 +106,18 @@ rate_limits:
   slug: netflix-eureka-rate-limits
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 37.9
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 50.1
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 35.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/netflix-eureka/refs/heads/main/screenshots/netflix-eureka-2026-06-20T190154.png
 slug: netflix-eureka

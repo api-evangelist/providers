@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'REST API providing access to Letterboxd film data, member profiles, watchlists, ratings, diary log entries, user-created lists, contributors, editorial stories, and cross-catalog search. The base URL '
@@ -82,7 +82,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 14
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -100,7 +100,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 29.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/letterboxd/refs/heads/main/screenshots/letterboxd-2026-06-20T184431.png
 security:

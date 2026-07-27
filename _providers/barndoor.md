@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -578,18 +578,18 @@ rules:
   slug: barndoor-spectral-rules
 score:
   band: strong
-  composite: 61.9
-  delta: 0.0
+  composite: 65.1
+  delta: 3.2
   facets:
     commercial_clarity: 65.8
     contract_quality: 66.7
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 47.4
   previous_composite: 61.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barndoor/refs/heads/main/screenshots/barndoor-2026-06-20T173002.png
 security:

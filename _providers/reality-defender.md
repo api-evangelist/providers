@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 37.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Asynchronous REST API for deepfake and manipulated-media detection. Request a pre-signed upload URL or submit a social-media URL, then poll for an ensemble detection verdict across image, video, audio
@@ -168,7 +168,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 33.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

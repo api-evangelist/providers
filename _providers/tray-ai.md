@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -333,7 +333,7 @@ plans:
 - name: Tray Ai Plans Pricing
   plan_count: 3
   slug: tray-ai-plans-pricing
-random_paper: 32
+random_paper: 15
 rate_limits:
 - limit_count: 7
   name: Tray Ai Rate Limits
@@ -357,19 +357,19 @@ rules:
   slug: tray-ai-rules
 score:
   band: strong
-  composite: 64.1
-  delta: 0.0
+  composite: 69.6
+  delta: 5.5
   facets:
     commercial_clarity: 81.6
-    contract_quality: 69.0
+    contract_quality: 77.9
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 64.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/tray-ai/refs/heads/main/screenshots/tray-ai-2026-06-20T195639.png
 security:
 - kind: authentication

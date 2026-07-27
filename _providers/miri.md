@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 15.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Server-side Miri API (API-key authenticated) plus the React Native Component SDK for embedding Miri's chat, goal-tracking, measurement, and admin surfaces, with configurable webhooks. Currently in alp
@@ -117,7 +117,7 @@ random_paper: 25
 score:
   band: thin
   composite: 30.3
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 22.6
@@ -125,14 +125,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 28.0
+  previous_composite: 30.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

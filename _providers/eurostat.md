@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ plans:
 - name: Eurostat Plans Pricing
   plan_count: 1
   slug: eurostat-plans-pricing
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Eurostat Rate Limits
@@ -178,7 +178,7 @@ rules:
 score:
   band: thin
   composite: 41.8
-  delta: -5.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 44.5
@@ -186,15 +186,15 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
-  previous_composite: 46.9
+  previous_composite: 41.8
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: falling
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eurostat/refs/heads/main/screenshots/eurostat-2026-06-20T180900.png
 security:
 - kind: domain-security

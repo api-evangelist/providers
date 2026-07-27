@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Local, build-time GraphQL data layer exposed by the Gatsby framework to query content sourced from plugins (CMSs, filesystem, APIs). This is not a hosted public API; it runs inside a developer's Gatsb
@@ -91,7 +91,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gatsby/refs/heads/main/screenshots/gatsby-2026-06-20T181654.png
 security:

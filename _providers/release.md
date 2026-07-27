@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -209,7 +209,7 @@ overview: 'Release publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Release''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 25 more developer resources.'
-random_paper: 23
+random_paper: 57
 score:
   band: developing
   composite: 55.3
@@ -223,7 +223,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 55.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

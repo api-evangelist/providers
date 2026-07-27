@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 54
   human_in_the_loop: 2
@@ -153,26 +153,27 @@ plans:
 - name: Everhour Plans Pricing
   plan_count: 3
   slug: everhour-plans-pricing
-random_paper: 13
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Everhour Rate Limits
   slug: everhour-rate-limits
 score:
   band: thin
-  composite: 41.4
-  delta: 0.0
+  composite: 44.6
+  delta: 3.2
   facets:
     commercial_clarity: 57.9
     contract_quality: 58.4
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 41.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/everhour/refs/heads/main/screenshots/everhour-2026-07-25T213727.png
 security:
 - kind: authentication
   name: Everhour Authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Open low-cost PM2.5 sensor data
@@ -54,7 +54,7 @@ name: PM2.5 Open Data Portal
 nav: Providers
 network: true
 overview: PM2.5 Open Data Portal publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environment and Public APIs.
-random_paper: 17
+random_paper: 34
 score:
   band: minimal
   composite: 6.8
@@ -68,7 +68,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pm2-5-open-data-portal/refs/heads/main/screenshots/pm2-5-open-data-portal-2026-06-20T191818.png
 security:

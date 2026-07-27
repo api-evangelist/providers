@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 13
 apis:
 - description: The Cielo E-commerce API (also known as Cielo API 3.0) is the company's flagship online payment processing API. It accepts credit cards from Visa, Mastercard, Amex, Elo, Aura, JCB, Diners, Discover, a
@@ -271,11 +271,11 @@ overview: 'Cielo publishes 13 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Cielo''s developer surface includes developer portal, documentation, developer console, signup flow, pricing, getting-started guide, API reference, and 32 more developer resources.'
-random_paper: 14
+random_paper: 48
 score:
   band: emerging
   composite: 29.7
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -283,14 +283,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 29.6
+  previous_composite: 29.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cielo/refs/heads/main/screenshots/cielo-2026-06-20T174344.png
 security:

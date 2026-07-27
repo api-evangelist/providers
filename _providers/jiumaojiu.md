@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -50,7 +50,7 @@ name: Jiumaojiu
 nav: Providers
 network: true
 overview: Jiumaojiu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Food and Beverage, Restaurants, and Dining.
-random_paper: 4
+random_paper: 21
 score:
   band: minimal
   composite: 6.8
@@ -64,8 +64,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/jiumaojiu/refs/heads/main/screenshots/jiumaojiu-2026-07-25T223212.png
 security:
 - kind: domain-security
   name: Jiumaojiu Domain Security

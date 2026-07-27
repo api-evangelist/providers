@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -111,26 +111,27 @@ plans:
 - name: Evisort Plans Pricing
   plan_count: 1
   slug: evisort-plans-pricing
-random_paper: 15
+random_paper: 32
 rate_limits:
 - limit_count: 2
   name: Evisort Rate Limits
   slug: evisort-rate-limits
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 36.4
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 55.8
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 33.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/evisort/refs/heads/main/screenshots/evisort-2026-07-25T213806.png
 security:
 - kind: authentication
   name: Evisort Authentication

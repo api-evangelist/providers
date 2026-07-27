@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -113,18 +113,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 30.9
-  delta: 0.0
+  composite: 34.2
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 60.2
     developer_ergonomics: 13.0
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 30.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zayo-group/refs/heads/main/screenshots/zayo-group-2026-06-20T201802.png
 security:

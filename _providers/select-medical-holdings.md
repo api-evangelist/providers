@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -61,7 +61,7 @@ press:
 - date: '2026-05-25'
   title: Select Medical Holdings Corporation Announces ...
   url: https://www.prnewswire.com/news-releases/select-medical-holdings-corporation-announces-expiration-of-hart-scott-rodino-waiting-period-302756311.html
-random_paper: 10
+random_paper: 61
 score:
   band: minimal
   composite: 3.5
@@ -75,7 +75,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: select-medical-holdings
 tags:

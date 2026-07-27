@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -94,7 +94,7 @@ overview: 'Farther is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Farther''s developer surface includes support and 12 more developer resources.'
-random_paper: 34
+random_paper: 0
 score:
   band: emerging
   composite: 15.8
@@ -108,8 +108,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 15.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/farther/refs/heads/main/screenshots/farther-2026-07-25T214238.png
 security:
 - kind: domain-security
   name: Farther Domain Security

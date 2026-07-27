@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -140,25 +140,25 @@ plans:
 - name: Textmagic Plans Pricing
   plan_count: 4
   slug: textmagic-plans-pricing
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Textmagic Rate Limits
   slug: textmagic-rate-limits
 score:
   band: thin
-  composite: 36.4
-  delta: 0.0
+  composite: 39.6
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 50.5
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 36.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/textmagic/refs/heads/main/screenshots/textmagic-2026-06-20T195211.png
 security:

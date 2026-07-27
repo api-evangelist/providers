@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Paychex Developer Program offers a library of APIs to automate, standardize, and simplify integrations with Paychex payroll and HR services. Specifications are not published publicly; access requi
@@ -102,7 +102,7 @@ press:
 - date: '2026-05-25'
   title: AI is evolving—and so is how work gets done. Paychex is ...
   url: https://www.facebook.com/Paychex/posts/ai-is-evolvingand-so-is-how-work-gets-donepaychex-is-introducing-workforce-intel/1302160302112407/
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Paychex Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 19.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

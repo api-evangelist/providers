@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -86,7 +86,7 @@ overview: 'caimitech is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   caimitech''s developer surface includes documentation, authentication, sandbox, and 8 more developer resources.'
-random_paper: 17
+random_paper: 51
 score:
   band: minimal
   composite: 14.0
@@ -100,8 +100,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/caimitech/refs/heads/main/screenshots/caimitech-2026-07-25T204219.png
 security:
 - kind: authentication
   name: Caimitech Authentication

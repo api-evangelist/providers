@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ plans:
 - name: Amazon License Manager Plans Pricing
   plan_count: 3
   slug: amazon-license-manager-plans-pricing
-random_paper: 13
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Amazon License Manager Rate Limits
@@ -201,18 +201,18 @@ rules:
   slug: amazon-license-manager-spectral-rules
 score:
   band: strong
-  composite: 62.7
-  delta: 0.0
+  composite: 67.3
+  delta: 4.6
   facets:
     commercial_clarity: 81.6
-    contract_quality: 64.6
+    contract_quality: 69.9
     developer_ergonomics: 41.3
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 62.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-license-manager/refs/heads/main/screenshots/amazon-license-manager-2026-06-20T171724.png
 security:

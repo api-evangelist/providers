@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -135,19 +135,20 @@ rate_limits:
   slug: brella-rate-limits
 score:
   band: thin
-  composite: 35.0
-  delta: 0.0
+  composite: 38.3
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 59.0
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 35.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/brella/refs/heads/main/screenshots/brella-2026-07-25T203750.png
 security:
 - kind: authentication
   name: Brella Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -79,7 +79,7 @@ apis:
 - description: The W-9 Forms API from Veryfi — 2 operation(s) for w-9 forms.
   name: Veryfi W-9 Forms API
   slug: veryfi-w-9-forms-api
-artifact_total: 40
+artifact_total: 41
 collections:
 - collection_type: open
   name: Veryfi OCR API
@@ -216,6 +216,10 @@ jsonld:
   property_count: 28
   slug: veryfi-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Veryfi
 nav: Providers
@@ -254,19 +258,19 @@ rules:
     warn: 7
   slug: veryfi-ocr-rules
 score:
-  band: developing
-  composite: 59.4
-  delta: 0.0
+  band: strong
+  composite: 61.4
+  delta: 2.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 70.4
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 59.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veryfi/refs/heads/main/screenshots/veryfi-2026-06-20T201000.png
 security:

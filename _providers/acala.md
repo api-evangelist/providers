@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Acala EVM+ exposes a standard Ethereum JSON-RPC API through the EVM+ RPC Adapter, which wraps Substrate RPC calls to provide Ethereum execution-apis compatible endpoints (eth_*, net_*, web3_*) so Ethe
@@ -121,7 +121,7 @@ overview: 'Acala publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Acala''s developer surface includes documentation, getting-started guide, engineering blog, support, sandbox, and 14 more developer resources.'
-random_paper: 39
+random_paper: 22
 score:
   band: emerging
   composite: 23.7
@@ -135,8 +135,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 23.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/acala/refs/heads/main/screenshots/acala-2026-07-25T181421.png
 security:
 - kind: domain-security
   name: Acala Domain Security

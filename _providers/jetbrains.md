@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -245,7 +245,7 @@ plans:
 - name: Jetbrains Plans Pricing
   plan_count: 7
   slug: jetbrains-plans-pricing
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Jetbrains Rate Limits
@@ -261,18 +261,18 @@ rules:
   slug: jetbrains-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 51.2
+  delta: 3.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.8
+    contract_quality: 70.7
     developer_ergonomics: 26.1
-    discoverability: 55.0
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 47.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jetbrains/refs/heads/main/screenshots/jetbrains-2026-06-20T183725.png
 security:

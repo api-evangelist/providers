@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 6
@@ -150,25 +150,25 @@ plans:
 - name: Hashicorp Vault Plans Pricing
   plan_count: 3
   slug: hashicorp-vault-plans-pricing
-random_paper: 32
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Hashicorp Vault Rate Limits
   slug: hashicorp-vault-rate-limits
 score:
   band: developing
-  composite: 49.3
-  delta: 0.0
+  composite: 52.6
+  delta: 3.3
   facets:
     commercial_clarity: 71.1
     contract_quality: 51.3
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 49.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hashicorp-vault/refs/heads/main/screenshots/hashicorp-vault-2026-06-20T182532.png
 security:

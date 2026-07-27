@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 23.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Push data directly into the Aisera platform from any external system that supports webhooks — Knowledge Articles and Requests. Authenticates with an x-app-token header plus an OAuth 2.0 password-grant
@@ -180,8 +180,9 @@ score:
     operational_transparency: 57.9
   previous_composite: 38.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aisera/refs/heads/main/screenshots/aisera-2026-07-25T195449.png
 security:
 - kind: authentication
   name: Aisera Authentication

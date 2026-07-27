@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -174,20 +174,20 @@ rules:
     warn: 4
   slug: tropic-rules
 score:
-  band: developing
-  composite: 54.6
-  delta: 0.0
+  band: strong
+  composite: 60.1
+  delta: 5.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 65.5
+    contract_quality: 74.3
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 54.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/tropic/refs/heads/main/screenshots/tropic-2026-06-20T195744.png
 security:
 - kind: authentication

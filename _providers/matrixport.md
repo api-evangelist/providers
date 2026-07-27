@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 75.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -166,11 +166,11 @@ overview: 'Matrixport publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Matrixport''s developer surface includes documentation, API reference, changelog, authentication, and 17 more developer resources.'
-random_paper: 43
+random_paper: 26
 score:
   band: thin
   composite: 38.8
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 63.0
@@ -178,15 +178,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 39.1
+  previous_composite: 38.8
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/matrixport/refs/heads/main/screenshots/matrixport-2026-07-25T230424.png
 security:
 - kind: authentication
   name: Matrixport Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Plex by Rockwell Automation provides a Smart Manufacturing Platform ERP API with REST/JSON endpoints for customer orders, shipping, production, quality, and just-in-sequence parts delivery. Enables in
@@ -154,7 +154,7 @@ press:
 - date: '2026-05-25'
   title: Press Releases & News
   url: https://www.rockwellautomation.com/en-us/company/investor-relations/news.html
-random_paper: 12
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Rockwell Automation Rate Limits
@@ -181,7 +181,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 45.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockwell-automation/refs/heads/main/screenshots/rockwell-automation-2026-06-20T193157.png
 security:

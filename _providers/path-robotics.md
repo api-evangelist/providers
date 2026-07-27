@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -98,7 +98,7 @@ overview: 'Path Robotics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Path Robotics'' developer surface includes product news, GitHub presence, and 10 more developer resources.'
-random_paper: 17
+random_paper: 51
 score:
   band: minimal
   composite: 11.2
@@ -112,7 +112,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/path-robotics/refs/heads/main/screenshots/path-robotics-2026-06-20T191442.png
 security:

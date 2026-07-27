@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: K3s lightweight Kubernetes distribution with built-in containerd, Flannel networking, and Traefik ingress controller.
@@ -74,7 +74,7 @@ plans:
 - name: K3S Plans Pricing
   plan_count: 3
   slug: k3s-plans-pricing
-random_paper: 18
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: K3S Rate Limits
@@ -92,7 +92,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/k3s/refs/heads/main/screenshots/k3s-2026-06-20T183846.png
 security:

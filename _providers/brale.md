@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: The Accounts API from Brale — 4 operation(s) for accounts.
@@ -224,7 +224,7 @@ overview: 'Brale publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Brale''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 31 more developer resources.'
-random_paper: 8
+random_paper: 42
 scopes:
 - name: Brale Scopes
   scope_count: 20
@@ -233,7 +233,7 @@ scopes:
 score:
   band: strong
   composite: 65.4
-  delta: 4.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 68.4
@@ -241,15 +241,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 63.2
-  previous_composite: 61.2
+  previous_composite: 65.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 89.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/brale/refs/heads/main/screenshots/brale-2026-07-25T203713.png
 security:
 - kind: authentication
   name: Brale Authentication

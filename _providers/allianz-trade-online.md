@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -389,7 +389,7 @@ overview: 'Allianz Trade publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Allianz Trade''s developer surface includes authentication, developer portal, getting-started guide, documentation, changelog, support, and 13 more developer resources.'
-random_paper: 21
+random_paper: 38
 rules:
 - name: Allianz Trade API Rules
   rule_count: 5
@@ -415,7 +415,7 @@ scopes:
 score:
   band: developing
   composite: 53.3
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 77.9
@@ -423,15 +423,16 @@ score:
     discoverability: 100.0
     governance: 86.8
     operational_transparency: 15.8
-  previous_composite: 52.4
+  previous_composite: 53.3
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/allianz-trade-online/refs/heads/main/screenshots/allianz-trade-online-2026-07-25T195702.png
 security:
 - kind: authentication
   name: Allianz Trade Online Authentication

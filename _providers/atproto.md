@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -177,7 +177,7 @@ plans:
 - name: Atproto Plans Pricing
   plan_count: 3
   slug: atproto-plans-pricing
-random_paper: 12
+random_paper: 29
 rate_limits:
 - limit_count: 17
   name: Atproto Rate Limits
@@ -204,7 +204,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 56.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

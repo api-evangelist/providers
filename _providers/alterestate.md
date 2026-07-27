@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Company agents
@@ -162,7 +162,7 @@ overview: 'AlterEstate publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   AlterEstate''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 18 more developer resources.'
-random_paper: 9
+random_paper: 26
 scopes:
 - name: Alterestate Scopes
   scope_count: 1
@@ -181,8 +181,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 44.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alterestate/refs/heads/main/screenshots/alterestate-2026-07-25T195823.png
 security:
 - kind: authentication
   name: Alterestate Authentication

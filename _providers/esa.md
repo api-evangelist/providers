@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ plans:
 - name: Esa Plans Pricing
   plan_count: 2
   slug: esa-plans-pricing
-random_paper: 7
+random_paper: 41
 rate_limits:
 - limit_count: 9
   name: Esa Rate Limits
@@ -190,7 +190,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/esa/refs/heads/main/screenshots/esa-2026-06-20T180819.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -114,25 +114,25 @@ press:
 - date: '2026-05-25'
   title: Live Nation Entertainment Full Year And Fourth Quarter ...
   url: https://newsroom.livenation.com/news/live-nation-entertainment-full-year-and-fourth-quarter-2025-results/
-random_paper: 27
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Live Nation Entertainment Rate Limits
   slug: live-nation-entertainment-rate-limits
 score:
   band: thin
-  composite: 30.8
-  delta: 0.0
+  composite: 33.3
+  delta: 2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 50.4
     developer_ergonomics: 13.0
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 30.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/live-nation-entertainment/refs/heads/main/screenshots/live-nation-entertainment-2026-06-20T184616.png
 security:

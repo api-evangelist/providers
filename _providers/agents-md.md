@@ -21,7 +21,7 @@ modified: '2026-04-19'
 name: AGENTS.md
 nav: Providers
 network: true
-random_paper: 29
+random_paper: 12
 slug: agents-md
 tags:
 - AI Agents

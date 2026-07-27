@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -121,26 +121,27 @@ plans:
 - name: Hamming Ai Plans Pricing
   plan_count: 2
   slug: hamming-ai-plans-pricing
-random_paper: 15
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Hamming Ai Rate Limits
   slug: hamming-ai-rate-limits
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 39.1
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 58.4
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 35.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hamming-ai/refs/heads/main/screenshots/hamming-ai-2026-07-25T220600.png
 security:
 - kind: authentication
   name: Hamming Ai Authentication

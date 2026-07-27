@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -92,18 +92,18 @@ rate_limits:
   slug: sparql-rate-limits
 score:
   band: thin
-  composite: 32.8
-  delta: 0.0
+  composite: 35.3
+  delta: 2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 56.1
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 32.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sparql/refs/heads/main/screenshots/sparql-2026-06-20T194246.png
 security:

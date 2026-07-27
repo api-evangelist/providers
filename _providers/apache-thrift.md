@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: The Thrift Interface Definition Language (IDL) is used to define data types and service interfaces in a language-neutral format. A .thrift file defines structs, enums, exceptions, typedefs, constants,
@@ -120,7 +120,7 @@ plans:
 - name: Apache Thrift Plans Pricing
   plan_count: 3
   slug: apache-thrift-plans-pricing
-random_paper: 37
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Apache Thrift Rate Limits
@@ -147,7 +147,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 42.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-thrift/refs/heads/main/screenshots/apache-thrift-2026-06-20T172152.png
 security:

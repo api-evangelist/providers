@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -122,25 +122,25 @@ plans:
 - name: Depot Dev Plans Pricing
   plan_count: 4
   slug: depot-dev-plans-pricing
-random_paper: 37
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Depot Dev Rate Limits
   slug: depot-dev-rate-limits
 score:
   band: thin
-  composite: 37.2
-  delta: 0.0
+  composite: 40.4
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 53.7
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 37.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/depot-dev/refs/heads/main/screenshots/depot-dev-2026-06-20T175928.png
 security:

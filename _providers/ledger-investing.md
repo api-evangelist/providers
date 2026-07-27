@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 3
@@ -209,7 +209,7 @@ random_paper: 23
 score:
   band: developing
   composite: 58.5
-  delta: 3.4
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 56.3
@@ -217,15 +217,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 55.1
+  previous_composite: 58.5
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ledger-investing/refs/heads/main/screenshots/ledger-investing-2026-07-25T224810.png
 security:
 - kind: authentication
   name: Ledger Investing Authentication

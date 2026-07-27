@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ plans:
 - name: Shopify Storefront Plans Pricing
   plan_count: 5
   slug: shopify-storefront-plans-pricing
-random_paper: 38
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Shopify Storefront Rate Limits
@@ -145,24 +145,24 @@ rules:
     warn: 2
   slug: shopify-storefront-rules
 score:
-  band: thin
-  composite: 44.4
-  delta: -1.3
+  band: developing
+  composite: 48.0
+  delta: 3.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 63.7
+    contract_quality: 72.6
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 31.6
-  previous_composite: 45.7
+  previous_composite: 44.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shopify-storefront/refs/heads/main/screenshots/shopify-storefront-2026-06-20T193831.png
 security:

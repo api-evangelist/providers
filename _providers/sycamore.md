@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -89,7 +89,7 @@ overview: 'Sycamore is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Sycamore''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 0
+random_paper: 51
 score:
   band: emerging
   composite: 16.4
@@ -103,7 +103,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 16.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -46,7 +46,7 @@ name: docin
 nav: Providers
 network: true
 overview: docin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Documents, Document Sharing, Content, and Publishing.
-random_paper: 15
+random_paper: 49
 score:
   band: minimal
   composite: 6.8
@@ -60,8 +60,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/docin/refs/heads/main/screenshots/docin-2026-07-25T212207.png
 security:
 - kind: domain-security
   name: Docin Domain Security

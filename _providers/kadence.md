@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ overview: 'Kadence publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Kadence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 1
+random_paper: 35
 scopes:
 - name: Kadence Scopes
   scope_count: 1
@@ -226,8 +226,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 53.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kadence/refs/heads/main/screenshots/kadence-2026-07-25T223408.png
 security:
 - kind: authentication
   name: Kadence Authentication

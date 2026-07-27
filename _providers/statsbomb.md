@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Licensed client REST API delivering StatsBomb event data, 360 freeze frames, player-location data, and derived metrics (xG, OBV, HOPS) for contracted competitions. Access is granted under commercial a
@@ -92,7 +92,7 @@ plans:
 - name: Statsbomb Plans Pricing
   plan_count: 1
   slug: statsbomb-plans-pricing
-random_paper: 6
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Statsbomb Rate Limits
@@ -110,7 +110,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/statsbomb/refs/heads/main/screenshots/statsbomb-2026-06-20T194528.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 12.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: Reactive web framework providing annotated controllers, functional endpoints, dispatcher handler, and the full reactive request/response processing pipeline. Supports non-blocking I/O with Reactor Mon
@@ -156,7 +156,7 @@ plans:
 - name: Webflux Plans Pricing
   plan_count: 3
   slug: webflux-plans-pricing
-random_paper: 0
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Webflux Rate Limits
@@ -191,7 +191,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 47.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflux/refs/heads/main/screenshots/webflux-2026-06-20T201330.png
 slug: webflux

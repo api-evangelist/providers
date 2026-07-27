@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,7 +93,7 @@ overview: 'Pitch is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Pitch''s developer surface includes support, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 26
+random_paper: 60
 score:
   band: emerging
   composite: 17.8
@@ -107,7 +107,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 17.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

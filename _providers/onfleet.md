@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -448,7 +448,7 @@ plans:
 - name: Onfleet Plans Pricing
   plan_count: 3
   slug: onfleet-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Onfleet Rate Limits
@@ -479,19 +479,19 @@ rules:
     warn: 5
   slug: onfleet-rules
 score:
-  band: strong
-  composite: 66.7
-  delta: 0.0
+  band: exemplar
+  composite: 71.2
+  delta: 4.5
   facets:
     commercial_clarity: 78.9
-    contract_quality: 69.9
+    contract_quality: 75.2
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 66.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/onfleet/refs/heads/main/screenshots/onfleet-2026-06-20T190721.png
 security:

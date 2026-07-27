@@ -16,7 +16,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 26.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'The Interac Hub is an HTTP API that simplifies digital identity verification. Relying parties obtain verified identity data through financial-institution authentication (Interac Verification Service, '
@@ -121,7 +121,7 @@ overview: 'Interac publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Interac''s developer surface includes documentation, engineering blog, getting-started guide, support, authentication, sandbox, and 15 more developer resources.'
-random_paper: 28
+random_paper: 62
 scopes:
 - name: Interac Scopes
   scope_count: 3
@@ -130,6 +130,7 @@ scopes:
 score:
   band: thin
   composite: 33.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -137,13 +138,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
+  previous_composite: 33.4
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/interac/refs/heads/main/screenshots/interac-2026-07-25T222655.png
 security:
 - kind: authentication
   name: Interac Authentication

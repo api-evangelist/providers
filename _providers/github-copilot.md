@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 74.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -95,7 +95,7 @@ arazzos:
 - description: Pull organization-wide Copilot metrics, then drill into a specific team's aggregated metrics.
   name: GitHub Copilot Team Metrics Report
   slug: github-copilot-team-metrics-report-workflow
-artifact_total: 184
+artifact_total: 185
 collections:
 - collection_type: postman
   name: GitHub Copilot REST API
@@ -728,6 +728,10 @@ jsonld:
   property_count: 0
   slug: github-copilot-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: github-copilot-mcp.yml
+  slug: github-copilot-mcpyml
 modified: '2026-06-20'
 name: GitHub Copilot
 nav: Providers
@@ -771,20 +775,20 @@ scopes:
   slug: github-copilot-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: strong
-  composite: 69.7
-  delta: 0.0
+  band: exemplar
+  composite: 75.2
+  delta: 5.5
   facets:
     commercial_clarity: 78.9
-    contract_quality: 68.1
+    contract_quality: 77.0
     developer_ergonomics: 71.7
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 63.2
   previous_composite: 69.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-copilot/refs/heads/main/screenshots/github-copilot-2026-06-20T181939.png
 security:
 - kind: authentication

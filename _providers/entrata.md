@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Entrata API provides programmatic access to the Entrata property management platform, enabling integration partners to read and write property, resident, lease, maintenance, payment, and financial
@@ -106,7 +106,7 @@ plans:
 - name: Entrata Plans Pricing
   plan_count: 1
   slug: entrata-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Entrata Rate Limits
@@ -114,7 +114,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.0
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -122,14 +122,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 24.8
+  previous_composite: 23.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/entrata/refs/heads/main/screenshots/entrata-2026-06-20T180733.png
 security:

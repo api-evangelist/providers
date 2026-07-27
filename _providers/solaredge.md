@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Account hierarchy.
@@ -138,7 +138,7 @@ overview: 'Solaredge publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Solaredge''s developer surface includes documentation, API reference, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 32
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Solaredge Rate Limits
@@ -156,7 +156,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 43.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

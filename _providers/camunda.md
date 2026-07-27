@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -157,25 +157,25 @@ plans:
 - name: Camunda Plans Pricing
   plan_count: 3
   slug: camunda-plans-pricing
-random_paper: 15
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Camunda Rate Limits
   slug: camunda-rate-limits
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 49.3
+  delta: 2.0
   facets:
     commercial_clarity: 68.4
     contract_quality: 56.6
     developer_ergonomics: 45.7
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 47.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/camunda/refs/heads/main/screenshots/camunda-2026-06-20T173920.png
 security:

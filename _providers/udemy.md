@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: REST Affiliate API exposing the Udemy course catalog for course discovery and search by category, subcategory, price, language, and keyword. Authentication uses a base64-encoded HTTP Basic header deri
@@ -103,7 +103,7 @@ overview: 'Udemy publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Udemy''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 38
+random_paper: 4
 score:
   band: emerging
   composite: 19.5
@@ -117,7 +117,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 19.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/udemy/refs/heads/main/screenshots/udemy-2026-06-20T195955.png
 security:

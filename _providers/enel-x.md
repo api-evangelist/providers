@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,7 +94,7 @@ overview: 'Enel X is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Enel X''s developer surface includes GitHub presence, YouTube channel, and 11 more developer resources.'
-random_paper: 24
+random_paper: 41
 score:
   band: minimal
   composite: 7.4
@@ -108,7 +108,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enel-x/refs/heads/main/screenshots/enel-x-2026-06-20T180700.png
 security:

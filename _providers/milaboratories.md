@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -113,11 +113,11 @@ overview: 'Milaboratories is profiled on the [APIs.io](https://apis.io/) network
 
 
   Milaboratories'' developer surface includes documentation, API reference, getting-started guide, SDKs, engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 22
+random_paper: 5
 score:
   band: emerging
   composite: 23.3
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -125,14 +125,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 25.1
+  previous_composite: 23.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

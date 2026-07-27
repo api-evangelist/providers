@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 61.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: The Clip API from UserTesting — 1 operation(s) for clip.
@@ -211,7 +211,7 @@ overview: 'UserTesting publishes 8 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   UserTesting''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 28 more developer resources.'
-random_paper: 40
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Usertesting Rate Limits
@@ -234,7 +234,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 59.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

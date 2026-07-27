@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -124,31 +124,32 @@ plans:
 - name: Kno2 Plans Pricing
   plan_count: 2
   slug: kno2-plans-pricing
-random_paper: 21
+random_paper: 38
 rate_limits:
 - limit_count: 3
   name: Kno2 Rate Limits
   slug: kno2-rate-limits
 score:
   band: thin
-  composite: 35.0
-  delta: -1.5
+  composite: 37.7
+  delta: 2.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.2
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 36.5
+  previous_composite: 35.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/screenshots/kno2-2026-07-25T224009.png
 security:
 - kind: authentication
   name: Kno2 Authentication

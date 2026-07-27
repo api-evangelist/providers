@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -100,7 +100,7 @@ apis:
 - description: The Tasks API from Mezmo — 2 operation(s) for tasks.
   name: Mezmo Tasks API
   slug: mezmo-tasks-api
-artifact_total: 43
+artifact_total: 44
 collections:
 - collection_type: open
   name: Mezmo Alerts API
@@ -276,6 +276,10 @@ jsonld:
   property_count: 2
   slug: mezmo-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: Mezmo MCP Server
+  slug: mezmo-mcp-server
 modified: '2026-05-25'
 name: Mezmo
 nav: Providers
@@ -291,7 +295,7 @@ plans:
 - name: Mezmo Plans Pricing
   plan_count: 2
   slug: mezmo-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Mezmo Rate Limits
@@ -314,19 +318,19 @@ rules:
     warn: 4
   slug: mezmo-rules
 score:
-  band: developing
-  composite: 59.4
-  delta: 0.0
+  band: strong
+  composite: 61.4
+  delta: 2.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 54.3
     developer_ergonomics: 60.9
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 86.8
     operational_transparency: 63.2
   previous_composite: 59.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mezmo/refs/heads/main/screenshots/mezmo-2026-06-20T185318.png
 security:

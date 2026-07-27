@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Retrieve a web store's product catalog for building custom catalog and product-detail pages. Documented API 2 methods include GetProductCategoryList (all categories and subcategories in a store with c
@@ -103,7 +103,7 @@ plans:
 - name: Inksoft Plans Pricing
   plan_count: 3
   slug: inksoft-plans-pricing
-random_paper: 1
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Inksoft Rate Limits
@@ -121,8 +121,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 20.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/inksoft/refs/heads/main/screenshots/inksoft-2026-07-25T222447.png
 security:
 - kind: domain-security
   name: Inksoft Domain Security

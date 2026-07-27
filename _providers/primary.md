@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 common:
@@ -78,7 +78,7 @@ overview: 'Primary is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Primary''s developer surface includes authentication and 7 more developer resources.'
-random_paper: 7
+random_paper: 24
 scopes:
 - name: Primary Scopes
   scope_count: 4
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

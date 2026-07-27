@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 31.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -258,7 +258,7 @@ overview: 'Jaeger publishes 3 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Jaeger''s developer surface includes developer portal, documentation, getting-started guide, tooling, engineering blog, signup flow, changelog, and 33 more developer resources.'
-random_paper: 16
+random_paper: 67
 rules:
 - name: Jaeger API Rules
   rule_count: 6
@@ -270,18 +270,18 @@ rules:
   slug: jaeger-io-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.9
-  delta: 0.0
+  composite: 43.1
+  delta: 4.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 49.6
+    contract_quality: 58.4
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 38.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jaeger-io/refs/heads/main/screenshots/jaeger-io-2026-06-20T183651.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: W3C WebDriver + Appium-compatible endpoint for creating sessions on Waldo cloud devices and driving native, hybrid, and mobile-web apps programmatically.
@@ -114,7 +114,7 @@ overview: 'Waldo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Waldo''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, CLI, and 10 more developer resources.'
-random_paper: 25
+random_paper: 59
 score:
   band: emerging
   composite: 26.9
@@ -128,7 +128,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 26.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

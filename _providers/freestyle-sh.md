@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 6
@@ -379,18 +379,18 @@ rules:
   slug: freestyle-sh-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.0
-  delta: 0.0
+  composite: 65.5
+  delta: 3.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.6
+    contract_quality: 73.5
     developer_ergonomics: 56.5
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 62.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freestyle-sh/refs/heads/main/screenshots/freestyle-sh-2026-06-20T181533.png
 security:

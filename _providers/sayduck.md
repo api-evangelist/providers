@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: In-page JavaScript API exposed by the embedded Sayduck 3D viewer/configurator Web Component. Accessed via DOM CustomEvents (sayduck.api-ready) once the viewer loads, with namespaces for variants, conf
@@ -121,7 +121,7 @@ overview: 'SayDuck publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   SayDuck''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: emerging
   composite: 29.2
@@ -135,7 +135,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 29.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

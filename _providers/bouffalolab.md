@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -55,7 +55,7 @@ name: Bouffalo Lab
 nav: Providers
 network: true
 overview: Bouffalo Lab is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, RISC-V, Microcontrollers, and IoT.
-random_paper: 27
+random_paper: 61
 score:
   band: minimal
   composite: 7.4
@@ -69,8 +69,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bouffalolab/refs/heads/main/screenshots/bouffalolab-2026-07-25T203651.png
 security:
 - kind: domain-security
   name: Bouffalolab Domain Security

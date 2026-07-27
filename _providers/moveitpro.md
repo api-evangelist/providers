@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Client (customer) records. Modeled from the documented MoveitPro Zapier integration, which exposes a "New Client" trigger and a "Create Client" action with name, contact, referral source, and branch a
@@ -79,7 +79,7 @@ overview: 'MoveitPro publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   MoveitPro''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
-random_paper: 28
+random_paper: 45
 score:
   band: minimal
   composite: 10.9
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

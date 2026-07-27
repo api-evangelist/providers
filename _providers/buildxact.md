@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ plans:
 - name: Buildxact Plans Pricing
   plan_count: 4
   slug: buildxact-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Buildxact Rate Limits
@@ -229,18 +229,18 @@ rules:
   slug: buildxact-rules
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 57.0
+  delta: 3.9
   facets:
     commercial_clarity: 71.1
-    contract_quality: 68.9
+    contract_quality: 76.5
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 52.6
     operational_transparency: 26.3
   previous_composite: 53.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildxact/refs/heads/main/screenshots/buildxact-2026-06-20T173758.png
 security:

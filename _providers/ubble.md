@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 56.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 11
 apis:
 - description: The Address document verifications (Coming soon) API from Ubble — 8 operation(s) for address document verifications (coming soon).
@@ -207,7 +207,7 @@ overview: 'Ubble publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Ubble''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 23 more developer resources.'
-random_paper: 12
+random_paper: 46
 score:
   band: developing
   composite: 56.1
@@ -221,7 +221,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 56.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

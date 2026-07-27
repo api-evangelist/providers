@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -101,23 +101,23 @@ rate_limits:
   slug: nist-rate-limits
 score:
   band: thin
-  composite: 32.7
-  delta: -1.1
+  composite: 34.4
+  delta: 1.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 58.4
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 33.8
+  previous_composite: 32.7
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nist/refs/heads/main/screenshots/nist-2026-06-20T190331.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 70.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 116
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ arazzos:
 - description: Pick a site, create a Collection, add a custom field, then seed it with a first item.
   name: Webflow Scaffold a CMS Collection
   slug: webflow-scaffold-cms-collection-workflow
-artifact_total: 129
+artifact_total: 130
 asyncapis:
 - description: AsyncAPI specification for Webflow webhook events. Webflow delivers webhook payloads via HTTP POST to a URL you register through the Webflow API. Each payload includes a signature header (`X-Webflow-S
   name: Webflow Webhooks
@@ -502,6 +502,10 @@ jsonld:
   property_count: 7
   slug: webflow-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Webflow
 nav: Providers
@@ -517,7 +521,7 @@ plans:
 - name: Webflow Plans Pricing
   plan_count: 14
   slug: webflow-plans-pricing
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Webflow Rate Limits
@@ -554,18 +558,18 @@ scopes:
   summary_line: 29 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 72.1
-  delta: 0.0
+  composite: 74.1
+  delta: 2.0
   facets:
     commercial_clarity: 81.6
     contract_quality: 74.0
     developer_ergonomics: 65.2
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 76.3
   previous_composite: 72.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webflow/refs/heads/main/screenshots/webflow-2026-06-20T201330.png
 security:

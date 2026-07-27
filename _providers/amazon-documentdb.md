@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -289,7 +289,7 @@ plans:
 - name: Amazon Documentdb Plans Pricing
   plan_count: 3
   slug: amazon-documentdb-plans-pricing
-random_paper: 18
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Amazon Documentdb Rate Limits
@@ -312,19 +312,19 @@ rules:
     warn: 18
   slug: amazon-documentdb-spectral-rules
 score:
-  band: strong
-  composite: 69.4
-  delta: 0.0
+  band: exemplar
+  composite: 73.3
+  delta: 3.9
   facets:
     commercial_clarity: 89.5
-    contract_quality: 68.1
+    contract_quality: 73.5
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 63.2
   previous_composite: 69.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-documentdb/refs/heads/main/screenshots/amazon-documentdb-2026-06-20T171627.png
 security:

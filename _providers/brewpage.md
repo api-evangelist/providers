@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -280,19 +280,19 @@ rules:
   slug: brewpage-rules
 score:
   band: developing
-  composite: 51.7
-  delta: 0.0
+  composite: 57.2
+  delta: 5.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 57.0
+    contract_quality: 65.8
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 51.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/brewpage/refs/heads/main/screenshots/brewpage-2026-06-20T173653.png
 security:
 - kind: domain-security

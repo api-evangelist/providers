@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for managing global employment operations including international hiring, employee records, payroll processing, benefits administration, onboarding, offboarding, and compliance management acr
@@ -106,7 +106,7 @@ plans:
 - name: Velocity Global Plans Pricing
   plan_count: 1
   slug: velocity-global-plans-pricing
-random_paper: 19
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Velocity Global Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 33.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/velocity-global/refs/heads/main/screenshots/velocity-global-2026-06-20T200937.png
 security:

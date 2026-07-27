@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 61.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 13
 apis:
 - description: The Classes API from Landing.ai — 1 operation(s) for classes.
@@ -228,7 +228,7 @@ plans:
 - name: Landingai Plans
   plan_count: 3
   slug: landingai-plans
-random_paper: 17
+random_paper: 51
 rate_limits:
 - limit_count: 0
   name: Landingai Rate Limits
@@ -246,8 +246,9 @@ score:
     operational_transparency: 55.3
   previous_composite: 63.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/landingai/refs/heads/main/screenshots/landingai-2026-07-25T224504.png
 security:
 - kind: authentication
   name: Landingai Authentication

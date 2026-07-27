@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: CKAN Action API for NBCO Open Data, ~2 datasets. Base URL https://data.nbco.gov.ie/api/3/action/.
@@ -81,7 +81,7 @@ plans:
 - name: Data Nbco Gov Ie Plans Pricing
   plan_count: 0
   slug: data-nbco-gov-ie-plans-pricing
-random_paper: 22
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Data Nbco Gov Ie Rate Limits
@@ -89,7 +89,7 @@ rate_limits:
 score:
   band: minimal
   composite: 11.6
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 0.0
@@ -97,14 +97,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.3
+  previous_composite: 11.6
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-nbco-gov-ie/refs/heads/main/screenshots/data-nbco-gov-ie-2026-06-20T175554.png
 security:

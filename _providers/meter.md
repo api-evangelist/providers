@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ overview: 'Meter publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Meter''s developer surface includes changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, support, and 20 more developer resources.'
-random_paper: 31
+random_paper: 65
 score:
   band: thin
   composite: 44.2
@@ -206,7 +206,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 44.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

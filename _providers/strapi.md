@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 4
@@ -267,18 +267,18 @@ rules:
   slug: strapi-rules
 score:
   band: developing
-  composite: 56.2
-  delta: 0.0
+  composite: 58.2
+  delta: 2.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 74.9
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 60.5
     operational_transparency: 57.9
   previous_composite: 56.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/strapi/refs/heads/main/screenshots/strapi-2026-06-20T194615.png
 security:

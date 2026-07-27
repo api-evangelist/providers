@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The OAuth 2.0 protected API behind the Lingvist learning platform. Lingvist publishes no reference documentation for it; the authorization, token and user-profile endpoints are documented in Lingvist'
@@ -131,7 +131,7 @@ overview: 'Lingvist publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Lingvist''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 15 more developer resources.'
-random_paper: 13
+random_paper: 64
 scopes:
 - name: Lingvist Scopes
   scope_count: 1
@@ -150,8 +150,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 24.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lingvist/refs/heads/main/screenshots/lingvist-2026-07-25T225247.png
 security:
 - kind: authentication
   name: Lingvist Authentication

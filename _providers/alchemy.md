@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -319,7 +319,7 @@ plans:
 - name: Alchemy Plans Pricing
   plan_count: 4
   slug: alchemy-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Alchemy Rate Limits
@@ -351,18 +351,18 @@ rules:
   slug: alchemy-spectral-rules
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 53.8
+  delta: 3.2
   facets:
     commercial_clarity: 47.4
     contract_quality: 78.9
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 60.5
     operational_transparency: 36.8
   previous_composite: 50.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alchemy/refs/heads/main/screenshots/alchemy-2026-06-20T171514.png
 security:

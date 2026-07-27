@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 5.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for businesses to collect payments, send single and mass transfers, check balance, manage sub-companies, and receive HMAC-signed webhooks.
@@ -93,11 +93,11 @@ overview: 'Djamo publishes 1 API on the [APIs.io](https://apis.io/) network: Bus
 
 
   Djamo''s developer surface includes pricing, signup flow, engineering blog, support, and 5 more developer resources.'
-random_paper: 13
+random_paper: 47
 score:
   band: emerging
   composite: 29.4
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 31.9
@@ -105,15 +105,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 29.2
+  previous_composite: 29.4
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/djamo/refs/heads/main/screenshots/djamo-2026-07-25T212138.png
 security:
 - kind: authentication
   name: Djamo Authentication

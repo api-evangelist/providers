@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ overview: '42Maru is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   42Maru''s developer surface includes documentation, engineering blog, support, and 6 more developer resources.'
-random_paper: 29
+random_paper: 63
 score:
   band: minimal
   composite: 12.2
@@ -91,8 +91,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/42maru/refs/heads/main/screenshots/42maru-2026-07-25T181206.png
 security:
 - kind: domain-security
   name: 42Maru Domain Security

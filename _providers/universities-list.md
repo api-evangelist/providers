@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: University names, countries and domains
@@ -50,11 +50,11 @@ name: Universities List
 nav: Providers
 network: true
 overview: Universities List publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 26
+random_paper: 43
 score:
   band: minimal
   composite: 5.7
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -62,14 +62,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.8
+  previous_composite: 5.7
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 0.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/universities-list/refs/heads/main/screenshots/universities-list-2026-06-20T200126.png
 slug: universities-list

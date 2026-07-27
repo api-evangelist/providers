@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -134,18 +134,18 @@ rate_limits:
   slug: eclipse-rdf4j-rate-limits
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 40.5
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 47.0
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 38.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/eclipse-rdf4j/refs/heads/main/screenshots/eclipse-rdf4j-2026-06-20T180427.png
 security:

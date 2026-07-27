@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -50,7 +50,7 @@ name: Augtera Networks
 nav: Providers
 network: true
 overview: Augtera Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Infrastructure, Networking, AIOps, and Network Monitoring.
-random_paper: 0
+random_paper: 51
 score:
   band: minimal
   composite: 7.4
@@ -64,8 +64,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/augtera-networks/refs/heads/main/screenshots/augtera-networks-2026-07-25T201724.png
 security:
 - kind: domain-security
   name: Augtera Networks Domain Security

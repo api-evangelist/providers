@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: RESTful API for managing cluster resources, service groups, and cluster configuration.
@@ -123,7 +123,7 @@ plans:
 - name: Veritas Cluster Plans Pricing
   plan_count: 3
   slug: veritas-cluster-plans-pricing
-random_paper: 0
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Veritas Cluster Rate Limits
@@ -141,7 +141,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 41.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-cluster/refs/heads/main/screenshots/veritas-cluster-2026-06-20T200934.png
 security:

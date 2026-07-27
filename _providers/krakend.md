@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: The Metrics API from KrakenD — 1 operation(s) for metrics.
   name: KrakenD Metrics API
   slug: krakend-metrics-api
-artifact_total: 19
+artifact_total: 20
 collections:
 - collection_type: open
   name: KrakenD Service API
@@ -157,6 +157,10 @@ jsonld:
   property_count: 6
   slug: krakend-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: KrakenD
 nav: Providers
@@ -172,7 +176,7 @@ plans:
 - name: Krakend Plans Pricing
   plan_count: 2
   slug: krakend-plans-pricing
-random_paper: 22
+random_paper: 56
 rate_limits:
 - limit_count: 4
   name: Krakend Rate Limits
@@ -188,18 +192,18 @@ rules:
   slug: krakend-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.0
-  delta: 0.0
+  composite: 49.3
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 53.4
+    contract_quality: 58.7
     developer_ergonomics: 34.8
-    discoverability: 42.5
+    discoverability: 62.5
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 46.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/krakend/refs/heads/main/screenshots/krakend-2026-06-20T184150.png
 security:

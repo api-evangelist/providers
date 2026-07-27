@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: JWT-authenticated REST API on Graphistry Hub for authentication (token obtain/refresh/verify), dataset and file upload, and visualization datasets, powering GPU-accelerated graph rendering and sharing
@@ -118,7 +118,7 @@ overview: 'Graphistry publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Graphistry''s developer surface includes documentation, API reference, getting-started guide, signup flow, CLI, authentication, changelog, and 10 more developer resources.'
-random_paper: 30
+random_paper: 13
 score:
   band: emerging
   composite: 28.1
@@ -132,8 +132,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 28.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/graphistry/refs/heads/main/screenshots/graphistry-2026-07-25T220239.png
 security:
 - kind: authentication
   name: Graphistry Authentication

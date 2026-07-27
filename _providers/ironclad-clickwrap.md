@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -137,18 +137,18 @@ rules:
   slug: ironclad-clickwrap-rules
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 41.8
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 49.6
     developer_ergonomics: 23.9
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 13.2
     operational_transparency: 36.8
   previous_composite: 38.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironclad-clickwrap/refs/heads/main/screenshots/ironclad-clickwrap-2026-06-20T183613.png
 security:

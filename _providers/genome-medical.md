@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -73,11 +73,11 @@ overview: 'Genome Medical is profiled on the [APIs.io](https://apis.io/) network
 
 
   Genome Medical''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 22
+random_paper: 39
 score:
   band: emerging
   composite: 20.2
-  delta: 3.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -85,15 +85,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.5
+  previous_composite: 20.2
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/genome-medical/refs/heads/main/screenshots/genome-medical-2026-07-25T215624.png
 security:
 - kind: domain-security
   name: Genome Medical Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -201,7 +201,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence at Tenet Healthcare
   url: https://emerj.com/artificial-intelligence-at-tenet-healthcare/
-random_paper: 49
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Tenet Healthcare Rate Limits
@@ -230,23 +230,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 47.3
-  delta: 2.0
+  composite: 50.1
+  delta: 2.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 69.9
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 21.1
-  previous_composite: 45.3
+  previous_composite: 47.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenet-healthcare/refs/heads/main/screenshots/tenet-healthcare-2026-06-20T195114.png
 security:

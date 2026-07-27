@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -356,7 +356,7 @@ overview: 'Amadeus Media publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Amadeus Media''s developer surface includes authentication, developer portal, getting-started guide, signup flow, pricing, engineering blog, FAQ, and 21 more developer resources.'
-random_paper: 18
+random_paper: 1
 rules:
 - name: Amadeus Media API Rules
   rule_count: 5
@@ -387,8 +387,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 64.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-media/refs/heads/main/screenshots/amadeus-media-2026-07-25T195903.png
 security:
 - kind: authentication
   name: Amadeus Media Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -135,18 +135,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 49.9
-  delta: 0.0
+  composite: 54.5
+  delta: 4.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.7
+    contract_quality: 69.0
     developer_ergonomics: 21.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 49.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-business-messages/refs/heads/main/screenshots/google-business-messages-2026-06-20T182030.png
 security:

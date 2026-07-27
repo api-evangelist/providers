@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ plans:
 - name: Pointclickcare Plans Pricing
   plan_count: 3
   slug: pointclickcare-plans-pricing
-random_paper: 4
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Pointclickcare Rate Limits
@@ -177,23 +177,23 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 64.0
-  delta: 4.1
+  composite: 66.8
+  delta: 2.8
   facets:
     commercial_clarity: 68.4
-    contract_quality: 67.3
+    contract_quality: 72.6
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 52.6
-  previous_composite: 59.9
+  previous_composite: 64.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pointclickcare/refs/heads/main/screenshots/pointclickcare-2026-06-20T191845.png
 security:

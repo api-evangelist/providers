@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -124,19 +124,20 @@ rate_limits:
   slug: cortex-idp-rate-limits
 score:
   band: thin
-  composite: 38.0
-  delta: 0.0
+  composite: 41.3
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.4
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 38.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cortex-idp/refs/heads/main/screenshots/cortex-idp-2026-07-25T210650.png
 security:
 - kind: authentication
   name: Cortex Idp Authentication

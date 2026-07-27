@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,7 +81,7 @@ overview: 'Adalah for IT Systems LLC is profiled on the [APIs.io](https://apis.i
 
 
   Adalah for IT Systems LLC''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 41
+random_paper: 58
 score:
   band: minimal
   composite: 14.9
@@ -95,8 +95,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/adalah-for-it-systems-llc/refs/heads/main/screenshots/adalah-for-it-systems-llc-2026-07-25T181610.png
 security:
 - kind: domain-security
   name: Adalah For It Systems Llc Domain Security

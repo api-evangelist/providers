@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -112,26 +112,27 @@ plans:
 - name: Guusto Plans Pricing
   plan_count: 4
   slug: guusto-plans-pricing
-random_paper: 16
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Guusto Rate Limits
   slug: guusto-rate-limits
 score:
   band: thin
-  composite: 38.6
-  delta: 0.0
+  composite: 41.8
+  delta: 3.2
   facets:
     commercial_clarity: 47.4
     contract_quality: 57.2
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 38.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/guusto/refs/heads/main/screenshots/guusto-2026-07-25T220443.png
 security:
 - kind: authentication
   name: Guusto Authentication

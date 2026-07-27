@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -518,7 +518,7 @@ plans:
 - name: Optimizely Plans Pricing
   plan_count: 3
   slug: optimizely-plans-pricing
-random_paper: 39
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Optimizely Rate Limits
@@ -546,19 +546,19 @@ scopes:
   slug: optimizely-scopes
   summary_line: 4 scopes · clientCredentials
 score:
-  band: developing
-  composite: 58.9
-  delta: 0.0
+  band: strong
+  composite: 60.1
+  delta: 1.2
   facets:
     commercial_clarity: 81.6
     contract_quality: 77.9
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 52.6
     operational_transparency: 36.8
   previous_composite: 58.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

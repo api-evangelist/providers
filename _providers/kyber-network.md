@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: The General API from Kyber Network — 2 operation(s) for general.
@@ -182,7 +182,7 @@ overview: 'Kyber Network publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   Kyber Network''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, pricing, and 23 more developer resources.'
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Kyber Network Rate Limits
@@ -190,7 +190,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.6
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 48.3
@@ -198,15 +198,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 60.5
-  previous_composite: 51.0
+  previous_composite: 50.6
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kyber-network/refs/heads/main/screenshots/kyber-network-2026-07-25T224353.png
 security:
 - kind: authentication
   name: Kyber Network Authentication

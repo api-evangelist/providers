@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Public OAI-PMH 2.0 metadata harvesting endpoint for the IRIS Re.Public@Polimi institutional research repository (CINECA platform). The endpoint resolves and returns a valid Identify response naming th
@@ -100,7 +100,7 @@ plans:
 - name: Politecnico Di Milano Plans Pricing
   plan_count: 2
   slug: politecnico-di-milano-plans-pricing
-random_paper: 21
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Politecnico Di Milano Rate Limits
@@ -108,7 +108,7 @@ rate_limits:
 score:
   band: emerging
   composite: 25.3
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 15.1
@@ -116,14 +116,14 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 23.2
+  previous_composite: 25.3
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/politecnico-di-milano/refs/heads/main/screenshots/politecnico-di-milano-2026-06-20T191910.png
 security:

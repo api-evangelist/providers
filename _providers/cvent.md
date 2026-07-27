@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -211,7 +211,7 @@ plans:
 - name: Cvent Plans Pricing
   plan_count: 3
   slug: cvent-plans-pricing
-random_paper: 34
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Cvent Rate Limits
@@ -223,18 +223,18 @@ scopes:
   summary_line: 9 scopes · clientCredentials
 score:
   band: developing
-  composite: 51.7
-  delta: 0.0
+  composite: 53.7
+  delta: 2.0
   facets:
     commercial_clarity: 78.9
     contract_quality: 49.6
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 78.9
   previous_composite: 51.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cvent/refs/heads/main/screenshots/cvent-2026-06-20T175359.png
 security:

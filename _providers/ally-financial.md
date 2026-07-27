@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: 'A conceptual, API-Evangelist-derived domain model of Ally Financial''s consumer platform spanning deposit accounts (checking, savings, money market, CDs, IRAs), lending (auto, personal, mortgage, home '
@@ -97,11 +97,11 @@ press:
 - date: '2026-05-25'
   title: MediaRoom - Multimedia Library
   url: https://media.ally.com/multimedia
-random_paper: 35
+random_paper: 52
 score:
   band: minimal
   composite: 9.3
-  delta: 2.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -109,14 +109,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 6.7
+  previous_composite: 9.3
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ally-financial/refs/heads/main/screenshots/ally-financial-2026-06-20T171548.png
 security:

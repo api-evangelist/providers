@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for the HiBob HR platform providing programmatic access to employee data, time off management, attendance, tasks, reports, documents, goals, job catalog, workforce planning, hiring, and learn
@@ -102,7 +102,7 @@ plans:
 - name: Bob Plans Pricing
   plan_count: 5
   slug: bob-plans-pricing
-random_paper: 1
+random_paper: 35
 rate_limits:
 - limit_count: 2
   name: Bob Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 36.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bob/refs/heads/main/screenshots/bob-2026-06-20T173550.png
 security:

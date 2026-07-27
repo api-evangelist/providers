@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ plans:
 - name: Aspentech Plans Pricing
   plan_count: 1
   slug: aspentech-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Aspentech Rate Limits
@@ -168,18 +168,18 @@ rules:
   slug: aspentech-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.3
-  delta: 0.0
+  composite: 52.9
+  delta: 4.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 61.9
+    contract_quality: 67.3
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 21.1
   previous_composite: 48.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aspentech/refs/heads/main/screenshots/aspentech-2026-06-20T172502.png
 security:

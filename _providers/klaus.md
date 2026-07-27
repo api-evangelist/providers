@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 70.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: The PubImportApi API from Klaus — 3 operation(s) for pubimportapi.
@@ -189,7 +189,7 @@ overview: 'Klaus publishes 2 APIs on the [APIs.io](https://apis.io/) network: Pu
 
 
   Klaus'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 34
+random_paper: 0
 rate_limits:
 - limit_count: 0
   name: Klaus Rate Limits
@@ -207,8 +207,9 @@ score:
     operational_transparency: 55.3
   previous_composite: 51.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/klaus/refs/heads/main/screenshots/klaus-2026-07-25T223939.png
 security:
 - kind: authentication
   name: Klaus Authentication

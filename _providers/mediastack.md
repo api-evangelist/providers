@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -234,20 +234,20 @@ rules:
     warn: 4
   slug: mediastack-rules
 score:
-  band: developing
-  composite: 56.8
-  delta: 0.0
+  band: strong
+  composite: 62.2
+  delta: 5.4
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.0
+    contract_quality: 77.9
     developer_ergonomics: 23.9
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 56.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/mediastack/refs/heads/main/screenshots/mediastack-2026-06-20T185116.png
 security:
 - kind: authentication

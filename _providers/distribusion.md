@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 11.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'B2B API for retailers to search ground-transportation inventory (bus, train, ferry, tram) across 2,000+ carriers, create and manage bookings, take payment, and handle after-sales. Reference is behind '
@@ -93,7 +93,7 @@ overview: 'Distribusion publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Distribusion''s developer surface includes documentation, support, and 9 more developer resources.'
-random_paper: 36
+random_paper: 19
 score:
   band: emerging
   composite: 20.2
@@ -107,8 +107,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 20.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/distribusion/refs/heads/main/screenshots/distribusion-2026-07-25T212115.png
 security:
 - kind: domain-security
   name: Distribusion Domain Security

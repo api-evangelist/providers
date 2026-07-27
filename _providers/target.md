@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -231,18 +231,18 @@ rules:
   slug: target-spectral-rules
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 52.7
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 66.7
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 42.1
   previous_composite: 49.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

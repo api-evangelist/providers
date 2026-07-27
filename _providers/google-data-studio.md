@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -228,7 +228,7 @@ plans:
 - name: Google Data Studio Plans Pricing
   plan_count: 6
   slug: google-data-studio-plans-pricing
-random_paper: 16
+random_paper: 33
 rate_limits:
 - limit_count: 13
   name: Google Data Studio Rate Limits
@@ -249,18 +249,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 66.9
-  delta: 0.0
+  composite: 68.9
+  delta: 2.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 65.9
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 66.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-data-studio/refs/heads/main/screenshots/google-data-studio-2026-06-20T182153.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 27.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: The order_attachments API from Channable — 2 operation(s) for order_attachments.
@@ -166,7 +166,7 @@ overview: 'Channable publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Channable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 19 more developer resources.'
-random_paper: 6
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Channable Rate Limits
@@ -184,8 +184,9 @@ score:
     operational_transparency: 44.7
   previous_composite: 46.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/channable/refs/heads/main/screenshots/channable-2026-07-25T205043.png
 security:
 - kind: authentication
   name: Channable Authentication

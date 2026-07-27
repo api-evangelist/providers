@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The F6S API provides programmatic access to the F6S platform, the world's largest startup and founder community. It enables developers to integrate with F6S's core capabilities including application m
@@ -118,7 +118,7 @@ plans:
 - name: F6S Plans Pricing
   plan_count: 3
   slug: f6s-plans-pricing
-random_paper: 16
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: F6S Rate Limits
@@ -136,7 +136,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 28.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f6s/refs/heads/main/screenshots/f6s-2026-06-20T181009.png
 security:

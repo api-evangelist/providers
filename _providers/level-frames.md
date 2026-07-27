@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ overview: 'Level Frames is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Level Frames'' developer surface includes engineering blog, support, pricing, signup flow, and 7 more developer resources.'
-random_paper: 46
+random_paper: 63
 score:
   band: emerging
   composite: 17.0
@@ -99,8 +99,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/level-frames/refs/heads/main/screenshots/level-frames-2026-07-25T224943.png
 security:
 - kind: domain-security
   name: Level Frames Domain Security

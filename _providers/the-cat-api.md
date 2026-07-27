@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -167,18 +167,18 @@ rules:
   slug: the-cat-api-rules
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 51.2
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 64.8
     developer_ergonomics: 19.6
-    discoverability: 42.5
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 48.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-cat-api/refs/heads/main/screenshots/the-cat-api-2026-06-20T195216.png
 security:

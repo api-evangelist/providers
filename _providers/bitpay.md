@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ rules:
 score:
   band: developing
   composite: 51.3
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 60.6
@@ -203,14 +203,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 13.2
-  previous_composite: 52.2
+  previous_composite: 51.3
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitpay/refs/heads/main/screenshots/bitpay-2026-06-20T173317.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: RESTful JSON API providing programmatic access to Brandfolder resources including organizations, brandfolders, collections, sections, assets, attachments, tags, custom fields, labels, invitations, use
@@ -114,7 +114,7 @@ plans:
 - name: Brandfolder Plans Pricing
   plan_count: 2
   slug: brandfolder-plans-pricing
-random_paper: 33
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Brandfolder Rate Limits
@@ -132,7 +132,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 36.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brandfolder/refs/heads/main/screenshots/brandfolder-2026-06-20T173633.png
 security:

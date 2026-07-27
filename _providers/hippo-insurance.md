@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Direct-to-consumer homeowners quote, bind, and policy management. Quotes delivered in under 60 seconds. No public API; carrier partnerships are managed via First Connect.
@@ -111,7 +111,7 @@ plans:
 - name: Hippo Insurance Plans Pricing
   plan_count: 1
   slug: hippo-insurance-plans-pricing
-random_paper: 27
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Hippo Insurance Rate Limits
@@ -119,7 +119,7 @@ rate_limits:
 score:
   band: emerging
   composite: 21.0
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -127,14 +127,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 20.5
+  previous_composite: 21.0
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hippo-insurance/refs/heads/main/screenshots/hippo-insurance-2026-06-20T182750.png
 security:

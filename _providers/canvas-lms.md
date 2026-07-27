@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 86.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ arazzos:
 - description: Push an assignment's due date out, then grade a student's late submission.
   name: Canvas LMS Extend Due Date Then Grade Late Submission
   slug: canvas-lms-update-assignment-due-date-and-grade-workflow
-artifact_total: 70
+artifact_total: 71
 collections:
 - collection_type: postman
   name: Canvas LMS REST API
@@ -590,6 +590,10 @@ jsonld:
   property_count: 16
   slug: canvas-lms-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: canvas-lms-mcp.yml
+  slug: canvas-lms-mcpyml
 modified: '2026-06-20'
 name: Canvas LMS
 nav: Providers
@@ -605,7 +609,7 @@ plans:
 - name: Canvas Lms Plans Pricing
   plan_count: 6
   slug: canvas-lms-plans-pricing
-random_paper: 44
+random_paper: 61
 rate_limits:
 - limit_count: 3
   name: Canvas Lms Rate Limits
@@ -626,18 +630,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 71.0
-  delta: 0.0
+  composite: 74.5
+  delta: 3.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.7
+    contract_quality: 80.5
     developer_ergonomics: 82.6
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 71.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canvas-lms/refs/heads/main/screenshots/canvas-lms-2026-06-20T173931.png
 security:

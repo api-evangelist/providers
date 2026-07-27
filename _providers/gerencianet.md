@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 1
@@ -544,7 +544,7 @@ plans:
 - name: Gerencianet Plans Pricing
   plan_count: 5
   slug: gerencianet-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Gerencianet Rate Limits
@@ -573,23 +573,23 @@ scopes:
   summary_line: 12 scopes · clientCredentials
 score:
   band: strong
-  composite: 63.2
-  delta: 2.3
+  composite: 65.7
+  delta: 2.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 59.3
+    contract_quality: 68.1
     developer_ergonomics: 63.0
-    discoverability: 67.5
+    discoverability: 75.0
     governance: 47.4
     operational_transparency: 52.6
-  previous_composite: 60.9
+  previous_composite: 63.2
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/screenshots/gerencianet-2026-06-20T181803.png
 security:

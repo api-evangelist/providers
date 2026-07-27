@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: FREE NOW's partner and business integration API, documented through a password-gated ReadMe developer portal and served from the api.free-now.com gateway. Access is granted to approved FREE NOW for Bu
@@ -69,7 +69,7 @@ overview: 'FREE NOW publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   FREE NOW''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 38
+random_paper: 55
 score:
   band: minimal
   composite: 13.4
@@ -83,8 +83,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/free-now/refs/heads/main/screenshots/free-now-2026-07-25T215134.png
 security:
 - kind: domain-security
   name: Free Now Domain Security

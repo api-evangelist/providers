@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,11 +93,11 @@ overview: '9FIN is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   9FIN''s developer surface includes engineering blog, changelog, signup flow, and 10 more developer resources.'
-random_paper: 17
+random_paper: 34
 score:
   band: emerging
   composite: 25.9
-  delta: 4.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -105,15 +105,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 21.3
+  previous_composite: 25.9
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 52.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/9fin/refs/heads/main/screenshots/9fin-2026-07-25T181341.png
 security:
 - kind: domain-security
   name: 9Fin Domain Security

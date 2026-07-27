@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +65,7 @@ overview: '1hai is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   1hai''s developer surface includes support, signup flow, and 4 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: minimal
   composite: 14.5
@@ -79,8 +79,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/1hai/refs/heads/main/screenshots/1hai-2026-07-25T181118.png
 security:
 - kind: domain-security
   name: 1Hai Domain Security

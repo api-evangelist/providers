@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -102,21 +102,21 @@ overview: 'Hewlett Packard Enterprise publishes 3 APIs on the [APIs.io](https://
 
 
   Hewlett Packard Enterprise''s developer surface includes authentication, documentation, signup flow, and 6 more developer resources.'
-random_paper: 11
+random_paper: 45
 score:
   band: emerging
-  composite: 25.9
-  delta: 0.0
+  composite: 29.2
+  delta: 3.3
   facets:
     commercial_clarity: 0.0
     contract_quality: 51.3
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 25.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hpe/refs/heads/main/screenshots/hpe-2026-06-20T182854.png
 security:

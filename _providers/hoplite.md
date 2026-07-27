@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 35.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Hoplite platform API at api.hoplite.sh. Documented through the developer docs (no public OpenAPI published as of this profiling). Surfaces include model-provider discovery (GET /api/model-provider
@@ -137,7 +137,7 @@ overview: 'Hoplite publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Hoplite''s developer surface includes documentation, getting-started guide, pricing, signup flow, CLI, authentication, and 14 more developer resources.'
-random_paper: 43
+random_paper: 9
 score:
   band: thin
   composite: 33.6
@@ -151,8 +151,9 @@ score:
     operational_transparency: 23.7
   previous_composite: 33.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hoplite/refs/heads/main/screenshots/hoplite-2026-07-25T221418.png
 security:
 - kind: authentication
   name: Hoplite Authentication

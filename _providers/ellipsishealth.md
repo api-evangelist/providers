@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -86,11 +86,11 @@ overview: 'Ellipsis Health is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Ellipsis Health''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 20
+random_paper: 3
 score:
   band: emerging
   composite: 21.8
-  delta: 5.3
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -98,15 +98,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.5
+  previous_composite: 21.8
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 52.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ellipsishealth/refs/heads/main/screenshots/ellipsishealth-2026-07-25T213157.png
 security:
 - kind: domain-security
   name: Ellipsishealth Domain Security

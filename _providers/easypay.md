@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 39.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for the EasyPay/Fawaterak payment gateway. Authenticated with a vendor Bearer token, it lists available payment methods, creates invoice and payment links, initiates payment on an invoice, an
@@ -126,7 +126,7 @@ overview: 'EasyPay publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   EasyPay''s developer surface includes documentation, API reference, signup flow, pricing, engineering blog, support, authentication, and 12 more developer resources.'
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Easypay Rate Limits
@@ -134,7 +134,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.5
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -142,15 +142,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 28.2
+  previous_composite: 30.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/easypay/refs/heads/main/screenshots/easypay-2026-07-25T212717.png
 security:
 - kind: authentication
   name: Easypay Authentication

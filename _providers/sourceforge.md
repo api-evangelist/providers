@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ plans:
 - name: Sourceforge Plans Pricing
   plan_count: 3
   slug: sourceforge-plans-pricing
-random_paper: 15
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Sourceforge Rate Limits
@@ -198,19 +198,19 @@ rules:
     warn: 7
   slug: sourceforge-rules
 score:
-  band: developing
-  composite: 57.6
-  delta: 0.0
+  band: strong
+  composite: 60.8
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.6
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 57.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sourceforge/refs/heads/main/screenshots/sourceforge-2026-06-20T194221.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Completedns Plans Pricing
   plan_count: 3
   slug: completedns-plans-pricing
-random_paper: 9
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Completedns Rate Limits
@@ -159,19 +159,19 @@ rules:
     warn: 5
   slug: completedns-rules
 score:
-  band: developing
-  composite: 58.5
-  delta: 0.0
+  band: strong
+  composite: 61.7
+  delta: 3.2
   facets:
     commercial_clarity: 84.2
     contract_quality: 68.1
     developer_ergonomics: 28.3
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 58.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/completedns/refs/heads/main/screenshots/completedns-2026-06-20T174832.png
 security:

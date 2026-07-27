@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 7
@@ -176,7 +176,7 @@ overview: 'Rockbot publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Rockbot''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 19 more developer resources.'
-random_paper: 42
+random_paper: 8
 scopes:
 - name: Rockbot Scopes
   scope_count: 0
@@ -195,7 +195,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 48.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

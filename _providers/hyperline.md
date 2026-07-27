@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -128,30 +128,30 @@ plans:
 - name: Hyperline Plans Pricing
   plan_count: 3
   slug: hyperline-plans-pricing
-random_paper: 7
+random_paper: 24
 rate_limits:
 - limit_count: 2
   name: Hyperline Rate Limits
   slug: hyperline-rate-limits
 score:
   band: thin
-  composite: 35.9
-  delta: 0.2
+  composite: 38.7
+  delta: 2.8
   facets:
     commercial_clarity: 47.4
     contract_quality: 49.6
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 35.7
+  previous_composite: 35.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperline/refs/heads/main/screenshots/hyperline-2026-06-20T183050.png
 security:

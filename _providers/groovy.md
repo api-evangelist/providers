@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The core Groovy language API documentation including all built-in classes, methods, and language features.
@@ -96,7 +96,7 @@ plans:
 - name: Groovy Plans Pricing
   plan_count: 3
   slug: groovy-plans-pricing
-random_paper: 15
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Groovy Rate Limits
@@ -114,7 +114,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 27.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groovy/refs/heads/main/screenshots/groovy-2026-06-20T182413.png
 security:

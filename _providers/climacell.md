@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,7 +93,7 @@ overview: 'Climacell is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Climacell''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 6 more developer resources.'
-random_paper: 16
+random_paper: 50
 score:
   band: emerging
   composite: 24.6
@@ -107,8 +107,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 24.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/climacell/refs/heads/main/screenshots/climacell-2026-07-25T205622.png
 security:
 - kind: domain-security
   name: Climacell Domain Security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -118,7 +118,7 @@ overview: 'Rollstack is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Rollstack''s developer surface includes signup flow, documentation, pricing, engineering blog, support, changelog, authentication, and 12 more developer resources.'
-random_paper: 6
+random_paper: 23
 score:
   band: thin
   composite: 30.2
@@ -132,7 +132,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 30.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

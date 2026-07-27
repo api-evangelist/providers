@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -256,7 +256,7 @@ rate_limits:
 score:
   band: developing
   composite: 57.4
-  delta: 1.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 52.3
@@ -264,15 +264,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 55.6
+  previous_composite: 57.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lifi/refs/heads/main/screenshots/lifi-2026-07-25T225052.png
 security:
 - kind: authentication
   name: Lifi Authentication

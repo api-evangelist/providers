@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 14
 apis:
 - description: The Accounts API from Newcastle Permanent Building Society — 6 operation(s) for accounts.
@@ -201,7 +201,7 @@ overview: 'Newcastle Permanent Building Society publishes 14 APIs on the [APIs.i
 
 
   Newcastle Permanent Building Society''s developer surface includes getting-started guide, documentation, API reference, sandbox, authentication, support, and 22 more developer resources.'
-random_paper: 43
+random_paper: 9
 scopes:
 - name: Newcastle Permanent Scopes
   scope_count: 12
@@ -210,7 +210,7 @@ scopes:
 score:
   band: developing
   composite: 52.6
-  delta: 6.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 53.4
@@ -218,15 +218,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 46.6
+  previous_composite: 52.6
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newcastle-permanent/refs/heads/main/screenshots/newcastle-permanent-2026-07-21T115738.png
 security:
 - kind: authentication

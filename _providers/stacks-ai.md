@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 35.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ overview: 'Stacks Ai publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Stacks Ai''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, and 11 more developer resources.'
-random_paper: 29
+random_paper: 12
 scopes:
 - name: Stacks Ai Scopes
   scope_count: 0
@@ -152,7 +152,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 46.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

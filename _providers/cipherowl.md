@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 2
@@ -190,7 +190,7 @@ overview: 'CipherOwl publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   CipherOwl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 4
+random_paper: 21
 score:
   band: developing
   composite: 57.0
@@ -204,8 +204,9 @@ score:
     operational_transparency: 55.3
   previous_composite: 57.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cipherowl/refs/heads/main/screenshots/cipherowl-2026-07-25T205400.png
 security:
 - kind: authentication
   name: Cipherowl Authentication

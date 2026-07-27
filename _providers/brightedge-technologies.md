@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 144
   human_in_the_loop: 2
@@ -266,7 +266,7 @@ overview: 'BrightEdge Technologies publishes 44 APIs on the [APIs.io](https://ap
 
 
   BrightEdge Technologies'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 15 more developer resources.'
-random_paper: 28
+random_paper: 62
 score:
   band: thin
   composite: 38.5
@@ -280,8 +280,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 38.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/brightedge-technologies/refs/heads/main/screenshots/brightedge-technologies-2026-07-25T203841.png
 security:
 - kind: authentication
   name: Brightedge Technologies Authentication

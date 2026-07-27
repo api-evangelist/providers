@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -348,7 +348,7 @@ plans:
 - name: Battle Net Plans Pricing
   plan_count: 1
   slug: battle-net-plans-pricing
-random_paper: 39
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Battle Net Rate Limits
@@ -388,7 +388,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 60.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/battle-net/refs/heads/main/screenshots/battle-net-2026-06-20T173043.png
 security:

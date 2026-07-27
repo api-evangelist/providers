@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 19
 common:
@@ -112,7 +112,7 @@ plans:
 - name: Allianz Plans Pricing
   plan_count: 1
   slug: allianz-plans-pricing
-random_paper: 33
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Allianz Rate Limits
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.2
-  delta: 4.7
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -128,14 +128,14 @@ score:
     discoverability: 55.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 18.5
+  previous_composite: 23.2
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 50.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/allianz/refs/heads/main/screenshots/allianz-2026-06-20T171535.png
 security:

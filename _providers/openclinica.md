@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -125,30 +125,30 @@ plans:
 - name: Openclinica Plans Pricing
   plan_count: 2
   slug: openclinica-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Openclinica Rate Limits
   slug: openclinica-rate-limits
 score:
   band: thin
-  composite: 38.1
-  delta: -0.2
+  composite: 40.9
+  delta: 2.8
   facets:
     commercial_clarity: 36.8
     contract_quality: 61.9
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 38.3
+  previous_composite: 38.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

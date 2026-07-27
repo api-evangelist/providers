@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ apis:
 - description: Multi-tenancy support for OpenSearch Dashboards.
   name: OpenSearch Tenants API
   slug: opensearch-tenants-api
-artifact_total: 36
+artifact_total: 37
 collections:
 - collection_type: open
   name: OpenSearch Security Plugin REST API
@@ -189,6 +189,10 @@ jsonld:
   property_count: 0
   slug: opensearch-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: OpenSearch
 nav: Providers
@@ -220,18 +224,18 @@ rules:
   slug: opensearch-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.5
-  delta: 0.0
+  composite: 59.0
+  delta: 4.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 55.8
+    contract_quality: 61.1
     developer_ergonomics: 54.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 47.4
   previous_composite: 54.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opensearch/refs/heads/main/screenshots/opensearch-2026-06-20T191032.png
 security:

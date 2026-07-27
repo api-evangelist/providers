@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -121,25 +121,25 @@ plans:
 - name: Uptrain Plans Pricing
   plan_count: 2
   slug: uptrain-plans-pricing
-random_paper: 6
+random_paper: 23
 rate_limits:
 - limit_count: 2
   name: Uptrain Rate Limits
   slug: uptrain-rate-limits
 score:
   band: thin
-  composite: 34.1
-  delta: 0.0
+  composite: 37.3
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 56.9
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 34.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uptrain/refs/heads/main/screenshots/uptrain-2026-06-20T200550.png
 security:

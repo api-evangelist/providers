@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 86.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -267,7 +267,7 @@ overview: 'Dash0 publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Dash0''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 31 more developer resources.'
-random_paper: 5
+random_paper: 56
 scopes:
 - name: Dash0 Scopes
   scope_count: 1
@@ -286,8 +286,9 @@ score:
     operational_transparency: 55.3
   previous_composite: 59.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dash0/refs/heads/main/screenshots/dash0-2026-07-25T211225.png
 security:
 - kind: authentication
   name: Dash0 Authentication

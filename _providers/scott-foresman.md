@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Savvas Learning Company (formerly Pearson K12 Learning) is the successor brand to Scott Foresman and over 100 other Pearson K-12 imprints. Savvas provides digital learning platforms, curriculum conten
@@ -106,7 +106,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 35.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scott-foresman/refs/heads/main/screenshots/scott-foresman-2026-06-20T193546.png
 security:

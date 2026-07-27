@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 57.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ overview: 'Monument Bank publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Monument Bank''s developer surface includes authentication, engineering blog, product news, support, FAQ, and 16 more developer resources.'
-random_paper: 14
+random_paper: 48
 scopes:
 - name: Monument Bank Scopes
   scope_count: 3
@@ -156,6 +156,7 @@ scopes:
 score:
   band: thin
   composite: 40.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 54.0
@@ -163,13 +164,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 40.9
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Monument Bank Authentication

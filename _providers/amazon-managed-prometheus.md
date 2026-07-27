@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -876,7 +876,7 @@ plans:
 - name: Amazon Managed Prometheus Plans Pricing
   plan_count: 3
   slug: amazon-managed-prometheus-plans-pricing
-random_paper: 3
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Amazon Managed Prometheus Rate Limits
@@ -911,7 +911,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 66.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-managed-prometheus/refs/heads/main/screenshots/amazon-managed-prometheus-2026-06-20T171735.png
 security:

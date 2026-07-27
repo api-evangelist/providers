@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ plans:
 - name: Se Ranking Plans Pricing
   plan_count: 6
   slug: se-ranking-plans-pricing
-random_paper: 38
+random_paper: 55
 rate_limits:
 - limit_count: 6
   name: Se Ranking Rate Limits
@@ -206,7 +206,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 56.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/se-ranking/refs/heads/main/screenshots/se-ranking-2026-06-20T193611.png
 security:

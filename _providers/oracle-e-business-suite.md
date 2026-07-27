@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -1413,7 +1413,7 @@ plans:
 - name: Oracle E Business Suite Plans Pricing
   plan_count: 4
   slug: oracle-e-business-suite-plans-pricing
-random_paper: 1
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Oracle E Business Suite Rate Limits
@@ -1437,18 +1437,18 @@ rules:
   slug: oracle-e-business-suite-spectral-rules
 score:
   band: exemplar
-  composite: 72.0
-  delta: 0.0
+  composite: 76.7
+  delta: 4.7
   facets:
     commercial_clarity: 71.1
-    contract_quality: 70.7
+    contract_quality: 79.5
     developer_ergonomics: 78.3
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 72.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-e-business-suite/refs/heads/main/screenshots/oracle-e-business-suite-2026-06-20T191127.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 22
 apis:
 - description: The agents API from Paid — 3 operation(s) for agents.
@@ -236,7 +236,7 @@ random_paper: 6
 score:
   band: developing
   composite: 52.8
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 61.5
@@ -244,14 +244,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 52.6
+  previous_composite: 52.8
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

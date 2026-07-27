@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -157,25 +157,25 @@ plans:
 - name: Eosio Plans Pricing
   plan_count: 2
   slug: eosio-plans-pricing
-random_paper: 33
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Eosio Rate Limits
   slug: eosio-rate-limits
 score:
   band: thin
-  composite: 41.0
-  delta: 0.0
+  composite: 43.0
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.9
     developer_ergonomics: 28.3
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 41.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

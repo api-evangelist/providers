@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -137,25 +137,25 @@ plans:
 - name: Openmeter Plans Pricing
   plan_count: 4
   slug: openmeter-plans-pricing
-random_paper: 6
+random_paper: 23
 rate_limits:
 - limit_count: 3
   name: Openmeter Rate Limits
   slug: openmeter-rate-limits
 score:
   band: thin
-  composite: 37.7
-  delta: 0.0
+  composite: 40.9
+  delta: 3.2
   facets:
     commercial_clarity: 47.4
     contract_quality: 51.0
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 37.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

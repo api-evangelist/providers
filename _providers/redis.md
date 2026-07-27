@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Core Redis commands and data structure operations. Redis supports strings, hashes, lists, sets, sorted sets, streams, and more. The primary interface is the Redis Serialization Protocol (RESP) over TC
@@ -195,7 +195,7 @@ plans:
 - name: Redis Plans Pricing
   plan_count: 4
   slug: redis-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Redis Rate Limits
@@ -222,7 +222,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 49.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redis/refs/heads/main/screenshots/redis-2026-06-20T192736.png
 security:

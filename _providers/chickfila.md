@@ -8,6 +8,24 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: true
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -459,7 +477,7 @@ overview: 'Chick-fil-A publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Chick-fil-A''s developer surface includes signup flow, engineering blog, tooling, code examples, and 13 more developer resources.'
-random_paper: 44
+random_paper: 42
 rules:
 - name: Chick-fil-A API Rules
   rule_count: 5
@@ -477,6 +495,21 @@ rules:
     info: 11
     warn: 21
   slug: chickfila-spectral-rules
+score:
+  band: thin
+  composite: 38.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 13.2
+    contract_quality: 63.1
+    developer_ergonomics: 2.2
+    discoverability: 87.5
+    governance: 86.8
+    operational_transparency: 5.3
+  previous_composite: 38.7
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chickfila/refs/heads/main/screenshots/chickfila-2026-06-20T174304.png
 security:
 - kind: domain-security

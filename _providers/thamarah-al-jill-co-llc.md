@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 29.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Agent-driven commerce surface for the AMUSED Co store implemented with the Universal Commerce Protocol (UCP) over MCP: catalog search/lookup, cart, checkout, fulfillment, discount and order capabiliti'
@@ -102,7 +102,7 @@ overview: 'Thamarah Al-Jill Co LLC publishes 1 API on the [APIs.io](https://apis
 
 
   Thamarah Al-Jill Co LLC''s developer surface includes authentication and 12 more developer resources.'
-random_paper: 33
+random_paper: 67
 scopes:
 - name: Thamarah Al Jill Co Llc Scopes
   scope_count: 4
@@ -121,7 +121,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

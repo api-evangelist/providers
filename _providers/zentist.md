@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -81,11 +81,11 @@ overview: 'Zentist is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Zentist''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 20
+random_paper: 37
 score:
   band: emerging
   composite: 19.0
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -93,14 +93,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 16.6
+  previous_composite: 19.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 32.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

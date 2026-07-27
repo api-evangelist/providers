@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -138,24 +138,25 @@ rate_limits:
   slug: komoju-rate-limits
 score:
   band: thin
-  composite: 37.2
-  delta: -1.9
+  composite: 40.0
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.5
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 39.1
+  previous_composite: 37.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/screenshots/komoju-2026-07-25T224141.png
 security:
 - kind: authentication
   name: Komoju Authentication

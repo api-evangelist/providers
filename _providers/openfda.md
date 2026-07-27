@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 62.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -238,7 +238,7 @@ overview: 'openFDA publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   openFDA''s developer surface includes authentication, developer portal, documentation, signup flow, getting-started guide, API reference, changelog, and 24 more developer resources.'
-random_paper: 19
+random_paper: 53
 rate_limits:
 - limit_count: 0
   name: Openfda Rate Limits
@@ -262,23 +262,23 @@ rules:
   slug: openfda-rules
 score:
   band: developing
-  composite: 52.2
-  delta: 0.3
+  composite: 55.0
+  delta: 2.8
   facets:
     commercial_clarity: 21.1
     contract_quality: 62.8
     developer_ergonomics: 50.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
-  previous_composite: 51.9
+  previous_composite: 52.2
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openfda/refs/heads/main/screenshots/openfda-2026-06-20T190958.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 1
@@ -210,19 +210,19 @@ rules:
     warn: 3
   slug: broadcom-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 44.4
-  delta: 0.0
+  band: developing
+  composite: 48.6
+  delta: 4.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 64.2
+    contract_quality: 73.1
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 44.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/broadcom/refs/heads/main/screenshots/broadcom-2026-06-20T173721.png
 security:

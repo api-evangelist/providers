@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: 'RSS 2.0 is the dominant XML-based syndication format, stewarded by the RSS Advisory Board. A feed consists of a root <rss version="2.0"> element wrapping a single <channel> with required title, link, '
@@ -157,7 +157,7 @@ overview: 'RSS publishes 6 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   RSS''s developer surface includes documentation, engineering blog, and 9 more developer resources.'
-random_paper: 38
+random_paper: 4
 rules:
 - name: RSS API Rules
   rule_count: 5
@@ -180,7 +180,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 29.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rss/refs/heads/main/screenshots/rss-2026-06-20T193237.png
 security:

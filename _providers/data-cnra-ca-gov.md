@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: CKAN Action API for California Natural Resources Agency, a consistent JSON-over-HTTP interface over a catalog of 21,080 datasets. Standard actions include package_search, package_show, package_list, o
@@ -86,7 +86,7 @@ plans:
 - name: Data Cnra Ca Gov Plans Pricing
   plan_count: 1
   slug: data-cnra-ca-gov-plans-pricing
-random_paper: 14
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Data Cnra Ca Gov Rate Limits
@@ -94,7 +94,7 @@ rate_limits:
 score:
   band: emerging
   composite: 20.5
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -102,14 +102,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 19.5
+  previous_composite: 20.5
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/data-cnra-ca-gov/refs/heads/main/screenshots/data-cnra-ca-gov-2026-06-20T175519.png
 security:

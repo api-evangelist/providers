@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -249,18 +249,18 @@ rules:
   slug: agco-spectral-rules
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 51.2
+  delta: 2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 59.9
     developer_ergonomics: 32.6
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 48.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/screenshots/agco-2026-06-20T165808.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -128,24 +128,25 @@ rate_limits:
   slug: donately-rate-limits
 score:
   band: thin
-  composite: 35.8
-  delta: -1.7
+  composite: 38.5
+  delta: 2.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.9
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 37.5
+  previous_composite: 35.8
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/donately/refs/heads/main/screenshots/donately-2026-07-25T212248.png
 security:
 - kind: authentication
   name: Donately Authentication

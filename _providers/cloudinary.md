@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ plans:
 - name: Cloudinary Plans Pricing
   plan_count: 4
   slug: cloudinary-plans-pricing
-random_paper: 11
+random_paper: 62
 rate_limits:
 - limit_count: 4
   name: Cloudinary Rate Limits
@@ -215,18 +215,18 @@ rules:
   slug: cloudinary-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.9
-  delta: 0.0
+  composite: 57.9
+  delta: 2.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 64.4
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 52.6
     operational_transparency: 52.6
   previous_composite: 55.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudinary/refs/heads/main/screenshots/cloudinary-2026-06-20T174606.png
 security:

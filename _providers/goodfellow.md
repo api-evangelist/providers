@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ overview: 'Goodfellow is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Goodfellow''s developer surface includes support, engineering blog, pricing, and 5 more developer resources.'
-random_paper: 3
+random_paper: 54
 score:
   band: minimal
   composite: 14.4
@@ -87,8 +87,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/goodfellow/refs/heads/main/screenshots/goodfellow-2026-07-25T220051.png
 security:
 - kind: domain-security
   name: Goodfellow Domain Security

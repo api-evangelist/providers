@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -97,11 +97,11 @@ overview: 'Hosta a.i. is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Hosta a.i.''s developer surface includes documentation, API reference, pricing, support, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 25
+random_paper: 42
 score:
   band: emerging
   composite: 23.1
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -109,15 +109,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 21.8
+  previous_composite: 23.1
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hosta-ai/refs/heads/main/screenshots/hosta-ai-2026-07-25T221440.png
 security:
 - kind: domain-security
   name: Hosta Ai Domain Security

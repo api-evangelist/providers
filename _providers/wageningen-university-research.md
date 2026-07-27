@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ plans:
 - name: Wageningen University Research Plans Pricing
   plan_count: 2
   slug: wageningen-university-research-plans-pricing
-random_paper: 5
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Wageningen University Research Rate Limits
@@ -173,7 +173,7 @@ rules:
 score:
   band: developing
   composite: 49.2
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 73.6
@@ -181,14 +181,14 @@ score:
     discoverability: 87.5
     governance: 73.7
     operational_transparency: 26.3
-  previous_composite: 49.1
+  previous_composite: 49.2
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wageningen-university-research/refs/heads/main/screenshots/wageningen-university-research-2026-06-20T201159.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 42.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Tigris exposes a globally distributed, S3-compatible object storage API. It fulfills over 90% of the AWS S3 API (61/68 operations in Tigris'' published compatibility suite) and works with standard AWS '
@@ -192,7 +192,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 41.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 61.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 5
@@ -978,7 +978,7 @@ plans:
 - name: Workato Plans Pricing
   plan_count: 4
   slug: workato-plans-pricing
-random_paper: 10
+random_paper: 27
 rate_limits:
 - limit_count: 6
   name: Workato Rate Limits
@@ -1010,18 +1010,18 @@ rules:
   slug: workato-spectral-rules
 score:
   band: exemplar
-  composite: 73.1
-  delta: 0.0
+  composite: 76.6
+  delta: 3.5
   facets:
     commercial_clarity: 92.1
-    contract_quality: 82.7
+    contract_quality: 91.5
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 65.8
     operational_transparency: 78.9
   previous_composite: 73.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workato/refs/heads/main/screenshots/workato-2026-06-20T201551.png
 security:

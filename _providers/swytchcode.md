@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 15.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Swytchcode''s publicly consumable surfaces: developer documentation and a published llms.txt. The primary interface is an npm-installable CLI plus a local MCP server (localhost-only, not a hosted endpo'
@@ -85,7 +85,7 @@ overview: 'Swytchcode publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Swytchcode''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 14
+random_paper: 65
 score:
   band: minimal
   composite: 10.7
@@ -99,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

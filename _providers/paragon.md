@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 70.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -92,7 +92,7 @@ arazzos:
 - description: Confirm the Connected User has the integration enabled, then proxy a live API call to it.
   name: Paragon Verify Integration then Proxy a Request
   slug: paragon-verify-integration-and-proxy-request-workflow
-artifact_total: 233
+artifact_total: 234
 collections:
 - collection_type: postman
   name: Paragon ActionKit API
@@ -621,6 +621,10 @@ jsonld:
   property_count: 13
   slug: paragon-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: Paragon MCP Server
+  slug: paragon-mcp-server
 modified: '2026-05-22'
 name: Paragon
 nav: Providers
@@ -636,7 +640,7 @@ plans:
 - name: Paragon Plans Pricing
   plan_count: 3
   slug: paragon-plans-pricing
-random_paper: 30
+random_paper: 64
 rate_limits:
 - limit_count: 6
   name: Paragon Rate Limits
@@ -660,18 +664,18 @@ rules:
   slug: paragon-rules
 score:
   band: exemplar
-  composite: 70.7
-  delta: 0.0
+  composite: 74.9
+  delta: 4.2
   facets:
     commercial_clarity: 81.6
-    contract_quality: 67.3
+    contract_quality: 76.1
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 86.8
   previous_composite: 70.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paragon/refs/heads/main/screenshots/paragon-2026-06-20T191356.png
 security:

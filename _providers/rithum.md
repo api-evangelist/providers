@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ plans:
 - name: Rithum Plans Pricing
   plan_count: 3
   slug: rithum-plans-pricing
-random_paper: 2
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Rithum Rate Limits
@@ -192,20 +192,20 @@ rules:
     warn: 3
   slug: rithum-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 56.2
-  delta: 0.0
+  band: strong
+  composite: 61.6
+  delta: 5.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.6
+    contract_quality: 74.4
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 56.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/rithum/refs/heads/main/screenshots/rithum-2026-06-20T193131.png
 security:
 - kind: authentication

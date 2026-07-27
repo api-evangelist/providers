@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -345,18 +345,18 @@ rules:
   slug: emailrep-spectral-rules
 score:
   band: strong
-  composite: 62.2
-  delta: 0.0
+  composite: 65.5
+  delta: 3.3
   facets:
     commercial_clarity: 71.1
     contract_quality: 69.0
     developer_ergonomics: 47.8
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 62.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailrep/refs/heads/main/screenshots/emailrep-2026-06-20T180624.png
 security:

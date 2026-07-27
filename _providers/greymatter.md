@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The Greymatter Platform API provides programmatic access to configure and manage the Greymatter zero trust networking platform. It enables automation of service mesh deployment, zero trust policy enfo
@@ -96,7 +96,7 @@ plans:
 - name: Greymatter Plans Pricing
   plan_count: 3
   slug: greymatter-plans-pricing
-random_paper: 21
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Greymatter Rate Limits
@@ -114,7 +114,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 29.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greymatter/refs/heads/main/screenshots/greymatter-2026-06-20T182404.png
 security:

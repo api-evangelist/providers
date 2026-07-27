@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 31.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -259,19 +259,19 @@ rules:
   slug: fakerapi-rules
 score:
   band: thin
-  composite: 32.0
-  delta: 0.0
+  composite: 37.4
+  delta: 5.4
   facets:
     commercial_clarity: 0.0
-    contract_quality: 59.3
+    contract_quality: 68.1
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 0.0
   previous_composite: 32.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/fakerapi/refs/heads/main/screenshots/fakerapi-2026-06-20T181022.png
 security:
 - kind: domain-security

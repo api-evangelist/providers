@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Provides access to the last 45 days of meteorological and oceanographic observations from NDBC moored buoys and C-MAN coastal stations. Data files are served via HTTPS at https://www.ndbc.noaa.gov/dat
@@ -105,11 +105,11 @@ overview: 'NDBC — National Data Buoy Center publishes 5 APIs on the [APIs.io](
 
 
   NDBC — National Data Buoy Center''s developer surface includes developer portal, documentation, and 10 more developer resources.'
-random_paper: 50
+random_paper: 67
 score:
   band: emerging
   composite: 19.6
-  delta: 1.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -117,14 +117,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.7
+  previous_composite: 19.6
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ndbc/refs/heads/main/screenshots/ndbc-2026-06-20T190220.png
 security:

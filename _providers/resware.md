@@ -8,6 +8,24 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: Modeled logical service area for the people and organizations attached to a file - buyers, sellers, lenders, agents, and vendors - and their roles and mappings to partner-side identifiers. Delivered o
@@ -74,7 +92,22 @@ overview: 'ResWare publishes 7 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   ResWare''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 5
+random_paper: 13
+score:
+  band: minimal
+  composite: 10.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 87.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 10.5
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: domain-security
   name: Resware Domain Security

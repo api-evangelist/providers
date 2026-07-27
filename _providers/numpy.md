@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Core numerical computing library for Python providing multi-dimensional arrays and mathematical functions.
@@ -74,7 +74,7 @@ plans:
 - name: Numpy Plans Pricing
   plan_count: 3
   slug: numpy-plans-pricing
-random_paper: 8
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Numpy Rate Limits
@@ -92,7 +92,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 24.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numpy/refs/heads/main/screenshots/numpy-2026-06-20T190524.png
 security:

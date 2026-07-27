@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -126,19 +126,20 @@ rate_limits:
   slug: gooten-rate-limits
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 39.1
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 59.3
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 35.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gooten/refs/heads/main/screenshots/gooten-2026-07-25T220114.png
 security:
 - kind: authentication
   name: Gooten Authentication

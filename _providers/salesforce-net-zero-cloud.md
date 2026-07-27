@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ plans:
 - name: Salesforce Net Zero Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-net-zero-cloud-plans-pricing
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Salesforce Net Zero Cloud Rate Limits
@@ -228,19 +228,19 @@ scopes:
   slug: salesforce-net-zero-cloud-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 58.3
-  delta: 0.0
+  band: strong
+  composite: 61.5
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 64.7
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 57.9
   previous_composite: 58.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-net-zero-cloud/refs/heads/main/screenshots/salesforce-net-zero-cloud-2026-06-20T193349.png
 security:

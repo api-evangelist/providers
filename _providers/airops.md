@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Public REST API for running AirOps Workflows/Apps (synchronous, asynchronous, and webhook execution), managing executions, interacting with Knowledge Bases (Memory Stores), and reading AEO analytics, '
@@ -188,8 +188,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 41.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/airops/refs/heads/main/screenshots/airops-2026-07-25T195431.png
 security:
 - kind: authentication
   name: Airops Authentication

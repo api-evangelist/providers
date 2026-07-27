@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -113,26 +113,27 @@ plans:
 - name: Buzzsprout Plans Pricing
   plan_count: 5
   slug: buzzsprout-plans-pricing
-random_paper: 22
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Buzzsprout Rate Limits
   slug: buzzsprout-rate-limits
 score:
   band: thin
-  composite: 36.3
-  delta: 0.0
+  composite: 39.5
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.4
     developer_ergonomics: 21.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 36.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/buzzsprout/refs/heads/main/screenshots/buzzsprout-2026-07-25T204129.png
 security:
 - kind: authentication
   name: Buzzsprout Authentication

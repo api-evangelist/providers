@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 0
@@ -248,7 +248,7 @@ plans:
 - name: Mx Technologies Plans Pricing
   plan_count: 2
   slug: mx-technologies-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 8
   name: Mx Technologies Rate Limits
@@ -265,7 +265,7 @@ rules:
 score:
   band: developing
   composite: 59.3
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 71.9
@@ -273,14 +273,14 @@ score:
     discoverability: 100.0
     governance: 86.8
     operational_transparency: 52.6
-  previous_composite: 59.0
+  previous_composite: 59.3
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mx-technologies/refs/heads/main/screenshots/mx-technologies-2026-06-20T185910.png
 security:

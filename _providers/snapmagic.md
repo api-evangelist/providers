@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: HTTP API that gives programmatic access to SnapMagic Search's library of electronic component symbols, PCB footprints, and 3D models. Access is provided on request via the get-api page.
@@ -97,7 +97,7 @@ overview: 'SnapMagic publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   SnapMagic''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 6 more developer resources.'
-random_paper: 29
+random_paper: 63
 score:
   band: emerging
   composite: 27.1
@@ -111,7 +111,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 27.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

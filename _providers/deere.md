@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: Provides access to the organizations a John Deere Operations Center user belongs to. Organizations are the top-level container for users, fields, equipment, and partner relationships in Operations Cen
@@ -120,7 +120,7 @@ press:
 - date: '2026-05-25'
   title: Artificial Intelligence at John Deere
   url: https://emerj.com/artificial-intelligence-at-john-deere/
-random_paper: 7
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Deere Rate Limits
@@ -138,7 +138,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 27.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deere/refs/heads/main/screenshots/deere-2026-06-20T175814.png
 security:

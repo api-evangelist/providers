@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST/JSON access-evaluation API. Evaluate whether a principal may perform actions on assets in context, search accessible assets or authorized principals, query the directory, and route provider hooks
@@ -156,7 +156,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 29.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

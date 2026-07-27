@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -125,7 +125,7 @@ overview: 'Joby Aviation is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Joby Aviation''s developer surface includes engineering blog, developer portal, YouTube channel, and 18 more developer resources.'
-random_paper: 14
+random_paper: 48
 score:
   band: minimal
   composite: 14.7
@@ -139,7 +139,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/joby-aviation/refs/heads/main/screenshots/joby-aviation-2026-06-20T183749.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -169,7 +169,7 @@ plans:
 - name: Threads Api Plans Pricing
   plan_count: 3
   slug: threads-api-plans-pricing
-random_paper: 35
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Threads Api Rate Limits
@@ -193,18 +193,18 @@ rules:
   slug: threads-api-rules
 score:
   band: developing
-  composite: 55.3
-  delta: 0.0
+  composite: 59.9
+  delta: 4.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 54.0
+    contract_quality: 59.3
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 55.3
   previous_composite: 55.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/threads-api/refs/heads/main/screenshots/threads-api-2026-06-20T195314.png
 security:

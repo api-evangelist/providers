@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: ETHGas v1 REST + WebSocket API for market data, order placement/management, funding (collateral deposits/withdrawals), and validator/builder operations across whole-block commitments and inclusion pre
@@ -157,7 +157,7 @@ random_paper: 24
 score:
   band: thin
   composite: 41.3
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 22.6
@@ -165,15 +165,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 39.0
+  previous_composite: 41.3
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ethgas/refs/heads/main/screenshots/ethgas-2026-07-25T213653.png
 security:
 - kind: authentication
   name: Ethgas Authentication

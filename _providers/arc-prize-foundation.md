@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The Commands API from Arc Prize Foundation — 8 operation(s) for commands.
@@ -144,7 +144,7 @@ overview: 'Arc Prize Foundation publishes 3 APIs on the [APIs.io](https://apis.i
 
 
   Arc Prize Foundation''s developer surface includes authentication, changelog, documentation, API reference, quickstart, engineering blog, signup flow, and 15 more developer resources.'
-random_paper: 44
+random_paper: 61
 score:
   band: thin
   composite: 43.9
@@ -158,8 +158,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 43.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/arc-prize-foundation/refs/heads/main/screenshots/arc-prize-foundation-2026-07-25T201009.png
 security:
 - kind: authentication
   name: Arc Prize Foundation Authentication

@@ -16,7 +16,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,10 +61,11 @@ overview: 'Amex Bank of Canada is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Amex Bank of Canada''s developer surface includes support and 6 more developer resources.'
-random_paper: 2
+random_paper: 19
 score:
   band: minimal
   composite: 14.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -72,13 +73,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 14.6
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/amex-bank-of-canada/refs/heads/main/screenshots/amex-bank-of-canada-2026-07-25T200104.png
 security:
 - kind: domain-security
   name: Amex Bank Of Canada Domain Security

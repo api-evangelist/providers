@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 84.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -193,7 +193,7 @@ overview: 'Rentahuman publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Rentahuman''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 4
+random_paper: 55
 rate_limits:
 - limit_count: 9
   name: Rentahuman Rate Limits
@@ -201,7 +201,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.4
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 60.5
@@ -209,14 +209,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 52.4
+  previous_composite: 53.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

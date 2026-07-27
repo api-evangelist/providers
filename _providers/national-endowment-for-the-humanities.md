@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Funded Project Query Form API exposing programmatic access to NEH grant records. Documentation is published as a PDF describing query parameters and response structure.
@@ -75,7 +75,7 @@ plans:
 - name: National Endowment For The Humanities Plans Pricing
   plan_count: 3
   slug: national-endowment-for-the-humanities-plans-pricing
-random_paper: 15
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: National Endowment For The Humanities Rate Limits
@@ -83,7 +83,7 @@ rate_limits:
 score:
   band: emerging
   composite: 17.9
-  delta: -0.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -91,14 +91,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 18.8
+  previous_composite: 17.9
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-endowment-for-the-humanities/refs/heads/main/screenshots/national-endowment-for-the-humanities-2026-06-20T190014.png
 security:

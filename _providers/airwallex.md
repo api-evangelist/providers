@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -251,7 +251,7 @@ plans:
 - name: Airwallex Plans Pricing
   plan_count: 3
   slug: airwallex-plans-pricing
-random_paper: 0
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Airwallex Rate Limits
@@ -275,23 +275,23 @@ rules:
   slug: airwallex-spectral-rules
 score:
   band: strong
-  composite: 66.2
-  delta: 2.2
+  composite: 68.9
+  delta: 2.7
   facets:
     commercial_clarity: 78.9
     contract_quality: 61.7
     developer_ergonomics: 54.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
-  previous_composite: 64.0
+  previous_composite: 66.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airwallex/refs/heads/main/screenshots/airwallex-2026-06-20T171444.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Internal REST API that powers checkout on the Perpay Marketplace. Handles product ordering, spending-limit enforcement, and installment plan creation for approved consumers. Access is limited to Perpa
@@ -132,7 +132,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.2
-  delta: 3.6
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 9.4
@@ -140,14 +140,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 28.6
+  previous_composite: 32.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 52.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perpay/refs/heads/main/screenshots/perpay-2026-06-20T191609.png
 security:

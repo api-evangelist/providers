@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 67
   human_in_the_loop: 1
@@ -660,7 +660,7 @@ plans:
 - name: Oracle Fusion Plans Pricing
   plan_count: 2
   slug: oracle-fusion-plans-pricing
-random_paper: 9
+random_paper: 43
 rate_limits:
 - limit_count: 3
   name: Oracle Fusion Rate Limits
@@ -676,18 +676,18 @@ rules:
   slug: oracle-fusion-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.9
-  delta: 0.0
+  composite: 63.4
+  delta: 2.5
   facets:
     commercial_clarity: 63.2
     contract_quality: 67.3
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 60.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-fusion/refs/heads/main/screenshots/oracle-fusion-2026-06-20T191134.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 571
   human_in_the_loop: 33
@@ -281,7 +281,7 @@ arazzos:
 - description: Read a cluster, submit an updated specification, and poll until it returns to ACTIVE.
   name: YugabyteDB Aeon Scale Cluster
   slug: yugabytedb-scale-cluster-workflow
-artifact_total: 126
+artifact_total: 127
 collections:
 - collection_type: open
   name: YugabyteDB Aeon REST API
@@ -715,6 +715,10 @@ jsonld:
   property_count: 15
   slug: yugabytedb-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: YugabyteDB
 nav: Providers
@@ -730,7 +734,7 @@ plans:
 - name: Yugabytedb Plans Pricing
   plan_count: 3
   slug: yugabytedb-plans-pricing
-random_paper: 1
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Yugabytedb Rate Limits
@@ -754,18 +758,18 @@ rules:
   slug: yugabytedb-spectral-rules
 score:
   band: exemplar
-  composite: 76.3
-  delta: 0.0
+  composite: 78.8
+  delta: 2.5
   facets:
     commercial_clarity: 100.0
     contract_quality: 62.9
     developer_ergonomics: 80.4
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 76.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yugabytedb/refs/heads/main/screenshots/yugabytedb-2026-06-20T201754.png
 security:

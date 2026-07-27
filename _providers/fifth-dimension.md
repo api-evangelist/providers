@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -81,7 +81,7 @@ overview: 'Fifth Dimension is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Fifth Dimension''s developer surface includes engineering blog, pricing, support, and 7 more developer resources.'
-random_paper: 10
+random_paper: 44
 score:
   band: emerging
   composite: 17.5
@@ -95,8 +95,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fifth-dimension/refs/heads/main/screenshots/fifth-dimension-2026-07-25T214430.png
 security:
 - kind: domain-security
   name: Fifth Dimension Domain Security

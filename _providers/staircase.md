@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 20.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -113,7 +113,7 @@ overview: 'Staircase is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Staircase''s developer surface includes documentation, engineering blog, support, CLI, and 13 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: emerging
   composite: 22.1
@@ -127,7 +127,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 22.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

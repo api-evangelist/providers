@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -241,7 +241,7 @@ overview: 'Astrada publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Astrada''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, support, signup flow, and 26 more developer resources.'
-random_paper: 22
+random_paper: 56
 scopes:
 - name: Astrada Scopes
   scope_count: 34
@@ -250,7 +250,7 @@ scopes:
 score:
   band: strong
   composite: 64.8
-  delta: 6.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 69.0
@@ -258,15 +258,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 58.5
+  previous_composite: 64.8
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 100.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/astrada/refs/heads/main/screenshots/astrada-2026-07-25T201455.png
 security:
 - kind: authentication
   name: Astrada Authentication

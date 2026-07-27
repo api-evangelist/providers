@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 3
@@ -173,7 +173,7 @@ plans:
 - name: Opentrons Plans Pricing
   plan_count: 4
   slug: opentrons-plans-pricing
-random_paper: 31
+random_paper: 48
 rate_limits:
 - limit_count: 0
   name: Opentrons Rate Limits
@@ -190,7 +190,7 @@ rules:
 score:
   band: thin
   composite: 40.7
-  delta: -4.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 53.6
@@ -198,14 +198,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 5.3
-  previous_composite: 45.6
+  previous_composite: 40.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentrons/refs/heads/main/screenshots/opentrons-2026-06-20T191056.png
 security:

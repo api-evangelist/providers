@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -412,7 +412,7 @@ press:
 - date: '2026-05-25'
   title: How ADT embraces AI to make every second count.
   url: https://sierra.ai/customers/adt
-random_paper: 7
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Adt Rate Limits
@@ -441,18 +441,18 @@ scopes:
   summary_line: 10 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 58.1
+  delta: 4.6
   facets:
     commercial_clarity: 63.2
-    contract_quality: 69.2
+    contract_quality: 74.5
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 21.1
   previous_composite: 53.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/screenshots/adt-2026-06-20T165203.png
 security:

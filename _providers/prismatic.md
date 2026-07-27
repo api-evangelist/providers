@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -754,7 +754,7 @@ plans:
 - name: Prismatic Plans Pricing
   plan_count: 3
   slug: prismatic-plans-pricing
-random_paper: 3
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Prismatic Rate Limits
@@ -778,18 +778,18 @@ rules:
   slug: prismatic-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 62.6
-  delta: 0.0
+  composite: 66.8
+  delta: 4.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.0
+    contract_quality: 77.9
     developer_ergonomics: 58.7
-    discoverability: 60.0
+    discoverability: 80.0
     governance: 26.3
     operational_transparency: 78.9
   previous_composite: 62.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prismatic/refs/heads/main/screenshots/prismatic-2026-06-20T192113.png
 security:

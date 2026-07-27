@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ plans:
 - name: Interactive Brokers Plans Pricing
   plan_count: 3
   slug: interactive-brokers-plans-pricing
-random_paper: 49
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Interactive Brokers Rate Limits
@@ -152,23 +152,23 @@ scopes:
   summary_line: 18 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.6
-  delta: -0.5
+  composite: 52.3
+  delta: 1.7
   facets:
     commercial_clarity: 52.6
     contract_quality: 64.6
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 60.5
     operational_transparency: 36.8
-  previous_composite: 51.1
+  previous_composite: 50.6
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/screenshots/interactive-brokers-2026-06-20T183445.png
 security:

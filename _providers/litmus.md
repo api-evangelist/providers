@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ plans:
 - name: Litmus Plans Pricing
   plan_count: 7
   slug: litmus-plans-pricing
-random_paper: 7
+random_paper: 58
 rate_limits:
 - limit_count: 4
   name: Litmus Rate Limits
@@ -172,18 +172,18 @@ rules:
   slug: litmus-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.1
-  delta: 0.0
+  composite: 56.4
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 73.5
     developer_ergonomics: 37.0
-    discoverability: 42.5
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 53.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/litmus/refs/heads/main/screenshots/litmus-2026-06-20T184609.png
 security:

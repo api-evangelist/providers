@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -101,7 +101,7 @@ overview: 'Genie is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Genie''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, changelog, and 8 more developer resources.'
-random_paper: 10
+random_paper: 44
 score:
   band: emerging
   composite: 21.2
@@ -115,8 +115,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 21.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/genie/refs/heads/main/screenshots/genie-2026-07-25T215616.png
 security:
 - kind: domain-security
   name: Genie Domain Security

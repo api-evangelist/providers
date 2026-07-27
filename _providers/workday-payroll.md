@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -938,7 +938,7 @@ plans:
 - name: Workday Payroll Plans Pricing
   plan_count: 1
   slug: workday-payroll-plans-pricing
-random_paper: 4
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Workday Payroll Rate Limits
@@ -961,19 +961,19 @@ rules:
     warn: 43
   slug: workday-payroll-spectral-rules
 score:
-  band: developing
-  composite: 58.5
-  delta: 0.0
+  band: strong
+  composite: 63.2
+  delta: 4.7
   facets:
     commercial_clarity: 57.9
-    contract_quality: 73.3
+    contract_quality: 82.1
     developer_ergonomics: 32.6
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 47.4
   previous_composite: 58.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-payroll/refs/heads/main/screenshots/workday-payroll-2026-06-20T201609.png
 security:

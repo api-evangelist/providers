@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -159,7 +159,7 @@ plans:
 - name: Yoast Plans Pricing
   plan_count: 2
   slug: yoast-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Yoast Rate Limits
@@ -183,18 +183,18 @@ rules:
   slug: yoast-rules
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 51.4
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 63.1
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 48.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yoast/refs/heads/main/screenshots/yoast-2026-06-20T201746.png
 security:

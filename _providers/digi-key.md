@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Retrieve price and inventory of electronic components as well as place orders
@@ -54,7 +54,7 @@ name: Digi-Key
 nav: Providers
 network: true
 overview: Digi-Key publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Shopping and Public APIs.
-random_paper: 22
+random_paper: 39
 score:
   band: minimal
   composite: 6.8
@@ -68,8 +68,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/digi-key/refs/heads/main/screenshots/digi-key-2026-07-25T212002.png
 security:
 - kind: domain-security
   name: Digi Key Domain Security

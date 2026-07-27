@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -153,18 +153,18 @@ rules:
   slug: trabex-rules
 score:
   band: developing
-  composite: 49.2
-  delta: 0.0
+  composite: 53.8
+  delta: 4.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 67.3
+    contract_quality: 72.6
     developer_ergonomics: 23.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 49.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trabex/refs/heads/main/screenshots/trabex-2026-06-20T195511.png
 security:

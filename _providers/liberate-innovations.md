@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 22.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Advance workflow instances that are paused on an intermediate event.
@@ -150,11 +150,11 @@ overview: 'Liberate Innovations publishes 2 APIs on the [APIs.io](https://apis.i
 
 
   Liberate Innovations'' developer surface includes documentation, API reference, getting-started guide, engineering blog, product news, signup flow, support, and 18 more developer resources.'
-random_paper: 2
+random_paper: 53
 score:
   band: developing
   composite: 46.0
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 63.7
@@ -162,15 +162,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 46.8
+  previous_composite: 46.0
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/liberate-innovations/refs/heads/main/screenshots/liberate-innovations-2026-07-25T225018.png
 security:
 - kind: authentication
   name: Liberate Innovations Authentication

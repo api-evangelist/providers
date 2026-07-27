@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 16
 apis:
 - description: Authorization operations for OAuth 2.0 Grants
@@ -227,7 +227,7 @@ overview: 'Bokio publishes 16 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Bokio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 22
+random_paper: 56
 scopes:
 - name: Bokio Scopes
   scope_count: 24
@@ -236,7 +236,7 @@ scopes:
 score:
   band: strong
   composite: 62.4
-  delta: 6.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 61.2
@@ -244,15 +244,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 55.7
+  previous_composite: 62.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 100.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bokio/refs/heads/main/screenshots/bokio-2026-07-25T203526.png
 security:
 - kind: authentication
   name: Bokio Authentication

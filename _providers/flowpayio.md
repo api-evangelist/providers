@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 34.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Flowpay's REST partner API for the Fully Embedded (Native) lending flow - customer onboarding and service activation, open-banking account and transaction ingestion, offer request/recalculation/retrie
@@ -168,11 +168,11 @@ overview: 'flowpay.io publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   flowpay.io''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 17
+random_paper: 34
 score:
   band: thin
   composite: 40.6
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 22.6
@@ -180,15 +180,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 38.2
+  previous_composite: 40.6
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/flowpayio/refs/heads/main/screenshots/flowpayio-2026-07-25T214838.png
 security:
 - kind: authentication
   name: Flowpayio Authentication

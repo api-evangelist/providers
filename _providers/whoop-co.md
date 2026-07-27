@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -248,7 +248,7 @@ plans:
 - name: Whoop Co Plans Pricing
   plan_count: 3
   slug: whoop-co-plans-pricing
-random_paper: 47
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Whoop Co Rate Limits
@@ -277,23 +277,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 63.0
-  delta: 2.3
+  composite: 67.6
+  delta: 4.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 65.5
+    contract_quality: 74.3
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 28.9
-  previous_composite: 60.7
+  previous_composite: 63.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whoop-co/refs/heads/main/screenshots/whoop-co-2026-06-20T201452.png
 security:

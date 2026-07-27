@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 35.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Alternative-data aggregation for credit underwriting and scoring. Aggregates over 50 data sources into on-demand data requests that feed borrower enrichment and decisioning.
@@ -188,7 +188,7 @@ scopes:
 score:
   band: developing
   composite: 47.7
-  delta: 6.9
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 22.6
@@ -196,15 +196,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 40.8
+  previous_composite: 47.7
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/altscore/refs/heads/main/screenshots/altscore-2026-07-25T195844.png
 security:
 - kind: authentication
   name: Altscore Authentication

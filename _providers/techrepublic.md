@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -191,20 +191,20 @@ rules:
     warn: 7
   slug: techrepublic-rules
 score:
-  band: thin
-  composite: 42.9
-  delta: 0.0
+  band: developing
+  composite: 48.3
+  delta: 5.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 59.3
+    contract_quality: 68.1
     developer_ergonomics: 2.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 42.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/techrepublic/refs/heads/main/screenshots/techrepublic-2026-06-20T195011.png
 security:
 - kind: domain-security

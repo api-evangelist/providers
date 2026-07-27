@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 18.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -109,7 +109,7 @@ overview: 'SeekOut is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   SeekOut''s developer surface includes engineering blog, changelog, support, pricing, signup flow, and 11 more developer resources.'
-random_paper: 3
+random_paper: 20
 score:
   band: emerging
   composite: 23.7
@@ -123,7 +123,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 23.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

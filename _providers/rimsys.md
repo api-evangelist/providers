@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Enterprise API for the Rimsys Regulatory Information Management platform, used to integrate regulatory submissions, product registrations, UDI data, standards, and regulatory intelligence with PLM, ER
@@ -130,11 +130,11 @@ overview: 'Rimsys publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Rimsys'' developer surface includes documentation, API reference, pricing, support, engineering blog, signup flow, authentication, and 14 more developer resources.'
-random_paper: 16
+random_paper: 67
 score:
   band: thin
   composite: 37.3
-  delta: 4.9
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -142,14 +142,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 32.4
+  previous_composite: 37.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

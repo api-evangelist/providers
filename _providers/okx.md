@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 33.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: REST and WebSocket endpoints for order book trading, algo orders, block trading, spread trading, and copy trading across spot, futures, options, and perpetual swap instruments.
@@ -140,7 +140,7 @@ plans:
 - name: Okx Plans Pricing
   plan_count: 6
   slug: okx-plans-pricing
-random_paper: 32
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Okx Rate Limits
@@ -148,7 +148,7 @@ rate_limits:
 score:
   band: thin
   composite: 42.7
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.5
@@ -156,14 +156,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 43.7
+  previous_composite: 42.7
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/okx/refs/heads/main/screenshots/okx-2026-06-20T190651.png
 security:

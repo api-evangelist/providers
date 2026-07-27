@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Raw punch records across a date range
@@ -79,7 +79,7 @@ overview: 'Workwell Technologies publishes 3 APIs on the [APIs.io](https://apis.
 
 
   Workwell Technologies'' developer surface includes documentation, API reference, support, engineering blog, and 3 more developer resources.'
-random_paper: 23
+random_paper: 40
 score:
   band: thin
   composite: 34.6
@@ -93,7 +93,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 34.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: workwell-technologies
 tags:

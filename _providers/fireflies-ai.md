@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Public GraphQL API for Fireflies.ai — query transcripts, users, channels, bites, analytics, and AskFred threads; upload audio; control the live-meeting bot; and subscribe to webhooks. Single endpoint,
@@ -177,7 +177,7 @@ overview: 'Fireflies.ai publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Fireflies.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 27
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Fireflies Ai Rate Limits
@@ -200,8 +200,9 @@ score:
     operational_transparency: 36.8
   previous_composite: 45.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fireflies-ai/refs/heads/main/screenshots/fireflies-ai-2026-07-25T214552.png
 security:
 - kind: authentication
   name: Fireflies Ai Authentication

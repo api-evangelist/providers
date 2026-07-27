@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Cosmos is Tetra Tech's mobile data collection platform designed for field data capture, project management, and reporting. The Cosmos API and webhook system enables integration with third-party enterp
@@ -155,7 +155,7 @@ press:
 - date: '2026-05-25'
   title: Tetra Tech acquires Halvik to expand data analytics and AI ...
   url: https://ng.investing.com/news/company-news/tetra-tech-acquires-halvik-to-expand-data-analytics-and-ai-services-93CH-2301323
-random_paper: 40
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Tetra Tech Rate Limits
@@ -182,7 +182,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 38.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tetra-tech/refs/heads/main/screenshots/tetra-tech-2026-06-20T195157.png
 security:

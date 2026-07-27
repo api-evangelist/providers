@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 created: '2026-07-17'
@@ -37,7 +37,7 @@ name: TellApart (acquired by Twitter in 2015)
 nav: Providers
 network: true
 overview: TellApart (acquired by Twitter in 2015) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Apps, Advertising, Adtech, and Retargeting.
-random_paper: 44
+random_paper: 61
 score:
   band: minimal
   composite: 6.8
@@ -51,7 +51,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: tellapart-acquired-by-twitter-in-2015
 tags:

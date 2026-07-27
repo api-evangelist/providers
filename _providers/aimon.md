@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for AIMon LLM monitoring and evaluation — manage users, models, applications, evaluations and evaluation runs, retrieve evaluation and production metrics, and manage datasets, records, and da
@@ -134,7 +134,7 @@ overview: 'AIMon publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   AIMon''s developer surface includes documentation, getting-started guide, API reference, engineering blog, signup flow, pricing, support, and 14 more developer resources.'
-random_paper: 22
+random_paper: 56
 score:
   band: thin
   composite: 34.7
@@ -148,8 +148,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 34.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aimon/refs/heads/main/screenshots/aimon-2026-07-25T195355.png
 security:
 - kind: authentication
   name: Aimon Authentication

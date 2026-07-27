@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -138,25 +138,25 @@ plans:
 - name: Flyte Plans Pricing
   plan_count: 3
   slug: flyte-plans-pricing
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Flyte Rate Limits
   slug: flyte-rate-limits
 score:
   band: thin
-  composite: 33.1
-  delta: 0.0
+  composite: 35.1
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 42.5
     developer_ergonomics: 15.2
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 33.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flyte/refs/heads/main/screenshots/flyte-2026-06-20T181349.png
 security:

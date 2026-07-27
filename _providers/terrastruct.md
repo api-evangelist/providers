@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -125,7 +125,7 @@ overview: 'Terrastruct is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Terrastruct''s developer surface includes documentation, getting-started guide, engineering blog, support, CLI, changelog, and 15 more developer resources.'
-random_paper: 46
+random_paper: 63
 score:
   band: emerging
   composite: 28.7
@@ -139,7 +139,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 28.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

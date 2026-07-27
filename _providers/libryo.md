@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'The Libryo Platform''s partner-facing RESTful API. Third-party applications integrate on behalf of a Libryo user using the OAuth 2.0 authorization-code flow, then call the versioned /api/v1 surface to '
@@ -137,8 +137,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 19.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/libryo/refs/heads/main/screenshots/libryo-2026-07-25T225027.png
 security:
 - kind: authentication
   name: Libryo Authentication

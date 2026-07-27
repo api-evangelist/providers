@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ plans:
 - name: Numbers Api Plans Pricing
   plan_count: 1
   slug: numbers-api-plans-pricing
-random_paper: 1
+random_paper: 35
 rate_limits:
 - limit_count: 0
   name: Numbers Api Rate Limits
@@ -183,7 +183,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 46.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/numbers-api/refs/heads/main/screenshots/numbers-api-2026-06-20T190517.png
 security:

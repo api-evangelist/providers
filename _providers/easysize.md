@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Client-side JavaScript library that embeds the EasySize "Fit Quiz" size-recommendation widget on a merchant storefront. Loaded via a script tag from the EasySize web app CDN, it exposes a global EasyS
@@ -109,7 +109,7 @@ overview: 'EasySize publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   EasySize''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, and 10 more developer resources.'
-random_paper: 10
+random_paper: 61
 score:
   band: emerging
   composite: 27.2
@@ -123,8 +123,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 27.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/easysize/refs/heads/main/screenshots/easysize-2026-07-25T212723.png
 security:
 - kind: domain-security
   name: Easysize Domain Security

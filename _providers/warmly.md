@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 26.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for Warmly's agent-tools surface — discover available tools, execute read tools (warm visitors, warm accounts, third-party intent signals, credit balance) and async write tools (push contacts
@@ -149,7 +149,7 @@ overview: 'Warmly publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Warmly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 5
+random_paper: 56
 score:
   band: thin
   composite: 41.6
@@ -163,7 +163,7 @@ score:
     operational_transparency: 18.4
   previous_composite: 41.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ overview: 'Moonbounce publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Moonbounce''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 6
+random_paper: 57
 score:
   band: developing
   composite: 54.1
@@ -207,7 +207,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 54.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

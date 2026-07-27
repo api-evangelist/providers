@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 7
@@ -154,7 +154,7 @@ apis:
 - description: Webhooks are a great way to let external applications know about the status of a user, an API or an event that has occurred in the Tyk gateway <br/> You can create webhooks that you can then re-use in
   name: Tyk Webhooks API
   slug: tyk-webhooks-api
-artifact_total: 721
+artifact_total: 722
 collections:
 - collection_type: open
   name: Tyk Dashboard Admin API
@@ -2238,6 +2238,10 @@ jsonld:
   property_count: 0
   slug: tyk-mdcb-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Tyk
 nav: Providers
@@ -2253,7 +2257,7 @@ plans:
 - name: Tyk Plans Pricing
   plan_count: 5
   slug: tyk-plans-pricing
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Tyk Rate Limits
@@ -2277,18 +2281,18 @@ rules:
   slug: tyk-spectral-rules
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 65.5
+  delta: 4.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.3
+    contract_quality: 67.1
     developer_ergonomics: 67.4
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 60.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tyk/refs/heads/main/screenshots/tyk-2026-06-20T195900.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Iron Mountain Named 2026 Google Cloud Partner of ...
   url: https://www.businesswire.com/news/home/20260421310205/en/Iron-Mountain-Named-2026-Google-Cloud-Partner-of-the-Year-Business-Applications-Media-Entertainment
-random_paper: 34
+random_paper: 0
 rules:
 - name: Iron Mountain API Rules
   rule_count: 0
@@ -99,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

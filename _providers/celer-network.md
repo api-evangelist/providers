@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 33.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Public gRPC-Web / REST gateway (sgn.gateway.v1.Web) for the cBridge cross-chain bridge: chain and token discovery, transfer fee estimation, transfer status, transfer history, and signed liquidity with'
@@ -134,7 +134,7 @@ overview: 'Celer Network publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Celer Network''s developer surface includes documentation, API reference, support, authentication, and 17 more developer resources.'
-random_paper: 20
+random_paper: 54
 score:
   band: emerging
   composite: 23.5
@@ -148,8 +148,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 23.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/celer-network/refs/heads/main/screenshots/celer-network-2026-07-25T204846.png
 security:
 - kind: authentication
   name: Celer Network Authentication

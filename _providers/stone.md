@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: The Stone Online transactional API for authorizing, capturing, canceling, and querying payment transactions for online and physical sales platforms. Supports credit card, debit, and voucher payments w
@@ -119,7 +119,7 @@ plans:
 - name: Stone Plans Pricing
   plan_count: 3
   slug: stone-plans-pricing
-random_paper: 43
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Stone Rate Limits
@@ -127,7 +127,7 @@ rate_limits:
 score:
   band: emerging
   composite: 26.8
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 9.4
@@ -135,14 +135,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 27.3
+  previous_composite: 26.8
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stone/refs/heads/main/screenshots/stone-2026-06-20T194556.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -69,7 +69,7 @@ overview: 'Surf AI is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Surf AI''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 32
+random_paper: 15
 score:
   band: minimal
   composite: 8.6
@@ -83,7 +83,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 8.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

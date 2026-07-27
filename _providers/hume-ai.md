@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 1
@@ -150,7 +150,7 @@ plans:
 - name: Hume Ai Plans Pricing
   plan_count: 8
   slug: hume-ai-plans-pricing
-random_paper: 15
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Hume Ai Rate Limits
@@ -166,18 +166,18 @@ rules:
   slug: hume-ai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 48.6
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.1
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 36.8
   previous_composite: 45.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hume-ai/refs/heads/main/screenshots/hume-ai-2026-06-20T183040.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -128,25 +128,25 @@ plans:
 - name: Hyperbolic Plans Pricing
   plan_count: 1
   slug: hyperbolic-plans-pricing
-random_paper: 2
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Hyperbolic Rate Limits
   slug: hyperbolic-rate-limits
 score:
   band: thin
-  composite: 33.5
-  delta: 0.0
+  composite: 36.7
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 52.7
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 33.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperbolic/refs/heads/main/screenshots/hyperbolic-2026-06-20T183118.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ overview: 'Stella Connect (Medallia Agent Connect) publishes 6 APIs on the [APIs
 
 
   Stella Connect (Medallia Agent Connect)''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, sandbox, and 23 more developer resources.'
-random_paper: 14
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Stellaconnect Rate Limits
@@ -210,7 +210,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 52.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

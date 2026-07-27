@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -128,25 +128,25 @@ plans:
 - name: Transitapp Plans Pricing
   plan_count: 2
   slug: transitapp-plans-pricing
-random_paper: 23
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Transitapp Rate Limits
   slug: transitapp-rate-limits
 score:
   band: thin
-  composite: 37.1
-  delta: 0.0
+  composite: 40.4
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.9
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 37.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

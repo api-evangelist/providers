@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -91,30 +91,30 @@ plans:
 - name: Nirvana Plans Pricing
   plan_count: 1
   slug: nirvana-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Nirvana Rate Limits
   slug: nirvana-rate-limits
 score:
   band: thin
-  composite: 31.5
-  delta: -1.0
+  composite: 34.3
+  delta: 2.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 58.4
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 32.5
+  previous_composite: 31.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

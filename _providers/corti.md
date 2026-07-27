@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 43.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: Real-time, bidirectional stateless dictation over WebSocket, returning live transcripts and detected commands.
@@ -227,7 +227,7 @@ overview: 'Corti publishes 2 APIs on the [APIs.io](https://apis.io/) network: Sp
 
 
   Corti''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 32 more developer resources.'
-random_paper: 35
+random_paper: 1
 scopes:
 - name: Corti Scopes
   scope_count: 44
@@ -236,7 +236,7 @@ scopes:
 score:
   band: developing
   composite: 56.7
-  delta: 5.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 22.6
@@ -244,15 +244,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 57.9
-  previous_composite: 51.4
+  previous_composite: 56.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/corti/refs/heads/main/screenshots/corti-2026-07-25T210446.png
 security:
 - kind: authentication
   name: Corti Authentication

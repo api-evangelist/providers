@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ overview: 'Pruna AI publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Pruna AI''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 20 more developer resources.'
-random_paper: 32
+random_paper: 49
 rate_limits:
 - limit_count: 0
   name: Pruna Ai Rate Limits
@@ -189,7 +189,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 51.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

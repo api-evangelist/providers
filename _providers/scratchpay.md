@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 66.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -147,11 +147,11 @@ overview: 'Scratchpay publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Scratchpay''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 14 more developer resources.'
-random_paper: 3
+random_paper: 54
 score:
   band: thin
   composite: 42.5
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 52.2
@@ -159,14 +159,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 40.4
+  previous_composite: 42.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

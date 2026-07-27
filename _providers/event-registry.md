@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -151,7 +151,7 @@ plans:
 - name: Event Registry Plans Pricing
   plan_count: 5
   slug: event-registry-plans-pricing
-random_paper: 1
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Event Registry Rate Limits
@@ -178,7 +178,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 51.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/event-registry/refs/heads/main/screenshots/event-registry-2026-06-20T180857.png
 security:

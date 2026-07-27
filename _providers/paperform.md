@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: REST API for managing Paperform forms, submissions, partial submissions, products, coupons, webhooks, spaces, and translations. Standard API access is included on Pro plans; Business API endpoints (fo
@@ -113,7 +113,7 @@ plans:
 - name: Paperform Plans Pricing
   plan_count: 5
   slug: paperform-plans-pricing
-random_paper: 3
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Paperform Rate Limits
@@ -121,7 +121,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.9
-  delta: -2.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.5
@@ -129,14 +129,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 41.5
+  previous_composite: 38.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paperform/refs/heads/main/screenshots/paperform-2026-06-20T191347.png
 security:

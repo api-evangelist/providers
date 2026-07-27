@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 19.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Morf's REST API and webhook surface for building healthcare automation workflows. Webhooks from source applications are ingested at api.morf.healthcare/webhooks/ and processed into events that trigger
@@ -162,7 +162,7 @@ scopes:
 score:
   band: developing
   composite: 46.3
-  delta: 7.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 22.6
@@ -170,15 +170,15 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 39.2
+  previous_composite: 46.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Morf Authentication

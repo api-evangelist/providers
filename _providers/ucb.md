@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Berkeley's centralized API management developer portal where developers browse and search published campus APIs, read interactive OpenAPI-based documentation with a "Try it out" feature, and request a
@@ -117,7 +117,7 @@ plans:
 - name: Ucb Plans Pricing
   plan_count: 2
   slug: ucb-plans-pricing
-random_paper: 8
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: Ucb Rate Limits
@@ -125,7 +125,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.3
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 15.1
@@ -133,14 +133,14 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 25.6
+  previous_composite: 27.3
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucb/refs/heads/main/screenshots/ucb-2026-06-20T195937.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ overview: 'Play Versus is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Play Versus'' developer surface includes signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: emerging
   composite: 17.3
@@ -99,7 +99,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

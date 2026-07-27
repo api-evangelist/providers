@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -61,7 +61,7 @@ apis:
 - description: Generate short videos from images with motion prompts, suitable for cinematics, trailers, and dynamic backgrounds.
   name: Ludo.ai Video API
   slug: ludo-ai-video-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: Ludo.ai REST API
@@ -136,6 +136,10 @@ jsonld:
   property_count: 7
   slug: ludo-ai-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Ludo.ai
 nav: Providers
@@ -151,7 +155,7 @@ plans:
 - name: Ludo Ai Plans Pricing
   plan_count: 4
   slug: ludo-ai-plans-pricing
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 7
   name: Ludo Ai Rate Limits
@@ -167,18 +171,18 @@ rules:
   slug: ludo-ai-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 56.9
+  delta: 3.3
   facets:
     commercial_clarity: 52.6
     contract_quality: 64.6
     developer_ergonomics: 39.1
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 53.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ludo-ai/refs/heads/main/screenshots/ludo-ai-2026-06-20T184746.png
 security:

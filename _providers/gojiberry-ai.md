@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 63.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: The AppExternal API from Gojiberry AI — 2 operation(s) for appexternal.
@@ -190,7 +190,7 @@ overview: 'Gojiberry AI publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Gojiberry AI''s developer surface includes developer portal, documentation, API reference, authentication, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 47
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Gojiberry Ai Rate Limits
@@ -208,8 +208,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 48.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gojiberry-ai/refs/heads/main/screenshots/gojiberry-ai-2026-07-25T220016.png
 security:
 - kind: authentication
   name: Gojiberry Ai Authentication

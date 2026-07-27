@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ plans:
 - name: Fortnox Plans Pricing
   plan_count: 6
   slug: fortnox-plans-pricing
-random_paper: 19
+random_paper: 36
 rate_limits:
 - limit_count: 2
   name: Fortnox Rate Limits
@@ -162,19 +162,20 @@ rules:
   slug: fortnox-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 40.6
-  delta: 0.0
+  composite: 43.9
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 59.2
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 34.2
     operational_transparency: 21.1
   previous_composite: 40.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fortnox/refs/heads/main/screenshots/fortnox-2026-07-25T215012.png
 security:
 - kind: authentication
   name: Fortnox Authentication

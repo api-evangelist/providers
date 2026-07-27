@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: OLM extends Kubernetes with CRDs for operator lifecycle management including ClusterServiceVersion for describing operator capabilities and requirements, Subscription for tracking update channels, Ins
@@ -69,7 +69,7 @@ plans:
 - name: Operator Framework Plans Pricing
   plan_count: 3
   slug: operator-framework-plans-pricing
-random_paper: 8
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Operator Framework Rate Limits
@@ -87,7 +87,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/operator-framework/refs/heads/main/screenshots/operator-framework-2026-06-20T191058.png
 security:

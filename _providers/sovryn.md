@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,7 +81,7 @@ overview: 'Sovryn is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sovryn''s developer surface includes documentation, support, and 8 more developer resources.'
-random_paper: 26
+random_paper: 9
 score:
   band: minimal
   composite: 13.1
@@ -100,7 +100,7 @@ score:
     regime_id: securities_market_data
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

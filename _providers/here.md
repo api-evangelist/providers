@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -168,19 +168,19 @@ rate_limits:
   name: Here Rate Limits
   slug: here-rate-limits
 score:
-  band: thin
-  composite: 44.6
-  delta: 0.0
+  band: developing
+  composite: 47.8
+  delta: 3.2
   facets:
     commercial_clarity: 73.7
     contract_quality: 47.8
     developer_ergonomics: 17.4
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 44.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/here/refs/heads/main/screenshots/here-2026-06-20T182640.png
 security:

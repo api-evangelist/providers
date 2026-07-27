@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -175,25 +175,25 @@ plans:
 - name: Aikido Security Plans Pricing
   plan_count: 1
   slug: aikido-security-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Aikido Security Rate Limits
   slug: aikido-security-rate-limits
 score:
   band: thin
-  composite: 42.8
-  delta: 0.0
+  composite: 44.8
+  delta: 2.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.3
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 42.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aikido-security/refs/heads/main/screenshots/aikido-security-2026-06-20T170912.png
 security:

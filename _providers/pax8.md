@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 0
@@ -247,7 +247,7 @@ overview: 'Pax8 publishes 26 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Pax8''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 20 more developer resources.'
-random_paper: 28
+random_paper: 45
 scopes:
 - name: Pax8 Scopes
   scope_count: 4
@@ -266,7 +266,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 51.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

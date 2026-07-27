@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -185,7 +185,7 @@ plans:
 - name: Wikivoyage Plans Pricing
   plan_count: 1
   slug: wikivoyage-plans-pricing
-random_paper: 16
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Wikivoyage Rate Limits
@@ -193,7 +193,7 @@ rate_limits:
 score:
   band: thin
   composite: 44.2
-  delta: 2.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 69.5
@@ -201,14 +201,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 41.6
+  previous_composite: 44.2
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikivoyage/refs/heads/main/screenshots/wikivoyage-2026-06-20T201502.png
 security:

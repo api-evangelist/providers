@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 13
 apis:
 - description: AI-powered web analysis with your own LLM key (BYOK)
@@ -131,7 +131,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 35.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: snapapi-pics
 tags:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 74.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 1
@@ -137,7 +137,7 @@ arazzos:
 - description: List the latest organization alerts and, when any are present, apply a triage state to one of them.
   name: Socket Triage Latest Alerts
   slug: socket-dev-triage-latest-alerts-workflow
-artifact_total: 102
+artifact_total: 103
 collections:
 - collection_type: postman
   name: Socket Alerts API
@@ -615,6 +615,10 @@ jsonld:
   property_count: 10
   slug: socket-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: socket-dev-mcp.yml
+  slug: socket-dev-mcpyml
 modified: '2026-06-20'
 name: Socket
 nav: Providers
@@ -630,7 +634,7 @@ plans:
 - name: Socket Dev Plans Pricing
   plan_count: 3
   slug: socket-dev-plans-pricing
-random_paper: 44
+random_paper: 61
 rate_limits:
 - limit_count: 3
   name: Socket Dev Rate Limits
@@ -658,19 +662,19 @@ scopes:
   slug: socket-dev-scopes
   summary_line: 97 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 68.7
-  delta: 0.0
+  band: exemplar
+  composite: 72.2
+  delta: 3.5
   facets:
     commercial_clarity: 78.9
-    contract_quality: 59.9
+    contract_quality: 68.7
     developer_ergonomics: 67.4
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 68.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/socket-dev/refs/heads/main/screenshots/socket-dev-2026-06-20T194122.png
 security:

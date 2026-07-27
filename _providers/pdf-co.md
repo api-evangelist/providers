@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ plans:
 - name: Pdf Co Plans Pricing
   plan_count: 7
   slug: pdf-co-plans-pricing
-random_paper: 8
+random_paper: 25
 rate_limits:
 - limit_count: 0
   name: Pdf Co Rate Limits
@@ -244,19 +244,19 @@ rules:
     warn: 3
   slug: pdf-co-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 58.5
-  delta: 0.0
+  band: strong
+  composite: 61.1
+  delta: 2.6
   facets:
     commercial_clarity: 92.1
-    contract_quality: 62.7
+    contract_quality: 68.0
     developer_ergonomics: 34.8
-    discoverability: 55.0
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 23.7
   previous_composite: 58.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pdf-co/refs/heads/main/screenshots/pdf-co-2026-06-20T191516.png
 security:

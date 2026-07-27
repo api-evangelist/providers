@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Data sources connected to Ledge (banks, payment service providers, ERPs, databases) and the datasets fetched from them.
@@ -177,7 +177,7 @@ overview: 'Ledge publishes 2 APIs on the [APIs.io](https://apis.io/) network: So
 
 
   Ledge''s developer surface includes developer portal, documentation, API reference, getting-started guide, engineering blog, pricing, support, and 24 more developer resources.'
-random_paper: 3
+random_paper: 37
 scopes:
 - name: Ledge Scopes
   scope_count: 0
@@ -196,8 +196,9 @@ score:
     operational_transparency: 47.4
   previous_composite: 56.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ledge/refs/heads/main/screenshots/ledge-2026-07-25T224813.png
 security:
 - kind: authentication
   name: Ledge Authentication

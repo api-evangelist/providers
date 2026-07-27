@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -94,11 +94,11 @@ overview: 'LevelUp is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   LevelUp''s developer surface includes authentication and 12 more developer resources.'
-random_paper: 0
+random_paper: 17
 score:
   band: emerging
   composite: 15.7
-  delta: 3.8
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -106,15 +106,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 11.9
+  previous_composite: 15.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/levelup/refs/heads/main/screenshots/levelup-2026-07-25T224952.png
 security:
 - kind: authentication
   name: Levelup Authentication

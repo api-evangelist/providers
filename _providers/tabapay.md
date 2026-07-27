@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 70.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 16
 apis:
 - description: The 3D Secure API from TabaPay — 3 operation(s) for 3d secure.
@@ -223,7 +223,7 @@ overview: 'TabaPay publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   TabaPay''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 25 more developer resources.'
-random_paper: 24
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Tabapay Rate Limits
@@ -231,7 +231,7 @@ rate_limits:
 score:
   band: developing
   composite: 57.5
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 55.8
@@ -239,14 +239,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 56.2
+  previous_composite: 57.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

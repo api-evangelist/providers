@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 39.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'REST API for managing Common Paper agreements and templates — list, create, send, void, reassign, download, and share agreements; manage templates, attachments, users, organizations, invitations, and '
@@ -175,8 +175,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 42.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/common-paper/refs/heads/main/screenshots/common-paper-2026-07-25T210135.png
 security:
 - kind: authentication
   name: Common Paper Authentication

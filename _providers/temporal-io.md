@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 2
@@ -139,25 +139,25 @@ plans:
 - name: Temporal Io Plans Pricing
   plan_count: 5
   slug: temporal-io-plans-pricing
-random_paper: 7
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Temporal Io Rate Limits
   slug: temporal-io-rate-limits
 score:
   band: thin
-  composite: 39.3
-  delta: 0.0
+  composite: 42.6
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 55.8
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 39.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

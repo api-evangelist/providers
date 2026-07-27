@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: REST API of TUdatalib, the institutional research-data repository of TU Darmstadt, running on DSpace 8.1. The API root reports dspaceName "TUdatalib System" and exposes HAL-style endpoints for communi
@@ -115,7 +115,7 @@ plans:
 - name: Technical University Of Darmstadt Plans Pricing
   plan_count: 2
   slug: technical-university-of-darmstadt-plans-pricing
-random_paper: 7
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Technical University Of Darmstadt Rate Limits
@@ -133,7 +133,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 25.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/technical-university-of-darmstadt/refs/heads/main/screenshots/technical-university-of-darmstadt-2026-06-20T195009.png
 security:

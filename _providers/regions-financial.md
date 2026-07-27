@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 1
@@ -162,7 +162,7 @@ press:
 - date: '2026-05-25'
   title: Regions AI tool helps steer cross-selling
   url: https://www.americanbanker.com/news/regions-ai-tool-helps-steer-cross-selling
-random_paper: 3
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Regions Financial Rate Limits
@@ -191,23 +191,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.4
-  delta: 2.2
+  composite: 48.5
+  delta: 2.1
   facets:
     commercial_clarity: 28.9
     contract_quality: 65.5
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 21.1
-  previous_composite: 44.2
+  previous_composite: 46.4
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

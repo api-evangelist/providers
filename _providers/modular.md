@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: OpenAI-compatible inference API served by MAX. Exposes /v1/chat/completions, /v1/completions, /v1/embeddings, /v1/responses (image and video generation), and /v1/models. Hosted at api.modular.com with
@@ -150,7 +150,7 @@ overview: 'Modular publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Modular''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 19 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: thin
   composite: 39.2
@@ -164,7 +164,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 39.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

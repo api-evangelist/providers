@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -155,18 +155,18 @@ rules:
   slug: spanning-rules
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 58.1
+  delta: 4.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 71.7
+    contract_quality: 77.0
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 53.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spanning/refs/heads/main/screenshots/spanning-2026-06-20T194245.png
 security:

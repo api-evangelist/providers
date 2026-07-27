@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 74.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -107,7 +107,7 @@ arazzos:
 - description: Create a workspace, add a principal with a specific access right, and verify the resulting membership.
   name: Power BI Provision a Workspace and Grant Access
   slug: power-bi-workspace-provision-access-workflow
-artifact_total: 248
+artifact_total: 249
 collections:
 - collection_type: open
   name: Power BI REST API
@@ -958,6 +958,10 @@ jsonld:
   property_count: 0
   slug: power-bi-rest-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: power-bi-mcp.yml
+  slug: power-bi-mcpyml
 modified: '2026-06-20'
 name: Power BI
 nav: Providers
@@ -973,7 +977,7 @@ plans:
 - name: Power Bi Plans Pricing
   plan_count: 5
   slug: power-bi-plans-pricing
-random_paper: 40
+random_paper: 57
 rate_limits:
 - limit_count: 4
   name: Power Bi Rate Limits
@@ -1002,18 +1006,18 @@ scopes:
   summary_line: 17 scopes · authorizationCode/clientCredentials
 score:
   band: exemplar
-  composite: 72.4
-  delta: 0.0
+  composite: 75.6
+  delta: 3.2
   facets:
     commercial_clarity: 92.1
     contract_quality: 70.1
     developer_ergonomics: 63.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 63.2
   previous_composite: 72.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/power-bi/refs/heads/main/screenshots/power-bi-2026-06-20T192022.png
 security:

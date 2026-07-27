@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -40,7 +40,7 @@ apis:
 - description: The Projects API from Google Cloud Platform — 8 operation(s) for projects.
   name: Google Cloud Platform Projects API
   slug: google-cloud-projects-api
-artifact_total: 49
+artifact_total: 50
 collections:
 - collection_type: open
   name: Google Compute Engine API
@@ -189,6 +189,10 @@ graphqls:
   slug: google-cloud-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/google-cloud.png
 layout: provider
+mcp_servers:
+- description: Google Cloud's fully-managed remote MCP servers for BigQuery, Compute Engine, GKE, and more, governed by Cloud IAM with Model Armor prompt-injection defense.
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-04'
 name: Google Cloud Platform
 nav: Providers
@@ -201,7 +205,7 @@ plans:
 - name: Google Cloud Plans Pricing
   plan_count: 3
   slug: google-cloud-plans-pricing
-random_paper: 44
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Google Cloud Rate Limits
@@ -213,18 +217,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 54.4
+  delta: 3.2
   facets:
     commercial_clarity: 84.2
     contract_quality: 47.8
     developer_ergonomics: 60.9
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 51.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud/refs/heads/main/screenshots/google-cloud-2026-06-20T182037.png
 security:

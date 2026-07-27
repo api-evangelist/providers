@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for building and operating conversational voice AI agents — create and manage agents, place outbound calls, run CSV batch campaigns, wire inbound numbers and SIP trunks, purchase/search phone
@@ -185,7 +185,7 @@ overview: 'Bolna publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Bolna''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 25 more developer resources.'
-random_paper: 14
+random_paper: 48
 rate_limits:
 - limit_count: 0
   name: Bolna Rate Limits
@@ -203,8 +203,9 @@ score:
     operational_transparency: 52.6
   previous_composite: 46.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bolna/refs/heads/main/screenshots/bolna-2026-07-25T203540.png
 security:
 - kind: authentication
   name: Bolna Authentication

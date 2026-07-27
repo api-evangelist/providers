@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 90.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -261,7 +261,7 @@ plans:
 - name: Ziina Plans Pricing
   plan_count: 3
   slug: ziina-plans-pricing
-random_paper: 29
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Ziina Rate Limits
@@ -274,7 +274,7 @@ scopes:
 score:
   band: strong
   composite: 68.3
-  delta: 5.6
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
     contract_quality: 53.7
@@ -282,15 +282,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 34.2
-  previous_composite: 62.7
+  previous_composite: 68.3
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 100.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Ziina Authentication

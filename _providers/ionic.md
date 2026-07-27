@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Ionic provides a platform and APIs for building and deploying modern mobile applications and micro frontend experiences with cross-platform support.
@@ -86,7 +86,7 @@ plans:
 - name: Ionic Plans Pricing
   plan_count: 3
   slug: ionic-plans-pricing
-random_paper: 20
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Ionic Rate Limits
@@ -104,7 +104,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ionic/refs/heads/main/screenshots/ionic-2026-06-20T183530.png
 security:

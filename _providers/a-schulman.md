@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: High-performance plastic compounds, composites, masterbatches, and specialty powders for automotive, packaging, electronics, agriculture, and consumer goods applications. Products include engineered c
@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: Kevin A. Schulman | Stanford Graduate School of Business
   url: https://www.gsb.stanford.edu/faculty-research/faculty/kevin-schulman
-random_paper: 32
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: A Schulman Rate Limits
@@ -118,7 +118,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 16.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

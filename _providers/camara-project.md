@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 1
@@ -328,7 +328,7 @@ overview: 'CAMARA Project publishes 30 APIs on the [APIs.io](https://apis.io/) n
 
 
   CAMARA Project''s developer surface includes authentication, developer portal, documentation, engineering blog, and 19 more developer resources.'
-random_paper: 40
+random_paper: 57
 score:
   band: emerging
   composite: 27.9
@@ -342,7 +342,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 27.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/camara-project/refs/heads/main/screenshots/camara-project-2026-06-20T173902.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 14.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Ethereum-compatible JSON-RPC 2.0 API (eth_*, net_*, web3_*) plus Morph-specific methods such as morph_getBlockByNumber that return additional L2 fields. No API key required; chain id 2818.
@@ -125,7 +125,7 @@ overview: 'Morph publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Morph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, CLI, and 12 more developer resources.'
-random_paper: 40
+random_paper: 6
 score:
   band: emerging
   composite: 26.8
@@ -139,7 +139,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 26.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

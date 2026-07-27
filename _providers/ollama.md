@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -327,18 +327,18 @@ rate_limits:
   slug: ollama-rate-limits
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 48.8
+  delta: 2.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 50.4
     developer_ergonomics: 45.7
-    discoverability: 42.5
+    discoverability: 62.5
     governance: 0.0
     operational_transparency: 63.2
   previous_composite: 46.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ollama/refs/heads/main/screenshots/ollama-2026-06-20T190657.png
 security:

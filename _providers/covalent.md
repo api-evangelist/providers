@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -360,18 +360,18 @@ rules:
   slug: covalent-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 65.1
-  delta: 0.0
+  composite: 69.8
+  delta: 4.7
   facets:
     commercial_clarity: 71.1
-    contract_quality: 69.3
+    contract_quality: 78.1
     developer_ergonomics: 56.5
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 65.8
     operational_transparency: 68.4
   previous_composite: 65.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/covalent/refs/heads/main/screenshots/covalent-2026-06-20T175115.png
 security:

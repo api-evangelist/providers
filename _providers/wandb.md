@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -179,25 +179,25 @@ plans:
 - name: Wandb Plans Pricing
   plan_count: 1
   slug: wandb-plans-pricing
-random_paper: 14
+random_paper: 48
 rate_limits:
 - limit_count: 2
   name: Wandb Rate Limits
   slug: wandb-rate-limits
 score:
   band: thin
-  composite: 35.8
-  delta: 0.0
+  composite: 39.1
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 53.7
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 35.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wandb/refs/heads/main/screenshots/wandb-2026-06-20T201222.png
 security:

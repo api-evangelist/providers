@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -89,7 +89,7 @@ arazzos:
 - description: Fetch an existing chat to confirm it exists, then continue it with a refinement.
   name: Vercel v0 Resume And Refine Chat
   slug: vercel-resume-and-refine-chat-workflow
-artifact_total: 54
+artifact_total: 55
 asyncapis:
 - description: AsyncAPI definition for Vercel's webhook surface. Vercel webhooks are HTTP POST deliveries from Vercel to a subscriber-configured endpoint URL registered either as an Account Webhook (Team Settings ->
   name: Vercel Webhooks
@@ -330,6 +330,10 @@ jsonld:
   property_count: 2
   slug: vercel-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-30'
 name: Vercel
 nav: Providers
@@ -377,18 +381,18 @@ rules:
   slug: vercel-rules
 score:
   band: exemplar
-  composite: 72.4
-  delta: 0.0
+  composite: 74.4
+  delta: 2.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 80.5
     developer_ergonomics: 54.3
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 60.5
     operational_transparency: 78.9
   previous_composite: 72.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vercel/refs/heads/main/screenshots/vercel-2026-06-20T200923.png
 security:

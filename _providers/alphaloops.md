@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'REST API for FMCSA carrier data: lookup by DOT/MC/name, 200+-field profiles, authority & insurance history, VIN-level fleet, roadside inspections & violations, crashes, news, corporate-connection grap'
@@ -41,7 +41,7 @@ name: AlphaLoops FMCSA Carrier Data API
 nav: Providers
 network: true
 overview: 'AlphaLoops FMCSA Carrier Data API publishes 1 API on the [APIs.io](https://apis.io/) network: AlphaLoops FMCSA Carrier Data API. Tagged areas include fmcsa api, safer web api, dot lookup, carrier data, and freight.'
-random_paper: 4
+random_paper: 55
 score:
   band: emerging
   composite: 17.9
@@ -55,8 +55,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alphaloops/refs/heads/main/screenshots/alphaloops-2026-07-25T195758.png
 slug: alphaloops
 tags:
 - fmcsa api

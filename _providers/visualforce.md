@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Visualforce is the Salesforce framework for building custom user interfaces using tag-based markup and Apex server-side controllers. Developers use it to create pages, email templates, and PDF documen
@@ -122,7 +122,7 @@ plans:
 - name: Visualforce Plans Pricing
   plan_count: 3
   slug: visualforce-plans-pricing
-random_paper: 14
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Visualforce Rate Limits
@@ -140,7 +140,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 30.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visualforce/refs/heads/main/screenshots/visualforce-2026-06-20T201104.png
 security:

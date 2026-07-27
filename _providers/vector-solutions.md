@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Live GraphQL endpoint backing Vector Solutions applications. Responds to GraphQL queries but is undocumented publicly and has schema introspection disabled.
@@ -69,7 +69,7 @@ overview: 'Vector Solutions publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Vector Solutions'' developer surface includes support and 5 more developer resources.'
-random_paper: 29
+random_paper: 12
 score:
   band: emerging
   composite: 17.0
@@ -83,7 +83,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

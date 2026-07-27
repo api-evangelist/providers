@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 2
@@ -310,19 +310,19 @@ rules:
   slug: waxell-rules
 score:
   band: strong
-  composite: 60.9
-  delta: 0.0
+  composite: 66.4
+  delta: 5.5
   facets:
     commercial_clarity: 55.3
-    contract_quality: 64.1
+    contract_quality: 72.9
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 57.9
   previous_composite: 60.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/waxell/refs/heads/main/screenshots/waxell-2026-06-20T201300.png
 security:
 - kind: authentication

@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 common:
@@ -57,11 +75,26 @@ plans:
 - name: Friend Com Plans Pricing
   plan_count: 1
   slug: friend-com-plans-pricing
-random_paper: 51
+random_paper: 44
 rate_limits:
 - limit_count: 2
   name: Friend Com Rate Limits
   slug: friend-com-rate-limits
+score:
+  band: emerging
+  composite: 15.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 15.3
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/friend-com/refs/heads/main/screenshots/friend-com-2026-06-20T181547.png
 security:
 - kind: domain-security

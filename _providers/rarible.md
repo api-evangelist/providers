@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 3
@@ -1069,7 +1069,7 @@ plans:
 - name: Rarible Plans Pricing
   plan_count: 2
   slug: rarible-plans-pricing
-random_paper: 23
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Rarible Rate Limits
@@ -1086,7 +1086,7 @@ rules:
 score:
   band: developing
   composite: 53.6
-  delta: -2.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 64.2
@@ -1094,14 +1094,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 42.1
-  previous_composite: 56.5
+  previous_composite: 53.6
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rarible/refs/heads/main/screenshots/rarible-2026-06-20T192606.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Vulnerabilities detected in runtime by Contrast Assess are weaknesses in the application code that allow an attacker to cause harm.
   name: Contrast Security Vulnerabilities API
   slug: contrast-security-vulnerabilities-api
-artifact_total: 10
+artifact_total: 12
 collections:
 - collection_type: open
   name: Contrast Assess API
@@ -117,6 +117,13 @@ created: '2026-05-11'
 description: Contrast Security is an application security platform that uses instrumentation-based agents to provide Interactive Application Security Testing (IAST), Runtime Application Self-Protection (RASP), and Software Composition Analysis (SCA) across Java, .NET, Node.js, Python, PHP, Go, and Ruby applications. The platform identifies, prioritizes, and defends against vulnerabilities and attacks in real time from inside running applications. Contrast's REST API enables programmatic access to TeamServer applications, libraries, vulnerabilities, and traces, authenticated via API key plus Authorization header (Base64 of username:service_key) and an Organization ID.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/contrast-security.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
+- description: ''
+  name: MCP Server Source
+  slug: mcp-server-source
 modified: '2026-07-12'
 name: Contrast Security
 nav: Providers
@@ -125,21 +132,21 @@ overview: 'Contrast Security publishes 4 APIs on the [APIs.io](https://apis.io/)
 
 
   Contrast Security''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 26
+random_paper: 43
 score:
   band: thin
-  composite: 30.0
-  delta: 0.0
+  composite: 33.2
+  delta: 3.2
   facets:
     commercial_clarity: 10.5
     contract_quality: 60.2
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 30.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contrast-security/refs/heads/main/screenshots/contrast-security-2026-06-20T174948.png
 security:

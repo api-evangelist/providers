@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 70
   human_in_the_loop: 1
@@ -394,7 +394,7 @@ overview: 'Lean Technologies publishes 67 APIs on the [APIs.io](https://apis.io/
 
 
   Lean Technologies'' developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 26 more developer resources.'
-random_paper: 11
+random_paper: 45
 scopes:
 - name: Lean Technologies Scopes
   scope_count: 2
@@ -403,7 +403,7 @@ scopes:
 score:
   band: strong
   composite: 61.5
-  delta: 4.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.1
@@ -411,15 +411,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 57.1
+  previous_composite: 61.5
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lean-technologies/refs/heads/main/screenshots/lean-technologies-2026-07-25T224735.png
 security:
 - kind: authentication
   name: Lean Technologies Authentication

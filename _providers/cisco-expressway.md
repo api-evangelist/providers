@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 3
@@ -354,7 +354,7 @@ plans:
 - name: Cisco Expressway Plans Pricing
   plan_count: 1
   slug: cisco-expressway-plans-pricing
-random_paper: 6
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Cisco Expressway Rate Limits
@@ -378,18 +378,18 @@ rules:
   slug: cisco-expressway-rules
 score:
   band: strong
-  composite: 63.4
-  delta: 0.0
+  composite: 68.1
+  delta: 4.7
   facets:
     commercial_clarity: 63.2
-    contract_quality: 70.6
+    contract_quality: 79.4
     developer_ergonomics: 50.0
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 57.9
   previous_composite: 63.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-expressway/refs/heads/main/screenshots/cisco-expressway-2026-06-20T174356.png
 security:

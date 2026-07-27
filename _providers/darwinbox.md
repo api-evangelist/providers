@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for Darwinbox HRMS covering employee management, attendance, recruitment, organizational management, payroll, background verification, project management, and travel. Authentication uses toke
@@ -102,7 +102,7 @@ plans:
 - name: Darwinbox Plans Pricing
   plan_count: 1
   slug: darwinbox-plans-pricing
-random_paper: 5
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Darwinbox Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 22.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/darwinbox/refs/heads/main/screenshots/darwinbox-2026-06-20T175524.png
 security:

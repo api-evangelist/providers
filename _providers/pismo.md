@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ plans:
 - name: Pismo Plans Pricing
   plan_count: 1
   slug: pismo-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Pismo Rate Limits
@@ -147,23 +147,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: thin
-  composite: 37.9
-  delta: 4.1
+  composite: 40.6
+  delta: 2.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 51.3
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 33.8
+  previous_composite: 37.9
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

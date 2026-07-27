@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Take-Two Interactive Software API provides access to platform services and data for enterprise integration and automation.
@@ -74,7 +74,7 @@ plans:
 - name: Take Two Interactive Plans Pricing
   plan_count: 1
   slug: take-two-interactive-plans-pricing
-random_paper: 50
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Take Two Interactive Rate Limits
@@ -92,7 +92,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 17.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

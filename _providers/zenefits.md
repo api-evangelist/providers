@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API providing programmatic access to people, companies, locations, employments, compensation, time-off, paystubs, and journal data inside a Zenefits account. Authentication uses OAuth 2.0 with sc
@@ -89,7 +89,7 @@ overview: 'TriNet Zenefits publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   TriNet Zenefits'' developer surface includes documentation, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 5
+random_paper: 56
 score:
   band: emerging
   composite: 16.4
@@ -103,7 +103,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 16.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zenefits/refs/heads/main/screenshots/zenefits-2026-06-20T201818.png
 security:

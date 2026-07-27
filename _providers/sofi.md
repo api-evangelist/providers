@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -211,7 +211,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.1
-  delta: 23.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 60.2
@@ -219,15 +219,15 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 29.4
+  previous_composite: 53.1
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sofi/refs/heads/main/screenshots/sofi-2026-06-20T194126.png
 security:
 - kind: authentication

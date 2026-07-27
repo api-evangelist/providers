@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -147,7 +147,7 @@ plans:
 - name: Fourthwall Plans Pricing
   plan_count: 2
   slug: fourthwall-plans-pricing
-random_paper: 25
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Fourthwall Rate Limits
@@ -159,19 +159,20 @@ scopes:
   summary_line: 14 scopes · authorizationCode
 score:
   band: thin
-  composite: 34.1
-  delta: 0.0
+  composite: 37.3
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 51.3
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 34.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fourthwall/refs/heads/main/screenshots/fourthwall-2026-07-25T215052.png
 security:
 - kind: authentication
   name: Fourthwall Authentication

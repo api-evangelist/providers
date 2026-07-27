@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The ImandraX cloud-native automated reasoning engine, exposed as a protobuf-defined gRPC API. Services include Eval (evaluate code snippets, parse terms/types, manage artifacts), Simple (verify, test,
@@ -134,7 +134,7 @@ overview: 'Imandra publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Imandra''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 14 more developer resources.'
-random_paper: 18
+random_paper: 52
 score:
   band: thin
   composite: 33.2
@@ -148,8 +148,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 33.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/imandra/refs/heads/main/screenshots/imandra-2026-07-25T222120.png
 security:
 - kind: authentication
   name: Imandra Authentication

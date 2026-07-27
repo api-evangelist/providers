@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -211,18 +211,18 @@ rules:
   slug: amazon-trusted-advisor-spectral-rules
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 53.8
+  delta: 3.2
   facets:
     commercial_clarity: 81.6
     contract_quality: 46.0
     developer_ergonomics: 28.3
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 39.5
     operational_transparency: 52.6
   previous_composite: 50.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-trusted-advisor/refs/heads/main/screenshots/amazon-trusted-advisor-2026-06-20T171840.png
 security:

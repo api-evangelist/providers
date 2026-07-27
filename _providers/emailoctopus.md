@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -117,26 +117,27 @@ plans:
 - name: Emailoctopus Plans Pricing
   plan_count: 3
   slug: emailoctopus-plans-pricing
-random_paper: 26
+random_paper: 9
 rate_limits:
 - limit_count: 4
   name: Emailoctopus Rate Limits
   slug: emailoctopus-rate-limits
 score:
   band: thin
-  composite: 36.0
-  delta: 0.0
+  composite: 39.2
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 53.1
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 36.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/emailoctopus/refs/heads/main/screenshots/emailoctopus-2026-07-25T213222.png
 security:
 - kind: authentication
   name: Emailoctopus Authentication

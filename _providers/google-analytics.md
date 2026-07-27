@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ arazzos:
 - description: Confirm an audience export is active, then page through the users it contains.
   name: Google Analytics Query Audience Export Users
   slug: google-analytics-query-audience-export-users-workflow
-artifact_total: 439
+artifact_total: 440
 collections:
 - collection_type: postman
   name: Google Analytics Admin API
@@ -1349,6 +1349,10 @@ jsonld:
   property_count: 8
   slug: google-analytics-user-deletion-api-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Google Analytics
 nav: Providers
@@ -1393,19 +1397,20 @@ scopes:
   summary_line: 7 scopes · implicit/authorizationCode
 score:
   band: strong
-  composite: 65.0
-  delta: 0.0
+  composite: 67.5
+  delta: 2.5
   facets:
     commercial_clarity: 60.5
     contract_quality: 63.1
     developer_ergonomics: 63.0
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 65.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/google-analytics/refs/heads/main/screenshots/google-analytics-2026-07-25T220105.png
 security:
 - kind: authentication
   name: Google Analytics Authentication

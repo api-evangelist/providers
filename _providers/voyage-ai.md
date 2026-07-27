@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: OpenAI-compatible REST endpoint that returns dense vector embeddings for input text. Supports model selection (voyage-3.5, voyage-3-large, voyage-code-3, voyage-finance-2, voyage-law-2, voyage-4 famil
@@ -113,7 +113,7 @@ plans:
 - name: Voyage Ai Plans Pricing
   plan_count: 1
   slug: voyage-ai-plans-pricing
-random_paper: 31
+random_paper: 14
 rate_limits:
 - limit_count: 2
   name: Voyage Ai Rate Limits
@@ -131,7 +131,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 32.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/voyage-ai/refs/heads/main/screenshots/voyage-ai-2026-06-20T201141.png
 security:

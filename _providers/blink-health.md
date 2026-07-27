@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,11 +77,11 @@ overview: 'Blink Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Blink Health''s developer surface includes support and 8 more developer resources.'
-random_paper: 30
+random_paper: 47
 score:
   band: emerging
   composite: 16.9
-  delta: 3.2
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -89,15 +89,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.7
+  previous_composite: 16.9
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 34.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/blink-health/refs/heads/main/screenshots/blink-health-2026-07-25T203321.png
 security:
 - kind: domain-security
   name: Blink Health Domain Security

@@ -28,7 +28,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 14
 apis:
 - description: JSON WebSocket streaming of US stock trade/quote, options trade/quote, and index price streams, served locally by the Theta Terminal at ws://127.0.0.1:25520/v1/events. Requires a paid subscription wit
@@ -242,7 +242,7 @@ plans:
 - name: Thetadata Plans
   plan_count: 7
   slug: thetadata-plans
-random_paper: 26
+random_paper: 60
 rate_limits:
 - limit_count: 6
   name: Thetadata Rate Limits
@@ -250,7 +250,7 @@ rate_limits:
 score:
   band: strong
   composite: 63.1
-  delta: 24.9
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 57.9
@@ -258,15 +258,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 81.6
-  previous_composite: 38.2
+  previous_composite: 63.1
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/screenshots/thetadata-2026-07-22T202634.png
 security:
 - kind: authentication

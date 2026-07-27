@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -50,7 +50,7 @@ name: Samsara Eco
 nav: Providers
 network: true
 overview: Samsara Eco is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recycling, Circular Economy, Biotechnology, and Sustainability.
-random_paper: 29
+random_paper: 12
 score:
   band: minimal
   composite: 8.9
@@ -64,7 +64,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

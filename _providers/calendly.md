@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -223,18 +223,18 @@ rules:
   slug: calendly-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.7
-  delta: 0.0
+  composite: 58.9
+  delta: 3.2
   facets:
     commercial_clarity: 73.7
     contract_quality: 73.5
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 26.3
   previous_composite: 55.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/calendly/refs/heads/main/screenshots/calendly-2026-06-20T173843.png
 security:

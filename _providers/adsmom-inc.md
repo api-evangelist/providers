@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 11.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -102,7 +102,7 @@ plans:
 - name: Adsmom Inc Plans
   plan_count: 3
   slug: adsmom-inc-plans
-random_paper: 31
+random_paper: 48
 score:
   band: emerging
   composite: 26.6
@@ -116,8 +116,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 26.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/adsmom-inc/refs/heads/main/screenshots/adsmom-inc-2026-07-25T181702.png
 security:
 - kind: domain-security
   name: Adsmom Inc Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -223,7 +223,7 @@ plans:
 - name: Gladia Plans Pricing
   plan_count: 3
   slug: gladia-plans-pricing
-random_paper: 49
+random_paper: 66
 rate_limits:
 - limit_count: 8
   name: Gladia Rate Limits
@@ -250,7 +250,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 61.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gladia/refs/heads/main/screenshots/gladia-2026-06-20T181856.png
 security:

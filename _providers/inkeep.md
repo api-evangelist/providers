@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -143,18 +143,18 @@ rules:
   slug: inkeep-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 52.4
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 69.9
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 36.8
   previous_composite: 49.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/inkeep/refs/heads/main/screenshots/inkeep-2026-06-20T183352.png
 security:

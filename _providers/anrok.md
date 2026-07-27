@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -267,7 +267,7 @@ plans:
 - name: Anrok Plans Pricing
   plan_count: 2
   slug: anrok-plans-pricing
-random_paper: 29
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Anrok Rate Limits
@@ -294,7 +294,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 54.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anrok/refs/heads/main/screenshots/anrok-2026-06-20T172015.png
 security:

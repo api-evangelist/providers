@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,11 +78,11 @@ press:
 - date: '2026-05-25'
   title: With recent offerings, life insurance goes high-tech
   url: https://insurancenewsnet.com/oarticle/with-recent-offerings-life-insurance-goes-high-tech
-random_paper: 29
+random_paper: 63
 score:
   band: minimal
   composite: 7.7
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -90,14 +90,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.8
+  previous_composite: 7.7
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/massachusetts-mutual-life-insurance/refs/heads/main/screenshots/massachusetts-mutual-life-insurance-2026-06-20T185018.png
 security:

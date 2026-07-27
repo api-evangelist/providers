@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Newton is a Python library and physics simulation engine. It is consumed programmatically via Python (not as an HTTP API), targeting robotics simulation, reinforcement learning, and physics-based AI t
@@ -70,7 +70,7 @@ plans:
 - name: Newton Plans Pricing
   plan_count: 3
   slug: newton-plans-pricing
-random_paper: 4
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Newton Rate Limits
@@ -88,7 +88,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: newton
 tags:

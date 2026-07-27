@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -173,18 +173,18 @@ rules:
   slug: containerd-rules
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 50.6
+  delta: 4.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 58.4
+    contract_quality: 67.3
     developer_ergonomics: 23.9
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 46.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/containerd/refs/heads/main/screenshots/containerd-2026-06-20T174921.png
 security:

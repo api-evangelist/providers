@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 44.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 1
@@ -285,18 +285,18 @@ rules:
   slug: dapr-rules
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 56.2
+  delta: 3.5
   facets:
     commercial_clarity: 28.9
-    contract_quality: 65.6
+    contract_quality: 74.4
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 52.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dapr/refs/heads/main/screenshots/dapr-2026-06-20T175454.png
 security:

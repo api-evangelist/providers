@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -42,7 +42,7 @@ name: Cascade
 nav: Providers
 network: true
 overview: Cascade is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, No-Code, Data Analytics, Data Preparation, and Business Intelligence.
-random_paper: 45
+random_paper: 28
 score:
   band: minimal
   composite: 6.8
@@ -56,8 +56,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cascade/refs/heads/main/screenshots/cascade-2026-07-25T204713.png
 slug: cascade
 tags:
 - Company

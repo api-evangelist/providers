@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -114,30 +114,30 @@ plans:
 - name: Opkit Plans Pricing
   plan_count: 1
   slug: opkit-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Opkit Rate Limits
   slug: opkit-rate-limits
 score:
   band: thin
-  composite: 32.9
-  delta: -1.2
+  composite: 35.7
+  delta: 2.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 59.8
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 34.1
+  previous_composite: 32.9
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

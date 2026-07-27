@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ plans:
 - name: Microsoft Azure Postgresql Plans Pricing
   plan_count: 3
   slug: microsoft-azure-postgresql-plans-pricing
-random_paper: 28
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Postgresql Rate Limits
@@ -141,18 +141,18 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 47.4
-  delta: 0.0
+  composite: 50.7
+  delta: 3.3
   facets:
     commercial_clarity: 84.2
     contract_quality: 53.1
     developer_ergonomics: 32.6
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 47.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-postgresql/refs/heads/main/screenshots/microsoft-azure-postgresql-2026-06-20T185432.png
 security:

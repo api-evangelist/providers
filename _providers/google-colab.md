@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ plans:
 - name: Google Colab Plans Pricing
   plan_count: 5
   slug: google-colab-plans-pricing
-random_paper: 22
+random_paper: 39
 rate_limits:
 - limit_count: 7
   name: Google Colab Rate Limits
@@ -160,18 +160,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 57.9
+  delta: 4.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 62.8
+    contract_quality: 68.1
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 53.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-colab/refs/heads/main/screenshots/google-colab-2026-06-20T182152.png
 security:

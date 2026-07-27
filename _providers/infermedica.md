@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: NLP based symptom checker and patient triage API for health diagnosis from text
@@ -65,11 +65,11 @@ overview: 'Infermedica publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Infermedica''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 21
+random_paper: 55
 score:
   band: minimal
   composite: 11.0
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 0.0
@@ -77,14 +77,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 8.8
+  previous_composite: 11.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/infermedica/refs/heads/main/screenshots/infermedica-2026-06-20T183329.png
 security:

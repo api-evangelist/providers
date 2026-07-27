@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 93
   human_in_the_loop: 0
@@ -590,7 +590,7 @@ plans:
 - name: Tidal Plans Pricing
   plan_count: 6
   slug: tidal-plans-pricing
-random_paper: 16
+random_paper: 50
 rate_limits:
 - limit_count: 4
   name: Tidal Rate Limits
@@ -619,18 +619,18 @@ scopes:
   summary_line: 12 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 61.0
-  delta: 0.0
+  composite: 64.4
+  delta: 3.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 57.0
+    contract_quality: 65.8
     developer_ergonomics: 60.9
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 61.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tidal/refs/heads/main/screenshots/tidal-2026-06-20T195337.png
 security:

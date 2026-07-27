@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ apis:
 - description: Workspaces operations
   name: Microsoft Azure AI Foundry Workspaces API
   slug: microsoft-azure-ai-foundry-workspaces-api
-artifact_total: 10
+artifact_total: 11
 collections:
 - collection_type: open
   name: Azure Machine Learning REST API
@@ -113,6 +113,10 @@ finops:
   slug: microsoft-azure-ai-foundry-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-azure-ai-foundry.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Microsoft Azure AI Foundry
 nav: Providers
@@ -125,7 +129,7 @@ plans:
 - name: Microsoft Azure Ai Foundry Plans Pricing
   plan_count: 3
   slug: microsoft-azure-ai-foundry-plans-pricing
-random_paper: 44
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Ai Foundry Rate Limits
@@ -137,18 +141,18 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 48.6
-  delta: 0.0
+  composite: 51.8
+  delta: 3.2
   facets:
     commercial_clarity: 71.1
     contract_quality: 53.1
     developer_ergonomics: 41.3
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 48.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-ai-foundry/refs/heads/main/screenshots/microsoft-azure-ai-foundry-2026-06-20T185353.png
 security:

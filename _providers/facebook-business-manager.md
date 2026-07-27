@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -343,7 +343,7 @@ plans:
 - name: Facebook Business Manager Plans Pricing
   plan_count: 3
   slug: facebook-business-manager-plans-pricing
-random_paper: 24
+random_paper: 7
 rate_limits:
 - limit_count: 11
   name: Facebook Business Manager Rate Limits
@@ -359,18 +359,18 @@ rules:
   slug: facebook-business-manager-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.4
-  delta: 0.0
+  composite: 66.6
+  delta: 3.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 60.2
     developer_ergonomics: 58.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 63.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/facebook-business-manager/refs/heads/main/screenshots/facebook-business-manager-2026-06-20T181003.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ plans:
 - name: Planning Center Plans Pricing
   plan_count: 5
   slug: planning-center-plans-pricing
-random_paper: 11
+random_paper: 45
 rate_limits:
 - limit_count: 2
   name: Planning Center Rate Limits
@@ -158,18 +158,18 @@ scopes:
   summary_line: 8 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.4
-  delta: 0.0
+  composite: 39.6
+  delta: 3.2
   facets:
     commercial_clarity: 47.4
     contract_quality: 49.6
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 36.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

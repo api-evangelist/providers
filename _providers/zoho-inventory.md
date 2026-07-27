@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 356
   human_in_the_loop: 4
@@ -365,7 +365,7 @@ plans:
 - name: Zoho Inventory Plans Pricing
   plan_count: 5
   slug: zoho-inventory-plans-pricing
-random_paper: 20
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Zoho Inventory Rate Limits
@@ -397,7 +397,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 57.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-inventory/refs/heads/main/screenshots/zoho-inventory-2026-06-20T201942.png
 security:

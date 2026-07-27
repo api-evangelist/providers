@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ plans:
 - name: Swetrix Plans Pricing
   plan_count: 10
   slug: swetrix-plans-pricing
-random_paper: 25
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: Swetrix Rate Limits
@@ -253,18 +253,18 @@ rules:
   slug: swetrix-rules
 score:
   band: strong
-  composite: 63.3
-  delta: 0.0
+  composite: 66.6
+  delta: 3.3
   facets:
     commercial_clarity: 84.2
     contract_quality: 68.7
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 42.1
   previous_composite: 63.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swetrix/refs/heads/main/screenshots/swetrix-2026-06-20T194812.png
 security:

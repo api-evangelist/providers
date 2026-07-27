@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ plans:
 - name: Us Department Of Defense Plans Pricing
   plan_count: 3
   slug: us-department-of-defense-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Us Department Of Defense Rate Limits
@@ -148,23 +148,23 @@ rules:
   slug: usace-cwms-data-api-rules
 score:
   band: thin
-  composite: 39.1
-  delta: -2.7
+  composite: 40.8
+  delta: 1.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 56.6
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 31.6
-  previous_composite: 41.8
+  previous_composite: 39.1
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-department-of-defense/refs/heads/main/screenshots/us-department-of-defense-2026-06-20T200627.png
 security:

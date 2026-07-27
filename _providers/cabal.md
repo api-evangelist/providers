@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 18.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -89,7 +89,7 @@ overview: 'Cabal is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Cabal''s developer surface includes engineering blog, pricing, and 9 more developer resources.'
-random_paper: 40
+random_paper: 23
 score:
   band: minimal
   composite: 12.4
@@ -103,8 +103,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 12.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cabal/refs/heads/main/screenshots/cabal-2026-07-25T204200.png
 security:
 - kind: domain-security
   name: Cabal Domain Security

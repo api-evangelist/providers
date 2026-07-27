@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for Zoho Desk providing CRUD operations across tickets, threads, contacts, accounts, agents, departments, tasks, calls, events, articles, and knowledge base content. Uses OAuth 2.0 with the Z
@@ -93,7 +93,7 @@ overview: 'Zoho Desk publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Zoho Desk''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 6 more developer resources.'
-random_paper: 49
+random_paper: 32
 score:
   band: emerging
   composite: 27.1
@@ -107,7 +107,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 27.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-desk/refs/heads/main/screenshots/zoho-desk-2026-06-20T201938.png
 security:

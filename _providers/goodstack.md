@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -240,11 +240,11 @@ overview: 'Goodstack publishes 21 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Goodstack''s developer surface includes sandbox, changelog, authentication, documentation, API reference, getting-started guide, support, and 22 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: developing
   composite: 57.4
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 62.5
@@ -252,15 +252,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 56.1
+  previous_composite: 57.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/goodstack/refs/heads/main/screenshots/goodstack-2026-07-25T220057.png
 security:
 - kind: authentication
   name: Goodstack Authentication

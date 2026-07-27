@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 259
   human_in_the_loop: 1
@@ -243,7 +243,7 @@ plans:
 - name: Cityu Plans Pricing
   plan_count: 2
   slug: cityu-plans-pricing
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Cityu Rate Limits
@@ -278,7 +278,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 47.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cityu/refs/heads/main/screenshots/cityu-2026-06-20T174434.png
 security:

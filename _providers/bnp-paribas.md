@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: BNP Paribas Corporate and Institutional Banking (CIB) API platform provides programmatic access to capital markets, payment services, securities services, advisory, finance, and treasury solutions for
@@ -93,7 +93,7 @@ plans:
 - name: Bnp Paribas Plans Pricing
   plan_count: 3
   slug: bnp-paribas-plans-pricing
-random_paper: 32
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Bnp Paribas Rate Limits
@@ -101,7 +101,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.2
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -109,14 +109,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 25.0
+  previous_composite: 23.2
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bnp-paribas/refs/heads/main/screenshots/bnp-paribas-2026-06-20T173543.png
 security:

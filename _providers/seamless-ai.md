@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ plans:
 - name: Seamless Ai Plans Pricing
   plan_count: 3
   slug: seamless-ai-plans-pricing
-random_paper: 37
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Seamless Ai Rate Limits
@@ -197,18 +197,18 @@ rules:
   slug: seamless-ai-rules
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 55.3
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 65.5
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 52.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/seamless-ai/refs/heads/main/screenshots/seamless-ai-2026-06-20T193614.png
 security:

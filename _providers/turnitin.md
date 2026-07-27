@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: RESTful API for integrating Turnitin's integrity services into third-party platforms — submit a document, generate a Similarity Report, and display it to users. Authenticates with an integration-insta
@@ -145,7 +145,7 @@ overview: 'Turnitin publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Turnitin''s developer surface includes documentation, API reference, support, engineering blog, authentication, sandbox, and 18 more developer resources.'
-random_paper: 26
+random_paper: 9
 score:
   band: thin
   composite: 31.3
@@ -159,7 +159,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 31.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ plans:
 - name: Us Patent And Trademark Office Plans Pricing
   plan_count: 3
   slug: us-patent-and-trademark-office-plans-pricing
-random_paper: 39
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Us Patent And Trademark Office Rate Limits
@@ -172,24 +172,24 @@ rules:
     warn: 5
   slug: uspto-rules
 score:
-  band: thin
-  composite: 44.3
-  delta: -1.3
+  band: developing
+  composite: 46.0
+  delta: 1.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.8
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
-  previous_composite: 45.6
+  previous_composite: 44.3
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-patent-and-trademark-office/refs/heads/main/screenshots/us-patent-and-trademark-office-2026-06-20T200649.png
 security:

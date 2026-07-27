@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 2
@@ -187,18 +187,18 @@ rules:
   slug: supermicro-redfish-rules
 score:
   band: developing
-  composite: 53.8
-  delta: 0.0
+  composite: 58.3
+  delta: 4.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 65.7
+    contract_quality: 71.0
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 53.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/super-micro-computer/refs/heads/main/screenshots/super-micro-computer-2026-06-20T194706.png
 security:

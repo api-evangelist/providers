@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -126,7 +126,7 @@ overview: 'LIV is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   LIV''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 25
+random_paper: 59
 score:
   band: thin
   composite: 30.1
@@ -140,8 +140,9 @@ score:
     operational_transparency: 36.8
   previous_composite: 30.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/liv/refs/heads/main/screenshots/liv-2026-07-25T225347.png
 security:
 - kind: authentication
   name: Liv Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Responsys REST API (v1.3) manages profile lists and recipients, profile extension tables, supplemental data tables, campaigns and campaign schedules, programs, folders, the content library, trigge
@@ -98,7 +98,7 @@ overview: 'Responsys publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Responsys'' developer surface includes documentation, API reference, authentication, and 9 more developer resources.'
-random_paper: 45
+random_paper: 62
 score:
   band: emerging
   composite: 18.0
@@ -112,7 +112,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

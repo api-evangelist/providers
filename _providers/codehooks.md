@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ plans:
 - name: Codehooks Plans Pricing
   plan_count: 3
   slug: codehooks-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Codehooks Rate Limits
@@ -205,18 +205,18 @@ rules:
   slug: codehooks-rules
 score:
   band: developing
-  composite: 57.9
-  delta: 0.0
+  composite: 59.9
+  delta: 2.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 73.5
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 60.5
     operational_transparency: 36.8
   previous_composite: 57.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codehooks/refs/heads/main/screenshots/codehooks-2026-06-20T174700.png
 security:

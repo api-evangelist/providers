@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Kaman Corporation API provides access to platform services and data for enterprise integration and automation.
@@ -70,7 +70,7 @@ plans:
 - name: Kaman Plans Pricing
   plan_count: 1
   slug: kaman-plans-pricing
-random_paper: 10
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Kaman Rate Limits
@@ -88,7 +88,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 17.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaman/refs/heads/main/screenshots/kaman-2026-06-20T183913.png
 security:

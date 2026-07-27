@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -116,25 +116,25 @@ plans:
 - name: Icims Plans Pricing
   plan_count: 3
   slug: icims-plans-pricing
-random_paper: 23
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Icims Rate Limits
   slug: icims-rate-limits
 score:
   band: thin
-  composite: 39.5
-  delta: 0.0
+  composite: 41.5
+  delta: 2.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 51.3
     developer_ergonomics: 34.8
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 39.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/icims/refs/heads/main/screenshots/icims-2026-06-20T183152.png
 security:

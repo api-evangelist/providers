@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -115,26 +115,26 @@ overview: 'Google Cloud Datastore publishes 1 API on the [APIs.io](https://apis.
 
 
   Google Cloud Datastore''s developer surface includes authentication, documentation, pricing, signup flow, developer console, and 8 more developer resources.'
-random_paper: 36
+random_paper: 53
 scopes:
 - name: Google Cloud Datastore Scopes
   scope_count: 2
   slug: google-cloud-datastore-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 28.8
-  delta: 0.0
+  band: thin
+  composite: 32.0
+  delta: 3.2
   facets:
     commercial_clarity: 10.5
     contract_quality: 47.8
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 28.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-datastore/refs/heads/main/screenshots/google-cloud-datastore-2026-06-20T182103.png
 security:

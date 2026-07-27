@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -115,7 +115,7 @@ plans:
 - name: Boost Insurance Plans Pricing
   plan_count: 1
   slug: boost-insurance-plans-pricing
-random_paper: 34
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Boost Insurance Rate Limits
@@ -127,24 +127,25 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 35.2
-  delta: 2.3
+  composite: 37.9
+  delta: 2.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 54.9
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 32.9
+  previous_composite: 35.2
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/boost-insurance/refs/heads/main/screenshots/boost-insurance-2026-07-25T203625.png
 security:
 - kind: authentication
   name: Boost Insurance Authentication

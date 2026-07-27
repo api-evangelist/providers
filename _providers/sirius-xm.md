@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The Pandora Developer API provides GraphQL-based access to Pandora's music catalog of over 30 million tracks, stations, podcasts, and playlists. It supports personalized playback, search, user feedbac
@@ -143,7 +143,7 @@ plans:
 - name: Sirius Xm Plans Pricing
   plan_count: 1
   slug: sirius-xm-plans-pricing
-random_paper: 27
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Sirius Xm Rate Limits
@@ -170,7 +170,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 40.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sirius-xm/refs/heads/main/screenshots/sirius-xm-2026-06-20T193948.png
 security:

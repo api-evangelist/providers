@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -224,11 +224,11 @@ overview: 'Bakkt publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Bakkt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 21 more developer resources.'
-random_paper: 15
+random_paper: 49
 score:
   band: developing
   composite: 51.1
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 65.4
@@ -236,15 +236,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 50.5
+  previous_composite: 51.1
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bakkt/refs/heads/main/screenshots/bakkt-2026-07-25T202255.png
 security:
 - kind: authentication
   name: Bakkt Authentication

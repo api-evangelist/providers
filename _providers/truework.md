@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 61.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -294,7 +294,7 @@ plans:
 - name: Truework Plans Pricing
   plan_count: 3
   slug: truework-plans-pricing
-random_paper: 32
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Truework Rate Limits
@@ -309,20 +309,20 @@ rules:
     warn: 5
   slug: truework-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 64.9
-  delta: 0.0
+  band: exemplar
+  composite: 70.4
+  delta: 5.5
   facets:
     commercial_clarity: 63.2
-    contract_quality: 60.2
+    contract_quality: 69.0
     developer_ergonomics: 58.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 76.3
   previous_composite: 64.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/truework/refs/heads/main/screenshots/truework-2026-06-20T195901.png
 security:
 - kind: authentication

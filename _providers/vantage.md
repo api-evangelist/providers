@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ arazzos:
 - description: Create a reusable Saved Filter and apply it to a new Cost Report.
   name: Vantage Reuse a Saved Filter on a New Cost Report
   slug: vantage-saved-filter-to-cost-report-workflow
-artifact_total: 234
+artifact_total: 235
 collections:
 - collection_type: postman
   name: Vantage Cloud Pricing API
@@ -802,6 +802,10 @@ jsonld:
   property_count: 0
   slug: vantage-cost-management-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Vantage
 nav: Providers
@@ -817,7 +821,7 @@ plans:
 - name: Vantage Plans Pricing
   plan_count: 3
   slug: vantage-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Vantage Rate Limits
@@ -840,19 +844,19 @@ rules:
     warn: 9
   slug: vantage-spectral-rules
 score:
-  band: strong
-  composite: 66.9
-  delta: 0.0
+  band: exemplar
+  composite: 71.6
+  delta: 4.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.8
+    contract_quality: 79.6
     developer_ergonomics: 76.1
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 66.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vantage/refs/heads/main/screenshots/vantage-2026-06-20T200813.png
 security:

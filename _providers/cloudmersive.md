@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ plans:
 - name: Cloudmersive Plans Pricing
   plan_count: 8
   slug: cloudmersive-plans-pricing
-random_paper: 23
+random_paper: 6
 rate_limits:
 - limit_count: 10
   name: Cloudmersive Rate Limits
@@ -145,18 +145,18 @@ rules:
   slug: cloudmersive-rules
 score:
   band: thin
-  composite: 41.0
-  delta: 0.0
+  composite: 43.0
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 47.2
     developer_ergonomics: 26.1
-    discoverability: 60.0
+    discoverability: 80.0
     governance: 26.3
     operational_transparency: 36.8
   previous_composite: 41.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudmersive/refs/heads/main/screenshots/cloudmersive-2026-06-20T174612.png
 security:

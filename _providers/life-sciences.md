@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 31.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ overview: 'Life Sciences publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   The Life Sciences catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 31
+random_paper: 14
 rules:
 - name: Life Sciences API Rules
   rule_count: 5
@@ -163,24 +163,24 @@ rules:
     warn: 3
   slug: life-sciences-jsonschema-spectral-rules
 score:
-  band: emerging
-  composite: 29.6
-  delta: -1.0
+  band: thin
+  composite: 33.5
+  delta: 3.9
   facets:
     commercial_clarity: 0.0
-    contract_quality: 60.2
+    contract_quality: 65.5
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 0.0
-  previous_composite: 30.6
+  previous_composite: 29.6
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/life-sciences/refs/heads/main/screenshots/life-sciences-2026-06-20T184511.png
 security:

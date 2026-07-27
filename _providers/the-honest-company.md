@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -82,7 +82,7 @@ overview: 'The Honest Company is profiled on the [APIs.io](https://apis.io/) net
 
 
   The Honest Company''s developer surface includes engineering blog, authentication, and 8 more developer resources.'
-random_paper: 42
+random_paper: 59
 scopes:
 - name: The Honest Company Scopes
   scope_count: 4
@@ -101,7 +101,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

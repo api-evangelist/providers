@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 16
 apis:
 - description: The accessManagement API from Atomicwork — 8 operation(s) for accessmanagement.
@@ -215,7 +215,7 @@ overview: 'Atomicwork publishes 16 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Atomicwork''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 23 more developer resources.'
-random_paper: 17
+random_paper: 0
 score:
   band: developing
   composite: 49.3
@@ -229,8 +229,9 @@ score:
     operational_transparency: 26.3
   previous_composite: 49.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/atomicwork/refs/heads/main/screenshots/atomicwork-2026-07-25T201615.png
 security:
 - kind: authentication
   name: Atomicwork Authentication

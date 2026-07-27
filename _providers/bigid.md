@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -328,7 +328,7 @@ plans:
 - name: Bigid Plans Pricing
   plan_count: 4
   slug: bigid-plans-pricing
-random_paper: 1
+random_paper: 35
 rate_limits:
 - limit_count: 0
   name: Bigid Rate Limits
@@ -351,19 +351,19 @@ rules:
     warn: 4
   slug: bigid-rules
 score:
-  band: developing
-  composite: 59.0
-  delta: 0.0
+  band: strong
+  composite: 63.2
+  delta: 4.2
   facets:
     commercial_clarity: 76.3
-    contract_quality: 60.0
+    contract_quality: 68.8
     developer_ergonomics: 54.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 5.3
   previous_composite: 59.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bigid/refs/heads/main/screenshots/bigid-2026-06-20T173239.png
 security:

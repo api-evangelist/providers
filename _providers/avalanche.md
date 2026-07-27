@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -1029,7 +1029,7 @@ plans:
 - name: Data Api
   plan_count: 8
   slug: data-api
-random_paper: 13
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Data Api
@@ -1056,7 +1056,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 57.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/avalanche/refs/heads/main/screenshots/avalanche-2026-06-20T172715.png
 security:

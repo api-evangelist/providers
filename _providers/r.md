@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ plans:
 - name: R Plans Pricing
   plan_count: 3
   slug: r-plans-pricing
-random_paper: 12
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: R Rate Limits
@@ -191,18 +191,18 @@ rules:
   slug: r-spectral-rules
 score:
   band: developing
-  composite: 45.9
-  delta: 0.0
+  composite: 49.2
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.9
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 45.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/r/refs/heads/main/screenshots/r-2026-06-20T192458.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -58,7 +58,7 @@ press:
 - date: '2026-05-25'
   title: Supplier Metaldyne Performance files for stock offering
   url: https://www.autonews.com/article/20140823/OEM10/140829942/supplier-metaldyne-performance-files-for-stock-offering/
-random_paper: 26
+random_paper: 60
 score:
   band: minimal
   composite: 6.8
@@ -72,7 +72,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: metaldyne-performance-group
 tags:

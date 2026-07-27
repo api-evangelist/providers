@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -1489,7 +1489,7 @@ overview: 'Amazon CodeCatalyst publishes 4 APIs on the [APIs.io](https://apis.io
 
 
   Amazon CodeCatalyst''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 19 more developer resources.'
-random_paper: 33
+random_paper: 67
 rules:
 - name: Amazon CodeCatalyst API Rules
   rule_count: 5
@@ -1520,8 +1520,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 60.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-codecatalyst/refs/heads/main/screenshots/amazon-codecatalyst-2026-07-25T195952.png
 security:
 - kind: authentication
   name: Amazon Codecatalyst Authentication

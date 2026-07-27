@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: Create new patients, update and synchronize patient demographics and medical history, and upload patient documents into Denticon. Access is partner approved and scoped by practice group (PGID) and off
@@ -99,7 +99,7 @@ random_paper: 36
 score:
   band: emerging
   composite: 17.2
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -107,15 +107,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.0
+  previous_composite: 17.2
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/denticon/refs/heads/main/screenshots/denticon-2026-07-25T211726.png
 security:
 - kind: domain-security
   name: Denticon Domain Security

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Live authenticated application backend for Examedi's consumer apps (Django REST Framework). Requires authorization; no public developer documentation or OpenAPI definition is published. Discovered via
@@ -54,11 +54,11 @@ name: Examedi
 nav: Providers
 network: true
 overview: Examedi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, HealthTech, and Diagnostics.
-random_paper: 19
+random_paper: 53
 score:
   band: minimal
   composite: 9.8
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -66,15 +66,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 9.3
+  previous_composite: 9.8
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/examedi/refs/heads/main/screenshots/examedi-2026-07-25T213839.png
 security:
 - kind: domain-security
   name: Examedi Domain Security

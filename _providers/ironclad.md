@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 53
   human_in_the_loop: 0
@@ -445,19 +445,19 @@ scopes:
   slug: ironclad-scopes
   summary_line: 60 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 67.8
-  delta: 0.0
+  band: exemplar
+  composite: 72.5
+  delta: 4.7
   facets:
     commercial_clarity: 78.9
-    contract_quality: 62.1
+    contract_quality: 71.0
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 68.4
   previous_composite: 67.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ironclad/refs/heads/main/screenshots/ironclad-2026-06-20T183610.png
 security:

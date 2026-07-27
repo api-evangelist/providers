@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -150,30 +150,30 @@ plans:
 - name: Galileo Fs Plans Pricing
   plan_count: 1
   slug: galileo-fs-plans-pricing
-random_paper: 26
+random_paper: 43
 rate_limits:
 - limit_count: 2
   name: Galileo Fs Rate Limits
   slug: galileo-fs-rate-limits
 score:
-  band: emerging
-  composite: 28.8
-  delta: -0.5
+  band: thin
+  composite: 31.6
+  delta: 2.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 47.3
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 29.3
+  previous_composite: 28.8
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/galileo-fs/refs/heads/main/screenshots/galileo-fs-2026-06-20T181643.png
 security:

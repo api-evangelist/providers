@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Coast's v2 REST API for programmatically managing fuel/fleet cards, corporate cards, spend controls, transactions, and expense data. Documented via a Redocly reference and a Kong developer portal; acc
@@ -125,11 +125,11 @@ overview: 'Coast (FKA VayU) publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Coast (FKA VayU)''s developer surface includes documentation, API reference, pricing, signup flow, support, engineering blog, and 14 more developer resources.'
-random_paper: 10
+random_paper: 27
 score:
   band: emerging
   composite: 28.1
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -137,15 +137,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 27.6
+  previous_composite: 28.1
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/coast-fka-vayu/refs/heads/main/screenshots/coast-fka-vayu-2026-07-25T205832.png
 security:
 - kind: domain-security
   name: Coast Fka Vayu Domain Security

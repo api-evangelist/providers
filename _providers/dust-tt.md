@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -458,7 +458,7 @@ plans:
 - name: Dust Plans Pricing
   plan_count: 2
   slug: dust-plans-pricing
-random_paper: 11
+random_paper: 45
 rate_limits:
 - limit_count: 4
   name: Dust Rate Limits
@@ -474,19 +474,19 @@ rules:
   slug: dust-tt-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 70.5
-  delta: 0.0
+  composite: 76.0
+  delta: 5.5
   facets:
     commercial_clarity: 76.3
-    contract_quality: 65.4
+    contract_quality: 74.2
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 78.9
   previous_composite: 70.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/dust-tt/refs/heads/main/screenshots/dust-tt-2026-06-20T180330.png
 security:
 - kind: authentication

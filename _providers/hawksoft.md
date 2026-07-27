@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ plans:
 - name: Hawksoft Plans Pricing
   plan_count: 2
   slug: hawksoft-plans-pricing
-random_paper: 4
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Hawksoft Rate Limits
@@ -130,7 +130,7 @@ rate_limits:
 score:
   band: thin
   composite: 41.4
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 54.2
@@ -138,15 +138,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 42.5
+  previous_composite: 41.4
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 34.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hawksoft/refs/heads/main/screenshots/hawksoft-2026-07-25T220807.png
 security:
 - kind: authentication
   name: Hawksoft Authentication

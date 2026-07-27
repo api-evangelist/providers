@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Curator provides a high-level Java API with fluent builders for ZooKeeper operations, along with pre-built recipes for leader election, distributed locks (shared, reentrant, read-write, semaphore), ba
@@ -167,7 +167,7 @@ plans:
 - name: Apache Curator Plans Pricing
   plan_count: 3
   slug: apache-curator-plans-pricing
-random_paper: 46
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Apache Curator Rate Limits
@@ -194,7 +194,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 46.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-curator/refs/heads/main/screenshots/apache-curator-2026-06-20T172050.png
 security:

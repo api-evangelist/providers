@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ plans:
 - name: Yourmembership Plans Pricing
   plan_count: 4
   slug: yourmembership-plans-pricing
-random_paper: 1
+random_paper: 35
 rate_limits:
 - limit_count: 4
   name: Yourmembership Rate Limits
@@ -134,18 +134,18 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 36.6
-  delta: 0.0
+  composite: 39.8
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 55.5
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 36.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

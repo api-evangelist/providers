@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -90,7 +90,7 @@ overview: 'MFellows is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   MFellows'' developer surface includes engineering blog, support, authentication, and 9 more developer resources.'
-random_paper: 6
+random_paper: 57
 scopes:
 - name: Mfellows Scopes
   scope_count: 2
@@ -99,7 +99,7 @@ scopes:
 score:
   band: emerging
   composite: 23.7
-  delta: 9.2
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -107,15 +107,15 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 14.5
+  previous_composite: 23.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Mfellows Authentication

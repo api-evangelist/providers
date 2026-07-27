@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 1
@@ -199,7 +199,7 @@ random_paper: 25
 score:
   band: thin
   composite: 39.0
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 46.7
@@ -207,15 +207,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 39.3
+  previous_composite: 39.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/breeze/refs/heads/main/screenshots/breeze-2026-07-25T203743.png
 security:
 - kind: authentication
   name: Breeze Authentication

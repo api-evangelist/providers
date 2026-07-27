@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: REST API providing access to healthcare pricing data including hospital negotiated rates, payer contracted rates, out-of-pocket cost estimates, and machine-readable file (MRF) data. Supports the Turqu
@@ -112,7 +112,7 @@ plans:
 - name: Turquoise Health Plans Pricing
   plan_count: 3
   slug: turquoise-health-plans-pricing
-random_paper: 1
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Turquoise Health Rate Limits
@@ -120,7 +120,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.4
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 20.8
@@ -128,14 +128,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 28.1
+  previous_composite: 27.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

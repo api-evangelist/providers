@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Create, list, retrieve, and continue investigation sessions.
@@ -154,7 +154,7 @@ overview: 'Traversal publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Traversal''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 19 more developer resources.'
-random_paper: 11
+random_paper: 28
 score:
   band: developing
   composite: 47.3
@@ -168,7 +168,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 47.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

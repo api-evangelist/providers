@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: 'Rite Aid supports Electronic Data Interchange (EDI) for vendor integration using ANSI/ASC X12 standards (versions 4010 and 5010). Supported transactions include purchase orders (850), invoices (810), '
@@ -138,7 +138,7 @@ press:
 - date: '2026-05-25'
   title: Rite Aid Banned from Using AI Facial Recognition After ...
   url: https://www.ftc.gov/news-events/news/press-releases/2023/12/rite-aid-banned-using-ai-facial-recognition-after-ftc-says-retailer-deployed-technology-without
-random_paper: 18
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: Rite Aid Rate Limits
@@ -155,7 +155,7 @@ rules:
 score:
   band: thin
   composite: 36.5
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 15.1
@@ -163,14 +163,14 @@ score:
     discoverability: 80.0
     governance: 86.8
     operational_transparency: 26.3
-  previous_composite: 35.6
+  previous_composite: 36.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rite-aid/refs/heads/main/screenshots/rite-aid-2026-06-20T193130.png
 security:

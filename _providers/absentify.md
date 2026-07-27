@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -256,7 +256,7 @@ plans:
 - name: Absentify Plans Pricing
   plan_count: 3
   slug: absentify-plans-pricing
-random_paper: 47
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Absentify Rate Limits
@@ -280,19 +280,19 @@ rules:
   slug: absentify-spectral-rules
 score:
   band: strong
-  composite: 64.4
-  delta: 0.0
+  composite: 69.9
+  delta: 5.5
   facets:
     commercial_clarity: 78.9
-    contract_quality: 71.4
+    contract_quality: 80.3
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 57.9
   previous_composite: 64.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/absentify/refs/heads/main/screenshots/absentify-2026-06-20T163354.png
 security:
 - kind: authentication

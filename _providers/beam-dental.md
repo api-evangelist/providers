@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,11 +69,11 @@ overview: 'Beam Dental is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Beam Dental''s developer surface includes support, engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 11
+random_paper: 62
 score:
   band: minimal
   composite: 14.1
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -81,15 +81,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.8
+  previous_composite: 14.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/beam-dental/refs/heads/main/screenshots/beam-dental-2026-07-25T202538.png
 security:
 - kind: domain-security
   name: Beam Dental Domain Security

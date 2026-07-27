@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Cell-based robot-control API for the Wandelbots NOVA platform: motion planning, controller management, motion-group state, trajectory execution (WebSocket) and program running. Path-versioned (v1 lega'
@@ -142,7 +142,7 @@ overview: 'Wandelbots publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Wandelbots'' developer surface includes documentation, API reference, getting-started guide, developer portal, engineering blog, support, CLI, and 16 more developer resources.'
-random_paper: 4
+random_paper: 55
 score:
   band: emerging
   composite: 27.8
@@ -156,7 +156,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 27.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

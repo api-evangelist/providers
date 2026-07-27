@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -363,7 +363,7 @@ plans:
 - name: Dot Plans Pricing
   plan_count: 1
   slug: dot-plans-pricing
-random_paper: 21
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Dot Rate Limits
@@ -380,7 +380,7 @@ rules:
 score:
   band: thin
   composite: 43.4
-  delta: -3.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 52.8
@@ -388,14 +388,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
-  previous_composite: 46.8
+  previous_composite: 43.4
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dot/refs/heads/main/screenshots/dot-2026-06-20T180157.png
 security:

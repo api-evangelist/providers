@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 3
@@ -653,7 +653,7 @@ plans:
 - name: Amazon Simspace Weaver Plans Pricing
   plan_count: 3
   slug: amazon-simspace-weaver-plans-pricing
-random_paper: 46
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Amazon Simspace Weaver Rate Limits
@@ -688,7 +688,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 68.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-simspace-weaver/refs/heads/main/screenshots/amazon-simspace-weaver-2026-06-20T171825.png
 security:

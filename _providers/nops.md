@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -227,19 +227,19 @@ rules:
   slug: nops-spectral-rules
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 54.0
+  delta: 5.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.1
+    contract_quality: 77.0
     developer_ergonomics: 26.1
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 48.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/nops/refs/heads/main/screenshots/nops-2026-06-20T190405.png
 security:
 - kind: authentication

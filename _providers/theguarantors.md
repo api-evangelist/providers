@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Partner integration API that enables property management systems and screening providers to embed TheGuarantors Lease Guarantee directly into their rental application and leasing workflow. Supports em
@@ -101,11 +101,11 @@ overview: 'TheGuarantors publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   TheGuarantors'' developer surface includes documentation, API reference, engineering blog, support, and 10 more developer resources.'
-random_paper: 38
+random_paper: 55
 score:
   band: emerging
   composite: 24.1
-  delta: 3.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -113,14 +113,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 21.1
+  previous_composite: 24.1
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

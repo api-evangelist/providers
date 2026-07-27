@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 92.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 112
   human_in_the_loop: 3
@@ -185,7 +185,7 @@ arazzos:
 - description: Trigger a workflow and poll its per-recipient run until it completes.
   name: Knock Trigger Workflow and Track Recipient Run
   slug: knock-app-trigger-workflow-track-recipient-run-workflow
-artifact_total: 123
+artifact_total: 124
 asyncapis:
 - description: Knock fires outbound webhook events for message lifecycle (sent, delivered, seen, read, interacted, archived, link_clicked, bounced, undelivered) and for environment changes (workflow / email_layout /
   name: Knock Outbound Webhooks
@@ -784,6 +784,10 @@ jsonld:
   property_count: 11
   slug: knock-app-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: knock-app-mcp.yml
+  slug: knock-app-mcpyml
 modified: '2026-06-20'
 name: Knock
 nav: Providers
@@ -799,7 +803,7 @@ plans:
 - name: Knock Plans Pricing
   plan_count: 3
   slug: knock-plans-pricing
-random_paper: 33
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Knock Rate Limits
@@ -830,19 +834,19 @@ rules:
     warn: 3
   slug: knock-app-rules
 score:
-  band: strong
-  composite: 69.4
-  delta: 0.0
+  band: exemplar
+  composite: 72.6
+  delta: 3.2
   facets:
     commercial_clarity: 78.9
-    contract_quality: 66.7
+    contract_quality: 74.2
     developer_ergonomics: 82.6
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 65.8
     operational_transparency: 44.7
   previous_composite: 69.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knock-app/refs/heads/main/screenshots/knock-app-2026-06-20T184113.png
 security:

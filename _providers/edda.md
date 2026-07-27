@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 12
 apis:
 - description: Post categories.
@@ -168,11 +168,11 @@ overview: 'EDDA Technology publishes 12 APIs on the [APIs.io](https://apis.io/) 
 
 
   EDDA Technology''s developer surface includes engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 41
+random_paper: 58
 score:
   band: thin
   composite: 33.1
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 63.7
@@ -180,15 +180,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 32.4
+  previous_composite: 33.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/edda/refs/heads/main/screenshots/edda-2026-07-25T212816.png
 security:
 - kind: authentication
   name: Edda Authentication

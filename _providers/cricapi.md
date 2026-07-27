@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ plans:
 - name: Cricapi Plans Pricing
   plan_count: 5
   slug: cricapi-plans-pricing
-random_paper: 17
+random_paper: 51
 rate_limits:
 - limit_count: 6
   name: Cricapi Rate Limits
@@ -200,7 +200,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 58.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cricapi/refs/heads/main/screenshots/cricapi-2026-06-20T175236.png
 security:

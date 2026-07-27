@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 29.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The CARTO Cloud-Native (v3) REST API surface — SQL API (query and async SQL jobs against a connected data warehouse), Maps API (vector/tile map instantiation), Import/Export API, Location Data Service
@@ -162,7 +162,7 @@ overview: 'CARTO publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   CARTO''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 21 more developer resources.'
-random_paper: 21
+random_paper: 55
 scopes:
 - name: Cartodb Scopes
   scope_count: 4
@@ -181,8 +181,9 @@ score:
     operational_transparency: 36.8
   previous_composite: 40.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cartodb/refs/heads/main/screenshots/cartodb-2026-07-25T204652.png
 security:
 - kind: authentication
   name: Cartodb Authentication

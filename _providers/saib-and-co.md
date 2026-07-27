@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: OAuth 2.0 / OpenID Connect storefront surface for the SAIB & Co. mall on the Cafe24 Unified Commerce Platform (UCP). Advertised via the mall's live OpenID Connect discovery document; supports authoriz
@@ -97,7 +97,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

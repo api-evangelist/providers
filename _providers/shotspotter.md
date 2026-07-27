@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 30.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: REST data APIs for ShotSpotter gunfire detection — incident data, CAD incident ID lookup, and ILS (Investigative Lead Summary) retrieval.
@@ -115,7 +115,7 @@ random_paper: 7
 score:
   band: emerging
   composite: 28.0
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 22.6
@@ -123,14 +123,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 26.8
+  previous_composite: 28.0
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 34.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

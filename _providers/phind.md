@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Conceptual (modeled) surface for Phind's AI answer engine - the developer-focused conversational search that powered phind.com and the VS Code extension. Phind never published an official public or pa
@@ -70,7 +70,7 @@ plans:
 - name: Phind Plans Pricing
   plan_count: 5
   slug: phind-plans-pricing
-random_paper: 21
+random_paper: 55
 score:
   band: minimal
   composite: 14.3
@@ -84,7 +84,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: phind
 tags:

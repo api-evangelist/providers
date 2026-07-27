@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -65,7 +65,7 @@ overview: 'Ethonai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Ethonai''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 30
+random_paper: 64
 score:
   band: minimal
   composite: 8.8
@@ -79,8 +79,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ethonai/refs/heads/main/screenshots/ethonai-2026-07-25T213651.png
 security:
 - kind: domain-security
   name: Ethonai Domain Security

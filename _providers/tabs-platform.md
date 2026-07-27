@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ plans:
 - name: Tabs Platform Plans Pricing
   plan_count: 3
   slug: tabs-platform-plans-pricing
-random_paper: 14
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Tabs Platform Rate Limits
@@ -137,7 +137,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 38.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

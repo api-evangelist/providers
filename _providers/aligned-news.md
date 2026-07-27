@@ -10,6 +10,24 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -234,7 +252,7 @@ plans:
 - name: Aligned News Plans Pricing
   plan_count: 3
   slug: aligned-news-plans-pricing
-random_paper: 17
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Aligned News Rate Limits
@@ -248,6 +266,21 @@ rules:
     info: 2
     warn: 3
   slug: aligned-news-jsonschema-spectral-rules
+score:
+  band: developing
+  composite: 56.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 70.8
+    developer_ergonomics: 23.9
+    discoverability: 100.0
+    governance: 73.7
+    operational_transparency: 36.8
+  previous_composite: 56.1
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aligned-news/refs/heads/main/screenshots/aligned-news-2026-06-20T171522.png
 security:
 - kind: authentication

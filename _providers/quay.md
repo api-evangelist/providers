@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
 - description: Manage Quay user accounts, profile, starred repositories, and personal OAuth tokens.
   name: Quay User API
   slug: quay-user-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: Quay Container Registry API
@@ -148,6 +148,10 @@ jsonld:
   property_count: 2
   slug: quay-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Quay
 nav: Providers
@@ -184,19 +188,19 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 54.1
-  delta: 0.0
+  composite: 59.6
+  delta: 5.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.4
+    contract_quality: 67.3
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 54.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/quay/refs/heads/main/screenshots/quay-2026-06-20T192420.png
 security:
 - kind: authentication

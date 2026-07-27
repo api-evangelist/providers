@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 17
 apis:
 - description: The csv API from Canal — 3 operation(s) for csv.
@@ -209,7 +209,7 @@ overview: 'Canal publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Canal''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, support, engineering blog, and 19 more developer resources.'
-random_paper: 1
+random_paper: 35
 score:
   band: developing
   composite: 48.4
@@ -223,8 +223,9 @@ score:
     operational_transparency: 13.2
   previous_composite: 48.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/canal/refs/heads/main/screenshots/canal-2026-07-25T204329.png
 security:
 - kind: authentication
   name: Canal Authentication

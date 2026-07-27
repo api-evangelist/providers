@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ overview: 'St.George Bank publishes 7 APIs on the [APIs.io](https://apis.io/) ne
 
 
   St.George Bank''s developer surface includes developer portal, documentation, support, authentication, and 19 more developer resources.'
-random_paper: 40
+random_paper: 6
 scopes:
 - name: St George Bank Scopes
   scope_count: 9
@@ -176,7 +176,7 @@ scopes:
 score:
   band: developing
   composite: 50.0
-  delta: 8.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 54.0
@@ -184,15 +184,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 41.2
+  previous_composite: 50.0
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 100.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/st-george-bank/refs/heads/main/screenshots/st-george-bank-2026-07-21T114749.png
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ plans:
 - name: Stooq Plans Pricing
   plan_count: 1
   slug: stooq-plans-pricing
-random_paper: 5
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Stooq Rate Limits
@@ -130,7 +130,7 @@ rules:
 score:
   band: thin
   composite: 41.3
-  delta: -4.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 64.6
@@ -138,14 +138,14 @@ score:
     discoverability: 92.5
     governance: 73.7
     operational_transparency: 21.1
-  previous_composite: 46.2
+  previous_composite: 41.3
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stooq/refs/heads/main/screenshots/stooq-2026-06-20T194600.png
 security:

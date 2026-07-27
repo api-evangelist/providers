@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -372,19 +372,19 @@ rules:
     warn: 9
   slug: amazon-sqs-spectral-rules
 score:
-  band: developing
-  composite: 56.9
-  delta: 0.0
+  band: strong
+  composite: 60.1
+  delta: 3.2
   facets:
     commercial_clarity: 68.4
     contract_quality: 77.9
     developer_ergonomics: 23.9
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 60.5
     operational_transparency: 47.4
   previous_composite: 56.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-sqs/refs/heads/main/screenshots/amazon-sqs-2026-06-20T171828.png
 security:

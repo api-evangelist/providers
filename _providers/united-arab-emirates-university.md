@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: OAI-PMH 2.0 metadata harvesting endpoint for Scholarworks@UAEU, the university's open-access institutional repository built on the bepress Digital Commons platform. The endpoint supports standard OAI-
@@ -105,7 +105,7 @@ plans:
 - name: United Arab Emirates University Plans Pricing
   plan_count: 2
   slug: united-arab-emirates-university-plans-pricing
-random_paper: 8
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: United Arab Emirates University Rate Limits
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.5
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 15.1
@@ -121,14 +121,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 22.2
+  previous_composite: 22.5
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-arab-emirates-university/refs/heads/main/screenshots/united-arab-emirates-university-2026-06-20T200041.png
 security:

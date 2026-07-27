@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 71
   human_in_the_loop: 1
@@ -598,7 +598,7 @@ plans:
 - name: Swell Io Plans Pricing
   plan_count: 5
   slug: swell-io-plans-pricing
-random_paper: 47
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Swell Io Rate Limits
@@ -622,23 +622,23 @@ rules:
   slug: swell-rules
 score:
   band: strong
-  composite: 65.4
-  delta: -1.9
+  composite: 68.3
+  delta: 2.9
   facets:
     commercial_clarity: 84.2
-    contract_quality: 56.8
+    contract_quality: 65.7
     developer_ergonomics: 71.7
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 36.8
-  previous_composite: 67.3
+  previous_composite: 65.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swell-io/refs/heads/main/screenshots/swell-io-2026-06-20T194803.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ plans:
 - name: Ibisworld Plans Pricing
   plan_count: 3
   slug: ibisworld-plans-pricing
-random_paper: 6
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Ibisworld Rate Limits
@@ -146,18 +146,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 41.6
-  delta: 0.0
+  composite: 44.9
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 59.1
     developer_ergonomics: 28.3
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 13.2
     operational_transparency: 31.6
   previous_composite: 41.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

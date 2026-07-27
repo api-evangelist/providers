@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Rules, capabilities, vocabulary, and linked-data description for an organizational design standards program covering products, interfaces, and APIs.
@@ -98,7 +98,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 24.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/design-standards/refs/heads/main/screenshots/design-standards-2026-06-20T175933.png
 slug: design-standards

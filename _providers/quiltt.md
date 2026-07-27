@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -126,30 +126,30 @@ plans:
 - name: Quiltt Plans Pricing
   plan_count: 3
   slug: quiltt-plans-pricing
-random_paper: 12
+random_paper: 63
 rate_limits:
 - limit_count: 4
   name: Quiltt Rate Limits
   slug: quiltt-rate-limits
 score:
   band: thin
-  composite: 35.5
-  delta: -1.6
+  composite: 38.3
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 53.5
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 37.1
+  previous_composite: 35.5
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

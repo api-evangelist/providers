@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 68.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -508,7 +508,7 @@ plans:
 - name: Interswitch Plans Pricing
   plan_count: 5
   slug: interswitch-plans-pricing
-random_paper: 31
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Interswitch Rate Limits
@@ -532,23 +532,23 @@ rules:
   slug: interswitch-rules
 score:
   band: strong
-  composite: 61.2
-  delta: 0.7
+  composite: 63.4
+  delta: 2.2
   facets:
     commercial_clarity: 68.4
-    contract_quality: 54.6
+    contract_quality: 59.9
     developer_ergonomics: 54.3
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 39.5
-  previous_composite: 60.5
+  previous_composite: 61.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/interswitch/refs/heads/main/screenshots/interswitch-2026-06-20T183513.png
 security:

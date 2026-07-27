@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Fountain's REST API for managing hiring and frontline workforce data — applicants, openings, positions, locations, interview slots and sessions, workers, secure documents, labels, notes, custom attrib
@@ -169,7 +169,7 @@ overview: 'Fountain publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Fountain''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 1
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Fountain Rate Limits
@@ -187,8 +187,9 @@ score:
     operational_transparency: 42.1
   previous_composite: 42.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fountain/refs/heads/main/screenshots/fountain-2026-07-25T215050.png
 security:
 - kind: authentication
   name: Fountain Authentication

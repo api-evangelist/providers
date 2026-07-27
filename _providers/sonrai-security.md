@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: GraphQL API for the Sonrai Cloud Permissions Firewall platform — exempt, protect, quarantine, and disable cloud IAM access. Bearer-token authenticated; reference documentation is gated behind the Auth
@@ -110,7 +110,7 @@ overview: 'Sonrai Security publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Sonrai Security''s developer surface includes documentation, pricing, signup flow, engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 4
+random_paper: 21
 score:
   band: emerging
   composite: 25.8
@@ -124,7 +124,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 25.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

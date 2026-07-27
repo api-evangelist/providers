@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -212,18 +212,18 @@ rules:
   slug: signal-rules
 score:
   band: developing
-  composite: 52.1
-  delta: 0.0
+  composite: 55.4
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
-    contract_quality: 77.9
+    contract_quality: 83.2
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 60.5
     operational_transparency: 26.3
   previous_composite: 52.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/signal/refs/heads/main/screenshots/signal-2026-06-20T193905.png
 security:

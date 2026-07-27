@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 39.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Single REST API for the Integrated Finance platform — clients, users, real / virtual / shared-pool accounts, bank transfers, currency exchanges, card issuing and processing, beneficiary verification, '
@@ -170,7 +170,7 @@ scopes:
 score:
   band: developing
   composite: 47.9
-  delta: 6.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 22.6
@@ -178,15 +178,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 41.0
+  previous_composite: 47.9
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/if/refs/heads/main/screenshots/if-2026-07-25T222048.png
 security:
 - kind: authentication
   name: If Authentication

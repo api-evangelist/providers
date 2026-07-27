@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -248,7 +248,7 @@ arazzos:
 - description: Discover a WQL data source and its fields, then execute a WQL query against it.
   name: Workday WQL Discover and Query
   slug: workday-wql-discover-and-query-workflow
-artifact_total: 693
+artifact_total: 694
 collections:
 - collection_type: postman
   name: Workday Absence Management API
@@ -2378,6 +2378,10 @@ jsonld:
   property_count: 0
   slug: wql-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: workday-mcp.yml
+  slug: workday-mcpyml
 modified: '2026-06-20'
 name: Workday
 nav: Providers
@@ -2393,7 +2397,7 @@ plans:
 - name: Workday Plans Pricing
   plan_count: 1
   slug: workday-plans-pricing
-random_paper: 4
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Workday Rate Limits
@@ -2421,19 +2425,19 @@ scopes:
   slug: workday-scopes
   summary_line: 29 scopes · authorizationCode
 score:
-  band: strong
-  composite: 66.6
-  delta: 0.0
+  band: exemplar
+  composite: 71.3
+  delta: 4.7
   facets:
     commercial_clarity: 57.9
-    contract_quality: 70.8
+    contract_quality: 79.6
     developer_ergonomics: 69.6
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 57.9
   previous_composite: 66.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday/refs/heads/main/screenshots/workday-2026-06-20T201559.png
 security:

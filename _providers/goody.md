@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -225,7 +225,7 @@ overview: 'Goody publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Goody''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 36
+random_paper: 2
 scopes:
 - name: Goody Scopes
   scope_count: 4
@@ -234,7 +234,7 @@ scopes:
 score:
   band: strong
   composite: 60.0
-  delta: 4.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 58.4
@@ -242,15 +242,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 55.2
+  previous_composite: 60.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/goody/refs/heads/main/screenshots/goody-2026-07-25T220106.png
 security:
 - kind: authentication
   name: Goody Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -238,7 +238,7 @@ press:
 - date: '2020-11-17'
   title: Veterans Recovery Resources of Mobile Receives $100,000 Cigna Foundation Grant to Provide Mental Health Services to Area Veterans
   url: https://www.cigna.com/newsroom/news-releases/2020/veterans-recovery-resources-of-mobile-receives-100000-cigna-foundation-grant-to-provide-mental-health-services-to-area-veterans.html
-random_paper: 4
+random_paper: 38
 rate_limits:
 - limit_count: 2
   name: Cigna Rate Limits
@@ -258,25 +258,25 @@ scopes:
   slug: cigna-scopes
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 59.2
-  delta: 7.1
+  band: strong
+  composite: 62.0
+  delta: 2.8
   facets:
     commercial_clarity: 68.4
     contract_quality: 49.6
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 26.3
-  previous_composite: 52.1
+  previous_composite: 59.2
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 100.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cigna/refs/heads/main/screenshots/cigna-2026-06-20T174340.png
 security:
 - kind: authentication

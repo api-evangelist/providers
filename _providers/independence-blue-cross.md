@@ -10,6 +10,24 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -304,7 +322,7 @@ plans:
 - name: Independence Blue Cross Plans Pricing
   plan_count: 5
   slug: independence-blue-cross-plans-pricing
-random_paper: 50
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Independence Blue Cross Rate Limits
@@ -331,6 +349,26 @@ scopes:
   scope_count: 4
   slug: independence-blue-cross-scopes
   summary_line: 4 scopes · authorizationCode
+score:
+  band: strong
+  composite: 63.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 73.7
+    contract_quality: 65.5
+    developer_ergonomics: 30.4
+    discoverability: 100.0
+    governance: 86.8
+    operational_transparency: 31.6
+  previous_composite: 63.9
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 76.1
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/independence-blue-cross/refs/heads/main/screenshots/independence-blue-cross-2026-06-20T183313.png
 security:
 - kind: authentication

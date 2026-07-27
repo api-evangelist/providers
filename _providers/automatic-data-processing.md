@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: The ADP Payroll API provides programmatic access to payroll processing capabilities including earnings, deductions, pay statements, and payroll runs for employees across ADP Workforce Now and ADP Vant
@@ -159,7 +159,7 @@ press:
 - date: '2026-05-25'
   title: ADP AUTHORIZED TO PURCHASE $6 BILLION OF ITS ...
   url: https://www.prnewswire.com/news-releases/adp-authorized-to-purchase-6-billion-of-its-common-stock-302661248.html
-random_paper: 2
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Automatic Data Processing Rate Limits
@@ -177,7 +177,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 28.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automatic-data-processing/refs/heads/main/screenshots/automatic-data-processing-2026-06-20T172654.png
 security:

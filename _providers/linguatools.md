@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ plans:
 - name: Linguatools Plans Pricing
   plan_count: 3
   slug: linguatools-plans-pricing
-random_paper: 28
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Linguatools Rate Limits
@@ -126,18 +126,18 @@ rules:
   slug: linguatools-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 53.3
+  delta: 4.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 69.0
+    contract_quality: 74.3
     developer_ergonomics: 19.6
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 48.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linguatools/refs/heads/main/screenshots/linguatools-2026-06-20T184542.png
 security:

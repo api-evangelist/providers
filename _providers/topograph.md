@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -232,7 +232,7 @@ overview: 'Topograph publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Topograph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 28 more developer resources.'
-random_paper: 11
+random_paper: 28
 scopes:
 - name: Topograph Scopes
   scope_count: 7
@@ -251,7 +251,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 56.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

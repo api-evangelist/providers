@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -181,7 +181,7 @@ plans:
 - name: Drone Plans Pricing
   plan_count: 3
   slug: drone-plans-pricing
-random_paper: 26
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Drone Rate Limits
@@ -208,7 +208,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 51.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/drone/refs/heads/main/screenshots/drone-2026-06-20T180238.png
 security:

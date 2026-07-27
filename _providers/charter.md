@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The Spectrum Enterprise Open API provides B2B REST API access for enterprise clients to integrate directly with the Spectrum Enterprise portal. It supports automated ticket creation and management, ci
@@ -98,11 +116,26 @@ plans:
 - name: Charter Plans Pricing
   plan_count: 3
   slug: charter-plans-pricing
-random_paper: 52
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Charter Rate Limits
   slug: charter-rate-limits
+score:
+  band: emerging
+  composite: 24.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 24.9
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charter/refs/heads/main/screenshots/charter-2026-06-20T174232.png
 security:
 - kind: domain-security

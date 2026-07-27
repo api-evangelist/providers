@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -666,18 +666,18 @@ rules:
   slug: shodan-rules
 score:
   band: exemplar
-  composite: 73.1
-  delta: 0.0
+  composite: 75.3
+  delta: 2.2
   facets:
     commercial_clarity: 84.2
-    contract_quality: 71.3
+    contract_quality: 80.1
     developer_ergonomics: 84.8
     discoverability: 67.5
     governance: 65.8
     operational_transparency: 52.6
   previous_composite: 73.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shodan/refs/heads/main/screenshots/shodan-2026-06-20T193830.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -113,25 +113,25 @@ plans:
 - name: Lasso Security Plans Pricing
   plan_count: 3
   slug: lasso-security-plans-pricing
-random_paper: 0
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Lasso Security Rate Limits
   slug: lasso-security-rate-limits
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 40.9
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.4
     developer_ergonomics: 21.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 37.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lasso-security/refs/heads/main/screenshots/lasso-security-2026-06-20T184320.png
 security:

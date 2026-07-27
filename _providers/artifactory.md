@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 74.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 1
@@ -143,7 +143,7 @@ arazzos:
 - description: Confirm a build exists, rename it, then read the runs under its new name.
   name: Artifactory Rename Build and Verify
   slug: artifactory-rename-build-verify-workflow
-artifact_total: 64
+artifact_total: 65
 collections:
 - collection_type: postman
   name: JFrog Artifactory Query Language (AQL) API
@@ -426,6 +426,10 @@ json_schemas:
   property_count: 31
   slug: artifactory-repository-configuration
 layout: provider
+mcp_servers:
+- description: ''
+  name: artifactory-mcp.yml
+  slug: artifactory-mcpyml
 modified: '2026-06-20'
 name: JFrog Artifactory
 nav: Providers
@@ -441,7 +445,7 @@ plans:
 - name: Artifactory Plans Pricing
   plan_count: 6
   slug: artifactory-plans-pricing
-random_paper: 19
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Artifactory Rate Limits
@@ -457,19 +461,19 @@ rules:
   slug: artifactory-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 71.8
-  delta: 0.0
+  composite: 77.3
+  delta: 5.5
   facets:
     commercial_clarity: 92.1
-    contract_quality: 63.5
+    contract_quality: 72.4
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 71.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/artifactory/refs/heads/main/screenshots/artifactory-2026-06-20T172451.png
 security:
 - kind: authentication

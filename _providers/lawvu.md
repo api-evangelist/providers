@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 45
   human_in_the_loop: 0
@@ -283,7 +283,7 @@ overview: 'LawVu publishes 26 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   LawVu''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 29 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: developing
   composite: 59.3
@@ -297,8 +297,9 @@ score:
     operational_transparency: 63.2
   previous_composite: 59.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lawvu/refs/heads/main/screenshots/lawvu-2026-07-25T224645.png
 security:
 - kind: authentication
   name: Lawvu Authentication

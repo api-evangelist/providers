@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ plans:
 - name: Uspto Trademark Search Api Plans Pricing
   plan_count: 3
   slug: uspto-trademark-search-api-plans-pricing
-random_paper: 4
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Uspto Trademark Search Api Rate Limits
@@ -194,19 +194,19 @@ rules:
     warn: 10
   slug: uspto-trademark-search-api-rules
 score:
-  band: developing
-  composite: 59.0
-  delta: 0.0
+  band: strong
+  composite: 63.6
+  delta: 4.6
   facets:
     commercial_clarity: 73.7
-    contract_quality: 72.0
+    contract_quality: 77.3
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 59.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uspto-trademark-search-api/refs/heads/main/screenshots/uspto-trademark-search-api-2026-06-20T200727.png
 security:

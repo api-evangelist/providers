@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -106,7 +106,7 @@ press:
 - date: '2026-05-25'
   title: Investindustrial Completes Acquisition of TreeHouse Foods
   url: https://www.stocktitan.net/news/THS/investindustrial-completes-acquisition-of-tree-house-e2404f5eln85.html
-random_paper: 34
+random_paper: 0
 score:
   band: minimal
   composite: 14.2
@@ -120,7 +120,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

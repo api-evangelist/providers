@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -109,11 +109,11 @@ overview: 'Ventuals is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Ventuals'' developer surface includes documentation, API reference, getting-started guide, support, pricing, and 12 more developer resources.'
-random_paper: 15
+random_paper: 66
 score:
   band: emerging
   composite: 27.6
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -121,14 +121,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 24.9
+  previous_composite: 27.6
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

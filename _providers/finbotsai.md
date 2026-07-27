@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,11 +77,11 @@ overview: 'Finbots.AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Finbots.AI''s developer surface includes support and 8 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: minimal
   composite: 14.6
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -89,15 +89,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.8
+  previous_composite: 14.6
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/finbotsai/refs/heads/main/screenshots/finbotsai-2026-07-25T214511.png
 security:
 - kind: domain-security
   name: Finbotsai Domain Security

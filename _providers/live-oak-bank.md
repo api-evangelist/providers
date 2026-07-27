@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -84,6 +84,7 @@ random_paper: 25
 score:
   band: minimal
   composite: 14.7
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -91,13 +92,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 5.3
+  previous_composite: 14.7
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/live-oak-bank/refs/heads/main/screenshots/live-oak-bank-2026-07-25T225349.png
 security:
 - kind: domain-security
   name: Live Oak Bank Domain Security

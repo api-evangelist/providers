@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -293,7 +293,7 @@ plans:
 - name: Amazon Ecr Plans Pricing
   plan_count: 3
   slug: amazon-ecr-plans-pricing
-random_paper: 36
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Amazon Ecr Rate Limits
@@ -316,19 +316,19 @@ rules:
     warn: 17
   slug: amazon-ecr-spectral-rules
 score:
-  band: strong
-  composite: 69.3
-  delta: 0.0
+  band: exemplar
+  composite: 71.9
+  delta: 2.6
   facets:
     commercial_clarity: 89.5
-    contract_quality: 67.6
+    contract_quality: 72.9
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 63.2
   previous_composite: 69.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-ecr/refs/heads/main/screenshots/amazon-ecr-2026-06-20T171634.png
 security:

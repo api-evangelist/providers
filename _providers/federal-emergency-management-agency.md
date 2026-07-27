@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -121,18 +121,18 @@ rules:
   slug: openfema-rules
 score:
   band: thin
-  composite: 34.9
-  delta: 0.0
+  composite: 38.2
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 48.7
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 13.2
     operational_transparency: 36.8
   previous_composite: 34.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

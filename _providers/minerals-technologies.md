@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Minerals Technologies API provides access to platform services and data for enterprise integration and automation.
@@ -63,7 +63,7 @@ plans:
 - name: Minerals Technologies Plans Pricing
   plan_count: 1
   slug: minerals-technologies-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Minerals Technologies Rate Limits
@@ -81,7 +81,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 16.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/minerals-technologies/refs/heads/main/screenshots/minerals-technologies-2026-06-20T185602.png
 security:

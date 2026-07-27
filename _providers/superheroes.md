@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 45.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -220,7 +220,7 @@ plans:
 - name: Superheroes Plans Pricing
   plan_count: 1
   slug: superheroes-plans-pricing
-random_paper: 32
+random_paper: 49
 rate_limits:
 - limit_count: 0
   name: Superheroes Rate Limits
@@ -244,18 +244,18 @@ rules:
   slug: superheroes-rules
 score:
   band: thin
-  composite: 37.2
-  delta: 0.0
+  composite: 40.4
+  delta: 3.2
   facets:
     commercial_clarity: 21.1
     contract_quality: 60.3
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 5.3
   previous_composite: 37.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/superheroes/refs/heads/main/screenshots/superheroes-2026-06-20T194712.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ plans:
 - name: Ansible Playbooks Plans Pricing
   plan_count: 3
   slug: ansible-playbooks-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Ansible Playbooks Rate Limits
@@ -238,18 +238,18 @@ rules:
   slug: ansible-playbooks-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.4
-  delta: 0.0
+  composite: 56.7
+  delta: 3.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 58.4
     developer_ergonomics: 23.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 53.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ansible-playbooks/refs/heads/main/screenshots/ansible-playbooks-2026-06-20T172018.png
 security:

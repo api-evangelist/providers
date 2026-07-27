@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,7 +89,7 @@ overview: 'Cato Digital is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Cato Digital''s developer surface includes developer portal, pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 29
+random_paper: 46
 score:
   band: emerging
   composite: 19.4
@@ -103,8 +103,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 19.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cato-digital/refs/heads/main/screenshots/cato-digital-2026-07-25T204810.png
 security:
 - kind: domain-security
   name: Cato Digital Domain Security

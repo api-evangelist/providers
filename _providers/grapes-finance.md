@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -125,7 +125,7 @@ plans:
 - name: Grapes Finance Plans Pricing
   plan_count: 3
   slug: grapes-finance-plans-pricing
-random_paper: 34
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Grapes Finance Rate Limits
@@ -140,24 +140,24 @@ rules:
     warn: 3
   slug: grapes-finance-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 44.2
-  delta: -1.3
+  band: developing
+  composite: 47.0
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 55.8
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 31.6
-  previous_composite: 45.5
+  previous_composite: 44.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grapes-finance/refs/heads/main/screenshots/grapes-finance-2026-06-20T182322.png
 security:

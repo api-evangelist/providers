@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -238,7 +238,7 @@ plans:
 - name: Philadelphia Inquirer Plans Pricing
   plan_count: 1
   slug: philadelphia-inquirer-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Philadelphia Inquirer Rate Limits
@@ -262,18 +262,18 @@ rules:
   slug: rss-rules
 score:
   band: thin
-  composite: 37.1
-  delta: 0.0
+  composite: 40.4
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 58.4
     developer_ergonomics: 2.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 5.3
   previous_composite: 37.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/philadelphia-inquirer/refs/heads/main/screenshots/philadelphia-inquirer-2026-06-20T191649.png
 security:

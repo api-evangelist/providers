@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ plans:
 - name: Cursor Plans Pricing
   plan_count: 1
   slug: cursor-plans-pricing
-random_paper: 7
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Cursor Rate Limits
@@ -191,18 +191,18 @@ rules:
   slug: cursor-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.6
-  delta: 0.0
+  composite: 43.9
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 60.2
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 26.3
     operational_transparency: 26.3
   previous_composite: 40.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cursor/refs/heads/main/screenshots/cursor-2026-06-20T175349.png
 security:

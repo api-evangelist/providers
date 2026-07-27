@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -155,25 +155,25 @@ plans:
 - name: Ngrok Ai Plans Pricing
   plan_count: 3
   slug: ngrok-ai-plans-pricing
-random_paper: 27
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Ngrok Ai Rate Limits
   slug: ngrok-ai-rate-limits
 score:
   band: developing
-  composite: 45.8
-  delta: 0.0
+  composite: 49.1
+  delta: 3.3
   facets:
     commercial_clarity: 57.9
     contract_quality: 53.1
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 45.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ngrok-ai/refs/heads/main/screenshots/ngrok-ai-2026-06-20T190315.png
 security:

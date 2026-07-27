@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -592,7 +592,7 @@ plans:
 - name: Amazon Dynamodb Plans Pricing
   plan_count: 3
   slug: amazon-dynamodb-plans-pricing
-random_paper: 7
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Amazon Dynamodb Rate Limits
@@ -616,18 +616,18 @@ rules:
   slug: amazon-dynamodb-spectral-rules
 score:
   band: exemplar
-  composite: 70.8
-  delta: 0.0
+  composite: 75.4
+  delta: 4.6
   facets:
     commercial_clarity: 89.5
-    contract_quality: 73.5
+    contract_quality: 78.8
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 63.2
   previous_composite: 70.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-dynamodb/refs/heads/main/screenshots/amazon-dynamodb-2026-06-20T171630.png
 security:

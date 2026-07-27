@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ overview: 'Handoff is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Handoff''s developer surface includes pricing, signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 12
+random_paper: 46
 score:
   band: emerging
   composite: 17.7
@@ -99,8 +99,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/handoff/refs/heads/main/screenshots/handoff-2026-07-25T220640.png
 security:
 - kind: domain-security
   name: Handoff Domain Security

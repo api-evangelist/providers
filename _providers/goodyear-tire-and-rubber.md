@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -141,25 +141,25 @@ press:
 - date: '2026-05-25'
   title: Goodyear
   url: https://www.ces.tech/success-stories/goodyear/
-random_paper: 32
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Goodyear Tire And Rubber Rate Limits
   slug: goodyear-tire-and-rubber-rate-limits
 score:
   band: thin
-  composite: 31.6
-  delta: 0.0
+  composite: 34.9
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 54.0
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 31.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goodyear-tire-and-rubber/refs/heads/main/screenshots/goodyear-tire-and-rubber-2026-06-20T181956.png
 security:

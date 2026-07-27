@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 18.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Programmatic creation and management of gammas (presentations, documents, websites, and social posts). Asynchronous generate-and-poll workflow plus template, export, management, and analytics endpoint
@@ -117,7 +117,7 @@ overview: 'Gamma publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Gamma''s developer surface includes documentation, API reference, getting-started guide, support, changelog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 5
+random_paper: 39
 rate_limits:
 - limit_count: 0
   name: Gamma Rate Limits
@@ -140,8 +140,9 @@ score:
     operational_transparency: 36.8
   previous_composite: 32.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gamma/refs/heads/main/screenshots/gamma-2026-07-25T215428.png
 security:
 - kind: authentication
   name: Gamma Authentication

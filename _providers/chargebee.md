@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ overview: 'Chargebee publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Chargebee''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 17 more developer resources.'
-random_paper: 0
+random_paper: 34
 rules:
 - name: Chargebee API Rules
   rule_count: 9
@@ -192,24 +192,24 @@ rules:
     warn: 8
   slug: chargebee-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 42.7
-  delta: -2.9
+  band: developing
+  composite: 45.4
+  delta: 2.7
   facets:
     commercial_clarity: 23.7
     contract_quality: 61.9
     developer_ergonomics: 47.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 21.1
-  previous_composite: 45.6
+  previous_composite: 42.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chargebee/refs/heads/main/screenshots/chargebee-2026-06-20T174220.png
 security:

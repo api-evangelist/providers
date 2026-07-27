@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -215,7 +215,7 @@ overview: 'Zest Equity publishes 8 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Zest Equity''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, engineering blog, and 23 more developer resources.'
-random_paper: 50
+random_paper: 16
 score:
   band: developing
   composite: 51.6
@@ -229,7 +229,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 51.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

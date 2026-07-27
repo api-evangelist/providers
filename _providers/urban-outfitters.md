@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -348,7 +348,7 @@ press:
 - date: '2026-05-25'
   title: URBN Reports Record Q2 Sales and Income
   url: https://investor.urbn.com/news-releases/news-release-details/urbn-reports-record-q2-sales-and-income
-random_paper: 11
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Urban Outfitters Rate Limits
@@ -372,19 +372,19 @@ rules:
   slug: urban-outfitters-spectral-rules
 score:
   band: developing
-  composite: 51.7
-  delta: 0.0
+  composite: 57.1
+  delta: 5.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 71.7
+    contract_quality: 80.5
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 51.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/screenshots/urban-outfitters-2026-06-20T200530.png
 security:
 - kind: authentication

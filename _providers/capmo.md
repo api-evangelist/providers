@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 75.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 2
@@ -239,7 +239,7 @@ overview: 'Capmo publishes 23 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Capmo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 18
+random_paper: 52
 score:
   band: developing
   composite: 49.7
@@ -253,8 +253,9 @@ score:
     operational_transparency: 34.2
   previous_composite: 49.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/capmo/refs/heads/main/screenshots/capmo-2026-07-25T204431.png
 security:
 - kind: authentication
   name: Capmo Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 51.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ overview: 'Sourcebot publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Sourcebot''s developer surface includes documentation, API reference, getting-started guide, quickstart, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 13
+random_paper: 30
 score:
   band: developing
   composite: 51.5
@@ -195,7 +195,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 51.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Deploy cutting-edge video playback experiences across web, mobile, and connected devices using the OptiView Player SDK and APIs.
@@ -98,7 +98,7 @@ plans:
 - name: Dolby Plans Pricing
   plan_count: 3
   slug: dolby-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Dolby Rate Limits
@@ -116,7 +116,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 23.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dolby/refs/heads/main/screenshots/dolby-2026-06-20T180133.png
 security:

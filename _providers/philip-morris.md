@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: Philip Morris International Opens Dialogue on the Future of ...
   url: https://finance.yahoo.com/news/philip-morris-international-opens-dialogue-100300894.html
-random_paper: 33
+random_paper: 67
 score:
   band: minimal
   composite: 4.2
@@ -83,7 +83,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 4.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

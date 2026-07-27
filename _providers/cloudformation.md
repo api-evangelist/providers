@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 1
@@ -104,7 +104,7 @@ arazzos:
 - description: Disable termination protection, delete the stack, then poll until DELETE_COMPLETE.
   name: CloudFormation Tear Down a Stack
   slug: cloudformation-teardown-stack-workflow
-artifact_total: 157
+artifact_total: 158
 collections:
 - collection_type: postman
   name: AWS Cloud Control API
@@ -717,6 +717,10 @@ jsonld:
   property_count: 8
   slug: context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: AWS CloudFormation
 nav: Providers
@@ -732,7 +736,7 @@ plans:
 - name: Cloudformation Plans Pricing
   plan_count: 3
   slug: cloudformation-plans-pricing
-random_paper: 31
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Cloudformation Rate Limits
@@ -756,18 +760,18 @@ rules:
   slug: cloudformation-spectral-rules
 score:
   band: exemplar
-  composite: 72.0
-  delta: 0.0
+  composite: 75.3
+  delta: 3.3
   facets:
     commercial_clarity: 78.9
     contract_quality: 67.9
     developer_ergonomics: 82.6
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 72.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudformation/refs/heads/main/screenshots/cloudformation-2026-06-20T174600.png
 security:

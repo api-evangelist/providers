@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 1
@@ -269,7 +269,7 @@ overview: 'Posit publishes 33 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Posit''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, changelog, and 22 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: developing
   composite: 51.3
@@ -283,7 +283,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 51.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

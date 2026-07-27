@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Fiber is an Express-inspired web framework for Go built on Fasthttp for building fast and scalable microservices and APIs.
@@ -66,7 +66,7 @@ plans:
 - name: Fiber Plans Pricing
   plan_count: 3
   slug: fiber-plans-pricing
-random_paper: 10
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Fiber Rate Limits
@@ -93,7 +93,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 29.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fiber/refs/heads/main/screenshots/fiber-2026-06-20T181148.png
 security:

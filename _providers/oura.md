@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -321,7 +321,7 @@ scopes:
 score:
   band: developing
   composite: 59.7
-  delta: 4.1
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 64.4
@@ -329,14 +329,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
-  previous_composite: 55.6
+  previous_composite: 59.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 82.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oura/refs/heads/main/screenshots/oura-2026-06-20T191225.png
 security:

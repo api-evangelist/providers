@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Automatisch exposes a REST API used by its web application for managing flows (automated workflows), connections (service credentials), users, and integrations. The API supports webhook trigger endpoi
@@ -108,7 +108,7 @@ plans:
 - name: Automatisch Plans Pricing
   plan_count: 3
   slug: automatisch-plans-pricing
-random_paper: 13
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Automatisch Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 26.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/automatisch/refs/heads/main/screenshots/automatisch-2026-06-20T172657.png
 security:

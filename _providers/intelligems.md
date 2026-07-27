@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -139,7 +139,7 @@ overview: 'Intelligems publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Intelligems'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 12 more developer resources.'
-random_paper: 8
+random_paper: 25
 rate_limits:
 - limit_count: 3
   name: Intelligems Rate Limits
@@ -157,8 +157,9 @@ score:
     operational_transparency: 31.6
   previous_composite: 50.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/intelligems/refs/heads/main/screenshots/intelligems-2026-07-25T222646.png
 security:
 - kind: authentication
   name: Intelligems Authentication

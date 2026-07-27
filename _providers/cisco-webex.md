@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 74.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 50
   human_in_the_loop: 9
@@ -134,7 +134,7 @@ arazzos:
 - description: Create a meeting and post its join link as a message into a room.
   name: Cisco Webex Schedule a Meeting and Notify a Room
   slug: cisco-webex-schedule-meeting-and-notify-room-workflow
-artifact_total: 130
+artifact_total: 131
 collections:
 - collection_type: postman
   name: Cisco Webex Admin Audit Events API
@@ -614,6 +614,10 @@ jsonld:
   property_count: 14
   slug: cisco-webex-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: cisco-webex-mcp.yml
+  slug: cisco-webex-mcpyml
 modified: '2026-06-20'
 name: Cisco Webex
 nav: Providers
@@ -629,7 +633,7 @@ plans:
 - name: Cisco Webex Plans Pricing
   plan_count: 4
   slug: cisco-webex-plans-pricing
-random_paper: 42
+random_paper: 25
 rate_limits:
 - limit_count: 3
   name: Cisco Webex Rate Limits
@@ -658,18 +662,18 @@ scopes:
   summary_line: 30 scopes
 score:
   band: exemplar
-  composite: 71.9
-  delta: 0.0
+  composite: 74.4
+  delta: 2.5
   facets:
     commercial_clarity: 81.6
     contract_quality: 67.1
     developer_ergonomics: 71.7
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 71.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-webex/refs/heads/main/screenshots/cisco-webex-2026-06-20T174405.png
 security:

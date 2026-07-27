@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -105,7 +105,7 @@ overview: 'Ubeya is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ubeya''s developer surface includes engineering blog, pricing, support, changelog, and 12 more developer resources.'
-random_paper: 24
+random_paper: 58
 score:
   band: emerging
   composite: 24.3
@@ -119,7 +119,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 24.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

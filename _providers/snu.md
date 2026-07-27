@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: OAI-PMH 2.0 metadata harvesting interface for S-Space, the SNU Open Repository and Archive (a DSpace institutional repository). Verified live (HTTP 200) with repositoryName "SNU Open Repository and Ar
@@ -87,7 +87,7 @@ plans:
 - name: Snu Plans Pricing
   plan_count: 2
   slug: snu-plans-pricing
-random_paper: 36
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Snu Rate Limits
@@ -105,7 +105,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 21.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snu/refs/heads/main/screenshots/snu-2026-06-20T194118.png
 security:

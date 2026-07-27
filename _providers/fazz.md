@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 90.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 3
@@ -229,7 +229,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.3
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 60.2
@@ -237,15 +237,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 58.4
+  previous_composite: 61.3
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fazz/refs/heads/main/screenshots/fazz-2026-07-25T214301.png
 security:
 - kind: authentication
   name: Fazz Authentication

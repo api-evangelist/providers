@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Heron's REST API for document intake, parsing, enrichment, cashflow underwriting, webhooks, and broker/funder submission flows.
@@ -177,7 +177,7 @@ overview: 'Heron publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Heron''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 23 more developer resources.'
-random_paper: 30
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Heron Rate Limits
@@ -185,7 +185,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.0
-  delta: 4.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 29.2
@@ -193,15 +193,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 55.3
-  previous_composite: 48.5
+  previous_composite: 53.0
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/heron/refs/heads/main/screenshots/heron-2026-07-25T221032.png
 security:
 - kind: authentication
   name: Heron Authentication

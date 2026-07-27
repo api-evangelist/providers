@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -79,7 +79,7 @@ apis:
 - description: Endpoints for retrieving Swarm server version information.
   name: Perforce Version API
   slug: perforce-version-api
-artifact_total: 84
+artifact_total: 85
 collections:
 - collection_type: open
   name: Perforce Helix Swarm API
@@ -323,6 +323,10 @@ jsonld:
   property_count: 0
   slug: perforce-helix-swarm-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Perforce
 nav: Providers
@@ -361,19 +365,19 @@ rules:
     warn: 5
   slug: perforce-spectral-rules
 score:
-  band: developing
-  composite: 58.4
-  delta: 0.0
+  band: strong
+  composite: 63.0
+  delta: 4.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.4
+    contract_quality: 72.7
     developer_ergonomics: 54.3
-    discoverability: 42.5
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 42.1
   previous_composite: 58.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perforce/refs/heads/main/screenshots/perforce-2026-06-20T191608.png
 security:

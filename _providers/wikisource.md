@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 42.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -242,7 +242,7 @@ plans:
 - name: Wikisource Plans Pricing
   plan_count: 1
   slug: wikisource-plans-pricing
-random_paper: 22
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Wikisource Rate Limits
@@ -259,7 +259,7 @@ rules:
 score:
   band: developing
   composite: 47.5
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.4
@@ -267,14 +267,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
-  previous_composite: 47.9
+  previous_composite: 47.5
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wikisource/refs/heads/main/screenshots/wikisource-2026-06-20T201455.png
 security:

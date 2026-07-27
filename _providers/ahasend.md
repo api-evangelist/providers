@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -787,7 +787,7 @@ plans:
 - name: Ahasend Plans Pricing
   plan_count: 3
   slug: ahasend-plans-pricing
-random_paper: 10
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Ahasend Rate Limits
@@ -811,18 +811,18 @@ rules:
   slug: ahasend-spectral-rules
 score:
   band: strong
-  composite: 62.9
-  delta: 0.0
+  composite: 64.9
+  delta: 2.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 72.0
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 62.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ahasend/refs/heads/main/screenshots/ahasend-2026-06-20T170542.png
 security:

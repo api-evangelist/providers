@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Explore the APIs for our products, be creative, and invent your own ways of interacting with your data.
@@ -96,7 +96,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 20.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forsta/refs/heads/main/screenshots/forsta-2026-06-20T181437.png
 security:

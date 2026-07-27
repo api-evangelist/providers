@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -264,7 +264,7 @@ plans:
 - name: Cast Ai Plans Pricing
   plan_count: 3
   slug: cast-ai-plans-pricing
-random_paper: 11
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Cast Ai Rate Limits
@@ -280,19 +280,19 @@ rules:
   slug: cast-ai-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 63.6
-  delta: 0.0
+  composite: 69.1
+  delta: 5.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 64.6
+    contract_quality: 73.5
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 78.9
   previous_composite: 63.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cast-ai/refs/heads/main/screenshots/cast-ai-2026-06-20T174036.png
 security:
 - kind: authentication

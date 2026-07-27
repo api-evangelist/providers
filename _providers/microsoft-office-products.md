@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ plans:
 - name: Microsoft Office Products Plans Pricing
   plan_count: 3
   slug: microsoft-office-products-plans-pricing
-random_paper: 26
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Microsoft Office Products Rate Limits
@@ -146,18 +146,18 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: thin
-  composite: 40.1
-  delta: 0.0
+  composite: 40.8
+  delta: 0.7
   facets:
     commercial_clarity: 60.5
     contract_quality: 47.8
     developer_ergonomics: 21.7
-    discoverability: 55.0
+    discoverability: 62.5
     governance: 0.0
     operational_transparency: 47.4
   previous_composite: 40.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-products/refs/heads/main/screenshots/microsoft-office-products-2026-06-20T185514.png
 security:

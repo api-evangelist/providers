@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 47.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -185,21 +185,21 @@ overview: 'Gusto publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Gusto''s developer surface includes authentication, documentation, support, engineering blog, and 18 more developer resources.'
-random_paper: 1
+random_paper: 18
 score:
   band: thin
-  composite: 40.9
-  delta: 0.0
+  composite: 43.4
+  delta: 2.5
   facets:
     commercial_clarity: 42.1
     contract_quality: 63.0
     developer_ergonomics: 50.0
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 40.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gusto/refs/heads/main/screenshots/gusto-2026-06-20T182442.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 18
 apis:
 - description: Use this product to integrate always up-to-date MercedesBenz technical as well as marketing vehicle data into your solution and business model. Try it out.
@@ -173,7 +173,7 @@ plans:
 - name: Mercedes Benz Plans Pricing
   plan_count: 3
   slug: mercedes-benz-plans-pricing
-random_paper: 41
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Mercedes Benz Rate Limits
@@ -191,7 +191,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 43.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mercedes-benz/refs/heads/main/screenshots/mercedes-benz-2026-06-20T185205.png
 security:

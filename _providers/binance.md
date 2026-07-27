@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 58.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 0
@@ -382,7 +382,7 @@ plans:
 - name: Binance Plans Pricing
   plan_count: 4
   slug: binance-plans-pricing
-random_paper: 6
+random_paper: 40
 rate_limits:
 - limit_count: 4
   name: Binance Rate Limits
@@ -415,7 +415,7 @@ rules:
 score:
   band: developing
   composite: 52.5
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 67.3
@@ -423,14 +423,14 @@ score:
     discoverability: 67.5
     governance: 73.7
     operational_transparency: 36.8
-  previous_composite: 52.9
+  previous_composite: 52.5
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 50.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/binance/refs/heads/main/screenshots/binance-2026-06-20T173243.png
 security:

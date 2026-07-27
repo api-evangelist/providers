@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ plans:
 - name: Hhaexchange Plans Pricing
   plan_count: 2
   slug: hhaexchange-plans-pricing
-random_paper: 18
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Hhaexchange Rate Limits
@@ -150,7 +150,7 @@ scopes:
 score:
   band: developing
   composite: 46.5
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 64.9
@@ -158,14 +158,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 0.0
-  previous_composite: 44.3
+  previous_composite: 46.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hhaexchange/refs/heads/main/screenshots/hhaexchange-2026-06-20T182722.png
 security:

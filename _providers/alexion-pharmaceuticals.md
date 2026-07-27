@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -64,11 +64,11 @@ overview: 'alexion-pharmaceuticals is profiled on the [APIs.io](https://apis.io/
 
 
   alexion-pharmaceuticals'' developer surface includes GitHub presence and 5 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: minimal
   composite: 7.6
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -76,15 +76,16 @@ score:
     discoverability: 60.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 6.7
+  previous_composite: 7.6
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alexion-pharmaceuticals/refs/heads/main/screenshots/alexion-pharmaceuticals-2026-07-25T195602.png
 security:
 - kind: domain-security
   name: Alexion Pharmaceuticals Domain Security

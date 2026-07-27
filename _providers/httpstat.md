@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -84,7 +84,7 @@ plans:
 - name: Httpstat Plans Pricing
   plan_count: 3
   slug: httpstat-plans-pricing
-random_paper: 25
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Httpstat Rate Limits
@@ -99,19 +99,19 @@ rules:
     warn: 0
   slug: httpstat-rules
 score:
-  band: emerging
-  composite: 29.6
-  delta: 0.0
+  band: thin
+  composite: 32.9
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 45.1
     developer_ergonomics: 0.0
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 13.2
     operational_transparency: 31.6
   previous_composite: 29.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

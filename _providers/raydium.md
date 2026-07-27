@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -124,25 +124,25 @@ plans:
 - name: Raydium Plans Pricing
   plan_count: 2
   slug: raydium-plans-pricing
-random_paper: 49
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: Raydium Rate Limits
   slug: raydium-rate-limits
 score:
   band: thin
-  composite: 30.7
-  delta: 0.0
+  composite: 34.0
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 45.1
     developer_ergonomics: 17.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 30.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/raydium/refs/heads/main/screenshots/raydium-2026-06-20T192619.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -62,7 +62,7 @@ press:
 - date: '2026-05-25'
   title: Kraft Heinz and TheNotCompany Partner to Accelerate AI ...
   url: https://www.delimarketnews.com/culture/kraft-heinz-and-thenotcompany-partner-accelerate-ai-driven-plant-based-innovation-miguel-patricio-and-matias-muchnick-detail/anne-allen/mon-02282022-0850/13144
-random_paper: 39
+random_paper: 22
 score:
   band: minimal
   composite: 5.5
@@ -76,7 +76,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: kraft-foods-group
 tags:

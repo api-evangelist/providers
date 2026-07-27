@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Simplifi by Quicken provides a consumer personal finance platform that connects to financial institutions via OAuth APIs and biller networks via purpose-built APIs. Users can aggregate bank accounts, '
@@ -112,7 +112,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 24.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/simplifi/refs/heads/main/screenshots/simplifi-2026-06-20T193937.png
 security:

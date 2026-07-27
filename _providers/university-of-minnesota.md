@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: A suite of APIs published by the OIT Integrations Team providing access to frequently used and requested University data sourced from the Common Data Layer (CDL). Includes Person Basic Information, Cl
@@ -108,7 +108,7 @@ plans:
 - name: University Of Minnesota Plans Pricing
   plan_count: 2
   slug: university-of-minnesota-plans-pricing
-random_paper: 2
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: University Of Minnesota Rate Limits
@@ -131,7 +131,7 @@ score:
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-minnesota/refs/heads/main/screenshots/university-of-minnesota-2026-06-20T200207.png
 security:

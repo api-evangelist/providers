@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -161,18 +161,18 @@ rules:
   slug: debezium-kafka-connect-api-rules
 score:
   band: developing
-  composite: 46.8
-  delta: 0.0
+  composite: 50.1
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 46.9
+    contract_quality: 52.2
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 46.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/debezium/refs/heads/main/screenshots/debezium-2026-06-20T175745.png
 security:

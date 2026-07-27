@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -93,25 +93,25 @@ plans:
 - name: National Oceanic And Atmospheric Administration Plans Pricing
   plan_count: 3
   slug: national-oceanic-and-atmospheric-administration-plans-pricing
-random_paper: 13
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: National Oceanic And Atmospheric Administration Rate Limits
   slug: national-oceanic-and-atmospheric-administration-rate-limits
 score:
   band: thin
-  composite: 32.7
-  delta: 0.0
+  composite: 35.9
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 52.2
     developer_ergonomics: 10.9
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 32.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-oceanic-and-atmospheric-administration/refs/heads/main/screenshots/national-oceanic-and-atmospheric-administration-2026-06-20T190034.png
 security:

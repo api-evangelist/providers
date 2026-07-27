@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ plans:
 - name: Superviz Plans Pricing
   plan_count: 3
   slug: superviz-plans-pricing
-random_paper: 37
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Superviz Rate Limits
@@ -120,18 +120,18 @@ rules:
   slug: superviz-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 45.8
-  delta: 0.0
+  composite: 49.1
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 72.6
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 31.6
   previous_composite: 45.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

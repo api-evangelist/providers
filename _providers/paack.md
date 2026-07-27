@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'REST API for creating and managing parcel delivery orders, generating shipping labels, checking delivery coverage, retrieving proof of delivery, and consuming real-time tracking events. Authenticated '
@@ -161,7 +161,7 @@ overview: 'Paack publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Paack''s developer surface includes authentication, changelog, sandbox, developer portal, documentation, API reference, getting-started guide, and 19 more developer resources.'
-random_paper: 2
+random_paper: 36
 score:
   band: thin
   composite: 37.9
@@ -175,7 +175,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 37.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

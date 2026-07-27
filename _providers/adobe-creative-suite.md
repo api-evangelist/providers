@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -1172,7 +1172,7 @@ plans:
 - name: Adobe Creative Suite Plans Pricing
   plan_count: 1
   slug: adobe-creative-suite-plans-pricing
-random_paper: 13
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Adobe Creative Suite Rate Limits
@@ -1196,18 +1196,18 @@ rules:
   slug: adobe-creative-suite-spectral-rules
 score:
   band: strong
-  composite: 61.5
-  delta: 0.0
+  composite: 66.2
+  delta: 4.7
   facets:
     commercial_clarity: 50.0
-    contract_quality: 73.5
+    contract_quality: 82.3
     developer_ergonomics: 56.5
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 57.9
   previous_composite: 61.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-creative-suite/refs/heads/main/screenshots/adobe-creative-suite-2026-06-20T164857.png
 security:

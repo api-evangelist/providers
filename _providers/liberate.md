@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: HTTP interface for triggering Liberate workflows. A workflow is started with a PUT request carrying a bearer token, a flow slug, and a JSON context object. Every customer receives their own unique end
@@ -154,7 +154,7 @@ random_paper: 24
 score:
   band: thin
   composite: 36.8
-  delta: 5.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -162,15 +162,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 31.7
+  previous_composite: 36.8
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/liberate/refs/heads/main/screenshots/liberate-2026-07-25T225016.png
 security:
 - kind: authentication
   name: Liberate Authentication

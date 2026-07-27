@@ -8,6 +8,24 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 47.1
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 143
   human_in_the_loop: 4
@@ -272,7 +290,7 @@ apis:
 - description: Webhooks are a way of detecting events in Clio without the need for polling. A webhook can be subscribed to a number of `events` on a model. Some events will be different depending on the chosen model
   name: Clio Webhooks API
   slug: clio-webhooks-api
-artifact_total: 87
+artifact_total: 93
 collections:
 - collection_type: open
   name: Clio API Documentation
@@ -297,11 +315,149 @@ common:
 - group: company
   title: ''
   type: LinkedIn
-  url: https://www.linkedin.com/company/clio
+  url: https://www.linkedin.com/company/clio---cloud-based-legal-technology
+- group: company
+  title: ''
+  type: Website
+  url: https://www.clio.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.developers.clio.com/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.clio.com/pricing/
+- group: start
+  title: ''
+  type: Signup
+  url: https://app.clio.com/sign-up
+- group: start
+  title: ''
+  type: Portal
+  url: https://docs.developers.clio.com/
+- group: docs
+  title: ''
+  type: Reference
+  url: https://docs.developers.clio.com/api-docs/
+- group: auth
+  title: ''
+  type: Authentication
+  url: https://docs.developers.clio.com/api-docs/authorization/
+- group: start
+  title: ''
+  type: Login
+  url: https://app.clio.com/login
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.clio.com/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.clio.com/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.clio.com/blog/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.clio.com/privacy/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.clio.com/terms/
+- group: other
+  title: ''
+  type: App Directory
+  url: https://app.clio.com/companion
+- group: build
+  title: ''
+  type: GitHub
+  url: https://github.com/clio
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/clio-context.jsonld
+- group: design
+  title: ''
+  type: Spectral
+  url: rules/clio-rules.yml
+created: '2026-05-11'
+description: Clio is a cloud-based legal practice management platform used by law firms for matter management, contacts, calendaring, time and billing, trust accounting, document management, tasks, and client communications. The Clio Manage API is a REST/JSON API at app.clio.com/api/v4 that uses OAuth 2.0 (authorization code flow) for authentication and exposes the full data model behind Clio Manage, with regional endpoints for the U.S., Canada, EU/UK, and Australia. Webhooks deliver near real-time event notifications, and the Clio App Directory hosts certified third-party integrations.
+graphqls:
+- description: This document describes a conceptual GraphQL schema for the Clio Manage API v4. Clio is a cloud-based legal practice management platform used by law firms for matter management, contacts, calendaring,
+  name: Clio GraphQL Schema
+  slug: clio-graphql
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/clio.png
+jsonld:
+- class_count: 0
+  name: Clio Context
+  property_count: 9
+  slug: clio-context
 layout: provider
-name: clio
+modified: '2026-05-11'
+name: Clio
 nav: Providers
 network: true
+overview: 'Clio publishes 84 APIs on the [APIs.io](https://apis.io/) network, including Webhooks, Activities API, Activity Descriptions API, and 81 more. Tagged areas include Billing, Calendaring, Document Management, Law Firms, and Legal.
+
+
+  The Clio catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.
+
+
+  Clio''s developer surface includes documentation, pricing, signup flow, developer portal, authentication, support, engineering blog, and 15 more developer resources.'
 random_paper: 15
+rules:
+- name: Clio API Rules
+  rule_count: 10
+  severity_counts:
+    error: 4
+    hint: 0
+    info: 1
+    warn: 5
+  slug: clio-rules
+score:
+  band: developing
+  composite: 49.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 52.6
+    contract_quality: 67.0
+    developer_ergonomics: 41.3
+    discoverability: 67.5
+    governance: 34.2
+    operational_transparency: 21.1
+  previous_composite: 49.1
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/clio/refs/heads/main/screenshots/clio-2026-06-20T174526.png
+security:
+- kind: domain-security
+  name: Clio Domain Security
+  slug: clio-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Clio Vulnerability Disclosure
+  slug: clio-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Clio Trust Center
+  slug: clio-trust-center
+  summary_line: SOC 2, HIPAA, GDPR
 slug: clio
+tags:
+- Billing
+- Calendaring
+- Document Management
+- Law Firms
+- Legal
+- Matter Management
+- OAuth 2.0
+- Practice Management
+- Time Tracking
+- Trust Accounting
+website: https://www.clio.com/
 ---

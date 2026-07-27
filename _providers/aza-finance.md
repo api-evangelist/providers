@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -220,11 +220,11 @@ overview: 'AZA Finance publishes 16 APIs on the [APIs.io](https://apis.io/) netw
 
 
   AZA Finance''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 19 more developer resources.'
-random_paper: 14
+random_paper: 65
 score:
   band: developing
   composite: 52.2
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 68.7
@@ -232,15 +232,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 51.8
+  previous_composite: 52.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aza-finance/refs/heads/main/screenshots/aza-finance-2026-07-25T202112.png
 security:
 - kind: authentication
   name: Aza Finance Authentication

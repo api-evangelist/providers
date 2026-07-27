@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The UCSI University Library runs a Koha open-source integrated library system (OPAC) at koha.ucsiuniversity.edu.my. Koha software can expose OAI-PMH and ILS-DI / REST web services, but during this rev
@@ -105,7 +105,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 20.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ucsi/refs/heads/main/screenshots/ucsi-2026-06-20T195950.png
 security:

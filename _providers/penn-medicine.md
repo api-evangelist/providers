@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -236,7 +236,7 @@ plans:
 - name: Penn Medicine Plans Pricing
   plan_count: 3
   slug: penn-medicine-plans-pricing
-random_paper: 33
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Penn Medicine Rate Limits
@@ -265,24 +265,24 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 55.9
-  delta: 5.5
+  composite: 59.5
+  delta: 3.6
   facets:
     commercial_clarity: 68.4
-    contract_quality: 61.1
+    contract_quality: 69.9
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 39.5
     operational_transparency: 36.8
-  previous_composite: 50.4
+  previous_composite: 55.9
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/penn-medicine/refs/heads/main/screenshots/penn-medicine-2026-06-20T191538.png
 security:
 - kind: authentication

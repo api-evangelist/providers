@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 common:
@@ -90,7 +90,7 @@ overview: 'Lord & Taylor is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Lord & Taylor''s developer surface includes authentication and 10 more developer resources.'
-random_paper: 30
+random_paper: 47
 scopes:
 - name: Lordandtaylor Scopes
   scope_count: 4
@@ -109,7 +109,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

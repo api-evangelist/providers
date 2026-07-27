@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -50,7 +50,7 @@ name: Layer By Layer
 nav: Providers
 network: true
 overview: Layer By Layer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D Printing, Additive Manufacturing, Marketplace, and Digital Rights Management.
-random_paper: 14
+random_paper: 31
 score:
   band: minimal
   composite: 6.8
@@ -64,8 +64,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/layer-by-layer/refs/heads/main/screenshots/layer-by-layer-2026-07-25T224651.png
 slug: layer-by-layer
 tags:
 - Company

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 58.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: 'The MX Platform API aggregates and enhances financial data, connecting apps and websites to tens of thousands of financial institutions. Covers users, members, accounts, transactions, categorization, '
@@ -209,6 +209,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 65.5
@@ -216,13 +217,15 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 94.7
+  previous_composite: 61.3
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Mx Authentication

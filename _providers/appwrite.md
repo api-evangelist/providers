@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 70.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ plans:
 - name: Appwrite Plans Pricing
   plan_count: 3
   slug: appwrite-plans-pricing
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Appwrite Rate Limits
@@ -210,7 +210,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 62.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appwrite/refs/heads/main/screenshots/appwrite-2026-06-20T172338.png
 security:

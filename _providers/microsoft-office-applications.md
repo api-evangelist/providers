@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -141,7 +141,7 @@ plans:
 - name: Microsoft Office Applications Plans Pricing
   plan_count: 3
   slug: microsoft-office-applications-plans-pricing
-random_paper: 21
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Microsoft Office Applications Rate Limits
@@ -153,18 +153,18 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.6
-  delta: 0.0
+  composite: 42.8
+  delta: 3.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 47.8
     developer_ergonomics: 26.1
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 39.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-applications/refs/heads/main/screenshots/microsoft-office-applications-2026-06-20T185511.png
 security:

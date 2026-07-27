@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Reforge Launch delivers feature flags, live configuration, dynamic log levels, and experiments through first-party SDKs and a CLI. SDKs fetch configuration from a global delivery network and evaluate '
@@ -134,7 +134,7 @@ overview: 'Reforge publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Reforge''s developer surface includes documentation, getting-started guide, engineering blog, pricing, CLI, authentication, and 15 more developer resources.'
-random_paper: 32
+random_paper: 66
 score:
   band: thin
   composite: 33.5
@@ -148,7 +148,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 33.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

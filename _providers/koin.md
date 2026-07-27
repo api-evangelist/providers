@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 16
 apis:
 - description: The Access API from Koin — 1 operation(s) for access.
@@ -234,7 +234,7 @@ random_paper: 25
 score:
   band: developing
   composite: 56.0
-  delta: -0.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 61.9
@@ -242,15 +242,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 56.3
+  previous_composite: 56.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/screenshots/koin-2026-07-25T224112.png
 security:
 - kind: authentication
   name: Koin Authentication

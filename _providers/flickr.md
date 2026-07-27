@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -857,18 +857,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.2
-  delta: 0.0
+  composite: 64.4
+  delta: 3.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 67.5
     developer_ergonomics: 37.0
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 68.4
   previous_composite: 61.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flickr/refs/heads/main/screenshots/flickr-2026-06-20T181308.png
 security:

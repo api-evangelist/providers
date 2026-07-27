@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -194,18 +194,18 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 33.5
-  delta: 0.0
+  composite: 36.7
+  delta: 3.2
   facets:
     commercial_clarity: 18.4
     contract_quality: 51.1
     developer_ergonomics: 47.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 33.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bynder/refs/heads/main/screenshots/bynder-2026-06-20T173826.png
 security:

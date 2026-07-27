@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -89,7 +89,7 @@ overview: 'Elyra is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Elyra''s developer surface includes support, engineering blog, changelog, signup flow, and 8 more developer resources.'
-random_paper: 31
+random_paper: 65
 score:
   band: emerging
   composite: 21.5
@@ -103,8 +103,9 @@ score:
     operational_transparency: 26.3
   previous_composite: 21.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/elyra/refs/heads/main/screenshots/elyra-2026-07-25T213212.png
 security:
 - kind: domain-security
   name: Elyra Domain Security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ overview: 'Amazon Batch publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Amazon Batch''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 17 more developer resources.'
-random_paper: 32
+random_paper: 49
 rules:
 - name: Amazon Batch API Rules
   rule_count: 6
@@ -201,8 +201,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 53.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-batch/refs/heads/main/screenshots/amazon-batch-2026-07-25T195933.png
 security:
 - kind: authentication
   name: Amazon Batch Authentication

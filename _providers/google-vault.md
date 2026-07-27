@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -141,18 +141,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 42.3
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 47.8
     developer_ergonomics: 30.4
-    discoverability: 42.5
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 39.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-vault/refs/heads/main/screenshots/google-vault-2026-06-20T182245.png
 security:

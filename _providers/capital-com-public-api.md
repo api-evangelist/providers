@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ plans:
 - name: Capital Com Public Api Plans Pricing
   plan_count: 3
   slug: capital-com-public-api-plans-pricing
-random_paper: 50
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Capital Com Public Api Rate Limits
@@ -162,23 +162,23 @@ rules:
   slug: capital-com-public-api-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 54.0
-  delta: 0.5
+  composite: 55.7
+  delta: 1.7
   facets:
     commercial_clarity: 60.5
     contract_quality: 64.4
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 60.5
     operational_transparency: 36.8
-  previous_composite: 53.5
+  previous_composite: 54.0
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 56.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capital-com-public-api/refs/heads/main/screenshots/capital-com-public-api-2026-06-20T173937.png
 security:

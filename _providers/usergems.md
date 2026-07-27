@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -257,7 +257,7 @@ plans:
 - name: Usergems Plans Pricing
   plan_count: 1
   slug: usergems-plans-pricing
-random_paper: 8
+random_paper: 59
 rate_limits:
 - limit_count: 4
   name: Usergems Rate Limits
@@ -280,19 +280,19 @@ rules:
     warn: 2
   slug: usergems-rules
 score:
-  band: developing
-  composite: 58.0
-  delta: 0.0
+  band: strong
+  composite: 62.3
+  delta: 4.3
   facets:
     commercial_clarity: 68.4
-    contract_quality: 68.1
+    contract_quality: 77.0
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 58.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usergems/refs/heads/main/screenshots/usergems-2026-06-20T200715.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST domain-intelligence API (40+ endpoints under /v1) for availability, DNS, WHOIS/RDAP, SSL/TLS, email auth, valuation, security, and OSINT, with API-key authentication.
@@ -41,7 +41,7 @@ name: DomScan
 nav: Providers
 network: true
 overview: DomScan publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include domains, dns, whois, rdap, and ssl-tls.
-random_paper: 27
+random_paper: 61
 score:
   band: emerging
   composite: 17.9
@@ -55,8 +55,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/domscan/refs/heads/main/screenshots/domscan-2026-07-25T212249.png
 slug: domscan
 tags:
 - domains

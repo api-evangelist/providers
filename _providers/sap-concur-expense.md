@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -408,7 +408,7 @@ plans:
 - name: Sap Concur Expense Plans Pricing
   plan_count: 1
   slug: sap-concur-expense-plans-pricing
-random_paper: 39
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Sap Concur Expense Rate Limits
@@ -437,18 +437,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: strong
-  composite: 61.1
-  delta: 0.0
+  composite: 64.3
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.3
     developer_ergonomics: 47.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 57.9
   previous_composite: 61.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-concur-expense/refs/heads/main/screenshots/sap-concur-expense-2026-06-20T193425.png
 security:

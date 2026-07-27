@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -115,25 +115,25 @@ plans:
 - name: Coursera Plans Pricing
   plan_count: 2
   slug: coursera-plans-pricing
-random_paper: 1
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Coursera Rate Limits
   slug: coursera-rate-limits
 score:
   band: emerging
-  composite: 26.4
-  delta: 0.0
+  composite: 28.4
+  delta: 2.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 45.1
     developer_ergonomics: 2.2
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 26.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coursera/refs/heads/main/screenshots/coursera-2026-06-20T175124.png
 security:

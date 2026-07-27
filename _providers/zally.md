@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -232,7 +232,7 @@ plans:
 - name: Zally Plans Pricing
   plan_count: 3
   slug: zally-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Zally Rate Limits
@@ -255,19 +255,19 @@ rules:
     warn: 13
   slug: zally-rules
 score:
-  band: developing
-  composite: 55.4
-  delta: 0.0
+  band: strong
+  composite: 60.0
+  delta: 4.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.1
+    contract_quality: 73.5
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 55.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zally/refs/heads/main/screenshots/zally-2026-06-20T201756.png
 security:

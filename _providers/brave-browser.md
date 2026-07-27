@@ -10,6 +10,24 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -167,11 +185,26 @@ plans:
 - name: Brave Browser Plans Pricing
   plan_count: 1
   slug: brave-browser-plans-pricing
-random_paper: 22
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Brave Browser Rate Limits
   slug: brave-browser-rate-limits
+score:
+  band: thin
+  composite: 36.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 53.3
+    developer_ergonomics: 21.7
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 36.9
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brave-browser/refs/heads/main/screenshots/brave-browser-2026-06-20T173637.png
 security:
 - kind: authentication

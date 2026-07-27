@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -304,7 +304,7 @@ plans:
 - name: Oso Plans Pricing
   plan_count: 4
   slug: oso-plans-pricing
-random_paper: 31
+random_paper: 65
 rate_limits:
 - limit_count: 3
   name: Oso Rate Limits
@@ -321,7 +321,7 @@ rules:
 score:
   band: developing
   composite: 55.1
-  delta: -1.3
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 50.9
@@ -329,14 +329,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 68.4
-  previous_composite: 56.4
+  previous_composite: 55.1
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oso/refs/heads/main/screenshots/oso-2026-06-20T191220.png
 security:

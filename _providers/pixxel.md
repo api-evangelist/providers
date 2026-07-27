@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 19
 apis:
 - description: The AOI API from Pixxel — 3 operation(s) for aoi.
@@ -196,7 +196,7 @@ overview: 'Pixxel publishes 19 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Pixxel''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 3
+random_paper: 54
 score:
   band: thin
   composite: 44.4
@@ -210,7 +210,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 44.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

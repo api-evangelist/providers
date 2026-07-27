@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -281,7 +281,7 @@ plans:
 - name: Lean Tech Plans Pricing
   plan_count: 5
   slug: lean-tech-plans-pricing
-random_paper: 14
+random_paper: 65
 rate_limits:
 - limit_count: 6
   name: Lean Tech Rate Limits
@@ -304,24 +304,24 @@ rules:
     warn: 4
   slug: lean-tech-rules
 score:
-  band: developing
-  composite: 58.2
-  delta: 0.5
+  band: strong
+  composite: 61.1
+  delta: 2.9
   facets:
     commercial_clarity: 47.4
-    contract_quality: 50.8
+    contract_quality: 59.6
     developer_ergonomics: 60.9
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 47.4
-  previous_composite: 57.7
+  previous_composite: 58.2
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 60.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lean-tech/refs/heads/main/screenshots/lean-tech-2026-06-20T184402.png
 security:

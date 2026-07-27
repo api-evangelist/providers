@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'REST/JSON API for the AttackIQ Security Optimization Platform. Manage assessments, tests, scenarios, and assets and retrieve execution results. Authenticated with a per-user API token (Authorization: '
@@ -160,8 +160,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 35.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/attackiq/refs/heads/main/screenshots/attackiq-2026-07-25T201626.png
 security:
 - kind: authentication
   name: Attackiq Authentication

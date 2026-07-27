@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: The Apps API from SideQuest — 1 operation(s) for apps.
@@ -130,7 +130,7 @@ overview: 'SideQuest publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   SideQuest''s developer surface includes authentication, documentation, and 15 more developer resources.'
-random_paper: 14
+random_paper: 31
 scopes:
 - name: Sidequest Scopes
   scope_count: 0
@@ -149,7 +149,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 31.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -467,7 +467,7 @@ plans:
 - name: Ukg Plans Pricing
   plan_count: 1
   slug: ukg-plans-pricing
-random_paper: 21
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Ukg Rate Limits
@@ -491,18 +491,18 @@ rules:
   slug: ukg-spectral-rules
 score:
   band: strong
-  composite: 60.6
-  delta: 0.0
+  composite: 65.3
+  delta: 4.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 71.7
+    contract_quality: 80.5
     developer_ergonomics: 50.0
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 60.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ukg/refs/heads/main/screenshots/ukg-2026-06-20T200004.png
 security:

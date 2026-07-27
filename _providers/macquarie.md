@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -176,7 +176,7 @@ plans:
 - name: Macquarie Plans Pricing
   plan_count: 2
   slug: macquarie-plans-pricing
-random_paper: 34
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Macquarie Rate Limits
@@ -216,7 +216,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 47.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/macquarie/refs/heads/main/screenshots/macquarie-2026-06-20T184829.png
 security:

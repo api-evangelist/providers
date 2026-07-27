@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Hosted Platform-as-a-Service REST API for Me Protocol — the backend behind the embeddable rewards SDKs. Authenticates SDK integrations with an API key and brokers reward issuance, redemption, and cros
@@ -106,11 +106,11 @@ overview: 'My AI publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   My AI''s developer surface includes documentation, getting-started guide, pricing, engineering blog, authentication, sandbox, and 9 more developer resources.'
-random_paper: 18
+random_paper: 1
 score:
   band: emerging
   composite: 23.4
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -118,14 +118,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 22.9
+  previous_composite: 23.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

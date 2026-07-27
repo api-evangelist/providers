@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ overview: 'd-Matrix is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   d-Matrix''s developer surface includes documentation, engineering blog, support, and 8 more developer resources.'
-random_paper: 41
+random_paper: 58
 score:
   band: emerging
   composite: 16.0
@@ -99,8 +99,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 16.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/d-matrix/refs/heads/main/screenshots/d-matrix-2026-07-25T211108.png
 security:
 - kind: domain-security
   name: D Matrix Domain Security

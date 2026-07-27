@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ overview: 'Choozle publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Choozle''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
-random_paper: 42
+random_paper: 8
 rules:
 - name: Choozle API Rules
   rule_count: 5
@@ -146,7 +146,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 40.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/choozle/refs/heads/main/screenshots/choozle-2026-06-20T174326.png
 security:

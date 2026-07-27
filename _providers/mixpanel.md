@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 70.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ arazzos:
 - description: Create a warehouse source connection, trigger an import run, and read the run history.
   name: Mixpanel Provision Warehouse Source and Trigger Import
   slug: mixpanel-warehouse-import-run-workflow
-artifact_total: 137
+artifact_total: 138
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Mixpanel''s outbound webhook surfaces. Mixpanel delivers two distinct, documented webhook event streams to customer-hosted HTTPS endpoints: 1. Alert Webhooks (Custom Alerts)'
   name: Mixpanel Webhooks
@@ -553,6 +553,10 @@ jsonld:
   property_count: 10
   slug: mixpanel-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-30'
 name: Mixpanel
 nav: Providers
@@ -603,7 +607,7 @@ score:
     operational_transparency: 63.2
   previous_composite: 67.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mixpanel/refs/heads/main/screenshots/mixpanel-2026-06-20T185622.png
 security:

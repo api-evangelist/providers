@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 55
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ arazzos:
 - description: Pull a video's statistics, its top comment thread, and the replies under that thread's top comment.
   name: YouTube Video Engagement Report
   slug: youtube-video-engagement-report-workflow
-artifact_total: 416
+artifact_total: 417
 collections:
 - collection_type: postman
   name: YouTube Analytics API
@@ -1558,6 +1558,10 @@ jsonld:
   property_count: 6
   slug: youtube-reporting-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: youtube-mcp.yml
+  slug: youtube-mcpyml
 modified: '2026-06-20'
 name: Youtube
 nav: Providers
@@ -1573,7 +1577,7 @@ plans:
 - name: Youtube Plans Pricing
   plan_count: 3
   slug: youtube-plans-pricing
-random_paper: 16
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Youtube Rate Limits
@@ -1601,19 +1605,19 @@ scopes:
   slug: youtube-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: strong
-  composite: 69.0
-  delta: 0.0
+  band: exemplar
+  composite: 72.4
+  delta: 3.4
   facets:
     commercial_clarity: 68.4
-    contract_quality: 70.1
+    contract_quality: 78.9
     developer_ergonomics: 71.7
-    discoverability: 55.0
+    discoverability: 67.5
     governance: 86.8
     operational_transparency: 57.9
   previous_composite: 69.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/youtube/refs/heads/main/screenshots/youtube-2026-06-20T201752.png
 security:

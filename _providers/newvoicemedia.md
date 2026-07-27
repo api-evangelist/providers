@@ -9,6 +9,24 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 15.4
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Subscribe to VCC event notifications delivered over HTTPS and signed with a Vonage-Signature header.
@@ -83,12 +101,27 @@ overview: 'NewVoiceMedia publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   NewVoiceMedia''s developer surface includes documentation, getting-started guide, authentication, and 9 more developer resources.'
-random_paper: 53
+random_paper: 16
 scopes:
 - name: Newvoicemedia Scopes
   scope_count: 10
   slug: newvoicemedia-scopes
   summary_line: 10 scopes · clientCredentials
+score:
+  band: emerging
+  composite: 24.6
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 22.6
+    developer_ergonomics: 43.5
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 7.9
+  previous_composite: 24.6
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Newvoicemedia Authentication

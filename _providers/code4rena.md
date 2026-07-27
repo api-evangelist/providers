@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,7 +93,7 @@ overview: 'Code4rena is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Code4rena''s developer surface includes documentation, getting-started guide, support, and 10 more developer resources.'
-random_paper: 18
+random_paper: 1
 score:
   band: emerging
   composite: 17.8
@@ -107,8 +107,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 17.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/code4rena/refs/heads/main/screenshots/code4rena-2026-07-25T205908.png
 security:
 - kind: domain-security
   name: Code4Rena Domain Security

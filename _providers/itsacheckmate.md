@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -280,7 +280,7 @@ plans:
 - name: Itsacheckmate Plans Pricing
   plan_count: 3
   slug: itsacheckmate-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 3
   name: Itsacheckmate Rate Limits
@@ -304,18 +304,18 @@ rules:
   slug: itsacheckmate-spectral-rules
 score:
   band: developing
-  composite: 56.2
-  delta: 0.0
+  composite: 59.4
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 73.5
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 56.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/itsacheckmate/refs/heads/main/screenshots/itsacheckmate-2026-06-20T183633.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -189,19 +189,19 @@ rules:
   slug: apiida-spectral-rules
 score:
   band: developing
-  composite: 49.9
-  delta: 0.0
+  composite: 55.3
+  delta: 5.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 67.3
+    contract_quality: 76.1
     developer_ergonomics: 23.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 49.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiida/refs/heads/main/screenshots/apiida-2026-06-20T172240.png
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ plans:
 - name: Microsoft Bicep Plans Pricing
   plan_count: 3
   slug: microsoft-bicep-plans-pricing
-random_paper: 12
+random_paper: 46
 rate_limits:
 - limit_count: 6
   name: Microsoft Bicep Rate Limits
@@ -181,18 +181,18 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 52.3
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.1
     developer_ergonomics: 17.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 49.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-bicep/refs/heads/main/screenshots/microsoft-bicep-2026-06-20T185444.png
 security:

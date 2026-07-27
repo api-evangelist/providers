@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 0
@@ -213,7 +213,7 @@ overview: 'GetAccept publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 
 
   GetAccept''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 22 more developer resources.'
-random_paper: 26
+random_paper: 60
 scopes:
 - name: Getaccept Scopes
   scope_count: 1
@@ -232,8 +232,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 56.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/getaccept/refs/heads/main/screenshots/getaccept-2026-07-25T215711.png
 security:
 - kind: authentication
   name: Getaccept Authentication

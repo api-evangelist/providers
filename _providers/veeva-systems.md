@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -102,30 +102,30 @@ plans:
 - name: Veeva Systems Plans Pricing
   plan_count: 1
   slug: veeva-systems-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Veeva Systems Rate Limits
   slug: veeva-systems-rate-limits
 score:
-  band: emerging
-  composite: 27.7
-  delta: -0.2
+  band: thin
+  composite: 30.4
+  delta: 2.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 44.2
     developer_ergonomics: 10.9
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 27.9
+  previous_composite: 27.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veeva-systems/refs/heads/main/screenshots/veeva-systems-2026-06-20T200853.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -175,7 +175,7 @@ plans:
 - name: Commusoft Plans Pricing
   plan_count: 5
   slug: commusoft-plans-pricing
-random_paper: 20
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Commusoft Rate Limits
@@ -202,7 +202,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 51.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commusoft/refs/heads/main/screenshots/commusoft-2026-06-20T174826.png
 security:

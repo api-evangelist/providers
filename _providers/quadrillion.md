@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 195
   human_in_the_loop: 8
@@ -311,7 +311,7 @@ overview: 'Quadrillion publishes 51 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Quadrillion''s developer surface includes documentation, getting-started guide, pricing, signup flow, changelog, support, authentication, and 19 more developer resources.'
-random_paper: 15
+random_paper: 32
 score:
   band: developing
   composite: 49.4
@@ -325,7 +325,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 49.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ plans:
 - name: Shootproof Plans Pricing
   plan_count: 5
   slug: shootproof-plans-pricing
-random_paper: 36
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Shootproof Rate Limits
@@ -144,18 +144,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 36.9
-  delta: 0.0
+  composite: 40.2
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 52.7
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 36.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

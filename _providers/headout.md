@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 74.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ overview: 'HeadOut publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   HeadOut''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 32
+random_paper: 66
 score:
   band: developing
   composite: 47.5
@@ -194,8 +194,9 @@ score:
     operational_transparency: 13.2
   previous_composite: 47.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/headout/refs/heads/main/screenshots/headout-2026-07-25T220821.png
 security:
 - kind: authentication
   name: Headout Authentication

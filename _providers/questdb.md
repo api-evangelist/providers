@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -149,25 +149,25 @@ plans:
 - name: Questdb Plans Pricing
   plan_count: 4
   slug: questdb-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 4
   name: Questdb Rate Limits
   slug: questdb-rate-limits
 score:
   band: thin
-  composite: 40.8
-  delta: 0.0
+  composite: 44.0
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 59.6
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 40.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/questdb/refs/heads/main/screenshots/questdb-2026-06-20T192429.png
 security:

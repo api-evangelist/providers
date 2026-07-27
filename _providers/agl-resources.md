@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 10
 common:
@@ -91,7 +91,7 @@ press:
 - date: '2026-05-25'
   title: Southern Company--AGL Resources combination ...
   url: https://www.prnewswire.com/news-releases/southern-company--agl-resources-combination-enhances-customer-focused-business-model-300132249.html
-random_paper: 14
+random_paper: 48
 score:
   band: minimal
   composite: 10.2
@@ -105,7 +105,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agl-resources/refs/heads/main/screenshots/agl-resources-2026-06-20T170314.png
 security:

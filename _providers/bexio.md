@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 78.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 12
@@ -250,7 +250,7 @@ plans:
 - name: Bexio Plans Pricing
   plan_count: 5
   slug: bexio-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Bexio Rate Limits
@@ -273,8 +273,9 @@ score:
     operational_transparency: 76.3
   previous_composite: 66.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bexio/refs/heads/main/screenshots/bexio-2026-07-25T202828.png
 security:
 - kind: authentication
   name: Bexio Authentication

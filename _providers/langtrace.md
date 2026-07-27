@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -112,25 +112,25 @@ plans:
 - name: Langtrace Plans Pricing
   plan_count: 4
   slug: langtrace-plans-pricing
-random_paper: 27
+random_paper: 61
 rate_limits:
 - limit_count: 4
   name: Langtrace Rate Limits
   slug: langtrace-rate-limits
 score:
   band: thin
-  composite: 37.3
-  delta: 0.0
+  composite: 40.6
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 55.8
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 37.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/langtrace/refs/heads/main/screenshots/langtrace-2026-06-20T184310.png
 security:

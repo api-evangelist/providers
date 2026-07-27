@@ -21,7 +21,7 @@ modified: '2026-05-23'
 name: Energy and Utilities
 nav: Providers
 network: true
-random_paper: 0
+random_paper: 51
 slug: energy-utilities
 tags:
 - Energy

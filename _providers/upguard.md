@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 75.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 1
@@ -247,7 +247,7 @@ overview: 'UpGuard publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 
 
   UpGuard''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: developing
   composite: 55.2
@@ -261,7 +261,7 @@ score:
     operational_transparency: 55.3
   previous_composite: 55.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -89,7 +89,7 @@ overview: 'DraftPilot.ai is profiled on the [APIs.io](https://apis.io/) network.
 
 
   DraftPilot.ai''s developer surface includes pricing, signup flow, support, engineering blog, and 8 more developer resources.'
-random_paper: 8
+random_paper: 59
 score:
   band: emerging
   composite: 22.2
@@ -103,8 +103,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 22.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/draftpilotai/refs/heads/main/screenshots/draftpilotai-2026-07-25T212338.png
 security:
 - kind: domain-security
   name: Draftpilotai Domain Security

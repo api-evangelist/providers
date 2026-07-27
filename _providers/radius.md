@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 79
   human_in_the_loop: 0
@@ -200,18 +200,18 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: thin
-  composite: 31.8
-  delta: 0.0
+  composite: 35.0
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 37.7
     developer_ergonomics: 30.4
-    discoverability: 42.5
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 31.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radius/refs/heads/main/screenshots/radius-2026-06-20T192521.png
 security:

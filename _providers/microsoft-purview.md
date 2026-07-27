@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 127
   human_in_the_loop: 1
@@ -221,7 +221,7 @@ arazzos:
 - description: Search for an asset, read its entity, then walk its lineage graph with pagination.
   name: Microsoft Purview Trace Data Asset Lineage
   slug: microsoft-purview-trace-asset-lineage-workflow
-artifact_total: 234
+artifact_total: 235
 collections:
 - collection_type: postman
   name: Microsoft Purview Account API
@@ -988,6 +988,10 @@ jsonld:
   property_count: 19
   slug: microsoft-purview-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: microsoft-purview-mcp.yml
+  slug: microsoft-purview-mcpyml
 modified: '2026-06-20'
 name: Microsoft Purview
 nav: Providers
@@ -1003,7 +1007,7 @@ plans:
 - name: Microsoft Purview Plans Pricing
   plan_count: 4
   slug: microsoft-purview-plans-pricing
-random_paper: 28
+random_paper: 45
 rate_limits:
 - limit_count: 4
   name: Microsoft Purview Rate Limits
@@ -1024,18 +1028,18 @@ scopes:
   summary_line: 8 scopes · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 70.5
-  delta: 0.0
+  composite: 73.0
+  delta: 2.5
   facets:
     commercial_clarity: 73.7
     contract_quality: 67.3
     developer_ergonomics: 78.3
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 70.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-purview/refs/heads/main/screenshots/microsoft-purview-2026-06-20T185528.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Hosted GraphQL subgraph (The Graph Protocol) indexing the RAI/GEB on-chain contracts on Ethereum mainnet. Query SAFEs, collateral, system state, redemption rate, and historical data by block. Read-onl
@@ -127,7 +127,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 24.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -89,7 +89,7 @@ overview: 'CreditKarma is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   CreditKarma''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 37
+random_paper: 3
 score:
   band: minimal
   composite: 13.5
@@ -103,8 +103,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 13.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/creditkarma/refs/heads/main/screenshots/creditkarma-2026-07-25T210719.png
 security:
 - kind: domain-security
   name: Creditkarma Domain Security

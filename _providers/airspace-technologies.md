@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ overview: 'Airspace Technologies publishes 6 APIs on the [APIs.io](https://apis.
 
 
   Airspace Technologies'' developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 19 more developer resources.'
-random_paper: 27
+random_paper: 61
 score:
   band: developing
   composite: 52.2
@@ -193,8 +193,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 52.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/airspace-technologies/refs/heads/main/screenshots/airspace-technologies-2026-07-25T195443.png
 security:
 - kind: authentication
   name: Airspace Technologies Authentication

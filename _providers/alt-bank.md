@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 30.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Real-time consumer credit underwriting / risk-assessment API. Partners POST an underwriting request for a credit-card applicant and receive a Guard Score, risk band and credit-limit decision. The call
@@ -123,11 +123,11 @@ overview: 'Alt Bank publishes 3 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Alt Bank''s developer surface includes documentation, getting-started guide, API reference, support, authentication, sandbox, and 9 more developer resources.'
-random_paper: 13
+random_paper: 30
 score:
   band: emerging
   composite: 28.1
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 22.6
@@ -135,15 +135,16 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 28.5
+  previous_composite: 28.1
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alt-bank/refs/heads/main/screenshots/alt-bank-2026-07-25T195808.png
 security:
 - kind: authentication
   name: Alt Bank Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ overview: 'Archastro publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Archastro''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, sandbox, changelog, and 21 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: developing
   composite: 48.4
@@ -217,8 +217,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 48.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/archastro/refs/heads/main/screenshots/archastro-2026-07-25T201021.png
 security:
 - kind: authentication
   name: Archastro Authentication

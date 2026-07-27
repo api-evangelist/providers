@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -153,25 +153,25 @@ press:
 - date: '2026-05-25'
   title: FedEx Announces Expansion of FedEx Fulfillment With ...
   url: https://newsroom.fedex.com/newsroom/global-english/fedex-announces-expansion-of-fedex-fulfillment-with-nimble-alliance
-random_paper: 14
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Fedex Rate Limits
   slug: fedex-rate-limits
 score:
   band: thin
-  composite: 36.0
-  delta: 0.0
+  composite: 39.2
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 58.4
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 36.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/screenshots/fedex-2026-06-20T181131.png
 security:

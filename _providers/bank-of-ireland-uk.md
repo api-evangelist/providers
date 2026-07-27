@@ -16,7 +16,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ overview: 'Bank of Ireland (UK) publishes 4 APIs on the [APIs.io](https://apis.i
 
 
   Bank of Ireland (UK)''s developer surface includes authentication, getting-started guide, developer portal, documentation, support, and 25 more developer resources.'
-random_paper: 36
+random_paper: 19
 scopes:
 - name: Bank Of Ireland Uk Scopes
   scope_count: 4
@@ -189,6 +189,7 @@ scopes:
 score:
   band: developing
   composite: 47.4
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 54.0
@@ -196,13 +197,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 23.7
+  previous_composite: 47.4
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-ireland-uk/refs/heads/main/screenshots/bank-of-ireland-uk-2026-07-25T202335.png
 security:
 - kind: authentication
   name: Bank Of Ireland Uk Authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,11 +81,11 @@ overview: 'BitAccess is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   BitAccess'' developer surface includes documentation, engineering blog, and 8 more developer resources.'
-random_paper: 27
+random_paper: 61
 score:
   band: minimal
   composite: 14.3
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -93,15 +93,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 13.0
+  previous_composite: 14.3
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bitaccess/refs/heads/main/screenshots/bitaccess-2026-07-25T203126.png
 security:
 - kind: domain-security
   name: Bitaccess Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ plans:
 - name: Crisp Plans Pricing
   plan_count: 1
   slug: crisp-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Crisp Rate Limits
@@ -139,18 +139,18 @@ rules:
   slug: crisp-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 40.9
-  delta: 0.0
+  composite: 44.1
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 62.1
     developer_ergonomics: 21.7
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 52.6
     operational_transparency: 26.3
   previous_composite: 40.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crisp/refs/heads/main/screenshots/crisp-2026-06-20T175235.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -66,11 +66,11 @@ name: Lydia
 nav: Providers
 network: true
 overview: Lydia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Mobile Payments, and Peer-to-Peer.
-random_paper: 21
+random_paper: 55
 score:
   band: minimal
   composite: 10.8
-  delta: 2.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -78,15 +78,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 8.1
+  previous_composite: 10.8
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lydia/refs/heads/main/screenshots/lydia-2026-07-25T225745.png
 security:
 - kind: domain-security
   name: Lydia Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 78.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - description: Real-time and historical stock market price data
   name: StockData Stock Data API
   slug: stockdata-stock-data-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: StockData API
@@ -219,6 +219,10 @@ jsonld:
   property_count: 0
   slug: stockdata-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: stockdata-mcp.yml
+  slug: stockdata-mcpyml
 modified: '2026-07-22'
 name: StockData
 nav: Providers
@@ -234,7 +238,7 @@ plans:
 - name: Stockdata Plans Pricing
   plan_count: 5
   slug: stockdata-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 6
   name: Stockdata Rate Limits
@@ -258,24 +262,24 @@ rules:
   slug: stockdata-rules
 score:
   band: strong
-  composite: 66.3
-  delta: 14.6
+  composite: 69.1
+  delta: 2.8
   facets:
     commercial_clarity: 84.2
     contract_quality: 65.5
     developer_ergonomics: 69.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
-  previous_composite: 51.7
+  previous_composite: 66.3
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/screenshots/stockdata-2026-06-20T194552.png
 security:
 - kind: authentication

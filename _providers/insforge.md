@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 66.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 11
 apis:
 - description: The Admin API from Insforge — 54 operation(s) for admin.
@@ -221,7 +221,7 @@ scopes:
 score:
   band: developing
   composite: 57.2
-  delta: 5.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 50.0
@@ -229,15 +229,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 51.6
+  previous_composite: 57.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 89.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/insforge/refs/heads/main/screenshots/insforge-2026-07-25T222527.png
 security:
 - kind: authentication
   name: Insforge Authentication

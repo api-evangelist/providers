@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,7 +61,7 @@ apis:
 - description: Asset supply and market-capitalization rankings.
   name: Kaiko Supply API
   slug: kaiko-supply-api
-artifact_total: 16
+artifact_total: 17
 collections:
 - collection_type: open
   name: Kaiko Market Data REST API
@@ -211,6 +211,10 @@ finops:
   slug: kaiko-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kaiko.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: kaiko-mcp.yml
+  slug: kaiko-mcpyml
 modified: '2026-07-22'
 name: Kaiko
 nav: Providers
@@ -223,31 +227,31 @@ plans:
 - name: Kaiko Plans Pricing
   plan_count: 2
   slug: kaiko-plans-pricing
-random_paper: 17
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Kaiko Rate Limits
   slug: kaiko-rate-limits
 score:
   band: strong
-  composite: 60.2
-  delta: 24.4
+  composite: 61.9
+  delta: 1.7
   facets:
     commercial_clarity: 76.3
     contract_quality: 56.6
     developer_ergonomics: 78.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 57.9
-  previous_composite: 35.8
+  previous_composite: 60.2
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/screenshots/kaiko-2026-06-20T183855.png
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -216,11 +216,11 @@ overview: 'Octav publishes 14 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Octav''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, pricing, and 23 more developer resources.'
-random_paper: 31
+random_paper: 65
 score:
   band: developing
   composite: 54.4
-  delta: 1.9
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 59.4
@@ -228,14 +228,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 52.5
+  previous_composite: 54.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

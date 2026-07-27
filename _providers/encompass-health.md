@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Encompass Health API provides access to platform services and data for enterprise integration and automation.
@@ -71,7 +71,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.0
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -79,14 +79,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 16.5
+  previous_composite: 16.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/encompass-health/refs/heads/main/screenshots/encompass-health-2026-06-20T180647.png
 security:

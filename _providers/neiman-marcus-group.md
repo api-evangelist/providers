@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -79,7 +79,7 @@ press:
 - date: '2026-03-16'
   title: Saks Global Secures Access to Additional $300 Million of $1.75 Billion in Committed Capital
   url: https://www.saksglobal.com/2026-03-16-Saks-Global-Secures-Access-to-Additional-300-Million-of-1-75-Billion-in-Committed-Capital
-random_paper: 43
+random_paper: 26
 score:
   band: minimal
   composite: 6.2
@@ -93,7 +93,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neiman-marcus-group/refs/heads/main/screenshots/neiman-marcus-group-2026-06-20T190125.png
 security:

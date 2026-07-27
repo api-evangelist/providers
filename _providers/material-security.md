@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -85,7 +85,7 @@ overview: 'Material Security is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Material Security''s developer surface includes pricing, engineering blog, and 9 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: emerging
   composite: 18.0
@@ -99,8 +99,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/material-security/refs/heads/main/screenshots/material-security-2026-07-25T230405.png
 security:
 - kind: domain-security
   name: Material Security Domain Security

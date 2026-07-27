@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -169,19 +169,19 @@ scopes:
   slug: google-cloud-secret-manager-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 59.6
-  delta: 0.0
+  band: strong
+  composite: 64.2
+  delta: 4.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 58.4
+    contract_quality: 63.7
     developer_ergonomics: 45.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 59.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-secret-manager/refs/heads/main/screenshots/google-cloud-secret-manager-2026-06-20T182131.png
 security:

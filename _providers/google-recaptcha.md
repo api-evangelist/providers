@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ plans:
 - name: Google Recaptcha Plans Pricing
   plan_count: 3
   slug: google-recaptcha-plans-pricing
-random_paper: 40
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Google Recaptcha Rate Limits
@@ -160,19 +160,19 @@ scopes:
   slug: google-recaptcha-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 56.0
-  delta: 0.0
+  band: strong
+  composite: 60.5
+  delta: 4.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 62.8
+    contract_quality: 68.1
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 56.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-recaptcha/refs/heads/main/screenshots/google-recaptcha-2026-06-20T182229.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 25
 apis:
 - description: The Analytics API from Arkham — 2 operation(s) for analytics.
@@ -242,7 +242,7 @@ rate_limits:
 score:
   band: developing
   composite: 53.2
-  delta: -2.8
+  delta: 0.0
   facets:
     commercial_clarity: 63.2
     contract_quality: 59.1
@@ -250,15 +250,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 56.0
+  previous_composite: 53.2
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/arkham/refs/heads/main/screenshots/arkham-2026-07-25T201211.png
 security:
 - kind: authentication
   name: Arkham Authentication

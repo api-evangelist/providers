@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ plans:
 - name: Qualtrics Plans Pricing
   plan_count: 5
   slug: qualtrics-plans-pricing
-random_paper: 15
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Qualtrics Rate Limits
@@ -208,7 +208,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 59.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qualtrics/refs/heads/main/screenshots/qualtrics-2026-06-20T192401.png
 security:

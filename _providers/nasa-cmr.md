@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ plans:
 - name: Nasa Cmr Plans Pricing
   plan_count: 3
   slug: nasa-cmr-plans-pricing
-random_paper: 21
+random_paper: 38
 rate_limits:
 - limit_count: 6
   name: Nasa Cmr Rate Limits
@@ -202,7 +202,7 @@ rules:
 score:
   band: developing
   composite: 47.4
-  delta: -4.2
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 52.8
@@ -210,14 +210,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
-  previous_composite: 51.6
+  previous_composite: 47.4
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nasa-cmr/refs/heads/main/screenshots/nasa-cmr-2026-06-20T185946.png
 security:

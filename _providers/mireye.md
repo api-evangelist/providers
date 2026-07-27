@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 3
@@ -227,7 +227,7 @@ scopes:
 score:
   band: developing
   composite: 51.2
-  delta: 4.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 41.3
@@ -235,14 +235,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 46.8
+  previous_composite: 51.2
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

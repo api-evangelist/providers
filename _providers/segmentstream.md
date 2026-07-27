@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 29.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Hosted Model Context Protocol server exposing SegmentStream's marketing measurement, attribution, budget-optimization, and BigQuery query capabilities as agent-callable tools (read-only reporting by d
@@ -146,7 +146,7 @@ overview: 'SegmentStream publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   SegmentStream''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 30
+random_paper: 47
 score:
   band: thin
   composite: 36.7
@@ -160,7 +160,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 36.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

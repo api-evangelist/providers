@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -294,7 +294,7 @@ plans:
 - name: Veeva Plans Pricing
   plan_count: 1
   slug: veeva-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Veeva Rate Limits
@@ -317,20 +317,20 @@ rules:
     warn: 23
   slug: veeva-spectral-rules
 score:
-  band: developing
-  composite: 56.4
-  delta: 0.0
+  band: strong
+  composite: 61.9
+  delta: 5.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.4
+    contract_quality: 77.3
     developer_ergonomics: 50.0
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 42.1
   previous_composite: 56.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/screenshots/veeva-2026-06-20T200859.png
 security:
 - kind: authentication

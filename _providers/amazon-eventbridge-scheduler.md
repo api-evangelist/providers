@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -1141,20 +1141,20 @@ rules:
     warn: 13
   slug: amazon-eventbridge-scheduler-spectral-rules
 score:
-  band: strong
-  composite: 69.3
-  delta: 0.0
+  band: exemplar
+  composite: 74.8
+  delta: 5.5
   facets:
     commercial_clarity: 89.5
-    contract_quality: 67.6
+    contract_quality: 76.4
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 63.2
   previous_composite: 69.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-scheduler/refs/heads/main/screenshots/amazon-eventbridge-scheduler-2026-06-20T171646.png
 security:
 - kind: authentication

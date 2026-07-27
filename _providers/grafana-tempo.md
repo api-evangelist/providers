@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ plans:
 - name: Grafana Tempo Plans Pricing
   plan_count: 3
   slug: grafana-tempo-plans-pricing
-random_paper: 39
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Grafana Tempo Rate Limits
@@ -139,18 +139,18 @@ rules:
   slug: grafana-tempo-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 51.7
+  delta: 3.3
   facets:
     commercial_clarity: 57.9
-    contract_quality: 48.4
+    contract_quality: 53.7
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 48.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grafana-tempo/refs/heads/main/screenshots/grafana-tempo-2026-06-20T182315.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ plans:
 - name: Enable Banking Plans Pricing
   plan_count: 3
   slug: enable-banking-plans-pricing
-random_paper: 13
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Enable Banking Rate Limits
@@ -222,24 +222,24 @@ rules:
     warn: 6
   slug: enable-banking-rules
 score:
-  band: developing
-  composite: 55.9
-  delta: -3.3
+  band: strong
+  composite: 60.5
+  delta: 4.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.7
+    contract_quality: 72.6
     developer_ergonomics: 54.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
-  previous_composite: 59.2
+  previous_composite: 55.9
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/screenshots/enable-banking-2026-06-20T180647.png
 security:

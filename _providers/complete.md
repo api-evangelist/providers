@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -98,7 +98,7 @@ random_paper: 41
 score:
   band: emerging
   composite: 25.7
-  delta: 5.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -106,15 +106,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 20.6
+  previous_composite: 25.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/complete/refs/heads/main/screenshots/complete-2026-07-25T210153.png
 security:
 - kind: domain-security
   name: Complete Domain Security

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -46,7 +46,7 @@ name: National Laboratories
 nav: Providers
 network: true
 overview: National Laboratories is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Federal Government, Research, and Science.
-random_paper: 44
+random_paper: 10
 score:
   band: minimal
   composite: 4.3
@@ -60,7 +60,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 4.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-laboratories/refs/heads/main/screenshots/national-laboratories-2026-06-20T190032.png
 security:

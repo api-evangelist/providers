@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for sending and receiving Bitcoin/Lightning payments. Manage wallets, create send/receive payments (BOLT11, on-chain, BIP21), lock BTC/USD exchange rates with quotes, view lines of credit, an
@@ -208,11 +208,11 @@ overview: 'Voltage publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Voltage''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 30 more developer resources.'
-random_paper: 40
+random_paper: 6
 score:
   band: developing
   composite: 54.3
-  delta: 4.3
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 22.6
@@ -220,14 +220,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 55.3
-  previous_composite: 50.0
+  previous_composite: 54.3
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

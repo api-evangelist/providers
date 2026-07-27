@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 39.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Castle's REST API for real-time fraud and abuse detection. The Risk API scores authenticated user events (login, transaction, profile update), the Filter API scores anonymous/pre-authentication events
@@ -199,8 +199,9 @@ score:
     operational_transparency: 44.7
   previous_composite: 48.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/castle/refs/heads/main/screenshots/castle-2026-07-25T204740.png
 security:
 - kind: authentication
   name: Castle Authentication

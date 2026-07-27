@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 19
 apis:
 - description: The Alert API from Prevedere — 1 operation(s) for alert.
@@ -180,7 +180,7 @@ overview: 'Prevedere publishes 19 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Prevedere''s developer surface includes authentication, documentation, API reference, pricing, support, and 14 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: thin
   composite: 38.0
@@ -194,7 +194,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 38.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,11 +70,11 @@ press:
 - date: '2026-05-25'
   title: News releases
   url: https://www.merck.com/media/news/
-random_paper: 20
+random_paper: 54
 score:
   band: minimal
   composite: 7.2
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -82,14 +82,14 @@ score:
     discoverability: 55.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 6.2
+  previous_composite: 7.2
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/merck/refs/heads/main/screenshots/merck-2026-06-20T185206.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ overview: 'Atom Learning is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Atom Learning''s developer surface includes engineering blog, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 0
+random_paper: 34
 score:
   band: emerging
   composite: 17.0
@@ -99,8 +99,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/atom-learning/refs/heads/main/screenshots/atom-learning-2026-07-25T201558.png
 security:
 - kind: domain-security
   name: Atom Learning Domain Security

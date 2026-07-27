@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 37.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: The current MadKudu API (MadAPI) exposes account and person lookup, full account/person details and activities, company hiring/job-posting enrichment, person contact enrichment, advanced account and p
@@ -133,7 +133,7 @@ overview: 'MadKudu publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   MadKudu''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 14 more developer resources.'
-random_paper: 33
+random_paper: 67
 score:
   band: emerging
   composite: 26.9
@@ -147,8 +147,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 26.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/madkudu/refs/heads/main/screenshots/madkudu-2026-07-25T225833.png
 security:
 - kind: authentication
   name: Madkudu Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -187,7 +187,7 @@ overview: 'Scorecard publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Scorecard''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 21 more developer resources.'
-random_paper: 32
+random_paper: 66
 score:
   band: developing
   composite: 55.3
@@ -201,7 +201,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 55.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

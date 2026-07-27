@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 15
 apis:
 - description: Charge one-off or recurring purchases directly to a verified end user's BT or EE mobile bill or pre-pay credit, enabling carrier-billed payments without re-collecting card or bank credentials.
@@ -204,7 +204,7 @@ overview: 'BT Group publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   BT Group''s developer surface includes documentation, signup flow, GitHub presence, YouTube channel, and 25 more developer resources.'
-random_paper: 17
+random_paper: 34
 score:
   band: emerging
   composite: 18.0
@@ -218,7 +218,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 18.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bt-com/refs/heads/main/screenshots/bt-com-2026-06-20T173734.png
 security:

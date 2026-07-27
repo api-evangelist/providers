@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ plans:
 - name: Fis Plans Pricing
   plan_count: 3
   slug: fis-plans-pricing
-random_paper: 16
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Fis Rate Limits
@@ -140,23 +140,23 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 48.2
-  delta: 1.8
+  composite: 50.4
+  delta: 2.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 69.2
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 26.3
-  previous_composite: 46.4
+  previous_composite: 48.2
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/screenshots/fis-2026-06-20T181251.png
 security:

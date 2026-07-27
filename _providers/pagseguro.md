@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -226,30 +226,30 @@ plans:
 - name: Pagseguro Plans Pricing
   plan_count: 2
   slug: pagseguro-plans-pricing
-random_paper: 4
+random_paper: 21
 rate_limits:
 - limit_count: 3
   name: Pagseguro Rate Limits
   slug: pagseguro-rate-limits
 score:
   band: thin
-  composite: 38.4
-  delta: -2.2
+  composite: 40.6
+  delta: 2.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 47.8
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 60.5
-  previous_composite: 40.6
+  previous_composite: 38.4
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/screenshots/pagseguro-2026-06-20T191324.png
 security:

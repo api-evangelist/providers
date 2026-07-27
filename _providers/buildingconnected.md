@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API on Autodesk Platform Services (APS) exposing BuildingConnected preconstruction data — opportunities, bid packages, and users — versioned under /v2 and secured with Autodesk OAuth 2.0.
@@ -122,7 +122,7 @@ overview: 'Buildingconnected publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   Buildingconnected''s developer surface includes getting-started guide, support, engineering blog, pricing, authentication, and 14 more developer resources.'
-random_paper: 8
+random_paper: 25
 scopes:
 - name: Buildingconnected Scopes
   scope_count: 16
@@ -141,8 +141,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 29.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/buildingconnected/refs/heads/main/screenshots/buildingconnected-2026-07-25T204053.png
 security:
 - kind: authentication
   name: Buildingconnected Authentication

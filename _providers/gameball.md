@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: RESTful loyalty & gamification API for managing customers, events, orders, payments, points transactions, holds, coupons, reward campaigns, VIP tiers, redemption options, leaderboards and batch operat
@@ -187,8 +187,9 @@ score:
     operational_transparency: 60.5
   previous_composite: 45.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gameball/refs/heads/main/screenshots/gameball-2026-07-25T215414.png
 security:
 - kind: authentication
   name: Gameball Authentication

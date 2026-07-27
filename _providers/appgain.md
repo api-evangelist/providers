@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for sending multi-channel campaigns (rich push notifications, email, SMS, web push), creating smart deep links, managing a media library, and logging user events/purchases into the Appgain CD
@@ -130,7 +130,7 @@ overview: 'Appgain publishes 1 API on the [APIs.io](https://apis.io/) network: O
 
 
   Appgain''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 22
+random_paper: 56
 score:
   band: thin
   composite: 33.5
@@ -144,8 +144,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 33.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/appgain/refs/heads/main/screenshots/appgain-2026-07-25T200731.png
 security:
 - kind: authentication
   name: Appgain Authentication

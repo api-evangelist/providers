@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: Manage the prepaid credit balance
@@ -71,18 +71,18 @@ overview: Wren publishes 7 APIs on the [APIs.io](https://apis.io/) network, incl
 random_paper: 36
 score:
   band: emerging
-  composite: 19.6
-  delta: 0.0
+  composite: 20.4
+  delta: 0.8
   facets:
     commercial_clarity: 0.0
     contract_quality: 61.4
     developer_ergonomics: 0.0
-    discoverability: 42.5
+    discoverability: 50.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 19.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: wren
 tags:

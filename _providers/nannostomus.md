@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Nannostomus Sex Offender API enables search of 771k+ offender records by state and name across all 50 U.S. states and 14 territories. Records are updated monthly with per-state change reporting an
@@ -78,7 +78,7 @@ plans:
 - name: Nannostomus Plans Pricing
   plan_count: 3
   slug: nannostomus-plans-pricing
-random_paper: 48
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Nannostomus Rate Limits
@@ -86,7 +86,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.0
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -94,14 +94,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 24.7
+  previous_composite: 23.0
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nannostomus/refs/heads/main/screenshots/nannostomus-2026-06-20T185936.png
 security:

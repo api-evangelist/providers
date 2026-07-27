@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 18.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: The Great Britain market Account Information Service (AIS) API - retrieve account details, balances, and transactions for consenting Handelsbanken UK customers. Published to the Berlin Group NextGenPS
@@ -153,10 +153,11 @@ overview: 'Handelsbanken UK publishes 7 APIs on the [APIs.io](https://apis.io/) 
 
 
   Handelsbanken UK''s developer surface includes documentation, getting-started guide, signup flow, support, authentication, changelog, sandbox, and 15 more developer resources.'
-random_paper: 46
+random_paper: 63
 score:
   band: thin
   composite: 36.6
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -164,13 +165,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 23.7
+  previous_composite: 36.6
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/handelsbanken-uk/refs/heads/main/screenshots/handelsbanken-uk-2026-07-25T220612.png
 security:
 - kind: authentication
   name: Handelsbanken Uk Authentication

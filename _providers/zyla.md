@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 18.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Zyla API Hub provides a centralized marketplace for discovering, testing, and integrating thousands of APIs across categories including finance, weather, geolocation, communication, and more, all acce
@@ -116,7 +116,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 24.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zyla/refs/heads/main/screenshots/zyla-2026-06-20T202016.png
 security:

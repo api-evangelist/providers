@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 55.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ rules:
 score:
   band: developing
   composite: 47.2
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 58.9
@@ -213,14 +213,14 @@ score:
     discoverability: 100.0
     governance: 86.8
     operational_transparency: 15.8
-  previous_composite: 49.1
+  previous_composite: 47.2
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phemex/refs/heads/main/screenshots/phemex-2026-06-20T191642.png
 security:

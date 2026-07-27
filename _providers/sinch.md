@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 58.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 74
   human_in_the_loop: 4
@@ -336,7 +336,7 @@ plans:
 - name: Sinch Plans Pricing
   plan_count: 2
   slug: sinch-plans-pricing
-random_paper: 23
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: Sinch Rate Limits
@@ -373,18 +373,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 61.0
-  delta: 0.0
+  composite: 63.5
+  delta: 2.5
   facets:
     commercial_clarity: 68.4
     contract_quality: 77.9
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 60.5
     operational_transparency: 52.6
   previous_composite: 61.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sinch/refs/heads/main/screenshots/sinch-2026-06-20T193947.png
 security:

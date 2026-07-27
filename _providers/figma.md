@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ arazzos:
 - description: Walk a team to its first project, list that project's files, and read one file's version history.
   name: Figma Snapshot Team Project Versions
   slug: figma-snapshot-team-project-versions-workflow
-artifact_total: 549
+artifact_total: 550
 asyncapis:
 - description: Figma Webhooks allow applications to receive real-time notifications when events occur in Figma files and projects. Webhooks are configured at the team level and send HTTP POST requests with JSON payl
   name: Figma Webhooks
@@ -1930,6 +1930,10 @@ jsonld:
   property_count: 0
   slug: figma-teams-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: figma-mcp.yml
+  slug: figma-mcpyml
 modified: '2026-06-20'
 name: Figma
 nav: Providers
@@ -1945,7 +1949,7 @@ plans:
 - name: Figma Plans Pricing
   plan_count: 4
   slug: figma-plans-pricing
-random_paper: 6
+random_paper: 40
 rate_limits:
 - limit_count: 3
   name: Figma Rate Limits
@@ -1982,18 +1986,18 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 73.0
-  delta: 0.0
+  composite: 77.7
+  delta: 4.7
   facets:
     commercial_clarity: 92.1
-    contract_quality: 78.5
+    contract_quality: 87.4
     developer_ergonomics: 56.5
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 65.8
     operational_transparency: 78.9
   previous_composite: 73.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/figma/refs/heads/main/screenshots/figma-2026-06-20T181157.png
 security:

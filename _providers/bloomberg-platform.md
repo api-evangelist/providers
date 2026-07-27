@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The foundational API layer of the Bloomberg Platform providing real-time, reference, and historical data access through a socket-based protocol with SDKs for multiple programming languages.
@@ -119,7 +119,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 30.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-platform/refs/heads/main/screenshots/bloomberg-platform-2026-06-20T173451.png
 security:

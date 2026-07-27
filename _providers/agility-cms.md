@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST and GraphQL APIs for fetching, syncing, and managing content from Agility CMS, with CDN delivery across global and regional endpoints.
@@ -97,7 +97,7 @@ overview: 'Agility CMS publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Agility CMS''s developer surface includes documentation, pricing, engineering blog, and 9 more developer resources.'
-random_paper: 1
+random_paper: 35
 score:
   band: minimal
   composite: 14.5
@@ -111,7 +111,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agility-cms/refs/heads/main/screenshots/agility-cms-2026-06-20T170242.png
 security:

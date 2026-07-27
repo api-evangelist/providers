@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -90,11 +90,11 @@ overview: 'StoreHub is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   StoreHub''s developer surface includes documentation, support, pricing, engineering blog, signup flow, authentication, and 6 more developer resources.'
-random_paper: 9
+random_paper: 60
 score:
   band: emerging
   composite: 24.3
-  delta: 3.4
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -102,14 +102,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.9
+  previous_composite: 24.3
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

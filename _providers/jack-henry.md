@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -359,7 +359,7 @@ plans:
 - name: Jack Henry Plans Pricing
   plan_count: 2
   slug: jack-henry-plans-pricing
-random_paper: 35
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Jack Henry Rate Limits
@@ -415,23 +415,23 @@ rules:
   slug: jxchange-rest-rules
 score:
   band: developing
-  composite: 45.4
-  delta: 1.6
+  composite: 47.5
+  delta: 2.1
   facets:
     commercial_clarity: 50.0
     contract_quality: 65.1
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 26.3
     operational_transparency: 5.3
-  previous_composite: 43.8
+  previous_composite: 45.4
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jack-henry/refs/heads/main/screenshots/jack-henry-2026-06-20T183648.png
 security:

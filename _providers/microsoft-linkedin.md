@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -150,19 +150,19 @@ scopes:
   slug: microsoft-linkedin-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: thin
-  composite: 43.9
-  delta: 0.0
+  band: developing
+  composite: 47.1
+  delta: 3.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 54.9
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 43.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-linkedin/refs/heads/main/screenshots/microsoft-linkedin-2026-06-20T185506.png
 security:

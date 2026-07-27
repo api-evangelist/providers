@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 28
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Aevo Websocket
@@ -170,7 +170,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 39.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ribbon-finance/refs/heads/main/screenshots/ribbon-finance-2026-06-20T193110.png
 security:

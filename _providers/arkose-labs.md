@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Edge risk assessment
@@ -159,7 +159,7 @@ overview: 'Arkose Labs publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Arkose Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 18 more developer resources.'
-random_paper: 37
+random_paper: 20
 score:
   band: thin
   composite: 43.4
@@ -173,8 +173,9 @@ score:
     operational_transparency: 34.2
   previous_composite: 43.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/arkose-labs/refs/heads/main/screenshots/arkose-labs-2026-07-25T201203.png
 security:
 - kind: authentication
   name: Arkose Labs Authentication

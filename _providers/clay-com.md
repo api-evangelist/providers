@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: Generic HTTP request column inside Clay Tables that lets users call any external REST or GraphQL endpoint with row-level variables and write the response back into Clay. Acts as Clay's universal API c
@@ -133,7 +133,7 @@ plans:
 - name: Clay Com Plans Pricing
   plan_count: 1
   slug: clay-com-plans-pricing
-random_paper: 24
+random_paper: 41
 rate_limits:
 - limit_count: 2
   name: Clay Com Rate Limits
@@ -151,7 +151,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 29.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clay-com/refs/heads/main/screenshots/clay-com-2026-06-20T174453.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -141,19 +141,20 @@ rules:
   slug: centml-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 45.8
-  delta: 0.0
+  composite: 49.0
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 64.4
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 36.8
   previous_composite: 45.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/centml/refs/heads/main/screenshots/centml-2026-07-25T204927.png
 security:
 - kind: authentication
   name: Centml Authentication

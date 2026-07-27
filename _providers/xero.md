@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 214
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
 - description: The Project API from Xero — 7 operation(s) for project.
   name: Xero Project API
   slug: xero-project-api
-artifact_total: 766
+artifact_total: 767
 asyncapis:
 - description: AsyncAPI 2.6 description of Xero's outbound webhook surface for the INVOICE and CONTACT event categories. Xero delivers event notifications by issuing HTTP POST requests with a JSON body to a single s
   name: Xero Webhooks
@@ -2404,6 +2404,10 @@ json_structures:
   property_count: 0
   slug: xero-structure
 layout: provider
+mcp_servers:
+- description: ''
+  name: xero-mcp-server
+  slug: xero-mcp-server
 modified: '2026-05-30'
 name: Xero
 nav: Providers
@@ -2447,19 +2451,19 @@ scopes:
   slug: xero-scopes
   summary_line: 36 scopes · authorizationCode
 score:
-  band: developing
-  composite: 59.3
-  delta: 0.0
+  band: strong
+  composite: 62.6
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.9
     developer_ergonomics: 56.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 60.5
     operational_transparency: 65.8
   previous_composite: 59.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xero/refs/heads/main/screenshots/xero-2026-06-20T201700.png
 security:

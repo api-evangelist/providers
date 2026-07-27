@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -276,7 +276,7 @@ plans:
 - name: Jokeapi Plans Pricing
   plan_count: 2
   slug: jokeapi-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 2
   name: Jokeapi Rate Limits
@@ -299,19 +299,19 @@ rules:
     warn: 21
   slug: jokeapi-spectral-rules
 score:
-  band: thin
-  composite: 44.4
-  delta: 0.0
+  band: developing
+  composite: 47.6
+  delta: 3.2
   facets:
     commercial_clarity: 21.1
     contract_quality: 63.1
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 42.1
   previous_composite: 44.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jokeapi/refs/heads/main/screenshots/jokeapi-2026-06-20T183755.png
 security:

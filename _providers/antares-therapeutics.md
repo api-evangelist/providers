@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The public WordPress REST API behind antaresrx.com. This is the content management surface for the corporate marketing site and its press-release / in-the-media newsroom -- it is NOT a first-party pro
@@ -111,11 +111,11 @@ overview: 'Antares Therapeutics publishes 1 API on the [APIs.io](https://apis.io
 
 
   Antares Therapeutics'' developer surface includes engineering blog, product news, authentication, and 13 more developer resources.'
-random_paper: 1
+random_paper: 52
 score:
   band: emerging
   composite: 22.1
-  delta: 6.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -123,15 +123,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.1
+  previous_composite: 22.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 56.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/antares-therapeutics/refs/heads/main/screenshots/antares-therapeutics-2026-07-25T200338.png
 security:
 - kind: authentication
   name: Antares Therapeutics Authentication

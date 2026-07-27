@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -117,11 +117,11 @@ overview: 'Yanyin Technology is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Yanyin Technology''s developer surface includes documentation, pricing, signup flow, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 1
+random_paper: 52
 score:
   band: thin
   composite: 33.0
-  delta: 4.2
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 22.6
@@ -129,14 +129,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 28.8
+  previous_composite: 33.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 56.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

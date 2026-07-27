@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Bessemer Venture Partners
 nav: Providers
 network: true
-random_paper: 50
+random_paper: 16
 slug: bessemer-venture-partners
 tags:
 - Venture Capital

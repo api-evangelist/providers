@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 66.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 151
   human_in_the_loop: 0
@@ -338,7 +338,7 @@ arazzos:
 - description: Find a user by identifier and update it if present, otherwise create it.
   name: Azure API Management Upsert User
   slug: microsoft-azure-api-management-upsert-user-workflow
-artifact_total: 205
+artifact_total: 206
 collections:
 - collection_type: postman
   name: Azure API Management AI Gateway
@@ -972,6 +972,10 @@ jsonld:
   property_count: 8
   slug: microsoft-azure-api-management-ai-gateway-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-22'
 name: Microsoft Azure API Management
 nav: Providers
@@ -987,7 +991,7 @@ plans:
 - name: Microsoft Azure Api Management Plans Pricing
   plan_count: 8
   slug: microsoft-azure-api-management-plans-pricing
-random_paper: 26
+random_paper: 43
 rate_limits:
 - limit_count: 4
   name: Microsoft Azure Api Management Rate Limits
@@ -1016,18 +1020,18 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: exemplar
-  composite: 76.9
-  delta: 0.0
+  composite: 81.6
+  delta: 4.7
   facets:
     commercial_clarity: 86.8
-    contract_quality: 53.8
+    contract_quality: 62.6
     developer_ergonomics: 93.5
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 78.9
   previous_composite: 76.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

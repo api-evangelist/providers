@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ plans:
 - name: Hyperscience Plans Pricing
   plan_count: 4
   slug: hyperscience-plans-pricing
-random_paper: 7
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Hyperscience Rate Limits
@@ -169,18 +169,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: thin
-  composite: 37.2
-  delta: 0.0
+  composite: 40.4
+  delta: 3.2
   facets:
     commercial_clarity: 57.9
     contract_quality: 51.3
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 37.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hyperscience/refs/heads/main/screenshots/hyperscience-2026-06-20T183049.png
 security:

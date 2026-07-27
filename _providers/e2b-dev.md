@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -359,18 +359,18 @@ rules:
   slug: e2b-dev-jsonschema-spectral-rules
 score:
   band: strong
-  composite: 60.5
-  delta: 0.0
+  composite: 64.7
+  delta: 4.2
   facets:
     commercial_clarity: 68.4
-    contract_quality: 54.8
+    contract_quality: 63.6
     developer_ergonomics: 73.9
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 21.1
   previous_composite: 60.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/e2b-dev/refs/heads/main/screenshots/e2b-dev-2026-06-20T180353.png
 security:

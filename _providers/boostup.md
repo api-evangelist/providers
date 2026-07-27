@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -176,7 +176,7 @@ overview: 'Boostup publishes 1 API on the [APIs.io](https://apis.io/) network: E
 
 
   Boostup''s developer surface includes authentication, engineering blog, documentation, API reference, signup flow, support, and 22 more developer resources.'
-random_paper: 15
+random_paper: 32
 score:
   band: developing
   composite: 47.3
@@ -190,8 +190,9 @@ score:
     operational_transparency: 26.3
   previous_composite: 47.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/boostup/refs/heads/main/screenshots/boostup-2026-07-25T203626.png
 security:
 - kind: authentication
   name: Boostup Authentication

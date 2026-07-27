@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 common:
@@ -51,7 +51,7 @@ name: Zumba Fitness
 nav: Providers
 network: true
 overview: Zumba Fitness is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 26
+random_paper: 60
 scopes:
 - name: Zumba Fitness Scopes
   scope_count: 0
@@ -70,7 +70,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

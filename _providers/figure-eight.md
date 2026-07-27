@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 55.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 13
 apis:
 - description: Manage account info.
@@ -153,7 +153,7 @@ overview: 'Figure Eight publishes 13 APIs on the [APIs.io](https://apis.io/) net
 
 
   Figure Eight''s developer surface includes API reference, documentation, authentication, and 12 more developer resources.'
-random_paper: 43
+random_paper: 60
 score:
   band: thin
   composite: 33.9
@@ -167,8 +167,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 33.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/figure-eight/refs/heads/main/screenshots/figure-eight-2026-07-25T214447.png
 security:
 - kind: authentication
   name: Figure Eight Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -316,7 +316,7 @@ plans:
 - name: Frankfurter Plans Pricing
   plan_count: 2
   slug: frankfurter-plans-pricing
-random_paper: 21
+random_paper: 38
 rate_limits:
 - limit_count: 2
   name: Frankfurter Rate Limits
@@ -339,20 +339,20 @@ rules:
     warn: 20
   slug: frankfurter-spectral-rules
 score:
-  band: thin
-  composite: 42.0
-  delta: 0.0
+  band: developing
+  composite: 47.4
+  delta: 5.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 61.7
+    contract_quality: 70.5
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 42.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/frankfurter/refs/heads/main/screenshots/frankfurter-2026-06-20T181506.png
 security:
 - kind: domain-security

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -121,7 +121,7 @@ overview: 'Mendral is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Mendral''s developer surface includes engineering blog, pricing, signup flow, support, CLI, and 15 more developer resources.'
-random_paper: 25
+random_paper: 59
 score:
   band: emerging
   composite: 25.6
@@ -135,7 +135,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 25.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

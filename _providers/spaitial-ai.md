@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: File upload endpoints
@@ -207,7 +207,7 @@ plans:
 - name: Spaitial Ai Plans
   plan_count: 4
   slug: spaitial-ai-plans
-random_paper: 31
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Spaitial Ai Rate Limits
@@ -225,7 +225,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

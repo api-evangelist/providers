@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -210,18 +210,18 @@ rules:
   slug: spring-rules
 score:
   band: developing
-  composite: 47.9
-  delta: 0.0
+  composite: 50.9
+  delta: 3.0
   facets:
     commercial_clarity: 28.9
-    contract_quality: 63.5
+    contract_quality: 72.4
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 42.1
   previous_composite: 47.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring/refs/heads/main/screenshots/spring-2026-06-20T194402.png
 security:

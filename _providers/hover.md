@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 27.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for creating and managing property capture jobs, retrieving 3D models and measurement deliverables, inspections, estimates, instant-design leads, and webhooks. OAuth 2.0 authenticated. Versio
@@ -137,7 +137,7 @@ overview: 'HOVER publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   HOVER''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Hover Rate Limits
@@ -145,7 +145,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.6
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 22.6
@@ -153,15 +153,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 38.2
+  previous_composite: 38.6
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hover/refs/heads/main/screenshots/hover-2026-07-25T221536.png
 security:
 - kind: authentication
   name: Hover Authentication

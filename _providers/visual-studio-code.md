@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Programmatic TypeScript / JavaScript API for building VS Code extensions. The Extension API exposes editor UI, language features, debugging adapters, themes, webviews, source control providers, tasks,
@@ -81,7 +81,7 @@ overview: 'Visual Studio Code publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Visual Studio Code''s developer surface includes documentation, GitHub presence, engineering blog, and 6 more developer resources.'
-random_paper: 40
+random_paper: 57
 score:
   band: minimal
   composite: 10.9
@@ -95,7 +95,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visual-studio-code/refs/heads/main/screenshots/visual-studio-code-2026-06-20T201102.png
 security:

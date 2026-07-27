@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -130,31 +130,32 @@ plans:
 - name: Gingr Plans Pricing
   plan_count: 4
   slug: gingr-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 3
   name: Gingr Rate Limits
   slug: gingr-rate-limits
 score:
   band: thin
-  composite: 35.3
-  delta: -1.6
+  composite: 38.0
+  delta: 2.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 55.1
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 36.9
+  previous_composite: 35.3
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gingr/refs/heads/main/screenshots/gingr-2026-07-25T215825.png
 security:
 - kind: authentication
   name: Gingr Authentication

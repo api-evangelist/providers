@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -92,25 +92,25 @@ plans:
 - name: Freedom Of Information Act Plans Pricing
   plan_count: 3
   slug: freedom-of-information-act-plans-pricing
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Freedom Of Information Act Rate Limits
   slug: freedom-of-information-act-rate-limits
 score:
   band: thin
-  composite: 34.2
-  delta: 0.0
+  composite: 37.4
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 56.0
     developer_ergonomics: 19.6
-    discoverability: 42.5
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 34.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freedom-of-information-act/refs/heads/main/screenshots/freedom-of-information-act-2026-06-20T181524.png
 security:

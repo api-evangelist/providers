@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ plans:
 - name: Charles Plans Pricing
   plan_count: 2
   slug: charles-plans-pricing
-random_paper: 24
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Charles Rate Limits
@@ -177,7 +177,7 @@ rules:
 score:
   band: thin
   composite: 43.3
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 47.5
@@ -185,14 +185,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 26.3
-  previous_composite: 42.1
+  previous_composite: 43.3
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charles/refs/heads/main/screenshots/charles-2026-06-20T174227.png
 security:

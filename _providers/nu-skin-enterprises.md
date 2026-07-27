@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,7 +66,7 @@ press:
 - date: '2026-05-25'
   title: Nu Skin Introduces the Next Generation of Smart Skincare with ...
   url: https://ir.nuskin.com/news-releases/news-release-details/nu-skin-introduces-next-generation-smart-skincare-ageloc-lumispa/
-random_paper: 20
+random_paper: 54
 score:
   band: minimal
   composite: 5.5
@@ -80,7 +80,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nu-skin-enterprises/refs/heads/main/screenshots/nu-skin-enterprises-2026-06-20T190512.png
 security:

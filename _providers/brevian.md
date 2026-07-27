@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Brevian's hosted (remote) Model Context Protocol server, exposing revenue-execution context (knowledge, deals, conversations, pipeline) to MCP-capable agents. Access is gated by OAuth 2.1 (authorizati
@@ -130,7 +130,7 @@ overview: 'Brevian publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Brevian''s developer surface includes documentation, support, engineering blog, signup flow, changelog, authentication, and 14 more developer resources.'
-random_paper: 29
+random_paper: 63
 scopes:
 - name: Brevian Scopes
   scope_count: 1
@@ -149,8 +149,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 29.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/brevian/refs/heads/main/screenshots/brevian-2026-07-25T203755.png
 security:
 - kind: authentication
   name: Brevian Authentication

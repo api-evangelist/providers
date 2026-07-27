@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -101,7 +101,7 @@ overview: 'Kayak is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kayak''s developer surface includes support, engineering blog, signup flow, and 12 more developer resources.'
-random_paper: 19
+random_paper: 53
 score:
   band: emerging
   composite: 17.3
@@ -115,8 +115,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 17.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kayak/refs/heads/main/screenshots/kayak-2026-07-25T223539.png
 security:
 - kind: domain-security
   name: Kayak Domain Security

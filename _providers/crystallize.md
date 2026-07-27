@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: Read-optimized GraphQL API for fetching structured product data, shapes, topics, price variants, stock, and rich content for storefronts. Queries are scoped to a tenant identifier and return path-base
@@ -137,7 +137,7 @@ plans:
 - name: Crystallize Plans Pricing
   plan_count: 1
   slug: crystallize-plans-pricing
-random_paper: 33
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Crystallize Rate Limits
@@ -155,7 +155,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 38.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crystallize/refs/heads/main/screenshots/crystallize-2026-06-20T175316.png
 security:

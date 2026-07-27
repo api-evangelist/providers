@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -288,7 +288,7 @@ press:
 - date: '2026-05-25'
   title: How Best Buy Uses AI To Transform Customer Experience
   url: https://www.forbes.com/sites/maribellopez/2025/06/17/how-best-buy-uses-ai-to-transform-customer-experience/
-random_paper: 46
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Best Buy Rate Limits
@@ -323,7 +323,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 54.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/best-buy/refs/heads/main/screenshots/best-buy-2026-06-20T173159.png
 security:

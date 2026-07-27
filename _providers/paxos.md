@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 61
   human_in_the_loop: 3
@@ -318,7 +318,7 @@ overview: 'Paxos publishes 43 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Paxos'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 25 more developer resources.'
-random_paper: 45
+random_paper: 11
 scopes:
 - name: Paxos Scopes
   scope_count: 66
@@ -327,7 +327,7 @@ scopes:
 score:
   band: developing
   composite: 57.9
-  delta: 3.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 64.8
@@ -335,14 +335,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 54.7
+  previous_composite: 57.9
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

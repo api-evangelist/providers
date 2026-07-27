@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +65,7 @@ overview: 'CodeMentor is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   CodeMentor''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 1
+random_paper: 52
 score:
   band: minimal
   composite: 12.3
@@ -79,8 +79,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/codementor/refs/heads/main/screenshots/codementor-2026-07-25T205923.png
 security:
 - kind: domain-security
   name: Codementor Domain Security

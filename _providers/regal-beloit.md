@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -81,7 +81,7 @@ press:
 - date: '2026-05-25'
   title: Regal Introduces Tiered Offering for Its Connected ...
   url: https://www.prnewswire.com/news-releases/regal-introduces-tiered-offering-for-its-connected-products-and-services-powered-by-perceptiv-intelligence-301335036.html
-random_paper: 34
+random_paper: 51
 score:
   band: minimal
   composite: 11.4
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regal-beloit/refs/heads/main/screenshots/regal-beloit-2026-06-20T192751.png
 security:

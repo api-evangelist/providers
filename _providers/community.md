@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ overview: 'Community publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Community''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 21 more developer resources.'
-random_paper: 28
+random_paper: 45
 scopes:
 - name: Community Scopes
   scope_count: 0
@@ -204,8 +204,9 @@ score:
     operational_transparency: 7.9
   previous_composite: 52.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/community/refs/heads/main/screenshots/community-2026-07-25T210140.png
 security:
 - kind: authentication
   name: Community Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'The Sensu Go backend REST API for managing observability resources: checks, events, entities, filters, handlers, mutators, hooks, pipelines, assets, silences, namespaces, roles, role bindings, cluster'
@@ -110,7 +110,7 @@ overview: 'Sensu publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Sensu''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 8 more developer resources.'
-random_paper: 48
+random_paper: 14
 score:
   band: emerging
   composite: 27.1
@@ -124,7 +124,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 27.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

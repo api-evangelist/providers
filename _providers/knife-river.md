@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ overview: 'Knife River is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Knife River''s developer surface includes developer portal, engineering blog, and 3 more developer resources.'
-random_paper: 0
+random_paper: 34
 score:
   band: minimal
   composite: 8.2
@@ -75,7 +75,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knife-river/refs/heads/main/screenshots/knife-river-2026-06-20T184107.png
 security:

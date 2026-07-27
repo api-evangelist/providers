@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 18
 common:
@@ -112,7 +112,7 @@ plans:
 - name: Alaska Airlines Plans Pricing
   plan_count: 2
   slug: alaska-airlines-plans-pricing
-random_paper: 42
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Alaska Airlines Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 21.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alaska-airlines/refs/heads/main/screenshots/alaska-airlines-2026-06-20T171509.png
 security:

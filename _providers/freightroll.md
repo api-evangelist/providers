@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 11.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,7 +77,7 @@ overview: 'FreightRoll is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   FreightRoll''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 13
+random_paper: 30
 score:
   band: minimal
   composite: 14.0
@@ -91,8 +91,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/freightroll/refs/heads/main/screenshots/freightroll-2026-07-25T215156.png
 security:
 - kind: domain-security
   name: Freightroll Domain Security

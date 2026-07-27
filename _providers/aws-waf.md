@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -104,21 +104,21 @@ overview: 'AWS WAF publishes 1 API on the [APIs.io](https://apis.io/) network: A
 
 
   AWS WAF''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 31
+random_paper: 14
 score:
-  band: emerging
-  composite: 29.1
-  delta: 0.0
+  band: thin
+  composite: 32.3
+  delta: 3.2
   facets:
     commercial_clarity: 18.4
     contract_quality: 60.2
     developer_ergonomics: 21.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 29.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-waf/refs/heads/main/screenshots/aws-waf-2026-06-20T172801.png
 security:

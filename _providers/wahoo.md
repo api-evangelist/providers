@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -184,7 +184,7 @@ plans:
 - name: Wahoo Plans Pricing
   plan_count: 2
   slug: wahoo-plans-pricing
-random_paper: 32
+random_paper: 66
 rate_limits:
 - limit_count: 6
   name: Wahoo Rate Limits
@@ -213,18 +213,18 @@ scopes:
   summary_line: 12 scopes · authorizationCode
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 50.5
+  delta: 4.2
   facets:
     commercial_clarity: 21.1
-    contract_quality: 64.6
+    contract_quality: 73.5
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 65.8
     operational_transparency: 36.8
   previous_composite: 46.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wahoo/refs/heads/main/screenshots/wahoo-2026-06-20T201201.png
 security:

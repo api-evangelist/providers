@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 44.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -223,18 +223,18 @@ rules:
   slug: cilium-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 54.9
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 64.8
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 65.8
     operational_transparency: 52.6
   previous_composite: 52.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cilium/refs/heads/main/screenshots/cilium-2026-06-20T174342.png
 security:

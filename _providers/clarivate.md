@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -145,7 +145,7 @@ plans:
 - name: Clarivate Plans Pricing
   plan_count: 3
   slug: clarivate-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Clarivate Rate Limits
@@ -161,23 +161,23 @@ rules:
   slug: clarivate-rules
 score:
   band: developing
-  composite: 47.8
-  delta: 1.2
+  composite: 49.5
+  delta: 1.7
   facets:
     commercial_clarity: 60.5
     contract_quality: 58.4
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 26.3
     operational_transparency: 36.8
-  previous_composite: 46.6
+  previous_composite: 47.8
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/screenshots/clarivate-2026-06-20T174437.png
 security:

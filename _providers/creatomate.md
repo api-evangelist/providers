@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -116,18 +116,18 @@ rate_limits:
   slug: creatomate-rate-limits
 score:
   band: thin
-  composite: 37.7
-  delta: 0.0
+  composite: 40.9
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 60.2
     developer_ergonomics: 19.6
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 37.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/creatomate/refs/heads/main/screenshots/creatomate-2026-06-20T175219.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Private partner/agent API used by hotels to manage inventory, rates, and availability with HotelTonight. Access is gated behind partner credentials (HTTP Basic auth); no public OpenAPI specification i
@@ -94,7 +94,7 @@ overview: 'HotelTonight publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   HotelTonight''s developer surface includes documentation, support, signup flow, authentication, and 8 more developer resources.'
-random_paper: 30
+random_paper: 13
 score:
   band: emerging
   composite: 24.7
@@ -108,8 +108,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 24.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hoteltonight/refs/heads/main/screenshots/hoteltonight-2026-07-25T221516.png
 security:
 - kind: authentication
   name: Hoteltonight Authentication

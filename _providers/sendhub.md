@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 75.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ overview: 'SendHub publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   SendHub''s developer surface includes documentation, API reference, pricing, engineering blog, support, signup flow, authentication, and 21 more developer resources.'
-random_paper: 31
+random_paper: 65
 score:
   band: developing
   composite: 51.3
@@ -205,7 +205,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 51.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

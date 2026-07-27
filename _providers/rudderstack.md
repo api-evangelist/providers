@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -245,7 +245,7 @@ plans:
 - name: Rudderstack Plans Pricing
   plan_count: 5
   slug: rudderstack-plans-pricing
-random_paper: 7
+random_paper: 24
 rate_limits:
 - limit_count: 6
   name: Rudderstack Rate Limits
@@ -261,18 +261,18 @@ rules:
   slug: rudderstack-asyncapi-spectral-rules
 score:
   band: strong
-  composite: 64.2
-  delta: 0.0
+  composite: 65.0
+  delta: 0.8
   facets:
     commercial_clarity: 63.2
     contract_quality: 71.2
     developer_ergonomics: 54.3
-    discoverability: 67.5
+    discoverability: 75.0
     governance: 60.5
     operational_transparency: 68.4
   previous_composite: 64.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rudderstack/refs/heads/main/screenshots/rudderstack-2026-06-20T193249.png
 security:

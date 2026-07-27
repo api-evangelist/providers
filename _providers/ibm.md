@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 74.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 26
   human_in_the_loop: 2
@@ -242,7 +242,7 @@ arazzos:
 - description: Create a trusted profile, attach a SAML claim rule, and verify the trust took effect.
   name: IBM Cloud IAM Set Up a Trusted Profile for Federated Access
   slug: ibm-trusted-profile-federation-workflow
-artifact_total: 98
+artifact_total: 99
 collections:
 - collection_type: open
   name: IBM Cloud IAM API
@@ -510,6 +510,10 @@ jsonld:
   property_count: 21
   slug: ibm-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: ibm-mcp.yml
+  slug: ibm-mcpyml
 modified: '2026-06-20'
 name: IBM
 nav: Providers
@@ -541,7 +545,7 @@ press:
 - date: '2026-05-25'
   title: Artificial intelligence press releases
   url: https://newsroom.ibm.com/press-releases-artificial-intelligence
-random_paper: 6
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Ibm Rate Limits
@@ -561,19 +565,19 @@ scopes:
   slug: ibm-scopes
   summary_line: 7 scopes
 score:
-  band: strong
-  composite: 68.9
-  delta: 0.0
+  band: exemplar
+  composite: 72.7
+  delta: 3.8
   facets:
     commercial_clarity: 78.9
-    contract_quality: 67.3
+    contract_quality: 72.6
     developer_ergonomics: 65.2
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 68.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm/refs/heads/main/screenshots/ibm-2026-06-20T183117.png
 security:

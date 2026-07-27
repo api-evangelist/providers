@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -138,7 +138,7 @@ plans:
 - name: Johns Hopkins University Plans Pricing
   plan_count: 2
   slug: johns-hopkins-university-plans-pricing
-random_paper: 23
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Johns Hopkins University Rate Limits
@@ -173,7 +173,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 48.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/johns-hopkins-university/refs/heads/main/screenshots/johns-hopkins-university-2026-06-20T183755.png
 security:

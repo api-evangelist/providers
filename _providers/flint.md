@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ overview: 'Flint publishes 1 API on the [APIs.io](https://apis.io/) network: Age
 
 
   Flint''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, authentication, and 22 more developer resources.'
-random_paper: 31
+random_paper: 65
 scopes:
 - name: Flint Scopes
   scope_count: 7
@@ -199,8 +199,9 @@ score:
     operational_transparency: 18.4
   previous_composite: 53.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/flint/refs/heads/main/screenshots/flint-2026-07-25T214758.png
 security:
 - kind: authentication
   name: Flint Authentication

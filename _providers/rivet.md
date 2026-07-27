@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ overview: 'Rivet publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ac
 
 
   Rivet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: thin
   composite: 42.8
@@ -178,7 +178,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 42.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

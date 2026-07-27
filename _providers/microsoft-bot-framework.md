@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ apis:
 - description: The Members API from Microsoft Bot Framework — 4 operation(s) for members.
   name: Microsoft Bot Framework Members API
   slug: microsoft-bot-framework-members-api
-artifact_total: 13
+artifact_total: 14
 collections:
 - collection_type: open
   name: Microsoft Bot Framework Connector REST API
@@ -113,6 +113,10 @@ finops:
   slug: microsoft-bot-framework-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-bot-framework.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Microsoft Bot Framework
 nav: Providers
@@ -125,25 +129,25 @@ plans:
 - name: Microsoft Bot Framework Plans Pricing
   plan_count: 3
   slug: microsoft-bot-framework-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Microsoft Bot Framework Rate Limits
   slug: microsoft-bot-framework-rate-limits
 score:
-  band: thin
-  composite: 43.0
-  delta: 0.0
+  band: developing
+  composite: 45.0
+  delta: 2.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 47.8
     developer_ergonomics: 32.6
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 43.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-bot-framework/refs/heads/main/screenshots/microsoft-bot-framework-2026-06-20T185445.png
 security:

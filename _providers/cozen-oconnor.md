@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: 'The Cozen O''Connor public website at cozen.com is the firm''s primary external knowledge surface, organizing attorney biographies, practice and industry pages, office locations, news and publications, '
@@ -113,7 +113,7 @@ name: Cozen O'Connor
 nav: Providers
 network: true
 overview: Cozen O'Connor publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Am Law 100, Corporate Law, Government Affairs, Insurance Law, and Intellectual Property.
-random_paper: 28
+random_paper: 62
 score:
   band: minimal
   composite: 8.8
@@ -127,7 +127,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cozen-oconnor/refs/heads/main/screenshots/cozen-oconnor-2026-06-20T175152.png
 security:

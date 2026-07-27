@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 15.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'The Prime Roots Shopify storefront''s agent-facing commerce surface: a UCP merchant profile, a hosted MCP endpoint for catalog/cart/checkout, and read-only storefront JSON endpoints.'
@@ -81,7 +81,7 @@ overview: 'Prime Roots publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Prime Roots'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 31
+random_paper: 65
 score:
   band: emerging
   composite: 15.7
@@ -95,7 +95,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

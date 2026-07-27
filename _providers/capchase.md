@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 46.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 5
@@ -141,7 +141,7 @@ random_paper: 8
 score:
   band: developing
   composite: 48.3
-  delta: 3.0
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 54.9
@@ -149,15 +149,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 45.3
+  previous_composite: 48.3
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/capchase/refs/heads/main/screenshots/capchase-2026-07-25T204424.png
 security:
 - kind: authentication
   name: Capchase Authentication

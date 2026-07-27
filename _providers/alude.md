@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,11 +73,11 @@ overview: 'Alude is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Alude''s developer surface includes signup flow, pricing, engineering blog, and 5 more developer resources.'
-random_paper: 13
+random_paper: 47
 score:
   band: emerging
   composite: 18.3
-  delta: 2.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -85,15 +85,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 16.1
+  previous_composite: 18.3
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alude/refs/heads/main/screenshots/alude-2026-07-25T195855.png
 security:
 - kind: domain-security
   name: Alude Domain Security

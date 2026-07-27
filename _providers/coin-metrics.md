@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -253,7 +253,7 @@ rate_limits:
 score:
   band: developing
   composite: 57.4
-  delta: 18.5
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 70.7
@@ -261,15 +261,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 60.5
-  previous_composite: 38.9
+  previous_composite: 57.4
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coin-metrics/refs/heads/main/screenshots/coin-metrics-2026-07-22T202257.png
 security:
 - kind: authentication

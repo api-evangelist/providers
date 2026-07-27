@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ overview: 'BCU Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   BCU Bank''s developer surface includes authentication, documentation, API reference, engineering blog, support, and 25 more developer resources.'
-random_paper: 6
+random_paper: 23
 scopes:
 - name: Bcu Bank Scopes
   scope_count: 5
@@ -204,7 +204,7 @@ scopes:
 score:
   band: developing
   composite: 49.9
-  delta: 8.8
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 53.4
@@ -212,15 +212,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 41.1
+  previous_composite: 49.9
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 100.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bcu-bank/refs/heads/main/screenshots/bcu-bank-2026-07-21T114720.png
 security:
 - kind: authentication

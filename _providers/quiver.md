@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -113,30 +113,30 @@ plans:
 - name: Quiver Plans Pricing
   plan_count: 3
   slug: quiver-plans-pricing
-random_paper: 5
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Quiver Rate Limits
   slug: quiver-rate-limits
 score:
   band: thin
-  composite: 41.1
-  delta: 0.5
+  composite: 43.8
+  delta: 2.7
   facets:
     commercial_clarity: 71.1
     contract_quality: 47.8
     developer_ergonomics: 21.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 40.6
+  previous_composite: 41.1
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quiver/refs/heads/main/screenshots/quiver-2026-06-20T192443.png
 security:

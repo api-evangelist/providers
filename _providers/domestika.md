@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Domestika REST API at api.domestika.org is the internal backbone of the Domestika platform, providing access to course catalog listings, learner enrollment records, user profiles, community conten
@@ -114,7 +114,7 @@ plans:
 - name: Domestika Plans Pricing
   plan_count: 6
   slug: domestika-plans-pricing
-random_paper: 43
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Domestika Rate Limits
@@ -132,7 +132,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 35.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/domestika/refs/heads/main/screenshots/domestika-2026-06-20T180145.png
 security:

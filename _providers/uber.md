@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -409,19 +409,19 @@ rules:
     warn: 9
   slug: uber-rules
 score:
-  band: developing
-  composite: 56.9
-  delta: 0.0
+  band: strong
+  composite: 61.6
+  delta: 4.7
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.0
+    contract_quality: 73.8
     developer_ergonomics: 47.8
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 56.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uber/refs/heads/main/screenshots/uber-2026-06-20T195925.png
 security:

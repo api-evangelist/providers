@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ plans:
 - name: Dead Drop Plans Pricing
   plan_count: 1
   slug: dead-drop-plans-pricing
-random_paper: 13
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Dead Drop Rate Limits
@@ -181,18 +181,18 @@ rules:
   slug: dead-drop-rules
 score:
   band: thin
-  composite: 40.5
-  delta: 0.0
+  composite: 43.0
+  delta: 2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 54.9
     developer_ergonomics: 15.2
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 21.1
   previous_composite: 40.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dead-drop/refs/heads/main/screenshots/dead-drop-2026-06-20T175740.png
 security:

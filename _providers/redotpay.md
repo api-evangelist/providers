@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Production RedotPay HTTP API surface behind the redotpay CLI and the redotpay-payment MCP server. Provides OAuth2 device-flow authentication and the agentic Machine Payments Protocol (MPP) endpoint th
@@ -130,7 +130,7 @@ overview: 'Redotpay publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Redotpay''s developer surface includes documentation, support, engineering blog, signup flow, CLI, authentication, and 14 more developer resources.'
-random_paper: 5
+random_paper: 56
 scopes:
 - name: Redotpay Scopes
   scope_count: 0
@@ -139,7 +139,7 @@ scopes:
 score:
   band: emerging
   composite: 27.6
-  delta: 5.5
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -147,15 +147,15 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 22.1
+  previous_composite: 27.6
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Redotpay Authentication

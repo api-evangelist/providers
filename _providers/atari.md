@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ overview: 'Atari is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Atari''s developer surface includes documentation, support, engineering blog, and 6 more developer resources.'
-random_paper: 19
+random_paper: 53
 score:
   band: minimal
   composite: 14.7
@@ -91,8 +91,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/atari/refs/heads/main/screenshots/atari-2026-07-25T201526.png
 security:
 - kind: domain-security
   name: Atari Domain Security

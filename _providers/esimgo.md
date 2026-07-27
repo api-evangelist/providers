@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -124,19 +124,20 @@ rate_limits:
   slug: esimgo-rate-limits
 score:
   band: thin
-  composite: 35.3
-  delta: 0.0
+  composite: 38.6
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 56.0
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 35.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/esimgo/refs/heads/main/screenshots/esimgo-2026-07-25T213621.png
 security:
 - kind: authentication
   name: Esimgo Authentication

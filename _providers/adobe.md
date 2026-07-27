@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ arazzos:
 - description: Upload a PDF, split it by page count into multiple files, poll the job, and fetch the result.
   name: Adobe Split a PDF
   slug: adobe-split-pdf-workflow
-artifact_total: 212
+artifact_total: 213
 collections:
 - collection_type: postman
   name: Adobe PDF Services API
@@ -763,6 +763,10 @@ jsonld:
   property_count: 0
   slug: adobe-pdf-services-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Adobe
 nav: Providers
@@ -794,7 +798,7 @@ press:
 - date: '2026-05-25'
   title: Adobe (@Adobe) / Posts / X
   url: https://x.com/Adobe
-random_paper: 48
+random_paper: 31
 rate_limits:
 - limit_count: 2
   name: Adobe Rate Limits
@@ -817,20 +821,21 @@ rules:
     warn: 9
   slug: adobe-spectral-rules
 score:
-  band: strong
-  composite: 68.4
-  delta: 0.0
+  band: exemplar
+  composite: 71.7
+  delta: 3.3
   facets:
     commercial_clarity: 73.7
-    contract_quality: 73.5
+    contract_quality: 78.8
     developer_ergonomics: 63.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 42.1
   previous_composite: 68.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/adobe/refs/heads/main/screenshots/adobe-2026-07-25T181652.png
 security:
 - kind: authentication
   name: Adobe Authentication

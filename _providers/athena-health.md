@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -291,7 +291,7 @@ plans:
 - name: Athena Health Plans Pricing
   plan_count: 3
   slug: athena-health-plans-pricing
-random_paper: 25
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Athena Health Rate Limits
@@ -328,23 +328,23 @@ scopes:
   summary_line: 11 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 51.2
-  delta: 1.3
+  composite: 55.2
+  delta: 4.0
   facets:
     commercial_clarity: 39.5
-    contract_quality: 67.3
+    contract_quality: 76.1
     developer_ergonomics: 47.8
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 0.0
-  previous_composite: 49.9
+  previous_composite: 51.2
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/athena-health/refs/heads/main/screenshots/athena-health-2026-06-20T172518.png
 security:

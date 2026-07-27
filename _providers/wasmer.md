@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -128,18 +128,18 @@ rate_limits:
   slug: wasmer-rate-limits
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 41.7
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.9
     developer_ergonomics: 21.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 38.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wasmer/refs/heads/main/screenshots/wasmer-2026-06-20T201241.png
 security:

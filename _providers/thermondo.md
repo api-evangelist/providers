@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -66,7 +66,7 @@ name: Thermondo
 nav: Providers
 network: true
 overview: Thermondo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer; Climate Energy, Heat Pumps, Solar, and Home Energy.
-random_paper: 7
+random_paper: 24
 score:
   band: minimal
   composite: 8.8
@@ -80,7 +80,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 8.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

@@ -1,4 +1,22 @@
 ---
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -71,7 +89,27 @@ overview: 'Pay.UK is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Pay.UK''s developer surface includes documentation, getting-started guide, engineering blog, support, and 10 more developer resources.'
-random_paper: 32
+random_paper: 55
+score:
+  band: emerging
+  composite: 20.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 21.1
+    contract_quality: 0.0
+    developer_ergonomics: 26.1
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 20.0
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 41.3
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: domain-security
   name: Pay Uk Domain Security

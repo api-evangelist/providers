@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Terex digital solutions including MyTerex fleet management, Connected Dealer Inventory (CDI), and telematics data access for real-time machine monitoring, performance dashboards, and predictive mainte
@@ -106,7 +106,7 @@ press:
 - date: '2026-05-25'
   title: Terex Corporation Standardizes 36 Websites ...
   url: https://www.progress.com/customers/terex-corporation-standardizes-sitefinity
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Terex Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 28.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terex/refs/heads/main/screenshots/terex-2026-06-20T195126.png
 security:

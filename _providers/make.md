@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -199,18 +199,18 @@ rate_limits:
   slug: make-rate-limits
 score:
   band: developing
-  composite: 49.4
-  delta: 0.0
+  composite: 51.4
+  delta: 2.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 51.3
     developer_ergonomics: 37.0
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 49.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/make/refs/heads/main/screenshots/make-2026-06-20T184908.png
 security:

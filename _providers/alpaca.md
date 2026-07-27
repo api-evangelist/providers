@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 90.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ apis:
 - description: Head to https://alpaca.markets/docs/api-documentation/api-v2/watchlist/ to view complete documentation on the Watchlist API.
   name: Alpaca Watchlists API
   slug: alpaca-watchlists-api
-artifact_total: 38
+artifact_total: 39
 asyncapis:
 - description: AsyncAPI 2.6 description of Alpaca's public WebSocket streaming APIs. Covers real-time stock market data (IEX / SIP / delayed SIP / BOATS), real-time crypto market data (US and Global), real-time news
   name: Alpaca WebSocket Streaming APIs
@@ -305,6 +305,10 @@ finops:
   slug: alpaca-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alpaca.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: alpaca-mcp.yml
+  slug: alpaca-mcpyml
 modified: '2026-07-22'
 name: Alpaca
 nav: Providers
@@ -320,7 +324,7 @@ plans:
 - name: Alpaca Plans Pricing
   plan_count: 3
   slug: alpaca-plans-pricing
-random_paper: 49
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Alpaca Rate Limits
@@ -341,23 +345,23 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 83.7
-  delta: 2.9
+  composite: 86.4
+  delta: 2.7
   facets:
     commercial_clarity: 100.0
     contract_quality: 69.0
     developer_ergonomics: 91.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 60.5
     operational_transparency: 86.8
-  previous_composite: 80.8
+  previous_composite: 83.7
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 100.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/screenshots/alpaca-2026-06-20T171542.png
 security:

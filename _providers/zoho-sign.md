@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ plans:
 - name: Zoho Sign Plans Pricing
   plan_count: 5
   slug: zoho-sign-plans-pricing
-random_paper: 8
+random_paper: 42
 rate_limits:
 - limit_count: 0
   name: Zoho Sign Rate Limits
@@ -189,7 +189,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 51.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zoho-sign/refs/heads/main/screenshots/zoho-sign-2026-06-20T201947.png
 security:

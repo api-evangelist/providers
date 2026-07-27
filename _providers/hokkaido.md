@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Publicly crawlable XML sitemap index for the HUSCAP repository, providing a machine-readable list of repository item URLs. This is an open, robots.txt- permitted endpoint usable for programmatic disco
@@ -73,11 +91,26 @@ plans:
 - name: Hokkaido Plans Pricing
   plan_count: 2
   slug: hokkaido-plans-pricing
-random_paper: 23
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Hokkaido Rate Limits
   slug: hokkaido-rate-limits
+score:
+  band: emerging
+  composite: 21.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 15.1
+    developer_ergonomics: 0.0
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 21.5
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hokkaido/refs/heads/main/screenshots/hokkaido-2026-06-20T182813.png
 security:
 - kind: domain-security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -115,7 +115,7 @@ plans:
 - name: United States Coast Guard Plans Pricing
   plan_count: 3
   slug: united-states-coast-guard-plans-pricing
-random_paper: 14
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: United States Coast Guard Rate Limits
@@ -139,18 +139,18 @@ rules:
   slug: united-states-coast-guard-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.4
-  delta: 0.0
+  composite: 40.6
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.9
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 26.3
     operational_transparency: 31.6
   previous_composite: 37.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-coast-guard/refs/heads/main/screenshots/united-states-coast-guard-2026-06-20T200050.png
 security:

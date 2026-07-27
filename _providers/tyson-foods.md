@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ press:
 - date: '2026-05-25'
   title: Tyson Demo Day Showcases AI Innovations in Food ...
   url: https://www.tysonfoods.com/news/news-releases/2025/7/tyson-demo-day-showcases-ai-innovations-food-technology
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Tyson Foods Rate Limits
@@ -197,19 +197,19 @@ rules:
     warn: 5
   slug: tyson-foods-rules
 score:
-  band: thin
-  composite: 44.6
-  delta: 0.0
+  band: developing
+  composite: 47.9
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 60.2
     developer_ergonomics: 2.2
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 21.1
   previous_composite: 44.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/screenshots/tyson-foods-2026-06-20T195909.png
 security:

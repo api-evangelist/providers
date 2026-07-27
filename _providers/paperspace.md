@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -402,18 +402,18 @@ rules:
   slug: paperspace-rules
 score:
   band: strong
-  composite: 62.9
-  delta: 0.0
+  composite: 64.2
+  delta: 1.3
   facets:
     commercial_clarity: 78.9
-    contract_quality: 58.4
+    contract_quality: 63.7
     developer_ergonomics: 63.0
     discoverability: 67.5
     governance: 86.8
     operational_transparency: 21.1
   previous_composite: 62.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paperspace/refs/heads/main/screenshots/paperspace-2026-06-20T191351.png
 security:

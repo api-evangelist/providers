@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 18.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Apollo Federation enables declarative composition of multiple subgraph APIs into a single federated supergraph. The Apollo Router orchestrates requests across subgraphs, combining GraphQL APIs and RES
@@ -147,7 +147,7 @@ plans:
 - name: Apollo Federation Plans Pricing
   plan_count: 3
   slug: apollo-federation-plans-pricing
-random_paper: 15
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Apollo Federation Rate Limits
@@ -174,7 +174,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 43.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-federation/refs/heads/main/screenshots/apollo-federation-2026-06-20T172310.png
 security:

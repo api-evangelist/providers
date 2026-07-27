@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The Copernicus Marine Toolbox provides the officially supported programmatic interface to the Copernicus Marine Data Store, available as both a Python library and CLI. Core operations include describe
@@ -116,7 +116,7 @@ plans:
 - name: Copernicus Marine Plans
   plan_count: 1
   slug: copernicus-marine-plans
-random_paper: 30
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Copernicus Marine Rate Limits
@@ -124,7 +124,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.2
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 9.4
@@ -132,14 +132,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 23.1
+  previous_composite: 23.2
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/copernicus-marine/refs/heads/main/screenshots/copernicus-marine-2026-06-20T175018.png
 security:

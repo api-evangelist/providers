@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 27.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'REST/JSON API for the Iru (formerly Kandji) endpoint management platform: read fleet data and run device actions, manage apps, Library items, Library uploads, Blueprints, tenant activity, and Automate'
@@ -154,7 +154,7 @@ overview: 'Iru publishes 1 API on the [APIs.io](https://apis.io/) network: Endpo
 
 
   Iru''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 30
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Iru Rate Limits
@@ -172,8 +172,9 @@ score:
     operational_transparency: 42.1
   previous_composite: 40.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/iru/refs/heads/main/screenshots/iru-2026-07-25T222931.png
 security:
 - kind: authentication
   name: Iru Authentication

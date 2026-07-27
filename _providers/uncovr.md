@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -125,11 +125,11 @@ overview: 'Uncovr publishes 1 API on the [APIs.io](https://apis.io/) network: In
 
 
   Uncovr''s developer surface includes authentication, support, and 15 more developer resources.'
-random_paper: 6
+random_paper: 57
 score:
   band: thin
   composite: 35.1
-  delta: 3.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 48.7
@@ -137,14 +137,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 31.7
+  previous_composite: 35.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

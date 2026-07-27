@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,7 +93,7 @@ overview: 'DraftWise is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   DraftWise''s developer surface includes documentation, engineering blog, support, pricing, signup flow, and 8 more developer resources.'
-random_paper: 0
+random_paper: 17
 score:
   band: emerging
   composite: 22.6
@@ -107,8 +107,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 22.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/draftwise/refs/heads/main/screenshots/draftwise-2026-07-25T212340.png
 security:
 - kind: domain-security
   name: Draftwise Domain Security

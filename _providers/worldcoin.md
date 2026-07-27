@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: Anonymous proof-of-human credential. Users prove uniqueness via Orb (highest assurance), government document with NFC, or selfie liveness check (beta). Applications request a zero-knowledge proof tied
@@ -109,7 +109,7 @@ plans:
 - name: Worldcoin Plans Pricing
   plan_count: 1
   slug: worldcoin-plans-pricing
-random_paper: 8
+random_paper: 25
 rate_limits:
 - limit_count: 2
   name: Worldcoin Rate Limits
@@ -127,7 +127,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 22.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/worldcoin/refs/heads/main/screenshots/worldcoin-2026-06-20T201620.png
 security:

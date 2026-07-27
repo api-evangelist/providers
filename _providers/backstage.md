@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -372,7 +372,7 @@ plans:
 - name: Backstage Plans Pricing
   plan_count: 4
   slug: backstage-plans-pricing
-random_paper: 15
+random_paper: 49
 rate_limits:
 - limit_count: 6
   name: Backstage Rate Limits
@@ -404,18 +404,18 @@ rules:
   slug: backstage-spectral-rules
 score:
   band: developing
-  composite: 56.4
-  delta: 0.0
+  composite: 58.4
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 73.2
     developer_ergonomics: 37.0
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 56.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backstage/refs/heads/main/screenshots/backstage-2026-06-20T172918.png
 security:

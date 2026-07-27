@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 3
@@ -127,26 +127,27 @@ plans:
 - name: Edgegap Plans Pricing
   plan_count: 3
   slug: edgegap-plans-pricing
-random_paper: 3
+random_paper: 37
 rate_limits:
 - limit_count: 4
   name: Edgegap Rate Limits
   slug: edgegap-rate-limits
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 39.2
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 50.2
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 35.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/edgegap/refs/heads/main/screenshots/edgegap-2026-07-25T212833.png
 security:
 - kind: authentication
   name: Edgegap Authentication

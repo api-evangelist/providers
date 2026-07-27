@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -146,7 +146,7 @@ plans:
 - name: Terrain Discovery Environment Api Plans Pricing
   plan_count: 3
   slug: terrain-discovery-environment-api-plans-pricing
-random_paper: 29
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Terrain Discovery Environment Api Rate Limits
@@ -170,23 +170,23 @@ rules:
   slug: terrain-rules
 score:
   band: developing
-  composite: 47.4
-  delta: -1.8
+  composite: 50.1
+  delta: 2.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 63.7
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 31.6
-  previous_composite: 49.2
+  previous_composite: 47.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terrain-discovery-environment-api/refs/heads/main/screenshots/terrain-discovery-environment-api-2026-06-20T195131.png
 security:

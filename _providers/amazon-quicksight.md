@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -338,7 +338,7 @@ plans:
 - name: Amazon Quicksight Plans Pricing
   plan_count: 3
   slug: amazon-quicksight-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Amazon Quicksight Rate Limits
@@ -361,19 +361,19 @@ rules:
     warn: 16
   slug: amazon-quicksight-spectral-rules
 score:
-  band: strong
-  composite: 65.7
-  delta: 0.0
+  band: exemplar
+  composite: 70.2
+  delta: 4.5
   facets:
     commercial_clarity: 78.9
-    contract_quality: 61.1
+    contract_quality: 66.4
     developer_ergonomics: 63.0
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 65.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-quicksight/refs/heads/main/screenshots/amazon-quicksight-2026-06-20T171805.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -278,7 +278,7 @@ arazzos:
 - description: Read a job, partially update its settings, then trigger a fresh run.
   name: Databricks Update Job Settings and Re-Run
   slug: databricks-update-job-and-rerun-workflow
-artifact_total: 262
+artifact_total: 263
 collections:
 - collection_type: postman
   name: Databricks REST API
@@ -976,6 +976,10 @@ jsonld:
   property_count: 0
   slug: databricks-context
 layout: provider
+mcp_servers:
+- description: Databricks managed MCP servers for Unity Catalog functions, Genie spaces, Databricks SQL, and Vector Search, with Unity Catalog permissions always enforced.
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Databricks
 nav: Providers
@@ -1015,18 +1019,18 @@ rules:
   slug: databricks-spectral-rules
 score:
   band: exemplar
-  composite: 73.7
-  delta: 0.0
+  composite: 75.0
+  delta: 1.3
   facets:
     commercial_clarity: 84.2
     contract_quality: 66.4
     developer_ergonomics: 78.3
-    discoverability: 55.0
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 78.9
   previous_composite: 73.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/databricks/refs/heads/main/screenshots/databricks-2026-06-20T175634.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 26.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Hosted, OAuth-secured Model Context Protocol server that lets supported AI assistants work inside Martini projects using the signed-in user''s account permissions — browse projects, canvases, subjects '
@@ -122,7 +122,7 @@ overview: 'Martini publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Martini''s developer surface includes documentation, API reference, pricing, signup flow, support, authentication, and 12 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: emerging
   composite: 29.4
@@ -136,8 +136,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 29.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/martini/refs/heads/main/screenshots/martini-2026-07-25T230407.png
 security:
 - kind: authentication
   name: Martini Authentication

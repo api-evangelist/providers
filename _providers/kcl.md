@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: KCL constraint-based record and functional programming language for configuration and policy scenarios in cloud-native environments.
@@ -74,7 +74,7 @@ plans:
 - name: Kcl Plans Pricing
   plan_count: 3
   slug: kcl-plans-pricing
-random_paper: 8
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Kcl Rate Limits
@@ -92,7 +92,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 21.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kcl/refs/heads/main/screenshots/kcl-2026-06-20T183930.png
 security:

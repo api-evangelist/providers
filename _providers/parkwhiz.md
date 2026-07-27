@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ plans:
 - name: Parkwhiz Plans Pricing
   plan_count: 3
   slug: parkwhiz-plans-pricing
-random_paper: 13
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Parkwhiz Rate Limits
@@ -152,18 +152,18 @@ scopes:
   summary_line: 4 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 41.5
-  delta: 0.0
+  composite: 44.7
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 54.4
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 41.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -165,19 +165,19 @@ scopes:
   slug: google-tasks-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: developing
-  composite: 58.8
-  delta: 0.0
+  band: strong
+  composite: 63.4
+  delta: 4.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 63.7
+    contract_quality: 69.0
     developer_ergonomics: 45.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 58.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-tasks/refs/heads/main/screenshots/google-tasks-2026-06-20T182240.png
 security:

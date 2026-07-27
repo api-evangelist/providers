@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ plans:
 - name: Plans
   plan_count: 4
   slug: plans
-random_paper: 12
+random_paper: 29
 rate_limits:
 - limit_count: 4
   name: Rate Limits
@@ -223,7 +223,7 @@ rules:
 score:
   band: strong
   composite: 61.9
-  delta: -2.4
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 71.7
@@ -231,14 +231,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 39.5
-  previous_composite: 64.3
+  previous_composite: 61.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/splitit/refs/heads/main/screenshots/splitit-2026-06-20T194331.png
 security:

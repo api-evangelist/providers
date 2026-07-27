@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 81.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ overview: 'Wunderkind publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Wunderkind''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 24 more developer resources.'
-random_paper: 12
+random_paper: 63
 rate_limits:
 - limit_count: 0
   name: Wunderkind Rate Limits
@@ -224,7 +224,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 53.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

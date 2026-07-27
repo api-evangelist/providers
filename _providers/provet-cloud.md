@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -140,23 +140,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials/authorizationCode
 score:
   band: thin
-  composite: 37.8
-  delta: 1.8
+  composite: 40.6
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 51.8
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 36.0
+  previous_composite: 37.8
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

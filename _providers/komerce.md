@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 84.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -223,7 +223,7 @@ plans:
 - name: Komerce Plans
   plan_count: 3
   slug: komerce-plans
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 0
   name: Komerce Rate Limits
@@ -231,7 +231,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.0
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 66.5
@@ -239,15 +239,16 @@ score:
     discoverability: 100.0
     governance: 13.2
     operational_transparency: 23.7
-  previous_composite: 62.2
+  previous_composite: 61.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/komerce/refs/heads/main/screenshots/komerce-2026-07-25T224133.png
 security:
 - kind: authentication
   name: Komerce Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ plans:
 - name: The Odds Api Plans Pricing
   plan_count: 3
   slug: the-odds-api-plans-pricing
-random_paper: 29
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: The Odds Api Rate Limits
@@ -189,18 +189,18 @@ rules:
   slug: the-odds-api-rules
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 55.4
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 65.5
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 52.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/the-odds-api/refs/heads/main/screenshots/the-odds-api-2026-06-20T195231.png
 security:

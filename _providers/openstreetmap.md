@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -247,7 +247,7 @@ plans:
 - name: Openstreetmap Plans Pricing
   plan_count: 3
   slug: openstreetmap-plans-pricing
-random_paper: 38
+random_paper: 55
 rate_limits:
 - limit_count: 4
   name: Openstreetmap Rate Limits
@@ -268,23 +268,23 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.5
-  delta: 4.7
+  composite: 66.4
+  delta: 3.9
   facets:
     commercial_clarity: 60.5
-    contract_quality: 68.1
+    contract_quality: 73.5
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
-  previous_composite: 57.8
+  previous_composite: 62.5
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 89.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openstreetmap/refs/heads/main/screenshots/openstreetmap-2026-06-20T191043.png
 security:

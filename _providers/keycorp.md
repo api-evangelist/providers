@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 86.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
 - description: The KeyBank Webhooks service delivers real-time payment event notifications to subscribed commercial client applications for ACH, Wire, and RTP alerts. It defines client-hosted callback endpoints (ale
   name: KeyBank Webhooks
   slug: webhooks
-artifact_total: 18
+artifact_total: 19
 asyncapis:
 - description: ''
   name: Keycorp Payment Alerts Webhooks
@@ -173,6 +173,10 @@ finops:
   slug: keycorp-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/keycorp.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: keycorp-mcp.yml
+  slug: keycorp-mcpyml
 modified: '2026-07-23'
 name: KeyCorp
 nav: Providers
@@ -204,31 +208,31 @@ press:
 - date: '2026-05-25'
   title: Yesterday, we announced KeyCorp's First Quarter 2026 ...
   url: https://www.facebook.com/keybank/posts/yesterday-we-announced-keycorps-first-quarter-2026-earnings-learn-more-at/1351056593721210/
-random_paper: 0
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Keycorp Rate Limits
   slug: keycorp-rate-limits
 score:
   band: thin
-  composite: 43.2
-  delta: 10.3
+  composite: 44.9
+  delta: 1.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 68.7
     developer_ergonomics: 54.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 32.9
+  previous_composite: 43.2
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/screenshots/keycorp-2026-06-20T184017.png
 security:
 - kind: authentication

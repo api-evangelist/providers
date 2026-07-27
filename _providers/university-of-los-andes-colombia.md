@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: OAI-PMH metadata harvesting interface for the DSpace-based institutional repository "Seneca", which collects and preserves the University's open-access scholarly output (articles, theses, books, datas
@@ -90,7 +90,7 @@ plans:
 - name: University Of Los Andes Colombia Plans Pricing
   plan_count: 2
   slug: university-of-los-andes-colombia-plans-pricing
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: University Of Los Andes Colombia Rate Limits
@@ -108,7 +108,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 21.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-los-andes-colombia/refs/heads/main/screenshots/university-of-los-andes-colombia-2026-06-20T200202.png
 security:

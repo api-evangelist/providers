@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 75.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 3
@@ -268,11 +268,11 @@ overview: 'One Codex publishes 25 APIs on the [APIs.io](https://apis.io/) networ
 
 
   One Codex''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, authentication, and 26 more developer resources.'
-random_paper: 31
+random_paper: 14
 score:
   band: developing
   composite: 59.6
-  delta: 3.3
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 61.5
@@ -280,14 +280,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 56.3
+  previous_composite: 59.6
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

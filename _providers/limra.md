@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -75,7 +75,7 @@ plans:
 - name: Limra Plans Pricing
   plan_count: 2
   slug: limra-plans-pricing
-random_paper: 23
+random_paper: 57
 score:
   band: minimal
   composite: 12.7
@@ -89,8 +89,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/limra/refs/heads/main/screenshots/limra-2026-07-25T225211.png
 security:
 - kind: domain-security
   name: Limra Domain Security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 33.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Real-time verification of law enforcement requesters. Pass a requester email address to the lookup endpoint and receive the agent's standing, their agency's status, and the domain's risk level, checke
@@ -176,11 +176,11 @@ overview: 'Kodex publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Kodex''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, changelog, and 22 more developer resources.'
-random_paper: 29
+random_paper: 63
 score:
   band: developing
   composite: 47.3
-  delta: 5.5
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 22.6
@@ -188,15 +188,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 55.3
-  previous_composite: 41.8
+  previous_composite: 47.3
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kodex/refs/heads/main/screenshots/kodex-2026-07-25T224044.png
 security:
 - kind: authentication
   name: Kodex Authentication

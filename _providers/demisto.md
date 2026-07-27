@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 2
@@ -218,7 +218,7 @@ overview: 'Demisto publishes 24 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Demisto''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, changelog, and 17 more developer resources.'
-random_paper: 43
+random_paper: 9
 score:
   band: thin
   composite: 40.0
@@ -232,8 +232,9 @@ score:
     operational_transparency: 44.7
   previous_composite: 40.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/demisto/refs/heads/main/screenshots/demisto-2026-07-25T211711.png
 security:
 - kind: authentication
   name: Demisto Authentication

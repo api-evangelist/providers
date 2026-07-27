@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 6
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -223,7 +223,7 @@ rules:
 score:
   band: developing
   composite: 49.7
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.7
@@ -231,14 +231,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 5.3
-  previous_composite: 48.1
+  previous_composite: 49.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sezzle/refs/heads/main/screenshots/sezzle-2026-06-20T193742.png
 security:

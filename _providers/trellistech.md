@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 37.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Trellis property contracts generated from Hono/Zod schemas.
@@ -137,7 +137,7 @@ overview: 'Trellis publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Trellis'' developer surface includes CLI, changelog, documentation, API reference, getting-started guide, engineering blog, signup flow, and 14 more developer resources.'
-random_paper: 14
+random_paper: 31
 score:
   band: developing
   composite: 47.6
@@ -151,7 +151,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 47.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

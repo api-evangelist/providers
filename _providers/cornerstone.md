@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: Synchronize employee records and organizational unit (OU) structures between external systems and Cornerstone. Supports create, read, update, and deactivate operations for users and organizational hie
@@ -144,7 +144,7 @@ plans:
 - name: Cornerstone Plans Pricing
   plan_count: 5
   slug: cornerstone-plans-pricing
-random_paper: 29
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Cornerstone Rate Limits
@@ -162,7 +162,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 33.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cornerstone/refs/heads/main/screenshots/cornerstone-2026-06-20T175031.png
 security:

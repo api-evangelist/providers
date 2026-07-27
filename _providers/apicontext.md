@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -151,7 +151,7 @@ plans:
 - name: Apicontext Plans Pricing
   plan_count: 3
   slug: apicontext-plans-pricing
-random_paper: 16
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Apicontext Rate Limits
@@ -169,7 +169,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 39.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apicontext/refs/heads/main/screenshots/apicontext-2026-06-20T172235.png
 security:

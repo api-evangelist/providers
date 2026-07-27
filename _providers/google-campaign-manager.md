@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -778,18 +778,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 55.3
-  delta: 0.0
+  composite: 58.8
+  delta: 3.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.3
+    contract_quality: 76.1
     developer_ergonomics: 21.7
-    discoverability: 55.0
+    discoverability: 67.5
     governance: 86.8
     operational_transparency: 47.4
   previous_composite: 55.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-campaign-manager/refs/heads/main/screenshots/google-campaign-manager-2026-06-20T182032.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Charles Proxy is a cross-platform desktop HTTP proxy and monitor that sits between client applications and the Internet to capture, inspect, and modify traffic. It supports SSL proxying with certifica
@@ -90,7 +90,7 @@ plans:
 - name: Charles Proxy Plans Pricing
   plan_count: 3
   slug: charles-proxy-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Charles Proxy Rate Limits
@@ -108,7 +108,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 27.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/charles-proxy/refs/heads/main/screenshots/charles-proxy-2026-06-20T174225.png
 security:

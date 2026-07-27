@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -450,19 +450,19 @@ rules:
   slug: bubble-rules
 score:
   band: exemplar
-  composite: 74.8
-  delta: 0.0
+  composite: 80.3
+  delta: 5.5
   facets:
     commercial_clarity: 100.0
-    contract_quality: 64.3
+    contract_quality: 73.2
     developer_ergonomics: 56.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 78.9
   previous_composite: 74.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bubble/refs/heads/main/screenshots/bubble-2026-06-20T173737.png
 security:
 - kind: authentication

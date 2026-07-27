@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: Manage Perses projects (workspaces).
   name: Perses Projects API
   slug: perses-projects-api
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: open
   name: Perses API
@@ -105,6 +105,10 @@ finops:
   slug: perses-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/perses.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Perses
 nav: Providers
@@ -124,18 +128,18 @@ rate_limits:
   slug: perses-rate-limits
 score:
   band: thin
-  composite: 36.8
-  delta: 0.0
+  composite: 38.8
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 45.1
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 36.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/perses/refs/heads/main/screenshots/perses-2026-06-20T191616.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 17
 apis:
 - description: Access FDA Adverse Event Reporting System (FAERS) data covering adverse event reports for drugs and therapeutic biologic products from 2004 onward, updated quarterly.
@@ -214,7 +214,7 @@ plans:
 - name: Open Fda Plans Pricing
   plan_count: 2
   slug: open-fda-plans-pricing
-random_paper: 13
+random_paper: 30
 rate_limits:
 - limit_count: 0
   name: Open Fda Rate Limits
@@ -231,7 +231,7 @@ rules:
 score:
   band: thin
   composite: 36.1
-  delta: 0.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 20.8
@@ -239,14 +239,14 @@ score:
     discoverability: 100.0
     governance: 65.8
     operational_transparency: 21.1
-  previous_composite: 36.0
+  previous_composite: 36.1
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-fda/refs/heads/main/screenshots/open-fda-2026-06-20T190739.png
 security:

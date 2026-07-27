@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Events API from Influitive — 1 operation(s) for events.
@@ -149,7 +149,7 @@ overview: 'Influitive publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Influitive''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 16
+random_paper: 67
 score:
   band: developing
   composite: 48.2
@@ -163,8 +163,9 @@ score:
     operational_transparency: 7.9
   previous_composite: 48.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/influitive/refs/heads/main/screenshots/influitive-2026-07-25T222413.png
 security:
 - kind: authentication
   name: Influitive Authentication

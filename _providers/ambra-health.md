@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -133,31 +133,32 @@ plans:
 - name: Ambra Health Plans Pricing
   plan_count: 3
   slug: ambra-health-plans-pricing
-random_paper: 17
+random_paper: 34
 rate_limits:
 - limit_count: 4
   name: Ambra Health Rate Limits
   slug: ambra-health-rate-limits
 score:
   band: thin
-  composite: 35.0
-  delta: -1.5
+  composite: 37.7
+  delta: 2.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 52.7
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 36.5
+  previous_composite: 35.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ambra-health/refs/heads/main/screenshots/ambra-health-2026-07-25T200031.png
 security:
 - kind: authentication
   name: Ambra Health Authentication

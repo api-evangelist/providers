@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 119
   human_in_the_loop: 20
@@ -841,7 +841,7 @@ plans:
 - name: Agstack Plans Pricing
   plan_count: 3
   slug: agstack-plans-pricing
-random_paper: 20
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Agstack Rate Limits
@@ -865,18 +865,18 @@ rules:
   slug: agstack-spectral-rules
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 53.6
+  delta: 3.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 56.6
+    contract_quality: 65.5
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 50.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agstack/refs/heads/main/screenshots/agstack-2026-06-20T170504.png
 security:

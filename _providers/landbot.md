@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: REST API for managing Landbot resources including channels, customers, customer fields, message hooks, webhooks, and WhatsApp templates. Token-based authentication using an agent token from account se
@@ -117,7 +117,7 @@ plans:
 - name: Landbot Plans Pricing
   plan_count: 6
   slug: landbot-plans-pricing
-random_paper: 26
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Landbot Rate Limits
@@ -135,7 +135,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 36.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/landbot/refs/heads/main/screenshots/landbot-2026-06-20T184258.png
 security:

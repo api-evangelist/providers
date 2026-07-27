@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,11 +89,11 @@ overview: 'TipLink is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   TipLink''s developer surface includes documentation, getting-started guide, support, and 9 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: emerging
   composite: 18.0
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -101,14 +101,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 17.4
+  previous_composite: 18.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

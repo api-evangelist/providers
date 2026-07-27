@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -89,11 +89,11 @@ overview: 'PayIt is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   PayIt''s developer surface includes engineering blog, support, pricing, signup flow, and 8 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: emerging
   composite: 25.0
-  delta: 4.8
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -101,14 +101,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.2
+  previous_composite: 25.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 52.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: The Lexoo website is built on WordPress and exposes the standard WordPress REST API at /wp-json/, serving JSON representations of the site's pages, media, taxonomies and settings. The live discovery d
@@ -82,7 +82,7 @@ name: Lexoo
 nav: Providers
 network: true
 overview: Lexoo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Legal Services, Contract Review, Compliance, and Professional Services.
-random_paper: 41
+random_paper: 7
 score:
   band: minimal
   composite: 9.3
@@ -96,8 +96,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lexoo/refs/heads/main/screenshots/lexoo-2026-07-25T225002.png
 security:
 - kind: domain-security
   name: Lexoo Domain Security

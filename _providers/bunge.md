@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: 'Bunge operates customer-facing portals for industrial and food-service customers to manage orders, contracts, shipment tracking, and account information for oilseed, grain, and oil product purchases. '
@@ -87,7 +87,7 @@ name: Bunge
 nav: Providers
 network: true
 overview: Bunge publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Agribusiness, Food, Manufacturing, Commodities, and Oilseeds.
-random_paper: 19
+random_paper: 53
 score:
   band: minimal
   composite: 8.0
@@ -101,7 +101,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bunge/refs/heads/main/screenshots/bunge-2026-06-20T173759.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -76,7 +76,7 @@ apis:
 - description: Reranking for search relevance
   name: TrueFoundry Rerank API
   slug: truefoundry-rerank-api
-artifact_total: 47
+artifact_total: 48
 collections:
 - collection_type: open
   name: TrueFoundry AI Gateway API
@@ -212,6 +212,10 @@ jsonld:
   property_count: 1
   slug: truefoundry-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: TrueFoundry
 nav: Providers
@@ -227,7 +231,7 @@ plans:
 - name: Truefoundry Plans Pricing
   plan_count: 4
   slug: truefoundry-plans-pricing
-random_paper: 50
+random_paper: 67
 rate_limits:
 - limit_count: 6
   name: Truefoundry Rate Limits
@@ -250,19 +254,19 @@ rules:
     warn: 4
   slug: truefoundry-rules
 score:
-  band: developing
-  composite: 59.7
-  delta: 0.0
+  band: strong
+  composite: 64.3
+  delta: 4.6
   facets:
     commercial_clarity: 57.9
-    contract_quality: 64.7
+    contract_quality: 70.0
     developer_ergonomics: 47.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 59.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truefoundry/refs/heads/main/screenshots/truefoundry-2026-06-20T195805.png
 security:

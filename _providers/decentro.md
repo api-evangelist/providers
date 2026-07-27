@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -196,23 +196,23 @@ rules:
   slug: decentro-payments-api-rules
 score:
   band: developing
-  composite: 46.4
-  delta: -1.7
+  composite: 50.3
+  delta: 3.9
   facets:
     commercial_clarity: 39.5
-    contract_quality: 55.8
+    contract_quality: 61.1
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 26.3
-  previous_composite: 48.1
+  previous_composite: 46.4
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/screenshots/decentro-2026-06-20T175753.png
 security:

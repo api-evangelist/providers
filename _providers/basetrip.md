@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -299,23 +299,23 @@ rules:
   slug: basetrip-spectral-rules
 score:
   band: developing
-  composite: 49.9
-  delta: -2.3
+  composite: 52.7
+  delta: 2.8
   facets:
     commercial_clarity: 50.0
     contract_quality: 68.1
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
-  previous_composite: 52.2
+  previous_composite: 49.9
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basetrip/refs/heads/main/screenshots/basetrip-2026-06-20T173027.png
 security:

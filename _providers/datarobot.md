@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: DataRobot's public REST API (v2) for projects, modeling, predictions, deployments, MLOps monitoring, governance, and agentic workflows. Personal API keys are sent as bearer tokens against regional bas
@@ -158,7 +158,7 @@ overview: 'DataRobot publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   DataRobot''s developer surface includes documentation, API reference, getting-started guide, support, pricing, changelog, CLI, and 20 more developer resources.'
-random_paper: 42
+random_paper: 8
 scopes:
 - name: Datarobot Scopes
   scope_count: 3
@@ -177,8 +177,9 @@ score:
     operational_transparency: 44.7
   previous_composite: 37.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/datarobot/refs/heads/main/screenshots/datarobot-2026-07-25T211352.png
 security:
 - kind: authentication
   name: Datarobot Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -241,7 +241,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 7
+random_paper: 24
 rules:
 - name: GOV.UK Pay API Rules
   rule_count: 5
@@ -254,7 +254,7 @@ rules:
 score:
   band: developing
   composite: 45.1
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 64.8
@@ -262,14 +262,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 0.0
-  previous_composite: 44.6
+  previous_composite: 45.1
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gov-uk-pay/refs/heads/main/screenshots/gov-uk-pay-2026-06-20T182258.png
 security:

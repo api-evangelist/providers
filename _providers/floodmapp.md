@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Authenticated flood forecasting and impact data delivered as GIS-native OGC WMS/WFS feeds, secured by AWS Cognito OAuth2/OIDC. Access is provisioned per customer; there is no public self-service devel
@@ -106,7 +106,7 @@ overview: 'FloodMapp publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   FloodMapp''s developer surface includes support, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 44
+random_paper: 10
 scopes:
 - name: Floodmapp Scopes
   scope_count: 1
@@ -125,8 +125,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 22.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/floodmapp/refs/heads/main/screenshots/floodmapp-2026-07-25T214818.png
 security:
 - kind: authentication
   name: Floodmapp Authentication

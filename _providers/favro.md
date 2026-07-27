@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 5.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Public REST API for the Favro planning and collaboration platform: manage organizations, collections, widgets, columns, cards, tasks, tasklists, comments, tags, custom fields, groups, users, and webho'
@@ -113,7 +113,7 @@ overview: 'Favro publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Favro''s developer surface includes documentation, engineering blog, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 32
+random_paper: 66
 score:
   band: thin
   composite: 35.2
@@ -127,8 +127,9 @@ score:
     operational_transparency: 26.3
   previous_composite: 35.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/favro/refs/heads/main/screenshots/favro-2026-07-25T214254.png
 security:
 - kind: authentication
   name: Favro Authentication

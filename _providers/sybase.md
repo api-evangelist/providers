@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -286,18 +286,18 @@ rules:
   slug: sybase-rules
 score:
   band: strong
-  composite: 62.6
-  delta: 0.0
+  composite: 65.9
+  delta: 3.3
   facets:
     commercial_clarity: 73.7
     contract_quality: 67.3
     developer_ergonomics: 52.2
-    discoverability: 42.5
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 57.9
   previous_composite: 62.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sybase/refs/heads/main/screenshots/sybase-2026-06-20T194816.png
 security:

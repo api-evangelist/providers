@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -170,7 +170,7 @@ plans:
 - name: Spring Security Plans Pricing
   plan_count: 1
   slug: spring-security-plans-pricing
-random_paper: 11
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Spring Security Rate Limits
@@ -193,19 +193,19 @@ rules:
     warn: 3
   slug: spring-security-rules
 score:
-  band: thin
-  composite: 44.4
-  delta: 0.0
+  band: developing
+  composite: 46.4
+  delta: 2.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 59.1
     developer_ergonomics: 17.4
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 44.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-security/refs/heads/main/screenshots/spring-security-2026-06-20T194415.png
 security:

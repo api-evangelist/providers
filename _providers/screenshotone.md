@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -46,7 +46,7 @@ apis:
 - description: The Screenshots API from ScreenshotOne — 1 operation(s) for screenshots.
   name: ScreenshotOne Screenshots API
   slug: screenshotone-screenshots-api
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: open
   name: ScreenshotOne API
@@ -104,6 +104,10 @@ finops:
   slug: screenshotone-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/screenshotone.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: ScreenshotOne
 nav: Providers
@@ -116,25 +120,25 @@ plans:
 - name: Screenshotone Plans Pricing
   plan_count: 3
   slug: screenshotone-plans-pricing
-random_paper: 31
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Screenshotone Rate Limits
   slug: screenshotone-rate-limits
 score:
   band: thin
-  composite: 37.1
-  delta: 0.0
+  composite: 39.1
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 51.3
     developer_ergonomics: 30.4
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 37.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/screenshotone/refs/heads/main/screenshots/screenshotone-2026-06-20T193605.png
 security:

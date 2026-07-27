@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -149,21 +149,21 @@ overview: 'Hopper publishes 5 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Hopper''s developer surface includes authentication, GitHub presence, engineering blog, and 17 more developer resources.'
-random_paper: 49
+random_paper: 66
 score:
   band: emerging
-  composite: 24.4
-  delta: 0.0
+  composite: 27.7
+  delta: 3.3
   facets:
     commercial_clarity: 0.0
     contract_quality: 57.5
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 24.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hopper-com/refs/heads/main/screenshots/hopper-com-2026-06-20T182832.png
 security:

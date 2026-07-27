@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'The ablefy API lets sellers automate access to their store data (orders, products, payments, and customers) using seller-generated access tokens, complemented by webhooks for event notifications. The '
@@ -86,7 +86,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 18.6
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -94,15 +94,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 18.1
+  previous_composite: 18.6
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ablefy/refs/heads/main/screenshots/ablefy-2026-07-25T181353.png
 security:
 - kind: authentication
   name: Ablefy Authentication

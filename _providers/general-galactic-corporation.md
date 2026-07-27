@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -50,7 +50,7 @@ name: General Galactic Corporation
 nav: Providers
 network: true
 overview: General Galactic Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Ethereum, Blockchain, and Developer Tools.
-random_paper: 43
+random_paper: 60
 score:
   band: minimal
   composite: 7.4
@@ -64,8 +64,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/general-galactic-corporation/refs/heads/main/screenshots/general-galactic-corporation-2026-07-25T215557.png
 slug: general-galactic-corporation
 tags:
 - Company

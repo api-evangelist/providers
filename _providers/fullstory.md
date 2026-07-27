@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -253,7 +253,7 @@ plans:
 - name: Fullstory Plans Pricing
   plan_count: 1
   slug: fullstory-plans-pricing
-random_paper: 43
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Fullstory Rate Limits
@@ -277,18 +277,18 @@ rules:
   slug: fullstory-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 49.9
+  delta: 3.2
   facets:
     commercial_clarity: 36.8
     contract_quality: 75.2
     developer_ergonomics: 21.7
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 60.5
     operational_transparency: 26.3
   previous_composite: 46.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fullstory/refs/heads/main/screenshots/fullstory-2026-06-20T181612.png
 security:

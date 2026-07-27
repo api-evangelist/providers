@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -138,7 +138,7 @@ overview: 'Polycam is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Polycam''s developer surface includes pricing, tooling, GitHub presence, YouTube channel, engineering blog, and 19 more developer resources.'
-random_paper: 43
+random_paper: 9
 score:
   band: minimal
   composite: 12.4
@@ -152,7 +152,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/polycam/refs/heads/main/screenshots/polycam-2026-06-20T191900.png
 security:

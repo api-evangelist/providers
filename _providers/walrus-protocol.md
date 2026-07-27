@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 63.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The routes API from Walrus Protocol — 9 operation(s) for routes.
@@ -178,7 +178,7 @@ overview: 'Walrus Protocol publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Walrus Protocol''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 25 more developer resources.'
-random_paper: 16
+random_paper: 33
 score:
   band: developing
   composite: 47.2
@@ -192,7 +192,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 47.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 15.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: HIPAA-compliant REST API providing cloud access to patient ECG data via KardiaPro — account management, patient provisioning, and webhook notifications for new ECG availability. Access is gated behind
@@ -137,7 +137,7 @@ random_paper: 37
 score:
   band: thin
   composite: 40.0
-  delta: 6.7
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 22.6
@@ -145,15 +145,16 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 33.3
+  previous_composite: 40.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alivecor/refs/heads/main/screenshots/alivecor-2026-07-25T195625.png
 security:
 - kind: authentication
   name: Alivecor Authentication

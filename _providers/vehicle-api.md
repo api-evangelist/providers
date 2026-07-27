@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ plans:
 - name: Vehicle Api Plans Pricing
   plan_count: 3
   slug: vehicle-api-plans-pricing
-random_paper: 24
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Vehicle Api Rate Limits
@@ -250,18 +250,18 @@ rules:
   slug: vehicle-api-spectral-rules
 score:
   band: developing
-  composite: 53.8
-  delta: 0.0
+  composite: 58.0
+  delta: 4.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 63.7
+    contract_quality: 72.6
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 53.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vehicle-api/refs/heads/main/screenshots/vehicle-api-2026-06-20T200854.png
 security:

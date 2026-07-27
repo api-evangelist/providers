@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 12
 apis:
 - description: 'Create, enroll, retrieve, update, delete, search, and merge loyalty members, and read a member''s activity and activity summary. Documented operations include POST /users, GET/PATCH /users/{memberId}, '
@@ -119,7 +119,7 @@ plans:
 - name: Annex Cloud Plans Pricing
   plan_count: 1
   slug: annex-cloud-plans-pricing
-random_paper: 47
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Annex Cloud Rate Limits
@@ -137,8 +137,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/annex-cloud/refs/heads/main/screenshots/annex-cloud-2026-07-25T200301.png
 security:
 - kind: domain-security
   name: Annex Cloud Domain Security

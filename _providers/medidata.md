@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -165,18 +165,18 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 47.0
-  delta: 0.0
+  composite: 50.8
+  delta: 3.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 67.6
+    contract_quality: 72.9
     developer_ergonomics: 21.7
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 47.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/medidata/refs/heads/main/screenshots/medidata-2026-06-20T185127.png
 security:

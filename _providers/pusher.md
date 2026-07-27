@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -149,7 +149,7 @@ plans:
 - name: Pusher Plans Pricing
   plan_count: 9
   slug: pusher-plans-pricing
-random_paper: 0
+random_paper: 51
 rate_limits:
 - limit_count: 9
   name: Pusher Rate Limits
@@ -165,18 +165,18 @@ rules:
   slug: pusher-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 56.5
+  delta: 3.2
   facets:
     commercial_clarity: 57.9
     contract_quality: 62.9
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 52.6
   previous_composite: 53.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pusher/refs/heads/main/screenshots/pusher-2026-06-20T192318.png
 security:

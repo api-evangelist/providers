@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 58.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -272,7 +272,7 @@ plans:
 - name: Google Gemini Plans Pricing
   plan_count: 7
   slug: google-gemini-plans-pricing
-random_paper: 40
+random_paper: 23
 rate_limits:
 - limit_count: 7
   name: Google Gemini Rate Limits
@@ -296,18 +296,18 @@ rules:
   slug: google-gemini-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.5
-  delta: 0.0
+  composite: 58.9
+  delta: 3.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 81.4
+    contract_quality: 86.7
     developer_ergonomics: 17.4
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 60.5
     operational_transparency: 52.6
   previous_composite: 55.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-gemini/refs/heads/main/screenshots/google-gemini-2026-06-20T182205.png
 security:

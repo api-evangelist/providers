@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -551,7 +551,7 @@ plans:
 - name: Workday Tracking System Plans Pricing
   plan_count: 1
   slug: workday-tracking-system-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Workday Tracking System Rate Limits
@@ -575,18 +575,18 @@ rules:
   slug: workday-tracking-system-spectral-rules
 score:
   band: strong
-  composite: 63.1
-  delta: 0.0
+  composite: 67.8
+  delta: 4.7
   facets:
     commercial_clarity: 68.4
-    contract_quality: 68.8
+    contract_quality: 77.6
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 57.9
   previous_composite: 63.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-tracking-system/refs/heads/main/screenshots/workday-tracking-system-2026-06-20T201611.png
 security:

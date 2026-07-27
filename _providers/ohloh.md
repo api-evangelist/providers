@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 31.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'The REST API for Black Duck Open Hub (formerly Ohloh). Returns XML wrapped in a <response> root element that always carries a <status> (success/failed) and an <error> on failure. Requests append .xml '
@@ -114,7 +114,7 @@ overview: 'Ohloh publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ohloh''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, and 11 more developer resources.'
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Ohloh Rate Limits
@@ -132,7 +132,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 28.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

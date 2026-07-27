@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 29.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: The Universal Commerce Protocol (UCP) agent-commerce surface for the LINSY HOME storefront (www.linsyhome.com, Shopify shop linsy-home.myshopify.com). Agents discover the merchant profile at /.well-kn
@@ -133,7 +133,7 @@ overview: 'Linsy publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Linsy''s developer surface includes developer portal, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 49
+random_paper: 15
 scopes:
 - name: Linsy Scopes
   scope_count: 0
@@ -152,7 +152,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 24.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: RGA's Digital Health Data (DHD) Risk Scoring service evaluates structured electronic medical record and medical claims data to derive actionable underwriting risk scores for seamless integration withi
@@ -101,7 +101,7 @@ plans:
 - name: Reinsurance Of America Plans Pricing
   plan_count: 3
   slug: reinsurance-of-america-plans-pricing
-random_paper: 15
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Reinsurance Of America Rate Limits
@@ -109,7 +109,7 @@ rate_limits:
 score:
   band: emerging
   composite: 27.2
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 15.1
@@ -117,14 +117,14 @@ score:
     discoverability: 80.0
     governance: 13.2
     operational_transparency: 36.8
-  previous_composite: 27.8
+  previous_composite: 27.2
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reinsurance-of-america/refs/heads/main/screenshots/reinsurance-of-america-2026-06-20T192808.png
 security:

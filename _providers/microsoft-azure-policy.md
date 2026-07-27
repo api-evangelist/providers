@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -141,23 +141,23 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 49.0
+  composite: 51.8
   delta: 2.8
   facets:
     commercial_clarity: 84.2
     contract_quality: 53.1
     developer_ergonomics: 32.6
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 46.2
+  previous_composite: 49.0
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-policy/refs/heads/main/screenshots/microsoft-azure-policy-2026-06-20T185431.png
 security:

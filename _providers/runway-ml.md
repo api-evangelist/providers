@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -134,25 +134,25 @@ plans:
 - name: Runway Ml Plans Pricing
   plan_count: 1
   slug: runway-ml-plans-pricing
-random_paper: 22
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Runway Ml Rate Limits
   slug: runway-ml-rate-limits
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 43.5
+  delta: 3.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 54.4
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 40.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runway-ml/refs/heads/main/screenshots/runway-ml-2026-06-20T193258.png
 security:

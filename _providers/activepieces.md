@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -455,20 +455,20 @@ rules:
     warn: 16
   slug: activepieces-spectral-rules
 score:
-  band: developing
-  composite: 59.9
-  delta: 0.0
+  band: strong
+  composite: 65.4
+  delta: 5.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.7
+    contract_quality: 79.5
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 59.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/activepieces/refs/heads/main/screenshots/activepieces-2026-06-20T164235.png
 security:
 - kind: authentication

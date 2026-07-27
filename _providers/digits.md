@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 78.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The Llms.txt API from Digits — 1 operation(s) for llms.txt.
@@ -230,8 +230,9 @@ score:
     operational_transparency: 26.3
   previous_composite: 55.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/digits/refs/heads/main/screenshots/digits-2026-07-25T212030.png
 security:
 - kind: authentication
   name: Digits Authentication

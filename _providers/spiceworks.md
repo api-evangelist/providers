@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ plans:
 - name: Spiceworks Plans Pricing
   plan_count: 3
   slug: spiceworks-plans-pricing
-random_paper: 27
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Spiceworks Rate Limits
@@ -218,18 +218,18 @@ scopes:
   summary_line: 3 scopes · implicit
 score:
   band: strong
-  composite: 61.2
-  delta: 0.0
+  composite: 63.2
+  delta: 2.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 69.9
     developer_ergonomics: 41.3
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 61.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spiceworks/refs/heads/main/screenshots/spiceworks-2026-06-20T194312.png
 security:

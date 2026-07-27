@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: JWT-authenticated Virgil Cloud services — Cards (public key + identity management), Keyknox (private-key storage), Pythia (password PRF) and PFS (perfect-forward-secrecy messaging). Consumed through t
@@ -134,7 +134,7 @@ overview: 'Virgil Security publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Virgil Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 15 more developer resources.'
-random_paper: 5
+random_paper: 22
 score:
   band: thin
   composite: 31.9
@@ -148,7 +148,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 31.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

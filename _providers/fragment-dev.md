@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: Single GraphQL endpoint for defining a ledger Schema, creating Ledgers, posting balanced double-entry Ledger Entries, and reading balances and lines. All write mutations are idempotent via an idempote
@@ -117,31 +117,32 @@ plans:
 - name: Fragment Dev Plans Pricing
   plan_count: 3
   slug: fragment-dev-plans-pricing
-random_paper: 43
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Fragment Dev Rate Limits
   slug: fragment-dev-rate-limits
 score:
   band: emerging
-  composite: 23.9
-  delta: -1.9
+  composite: 26.7
+  delta: 2.8
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 25.8
+  previous_composite: 23.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fragment-dev/refs/heads/main/screenshots/fragment-dev-2026-07-25T215118.png
 security:
 - kind: domain-security
   name: Fragment Dev Domain Security

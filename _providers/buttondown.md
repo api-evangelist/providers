@@ -10,6 +10,24 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -119,11 +137,26 @@ plans:
 - name: Buttondown Plans Pricing
   plan_count: 3
   slug: buttondown-plans-pricing
-random_paper: 37
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Buttondown Rate Limits
   slug: buttondown-rate-limits
+score:
+  band: thin
+  composite: 44.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 47.8
+    developer_ergonomics: 26.1
+    discoverability: 87.5
+    governance: 0.0
+    operational_transparency: 68.4
+  previous_composite: 44.8
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buttondown/refs/heads/main/screenshots/buttondown-2026-06-20T173820.png
 security:
 - kind: authentication

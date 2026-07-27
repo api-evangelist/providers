@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -82,7 +82,7 @@ apis:
 - description: Retrieve user information within a Rollbar account.
   name: Rollbar Users API
   slug: rollbar-users-api
-artifact_total: 53
+artifact_total: 54
 asyncapis:
 - description: Rollbar's webhook notification system delivers real-time event notifications to configured endpoints when errors, deployments, and other significant events occur. Webhooks are triggered based on confi
   name: Rollbar Webhook Events
@@ -259,6 +259,10 @@ jsonld:
   property_count: 8
   slug: rollbar-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Rollbar
 nav: Providers
@@ -274,7 +278,7 @@ plans:
 - name: Rollbar Plans Pricing
   plan_count: 4
   slug: rollbar-plans-pricing
-random_paper: 36
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Rollbar Rate Limits
@@ -305,19 +309,19 @@ rules:
     warn: 6
   slug: rollbar-rules
 score:
-  band: developing
-  composite: 58.5
-  delta: 0.0
+  band: strong
+  composite: 61.7
+  delta: 3.2
   facets:
     commercial_clarity: 71.1
     contract_quality: 70.9
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 36.8
   previous_composite: 58.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rollbar/refs/heads/main/screenshots/rollbar-2026-06-20T193208.png
 security:

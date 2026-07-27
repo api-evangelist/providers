@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -459,7 +459,7 @@ plans:
 - name: Apache Openmeetings Plans Pricing
   plan_count: 3
   slug: apache-openmeetings-plans-pricing
-random_paper: 11
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Apache Openmeetings Rate Limits
@@ -483,18 +483,18 @@ rules:
   slug: apache-openmeetings-spectral-rules
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 51.1
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.5
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 49.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-openmeetings/refs/heads/main/screenshots/apache-openmeetings-2026-06-20T172128.png
 security:

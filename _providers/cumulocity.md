@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 72
   human_in_the_loop: 10
@@ -588,7 +588,7 @@ plans:
 - name: Cumulocity Plans Pricing
   plan_count: 6
   slug: cumulocity-plans-pricing
-random_paper: 31
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Cumulocity Rate Limits
@@ -620,18 +620,18 @@ rules:
   slug: cumulocity-rules
 score:
   band: strong
-  composite: 66.6
-  delta: 0.0
+  composite: 68.5
+  delta: 1.9
   facets:
     commercial_clarity: 78.9
-    contract_quality: 66.2
+    contract_quality: 73.8
     developer_ergonomics: 67.4
     discoverability: 67.5
     governance: 65.8
     operational_transparency: 47.4
   previous_composite: 66.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cumulocity/refs/heads/main/screenshots/cumulocity-2026-06-20T175331.png
 security:

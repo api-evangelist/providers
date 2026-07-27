@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ apis:
 - description: Headless-browser scraping with proxy rotation, screenshots, and AI extraction.
   name: ScrapingBee HTML API API
   slug: scrapingbee-html-api-api
-artifact_total: 13
+artifact_total: 14
 collections:
 - collection_type: open
   name: ScrapingBee API
@@ -169,6 +169,10 @@ finops:
   slug: scrapingbee-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scrapingbee.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp-server
+  slug: mcp-server
 modified: '2026-05-25'
 name: ScrapingBee
 nav: Providers
@@ -181,25 +185,25 @@ plans:
 - name: Scrapingbee Plans Pricing
   plan_count: 3
   slug: scrapingbee-plans-pricing
-random_paper: 33
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Scrapingbee Rate Limits
   slug: scrapingbee-rate-limits
 score:
-  band: developing
-  composite: 56.8
-  delta: 0.0
+  band: strong
+  composite: 60.0
+  delta: 3.2
   facets:
     commercial_clarity: 84.2
     contract_quality: 60.2
     developer_ergonomics: 56.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 56.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scrapingbee/refs/heads/main/screenshots/scrapingbee-2026-06-20T193558.png
 security:

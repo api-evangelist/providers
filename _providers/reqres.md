@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -580,19 +580,19 @@ rules:
   slug: reqres-rules
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 58.2
+  delta: 5.4
   facets:
     commercial_clarity: 42.1
-    contract_quality: 66.2
+    contract_quality: 75.1
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 52.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/reqres/refs/heads/main/screenshots/reqres-2026-06-20T192921.png
 security:
 - kind: authentication

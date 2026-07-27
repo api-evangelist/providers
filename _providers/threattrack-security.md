@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -62,7 +62,7 @@ name: ThreatTrack Security
 nav: Providers
 network: true
 overview: ThreatTrack Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Threat Intelligence, Malware Analysis, and Sandboxing.
-random_paper: 23
+random_paper: 6
 score:
   band: minimal
   composite: 11.3
@@ -76,7 +76,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 11.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: EcoCart's developer API for programmatic integration of climate contributions, shipping protection, and sustainable-checkout features. The API reference is hosted on Stoplight.
@@ -117,11 +117,11 @@ overview: 'EcoCart publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   EcoCart''s developer surface includes documentation, API reference, pricing, engineering blog, support, signup flow, and 12 more developer resources.'
-random_paper: 23
+random_paper: 57
 score:
   band: emerging
   composite: 27.5
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -129,15 +129,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 27.0
+  previous_composite: 27.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ecocart/refs/heads/main/screenshots/ecocart-2026-07-25T212756.png
 security:
 - kind: domain-security
   name: Ecocart Domain Security

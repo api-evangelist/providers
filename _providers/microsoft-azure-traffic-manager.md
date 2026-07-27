@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
 - description: Real User Measurements (RUM) keys
   name: Azure Traffic Manager UserMetrics API
   slug: microsoft-azure-traffic-manager-usermetrics-api
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: open
   name: Azure Traffic Manager REST API
@@ -206,6 +206,10 @@ finops:
   slug: microsoft-azure-traffic-manager-finops
 image: https://azure.microsoft.com/svghandler/traffic-manager/
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Azure Traffic Manager
 nav: Providers
@@ -218,7 +222,7 @@ plans:
 - name: Microsoft Azure Traffic Manager Plans Pricing
   plan_count: 3
   slug: microsoft-azure-traffic-manager-plans-pricing
-random_paper: 23
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Traffic Manager Rate Limits
@@ -229,19 +233,19 @@ scopes:
   slug: microsoft-azure-traffic-manager-scopes
   summary_line: 1 scope · implicit
 score:
-  band: developing
-  composite: 57.5
-  delta: 0.0
+  band: strong
+  composite: 60.7
+  delta: 3.2
   facets:
     commercial_clarity: 84.2
     contract_quality: 51.3
     developer_ergonomics: 60.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 57.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-traffic-manager/refs/heads/main/screenshots/microsoft-azure-traffic-manager-2026-06-20T185440.png
 security:

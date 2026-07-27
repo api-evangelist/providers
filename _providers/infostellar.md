@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 33.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Public gRPC API for the StellarStation ground-station-as-a-service platform. Lets satellite operators list upcoming available passes, reserve and cancel plans, add and retrieve TLE orbital data, set p
@@ -134,7 +134,7 @@ overview: 'Infostellar publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Infostellar''s developer surface includes documentation, API reference, changelog, authentication, and 17 more developer resources.'
-random_paper: 14
+random_paper: 31
 score:
   band: emerging
   composite: 23.3
@@ -148,8 +148,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 23.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/infostellar/refs/heads/main/screenshots/infostellar-2026-07-25T222423.png
 security:
 - kind: authentication
   name: Infostellar Authentication

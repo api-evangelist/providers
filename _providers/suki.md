@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -281,23 +281,23 @@ rules:
   slug: suki-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.4
-  delta: -2.7
+  composite: 57.1
+  delta: 4.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.8
+    contract_quality: 77.7
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 47.4
-  previous_composite: 55.1
+  previous_composite: 52.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/suki/refs/heads/main/screenshots/suki-2026-06-20T194641.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ overview: 'Adaptive Security publishes 5 APIs on the [APIs.io](https://apis.io/)
 
 
   Adaptive Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 45
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Adaptive Security Rate Limits
@@ -207,8 +207,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 47.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/adaptive-security/refs/heads/main/screenshots/adaptive-security-2026-07-25T181557.png
 security:
 - kind: authentication
   name: Adaptive Security Authentication

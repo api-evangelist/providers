@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 2
@@ -384,19 +384,19 @@ rules:
     warn: 5
   slug: maxar-technologies-rules
 score:
-  band: developing
-  composite: 59.3
-  delta: 0.0
+  band: strong
+  composite: 61.8
+  delta: 2.5
   facets:
     commercial_clarity: 52.6
     contract_quality: 56.1
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 68.4
   previous_composite: 59.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maxar-technologies/refs/heads/main/screenshots/maxar-technologies-2026-06-20T185049.png
 security:

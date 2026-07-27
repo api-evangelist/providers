@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -771,23 +771,23 @@ rules:
   slug: amazon-spectral-rules
 score:
   band: strong
-  composite: 62.0
-  delta: 1.0
+  composite: 65.9
+  delta: 3.9
   facets:
     commercial_clarity: 73.7
-    contract_quality: 69.7
+    contract_quality: 75.0
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 26.3
-  previous_composite: 61.0
+  previous_composite: 62.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon/refs/heads/main/screenshots/amazon-2026-06-20T171600.png
 security:

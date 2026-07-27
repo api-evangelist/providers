@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Public-facing presence of Electronic Arts. Covers EA''s corporate site, consumer game services, EA app, EA Play subscription, and EA Help support surfaces. EA does not publicly publish a developer API '
@@ -114,7 +114,7 @@ press:
 - date: '2026-05-25'
   title: EA and Stability AI partner to empower artists, designers, ...
   url: https://www.ea.com/news/ea-partners-with-stability-ai
-random_paper: 21
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Electronic Arts Rate Limits
@@ -132,7 +132,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 18.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/electronic-arts/refs/heads/main/screenshots/electronic-arts-2026-06-20T180553.png
 security:

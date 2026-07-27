@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 31.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for the Gluwa borderless financial platform — balances, fees, transactions, payment QR codes, wrap/unwrap, and the Exchange API (quotes, orders, order books). Secured with API keys and addres
@@ -125,11 +125,11 @@ overview: 'Gluwa publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Gluwa''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, changelog, and 11 more developer resources.'
-random_paper: 34
+random_paper: 0
 score:
   band: thin
   composite: 31.2
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 22.6
@@ -137,15 +137,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 32.2
+  previous_composite: 31.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gluwa/refs/heads/main/screenshots/gluwa-2026-07-25T215947.png
 security:
 - kind: authentication
   name: Gluwa Authentication

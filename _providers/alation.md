@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -322,7 +322,7 @@ plans:
 - name: Alation Plans Pricing
   plan_count: 1
   slug: alation-plans-pricing
-random_paper: 30
+random_paper: 64
 rate_limits:
 - limit_count: 2
   name: Alation Rate Limits
@@ -346,18 +346,18 @@ rules:
   slug: alation-spectral-rules
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 54.8
+  delta: 4.7
   facets:
     commercial_clarity: 36.8
-    contract_quality: 62.7
+    contract_quality: 71.5
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 50.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/alation/refs/heads/main/screenshots/alation-2026-06-20T171502.png
 security:

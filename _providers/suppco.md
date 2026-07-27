@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,11 +77,11 @@ overview: 'SuppCo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   SuppCo''s developer surface includes support and 8 more developer resources.'
-random_paper: 3
+random_paper: 54
 score:
   band: emerging
   composite: 17.7
-  delta: 4.5
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -89,14 +89,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.2
+  previous_composite: 17.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

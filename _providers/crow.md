@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 11.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Crow agent platform surface — the widget/agent runtime served from api.usecrow.org, configured via the dashboard and consumed through the embed script and the @usecrow/client / @usecrow/ui SDKs. C
@@ -127,8 +127,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 28.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/crow/refs/heads/main/screenshots/crow-2026-07-25T210812.png
 security:
 - kind: domain-security
   name: Crow Domain Security

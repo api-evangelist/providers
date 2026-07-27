@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -130,7 +130,7 @@ overview: 'Verra is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Verra''s developer surface includes product news, YouTube channel, engineering blog, and 19 more developer resources.'
-random_paper: 50
+random_paper: 33
 score:
   band: minimal
   composite: 7.2
@@ -144,7 +144,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verra-org/refs/heads/main/screenshots/verra-org-2026-06-20T200945.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ overview: 'Simplismart publishes 8 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Simplismart''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 32
+random_paper: 49
 score:
   band: developing
   composite: 54.6
@@ -208,7 +208,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 54.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

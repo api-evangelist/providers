@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,11 +93,11 @@ overview: 'Empathy is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Empathy''s developer surface includes signup flow, engineering blog, and 11 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: emerging
   composite: 20.3
-  delta: 4.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -105,15 +105,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 16.3
+  previous_composite: 20.3
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/empathy/refs/heads/main/screenshots/empathy-2026-07-25T213251.png
 security:
 - kind: domain-security
   name: Empathy Domain Security

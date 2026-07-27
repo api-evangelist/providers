@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,7 +74,7 @@ press:
 - date: '2026-05-25'
   title: Jabil
   url: https://www.facebook.com/Jabil/posts/jabil-has-been-named-a-time-time100companiesindustryleader-in-manufacturing-logi/1486973570134313/
-random_paper: 39
+random_paper: 22
 score:
   band: minimal
   composite: 6.2
@@ -88,7 +88,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jabil-circuit/refs/heads/main/screenshots/jabil-circuit-2026-06-20T183646.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ overview: 'houmo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   houmo''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: minimal
   composite: 10.9
@@ -75,8 +75,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/houmo/refs/heads/main/screenshots/houmo-2026-07-25T221525.png
 security:
 - kind: domain-security
   name: Houmo Domain Security

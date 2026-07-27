@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 12
 apis:
 - description: The API keys API from Amika — 2 operation(s) for api keys.
@@ -191,7 +191,7 @@ overview: 'Amika publishes 12 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Amika''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, pricing, signup flow, and 20 more developer resources.'
-random_paper: 5
+random_paper: 39
 score:
   band: developing
   composite: 46.4
@@ -205,8 +205,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 46.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/amika/refs/heads/main/screenshots/amika-2026-07-25T200103.png
 security:
 - kind: authentication
   name: Amika Authentication

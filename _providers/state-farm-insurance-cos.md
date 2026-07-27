@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ press:
 - date: '2026-05-25'
   title: 147 State Farm Insurance Company Stock Photos, High- ...
   url: https://www.gettyimages.in/photos/state-farm-insurance-company
-random_paper: 49
+random_paper: 15
 rate_limits:
 - limit_count: 1
   name: State Farm Insurance Cos Rate Limits
@@ -222,18 +222,18 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 52.7
+  delta: 2.5
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.8
     developer_ergonomics: 19.6
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 50.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/state-farm-insurance-cos/refs/heads/main/screenshots/state-farm-insurance-cos-2026-06-20T194526.png
 security:

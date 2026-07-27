@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 33.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: REST API endpoints for managing and monitoring Oracle Database partitioning operations.
@@ -104,7 +104,7 @@ plans:
 - name: Oracle Partitioning Plans Pricing
   plan_count: 3
   slug: oracle-partitioning-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Oracle Partitioning Rate Limits
@@ -122,7 +122,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 44.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-partitioning/refs/heads/main/screenshots/oracle-partitioning-2026-06-20T191138.png
 security:

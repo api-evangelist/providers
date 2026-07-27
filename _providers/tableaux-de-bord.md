@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -157,7 +157,7 @@ plans:
 - name: Tableaux De Bord Plans Pricing
   plan_count: 3
   slug: tableaux-de-bord-plans-pricing
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Tableaux De Bord Rate Limits
@@ -173,18 +173,18 @@ rules:
   slug: tableaux-de-bord-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 51.8
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 62.4
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 48.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tableaux-de-bord/refs/heads/main/screenshots/tableaux-de-bord-2026-06-20T194915.png
 security:

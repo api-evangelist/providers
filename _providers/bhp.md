@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 10
 common:
@@ -97,7 +97,7 @@ name: BHP
 nav: Providers
 network: true
 overview: BHP is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Mining, Resources, Commodities, Iron Ore, and Copper.
-random_paper: 8
+random_paper: 42
 score:
   band: minimal
   composite: 12.5
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bhp/refs/heads/main/screenshots/bhp-2026-06-20T173224.png
 security:

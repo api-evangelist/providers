@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 1
@@ -136,7 +136,7 @@ plans:
 - name: Microsoft Azure Site Recovery Plans Pricing
   plan_count: 3
   slug: microsoft-azure-site-recovery-plans-pricing
-random_paper: 26
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Site Recovery Rate Limits
@@ -148,18 +148,18 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 51.8
+  delta: 3.3
   facets:
     commercial_clarity: 71.1
     contract_quality: 51.3
     developer_ergonomics: 45.7
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 48.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-site-recovery/refs/heads/main/screenshots/microsoft-azure-site-recovery-2026-06-20T185437.png
 security:

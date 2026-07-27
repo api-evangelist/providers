@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -68,7 +68,7 @@ arazzos:
 - description: Export a specific module from one project and import it into a module of another project.
   name: Apidog Sync Module Across Projects
   slug: apidog-sync-module-across-projects-workflow
-artifact_total: 55
+artifact_total: 57
 collections:
 - collection_type: postman
   name: Apidog API
@@ -297,6 +297,13 @@ jsonld:
   property_count: 9
   slug: apidog-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: apidog-mcp-server
+  slug: apidog-mcp-server
+- description: ''
+  name: apidog-mcp-server
+  slug: apidog-mcp-server-2
 modified: '2026-05-22'
 name: Apidog
 nav: Providers
@@ -335,20 +342,20 @@ rules:
     warn: 12
   slug: apidog-rules
 score:
-  band: strong
-  composite: 69.1
-  delta: 0.0
+  band: exemplar
+  composite: 74.6
+  delta: 5.5
   facets:
     commercial_clarity: 68.4
-    contract_quality: 68.1
+    contract_quality: 77.0
     developer_ergonomics: 63.0
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 84.2
   previous_composite: 69.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/apidog/refs/heads/main/screenshots/apidog-2026-06-20T172233.png
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -126,25 +126,25 @@ plans:
 - name: Friendly Captcha Plans Pricing
   plan_count: 1
   slug: friendly-captcha-plans-pricing
-random_paper: 49
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Friendly Captcha Rate Limits
   slug: friendly-captcha-rate-limits
 score:
   band: thin
-  composite: 39.6
-  delta: 0.0
+  composite: 42.8
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 54.9
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 39.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/friendly-captcha/refs/heads/main/screenshots/friendly-captcha-2026-06-20T181553.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -78,7 +78,7 @@ press:
 - date: '2026-05-25'
   title: THOR INDUSTRIES ELEVATES RYAN BIREN TO CHIEF ...
   url: https://www.prnewswire.com/news-releases/thor-industries-elevates-ryan-biren-to-chief-information-officer-signaling-accelerated-enterprise-data-and-ai-strategy-302700093.html
-random_paper: 7
+random_paper: 24
 score:
   band: minimal
   composite: 10.5
@@ -92,7 +92,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thor-industries/refs/heads/main/screenshots/thor-industries-2026-06-20T195313.png
 security:

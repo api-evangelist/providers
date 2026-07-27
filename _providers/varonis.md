@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -402,7 +402,7 @@ plans:
 - name: Varonis Plans Pricing
   plan_count: 1
   slug: varonis-plans-pricing
-random_paper: 5
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Varonis Rate Limits
@@ -425,20 +425,20 @@ rules:
     warn: 22
   slug: varonis-spectral-rules
 score:
-  band: strong
-  composite: 64.7
-  delta: 0.0
+  band: exemplar
+  composite: 70.2
+  delta: 5.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 73.5
+    contract_quality: 82.3
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 68.4
   previous_composite: 64.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/varonis/refs/heads/main/screenshots/varonis-2026-06-20T200821.png
 security:
 - kind: authentication

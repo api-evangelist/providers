@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -115,30 +115,30 @@ plans:
 - name: Open Fec Plans Pricing
   plan_count: 3
   slug: open-fec-plans-pricing
-random_paper: 16
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Open Fec Rate Limits
   slug: open-fec-rate-limits
 score:
   band: thin
-  composite: 34.8
-  delta: -1.6
+  composite: 37.6
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 52.0
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 36.4
+  previous_composite: 34.8
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-fec/refs/heads/main/screenshots/open-fec-2026-06-20T190743.png
 security:

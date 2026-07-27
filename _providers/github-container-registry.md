@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -119,7 +119,7 @@ plans:
 - name: Github Container Registry Plans Pricing
   plan_count: 3
   slug: github-container-registry-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Github Container Registry Rate Limits
@@ -134,19 +134,19 @@ rules:
     warn: 0
   slug: github-container-registry-rules
 score:
-  band: thin
-  composite: 44.1
-  delta: 0.0
+  band: developing
+  composite: 47.3
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 49.6
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 13.2
     operational_transparency: 52.6
   previous_composite: 44.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/github-container-registry/refs/heads/main/screenshots/github-container-registry-2026-06-20T181838.png
 security:

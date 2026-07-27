@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ plans:
 - name: Spacex Api Plans Pricing
   plan_count: 3
   slug: spacex-api-plans-pricing
-random_paper: 34
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Spacex Api Rate Limits
@@ -166,19 +166,19 @@ rules:
     warn: 4
   slug: spacex-api-rules
 score:
-  band: thin
-  composite: 43.5
-  delta: 0.0
+  band: developing
+  composite: 48.1
+  delta: 4.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 59.1
+    contract_quality: 64.4
     developer_ergonomics: 8.7
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spacex-api/refs/heads/main/screenshots/spacex-api-2026-06-20T194252.png
 security:

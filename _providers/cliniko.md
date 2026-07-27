@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -124,31 +124,32 @@ plans:
 - name: Cliniko Plans Pricing
   plan_count: 8
   slug: cliniko-plans-pricing
-random_paper: 31
+random_paper: 65
 rate_limits:
 - limit_count: 3
   name: Cliniko Rate Limits
   slug: cliniko-rate-limits
 score:
   band: thin
-  composite: 36.9
-  delta: -1.9
+  composite: 39.7
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.9
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 38.8
+  previous_composite: 36.9
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cliniko/refs/heads/main/screenshots/cliniko-2026-07-25T205628.png
 security:
 - kind: authentication
   name: Cliniko Authentication

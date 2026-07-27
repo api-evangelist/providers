@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Use this API to submit ambulance data to the NHS Data Processing Service (DPS) so that it can be made available for analysis and review by NHS England and ambulance trusts.
@@ -78,7 +78,7 @@ plans:
 - name: National Health Service Plans Pricing
   plan_count: 3
   slug: national-health-service-plans-pricing
-random_paper: 32
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: National Health Service Rate Limits
@@ -86,7 +86,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.4
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -94,14 +94,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 21.7
+  previous_composite: 22.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-health-service/refs/heads/main/screenshots/national-health-service-2026-06-20T190024.png
 security:

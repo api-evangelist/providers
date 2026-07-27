@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -215,7 +215,7 @@ overview: 'Hex publishes 11 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Hex''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 25 more developer resources.'
-random_paper: 19
+random_paper: 53
 score:
   band: developing
   composite: 56.0
@@ -229,8 +229,9 @@ score:
     operational_transparency: 47.4
   previous_composite: 56.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hex/refs/heads/main/screenshots/hex-2026-07-25T221110.png
 security:
 - kind: authentication
   name: Hex Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for Tallyfy workflow automation. Organization-scoped resources (/organizations/{org_id}/checklists, /runs, /tasks, ...) with Bearer-token auth (personal, application, or OAuth 2.0 access toke
@@ -173,7 +173,7 @@ overview: 'Tallyfy publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Tallyfy''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 8
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Tallyfy Rate Limits
@@ -191,7 +191,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 44.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

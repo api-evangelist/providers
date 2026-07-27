@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ overview: 'Adaption Labs publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Adaption Labs'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 18 more developer resources.'
-random_paper: 36
+random_paper: 19
 score:
   band: developing
   composite: 46.5
@@ -174,8 +174,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 46.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/adaption-labs/refs/heads/main/screenshots/adaption-labs-2026-07-25T181552.png
 security:
 - kind: authentication
   name: Adaption Labs Authentication

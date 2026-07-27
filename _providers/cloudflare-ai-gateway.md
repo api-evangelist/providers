@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
 - description: The Proxy API from Cloudflare AI Gateway — 2 operation(s) for proxy.
   name: Cloudflare AI Gateway Proxy API
   slug: cloudflare-ai-gateway-proxy-api
-artifact_total: 36
+artifact_total: 37
 collections:
 - collection_type: open
   name: Cloudflare AI Gateway API
@@ -198,6 +198,10 @@ integrations:
 - description: Remote MCP server at ai-gateway.mcp.cloudflare.com/mcp for AI agent access to AI Gateway control plane.
   name: MCP Server
 layout: provider
+mcp_servers:
+- description: ''
+  name: mcp
+  slug: mcp
 modified: '2026-05-23'
 name: Cloudflare AI Gateway
 nav: Providers
@@ -210,25 +214,25 @@ plans:
 - name: Cloudflare Ai Gateway Plans Pricing
   plan_count: 1
   slug: cloudflare-ai-gateway-plans-pricing
-random_paper: 12
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Cloudflare Ai Gateway Rate Limits
   slug: cloudflare-ai-gateway-rate-limits
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 55.3
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 53.1
     developer_ergonomics: 89.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 57.9
   previous_composite: 53.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudflare-ai-gateway/refs/heads/main/screenshots/cloudflare-ai-gateway-2026-06-20T174550.png
 security:

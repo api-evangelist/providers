@@ -1,0 +1,60 @@
+---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 17.3
+  scored_at: '2026-07-27'
+api_count: 1
+apis:
+- description: REST API for fetching public YouTube transcripts synchronously and in bulk, with account/balance endpoints, job polling, and completion webhooks. Bearer API key or X-API-Key auth.
+  name: Media Caption Public API
+  slug: media-caption-public-api
+artifact_total: 1
+created: '2026-07-18'
+description: A credit-billed REST API for retrieving public YouTube transcripts, with single and bulk transcript jobs, job-level webhooks, and AI transcription/translation capabilities. Backed by a public OpenAPI 3.1 contract with bearer/X-API-Key authentication.
+layout: provider
+modified: '2026-07-18'
+name: MediaCaption API
+nav: Providers
+network: true
+overview: 'MediaCaption API publishes 1 API on the [APIs.io](https://apis.io/) network: Media Caption Public API. Tagged areas include youtube, transcription, captions, subtitles, and video.'
+random_paper: 57
+score:
+  band: emerging
+  composite: 17.4
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 37.7
+    developer_ergonomics: 0.0
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 0.0
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+slug: mediacaption-api
+tags:
+- youtube
+- transcription
+- captions
+- subtitles
+- video
+- rest
+- openapi
+- webhooks
+- speech-to-text
+- media
+- developer-tools
+---

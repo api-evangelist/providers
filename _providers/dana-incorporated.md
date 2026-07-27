@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Dana Aftermarket API provides programmatic access to Dana's aftermarket e-commerce platform with APIs for advanced shipping notification, availability, deep linking, order status, part details, pa
@@ -79,7 +79,7 @@ plans:
 - name: Dana Incorporated Plans Pricing
   plan_count: 1
   slug: dana-incorporated-plans-pricing
-random_paper: 5
+random_paper: 39
 rate_limits:
 - limit_count: 1
   name: Dana Incorporated Rate Limits
@@ -97,7 +97,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 17.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dana-incorporated/refs/heads/main/screenshots/dana-incorporated-2026-06-20T175458.png
 security:

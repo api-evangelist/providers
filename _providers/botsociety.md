@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Manage conversations (legacy apisociety 2.0 API)
@@ -131,7 +131,7 @@ overview: 'BotSociety publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   BotSociety''s developer surface includes documentation, API reference, authentication, changelog, and 14 more developer resources.'
-random_paper: 22
+random_paper: 5
 score:
   band: thin
   composite: 35.9
@@ -145,8 +145,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 35.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/botsociety/refs/heads/main/screenshots/botsociety-2026-07-25T203642.png
 security:
 - kind: authentication
   name: Botsociety Authentication

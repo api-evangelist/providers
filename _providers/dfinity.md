@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 4.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The public HTTP interface (agent/gateway API) for reading state from and submitting calls to Internet Computer canisters, consumed by the @dfinity agent libraries, the Rust ic-agent, and the icp/dfx C
@@ -113,7 +113,7 @@ overview: 'DFINITY publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   DFINITY''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, and 11 more developer resources.'
-random_paper: 45
+random_paper: 11
 score:
   band: emerging
   composite: 24.2
@@ -127,8 +127,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 24.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dfinity/refs/heads/main/screenshots/dfinity-2026-07-25T211842.png
 security:
 - kind: domain-security
   name: Dfinity Domain Security

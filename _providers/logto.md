@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 223
   human_in_the_loop: 6
@@ -220,7 +220,7 @@ plans:
 - name: Logto Plans Pricing
   plan_count: 3
   slug: logto-plans-pricing
-random_paper: 39
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Logto Rate Limits
@@ -243,7 +243,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 37.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logto/refs/heads/main/screenshots/logto-2026-06-20T184700.png
 security:

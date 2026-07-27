@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Certified-partner API gateway for WideOrbit.io providing real-time, object-level interaction with WideOrbit Traffic, Network, and Omni systems. Access is restricted to authorized, WideOrbit-certified '
@@ -106,7 +106,7 @@ overview: 'WideOrbit publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   WideOrbit''s developer surface includes documentation, signup flow, support, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 0
+random_paper: 17
 scopes:
 - name: Wideorbit Scopes
   scope_count: 0
@@ -125,7 +125,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 23.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

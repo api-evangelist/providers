@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,7 +66,7 @@ press:
 - date: '2026-05-25'
   title: Dow launches Transform to Outperform to raise the ...
   url: https://www.prnewswire.com/news-releases/dow-launches-transform-to-outperform-to-raise-the-competitive-industry-benchmark-for-productivity-and-growth-to-enable-improved-returns-302673865.html
-random_paper: 24
+random_paper: 41
 score:
   band: minimal
   composite: 5.5
@@ -80,7 +80,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dow-chemical/refs/heads/main/screenshots/dow-chemical-2026-06-20T180207.png
 security:

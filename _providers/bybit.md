@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 5.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Cryptocurrency data feed and algorithmic trading
@@ -57,7 +57,7 @@ overview: 'Bybit publishes 1 API on the [APIs.io](https://apis.io/) network: Byb
 
 
   The Bybit catalog on APIs.io includes 1 event-driven AsyncAPI specification and 1 Spectral governance ruleset.'
-random_paper: 28
+random_paper: 62
 rules:
 - name: Bybit API Rules
   rule_count: 8
@@ -80,7 +80,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 22.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: bybit
 tags:

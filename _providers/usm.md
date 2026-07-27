@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: OAI-PMH 2.0 metadata-harvesting interface for the USM Repository (Repository@USM), an EPrints 3.3.16 institutional repository of USM research and publications. The Identify response confirms repositor
@@ -94,7 +94,7 @@ plans:
 - name: Usm Plans Pricing
   plan_count: 2
   slug: usm-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Usm Rate Limits
@@ -112,7 +112,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 22.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/usm/refs/heads/main/screenshots/usm-2026-06-20T200723.png
 security:

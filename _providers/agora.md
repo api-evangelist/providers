@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -165,11 +165,11 @@ overview: 'Agora publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Agora''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 17 more developer resources.'
-random_paper: 12
+random_paper: 46
 score:
   band: developing
   composite: 47.7
-  delta: 1.1
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 54.0
@@ -177,15 +177,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 46.6
+  previous_composite: 47.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/agora/refs/heads/main/screenshots/agora-2026-07-25T195314.png
 security:
 - kind: authentication
   name: Agora Authentication

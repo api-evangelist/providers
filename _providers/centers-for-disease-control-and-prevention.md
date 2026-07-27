@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -146,30 +146,30 @@ plans:
 - name: Centers For Disease Control And Prevention Plans Pricing
   plan_count: 3
   slug: centers-for-disease-control-and-prevention-plans-pricing
-random_paper: 34
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Centers For Disease Control And Prevention Rate Limits
   slug: centers-for-disease-control-and-prevention-rate-limits
 score:
   band: thin
-  composite: 39.3
-  delta: -0.8
+  composite: 41.0
+  delta: 1.7
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.4
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 40.1
+  previous_composite: 39.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 34.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/centers-for-disease-control-and-prevention/refs/heads/main/screenshots/centers-for-disease-control-and-prevention-2026-06-20T174125.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ overview: 'Augment publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Augment''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 39
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Augment Rate Limits
@@ -213,8 +213,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 52.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/augment/refs/heads/main/screenshots/augment-2026-07-25T201709.png
 security:
 - kind: authentication
   name: Augment Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ random_paper: 32
 score:
   band: developing
   composite: 53.1
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 64.6
@@ -186,15 +186,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 50.2
+  previous_composite: 53.1
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 69.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/keyo/refs/heads/main/screenshots/keyo-2026-07-25T223659.png
 security:
 - kind: authentication
   name: Keyo Authentication

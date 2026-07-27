@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -110,21 +110,21 @@ overview: 'lemlist publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   lemlist''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 48
+random_paper: 14
 score:
   band: emerging
-  composite: 25.1
-  delta: 0.0
+  composite: 28.4
+  delta: 3.3
   facets:
     commercial_clarity: 10.5
     contract_quality: 47.8
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 25.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemlist/refs/heads/main/screenshots/lemlist-2026-06-20T184417.png
 security:

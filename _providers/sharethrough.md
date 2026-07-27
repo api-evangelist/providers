@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: REST API enabling publishers to pull programmatic and direct sell reporting data for their native ad placements, including impressions, revenue, and performance metrics, using token-based authenticati
@@ -109,7 +109,7 @@ plans:
 - name: Sharethrough Plans Pricing
   plan_count: 2
   slug: sharethrough-plans-pricing
-random_paper: 25
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Sharethrough Rate Limits
@@ -127,7 +127,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 25.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sharethrough/refs/heads/main/screenshots/sharethrough-2026-06-20T193746.png
 security:

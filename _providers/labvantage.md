@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -127,23 +127,23 @@ rules:
   slug: labvantage-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 42.5
-  delta: -0.9
+  composite: 44.6
+  delta: 2.1
   facets:
     commercial_clarity: 28.9
     contract_quality: 68.5
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 21.1
-  previous_composite: 43.4
+  previous_composite: 42.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/labvantage/refs/heads/main/screenshots/labvantage-2026-06-20T184240.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: ID.me's OpenID Connect and OAuth 2.0 identity provider. Supports the authorization code flow (with PKCE), refresh tokens, encrypted ID tokens and userinfo, and returns verified identity attributes and
@@ -185,7 +185,7 @@ scopes:
 score:
   band: developing
   composite: 45.2
-  delta: 6.6
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 22.6
@@ -193,15 +193,15 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 38.6
+  previous_composite: 45.2
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 82.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Idme Authentication

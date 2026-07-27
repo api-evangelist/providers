@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -65,11 +65,11 @@ overview: 'Luminai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Luminai''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 37
+random_paper: 3
 score:
   band: emerging
   composite: 15.5
-  delta: 3.0
+  delta: 0.0
   facets:
     commercial_clarity: 26.3
     contract_quality: 0.0
@@ -77,15 +77,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 12.5
+  previous_composite: 15.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 32.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/luminai/refs/heads/main/screenshots/luminai-2026-07-25T225712.png
 security:
 - kind: domain-security
   name: Luminai Domain Security

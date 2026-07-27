@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 12
 apis:
 - description: The Mastra framework is a TypeScript-first agentic stack distributed as the @mastra/* family of npm packages. The core package wires agents, workflows, memory, RAG, tools, MCP, evals, voice, and obser
@@ -162,7 +162,7 @@ overview: 'Mastra publishes 12 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Mastra''s developer surface includes documentation, GitHub presence, engineering blog, changelog, pricing, code examples, YouTube channel, and 14 more developer resources.'
-random_paper: 28
+random_paper: 11
 score:
   band: emerging
   composite: 16.6
@@ -176,7 +176,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 16.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastra-ai/refs/heads/main/screenshots/mastra-ai-2026-06-20T185028.png
 security:

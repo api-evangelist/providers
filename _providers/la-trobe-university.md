@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ plans:
 - name: La Trobe University Plans Pricing
   plan_count: 2
   slug: la-trobe-university-plans-pricing
-random_paper: 19
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: La Trobe University Rate Limits
@@ -151,7 +151,7 @@ rules:
 score:
   band: thin
   composite: 40.8
-  delta: -3.0
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 70.8
@@ -159,14 +159,14 @@ score:
     discoverability: 87.5
     governance: 73.7
     operational_transparency: 21.1
-  previous_composite: 43.8
+  previous_composite: 40.8
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/la-trobe-university/refs/heads/main/screenshots/la-trobe-university-2026-06-20T184236.png
 security:

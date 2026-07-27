@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 51.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ plans:
 - name: Sas Plans Pricing
   plan_count: 3
   slug: sas-plans-pricing
-random_paper: 21
+random_paper: 55
 rate_limits:
 - limit_count: 2
   name: Sas Rate Limits
@@ -251,18 +251,18 @@ scopes:
   summary_line: 1 scope · password
 score:
   band: developing
-  composite: 52.2
-  delta: 0.0
+  composite: 56.4
+  delta: 4.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 56.6
+    contract_quality: 65.5
     developer_ergonomics: 47.8
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 52.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sas/refs/heads/main/screenshots/sas-2026-06-20T193436.png
 security:

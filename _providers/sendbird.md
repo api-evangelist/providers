@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ arazzos:
 - description: Fetch a user, then merge nickname, profile, and metadata updates onto them.
   name: Sendbird Update User Metadata
   slug: sendbird-update-user-metadata-workflow
-artifact_total: 42
+artifact_total: 43
 collections:
 - collection_type: postman
   name: Sendbird Platform API
@@ -359,6 +359,10 @@ jsonld:
   property_count: 11
   slug: sendbird-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: sendbird-mcp.yml
+  slug: sendbird-mcpyml
 modified: '2026-06-20'
 name: Sendbird
 nav: Providers
@@ -397,19 +401,19 @@ rules:
     warn: 6
   slug: sendbird-rules
 score:
-  band: strong
-  composite: 66.9
-  delta: 0.0
+  band: exemplar
+  composite: 70.2
+  delta: 3.3
   facets:
     commercial_clarity: 78.9
     contract_quality: 69.9
     developer_ergonomics: 39.1
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 76.3
   previous_composite: 66.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendbird/refs/heads/main/screenshots/sendbird-2026-06-20T193652.png
 security:

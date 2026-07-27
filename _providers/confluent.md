@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -126,25 +126,25 @@ plans:
 - name: Confluent Plans Pricing
   plan_count: 3
   slug: confluent-plans-pricing
-random_paper: 5
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Confluent Rate Limits
   slug: confluent-rate-limits
 score:
   band: thin
-  composite: 33.6
-  delta: 0.0
+  composite: 35.6
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 51.3
     developer_ergonomics: 13.0
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 33.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluent/refs/heads/main/screenshots/confluent-2026-06-20T174900.png
 security:

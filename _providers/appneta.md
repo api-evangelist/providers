@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: RESTful API for AppNeta Performance Manager, covering monitoring policies and policy groups, web paths, web applications (locations, targets, user flows), monitoring points, alarm connectors (v4), and
@@ -82,7 +82,7 @@ overview: 'AppNeta publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   AppNeta''s developer surface includes documentation, API reference, authentication, support, and 5 more developer resources.'
-random_paper: 31
+random_paper: 65
 score:
   band: emerging
   composite: 16.5
@@ -96,8 +96,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 16.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/appneta/refs/heads/main/screenshots/appneta-2026-07-25T200818.png
 security:
 - kind: authentication
   name: Appneta Authentication

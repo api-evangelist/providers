@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 275
   human_in_the_loop: 7
@@ -494,7 +494,7 @@ arazzos:
 - description: Check an envelope's status and void it only if signing has not yet completed.
   name: DocuSign Void Envelope If Not Completed
   slug: docusign-void-envelope-if-not-completed-workflow
-artifact_total: 332
+artifact_total: 333
 asyncapis:
 - description: DocuSign Connect is a webhook notification service that sends real-time updates about envelope and recipient events to your application. Connect pushes notifications to your listener endpoint when env
   name: DocuSign Connect Webhooks
@@ -1192,6 +1192,10 @@ jsonld:
   property_count: 0
   slug: docusign-esignature-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Docusign
 nav: Providers
@@ -1243,19 +1247,19 @@ scopes:
   slug: docusign-scopes
   summary_line: 13 scopes · authorizationCode/implicit
 score:
-  band: strong
-  composite: 67.7
-  delta: 0.0
+  band: exemplar
+  composite: 71.5
+  delta: 3.8
   facets:
     commercial_clarity: 71.1
-    contract_quality: 71.4
+    contract_quality: 76.7
     developer_ergonomics: 63.0
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 60.5
     operational_transparency: 78.9
   previous_composite: 67.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/docusign/refs/heads/main/screenshots/docusign-2026-06-20T180123.png
 security:

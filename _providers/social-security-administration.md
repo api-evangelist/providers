@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 45.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -156,7 +156,7 @@ plans:
 - name: Social Security Administration Plans Pricing
   plan_count: 3
   slug: social-security-administration-plans-pricing
-random_paper: 12
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Social Security Administration Rate Limits
@@ -180,23 +180,23 @@ rules:
   slug: ssa-rules
 score:
   band: thin
-  composite: 42.5
-  delta: -3.2
+  composite: 44.2
+  delta: 1.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 59.3
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 31.6
-  previous_composite: 45.7
+  previous_composite: 42.5
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/social-security-administration/refs/heads/main/screenshots/social-security-administration-2026-06-20T194118.png
 security:

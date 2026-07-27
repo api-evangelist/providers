@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 1
@@ -263,7 +263,7 @@ plans:
 - name: Tibco Plans Pricing
   plan_count: 1
   slug: tibco-plans-pricing
-random_paper: 19
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Tibco Rate Limits
@@ -300,18 +300,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 55.7
-  delta: 0.0
+  composite: 59.0
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 75.8
     developer_ergonomics: 34.8
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 42.1
   previous_composite: 55.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tibco/refs/heads/main/screenshots/tibco-2026-06-20T195332.png
 security:

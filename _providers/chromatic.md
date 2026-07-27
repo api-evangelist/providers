@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Query builds produced by the Chromatic CLI - the `build(id)` and `project.lastBuild(...)` GraphQL fields expose build number, status (IN_PROGRESS, PASSED, PENDING, ACCEPTED, DENIED, BROKEN, FAILED), r
@@ -103,26 +103,27 @@ plans:
 - name: Chromatic Plans Pricing
   plan_count: 4
   slug: chromatic-plans-pricing
-random_paper: 36
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Chromatic Rate Limits
   slug: chromatic-rate-limits
 score:
   band: emerging
-  composite: 21.6
-  delta: 0.0
+  composite: 24.9
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 21.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/chromatic/refs/heads/main/screenshots/chromatic-2026-07-25T205300.png
 slug: chromatic
 tags:
 - Visual Testing

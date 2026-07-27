@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -128,26 +128,27 @@ plans:
 - name: Chartmetric Plans Pricing
   plan_count: 4
   slug: chartmetric-plans-pricing
-random_paper: 1
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Chartmetric Rate Limits
   slug: chartmetric-rate-limits
 score:
   band: thin
-  composite: 37.5
-  delta: 0.0
+  composite: 40.8
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 55.1
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 37.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/chartmetric/refs/heads/main/screenshots/chartmetric-2026-07-25T205111.png
 security:
 - kind: authentication
   name: Chartmetric Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: REST API for managing reverse ETL syncs, sources, destinations, datasets, models, and segments programmatically. Used to provision, update, and monitor Census workspaces, schedule syncs, and integrate
@@ -89,7 +89,7 @@ plans:
 - name: Census Co Plans Pricing
   plan_count: 1
   slug: census-co-plans-pricing
-random_paper: 45
+random_paper: 28
 rate_limits:
 - limit_count: 2
   name: Census Co Rate Limits
@@ -107,7 +107,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 20.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/census-co/refs/heads/main/screenshots/census-co-2026-06-20T174117.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: TIAA's retirement plan services for individual participants, covering 403(b), 457(b), 401(k), and IRA accounts. Products include TIAA Traditional fixed annuity, CREF variable annuities (stock, bond, m
@@ -148,7 +148,7 @@ press:
 - date: '2026-05-25'
   title: Participation in TIAA's Lifetime Income Solutions ...
   url: https://www.prnewswire.com/news-releases/participation-in-tiaas-lifetime-income-solutions-accelerates-as-plan-sponsors-embrace-annuity-embedded-defaults-302730672.html
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Tiaa Cref Rate Limits
@@ -165,7 +165,7 @@ rules:
 score:
   band: thin
   composite: 33.8
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 20.8
@@ -173,14 +173,14 @@ score:
     discoverability: 87.5
     governance: 86.8
     operational_transparency: 21.1
-  previous_composite: 35.5
+  previous_composite: 33.8
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiaa-cref/refs/heads/main/screenshots/tiaa-cref-2026-06-20T195327.png
 security:

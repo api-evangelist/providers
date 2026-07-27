@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 59
   human_in_the_loop: 0
@@ -234,11 +234,11 @@ overview: 'Cable publishes 20 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Cable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 24 more developer resources.'
-random_paper: 44
+random_paper: 27
 score:
   band: developing
   composite: 53.4
-  delta: 4.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 48.5
@@ -246,15 +246,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 49.0
+  previous_composite: 53.4
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cable/refs/heads/main/screenshots/cable-2026-07-25T204213.png
 security:
 - kind: authentication
   name: Cable Authentication

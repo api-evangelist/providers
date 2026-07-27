@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ plans:
 - name: Unstructured Plans Pricing
   plan_count: 3
   slug: unstructured-plans-pricing
-random_paper: 10
+random_paper: 44
 rate_limits:
 - limit_count: 2
   name: Unstructured Rate Limits
@@ -213,7 +213,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 59.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unstructured/refs/heads/main/screenshots/unstructured-2026-06-20T200434.png
 security:

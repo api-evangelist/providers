@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ plans:
 - name: Agechecker Net Plans Pricing
   plan_count: 3
   slug: agechecker-net-plans-pricing
-random_paper: 21
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Agechecker Net Rate Limits
@@ -223,19 +223,19 @@ rules:
     warn: 15
   slug: agechecker-net-spectral-rules
 score:
-  band: developing
-  composite: 57.5
-  delta: 0.0
+  band: strong
+  composite: 60.8
+  delta: 3.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 72.3
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 57.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agechecker-net/refs/heads/main/screenshots/agechecker-net-2026-06-20T165819.png
 security:

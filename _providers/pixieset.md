@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -99,7 +99,7 @@ plans:
 - name: Pixieset Plans Pricing
   plan_count: 8
   slug: pixieset-plans-pricing
-random_paper: 8
+random_paper: 59
 score:
   band: thin
   composite: 33.5
@@ -113,7 +113,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 33.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

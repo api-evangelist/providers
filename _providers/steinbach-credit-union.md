@@ -16,7 +16,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -85,7 +85,7 @@ overview: 'Steinbach Credit Union is profiled on the [APIs.io](https://apis.io/)
 
 
   Steinbach Credit Union''s developer surface includes authentication, support, documentation, and 10 more developer resources.'
-random_paper: 30
+random_paper: 47
 scopes:
 - name: Steinbach Credit Union Scopes
   scope_count: 7
@@ -94,6 +94,7 @@ scopes:
 score:
   band: emerging
   composite: 27.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -101,13 +102,15 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
+  previous_composite: 27.0
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Steinbach Credit Union Authentication

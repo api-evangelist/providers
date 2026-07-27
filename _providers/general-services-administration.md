@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 31
 apis:
 - description: Provides programmatic access to acquisition gateway listings. Currently a placeholder; APIs are not yet available.
@@ -164,7 +164,7 @@ plans:
 - name: General Services Administration Plans Pricing
   plan_count: 3
   slug: general-services-administration-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: General Services Administration Rate Limits
@@ -172,7 +172,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.0
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -180,14 +180,14 @@ score:
     discoverability: 75.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 21.2
+  previous_composite: 22.0
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-services-administration/refs/heads/main/screenshots/general-services-administration-2026-06-20T181728.png
 security:

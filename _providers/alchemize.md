@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Programmatic access to Alchemize customs-brokerage and trade-compliance workflows for importers (shipment status, communications, and compliance data), advertised alongside EDI and portal access. The '
@@ -54,7 +54,7 @@ name: Alchemize
 nav: Providers
 network: true
 overview: Alchemize publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customs Brokerage, Trade Compliance, Supply Chain, and Logistics.
-random_paper: 28
+random_paper: 62
 score:
   band: minimal
   composite: 9.3
@@ -68,8 +68,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alchemize/refs/heads/main/screenshots/alchemize-2026-07-25T195545.png
 security:
 - kind: domain-security
   name: Alchemize Domain Security

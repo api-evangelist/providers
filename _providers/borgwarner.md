@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,7 +89,7 @@ press:
 - date: '2026-05-25'
   title: BorgWarner Strategically Enters Data Center Market with ...
   url: https://www.borgwarner.com/newsroom/press-releases/2026/02/11/borgwarner-strategically-enters-data-center-market-with-power-generation-solution-award
-random_paper: 10
+random_paper: 61
 score:
   band: minimal
   composite: 7.2
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/borgwarner/refs/heads/main/screenshots/borgwarner-2026-06-20T173610.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Alpen''s public JSON-RPC interface exposed by the full node and bundler on the Alpen Testnet (chain ID 8150, Signet BTC). Supports standard Ethereum eth_* methods, twenty-five Strata-specific strata_* '
@@ -109,7 +109,7 @@ overview: 'Alpen Labs publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Alpen Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, sandbox, and 9 more developer resources.'
-random_paper: 22
+random_paper: 39
 score:
   band: emerging
   composite: 22.2
@@ -123,8 +123,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 22.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alpen-labs/refs/heads/main/screenshots/alpen-labs-2026-07-25T195749.png
 security:
 - kind: domain-security
   name: Alpen Labs Domain Security

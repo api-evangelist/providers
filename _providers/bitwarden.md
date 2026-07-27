@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ plans:
 - name: Bitwarden Plans Pricing
   plan_count: 6
   slug: bitwarden-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 3
   name: Bitwarden Rate Limits
@@ -161,18 +161,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: thin
-  composite: 40.2
-  delta: 0.0
+  composite: 42.2
+  delta: 2.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 54.3
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 40.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitwarden/refs/heads/main/screenshots/bitwarden-2026-06-20T173325.png
 security:

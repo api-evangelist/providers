@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -419,7 +419,7 @@ plans:
 - name: Cdk Global Plans Pricing
   plan_count: 6
   slug: cdk-global-plans-pricing
-random_paper: 7
+random_paper: 24
 rate_limits:
 - limit_count: 4
   name: Cdk Global Rate Limits
@@ -455,19 +455,19 @@ scopes:
   slug: cdk-global-scopes
   summary_line: 3 scopes · implicit
 score:
-  band: developing
-  composite: 59.4
-  delta: 0.0
+  band: strong
+  composite: 61.4
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 68.1
     developer_ergonomics: 67.4
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 78.9
     operational_transparency: 36.8
   previous_composite: 59.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cdk-global/refs/heads/main/screenshots/cdk-global-2026-06-20T174106.png
 security:

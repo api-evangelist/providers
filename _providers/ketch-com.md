@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: REST API for the Ketch platform, powering consent collection and enforcement, data subject rights workflows, data mapping, preference management, and risk reporting. Endpoints are served from global.k
@@ -110,7 +110,7 @@ plans:
 - name: Ketch Com Plans Pricing
   plan_count: 5
   slug: ketch-com-plans-pricing
-random_paper: 24
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Ketch Com Rate Limits
@@ -128,7 +128,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 25.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ketch-com/refs/heads/main/screenshots/ketch-com-2026-06-20T184030.png
 security:

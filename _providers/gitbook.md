@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -190,7 +190,7 @@ plans:
 - name: Gitbook Plans Pricing
   plan_count: 3
   slug: gitbook-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Gitbook Rate Limits
@@ -214,18 +214,18 @@ rules:
   slug: gitbook-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 54.4
+  delta: 4.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 75.2
+    contract_quality: 84.1
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 60.5
     operational_transparency: 36.8
   previous_composite: 50.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitbook/refs/heads/main/screenshots/gitbook-2026-06-20T181833.png
 security:

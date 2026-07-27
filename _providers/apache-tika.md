@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -171,25 +171,25 @@ plans:
 - name: Apache Tika Plans Pricing
   plan_count: 3
   slug: apache-tika-plans-pricing
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Apache Tika Rate Limits
   slug: apache-tika-rate-limits
 score:
   band: thin
-  composite: 39.6
-  delta: 0.0
+  composite: 41.6
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 35.4
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 47.4
   previous_composite: 39.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-tika/refs/heads/main/screenshots/apache-tika-2026-06-20T172153.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 26.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Java/Kotlin Android SDK for monetizing apps with native, WebView, chat-message, and modal-overlay ad formats — including contextual ads for AI-chat interfaces. Installed via com.nexad:sdk and initiali
@@ -145,7 +145,7 @@ overview: 'Nexad publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Nexad''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 18
+random_paper: 52
 score:
   band: thin
   composite: 35.1
@@ -159,7 +159,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 35.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

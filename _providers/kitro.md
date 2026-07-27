@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -106,7 +106,7 @@ overview: 'KITRO is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   KITRO''s developer surface includes pricing, engineering blog, support, and 13 more developer resources.'
-random_paper: 43
+random_paper: 9
 score:
   band: minimal
   composite: 14.9
@@ -120,8 +120,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kitro/refs/heads/main/screenshots/kitro-2026-07-25T223912.png
 security:
 - kind: domain-security
   name: Kitro Domain Security

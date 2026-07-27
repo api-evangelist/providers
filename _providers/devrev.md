@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The DevRev public REST API for managing works (issues/tickets), parts, accounts, articles, conversations, timeline entries, webhooks, and more. Resource-oriented URLs, JSON request/response bodies, PA
@@ -191,8 +191,9 @@ score:
     operational_transparency: 44.7
   previous_composite: 46.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/devrev/refs/heads/main/screenshots/devrev-2026-07-25T211828.png
 security:
 - kind: authentication
   name: Devrev Authentication

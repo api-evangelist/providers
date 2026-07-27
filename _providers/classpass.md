@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: 'ClassPass''s named partner integration API for studios and their scheduling/booking software. Per ClassPass partner-marketing pages and integration-partner help centers (e.g. studio scheduling vendors '
@@ -78,7 +78,7 @@ plans:
 - name: Classpass Plans Pricing
   plan_count: 2
   slug: classpass-plans-pricing
-random_paper: 4
+random_paper: 21
 score:
   band: minimal
   composite: 14.8
@@ -92,8 +92,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/classpass/refs/heads/main/screenshots/classpass-2026-07-25T205520.png
 security:
 - kind: domain-security
   name: Classpass Domain Security

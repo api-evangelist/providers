@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Programmatic access to the Refuel Cloud platform for managing projects, datasets, labeling tasks, task runs, finetuned models, and deployed applications. Accessed through the first-party Python (refue
@@ -128,7 +128,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 28.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

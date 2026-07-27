@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ plans:
 - name: Us Department Of Commerce Plans Pricing
   plan_count: 1
   slug: us-department-of-commerce-plans-pricing
-random_paper: 0
+random_paper: 51
 rate_limits:
 - limit_count: 3
   name: Us Department Of Commerce Rate Limits
@@ -146,23 +146,23 @@ rules:
   slug: us-department-of-commerce-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 37.1
-  delta: -2.3
+  composite: 38.8
+  delta: 1.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 59.3
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 60.5
     operational_transparency: 36.8
-  previous_composite: 39.4
+  previous_composite: 37.1
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-department-of-commerce/refs/heads/main/screenshots/us-department-of-commerce-2026-06-20T200620.png
 security:

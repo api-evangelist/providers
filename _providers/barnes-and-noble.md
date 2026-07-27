@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 12
 common:
@@ -98,7 +98,7 @@ press:
 - date: '2026-05-25'
   title: Use of Generative AI in Your Project - B&N Press
   url: https://help-press.barnesandnoble.com/hc/en-us/articles/28267750176923-Use-of-Generative-AI-in-Your-Project
-random_paper: 30
+random_paper: 64
 score:
   band: minimal
   composite: 10.0
@@ -112,7 +112,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 10.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/barnes-and-noble/refs/heads/main/screenshots/barnes-and-noble-2026-06-20T173035.png
 security:

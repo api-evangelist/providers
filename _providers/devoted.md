@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ overview: 'Devoted Health publishes 5 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Devoted Health''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, and 18 more developer resources.'
-random_paper: 33
+random_paper: 67
 scopes:
 - name: Devoted Scopes
   scope_count: 14
@@ -180,7 +180,7 @@ scopes:
 score:
   band: developing
   composite: 45.4
-  delta: 5.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 37.7
@@ -188,15 +188,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 40.0
+  previous_composite: 45.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/devoted/refs/heads/main/screenshots/devoted-2026-07-25T211821.png
 security:
 - kind: authentication
   name: Devoted Authentication

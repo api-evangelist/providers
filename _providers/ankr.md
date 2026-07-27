@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -418,19 +418,19 @@ rules:
   slug: ankr-rules
 score:
   band: strong
-  composite: 63.5
-  delta: 0.0
+  composite: 69.0
+  delta: 5.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 79.2
+    contract_quality: 88.1
     developer_ergonomics: 56.5
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 65.8
     operational_transparency: 36.8
   previous_composite: 63.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/ankr/refs/heads/main/screenshots/ankr-2026-06-20T172009.png
 security:
 - kind: authentication

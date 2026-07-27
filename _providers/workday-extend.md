@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -519,19 +519,19 @@ scopes:
   slug: workday-extend-scopes
   summary_line: 9 scopes · authorizationCode
 score:
-  band: strong
-  composite: 69.7
-  delta: 0.0
+  band: exemplar
+  composite: 72.9
+  delta: 3.2
   facets:
     commercial_clarity: 71.1
     contract_quality: 67.3
     developer_ergonomics: 69.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 57.9
   previous_composite: 69.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-extend/refs/heads/main/screenshots/workday-extend-2026-06-20T201559.png
 security:

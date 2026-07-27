@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -122,7 +122,7 @@ overview: 'ContextSDK is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   ContextSDK''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 13 more developer resources.'
-random_paper: 24
+random_paper: 7
 score:
   band: emerging
   composite: 29.1
@@ -136,8 +136,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 29.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/contextsdk/refs/heads/main/screenshots/contextsdk-2026-07-25T210328.png
 security:
 - kind: authentication
   name: Contextsdk Authentication

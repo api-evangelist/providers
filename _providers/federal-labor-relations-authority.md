@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Federal Labor Relations Authority administers federal labor-management relations law.
@@ -70,7 +70,7 @@ plans:
 - name: Federal Labor Relations Authority Plans Pricing
   plan_count: 3
   slug: federal-labor-relations-authority-plans-pricing
-random_paper: 49
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Federal Labor Relations Authority Rate Limits
@@ -88,8 +88,9 @@ score:
     operational_transparency: 31.6
   previous_composite: 19.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/federal-labor-relations-authority/refs/heads/main/screenshots/federal-labor-relations-authority-2026-07-25T214321.png
 security:
 - kind: domain-security
   name: Federal Labor Relations Authority Domain Security

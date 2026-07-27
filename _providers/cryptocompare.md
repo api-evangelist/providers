@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 81.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -116,7 +116,7 @@ arazzos:
 - description: Rank coins by 24h volume, pull full data, then branch into the news feed.
   name: CryptoCompare Top Volume Deep Dive
   slug: cryptocompare-top-volume-deep-dive-workflow
-artifact_total: 81
+artifact_total: 82
 asyncapis:
 - description: AsyncAPI 2.6 description of the CryptoCompare (now CoinDesk) WebSocket streaming API. Clients open a single secure WebSocket to `wss://streamer.cryptocompare.com/v2` and multiplex any number of subscr
   name: CryptoCompare Streaming API
@@ -418,6 +418,10 @@ jsonld:
   property_count: 7
   slug: cryptocompare-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: cryptocompare-mcp.yml
+  slug: cryptocompare-mcpyml
 modified: '2026-07-22'
 name: CryptoCompare
 nav: Providers
@@ -433,7 +437,7 @@ plans:
 - name: Cryptocompare Plans Pricing
   plan_count: 4
   slug: cryptocompare-plans-pricing
-random_paper: 39
+random_paper: 56
 rate_limits:
 - limit_count: 11
   name: Cryptocompare Rate Limits
@@ -464,25 +468,25 @@ rules:
     warn: 6
   slug: cryptocompare-rules
 score:
-  band: strong
-  composite: 68.2
-  delta: 8.9
+  band: exemplar
+  composite: 71.9
+  delta: 3.7
   facets:
     commercial_clarity: 71.1
-    contract_quality: 72.9
+    contract_quality: 80.5
     developer_ergonomics: 78.3
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 65.8
     operational_transparency: 60.5
-  previous_composite: 59.3
+  previous_composite: 68.2
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/screenshots/cryptocompare-2026-06-20T175310.png
 security:
 - kind: authentication

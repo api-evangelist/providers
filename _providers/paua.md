@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Partner and Paua Pro APIs providing fleet charging data (charging history, costs, energy consumption, timestamps, network data across drivers and vehicles) and chargepoint location data for route plan
@@ -117,7 +117,7 @@ random_paper: 15
 score:
   band: emerging
   composite: 23.3
-  delta: 1.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -125,14 +125,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 22.0
+  previous_composite: 23.3
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

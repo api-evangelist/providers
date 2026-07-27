@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -220,23 +220,23 @@ scopes:
   summary_line: 8 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 54.7
-  delta: 3.7
+  composite: 57.5
+  delta: 2.8
   facets:
     commercial_clarity: 50.0
     contract_quality: 66.2
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 21.1
-  previous_composite: 51.0
+  previous_composite: 54.7
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/screenshots/tiaa-2026-06-20T195329.png
 security:

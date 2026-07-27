@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 28.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Programmatic access to Tracxn's private-market database (API version 2.2). JSON-over-HTTPS POST endpoints for companies, investors, funding transactions and acquisition transactions, filtered by feed/
@@ -164,7 +164,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 31.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

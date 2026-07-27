@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -195,25 +195,25 @@ plans:
 - name: Microsoft Azure Pipelines Plans Pricing
   plan_count: 6
   slug: microsoft-azure-pipelines-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Pipelines Rate Limits
   slug: microsoft-azure-pipelines-rate-limits
 score:
-  band: developing
-  composite: 56.7
-  delta: 0.0
+  band: strong
+  composite: 60.0
+  delta: 3.3
   facets:
     commercial_clarity: 84.2
     contract_quality: 60.2
     developer_ergonomics: 52.2
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 56.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-pipelines/refs/heads/main/screenshots/microsoft-azure-pipelines-2026-06-20T185430.png
 security:

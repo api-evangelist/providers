@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -401,18 +401,18 @@ rules:
   slug: filevine-rules
 score:
   band: strong
-  composite: 62.3
-  delta: 0.0
+  composite: 65.7
+  delta: 3.4
   facets:
     commercial_clarity: 78.9
-    contract_quality: 72.5
+    contract_quality: 77.8
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 65.8
     operational_transparency: 52.6
   previous_composite: 62.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/filevine/refs/heads/main/screenshots/filevine-2026-06-20T181208.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Agent-facing Universal Commerce Protocol (UCP) shopping surface for the Hawthorne Shopify store — catalog search/lookup, cart, checkout, fulfillment, discount and order capabilities over an MCP endpoi
@@ -90,7 +90,7 @@ overview: 'Hawthorne publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Hawthorne''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 7
+random_paper: 24
 scopes:
 - name: Hawthorne Scopes
   scope_count: 4
@@ -109,7 +109,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

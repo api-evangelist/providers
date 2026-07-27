@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API v4 for managing business locations, syndicating listings to 80+ directories, aggregating and responding to reviews, tracking local search rankings with heatmaps, and retrieving unified analyt
@@ -110,7 +110,7 @@ plans:
 - name: Synup Plans Pricing
   plan_count: 3
   slug: synup-plans-pricing
-random_paper: 14
+random_paper: 31
 rate_limits:
 - limit_count: 0
   name: Synup Rate Limits
@@ -128,7 +128,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 37.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synup/refs/heads/main/screenshots/synup-2026-06-20T194835.png
 security:

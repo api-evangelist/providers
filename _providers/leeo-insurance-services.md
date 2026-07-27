@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -166,11 +166,11 @@ overview: 'LEEO Insurance Services publishes 4 APIs on the [APIs.io](https://api
 
 
   LEEO Insurance Services'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 18 more developer resources.'
-random_paper: 1
+random_paper: 35
 score:
   band: developing
   composite: 50.9
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 63.7
@@ -178,15 +178,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 50.3
+  previous_composite: 50.9
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/leeo-insurance-services/refs/heads/main/screenshots/leeo-insurance-services-2026-07-25T224822.png
 security:
 - kind: authentication
   name: Leeo Insurance Services Authentication

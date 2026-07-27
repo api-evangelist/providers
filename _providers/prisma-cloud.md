@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -43,7 +43,7 @@ apis:
 - description: Login and JWT token lifecycle for Prisma Cloud CSPM.
   name: Prisma Cloud Authentication API
   slug: prisma-cloud-authentication-api
-artifact_total: 9
+artifact_total: 10
 collections:
 - collection_type: open
   name: Prisma Cloud CSPM API (Authentication)
@@ -105,6 +105,10 @@ finops:
   slug: prisma-cloud-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/prisma-cloud.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Prisma Cloud
 nav: Providers
@@ -124,18 +128,18 @@ rate_limits:
   slug: prisma-cloud-rate-limits
 score:
   band: developing
-  composite: 46.1
-  delta: 0.0
+  composite: 48.1
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 60.2
     developer_ergonomics: 41.3
-    discoverability: 60.0
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 46.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prisma-cloud/refs/heads/main/screenshots/prisma-cloud-2026-06-20T192110.png
 security:

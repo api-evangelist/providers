@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -214,7 +214,7 @@ overview: 'Reelables publishes 24 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Reelables'' developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, changelog, and 15 more developer resources.'
-random_paper: 48
+random_paper: 31
 scopes:
 - name: Got Its Scopes
   scope_count: 1
@@ -233,8 +233,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 40.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/got-its/refs/heads/main/screenshots/got-its-2026-07-25T220118.png
 security:
 - kind: authentication
   name: Got Its Authentication

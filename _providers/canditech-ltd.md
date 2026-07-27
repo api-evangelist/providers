@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,7 +93,7 @@ overview: 'Canditech Ltd. is profiled on the [APIs.io](https://apis.io/) network
 
 
   Canditech Ltd.''s developer surface includes documentation, support, pricing, engineering blog, and 9 more developer resources.'
-random_paper: 25
+random_paper: 8
 score:
   band: emerging
   composite: 21.9
@@ -107,8 +107,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 21.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/canditech-ltd/refs/heads/main/screenshots/canditech-ltd-2026-07-25T204341.png
 security:
 - kind: domain-security
   name: Canditech Ltd Domain Security

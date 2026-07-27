@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: REST, GraphQL, and JDBC APIs for the Luma Scientific Intelligence Platform, enabling data access, workflow automation, instrument integration, and scientific data management for pharma and biotech R&D
@@ -115,7 +115,7 @@ plans:
 - name: Dotmatics Plans Pricing
   plan_count: 4
   slug: dotmatics-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Dotmatics Rate Limits
@@ -123,7 +123,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.1
-  delta: -3.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 37.7
@@ -131,14 +131,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 34.3
+  previous_composite: 31.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dotmatics/refs/heads/main/screenshots/dotmatics-2026-06-20T180201.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ plans:
 - name: Dev To Plans Pricing
   plan_count: 3
   slug: dev-to-plans-pricing
-random_paper: 30
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Dev To Rate Limits
@@ -178,19 +178,19 @@ rules:
     warn: 4
   slug: dev-to-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 44.4
-  delta: 0.0
+  band: developing
+  composite: 46.9
+  delta: 2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 69.3
     developer_ergonomics: 13.0
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 52.6
     operational_transparency: 36.8
   previous_composite: 44.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dev-to/refs/heads/main/screenshots/dev-to-2026-06-20T175954.png
 security:

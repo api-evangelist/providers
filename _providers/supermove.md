@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 31.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -70,7 +70,7 @@ plans:
 - name: Supermove Plans Pricing
   plan_count: 1
   slug: supermove-plans-pricing
-random_paper: 29
+random_paper: 46
 score:
   band: emerging
   composite: 27.9
@@ -84,7 +84,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 27.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

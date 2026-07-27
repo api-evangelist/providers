@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 19
 common:
@@ -134,7 +134,7 @@ press:
 - date: '2026-05-25'
   title: TransDigm Group Incorporated 8-K 2026-04-07
   url: https://www.sec.gov/ix?doc=/Archives/edgar/data/1260221/000126022126000031/tdg-20260407.htm
-random_paper: 0
+random_paper: 17
 rules:
 - name: TransDigm Group API Rules
   rule_count: 5
@@ -157,7 +157,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 24.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/transdigm/refs/heads/main/screenshots/transdigm-2026-06-20T195542.png
 security:

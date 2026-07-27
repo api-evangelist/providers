@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Auto-generated GraphQL API endpoint for each headless channel in Xperience by Kentico. Supports querying content items with filtering, sorting, pagination, linked items, language variants, taxonomy ta
@@ -120,7 +120,7 @@ plans:
 - name: Kentico Plans Pricing
   plan_count: 5
   slug: kentico-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Kentico Rate Limits
@@ -138,7 +138,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 26.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kentico/refs/heads/main/screenshots/kentico-2026-06-20T183955.png
 security:

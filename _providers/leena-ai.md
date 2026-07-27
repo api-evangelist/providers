@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: AI Colleague run metrics.
@@ -191,7 +191,7 @@ overview: 'Leena AI publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Leena AI''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, changelog, authentication, and 25 more developer resources.'
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Leena Ai Rate Limits
@@ -214,8 +214,9 @@ score:
     operational_transparency: 52.6
   previous_composite: 52.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/leena-ai/refs/heads/main/screenshots/leena-ai-2026-07-25T224821.png
 security:
 - kind: authentication
   name: Leena Ai Authentication

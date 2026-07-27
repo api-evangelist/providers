@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: 'The Buf Schema Registry (BSR) is a centralized repository for managing, distributing, and documenting Protobuf schemas. It provides dependency management, generated SDKs in multiple languages, remote '
@@ -166,7 +166,7 @@ plans:
 - name: Buf Plans Pricing
   plan_count: 3
   slug: buf-plans-pricing
-random_paper: 11
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Buf Rate Limits
@@ -184,7 +184,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 33.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buf/refs/heads/main/screenshots/buf-2026-06-20T173740.png
 security:

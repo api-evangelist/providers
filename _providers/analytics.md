@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -66,7 +66,7 @@ overview: 'Analytics is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   The Analytics catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 50
+random_paper: 16
 rules:
 - name: Analytics API Rules
   rule_count: 5
@@ -89,7 +89,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 20.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/analytics/refs/heads/main/screenshots/analytics-2026-06-20T171946.png
 slug: analytics

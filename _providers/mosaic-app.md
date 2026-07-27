@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -141,25 +141,25 @@ plans:
 - name: Mosaic App Plans Pricing
   plan_count: 1
   slug: mosaic-app-plans-pricing
-random_paper: 33
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Mosaic App Rate Limits
   slug: mosaic-app-rate-limits
 score:
   band: thin
-  composite: 41.7
-  delta: 0.0
+  composite: 43.7
+  delta: 2.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 51.3
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 41.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mosaic-app/refs/heads/main/screenshots/mosaic-app-2026-06-20T185820.png
 security:

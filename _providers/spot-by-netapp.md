@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ plans:
 - name: Spot By Netapp Plans Pricing
   plan_count: 3
   slug: spot-by-netapp-plans-pricing
-random_paper: 34
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Spot By Netapp Rate Limits
@@ -218,19 +218,19 @@ rules:
     warn: 5
   slug: spot-by-netapp-rules
 score:
-  band: developing
-  composite: 59.4
-  delta: 0.0
+  band: strong
+  composite: 62.7
+  delta: 3.3
   facets:
     commercial_clarity: 52.6
     contract_quality: 61.9
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 59.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spot-by-netapp/refs/heads/main/screenshots/spot-by-netapp-2026-06-20T194351.png
 security:

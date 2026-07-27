@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -441,7 +441,7 @@ plans:
 - name: Bright Data Plans Pricing
   plan_count: 17
   slug: bright-data-plans-pricing
-random_paper: 24
+random_paper: 7
 rate_limits:
 - limit_count: 8
   name: Bright Data Rate Limits
@@ -464,19 +464,19 @@ rules:
     warn: 5
   slug: bright-data-rules
 score:
-  band: strong
-  composite: 68.5
-  delta: 0.0
+  band: exemplar
+  composite: 72.0
+  delta: 3.5
   facets:
     commercial_clarity: 92.1
-    contract_quality: 58.4
+    contract_quality: 67.3
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 68.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bright-data/refs/heads/main/screenshots/bright-data-2026-06-20T173659.png
 security:

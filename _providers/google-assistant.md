@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -121,18 +121,18 @@ rules:
   slug: google-assistant-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.5
-  delta: 0.0
+  composite: 50.1
+  delta: 4.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 54.9
+    contract_quality: 60.2
     developer_ergonomics: 10.9
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 45.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-assistant/refs/heads/main/screenshots/google-assistant-2026-06-20T182023.png
 security:

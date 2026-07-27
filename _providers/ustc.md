@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: The USTC Open Source Software Mirror, operated by the campus Linux User Group (LUG @ USTC), is one of the largest open source software mirror services among universities in mainland China, hosting Deb
@@ -131,7 +131,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 24.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ustc/refs/heads/main/screenshots/ustc-2026-06-20T200827.png
 security:

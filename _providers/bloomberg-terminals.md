@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The Bloomberg Open API provides programmatic access to data available in the Bloomberg Terminal including real-time prices, reference data, historical data, news, and analytics. SDKs for C++, Java, Py
@@ -109,7 +109,7 @@ plans:
 - name: Bloomberg Terminals Plans Pricing
   plan_count: 3
   slug: bloomberg-terminals-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Bloomberg Terminals Rate Limits
@@ -117,7 +117,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.2
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -125,14 +125,14 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 31.3
+  previous_composite: 31.2
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-terminals/refs/heads/main/screenshots/bloomberg-terminals-2026-06-20T173520.png
 security:

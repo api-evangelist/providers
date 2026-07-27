@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Open-source Python library for evaluating and tracking LLM applications. Provides feedback functions (groundedness, relevance, etc.), tracing, and a local dashboard. Distributed via PyPI under Apache '
@@ -68,11 +86,26 @@ plans:
 - name: Truera Plans Pricing
   plan_count: 2
   slug: truera-plans-pricing
-random_paper: 29
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Truera Rate Limits
   slug: truera-rate-limits
+score:
+  band: emerging
+  composite: 17.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 2.2
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 17.0
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/truera/refs/heads/main/screenshots/truera-2026-06-20T195755.png
 security:
 - kind: domain-security

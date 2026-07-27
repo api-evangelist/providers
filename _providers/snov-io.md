@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ plans:
 - name: Snov Io Plans Pricing
   plan_count: 7
   slug: snov-io-plans-pricing
-random_paper: 1
+random_paper: 35
 rate_limits:
 - limit_count: 3
   name: Snov Io Rate Limits
@@ -197,7 +197,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 45.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snov-io/refs/heads/main/screenshots/snov-io-2026-06-20T194107.png
 security:

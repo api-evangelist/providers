@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Rollins API provides access to platform services and data for enterprise integration and automation.
@@ -66,7 +66,7 @@ plans:
 - name: Rollins Plans Pricing
   plan_count: 1
   slug: rollins-plans-pricing
-random_paper: 6
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Rollins Rate Limits
@@ -84,7 +84,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 15.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rollins/refs/heads/main/screenshots/rollins-2026-06-20T193207.png
 security:

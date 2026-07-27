@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: low
-  generated: '2026-07-22'
   label: Unknown
-  method: derived
   onboarding: unknown
   pricing: unknown
   public: false
@@ -11,17 +9,278 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 75
+  human_in_the_loop: 0
+  name: Actionstep Agentic Access
+  operation_count: 139
+  slug: actionstep-agentic-access
+  summary_line: 139 operations · 75 acting
 api_count: 35
-artifact_total: 0
+apis:
+- description: The Action Bill Settings API from Actionstep — 2 operation(s) for action bill settings.
+  name: Actionstep Action Bill Settings API
+  slug: actionstep-action-bill-settings-api
+- description: The Action Folders API from Actionstep — 2 operation(s) for action folders.
+  name: Actionstep Action Folders API
+  slug: actionstep-action-folders-api
+- description: The Action NetDocuments Settings API from Actionstep — 2 operation(s) for action netdocuments settings.
+  name: Actionstep Action NetDocuments Settings API
+  slug: actionstep-action-netdocuments-settings-api
+- description: The Action Participants API from Actionstep — 2 operation(s) for action participants.
+  name: Actionstep Action Participants API
+  slug: actionstep-action-participants-api
+- description: The Action Type Participant Types API from Actionstep — 2 operation(s) for action type participant types.
+  name: Actionstep Action Type Participant Types API
+  slug: actionstep-action-type-participant-types-api
+- description: The Actions API from Actionstep — 2 operation(s) for actions.
+  name: Actionstep Actions API
+  slug: actionstep-actions-api
+- description: The ActionTypes API from Actionstep — 1 operation(s) for actiontypes.
+  name: Actionstep ActionTypes API
+  slug: actionstep-actiontypes-api
+- description: The Bills API from Actionstep — 1 operation(s) for bills.
+  name: Actionstep Bills API
+  slug: actionstep-bills-api
+- description: The Contact Documents API from Actionstep — 2 operation(s) for contact documents.
+  name: Actionstep Contact Documents API
+  slug: actionstep-contact-documents-api
+- description: The Contact Folders API from Actionstep — 2 operation(s) for contact folders.
+  name: Actionstep Contact Folders API
+  slug: actionstep-contact-folders-api
+- description: The Contact Notes API from Actionstep — 2 operation(s) for contact notes.
+  name: Actionstep Contact Notes API
+  slug: actionstep-contact-notes-api
+- description: The Contact Relationships API from Actionstep — 2 operation(s) for contact relationships.
+  name: Actionstep Contact Relationships API
+  slug: actionstep-contact-relationships-api
+- description: The Cultural Identity API from Actionstep — 1 operation(s) for cultural identity.
+  name: Actionstep Cultural Identity API
+  slug: actionstep-cultural-identity-api
+- description: The Data Collection Field Dropdown Choices API from Actionstep — 2 operation(s) for data collection field dropdown choices.
+  name: Actionstep Data Collection Field Dropdown Choices API
+  slug: actionstep-data-collection-field-dropdown-choices-api
+- description: The Data Collection Fields API from Actionstep — 2 operation(s) for data collection fields.
+  name: Actionstep Data Collection Fields API
+  slug: actionstep-data-collection-fields-api
+- description: The Data Collection Record Values API from Actionstep — 2 operation(s) for data collection record values.
+  name: Actionstep Data Collection Record Values API
+  slug: actionstep-data-collection-record-values-api
+- description: The Data Collection Records API from Actionstep — 2 operation(s) for data collection records.
+  name: Actionstep Data Collection Records API
+  slug: actionstep-data-collection-records-api
+- description: The Data Collections API from Actionstep — 2 operation(s) for data collections.
+  name: Actionstep Data Collections API
+  slug: actionstep-data-collections-api
+- description: The Disability Status API from Actionstep — 1 operation(s) for disability status.
+  name: Actionstep Disability Status API
+  slug: actionstep-disability-status-api
+- description: The Disbursements API from Actionstep — 2 operation(s) for disbursements.
+  name: Actionstep Disbursements API
+  slug: actionstep-disbursements-api
+- description: The File Notes API from Actionstep — 2 operation(s) for file notes.
+  name: Actionstep File Notes API
+  slug: actionstep-file-notes-api
+- description: The Gender Types API from Actionstep — 2 operation(s) for gender types.
+  name: Actionstep Gender Types API
+  slug: actionstep-gender-types-api
+- description: The Participant Additional Notification Methods API from Actionstep — 2 operation(s) for participant additional notification methods.
+  name: Actionstep Participant Additional Notification Methods API
+  slug: actionstep-participant-additional-notification-methods-api
+- description: The Participant Data Field Dropdown Choices API from Actionstep — 2 operation(s) for participant data field dropdown choices.
+  name: Actionstep Participant Data Field Dropdown Choices API
+  slug: actionstep-participant-data-field-dropdown-choices-api
+- description: The Participant Default Types API from Actionstep — 2 operation(s) for participant default types.
+  name: Actionstep Participant Default Types API
+  slug: actionstep-participant-default-types-api
+- description: The Participant Relationship Types API from Actionstep — 2 operation(s) for participant relationship types.
+  name: Actionstep Participant Relationship Types API
+  slug: actionstep-participant-relationship-types-api
+- description: The Participant Type Data Fields API from Actionstep — 2 operation(s) for participant type data fields.
+  name: Actionstep Participant Type Data Fields API
+  slug: actionstep-participant-type-data-fields-api
+- description: The Participants API from Actionstep — 2 operation(s) for participants.
+  name: Actionstep Participants API
+  slug: actionstep-participants-api
+- description: The Phone Records API from Actionstep — 2 operation(s) for phone records.
+  name: Actionstep Phone Records API
+  slug: actionstep-phone-records-api
+- description: The Primary Language API from Actionstep — 1 operation(s) for primary language.
+  name: Actionstep Primary Language API
+  slug: actionstep-primary-language-api
+- description: The Quick Codes API from Actionstep — 2 operation(s) for quick codes.
+  name: Actionstep Quick Codes API
+  slug: actionstep-quick-codes-api
+- description: The REST Hooks API from Actionstep — 2 operation(s) for rest hooks.
+  name: Actionstep REST Hooks API
+  slug: actionstep-rest-hooks-api
+- description: The Tasks API from Actionstep — 2 operation(s) for tasks.
+  name: Actionstep Tasks API
+  slug: actionstep-tasks-api
+- description: The Time Entries API from Actionstep — 2 operation(s) for time entries.
+  name: Actionstep Time Entries API
+  slug: actionstep-time-entries-api
+- description: The UTBMS Codes API from Actionstep — 2 operation(s) for utbms codes.
+  name: Actionstep UTBMS Codes API
+  slug: actionstep-utbms-codes-api
+artifact_total: 43
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/actionstep-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/actionstep-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/actionstep-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/actionstep-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.actionstep.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.actionstep.com/
+- group: build
+  title: ''
+  type: GitHubOrg
+  url: https://github.com/actionstep
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/actionstep
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.actionstep.com/blog/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.actionstep.com/pricing/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://status.actionstep.com
+- group: other
+  title: ''
+  type: X
+  url: https://x.com/actionstep
+- group: operate
+  title: ''
+  type: Support
+  url: https://support.actionstep.com
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/actionstep-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/actionstep-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/actionstep-finops.yml
+- group: company
+  title: ''
+  type: BlogRSS
+  url: https://www.actionstep.com/blog/feed/
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/actionstep-vocabulary.yml
+- group: design
+  title: ''
+  type: JSONLDContext
+  url: json-ld/actionstep-context.jsonld
 created: '2026-06-13'
 description: Actionstep is a cloud-based legal practice management platform serving midsize law firms with a REST API for managing matters, contacts, documents, tasks, billing, trust accounting, and law firm financial reporting. The API enables developers to build integrations using Actionstep as the back-end database with built-in data structures and business models for workflow, document management, calendaring, time sheets, billing, and general ledger.
+finops:
+- name: Actionstep Finops
+  service_category: ''
+  slug: actionstep-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/actionstep.png
+jsonld:
+- class_count: 0
+  name: Actionstep Context
+  property_count: 35
+  slug: actionstep-context
 layout: provider
 modified: '2026-06-13'
 name: Actionstep
 nav: Providers
 network: true
-random_paper: 11
+overview: 'Actionstep publishes 35 APIs on the [APIs.io](https://apis.io/) network, including Action Bill Settings API, Action Folders API, Action NetDocuments Settings API, and 32 more. Tagged areas include Legal, Practice Management, Law Firm, Matters, and Billing.
+
+
+  The Actionstep catalog on APIs.io includes 1 JSON-LD context.
+
+
+  Actionstep''s developer surface includes documentation, engineering blog, pricing, support, and 15 more developer resources.'
+plans:
+- name: Actionstep Plans Pricing
+  plan_count: 5
+  slug: actionstep-plans-pricing
+random_paper: 62
+rate_limits:
+- limit_count: 4
+  name: Actionstep Rate Limits
+  slug: actionstep-rate-limits
+score:
+  band: thin
+  composite: 43.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 57.9
+    contract_quality: 44.2
+    developer_ergonomics: 15.2
+    discoverability: 92.5
+    governance: 13.2
+    operational_transparency: 52.6
+  previous_composite: 43.3
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/actionstep/refs/heads/main/screenshots/actionstep-2026-06-20T164049.png
+security:
+- kind: domain-security
+  name: Actionstep Domain Security
+  slug: actionstep-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Actionstep Vulnerability Disclosure
+  slug: actionstep-vulnerability-disclosure
+  summary_line: disclosure policy published
+- kind: trust-center
+  name: Actionstep Trust Center
+  slug: actionstep-trust-center
+  summary_line: SOC 2
 slug: actionstep
 tags:
 - Legal
@@ -33,4 +292,5 @@ tags:
 - Trust Accounting
 - Contacts
 - Workflow
+website: https://www.actionstep.com
 ---

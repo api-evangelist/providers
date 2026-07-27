@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 63
   human_in_the_loop: 0
@@ -271,11 +271,11 @@ overview: 'Coins.ph publishes 26 APIs on the [APIs.io](https://apis.io/) network
 
 
   Coins.ph''s developer surface includes documentation, API reference, getting-started guide, changelog, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: developing
   composite: 57.1
-  delta: 1.8
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 62.8
@@ -283,15 +283,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 55.3
-  previous_composite: 55.3
+  previous_composite: 57.1
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/coinsph/refs/heads/main/screenshots/coinsph-2026-07-25T210033.png
 security:
 - kind: authentication
   name: Coinsph Authentication

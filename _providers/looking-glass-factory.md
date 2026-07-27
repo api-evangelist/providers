@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: 'Hosted GraphQL API for uploading, creating, and sharing holograms (quilt and RGBD media) on the Looking Glass Blocks platform. Authenticated via Auth0 (OAuth 2.0). Official client: @lookingglass/block'
@@ -105,7 +105,7 @@ overview: 'Looking Glass Factory publishes 2 APIs on the [APIs.io](https://apis.
 
 
   Looking Glass Factory''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, authentication, and 8 more developer resources.'
-random_paper: 1
+random_paper: 35
 score:
   band: emerging
   composite: 23.0
@@ -119,8 +119,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 23.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/looking-glass-factory/refs/heads/main/screenshots/looking-glass-factory-2026-07-25T225518.png
 security:
 - kind: authentication
   name: Looking Glass Factory Authentication

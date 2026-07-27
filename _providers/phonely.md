@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -207,7 +207,7 @@ plans:
 - name: Phonely Plans Pricing
   plan_count: 4
   slug: phonely-plans-pricing
-random_paper: 2
+random_paper: 19
 rate_limits:
 - limit_count: 3
   name: Phonely Rate Limits
@@ -239,18 +239,18 @@ rules:
   slug: phonely-rules
 score:
   band: developing
-  composite: 55.0
-  delta: 0.0
+  composite: 58.1
+  delta: 3.1
   facets:
     commercial_clarity: 60.5
-    contract_quality: 73.5
+    contract_quality: 78.0
     developer_ergonomics: 41.3
-    discoverability: 60.0
+    discoverability: 80.0
     governance: 34.2
     operational_transparency: 47.4
   previous_composite: 55.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phonely/refs/heads/main/screenshots/phonely-2026-06-20T191652.png
 security:

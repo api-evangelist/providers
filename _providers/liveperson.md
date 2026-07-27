@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 9
 apis:
 - description: Comprehensive set of REST APIs for managing conversations across messaging channels, including agent operations, consumer messaging, conversation history, and engagement events.
@@ -122,7 +122,7 @@ plans:
 - name: Liveperson Plans Pricing
   plan_count: 3
   slug: liveperson-plans-pricing
-random_paper: 24
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Liveperson Rate Limits
@@ -140,7 +140,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 33.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liveperson/refs/heads/main/screenshots/liveperson-2026-06-20T184616.png
 security:

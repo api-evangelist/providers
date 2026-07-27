@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -92,30 +92,30 @@ plans:
 - name: National Institutes Of Health Plans Pricing
   plan_count: 3
   slug: national-institutes-of-health-plans-pricing
-random_paper: 41
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: National Institutes Of Health Rate Limits
   slug: national-institutes-of-health-rate-limits
 score:
-  band: emerging
-  composite: 29.7
-  delta: -2.9
+  band: thin
+  composite: 32.4
+  delta: 2.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 48.7
     developer_ergonomics: 8.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 32.6
+  previous_composite: 29.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-institutes-of-health/refs/heads/main/screenshots/national-institutes-of-health-2026-06-20T190030.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ plans:
 - name: Apiops Cycles Canvas Plans Pricing
   plan_count: 1
   slug: apiops-cycles-canvas-plans-pricing
-random_paper: 32
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Apiops Cycles Canvas Rate Limits
@@ -166,18 +166,18 @@ rules:
   slug: apiops-cycles-canvas-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 43.9
-  delta: 0.0
+  composite: 44.7
+  delta: 0.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 70.8
     developer_ergonomics: 10.9
-    discoverability: 60.0
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 43.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apiops-cycles-canvas/refs/heads/main/screenshots/apiops-cycles-canvas-2026-06-20T172250.png
 security:

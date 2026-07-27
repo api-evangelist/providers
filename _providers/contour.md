@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -314,7 +314,7 @@ plans:
 - name: Contour Plans Pricing
   plan_count: 1
   slug: contour-plans-pricing
-random_paper: 13
+random_paper: 30
 rate_limits:
 - limit_count: 3
   name: Contour Rate Limits
@@ -345,19 +345,19 @@ rules:
     warn: 4
   slug: contour-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 43.2
-  delta: 0.0
+  band: developing
+  composite: 47.8
+  delta: 4.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 62.2
+    contract_quality: 67.6
     developer_ergonomics: 23.9
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 39.5
     operational_transparency: 52.6
   previous_composite: 43.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contour/refs/heads/main/screenshots/contour-2026-06-20T174944.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -178,18 +178,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.2
-  delta: 0.0
+  composite: 54.0
+  delta: 3.8
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.2
+    contract_quality: 69.5
     developer_ergonomics: 34.8
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 50.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/screenshots/meditech-2026-06-20T185121.png
 security:

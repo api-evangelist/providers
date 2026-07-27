@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
 - description: Work item CRUD and management
   name: Azure DevOps WorkItems API
   slug: azure-devops-workitems-api
-artifact_total: 72
+artifact_total: 73
 asyncapis:
 - description: Azure DevOps Service Hooks deliver event notifications for work item changes, build completions, pull request events, code pushes, and release deployments. Service hooks are configured in Azure DevOps
   name: Azure DevOps Service Hooks (Webhooks)
@@ -399,6 +399,10 @@ jsonld:
   property_count: 0
   slug: azure-devops-work-items-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Azure DevOps
 nav: Providers
@@ -451,18 +455,18 @@ scopes:
   summary_line: 4 scopes · authorizationCode
 score:
   band: strong
-  composite: 62.8
-  delta: 0.0
+  composite: 66.0
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 75.9
     developer_ergonomics: 78.3
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 65.8
     operational_transparency: 52.6
   previous_composite: 62.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/azure-devops/refs/heads/main/screenshots/azure-devops-2026-06-20T172853.png
 security:

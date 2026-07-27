@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Bloomberg's primary secure messaging service for financial professionals, providing real-time message delivery, group chats, broadcast lists, and file sharing within the Bloomberg Terminal and Bloombe
@@ -94,7 +94,7 @@ plans:
 - name: Bloomberg Message Plans Pricing
   plan_count: 3
   slug: bloomberg-message-plans-pricing
-random_paper: 5
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Bloomberg Message Rate Limits
@@ -112,7 +112,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 28.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-message/refs/heads/main/screenshots/bloomberg-message-2026-06-20T173507.png
 security:

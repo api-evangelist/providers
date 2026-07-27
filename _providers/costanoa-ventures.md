@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Costanoa Ventures
 nav: Providers
 network: true
-random_paper: 8
+random_paper: 25
 slug: costanoa-ventures
 tags:
 - Venture Capital

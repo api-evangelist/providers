@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -133,21 +133,21 @@ overview: 'Freshservice publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Freshservice''s developer surface includes authentication, documentation, signup flow, pricing, support, and 8 more developer resources.'
-random_paper: 14
+random_paper: 65
 score:
-  band: emerging
-  composite: 29.1
-  delta: 0.0
+  band: thin
+  composite: 32.4
+  delta: 3.3
   facets:
     commercial_clarity: 18.4
     contract_quality: 46.0
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 29.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/freshservice/refs/heads/main/screenshots/freshservice-2026-06-20T181545.png
 security:

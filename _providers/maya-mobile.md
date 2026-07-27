@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -111,26 +111,27 @@ plans:
 - name: Maya Mobile Plans Pricing
   plan_count: 2
   slug: maya-mobile-plans-pricing
-random_paper: 30
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Maya Mobile Rate Limits
   slug: maya-mobile-rate-limits
 score:
   band: thin
-  composite: 34.3
-  delta: 0.0
+  composite: 37.5
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 54.9
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 34.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/maya-mobile/refs/heads/main/screenshots/maya-mobile-2026-07-25T230448.png
 security:
 - kind: authentication
   name: Maya Mobile Authentication

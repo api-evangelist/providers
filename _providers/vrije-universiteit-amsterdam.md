@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 206
   human_in_the_loop: 1
@@ -226,7 +226,7 @@ plans:
 - name: Vrije Universiteit Amsterdam Plans Pricing
   plan_count: 2
   slug: vrije-universiteit-amsterdam-plans-pricing
-random_paper: 8
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Vrije Universiteit Amsterdam Rate Limits
@@ -251,7 +251,7 @@ rules:
 score:
   band: thin
   composite: 43.5
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 57.8
@@ -259,14 +259,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 26.3
-  previous_composite: 44.7
+  previous_composite: 43.5
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vrije-universiteit-amsterdam/refs/heads/main/screenshots/vrije-universiteit-amsterdam-2026-06-20T201145.png
 security:

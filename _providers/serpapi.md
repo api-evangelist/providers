@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
 - description: The Search API from SerpApi — 2 operation(s) for search.
   name: SerpApi Search API
   slug: serpapi-search-api
-artifact_total: 18
+artifact_total: 19
 collections:
 - collection_type: open
   name: SerpApi Search API
@@ -120,6 +120,10 @@ finops:
   slug: serpapi-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/serpapi.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: SerpApi
 nav: Providers
@@ -132,25 +136,25 @@ plans:
 - name: Serpapi Plans Pricing
   plan_count: 3
   slug: serpapi-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Serpapi Rate Limits
   slug: serpapi-rate-limits
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 40.3
+  delta: 2.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 53.1
     developer_ergonomics: 26.1
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 38.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/serpapi/refs/heads/main/screenshots/serpapi-2026-06-20T193722.png
 security:

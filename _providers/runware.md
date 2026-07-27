@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 33.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Single task-based endpoint for image, video, audio, 3D, and text inference across 400K+ models, reachable over HTTP, WebSocket, and Server-Sent Events.
@@ -174,7 +174,7 @@ overview: 'Runware publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Runware''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 7
+random_paper: 24
 score:
   band: thin
   composite: 43.6
@@ -188,7 +188,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 43.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

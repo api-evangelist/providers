@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Kingo Portal is SKKU's single sign-on environment that integrates and secures access to university online services (Gmail/Google Workspace, GLS, iCampus, electronic approval, notice boards). Access is
@@ -112,7 +112,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 21.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/skku/refs/heads/main/screenshots/skku-2026-06-20T194017.png
 security:

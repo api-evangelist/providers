@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -90,25 +90,25 @@ plans:
 - name: Offenders Io Plans Pricing
   plan_count: 3
   slug: offenders-io-plans-pricing
-random_paper: 44
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Offenders Io Rate Limits
   slug: offenders-io-rate-limits
 score:
   band: thin
-  composite: 35.1
-  delta: 0.0
+  composite: 38.4
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 58.4
     developer_ergonomics: 10.9
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 35.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/offenders-io/refs/heads/main/screenshots/offenders-io-2026-06-20T190627.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Prompt and conversation compression
@@ -161,7 +161,7 @@ overview: 'The Token Company publishes 2 APIs on the [APIs.io](https://apis.io/)
 
 
   The Token Company''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 20 more developer resources.'
-random_paper: 32
+random_paper: 15
 score:
   band: developing
   composite: 56.0
@@ -175,7 +175,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 56.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

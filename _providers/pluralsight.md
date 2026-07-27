@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -787,7 +787,7 @@ plans:
 - name: Pluralsight Plans Pricing
   plan_count: 8
   slug: pluralsight-plans-pricing
-random_paper: 26
+random_paper: 43
 rate_limits:
 - limit_count: 3
   name: Pluralsight Rate Limits
@@ -811,18 +811,18 @@ rules:
   slug: pluralsight-spectral-rules
 score:
   band: strong
-  composite: 61.8
-  delta: 0.0
+  composite: 65.1
+  delta: 3.3
   facets:
     commercial_clarity: 68.4
     contract_quality: 66.2
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 61.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -314,7 +314,7 @@ overview: 'buildpacks-io publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   buildpacks-io''s developer surface includes developer portal, documentation, getting-started guide, release notes, engineering blog, tooling, code examples, and 39 more developer resources.'
-random_paper: 44
+random_paper: 27
 rules:
 - name: buildpacks-io API Rules
   rule_count: 5
@@ -334,18 +334,18 @@ rules:
   slug: buildpacks-io-rules
 score:
   band: developing
-  composite: 45.7
-  delta: 0.0
+  composite: 49.9
+  delta: 4.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 65.5
+    contract_quality: 74.3
     developer_ergonomics: 50.0
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildpacks-io/refs/heads/main/screenshots/buildpacks-io-2026-06-20T173753.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 87
   human_in_the_loop: 0
@@ -1275,7 +1275,7 @@ plans:
 - name: Hint Health Plans Pricing
   plan_count: 6
   slug: hint-health-plans-pricing
-random_paper: 39
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Hint Health Rate Limits
@@ -1292,7 +1292,7 @@ rules:
 score:
   band: developing
   composite: 51.8
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 60.1
@@ -1300,14 +1300,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 21.1
-  previous_composite: 52.5
+  previous_composite: 51.8
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hint-health/refs/heads/main/screenshots/hint-health-2026-06-20T182747.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -113,30 +113,30 @@ plans:
 - name: Mastercard Gateway Api Plans Pricing
   plan_count: 3
   slug: mastercard-gateway-api-plans-pricing
-random_paper: 27
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Mastercard Gateway Api Rate Limits
   slug: mastercard-gateway-api-rate-limits
 score:
   band: thin
-  composite: 39.0
-  delta: -0.8
+  composite: 41.8
+  delta: 2.8
   facets:
     commercial_clarity: 63.2
     contract_quality: 51.3
     developer_ergonomics: 23.9
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 39.8
+  previous_composite: 39.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 34.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mastercard-gateway-api/refs/heads/main/screenshots/mastercard-gateway-api-2026-06-20T185023.png
 security:

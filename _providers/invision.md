@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The InVision Design System Manager (DSM) API allowed teams to programmatically retrieve design tokens (colors, text styles, fonts, spacing) and icons from their DSM design system. API keys were scoped
@@ -110,7 +110,7 @@ plans:
 - name: Invision Plans Pricing
   plan_count: 3
   slug: invision-plans-pricing
-random_paper: 12
+random_paper: 63
 rate_limits:
 - limit_count: 0
   name: Invision Rate Limits
@@ -128,7 +128,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 26.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/invision/refs/heads/main/screenshots/invision-2026-06-20T183609.png
 security:

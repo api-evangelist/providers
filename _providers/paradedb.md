@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: BM25 full-text search inside Postgres via the pg_search extension, built on Tantivy. Consumed as SQL over the PostgreSQL wire protocol - BM25 indexes are created with CREATE INDEX ... USING bm25, quer
@@ -111,18 +111,18 @@ rate_limits:
   slug: paradedb-rate-limits
 score:
   band: thin
-  composite: 31.0
-  delta: 0.0
+  composite: 34.3
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 37.7
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 31.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/paradedb/refs/heads/main/screenshots/paradedb-2026-06-20T191455.png
 security:

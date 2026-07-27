@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: The BitMart Spot Trading REST API provides programmatic access to spot trading on the BitMart global cryptocurrency exchange. Developers can place and manage limit, market, and algorithmic orders, que
@@ -143,7 +143,7 @@ plans:
 - name: Bitmart Plans Pricing
   plan_count: 5
   slug: bitmart-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 15
   name: Bitmart Rate Limits
@@ -151,7 +151,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.7
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 9.4
@@ -159,14 +159,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 38.2
+  previous_composite: 38.7
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitmart/refs/heads/main/screenshots/bitmart-2026-06-20T173312.png
 security:

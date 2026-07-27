@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -265,7 +265,7 @@ plans:
 - name: Bridge Mls Plans Pricing
   plan_count: 3
   slug: bridge-mls-plans-pricing
-random_paper: 29
+random_paper: 46
 rate_limits:
 - limit_count: 4
   name: Bridge Mls Rate Limits
@@ -280,20 +280,20 @@ rules:
     warn: 4
   slug: bridge-mls-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 59.1
-  delta: 0.0
+  band: strong
+  composite: 64.6
+  delta: 5.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 61.1
+    contract_quality: 70.0
     developer_ergonomics: 50.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 47.4
   previous_composite: 59.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/bridge-mls/refs/heads/main/screenshots/bridge-mls-2026-06-20T173655.png
 security:
 - kind: authentication

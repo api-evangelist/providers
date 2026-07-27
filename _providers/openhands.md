@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -221,25 +221,25 @@ plans:
 - name: Openhands Plans Pricing
   plan_count: 1
   slug: openhands-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Openhands Rate Limits
   slug: openhands-rate-limits
 score:
   band: thin
-  composite: 42.3
-  delta: 0.0
+  composite: 43.1
+  delta: 0.8
   facets:
     commercial_clarity: 50.0
     contract_quality: 47.7
     developer_ergonomics: 47.8
-    discoverability: 67.5
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 42.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openhands/refs/heads/main/screenshots/openhands-2026-06-20T191005.png
 security:

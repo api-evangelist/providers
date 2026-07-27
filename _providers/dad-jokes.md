@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ plans:
 - name: Dad Jokes Plans Pricing
   plan_count: 1
   slug: dad-jokes-plans-pricing
-random_paper: 15
+random_paper: 66
 rate_limits:
 - limit_count: 0
   name: Dad Jokes Rate Limits
@@ -161,7 +161,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 41.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dad-jokes/refs/heads/main/screenshots/dad-jokes-2026-06-20T175419.png
 security:

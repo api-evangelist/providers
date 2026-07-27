@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 12.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 14
 apis:
 - description: Initiates and retrieves ID verification transactions. Issues a token used to start the SDK or hosted web flow, accepts callback events when the verification is complete, and exposes endpoints to retri
@@ -140,7 +140,7 @@ plans:
 - name: Jumio Plans Pricing
   plan_count: 1
   slug: jumio-plans-pricing
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Jumio Rate Limits
@@ -167,7 +167,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 38.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jumio/refs/heads/main/screenshots/jumio-2026-06-20T183827.png
 security:

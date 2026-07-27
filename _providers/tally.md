@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -139,25 +139,25 @@ plans:
 - name: Tally Plans Pricing
   plan_count: 3
   slug: tally-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Tally Rate Limits
   slug: tally-rate-limits
 score:
   band: thin
-  composite: 37.8
-  delta: 0.0
+  composite: 41.0
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 51.3
     developer_ergonomics: 23.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 37.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tally/refs/heads/main/screenshots/tally-2026-06-20T194908.png
 security:

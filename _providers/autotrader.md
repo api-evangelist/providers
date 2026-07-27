@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 13
 apis:
 - description: 'Provides VRM and VIN lookups, MOT history, vehicle features, valuations, and retail metrics for individual vehicles. Enables dealers and partners to retrieve comprehensive vehicle data for appraisals '
@@ -138,7 +138,7 @@ plans:
 - name: Autotrader Plans Pricing
   plan_count: 1
   slug: autotrader-plans-pricing
-random_paper: 12
+random_paper: 63
 rate_limits:
 - limit_count: 3
   name: Autotrader Rate Limits
@@ -156,7 +156,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 25.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/autotrader/refs/heads/main/screenshots/autotrader-2026-06-20T172717.png
 security:

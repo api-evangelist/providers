@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Live OAI-PMH 2.0 metadata-harvesting endpoint for the POSTECH Library OASIS institutional repository (DSpace). Verified to respond to Identify, ListMetadataFormats, and ListSets. Repository name repor
@@ -95,7 +95,7 @@ plans:
 - name: Postech Plans Pricing
   plan_count: 2
   slug: postech-plans-pricing
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Postech Rate Limits
@@ -113,7 +113,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 21.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postech/refs/heads/main/screenshots/postech-2026-06-20T192013.png
 security:

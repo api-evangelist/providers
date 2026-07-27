@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 21
 apis:
 - description: 'tekton.dev/v1 kind=Task — defines a series of steps that launch specific build or delivery tools, ingest specific inputs (params, workspaces, resources), and produce specific outputs (results). Tasks '
@@ -225,18 +225,18 @@ rate_limits:
   slug: tekton-rate-limits
 score:
   band: thin
-  composite: 35.1
-  delta: 0.0
+  composite: 35.9
+  delta: 0.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 37.7
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 57.9
   previous_composite: 35.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tekton/refs/heads/main/screenshots/tekton-2026-06-20T195017.png
 security:

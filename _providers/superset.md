@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 29.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Hosted REST + MCP surface (api.superset.sh, v2) that lets agents and automation manage workspaces, tasks, agents, terminals, automations, projects, and hosts. Authenticated with OAuth 2.1 or API keys '
@@ -158,7 +158,7 @@ overview: 'Superset publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Superset''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 20 more developer resources.'
-random_paper: 24
+random_paper: 7
 scopes:
 - name: Superset Scopes
   scope_count: 4
@@ -177,7 +177,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 37.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -74,7 +74,7 @@ arazzos:
 - description: List existing API entities and regenerate an SDK for the first one.
   name: APIMatic Regenerate SDK for Existing Entity
   slug: apimatic-list-entities-generate-sdk-workflow
-artifact_total: 46
+artifact_total: 47
 collections:
 - collection_type: postman
   name: APIMatic Platform API
@@ -244,6 +244,10 @@ jsonld:
   property_count: 4
   slug: apimatic-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: APIMatic
 nav: Providers
@@ -274,20 +278,21 @@ rules:
     warn: 3
   slug: apimatic-jsonschema-spectral-rules
 score:
-  band: strong
-  composite: 66.8
-  delta: 0.0
+  band: exemplar
+  composite: 72.2
+  delta: 5.4
   facets:
     commercial_clarity: 84.2
-    contract_quality: 64.8
+    contract_quality: 73.6
     developer_ergonomics: 56.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 66.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
+screenshot: https://raw.githubusercontent.com/api-evangelist/apimatic/refs/heads/main/screenshots/apimatic-2026-07-25T200631.png
 security:
 - kind: authentication
   name: Apimatic Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -121,7 +121,7 @@ overview: 'Microsoft Defender for Cloud publishes 4 APIs on the [APIs.io](https:
 
 
   Microsoft Defender for Cloud''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 3
+random_paper: 20
 scopes:
 - name: Microsoft Defender For Cloud Scopes
   scope_count: 1
@@ -129,18 +129,18 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: emerging
-  composite: 26.0
-  delta: 0.0
+  composite: 29.3
+  delta: 3.3
   facets:
     commercial_clarity: 10.5
     contract_quality: 51.3
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
   previous_composite: 26.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-defender-for-cloud/refs/heads/main/screenshots/microsoft-defender-for-cloud-2026-06-20T185451.png
 security:

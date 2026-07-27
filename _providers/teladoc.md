@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 34.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for the Teladoc Health Solo virtual-care platform. Manages patients, appointments, waiting rooms, appointment slots, visit notes, attachments, patient documents, episodes of care, encounter r
@@ -129,11 +129,11 @@ overview: 'Teladoc publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Teladoc''s developer surface includes documentation, API reference, authentication, sandbox, and 14 more developer resources.'
-random_paper: 18
+random_paper: 52
 score:
   band: emerging
   composite: 29.3
-  delta: 1.4
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 22.6
@@ -141,14 +141,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 27.9
+  previous_composite: 29.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

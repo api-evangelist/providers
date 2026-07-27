@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,7 +89,7 @@ overview: 'Unleashed Games is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Unleashed Games'' developer surface includes support, YouTube channel, and 10 more developer resources.'
-random_paper: 44
+random_paper: 27
 score:
   band: minimal
   composite: 7.6
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

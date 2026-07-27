@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -195,25 +195,25 @@ plans:
 - name: Playfab Plans Pricing
   plan_count: 1
   slug: playfab-plans-pricing
-random_paper: 21
+random_paper: 55
 rate_limits:
 - limit_count: 2
   name: Playfab Rate Limits
   slug: playfab-rate-limits
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 50.4
+  delta: 3.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 47.8
     developer_ergonomics: 54.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 42.1
   previous_composite: 47.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/playfab/refs/heads/main/screenshots/playfab-2026-06-20T191806.png
 security:

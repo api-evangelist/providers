@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ plans:
 - name: Predibase Plans Pricing
   plan_count: 4
   slug: predibase-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Predibase Rate Limits
@@ -146,19 +146,19 @@ rules:
     warn: 7
   slug: predibase-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 44.9
-  delta: 0.0
+  band: developing
+  composite: 48.1
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 60.9
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 36.8
   previous_composite: 44.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/predibase/refs/heads/main/screenshots/predibase-2026-06-20T192044.png
 security:

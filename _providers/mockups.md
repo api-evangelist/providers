@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -42,7 +42,7 @@ name: Mockups
 nav: Providers
 network: true
 overview: Mockups is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Mockups, Design, Prototyping, UI, and UX.
-random_paper: 5
+random_paper: 22
 score:
   band: minimal
   composite: 8.1
@@ -56,7 +56,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mockups/refs/heads/main/screenshots/mockups-2026-06-20T185641.png
 slug: mockups

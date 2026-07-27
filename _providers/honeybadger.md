@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 58.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: The Source Maps API from Honeybadger — 1 operation(s) for source maps.
   name: Honeybadger Source Maps API
   slug: honeybadger-source-maps-api
-artifact_total: 16
+artifact_total: 17
 asyncapis:
 - description: AsyncAPI description of the outbound webhook notifications Honeybadger delivers to subscriber URLs that have been configured via Project Settings > Alerts & Integrations. This surface covers the gener
   name: Honeybadger Outbound Webhook Notifications
@@ -137,6 +137,10 @@ created: '2026-05-11'
 description: Honeybadger is an application monitoring platform that combines exception tracking, uptime monitoring, cron and background job monitoring, and status pages into a single service for software developers and operations teams. The platform supports a wide range of languages and frameworks including Ruby, Rails, Python, Node.js, PHP, Elixir, Go, and JavaScript, and integrates with Slack, GitHub, PagerDuty, and other developer tools. Honeybadger exposes a Reporting API for ingesting errors, deploys, and check-ins, plus a Data API for accessing account data, both using HTTP Basic authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/honeybadger.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-30'
 name: Honeybadger
 nav: Providers
@@ -148,7 +152,7 @@ overview: 'Honeybadger publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Honeybadger''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, support, and 9 more developer resources.'
-random_paper: 38
+random_paper: 4
 rules:
 - name: Honeybadger API Rules
   rule_count: 8
@@ -160,18 +164,18 @@ rules:
   slug: honeybadger-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 40.0
-  delta: 0.0
+  composite: 43.3
+  delta: 3.3
   facets:
     commercial_clarity: 18.4
     contract_quality: 62.5
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 5.3
   previous_composite: 40.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/honeybadger/refs/heads/main/screenshots/honeybadger-2026-06-20T182819.png
 security:

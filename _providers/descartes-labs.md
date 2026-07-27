@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: The historical Descartes Labs Platform — a managed geospatial data refinery and analytics environment exposing imagery catalog, raster access, vector tables, compute functions, and authentication thro
@@ -161,7 +161,7 @@ overview: 'Descartes Labs publishes 6 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Descartes Labs'' developer surface includes documentation, support, code examples, and 18 more developer resources.'
-random_paper: 44
+random_paper: 61
 score:
   band: emerging
   composite: 17.7
@@ -175,8 +175,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/descartes-labs/refs/heads/main/screenshots/descartes-labs-2026-07-25T211750.png
 security:
 - kind: domain-security
   name: Descartes Labs Domain Security

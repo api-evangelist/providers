@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 55.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -42,7 +42,7 @@ apis:
 - description: The Openai API from Novita AI — 4 operation(s) for openai.
   name: Novita AI Openai API
   slug: novita-ai-openai-api
-artifact_total: 10
+artifact_total: 11
 asyncapis:
 - description: 'AsyncAPI 2.6 description of the asynchronous surfaces of the Novita AI platform: 1. **Server-Sent Events (SSE) streaming** for OpenAI-compatible chat completions (`POST /openai/v1/chat/completions` wi'
   name: Novita AI Streaming & Webhook API
@@ -164,6 +164,10 @@ finops:
   slug: novita-ai-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/novita-ai.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: novita-mcp-server
+  slug: novita-mcp-server
 modified: '2026-05-30'
 name: Novita AI
 nav: Providers
@@ -179,7 +183,7 @@ plans:
 - name: Novita Ai Plans Pricing
   plan_count: 1
   slug: novita-ai-plans-pricing
-random_paper: 37
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Novita Ai Rate Limits
@@ -195,18 +199,18 @@ rules:
   slug: novita-ai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 56.2
+  delta: 3.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 54.0
     developer_ergonomics: 47.8
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 52.6
     operational_transparency: 42.1
   previous_composite: 52.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/novita-ai/refs/heads/main/screenshots/novita-ai-2026-06-20T190520.png
 security:

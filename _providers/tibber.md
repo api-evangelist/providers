@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -419,20 +419,20 @@ scopes:
   slug: tibber-scopes
   summary_line: 11 scopes · authorizationCode
 score:
-  band: strong
-  composite: 66.0
-  delta: 0.0
+  band: exemplar
+  composite: 71.4
+  delta: 5.4
   facets:
     commercial_clarity: 71.1
-    contract_quality: 66.4
+    contract_quality: 75.2
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 57.9
   previous_composite: 66.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/tibber/refs/heads/main/screenshots/tibber-2026-06-20T195331.png
 security:
 - kind: authentication

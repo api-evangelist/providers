@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -121,7 +121,7 @@ plans:
 - name: Microsoft Azure Advisor Plans Pricing
   plan_count: 3
   slug: microsoft-azure-advisor-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Advisor Rate Limits
@@ -133,18 +133,18 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 46.9
-  delta: 0.0
+  composite: 50.1
+  delta: 3.2
   facets:
     commercial_clarity: 71.1
     contract_quality: 53.1
     developer_ergonomics: 32.6
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 46.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-advisor/refs/heads/main/screenshots/microsoft-azure-advisor-2026-06-20T185354.png
 security:

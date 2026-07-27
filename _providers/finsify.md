@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: RESTful bank-aggregation API for accessing consumer banking data — accounts, balances, and categorized transaction history — plus customer, connection token, and login lifecycle management, with webho
@@ -113,11 +113,11 @@ overview: 'Finsify publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Finsify''s developer surface includes documentation, API reference, authentication, and 11 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: emerging
   composite: 24.8
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 22.6
@@ -125,15 +125,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 24.6
+  previous_composite: 24.8
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/finsify/refs/heads/main/screenshots/finsify-2026-07-25T214546.png
 security:
 - kind: authentication
   name: Finsify Authentication

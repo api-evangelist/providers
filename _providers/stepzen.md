@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ plans:
 - name: Stepzen Plans Pricing
   plan_count: 3
   slug: stepzen-plans-pricing
-random_paper: 12
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Stepzen Rate Limits
@@ -166,18 +166,18 @@ rules:
   slug: stepzen-rules
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 52.3
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 65.5
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 50.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

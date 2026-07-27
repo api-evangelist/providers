@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 5
@@ -287,7 +287,7 @@ overview: 'Lightspark publishes 22 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Lightspark''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 33 more developer resources.'
-random_paper: 10
+random_paper: 61
 rules:
 - name: Lightspark API Rules
   rule_count: 13
@@ -300,7 +300,7 @@ rules:
 score:
   band: strong
   composite: 69.5
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 72.7
@@ -308,15 +308,16 @@ score:
     discoverability: 100.0
     governance: 34.2
     operational_transparency: 63.2
-  previous_composite: 67.9
+  previous_composite: 69.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lightspark/refs/heads/main/screenshots/lightspark-2026-07-25T225132.png
 security:
 - kind: authentication
   name: Lightspark Authentication

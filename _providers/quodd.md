@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ plans:
 - name: Quodd Plans Pricing
   plan_count: 2
   slug: quodd-plans-pricing
-random_paper: 31
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Quodd Rate Limits
@@ -193,7 +193,7 @@ rate_limits:
 score:
   band: developing
   composite: 49.5
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.4
@@ -201,14 +201,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 48.7
+  previous_composite: 49.5
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/screenshots/quodd-2026-07-22T202600.png
 security:

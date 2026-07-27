@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'REST API for managing bills, vendors, payment methods, and scheduling payments. Supports ACH transfers, check payments, wire transfers, and international payments. Includes webhook support, a sandbox '
@@ -126,7 +126,7 @@ plans:
 - name: Melio Plans Pricing
   plan_count: 5
   slug: melio-plans-pricing
-random_paper: 24
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: Melio Rate Limits
@@ -144,7 +144,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 42.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/melio/refs/heads/main/screenshots/melio-2026-06-20T185133.png
 security:

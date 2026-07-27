@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Convert text to speech
@@ -58,7 +58,7 @@ name: IBM Text to Speech
 nav: Providers
 network: true
 overview: IBM Text to Speech publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 25
+random_paper: 59
 score:
   band: minimal
   composite: 6.8
@@ -72,7 +72,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ibm-text-to-speech/refs/heads/main/screenshots/ibm-text-to-speech-2026-06-20T183134.png
 security:

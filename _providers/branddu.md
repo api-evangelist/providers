@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,7 +85,7 @@ overview: 'Branddu is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Branddu''s developer surface includes engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 22
+random_paper: 56
 score:
   band: minimal
   composite: 14.0
@@ -99,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

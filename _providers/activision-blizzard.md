@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -321,7 +321,7 @@ press:
 - date: '2026-05-25'
   title: Activision Blizzard and Google Enter Into Multi-year ...
   url: https://www.googlecloudpresscorner.com/2020-01-24-Activision-Blizzard-and-Google-Enter-Into-Multi-year-Strategic-Relationship-to-Power-New-Player-Experiences
-random_paper: 3
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Activision Blizzard Rate Limits
@@ -350,18 +350,18 @@ scopes:
   summary_line: 3 scopes · clientCredentials/authorizationCode
 score:
   band: developing
-  composite: 52.5
-  delta: 0.0
+  composite: 53.9
+  delta: 1.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 69.9
+    contract_quality: 75.2
     developer_ergonomics: 39.1
     discoverability: 55.0
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 52.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/activision-blizzard/refs/heads/main/screenshots/activision-blizzard-2026-06-20T164248.png
 security:

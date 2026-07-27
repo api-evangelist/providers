@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 30.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: HTTP-based API (v3) for interacting with Shipper's location, pricing, and shipment features — search location by keyword and administrative area, retrieve domestic multi-courier pricing, create orders
@@ -129,7 +129,7 @@ overview: 'Shipper publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Shipper''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, signup flow, support, and 11 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: thin
   composite: 32.0
@@ -143,7 +143,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 32.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -129,30 +129,30 @@ plans:
 - name: Validic Plans Pricing
   plan_count: 3
   slug: validic-plans-pricing
-random_paper: 18
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Validic Rate Limits
   slug: validic-rate-limits
 score:
   band: thin
-  composite: 39.3
-  delta: -0.4
+  composite: 42.0
+  delta: 2.7
   facets:
     commercial_clarity: 47.4
     contract_quality: 57.2
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 39.7
+  previous_composite: 39.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

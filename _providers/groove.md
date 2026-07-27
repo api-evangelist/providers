@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 47.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -157,18 +157,18 @@ rules:
   slug: groove-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 37.4
-  delta: 0.0
+  composite: 40.7
+  delta: 3.3
   facets:
     commercial_clarity: 10.5
     contract_quality: 61.9
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 5.3
   previous_composite: 37.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/groove/refs/heads/main/screenshots/groove-2026-06-20T182412.png
 security:

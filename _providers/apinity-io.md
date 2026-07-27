@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Apinity API enables organizations to manage their compliant API marketplace programmatically, including API registration, discovery, subscription management, and governance policy enforcement acro
@@ -125,7 +125,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 37.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apinity-io/refs/heads/main/screenshots/apinity-io-2026-06-20T172250.png
 security:

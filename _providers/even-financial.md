@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ overview: 'Even Financial publishes 6 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Even Financial''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 20 more developer resources.'
-random_paper: 31
+random_paper: 48
 score:
   band: developing
   composite: 52.4
@@ -208,8 +208,9 @@ score:
     operational_transparency: 44.7
   previous_composite: 52.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/even-financial/refs/heads/main/screenshots/even-financial-2026-07-25T213723.png
 security:
 - kind: authentication
   name: Even Financial Authentication

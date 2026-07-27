@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 21
 apis:
 - description: Free API management gateway operated by the U.S. General Services Administration's Technology Transformation Services. Fronts the API keys, rate limiting, and analytics for over 450 APIs across roughl
@@ -149,7 +149,7 @@ overview: 'Public Sector publishes 21 APIs on the [APIs.io](https://apis.io/) ne
 
 
   The Public Sector catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 14
+random_paper: 48
 rules:
 - name: Public Sector API Rules
   rule_count: 5
@@ -162,7 +162,7 @@ rules:
 score:
   band: emerging
   composite: 23.0
-  delta: 0.2
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 20.8
@@ -170,14 +170,14 @@ score:
     discoverability: 87.5
     governance: 73.7
     operational_transparency: 0.0
-  previous_composite: 22.8
+  previous_composite: 23.0
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/public-sector/refs/heads/main/screenshots/public-sector-2026-06-20T192241.png
 security:

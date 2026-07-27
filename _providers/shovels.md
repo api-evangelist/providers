@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ plans:
 - name: Shovels Plans Pricing
   plan_count: 3
   slug: shovels-plans-pricing
-random_paper: 7
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Shovels Rate Limits
@@ -159,19 +159,19 @@ rules:
   slug: shovels-rules
 score:
   band: developing
-  composite: 48.5
-  delta: 0.0
+  composite: 54.0
+  delta: 5.5
   facets:
     commercial_clarity: 47.4
-    contract_quality: 67.0
+    contract_quality: 75.8
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 48.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/shovels/refs/heads/main/screenshots/shovels-2026-06-20T193844.png
 security:
 - kind: authentication

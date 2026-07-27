@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -107,25 +107,25 @@ plans:
 - name: Hello Retail Plans Pricing
   plan_count: 3
   slug: hello-retail-plans-pricing
-random_paper: 45
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Hello Retail Rate Limits
   slug: hello-retail-rate-limits
 score:
   band: thin
-  composite: 36.5
-  delta: 0.0
+  composite: 39.7
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 60.2
     developer_ergonomics: 19.6
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 36.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hello-retail/refs/heads/main/screenshots/hello-retail-2026-06-20T182627.png
 security:

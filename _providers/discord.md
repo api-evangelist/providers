@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 61.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 167
   human_in_the_loop: 2
@@ -1718,7 +1718,7 @@ plans:
 - name: Discord Plans Pricing
   plan_count: 3
   slug: discord-plans-pricing
-random_paper: 30
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Discord Rate Limits
@@ -1747,18 +1747,18 @@ scopes:
   summary_line: 33 scopes · implicit/clientCredentials/authorizationCode
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 62.8
+  delta: 2.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 72.0
     developer_ergonomics: 50.0
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 52.6
     operational_transparency: 68.4
   previous_composite: 60.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/discord/refs/heads/main/screenshots/discord-2026-06-20T180039.png
 security:

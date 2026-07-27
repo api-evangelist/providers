@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -615,19 +615,19 @@ scopes:
   slug: indeed-scopes
   summary_line: 3 scopes · clientCredentials
 score:
-  band: developing
-  composite: 59.5
-  delta: 0.0
+  band: strong
+  composite: 64.1
+  delta: 4.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.8
+    contract_quality: 76.1
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 57.9
   previous_composite: 59.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/indeed/refs/heads/main/screenshots/indeed-2026-06-20T183344.png
 security:

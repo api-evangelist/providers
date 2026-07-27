@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 2
@@ -55,7 +55,7 @@ apis:
 - description: Reference and non-price data that complements the market data feeds - a security master (instrument definitions and identifiers), corporate actions (splits, dividends, symbol changes, and other events
   name: Databento Reference API
   slug: databento-reference-api
-artifact_total: 14
+artifact_total: 15
 collections:
 - collection_type: open
   name: Databento Historical and Reference API
@@ -221,6 +221,10 @@ finops:
   slug: databento-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/databento.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: databento-mcp.yml
+  slug: databento-mcpyml
 modified: '2026-07-22'
 name: Databento
 nav: Providers
@@ -233,7 +237,7 @@ plans:
 - name: Databento Plans Pricing
   plan_count: 5
   slug: databento-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Databento Rate Limits
@@ -245,23 +249,23 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 66.0
-  delta: 1.8
+  composite: 68.7
+  delta: 2.7
   facets:
     commercial_clarity: 84.2
     contract_quality: 59.1
     developer_ergonomics: 76.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 81.6
-  previous_composite: 64.2
+  previous_composite: 66.0
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/screenshots/databento-2026-07-22T202314.png
 security:

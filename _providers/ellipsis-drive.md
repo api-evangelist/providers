@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'The Ellipsis Drive API v3 provides programmatic access to manage, use, and integrate spatial data: accounts and organizations, users, folders/paths, maps, vector and raster layers, point clouds, acces'
@@ -149,8 +149,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 30.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ellipsis-drive/refs/heads/main/screenshots/ellipsis-drive-2026-07-25T213147.png
 security:
 - kind: authentication
   name: Ellipsis Drive Authentication

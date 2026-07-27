@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -149,25 +149,25 @@ plans:
 - name: Microsoft Sharepoint Plans Pricing
   plan_count: 3
   slug: microsoft-sharepoint-plans-pricing
-random_paper: 21
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Microsoft Sharepoint Rate Limits
   slug: microsoft-sharepoint-rate-limits
 score:
-  band: thin
-  composite: 43.8
-  delta: 0.0
+  band: developing
+  composite: 45.8
+  delta: 2.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 47.8
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 43.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-sharepoint/refs/heads/main/screenshots/microsoft-sharepoint-2026-06-20T185531.png
 security:

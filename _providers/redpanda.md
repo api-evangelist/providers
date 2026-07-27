@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 42.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 10
 apis:
 - description: Redpanda implements the Apache Kafka wire protocol natively, allowing existing Kafka clients (producers, consumers, AdminClient, Streams, Connect) to work unchanged against Redpanda brokers on TCP por
@@ -59,7 +59,7 @@ apis:
 - description: Redpanda Iceberg Topics expose topic data as Apache Iceberg tables in object storage, accessible from the Iceberg REST catalog and consumable by query engines like Spark, Trino, and Snowflake.
   name: Redpanda Iceberg Topic API
   slug: redpanda-iceberg-topic-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: API Collection
@@ -216,6 +216,10 @@ finops:
   slug: redpanda-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/redpanda.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Redpanda
 nav: Providers
@@ -235,18 +239,18 @@ rate_limits:
   slug: redpanda-rate-limits
 score:
   band: developing
-  composite: 48.0
-  delta: 0.0
+  composite: 48.7
+  delta: 0.7
   facets:
     commercial_clarity: 71.1
     contract_quality: 37.7
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 48.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/redpanda/refs/heads/main/screenshots/redpanda-2026-06-20T192835.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -129,7 +129,7 @@ plans:
 - name: Consumer Product Safety Commission Plans Pricing
   plan_count: 3
   slug: consumer-product-safety-commission-plans-pricing
-random_paper: 2
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Consumer Product Safety Commission Rate Limits
@@ -152,24 +152,24 @@ rules:
     warn: 2
   slug: consumer-product-safety-commission-rules
 score:
-  band: thin
-  composite: 44.3
-  delta: -0.5
+  band: developing
+  composite: 47.0
+  delta: 2.7
   facets:
     commercial_clarity: 60.5
     contract_quality: 54.9
     developer_ergonomics: 0.0
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 31.6
-  previous_composite: 44.8
+  previous_composite: 44.3
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/consumer-product-safety-commission/refs/heads/main/screenshots/consumer-product-safety-commission-2026-06-20T174919.png
 security:

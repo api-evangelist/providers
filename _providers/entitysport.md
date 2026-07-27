@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -138,19 +138,20 @@ rate_limits:
   slug: entitysport-rate-limits
 score:
   band: thin
-  composite: 38.5
-  delta: 0.0
+  composite: 41.7
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.8
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 38.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/entitysport/refs/heads/main/screenshots/entitysport-2026-07-25T213432.png
 security:
 - kind: authentication
   name: Entitysport Authentication

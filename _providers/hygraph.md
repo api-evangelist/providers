@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: 'Native GraphQL API that auto-generates queries, mutations, and real-time subscriptions from the project content schema. Supports content federation, multi-environment delivery, and a high-performance '
@@ -84,6 +84,10 @@ common:
   title: ''
   type: Learn
   url: https://hygraph.com/learn
+- group: docs
+  title: ''
+  type: MCPDocumentation
+  url: https://hygraph.com/docs/hygraph-ai/mcp-server
 created: '2026-06-14'
 description: GraphQL-native headless CMS (formerly GraphCMS) with content federation, content environments, webhooks, and a flexible GraphQL Content API for building headless applications.
 graphqls:
@@ -92,15 +96,15 @@ graphqls:
   slug: hygraph-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hygraph.png
 layout: provider
-modified: '2026-06-14'
+modified: '2026-07-25'
 name: Hygraph
 nav: Providers
 network: true
 overview: 'Hygraph publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include GraphQL, Headless CMS, Content Management, Content Federation, and Webhooks.
 
 
-  Hygraph''s developer surface includes documentation, engineering blog, pricing, changelog, and 8 more developer resources.'
-random_paper: 41
+  Hygraph''s developer surface includes documentation, engineering blog, pricing, changelog, and 9 more developer resources.'
+random_paper: 7
 score:
   band: emerging
   composite: 15.0
@@ -114,7 +118,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 15.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hygraph/refs/heads/main/screenshots/hygraph-2026-06-20T183039.png
 security:

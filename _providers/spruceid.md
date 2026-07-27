@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 31.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ random_paper: 47
 score:
   band: emerging
   composite: 24.3
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 51.0
@@ -131,14 +131,14 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 24.7
+  previous_composite: 24.3
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spruceid/refs/heads/main/screenshots/spruceid-2026-06-20T194421.png
 security:

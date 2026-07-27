@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ plans:
 - name: Cloudhealth Plans Pricing
   plan_count: 3
   slug: cloudhealth-plans-pricing
-random_paper: 43
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Cloudhealth Rate Limits
@@ -163,19 +163,19 @@ rules:
     warn: 6
   slug: cloudhealth-rules
 score:
-  band: thin
-  composite: 44.3
-  delta: 0.0
+  band: developing
+  composite: 46.3
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.1
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 26.3
     operational_transparency: 36.8
   previous_composite: 44.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudhealth/refs/heads/main/screenshots/cloudhealth-2026-06-20T174608.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ plans:
 - name: Bing News Plans Pricing
   plan_count: 2
   slug: bing-news-plans-pricing
-random_paper: 39
+random_paper: 22
 rate_limits:
 - limit_count: 3
   name: Bing News Rate Limits
@@ -181,7 +181,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 62.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bing-news/refs/heads/main/screenshots/bing-news-2026-06-20T173246.png
 security:

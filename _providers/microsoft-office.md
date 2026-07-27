@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -89,7 +89,7 @@ arazzos:
 - description: Resolve a joined team, check for an existing channel, create it when missing, and post a kickoff message.
   name: Microsoft Office Provision a Teams Channel and Announce It
   slug: microsoft-office-teams-channel-provisioning-workflow
-artifact_total: 27
+artifact_total: 28
 collections:
 - collection_type: open
   name: Microsoft Graph API (Office 365 subset)
@@ -259,6 +259,10 @@ finops:
   slug: microsoft-office-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-office.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: microsoft-office-mcp.yml
+  slug: microsoft-office-mcpyml
 modified: '2026-06-20'
 name: Microsoft Office
 nav: Providers
@@ -283,18 +287,18 @@ scopes:
   summary_line: 16 scopes · authorizationCode
 score:
   band: developing
-  composite: 52.6
-  delta: 0.0
+  composite: 55.8
+  delta: 3.2
   facets:
     commercial_clarity: 68.4
     contract_quality: 47.8
     developer_ergonomics: 56.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 52.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office/refs/heads/main/screenshots/microsoft-office-2026-06-20T185511.png
 security:

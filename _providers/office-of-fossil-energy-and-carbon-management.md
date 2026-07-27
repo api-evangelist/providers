@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Office of Fossil Energy and Carbon Management (FECM) conducts research, development, demonstration, and deployment to minimize the environmental and climate impacts of fossil energy production and
@@ -59,7 +59,7 @@ plans:
 - name: Office Of Fossil Energy And Carbon Management Plans Pricing
   plan_count: 3
   slug: office-of-fossil-energy-and-carbon-management-plans-pricing
-random_paper: 12
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Office Of Fossil Energy And Carbon Management Rate Limits
@@ -77,7 +77,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 18.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/office-of-fossil-energy-and-carbon-management/refs/heads/main/screenshots/office-of-fossil-energy-and-carbon-management-2026-06-20T190634.png
 security:

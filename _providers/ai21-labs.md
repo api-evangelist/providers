@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ plans:
 - name: Ai21 Labs Plans Pricing
   plan_count: 1
   slug: ai21-labs-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Ai21 Labs Rate Limits
@@ -179,18 +179,18 @@ rules:
   slug: ai21-labs-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 49.9
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.4
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 42.1
   previous_composite: 46.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ai21-labs/refs/heads/main/screenshots/ai21-labs-2026-06-20T170826.png
 security:

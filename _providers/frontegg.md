@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 604
   human_in_the_loop: 578
@@ -658,18 +658,18 @@ rules:
   slug: frontegg-tenants-rules
 score:
   band: developing
-  composite: 56.9
-  delta: 0.0
+  composite: 59.4
+  delta: 2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 68.3
     developer_ergonomics: 63.0
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 47.4
     operational_transparency: 52.6
   previous_composite: 56.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frontegg/refs/heads/main/screenshots/frontegg-2026-06-20T181552.png
 security:

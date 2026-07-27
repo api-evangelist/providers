@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -48,7 +48,7 @@ apis:
 - description: The OpenAPI API from Helidon — 1 operation(s) for openapi.
   name: Helidon OpenAPI API
   slug: helidon-openapi-api
-artifact_total: 12
+artifact_total: 13
 collections:
 - collection_type: open
   name: Helidon Observe (Health & Metrics) API
@@ -102,6 +102,10 @@ json_schemas:
   property_count: 5
   slug: helidon-application-config
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Helidon
 nav: Providers
@@ -117,7 +121,7 @@ plans:
 - name: Helidon Plans Pricing
   plan_count: 3
   slug: helidon-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Helidon Rate Limits
@@ -132,19 +136,19 @@ rules:
     warn: 3
   slug: helidon-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 44.6
-  delta: 0.0
+  band: developing
+  composite: 47.9
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 46.0
+    contract_quality: 51.3
     developer_ergonomics: 30.4
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 44.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helidon/refs/heads/main/screenshots/helidon-2026-06-20T182619.png
 security:

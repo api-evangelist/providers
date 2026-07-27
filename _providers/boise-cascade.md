@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 11
 common:
@@ -143,7 +143,7 @@ press:
 - date: '2026-04-21'
   title: Boise Cascade schedules first quarter 2026 earnings webcast and conference call
   url: https://www.bc.com/boise-cascade-first-quarter-2026-earnings-webcast-and-conference-call/
-random_paper: 8
+random_paper: 59
 score:
   band: minimal
   composite: 7.2
@@ -157,7 +157,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/boise-cascade/refs/heads/main/screenshots/boise-cascade-2026-06-20T173552.png
 security:

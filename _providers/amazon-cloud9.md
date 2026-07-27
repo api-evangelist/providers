@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 67.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -258,7 +258,7 @@ overview: 'Amazon Cloud9 publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Amazon Cloud9''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 23 more developer resources.'
-random_paper: 8
+random_paper: 59
 rules:
 - name: Amazon Cloud9 API Rules
   rule_count: 5
@@ -289,8 +289,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 59.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-cloud9/refs/heads/main/screenshots/amazon-cloud9-2026-07-25T195945.png
 security:
 - kind: authentication
   name: Amazon Cloud9 Authentication

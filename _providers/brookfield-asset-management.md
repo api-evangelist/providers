@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 8
 common:
@@ -255,7 +255,7 @@ overview: 'Brookfield Asset Management is profiled on the [APIs.io](https://apis
 
 
   Brookfield Asset Management''s developer surface includes FAQ, YouTube channel, GitHub presence, and 37 more developer resources.'
-random_paper: 41
+random_paper: 24
 score:
   band: minimal
   composite: 11.7
@@ -269,7 +269,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brookfield-asset-management/refs/heads/main/screenshots/brookfield-asset-management-2026-06-20T173721.png
 security:

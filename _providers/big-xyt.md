@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The core big xyt (xyt hub) API gives trading firms and exchanges programmatic access to normalised and raw tick data and analytics across 120+ venues without in-house tick data infrastructure. Publicl
@@ -100,11 +100,11 @@ overview: 'big xyt publishes 3 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   big xyt''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 7 more developer resources.'
-random_paper: 45
+random_paper: 28
 score:
   band: emerging
   composite: 23.2
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -112,14 +112,14 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 21.1
+  previous_composite: 23.2
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 34.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/big-xyt/refs/heads/main/screenshots/big-xyt-2026-07-22T202227.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -337,26 +337,26 @@ overview: 'Orange Business publishes 14 APIs on the [APIs.io](https://apis.io/) 
 
 
   Orange Business'' developer surface includes authentication, developer portal, documentation, tooling, engineering blog, support, signup flow, and 28 more developer resources.'
-random_paper: 27
+random_paper: 61
 score:
   band: thin
-  composite: 39.2
-  delta: 3.1
+  composite: 40.2
+  delta: 1.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 57.8
     developer_ergonomics: 50.0
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 36.1
+  previous_composite: 39.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 56.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/screenshots/orange-business-2026-06-20T191153.png
 security:

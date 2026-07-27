@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ apis:
 - description: Create, retrieve, update, and delete Virtual Tag configurations
   name: Finout Virtual Tags API
   slug: finout-virtual-tags-api
-artifact_total: 21
+artifact_total: 22
 collections:
 - collection_type: open
   name: Finout API
@@ -162,6 +162,10 @@ jsonld:
   property_count: 19
   slug: finout-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Finout
 nav: Providers
@@ -192,20 +196,20 @@ rules:
     warn: 3
   slug: finout-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 55.2
-  delta: 0.0
+  band: strong
+  composite: 60.6
+  delta: 5.4
   facets:
     commercial_clarity: 65.8
-    contract_quality: 67.3
+    contract_quality: 76.1
     developer_ergonomics: 30.4
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 55.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/finout/refs/heads/main/screenshots/finout-2026-06-20T181223.png
 security:
 - kind: authentication

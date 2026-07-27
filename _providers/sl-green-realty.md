@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Conceptual GraphQL schema for SL Green Realty Corp. covering Property, Building, Floor, Suite, Lease, Tenant, Occupancy, Transaction, Contact, AmenityLevel, CertificationLevel, GreenInitiative, Invest
@@ -123,7 +123,7 @@ overview: 'SL Green Realty Corp. publishes 1 API on the [APIs.io](https://apis.i
 
 
   The SL Green Realty Corp. catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 20
+random_paper: 3
 score:
   band: minimal
   composite: 10.5
@@ -137,7 +137,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sl-green-realty/refs/heads/main/screenshots/sl-green-realty-2026-06-20T194019.png
 security:

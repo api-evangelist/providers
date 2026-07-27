@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 57.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ overview: 'Rhythms publishes 13 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Rhythms'' developer surface includes authentication, signup flow, pricing, engineering blog, support, and 14 more developer resources.'
-random_paper: 18
+random_paper: 35
 score:
   band: thin
   composite: 40.4
@@ -183,7 +183,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 40.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

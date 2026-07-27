@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -121,7 +121,7 @@ plans:
 - name: Xai Plans Pricing
   plan_count: 3
   slug: xai-plans-pricing
-random_paper: 16
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Xai Rate Limits
@@ -137,18 +137,18 @@ rules:
   slug: xai-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 45.3
-  delta: 0.0
+  composite: 48.6
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 59.3
     developer_ergonomics: 19.6
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 52.6
     operational_transparency: 36.8
   previous_composite: 45.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xai/refs/heads/main/screenshots/xai-2026-06-20T201651.png
 security:

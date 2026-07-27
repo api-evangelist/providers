@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Client SDK and hosted spatial audio server for embedding real-time positional voice in web and native apps. Auth is a connection JWT signed with the developer''s App Secret. The hosted server has been '
@@ -106,7 +106,7 @@ overview: 'High Fidelity publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   High Fidelity''s developer surface includes authentication, changelog, getting-started guide, engineering blog, support, pricing, and 9 more developer resources.'
-random_paper: 44
+random_paper: 27
 score:
   band: emerging
   composite: 25.3
@@ -120,8 +120,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 25.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/high-fidelity/refs/heads/main/screenshots/high-fidelity-2026-07-25T221150.png
 security:
 - kind: authentication
   name: High Fidelity Authentication

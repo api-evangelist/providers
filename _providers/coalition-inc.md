@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ plans:
 - name: Coalition Inc Plans Pricing
   plan_count: 3
   slug: coalition-inc-plans-pricing
-random_paper: 46
+random_paper: 29
 rate_limits:
 - limit_count: 3
   name: Coalition Inc Rate Limits
@@ -225,24 +225,24 @@ rules:
     warn: 5
   slug: coalition-inc-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 42.3
-  delta: -0.9
+  band: developing
+  composite: 45.1
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.1
+    contract_quality: 66.4
     developer_ergonomics: 6.5
-    discoverability: 60.0
+    discoverability: 80.0
     governance: 60.5
     operational_transparency: 42.1
-  previous_composite: 43.2
+  previous_composite: 42.3
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coalition-inc/refs/heads/main/screenshots/coalition-inc-2026-06-20T174644.png
 security:

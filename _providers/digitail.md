@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ scopes:
 score:
   band: thin
   composite: 42.5
-  delta: 1.0
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 55.7
@@ -182,15 +182,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 41.5
+  previous_composite: 42.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/digitail/refs/heads/main/screenshots/digitail-2026-07-25T212019.png
 security:
 - kind: authentication
   name: Digitail Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 1
@@ -164,7 +164,7 @@ plans:
 - name: Getstream Plans Pricing
   plan_count: 4
   slug: getstream-plans-pricing
-random_paper: 3
+random_paper: 20
 rate_limits:
 - limit_count: 4
   name: Getstream Rate Limits
@@ -180,19 +180,20 @@ rules:
   slug: getstream-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 50.8
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 63.4
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 36.8
   previous_composite: 47.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/getstream/refs/heads/main/screenshots/getstream-2026-07-25T215745.png
 security:
 - kind: authentication
   name: Getstream Authentication

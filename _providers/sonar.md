@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
 - description: API token generation and management
   name: Sonar User Tokens API
   slug: sonar-user-tokens-api
-artifact_total: 22
+artifact_total: 23
 collections:
 - collection_type: open
   name: SonarCloud API
@@ -155,6 +155,10 @@ jsonld:
   property_count: 5
   slug: sonar-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Sonar
 nav: Providers
@@ -170,7 +174,7 @@ plans:
 - name: Sonar Plans Pricing
   plan_count: 3
   slug: sonar-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Sonar Rate Limits
@@ -193,19 +197,19 @@ rules:
     warn: 4
   slug: sonar-rules
 score:
-  band: developing
-  composite: 59.6
-  delta: 0.0
+  band: strong
+  composite: 63.8
+  delta: 4.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 64.6
+    contract_quality: 73.5
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 59.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sonar/refs/heads/main/screenshots/sonar-2026-06-20T194158.png
 security:

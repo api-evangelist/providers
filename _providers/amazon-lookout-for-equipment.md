@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -210,19 +210,19 @@ rules:
   slug: amazon-lookout-for-equipment-spectral-rules
 score:
   band: strong
-  composite: 62.7
-  delta: 0.0
+  composite: 68.2
+  delta: 5.5
   facets:
     commercial_clarity: 81.6
-    contract_quality: 64.6
+    contract_quality: 73.5
     developer_ergonomics: 41.3
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 62.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lookout-for-equipment/refs/heads/main/screenshots/amazon-lookout-for-equipment-2026-06-20T171729.png
 security:
 - kind: authentication

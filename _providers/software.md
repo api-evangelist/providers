@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Read-only enterprise engineering-metrics API exposed as a hosted Model Context Protocol (MCP) server over Streamable HTTP. AI assistants and agents query contributor metrics, identity groups, and tren
@@ -154,7 +154,7 @@ overview: 'Software publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Software''s developer surface includes documentation, API reference, getting-started guide, changelog, signup flow, support, pricing, and 19 more developer resources.'
-random_paper: 8
+random_paper: 59
 score:
   band: thin
   composite: 39.3
@@ -168,7 +168,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 39.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

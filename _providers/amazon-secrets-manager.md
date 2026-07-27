@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 80.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -77,7 +77,7 @@ arazzos:
 - description: Update a secret's description and KMS key with UpdateSecret, then describe it to confirm the new metadata was applied.
   name: Amazon Secrets Manager Update Metadata and Verify
   slug: amazon-secrets-manager-update-metadata-and-verify-workflow
-artifact_total: 58
+artifact_total: 59
 collections:
 - collection_type: postman
   name: Amazon Secrets Manager API
@@ -429,6 +429,10 @@ jsonld:
   property_count: 27
   slug: amazon-secrets-manager-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: amazon-secrets-manager-mcp.yml
+  slug: amazon-secrets-manager-mcpyml
 modified: '2026-06-20'
 name: Amazon Secrets Manager
 nav: Providers
@@ -444,7 +448,7 @@ plans:
 - name: Amazon Secrets Manager Plans Pricing
   plan_count: 3
   slug: amazon-secrets-manager-plans-pricing
-random_paper: 35
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Amazon Secrets Manager Rate Limits
@@ -468,18 +472,18 @@ rules:
   slug: amazon-secrets-manager-spectral-rules
 score:
   band: exemplar
-  composite: 74.0
-  delta: 0.0
+  composite: 78.7
+  delta: 4.7
   facets:
     commercial_clarity: 86.8
-    contract_quality: 62.3
+    contract_quality: 71.2
     developer_ergonomics: 78.3
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 63.2
   previous_composite: 74.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-secrets-manager/refs/heads/main/screenshots/amazon-secrets-manager-2026-06-20T171815.png
 security:

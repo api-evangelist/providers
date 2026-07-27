@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The machine0 control plane for creating, managing, snapshotting and connecting to persistent cloud VMs. Exposed as a CLI (npm @machine0/cli) and a remote MCP server (Streamable HTTP, OAuth 2.0 + API k
@@ -114,7 +114,7 @@ overview: 'Machine0 publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Machine0''s developer surface includes documentation, quickstart, pricing, changelog, CLI, and 11 more developer resources.'
-random_paper: 8
+random_paper: 25
 scopes:
 - name: Machine0 Scopes
   scope_count: 0
@@ -133,8 +133,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 32.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/machine0/refs/heads/main/screenshots/machine0-2026-07-25T225816.png
 security:
 - kind: authentication
   name: Machine0 Authentication

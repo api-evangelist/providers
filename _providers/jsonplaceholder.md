@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 24
   human_in_the_loop: 0
@@ -225,7 +225,7 @@ plans:
 - name: Jsonplaceholder Plans Pricing
   plan_count: 1
   slug: jsonplaceholder-plans-pricing
-random_paper: 16
+random_paper: 33
 rate_limits:
 - limit_count: 2
   name: Jsonplaceholder Rate Limits
@@ -248,20 +248,20 @@ rules:
     warn: 18
   slug: jsonplaceholder-rules
 score:
-  band: thin
-  composite: 42.9
-  delta: 0.0
+  band: developing
+  composite: 48.4
+  delta: 5.5
   facets:
     commercial_clarity: 21.1
-    contract_quality: 61.9
+    contract_quality: 70.8
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 42.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/jsonplaceholder/refs/heads/main/screenshots/jsonplaceholder-2026-06-20T183819.png
 security:
 - kind: domain-security

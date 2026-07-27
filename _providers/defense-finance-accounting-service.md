@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 5
 collections:
@@ -75,25 +75,25 @@ plans:
 - name: Defense Finance Accounting Service Plans Pricing
   plan_count: 1
   slug: defense-finance-accounting-service-plans-pricing
-random_paper: 43
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Defense Finance Accounting Service Rate Limits
   slug: defense-finance-accounting-service-rate-limits
 score:
-  band: minimal
-  composite: 14.5
-  delta: 0.0
+  band: emerging
+  composite: 15.3
+  delta: 0.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
     developer_ergonomics: 0.0
-    discoverability: 60.0
+    discoverability: 67.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 14.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-finance-accounting-service/refs/heads/main/screenshots/defense-finance-accounting-service-2026-06-20T175832.png
 security:

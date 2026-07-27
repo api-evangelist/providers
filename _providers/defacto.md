@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -246,7 +246,7 @@ overview: 'Defacto publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Defacto''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 12
+random_paper: 46
 score:
   band: developing
   composite: 54.7
@@ -260,8 +260,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 54.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/defacto/refs/heads/main/screenshots/defacto-2026-07-25T211617.png
 security:
 - kind: authentication
   name: Defacto Authentication

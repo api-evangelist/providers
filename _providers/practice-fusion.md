@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: 'ONC Certified FHIR R4 (v4.0.1) API implementing US Core 6.1.0, SMART App Launch 2.0.0, and Bulk Data Access 1.0.1. Provides read and search access across 47 FHIR resource types (Patient, Observation, '
@@ -156,7 +156,7 @@ overview: 'Practice Fusion publishes 3 APIs on the [APIs.io](https://apis.io/) n
 
 
   Practice Fusion''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, engineering blog, and 18 more developer resources.'
-random_paper: 18
+random_paper: 52
 scopes:
 - name: Practice Fusion Scopes
   scope_count: 0
@@ -165,7 +165,7 @@ scopes:
 score:
   band: thin
   composite: 42.6
-  delta: 7.8
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -173,15 +173,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 34.8
+  previous_composite: 42.6
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Practice Fusion Authentication

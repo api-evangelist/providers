@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,7 +66,7 @@ overview: 'Aviva is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Aviva''s developer surface includes support and 5 more developer resources.'
-random_paper: 25
+random_paper: 59
 score:
   band: minimal
   composite: 11.8
@@ -80,8 +80,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/aviva/refs/heads/main/screenshots/aviva-2026-07-25T201948.png
 security:
 - kind: domain-security
   name: Aviva Domain Security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 63.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 0
@@ -250,11 +250,11 @@ overview: 'Shop-Ware publishes 30 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Shop-Ware''s developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 0
+random_paper: 34
 score:
   band: developing
   composite: 46.6
-  delta: 1.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 53.2
@@ -262,14 +262,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 45.2
+  previous_composite: 46.6
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

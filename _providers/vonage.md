@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -64,7 +64,7 @@ apis:
 - description: Create and control voice calls
   name: Vonage Voice API
   slug: vonage-voice-api
-artifact_total: 61
+artifact_total: 62
 asyncapis:
 - description: 'AsyncAPI 2.6 description of Vonage''s publicly-documented WebSocket surface. The only Vonage product whose realtime protocol is publicly specified frame-by-frame is the Voice API WebSocket endpoint: th'
   name: Vonage Voice WebSocket API
@@ -281,6 +281,10 @@ jsonld:
   property_count: 19
   slug: vonage-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-29'
 name: Vonage
 nav: Providers
@@ -328,18 +332,18 @@ rules:
   slug: vonage-rules
 score:
   band: strong
-  composite: 62.1
-  delta: 0.0
+  composite: 65.3
+  delta: 3.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 72.6
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 60.5
     operational_transparency: 36.8
   previous_composite: 62.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vonage/refs/heads/main/screenshots/vonage-2026-06-20T165933.png
 security:

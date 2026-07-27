@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 5
@@ -180,7 +180,7 @@ overview: 'Moondream publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Moondream''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, engineering blog, pricing, and 23 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: developing
   composite: 54.5
@@ -194,7 +194,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 54.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

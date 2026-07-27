@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 4.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -131,8 +131,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 25.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/heeler/refs/heads/main/screenshots/heeler-2026-07-25T220905.png
 security:
 - kind: domain-security
   name: Heeler Domain Security

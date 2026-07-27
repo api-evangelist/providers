@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -129,26 +129,26 @@ overview: 'Microsoft Dynamics 365 Business Central publishes 7 APIs on the [APIs
 
 
   Microsoft Dynamics 365 Business Central''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 23
+random_paper: 57
 scopes:
 - name: Microsoft Dynamics 365 Business Central Scopes
   scope_count: 1
   slug: microsoft-dynamics-365-business-central-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: emerging
-  composite: 28.3
-  delta: 0.0
+  band: thin
+  composite: 31.5
+  delta: 3.2
   facets:
     commercial_clarity: 18.4
     contract_quality: 51.3
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 28.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-dynamics-365-business-central/refs/heads/main/screenshots/microsoft-dynamics-365-business-central-2026-06-20T185459.png
 security:

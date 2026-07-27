@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 80.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ overview: 'Localytics publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Localytics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 20 more developer resources.'
-random_paper: 8
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Localytics Rate Limits
@@ -185,8 +185,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 42.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/localytics/refs/heads/main/screenshots/localytics-2026-07-25T225426.png
 security:
 - kind: authentication
   name: Localytics Authentication

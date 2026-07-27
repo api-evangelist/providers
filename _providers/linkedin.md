@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 80.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 62
   human_in_the_loop: 2
@@ -278,7 +278,7 @@ arazzos:
 - description: Register a video upload for an owner, then confirm the resulting video asset resolves.
   name: LinkedIn Upload a Video and Verify the Asset
   slug: linkedin-upload-video-and-verify-workflow
-artifact_total: 806
+artifact_total: 807
 collections:
 - collection_type: postman
   name: LinkedIn Compliance Events API
@@ -2719,6 +2719,10 @@ jsonld:
   property_count: 265
   slug: linkedin-api-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: linkedin-mcp.yml
+  slug: linkedin-mcpyml
 modified: '2026-06-20'
 name: LinkedIn
 nav: Providers
@@ -2779,18 +2783,18 @@ scopes:
   summary_line: 7 scopes · authorizationCode/clientCredentials
 score:
   band: strong
-  composite: 67.4
-  delta: 0.0
+  composite: 69.9
+  delta: 2.5
   facets:
     commercial_clarity: 60.5
     contract_quality: 71.2
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linkedin/refs/heads/main/screenshots/linkedin-2026-06-20T184544.png
 security:

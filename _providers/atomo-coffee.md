@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ overview: 'Atomo Coffee is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Atomo Coffee''s developer surface includes support and 4 more developer resources.'
-random_paper: 32
+random_paper: 49
 score:
   band: minimal
   composite: 9.7
@@ -75,7 +75,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 81.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -244,7 +244,7 @@ overview: 'HeyMilo publishes 18 APIs on the [APIs.io](https://apis.io/) network,
 
 
   HeyMilo''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, support, authentication, and 25 more developer resources.'
-random_paper: 45
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Heymilo Rate Limits
@@ -262,8 +262,9 @@ score:
     operational_transparency: 50.0
   previous_composite: 57.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/heymilo/refs/heads/main/screenshots/heymilo-2026-07-25T221122.png
 security:
 - kind: authentication
   name: Heymilo Authentication

@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Triumph Group developer portal providing digital integration capabilities for aircraft lifecycle partners and customers. Supports MRO (Maintenance, Repair and Overhaul) integrations and technical data
@@ -113,7 +131,7 @@ press:
 - date: '2026-05-25'
   title: Adam Cady's Post
   url: https://www.linkedin.com/posts/adam-cady-ba34bb202_lazards-aerospace-defense-advisory-team-activity-7292204364289433601-Mfwj
-random_paper: 56
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Triumph Group Rate Limits
@@ -127,6 +145,21 @@ rules:
     info: 2
     warn: 3
   slug: triumph-group-jsonschema-spectral-rules
+score:
+  band: thin
+  composite: 33.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 15.1
+    developer_ergonomics: 8.7
+    discoverability: 92.5
+    governance: 86.8
+    operational_transparency: 21.1
+  previous_composite: 33.7
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triumph-group/refs/heads/main/screenshots/triumph-group-2026-06-20T195738.png
 security:
 - kind: domain-security

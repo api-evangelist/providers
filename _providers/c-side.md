@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 5
 asyncapis:
@@ -165,7 +165,7 @@ overview: 'c/side is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   c/side''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, CLI, changelog, and 21 more developer resources.'
-random_paper: 4
+random_paper: 21
 score:
   band: thin
   composite: 40.9
@@ -179,8 +179,9 @@ score:
     operational_transparency: 55.3
   previous_composite: 40.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/screenshots/c-side-2026-07-25T204147.png
 security:
 - kind: domain-security
   name: C Side Domain Security

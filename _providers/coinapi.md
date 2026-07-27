@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 12.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Normalized cryptocurrency market data covering more than 350 exchanges and 28,000+ assets. Provides trades, quotes, order books, OHLCV time series, exchange rates, and derivatives metrics (funding rat
@@ -115,7 +115,7 @@ plans:
 - name: Coinapi Plans Pricing
   plan_count: 3
   slug: coinapi-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Coinapi Rate Limits
@@ -132,7 +132,7 @@ rules:
 score:
   band: thin
   composite: 43.7
-  delta: -2.3
+  delta: 0.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 22.6
@@ -140,14 +140,14 @@ score:
     discoverability: 87.5
     governance: 52.6
     operational_transparency: 68.4
-  previous_composite: 46.0
+  previous_composite: 43.7
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coinapi/refs/heads/main/screenshots/coinapi-2026-06-20T174721.png
 security:

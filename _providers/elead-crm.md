@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -107,7 +107,7 @@ plans:
 - name: Elead Crm Plans Pricing
   plan_count: 2
   slug: elead-crm-plans-pricing
-random_paper: 7
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Elead Crm Rate Limits
@@ -125,8 +125,9 @@ score:
     operational_transparency: 31.6
   previous_composite: 36.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/elead-crm/refs/heads/main/screenshots/elead-crm-2026-07-25T213057.png
 security:
 - kind: authentication
   name: Elead Crm Authentication

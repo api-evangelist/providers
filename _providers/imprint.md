@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 14
 apis:
 - description: The Customer Links API from Imprint — 1 operation(s) for customer links.
@@ -216,11 +216,11 @@ overview: 'Imprint publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Imprint''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
-random_paper: 6
+random_paper: 23
 score:
   band: developing
   composite: 55.9
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 68.1
@@ -228,15 +228,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 54.2
+  previous_composite: 55.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/imprint/refs/heads/main/screenshots/imprint-2026-07-25T222200.png
 security:
 - kind: authentication
   name: Imprint Authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 15.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Versioned (v1) REST API for Onward Delivery's final-mile logistics platform, documented on Theneo. Covers orders, draft manifests, partners, subscriptions, routes, jobs, activity ingest, events, and w
@@ -109,7 +109,7 @@ overview: 'Onward Delivery publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Onward Delivery''s developer surface includes documentation, API reference, authentication, changelog, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 34
+random_paper: 0
 score:
   band: emerging
   composite: 29.5
@@ -123,7 +123,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 29.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

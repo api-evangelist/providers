@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,11 +89,11 @@ overview: 'Bstow is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Bstow''s developer surface includes support, engineering blog, pricing, signup flow, and 8 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: emerging
   composite: 21.4
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -101,15 +101,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 19.8
+  previous_composite: 21.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bstow/refs/heads/main/screenshots/bstow-2026-07-25T204018.png
 security:
 - kind: domain-security
   name: Bstow Domain Security

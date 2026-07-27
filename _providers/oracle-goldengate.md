@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 137
   human_in_the_loop: 7
@@ -4010,7 +4010,7 @@ plans:
 - name: Oracle Goldengate Plans Pricing
   plan_count: 3
   slug: oracle-goldengate-plans-pricing
-random_paper: 42
+random_paper: 25
 rate_limits:
 - limit_count: 3
   name: Oracle Goldengate Rate Limits
@@ -4033,19 +4033,19 @@ rules:
     warn: 7
   slug: oracle-goldengate-spectral-rules
 score:
-  band: strong
-  composite: 68.8
-  delta: 0.0
+  band: exemplar
+  composite: 71.3
+  delta: 2.5
   facets:
     commercial_clarity: 84.2
     contract_quality: 69.9
     developer_ergonomics: 50.0
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 68.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-goldengate/refs/heads/main/screenshots/oracle-goldengate-2026-06-20T191134.png
 security:

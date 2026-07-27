@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -256,7 +256,7 @@ plans:
 - name: Helpscout Plans Pricing
   plan_count: 7
   slug: helpscout-plans-pricing
-random_paper: 14
+random_paper: 31
 rate_limits:
 - limit_count: 3
   name: Helpscout Rate Limits
@@ -277,18 +277,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: strong
-  composite: 62.3
-  delta: 0.0
+  composite: 63.0
+  delta: 0.7
   facets:
     commercial_clarity: 92.1
     contract_quality: 61.9
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 75.0
     governance: 60.5
     operational_transparency: 60.5
   previous_composite: 62.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/helpscout/refs/heads/main/screenshots/helpscout-2026-06-20T182635.png
 security:

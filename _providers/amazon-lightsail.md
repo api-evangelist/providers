@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 1
@@ -233,18 +233,18 @@ rules:
   slug: amazon-lightsail-spectral-rules
 score:
   band: strong
-  composite: 65.0
-  delta: 0.0
+  composite: 68.5
+  delta: 3.5
   facets:
     commercial_clarity: 89.5
-    contract_quality: 64.6
+    contract_quality: 73.5
     developer_ergonomics: 41.3
-    discoverability: 47.5
+    discoverability: 60.0
     governance: 86.8
     operational_transparency: 57.9
   previous_composite: 65.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-lightsail/refs/heads/main/screenshots/amazon-lightsail-2026-06-20T171728.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 44.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 16
 apis:
 - description: The Authorization API from Prodsmart — 1 operation(s) for authorization.
@@ -166,7 +166,7 @@ overview: 'Prodsmart publishes 16 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Prodsmart''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 10 more developer resources.'
-random_paper: 19
+random_paper: 36
 score:
   band: thin
   composite: 40.9
@@ -180,7 +180,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 40.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

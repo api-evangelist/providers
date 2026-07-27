@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Gamebeast platform surface consumed through the engine SDKs (Roblox/Luau, Unity/C#) and a JS/TS backend SDK, plus a server-to-server key surface for analytics, query, GDPR deletion, and marker met
@@ -126,7 +126,7 @@ overview: 'Gamebeast publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Gamebeast''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, changelog, and 13 more developer resources.'
-random_paper: 19
+random_paper: 53
 score:
   band: thin
   composite: 34.3
@@ -140,8 +140,9 @@ score:
     operational_transparency: 36.8
   previous_composite: 34.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gamebeast/refs/heads/main/screenshots/gamebeast-2026-07-25T215411.png
 security:
 - kind: authentication
   name: Gamebeast Authentication

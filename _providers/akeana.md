@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ overview: 'Akeana is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Akeana''s developer surface includes documentation, support, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 48
+random_paper: 65
 score:
   band: emerging
   composite: 16.6
@@ -91,8 +91,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/akeana/refs/heads/main/screenshots/akeana-2026-07-25T195510.png
 security:
 - kind: domain-security
   name: Akeana Domain Security

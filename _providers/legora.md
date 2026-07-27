@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Legora aOS is the company''s agentic operating system for legal work, connecting information, communication, and execution across Agent, Monitors, Lists, Legal Research, Tabular Review, Workflows, and '
@@ -107,7 +107,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/legora/refs/heads/main/screenshots/legora-2026-06-20T184410.png
 security:

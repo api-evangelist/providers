@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 39
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ arazzos:
 - description: Find a product by its SKU and create it only if no matching product exists.
   name: WooCommerce Upsert Product by SKU
   slug: woocommerce-upsert-product-by-sku-workflow
-artifact_total: 285
+artifact_total: 286
 asyncapis:
 - description: The WooCommerce webhook system delivers real-time HTTP POST event notifications to a subscriber-configured endpoint URL whenever specific store events occur. Supported topics cover create, update, del
   name: WooCommerce Webhook Events
@@ -1033,6 +1033,10 @@ jsonld:
   property_count: 10
   slug: woocommerce-webhook-schema.json-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: WooCommerce
 nav: Providers
@@ -1048,7 +1052,7 @@ plans:
 - name: Woocommerce Plans Pricing
   plan_count: 4
   slug: woocommerce-plans-pricing
-random_paper: 11
+random_paper: 28
 rate_limits:
 - limit_count: 3
   name: Woocommerce Rate Limits
@@ -1080,18 +1084,18 @@ rules:
   slug: woocommerce-spectral-rules
 score:
   band: strong
-  composite: 64.6
-  delta: 0.0
+  composite: 67.7
+  delta: 3.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 80.3
+    contract_quality: 87.8
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 65.8
     operational_transparency: 68.4
   previous_composite: 64.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/woocommerce/refs/heads/main/screenshots/woocommerce-2026-06-20T201543.png
 security:

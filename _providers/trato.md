@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Create, configure, send, sign and manage contracts.
@@ -185,7 +185,7 @@ overview: 'Trato publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Trato''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 22 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: developing
   composite: 52.5
@@ -199,7 +199,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 52.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 1
@@ -202,18 +202,18 @@ rate_limits:
   slug: memfault-rate-limits
 score:
   band: developing
-  composite: 46.3
-  delta: 0.0
+  composite: 49.5
+  delta: 3.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 48.3
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 57.9
   previous_composite: 46.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/memfault/refs/heads/main/screenshots/memfault-2026-06-20T185230.png
 security:

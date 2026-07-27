@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 56.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: Labels
@@ -215,7 +215,7 @@ overview: 'Veho Tech publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Veho Tech''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 21 more developer resources.'
-random_paper: 32
+random_paper: 15
 score:
   band: developing
   composite: 56.0
@@ -229,7 +229,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 56.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

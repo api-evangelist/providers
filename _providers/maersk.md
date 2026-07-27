@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: RESTful API that returns neutralized container and shipment milestones across Maersk's ocean network, enabling supply-chain visibility for shippers, BCOs, and downstream visibility platforms.
@@ -140,7 +140,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/maersk/refs/heads/main/screenshots/maersk-2026-06-20T184831.png
 security:

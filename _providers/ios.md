@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: high
-  generated: '2026-07-22'
   label: Freemium · Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: freemium
   public: false
@@ -12,17 +10,974 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 53.8
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 445
+  human_in_the_loop: 0
+  name: Ios Agentic Access
+  operation_count: 1208
+  slug: ios-agentic-access
+  summary_line: 1208 operations · 445 acting
 api_count: 199
-artifact_total: 0
+apis:
+- description: The App Store Server API is the server-to-server REST API for managing App Store transactions — looking up transaction history, fetching all subscription statuses for a customer, requesting test notif
+  name: App Store Server API
+  slug: app-store-server-api
+- description: App Store Server Notifications v2 is Apple's webhook surface for in-app purchase and subscription lifecycle events — SUBSCRIBED, DID_RENEW, EXPIRED, REFUND, GRACE_PERIOD_EXPIRED, REVOKE, CONSUMPTION_R
+  name: App Store Server Notifications
+  slug: app-store-server-notifications
+- description: The Apple Push Notification service (APNs) is the HTTP/2 + JSON push delivery surface for sending remote notifications, background updates, VoIP pushes, and Live Activity updates to iOS, iPadOS, watch
+  name: Apple Push Notification Service (APNs)
+  slug: apns
+- description: DeviceCheck allows servers to set and query two bits of per-device state and to verify that a request is coming from a genuine Apple device. App Attest, exposed through the same service, lets a server
+  name: DeviceCheck and App Attest
+  slug: devicecheck
+- description: Sign in with Apple is Apple's OpenID Connect-style identity provider for iOS, web, and other Apple-platform apps. The REST surface, hosted at appleid.apple.com, exposes /auth/token (authorization-code
+  name: Sign in with Apple REST API
+  slug: sign-in-with-apple
+- description: 'The Apple Music API is Apple''s REST surface for Apple Music catalog, library, ratings, playlists, recommendations, and search. Calls are authenticated with a developer token (JWT) and, when accessing '
+  name: Apple Music API
+  slug: apple-music-api
+- description: The PassKit Web Service is a server-side HTTP contract that Wallet pass providers must implement so that Apple Wallet can register devices, enumerate pass serial numbers, fetch the latest pass version
+  name: Wallet / PassKit Web Service
+  slug: wallet-passkit-web-service
+- description: The AccessibilityDeclarations API from iOS — 2 operation(s) for accessibilitydeclarations.
+  name: iOS AccessibilityDeclarations API
+  slug: ios-accessibilitydeclarations-api
+- description: The Actors API from iOS — 2 operation(s) for actors.
+  name: iOS Actors API
+  slug: ios-actors-api
+- description: The AgeRatingDeclarations API from iOS — 1 operation(s) for ageratingdeclarations.
+  name: iOS AgeRatingDeclarations API
+  slug: ios-ageratingdeclarations-api
+- description: The AlternativeDistributionDomains API from iOS — 2 operation(s) for alternativedistributiondomains.
+  name: iOS AlternativeDistributionDomains API
+  slug: ios-alternativedistributiondomains-api
+- description: The AlternativeDistributionKeys API from iOS — 2 operation(s) for alternativedistributionkeys.
+  name: iOS AlternativeDistributionKeys API
+  slug: ios-alternativedistributionkeys-api
+- description: The AlternativeDistributionPackageDeltas API from iOS — 1 operation(s) for alternativedistributionpackagedeltas.
+  name: iOS AlternativeDistributionPackageDeltas API
+  slug: ios-alternativedistributionpackagedeltas-api
+- description: The AlternativeDistributionPackages API from iOS — 4 operation(s) for alternativedistributionpackages.
+  name: iOS AlternativeDistributionPackages API
+  slug: ios-alternativedistributionpackages-api
+- description: The AlternativeDistributionPackageVariants API from iOS — 1 operation(s) for alternativedistributionpackagevariants.
+  name: iOS AlternativeDistributionPackageVariants API
+  slug: ios-alternativedistributionpackagevariants-api
+- description: The AlternativeDistributionPackageVersions API from iOS — 5 operation(s) for alternativedistributionpackageversions.
+  name: iOS AlternativeDistributionPackageVersions API
+  slug: ios-alternativedistributionpackageversions-api
+- description: The AnalyticsReportInstances API from iOS — 3 operation(s) for analyticsreportinstances.
+  name: iOS AnalyticsReportInstances API
+  slug: ios-analyticsreportinstances-api
+- description: The AnalyticsReportRequests API from iOS — 4 operation(s) for analyticsreportrequests.
+  name: iOS AnalyticsReportRequests API
+  slug: ios-analyticsreportrequests-api
+- description: The AnalyticsReports API from iOS — 3 operation(s) for analyticsreports.
+  name: iOS AnalyticsReports API
+  slug: ios-analyticsreports-api
+- description: The AnalyticsReportSegments API from iOS — 1 operation(s) for analyticsreportsegments.
+  name: iOS AnalyticsReportSegments API
+  slug: ios-analyticsreportsegments-api
+- description: The AndroidToIosAppMappingDetails API from iOS — 2 operation(s) for androidtoiosappmappingdetails.
+  name: iOS AndroidToIosAppMappingDetails API
+  slug: ios-androidtoiosappmappingdetails-api
+- description: The AppAvailabilities API from iOS — 4 operation(s) for appavailabilities.
+  name: iOS AppAvailabilities API
+  slug: ios-appavailabilities-api
+- description: The AppCategories API from iOS — 6 operation(s) for appcategories.
+  name: iOS AppCategories API
+  slug: ios-appcategories-api
+- description: The AppClipAdvancedExperienceImages API from iOS — 2 operation(s) for appclipadvancedexperienceimages.
+  name: iOS AppClipAdvancedExperienceImages API
+  slug: ios-appclipadvancedexperienceimages-api
+- description: The AppClipAdvancedExperiences API from iOS — 2 operation(s) for appclipadvancedexperiences.
+  name: iOS AppClipAdvancedExperiences API
+  slug: ios-appclipadvancedexperiences-api
+- description: The AppClipAppStoreReviewDetails API from iOS — 2 operation(s) for appclipappstorereviewdetails.
+  name: iOS AppClipAppStoreReviewDetails API
+  slug: ios-appclipappstorereviewdetails-api
+- description: The AppClipDefaultExperienceLocalizations API from iOS — 4 operation(s) for appclipdefaultexperiencelocalizations.
+  name: iOS AppClipDefaultExperienceLocalizations API
+  slug: ios-appclipdefaultexperiencelocalizations-api
+- description: The AppClipDefaultExperiences API from iOS — 8 operation(s) for appclipdefaultexperiences.
+  name: iOS AppClipDefaultExperiences API
+  slug: ios-appclipdefaultexperiences-api
+- description: The AppClipHeaderImages API from iOS — 2 operation(s) for appclipheaderimages.
+  name: iOS AppClipHeaderImages API
+  slug: ios-appclipheaderimages-api
+- description: The AppClips API from iOS — 5 operation(s) for appclips.
+  name: iOS AppClips API
+  slug: ios-appclips-api
+- description: The AppCustomProductPageLocalizations API from iOS — 8 operation(s) for appcustomproductpagelocalizations.
+  name: iOS AppCustomProductPageLocalizations API
+  slug: ios-appcustomproductpagelocalizations-api
+- description: The AppCustomProductPages API from iOS — 4 operation(s) for appcustomproductpages.
+  name: iOS AppCustomProductPages API
+  slug: ios-appcustomproductpages-api
+- description: The AppCustomProductPageVersions API from iOS — 4 operation(s) for appcustomproductpageversions.
+  name: iOS AppCustomProductPageVersions API
+  slug: ios-appcustomproductpageversions-api
+- description: The AppEncryptionDeclarationDocuments API from iOS — 2 operation(s) for appencryptiondeclarationdocuments.
+  name: iOS AppEncryptionDeclarationDocuments API
+  slug: ios-appencryptiondeclarationdocuments-api
+- description: The AppEncryptionDeclarations API from iOS — 7 operation(s) for appencryptiondeclarations.
+  name: iOS AppEncryptionDeclarations API
+  slug: ios-appencryptiondeclarations-api
+- description: The AppEventLocalizations API from iOS — 6 operation(s) for appeventlocalizations.
+  name: iOS AppEventLocalizations API
+  slug: ios-appeventlocalizations-api
+- description: The AppEvents API from iOS — 4 operation(s) for appevents.
+  name: iOS AppEvents API
+  slug: ios-appevents-api
+- description: The AppEventScreenshots API from iOS — 2 operation(s) for appeventscreenshots.
+  name: iOS AppEventScreenshots API
+  slug: ios-appeventscreenshots-api
+- description: The AppEventVideoClips API from iOS — 2 operation(s) for appeventvideoclips.
+  name: iOS AppEventVideoClips API
+  slug: ios-appeventvideoclips-api
+- description: The AppInfoLocalizations API from iOS — 2 operation(s) for appinfolocalizations.
+  name: iOS AppInfoLocalizations API
+  slug: ios-appinfolocalizations-api
+- description: The AppInfos API from iOS — 19 operation(s) for appinfos.
+  name: iOS AppInfos API
+  slug: ios-appinfos-api
+- description: The AppPreviews API from iOS — 2 operation(s) for apppreviews.
+  name: iOS AppPreviews API
+  slug: ios-apppreviews-api
+- description: The AppPreviewSets API from iOS — 4 operation(s) for apppreviewsets.
+  name: iOS AppPreviewSets API
+  slug: ios-apppreviewsets-api
+- description: The AppPricePoints API from iOS — 3 operation(s) for apppricepoints.
+  name: iOS AppPricePoints API
+  slug: ios-apppricepoints-api
+- description: The AppPriceSchedules API from iOS — 8 operation(s) for apppriceschedules.
+  name: iOS AppPriceSchedules API
+  slug: ios-apppriceschedules-api
+- description: The Apps API from iOS — 84 operation(s) for apps.
+  name: iOS Apps API
+  slug: ios-apps-api
+- description: The AppScreenshots API from iOS — 2 operation(s) for appscreenshots.
+  name: iOS AppScreenshots API
+  slug: ios-appscreenshots-api
+- description: The AppScreenshotSets API from iOS — 4 operation(s) for appscreenshotsets.
+  name: iOS AppScreenshotSets API
+  slug: ios-appscreenshotsets-api
+- description: The AppStoreReviewAttachments API from iOS — 2 operation(s) for appstorereviewattachments.
+  name: iOS AppStoreReviewAttachments API
+  slug: ios-appstorereviewattachments-api
+- description: The AppStoreReviewDetails API from iOS — 4 operation(s) for appstorereviewdetails.
+  name: iOS AppStoreReviewDetails API
+  slug: ios-appstorereviewdetails-api
+- description: The AppStoreVersionExperiments API from iOS — 8 operation(s) for appstoreversionexperiments.
+  name: iOS AppStoreVersionExperiments API
+  slug: ios-appstoreversionexperiments-api
+- description: The AppStoreVersionExperimentTreatmentLocalizations API from iOS — 6 operation(s) for appstoreversionexperimenttreatmentlocalizations.
+  name: iOS AppStoreVersionExperimentTreatmentLocalizations API
+  slug: ios-appstoreversionexperimenttreatmentlocalizations-api
+- description: The AppStoreVersionExperimentTreatments API from iOS — 4 operation(s) for appstoreversionexperimenttreatments.
+  name: iOS AppStoreVersionExperimentTreatments API
+  slug: ios-appstoreversionexperimenttreatments-api
+- description: The AppStoreVersionLocalizations API from iOS — 8 operation(s) for appstoreversionlocalizations.
+  name: iOS AppStoreVersionLocalizations API
+  slug: ios-appstoreversionlocalizations-api
+- description: The AppStoreVersionPhasedReleases API from iOS — 2 operation(s) for appstoreversionphasedreleases.
+  name: iOS AppStoreVersionPhasedReleases API
+  slug: ios-appstoreversionphasedreleases-api
+- description: The AppStoreVersionPromotions API from iOS — 1 operation(s) for appstoreversionpromotions.
+  name: iOS AppStoreVersionPromotions API
+  slug: ios-appstoreversionpromotions-api
+- description: The AppStoreVersionReleaseRequests API from iOS — 1 operation(s) for appstoreversionreleaserequests.
+  name: iOS AppStoreVersionReleaseRequests API
+  slug: ios-appstoreversionreleaserequests-api
+- description: The AppStoreVersions API from iOS — 26 operation(s) for appstoreversions.
+  name: iOS AppStoreVersions API
+  slug: ios-appstoreversions-api
+- description: The AppStoreVersionSubmissions API from iOS — 1 operation(s) for appstoreversionsubmissions.
+  name: iOS AppStoreVersionSubmissions API
+  slug: ios-appstoreversionsubmissions-api
+- description: The AppTags API from iOS — 3 operation(s) for apptags.
+  name: iOS AppTags API
+  slug: ios-apptags-api
+- description: The BackgroundAssets API from iOS — 4 operation(s) for backgroundassets.
+  name: iOS BackgroundAssets API
+  slug: ios-backgroundassets-api
+- description: The BackgroundAssetUploadFiles API from iOS — 2 operation(s) for backgroundassetuploadfiles.
+  name: iOS BackgroundAssetUploadFiles API
+  slug: ios-backgroundassetuploadfiles-api
+- description: The BackgroundAssetVersionAppStoreReleases API from iOS — 1 operation(s) for backgroundassetversionappstorereleases.
+  name: iOS BackgroundAssetVersionAppStoreReleases API
+  slug: ios-backgroundassetversionappstorereleases-api
+- description: The BackgroundAssetVersionExternalBetaReleases API from iOS — 1 operation(s) for backgroundassetversionexternalbetareleases.
+  name: iOS BackgroundAssetVersionExternalBetaReleases API
+  slug: ios-backgroundassetversionexternalbetareleases-api
+- description: The BackgroundAssetVersionInternalBetaReleases API from iOS — 1 operation(s) for backgroundassetversioninternalbetareleases.
+  name: iOS BackgroundAssetVersionInternalBetaReleases API
+  slug: ios-backgroundassetversioninternalbetareleases-api
+- description: The BackgroundAssetVersions API from iOS — 4 operation(s) for backgroundassetversions.
+  name: iOS BackgroundAssetVersions API
+  slug: ios-backgroundassetversions-api
+- description: The BetaAppClipInvocationLocalizations API from iOS — 2 operation(s) for betaappclipinvocationlocalizations.
+  name: iOS BetaAppClipInvocationLocalizations API
+  slug: ios-betaappclipinvocationlocalizations-api
+- description: The BetaAppClipInvocations API from iOS — 2 operation(s) for betaappclipinvocations.
+  name: iOS BetaAppClipInvocations API
+  slug: ios-betaappclipinvocations-api
+- description: The BetaAppLocalizations API from iOS — 4 operation(s) for betaapplocalizations.
+  name: iOS BetaAppLocalizations API
+  slug: ios-betaapplocalizations-api
+- description: The BetaAppReviewDetails API from iOS — 4 operation(s) for betaappreviewdetails.
+  name: iOS BetaAppReviewDetails API
+  slug: ios-betaappreviewdetails-api
+- description: The BetaAppReviewSubmissions API from iOS — 4 operation(s) for betaappreviewsubmissions.
+  name: iOS BetaAppReviewSubmissions API
+  slug: ios-betaappreviewsubmissions-api
+- description: The BetaBuildLocalizations API from iOS — 4 operation(s) for betabuildlocalizations.
+  name: iOS BetaBuildLocalizations API
+  slug: ios-betabuildlocalizations-api
+- description: The BetaCrashLogs API from iOS — 1 operation(s) for betacrashlogs.
+  name: iOS BetaCrashLogs API
+  slug: ios-betacrashlogs-api
+- description: The BetaFeedbackCrashSubmissions API from iOS — 3 operation(s) for betafeedbackcrashsubmissions.
+  name: iOS BetaFeedbackCrashSubmissions API
+  slug: ios-betafeedbackcrashsubmissions-api
+- description: The BetaFeedbackScreenshotSubmissions API from iOS — 1 operation(s) for betafeedbackscreenshotsubmissions.
+  name: iOS BetaFeedbackScreenshotSubmissions API
+  slug: ios-betafeedbackscreenshotsubmissions-api
+- description: The BetaGroups API from iOS — 14 operation(s) for betagroups.
+  name: iOS BetaGroups API
+  slug: ios-betagroups-api
+- description: The BetaLicenseAgreements API from iOS — 4 operation(s) for betalicenseagreements.
+  name: iOS BetaLicenseAgreements API
+  slug: ios-betalicenseagreements-api
+- description: The BetaRecruitmentCriteria API from iOS — 2 operation(s) for betarecruitmentcriteria.
+  name: iOS BetaRecruitmentCriteria API
+  slug: ios-betarecruitmentcriteria-api
+- description: The BetaRecruitmentCriterionOptions API from iOS — 1 operation(s) for betarecruitmentcriterionoptions.
+  name: iOS BetaRecruitmentCriterionOptions API
+  slug: ios-betarecruitmentcriterionoptions-api
+- description: The BetaTesterInvitations API from iOS — 1 operation(s) for betatesterinvitations.
+  name: iOS BetaTesterInvitations API
+  slug: ios-betatesterinvitations-api
+- description: The BetaTesters API from iOS — 9 operation(s) for betatesters.
+  name: iOS BetaTesters API
+  slug: ios-betatesters-api
+- description: The BuildBetaDetails API from iOS — 4 operation(s) for buildbetadetails.
+  name: iOS BuildBetaDetails API
+  slug: ios-buildbetadetails-api
+- description: The BuildBetaNotifications API from iOS — 1 operation(s) for buildbetanotifications.
+  name: iOS BuildBetaNotifications API
+  slug: ios-buildbetanotifications-api
+- description: The BuildBundles API from iOS — 8 operation(s) for buildbundles.
+  name: iOS BuildBundles API
+  slug: ios-buildbundles-api
+- description: The Builds API from iOS — 25 operation(s) for builds.
+  name: iOS Builds API
+  slug: ios-builds-api
+- description: The BuildUploadFiles API from iOS — 2 operation(s) for builduploadfiles.
+  name: iOS BuildUploadFiles API
+  slug: ios-builduploadfiles-api
+- description: The BuildUploads API from iOS — 4 operation(s) for builduploads.
+  name: iOS BuildUploads API
+  slug: ios-builduploads-api
+- description: The BundleIdCapabilities API from iOS — 2 operation(s) for bundleidcapabilities.
+  name: iOS BundleIdCapabilities API
+  slug: ios-bundleidcapabilities-api
+- description: The BundleIds API from iOS — 8 operation(s) for bundleids.
+  name: iOS BundleIds API
+  slug: ios-bundleids-api
+- description: The Certificates API from iOS — 4 operation(s) for certificates.
+  name: iOS Certificates API
+  slug: ios-certificates-api
+- description: The CiArtifacts API from iOS — 1 operation(s) for ciartifacts.
+  name: iOS CiArtifacts API
+  slug: ios-ciartifacts-api
+- description: The CiBuildActions API from iOS — 9 operation(s) for cibuildactions.
+  name: iOS CiBuildActions API
+  slug: ios-cibuildactions-api
+- description: The CiBuildRuns API from iOS — 6 operation(s) for cibuildruns.
+  name: iOS CiBuildRuns API
+  slug: ios-cibuildruns-api
+- description: The CiIssues API from iOS — 1 operation(s) for ciissues.
+  name: iOS CiIssues API
+  slug: ios-ciissues-api
+- description: The CiMacOsVersions API from iOS — 4 operation(s) for cimacosversions.
+  name: iOS CiMacOsVersions API
+  slug: ios-cimacosversions-api
+- description: The CiProducts API from iOS — 12 operation(s) for ciproducts.
+  name: iOS CiProducts API
+  slug: ios-ciproducts-api
+- description: The CiTestResults API from iOS — 1 operation(s) for citestresults.
+  name: iOS CiTestResults API
+  slug: ios-citestresults-api
+- description: The CiWorkflows API from iOS — 6 operation(s) for ciworkflows.
+  name: iOS CiWorkflows API
+  slug: ios-ciworkflows-api
+- description: The CiXcodeVersions API from iOS — 4 operation(s) for cixcodeversions.
+  name: iOS CiXcodeVersions API
+  slug: ios-cixcodeversions-api
+- description: The CustomerReviewResponses API from iOS — 2 operation(s) for customerreviewresponses.
+  name: iOS CustomerReviewResponses API
+  slug: ios-customerreviewresponses-api
+- description: The CustomerReviews API from iOS — 3 operation(s) for customerreviews.
+  name: iOS CustomerReviews API
+  slug: ios-customerreviews-api
+- description: The Devices API from iOS — 2 operation(s) for devices.
+  name: iOS Devices API
+  slug: ios-devices-api
+- description: The DiagnosticSignatures API from iOS — 1 operation(s) for diagnosticsignatures.
+  name: iOS DiagnosticSignatures API
+  slug: ios-diagnosticsignatures-api
+- description: The EndAppAvailabilityPreOrders API from iOS — 1 operation(s) for endappavailabilitypreorders.
+  name: iOS EndAppAvailabilityPreOrders API
+  slug: ios-endappavailabilitypreorders-api
+- description: The EndUserLicenseAgreements API from iOS — 4 operation(s) for enduserlicenseagreements.
+  name: iOS EndUserLicenseAgreements API
+  slug: ios-enduserlicenseagreements-api
+- description: The FinanceReports API from iOS — 1 operation(s) for financereports.
+  name: iOS FinanceReports API
+  slug: ios-financereports-api
+- description: The GameCenterAchievementImages API from iOS — 4 operation(s) for gamecenterachievementimages.
+  name: iOS GameCenterAchievementImages API
+  slug: ios-gamecenterachievementimages-api
+- description: The GameCenterAchievementLocalizations API from iOS — 10 operation(s) for gamecenterachievementlocalizations.
+  name: iOS GameCenterAchievementLocalizations API
+  slug: ios-gamecenterachievementlocalizations-api
+- description: The GameCenterAchievementReleases API from iOS — 2 operation(s) for gamecenterachievementreleases.
+  name: iOS GameCenterAchievementReleases API
+  slug: ios-gamecenterachievementreleases-api
+- description: The GameCenterAchievements API from iOS — 14 operation(s) for gamecenterachievements.
+  name: iOS GameCenterAchievements API
+  slug: ios-gamecenterachievements-api
+- description: The GameCenterAchievementVersions API from iOS — 4 operation(s) for gamecenterachievementversions.
+  name: iOS GameCenterAchievementVersions API
+  slug: ios-gamecenterachievementversions-api
+- description: The GameCenterActivities API from iOS — 8 operation(s) for gamecenteractivities.
+  name: iOS GameCenterActivities API
+  slug: ios-gamecenteractivities-api
+- description: The GameCenterActivityImages API from iOS — 2 operation(s) for gamecenteractivityimages.
+  name: iOS GameCenterActivityImages API
+  slug: ios-gamecenteractivityimages-api
+- description: The GameCenterActivityLocalizations API from iOS — 4 operation(s) for gamecenteractivitylocalizations.
+  name: iOS GameCenterActivityLocalizations API
+  slug: ios-gamecenteractivitylocalizations-api
+- description: The GameCenterActivityVersionReleases API from iOS — 2 operation(s) for gamecenteractivityversionreleases.
+  name: iOS GameCenterActivityVersionReleases API
+  slug: ios-gamecenteractivityversionreleases-api
+- description: The GameCenterActivityVersions API from iOS — 6 operation(s) for gamecenteractivityversions.
+  name: iOS GameCenterActivityVersions API
+  slug: ios-gamecenteractivityversions-api
+- description: The GameCenterAppVersions API from iOS — 6 operation(s) for gamecenterappversions.
+  name: iOS GameCenterAppVersions API
+  slug: ios-gamecenterappversions-api
+- description: The GameCenterChallengeImages API from iOS — 2 operation(s) for gamecenterchallengeimages.
+  name: iOS GameCenterChallengeImages API
+  slug: ios-gamecenterchallengeimages-api
+- description: The GameCenterChallengeLocalizations API from iOS — 4 operation(s) for gamecenterchallengelocalizations.
+  name: iOS GameCenterChallengeLocalizations API
+  slug: ios-gamecenterchallengelocalizations-api
+- description: The GameCenterChallenges API from iOS — 6 operation(s) for gamecenterchallenges.
+  name: iOS GameCenterChallenges API
+  slug: ios-gamecenterchallenges-api
+- description: The GameCenterChallengeVersionReleases API from iOS — 2 operation(s) for gamecenterchallengeversionreleases.
+  name: iOS GameCenterChallengeVersionReleases API
+  slug: ios-gamecenterchallengeversionreleases-api
+- description: The GameCenterChallengeVersions API from iOS — 6 operation(s) for gamecenterchallengeversions.
+  name: iOS GameCenterChallengeVersions API
+  slug: ios-gamecenterchallengeversions-api
+- description: The GameCenterDetails API from iOS — 35 operation(s) for gamecenterdetails.
+  name: iOS GameCenterDetails API
+  slug: ios-gamecenterdetails-api
+- description: The GameCenterEnabledVersions API from iOS — 2 operation(s) for gamecenterenabledversions.
+  name: iOS GameCenterEnabledVersions API
+  slug: ios-gamecenterenabledversions-api
+- description: The GameCenterGroups API from iOS — 20 operation(s) for gamecentergroups.
+  name: iOS GameCenterGroups API
+  slug: ios-gamecentergroups-api
+- description: The GameCenterLeaderboardEntrySubmissions API from iOS — 1 operation(s) for gamecenterleaderboardentrysubmissions.
+  name: iOS GameCenterLeaderboardEntrySubmissions API
+  slug: ios-gamecenterleaderboardentrysubmissions-api
+- description: The GameCenterLeaderboardImages API from iOS — 4 operation(s) for gamecenterleaderboardimages.
+  name: iOS GameCenterLeaderboardImages API
+  slug: ios-gamecenterleaderboardimages-api
+- description: The GameCenterLeaderboardLocalizations API from iOS — 8 operation(s) for gamecenterleaderboardlocalizations.
+  name: iOS GameCenterLeaderboardLocalizations API
+  slug: ios-gamecenterleaderboardlocalizations-api
+- description: The GameCenterLeaderboardReleases API from iOS — 2 operation(s) for gamecenterleaderboardreleases.
+  name: iOS GameCenterLeaderboardReleases API
+  slug: ios-gamecenterleaderboardreleases-api
+- description: The GameCenterLeaderboards API from iOS — 16 operation(s) for gamecenterleaderboards.
+  name: iOS GameCenterLeaderboards API
+  slug: ios-gamecenterleaderboards-api
+- description: The GameCenterLeaderboardSetImages API from iOS — 4 operation(s) for gamecenterleaderboardsetimages.
+  name: iOS GameCenterLeaderboardSetImages API
+  slug: ios-gamecenterleaderboardsetimages-api
+- description: The GameCenterLeaderboardSetLocalizations API from iOS — 8 operation(s) for gamecenterleaderboardsetlocalizations.
+  name: iOS GameCenterLeaderboardSetLocalizations API
+  slug: ios-gamecenterleaderboardsetlocalizations-api
+- description: The GameCenterLeaderboardSetMemberLocalizations API from iOS — 6 operation(s) for gamecenterleaderboardsetmemberlocalizations.
+  name: iOS GameCenterLeaderboardSetMemberLocalizations API
+  slug: ios-gamecenterleaderboardsetmemberlocalizations-api
+- description: The GameCenterLeaderboardSetReleases API from iOS — 2 operation(s) for gamecenterleaderboardsetreleases.
+  name: iOS GameCenterLeaderboardSetReleases API
+  slug: ios-gamecenterleaderboardsetreleases-api
+- description: The GameCenterLeaderboardSets API from iOS — 16 operation(s) for gamecenterleaderboardsets.
+  name: iOS GameCenterLeaderboardSets API
+  slug: ios-gamecenterleaderboardsets-api
+- description: The GameCenterLeaderboardSetVersions API from iOS — 4 operation(s) for gamecenterleaderboardsetversions.
+  name: iOS GameCenterLeaderboardSetVersions API
+  slug: ios-gamecenterleaderboardsetversions-api
+- description: The GameCenterLeaderboardVersions API from iOS — 4 operation(s) for gamecenterleaderboardversions.
+  name: iOS GameCenterLeaderboardVersions API
+  slug: ios-gamecenterleaderboardversions-api
+- description: The GameCenterMatchmakingQueues API from iOS — 7 operation(s) for gamecentermatchmakingqueues.
+  name: iOS GameCenterMatchmakingQueues API
+  slug: ios-gamecentermatchmakingqueues-api
+- description: The GameCenterMatchmakingRules API from iOS — 5 operation(s) for gamecentermatchmakingrules.
+  name: iOS GameCenterMatchmakingRules API
+  slug: ios-gamecentermatchmakingrules-api
+- description: The GameCenterMatchmakingRuleSets API from iOS — 8 operation(s) for gamecentermatchmakingrulesets.
+  name: iOS GameCenterMatchmakingRuleSets API
+  slug: ios-gamecentermatchmakingrulesets-api
+- description: The GameCenterMatchmakingRuleSetTests API from iOS — 1 operation(s) for gamecentermatchmakingrulesettests.
+  name: iOS GameCenterMatchmakingRuleSetTests API
+  slug: ios-gamecentermatchmakingrulesettests-api
+- description: The GameCenterMatchmakingTeams API from iOS — 2 operation(s) for gamecentermatchmakingteams.
+  name: iOS GameCenterMatchmakingTeams API
+  slug: ios-gamecentermatchmakingteams-api
+- description: The GameCenterPlayerAchievementSubmissions API from iOS — 1 operation(s) for gamecenterplayerachievementsubmissions.
+  name: iOS GameCenterPlayerAchievementSubmissions API
+  slug: ios-gamecenterplayerachievementsubmissions-api
+- description: The InAppPurchaseAppStoreReviewScreenshots API from iOS — 2 operation(s) for inapppurchaseappstorereviewscreenshots.
+  name: iOS InAppPurchaseAppStoreReviewScreenshots API
+  slug: ios-inapppurchaseappstorereviewscreenshots-api
+- description: The InAppPurchaseAvailabilities API from iOS — 4 operation(s) for inapppurchaseavailabilities.
+  name: iOS InAppPurchaseAvailabilities API
+  slug: ios-inapppurchaseavailabilities-api
+- description: The InAppPurchaseContents API from iOS — 1 operation(s) for inapppurchasecontents.
+  name: iOS InAppPurchaseContents API
+  slug: ios-inapppurchasecontents-api
+- description: The InAppPurchaseImages API from iOS — 2 operation(s) for inapppurchaseimages.
+  name: iOS InAppPurchaseImages API
+  slug: ios-inapppurchaseimages-api
+- description: The InAppPurchaseLocalizations API from iOS — 2 operation(s) for inapppurchaselocalizations.
+  name: iOS InAppPurchaseLocalizations API
+  slug: ios-inapppurchaselocalizations-api
+- description: The InAppPurchaseOfferCodeCustomCodes API from iOS — 2 operation(s) for inapppurchaseoffercodecustomcodes.
+  name: iOS InAppPurchaseOfferCodeCustomCodes API
+  slug: ios-inapppurchaseoffercodecustomcodes-api
+- description: The InAppPurchaseOfferCodeOneTimeUseCodes API from iOS — 3 operation(s) for inapppurchaseoffercodeonetimeusecodes.
+  name: iOS InAppPurchaseOfferCodeOneTimeUseCodes API
+  slug: ios-inapppurchaseoffercodeonetimeusecodes-api
+- description: The InAppPurchaseOfferCodes API from iOS — 8 operation(s) for inapppurchaseoffercodes.
+  name: iOS InAppPurchaseOfferCodes API
+  slug: ios-inapppurchaseoffercodes-api
+- description: The InAppPurchasePricePoints API from iOS — 2 operation(s) for inapppurchasepricepoints.
+  name: iOS InAppPurchasePricePoints API
+  slug: ios-inapppurchasepricepoints-api
+- description: The InAppPurchasePriceSchedules API from iOS — 8 operation(s) for inapppurchasepriceschedules.
+  name: iOS InAppPurchasePriceSchedules API
+  slug: ios-inapppurchasepriceschedules-api
+- description: The InAppPurchases API from iOS — 21 operation(s) for inapppurchases.
+  name: iOS InAppPurchases API
+  slug: ios-inapppurchases-api
+- description: The InAppPurchaseSubmissions API from iOS — 1 operation(s) for inapppurchasesubmissions.
+  name: iOS InAppPurchaseSubmissions API
+  slug: ios-inapppurchasesubmissions-api
+- description: The MarketplaceSearchDetails API from iOS — 2 operation(s) for marketplacesearchdetails.
+  name: iOS MarketplaceSearchDetails API
+  slug: ios-marketplacesearchdetails-api
+- description: The MarketplaceWebhooks API from iOS — 2 operation(s) for marketplacewebhooks.
+  name: iOS MarketplaceWebhooks API
+  slug: ios-marketplacewebhooks-api
+- description: The MerchantIds API from iOS — 4 operation(s) for merchantids.
+  name: iOS MerchantIds API
+  slug: ios-merchantids-api
+- description: The Metrics API from iOS — 15 operation(s) for metrics.
+  name: iOS Metrics API
+  slug: ios-metrics-api
+- description: The Nominations API from iOS — 2 operation(s) for nominations.
+  name: iOS Nominations API
+  slug: ios-nominations-api
+- description: The PassTypeIds API from iOS — 4 operation(s) for passtypeids.
+  name: iOS PassTypeIds API
+  slug: ios-passtypeids-api
+- description: The PreReleaseVersions API from iOS — 6 operation(s) for prereleaseversions.
+  name: iOS PreReleaseVersions API
+  slug: ios-prereleaseversions-api
+- description: The Profiles API from iOS — 8 operation(s) for profiles.
+  name: iOS Profiles API
+  slug: ios-profiles-api
+- description: The PromotedPurchases API from iOS — 2 operation(s) for promotedpurchases.
+  name: iOS PromotedPurchases API
+  slug: ios-promotedpurchases-api
+- description: The ReviewSubmissionItems API from iOS — 2 operation(s) for reviewsubmissionitems.
+  name: iOS ReviewSubmissionItems API
+  slug: ios-reviewsubmissionitems-api
+- description: The ReviewSubmissions API from iOS — 4 operation(s) for reviewsubmissions.
+  name: iOS ReviewSubmissions API
+  slug: ios-reviewsubmissions-api
+- description: The RoutingAppCoverages API from iOS — 2 operation(s) for routingappcoverages.
+  name: iOS RoutingAppCoverages API
+  slug: ios-routingappcoverages-api
+- description: The SalesReports API from iOS — 1 operation(s) for salesreports.
+  name: iOS SalesReports API
+  slug: ios-salesreports-api
+- description: The SandboxTesters API from iOS — 2 operation(s) for sandboxtesters.
+  name: iOS SandboxTesters API
+  slug: ios-sandboxtesters-api
+- description: The SandboxTestersClearPurchaseHistoryRequest API from iOS — 1 operation(s) for sandboxtestersclearpurchasehistoryrequest.
+  name: iOS SandboxTestersClearPurchaseHistoryRequest API
+  slug: ios-sandboxtestersclearpurchasehistoryrequest-api
+- description: The ScmGitReferences API from iOS — 1 operation(s) for scmgitreferences.
+  name: iOS ScmGitReferences API
+  slug: ios-scmgitreferences-api
+- description: The ScmProviders API from iOS — 4 operation(s) for scmproviders.
+  name: iOS ScmProviders API
+  slug: ios-scmproviders-api
+- description: The ScmPullRequests API from iOS — 1 operation(s) for scmpullrequests.
+  name: iOS ScmPullRequests API
+  slug: ios-scmpullrequests-api
+- description: The ScmRepositories API from iOS — 6 operation(s) for scmrepositories.
+  name: iOS ScmRepositories API
+  slug: ios-scmrepositories-api
+- description: The SubscriptionAppStoreReviewScreenshots API from iOS — 2 operation(s) for subscriptionappstorereviewscreenshots.
+  name: iOS SubscriptionAppStoreReviewScreenshots API
+  slug: ios-subscriptionappstorereviewscreenshots-api
+- description: The SubscriptionAvailabilities API from iOS — 4 operation(s) for subscriptionavailabilities.
+  name: iOS SubscriptionAvailabilities API
+  slug: ios-subscriptionavailabilities-api
+- description: The SubscriptionGracePeriods API from iOS — 1 operation(s) for subscriptiongraceperiods.
+  name: iOS SubscriptionGracePeriods API
+  slug: ios-subscriptiongraceperiods-api
+- description: The SubscriptionGroupLocalizations API from iOS — 2 operation(s) for subscriptiongrouplocalizations.
+  name: iOS SubscriptionGroupLocalizations API
+  slug: ios-subscriptiongrouplocalizations-api
+- description: The SubscriptionGroups API from iOS — 6 operation(s) for subscriptiongroups.
+  name: iOS SubscriptionGroups API
+  slug: ios-subscriptiongroups-api
+- description: The SubscriptionGroupSubmissions API from iOS — 1 operation(s) for subscriptiongroupsubmissions.
+  name: iOS SubscriptionGroupSubmissions API
+  slug: ios-subscriptiongroupsubmissions-api
+- description: The SubscriptionImages API from iOS — 2 operation(s) for subscriptionimages.
+  name: iOS SubscriptionImages API
+  slug: ios-subscriptionimages-api
+- description: The SubscriptionIntroductoryOffers API from iOS — 2 operation(s) for subscriptionintroductoryoffers.
+  name: iOS SubscriptionIntroductoryOffers API
+  slug: ios-subscriptionintroductoryoffers-api
+- description: The SubscriptionLocalizations API from iOS — 2 operation(s) for subscriptionlocalizations.
+  name: iOS SubscriptionLocalizations API
+  slug: ios-subscriptionlocalizations-api
+- description: The SubscriptionOfferCodeCustomCodes API from iOS — 2 operation(s) for subscriptionoffercodecustomcodes.
+  name: iOS SubscriptionOfferCodeCustomCodes API
+  slug: ios-subscriptionoffercodecustomcodes-api
+- description: The SubscriptionOfferCodeOneTimeUseCodes API from iOS — 3 operation(s) for subscriptionoffercodeonetimeusecodes.
+  name: iOS SubscriptionOfferCodeOneTimeUseCodes API
+  slug: ios-subscriptionoffercodeonetimeusecodes-api
+- description: The SubscriptionOfferCodes API from iOS — 8 operation(s) for subscriptionoffercodes.
+  name: iOS SubscriptionOfferCodes API
+  slug: ios-subscriptionoffercodes-api
+- description: The SubscriptionPricePoints API from iOS — 3 operation(s) for subscriptionpricepoints.
+  name: iOS SubscriptionPricePoints API
+  slug: ios-subscriptionpricepoints-api
+- description: The SubscriptionPrices API from iOS — 2 operation(s) for subscriptionprices.
+  name: iOS SubscriptionPrices API
+  slug: ios-subscriptionprices-api
+- description: The SubscriptionPromotionalOffers API from iOS — 4 operation(s) for subscriptionpromotionaloffers.
+  name: iOS SubscriptionPromotionalOffers API
+  slug: ios-subscriptionpromotionaloffers-api
+- description: The Subscriptions API from iOS — 24 operation(s) for subscriptions.
+  name: iOS Subscriptions API
+  slug: ios-subscriptions-api
+- description: The SubscriptionSubmissions API from iOS — 1 operation(s) for subscriptionsubmissions.
+  name: iOS SubscriptionSubmissions API
+  slug: ios-subscriptionsubmissions-api
+- description: The Territories API from iOS — 1 operation(s) for territories.
+  name: iOS Territories API
+  slug: ios-territories-api
+- description: The TerritoryAvailabilities API from iOS — 1 operation(s) for territoryavailabilities.
+  name: iOS TerritoryAvailabilities API
+  slug: ios-territoryavailabilities-api
+- description: The UserInvitations API from iOS — 4 operation(s) for userinvitations.
+  name: iOS UserInvitations API
+  slug: ios-userinvitations-api
+- description: The Users API from iOS — 4 operation(s) for users.
+  name: iOS Users API
+  slug: ios-users-api
+- description: The WebhookDeliveries API from iOS — 1 operation(s) for webhookdeliveries.
+  name: iOS WebhookDeliveries API
+  slug: ios-webhookdeliveries-api
+- description: The WebhookPings API from iOS — 1 operation(s) for webhookpings.
+  name: iOS WebhookPings API
+  slug: ios-webhookpings-api
+- description: The Webhooks API from iOS — 4 operation(s) for webhooks.
+  name: iOS Webhooks API
+  slug: ios-webhooks-api
+- description: The WinBackOffers API from iOS — 4 operation(s) for winbackoffers.
+  name: iOS WinBackOffers API
+  slug: ios-winbackoffers-api
+arazzos:
+- description: Create a new App Store version, add its primary localization, and attach a build.
+  name: iOS Create an App Store Version
+  slug: ios-create-app-store-version-workflow
+- description: Create a TestFlight beta group for an app, find a build by version, and make that build available to the group.
+  name: iOS Create a TestFlight Beta Group and Assign a Build
+  slug: ios-create-beta-group-assign-build-workflow
+- description: Create an in-app purchase, add its localized display name, and submit it for review.
+  name: iOS Create and Submit an In-App Purchase
+  slug: ios-create-in-app-purchase-workflow
+- description: Submit a certificate signing request, then read the issued certificate back for download.
+  name: iOS Create a Signing Certificate
+  slug: ios-create-signing-certificate-workflow
+- description: Create a subscription group, add a subscription to it, and localize the subscription.
+  name: iOS Create an Auto-Renewable Subscription
+  slug: ios-create-subscription-workflow
+- description: Create a bundle identifier and enable a capability such as Push Notifications or iCloud on it.
+  name: iOS Enable a Capability on a Bundle ID
+  slug: ios-enable-bundle-id-capability-workflow
+- description: Create a beta tester, add them to a beta group, and send an App Store Connect invitation.
+  name: iOS Invite a TestFlight Beta Tester
+  slug: ios-invite-beta-tester-workflow
+- description: Find a build, push a TestFlight notification to its testers, and confirm the build's beta state.
+  name: iOS Notify TestFlight Testers of a New Build
+  slug: ios-notify-testers-new-build-workflow
+- description: Register a test device, create a bundle identifier, and generate a provisioning profile that ties them together.
+  name: iOS Register a Provisioning Profile
+  slug: ios-register-provisioning-profile-workflow
+- description: Find the most recent low-rated review for an app and post a developer response to it.
+  name: iOS Respond to a Customer Review
+  slug: ios-respond-to-customer-review-workflow
+- description: Find a build, add localized "What to Test" notes, and submit it for external beta review.
+  name: iOS Submit a Build for TestFlight Beta Review
+  slug: ios-submit-build-for-beta-review-workflow
+- description: Open a review submission, add the App Store version as an item, and submit it to App Review.
+  name: iOS Submit an App Store Version for Review
+  slug: ios-submit-version-for-review-workflow
+artifact_total: 234
+asyncapis:
+- description: App Store Server Notifications V2 is Apple's webhook surface for in-app purchase and subscription lifecycle events. Apple POSTs a JWS-signed payload to the production and sandbox URLs registered in Ap
+  name: App Store Server Notifications V2
+  slug: app-store-server-notifications-asyncapi
+collections:
+- collection_type: open
+  name: App Store Connect API
+  slug: open-app-store-connect
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/ios-agentic-access.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/ios-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/ios-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/ios-authentication.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/ios-create-app-store-version-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/ios-create-beta-group-assign-build-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/ios-create-in-app-purchase-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/ios-create-signing-certificate-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/ios-create-subscription-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/ios-enable-bundle-id-capability-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/ios-invite-beta-tester-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/ios-notify-testers-new-build-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/ios-register-provisioning-profile-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/ios-respond-to-customer-review-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/ios-submit-build-for-beta-review-workflow.yml
+- group: design
+  title: ''
+  type: Arazzo
+  url: arazzo/ios-submit-version-for-review-workflow.yml
+- group: start
+  title: ''
+  type: Portal
+  url: https://developer.apple.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developer.apple.com/ios/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developer.apple.com/documentation/
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developer.apple.com/documentation/appstoreconnectapi
+- group: start
+  title: ''
+  type: Signup
+  url: https://developer.apple.com/programs/enroll/
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://developer.apple.com/programs/whats-included/
+- group: commercial
+  title: ''
+  type: Plans
+  url: https://developer.apple.com/programs/
+- group: operate
+  title: ''
+  type: StatusPage
+  url: https://developer.apple.com/system-status/
+- group: company
+  title: ''
+  type: Blog
+  url: https://developer.apple.com/news/
+- group: other
+  title: ''
+  type: RSS
+  url: https://developer.apple.com/news/rss/news.rss
+- group: operate
+  title: ''
+  type: ReleaseNotes
+  url: https://developer.apple.com/news/releases/
+- group: operate
+  title: ''
+  type: Forums
+  url: https://developer.apple.com/forums/
+- group: operate
+  title: ''
+  type: Support
+  url: https://developer.apple.com/support/
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/apple
+- group: other
+  title: ''
+  type: Events
+  url: https://developer.apple.com/wwdc/
+- group: learn
+  title: ''
+  type: YouTube
+  url: https://www.youtube.com/appledevelopers
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://developer.apple.com/support/terms/
+- group: commercial
+  title: ''
+  type: Privacy
+  url: https://developer.apple.com/support/privacy/
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/main/openapi/app-store-connect-openapi.json
+- group: docs
+  title: ''
+  type: AsyncAPI
+  url: https://raw.githubusercontent.com/api-evangelist/ios/main/asyncapi/app-store-server-notifications-asyncapi.yml
+- group: design
+  title: ''
+  type: Spectral
+  url: https://raw.githubusercontent.com/api-evangelist/ios/main/rules/app-store-connect-rules.yml
+- group: docs
+  title: ''
+  type: JSONSchema
+  url: https://github.com/api-evangelist/ios/tree/main/json-schema
+- group: design
+  title: ''
+  type: JSONLD
+  url: https://raw.githubusercontent.com/api-evangelist/ios/main/json-ld/ios-context.jsonld
+- group: design
+  title: ''
+  type: Vocabulary
+  url: https://raw.githubusercontent.com/api-evangelist/ios/main/vocabulary/ios-vocabulary.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: https://raw.githubusercontent.com/api-evangelist/ios/main/plans/ios-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: https://raw.githubusercontent.com/api-evangelist/ios/main/rate-limits/ios-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: https://raw.githubusercontent.com/api-evangelist/ios/main/finops/ios-finops.yml
 created: '2026-05-11'
 description: iOS is Apple's mobile operating system and the developer platform behind iPhone apps. While the bulk of the iOS SDK is delivered as Swift / Objective-C client frameworks (UIKit, SwiftUI, MapKit, HealthKit, HomeKit, SiriKit, StoreKit, AppIntents, PassKit, WidgetKit, ActivityKit), Apple also exposes a substantial set of server-side HTTPS APIs that iOS developers, publishers, and back-end systems consume directly. This repository indexes that server-side surface — App Store Connect API, App Store Server API, App Store Server Notifications, Apple Push Notification service (APNs), DeviceCheck / App Attest, Sign in with Apple, Apple Music API, the Wallet / PassKit Web Service contract, and related developer infrastructure — and points to the matching OpenAPI artifacts where Apple publishes them.
+examples:
+- key_count: 2
+  name: Apns Send Notification Example
+  slug: apns-send-notification-example
+- key_count: 2
+  name: App Store Connect List Apps Example
+  slug: app-store-connect-list-apps-example
+- key_count: 4
+  name: App Store Server Notification Subscribed Example
+  slug: app-store-server-notification-subscribed-example
+- key_count: 3
+  name: Sign In With Apple Token Example
+  slug: sign-in-with-apple-token-example
+finops:
+- name: Ios Finops
+  service_category: ''
+  slug: ios-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ios.png
+json_schemas:
+- name: APNs Notification Payload
+  property_count: 1
+  slug: apns-notification-payload
+- name: App
+  property_count: 5
+  slug: app-store-connect-app
+- name: Build
+  property_count: 3
+  slug: app-store-connect-build
+- name: JWSTransactionDecodedPayload
+  property_count: 22
+  slug: app-store-server-transaction
+- name: Sign in with Apple ID Token Claims
+  property_count: 12
+  slug: sign-in-with-apple-id-token
+json_structures:
+- name: Ios Server Apis Structure
+  property_count: 3
+  slug: ios-server-apis-structure
+jsonld:
+- class_count: 21
+  name: Ios Context
+  property_count: 6
+  slug: ios-context
 layout: provider
 modified: '2026-05-23'
 name: iOS
 nav: Providers
 network: true
-random_paper: 25
+overview: 'iOS publishes 193 APIs on the [APIs.io](https://apis.io/) network, including App Store Server Notifications, AccessibilityDeclarations API, Actors API, and 190 more. Tagged areas include iOS, Apple, Mobile, App Store, and Push Notifications.
+
+
+  The iOS catalog on APIs.io includes 1 event-driven AsyncAPI specification, 1 JSON-LD context, and 3 Spectral governance rulesets.
+
+
+  iOS''s developer surface includes authentication, developer portal, documentation, API reference, signup flow, pricing, engineering blog, and 36 more developer resources.'
+plans:
+- name: Ios Plans Pricing
+  plan_count: 5
+  slug: ios-plans-pricing
+random_paper: 59
+rate_limits:
+- limit_count: 7
+  name: Ios Rate Limits
+  slug: ios-rate-limits
+rules:
+- name: iOS API Rules
+  rule_count: 7
+  severity_counts:
+    error: 3
+    hint: 0
+    info: 1
+    warn: 3
+  slug: app-store-connect-rules
+- name: iOS API Rules
+  rule_count: 1
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 0
+    warn: 1
+  slug: ios-asyncapi-spectral-rules
+- name: iOS API Rules
+  rule_count: 5
+  severity_counts:
+    error: 0
+    hint: 0
+    info: 2
+    warn: 3
+  slug: ios-jsonschema-spectral-rules
+score:
+  band: strong
+  composite: 62.4
+  delta: 1.1
+  facets:
+    commercial_clarity: 71.1
+    contract_quality: 65.7
+    developer_ergonomics: 41.3
+    discoverability: 80.0
+    governance: 47.4
+    operational_transparency: 68.4
+  previous_composite: 61.3
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 67.4
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ios/refs/heads/main/screenshots/ios-2026-06-20T183533.png
+security:
+- kind: authentication
+  name: Ios Authentication
+  slug: ios-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Ios Domain Security
+  slug: ios-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: vulnerability-disclosure
+  name: Ios Vulnerability Disclosure
+  slug: ios-vulnerability-disclosure
+  summary_line: security.txt · contact published
 slug: ios
 tags:
 - iOS
@@ -35,4 +990,5 @@ tags:
 - Authentication
 - Wallet
 - Developer Platform
+website: https://developer.apple.com/ios/
 ---

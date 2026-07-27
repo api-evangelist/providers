@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 63.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: Checkout Session management
@@ -218,7 +218,7 @@ overview: 'Super Payments publishes 8 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Super Payments'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 6
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Super Payments Rate Limits
@@ -226,7 +226,7 @@ rate_limits:
 score:
   band: strong
   composite: 61.0
-  delta: -1.2
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 70.3
@@ -234,14 +234,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 73.7
-  previous_composite: 62.2
+  previous_composite: 61.0
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

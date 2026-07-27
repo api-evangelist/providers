@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 64
   human_in_the_loop: 7
@@ -297,7 +297,7 @@ plans:
 - name: Symphony Plans Pricing
   plan_count: 1
   slug: symphony-plans-pricing
-random_paper: 36
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Symphony Rate Limits
@@ -321,18 +321,18 @@ rules:
   slug: symphony-rules
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 50.2
+  delta: 2.5
   facets:
     commercial_clarity: 28.9
     contract_quality: 52.3
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 42.1
   previous_composite: 47.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/symphony/refs/heads/main/screenshots/symphony-2026-06-20T194823.png
 security:

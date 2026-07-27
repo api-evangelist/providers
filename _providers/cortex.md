@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -49,7 +49,7 @@ apis:
 - description: The Teams API from Cortex — 5 operation(s) for teams.
   name: Cortex Teams API
   slug: cortex-teams-api
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: open
   name: Cortex REST API
@@ -143,6 +143,10 @@ finops:
   slug: cortex-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cortex.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Cortex
 nav: Providers
@@ -162,18 +166,18 @@ rate_limits:
   slug: cortex-rate-limits
 score:
   band: thin
-  composite: 42.8
-  delta: 0.0
+  composite: 44.8
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 44.2
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 42.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cortex/refs/heads/main/screenshots/cortex-2026-06-20T175126.png
 security:

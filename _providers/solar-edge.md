@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ plans:
 - name: Solar Edge Plans Pricing
   plan_count: 1
   slug: solar-edge-plans-pricing
-random_paper: 26
+random_paper: 43
 rate_limits:
 - limit_count: 0
   name: Solar Edge Rate Limits
@@ -196,7 +196,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 49.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/solar-edge/refs/heads/main/screenshots/solar-edge-2026-06-20T194200.png
 security:

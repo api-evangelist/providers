@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 91
   human_in_the_loop: 2
@@ -609,7 +609,7 @@ plans:
 - name: Google Cloud Healthcare Plans Pricing
   plan_count: 6
   slug: google-cloud-healthcare-plans-pricing
-random_paper: 8
+random_paper: 59
 rate_limits:
 - limit_count: 13
   name: Google Cloud Healthcare Rate Limits
@@ -631,7 +631,7 @@ scopes:
 score:
   band: strong
   composite: 61.7
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 57.9
     contract_quality: 46.0
@@ -639,14 +639,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 68.4
-  previous_composite: 60.0
+  previous_composite: 61.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 71.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-healthcare/refs/heads/main/screenshots/google-cloud-healthcare-2026-06-20T182114.png
 security:

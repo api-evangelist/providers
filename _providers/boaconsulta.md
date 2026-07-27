@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -85,11 +85,11 @@ overview: 'BoaConsulta is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   BoaConsulta''s developer surface includes engineering blog, support, pricing, and 8 more developer resources.'
-random_paper: 6
+random_paper: 23
 score:
   band: emerging
   composite: 20.7
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -97,15 +97,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 19.0
+  previous_composite: 20.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/boaconsulta/refs/heads/main/screenshots/boaconsulta-2026-07-25T203518.png
 security:
 - kind: domain-security
   name: Boaconsulta Domain Security

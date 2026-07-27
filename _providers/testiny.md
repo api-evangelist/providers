@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 0
@@ -122,25 +122,25 @@ plans:
 - name: Testiny Plans Pricing
   plan_count: 5
   slug: testiny-plans-pricing
-random_paper: 19
+random_paper: 36
 rate_limits:
 - limit_count: 4
   name: Testiny Rate Limits
   slug: testiny-rate-limits
 score:
   band: thin
-  composite: 40.0
-  delta: 0.0
+  composite: 43.2
+  delta: 3.2
   facets:
     commercial_clarity: 63.2
     contract_quality: 50.3
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 40.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

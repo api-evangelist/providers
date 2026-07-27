@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -105,25 +105,25 @@ press:
 - date: '2026-05-25'
   title: EPD Enterprise Products Partners LP Common Units Stock ...
   url: https://seekingalpha.com/symbol/EPD
-random_paper: 35
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Enterprise Products Partners Rate Limits
   slug: enterprise-products-partners-rate-limits
 score:
-  band: emerging
-  composite: 27.1
-  delta: 0.0
+  band: thin
+  composite: 30.4
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 50.4
     developer_ergonomics: 0.0
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 27.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/enterprise-products-partners/refs/heads/main/screenshots/enterprise-products-partners-2026-06-20T180729.png
 security:

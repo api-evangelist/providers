@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -1417,7 +1417,7 @@ plans:
 - name: Google Slides Plans Pricing
   plan_count: 3
   slug: google-slides-plans-pricing
-random_paper: 0
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Google Slides Rate Limits
@@ -1445,19 +1445,19 @@ scopes:
   slug: google-slides-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: developing
-  composite: 59.2
-  delta: 0.0
+  band: strong
+  composite: 63.8
+  delta: 4.6
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.6
+    contract_quality: 69.9
     developer_ergonomics: 45.7
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 63.2
   previous_composite: 59.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-slides/refs/heads/main/screenshots/google-slides-2026-06-20T182234.png
 security:

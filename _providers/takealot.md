@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 31.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -194,18 +194,18 @@ overview: 'Takealot publishes 12 APIs on the [APIs.io](https://apis.io/) network
 random_paper: 37
 score:
   band: emerging
-  composite: 19.0
-  delta: 0.0
+  composite: 22.2
+  delta: 3.2
   facets:
     commercial_clarity: 10.5
     contract_quality: 37.7
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 19.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

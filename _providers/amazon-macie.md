@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 49
   human_in_the_loop: 2
@@ -4035,7 +4035,7 @@ plans:
 - name: Amazon Macie Plans Pricing
   plan_count: 3
   slug: amazon-macie-plans-pricing
-random_paper: 29
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Amazon Macie Rate Limits
@@ -4059,18 +4059,18 @@ rules:
   slug: amazon-macie-spectral-rules
 score:
   band: strong
-  composite: 64.6
-  delta: 0.0
+  composite: 69.2
+  delta: 4.6
   facets:
     commercial_clarity: 81.6
-    contract_quality: 64.1
+    contract_quality: 69.4
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 64.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-macie/refs/heads/main/screenshots/amazon-macie-2026-06-20T171730.png
 security:

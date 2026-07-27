@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -160,19 +160,19 @@ scopes:
   slug: google-cloud-speech-to-text-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: developing
-  composite: 57.9
-  delta: 0.0
+  band: strong
+  composite: 62.5
+  delta: 4.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 56.6
+    contract_quality: 61.9
     developer_ergonomics: 45.7
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 57.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-cloud-speech-to-text/refs/heads/main/screenshots/google-cloud-speech-to-text-2026-06-20T182137.png
 security:

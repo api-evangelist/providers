@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The central API hub for Developers, Consumers, Application Managers, and Architects to discover and use P&G APIs.
@@ -74,7 +74,7 @@ plans:
 - name: P G Plans Pricing
   plan_count: 3
   slug: p-g-plans-pricing
-random_paper: 5
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: P G Rate Limits
@@ -92,7 +92,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 19.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/p-g/refs/heads/main/screenshots/p-g-2026-06-20T191300.png
 security:

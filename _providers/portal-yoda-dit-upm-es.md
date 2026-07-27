@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: CKAN API for UPM YODA Open Data Portal, ~201 datasets.
@@ -81,7 +81,7 @@ plans:
 - name: Portal Yoda Dit Upm Es Plans Pricing
   plan_count: 0
   slug: portal-yoda-dit-upm-es-plans-pricing
-random_paper: 0
+random_paper: 34
 rate_limits:
 - limit_count: 0
   name: Portal Yoda Dit Upm Es Rate Limits
@@ -89,7 +89,7 @@ rate_limits:
 score:
   band: minimal
   composite: 11.6
-  delta: 0.3
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 0.0
@@ -97,14 +97,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.3
+  previous_composite: 11.6
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portal-yoda-dit-upm-es/refs/heads/main/screenshots/portal-yoda-dit-upm-es-2026-06-20T191931.png
 security:

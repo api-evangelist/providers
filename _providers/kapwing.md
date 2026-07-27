@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,7 +89,7 @@ overview: 'Kapwing is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Kapwing''s developer surface includes pricing, engineering blog, support, and 9 more developer resources.'
-random_paper: 39
+random_paper: 5
 score:
   band: emerging
   composite: 16.4
@@ -103,8 +103,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 16.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kapwing/refs/heads/main/screenshots/kapwing-2026-07-25T223515.png
 security:
 - kind: domain-security
   name: Kapwing Domain Security

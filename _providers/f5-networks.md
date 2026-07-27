@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -520,7 +520,7 @@ plans:
 - name: F5 Networks Plans Pricing
   plan_count: 5
   slug: f5-networks-plans-pricing
-random_paper: 22
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: F5 Networks Rate Limits
@@ -544,18 +544,18 @@ rules:
   slug: f5-networks-spectral-rules
 score:
   band: strong
-  composite: 61.3
-  delta: 0.0
+  composite: 65.9
+  delta: 4.6
   facets:
     commercial_clarity: 81.6
-    contract_quality: 67.3
+    contract_quality: 72.6
     developer_ergonomics: 34.8
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 61.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/f5-networks/refs/heads/main/screenshots/f5-networks-2026-06-20T180959.png
 security:

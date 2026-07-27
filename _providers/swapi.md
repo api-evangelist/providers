@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 45.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -234,7 +234,7 @@ plans:
 - name: Swapi Plans Pricing
   plan_count: 1
   slug: swapi-plans-pricing
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Swapi Rate Limits
@@ -257,19 +257,19 @@ rules:
     warn: 24
   slug: swapi-spectral-rules
 score:
-  band: thin
-  composite: 42.6
-  delta: 0.0
+  band: developing
+  composite: 45.9
+  delta: 3.3
   facets:
     commercial_clarity: 21.1
     contract_quality: 65.5
     developer_ergonomics: 15.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 42.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swapi/refs/heads/main/screenshots/swapi-2026-06-20T194754.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 15.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Universal Commerce Protocol agent-commerce surface for the PCA SKIN Shopify store — a hosted MCP endpoint (search_catalog, create_cart, create_checkout, update_checkout, complete_checkout) plus read-o
@@ -78,7 +78,7 @@ name: PCA SKIN
 nav: Providers
 network: true
 overview: PCA SKIN publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Skincare, Beauty, Cosmetics, and Ecommerce.
-random_paper: 31
+random_paper: 65
 score:
   band: emerging
   composite: 15.2
@@ -92,7 +92,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 15.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 74.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 90
   human_in_the_loop: 0
@@ -206,7 +206,7 @@ arazzos:
 - description: Find a high-priority unresolved issue in an organization, inspect it, then assign and resolve it.
   name: Sentry Triage and Resolve an Issue
   slug: sentry-system-triage-resolve-issue-workflow
-artifact_total: 164
+artifact_total: 165
 collections:
 - collection_type: postman
   name: Sentry Alerts API
@@ -739,6 +739,10 @@ jsonld:
   property_count: 15
   slug: sentry-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: sentry-system-mcp.yml
+  slug: sentry-system-mcpyml
 modified: '2026-06-20'
 name: Sentry
 nav: Providers
@@ -754,7 +758,7 @@ plans:
 - name: Sentry System Plans Pricing
   plan_count: 4
   slug: sentry-system-plans-pricing
-random_paper: 22
+random_paper: 39
 rate_limits:
 - limit_count: 2
   name: Sentry System Rate Limits
@@ -775,18 +779,18 @@ scopes:
   summary_line: 26 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 72.8
-  delta: 0.0
+  composite: 77.5
+  delta: 4.7
   facets:
     commercial_clarity: 92.1
-    contract_quality: 67.2
+    contract_quality: 76.0
     developer_ergonomics: 71.7
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 72.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sentry-system/refs/heads/main/screenshots/sentry-system-2026-06-20T193714.png
 security:

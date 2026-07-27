@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 47.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -168,18 +168,18 @@ rules:
   slug: wistia-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 38.1
-  delta: 0.0
+  composite: 41.4
+  delta: 3.3
   facets:
     commercial_clarity: 18.4
     contract_quality: 61.9
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 5.3
   previous_composite: 38.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wistia/refs/heads/main/screenshots/wistia-2026-06-20T201532.png
 security:

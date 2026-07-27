@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 28
 apis:
 - description: Pipeline actions
@@ -259,11 +259,11 @@ overview: 'Seqera Labs publishes 28 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Seqera Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 25 more developer resources.'
-random_paper: 33
+random_paper: 16
 score:
   band: developing
   composite: 59.7
-  delta: 3.2
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 50.7
@@ -271,14 +271,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 55.3
-  previous_composite: 56.5
+  previous_composite: 59.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

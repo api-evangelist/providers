@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 1
@@ -125,26 +125,27 @@ plans:
 - name: Chroma Db Plans Pricing
   plan_count: 4
   slug: chroma-db-plans-pricing
-random_paper: 10
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Chroma Db Rate Limits
   slug: chroma-db-rate-limits
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 40.8
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 55.2
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 37.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/chroma-db/refs/heads/main/screenshots/chroma-db-2026-07-25T205258.png
 security:
 - kind: authentication
   name: Chroma Db Authentication

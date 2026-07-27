@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 165
   human_in_the_loop: 8
@@ -272,7 +272,7 @@ plans:
 - name: Coder Plans Pricing
   plan_count: 2
   slug: coder-plans-pricing
-random_paper: 15
+random_paper: 49
 rate_limits:
 - limit_count: 4
   name: Coder Rate Limits
@@ -299,7 +299,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 54.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/coder/refs/heads/main/screenshots/coder-2026-06-20T174705.png
 security:

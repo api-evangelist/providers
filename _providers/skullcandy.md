@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Universal Commerce Protocol (UCP) merchant surface for the Skullcandy Shopify storefront. Agents discover capabilities at /.well-known/ucp and transact against a hosted MCP endpoint (catalog search, c
@@ -108,7 +108,7 @@ overview: 'Skullcandy publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Skullcandy''s developer surface includes authentication, documentation, support, and 10 more developer resources.'
-random_paper: 11
+random_paper: 62
 scopes:
 - name: Skullcandy Scopes
   scope_count: 4
@@ -127,7 +127,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 23.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

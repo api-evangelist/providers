@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: GraphQL API for querying Arweave transaction and block metadata by tags, owner addresses, recipients, block height ranges, and transaction IDs. Supports cursor-based pagination and sorting. Primary en
@@ -178,7 +178,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 33
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -205,7 +205,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 61.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/arweave/refs/heads/main/screenshots/arweave-2026-06-20T172449.png
 security:

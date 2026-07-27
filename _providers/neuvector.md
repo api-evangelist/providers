@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 31
 apis:
 - description: Admission Control
@@ -172,7 +172,7 @@ plans:
 - name: Neuvector Plans Pricing
   plan_count: 3
   slug: neuvector-plans-pricing
-random_paper: 18
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Neuvector Rate Limits
@@ -190,7 +190,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 32.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/neuvector/refs/heads/main/screenshots/neuvector-2026-06-20T190220.png
 security:

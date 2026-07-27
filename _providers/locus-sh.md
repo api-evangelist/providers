@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 34
   human_in_the_loop: 10
@@ -229,21 +229,21 @@ overview: 'Locus publishes 16 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Locus'' developer surface includes authentication, developer portal, documentation, API reference, engineering blog, signup flow, YouTube channel, and 22 more developer resources.'
-random_paper: 49
+random_paper: 66
 score:
   band: thin
-  composite: 30.0
-  delta: 0.0
+  composite: 33.3
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 37.7
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 30.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/screenshots/locus-sh-2026-06-20T184640.png
 security:

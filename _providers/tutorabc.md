@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ overview: 'TutorABC is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   TutorABC''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 1
+random_paper: 52
 score:
   band: minimal
   composite: 10.7
@@ -83,7 +83,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

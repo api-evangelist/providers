@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 6
 common:
@@ -83,7 +83,7 @@ plans:
 - name: Aftership Plans Pricing
   plan_count: 1
   slug: aftership-plans-pricing
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 1
   name: Aftership Rate Limits
@@ -101,7 +101,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 16.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aftership/refs/heads/main/screenshots/aftership-2026-06-20T165736.png
 security:

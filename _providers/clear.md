@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -191,7 +191,7 @@ overview: 'CLEAR publishes 1 API on the [APIs.io](https://apis.io/) network: Ver
 
 
   CLEAR''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, sandbox, and 23 more developer resources.'
-random_paper: 9
+random_paper: 43
 scopes:
 - name: Clear Scopes
   scope_count: 3
@@ -200,7 +200,7 @@ scopes:
 score:
   band: developing
   composite: 56.7
-  delta: 5.8
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 58.4
@@ -208,15 +208,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 50.9
+  previous_composite: 56.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 89.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/clear/refs/heads/main/screenshots/clear-2026-07-25T205532.png
 security:
 - kind: authentication
   name: Clear Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Legacy REST API previously documented at api-explorer.khanacademy.org (now redirects). Some endpoints under https://www.khanacademy.org/api/v1/ remain accessible for content topic trees and exercise d
@@ -94,7 +94,7 @@ plans:
 - name: Khan Academy Plans Pricing
   plan_count: 1
   slug: khan-academy-plans-pricing
-random_paper: 14
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Khan Academy Rate Limits
@@ -112,7 +112,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 17.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/khan-academy/refs/heads/main/screenshots/khan-academy-2026-06-20T184025.png
 security:

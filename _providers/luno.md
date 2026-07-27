@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for Luno market data, accounts, trading, transfers and withdrawals, plus a WebSocket market-data stream. Legacy API under /api/1/ and the newer Exchange API under /api/exchange/{1,2,3}/.
@@ -181,7 +181,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.5
-  delta: 4.9
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 22.2
@@ -189,15 +189,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 45.6
+  previous_composite: 50.5
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/luno/refs/heads/main/screenshots/luno-2026-07-25T225732.png
 security:
 - kind: authentication
   name: Luno Authentication

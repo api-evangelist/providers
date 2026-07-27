@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: A manufacturing execution system (MES) is used to control, track, and document the transformation of raw materials into finished goods in real-time. MES systems are capable of tracking production by t
@@ -67,7 +67,7 @@ plans:
 - name: Sepasoft Plans Pricing
   plan_count: 3
   slug: sepasoft-plans-pricing
-random_paper: 2
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Sepasoft Rate Limits
@@ -85,7 +85,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 25.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

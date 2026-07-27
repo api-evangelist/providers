@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 8
 common:
@@ -73,7 +73,7 @@ overview: 'Alpha Natural Resources is profiled on the [APIs.io](https://apis.io/
 
 
   Alpha Natural Resources'' developer surface includes support and 4 more developer resources.'
-random_paper: 8
+random_paper: 42
 score:
   band: minimal
   composite: 7.6
@@ -87,8 +87,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alpha-natural-resources/refs/heads/main/screenshots/alpha-natural-resources-2026-07-25T195753.png
 security:
 - kind: domain-security
   name: Alpha Natural Resources Domain Security

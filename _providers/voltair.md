@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 16
 apis:
 - description: The ApiKeys API from Voltair — 2 operation(s) for apikeys.
@@ -182,7 +182,7 @@ overview: 'Voltair publishes 16 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Voltair''s developer surface includes documentation, API reference, authentication, and 17 more developer resources.'
-random_paper: 4
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Voltair Rate Limits
@@ -200,7 +200,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 35.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

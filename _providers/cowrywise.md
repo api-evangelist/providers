@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Investment-as-a-service REST API that allows developers to embed regulated investment products (savings, mutual funds, treasury bills, Eurobonds, equities) into their applications. Supports user accou
@@ -102,7 +102,7 @@ plans:
 - name: Cowrywise Plans Pricing
   plan_count: 2
   slug: cowrywise-plans-pricing
-random_paper: 35
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Cowrywise Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 24.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cowrywise/refs/heads/main/screenshots/cowrywise-2026-06-20T175153.png
 security:

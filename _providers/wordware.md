@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Run deployed WordApps programmatically. Each published WordApp exposes a run endpoint (POST /api/released-app/{app_id}/run) that accepts a JSON body of named inputs (text, image, audio) plus a semanti
@@ -118,7 +118,7 @@ overview: 'Wordware publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Wordware''s developer surface includes authentication, documentation, API reference, getting-started guide, support, and 12 more developer resources.'
-random_paper: 8
+random_paper: 59
 score:
   band: emerging
   composite: 26.8
@@ -132,7 +132,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 26.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

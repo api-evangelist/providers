@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The ROR REST API provides programmatic access to the Research Organization Registry, enabling users to retrieve, search, filter, and match organization records by name, identifier, affiliation text, o
@@ -118,7 +118,7 @@ plans:
 - name: Ror Plans Pricing
   plan_count: 2
   slug: ror-plans-pricing
-random_paper: 33
+random_paper: 67
 rate_limits:
 - limit_count: 4
   name: Ror Rate Limits
@@ -126,7 +126,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.3
-  delta: -2.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.5
@@ -134,14 +134,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 40.8
+  previous_composite: 38.3
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ror/refs/heads/main/screenshots/ror-2026-06-20T193222.png
 security:

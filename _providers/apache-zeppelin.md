@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 2
@@ -131,25 +131,25 @@ plans:
 - name: Apache Zeppelin Plans Pricing
   plan_count: 3
   slug: apache-zeppelin-plans-pricing
-random_paper: 47
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Apache Zeppelin Rate Limits
   slug: apache-zeppelin-rate-limits
 score:
   band: thin
-  composite: 37.5
-  delta: 0.0
+  composite: 39.5
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 35.4
     developer_ergonomics: 32.6
-    discoverability: 60.0
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 47.4
   previous_composite: 37.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-zeppelin/refs/heads/main/screenshots/apache-zeppelin-2026-06-20T172200.png
 security:

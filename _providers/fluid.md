@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Fluid is a CSS framework that provides a responsive grid system, UI components, and utility classes for building flexible and adaptive web layouts. It uses ITCSS architecture for its file and folder s
@@ -70,7 +70,7 @@ plans:
 - name: Fluid Plans Pricing
   plan_count: 3
   slug: fluid-plans-pricing
-random_paper: 22
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Fluid Rate Limits
@@ -88,7 +88,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 21.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fluid/refs/heads/main/screenshots/fluid-2026-06-20T181340.png
 slug: fluid

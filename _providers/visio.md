@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ plans:
 - name: Visio Plans Pricing
   plan_count: 3
   slug: visio-plans-pricing
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Visio Rate Limits
@@ -209,18 +209,18 @@ rules:
   slug: visio-rules
 score:
   band: strong
-  composite: 60.8
-  delta: 0.0
+  composite: 64.0
+  delta: 3.2
   facets:
     commercial_clarity: 71.1
     contract_quality: 67.3
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 63.2
   previous_composite: 60.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visio/refs/heads/main/screenshots/visio-2026-06-20T201052.png
 security:

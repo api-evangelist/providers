@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,11 +66,11 @@ name: Infilla
 nav: Providers
 network: true
 overview: Infilla is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Government, GovTech, Permitting, and Housing.
-random_paper: 21
+random_paper: 55
 score:
   band: minimal
   composite: 13.9
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 0.0
@@ -78,15 +78,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 11.0
+  previous_composite: 13.9
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/infilla/refs/heads/main/screenshots/infilla-2026-07-25T222356.png
 security:
 - kind: domain-security
   name: Infilla Domain Security

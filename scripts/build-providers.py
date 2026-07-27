@@ -39,6 +39,7 @@ import argparse
 import glob
 import json
 import os
+import re
 import shutil
 
 import yaml
@@ -87,22 +88,34 @@ ARTIFACT_KEYS = [
 
 
 def read_frontmatter(path):
-    """Return the YAML front matter of a Jekyll doc as a dict (or None)."""
+    """Return the YAML front matter of a Jekyll doc as a dict (or None).
+
+    The apis.io provider files carry `source_yaml`, a double-quoted scalar
+    holding the provider's whole raw apis.yml. YAML wraps long quoted scalars
+    across physical lines, so a bare `---` can and does land INSIDE that value.
+    Splitting on the first `---` therefore cuts mid-scalar, YAML raises, and the
+    caller silently falls back to a minimal page with no score or agent_readiness
+    — which is how 975 providers (Stripe among them) lost their Kin Score panels.
+
+    So: walk every candidate closing delimiter and take the first that actually
+    parses into a mapping.
+    """
     try:
         with open(path, encoding="utf-8") as fh:
             text = fh.read()
     except OSError:
         return None
-    if not text.startswith("---"):
+    if not text.startswith("---\n"):
         return None
-    parts = text.split("---", 2)
-    if len(parts) < 3:
-        return None
-    try:
-        data = yaml.safe_load(parts[1])
-    except yaml.YAMLError:
-        return None
-    return data if isinstance(data, dict) else None
+    for match in re.finditer(r"^---[ \t]*$", text[4:], re.MULTILINE):
+        block = text[4:4 + match.start()]
+        try:
+            data = yaml.safe_load(block)
+        except yaml.YAMLError:
+            continue
+        if isinstance(data, dict):
+            return data
+    return None
 
 
 def load_papers():

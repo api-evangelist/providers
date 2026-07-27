@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: HAL-based REST API for Biblos-e Archivo, the UAM institutional repository, running DSpace 7.6.5. Provides programmatic, HATEOAS-navigable access to communities, collections, items, bitstreams, search,
@@ -97,7 +97,7 @@ plans:
 - name: Uam Plans Pricing
   plan_count: 2
   slug: uam-plans-pricing
-random_paper: 17
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Uam Rate Limits
@@ -115,7 +115,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 23.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uam/refs/heads/main/screenshots/uam-2026-06-20T195920.png
 security:

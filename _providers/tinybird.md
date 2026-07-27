@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
 - description: Manage authentication tokens
   name: Tinybird Tokens API
   slug: tinybird-tokens-api
-artifact_total: 32
+artifact_total: 33
 collections:
 - collection_type: open
   name: Tinybird API
@@ -178,6 +178,10 @@ jsonld:
   property_count: 2
   slug: tinybird-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Tinybird
 nav: Providers
@@ -193,7 +197,7 @@ plans:
 - name: Tinybird Plans Pricing
   plan_count: 3
   slug: tinybird-plans-pricing
-random_paper: 2
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Tinybird Rate Limits
@@ -216,19 +220,19 @@ rules:
     warn: 4
   slug: tinybird-rules
 score:
-  band: developing
-  composite: 55.4
-  delta: 0.0
+  band: strong
+  composite: 60.0
+  delta: 4.6
   facets:
     commercial_clarity: 47.4
-    contract_quality: 63.0
+    contract_quality: 68.3
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 55.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tinybird/refs/heads/main/screenshots/tinybird-2026-06-20T195408.png
 security:

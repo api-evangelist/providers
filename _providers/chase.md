@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 2
@@ -206,7 +206,7 @@ plans:
 - name: Chase Plans Pricing
   plan_count: 2
   slug: chase-plans-pricing
-random_paper: 6
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Chase Rate Limits
@@ -227,23 +227,23 @@ scopes:
   summary_line: 11 scopes · authorizationCode/clientCredentials
 score:
   band: developing
-  composite: 52.0
-  delta: 4.3
+  composite: 54.8
+  delta: 2.8
   facets:
     commercial_clarity: 50.0
     contract_quality: 55.8
     developer_ergonomics: 23.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 26.3
-  previous_composite: 47.7
+  previous_composite: 52.0
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chase/refs/heads/main/screenshots/chase-2026-06-20T174235.png
 security:

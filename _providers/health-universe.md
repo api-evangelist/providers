@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -125,11 +125,11 @@ overview: 'Health Universe is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Health Universe''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, CLI, and 14 more developer resources.'
-random_paper: 26
+random_paper: 60
 score:
   band: thin
   composite: 33.0
-  delta: 3.3
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -137,15 +137,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 29.7
+  previous_composite: 33.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 52.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/health-universe/refs/heads/main/screenshots/health-universe-2026-07-25T220831.png
 security:
 - kind: domain-security
   name: Health Universe Domain Security

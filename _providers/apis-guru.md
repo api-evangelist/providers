@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ plans:
 - name: Apis Guru Plans Pricing
   plan_count: 3
   slug: apis-guru-plans-pricing
-random_paper: 7
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Apis Guru Rate Limits
@@ -251,7 +251,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 53.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apis-guru/refs/heads/main/screenshots/apis-guru-2026-06-20T172300.png
 security:

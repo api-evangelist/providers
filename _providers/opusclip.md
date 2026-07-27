@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 84.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 13
@@ -230,7 +230,7 @@ overview: 'OpusClip publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   OpusClip''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, support, pricing, and 27 more developer resources.'
-random_paper: 12
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Opusclip Rate Limits
@@ -248,7 +248,7 @@ score:
     operational_transparency: 81.6
   previous_composite: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

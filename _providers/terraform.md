@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -104,7 +104,7 @@ arazzos:
 - description: Set a workspace variable to a value whether or not it already exists.
   name: Terraform Upsert a Workspace Variable
   slug: terraform-upsert-workspace-variable-workflow
-artifact_total: 40
+artifact_total: 41
 collections:
 - collection_type: open
   name: HCP Terraform API
@@ -308,6 +308,10 @@ jsonld:
   property_count: 0
   slug: terraform-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: terraform-mcp.yml
+  slug: terraform-mcpyml
 modified: '2026-06-20'
 name: Terraform
 nav: Providers
@@ -323,7 +327,7 @@ plans:
 - name: Terraform Plans Pricing
   plan_count: 3
   slug: terraform-plans-pricing
-random_paper: 9
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Terraform Rate Limits
@@ -347,18 +351,18 @@ rules:
   slug: terraform-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 54.2
-  delta: 0.0
+  composite: 57.4
+  delta: 3.2
   facets:
     commercial_clarity: 47.4
     contract_quality: 63.2
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 60.5
     operational_transparency: 47.4
   previous_composite: 54.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/terraform/refs/heads/main/screenshots/terraform-2026-06-20T195132.png
 security:

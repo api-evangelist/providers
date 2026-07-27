@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Track user events used as experiment and feature-flag goals.
@@ -121,7 +121,7 @@ overview: 'Apptimize publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Apptimize''s developer surface includes documentation, API reference, support, authentication, and 13 more developer resources.'
-random_paper: 10
+random_paper: 27
 score:
   band: thin
   composite: 36.5
@@ -135,8 +135,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 36.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/apptimize/refs/heads/main/screenshots/apptimize-2026-07-25T200851.png
 security:
 - kind: authentication
   name: Apptimize Authentication

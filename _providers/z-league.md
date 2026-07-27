@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 49.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -160,7 +160,7 @@ overview: 'Z League publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Z League''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 14 more developer resources.'
-random_paper: 29
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Z League Rate Limits
@@ -178,7 +178,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 47.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

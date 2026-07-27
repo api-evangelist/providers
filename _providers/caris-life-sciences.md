@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -106,24 +106,24 @@ rate_limits:
   name: Caris Life Sciences Rate Limits
   slug: caris-life-sciences-rate-limits
 score:
-  band: emerging
-  composite: 27.3
-  delta: -2.5
+  band: thin
+  composite: 30.0
+  delta: 2.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 48.7
     developer_ergonomics: 8.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 29.8
+  previous_composite: 27.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/caris-life-sciences/refs/heads/main/screenshots/caris-life-sciences-2026-06-20T174006.png
 security:

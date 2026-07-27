@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,7 +78,7 @@ name: De-Ice
 nav: Providers
 network: true
 overview: De-Ice is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Aviation, Aerospace, De-Icing, and Aircraft.
-random_paper: 41
+random_paper: 7
 score:
   band: minimal
   composite: 11.0
@@ -92,8 +92,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/de-ice/refs/heads/main/screenshots/de-ice-2026-07-25T211502.png
 security:
 - kind: domain-security
   name: De Ice Domain Security

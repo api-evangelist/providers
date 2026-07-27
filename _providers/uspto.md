@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -223,7 +223,7 @@ plans:
 - name: Uspto Plans Pricing
   plan_count: 1
   slug: uspto-plans-pricing
-random_paper: 10
+random_paper: 27
 rate_limits:
 - limit_count: 1
   name: Uspto Rate Limits
@@ -247,23 +247,23 @@ rules:
   slug: uspto-rules
 score:
   band: developing
-  composite: 52.6
-  delta: -1.2
+  composite: 55.4
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
-    contract_quality: 68.1
+    contract_quality: 73.5
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 26.3
-  previous_composite: 53.8
+  previous_composite: 52.6
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/uspto/refs/heads/main/screenshots/uspto-2026-06-20T200719.png
 security:

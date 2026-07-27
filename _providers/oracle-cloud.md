@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 2
@@ -1672,7 +1672,7 @@ plans:
 - name: Oracle Cloud Plans Pricing
   plan_count: 6
   slug: oracle-cloud-plans-pricing
-random_paper: 37
+random_paper: 54
 rate_limits:
 - limit_count: 3
   name: Oracle Cloud Rate Limits
@@ -1696,18 +1696,18 @@ rules:
   slug: oracle-cloud-spectral-rules
 score:
   band: exemplar
-  composite: 71.9
-  delta: 0.0
+  composite: 76.6
+  delta: 4.7
   facets:
     commercial_clarity: 71.1
-    contract_quality: 68.8
+    contract_quality: 77.7
     developer_ergonomics: 78.3
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 68.4
   previous_composite: 71.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oracle-cloud/refs/heads/main/screenshots/oracle-cloud-2026-06-20T191120.png
 security:

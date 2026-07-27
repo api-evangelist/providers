@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ plans:
 - name: Spring Batch 5 1 Plans Pricing
   plan_count: 3
   slug: spring-batch-5-1-plans-pricing
-random_paper: 33
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Spring Batch 5 1 Rate Limits
@@ -173,19 +173,19 @@ rules:
     warn: 4
   slug: spring-batch-51-rules
 score:
-  band: thin
-  composite: 44.7
-  delta: 0.0
+  band: developing
+  composite: 47.9
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.1
     developer_ergonomics: 2.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 42.1
   previous_composite: 44.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-batch-5-1/refs/heads/main/screenshots/spring-batch-5-1-2026-06-20T194404.png
 security:

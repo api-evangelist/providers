@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -188,7 +188,7 @@ plans:
 - name: Scalable Services Plans Pricing
   plan_count: 3
   slug: scalable-services-plans-pricing
-random_paper: 2
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Scalable Services Rate Limits
@@ -204,18 +204,18 @@ rules:
   slug: scalable-services-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 49.7
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.4
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 47.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/scalable-services/refs/heads/main/screenshots/scalable-services-2026-06-20T193455.png
 security:

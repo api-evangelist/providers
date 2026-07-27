@@ -20,7 +20,7 @@ modified: '2026-04-30'
 name: Data Warehouse Schemas
 nav: Providers
 network: true
-random_paper: 26
+random_paper: 43
 slug: data-warehouse-schemas
 tags:
 - Analytics

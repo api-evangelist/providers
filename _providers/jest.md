@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Core testing framework API for writing and running tests, including globals, expect assertions, mock functions, and configuration options.
@@ -102,7 +102,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 24.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jest/refs/heads/main/screenshots/jest-2026-06-20T183722.png
 security:

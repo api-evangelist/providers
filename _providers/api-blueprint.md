@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: API Blueprint is a high-level API description language using Markdown-based syntax for designing, documenting, and prototyping APIs. Files use the .apib extension with media type text/vnd.apiblueprint
@@ -94,7 +94,7 @@ plans:
 - name: Api Blueprint Plans Pricing
   plan_count: 3
   slug: api-blueprint-plans-pricing
-random_paper: 14
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Api Blueprint Rate Limits
@@ -112,7 +112,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 23.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/api-blueprint/refs/heads/main/screenshots/api-blueprint-2026-06-20T172201.png
 security:

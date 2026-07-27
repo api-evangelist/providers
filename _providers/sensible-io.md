@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -150,25 +150,25 @@ plans:
 - name: Sensible Io Plans Pricing
   plan_count: 3
   slug: sensible-io-plans-pricing
-random_paper: 43
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Sensible Io Rate Limits
   slug: sensible-io-rate-limits
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 43.5
+  delta: 3.2
   facets:
     commercial_clarity: 57.9
     contract_quality: 51.3
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 40.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sensible-io/refs/heads/main/screenshots/sensible-io-2026-06-20T193703.png
 security:

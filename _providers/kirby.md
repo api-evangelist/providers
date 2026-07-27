@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ press:
 - date: '2026-05-25'
   title: NYC Marketing Expert Augustus Kirby Warns of AI-Driven ...
   url: https://www.24-7pressrelease.com/press-release/530195/nyc-marketing-expert-augustus-kirby-warns-of-ai-driven-algorithm-volatility-and-the-need-for-human-oversight
-random_paper: 35
+random_paper: 1
 score:
   band: minimal
   composite: 4.2
@@ -83,7 +83,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 4.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kirby/refs/heads/main/screenshots/kirby-2026-06-20T184049.png
 security:

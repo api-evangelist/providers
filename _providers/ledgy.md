@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -118,26 +118,27 @@ plans:
 - name: Ledgy Plans Pricing
   plan_count: 3
   slug: ledgy-plans-pricing
-random_paper: 23
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Ledgy Rate Limits
   slug: ledgy-rate-limits
 score:
   band: thin
-  composite: 38.7
-  delta: 0.0
+  composite: 42.0
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 61.9
     developer_ergonomics: 21.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 38.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ledgy/refs/heads/main/screenshots/ledgy-2026-07-25T224817.png
 security:
 - kind: authentication
   name: Ledgy Authentication

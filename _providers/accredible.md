@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 0
@@ -144,19 +144,20 @@ rate_limits:
   slug: accredible-rate-limits
 score:
   band: thin
-  composite: 39.4
-  delta: 0.0
+  composite: 42.7
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 58.0
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 39.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/accredible/refs/heads/main/screenshots/accredible-2026-07-25T181445.png
 security:
 - kind: authentication
   name: Accredible Authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 16
 common:
@@ -115,7 +115,7 @@ overview: 'Dwight Capital is profiled on the [APIs.io](https://apis.io/) network
 
 
   Dwight Capital''s developer surface includes product news and 12 more developer resources.'
-random_paper: 49
+random_paper: 66
 score:
   band: minimal
   composite: 9.5
@@ -129,7 +129,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dwight-capital/refs/heads/main/screenshots/dwight-capital-2026-06-20T180330.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 43.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The Sui full-node JSON-RPC API (OpenRPC 1.2.6) for reading objects, coins, balances, events, checkpoints, dynamic fields, and system state, and for dry-running/executing transaction blocks. 56 methods
@@ -187,7 +187,7 @@ overview: 'Mysten Labs publishes 3 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Mysten Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, CLI, and 24 more developer resources.'
-random_paper: 13
+random_paper: 47
 score:
   band: thin
   composite: 40.4
@@ -201,7 +201,7 @@ score:
     operational_transparency: 63.2
   previous_composite: 40.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -58,7 +58,7 @@ name: A-Frame Brands
 nav: Providers
 network: true
 overview: A-Frame Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Consumer Packaged Goods, Beauty, and Personal Care.
-random_paper: 18
+random_paper: 52
 score:
   band: minimal
   composite: 8.9
@@ -72,8 +72,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/a-frame-brands/refs/heads/main/screenshots/a-frame-brands-2026-07-25T181306.png
 security:
 - kind: domain-security
   name: A Frame Brands Domain Security

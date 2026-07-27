@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -57,7 +57,7 @@ apis:
 - description: The Invoices API from Xero Accounting — 1 operation(s) for invoices.
   name: Xero Accounting Invoices API
   slug: xero-accounting-invoices-api
-artifact_total: 12
+artifact_total: 13
 collections:
 - collection_type: open
   name: Xero Accounting API
@@ -119,6 +119,10 @@ created: '2026-05-11'
 description: Xero is a cloud accounting platform for small businesses, accountants, and bookkeepers that provides invoicing, bank reconciliation, payroll, expense management, and financial reporting. The Xero Accounting API exposes full-featured REST endpoints for invoices, contacts, bank transactions, accounts, items, journals, reports, and more. All Xero APIs share a single OAuth 2.0 authorization layer, require the Xero-Tenant-Id header to scope requests to an organization, and are served from api.xero.com.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/xero-accounting.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Xero Accounting
 nav: Providers
@@ -127,26 +131,26 @@ overview: 'Xero Accounting publishes 6 APIs on the [APIs.io](https://apis.io/) n
 
 
   Xero Accounting''s developer surface includes authentication, engineering blog, documentation, pricing, signup flow, and 8 more developer resources.'
-random_paper: 28
+random_paper: 62
 scopes:
 - name: Xero Accounting Scopes
   scope_count: 6
   slug: xero-accounting-scopes
   summary_line: 6 scopes · authorizationCode
 score:
-  band: emerging
-  composite: 28.4
-  delta: 0.0
+  band: thin
+  composite: 31.7
+  delta: 3.3
   facets:
     commercial_clarity: 10.5
     contract_quality: 51.3
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 28.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/xero-accounting/refs/heads/main/screenshots/xero-accounting-2026-06-20T201700.png
 security:

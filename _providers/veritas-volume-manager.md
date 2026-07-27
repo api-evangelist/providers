@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: RESTful API for managing storage volumes, disk groups, and storage operations.
@@ -130,7 +130,7 @@ score:
     operational_transparency: 63.2
   previous_composite: 42.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/veritas-volume-manager/refs/heads/main/screenshots/veritas-volume-manager-2026-06-20T200935.png
 security:

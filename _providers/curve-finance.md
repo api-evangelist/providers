@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -144,25 +144,25 @@ plans:
 - name: Curve Finance Plans Pricing
   plan_count: 2
   slug: curve-finance-plans-pricing
-random_paper: 43
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Curve Finance Rate Limits
   slug: curve-finance-rate-limits
 score:
   band: thin
-  composite: 30.3
-  delta: 0.0
+  composite: 33.5
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 41.6
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 30.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/curve-finance/refs/heads/main/screenshots/curve-finance-2026-06-20T175354.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Access OSHA enforcement data including inspections, violations, and penalties through the Department of Labor's API.
@@ -90,7 +90,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.6
-  delta: -0.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -98,14 +98,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 25.1
+  previous_composite: 24.6
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -119,8 +119,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/maxima/refs/heads/main/screenshots/maxima-2026-07-25T230449.png
 security:
 - kind: domain-security
   name: Maxima Domain Security

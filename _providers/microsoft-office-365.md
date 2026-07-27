@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -984,19 +984,19 @@ scopes:
   slug: microsoft-office-365-scopes
   summary_line: 18 scopes · authorizationCode/clientCredentials
 score:
-  band: strong
-  composite: 68.5
-  delta: 0.0
+  band: exemplar
+  composite: 71.9
+  delta: 3.4
   facets:
     commercial_clarity: 68.4
-    contract_quality: 70.8
+    contract_quality: 76.1
     developer_ergonomics: 69.6
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 68.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-365/refs/heads/main/screenshots/microsoft-office-365-2026-06-20T185511.png
 security:

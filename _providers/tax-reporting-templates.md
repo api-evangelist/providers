@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ plans:
 - name: Tax Reporting Templates Plans Pricing
   plan_count: 3
   slug: tax-reporting-templates-plans-pricing
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Tax Reporting Templates Rate Limits
@@ -149,18 +149,18 @@ rules:
   slug: tax-reporting-templates-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 48.5
+  delta: 1.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 63.7
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 47.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tax-reporting-templates/refs/heads/main/screenshots/tax-reporting-templates-2026-06-20T194932.png
 security:

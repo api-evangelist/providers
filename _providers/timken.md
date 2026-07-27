@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Interactive engineering tools for bearing selection, bearing life calculation, tolerance lookup, lubrication, gear force calculations, and precision bearing selection. Accessible through Timken's engi
@@ -157,7 +157,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 40.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/timken/refs/heads/main/screenshots/timken-2026-06-20T195401.png
 security:

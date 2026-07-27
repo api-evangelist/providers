@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 2
@@ -181,7 +181,7 @@ plans:
 - name: Sage Hr Plans Pricing
   plan_count: 6
   slug: sage-hr-plans-pricing
-random_paper: 16
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Sage Hr Rate Limits
@@ -197,18 +197,18 @@ rules:
   slug: sage-hr-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.8
-  delta: 0.0
+  composite: 51.4
+  delta: 2.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 53.2
+    contract_quality: 58.6
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 48.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sage-hr/refs/heads/main/screenshots/sage-hr-2026-06-20T193324.png
 security:

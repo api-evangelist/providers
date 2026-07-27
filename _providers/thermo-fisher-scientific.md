@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ press:
 - date: '2026-05-25'
   title: Thermo Fisher and NVIDIA Partner to Expand AI Driven ...
   url: https://www.chromatographyonline.com/view/thermo-fisher-and-nvidia-partner-to-expand-ai-driven-laboratory-automation
-random_paper: 46
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Thermo Fisher Scientific Rate Limits
@@ -202,23 +202,23 @@ rules:
   slug: thermo-fisher-scientific-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.5
-  delta: -0.3
+  composite: 41.3
+  delta: 2.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 57.6
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 34.2
     operational_transparency: 26.3
-  previous_composite: 38.8
+  previous_composite: 38.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/thermo-fisher-scientific/refs/heads/main/screenshots/thermo-fisher-scientific-2026-06-20T195253.png
 security:

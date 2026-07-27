@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 44.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -237,18 +237,18 @@ rules:
   slug: apache-event-mesh-spectral-rules
 score:
   band: developing
-  composite: 49.3
-  delta: 0.0
+  composite: 52.4
+  delta: 3.1
   facets:
     commercial_clarity: 39.5
-    contract_quality: 60.6
+    contract_quality: 65.2
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 78.9
     operational_transparency: 36.8
   previous_composite: 49.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-event-mesh/refs/heads/main/screenshots/apache-event-mesh-2026-06-20T172059.png
 security:

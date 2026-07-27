@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -122,7 +122,7 @@ arazzos:
 - description: Find a document by a GROQ key match and patch it, otherwise create it.
   name: Sanity Upsert Document
   slug: sanity-upsert-document-workflow
-artifact_total: 58
+artifact_total: 59
 asyncapis:
 - description: AsyncAPI specification for Sanity's GROQ-powered webhook surface. Sanity delivers event-driven HTTP callbacks when documents in a Content Lake dataset are created, updated, or deleted. Subscribers con
   name: Sanity GROQ-Powered Webhooks
@@ -345,6 +345,10 @@ jsonld:
   property_count: 12
   slug: sanity-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-30'
 name: Sanity
 nav: Providers
@@ -360,7 +364,7 @@ plans:
 - name: Sanity Plans Pricing
   plan_count: 3
   slug: sanity-plans-pricing
-random_paper: 1
+random_paper: 52
 rate_limits:
 - limit_count: 6
   name: Sanity Rate Limits
@@ -392,18 +396,18 @@ rules:
   slug: sanity-rules
 score:
   band: strong
-  composite: 63.5
-  delta: 0.0
+  composite: 67.7
+  delta: 4.2
   facets:
     commercial_clarity: 57.9
-    contract_quality: 73.2
+    contract_quality: 82.0
     developer_ergonomics: 60.9
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 65.8
     operational_transparency: 52.6
   previous_composite: 63.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sanity/refs/heads/main/screenshots/sanity-2026-06-20T193435.png
 security:

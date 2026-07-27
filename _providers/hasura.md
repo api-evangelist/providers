@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -76,7 +76,7 @@ apis:
 - description: The Version API from Hasura — 1 operation(s) for version.
   name: Hasura Version API
   slug: hasura-version-api
-artifact_total: 29
+artifact_total: 30
 asyncapis:
 - description: AsyncAPI definition for Hasura GraphQL Engine real-time subscriptions delivered over WebSocket at the `/v1/graphql` endpoint. Hasura supports two WebSocket subprotocols, negotiated via the `Sec-WebSoc
   name: Hasura GraphQL Subscriptions over WebSocket
@@ -319,6 +319,10 @@ graphqls:
   slug: hasura-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hasura.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-29'
 name: Hasura
 nav: Providers
@@ -350,18 +354,18 @@ rules:
   slug: hasura-asyncapi-spectral-rules
 score:
   band: strong
-  composite: 67.2
-  delta: 0.0
+  composite: 69.2
+  delta: 2.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 65.0
     developer_ergonomics: 58.7
-    discoverability: 42.5
+    discoverability: 62.5
     governance: 52.6
     operational_transparency: 78.9
   previous_composite: 67.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hasura/refs/heads/main/screenshots/hasura-2026-06-20T182534.png
 security:

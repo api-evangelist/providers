@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -101,7 +101,7 @@ overview: 'UnitedMasters is profiled on the [APIs.io](https://apis.io/) network.
 
 
   UnitedMasters'' developer surface includes support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 39
+random_paper: 56
 score:
   band: emerging
   composite: 19.0
@@ -115,7 +115,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 19.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

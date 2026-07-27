@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 81.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 2
@@ -264,7 +264,7 @@ plans:
 - name: Paymongo Plans Pricing
   plan_count: 4
   slug: paymongo-plans-pricing
-random_paper: 7
+random_paper: 58
 rate_limits:
 - limit_count: 2
   name: Paymongo Rate Limits
@@ -272,7 +272,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 73.5
-  delta: 0.8
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
     contract_quality: 66.0
@@ -280,14 +280,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 84.2
-  previous_composite: 72.7
+  previous_composite: 73.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

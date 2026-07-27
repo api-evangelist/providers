@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: The WTO flagship API providing programmatic access to a large number of statistical indicators related to WTO issues. Data covers merchandise trade and trade in services statistics (annual, quarterly,
@@ -105,7 +105,7 @@ plans:
 - name: Wto Plans Pricing
   plan_count: 1
   slug: wto-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Wto Rate Limits
@@ -113,7 +113,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.0
-  delta: -1.8
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -121,14 +121,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 24.8
+  previous_composite: 23.0
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wto/refs/heads/main/screenshots/wto-2026-06-20T201642.png
 security:

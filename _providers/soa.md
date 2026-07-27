@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Reference resources and tooling for SOA governance, service registries, and enterprise service management. Includes patterns for service discovery, versioning, SLA management, and policy enforcement i
@@ -118,7 +118,7 @@ plans:
 - name: Soa Plans Pricing
   plan_count: 3
   slug: soa-plans-pricing
-random_paper: 17
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Soa Rate Limits
@@ -145,7 +145,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 34.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/soa/refs/heads/main/screenshots/soa-2026-06-20T194116.png
 security:

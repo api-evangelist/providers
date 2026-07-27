@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 70.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 13
 apis:
 - description: Constructed historical order books for the T7 trading venues of Deutsche Börse Group (Eurex, Xetra) with nanosecond granularity, accessed over REST with bearer-token authentication.
@@ -233,11 +233,11 @@ overview: 'Deutsche Börse publishes 12 APIs on the [APIs.io](https://apis.io/) 
 
 
   Deutsche Börse''s developer surface includes changelog, API reference, getting-started guide, support, authentication, developer portal, documentation, and 28 more developer resources.'
-random_paper: 8
+random_paper: 42
 score:
   band: developing
   composite: 56.7
-  delta: 1.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 67.9
@@ -245,14 +245,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 54.8
+  previous_composite: 56.7
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/screenshots/deutsche-boerse-2026-07-22T202326.png
 security:

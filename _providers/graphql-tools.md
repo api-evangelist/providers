@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: A set of utilities for faster GraphQL development, enabling SDL-first schema building, type-safe resolver composition, schema stitching across multiple services, fine-grained mocking, and schema trans
@@ -85,7 +85,7 @@ overview: 'GraphQL Tools publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   GraphQL Tools'' developer surface includes documentation, pricing, and 7 more developer resources.'
-random_paper: 31
+random_paper: 65
 score:
   band: minimal
   composite: 12.5
@@ -99,7 +99,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 12.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphql-tools/refs/heads/main/screenshots/graphql-tools-2026-06-20T182340.png
 security:

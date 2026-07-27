@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 1
@@ -104,25 +104,25 @@ plans:
 - name: Littlehorse Plans Pricing
   plan_count: 3
   slug: littlehorse-plans-pricing
-random_paper: 26
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Littlehorse Rate Limits
   slug: littlehorse-rate-limits
 score:
   band: thin
-  composite: 30.0
-  delta: 0.0
+  composite: 32.0
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 50.4
     developer_ergonomics: 2.2
-    discoverability: 42.5
+    discoverability: 62.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 30.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/littlehorse/refs/heads/main/screenshots/littlehorse-2026-06-20T184611.png
 security:

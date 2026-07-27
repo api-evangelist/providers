@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -106,7 +106,7 @@ press:
 - date: '2026-03-05'
   title: Range an Official Partner for World Engineering Day
   url: https://www.rangeresources.com/range-resources-an-official-partner-for-world-engineering-day-for-sustainable-development-2026-an-international-day-proclaimed-by-unesco/
-random_paper: 27
+random_paper: 61
 score:
   band: minimal
   composite: 8.8
@@ -120,7 +120,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/range-resources/refs/heads/main/screenshots/range-resources-2026-06-20T192559.png
 security:

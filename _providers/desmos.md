@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Client-side JavaScript API for embedding interactive Desmos calculators (Graphing, 3D, Geometry, Scientific, Four-Function) into web pages and apps, controlled through a browser object model.
@@ -136,8 +136,9 @@ score:
     operational_transparency: 44.7
   previous_composite: 32.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/desmos/refs/heads/main/screenshots/desmos-2026-07-25T211755.png
 security:
 - kind: authentication
   name: Desmos Authentication

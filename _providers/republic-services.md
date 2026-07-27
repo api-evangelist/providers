@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -118,7 +118,7 @@ press:
 - date: '2026-05-25'
   title: 'Jon Vander Ark: AI is ''wildly oversold,'' but it can provide ...'
   url: https://www.wastedive.com/news/republic-services-jon-vander-ark-technology-initiatives-artificial-intelligence/748588/
-random_paper: 33
+random_paper: 67
 score:
   band: minimal
   composite: 14.2
@@ -132,7 +132,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/republic-services/refs/heads/main/screenshots/republic-services-2026-06-20T192914.png
 security:

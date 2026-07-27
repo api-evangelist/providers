@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ plans:
 - name: Schoology Plans Pricing
   plan_count: 1
   slug: schoology-plans-pricing
-random_paper: 14
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Schoology Rate Limits
@@ -157,19 +157,19 @@ scopes:
   slug: schoology-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: emerging
-  composite: 29.1
-  delta: 0.0
+  band: thin
+  composite: 32.3
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 48.8
     developer_ergonomics: 10.9
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 29.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

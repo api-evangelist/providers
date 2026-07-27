@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 6
@@ -207,18 +207,18 @@ rules:
   slug: wiremock-rules
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 50.8
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 46.3
+    contract_quality: 51.6
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 47.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wiremock/refs/heads/main/screenshots/wiremock-2026-06-20T201523.png
 security:

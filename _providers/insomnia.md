@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -157,18 +157,18 @@ rules:
   slug: insomnia-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.9
-  delta: 0.0
+  composite: 57.1
+  delta: 4.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 61.9
+    contract_quality: 70.8
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 47.4
   previous_composite: 52.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/insomnia/refs/heads/main/screenshots/insomnia-2026-06-20T183403.png
 security:

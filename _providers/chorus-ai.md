@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Read calls, meetings, emails and engagement metadata.
@@ -77,7 +77,7 @@ plans:
 - name: Chorus Ai Plans Pricing
   plan_count: 1
   slug: chorus-ai-plans-pricing
-random_paper: 40
+random_paper: 23
 rate_limits:
 - limit_count: 1
   name: Chorus Ai Rate Limits
@@ -95,7 +95,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 17.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chorus-ai/refs/heads/main/screenshots/chorus-ai-2026-06-20T174336.png
 security:

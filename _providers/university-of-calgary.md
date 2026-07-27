@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ plans:
 - name: University Of Calgary Plans Pricing
   plan_count: 2
   slug: university-of-calgary-plans-pricing
-random_paper: 22
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: University Of Calgary Rate Limits
@@ -225,7 +225,7 @@ rules:
 score:
   band: developing
   composite: 47.8
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 53.8
@@ -233,14 +233,14 @@ score:
     discoverability: 100.0
     governance: 86.8
     operational_transparency: 26.3
-  previous_composite: 47.4
+  previous_composite: 47.8
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 50.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-calgary/refs/heads/main/screenshots/university-of-calgary-2026-06-20T200144.png
 security:

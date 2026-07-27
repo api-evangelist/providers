@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 11
 common:
@@ -101,11 +101,11 @@ name: AXA
 nav: Providers
 network: true
 overview: AXA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Financial Services, and Asset Management.
-random_paper: 8
+random_paper: 42
 score:
   band: emerging
   composite: 16.4
-  delta: 4.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -113,14 +113,14 @@ score:
     discoverability: 55.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.0
+  previous_composite: 16.4
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axa/refs/heads/main/screenshots/axa-2026-06-20T172806.png
 security:

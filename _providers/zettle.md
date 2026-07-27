@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -171,7 +171,7 @@ plans:
 - name: Zettle Plans Pricing
   plan_count: 1
   slug: zettle-plans-pricing
-random_paper: 1
+random_paper: 52
 rate_limits:
 - limit_count: 6
   name: Zettle Rate Limits
@@ -193,7 +193,7 @@ scopes:
 score:
   band: developing
   composite: 55.0
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 65.5
@@ -201,14 +201,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
-  previous_composite: 54.3
+  previous_composite: 55.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zettle/refs/heads/main/screenshots/zettle-2026-06-20T201853.png
 security:

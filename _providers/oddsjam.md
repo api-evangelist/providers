@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -138,7 +138,7 @@ plans:
 - name: Oddsjam Plans Pricing
   plan_count: 3
   slug: oddsjam-plans-pricing
-random_paper: 24
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Oddsjam Rate Limits
@@ -154,18 +154,18 @@ rules:
   slug: oddsjam-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 42.9
-  delta: 0.0
+  composite: 44.9
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.4
     developer_ergonomics: 10.9
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 65.8
     operational_transparency: 36.8
   previous_composite: 42.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/oddsjam/refs/heads/main/screenshots/oddsjam-2026-06-20T190620.png
 security:

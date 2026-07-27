@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 371
   human_in_the_loop: 3
@@ -533,7 +533,7 @@ arazzos:
 - description: Place an order, read its status, then capture payment only once it is placed.
   name: Commerce Layer Place and Capture an Order
   slug: commerce-layer-place-and-capture-order-workflow
-artifact_total: 208
+artifact_total: 209
 collections:
 - collection_type: postman
   name: Commerce Layer API
@@ -980,6 +980,10 @@ jsonld:
   property_count: 9
   slug: commerce-layer-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server for Metrics API
+  slug: mcp-server-for-metrics-api
 modified: '2026-05-25'
 name: Commerce Layer
 nav: Providers
@@ -1011,23 +1015,23 @@ rules:
   slug: commerce-layer-jsonschema-spectral-rules
 score:
   band: exemplar
-  composite: 72.3
-  delta: -1.2
+  composite: 74.2
+  delta: 1.9
   facets:
     commercial_clarity: 92.1
-    contract_quality: 60.2
+    contract_quality: 69.1
     developer_ergonomics: 76.1
     discoverability: 67.5
     governance: 73.7
     operational_transparency: 71.1
-  previous_composite: 73.5
+  previous_composite: 72.3
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commerce-layer/refs/heads/main/screenshots/commerce-layer-2026-06-20T174813.png
 security:

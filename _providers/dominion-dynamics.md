@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -85,11 +85,11 @@ overview: 'Dominion Dynamics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Dominion Dynamics'' developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 28
+random_paper: 62
 score:
   band: minimal
   composite: 14.9
-  delta: 3.6
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -97,15 +97,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 11.3
+  previous_composite: 14.9
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 34.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dominion-dynamics/refs/heads/main/screenshots/dominion-dynamics-2026-07-25T212245.png
 security:
 - kind: domain-security
   name: Dominion Dynamics Domain Security

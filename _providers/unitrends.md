@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 47.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 11
 apis:
 - description: The Agents API from Unitrends — 1 operation(s) for agents.
@@ -176,7 +176,7 @@ overview: 'Unitrends publishes 11 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Unitrends'' developer surface includes authentication, engineering blog, support, documentation, pricing, and 19 more developer resources.'
-random_paper: 19
+random_paper: 36
 scopes:
 - name: Unitrends Scopes
   scope_count: 3
@@ -195,7 +195,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 42.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Enterprise reporting API that returns test and run analytics and raw test-result data from Cypress Cloud. Requests are HTTP GET with an organization API key passed as the token query parameter, and da
@@ -150,7 +150,7 @@ overview: 'Cypress.io publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Cypress.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 24
+random_paper: 41
 score:
   band: thin
   composite: 40.9
@@ -164,8 +164,9 @@ score:
     operational_transparency: 50.0
   previous_composite: 40.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cypressio/refs/heads/main/screenshots/cypressio-2026-07-25T211057.png
 security:
 - kind: authentication
   name: Cypressio Authentication

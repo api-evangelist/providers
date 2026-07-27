@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -117,25 +117,25 @@ plans:
 - name: Refuel Ai Plans Pricing
   plan_count: 3
   slug: refuel-ai-plans-pricing
-random_paper: 23
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Refuel Ai Rate Limits
   slug: refuel-ai-rate-limits
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 41.5
+  delta: 3.2
   facets:
     commercial_clarity: 47.4
     contract_quality: 61.9
     developer_ergonomics: 19.6
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 38.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

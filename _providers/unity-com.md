@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 19
 apis:
 - description: Player Authentication for Unity Gaming Services. Anonymous, social (Apple/Google/Facebook/Steam/Oculus/PlayStation/Xbox/Nintendo), username/password, and custom-ID sign-in flows that mint Unity player
@@ -321,7 +321,7 @@ plans:
 - name: Unity Plans Pricing
   plan_count: 8
   slug: unity-plans-pricing
-random_paper: 15
+random_paper: 49
 rate_limits:
 - limit_count: 0
   name: Unity Rate Limits
@@ -339,7 +339,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 43.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unity-com/refs/heads/main/screenshots/unity-com-2026-06-20T200110.png
 security:

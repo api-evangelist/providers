@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -234,19 +234,19 @@ rules:
   slug: us-abilityone-commission-spectral-rules
 score:
   band: developing
-  composite: 49.0
-  delta: 0.0
+  composite: 54.5
+  delta: 5.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 65.5
+    contract_quality: 74.3
     developer_ergonomics: 17.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 49.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-abilityone-commission/refs/heads/main/screenshots/us-abilityone-commission-2026-06-20T200541.png
 security:
 - kind: domain-security

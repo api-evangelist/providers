@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 35.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Zenskar's REST API for billing, contracts, usage metering, invoicing, payments, credit notes, and accounting/revenue recognition (166+ documented operations).
@@ -137,7 +137,7 @@ overview: 'Zenskar publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Zenskar''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 1
+random_paper: 18
 score:
   band: thin
   composite: 37.7
@@ -151,7 +151,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 37.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

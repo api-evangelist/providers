@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 0
@@ -202,7 +202,7 @@ apis:
 - description: Manage work items and queries
   name: Microsoft Work Items API
   slug: microsoft-work-items-api
-artifact_total: 129
+artifact_total: 130
 collections:
 - collection_type: open
   name: Microsoft Azure Cognitive Services API
@@ -438,6 +438,10 @@ jsonld:
   property_count: 8
   slug: microsoft-graph-context
 layout: provider
+mcp_servers:
+- description: Microsoft's remote MCP Server for Enterprise turns natural language into read-only Microsoft Graph queries over an Entra tenant, using delegated Entra permissions.
+  name: MCP Server for Enterprise
+  slug: mcp-server-for-enterprise
 modified: '2026-05-19'
 name: Microsoft
 nav: Providers
@@ -469,7 +473,7 @@ press:
 - date: '2026-05-25'
   title: Microsoft announces $5.5 billion spend and new ...
   url: https://news.microsoft.com/source/asia/2026/04/01/microsoft-announces-5-5-billion-spend-and-new-microsoft-elevate-programs-to-support-every-tertiary-student-educator-and-nonprofit-to-power-singapores-ai-future/
-random_paper: 13
+random_paper: 30
 rate_limits:
 - limit_count: 2
   name: Microsoft Rate Limits
@@ -489,19 +493,19 @@ scopes:
   slug: microsoft-scopes
   summary_line: 42 scopes · authorizationCode/clientCredentials
 score:
-  band: developing
-  composite: 56.5
-  delta: 0.0
+  band: strong
+  composite: 61.2
+  delta: 4.7
   facets:
     commercial_clarity: 71.1
-    contract_quality: 67.1
+    contract_quality: 75.9
     developer_ergonomics: 34.8
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 42.1
   previous_composite: 56.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png
 security:

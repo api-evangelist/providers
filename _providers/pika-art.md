@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Pika's official developer access is not hosted by Pika. Pika partnered with fal to serve its Pika 2.2 video models on fal's inference infrastructure, so the pika.art/api page hands developers off to f
@@ -74,7 +74,7 @@ plans:
 - name: Pika Art Plans Pricing
   plan_count: 4
   slug: pika-art-plans-pricing
-random_paper: 28
+random_paper: 45
 score:
   band: emerging
   composite: 18.9
@@ -88,7 +88,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: pika-art
 tags:

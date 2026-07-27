@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ press:
 - date: '2026-05-25'
   title: 2023 ANNUAL REPORT
   url: https://investors.sysco.com/~/media/Files/S/Sysco-IR/documents/annual-reports/Sysco_2023-Annual-Report_Web.pdf
-random_paper: 0
+random_paper: 17
 rate_limits:
 - limit_count: 1
   name: Sysco Rate Limits
@@ -189,18 +189,18 @@ rules:
   slug: sysco-rules
 score:
   band: developing
-  composite: 46.6
-  delta: 0.0
+  composite: 47.8
+  delta: 1.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 65.1
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 46.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

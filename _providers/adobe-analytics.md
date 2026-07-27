@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -116,7 +116,7 @@ arazzos:
 - description: Validate a gzip-compressed events file and upload it only when validation passes.
   name: Adobe Analytics Validate then Upload a Batch Events File
   slug: adobe-analytics-validate-then-upload-events-workflow
-artifact_total: 169
+artifact_total: 170
 asyncapis:
 - description: The Adobe Analytics Livestream API delivers real-time analytics hit data to a connected client as each hit is processed by Adobe Analytics servers. Data is streamed in line-delimited JSON format compr
   name: Adobe Analytics Livestream API
@@ -710,6 +710,10 @@ jsonld:
   property_count: 6
   slug: adobe-analytics-data-repair-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: adobe-analytics-mcp.yml
+  slug: adobe-analytics-mcpyml
 modified: '2026-06-20'
 name: Adobe Analytics
 nav: Providers
@@ -725,7 +729,7 @@ plans:
 - name: Adobe Analytics Plans Pricing
   plan_count: 3
   slug: adobe-analytics-plans-pricing
-random_paper: 41
+random_paper: 24
 rate_limits:
 - limit_count: 3
   name: Adobe Analytics Rate Limits
@@ -756,19 +760,19 @@ rules:
     warn: 1
   slug: adobe-analytics-spectral-rules
 score:
-  band: strong
-  composite: 68.2
-  delta: 0.0
+  band: exemplar
+  composite: 70.2
+  delta: 2.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 74.4
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 68.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adobe-analytics/refs/heads/main/screenshots/adobe-analytics-2026-06-20T164808.png
 security:

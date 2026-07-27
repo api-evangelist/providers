@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 44.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -149,25 +149,25 @@ plans:
 - name: Emailengine Plans Pricing
   plan_count: 3
   slug: emailengine-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Emailengine Rate Limits
   slug: emailengine-rate-limits
 score:
   band: thin
-  composite: 40.8
-  delta: 0.0
+  composite: 44.1
+  delta: 3.3
   facets:
     commercial_clarity: 71.1
     contract_quality: 41.6
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 39.5
   previous_composite: 40.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/emailengine/refs/heads/main/screenshots/emailengine-2026-06-20T180623.png
 security:

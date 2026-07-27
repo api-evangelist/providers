@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ plans:
 - name: Rippling Plans Pricing
   plan_count: 8
   slug: rippling-plans-pricing
-random_paper: 2
+random_paper: 53
 rate_limits:
 - limit_count: 4
   name: Rippling Rate Limits
@@ -242,18 +242,18 @@ rules:
   slug: rippling-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 58.3
-  delta: 0.0
+  composite: 59.1
+  delta: 0.8
   facets:
     commercial_clarity: 84.2
     contract_quality: 65.2
     developer_ergonomics: 32.6
-    discoverability: 55.0
+    discoverability: 62.5
     governance: 52.6
     operational_transparency: 52.6
   previous_composite: 58.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rippling/refs/heads/main/screenshots/rippling-2026-06-20T193125.png
 security:

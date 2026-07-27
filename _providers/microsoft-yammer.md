@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -149,18 +149,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: thin
-  composite: 40.0
-  delta: 0.0
+  composite: 43.2
+  delta: 3.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.3
     developer_ergonomics: 23.9
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 40.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-yammer/refs/heads/main/screenshots/microsoft-yammer-2026-06-20T185547.png
 security:

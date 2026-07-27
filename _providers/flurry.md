@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -113,7 +113,7 @@ overview: 'Flurry is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Flurry''s developer surface includes getting-started guide, support, engineering blog, signup flow, and 14 more developer resources.'
-random_paper: 13
+random_paper: 64
 score:
   band: emerging
   composite: 22.2
@@ -127,8 +127,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 22.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/flurry/refs/heads/main/screenshots/flurry-2026-07-25T214849.png
 security:
 - kind: domain-security
   name: Flurry Domain Security

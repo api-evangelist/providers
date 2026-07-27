@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 29.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: OAuth-protected Model Context Protocol server exposing Numeric's close-automation toolkit to AI agents. Streamable-HTTP MCP endpoint at api.numeric.io/mcp, guarded by OAuth 2.0 / OIDC (auth.numeric.io
@@ -114,7 +114,7 @@ overview: 'Numeric publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Numeric''s developer surface includes documentation, engineering blog, pricing, authentication, and 12 more developer resources.'
-random_paper: 41
+random_paper: 7
 scopes:
 - name: Numeric Scopes
   scope_count: 4
@@ -133,7 +133,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 26.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

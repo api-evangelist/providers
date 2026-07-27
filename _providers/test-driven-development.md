@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 1
@@ -188,7 +188,7 @@ plans:
 - name: Test Driven Development Plans Pricing
   plan_count: 3
   slug: test-driven-development-plans-pricing
-random_paper: 27
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Test Driven Development Rate Limits
@@ -204,18 +204,18 @@ rules:
   slug: test-driven-development-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.3
-  delta: 0.0
+  composite: 52.5
+  delta: 3.2
   facets:
     commercial_clarity: 47.4
     contract_quality: 58.4
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 49.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/test-driven-development/refs/heads/main/screenshots/test-driven-development-2026-06-20T195143.png
 security:

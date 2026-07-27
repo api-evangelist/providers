@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -222,7 +222,7 @@ plans:
 - name: Gutendex Plans Pricing
   plan_count: 2
   slug: gutendex-plans-pricing
-random_paper: 1
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Gutendex Rate Limits
@@ -246,19 +246,19 @@ rules:
   slug: gutendex-rules
 score:
   band: developing
-  composite: 49.1
-  delta: 0.0
+  composite: 54.5
+  delta: 5.4
   facets:
     commercial_clarity: 31.6
-    contract_quality: 64.6
+    contract_quality: 73.5
     developer_ergonomics: 30.4
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 49.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/gutendex/refs/heads/main/screenshots/gutendex-2026-06-20T182442.png
 security:
 - kind: domain-security

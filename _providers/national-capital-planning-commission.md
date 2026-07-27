@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ overview: 'National Capital Planning Commission is profiled on the [APIs.io](htt
 
 
   National Capital Planning Commission''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 46
+random_paper: 63
 score:
   band: minimal
   composite: 5.9
@@ -83,7 +83,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/national-capital-planning-commission/refs/heads/main/screenshots/national-capital-planning-commission-2026-06-20T190005.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 43.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'REST API for the Stairwell threat-intelligence platform: manage assets and forwarders, query object metadata/detonation/sightings/variants, manage and scan YARA rules, upload and correlate threat repo'
@@ -149,7 +149,7 @@ overview: 'Stairwell publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Stairwell''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 17 more developer resources.'
-random_paper: 14
+random_paper: 31
 score:
   band: thin
   composite: 37.8
@@ -163,7 +163,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 37.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

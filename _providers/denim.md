@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 61.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 10
@@ -176,11 +176,11 @@ overview: 'Denim publishes 6 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Denim''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 15
+random_paper: 49
 score:
   band: developing
   composite: 50.8
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 57.7
@@ -188,15 +188,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 50.2
+  previous_composite: 50.8
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/denim/refs/heads/main/screenshots/denim-2026-07-25T211718.png
 security:
 - kind: authentication
   name: Denim Authentication

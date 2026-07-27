@@ -8,6 +8,24 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 31.7
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -76,7 +94,22 @@ overview: 'PHP-FPM publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   PHP-FPM''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 3
+random_paper: 16
+score:
+  band: emerging
+  composite: 23.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 52.2
+    developer_ergonomics: 8.7
+    discoverability: 87.5
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 23.5
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/php-fpm/refs/heads/main/screenshots/php-fpm-2026-06-20T191655.png
 security:
 - kind: domain-security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Query the risk states of enrolled devices and override device risk classifications. JWT bearer auth (15-minute tokens) obtained from Application ID/Secret via HTTP Basic. Base host https://api.wandera
@@ -35,7 +35,7 @@ apis:
 - description: Obtain a bearer JWT from Application ID/Secret.
   name: Wandera Authentication API
   slug: wandera-authentication-api
-artifact_total: 8
+artifact_total: 9
 collections:
 - collection_type: postman
   name: RADAR Risk API
@@ -149,6 +149,10 @@ created: '2026-07-17'
 description: Wandera was a zero-trust mobile security company (backed by Bessemer Venture Partners and Sapphire Ventures) that Jamf acquired in July 2021 for approximately $400M. Its technology is now sold as Jamf Security Cloud (RADAR), providing mobile threat defense, Zero Trust Network Access (ZTNA), and data policy for mobile and desktop fleets. Wandera exposes a REST Risk API on the api.wandera.com host — documented on the Jamf Developer portal — that lets security integrations query the risk state of enrolled devices and override device risk classifications, using a short-lived JWT obtained from an Application ID/Secret pair.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wandera.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: wandera-mcp.yml
+  slug: wandera-mcpyml
 modified: '2026-07-21'
 name: Wandera
 nav: Providers
@@ -157,25 +161,25 @@ overview: 'Wandera publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Wandera''s developer surface includes documentation, API reference, support, authentication, and 22 more developer resources.'
-random_paper: 24
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: Wandera Rate Limits
   slug: wandera-rate-limits
 score:
   band: thin
-  composite: 38.3
-  delta: 0.0
+  composite: 41.6
+  delta: 3.3
   facets:
     commercial_clarity: 15.8
     contract_quality: 60.2
     developer_ergonomics: 50.0
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 38.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

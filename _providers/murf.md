@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: medium
-  generated: '2026-07-22'
   label: Freemium (free trial)
-  method: derived
   onboarding: unknown
   pricing: freemium
   public: false
@@ -11,17 +9,158 @@ access_model:
   - plans
   trial: true
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 8
+  human_in_the_loop: 0
+  name: Murf Agentic Access
+  operation_count: 14
+  slug: murf-agentic-access
+  summary_line: 14 operations · 8 acting
 api_count: 7
-artifact_total: 0
+apis:
+- description: The subpackage_auth API from Murf — 1 operation(s) for subpackage_auth.
+  name: Murf subpackage_auth API
+  slug: murf-subpackage-auth-api
+- description: The subpackage_dubbing.subpackage_dubbing/jobs API from Murf — 3 operation(s) for subpackage_dubbing.subpackage_dubbing/jobs.
+  name: Murf subpackage_dubbing.subpackage_dubbing/jobs API
+  slug: murf-subpackage-dubbing-subpackage-dubbing-jobs-api
+- description: The subpackage_dubbing.subpackage_dubbing/languages API from Murf — 2 operation(s) for subpackage_dubbing.subpackage_dubbing/languages.
+  name: Murf subpackage_dubbing.subpackage_dubbing/languages API
+  slug: murf-subpackage-dubbing-subpackage-dubbing-languages-api
+- description: The subpackage_dubbing.subpackage_dubbing/projects API from Murf — 3 operation(s) for subpackage_dubbing.subpackage_dubbing/projects.
+  name: Murf subpackage_dubbing.subpackage_dubbing/projects API
+  slug: murf-subpackage-dubbing-subpackage-dubbing-projects-api
+- description: The subpackage_text API from Murf — 1 operation(s) for subpackage_text.
+  name: Murf subpackage_text API
+  slug: murf-subpackage-text-api
+- description: The subpackage_textToSpeech API from Murf — 3 operation(s) for subpackage_texttospeech.
+  name: Murf subpackage_textToSpeech API
+  slug: murf-subpackage-texttospeech-api
+- description: The subpackage_voiceChanger API from Murf — 1 operation(s) for subpackage_voicechanger.
+  name: Murf subpackage_voiceChanger API
+  slug: murf-subpackage-voicechanger-api
+artifact_total: 14
+collections:
+- collection_type: open
+  name: API Reference
+  slug: open-murf
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/murf-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/murf-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/murf-domain-security.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/murf-ai
+- group: company
+  title: ''
+  type: Website
+  url: https://murf.ai/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://murf.ai/api/docs/introduction/overview
+- group: docs
+  title: ''
+  type: OpenAPI
+  url: openapi/murf-openapi.yml
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/murf-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/murf-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/murf-finops.yml
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://murf.ai/llms.txt
+- group: company
+  title: ''
+  type: Blog
+  url: https://murf.ai/blog
 created: '2026-05-08'
 description: Murf is an AI voice generation platform offering studio-quality voiceovers in 20+ languages with 130+ voices. Public APIs include Falcon TTS (ultra-fast streaming), Text-to-Speech Gen 2 (studio quality), Dubbing, Voice Changer, Translation, and Voice Isolator. The Murf API is REST-based at https://api.murf.ai with regional alternatives (us-east, us-west, in, global). OpenAPI 3.1 published.
+finops:
+- name: Murf Finops
+  service_category: AI
+  slug: murf-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/murf.png
 layout: provider
 modified: '2026-05-19'
 name: Murf
 nav: Providers
 network: true
+overview: 'Murf publishes 7 APIs on the [APIs.io](https://apis.io/) network, including subpackage_auth API, subpackage_dubbing.subpackage_dubbing/jobs API, subpackage_dubbing.subpackage_dubbing/languages API, and 4 more. Tagged areas include AI, Voice, TTS, Voiceover, and Dubbing.
+
+
+  Murf''s developer surface includes documentation, engineering blog, and 10 more developer resources.'
+plans:
+- name: Murf Plans Pricing
+  plan_count: 3
+  slug: murf-plans-pricing
 random_paper: 34
+rate_limits:
+- limit_count: 4
+  name: Murf Rate Limits
+  slug: murf-rate-limits
+score:
+  band: thin
+  composite: 37.6
+  delta: 3.2
+  facets:
+    commercial_clarity: 47.4
+    contract_quality: 47.4
+    developer_ergonomics: 10.9
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 34.4
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/murf/refs/heads/main/screenshots/murf-2026-06-20T185902.png
+security:
+- kind: domain-security
+  name: Murf Domain Security
+  slug: murf-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+- kind: trust-center
+  name: Murf Trust Center
+  slug: murf-trust-center
+  summary_line: SOC 2, ISO 27001, GDPR, FIPS 140
 slug: murf
 tags:
 - AI
@@ -31,4 +170,5 @@ tags:
 - Dubbing
 - Audio
 - Realtime
+website: https://murf.ai/
 ---

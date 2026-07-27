@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 55.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -204,7 +204,7 @@ plans:
 - name: Open Policy Agent Plans Pricing
   plan_count: 1
   slug: open-policy-agent-plans-pricing
-random_paper: 24
+random_paper: 7
 rate_limits:
 - limit_count: 1
   name: Open Policy Agent Rate Limits
@@ -220,18 +220,18 @@ rules:
   slug: open-policy-agent-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 51.5
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 51.8
+    contract_quality: 57.1
     developer_ergonomics: 41.3
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 48.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-policy-agent/refs/heads/main/screenshots/open-policy-agent-2026-06-20T190852.png
 security:

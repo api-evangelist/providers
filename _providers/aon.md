@@ -8,6 +8,24 @@ access_model:
   source: []
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 0.0
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Aon Insights publishes research, reports, and the "On Aon" podcast across Trade, Technology, Weather, and Workforce themes, framed by "From navigating climate change to workforce resilience, today's l
@@ -95,7 +113,27 @@ overview: 'Aon publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Aon''s developer surface includes YouTube channel and 16 more developer resources.'
-random_paper: 3
+random_paper: 46
+score:
+  band: minimal
+  composite: 10.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 0.0
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 0.0
+  previous_composite: 10.7
+  regulatory:
+    applies: true
+    regime: Health
+    regime_id: health
+    score: 26.1
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aon/refs/heads/main/screenshots/aon-2026-06-20T172037.png
 security:
 - kind: domain-security

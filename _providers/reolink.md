@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 65
   human_in_the_loop: 4
@@ -176,7 +176,7 @@ plans:
 - name: Reolink Plans Pricing
   plan_count: 3
   slug: reolink-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Reolink Rate Limits
@@ -200,18 +200,18 @@ rules:
   slug: reolink-rules
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 51.5
+  delta: 4.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.9
+    contract_quality: 70.8
     developer_ergonomics: 17.4
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 47.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reolink/refs/heads/main/screenshots/reolink-2026-06-20T192902.png
 security:

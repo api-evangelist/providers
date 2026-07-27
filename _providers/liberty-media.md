@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -94,7 +94,7 @@ press:
 - date: '2026-04-20'
   title: Liberty Media Corporation Announces First Quarter Earnings Release and Conference Call
   url: https://www.libertymedia.com/news/detail/582/liberty-media-corporation-announces-first-quarter-earnings
-random_paper: 45
+random_paper: 28
 score:
   band: minimal
   composite: 7.2
@@ -108,7 +108,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/liberty-media/refs/heads/main/screenshots/liberty-media-2026-06-20T184457.png
 security:

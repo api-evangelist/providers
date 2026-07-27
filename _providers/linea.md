@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -200,7 +200,7 @@ plans:
 - name: Linea Plans
   plan_count: 8
   slug: linea-plans
-random_paper: 11
+random_paper: 45
 rate_limits:
 - limit_count: 10
   name: Linea Rate Limits
@@ -227,7 +227,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 56.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/linea/refs/heads/main/screenshots/linea-2026-06-20T184539.png
 security:

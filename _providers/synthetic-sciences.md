@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 42.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The direct HTTP API behind the Atlas CLI — the research graph, Library, runs, evidence, compute, and research surfaces. Bearer (thk_*) auth; JSON responses; Idempotency-Key on writes. Base https://app
@@ -160,7 +160,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 30.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

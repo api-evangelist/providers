@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 5
@@ -489,7 +489,7 @@ plans:
 - name: Typesense Plans Pricing
   plan_count: 5
   slug: typesense-plans-pricing
-random_paper: 23
+random_paper: 40
 rate_limits:
 - limit_count: 3
   name: Typesense Rate Limits
@@ -505,18 +505,18 @@ rules:
   slug: typesense-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 57.3
-  delta: 0.0
+  composite: 59.3
+  delta: 2.0
   facets:
     commercial_clarity: 71.1
     contract_quality: 67.3
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 57.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/typesense/refs/heads/main/screenshots/typesense-2026-06-20T195907.png
 security:

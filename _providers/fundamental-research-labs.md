@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ plans:
 - name: Fundamental Research Labs Plans
   plan_count: 4
   slug: fundamental-research-labs-plans
-random_paper: 21
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Fundamental Research Labs Rate Limits
@@ -221,8 +221,9 @@ score:
     operational_transparency: 60.5
   previous_composite: 63.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fundamental-research-labs/refs/heads/main/screenshots/fundamental-research-labs-2026-07-25T215308.png
 security:
 - kind: authentication
   name: Fundamental Research Labs Authentication

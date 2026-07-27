@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -70,11 +70,11 @@ press:
 - date: '2026-05-25'
   title: 'Future of Life Insurance: AI, Service Innovation & Client ...'
   url: https://www.youtube.com/watch?v=TgrIYJFyZ34
-random_paper: 15
+random_paper: 32
 score:
   band: minimal
   composite: 8.6
-  delta: 3.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -82,14 +82,14 @@ score:
     discoverability: 55.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 5.5
+  previous_composite: 8.6
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/penn-mutual-life-insurance/refs/heads/main/screenshots/penn-mutual-life-insurance-2026-06-20T191541.png
 security:

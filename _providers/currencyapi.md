@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -133,26 +133,27 @@ plans:
 - name: Currencyapi Plans Pricing
   plan_count: 5
   slug: currencyapi-plans-pricing
-random_paper: 16
+random_paper: 33
 rate_limits:
 - limit_count: 6
   name: Currencyapi Rate Limits
   slug: currencyapi-rate-limits
 score:
-  band: thin
-  composite: 42.2
-  delta: 0.0
+  band: developing
+  composite: 45.5
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 61.9
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 42.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/currencyapi/refs/heads/main/screenshots/currencyapi-2026-07-25T210945.png
 security:
 - kind: authentication
   name: Currencyapi Authentication

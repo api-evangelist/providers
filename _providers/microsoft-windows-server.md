@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -563,7 +563,7 @@ plans:
 - name: Microsoft Windows Server Plans Pricing
   plan_count: 5
   slug: microsoft-windows-server-plans-pricing
-random_paper: 15
+random_paper: 66
 rate_limits:
 - limit_count: 4
   name: Microsoft Windows Server Rate Limits
@@ -586,19 +586,19 @@ rules:
     warn: 8
   slug: microsoft-windows-server-spectral-rules
 score:
-  band: developing
-  composite: 58.6
-  delta: 0.0
+  band: strong
+  composite: 60.6
+  delta: 2.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 65.5
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 57.9
   previous_composite: 58.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-windows-server/refs/heads/main/screenshots/microsoft-windows-server-2026-06-20T185546.png
 security:

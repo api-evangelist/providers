@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -185,7 +185,7 @@ overview: 'Cello publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Cello''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 17
+random_paper: 51
 score:
   band: developing
   composite: 52.0
@@ -199,8 +199,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 52.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cello/refs/heads/main/screenshots/cello-2026-07-25T204908.png
 security:
 - kind: authentication
   name: Cello Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: WabtecONE is Wabtec's digital intelligence platform enabling railroads and industrial operators to connect embedded devices and transmit operational data to the cloud for analysis. The platform provid
@@ -126,7 +126,7 @@ press:
 - date: '2026-05-25'
   title: Westinghouse Air Brake Technologies Corp (NYSE:WAB) ...
   url: https://www.proactiveinvestors.com/NYSE:WAB/Westinghouse-Air-Brake-Technologies-Corp
-random_paper: 50
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Westinghouse Air Brake Technologies Rate Limits
@@ -153,7 +153,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 38.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/westinghouse-air-brake-technologies/refs/heads/main/screenshots/westinghouse-air-brake-technologies-2026-06-20T201407.png
 security:

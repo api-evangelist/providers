@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: REST API for retrieving service level objective status, error budget consumption, and reliability metrics programmatically. Authentication uses a Nobl9 access token.
@@ -88,7 +88,7 @@ overview: 'Nobl9 publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Nobl9''s developer surface includes documentation, pricing, signup flow, and 7 more developer resources.'
-random_paper: 25
+random_paper: 8
 score:
   band: emerging
   composite: 15.1
@@ -102,7 +102,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 15.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nobl9/refs/heads/main/screenshots/nobl9-2026-06-20T190350.png
 security:

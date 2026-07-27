@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -332,7 +332,7 @@ plans:
 - name: Kubernetes Services Plans Pricing
   plan_count: 1
   slug: kubernetes-services-plans-pricing
-random_paper: 4
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Kubernetes Services Rate Limits
@@ -356,18 +356,18 @@ rules:
   slug: kubernetes-services-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 52.5
-  delta: 0.0
+  composite: 55.8
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 77.9
+    contract_quality: 83.2
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 52.6
     operational_transparency: 42.1
   previous_composite: 52.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kubernetes-services/refs/heads/main/screenshots/kubernetes-services-2026-06-20T184207.png
 security:

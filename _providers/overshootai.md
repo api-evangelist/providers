@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 43.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -126,7 +126,7 @@ overview: 'overshoot.ai publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   overshoot.ai''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 30
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Overshootai Rate Limits
@@ -144,7 +144,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 38.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

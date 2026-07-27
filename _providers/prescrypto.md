@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 55.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -149,11 +149,11 @@ overview: 'Prescrypto publishes 8 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Prescrypto''s developer surface includes authentication, changelog, documentation, API reference, support, and 12 more developer resources.'
-random_paper: 44
+random_paper: 27
 score:
   band: thin
   composite: 38.8
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 7.9
     contract_quality: 64.6
@@ -161,14 +161,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 39.2
+  previous_composite: 38.8
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

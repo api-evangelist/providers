@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: The Drafts API from Sleeper — 6 operation(s) for drafts.
@@ -155,7 +155,7 @@ overview: 'Sleeper publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sleeper''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 38
+random_paper: 4
 score:
   band: thin
   composite: 41.3
@@ -169,7 +169,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

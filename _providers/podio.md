@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ overview: 'Podio publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Podio''s developer surface includes authentication, documentation, pricing, signup flow, and 10 more developer resources.'
-random_paper: 29
+random_paper: 63
 scopes:
 - name: Podio Scopes
   scope_count: 5
@@ -136,18 +136,18 @@ scopes:
   summary_line: 5 scopes · authorizationCode
 score:
   band: thin
-  composite: 30.5
-  delta: 0.0
+  composite: 33.8
+  delta: 3.3
   facets:
     commercial_clarity: 10.5
     contract_quality: 56.6
     developer_ergonomics: 23.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 30.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/podio/refs/heads/main/screenshots/podio-2026-06-20T191835.png
 security:

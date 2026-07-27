@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -186,7 +186,7 @@ overview: 'Ostrom publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Ostrom''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 13
+random_paper: 64
 score:
   band: developing
   composite: 54.5
@@ -200,7 +200,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 54.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

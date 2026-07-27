@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ plans:
 - name: Ternary Plans Pricing
   plan_count: 3
   slug: ternary-plans-pricing
-random_paper: 8
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Ternary Rate Limits
@@ -180,18 +180,18 @@ rules:
   slug: ternary-rules
 score:
   band: developing
-  composite: 50.5
-  delta: 0.0
+  composite: 52.5
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 68.1
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 50.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ternary/refs/heads/main/screenshots/ternary-2026-06-20T195129.png
 security:

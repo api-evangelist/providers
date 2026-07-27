@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 44.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: The Behavioral Assessments API from The Predictive Index — 1 operation(s) for behavioral assessments.
@@ -150,7 +150,7 @@ overview: 'The Predictive Index publishes 4 APIs on the [APIs.io](https://apis.i
 
 
   The Predictive Index''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 15 more developer resources.'
-random_paper: 29
+random_paper: 46
 score:
   band: developing
   composite: 51.2
@@ -164,7 +164,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 51.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

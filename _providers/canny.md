@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -154,21 +154,21 @@ overview: 'Canny publishes 15 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Canny''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 27
+random_paper: 61
 score:
-  band: emerging
-  composite: 28.4
-  delta: 0.0
+  band: thin
+  composite: 31.7
+  delta: 3.3
   facets:
     commercial_clarity: 10.5
     contract_quality: 47.8
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 28.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/canny/refs/heads/main/screenshots/canny-2026-06-20T173923.png
 security:

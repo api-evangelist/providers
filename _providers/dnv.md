@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ plans:
 - name: Dnv Plans Pricing
   plan_count: 2
   slug: dnv-plans-pricing
-random_paper: 22
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Dnv Rate Limits
@@ -190,18 +190,18 @@ scopes:
   summary_line: 1 scope · clientCredentials
 score:
   band: developing
-  composite: 56.6
-  delta: 0.0
+  composite: 59.8
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.3
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 42.1
   previous_composite: 56.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dnv/refs/heads/main/screenshots/dnv-2026-06-20T180105.png
 security:

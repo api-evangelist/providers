@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -318,7 +318,7 @@ overview: 'NOAA — National Oceanic and Atmospheric Administration publishes 13
 
 
   NOAA — National Oceanic and Atmospheric Administration''s developer surface includes authentication, developer portal, documentation, engineering blog, support, and 36 more developer resources.'
-random_paper: 27
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Noaa Gov Rate Limits
@@ -333,24 +333,24 @@ rules:
     warn: 3
   slug: noaa-gov-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 44.9
-  delta: 1.6
+  band: developing
+  composite: 47.7
+  delta: 2.8
   facets:
     commercial_clarity: 21.1
     contract_quality: 56.9
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 5.3
-  previous_composite: 43.3
+  previous_composite: 44.9
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

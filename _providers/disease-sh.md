@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -294,7 +294,7 @@ plans:
 - name: Plans
   plan_count: 1
   slug: plans
-random_paper: 29
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -311,7 +311,7 @@ rules:
 score:
   band: thin
   composite: 38.5
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 41.7
@@ -319,14 +319,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 5.3
-  previous_composite: 39.6
+  previous_composite: 38.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 32.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/disease-sh/refs/heads/main/screenshots/disease-sh-2026-06-20T180044.png
 security:

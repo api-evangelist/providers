@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -128,7 +128,7 @@ plans:
 - name: Gitlab Container Registry Plans Pricing
   plan_count: 3
   slug: gitlab-container-registry-plans-pricing
-random_paper: 19
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Gitlab Container Registry Rate Limits
@@ -148,19 +148,19 @@ scopes:
   slug: gitlab-container-registry-scopes
   summary_line: 1 scope · authorizationCode
 score:
-  band: thin
-  composite: 42.8
-  delta: 0.0
+  band: developing
+  composite: 46.1
+  delta: 3.3
   facets:
     commercial_clarity: 57.9
     contract_quality: 49.6
     developer_ergonomics: 28.3
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 13.2
     operational_transparency: 52.6
   previous_composite: 42.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitlab-container-registry/refs/heads/main/screenshots/gitlab-container-registry-2026-06-20T181850.png
 security:

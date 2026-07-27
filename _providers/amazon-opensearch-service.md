@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -278,7 +278,7 @@ plans:
 - name: Amazon Opensearch Service Plans Pricing
   plan_count: 3
   slug: amazon-opensearch-service-plans-pricing
-random_paper: 3
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Amazon Opensearch Service Rate Limits
@@ -302,18 +302,18 @@ rules:
   slug: amazon-opensearch-service-spectral-rules
 score:
   band: strong
-  composite: 65.0
-  delta: 0.0
+  composite: 69.6
+  delta: 4.6
   facets:
     commercial_clarity: 86.8
-    contract_quality: 67.3
+    contract_quality: 72.6
     developer_ergonomics: 54.3
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 65.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-opensearch-service/refs/heads/main/screenshots/amazon-opensearch-service-2026-06-20T171751.png
 security:

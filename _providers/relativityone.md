@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -237,7 +237,7 @@ plans:
 - name: Relativityone Plans Pricing
   plan_count: 1
   slug: relativityone-plans-pricing
-random_paper: 46
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: Relativityone Rate Limits
@@ -261,19 +261,19 @@ rules:
   slug: relativityone-rules
 score:
   band: developing
-  composite: 51.7
-  delta: 0.0
+  composite: 57.2
+  delta: 5.5
   facets:
     commercial_clarity: 36.8
-    contract_quality: 64.3
+    contract_quality: 73.2
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 42.1
   previous_composite: 51.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/relativityone/refs/heads/main/screenshots/relativityone-2026-06-20T192820.png
 security:
 - kind: authentication

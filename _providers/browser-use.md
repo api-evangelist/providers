@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 2
@@ -117,25 +117,25 @@ plans:
 - name: Browser Use Plans Pricing
   plan_count: 3
   slug: browser-use-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Browser Use Rate Limits
   slug: browser-use-rate-limits
 score:
   band: thin
-  composite: 34.1
-  delta: 0.0
+  composite: 36.1
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 51.3
     developer_ergonomics: 21.7
-    discoverability: 42.5
+    discoverability: 62.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 34.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/browser-use/refs/heads/main/screenshots/browser-use-2026-06-20T173722.png
 security:

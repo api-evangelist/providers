@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 5
 common:
@@ -87,7 +87,7 @@ plans:
 - name: Fanduel Plans Pricing
   plan_count: 1
   slug: fanduel-plans-pricing
-random_paper: 21
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Fanduel Rate Limits
@@ -105,7 +105,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 15.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fanduel/refs/heads/main/screenshots/fanduel-2026-06-20T181034.png
 security:

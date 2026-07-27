@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Later's social media scheduling and management platform providing visual content planning, scheduling, analytics, and influencer marketing capabilities across major social platforms.
@@ -106,7 +106,7 @@ plans:
 - name: Later Plans Pricing
   plan_count: 3
   slug: later-plans-pricing
-random_paper: 26
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Later Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 25.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/later/refs/heads/main/screenshots/later-2026-06-20T184327.png
 security:

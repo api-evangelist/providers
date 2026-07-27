@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ plans:
 - name: Anomaly Detection Plans Pricing
   plan_count: 3
   slug: anomaly-detection-plans-pricing
-random_paper: 23
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Anomaly Detection Rate Limits
@@ -209,18 +209,18 @@ rules:
   slug: anomaly-detection-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 52.2
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 65.8
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 48.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anomaly-detection/refs/heads/main/screenshots/anomaly-detection-2026-06-20T172012.png
 security:

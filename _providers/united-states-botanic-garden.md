@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 5
 common:
@@ -105,7 +105,7 @@ overview: 'United States Botanic Garden is profiled on the [APIs.io](https://api
 
 
   United States Botanic Garden''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 0
+random_paper: 17
 rules:
 - name: United States Botanic Garden API Rules
   rule_count: 5
@@ -128,7 +128,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/united-states-botanic-garden/refs/heads/main/screenshots/united-states-botanic-garden-2026-06-20T200050.png
 security:

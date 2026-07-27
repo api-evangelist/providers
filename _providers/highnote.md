@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 90.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -58,7 +58,7 @@ apis:
 - description: Register HTTPS webhook notification targets (addWebhookNotificationTarget), activate and deactivate them, and subscribe to event types (addSubscriptionsToNotificationTarget) so Highnote pushes account
   name: Highnote Webhooks & Event Notifications API
   slug: highnote-webhooks-api
-artifact_total: 16
+artifact_total: 17
 asyncapis:
 - description: Highnote delivers event notifications to registered HTTPS webhook notification targets (addWebhookNotificationTarget) via outbound POST. Subscribe a target to event types with addSubscriptionsToNotifi
   name: Highnote Event Notifications
@@ -245,6 +245,10 @@ graphqls:
   slug: highnote-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/highnote.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: highnote-mcp.yml
+  slug: highnote-mcpyml
 modified: '2026-07-23'
 name: Highnote
 nav: Providers
@@ -267,24 +271,24 @@ rate_limits:
   slug: highnote-rate-limits
 score:
   band: strong
-  composite: 65.5
-  delta: 30.9
+  composite: 68.3
+  delta: 2.8
   facets:
     commercial_clarity: 81.6
     contract_quality: 72.6
     developer_ergonomics: 73.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 73.7
-  previous_composite: 34.6
+  previous_composite: 65.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/screenshots/highnote-2026-06-20T182732.png
 security:
 - kind: authentication

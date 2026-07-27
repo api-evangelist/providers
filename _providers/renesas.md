@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -184,7 +184,7 @@ overview: 'Renesas publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Renesas'' developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 39
+random_paper: 5
 score:
   band: developing
   composite: 46.6
@@ -198,7 +198,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 46.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

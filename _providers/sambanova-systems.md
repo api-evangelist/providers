@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -210,7 +210,7 @@ overview: 'SambaNova Systems publishes 12 APIs on the [APIs.io](https://apis.io/
 
 
   SambaNova Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 4
+random_paper: 21
 rate_limits:
 - limit_count: 11
   name: Sambanova Systems Rate Limits
@@ -228,7 +228,7 @@ score:
     operational_transparency: 76.3
   previous_composite: 57.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

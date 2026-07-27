@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Retrieve daily EOD open/high/low/close, volume, turnover, unadjusted close, dividends and open interest as a Pandas DataFrame or NumPy array. Supports date ranges, record limits, weekly/monthly/quarte
@@ -73,11 +91,31 @@ plans:
 - name: Norgate Data Plans Pricing
   plan_count: 6
   slug: norgate-data-plans-pricing
-random_paper: 10
+random_paper: 51
 rate_limits:
 - limit_count: 4
   name: Norgate Data Rate Limits
   slug: norgate-data-rate-limits
+score:
+  band: emerging
+  composite: 19.1
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 87.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 19.1
+  regulatory:
+    applies: true
+    regime: Securities & Market Data
+    regime_id: securities_market_data
+    score: 0.0
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 slug: norgate-data
 tags:
 - Market Data

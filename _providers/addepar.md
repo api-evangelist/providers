@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 10.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: JSON:API-based REST API for portfolio management, transactions, positions, the ownership graph (entities/groups), attributes, benchmarks, files, jobs, billing, reporting, and administration on the Add
@@ -110,7 +110,7 @@ overview: 'Addepar publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Addepar''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, and 10 more developer resources.'
-random_paper: 7
+random_paper: 41
 rate_limits:
 - limit_count: 0
   name: Addepar Rate Limits
@@ -133,8 +133,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 27.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/addepar/refs/heads/main/screenshots/addepar-2026-07-25T181615.png
 security:
 - kind: authentication
   name: Addepar Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 217
   human_in_the_loop: 1
@@ -1094,7 +1094,7 @@ plans:
 - name: Mews Systems Plans Pricing
   plan_count: 5
   slug: mews-systems-plans-pricing
-random_paper: 6
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: Mews Systems Rate Limits
@@ -1119,7 +1119,7 @@ rules:
 score:
   band: strong
   composite: 68.5
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 78.9
     contract_quality: 63.3
@@ -1127,14 +1127,14 @@ score:
     discoverability: 67.5
     governance: 86.8
     operational_transparency: 52.6
-  previous_composite: 69.1
+  previous_composite: 68.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mews-systems/refs/heads/main/screenshots/mews-systems-2026-06-20T185318.png
 security:

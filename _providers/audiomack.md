@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -211,21 +211,21 @@ overview: 'Audiomack publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Audiomack''s developer surface includes authentication, developer portal, documentation, getting-started guide, code examples, support, signup flow, and 22 more developer resources.'
-random_paper: 24
+random_paper: 58
 score:
   band: thin
-  composite: 33.2
-  delta: 0.0
+  composite: 36.5
+  delta: 3.3
   facets:
     commercial_clarity: 21.1
     contract_quality: 51.5
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 33.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/audiomack/refs/heads/main/screenshots/audiomack-2026-06-20T172548.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 43.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: The Contracts API from Opereit — 3 operation(s) for contracts.
@@ -108,7 +108,7 @@ overview: 'Opereit publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Opereit''s developer surface includes documentation, API reference, getting-started guide, authentication, and 8 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: thin
   composite: 39.1
@@ -122,7 +122,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 39.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

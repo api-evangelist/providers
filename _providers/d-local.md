@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 62.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 1
@@ -613,7 +613,7 @@ plans:
 - name: D Local Plans Pricing
   plan_count: 5
   slug: d-local-plans-pricing
-random_paper: 5
+random_paper: 56
 rate_limits:
 - limit_count: 4
   name: D Local Rate Limits
@@ -637,23 +637,23 @@ rules:
   slug: d-local-rules
 score:
   band: strong
-  composite: 65.9
-  delta: -0.1
+  composite: 69.9
+  delta: 4.0
   facets:
     commercial_clarity: 68.4
-    contract_quality: 56.1
+    contract_quality: 64.9
     developer_ergonomics: 71.7
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 52.6
-  previous_composite: 66.0
+  previous_composite: 65.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/d-local/refs/heads/main/screenshots/d-local-2026-06-20T175421.png
 security:

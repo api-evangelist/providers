@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 1
@@ -184,25 +184,25 @@ plans:
 - name: Here Technologies Plans Pricing
   plan_count: 1
   slug: here-technologies-plans-pricing
-random_paper: 15
+random_paper: 49
 rate_limits:
 - limit_count: 2
   name: Here Technologies Rate Limits
   slug: here-technologies-rate-limits
 score:
   band: thin
-  composite: 31.8
-  delta: 0.0
+  composite: 35.1
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 47.8
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 31.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/here-technologies/refs/heads/main/screenshots/here-technologies-2026-06-20T182642.png
 security:

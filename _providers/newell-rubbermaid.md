@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -74,7 +74,7 @@ press:
 - date: '2026-05-25'
   title: Newell Brands Announces Global Productivity Plan to ...
   url: https://www.barchart.com/story/news/36384882/newell-brands-announces-global-productivity-plan-to-strengthen-competitiveness-and-deliver-greater-value-for-consumers
-random_paper: 11
+random_paper: 45
 score:
   band: minimal
   composite: 6.2
@@ -88,7 +88,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/newell-rubbermaid/refs/heads/main/screenshots/newell-rubbermaid-2026-06-20T190236.png
 security:

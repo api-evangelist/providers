@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -132,7 +132,7 @@ plans:
 - name: Instantdb Plans Pricing
   plan_count: 4
   slug: instantdb-plans-pricing
-random_paper: 49
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Instantdb Rate Limits
@@ -148,18 +148,18 @@ rules:
   slug: instantdb-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 48.2
-  delta: 0.0
+  composite: 51.5
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 68.8
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 60.5
     operational_transparency: 36.8
   previous_composite: 48.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/instantdb/refs/heads/main/screenshots/instantdb-2026-06-20T183415.png
 security:

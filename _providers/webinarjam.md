@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: REST API for managing WebinarJam live webinars, retrieving schedules, and registering attendees. Authenticated via an API key obtained after approval, transmitted in the request body over SSL.
@@ -94,7 +94,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/webinarjam/refs/heads/main/screenshots/webinarjam-2026-06-20T201333.png
 security:

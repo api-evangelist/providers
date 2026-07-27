@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 189
   human_in_the_loop: 8
@@ -688,18 +688,18 @@ rules:
   slug: viam-rules
 score:
   band: strong
-  composite: 64.3
-  delta: 0.0
+  composite: 67.7
+  delta: 3.4
   facets:
     commercial_clarity: 78.9
-    contract_quality: 63.7
+    contract_quality: 72.6
     developer_ergonomics: 60.9
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 64.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/viam/refs/heads/main/screenshots/viam-2026-06-20T201013.png
 security:

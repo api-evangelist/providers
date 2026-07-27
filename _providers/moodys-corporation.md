@@ -10,6 +10,24 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -197,7 +215,7 @@ plans:
 - name: Moodys Corporation Plans Pricing
   plan_count: 2
   slug: moodys-corporation-plans-pricing
-random_paper: 22
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Moodys Corporation Rate Limits
@@ -224,6 +242,21 @@ scopes:
   scope_count: 2
   slug: moodys-corporation-scopes
   summary_line: 2 scopes · clientCredentials
+score:
+  band: developing
+  composite: 45.4
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 68.8
+    developer_ergonomics: 21.7
+    discoverability: 100.0
+    governance: 26.3
+    operational_transparency: 5.3
+  previous_composite: 45.4
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Moodys Corporation Authentication

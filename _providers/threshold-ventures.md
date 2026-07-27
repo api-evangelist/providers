@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Threshold Ventures
 nav: Providers
 network: true
-random_paper: 23
+random_paper: 6
 slug: threshold-ventures
 tags:
 - Venture Capital

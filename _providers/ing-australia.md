@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ overview: 'ING Australia publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   ING Australia''s developer surface includes authentication, getting-started guide, documentation, API reference, support, and 17 more developer resources.'
-random_paper: 3
+random_paper: 37
 scopes:
 - name: Ing Australia Scopes
   scope_count: 10
@@ -172,7 +172,7 @@ scopes:
 score:
   band: developing
   composite: 45.5
-  delta: 5.4
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 54.2
@@ -180,15 +180,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 40.1
+  previous_composite: 45.5
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/screenshots/ing-australia-2026-07-21T114732.png
 security:
 - kind: authentication

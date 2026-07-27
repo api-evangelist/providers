@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 33.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Inbound custom webhook triggers that start Rewst workflows. An external system sends an HTTP request (method configured per trigger) to a per-trigger URL; the normalized payload ({body, headers, metho
@@ -165,7 +165,7 @@ overview: 'Rewst publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Rewst''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 4
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Rewst Rate Limits
@@ -183,7 +183,7 @@ score:
     operational_transparency: 39.5
   previous_composite: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

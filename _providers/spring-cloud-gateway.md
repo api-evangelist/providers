@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ plans:
 - name: Spring Cloud Gateway Plans Pricing
   plan_count: 3
   slug: spring-cloud-gateway-plans-pricing
-random_paper: 49
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Spring Cloud Gateway Rate Limits
@@ -173,18 +173,18 @@ rules:
   slug: spring-cloud-gateway-rules
 score:
   band: developing
-  composite: 47.2
-  delta: 0.0
+  composite: 50.5
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 52.5
+    contract_quality: 57.8
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 47.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/spring-cloud-gateway/refs/heads/main/screenshots/spring-cloud-gateway-2026-06-20T194410.png
 security:

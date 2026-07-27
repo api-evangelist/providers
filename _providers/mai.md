@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,7 +93,7 @@ overview: 'MAI is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   MAI''s developer surface includes pricing, signup flow, FAQ, and 10 more developer resources.'
-random_paper: 5
+random_paper: 39
 score:
   band: emerging
   composite: 17.3
@@ -107,8 +107,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/mai/refs/heads/main/screenshots/mai-2026-07-25T225907.png
 security:
 - kind: domain-security
   name: Mai Domain Security

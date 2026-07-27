@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Airgas provides industrial, medical, and specialty gases and related products. The Airgas online platform supports B2B ordering, account management, order tracking, digital proof of delivery, and supp
@@ -172,7 +172,7 @@ rules:
 score:
   band: thin
   composite: 39.0
-  delta: -2.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 20.8
@@ -180,15 +180,16 @@ score:
     discoverability: 92.5
     governance: 86.8
     operational_transparency: 31.6
-  previous_composite: 41.7
+  previous_composite: 39.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/airgas/refs/heads/main/screenshots/airgas-2026-07-25T195437.png
 security:
 - kind: domain-security
   name: Airgas Domain Security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 40
   human_in_the_loop: 5
@@ -246,11 +246,11 @@ overview: 'MV sistemas publishes 35 APIs on the [APIs.io](https://apis.io/) netw
 
 
   MV sistemas'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 14 more developer resources.'
-random_paper: 23
+random_paper: 57
 score:
   band: thin
   composite: 43.6
-  delta: 0.4
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 64.7
@@ -258,14 +258,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 7.9
-  previous_composite: 43.2
+  previous_composite: 43.6
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

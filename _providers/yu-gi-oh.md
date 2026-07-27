@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -282,7 +282,7 @@ overview: 'YGOPRODeck publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   YGOPRODeck''s developer surface includes documentation, pricing, tooling, and 14 more developer resources.'
-random_paper: 37
+random_paper: 3
 rules:
 - name: YGOPRODeck API Rules
   rule_count: 5
@@ -302,23 +302,23 @@ rules:
   slug: yu-gi-oh-rules
 score:
   band: thin
-  composite: 34.9
-  delta: -2.0
+  composite: 37.7
+  delta: 2.8
   facets:
     commercial_clarity: 10.5
     contract_quality: 63.4
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 0.0
-  previous_composite: 36.9
+  previous_composite: 34.9
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/yu-gi-oh/refs/heads/main/screenshots/yu-gi-oh-2026-06-20T201751.png
 security:

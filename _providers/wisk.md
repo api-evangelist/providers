@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -192,18 +192,18 @@ rules:
   slug: wisk-spectral-rules
 score:
   band: developing
-  composite: 53.6
-  delta: 0.0
+  composite: 58.2
+  delta: 4.6
   facets:
     commercial_clarity: 63.2
-    contract_quality: 66.4
+    contract_quality: 71.7
     developer_ergonomics: 26.1
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 21.1
   previous_composite: 53.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wisk/refs/heads/main/screenshots/wisk-2026-06-20T201524.png
 security:

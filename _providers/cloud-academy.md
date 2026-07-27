@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 4
@@ -171,7 +171,7 @@ overview: 'Cloud Academy publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Cloud Academy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 29
+random_paper: 12
 rate_limits:
 - limit_count: 0
   name: Cloud Academy Rate Limits
@@ -194,8 +194,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 45.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cloud-academy/refs/heads/main/screenshots/cloud-academy-2026-07-25T205650.png
 security:
 - kind: authentication
   name: Cloud Academy Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -273,7 +273,7 @@ plans:
 - name: Thoughtly Plans Pricing
   plan_count: 4
   slug: thoughtly-plans-pricing
-random_paper: 31
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Thoughtly Rate Limits
@@ -297,19 +297,19 @@ rules:
   slug: thoughtly-rules
 score:
   band: strong
-  composite: 60.7
-  delta: 0.0
+  composite: 66.2
+  delta: 5.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 59.3
+    contract_quality: 68.1
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 44.7
   previous_composite: 60.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/thoughtly/refs/heads/main/screenshots/thoughtly-2026-06-20T195315.png
 security:
 - kind: authentication

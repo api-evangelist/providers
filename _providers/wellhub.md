@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -166,7 +166,7 @@ overview: 'Wellhub publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Wellhub''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, signup flow, engineering blog, and 18 more developer resources.'
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Wellhub Rate Limits
@@ -174,7 +174,7 @@ rate_limits:
 score:
   band: developing
   composite: 50.9
-  delta: 2.6
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 54.2
@@ -182,14 +182,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 48.3
+  previous_composite: 50.9
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

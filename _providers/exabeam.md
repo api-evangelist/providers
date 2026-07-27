@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 13
 apis:
 - description: Manage users, roles, and permissions within the Exabeam platform.
@@ -195,7 +195,7 @@ overview: 'Exabeam publishes 13 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Exabeam''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 20 more developer resources.'
-random_paper: 9
+random_paper: 43
 scopes:
 - name: Exabeam Scopes
   scope_count: 3
@@ -214,8 +214,9 @@ score:
     operational_transparency: 47.4
   previous_composite: 38.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/exabeam/refs/heads/main/screenshots/exabeam-2026-07-25T213833.png
 security:
 - kind: authentication
   name: Exabeam Authentication

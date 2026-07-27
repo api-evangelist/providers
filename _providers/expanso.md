@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 1
@@ -151,7 +151,7 @@ overview: 'Expanso publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Expanso''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 16 more developer resources.'
-random_paper: 1
+random_paper: 18
 score:
   band: developing
   composite: 46.3
@@ -165,8 +165,9 @@ score:
     operational_transparency: 36.8
   previous_composite: 46.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/expanso/refs/heads/main/screenshots/expanso-2026-07-25T213913.png
 security:
 - kind: domain-security
   name: Expanso Domain Security

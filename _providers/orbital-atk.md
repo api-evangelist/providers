@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -70,7 +70,7 @@ press:
 - date: '2026-05-25'
   title: Northrop Grumman to Acquire Orbital ATK for $9.2 Billion
   url: https://kommunikasjon.ntb.no/pressemelding/15882142/northrop-grumman-to-acquire-orbital-atk-for-92-billion?publisherId=4954260
-random_paper: 43
+random_paper: 26
 score:
   band: minimal
   composite: 6.8
@@ -84,7 +84,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: orbital-atk
 tags:

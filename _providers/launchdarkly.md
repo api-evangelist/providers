@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -434,7 +434,7 @@ plans:
 - name: Launchdarkly Plans Pricing
   plan_count: 4
   slug: launchdarkly-plans-pricing
-random_paper: 7
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Launchdarkly Rate Limits
@@ -457,19 +457,19 @@ rules:
     warn: 4
   slug: launchdarkly-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 44.6
-  delta: 0.0
+  band: developing
+  composite: 47.1
+  delta: 2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 71.4
     developer_ergonomics: 13.0
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 60.5
     operational_transparency: 36.8
   previous_composite: 44.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/launchdarkly/refs/heads/main/screenshots/launchdarkly-2026-06-20T184335.png
 security:

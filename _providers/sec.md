@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ plans:
 - name: Sec Plans Pricing
   plan_count: 1
   slug: sec-plans-pricing
-random_paper: 9
+random_paper: 43
 rate_limits:
 - limit_count: 0
   name: Sec Rate Limits
@@ -196,7 +196,7 @@ rules:
 score:
   band: developing
   composite: 49.8
-  delta: -2.2
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 74.8
@@ -204,14 +204,14 @@ score:
     discoverability: 100.0
     governance: 86.8
     operational_transparency: 5.3
-  previous_composite: 52.0
+  previous_composite: 49.8
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sec/refs/heads/main/screenshots/sec-2026-06-20T193619.png
 security:

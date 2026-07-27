@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 1
@@ -568,7 +568,7 @@ plans:
 - name: Montran Plans Pricing
   plan_count: 1
   slug: montran-plans-pricing
-random_paper: 2
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Montran Rate Limits
@@ -589,23 +589,23 @@ scopes:
   summary_line: 2 scopes · authorizationCode
 score:
   band: developing
-  composite: 55.1
-  delta: 3.7
+  composite: 58.1
+  delta: 3.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.6
+    contract_quality: 73.5
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 21.1
-  previous_composite: 51.4
+  previous_composite: 55.1
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/montran/refs/heads/main/screenshots/montran-2026-06-20T185750.png
 security:

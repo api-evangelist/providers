@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -167,7 +167,7 @@ plans:
 - name: Synchrony Financial Plans Pricing
   plan_count: 1
   slug: synchrony-financial-plans-pricing
-random_paper: 45
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Synchrony Financial Rate Limits
@@ -191,23 +191,23 @@ rules:
   slug: synchrony-financial-rules
 score:
   band: developing
-  composite: 51.2
-  delta: 1.3
+  composite: 53.3
+  delta: 2.1
   facets:
     commercial_clarity: 39.5
     contract_quality: 67.3
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 21.1
-  previous_composite: 49.9
+  previous_composite: 51.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/screenshots/synchrony-financial-2026-06-20T194826.png
 security:

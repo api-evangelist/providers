@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 25
   human_in_the_loop: 0
@@ -203,7 +203,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 37
+random_paper: 20
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -211,7 +211,7 @@ rate_limits:
 score:
   band: thin
   composite: 44.7
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 59.5
@@ -219,14 +219,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 42.3
+  previous_composite: 44.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

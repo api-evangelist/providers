@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -109,7 +109,7 @@ overview: 'DoubleZero is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   DoubleZero''s developer surface includes documentation, engineering blog, support, CLI, and 13 more developer resources.'
-random_paper: 12
+random_paper: 63
 score:
   band: emerging
   composite: 17.4
@@ -123,8 +123,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 17.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/doublezero/refs/heads/main/screenshots/doublezero-2026-07-25T212328.png
 security:
 - kind: domain-security
   name: Doublezero Domain Security

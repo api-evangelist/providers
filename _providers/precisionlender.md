@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -81,11 +81,11 @@ overview: 'PrecisionLender is profiled on the [APIs.io](https://apis.io/) networ
 
 
   PrecisionLender''s developer surface includes documentation, support, and 8 more developer resources.'
-random_paper: 25
+random_paper: 42
 score:
   band: emerging
   composite: 16.7
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -93,14 +93,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 15.1
+  previous_composite: 16.7
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

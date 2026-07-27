@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -78,7 +78,7 @@ name: First Day Entertainment
 nav: Providers
 network: true
 overview: First Day Entertainment is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Games, Gaming, Artificial Intelligence, and Entertainment.
-random_paper: 20
+random_paper: 54
 score:
   band: minimal
   composite: 7.4
@@ -92,8 +92,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/first-day-entertainment/refs/heads/main/screenshots/first-day-entertainment-2026-07-25T214600.png
 security:
 - kind: domain-security
   name: First Day Entertainment Domain Security

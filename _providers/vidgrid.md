@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 81.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -174,7 +174,7 @@ overview: 'VidGrid publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   VidGrid''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 18 more developer resources.'
-random_paper: 31
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Vidgrid Rate Limits
@@ -192,7 +192,7 @@ score:
     operational_transparency: 34.2
   previous_composite: 46.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

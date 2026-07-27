@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -119,23 +119,23 @@ rate_limits:
   slug: british-columbia-data-catalogue-rate-limits
 score:
   band: emerging
-  composite: 27.5
-  delta: -2.5
+  composite: 29.2
+  delta: 1.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 45.1
     developer_ergonomics: 0.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 30.0
+  previous_composite: 27.5
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/british-columbia-data-catalogue/refs/heads/main/screenshots/british-columbia-data-catalogue-2026-06-20T173712.png
 security:

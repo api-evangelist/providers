@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -120,7 +120,7 @@ overview: 'Preply publishes 1 API on the [APIs.io](https://apis.io/) network: Ch
 
 
   Preply''s developer surface includes engineering blog, support, and 14 more developer resources.'
-random_paper: 5
+random_paper: 56
 score:
   band: emerging
   composite: 29.9
@@ -134,7 +134,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 29.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

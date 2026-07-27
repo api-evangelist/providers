@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: WABCO's fleet management and telematics capabilities, now delivered through ZF's Commercial Vehicle Control Systems division. Provides remote diagnostics, vehicle connectivity, real-time fleet trackin
@@ -102,7 +102,7 @@ press:
 - date: '2026-05-25'
   title: WABCO Holdings Inc. Business Report FY ended Dec. 2017
   url: https://www.marklines.com/en/top500/cf/s500_370_hl2017
-random_paper: 48
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Wabco Holdings Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 27.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wabco-holdings/refs/heads/main/screenshots/wabco-holdings-2026-06-20T201202.png
 security:

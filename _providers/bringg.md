@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 61.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 0
@@ -415,18 +415,18 @@ scopes:
   summary_line: 25 scopes · clientCredentials
 score:
   band: strong
-  composite: 61.7
-  delta: 0.0
+  composite: 66.4
+  delta: 4.7
   facets:
     commercial_clarity: 47.4
-    contract_quality: 72.4
+    contract_quality: 81.3
     developer_ergonomics: 47.8
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 65.8
     operational_transparency: 76.3
   previous_composite: 61.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bringg/refs/heads/main/screenshots/bringg-2026-06-20T173708.png
 security:

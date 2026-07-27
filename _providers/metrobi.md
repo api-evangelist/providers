@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -172,7 +172,7 @@ overview: 'Metrobi publishes 1 API on the [APIs.io](https://apis.io/) network: D
 
 
   Metrobi''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 20 more developer resources.'
-random_paper: 40
+random_paper: 6
 score:
   band: developing
   composite: 48.2
@@ -186,7 +186,7 @@ score:
     operational_transparency: 7.9
   previous_composite: 48.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

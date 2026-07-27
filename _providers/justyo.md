@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Read account/subscriber information.
@@ -113,7 +113,7 @@ overview: 'justyo publishes 2 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   justyo''s developer surface includes documentation, signup flow, authentication, and 12 more developer resources.'
-random_paper: 23
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Justyo Rate Limits
@@ -131,7 +131,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 37.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

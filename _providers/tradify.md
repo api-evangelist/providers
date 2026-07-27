@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -119,25 +119,25 @@ plans:
 - name: Tradify Plans Pricing
   plan_count: 5
   slug: tradify-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 3
   name: Tradify Rate Limits
   slug: tradify-rate-limits
 score:
   band: thin
-  composite: 36.6
-  delta: 0.0
+  composite: 38.6
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 53.1
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 36.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

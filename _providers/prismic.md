@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Prismic GraphQL API is a read-only endpoint that allows developers to perform deep and selective fetching of content documents from a Prismic repository. Each repository exposes its own GraphQL en
@@ -97,7 +97,7 @@ overview: 'Prismic publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Prismic''s developer surface includes engineering blog, documentation, pricing, and 9 more developer resources.'
-random_paper: 45
+random_paper: 11
 score:
   band: emerging
   composite: 15.8
@@ -111,7 +111,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 15.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prismic/refs/heads/main/screenshots/prismic-2026-06-20T192117.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -137,19 +137,19 @@ rate_limits:
   name: Microsoft Power Virtual Agents Rate Limits
   slug: microsoft-power-virtual-agents-rate-limits
 score:
-  band: thin
-  composite: 43.9
-  delta: 0.0
+  band: developing
+  composite: 45.9
+  delta: 2.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 49.6
     developer_ergonomics: 45.7
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 43.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-power-virtual-agents/refs/heads/main/screenshots/microsoft-power-virtual-agents-2026-06-20T185526.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: npm-compatible package registry API implemented by vsr, vlt's serverless registry. Exposes package publish/install endpoints (packuments, tarballs, dist-tags), user and token management, granular acce
@@ -179,7 +179,7 @@ plans:
 - name: Vlt Plans
   plan_count: 4
   slug: vlt-plans
-random_paper: 36
+random_paper: 2
 score:
   band: thin
   composite: 42.9
@@ -193,7 +193,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 42.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

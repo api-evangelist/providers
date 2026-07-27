@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -122,26 +122,27 @@ plans:
 - name: 46Elks Plans Pricing
   plan_count: 2
   slug: 46elks-plans-pricing
-random_paper: 27
+random_paper: 61
 rate_limits:
 - limit_count: 4
   name: 46Elks Rate Limits
   slug: 46elks-rate-limits
 score:
   band: thin
-  composite: 34.6
-  delta: 0.0
+  composite: 37.8
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 51.7
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 34.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/46elks/refs/heads/main/screenshots/46elks-2026-07-25T181206.png
 security:
 - kind: authentication
   name: 46Elks Authentication

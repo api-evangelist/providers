@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,11 +93,11 @@ overview: 'Finom is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Finom''s developer surface includes pricing, engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 27
+random_paper: 61
 score:
   band: emerging
   composite: 17.7
-  delta: 1.5
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 0.0
@@ -105,15 +105,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 16.2
+  previous_composite: 17.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/finom/refs/heads/main/screenshots/finom-2026-07-25T214540.png
 security:
 - kind: domain-security
   name: Finom Domain Security

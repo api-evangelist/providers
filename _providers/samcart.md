@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -121,30 +121,30 @@ plans:
 - name: Samcart Plans Pricing
   plan_count: 6
   slug: samcart-plans-pricing
-random_paper: 33
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Samcart Rate Limits
   slug: samcart-rate-limits
 score:
   band: thin
-  composite: 34.8
-  delta: -1.5
+  composite: 37.6
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.4
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 36.3
+  previous_composite: 34.8
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

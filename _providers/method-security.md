@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 75.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 3
@@ -216,11 +216,11 @@ overview: 'Method Security publishes 10 APIs on the [APIs.io](https://apis.io/) 
 
 
   Method Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, CLI, changelog, and 24 more developer resources.'
-random_paper: 44
+random_paper: 10
 score:
   band: developing
   composite: 56.2
-  delta: 3.9
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 58.2
@@ -228,14 +228,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 52.3
+  previous_composite: 56.2
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 55.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -402,20 +402,20 @@ rules:
     warn: 24
   slug: yelp-spectral-rules
 score:
-  band: strong
-  composite: 68.4
-  delta: 0.0
+  band: exemplar
+  composite: 73.8
+  delta: 5.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 73.5
+    contract_quality: 82.3
     developer_ergonomics: 69.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 68.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/yelp/refs/heads/main/screenshots/yelp-2026-06-20T201740.png
 security:
 - kind: authentication

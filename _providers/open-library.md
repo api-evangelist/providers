@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -162,23 +162,23 @@ rate_limits:
   slug: open-library-rate-limits
 score:
   band: thin
-  composite: 32.4
-  delta: -1.9
+  composite: 34.1
+  delta: 1.7
   facets:
     commercial_clarity: 50.0
     contract_quality: 42.3
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 34.3
+  previous_composite: 32.4
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-library/refs/heads/main/screenshots/open-library-2026-06-20T190844.png
 security:

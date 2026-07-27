@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -288,7 +288,7 @@ plans:
 - name: Tetrate Plans Pricing
   plan_count: 2
   slug: tetrate-plans-pricing
-random_paper: 47
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Tetrate Rate Limits
@@ -312,18 +312,18 @@ rules:
   slug: tetrate-service-bridge-rules
 score:
   band: developing
-  composite: 54.2
-  delta: 0.0
+  composite: 58.8
+  delta: 4.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 65.0
+    contract_quality: 70.3
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 42.1
   previous_composite: 54.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tetrate/refs/heads/main/screenshots/tetrate-2026-06-20T195201.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: The Rome2Rio Search API returns multi-modal door-to-door travel routes between any origin and destination worldwide. Given origin and destination as place names or coordinates, it returns a ranked lis
@@ -120,7 +120,7 @@ plans:
 - name: Rome2Rio Plans Pricing
   plan_count: 2
   slug: rome2rio-plans-pricing
-random_paper: 50
+random_paper: 67
 rate_limits:
 - limit_count: 4
   name: Rome2Rio Rate Limits
@@ -138,7 +138,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 30.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

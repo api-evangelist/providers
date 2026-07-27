@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Universiti Teknologi Malaysia Institutional Repository (UTM-IR) is built on EPrints and exposes an OAI-PMH 2.0 metadata harvesting endpoint at /cgi/oai2, as registered with ROAR, OpenDOAR, and She
@@ -102,7 +102,7 @@ plans:
 - name: Utm Plans Pricing
   plan_count: 2
   slug: utm-plans-pricing
-random_paper: 36
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Utm Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 25.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/utm/refs/heads/main/screenshots/utm-2026-06-20T200738.png
 security:

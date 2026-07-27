@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -152,7 +152,7 @@ plans:
 - name: Department Of The Treasury Plans Pricing
   plan_count: 1
   slug: department-of-the-treasury-plans-pricing
-random_paper: 39
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Department Of The Treasury Rate Limits
@@ -175,19 +175,19 @@ rules:
     warn: 0
   slug: treasury-rules
 score:
-  band: thin
-  composite: 42.7
-  delta: 0.0
+  band: developing
+  composite: 46.9
+  delta: 4.2
   facets:
     commercial_clarity: 28.9
-    contract_quality: 50.2
+    contract_quality: 59.1
     developer_ergonomics: 26.1
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 42.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/department-of-the-treasury/refs/heads/main/screenshots/department-of-the-treasury-2026-06-20T175925.png
 security:

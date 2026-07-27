@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Membership, subscription, library and course operations.
@@ -106,7 +106,7 @@ overview: 'Next Big Idea Club publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Next Big Idea Club''s developer surface includes support, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 30
+random_paper: 13
 scopes:
 - name: Next Big Idea Club Scopes
   scope_count: 4
@@ -125,7 +125,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 33.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 66.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -100,7 +100,7 @@ apis:
 - description: Manage builds uploaded to App Store Connect, including build metadata, processing state, and build relationships.
   name: Apple Builds API
   slug: apple-builds-api
-artifact_total: 158
+artifact_total: 159
 collections:
 - collection_type: open
   name: Apple App Store Connect API
@@ -557,6 +557,10 @@ jsonld:
   property_count: 9
   slug: apple-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Apple
 nav: Providers
@@ -588,7 +592,7 @@ press:
 - date: '2026-05-25'
   title: Joint statement from Google and Apple
   url: https://blog.google/company-news/inside-google/company-announcements/joint-statement-google-apple/
-random_paper: 20
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Apple Rate Limits
@@ -612,18 +616,18 @@ rules:
   slug: apple-spectral-rules
 score:
   band: strong
-  composite: 61.4
-  delta: 0.0
+  composite: 65.6
+  delta: 4.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 68.1
+    contract_quality: 77.0
     developer_ergonomics: 41.3
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 57.9
   previous_composite: 61.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apple/refs/heads/main/screenshots/apple-2026-06-20T172317.png
 security:

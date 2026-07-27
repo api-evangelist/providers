@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -131,7 +131,7 @@ plans:
 - name: 2020 Police Brutality Plans Pricing
   plan_count: 3
   slug: 2020-police-brutality-plans-pricing
-random_paper: 27
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: 2020 Police Brutality Rate Limits
@@ -155,24 +155,24 @@ rules:
   slug: 2020-police-brutality-spectral-rules
 score:
   band: thin
-  composite: 39.9
-  delta: -5.2
+  composite: 44.6
+  delta: 4.7
   facets:
     commercial_clarity: 39.5
-    contract_quality: 61.9
+    contract_quality: 70.8
     developer_ergonomics: 8.7
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 36.8
-  previous_composite: 45.1
+  previous_composite: 39.9
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 10.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: falling
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/2020-police-brutality/refs/heads/main/screenshots/2020-police-brutality-2026-06-20T162626.png
 slug: 2020-police-brutality
 tags:

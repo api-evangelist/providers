@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Milkman is an extensible request/response workbench for various protocols like HTTP, gRPC, GraphQL, WebSocket, Socket.IO, JDBC/SQL, Cassandra, and MCP. The plugin-based desktop application supports wo
@@ -86,7 +86,7 @@ plans:
 - name: Milkman Plans Pricing
   plan_count: 3
   slug: milkman-plans-pricing
-random_paper: 31
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Milkman Rate Limits
@@ -104,7 +104,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 24.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/milkman/refs/heads/main/screenshots/milkman-2026-06-20T185559.png
 slug: milkman

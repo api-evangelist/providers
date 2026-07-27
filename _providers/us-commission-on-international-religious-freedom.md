@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The US Commission on International Religious Freedom (USCIRF) is an independent, bipartisan federal government commission created by the International Religious Freedom Act of 1998 that monitors relig
@@ -146,7 +146,7 @@ plans:
 - name: Us Commission On International Religious Freedom Plans Pricing
   plan_count: 3
   slug: us-commission-on-international-religious-freedom-plans-pricing
-random_paper: 39
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Us Commission On International Religious Freedom Rate Limits
@@ -173,7 +173,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 41.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-commission-on-international-religious-freedom/refs/heads/main/screenshots/us-commission-on-international-religious-freedom-2026-06-20T200619.png
 security:

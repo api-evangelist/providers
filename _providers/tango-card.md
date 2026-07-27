@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ plans:
 - name: Tango Card Plans Pricing
   plan_count: 1
   slug: tango-card-plans-pricing
-random_paper: 23
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Tango Card Rate Limits
@@ -211,7 +211,7 @@ scopes:
 score:
   band: developing
   composite: 54.7
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 69.9
@@ -219,14 +219,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 42.1
-  previous_composite: 54.0
+  previous_composite: 54.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tango-card/refs/heads/main/screenshots/tango-card-2026-06-20T194915.png
 security:

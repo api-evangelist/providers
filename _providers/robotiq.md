@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,7 +81,7 @@ overview: 'Robotiq is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Robotiq''s developer surface includes documentation, support, engineering blog, and 7 more developer resources.'
-random_paper: 3
+random_paper: 20
 score:
   band: minimal
   composite: 13.9
@@ -95,7 +95,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 13.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

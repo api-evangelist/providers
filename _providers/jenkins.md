@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 66.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -62,7 +62,7 @@ arazzos:
 - description: Submit build parameters to a parameterized job, confirm it queued, and poll until it finishes.
   name: Jenkins Trigger a Parameterized Build and Await the Result
   slug: jenkins-trigger-parameterized-build-workflow
-artifact_total: 16
+artifact_total: 17
 collections:
 - collection_type: open
   name: Jenkins Remote Access API
@@ -216,6 +216,10 @@ finops:
   slug: jenkins-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jenkins.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: jenkins-mcp.yml
+  slug: jenkins-mcpyml
 modified: '2026-06-20'
 name: Jenkins
 nav: Providers
@@ -228,25 +232,25 @@ plans:
 - name: Jenkins Plans Pricing
   plan_count: 3
   slug: jenkins-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Jenkins Rate Limits
   slug: jenkins-rate-limits
 score:
   band: developing
-  composite: 49.6
-  delta: 0.0
+  composite: 51.6
+  delta: 2.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.3
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 57.9
   previous_composite: 49.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jenkins/refs/heads/main/screenshots/jenkins-2026-06-20T183720.png
 security:

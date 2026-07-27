@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -271,19 +271,19 @@ rules:
   slug: jobber-rules
 score:
   band: developing
-  composite: 54.3
-  delta: 0.0
+  composite: 59.7
+  delta: 5.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 66.4
+    contract_quality: 75.2
     developer_ergonomics: 39.1
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/jobber/refs/heads/main/screenshots/jobber-2026-06-20T183746.png
 security:
 - kind: authentication

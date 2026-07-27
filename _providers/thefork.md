@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -259,7 +259,7 @@ plans:
 - name: Thefork Plans Pricing
   plan_count: 1
   slug: thefork-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Thefork Rate Limits
@@ -287,20 +287,20 @@ scopes:
   slug: thefork-scopes
   summary_line: OAuth 2.0 · no documented scopes
 score:
-  band: developing
-  composite: 54.7
-  delta: 0.0
+  band: strong
+  composite: 60.1
+  delta: 5.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 71.7
+    contract_quality: 80.5
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 54.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/thefork/refs/heads/main/screenshots/thefork-2026-06-20T195245.png
 security:
 - kind: authentication

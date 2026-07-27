@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 34
 common:
@@ -148,7 +148,7 @@ press:
 - date: ''
   title: Wynn Partners with LinkedIn to Promote Talent Development ...
   url: https://www.newsroom.wynnresorts.com/en/wynnmacau/
-random_paper: 16
+random_paper: 67
 score:
   band: minimal
   composite: 11.0
@@ -162,7 +162,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wynn-resorts/refs/heads/main/screenshots/wynn-resorts-2026-06-20T201646.png
 security:

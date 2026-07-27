@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ plans:
 - name: Rockwell Factorytalk Plans Pricing
   plan_count: 1
   slug: rockwell-factorytalk-plans-pricing
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Rockwell Factorytalk Rate Limits
@@ -216,18 +216,18 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 51.2
-  delta: 0.0
+  composite: 54.4
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 74.2
     developer_ergonomics: 34.8
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 51.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockwell-factorytalk/refs/heads/main/screenshots/rockwell-factorytalk-2026-06-20T193201.png
 security:

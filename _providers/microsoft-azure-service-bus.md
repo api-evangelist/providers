@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -129,25 +129,25 @@ plans:
 - name: Microsoft Azure Service Bus Plans Pricing
   plan_count: 3
   slug: microsoft-azure-service-bus-plans-pricing
-random_paper: 48
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Service Bus Rate Limits
   slug: microsoft-azure-service-bus-rate-limits
 score:
   band: developing
-  composite: 50.8
-  delta: 0.0
+  composite: 54.0
+  delta: 3.2
   facets:
     commercial_clarity: 71.1
     contract_quality: 53.1
     developer_ergonomics: 52.2
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 50.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-service-bus/refs/heads/main/screenshots/microsoft-azure-service-bus-2026-06-20T185434.png
 security:

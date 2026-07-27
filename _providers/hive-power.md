@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: FLEXO's REST API mid-layer provides programmatic access to energy usage data, economic insights, notifications, and flexibility signals for custom integrations with distributed energy assets. Develope
@@ -103,8 +103,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 21.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hive-power/refs/heads/main/screenshots/hive-power-2026-07-25T221308.png
 security:
 - kind: domain-security
   name: Hive Power Domain Security

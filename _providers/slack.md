@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 145
   human_in_the_loop: 5
@@ -449,7 +449,7 @@ arazzos:
 - description: Fetch a user's profile, open a DM, and post a personalized greeting.
   name: Slack Look Up a User and Send a Personalized Greeting
   slug: slack-user-info-dm-greeting-workflow
-artifact_total: 267
+artifact_total: 268
 asyncapis:
 - description: The Slack Events API enables apps to respond to activities in Slack by subscribing to specific event types. Rather than polling for changes, apps receive HTTP POST payloads when subscribed events occu
   name: Slack Events API
@@ -1125,6 +1125,10 @@ jsonld:
   property_count: 0
   slug: slack-web-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Slack
 nav: Providers
@@ -1140,7 +1144,7 @@ plans:
 - name: Slack Plans Pricing
   plan_count: 4
   slug: slack-plans-pricing
-random_paper: 16
+random_paper: 50
 rate_limits:
 - limit_count: 6
   name: Slack Rate Limits
@@ -1176,19 +1180,19 @@ scopes:
   slug: slack-scopes
   summary_line: 13 scopes · authorizationCode
 score:
-  band: strong
-  composite: 68.4
-  delta: 0.0
+  band: exemplar
+  composite: 73.1
+  delta: 4.7
   facets:
     commercial_clarity: 68.4
-    contract_quality: 64.9
+    contract_quality: 73.8
     developer_ergonomics: 84.8
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 39.5
     operational_transparency: 86.8
   previous_composite: 68.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/slack/refs/heads/main/screenshots/slack-2026-06-20T165933.png
 security:

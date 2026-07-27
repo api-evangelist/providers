@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -90,7 +90,7 @@ name: Rivos
 nav: Providers
 network: true
 overview: Rivos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include AI Hardware, RISC-V, GPU, Accelerator, and Silicon.
-random_paper: 2
+random_paper: 19
 score:
   band: minimal
   composite: 6.8
@@ -104,7 +104,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rivos/refs/heads/main/screenshots/rivos-2026-06-20T193135.png
 security:

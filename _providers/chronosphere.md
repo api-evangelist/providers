@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: medium
-  generated: '2026-07-22'
   label: Freemium
-  method: derived
   onboarding: unknown
   pricing: freemium
   public: false
@@ -11,19 +9,227 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 92
+  human_in_the_loop: 0
+  name: Chronosphere Agentic Access
+  operation_count: 149
+  slug: chronosphere-agentic-access
+  summary_line: 149 operations · 92 acting
 api_count: 33
-artifact_total: 0
+apis:
+- description: Chronosphere is a cloud-native observability platform for managing and controlling observability data at scale.
+  name: Chronosphere
+  slug: chronosphere
+- description: The Bucket API from Chronosphere — 2 operation(s) for bucket.
+  name: Chronosphere Bucket API
+  slug: chronosphere-bucket-api
+- description: The ClassicDashboard API from Chronosphere — 2 operation(s) for classicdashboard.
+  name: Chronosphere ClassicDashboard API
+  slug: chronosphere-classicdashboard-api
+- description: The Collection API from Chronosphere — 2 operation(s) for collection.
+  name: Chronosphere Collection API
+  slug: chronosphere-collection-api
+- description: The Dashboard API from Chronosphere — 2 operation(s) for dashboard.
+  name: Chronosphere Dashboard API
+  slug: chronosphere-dashboard-api
+- description: The Dataset API from Chronosphere — 2 operation(s) for dataset.
+  name: Chronosphere Dataset API
+  slug: chronosphere-dataset-api
+- description: The DerivedLabel API from Chronosphere — 2 operation(s) for derivedlabel.
+  name: Chronosphere DerivedLabel API
+  slug: chronosphere-derivedlabel-api
+- description: The DerivedMetric API from Chronosphere — 2 operation(s) for derivedmetric.
+  name: Chronosphere DerivedMetric API
+  slug: chronosphere-derivedmetric-api
+- description: The DropRule API from Chronosphere — 2 operation(s) for droprule.
+  name: Chronosphere DropRule API
+  slug: chronosphere-droprule-api
+- description: The GcpMetricsIntegration API from Chronosphere — 2 operation(s) for gcpmetricsintegration.
+  name: Chronosphere GcpMetricsIntegration API
+  slug: chronosphere-gcpmetricsintegration-api
+- description: The GrafanaDashboard API from Chronosphere — 2 operation(s) for grafanadashboard.
+  name: Chronosphere GrafanaDashboard API
+  slug: chronosphere-grafanadashboard-api
+- description: The LogAllocationConfig API from Chronosphere — 1 operation(s) for logallocationconfig.
+  name: Chronosphere LogAllocationConfig API
+  slug: chronosphere-logallocationconfig-api
+- description: The LogIngestConfig API from Chronosphere — 1 operation(s) for logingestconfig.
+  name: Chronosphere LogIngestConfig API
+  slug: chronosphere-logingestconfig-api
+- description: The LogScaleAction API from Chronosphere — 2 operation(s) for logscaleaction.
+  name: Chronosphere LogScaleAction API
+  slug: chronosphere-logscaleaction-api
+- description: The LogScaleAlert API from Chronosphere — 2 operation(s) for logscalealert.
+  name: Chronosphere LogScaleAlert API
+  slug: chronosphere-logscalealert-api
+- description: The MappingRule API from Chronosphere — 2 operation(s) for mappingrule.
+  name: Chronosphere MappingRule API
+  slug: chronosphere-mappingrule-api
+- description: The Monitor API from Chronosphere — 2 operation(s) for monitor.
+  name: Chronosphere Monitor API
+  slug: chronosphere-monitor-api
+- description: The MutingRule API from Chronosphere — 2 operation(s) for mutingrule.
+  name: Chronosphere MutingRule API
+  slug: chronosphere-mutingrule-api
+- description: The NotificationPolicy API from Chronosphere — 2 operation(s) for notificationpolicy.
+  name: Chronosphere NotificationPolicy API
+  slug: chronosphere-notificationpolicy-api
+- description: The Notifier API from Chronosphere — 2 operation(s) for notifier.
+  name: Chronosphere Notifier API
+  slug: chronosphere-notifier-api
+- description: The OtelMetricsIngestion API from Chronosphere — 1 operation(s) for otelmetricsingestion.
+  name: Chronosphere OtelMetricsIngestion API
+  slug: chronosphere-otelmetricsingestion-api
+- description: The RecordingRule API from Chronosphere — 2 operation(s) for recordingrule.
+  name: Chronosphere RecordingRule API
+  slug: chronosphere-recordingrule-api
+- description: The ResourcePools API from Chronosphere — 1 operation(s) for resourcepools.
+  name: Chronosphere ResourcePools API
+  slug: chronosphere-resourcepools-api
+- description: The RollupRule API from Chronosphere — 2 operation(s) for rolluprule.
+  name: Chronosphere RollupRule API
+  slug: chronosphere-rolluprule-api
+- description: The Service API from Chronosphere — 1 operation(s) for service.
+  name: Chronosphere Service API
+  slug: chronosphere-service-api
+- description: The ServiceAccount API from Chronosphere — 2 operation(s) for serviceaccount.
+  name: Chronosphere ServiceAccount API
+  slug: chronosphere-serviceaccount-api
+- description: The SLO API from Chronosphere — 2 operation(s) for slo.
+  name: Chronosphere SLO API
+  slug: chronosphere-slo-api
+- description: The Team API from Chronosphere — 2 operation(s) for team.
+  name: Chronosphere Team API
+  slug: chronosphere-team-api
+- description: The TraceBehavior API from Chronosphere — 2 operation(s) for tracebehavior.
+  name: Chronosphere TraceBehavior API
+  slug: chronosphere-tracebehavior-api
+- description: The TraceBehaviorConfig API from Chronosphere — 1 operation(s) for tracebehaviorconfig.
+  name: Chronosphere TraceBehaviorConfig API
+  slug: chronosphere-tracebehaviorconfig-api
+- description: The TraceJaegerRemoteSamplingStrategy API from Chronosphere — 2 operation(s) for tracejaegerremotesamplingstrategy.
+  name: Chronosphere TraceJaegerRemoteSamplingStrategy API
+  slug: chronosphere-tracejaegerremotesamplingstrategy-api
+- description: The TraceMetricsRule API from Chronosphere — 2 operation(s) for tracemetricsrule.
+  name: Chronosphere TraceMetricsRule API
+  slug: chronosphere-tracemetricsrule-api
+- description: The TraceTailSamplingRules API from Chronosphere — 1 operation(s) for tracetailsamplingrules.
+  name: Chronosphere TraceTailSamplingRules API
+  slug: chronosphere-tracetailsamplingrules-api
+artifact_total: 40
+collections:
+- collection_type: open
+  name: Config V1 API
+  slug: open-chronosphere
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/chronosphere-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/chronosphere-trust-center.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/chronosphere-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/chronosphereio
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/chronosphereio
+- group: company
+  title: ''
+  type: Website
+  url: https://chronosphere.io
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.chronosphere.io
+- group: agent
+  title: ''
+  type: LlmsText
+  url: https://docs.chronosphere.io/llms.txt
+- group: company
+  title: ''
+  type: Blog
+  url: https://chronosphere.io/blog/
 created: '2026-03-27'
 description: Chronosphere is a cloud-native observability platform for managing and controlling observability data at scale.
+finops:
+- name: Chronosphere Finops
+  service_category: API
+  slug: chronosphere-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/chronosphere.png
 layout: provider
 modified: '2026-03-27'
 name: Chronosphere
 nav: Providers
 network: true
-random_paper: 21
+overview: 'Chronosphere publishes 32 APIs on the [APIs.io](https://apis.io/) network, including Bucket API, ClassicDashboard API, Collection API, and 29 more. Tagged areas include AIOps and Observability.
+
+
+  Chronosphere''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
+plans:
+- name: Chronosphere Plans Pricing
+  plan_count: 3
+  slug: chronosphere-plans-pricing
+random_paper: 4
+rate_limits:
+- limit_count: 5
+  name: Chronosphere Rate Limits
+  slug: chronosphere-rate-limits
+score:
+  band: thin
+  composite: 32.4
+  delta: 2.0
+  facets:
+    commercial_clarity: 47.4
+    contract_quality: 38.9
+    developer_ergonomics: 10.9
+    discoverability: 62.5
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 30.4
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/chronosphere/refs/heads/main/screenshots/chronosphere-2026-06-20T174330.png
+security:
+- kind: domain-security
+  name: Chronosphere Domain Security
+  slug: chronosphere-domain-security
+  summary_line: TLSv1.3 · DMARC
+- kind: trust-center
+  name: Chronosphere Trust Center
+  slug: chronosphere-trust-center
+  summary_line: SOC 2, ISO 27001, ISO 27017, ISO 27018, PCI DSS, HIPAA, FedRAMP, GDPR, CSA STAR
 slug: chronosphere
 tags:
 - AIOps
 - Observability
+website: https://chronosphere.io
 ---

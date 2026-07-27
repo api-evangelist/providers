@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 1
@@ -187,7 +187,7 @@ plans:
 - name: Sauce Labs Plans Pricing
   plan_count: 5
   slug: sauce-labs-plans-pricing
-random_paper: 23
+random_paper: 40
 rate_limits:
 - limit_count: 3
   name: Sauce Labs Rate Limits
@@ -214,7 +214,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 61.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sauce-labs/refs/heads/main/screenshots/sauce-labs-2026-06-20T193442.png
 security:

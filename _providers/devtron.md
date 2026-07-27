@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 63.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 0
@@ -229,7 +229,7 @@ overview: 'Devtron publishes 28 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Devtron''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 14 more developer resources.'
-random_paper: 5
+random_paper: 22
 score:
   band: developing
   composite: 47.7
@@ -243,8 +243,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 47.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/devtron/refs/heads/main/screenshots/devtron-2026-07-25T211825.png
 security:
 - kind: authentication
   name: Devtron Authentication

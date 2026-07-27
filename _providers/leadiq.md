@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -180,18 +180,18 @@ overview: 'LeadIQ publishes 1 API on the [APIs.io](https://apis.io/) network: Gr
 random_paper: 12
 score:
   band: thin
-  composite: 36.6
-  delta: 0.0
+  composite: 38.6
+  delta: 2.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 61.9
     developer_ergonomics: 34.8
-    discoverability: 60.0
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 10.5
   previous_composite: 36.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/leadiq/refs/heads/main/screenshots/leadiq-2026-06-20T184350.png
 security:

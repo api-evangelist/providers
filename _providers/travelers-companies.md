@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 21
 common:
@@ -185,11 +185,11 @@ overview: 'The Travelers Companies is profiled on the [APIs.io](https://apis.io/
 
 
   The The Travelers Companies catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 50
+random_paper: 16
 score:
   band: emerging
   composite: 22.1
-  delta: 3.3
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 15.1
@@ -197,14 +197,14 @@ score:
     discoverability: 67.5
     governance: 13.2
     operational_transparency: 5.3
-  previous_composite: 18.8
+  previous_composite: 22.1
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/travelers-companies/refs/heads/main/screenshots/travelers-companies-2026-06-20T195637.png
 security:

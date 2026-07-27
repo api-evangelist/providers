@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -101,23 +101,23 @@ rate_limits:
   slug: fema-rate-limits
 score:
   band: emerging
-  composite: 23.8
-  delta: -1.8
+  composite: 26.5
+  delta: 2.7
   facets:
     commercial_clarity: 0.0
     contract_quality: 52.2
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 25.6
+  previous_composite: 23.8
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

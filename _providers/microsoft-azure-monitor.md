@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 33
   human_in_the_loop: 0
@@ -713,7 +713,7 @@ plans:
 - name: Microsoft Azure Monitor Plans Pricing
   plan_count: 7
   slug: microsoft-azure-monitor-plans-pricing
-random_paper: 2
+random_paper: 19
 rate_limits:
 - limit_count: 8
   name: Microsoft Azure Monitor Rate Limits
@@ -733,19 +733,19 @@ scopes:
   slug: microsoft-azure-monitor-scopes
   summary_line: 4 scopes · clientCredentials
 score:
-  band: strong
-  composite: 68.6
-  delta: 0.0
+  band: exemplar
+  composite: 73.3
+  delta: 4.7
   facets:
     commercial_clarity: 84.2
-    contract_quality: 63.7
+    contract_quality: 72.6
     developer_ergonomics: 56.5
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 68.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-monitor/refs/heads/main/screenshots/microsoft-azure-monitor-2026-06-20T185425.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 68.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 6
@@ -544,7 +544,7 @@ plans:
 - name: Metamap Plans Pricing
   plan_count: 2
   slug: metamap-plans-pricing
-random_paper: 27
+random_paper: 61
 rate_limits:
 - limit_count: 0
   name: Metamap Rate Limits
@@ -568,18 +568,18 @@ rules:
   slug: metamap-rules
 score:
   band: strong
-  composite: 62.9
-  delta: 0.0
+  composite: 66.1
+  delta: 3.2
   facets:
     commercial_clarity: 57.9
     contract_quality: 69.1
     developer_ergonomics: 63.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 44.7
   previous_composite: 62.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metamap/refs/heads/main/screenshots/metamap-2026-06-20T185250.png
 security:

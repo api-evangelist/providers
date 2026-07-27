@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -195,7 +195,7 @@ plans:
 - name: Email Verifier Api Plans Pricing
   plan_count: 14
   slug: email-verifier-api-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Email Verifier Api Rate Limits
@@ -219,18 +219,18 @@ rules:
   slug: email-verifier-api-rules
 score:
   band: strong
-  composite: 60.0
-  delta: 0.0
+  composite: 64.6
+  delta: 4.6
   facets:
     commercial_clarity: 84.2
-    contract_quality: 70.8
+    contract_quality: 76.1
     developer_ergonomics: 32.6
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 60.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/email-verifier-api/refs/heads/main/screenshots/email-verifier-api-2026-06-20T180621.png
 security:

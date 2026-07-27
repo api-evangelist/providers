@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -169,7 +169,7 @@ overview: 'Price Lab publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   Price Lab''s developer surface includes authentication, documentation, API reference, engineering blog, support, signup flow, and 16 more developer resources.'
-random_paper: 12
+random_paper: 63
 score:
   band: thin
   composite: 41.4
@@ -183,7 +183,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 41.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

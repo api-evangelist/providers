@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -141,18 +141,18 @@ rate_limits:
   slug: kanban-rate-limits
 score:
   band: thin
-  composite: 34.3
-  delta: 0.0
+  composite: 36.3
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 41.6
     developer_ergonomics: 15.2
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 34.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kanban/refs/heads/main/screenshots/kanban-2026-06-20T183911.png
 security:

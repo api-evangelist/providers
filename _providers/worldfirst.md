@@ -1,0 +1,184 @@
+---
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: false
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 23.1
+  scored_at: '2026-07-27'
+api_count: 3
+apis:
+- description: The WorldFirst Enterprise Solution (World Account) API — a RESTful, JSON, signed-request interface covering customer onboarding, account and beneficiary management, statements, foreign exchange, trans
+  name: WorldFirst Enterprise Solution API
+  slug: worldfirst-enterprise-solution-api
+- description: 'The WorldFirst Pay Solution (Cashier Payment) API lets overseas e-commerce merchants accept payments through a hosted checkout: create a payment order, let the customer complete payment, inquire about'
+  name: WorldFirst Pay Solution API
+  slug: worldfirst-pay-solution-api
+- description: The WorldTrade Solution API supports cross-border trade transactions between partners and the WorldFirst platform — e.g. inquiryQuotes (FX quote lookup at /amsin/api/v1/payments/inquiryQuotes), create
+  name: WorldFirst WorldTrade Solution API
+  slug: worldfirst-worldtrade-solution-api
+artifact_total: 6
+asyncapis:
+- description: ''
+  name: Worldfirst Webhooks
+  slug: worldfirst-webhooks
+common:
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/worldfirst-domain-security.yml
+- group: company
+  title: ''
+  type: Website
+  url: https://www.worldfirst.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://developers.worldfirst.com/
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://developers.worldfirst.com/docs/alipay-worldfirst/overview/home
+- group: docs
+  title: ''
+  type: APIReference
+  url: https://developers.worldfirst.com/docs/alipay-worldfirst/overview/apis
+- group: start
+  title: ''
+  type: GettingStarted
+  url: https://developers.worldfirst.com/docs/alipay-worldfirst/cashier_payment/getting_started
+- group: commercial
+  title: ''
+  type: Pricing
+  url: https://www.worldfirst.com/uk/pricing/
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.worldfirst.com/uk/blog/
+- group: commercial
+  title: ''
+  type: TermsOfService
+  url: https://www.worldfirst.com/uk/terms-and-conditions/
+- group: commercial
+  title: ''
+  type: PrivacyPolicy
+  url: https://www.worldfirst.com/uk/privacy-policy/
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/world-first
+- group: start
+  title: ''
+  type: SignUp
+  url: https://portal.worldfirst.com/register?lang=en-GB&region=global
+- group: start
+  title: ''
+  type: Login
+  url: https://portal.worldfirst.com/login?lang=en-GB&region=global
+- group: operate
+  title: ''
+  type: HelpCenter
+  url: https://www.worldfirst.com/help-center/
+- group: agent
+  title: ''
+  type: LLMsTxt
+  url: llms/worldfirst-llms.txt
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/worldfirst-authentication.yml
+- group: design
+  title: ''
+  type: Conventions
+  url: conventions/worldfirst-conventions.yml
+- group: design
+  title: ''
+  type: ErrorCatalog
+  url: errors/worldfirst-problem-types.yml
+- group: design
+  title: ''
+  type: Webhooks
+  url: asyncapi/worldfirst-webhooks.yml
+- group: start
+  title: ''
+  type: Sandbox
+  url: sandbox/worldfirst-sandbox.yml
+- group: design
+  title: ''
+  type: Lifecycle
+  url: lifecycle/worldfirst-lifecycle.yml
+- group: design
+  title: ''
+  type: Conformance
+  url: conformance/worldfirst-conformance.yml
+created: '2026-07-24'
+description: 'WorldFirst is a United Kingdom-founded cross-border payments and money-movement company, headquartered in London and owned by Ant Group (Alipay) since 2019. It gives online sellers, marketplaces, and SMEs a multi-currency World Account to collect, hold, convert, and send money across borders, alongside a World Card for multi-currency spending and marketplace/supplier payouts. Its home market is the United Kingdom, but its book is global e-commerce and cross-border trade, serving merchants selling on Amazon and other marketplaces. WorldFirst ships a genuine, API-native developer platform at developers.worldfirst.com built on Ant Group''s Antom-style gateway (open-sea/open-eu/open-na hosts, /amsin/api/v1 paths): a RESTful, JSON, HTTPS-only interface segmented into an Enterprise Solution (account, beneficiary, FX, transfer, payout, invoicing, virtual-card credit), a Pay Solution (Cashier Payment / online checkout acceptance for merchants), and a WorldTrade Solution (cross-border
+  trade orders). Requests are secured with RSA256/ECC224 digital signatures plus OAuth 2.0 access tokens; asynchronous notifications (webhooks) return payment and trade-order results. The public reference is documentation-and-console only — the underlying OpenAPI/Swagger is not offered as a downloadable spec (the gateway blocks anonymous spec fetches), so integration is gated behind partner onboarding and the console''s iMock/iTest tooling.'
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
+layout: provider
+modified: '2026-07-24'
+name: WorldFirst
+nav: Providers
+network: true
+overview: 'WorldFirst publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Payments, United Kingdom, Cross-Border, Money Transfer, and Foreign Exchange.
+
+
+  The WorldFirst catalog on APIs.io includes 1 event-driven AsyncAPI specification.
+
+
+  WorldFirst''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, authentication, and 15 more developer resources.'
+random_paper: 16
+score:
+  band: thin
+  composite: 39.9
+  delta: 0.0
+  facets:
+    commercial_clarity: 44.7
+    contract_quality: 22.6
+    developer_ergonomics: 58.7
+    discoverability: 100.0
+    governance: 0.0
+    operational_transparency: 7.9
+  previous_composite: 39.9
+  regulatory:
+    applies: true
+    regime: Payments
+    regime_id: payments
+    score: 54.3
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+security:
+- kind: authentication
+  name: Worldfirst Authentication
+  slug: worldfirst-authentication
+  summary_line: signature/oauth2 · 2 schemes
+- kind: domain-security
+  name: Worldfirst Domain Security
+  slug: worldfirst-domain-security
+  summary_line: TLSv1.3 · HSTS · DMARC
+slug: worldfirst
+tags:
+- Payments
+- United Kingdom
+- Cross-Border
+- Money Transfer
+- Foreign Exchange
+- Payouts
+- Payment Gateway
+- E-commerce
+- Multi-Currency
+- Card Issuing
+website: https://www.worldfirst.com/
+---

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 39.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Manage assets, query content with ShowQL, get content recommendations, and handle buyer engagement through shares, sharing themes, and digital shared spaces.
@@ -120,7 +120,7 @@ plans:
 - name: Showpad Plans Pricing
   plan_count: 3
   slug: showpad-plans-pricing
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Showpad Rate Limits
@@ -138,7 +138,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 37.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/showpad/refs/heads/main/screenshots/showpad-2026-06-20T193845.png
 security:

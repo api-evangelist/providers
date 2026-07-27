@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ plans:
 - name: Deepl Plans Pricing
   plan_count: 3
   slug: deepl-plans-pricing
-random_paper: 12
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Deepl Rate Limits
@@ -213,20 +213,20 @@ rules:
     warn: 3
   slug: deepl-translation-api-rules
 score:
-  band: developing
-  composite: 58.5
-  delta: 0.0
+  band: strong
+  composite: 64.0
+  delta: 5.5
   facets:
     commercial_clarity: 78.9
-    contract_quality: 66.4
+    contract_quality: 75.2
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 65.8
     operational_transparency: 31.6
   previous_composite: 58.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepl/refs/heads/main/screenshots/deepl-2026-06-20T175808.png
 security:
 - kind: authentication

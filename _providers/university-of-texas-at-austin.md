@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Public DSpace 8 REST API for Texas ScholarWorks, the UT Austin institutional repository of theses, dissertations, faculty research, and open-access scholarship. The API root reports "DSpace at UT Aust
@@ -104,7 +104,7 @@ plans:
 - name: University Of Texas At Austin Plans Pricing
   plan_count: 2
   slug: university-of-texas-at-austin-plans-pricing
-random_paper: 30
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: University Of Texas At Austin Rate Limits
@@ -112,7 +112,7 @@ rate_limits:
 score:
   band: emerging
   composite: 24.6
-  delta: -0.1
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 15.1
@@ -120,14 +120,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 24.7
+  previous_composite: 24.6
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

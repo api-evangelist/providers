@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -998,7 +998,7 @@ plans:
 - name: Greynoise Plans Pricing
   plan_count: 4
   slug: greynoise-plans-pricing
-random_paper: 12
+random_paper: 29
 rate_limits:
 - limit_count: 0
   name: Greynoise Rate Limits
@@ -1021,19 +1021,19 @@ rules:
     warn: 24
   slug: greynoise-spectral-rules
 score:
-  band: strong
-  composite: 69.8
-  delta: 0.0
+  band: exemplar
+  composite: 73.1
+  delta: 3.3
   facets:
     commercial_clarity: 92.1
     contract_quality: 70.9
     developer_ergonomics: 58.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 69.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greynoise/refs/heads/main/screenshots/greynoise-2026-06-20T182405.png
 security:

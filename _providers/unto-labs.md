@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 33.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: High-performance proto3 gRPC API (with gRPC-Web for browsers) for the Thru blockchain. QueryService exposes 24 read operations over accounts, blocks, transactions, events, state proofs, and node statu
@@ -157,7 +157,7 @@ overview: 'Unto Labs publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Unto Labs'' developer surface includes documentation, getting-started guide, support, changelog, CLI, authentication, sandbox, and 19 more developer resources.'
-random_paper: 50
+random_paper: 33
 score:
   band: emerging
   composite: 29.7
@@ -171,7 +171,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 29.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

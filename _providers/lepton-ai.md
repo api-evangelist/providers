@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Managed AI platform API exposing model endpoints (HTTP server with OpenAI-compatible chat surface), dev sessions with managed GPUs, distributed training jobs, and batch processing. Endpoints are deplo
@@ -90,7 +90,7 @@ plans:
 - name: Lepton Ai Plans Pricing
   plan_count: 1
   slug: lepton-ai-plans-pricing
-random_paper: 38
+random_paper: 21
 rate_limits:
 - limit_count: 1
   name: Lepton Ai Rate Limits
@@ -108,7 +108,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lepton-ai/refs/heads/main/screenshots/lepton-ai-2026-06-20T184428.png
 security:

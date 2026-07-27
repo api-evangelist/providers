@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,11 +77,11 @@ overview: 'Greenlite is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Greenlite''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 41
+random_paper: 7
 score:
   band: emerging
   composite: 21.5
-  delta: 3.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -89,15 +89,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.1
+  previous_composite: 21.5
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/greenlite/refs/heads/main/screenshots/greenlite-2026-07-25T220313.png
 security:
 - kind: domain-security
   name: Greenlite Domain Security

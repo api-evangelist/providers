@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: REST API for marketplace payment infrastructure including pay-in, pay-out, wallet management, KYC/KYB onboarding, P2P transfers, and regulatory compliance for European marketplaces.
@@ -121,7 +121,7 @@ plans:
 - name: Plans
   plan_count: 2
   slug: plans
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -129,7 +129,7 @@ rate_limits:
 score:
   band: thin
   composite: 41.2
-  delta: 2.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 47.2
@@ -137,14 +137,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 38.9
+  previous_composite: 41.2
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lemonway/refs/heads/main/screenshots/lemonway-2026-06-20T184419.png
 security:

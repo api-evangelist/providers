@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 39.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: The Authentication API from Infra — 9 operation(s) for authentication.
@@ -169,7 +169,7 @@ overview: 'Infra publishes 8 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Infra''s developer surface includes documentation, API reference, getting-started guide, CLI, authentication, changelog, and 17 more developer resources.'
-random_paper: 18
+random_paper: 52
 score:
   band: thin
   composite: 36.0
@@ -183,8 +183,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 36.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/infra/refs/heads/main/screenshots/infra-2026-07-25T222422.png
 security:
 - kind: authentication
   name: Infra Authentication

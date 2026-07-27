@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 70.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 2
@@ -109,7 +109,7 @@ arazzos:
 - description: Resolve the cluster, create a topic with explicit partitioning, read it back, and produce a first record.
   name: Apache Kafka Provision a Topic and Produce a Record
   slug: apache-kafka-topic-provision-produce-workflow
-artifact_total: 112
+artifact_total: 113
 asyncapis:
 - description: 'Apache Kafka is a distributed event streaming platform capable of handling trillions of events a day. This spec describes the core messaging protocol for producing and consuming records to/from Kafka '
   name: Apache Kafka Messaging API
@@ -489,6 +489,10 @@ jsonld:
   property_count: 41
   slug: apache-kafka-kafka-rest-proxy-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: apache-kafka-mcp.yml
+  slug: apache-kafka-mcpyml
 modified: '2026-06-20'
 name: Apache Kafka
 nav: Providers
@@ -504,7 +508,7 @@ plans:
 - name: Apache Kafka Plans Pricing
   plan_count: 3
   slug: apache-kafka-plans-pricing
-random_paper: 43
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Apache Kafka Rate Limits
@@ -536,18 +540,18 @@ rules:
   slug: apache-kafka-spectral-rules
 score:
   band: developing
-  composite: 57.3
-  delta: 0.0
+  composite: 59.3
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 63.6
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 57.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-kafka/refs/heads/main/screenshots/apache-kafka-2026-06-20T172115.png
 security:

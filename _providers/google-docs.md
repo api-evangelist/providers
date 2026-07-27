@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -1275,7 +1275,7 @@ plans:
 - name: Google Docs Plans Pricing
   plan_count: 3
   slug: google-docs-plans-pricing
-random_paper: 36
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Google Docs Rate Limits
@@ -1303,20 +1303,20 @@ scopes:
   slug: google-docs-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: developing
-  composite: 57.4
-  delta: 0.0
+  band: strong
+  composite: 62.9
+  delta: 5.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 67.3
+    contract_quality: 76.1
     developer_ergonomics: 32.6
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 57.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-docs/refs/heads/main/screenshots/google-docs-2026-06-20T182203.png
 security:
 - kind: authentication

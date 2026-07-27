@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -504,7 +504,7 @@ plans:
 - name: Informatica Plans Pricing
   plan_count: 3
   slug: informatica-plans-pricing
-random_paper: 43
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Informatica Rate Limits
@@ -528,18 +528,18 @@ rules:
   slug: informatica-spectral-rules
 score:
   band: developing
-  composite: 55.0
-  delta: 0.0
+  composite: 57.2
+  delta: 2.2
   facets:
     commercial_clarity: 52.6
-    contract_quality: 67.6
+    contract_quality: 76.4
     developer_ergonomics: 34.8
     discoverability: 67.5
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 55.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/informatica/refs/heads/main/screenshots/informatica-2026-06-20T183340.png
 security:

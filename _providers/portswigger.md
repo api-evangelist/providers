@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: The primary API for integrating with Burp Suite DAST, recommended for all new integrations. Exposes the broadest range of functionality including managing sites, initiating and monitoring scans, retri
@@ -130,7 +130,7 @@ plans:
 - name: Portswigger Plans Pricing
   plan_count: 3
   slug: portswigger-plans-pricing
-random_paper: 40
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: Portswigger Rate Limits
@@ -148,7 +148,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 33.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/portswigger/refs/heads/main/screenshots/portswigger-2026-06-20T191938.png
 security:

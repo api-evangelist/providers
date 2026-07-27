@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -133,25 +133,25 @@ plans:
 - name: Reka Ai Plans Pricing
   plan_count: 1
   slug: reka-ai-plans-pricing
-random_paper: 3
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Reka Ai Rate Limits
   slug: reka-ai-rate-limits
 score:
   band: thin
-  composite: 35.2
-  delta: 0.0
+  composite: 38.5
+  delta: 3.3
   facets:
     commercial_clarity: 36.8
     contract_quality: 53.5
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 35.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reka-ai/refs/heads/main/screenshots/reka-ai-2026-06-20T192937.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -65,7 +65,7 @@ press:
 - date: '2026-05-25'
   title: HERSHEY ANNOUNCES AI-ENABLED DECISION
   url: https://www.facebook.com/tristatenewscenter/posts/hershey-announces-ai-enabled-decision-making-the-hershey-company-is-embracing-ai/1553526290109232/
-random_paper: 46
+random_paper: 12
 score:
   band: minimal
   composite: 3.5
@@ -79,7 +79,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 3.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hershey/refs/heads/main/screenshots/hershey-2026-06-20T182650.png
 security:

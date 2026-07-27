@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -379,20 +379,20 @@ rules:
     warn: 16
   slug: microsoft-edge-spectral-rules
 score:
-  band: strong
-  composite: 64.7
-  delta: 0.0
+  band: exemplar
+  composite: 70.1
+  delta: 5.4
   facets:
     commercial_clarity: 63.2
-    contract_quality: 67.3
+    contract_quality: 76.1
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 68.4
   previous_composite: 64.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 security:
 - kind: authentication
   name: Microsoft Edge Authentication

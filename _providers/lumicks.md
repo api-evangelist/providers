@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -97,11 +97,11 @@ overview: 'LUMICKS is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   LUMICKS''s developer surface includes documentation, API reference, getting-started guide, support, changelog, and 9 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: emerging
   composite: 17.4
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -109,15 +109,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 19.0
+  previous_composite: 17.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 8.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lumicks/refs/heads/main/screenshots/lumicks-2026-07-25T225709.png
 slug: lumicks
 tags:
 - Company

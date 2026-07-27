@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -46,7 +46,7 @@ name: Blue Bottle Coffee *
 nav: Providers
 network: true
 overview: Blue Bottle Coffee * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Coffee, Retail, and E-Commerce.
-random_paper: 46
+random_paper: 12
 score:
   band: minimal
   composite: 6.8
@@ -60,8 +60,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/blue-bottle-coffee/refs/heads/main/screenshots/blue-bottle-coffee-2026-07-25T203432.png
 security:
 - kind: domain-security
   name: Blue Bottle Coffee Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 11
@@ -531,23 +531,23 @@ rules:
   slug: visa-rules
 score:
   band: thin
-  composite: 43.7
-  delta: -1.2
+  composite: 44.7
+  delta: 1.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 53.1
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 26.3
-  previous_composite: 44.9
+  previous_composite: 43.7
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/screenshots/visa-2026-06-20T201042.png
 security:

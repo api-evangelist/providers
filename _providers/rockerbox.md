@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for querying multi-touch attribution data, channel performance metrics, customer journeys, and media spend effectiveness across all integrated marketing channels.
@@ -118,7 +118,7 @@ plans:
 - name: Rockerbox Plans Pricing
   plan_count: 1
   slug: rockerbox-plans-pricing
-random_paper: 6
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Rockerbox Rate Limits
@@ -136,7 +136,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 33.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rockerbox/refs/heads/main/screenshots/rockerbox-2026-06-20T193150.png
 security:

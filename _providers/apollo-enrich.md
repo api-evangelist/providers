@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -132,26 +132,27 @@ plans:
 - name: Apollo Enrich Plans Pricing
   plan_count: 5
   slug: apollo-enrich-plans-pricing
-random_paper: 50
+random_paper: 33
 rate_limits:
 - limit_count: 6
   name: Apollo Enrich Rate Limits
   slug: apollo-enrich-rate-limits
 score:
-  band: thin
-  composite: 42.3
-  delta: 0.0
+  band: developing
+  composite: 45.6
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.9
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 42.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/apollo-enrich/refs/heads/main/screenshots/apollo-enrich-2026-07-25T200708.png
 security:
 - kind: authentication
   name: Apollo Enrich Authentication

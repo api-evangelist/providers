@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -77,7 +77,7 @@ press:
 - date: '2026-05-25'
   title: AI Courses - Artificial Intelligence
   url: https://www.fmctraining.com/ai
-random_paper: 4
+random_paper: 38
 score:
   band: minimal
   composite: 7.2
@@ -91,7 +91,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fmc/refs/heads/main/screenshots/fmc-2026-06-20T181345.png
 security:

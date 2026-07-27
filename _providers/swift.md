@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ plans:
 - name: Swift Plans Pricing
   plan_count: 1
   slug: swift-plans-pricing
-random_paper: 47
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Swift Rate Limits
@@ -226,24 +226,24 @@ scopes:
   slug: swift-scopes
   summary_line: 2 scopes · password
 score:
-  band: developing
-  composite: 59.9
-  delta: 2.8
+  band: strong
+  composite: 61.6
+  delta: 1.7
   facets:
     commercial_clarity: 63.2
     contract_quality: 68.6
     developer_ergonomics: 41.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 26.3
-  previous_composite: 57.1
+  previous_composite: 59.9
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/swift/refs/heads/main/screenshots/swift-2026-06-20T194804.png
 security:

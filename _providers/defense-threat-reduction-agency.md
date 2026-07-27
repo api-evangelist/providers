@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Public-facing website of the Defense Threat Reduction Agency providing organizational information, leadership, news, and links to mission-area programs. The site does not expose a developer API.
@@ -91,7 +91,7 @@ plans:
 - name: Defense Threat Reduction Agency Plans Pricing
   plan_count: 3
   slug: defense-threat-reduction-agency-plans-pricing
-random_paper: 6
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Defense Threat Reduction Agency Rate Limits
@@ -109,7 +109,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 22.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/defense-threat-reduction-agency/refs/heads/main/screenshots/defense-threat-reduction-agency-2026-06-20T175842.png
 security:

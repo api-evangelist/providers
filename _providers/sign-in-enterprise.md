@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 0
@@ -223,7 +223,7 @@ overview: 'Sign In Enterprise publishes 14 APIs on the [APIs.io](https://apis.io
 
 
   Sign In Enterprise''s developer surface includes documentation, API reference, pricing, engineering blog, support, authentication, and 24 more developer resources.'
-random_paper: 42
+random_paper: 59
 scopes:
 - name: Sign In Enterprise Scopes
   scope_count: 48
@@ -242,7 +242,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 53.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

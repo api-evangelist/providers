@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Live GraphQL endpoint backing the Let''s Do This consumer marketplace. Discovered by probe, not published as a developer product: no documentation, no published schema, no documented authentication and'
@@ -58,7 +58,7 @@ name: Let's Do This
 nav: Providers
 network: true
 overview: Let's Do This publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fitness Tech, Endurance Sports, Events, and Event Registration.
-random_paper: 8
+random_paper: 25
 score:
   band: minimal
   composite: 10.1
@@ -72,8 +72,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lets-do-this/refs/heads/main/screenshots/lets-do-this-2026-07-25T224933.png
 security:
 - kind: domain-security
   name: Lets Do This Domain Security

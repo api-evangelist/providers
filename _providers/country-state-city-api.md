@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -135,7 +135,7 @@ plans:
 - name: Country State City Api Plans Pricing
   plan_count: 3
   slug: country-state-city-api-plans-pricing
-random_paper: 30
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Country State City Api Rate Limits
@@ -151,18 +151,18 @@ rules:
   slug: country-state-city-api-rules
 score:
   band: developing
-  composite: 48.8
-  delta: 0.0
+  composite: 52.0
+  delta: 3.2
   facets:
     commercial_clarity: 71.1
     contract_quality: 54.9
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 39.5
     operational_transparency: 31.6
   previous_composite: 48.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/country-state-city-api/refs/heads/main/screenshots/country-state-city-api-2026-06-20T175144.png
 security:

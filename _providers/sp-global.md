@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 88.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
 - description: Data and analytics catalog spanning S&P Global business units (Market Intelligence, Ratings, Commodity Insights/Platts, Mobility, Sustainable1, Indices, Dow Jones) plus third-party vendors. Distributi
   name: S&P Global Marketplace
   slug: sp-marketplace
-artifact_total: 144
+artifact_total: 146
 asyncapis:
 - description: Real-time streaming transcription WebSocket API from Kensho Technologies (a wholly-owned S&P Global subsidiary). Companion to the Kensho Scribe v2 batch REST API. Streams uncompressed PCM audio chunks
   name: Kensho Scribe Real Time API
@@ -589,6 +589,13 @@ jsonld:
   property_count: 67
   slug: sp-global-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: kFinance MCP server (stdio, SSE, streamable-http transports)
+  slug: kfinance-mcp-server-stdio-sse-streamable-http-transports
+- description: ''
+  name: Hosted kFinance MCP server manifest (https://kfinance.kensho.com/integrations/mcp)
+  slug: hosted-kfinance-mcp-server-manifest-httpskfinancekenshocomintegrationsmcp
 modified: '2026-07-22'
 name: S&P Global
 nav: Providers
@@ -604,7 +611,7 @@ plans:
 - name: Sp Global Plans Pricing
   plan_count: 7
   slug: sp-global-plans-pricing
-random_paper: 30
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Sp Global Rate Limits
@@ -641,18 +648,18 @@ scopes:
   summary_line: 2 scopes · authorizationCode/refresh_token
 score:
   band: strong
-  composite: 66.1
-  delta: 0.0
+  composite: 68.1
+  delta: 2.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 72.0
     developer_ergonomics: 69.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 65.8
     operational_transparency: 36.8
   previous_composite: 66.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/screenshots/sp-global-2026-06-20T194233.png
 security:

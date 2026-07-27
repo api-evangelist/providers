@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,7 +77,7 @@ overview: 'Endowus is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Endowus'' developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 8
+random_paper: 25
 score:
   band: minimal
   composite: 14.2
@@ -91,8 +91,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 14.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/endowus/refs/heads/main/screenshots/endowus-2026-07-25T213321.png
 security:
 - kind: domain-security
   name: Endowus Domain Security

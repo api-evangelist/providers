@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -70,7 +70,7 @@ press:
 - date: '2026-05-25'
   title: First Solar Inaugurates New $1.1 Billion AI-Enabled ...
   url: https://www.opportunitylouisiana.gov/news/first-solar-inaugurates-new-1-1-billion-ai-enabled-louisiana-manufacturing-facility
-random_paper: 20
+random_paper: 54
 score:
   band: minimal
   composite: 7.4
@@ -84,7 +84,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/first-solar/refs/heads/main/screenshots/first-solar-2026-06-20T181242.png
 security:

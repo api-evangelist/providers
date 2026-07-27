@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 29.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Agent-facing commerce endpoint for the Petstore.com Shopify store, implemented via the Universal Commerce Protocol (UCP) over MCP — catalog search, cart, and buyer-approved checkout.
@@ -122,7 +122,7 @@ overview: 'Petstore.com publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Petstore.com''s developer surface includes documentation, authentication, support, engineering blog, signup flow, and 13 more developer resources.'
-random_paper: 32
+random_paper: 49
 scopes:
 - name: Petstorecom Scopes
   scope_count: 4
@@ -141,7 +141,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 24.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

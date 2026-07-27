@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 18.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The T3OS developer platform's GraphQL ERP API (es-erp-api). A single GraphQL endpoint served over authenticated Bearer (user-delegated OAuth2) or X-API-Key (workspace-installed) access.
@@ -126,7 +126,7 @@ overview: 'EquipmentShare publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   EquipmentShare''s developer surface includes documentation, changelog, engineering blog, support, authentication, and 15 more developer resources.'
-random_paper: 36
+random_paper: 19
 scopes:
 - name: Equipmentshare Scopes
   scope_count: 2
@@ -145,8 +145,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 27.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/equipmentshare/refs/heads/main/screenshots/equipmentshare-2026-07-25T213550.png
 security:
 - kind: authentication
   name: Equipmentshare Authentication

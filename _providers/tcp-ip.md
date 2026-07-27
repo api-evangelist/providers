@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'The de facto standard programming interface for TCP/IP networking, defined in RFC 3493. Implemented nearly ubiquitously in modern operating systems and programming languages, the Sockets API provides '
@@ -94,7 +94,7 @@ plans:
 - name: Tcp Ip Plans Pricing
   plan_count: 3
   slug: tcp-ip-plans-pricing
-random_paper: 28
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Tcp Ip Rate Limits
@@ -112,7 +112,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tcp-ip/refs/heads/main/screenshots/tcp-ip-2026-06-20T194943.png
 security:

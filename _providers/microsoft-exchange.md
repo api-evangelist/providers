@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 74.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 51
   human_in_the_loop: 0
@@ -149,7 +149,7 @@ arazzos:
 - description: Find a contact by email and update it if it exists, otherwise create it.
   name: Microsoft Exchange Upsert a Contact
   slug: microsoft-exchange-upsert-contact-workflow
-artifact_total: 112
+artifact_total: 113
 collections:
 - collection_type: postman
   name: Microsoft Exchange Exchange Online Admin API
@@ -606,6 +606,10 @@ jsonld:
   property_count: 13
   slug: microsoft-exchange-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: microsoft-exchange-mcp.yml
+  slug: microsoft-exchange-mcpyml
 modified: '2026-06-20'
 name: Microsoft Exchange
 nav: Providers
@@ -642,18 +646,18 @@ scopes:
   summary_line: 18 scopes · clientCredentials/authorizationCode
 score:
   band: exemplar
-  composite: 74.1
-  delta: 0.0
+  composite: 76.6
+  delta: 2.5
   facets:
     commercial_clarity: 84.2
     contract_quality: 68.3
     developer_ergonomics: 78.3
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 74.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-exchange/refs/heads/main/screenshots/microsoft-exchange-2026-06-20T185501.png
 security:

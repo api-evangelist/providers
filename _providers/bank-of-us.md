@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 72.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ overview: 'Bank of us publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Bank of us'' developer surface includes authentication, documentation, API reference, engineering blog, support, and 21 more developer resources.'
-random_paper: 29
+random_paper: 63
 scopes:
 - name: Bank Of Us Scopes
   scope_count: 5
@@ -188,7 +188,7 @@ scopes:
 score:
   band: developing
   composite: 45.5
-  delta: 6.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 54.0
@@ -196,15 +196,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 39.3
+  previous_composite: 45.5
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 80.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bank-of-us/refs/heads/main/screenshots/bank-of-us-2026-07-21T114712.png
 security:
 - kind: authentication

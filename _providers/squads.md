@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: TypeScript and Rust SDKs plus a CLI for creating and operating Squads multisigs (smart accounts) on Solana — creating multisigs, proposing, approving and executing transactions, and managing program-u
@@ -149,7 +149,7 @@ random_paper: 45
 score:
   band: thin
   composite: 42.7
-  delta: 6.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -157,15 +157,15 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 36.4
+  previous_composite: 42.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Squads Authentication

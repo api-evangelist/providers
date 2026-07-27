@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -73,11 +73,11 @@ overview: 'Jambo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Jambo''s developer surface includes YouTube channel and 7 more developer resources.'
-random_paper: 11
+random_paper: 45
 score:
   band: minimal
   composite: 5.7
-  delta: -1.1
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -85,14 +85,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 6.8
+  previous_composite: 5.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 0.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 slug: jambo
 tags:

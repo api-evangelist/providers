@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 11
 apis:
 - description: Fasten OnPrem is an open-source, self-hosted, personal and family electronic medical record manager written in Go (47%) and TypeScript (35%). It runs as a Docker container behind HTTPS/TLS, supports m
@@ -147,11 +147,11 @@ overview: 'Fasten Health publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Fasten Health''s developer surface includes documentation, GitHub presence, engineering blog, changelog, signup flow, pricing, support, and 11 more developer resources.'
-random_paper: 41
+random_paper: 24
 score:
   band: emerging
   composite: 25.2
-  delta: -2.2
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 37.7
@@ -159,14 +159,14 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 27.4
+  previous_composite: 25.2
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fasten-health/refs/heads/main/screenshots/fasten-health-2026-06-20T181048.png
 security:

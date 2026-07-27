@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 1
@@ -115,21 +115,21 @@ overview: 'Vertica publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Vertica''s developer surface includes authentication, documentation, support, and 10 more developer resources.'
-random_paper: 36
+random_paper: 2
 score:
   band: emerging
-  composite: 25.5
-  delta: 0.0
+  composite: 28.7
+  delta: 3.2
   facets:
     commercial_clarity: 0.0
     contract_quality: 53.1
     developer_ergonomics: 23.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 25.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/vertica/refs/heads/main/screenshots/vertica-2026-06-20T200949.png
 security:

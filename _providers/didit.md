@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 75.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 95
   human_in_the_loop: 1
@@ -248,7 +248,7 @@ overview: 'Didit publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Didit''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 16
+random_paper: 50
 scopes:
 - name: Didit Scopes
   scope_count: 5
@@ -267,8 +267,9 @@ score:
     operational_transparency: 44.7
   previous_composite: 58.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/didit/refs/heads/main/screenshots/didit-2026-07-25T211951.png
 security:
 - kind: authentication
   name: Didit Authentication

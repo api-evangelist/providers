@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -139,18 +139,18 @@ rate_limits:
   slug: old-dominion-freight-line-rate-limits
 score:
   band: thin
-  composite: 33.4
-  delta: 0.0
+  composite: 36.6
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 60.2
     developer_ergonomics: 15.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 33.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/screenshots/old-dominion-freight-line-2026-06-20T190653.png
 security:

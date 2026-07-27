@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 22
 common:
@@ -108,7 +108,7 @@ press:
 - date: '2026-05-25'
   title: American Eagle uses Meta AI ads to get Gen Z to stores
   url: https://adage.com/article/digital-marketing-ad-tech-news/american-eagle-uses-meta-ai-ads-get-gen-z-stores/2606366/
-random_paper: 46
+random_paper: 29
 score:
   band: minimal
   composite: 8.4
@@ -122,7 +122,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 8.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/american-eagle-outfitters/refs/heads/main/screenshots/american-eagle-outfitters-2026-06-20T171908.png
 security:

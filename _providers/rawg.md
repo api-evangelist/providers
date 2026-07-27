@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -179,19 +179,19 @@ rules:
   slug: rawg-rules
 score:
   band: developing
-  composite: 48.7
-  delta: 0.0
+  composite: 54.7
+  delta: 6.0
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.5
+    contract_quality: 69.8
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 48.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/rawg/refs/heads/main/screenshots/rawg-2026-06-20T192612.png
 security:
 - kind: authentication

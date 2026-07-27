@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 common:
@@ -90,7 +90,7 @@ overview: 'BaubleBar is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   BaubleBar''s developer surface includes authentication, support, signup flow, and 8 more developer resources.'
-random_paper: 10
+random_paper: 44
 scopes:
 - name: Baublebar Scopes
   scope_count: 4
@@ -109,7 +109,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

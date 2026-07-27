@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -127,25 +127,25 @@ plans:
 - name: Race Entry Plans Pricing
   plan_count: 3
   slug: race-entry-plans-pricing
-random_paper: 49
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Race Entry Rate Limits
   slug: race-entry-rate-limits
 score:
   band: thin
-  composite: 34.7
-  delta: 0.0
+  composite: 37.9
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 54.9
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 34.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/race-entry/refs/heads/main/screenshots/race-entry-2026-06-20T192506.png
 security:

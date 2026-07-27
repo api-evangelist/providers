@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 44.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ plans:
 - name: Starknet Plans Pricing
   plan_count: 1
   slug: starknet-plans-pricing
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Starknet Rate Limits
@@ -180,18 +180,18 @@ rules:
   slug: starknet-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 39.9
-  delta: 0.0
+  composite: 43.2
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 61.1
     developer_ergonomics: 15.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 21.1
   previous_composite: 39.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/starknet/refs/heads/main/screenshots/starknet-2026-06-20T194515.png
 security:

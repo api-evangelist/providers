@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -124,7 +124,7 @@ plans:
 - name: Kustomer Plans Pricing
   plan_count: 1
   slug: kustomer-plans-pricing
-random_paper: 23
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Kustomer Rate Limits
@@ -139,19 +139,19 @@ rules:
     warn: 5
   slug: kustomer-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 44.1
-  delta: 0.0
+  band: developing
+  composite: 47.4
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
     contract_quality: 74.3
     developer_ergonomics: 21.7
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 60.5
     operational_transparency: 26.3
   previous_composite: 44.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kustomer/refs/heads/main/screenshots/kustomer-2026-06-20T184221.png
 security:

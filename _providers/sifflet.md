@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 34.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Sifflet''s public REST API for programmatically managing data observability resources — assets and workspaces, monitors/rules and rule runs, sources (V2), credentials, domains, calendars, notification '
@@ -181,7 +181,7 @@ overview: 'Sifflet publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Sifflet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, changelog, authentication, and 24 more developer resources.'
-random_paper: 35
+random_paper: 1
 score:
   band: developing
   composite: 46.5
@@ -195,7 +195,7 @@ score:
     operational_transparency: 63.2
   previous_composite: 46.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

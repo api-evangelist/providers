@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -323,24 +323,24 @@ rules:
     warn: 19
   slug: verisk-spectral-rules
 score:
-  band: developing
-  composite: 57.0
-  delta: -0.4
+  band: strong
+  composite: 60.5
+  delta: 3.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 70.8
+    contract_quality: 79.6
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 26.3
-  previous_composite: 57.4
+  previous_composite: 57.0
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/screenshots/verisk-2026-06-20T200935.png
 security:

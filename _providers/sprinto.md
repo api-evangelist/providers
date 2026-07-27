@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for building custom compliance, evidence, and risk workflows on Sprinto. Detailed reference is gated; access is provisioned through Sprinto support.
@@ -98,7 +98,7 @@ plans:
 - name: Sprinto Plans Pricing
   plan_count: 1
   slug: sprinto-plans-pricing
-random_paper: 18
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: Sprinto Rate Limits
@@ -116,7 +116,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 19.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sprinto/refs/heads/main/screenshots/sprinto-2026-06-20T194423.png
 security:

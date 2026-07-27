@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 23.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 asyncapis:
@@ -145,11 +145,11 @@ overview: 'Appboxo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Appboxo''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 47
+random_paper: 13
 score:
   band: thin
   composite: 37.2
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 22.6
@@ -157,15 +157,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 36.0
+  previous_composite: 37.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/appboxo/refs/heads/main/screenshots/appboxo-2026-07-25T200739.png
 security:
 - kind: authentication
   name: Appboxo Authentication

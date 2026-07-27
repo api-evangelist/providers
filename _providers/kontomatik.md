@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -281,7 +281,7 @@ plans:
 - name: Kontomatik Plans Pricing
   plan_count: 2
   slug: kontomatik-plans-pricing
-random_paper: 18
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Kontomatik Rate Limits
@@ -305,23 +305,23 @@ rules:
   slug: kontomatik-rules
 score:
   band: developing
-  composite: 54.4
-  delta: -1.2
+  composite: 58.0
+  delta: 3.6
   facets:
     commercial_clarity: 44.7
-    contract_quality: 62.1
+    contract_quality: 70.9
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 36.8
-  previous_composite: 55.6
+  previous_composite: 54.4
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kontomatik/refs/heads/main/screenshots/kontomatik-2026-06-20T184134.png
 security:

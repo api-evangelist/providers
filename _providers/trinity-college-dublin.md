@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: TARA is Trinity College Dublin's open-access institutional repository, built on DSpace. It exposes an OAI-PMH (Open Archives Initiative Protocol for Metadata Harvesting) interface for harvesting Dubli
@@ -135,7 +135,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 23.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trinity-college-dublin/refs/heads/main/screenshots/trinity-college-dublin-2026-06-20T195720.png
 security:

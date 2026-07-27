@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Integration web services for the Omnitracs Roadnet routing and dispatch platform (route planning and optimization, orders/stops, and schedules). A live Swagger UI is published at the integration host,
@@ -85,7 +85,7 @@ plans:
 - name: Omnitracs Plans Pricing
   plan_count: 3
   slug: omnitracs-plans-pricing
-random_paper: 7
+random_paper: 24
 score:
   band: emerging
   composite: 16.8
@@ -99,7 +99,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

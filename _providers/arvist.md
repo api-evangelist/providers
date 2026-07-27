@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -93,7 +93,7 @@ overview: 'Arvist is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Arvist''s developer surface includes engineering blog, support, YouTube channel, and 10 more developer resources.'
-random_paper: 2
+random_paper: 53
 score:
   band: minimal
   composite: 13.8
@@ -107,8 +107,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/arvist/refs/heads/main/screenshots/arvist-2026-07-25T201350.png
 security:
 - kind: domain-security
   name: Arvist Domain Security

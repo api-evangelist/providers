@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -107,8 +107,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 22.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/datacamp/refs/heads/main/screenshots/datacamp-2026-07-25T211302.png
 security:
 - kind: domain-security
   name: Datacamp Domain Security

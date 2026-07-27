@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -89,7 +89,7 @@ overview: 'FloQast is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   FloQast''s developer surface includes pricing, engineering blog, support, and 9 more developer resources.'
-random_paper: 48
+random_paper: 14
 score:
   band: emerging
   composite: 22.9
@@ -103,8 +103,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 22.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/floqast/refs/heads/main/screenshots/floqast-2026-07-25T214819.png
 security:
 - kind: domain-security
   name: Floqast Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -61,7 +61,7 @@ apis:
 - description: Query performance data using Google Ads Query Language (GAQL)
   name: Google Ads Reporting API
   slug: google-ads-reporting-api
-artifact_total: 21
+artifact_total: 22
 collections:
 - collection_type: open
   name: Google Ads API
@@ -184,6 +184,10 @@ jsonld:
   property_count: 36
   slug: google-ads-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Google Ads
 nav: Providers
@@ -199,7 +203,7 @@ plans:
 - name: Google Ads Plans Pricing
   plan_count: 3
   slug: google-ads-plans-pricing
-random_paper: 25
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Google Ads Rate Limits
@@ -220,18 +224,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: strong
-  composite: 64.4
-  delta: 0.0
+  composite: 67.6
+  delta: 3.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 72.4
     developer_ergonomics: 58.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 64.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-ads/refs/heads/main/screenshots/google-ads-2026-06-20T182011.png
 security:

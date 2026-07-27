@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ plans:
 - name: Warner Bros Discovery Plans Pricing
   plan_count: 1
   slug: warner-bros-discovery-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Warner Bros Discovery Rate Limits
@@ -172,18 +172,18 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: developing
-  composite: 47.5
-  delta: 0.0
+  composite: 52.1
+  delta: 4.6
   facets:
     commercial_clarity: 28.9
-    contract_quality: 68.1
+    contract_quality: 73.5
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 47.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/screenshots/warner-bros-discovery-2026-06-20T201227.png
 security:

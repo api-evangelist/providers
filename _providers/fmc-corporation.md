@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: FMC's insecticide and miticide portfolio includes diamide chemistry (Rynaxypyr, Cyazypyr active ingredients) marketed under brands such as Coragen, Prevathon, Altacor, Verimark, Vantacor, and Premio f
@@ -162,7 +162,7 @@ plans:
 - name: Fmc Corporation Plans Pricing
   plan_count: 3
   slug: fmc-corporation-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 1
   name: Fmc Corporation Rate Limits
@@ -180,7 +180,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 20.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fmc-corporation/refs/heads/main/screenshots/fmc-corporation-2026-06-20T181348.png
 security:

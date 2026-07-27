@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -149,18 +149,18 @@ scopes:
   summary_line: 7 scopes · authorizationCode
 score:
   band: thin
-  composite: 40.9
-  delta: 0.0
+  composite: 44.2
+  delta: 3.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 47.8
     developer_ergonomics: 26.1
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 47.4
   previous_composite: 40.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-office-suite/refs/heads/main/screenshots/microsoft-office-suite-2026-06-20T185516.png
 security:

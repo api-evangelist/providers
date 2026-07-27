@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 31
   human_in_the_loop: 2
@@ -493,7 +493,7 @@ plans:
 - name: Microsoft Endpoint Configuration Management Plans Pricing
   plan_count: 3
   slug: microsoft-endpoint-configuration-management-plans-pricing
-random_paper: 49
+random_paper: 15
 rate_limits:
 - limit_count: 3
   name: Microsoft Endpoint Configuration Management Rate Limits
@@ -513,19 +513,19 @@ scopes:
   slug: microsoft-endpoint-configuration-management-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: strong
-  composite: 68.0
-  delta: 0.0
+  band: exemplar
+  composite: 71.5
+  delta: 3.5
   facets:
     commercial_clarity: 84.2
-    contract_quality: 61.4
+    contract_quality: 70.3
     developer_ergonomics: 56.5
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 68.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-endpoint-configuration-management/refs/heads/main/screenshots/microsoft-endpoint-configuration-management-2026-06-20T185457.png
 security:

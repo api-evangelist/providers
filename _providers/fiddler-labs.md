@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Fiddler REST API (v3) is organized around resource-oriented URLs with JSON request/response bodies, Bearer-token authentication, and standard HTTP verbs and status codes. Resource groups include P
@@ -173,7 +173,7 @@ overview: 'Fiddler Labs publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Fiddler Labs'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 22 more developer resources.'
-random_paper: 20
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: Fiddler Labs Rate Limits
@@ -191,8 +191,9 @@ score:
     operational_transparency: 68.4
   previous_composite: 49.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fiddler-labs/refs/heads/main/screenshots/fiddler-labs-2026-07-25T214410.png
 security:
 - kind: authentication
   name: Fiddler Labs Authentication

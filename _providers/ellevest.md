@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST APIs powering Ellevest's wealth management platform, including portfolio management, financial goal tracking, investment account operations, financial coaching scheduling, and personalized financ
@@ -102,7 +102,7 @@ plans:
 - name: Ellevest Plans Pricing
   plan_count: 2
   slug: ellevest-plans-pricing
-random_paper: 1
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Ellevest Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 22.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ellevest/refs/heads/main/screenshots/ellevest-2026-06-20T180612.png
 security:

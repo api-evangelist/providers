@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 29
   human_in_the_loop: 0
@@ -144,25 +144,25 @@ plans:
 - name: Plane So Plans Pricing
   plan_count: 6
   slug: plane-so-plans-pricing
-random_paper: 34
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Plane So Rate Limits
   slug: plane-so-rate-limits
 score:
   band: thin
-  composite: 36.5
-  delta: 0.0
+  composite: 39.8
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 50.2
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 36.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

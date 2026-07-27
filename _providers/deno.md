@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 1
@@ -213,18 +213,18 @@ rules:
   slug: deno-rules
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 59.3
+  delta: 4.6
   facets:
     commercial_clarity: 52.6
-    contract_quality: 64.6
+    contract_quality: 69.9
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 54.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deno/refs/heads/main/screenshots/deno-2026-06-20T175911.png
 security:

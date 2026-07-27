@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The EnOS platform open APIs cover the core platform services — model, device connection, asset, asset tree, alert engine, TSDB time-series data, and data subscription. Applications register in the EnO
@@ -134,7 +134,7 @@ overview: 'Univers publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Univers'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 17 more developer resources.'
-random_paper: 15
+random_paper: 32
 score:
   band: emerging
   composite: 29.5
@@ -148,7 +148,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 29.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

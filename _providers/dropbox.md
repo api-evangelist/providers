@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 231
   human_in_the_loop: 6
@@ -1219,7 +1219,7 @@ plans:
 - name: Dropbox Plans Pricing
   plan_count: 2
   slug: dropbox-plans-pricing
-random_paper: 1
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: Dropbox Rate Limits
@@ -1246,7 +1246,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 50.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/dropbox/refs/heads/main/screenshots/dropbox-2026-06-20T180244.png
 security:

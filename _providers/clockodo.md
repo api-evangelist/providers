@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 1
@@ -182,18 +182,18 @@ rules:
   slug: clockodo-rules
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 56.8
+  delta: 3.3
   facets:
     commercial_clarity: 71.1
     contract_quality: 61.1
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 53.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/clockodo/refs/heads/main/screenshots/clockodo-2026-06-20T174529.png
 security:

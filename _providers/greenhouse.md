@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -163,7 +163,7 @@ plans:
 - name: Greenhouse Plans Pricing
   plan_count: 3
   slug: greenhouse-plans-pricing
-random_paper: 6
+random_paper: 57
 rate_limits:
 - limit_count: 4
   name: Greenhouse Rate Limits
@@ -184,18 +184,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: thin
-  composite: 39.3
-  delta: 0.0
+  composite: 41.3
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 47.3
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 34.2
     operational_transparency: 36.8
   previous_composite: 39.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/greenhouse/refs/heads/main/screenshots/greenhouse-2026-06-20T182356.png
 security:

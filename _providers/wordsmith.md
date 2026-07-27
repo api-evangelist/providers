@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 23.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Public REST API for the Wordsmith legal AI platform. Lets developers ask questions of Wordsmith Assistants with optional file attachments, poll question status, list available assistants, generate pre
@@ -174,7 +174,7 @@ overview: 'Wordsmith publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Wordsmith''s developer surface includes engineering blog, documentation, API reference, authentication, getting-started guide, pricing, academy / training, and 24 more developer resources.'
-random_paper: 24
+random_paper: 41
 score:
   band: emerging
   composite: 26.8
@@ -188,7 +188,7 @@ score:
     operational_transparency: 23.7
   previous_composite: 26.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wordsmith/refs/heads/main/screenshots/wordsmith-2026-06-20T201549.png
 security:

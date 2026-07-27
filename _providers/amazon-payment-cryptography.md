@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 20
@@ -1090,7 +1090,7 @@ plans:
 - name: Amazon Payment Cryptography Plans Pricing
   plan_count: 3
   slug: amazon-payment-cryptography-plans-pricing
-random_paper: 21
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Amazon Payment Cryptography Rate Limits
@@ -1114,23 +1114,23 @@ rules:
   slug: amazon-payment-cryptography-spectral-rules
 score:
   band: strong
-  composite: 67.1
-  delta: 2.0
+  composite: 69.9
+  delta: 2.8
   facets:
     commercial_clarity: 81.6
     contract_quality: 71.1
     developer_ergonomics: 41.3
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 52.6
-  previous_composite: 65.1
+  previous_composite: 67.1
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-payment-cryptography/refs/heads/main/screenshots/amazon-payment-cryptography-2026-06-20T171758.png
 security:

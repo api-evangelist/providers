@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -238,7 +238,7 @@ overview: 'Securiti is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Securiti''s developer surface includes developer portal, documentation, signup flow, engineering blog, product news, YouTube channel, and 43 more developer resources.'
-random_paper: 48
+random_paper: 31
 score:
   band: emerging
   composite: 16.9
@@ -252,7 +252,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 16.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/securiti-ai/refs/heads/main/screenshots/securiti-ai-2026-06-20T193630.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Nameko is a microservices framework for Python that provides tools for building, testing, and running services. It supports RPC over AMQP, HTTP endpoints, WebSocket connections, and timer-based worker
@@ -112,7 +112,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 36.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nameko/refs/heads/main/screenshots/nameko-2026-06-20T185938.png
 slug: nameko

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 22
   human_in_the_loop: 0
@@ -292,7 +292,7 @@ plans:
 - name: Magento Plans Pricing
   plan_count: 3
   slug: magento-plans-pricing
-random_paper: 33
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Magento Rate Limits
@@ -315,19 +315,19 @@ rules:
     warn: 5
   slug: magento-jsonschema-spectral-rules
 score:
-  band: thin
-  composite: 43.9
-  delta: 0.0
+  band: developing
+  composite: 46.4
+  delta: 2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 73.8
     developer_ergonomics: 10.9
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 52.6
     operational_transparency: 36.8
   previous_composite: 43.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/magento/refs/heads/main/screenshots/magento-2026-06-20T184844.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -179,7 +179,7 @@ plans:
 - name: Datocms Plans Pricing
   plan_count: 3
   slug: datocms-plans-pricing
-random_paper: 33
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Datocms Rate Limits
@@ -202,19 +202,19 @@ rules:
     warn: 2
   slug: datocms-rules
 score:
-  band: developing
-  composite: 55.8
-  delta: 0.0
+  band: strong
+  composite: 60.4
+  delta: 4.6
   facets:
     commercial_clarity: 63.2
-    contract_quality: 55.8
+    contract_quality: 61.1
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 55.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/datocms/refs/heads/main/screenshots/datocms-2026-06-20T175706.png
 security:

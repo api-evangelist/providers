@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The ARC Data Report Tool provides state- and county-level data for the entire Appalachian Region across six topic areas comparing Appalachian data with national averages. Data covers economic, demogra
@@ -85,7 +85,7 @@ plans:
 - name: Appalachian Regional Commission Plans Pricing
   plan_count: 3
   slug: appalachian-regional-commission-plans-pricing
-random_paper: 4
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Appalachian Regional Commission Rate Limits
@@ -93,7 +93,7 @@ rate_limits:
 score:
   band: emerging
   composite: 22.3
-  delta: -1.6
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -101,14 +101,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 23.9
+  previous_composite: 22.3
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/appalachian-regional-commission/refs/heads/main/screenshots/appalachian-regional-commission-2026-06-20T172312.png
 security:

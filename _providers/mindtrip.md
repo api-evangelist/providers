@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: Consumer-facing web application for conversational AI trip planning, itinerary building, collaboration, and booking of flights, hotels, restaurants, experiences, and events.
@@ -119,7 +119,7 @@ plans:
 - name: Mindtrip Plans Pricing
   plan_count: 3
   slug: mindtrip-plans-pricing
-random_paper: 4
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Mindtrip Rate Limits
@@ -137,7 +137,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 25.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: The core NUnit testing framework programming API for writing and executing unit tests in .NET applications. Provides assertions, attributes, and lifecycle hooks consumed via the NUnit NuGet package.
@@ -95,7 +95,7 @@ plans:
 - name: Nunit Plans Pricing
   plan_count: 3
   slug: nunit-plans-pricing
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Nunit Rate Limits
@@ -113,7 +113,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 26.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nunit/refs/heads/main/screenshots/nunit-2026-06-20T190523.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 82
   human_in_the_loop: 0
@@ -291,7 +291,7 @@ plans:
 - name: Chatwoot Plans Pricing
   plan_count: 4
   slug: chatwoot-plans-pricing
-random_paper: 6
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Chatwoot Rate Limits
@@ -318,7 +318,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 52.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chatwoot/refs/heads/main/screenshots/chatwoot-2026-06-20T174237.png
 security:

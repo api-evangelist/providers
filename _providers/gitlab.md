@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 92
   human_in_the_loop: 1
@@ -242,7 +242,7 @@ arazzos:
 - description: Look up an instance CI variable and update it or create it if missing.
   name: GitLab Upsert an Instance-Level CI Variable
   slug: gitlab-upsert-instance-ci-variable-workflow
-artifact_total: 282
+artifact_total: 283
 asyncapis:
 - description: GitLab Webhooks deliver HTTP POST payloads to a configured URL whenever specified events occur in a GitLab project or group, such as pushes, merge requests, issues, pipeline status changes, and deploy
   name: GitLab Webhooks
@@ -1135,6 +1135,10 @@ jsonld:
   property_count: 268
   slug: gitlab-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: gitlab-mcp.yml
+  slug: gitlab-mcpyml
 modified: '2026-06-20'
 name: GitLab
 nav: Providers
@@ -1187,18 +1191,18 @@ scopes:
   summary_line: 25 scopes · authorizationCode/clientCredentials/deviceCode
 score:
   band: exemplar
-  composite: 70.4
-  delta: 0.0
+  composite: 72.9
+  delta: 2.5
   facets:
     commercial_clarity: 78.9
     contract_quality: 72.7
     developer_ergonomics: 71.7
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 52.6
     operational_transparency: 78.9
   previous_composite: 70.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/gitlab/refs/heads/main/screenshots/gitlab-2026-06-20T181844.png
 security:

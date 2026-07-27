@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -264,7 +264,7 @@ plans:
 - name: Bankruptcywatch Plans Pricing
   plan_count: 3
   slug: bankruptcywatch-plans-pricing
-random_paper: 45
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Bankruptcywatch Rate Limits
@@ -288,18 +288,18 @@ rules:
   slug: bankruptcywatch-spectral-rules
 score:
   band: developing
-  composite: 52.7
-  delta: 0.0
+  composite: 55.9
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 65.5
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 52.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bankruptcywatch/refs/heads/main/screenshots/bankruptcywatch-2026-06-20T172956.png
 security:

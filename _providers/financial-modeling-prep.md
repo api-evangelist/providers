@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 81.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
 - description: The Stock API from Financial Modeling Prep — 1 operation(s) for stock.
   name: Financial Modeling Prep Stock API
   slug: financial-modeling-prep-stock-api
-artifact_total: 19
+artifact_total: 20
 asyncapis:
 - description: Real-time market data streaming from Financial Modeling Prep. Authenticate with a login event carrying your API key, then subscribe to tickers or predefined market streams. Derived from the Websockets
   name: Financial Modeling Prep WebSocket API
@@ -225,6 +225,10 @@ finops:
   slug: financial-modeling-prep-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/financial-modeling-prep.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: financial-modeling-prep-mcp.yml
+  slug: financial-modeling-prep-mcpyml
 modified: '2026-07-22'
 name: Financial Modeling Prep
 nav: Providers
@@ -240,31 +244,31 @@ plans:
 - name: Financial Modeling Prep Plans Pricing
   plan_count: 4
   slug: financial-modeling-prep-plans-pricing
-random_paper: 14
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Financial Modeling Prep Rate Limits
   slug: financial-modeling-prep-rate-limits
 score:
   band: strong
-  composite: 64.8
-  delta: 21.4
+  composite: 67.6
+  delta: 2.8
   facets:
     commercial_clarity: 86.8
     contract_quality: 74.3
     developer_ergonomics: 60.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 76.3
-  previous_composite: 43.4
+  previous_composite: 64.8
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Financial Modeling Prep Authentication

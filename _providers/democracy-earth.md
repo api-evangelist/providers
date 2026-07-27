@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ overview: 'Democracy Earth is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Democracy Earth''s developer surface includes documentation, engineering blog, and 3 more developer resources.'
-random_paper: 49
+random_paper: 32
 score:
   band: minimal
   composite: 9.6
@@ -75,8 +75,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 9.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/democracy-earth/refs/heads/main/screenshots/democracy-earth-2026-07-25T211721.png
 security:
 - kind: domain-security
   name: Democracy Earth Domain Security

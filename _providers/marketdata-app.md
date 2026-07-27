@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -49,7 +49,7 @@ apis:
 - description: Real-time and historical stock candles, quotes, bulk data, prices, earnings, and news.
   name: Market Data Stocks API
   slug: marketdata-app-stocks-api
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: open
   name: Market Data API
@@ -207,6 +207,10 @@ finops:
   slug: marketdata-app-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/marketdata-app.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: marketdata-app-mcp.yml
+  slug: marketdata-app-mcpyml
 modified: '2026-07-22'
 name: Market Data
 nav: Providers
@@ -219,31 +223,31 @@ plans:
 - name: Marketdata App Plans Pricing
   plan_count: 6
   slug: marketdata-app-plans-pricing
-random_paper: 43
+random_paper: 60
 rate_limits:
 - limit_count: 7
   name: Marketdata App Rate Limits
   slug: marketdata-app-rate-limits
 score:
   band: strong
-  composite: 62.8
-  delta: 20.1
+  composite: 65.6
+  delta: 2.8
   facets:
     commercial_clarity: 84.2
     contract_quality: 58.4
     developer_ergonomics: 82.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 73.7
-  previous_composite: 42.7
+  previous_composite: 62.8
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/screenshots/marketdata-app-2026-07-22T202452.png
 security:
 - kind: authentication

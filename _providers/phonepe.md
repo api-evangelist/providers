@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -162,30 +162,30 @@ plans:
 - name: Phonepe Plans Pricing
   plan_count: 1
   slug: phonepe-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Phonepe Rate Limits
   slug: phonepe-rate-limits
 score:
   band: thin
-  composite: 35.3
-  delta: 0.7
+  composite: 37.4
+  delta: 2.1
   facets:
     commercial_clarity: 28.9
     contract_quality: 59.0
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 34.6
+  previous_composite: 35.3
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 39.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/screenshots/phonepe-2026-06-20T191650.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -107,23 +107,23 @@ rate_limits:
   slug: general-dynamics-rate-limits
 score:
   band: emerging
-  composite: 25.0
-  delta: -2.1
+  composite: 27.8
+  delta: 2.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 50.4
     developer_ergonomics: 0.0
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 27.1
+  previous_composite: 25.0
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/general-dynamics/refs/heads/main/screenshots/general-dynamics-2026-06-20T181724.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -112,25 +112,25 @@ plans:
 - name: Mockoon Plans Pricing
   plan_count: 3
   slug: mockoon-plans-pricing
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Mockoon Rate Limits
   slug: mockoon-rate-limits
 score:
   band: thin
-  composite: 35.0
-  delta: 0.0
+  composite: 37.0
+  delta: 2.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 50.4
     developer_ergonomics: 10.9
-    discoverability: 60.0
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 35.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mockoon/refs/heads/main/screenshots/mockoon-2026-06-20T185637.png
 security:

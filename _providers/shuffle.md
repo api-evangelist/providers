@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ plans:
 - name: Shuffle Plans Pricing
   plan_count: 3
   slug: shuffle-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Shuffle Rate Limits
@@ -164,19 +164,19 @@ rules:
   slug: shuffle-rules
 score:
   band: developing
-  composite: 46.4
-  delta: 0.0
+  composite: 51.8
+  delta: 5.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 66.4
+    contract_quality: 75.2
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 46.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/shuffle/refs/heads/main/screenshots/shuffle-2026-06-20T193850.png
 security:
 - kind: authentication

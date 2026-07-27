@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The JuliaHub cloud platform for scientific and technical computing - hosted Julia compute, batch/job execution, datasets, and the Julia package registry. Accessed programmatically through the first-pa
@@ -122,7 +122,7 @@ overview: 'Julia Computing publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Julia Computing''s developer surface includes documentation, getting-started guide, engineering blog, pricing, authentication, and 14 more developer resources.'
-random_paper: 30
+random_paper: 64
 scopes:
 - name: Julia Computing Scopes
   scope_count: 5
@@ -131,7 +131,7 @@ scopes:
 score:
   band: thin
   composite: 39.9
-  delta: 8.3
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -139,15 +139,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 31.6
+  previous_composite: 39.9
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/julia-computing/refs/heads/main/screenshots/julia-computing-2026-07-25T223305.png
 security:
 - kind: authentication
   name: Julia Computing Authentication

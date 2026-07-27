@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,11 +81,11 @@ overview: 'Bevel is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Bevel''s developer surface includes documentation, support, engineering blog, changelog, and 6 more developer resources.'
-random_paper: 16
+random_paper: 50
 score:
   band: emerging
   composite: 21.0
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -93,15 +93,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 19.4
+  previous_composite: 21.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bevel/refs/heads/main/screenshots/bevel-2026-07-25T202822.png
 security:
 - kind: domain-security
   name: Bevel Domain Security

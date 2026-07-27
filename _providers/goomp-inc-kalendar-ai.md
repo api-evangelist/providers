@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ overview: 'Goomp Inc, Kalendar AI is profiled on the [APIs.io](https://apis.io/)
 
 
   Goomp Inc, Kalendar AI''s developer surface includes signup flow and 4 more developer resources.'
-random_paper: 42
+random_paper: 59
 score:
   band: minimal
   composite: 13.6
@@ -75,8 +75,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/goomp-inc-kalendar-ai/refs/heads/main/screenshots/goomp-inc-kalendar-ai-2026-07-25T220105.png
 security:
 - kind: domain-security
   name: Goomp Inc Kalendar Ai Domain Security

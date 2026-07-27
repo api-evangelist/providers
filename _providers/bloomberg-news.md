@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Provides access to real-time and historical market data including stocks, bonds, commodities, and currencies through the Bloomberg Terminal and enterprise data feeds.
@@ -166,7 +166,7 @@ rules:
 score:
   band: developing
   composite: 45.0
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 15.1
@@ -174,14 +174,14 @@ score:
     discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
-  previous_composite: 45.7
+  previous_composite: 45.0
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-news/refs/heads/main/screenshots/bloomberg-news-2026-06-20T173445.png
 security:

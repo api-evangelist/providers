@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 43.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Public GraphQL Admin API for ikas stores — read and write products, variants, orders, transactions, customers, price lists, campaigns, coupons, stock locations, sales channels, storefronts, and webhoo
@@ -157,7 +157,7 @@ overview: 'Ikas, IKAS Teknoloji AS publishes 1 API on the [APIs.io](https://apis
 
 
   Ikas, IKAS Teknoloji AS''s developer surface includes documentation, getting-started guide, sandbox, pricing, authentication, CLI, and 19 more developer resources.'
-random_paper: 28
+random_paper: 62
 scopes:
 - name: Ikas Ikas Teknoloji As Scopes
   scope_count: 10
@@ -176,8 +176,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 34.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ikas-ikas-teknoloji-as/refs/heads/main/screenshots/ikas-ikas-teknoloji-as-2026-07-25T222057.png
 security:
 - kind: authentication
   name: Ikas Ikas Teknoloji As Authentication

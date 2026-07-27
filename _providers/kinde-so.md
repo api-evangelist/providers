@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: high
-  generated: '2026-07-22'
   label: Freemium · Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: freemium
   public: false
@@ -12,17 +10,230 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 111
+  human_in_the_loop: 12
+  name: Kinde So Agentic Access
+  operation_count: 175
+  slug: kinde-so-agentic-access
+  summary_line: 175 operations · 111 acting · 12 human-in-the-loop
 api_count: 27
-artifact_total: 0
+apis:
+- description: The API Keys API from Kinde — 3 operation(s) for api keys.
+  name: Kinde API Keys API
+  slug: kinde-so-api-keys-api
+- description: The APIs API from Kinde — 6 operation(s) for apis.
+  name: Kinde APIs API
+  slug: kinde-so-apis-api
+- description: The Applications API from Kinde — 7 operation(s) for applications.
+  name: Kinde Applications API
+  slug: kinde-so-applications-api
+- description: The Billing Agreements API from Kinde — 1 operation(s) for billing agreements.
+  name: Kinde Billing Agreements API
+  slug: kinde-so-billing-agreements-api
+- description: The Billing Entitlements API from Kinde — 1 operation(s) for billing entitlements.
+  name: Kinde Billing Entitlements API
+  slug: kinde-so-billing-entitlements-api
+- description: The Billing Meter Usage API from Kinde — 1 operation(s) for billing meter usage.
+  name: Kinde Billing Meter Usage API
+  slug: kinde-so-billing-meter-usage-api
+- description: The Business API from Kinde — 1 operation(s) for business.
+  name: Kinde Business API
+  slug: kinde-so-business-api
+- description: The Callbacks API from Kinde — 2 operation(s) for callbacks.
+  name: Kinde Callbacks API
+  slug: kinde-so-callbacks-api
+- description: The Connected Apps API from Kinde — 3 operation(s) for connected apps.
+  name: Kinde Connected Apps API
+  slug: kinde-so-connected-apps-api
+- description: The Connections API from Kinde — 2 operation(s) for connections.
+  name: Kinde Connections API
+  slug: kinde-so-connections-api
+- description: The Directories API from Kinde — 2 operation(s) for directories.
+  name: Kinde Directories API
+  slug: kinde-so-directories-api
+- description: The Environment variables API from Kinde — 2 operation(s) for environment variables.
+  name: Kinde Environment variables API
+  slug: kinde-so-environment-variables-api
+- description: The Environments API from Kinde — 6 operation(s) for environments.
+  name: Kinde Environments API
+  slug: kinde-so-environments-api
+- description: The Feature Flags API from Kinde — 2 operation(s) for feature flags.
+  name: Kinde Feature Flags API
+  slug: kinde-so-feature-flags-api
+- description: The Identities API from Kinde — 1 operation(s) for identities.
+  name: Kinde Identities API
+  slug: kinde-so-identities-api
+- description: The Industries API from Kinde — 1 operation(s) for industries.
+  name: Kinde Industries API
+  slug: kinde-so-industries-api
+- description: The MFA API from Kinde — 1 operation(s) for mfa.
+  name: Kinde MFA API
+  slug: kinde-so-mfa-api
+- description: The Organizations API from Kinde — 27 operation(s) for organizations.
+  name: Kinde Organizations API
+  slug: kinde-so-organizations-api
+- description: The Permissions API from Kinde — 2 operation(s) for permissions.
+  name: Kinde Permissions API
+  slug: kinde-so-permissions-api
+- description: The Properties API from Kinde — 2 operation(s) for properties.
+  name: Kinde Properties API
+  slug: kinde-so-properties-api
+- description: The Property Categories API from Kinde — 2 operation(s) for property categories.
+  name: Kinde Property Categories API
+  slug: kinde-so-property-categories-api
+- description: The Roles API from Kinde — 7 operation(s) for roles.
+  name: Kinde Roles API
+  slug: kinde-so-roles-api
+- description: The Search API from Kinde — 1 operation(s) for search.
+  name: Kinde Search API
+  slug: kinde-so-search-api
+- description: The Subscribers API from Kinde — 2 operation(s) for subscribers.
+  name: Kinde Subscribers API
+  slug: kinde-so-subscribers-api
+- description: The Timezones API from Kinde — 1 operation(s) for timezones.
+  name: Kinde Timezones API
+  slug: kinde-so-timezones-api
+- description: The Users API from Kinde — 11 operation(s) for users.
+  name: Kinde Users API
+  slug: kinde-so-users-api
+- description: The Webhooks API from Kinde — 4 operation(s) for webhooks.
+  name: Kinde Webhooks API
+  slug: kinde-so-webhooks-api
+artifact_total: 36
+collections:
+- collection_type: open
+  name: Kinde Management API
+  slug: open-kinde-so
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/kinde-so-agentic-access.yml
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/kinde-so-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/kinde-so-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/kinde-so-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/kinde-so-authentication.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/kinde-oss
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/kinde
+- group: company
+  title: ''
+  type: Website
+  url: https://kinde.com
+- group: docs
+  title: ''
+  type: Documentation
+  url: https://docs.kinde.com
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/kinde-so-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/kinde-so-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/kinde-so-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.kinde.com/blog/rss.xml
 created: '2026-07-02'
 description: Kinde is an authentication and user management platform for SaaS and B2B applications - handling sign-up and login, multi-factor authentication, organizations, roles and permissions, feature flags, and usage-based billing. The Kinde Management API programmatically manages a Kinde business over a subdomain-scoped base URL (https://{yourbusiness}.kinde.com/api/v1), authenticated with a Bearer JWT obtained via the OAuth2 client_credentials flow from a machine-to-machine (M2M) application. Almost everything available in the Kinde admin UI - users, organizations, roles, permissions, feature flags, applications, connections, APIs and scopes, subscribers, properties, webhooks, and billing - is available through the API.
+finops:
+- name: Kinde So Finops
+  service_category: Identity and Access Management
+  slug: kinde-so-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kinde-so.png
 layout: provider
 modified: '2026-07-02'
 name: Kinde
 nav: Providers
 network: true
-random_paper: 29
+overview: 'Kinde publishes 27 APIs on the [APIs.io](https://apis.io/) network, including API Keys API, APIs API, Applications API, and 24 more. Tagged areas include Authentication, User Management, Identity, Authorization, and SaaS.
+
+
+  Kinde''s developer surface includes authentication, documentation, engineering blog, and 10 more developer resources.'
+plans:
+- name: Kinde So Plans Pricing
+  plan_count: 5
+  slug: kinde-so-plans-pricing
+random_paper: 46
+rate_limits:
+- limit_count: 4
+  name: Kinde So Rate Limits
+  slug: kinde-so-rate-limits
+score:
+  band: thin
+  composite: 41.2
+  delta: 1.2
+  facets:
+    commercial_clarity: 47.4
+    contract_quality: 58.4
+    developer_ergonomics: 21.7
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 36.8
+  previous_composite: 40.0
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/kinde-so/refs/heads/main/screenshots/kinde-so-2026-07-25T223804.png
+security:
+- kind: authentication
+  name: Kinde So Authentication
+  slug: kinde-so-authentication
+  summary_line: http · 1 scheme
+- kind: domain-security
+  name: Kinde So Domain Security
+  slug: kinde-so-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Kinde So Vulnerability Disclosure
+  slug: kinde-so-vulnerability-disclosure
+  summary_line: security.txt · contact published
+- kind: trust-center
+  name: Kinde So Trust Center
+  slug: kinde-so-trust-center
+  summary_line: SOC 2, ISO 27001, HIPAA, GDPR
 slug: kinde-so
 tags:
 - Authentication
@@ -31,4 +242,5 @@ tags:
 - Authorization
 - SaaS
 - CIAM
+website: https://kinde.com
 ---

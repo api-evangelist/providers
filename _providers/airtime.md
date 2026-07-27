@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -101,7 +101,7 @@ overview: 'Airtime is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Airtime''s developer surface includes pricing, signup flow, engineering blog, support, and 11 more developer resources.'
-random_paper: 33
+random_paper: 67
 score:
   band: emerging
   composite: 21.5
@@ -115,8 +115,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 21.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/airtime/refs/heads/main/screenshots/airtime-2026-07-25T195444.png
 security:
 - kind: domain-security
   name: Airtime Domain Security

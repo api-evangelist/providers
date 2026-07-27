@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -94,7 +94,7 @@ press:
 - date: '2026-05-25'
   title: Whiting and Oasis Complete Combination, Establishing ...
   url: https://www.prnewswire.com/news-releases/whiting-and-oasis-complete-combination-establishing-chord-energy-301579674.html
-random_paper: 11
+random_paper: 28
 score:
   band: minimal
   composite: 10.5
@@ -108,7 +108,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 10.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whiting-petroleum/refs/heads/main/screenshots/whiting-petroleum-2026-06-20T201444.png
 security:

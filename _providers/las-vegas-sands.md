@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,7 +89,7 @@ press:
 - date: '2026-05-25'
   title: Las Vegas Sands details 2026 proxy and pay overhaul
   url: https://www.stocktitan.net/sec-filings/LVS/def-14a-las-vegas-sands-corp-definitive-proxy-statement-a4938dbbd0c8.html
-random_paper: 2
+random_paper: 53
 score:
   band: minimal
   composite: 11.0
@@ -103,7 +103,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/las-vegas-sands/refs/heads/main/screenshots/las-vegas-sands-2026-06-20T184318.png
 security:

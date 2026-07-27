@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 common:
@@ -149,7 +149,7 @@ overview: 'Bruin is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Bruin''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, CLI, and 19 more developer resources.'
-random_paper: 34
+random_paper: 0
 score:
   band: thin
   composite: 34.8
@@ -163,8 +163,9 @@ score:
     operational_transparency: 31.6
   previous_composite: 34.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bruin/refs/heads/main/screenshots/bruin-2026-07-25T204000.png
 security:
 - kind: domain-security
   name: Bruin Domain Security

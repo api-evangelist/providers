@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -285,19 +285,19 @@ rules:
   slug: datamuse-rules
 score:
   band: developing
-  composite: 51.6
-  delta: 0.0
+  composite: 57.1
+  delta: 5.5
   facets:
     commercial_clarity: 60.5
-    contract_quality: 64.6
+    contract_quality: 73.5
     developer_ergonomics: 34.8
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 0.0
   previous_composite: 51.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/datamuse/refs/heads/main/screenshots/datamuse-2026-06-20T175644.png
 security:
 - kind: domain-security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 73.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -125,7 +125,7 @@ arazzos:
 - description: Size the TSDB, snapshot it, and capture the snapshot directory name.
   name: Prometheus Take a TSDB Snapshot for Backup
   slug: prometheus-tsdb-snapshot-backup-workflow
-artifact_total: 44
+artifact_total: 45
 asyncapis:
 - description: The Prometheus Alertmanager webhook receiver sends HTTP POST requests to configured endpoints when alert groups are triggered. Each webhook payload contains a group of alerts sharing common routing la
   name: Prometheus Alertmanager Webhook Events
@@ -317,6 +317,10 @@ jsonld:
   property_count: 13
   slug: prometheus-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: prometheus-mcp.yml
+  slug: prometheus-mcpyml
 modified: '2026-06-20'
 name: Prometheus
 nav: Providers
@@ -332,7 +336,7 @@ plans:
 - name: Prometheus Plans Pricing
   plan_count: 1
   slug: prometheus-plans-pricing
-random_paper: 29
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Prometheus Rate Limits
@@ -356,18 +360,18 @@ rules:
   slug: prometheus-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.3
-  delta: 0.0
+  composite: 53.6
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 71.1
+    contract_quality: 76.4
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 34.2
     operational_transparency: 42.1
   previous_composite: 50.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/prometheus/refs/heads/main/screenshots/prometheus-2026-06-20T192155.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 26.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Configure and manage a Hydrolix cluster — orgs, projects, tables, transforms, functions, jobs, and service accounts.
@@ -124,7 +124,7 @@ overview: 'Hydrolix publishes 3 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Hydrolix''s developer surface includes documentation, API reference, signup flow, CLI, authentication, and 12 more developer resources.'
-random_paper: 16
+random_paper: 67
 score:
   band: emerging
   composite: 26.2
@@ -138,8 +138,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 26.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hydrolix/refs/heads/main/screenshots/hydrolix-2026-07-25T221832.png
 security:
 - kind: authentication
   name: Hydrolix Authentication

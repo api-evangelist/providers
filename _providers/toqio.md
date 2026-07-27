@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 56.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 49
 apis:
 - description: The Account API from Toqio — 7 operation(s) for account.
@@ -313,7 +313,7 @@ overview: 'Toqio publishes 49 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Toqio''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, and 22 more developer resources.'
-random_paper: 46
+random_paper: 12
 scopes:
 - name: Toqio Scopes
   scope_count: 3
@@ -322,7 +322,7 @@ scopes:
 score:
   band: developing
   composite: 57.0
-  delta: 5.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 63.5
@@ -330,15 +330,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 51.7
+  previous_composite: 57.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Toqio Authentication

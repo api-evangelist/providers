@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 10
 common:
@@ -134,7 +134,7 @@ overview: 'amicus-therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   The amicus-therapeutics catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 46
+random_paper: 12
 rules:
 - name: amicus-therapeutics API Rules
   rule_count: 5
@@ -147,7 +147,7 @@ rules:
 score:
   band: emerging
   composite: 20.7
-  delta: 0.5
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 15.1
@@ -155,14 +155,14 @@ score:
     discoverability: 60.0
     governance: 86.8
     operational_transparency: 0.0
-  previous_composite: 20.2
+  previous_composite: 20.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amicus-therapeutics/refs/heads/main/screenshots/amicus-therapeutics-2026-06-20T171931.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 5
 common:
@@ -122,7 +122,7 @@ overview: 'Workerbase is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Workerbase''s developer surface includes pricing, engineering blog, support, authentication, and 15 more developer resources.'
-random_paper: 6
+random_paper: 57
 score:
   band: emerging
   composite: 22.7
@@ -136,7 +136,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 22.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

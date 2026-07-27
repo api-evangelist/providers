@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Public Antelope/EOSIO Chain API for the WAX blockchain — query chain state (get_info, get_account, get_table_rows, get_currency_balance) and submit signed transactions (push_transaction/send_transacti
@@ -125,11 +125,11 @@ overview: 'WAX publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagg
 
 
   WAX''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, authentication, and 13 more developer resources.'
-random_paper: 30
+random_paper: 64
 score:
   band: thin
   composite: 33.4
-  delta: 3.7
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -137,14 +137,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 29.7
+  previous_composite: 33.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

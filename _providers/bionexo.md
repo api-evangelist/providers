@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: 'Partner integration API for exchanging supply-chain and procurement data (purchase quotations, orders, catalog) between customer and supplier ERP systems and the Bionexo marketplace. Documented via a '
@@ -96,11 +96,11 @@ overview: 'Bionexo publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Bionexo''s developer surface includes documentation, API reference, engineering blog, support, and 8 more developer resources.'
-random_paper: 42
+random_paper: 8
 score:
   band: emerging
   composite: 23.7
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -108,15 +108,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 22.5
+  previous_composite: 23.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bionexo/refs/heads/main/screenshots/bionexo-2026-07-25T203048.png
 security:
 - kind: domain-security
   name: Bionexo Domain Security

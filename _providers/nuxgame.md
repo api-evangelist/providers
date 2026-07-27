@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: NuxGame offers a one-stop casino platform to take any online gambling project to the next level. With 130 top iGaming providers and 13,500 fan-favorite games, all you need is a single casino API integ
@@ -74,7 +74,7 @@ plans:
 - name: Nuxgame Plans Pricing
   plan_count: 3
   slug: nuxgame-plans-pricing
-random_paper: 43
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Nuxgame Rate Limits
@@ -92,7 +92,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 19.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nuxgame/refs/heads/main/screenshots/nuxgame-2026-06-20T190538.png
 security:

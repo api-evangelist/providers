@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -97,7 +97,7 @@ overview: 'Wonder Workshop is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Wonder Workshop''s developer surface includes documentation, support, engineering blog, pricing, and 10 more developer resources.'
-random_paper: 12
+random_paper: 29
 score:
   band: emerging
   composite: 19.8
@@ -111,7 +111,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 19.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

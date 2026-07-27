@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 35
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ arazzos:
 - description: Read an endpoint's current state, then pause it if running or resume it if paused.
   name: Hugging Face Toggle Inference Endpoint State
   slug: hugging-face-toggle-endpoint-state-workflow
-artifact_total: 435
+artifact_total: 436
 collections:
 - collection_type: postman
   name: Hugging Face Dataset Viewer API
@@ -1462,6 +1462,10 @@ jsonld:
   property_count: 0
   slug: hugging-face-text-generation-inference-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Hugging Face
 nav: Providers
@@ -1477,7 +1481,7 @@ plans:
 - name: Hugging Face Plans Pricing
   plan_count: 8
   slug: hugging-face-plans-pricing
-random_paper: 16
+random_paper: 33
 rate_limits:
 - limit_count: 6
   name: Hugging Face Rate Limits
@@ -1500,19 +1504,19 @@ rules:
     warn: 9
   slug: hugging-face-spectral-rules
 score:
-  band: strong
-  composite: 69.2
-  delta: 0.0
+  band: exemplar
+  composite: 71.7
+  delta: 2.5
   facets:
     commercial_clarity: 84.2
     contract_quality: 69.2
     developer_ergonomics: 65.2
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 69.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hugging-face/refs/heads/main/screenshots/hugging-face-2026-06-20T182926.png
 security:

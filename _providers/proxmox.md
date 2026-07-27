@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -117,21 +117,21 @@ overview: 'Proxmox VE publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Proxmox VE''s developer surface includes authentication, documentation, pricing, GitHub presence, and 8 more developer resources.'
-random_paper: 32
+random_paper: 49
 score:
   band: emerging
-  composite: 26.1
-  delta: 0.0
+  composite: 29.3
+  delta: 3.2
   facets:
     commercial_clarity: 10.5
     contract_quality: 50.4
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/proxmox/refs/heads/main/screenshots/proxmox-2026-06-20T192222.png
 security:

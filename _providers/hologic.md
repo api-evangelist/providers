@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Hologic's AI-Driven Breast Cancer Screening Technology ...
   url: https://www.hologic.com/about/press-release/hologics-ai-driven-breast-cancer-screening-technology-earns-medtech
-random_paper: 27
+random_paper: 61
 score:
   band: minimal
   composite: 4.6
@@ -90,7 +90,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 4.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hologic/refs/heads/main/screenshots/hologic-2026-06-20T182812.png
 security:

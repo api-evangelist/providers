@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: RESTful JSON API for the Agari Platform, secured with OAuth 2.0 Client Credentials. Provides access to Agari email-security telemetry — alerts, domain tracking, DMARC policy-enforcement reporting, and
@@ -94,7 +94,7 @@ overview: 'Agari publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Agari''s developer surface includes documentation, API reference, getting-started guide, authentication, and 8 more developer resources.'
-random_paper: 6
+random_paper: 40
 score:
   band: emerging
   composite: 18.4
@@ -108,8 +108,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 18.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/agari/refs/heads/main/screenshots/agari-2026-07-25T181754.png
 security:
 - kind: authentication
   name: Agari Authentication

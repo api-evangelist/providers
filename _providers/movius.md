@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Admin/management REST API for MultiLine, used to connect external applications to a Movius organization. Supports provisioning and managing API users, assigning and reassigning business numbers, confi
@@ -114,7 +114,7 @@ overview: 'Movius publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Movius'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, changelog, and 10 more developer resources.'
-random_paper: 12
+random_paper: 63
 score:
   band: thin
   composite: 31.2
@@ -128,7 +128,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 31.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

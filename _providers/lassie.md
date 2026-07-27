@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -134,7 +134,7 @@ random_paper: 29
 score:
   band: emerging
   composite: 23.2
-  delta: 5.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -142,15 +142,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 18.1
+  previous_composite: 23.2
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 52.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lassie/refs/heads/main/screenshots/lassie-2026-07-25T224549.png
 security:
 - kind: domain-security
   name: Lassie Domain Security

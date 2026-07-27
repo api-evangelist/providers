@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -162,7 +162,7 @@ plans:
 - name: Fonoa Plans Pricing
   plan_count: 1
   slug: fonoa-plans-pricing
-random_paper: 21
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Fonoa Rate Limits
@@ -180,7 +180,7 @@ score:
     operational_transparency: 63.2
   previous_composite: 48.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fonoa/refs/heads/main/screenshots/fonoa-2026-06-20T181458.png
 security:

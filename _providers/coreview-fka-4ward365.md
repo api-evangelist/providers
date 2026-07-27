@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 25.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The CoreView Public API provides programmatic access to Microsoft 365 governance operations — delegated administration, operators, platform reporting, license pools, and customer/tenant management — v
@@ -142,7 +142,7 @@ overview: 'CoreView (FKA 4ward365) publishes 1 API on the [APIs.io](https://apis
 
 
   CoreView (FKA 4ward365)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 16 more developer resources.'
-random_paper: 17
+random_paper: 0
 scopes:
 - name: Coreview Fka 4Ward365 Scopes
   scope_count: 14
@@ -161,8 +161,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 33.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/coreview-fka-4ward365/refs/heads/main/screenshots/coreview-fka-4ward365-2026-07-25T210431.png
 security:
 - kind: authentication
   name: Coreview Fka 4Ward365 Authentication

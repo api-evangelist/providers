@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -51,7 +51,7 @@ name: BetaStore, Beta Store
 nav: Providers
 network: true
 overview: BetaStore, Beta Store is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, B2B Marketplace, Retail, FMCG, and Supply Chain.
-random_paper: 39
+random_paper: 56
 score:
   band: minimal
   composite: 6.8
@@ -65,8 +65,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/betastore-beta-store/refs/heads/main/screenshots/betastore-beta-store-2026-07-25T202803.png
 security:
 - kind: domain-security
   name: Betastore Beta Store Domain Security

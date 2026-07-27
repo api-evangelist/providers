@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -191,18 +191,18 @@ rate_limits:
   slug: heap-rate-limits
 score:
   band: developing
-  composite: 52.6
-  delta: 0.0
+  composite: 54.6
+  delta: 2.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 52.6
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 52.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/heap/refs/heads/main/screenshots/heap-2026-06-20T182602.png
 security:

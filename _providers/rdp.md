@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 7
 common:
@@ -111,7 +111,7 @@ overview: 'RDP is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   RDP''s developer surface includes code examples, documentation, and 9 more developer resources.'
-random_paper: 20
+random_paper: 54
 rules:
 - name: RDP API Rules
   rule_count: 5
@@ -134,7 +134,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 24.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rdp/refs/heads/main/screenshots/rdp-2026-06-20T192627.png
 slug: rdp

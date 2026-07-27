@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -285,7 +285,7 @@ plans:
 - name: Encore Dev Plans Pricing
   plan_count: 3
   slug: encore-dev-plans-pricing
-random_paper: 31
+random_paper: 48
 rate_limits:
 - limit_count: 9
   name: Encore Dev Rate Limits
@@ -309,18 +309,18 @@ rules:
   slug: encore-dev-rules
 score:
   band: strong
-  composite: 60.2
-  delta: 0.0
+  composite: 64.4
+  delta: 4.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 56.6
+    contract_quality: 65.5
     developer_ergonomics: 50.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 68.4
   previous_composite: 60.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/encore-dev/refs/heads/main/screenshots/encore-dev-2026-06-20T180721.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ plans:
 - name: Aloha Pos Plans Pricing
   plan_count: 2
   slug: aloha-pos-plans-pricing
-random_paper: 33
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Aloha Pos Rate Limits
@@ -217,18 +217,18 @@ rules:
   slug: ncr-voyix-platform-rules
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 47.4
+  delta: 2.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 63.7
     developer_ergonomics: 21.7
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 86.8
     operational_transparency: 26.3
   previous_composite: 45.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aloha-pos/refs/heads/main/screenshots/aloha-pos-2026-06-20T171543.png
 security:

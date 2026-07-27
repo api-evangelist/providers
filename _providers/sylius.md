@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Sylius REST API is built on API Platform and provides endpoints for all core eCommerce operations including product catalog management, order processing, customer management, payment handling, shi
@@ -106,7 +106,7 @@ plans:
 - name: Sylius Plans Pricing
   plan_count: 4
   slug: sylius-plans-pricing
-random_paper: 18
+random_paper: 1
 rate_limits:
 - limit_count: 0
   name: Sylius Rate Limits
@@ -114,7 +114,7 @@ rate_limits:
 score:
   band: thin
   composite: 32.4
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 47.2
@@ -122,14 +122,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 33.9
+  previous_composite: 32.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sylius/refs/heads/main/screenshots/sylius-2026-06-20T194814.png
 security:

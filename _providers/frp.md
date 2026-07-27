@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 1
@@ -133,25 +133,25 @@ plans:
 - name: Frp Plans Pricing
   plan_count: 3
   slug: frp-plans-pricing
-random_paper: 22
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Frp Rate Limits
   slug: frp-rate-limits
 score:
   band: thin
-  composite: 40.0
-  delta: 0.0
+  composite: 42.0
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 57.6
     developer_ergonomics: 30.4
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 47.4
   previous_composite: 40.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/frp/refs/heads/main/screenshots/frp-2026-06-20T181558.png
 security:

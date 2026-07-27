@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 30.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Matchory Discovery API exposes the resolved-and-enriched supplier data layer — verified supplier profiles, MatchoryID identity resolution, portfolio consolidation, risk signals, and market intelli
@@ -133,7 +133,7 @@ overview: 'Matchory publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Matchory''s developer surface includes documentation, signup flow, pricing, authentication, and 15 more developer resources.'
-random_paper: 4
+random_paper: 55
 scopes:
 - name: Matchory Scopes
   scope_count: 4
@@ -152,8 +152,9 @@ score:
     operational_transparency: 13.2
   previous_composite: 34.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/matchory/refs/heads/main/screenshots/matchory-2026-07-25T230348.png
 security:
 - kind: authentication
   name: Matchory Authentication

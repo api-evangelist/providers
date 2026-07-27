@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: PowerReviews API for collecting, managing, syndicating, and displaying product ratings, reviews, and questions. Used by retailers and brands to integrate user-generated content into product detail pag
@@ -82,7 +82,7 @@ plans:
 - name: Powerreviews Plans Pricing
   plan_count: 3
   slug: powerreviews-plans-pricing
-random_paper: 4
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Powerreviews Rate Limits
@@ -100,7 +100,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 23.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/powerreviews/refs/heads/main/screenshots/powerreviews-2026-06-20T192030.png
 security:

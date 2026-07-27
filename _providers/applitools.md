@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -135,25 +135,25 @@ plans:
 - name: Applitools Plans Pricing
   plan_count: 1
   slug: applitools-plans-pricing
-random_paper: 24
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Applitools Rate Limits
   slug: applitools-rate-limits
 score:
   band: thin
-  composite: 33.8
-  delta: 0.0
+  composite: 37.1
+  delta: 3.3
   facets:
     commercial_clarity: 36.8
     contract_quality: 47.8
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 33.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/applitools/refs/heads/main/screenshots/applitools-2026-06-20T172326.png
 security:

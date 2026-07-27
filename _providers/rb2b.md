@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Credit-metered Identification endpoints that convert anonymous web signals (IP addresses and user agents) into business identifiers, including IP → HEM (hashed email), IP → MAID (mobile ad ID), and IP
@@ -112,7 +112,7 @@ overview: 'RB2B publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ide
 
 
   RB2B''s developer surface includes pricing, support, and 13 more developer resources.'
-random_paper: 3
+random_paper: 20
 score:
   band: minimal
   composite: 14.6
@@ -126,7 +126,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rb2b/refs/heads/main/screenshots/rb2b-2026-06-20T192625.png
 security:

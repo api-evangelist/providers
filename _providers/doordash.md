@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -814,18 +814,18 @@ rules:
   slug: doordash-spectral-rules
 score:
   band: strong
-  composite: 62.4
-  delta: 0.0
+  composite: 65.7
+  delta: 3.3
   facets:
     commercial_clarity: 81.6
     contract_quality: 84.1
     developer_ergonomics: 41.3
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 65.8
     operational_transparency: 26.3
   previous_composite: 62.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/doordash/refs/heads/main/screenshots/doordash-2026-06-20T180204.png
 security:

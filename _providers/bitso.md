@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -133,7 +133,7 @@ plans:
 - name: Bitso Plans Pricing
   plan_count: 1
   slug: bitso-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 2
   name: Bitso Rate Limits
@@ -148,24 +148,24 @@ rules:
     warn: 4
   slug: bitso-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 43.4
-  delta: -1.2
+  band: developing
+  composite: 45.5
+  delta: 2.1
   facets:
     commercial_clarity: 36.8
     contract_quality: 65.5
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 52.6
     operational_transparency: 26.3
-  previous_composite: 44.6
+  previous_composite: 43.4
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/screenshots/bitso-2026-06-20T173323.png
 security:

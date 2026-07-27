@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 100
   human_in_the_loop: 2
@@ -339,7 +339,7 @@ overview: 'Narmi publishes 44 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Narmi''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 27 more developer resources.'
-random_paper: 25
+random_paper: 59
 scopes:
 - name: Narmi Scopes
   scope_count: 11
@@ -348,7 +348,7 @@ scopes:
 score:
   band: strong
   composite: 60.5
-  delta: 5.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 69.8
@@ -356,15 +356,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 55.5
+  previous_composite: 60.5
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 89.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Narmi Authentication

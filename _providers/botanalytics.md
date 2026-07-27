@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Messages API from Botanalytics — 1 operation(s) for messages.
@@ -142,7 +142,7 @@ overview: 'Botanalytics publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Botanalytics'' developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 17 more developer resources.'
-random_paper: 18
+random_paper: 1
 score:
   band: developing
   composite: 46.6
@@ -156,8 +156,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 46.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/botanalytics/refs/heads/main/screenshots/botanalytics-2026-07-25T203639.png
 security:
 - kind: authentication
   name: Botanalytics Authentication

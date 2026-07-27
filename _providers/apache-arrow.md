@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Arrow Flight is a high-performance RPC framework built on gRPC for transferring large datasets using the Arrow columnar format. It enables efficient bulk data transport between services with client li
@@ -178,7 +178,7 @@ plans:
 - name: Apache Arrow Plans Pricing
   plan_count: 3
   slug: apache-arrow-plans-pricing
-random_paper: 37
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Apache Arrow Rate Limits
@@ -196,7 +196,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 33.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-arrow/refs/heads/main/screenshots/apache-arrow-2026-06-20T172042.png
 security:

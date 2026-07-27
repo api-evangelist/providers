@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -143,7 +143,7 @@ plans:
 - name: Commodity Futures Trading Commission Plans Pricing
   plan_count: 3
   slug: commodity-futures-trading-commission-plans-pricing
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Commodity Futures Trading Commission Rate Limits
@@ -167,23 +167,23 @@ rules:
   slug: commodity-futures-trading-commission-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.5
-  delta: -1.4
+  composite: 44.4
+  delta: 3.9
   facets:
     commercial_clarity: 50.0
-    contract_quality: 53.1
+    contract_quality: 58.4
     developer_ergonomics: 15.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 39.5
     operational_transparency: 31.6
-  previous_composite: 41.9
+  previous_composite: 40.5
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 32.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/commodity-futures-trading-commission/refs/heads/main/screenshots/commodity-futures-trading-commission-2026-06-20T174817.png
 security:

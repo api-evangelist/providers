@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,7 +66,7 @@ name: Elsewhere
 nav: Providers
 network: true
 overview: Elsewhere is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Games, Gaming, Video Games, and Game Studio.
-random_paper: 46
+random_paper: 12
 score:
   band: minimal
   composite: 7.4
@@ -80,8 +80,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/elsewhere/refs/heads/main/screenshots/elsewhere-2026-07-25T213204.png
 security:
 - kind: domain-security
   name: Elsewhere Domain Security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -148,7 +148,7 @@ overview: 'dottxt publishes 2 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   dottxt''s developer surface includes documentation, API reference, getting-started guide, signup flow, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 16
+random_paper: 67
 score:
   band: developing
   composite: 46.6
@@ -162,8 +162,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 46.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dottxt/refs/heads/main/screenshots/dottxt-2026-07-25T212322.png
 security:
 - kind: authentication
   name: Dottxt Authentication

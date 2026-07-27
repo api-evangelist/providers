@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
 - description: Subscribe to and manage event notifications
   name: Vendr Webhooks API
   slug: vendr-webhooks-api
-artifact_total: 23
+artifact_total: 24
 collections:
 - collection_type: open
   name: Vendr OpenPrice API
@@ -151,6 +151,10 @@ jsonld:
   property_count: 1
   slug: vendr-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Vendr
 nav: Providers
@@ -166,7 +170,7 @@ plans:
 - name: Vendr Plans Pricing
   plan_count: 3
   slug: vendr-plans-pricing
-random_paper: 33
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Vendr Rate Limits
@@ -190,19 +194,19 @@ rules:
   slug: vendr-rules
 score:
   band: developing
-  composite: 54.1
-  delta: 0.0
+  composite: 59.5
+  delta: 5.4
   facets:
     commercial_clarity: 47.4
-    contract_quality: 69.0
+    contract_quality: 77.9
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 54.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/vendr/refs/heads/main/screenshots/vendr-2026-06-20T200912.png
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: 'The CONTRIBUTING.md format is an unstructured Markdown convention that documents how to contribute to a project. GitHub recognizes the file in three locations checked in priority order: the .github fo'
@@ -73,7 +73,7 @@ plans:
 - name: Contributing Md Plans Pricing
   plan_count: 3
   slug: contributing-md-plans-pricing
-random_paper: 28
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Contributing Md Rate Limits
@@ -91,7 +91,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 23.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/contributing-md/refs/heads/main/screenshots/contributing-md-2026-06-20T174948.png
 slug: contributing-md

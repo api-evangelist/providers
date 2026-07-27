@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -127,7 +127,7 @@ plans:
 - name: Google Photos Plans Pricing
   plan_count: 3
   slug: google-photos-plans-pricing
-random_paper: 25
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Google Photos Rate Limits
@@ -148,18 +148,18 @@ scopes:
   summary_line: 3 scopes · authorizationCode
 score:
   band: developing
-  composite: 50.6
-  delta: 0.0
+  composite: 55.2
+  delta: 4.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 63.7
+    contract_quality: 69.0
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 50.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-photos/refs/heads/main/screenshots/google-photos-2026-06-20T182223.png
 security:

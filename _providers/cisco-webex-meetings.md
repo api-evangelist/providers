@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -193,7 +193,7 @@ plans:
 - name: Cisco Webex Meetings Plans Pricing
   plan_count: 3
   slug: cisco-webex-meetings-plans-pricing
-random_paper: 29
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Cisco Webex Meetings Rate Limits
@@ -209,18 +209,18 @@ rules:
   slug: cisco-webex-meetings-rules
 score:
   band: developing
-  composite: 57.0
-  delta: 0.0
+  composite: 59.0
+  delta: 2.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 58.4
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 26.3
     operational_transparency: 76.3
   previous_composite: 57.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cisco-webex-meetings/refs/heads/main/screenshots/cisco-webex-meetings-2026-06-20T174406.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -216,7 +216,7 @@ plans:
 - name: Solcast Plans Pricing
   plan_count: 5
   slug: solcast-plans-pricing
-random_paper: 47
+random_paper: 13
 rate_limits:
 - limit_count: 6
   name: Solcast Rate Limits
@@ -240,19 +240,19 @@ rules:
   slug: solcast-rules
 score:
   band: strong
-  composite: 63.8
-  delta: 0.0
+  composite: 69.3
+  delta: 5.5
   facets:
     commercial_clarity: 71.1
-    contract_quality: 70.8
+    contract_quality: 79.6
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 63.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/solcast/refs/heads/main/screenshots/solcast-2026-06-20T194150.png
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: The front-facing developer portal exposing the UNSW Enterprise API gateway, built on Microsoft Azure API Management. It provides API documentation, an interactive API explorer, and subscription manage
@@ -110,7 +110,7 @@ plans:
 - name: Unsw Sydney Plans Pricing
   plan_count: 2
   slug: unsw-sydney-plans-pricing
-random_paper: 1
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Unsw Sydney Rate Limits
@@ -128,7 +128,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 23.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/unsw-sydney/refs/heads/main/screenshots/unsw-sydney-2026-06-20T200413.png
 security:

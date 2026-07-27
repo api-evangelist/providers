@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Contract-based REST API for Acumatica ERP providing programmatic access to financial management, order management, inventory, purchasing, project accounting, CRM, and manufacturing modules. Over 200 d
@@ -102,7 +102,7 @@ plans:
 - name: Acumatica Plans Pricing
   plan_count: 4
   slug: acumatica-plans-pricing
-random_paper: 18
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Acumatica Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 37.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/acumatica/refs/heads/main/screenshots/acumatica-2026-06-20T164429.png
 security:

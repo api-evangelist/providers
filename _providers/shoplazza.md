@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 96
   human_in_the_loop: 1
@@ -257,7 +257,7 @@ overview: 'Shoplazza publishes 20 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Shoplazza''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, signup flow, and 27 more developer resources.'
-random_paper: 19
+random_paper: 36
 rate_limits:
 - limit_count: 4
   name: Shoplazza Rate Limits
@@ -270,7 +270,7 @@ scopes:
 score:
   band: developing
   composite: 59.9
-  delta: 2.9
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 62.6
@@ -278,14 +278,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 57.0
+  previous_composite: 59.9
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

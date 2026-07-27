@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -176,7 +176,7 @@ plans:
 - name: University Of Sheffield Plans Pricing
   plan_count: 2
   slug: university-of-sheffield-plans-pricing
-random_paper: 17
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: University Of Sheffield Rate Limits
@@ -216,7 +216,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 47.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-sheffield/refs/heads/main/screenshots/university-of-sheffield-2026-06-20T200244.png
 security:

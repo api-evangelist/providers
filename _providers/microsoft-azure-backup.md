@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -129,18 +129,18 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: thin
-  composite: 41.0
-  delta: 0.0
+  composite: 44.2
+  delta: 3.2
   facets:
     commercial_clarity: 71.1
     contract_quality: 53.1
     developer_ergonomics: 26.1
-    discoverability: 35.0
+    discoverability: 67.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 41.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-backup/refs/heads/main/screenshots/microsoft-azure-backup-2026-06-20T185400.png
 security:

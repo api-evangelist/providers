@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -218,21 +218,21 @@ overview: 'Turborepo publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Turborepo''s developer surface includes authentication, developer portal, documentation, getting-started guide, engineering blog, changelog, code examples, and 26 more developer resources.'
-random_paper: 25
+random_paper: 42
 score:
   band: thin
-  composite: 35.1
-  delta: 0.0
+  composite: 37.1
+  delta: 2.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 58.4
     developer_ergonomics: 41.3
-    discoverability: 60.0
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 35.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turborepo/refs/heads/main/screenshots/turborepo-2026-06-20T195834.png
 security:

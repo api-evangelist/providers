@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -118,7 +118,7 @@ plans:
 - name: Surveymonkey Plans Pricing
   plan_count: 5
   slug: surveymonkey-plans-pricing
-random_paper: 19
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Surveymonkey Rate Limits
@@ -138,19 +138,19 @@ scopes:
   slug: surveymonkey-scopes
   summary_line: 7 scopes · authorizationCode
 score:
-  band: thin
-  composite: 44.7
-  delta: 0.0
+  band: developing
+  composite: 48.0
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 61.9
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 31.6
   previous_composite: 44.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/surveymonkey/refs/heads/main/screenshots/surveymonkey-2026-06-20T194739.png
 security:

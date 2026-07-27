@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -125,7 +125,7 @@ overview: 'Remnote is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Remnote''s developer surface includes changelog, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 48
+random_paper: 14
 score:
   band: thin
   composite: 30.7
@@ -139,7 +139,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 30.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

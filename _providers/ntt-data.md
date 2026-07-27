@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -66,7 +66,7 @@ name: NTT DATA
 nav: Providers
 network: true
 overview: NTT DATA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include IT Services, Consulting, Digital Transformation, Cloud Services, and Cybersecurity.
-random_paper: 32
+random_paper: 49
 score:
   band: minimal
   composite: 6.8
@@ -80,7 +80,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ntt-data/refs/heads/main/screenshots/ntt-data-2026-06-20T190501.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 17
   human_in_the_loop: 1
@@ -187,7 +187,7 @@ rules:
 score:
   band: thin
   composite: 41.1
-  delta: -3.1
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 56.2
@@ -195,14 +195,14 @@ score:
     discoverability: 87.5
     governance: 73.7
     operational_transparency: 5.3
-  previous_composite: 44.2
+  previous_composite: 41.1
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monero/refs/heads/main/screenshots/monero-2026-06-20T185722.png
 security:

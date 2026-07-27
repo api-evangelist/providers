@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Get data for procurements in Romania in JSON format
@@ -50,7 +50,7 @@ name: Tenders in Romania
 nav: Providers
 network: true
 overview: Tenders in Romania publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Business and Public APIs.
-random_paper: 20
+random_paper: 37
 score:
   band: minimal
   composite: 6.8
@@ -64,7 +64,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tenders-in-romania/refs/heads/main/screenshots/tenders-in-romania-2026-06-20T195109.png
 slug: tenders-in-romania

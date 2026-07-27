@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -61,7 +61,7 @@ overview: 'GOTCHA Technology Inc. is profiled on the [APIs.io](https://apis.io/)
 
 
   GOTCHA Technology Inc.''s developer surface includes support, FAQ, product news, and 2 more developer resources.'
-random_paper: 27
+random_paper: 10
 score:
   band: minimal
   composite: 7.6
@@ -75,8 +75,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gotcha-technology-inc/refs/heads/main/screenshots/gotcha-technology-inc-2026-07-25T220123.png
 security:
 - kind: domain-security
   name: Gotcha Technology Inc Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -113,7 +113,7 @@ arazzos:
 - description: Find a published post by search and revert it to draft.
   name: WordPress Unpublish Post to Draft
   slug: wordpress-unpublish-post-to-draft-workflow
-artifact_total: 130
+artifact_total: 131
 collections:
 - collection_type: postman
   name: WordPress REST API
@@ -472,6 +472,10 @@ jsonld:
   property_count: 62
   slug: wordpress-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: WordPress
 nav: Providers
@@ -487,7 +491,7 @@ plans:
 - name: Wordpress Plans Pricing
   plan_count: 3
   slug: wordpress-plans-pricing
-random_paper: 32
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Wordpress Rate Limits
@@ -510,19 +514,19 @@ rules:
     warn: 23
   slug: wordpress-spectral-rules
 score:
-  band: strong
-  composite: 69.0
-  delta: 0.0
+  band: exemplar
+  composite: 72.4
+  delta: 3.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 70.7
+    contract_quality: 79.5
     developer_ergonomics: 65.2
-    discoverability: 55.0
+    discoverability: 67.5
     governance: 86.8
     operational_transparency: 78.9
   previous_composite: 69.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wordpress/refs/heads/main/screenshots/wordpress-2026-06-20T201546.png
 security:

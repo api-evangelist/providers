@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -49,7 +49,7 @@ apis:
 - description: Cross-encoder reranking
   name: Jina AI Reranker API
   slug: jina-ai-reranker-api
-artifact_total: 13
+artifact_total: 14
 collections:
 - collection_type: open
   name: Jina AI Embeddings API
@@ -117,6 +117,10 @@ finops:
   slug: jina-ai-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/jina-ai.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Jina AI
 nav: Providers
@@ -129,25 +133,25 @@ plans:
 - name: Jina Ai Plans Pricing
   plan_count: 5
   slug: jina-ai-plans-pricing
-random_paper: 2
+random_paper: 53
 rate_limits:
 - limit_count: 9
   name: Jina Ai Rate Limits
   slug: jina-ai-rate-limits
 score:
-  band: thin
-  composite: 43.7
-  delta: 0.0
+  band: developing
+  composite: 46.9
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.8
     developer_ergonomics: 47.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 43.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jina-ai/refs/heads/main/screenshots/jina-ai-2026-06-20T183733.png
 security:

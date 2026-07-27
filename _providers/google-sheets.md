@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -89,7 +89,7 @@ arazzos:
 - description: Resolve a spreadsheet via a data filter, update matching ranges by filter, then read them back by filter.
   name: Google Sheets Update and Read Values by Data Filter
   slug: google-sheets-update-and-read-by-data-filter-workflow
-artifact_total: 308
+artifact_total: 309
 collections:
 - collection_type: postman
   name: Google Sheets API
@@ -1112,6 +1112,10 @@ jsonld:
   property_count: 0
   slug: google-sheets-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: google-sheets-mcp.yml
+  slug: google-sheets-mcpyml
 modified: '2026-06-20'
 name: Google Sheets
 nav: Providers
@@ -1127,7 +1131,7 @@ plans:
 - name: Google Sheets Plans Pricing
   plan_count: 3
   slug: google-sheets-plans-pricing
-random_paper: 8
+random_paper: 42
 rate_limits:
 - limit_count: 5
   name: Google Sheets Rate Limits
@@ -1155,19 +1159,19 @@ scopes:
   slug: google-sheets-scopes
   summary_line: 5 scopes · authorizationCode
 score:
-  band: strong
-  composite: 68.6
-  delta: 0.0
+  band: exemplar
+  composite: 71.9
+  delta: 3.3
   facets:
     commercial_clarity: 84.2
-    contract_quality: 67.0
+    contract_quality: 72.3
     developer_ergonomics: 65.2
-    discoverability: 42.5
+    discoverability: 62.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 68.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-sheets/refs/heads/main/screenshots/google-sheets-2026-06-20T182233.png
 security:

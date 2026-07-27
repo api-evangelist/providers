@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 70.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -85,7 +85,7 @@ apis:
 - description: Upscale video resolution and quality.
   name: Runway Video Upscale API
   slug: runway-video-upscale-api
-artifact_total: 52
+artifact_total: 53
 asyncapis:
 - description: The Runway Characters realtime event interface describes the WebRTC-based communication protocol for live conversational avatar sessions powered by GWM-1. Once a realtime session is created via the RE
   name: Runway Characters Realtime Events
@@ -225,6 +225,10 @@ jsonld:
   property_count: 7
   slug: runway-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Runway
 nav: Providers
@@ -240,7 +244,7 @@ plans:
 - name: Runway Plans Pricing
   plan_count: 5
   slug: runway-plans-pricing
-random_paper: 15
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Runway Rate Limits
@@ -272,18 +276,18 @@ rules:
   slug: runway-rules
 score:
   band: strong
-  composite: 61.5
-  delta: 0.0
+  composite: 63.5
+  delta: 2.0
   facets:
     commercial_clarity: 73.7
     contract_quality: 75.2
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 65.8
     operational_transparency: 42.1
   previous_composite: 61.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/runway/refs/heads/main/screenshots/runway-2026-06-20T193255.png
 security:

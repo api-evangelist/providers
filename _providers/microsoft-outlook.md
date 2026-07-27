@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 23
   human_in_the_loop: 0
@@ -86,7 +86,7 @@ arazzos:
 - description: List the newest messages, read the top one in full, and reply to its sender.
   name: Microsoft Outlook Triage and Reply
   slug: microsoft-outlook-triage-and-reply-workflow
-artifact_total: 99
+artifact_total: 100
 asyncapis:
 - description: 'AsyncAPI specification for Microsoft Graph change notifications (webhooks) for Outlook mail resources. Enables real-time event-driven architecture by subscribing to changes in messages, mail folders, '
   name: Microsoft Outlook Change Notifications
@@ -471,6 +471,10 @@ jsonld:
   property_count: 13
   slug: microsoft-outlook-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: microsoft-outlook-mcp.yml
+  slug: microsoft-outlook-mcpyml
 modified: '2026-06-20'
 name: Microsoft Outlook
 nav: Providers
@@ -486,7 +490,7 @@ plans:
 - name: Microsoft Outlook Plans Pricing
   plan_count: 5
   slug: microsoft-outlook-plans-pricing
-random_paper: 23
+random_paper: 40
 rate_limits:
 - limit_count: 7
   name: Microsoft Outlook Rate Limits
@@ -523,18 +527,18 @@ scopes:
   summary_line: 20 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 75.6
-  delta: 0.0
+  composite: 80.2
+  delta: 4.6
   facets:
     commercial_clarity: 81.6
-    contract_quality: 77.6
+    contract_quality: 82.9
     developer_ergonomics: 84.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 60.5
     operational_transparency: 68.4
   previous_composite: 75.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-outlook/refs/heads/main/screenshots/microsoft-outlook-2026-06-20T185517.png
 security:

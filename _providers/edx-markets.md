@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'The EDX Markets institutional trading interface, delivered over the FIX protocol: FIX 5.0 SP2 order entry and drop copy plus FIX and binary (SBE) market data over a FIXT.1.1 session inside a mutually '
@@ -126,7 +126,7 @@ overview: 'EDX Markets publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   EDX Markets'' developer surface includes documentation, API reference, support, engineering blog, signup flow, pricing, authentication, and 13 more developer resources.'
-random_paper: 3
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Edx Markets Rate Limits
@@ -134,7 +134,7 @@ rate_limits:
 score:
   band: thin
   composite: 35.8
-  delta: 3.3
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 0.0
@@ -142,15 +142,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 32.5
+  previous_composite: 35.8
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/edx-markets/refs/heads/main/screenshots/edx-markets-2026-07-25T212920.png
 security:
 - kind: authentication
   name: Edx Markets Authentication

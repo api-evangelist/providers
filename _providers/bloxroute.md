@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Low-latency Solana trading API (gRPC, HTTP/REST with per-region Swagger UI, WebSocket, and QUIC) for transaction submission, batching, sniping, bundle execution, DEX quoting/swaps (Jupiter, Raydium, P
@@ -161,7 +161,7 @@ overview: 'bloXroute publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   bloXroute''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, authentication, and 19 more developer resources.'
-random_paper: 27
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Bloxroute Rate Limits
@@ -169,7 +169,7 @@ rate_limits:
 score:
   band: thin
   composite: 41.6
-  delta: -0.8
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 31.9
@@ -177,15 +177,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 42.4
+  previous_composite: 41.6
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bloxroute/refs/heads/main/screenshots/bloxroute-2026-07-25T203421.png
 security:
 - kind: authentication
   name: Bloxroute Authentication

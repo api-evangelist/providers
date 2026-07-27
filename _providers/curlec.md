@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 73
   human_in_the_loop: 0
@@ -312,7 +312,7 @@ scopes:
 score:
   band: strong
   composite: 66.1
-  delta: 3.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 72.6
@@ -320,15 +320,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 62.5
+  previous_composite: 66.1
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/curlec/refs/heads/main/screenshots/curlec-2026-07-25T210942.png
 security:
 - kind: authentication
   name: Curlec Authentication

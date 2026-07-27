@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -243,7 +243,7 @@ plans:
 - name: Workday Integrations Plans Pricing
   plan_count: 1
   slug: workday-integrations-plans-pricing
-random_paper: 26
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Workday Integrations Rate Limits
@@ -267,18 +267,18 @@ rules:
   slug: workday-integrations-rules
 score:
   band: developing
-  composite: 55.6
-  delta: 0.0
+  composite: 58.8
+  delta: 3.2
   facets:
     commercial_clarity: 57.9
     contract_quality: 67.3
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 55.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/workday-integrations/refs/heads/main/screenshots/workday-integrations-2026-06-20T201603.png
 security:

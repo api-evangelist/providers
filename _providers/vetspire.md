@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 12
 apis:
 - description: GraphQL operations over the Accounts domain - search and read client (pet owner) records including contact details, addresses, balances, linked patients, and communication preferences, and create or u
@@ -131,30 +131,30 @@ plans:
 - name: Vetspire Plans Pricing
   plan_count: 4
   slug: vetspire-plans-pricing
-random_paper: 15
+random_paper: 66
 rate_limits:
 - limit_count: 2
   name: Vetspire Rate Limits
   slug: vetspire-rate-limits
 score:
   band: emerging
-  composite: 19.5
-  delta: -1.2
+  composite: 22.3
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 20.7
+  previous_composite: 19.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

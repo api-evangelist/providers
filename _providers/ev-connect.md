@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: Manage charging stations and charge points (EVSE) - registration, status, health, and availability - within the EV Connect charge point management platform. Endpoints and base URL are not publicly doc
@@ -113,26 +113,27 @@ plans:
 - name: Ev Connect Plans Pricing
   plan_count: 1
   slug: ev-connect-plans-pricing
-random_paper: 41
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Ev Connect Rate Limits
   slug: ev-connect-rate-limits
 score:
   band: emerging
-  composite: 27.6
-  delta: 0.0
+  composite: 29.6
+  delta: 2.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 37.7
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 27.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ev-connect/refs/heads/main/screenshots/ev-connect-2026-07-25T213703.png
 security:
 - kind: domain-security
   name: Ev Connect Domain Security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 66.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 9
 apis:
 - description: The accounts API from PlateIQ — 3 operation(s) for accounts.
@@ -194,7 +194,7 @@ overview: 'PlateIQ publishes 9 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   PlateIQ''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, changelog, authentication, and 23 more developer resources.'
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Plateiq Rate Limits
@@ -207,7 +207,7 @@ scopes:
 score:
   band: developing
   composite: 55.7
-  delta: 5.5
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 51.8
@@ -215,15 +215,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 50.2
+  previous_composite: 55.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 87.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Plateiq Authentication

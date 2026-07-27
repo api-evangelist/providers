@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -197,7 +197,7 @@ press:
 - date: '2026-05-25'
   title: Ciena Solidifies AI Networking Leadership, Unveils New ...
   url: https://www.ciena.com/about/newsroom/press-releases/ciena-solidifies-ai-networking-leadership-unveils-new-innovations-for-high-speed-connectivity
-random_paper: 2
+random_paper: 36
 rate_limits:
 - limit_count: 3
   name: Ciena Rate Limits
@@ -218,18 +218,18 @@ scopes:
   summary_line: 5 scopes · clientCredentials
 score:
   band: developing
-  composite: 53.7
-  delta: 0.0
+  composite: 57.0
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 65.5
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 53.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ciena/refs/heads/main/screenshots/ciena-2026-06-20T174339.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 2
@@ -134,7 +134,7 @@ arazzos:
 - description: Create a build on a pipeline, then poll until it reaches a terminal state.
   name: Buildkite Trigger And Poll Build
   slug: buildkite-com-trigger-and-poll-build-workflow
-artifact_total: 96
+artifact_total: 97
 collections:
 - collection_type: postman
   name: Buildkite REST API
@@ -483,6 +483,10 @@ jsonld:
   property_count: 5
   slug: buildkite-com-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: buildkite-com-mcp.yml
+  slug: buildkite-com-mcpyml
 modified: '2026-06-20'
 name: Buildkite
 nav: Providers
@@ -498,7 +502,7 @@ plans:
 - name: Buildkite Com Plans Pricing
   plan_count: 4
   slug: buildkite-com-plans-pricing
-random_paper: 46
+random_paper: 29
 rate_limits:
 - limit_count: 0
   name: Buildkite Com Rate Limits
@@ -526,19 +530,19 @@ scopes:
   slug: buildkite-com-scopes
   summary_line: 42 scopes
 score:
-  band: strong
-  composite: 67.7
-  delta: 0.0
+  band: exemplar
+  composite: 71.9
+  delta: 4.2
   facets:
     commercial_clarity: 78.9
-    contract_quality: 57.2
+    contract_quality: 66.0
     developer_ergonomics: 71.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 47.4
   previous_composite: 67.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/buildkite-com/refs/heads/main/screenshots/buildkite-com-2026-06-20T173752.png
 security:

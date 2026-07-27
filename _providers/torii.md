@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -252,7 +252,7 @@ plans:
 - name: Torii Plans Pricing
   plan_count: 3
   slug: torii-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Torii Rate Limits
@@ -276,18 +276,18 @@ rules:
   slug: torii-rules
 score:
   band: strong
-  composite: 60.9
-  delta: 0.0
+  composite: 65.2
+  delta: 4.3
   facets:
     commercial_clarity: 92.1
-    contract_quality: 67.6
+    contract_quality: 76.5
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 60.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/torii/refs/heads/main/screenshots/torii-2026-06-20T195457.png
 security:

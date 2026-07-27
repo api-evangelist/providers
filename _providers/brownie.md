@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 46.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Programmatic access to trigger AI-driven incident investigations, poll investigation status and results, and read/update hierarchical team configuration. Authenticated with team or admin bearer tokens
@@ -165,7 +165,7 @@ overview: 'IncidentFox (Brownie) publishes 1 API on the [APIs.io](https://apis.i
 
 
   IncidentFox (Brownie)''s developer surface includes documentation, API reference, getting-started guide, quickstart, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Brownie Rate Limits
@@ -183,8 +183,9 @@ score:
     operational_transparency: 23.7
   previous_composite: 41.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/brownie/refs/heads/main/screenshots/brownie-2026-07-25T203958.png
 security:
 - kind: authentication
   name: Brownie Authentication

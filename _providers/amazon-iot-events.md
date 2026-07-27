@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -1447,7 +1447,7 @@ plans:
 - name: Amazon Iot Events Plans Pricing
   plan_count: 3
   slug: amazon-iot-events-plans-pricing
-random_paper: 46
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Amazon Iot Events Rate Limits
@@ -1482,7 +1482,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-iot-events/refs/heads/main/screenshots/amazon-iot-events-2026-06-20T171710.png
 security:

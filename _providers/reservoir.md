@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: All-in-one NFT data and trading API enabling developers to get NFT data, create orders, and execute trades across 30+ EVM-compatible blockchains. Aggregates liquidity from major NFT marketplaces inclu
@@ -110,7 +110,7 @@ plans:
 - name: Reservoir Plans Pricing
   plan_count: 3
   slug: reservoir-plans-pricing
-random_paper: 24
+random_paper: 41
 rate_limits:
 - limit_count: 0
   name: Reservoir Rate Limits
@@ -118,7 +118,7 @@ rate_limits:
 score:
   band: thin
   composite: 36.6
-  delta: -2.2
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 58.5
@@ -126,14 +126,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 38.8
+  previous_composite: 36.6
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/reservoir/refs/heads/main/screenshots/reservoir-2026-06-20T193029.png
 security:

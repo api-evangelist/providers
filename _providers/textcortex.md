@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ overview: 'Textcortex publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Textcortex''s developer surface includes authentication, support, pricing, signup flow, and 19 more developer resources.'
-random_paper: 43
+random_paper: 26
 score:
   band: thin
   composite: 44.0
@@ -172,7 +172,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 44.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

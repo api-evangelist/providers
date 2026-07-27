@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 61.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -216,18 +216,18 @@ rules:
   slug: deepseek-user-balance-api-rules
 score:
   band: developing
-  composite: 54.7
-  delta: 0.0
+  composite: 57.9
+  delta: 3.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 65.9
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 65.8
     operational_transparency: 57.9
   previous_composite: 54.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/deepseek/refs/heads/main/screenshots/deepseek-2026-06-20T175812.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: Anthropic-compatible messages endpoint.
@@ -159,7 +159,7 @@ overview: 'LM Studio publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   LM Studio''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, CLI, authentication, and 18 more developer resources.'
-random_paper: 8
+random_paper: 42
 score:
   band: thin
   composite: 44.1
@@ -173,8 +173,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 44.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lm-studio/refs/heads/main/screenshots/lm-studio-2026-07-25T225416.png
 security:
 - kind: authentication
   name: Lm Studio Authentication

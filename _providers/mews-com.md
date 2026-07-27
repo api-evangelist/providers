@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 58.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 238
   human_in_the_loop: 1
@@ -648,7 +648,7 @@ plans:
 - name: Mews Com Plans Pricing
   plan_count: 5
   slug: mews-com-plans-pricing
-random_paper: 43
+random_paper: 60
 rate_limits:
 - limit_count: 3
   name: Mews Com Rate Limits
@@ -672,18 +672,18 @@ rules:
   slug: mews-com-rules
 score:
   band: strong
-  composite: 63.8
-  delta: 0.0
+  composite: 67.3
+  delta: 3.5
   facets:
     commercial_clarity: 78.9
-    contract_quality: 56.0
+    contract_quality: 64.8
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 76.3
   previous_composite: 63.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mews-com/refs/heads/main/screenshots/mews-com-2026-06-20T185312.png
 security:

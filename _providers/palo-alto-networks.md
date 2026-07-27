@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 269
   human_in_the_loop: 5
@@ -575,7 +575,7 @@ arazzos:
 - description: Authenticate to Prisma Cloud, run an RQL config query, then run a matching RQL asset query.
   name: Prisma Cloud RQL Configuration and Asset Search
   slug: palo-alto-networks-prisma-cloud-rql-config-search-workflow
-artifact_total: 1574
+artifact_total: 1575
 asyncapis:
 - description: Cortex XDR Webhooks provide real-time incident and alert notifications for security events detected across endpoints, networks, and cloud workloads. Webhooks are configured in Cortex XDR Settings > No
   name: Cortex XDR Webhooks
@@ -5049,6 +5049,10 @@ jsonld:
   property_count: 25
   slug: palo-alto-ztna-connector-api-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Palo Alto Networks
 nav: Providers
@@ -5100,20 +5104,20 @@ scopes:
   slug: palo-alto-networks-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: strong
-  composite: 69.9
-  delta: 0.0
+  band: exemplar
+  composite: 75.3
+  delta: 5.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 83.3
+    contract_quality: 92.1
     developer_ergonomics: 69.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 78.9
     operational_transparency: 68.4
   previous_composite: 69.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/palo-alto-networks/refs/heads/main/screenshots/palo-alto-networks-2026-06-20T191330.png
 security:
 - kind: authentication

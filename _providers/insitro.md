@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -78,11 +78,11 @@ name: insitro
 nav: Providers
 network: true
 overview: insitro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Drug Discovery, Machine Learning, Biotechnology, and Life Sciences.
-random_paper: 11
+random_paper: 28
 score:
   band: minimal
   composite: 14.5
-  delta: 3.6
+  delta: 0.0
   facets:
     commercial_clarity: 10.5
     contract_quality: 0.0
@@ -90,14 +90,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 10.9
+  previous_composite: 14.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 34.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

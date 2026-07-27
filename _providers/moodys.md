@@ -10,6 +10,24 @@ access_model:
   - authentication
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-native
+  dimensions:
+    agent_skills: true
+    agentic_access: true
+    asyncapi_events: true
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: true
+    idempotency: false
+    mcp_server: true
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: true
+  schema_version: 0.1
+  score: 81.7
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -421,7 +439,7 @@ press:
 - date: '2026-05-25'
   title: Moody's Advances Decision-Grade Credit Intelligence ...
   url: https://www.businesswire.com/news/home/20260421137955/en/Moodys-Advances-Decision-Grade-Credit-Intelligence-Across-Enterprise-AI-Workflows-Powered-by-Microsoft-365-Copilot
-random_paper: 37
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: Moodys Rate Limits
@@ -448,6 +466,26 @@ scopes:
   scope_count: 0
   slug: moodys-scopes
   summary_line: OAuth 2.0 · no documented scopes
+score:
+  band: exemplar
+  composite: 70.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 73.5
+    developer_ergonomics: 76.1
+    discoverability: 100.0
+    governance: 73.7
+    operational_transparency: 50.0
+  previous_composite: 70.0
+  regulatory:
+    applies: true
+    regime: Insurance
+    regime_id: insurance
+    score: 76.1
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png
 security:
 - kind: authentication

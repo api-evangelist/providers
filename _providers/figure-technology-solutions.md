@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 75.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 15
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ overview: 'Figure Technology Solutions publishes 8 APIs on the [APIs.io](https:/
 
 
   Figure Technology Solutions'' developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 23 more developer resources.'
-random_paper: 19
+random_paper: 36
 score:
   band: developing
   composite: 47.9
@@ -219,8 +219,9 @@ score:
     operational_transparency: 36.8
   previous_composite: 47.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/figure-technology-solutions/refs/heads/main/screenshots/figure-technology-solutions-2026-07-25T214442.png
 security:
 - kind: authentication
   name: Figure Technology Solutions Authentication

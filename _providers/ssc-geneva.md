@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ plans:
 - name: Ssc Geneva Plans Pricing
   plan_count: 3
   slug: ssc-geneva-plans-pricing
-random_paper: 35
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Ssc Geneva Rate Limits
@@ -188,19 +188,19 @@ rules:
     warn: 5
   slug: ssc-geneva-rules
 score:
-  band: developing
-  composite: 56.2
-  delta: 0.0
+  band: strong
+  composite: 60.8
+  delta: 4.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 72.0
+    contract_quality: 77.3
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 56.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ssc-geneva/refs/heads/main/screenshots/ssc-geneva-2026-06-20T194436.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 43.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -155,7 +155,7 @@ plans:
 - name: Risingwave Plans Pricing
   plan_count: 4
   slug: risingwave-plans-pricing
-random_paper: 16
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Risingwave Rate Limits
@@ -182,7 +182,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 53.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/risingwave/refs/heads/main/screenshots/risingwave-2026-06-20T193128.png
 security:

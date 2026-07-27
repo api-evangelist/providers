@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -54,7 +54,7 @@ name: chatous
 nav: Providers
 network: true
 overview: chatous is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Messaging, Chat, Social, and Consumer.
-random_paper: 45
+random_paper: 11
 score:
   band: minimal
   composite: 11.0
@@ -68,8 +68,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 11.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/chatous/refs/heads/main/screenshots/chatous-2026-07-25T205118.png
 security:
 - kind: domain-security
   name: Chatous Domain Security

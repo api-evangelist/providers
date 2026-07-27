@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 44.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -189,7 +189,7 @@ plans:
 - name: Cloudevents Plans Pricing
   plan_count: 1
   slug: cloudevents-plans-pricing
-random_paper: 23
+random_paper: 40
 rate_limits:
 - limit_count: 1
   name: Cloudevents Rate Limits
@@ -221,18 +221,18 @@ rules:
   slug: cloudevents-rules
 score:
   band: developing
-  composite: 47.6
-  delta: 0.0
+  composite: 50.7
+  delta: 3.1
   facets:
     commercial_clarity: 28.9
-    contract_quality: 70.5
+    contract_quality: 75.0
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 52.6
     operational_transparency: 42.1
   previous_composite: 47.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudevents/refs/heads/main/screenshots/cloudevents-2026-06-20T174548.png
 security:

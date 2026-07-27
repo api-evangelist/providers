@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 5
 common:
@@ -130,7 +130,7 @@ overview: 'Keyfactor is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Keyfactor''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, CLI, authentication, and 14 more developer resources.'
-random_paper: 50
+random_paper: 16
 score:
   band: thin
   composite: 30.2
@@ -144,8 +144,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 30.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/keyfactor/refs/heads/main/screenshots/keyfactor-2026-07-25T223653.png
 security:
 - kind: authentication
   name: Keyfactor Authentication

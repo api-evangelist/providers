@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -130,7 +130,7 @@ overview: 'Minimus is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Minimus'' developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, CLI, and 15 more developer resources.'
-random_paper: 5
+random_paper: 22
 score:
   band: emerging
   composite: 29.3
@@ -144,7 +144,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 29.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

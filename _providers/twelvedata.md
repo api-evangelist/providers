@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 81.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -55,7 +55,7 @@ apis:
 - description: Historical and real-time OHLCV time series.
   name: Twelve Data Time Series API
   slug: twelvedata-time-series-api
-artifact_total: 16
+artifact_total: 17
 asyncapis:
 - description: AsyncAPI 2.6 description of Twelve Data's **real-time price WebSocket**. Unlike a one-way HTTP Server-Sent Events stream, this is a genuine, bidirectional WebSocket (`wss://`) surface. The client open
   name: Twelve Data Real-Time Price WebSocket
@@ -229,6 +229,10 @@ finops:
   slug: twelvedata-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/twelvedata.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: twelvedata-mcp.yml
+  slug: twelvedata-mcpyml
 modified: '2026-07-22'
 name: Twelve Data
 nav: Providers
@@ -244,7 +248,7 @@ plans:
 - name: Twelvedata Plans Pricing
   plan_count: 5
   slug: twelvedata-plans-pricing
-random_paper: 2
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Twelvedata Rate Limits
@@ -260,24 +264,24 @@ rules:
   slug: twelvedata-asyncapi-spectral-rules
 score:
   band: exemplar
-  composite: 74.5
-  delta: 26.5
+  composite: 77.3
+  delta: 2.8
   facets:
     commercial_clarity: 100.0
     contract_quality: 64.4
     developer_ergonomics: 87.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 73.7
-  previous_composite: 48.0
+  previous_composite: 74.5
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/screenshots/twelvedata-2026-07-22T202655.png
 security:
 - kind: authentication

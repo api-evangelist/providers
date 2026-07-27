@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 15
 common:
@@ -131,11 +131,11 @@ overview: 'Abridge is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Abridge''s developer surface includes support, engineering blog, authentication, and 11 more developer resources.'
-random_paper: 4
+random_paper: 38
 score:
   band: emerging
   composite: 23.1
-  delta: 5.5
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 0.0
@@ -143,15 +143,15 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.6
+  previous_composite: 23.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/abridge/refs/heads/main/screenshots/abridge-2026-06-20T163318.png
 security:
 - kind: domain-security

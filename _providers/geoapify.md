@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -66,7 +66,7 @@ apis:
 - description: The Geocode API from Geoapify — 1 operation(s) for geocode.
   name: Geoapify Geocode API
   slug: geoapify-geocode-api
-artifact_total: 33
+artifact_total: 34
 collections:
 - collection_type: open
   name: Geoapify Forward Geocoding API
@@ -153,6 +153,10 @@ json_structures:
   property_count: 0
   slug: geoapify-structure
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-07-12'
 name: Geoapify
 nav: Providers
@@ -172,18 +176,18 @@ rate_limits:
   slug: geoapify-rate-limits
 score:
   band: thin
-  composite: 37.2
-  delta: 0.0
+  composite: 40.5
+  delta: 3.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 48.7
     developer_ergonomics: 19.6
-    discoverability: 42.5
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 37.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/geoapify/refs/heads/main/screenshots/geoapify-2026-06-20T181748.png
 security:

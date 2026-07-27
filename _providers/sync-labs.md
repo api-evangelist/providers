@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ plans:
 - name: Sync Labs Plans Pricing
   plan_count: 5
   slug: sync-labs-plans-pricing
-random_paper: 41
+random_paper: 24
 rate_limits:
 - limit_count: 7
   name: Sync Labs Rate Limits
@@ -185,18 +185,18 @@ rules:
   slug: sync-labs-rules
 score:
   band: developing
-  composite: 53.3
-  delta: 0.0
+  composite: 55.3
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 65.5
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 53.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sync-labs/refs/heads/main/screenshots/sync-labs-2026-06-20T194835.png
 security:

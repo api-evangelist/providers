@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 21
 apis:
 - description: The Asset Custom Fieldsets API from Knak — 2 operation(s) for asset custom fieldsets.
@@ -276,8 +276,9 @@ score:
     operational_transparency: 34.2
   previous_composite: 55.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/knak/refs/heads/main/screenshots/knak-2026-07-25T223953.png
 security:
 - kind: authentication
   name: Knak Authentication

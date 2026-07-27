@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 55.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -412,7 +412,7 @@ plans:
 - name: Parcellab Plans Pricing
   plan_count: 4
   slug: parcellab-plans-pricing
-random_paper: 16
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Parcellab Rate Limits
@@ -435,20 +435,20 @@ rules:
     warn: 5
   slug: parcellab-rules
 score:
-  band: strong
-  composite: 66.7
-  delta: 0.0
+  band: exemplar
+  composite: 72.1
+  delta: 5.4
   facets:
     commercial_clarity: 60.5
-    contract_quality: 65.1
+    contract_quality: 74.0
     developer_ergonomics: 78.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 42.1
   previous_composite: 66.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/screenshots/parcellab-2026-06-20T191411.png
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 common:
@@ -135,7 +135,7 @@ overview: 'Labster is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Labster''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 35
+random_paper: 1
 score:
   band: emerging
   composite: 26.1
@@ -149,8 +149,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/labster/refs/heads/main/screenshots/labster-2026-07-25T224423.png
 security:
 - kind: authentication
   name: Labster Authentication

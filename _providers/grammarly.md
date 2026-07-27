@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Programmatic access to Grammarly usage and communication-performance analytics for integration into business-intelligence systems.
@@ -174,7 +174,7 @@ overview: 'Grammarly publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Grammarly''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 3
+random_paper: 20
 scopes:
 - name: Grammarly Scopes
   scope_count: 5
@@ -193,8 +193,9 @@ score:
     operational_transparency: 39.5
   previous_composite: 39.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/grammarly/refs/heads/main/screenshots/grammarly-2026-07-25T220215.png
 security:
 - kind: authentication
   name: Grammarly Authentication

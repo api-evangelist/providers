@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -131,25 +131,25 @@ plans:
 - name: Exa Plans Pricing
   plan_count: 1
   slug: exa-plans-pricing
-random_paper: 12
+random_paper: 46
 rate_limits:
 - limit_count: 2
   name: Exa Rate Limits
   slug: exa-rate-limits
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 43.6
+  delta: 3.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 54.9
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 40.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/exa/refs/heads/main/screenshots/exa-2026-06-20T180946.png
 security:

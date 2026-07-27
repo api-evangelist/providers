@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: Provides programmatic access to create, retrieve, and manage news snapshots based on search queries and filters. Supports analytics explain jobs and time series operations for volume estimation and tr
@@ -151,7 +151,7 @@ plans:
 - name: Factiva Plans Pricing
   plan_count: 3
   slug: factiva-plans-pricing
-random_paper: 20
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Factiva Rate Limits
@@ -159,7 +159,7 @@ rate_limits:
 score:
   band: thin
   composite: 39.7
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 0.0
@@ -167,14 +167,14 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 39.0
+  previous_composite: 39.7
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/factiva/refs/heads/main/screenshots/factiva-2026-06-20T181007.png
 security:

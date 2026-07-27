@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Keto Diet REST API providing over 450 recipes across 11 categories with structured nutritional values (calories, fats, carbohydrates, proteins) returned as JSON, designed for integration into health, '
@@ -71,7 +71,7 @@ rate_limits:
 score:
   band: emerging
   composite: 19.0
-  delta: -1.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 0.0
@@ -79,14 +79,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 20.0
+  previous_composite: 19.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/encurate/refs/heads/main/screenshots/encurate-2026-06-20T180653.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -121,7 +121,7 @@ plans:
 - name: Microsoft Entra Id Plans Pricing
   plan_count: 3
   slug: microsoft-entra-id-plans-pricing
-random_paper: 30
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Microsoft Entra Id Rate Limits
@@ -133,18 +133,18 @@ scopes:
   summary_line: 6 scopes · authorizationCode/clientCredentials
 score:
   band: thin
-  composite: 35.9
-  delta: 0.0
+  composite: 37.9
+  delta: 2.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 52.0
     developer_ergonomics: 21.7
-    discoverability: 42.5
+    discoverability: 62.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 35.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-entra-id/refs/heads/main/screenshots/microsoft-entra-id-2026-06-20T185459.png
 security:

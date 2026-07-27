@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Volusion API allows merchants on Business and Prime plans to connect third-party applications with their Volusion store, enabling import and export of products, orders, customers, categories, ship
@@ -102,7 +102,7 @@ plans:
 - name: Volusion Plans Pricing
   plan_count: 4
   slug: volusion-plans-pricing
-random_paper: 28
+random_paper: 11
 rate_limits:
 - limit_count: 0
   name: Volusion Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 24.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/volusion/refs/heads/main/screenshots/volusion-2026-06-20T201133.png
 security:

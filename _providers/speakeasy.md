@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 38
   human_in_the_loop: 3
@@ -522,7 +522,7 @@ plans:
 - name: Speakeasy Plans Pricing
   plan_count: 5
   slug: speakeasy-plans-pricing
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Speakeasy Rate Limits
@@ -546,18 +546,18 @@ rules:
   slug: speakeasy-rules
 score:
   band: strong
-  composite: 64.4
-  delta: 0.0
+  composite: 66.4
+  delta: 2.0
   facets:
     commercial_clarity: 92.1
     contract_quality: 56.5
     developer_ergonomics: 28.3
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 86.8
     operational_transparency: 78.9
   previous_composite: 64.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

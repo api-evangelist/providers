@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -126,7 +126,7 @@ overview: 'Ericsson is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Ericsson''s developer surface includes engineering blog, GitHub presence, YouTube channel, and 18 more developer resources.'
-random_paper: 3
+random_paper: 54
 score:
   band: minimal
   composite: 7.9
@@ -140,7 +140,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 7.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ericsson/refs/heads/main/screenshots/ericsson-2026-06-20T180812.png
 security:

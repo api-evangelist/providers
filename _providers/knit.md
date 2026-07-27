@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -174,18 +174,18 @@ rules:
   slug: knit-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 49.3
-  delta: 0.0
+  composite: 52.5
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 64.6
     developer_ergonomics: 30.4
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 49.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/knit/refs/heads/main/screenshots/knit-2026-06-20T184110.png
 security:

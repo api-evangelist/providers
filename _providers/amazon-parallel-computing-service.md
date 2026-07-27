@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ plans:
 - name: Amazon Parallel Computing Service Plans Pricing
   plan_count: 3
   slug: amazon-parallel-computing-service-plans-pricing
-random_paper: 46
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Amazon Parallel Computing Service Rate Limits
@@ -214,18 +214,18 @@ rules:
   slug: amazon-parallel-computing-service-spectral-rules
 score:
   band: developing
-  composite: 52.4
-  delta: 0.0
+  composite: 55.6
+  delta: 3.2
   facets:
     commercial_clarity: 81.6
     contract_quality: 41.6
     developer_ergonomics: 30.4
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 60.5
     operational_transparency: 52.6
   previous_composite: 52.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-parallel-computing-service/refs/heads/main/screenshots/amazon-parallel-computing-service-2026-06-20T171755.png
 security:

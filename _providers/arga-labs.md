@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 33.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Public REST API for Arga's testing infrastructure — provision digital twins, deploy branches/PRs into sandboxes, run browser-agent validations, save and replay tests, manage scenarios (seed data), and
@@ -146,7 +146,7 @@ overview: 'Arga Labs publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Arga Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 17 more developer resources.'
-random_paper: 7
+random_paper: 58
 score:
   band: thin
   composite: 31.8
@@ -160,8 +160,9 @@ score:
     operational_transparency: 13.2
   previous_composite: 31.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/arga-labs/refs/heads/main/screenshots/arga-labs-2026-07-25T201136.png
 security:
 - kind: authentication
   name: Arga Labs Authentication

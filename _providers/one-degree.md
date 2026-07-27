@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: Housing properties.
@@ -54,7 +54,7 @@ arazzos:
 - description: Search opportunities by location, then load the top result's details and schedule.
   name: One Degree — find and detail a nearby service
   slug: one-degree-find-services
-artifact_total: 11
+artifact_total: 12
 collections:
 - collection_type: postman
   name: One Degree
@@ -152,6 +152,10 @@ created: '2026-07-17'
 description: One Degree is a California-based 501(c)(3) nonprofit technology organization that empowers low-income and underserved individuals, families, and social-service professionals to find and access life-changing benefits and services. Its Resource Server API exposes a curated, community- maintained database of social-service resources — organizations and the opportunities (programs and services) they offer, along with locations, phones, schedules, ratings, tags, comments, images, properties, guides, and housing properties. The API is designed for interoperability with third-party services so communities can coordinate and deliver social services more effectively. It is a read-focused REST API served at data.1degree.org/v1, authenticated with an api_key query parameter and HMAC-SHA256 request signatures for write verbs. Resource data is licensed under Creative Commons Attribution-NonCommercial 4.0 International.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/one-degree.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: one-degree-mcp.yml
+  slug: one-degree-mcpyml
 modified: '2026-07-20'
 name: One Degree
 nav: Providers
@@ -160,26 +164,26 @@ overview: 'One Degree publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   One Degree''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 18
+random_paper: 35
 score:
-  band: thin
-  composite: 42.7
-  delta: 2.1
+  band: developing
+  composite: 45.4
+  delta: 2.7
   facets:
     commercial_clarity: 34.2
     contract_quality: 56.6
     developer_ergonomics: 60.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 40.6
+  previous_composite: 42.7
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

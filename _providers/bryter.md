@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: REST API for triggering and executing BRYTER modules from external systems, returning module results. Authenticated with a bearer API key scoped to a tenant environment.
@@ -136,7 +136,7 @@ overview: 'Bryter publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Bryter''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 14 more developer resources.'
-random_paper: 1
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Bryter Rate Limits
@@ -154,8 +154,9 @@ score:
     operational_transparency: 31.6
   previous_composite: 35.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bryter/refs/heads/main/screenshots/bryter-2026-07-25T204007.png
 security:
 - kind: authentication
   name: Bryter Authentication

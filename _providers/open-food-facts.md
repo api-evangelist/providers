@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -107,19 +107,19 @@ rate_limits:
   name: Open Food Facts Rate Limits
   slug: open-food-facts-rate-limits
 score:
-  band: emerging
-  composite: 29.7
-  delta: 0.0
+  band: thin
+  composite: 31.7
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 49.4
     developer_ergonomics: 2.2
-    discoverability: 42.5
+    discoverability: 62.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 29.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/open-food-facts/refs/heads/main/screenshots/open-food-facts-2026-06-20T190753.png
 security:

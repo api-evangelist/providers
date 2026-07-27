@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 86.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -275,7 +275,7 @@ arazzos:
 - description: Find a page by title within a space and update it if it exists, otherwise create it.
   name: Confluence Upsert a Page by Title
   slug: confluence-upsert-page-by-title-workflow
-artifact_total: 253
+artifact_total: 254
 asyncapis:
 - description: Asynchronous event notifications from Confluence Cloud. Webhooks allow applications to receive real-time notifications when content, spaces, or other entities are created, updated, or deleted in Confl
   name: Confluence Cloud Webhooks
@@ -1050,6 +1050,10 @@ jsonld:
   property_count: 8
   slug: confluence-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: confluence-mcp.yml
+  slug: confluence-mcpyml
 modified: '2026-06-20'
 name: Confluence
 nav: Providers
@@ -1102,18 +1106,18 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: exemplar
-  composite: 74.9
-  delta: 0.0
+  composite: 77.4
+  delta: 2.5
   facets:
     commercial_clarity: 92.1
     contract_quality: 78.8
     developer_ergonomics: 82.6
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 60.5
     operational_transparency: 57.9
   previous_composite: 74.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/confluence/refs/heads/main/screenshots/confluence-2026-06-20T174854.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 88
   human_in_the_loop: 1
@@ -170,7 +170,7 @@ plans:
 - name: University Of Basel Plans Pricing
   plan_count: 2
   slug: university-of-basel-plans-pricing
-random_paper: 6
+random_paper: 40
 rate_limits:
 - limit_count: 1
   name: University Of Basel Rate Limits
@@ -205,7 +205,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 47.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-basel/refs/heads/main/screenshots/university-of-basel-2026-06-20T200131.png
 security:

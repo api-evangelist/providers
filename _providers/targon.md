@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -140,19 +140,19 @@ rules:
     warn: 3
   slug: targon-asyncapi-spectral-rules
 score:
-  band: thin
-  composite: 42.4
-  delta: 0.0
+  band: developing
+  composite: 45.6
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 71.9
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 26.3
     operational_transparency: 36.8
   previous_composite: 42.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

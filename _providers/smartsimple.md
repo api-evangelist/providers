@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: 'Get, list, and update (create) records stored in SmartSimple''s Universal Tracking Application (UTA) at Level 1, Level 2, and Level 3 - the grant applications, reviews, and sub-records at the heart of '
@@ -112,7 +112,7 @@ plans:
 - name: Smartsimple Plans Pricing
   plan_count: 3
   slug: smartsimple-plans-pricing
-random_paper: 28
+random_paper: 45
 rate_limits:
 - limit_count: 4
   name: Smartsimple Rate Limits
@@ -130,7 +130,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 27.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

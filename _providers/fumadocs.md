@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -179,18 +179,18 @@ rules:
   slug: fumadocs-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.8
-  delta: 0.0
+  composite: 44.1
+  delta: 3.3
   facets:
     commercial_clarity: 28.9
-    contract_quality: 60.2
+    contract_quality: 65.5
     developer_ergonomics: 10.9
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 40.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fumadocs/refs/heads/main/screenshots/fumadocs-2026-06-20T181650.png
 security:

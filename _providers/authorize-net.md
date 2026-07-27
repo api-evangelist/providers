@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 67.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -52,7 +52,7 @@ apis:
 - description: Charge, authorize, capture, void and refund transactions.
   name: Authorize.net Transactions API
   slug: authorize-net-transactions-api
-artifact_total: 32
+artifact_total: 33
 collections:
 - collection_type: open
   name: Authorize.Net API
@@ -212,6 +212,10 @@ integrations:
 - description: eCheck processing through the NACHA ACH network for bank-to-bank payment transfers.
   name: NACHA ACH Network
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Authorize.net
 nav: Providers
@@ -224,30 +228,30 @@ plans:
 - name: Authorize Net Plans Pricing
   plan_count: 3
   slug: authorize-net-plans-pricing
-random_paper: 33
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Authorize Net Rate Limits
   slug: authorize-net-rate-limits
 score:
   band: strong
-  composite: 60.2
-  delta: -1.1
+  composite: 63.0
+  delta: 2.8
   facets:
     commercial_clarity: 92.1
     contract_quality: 56.6
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 61.3
+  previous_composite: 60.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/authorize-net/refs/heads/main/screenshots/authorize-net-2026-06-20T172612.png
 security:

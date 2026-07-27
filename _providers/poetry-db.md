@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Search and retrieve English-language poems by author, title, line content, and line count. Returns structured JSON with title, author, lines array, and linecount fields. No authentication required.
@@ -116,7 +116,7 @@ plans:
 - name: Poetry Db Plans Pricing
   plan_count: 1
   slug: poetry-db-plans-pricing
-random_paper: 0
+random_paper: 34
 rate_limits:
 - limit_count: 0
   name: Poetry Db Rate Limits
@@ -133,7 +133,7 @@ rules:
 score:
   band: thin
   composite: 39.1
-  delta: -0.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 52.8
@@ -141,14 +141,14 @@ score:
     discoverability: 92.5
     governance: 73.7
     operational_transparency: 5.3
-  previous_composite: 39.5
+  previous_composite: 39.1
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/poetry-db/refs/heads/main/screenshots/poetry-db-2026-06-20T191838.png
 security:

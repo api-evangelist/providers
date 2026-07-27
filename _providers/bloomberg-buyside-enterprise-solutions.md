@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 19
   human_in_the_loop: 0
@@ -194,7 +194,7 @@ plans:
 - name: Bloomberg Buyside Enterprise Solutions Plans Pricing
   plan_count: 3
   slug: bloomberg-buyside-enterprise-solutions-plans-pricing
-random_paper: 15
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Bloomberg Buyside Enterprise Solutions Rate Limits
@@ -210,24 +210,25 @@ rules:
   slug: bloomberg-buyside-enterprise-solutions-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 55.3
-  delta: 2.1
+  composite: 57.0
+  delta: 1.7
   facets:
     commercial_clarity: 60.5
     contract_quality: 64.6
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 31.6
-  previous_composite: 53.2
+  previous_composite: 55.3
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bloomberg-buyside-enterprise-solutions/refs/heads/main/screenshots/bloomberg-buyside-enterprise-solutions-2026-07-25T203359.png
 security:
 - kind: authentication
   name: Bloomberg Buyside Enterprise Solutions Authentication

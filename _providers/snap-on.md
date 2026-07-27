@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: The Snap-on Electronic Parts Catalog (EPC) provides dealer management system (DMS) integration for parts lookup, pricing, and ordering. The EPC integration supports file-writer, Launch EPC, and advanc
@@ -123,7 +123,7 @@ press:
 - date: '2026-05-25'
   title: Snap-on Incorporated (SNA) Q1 2026 Earnings Call ...
   url: https://seekingalpha.com/article/4893513-snap-on-incorporated-sna-q1-2026-earnings-call-transcript
-random_paper: 37
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Snap On Rate Limits
@@ -141,7 +141,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 24.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/snap-on/refs/heads/main/screenshots/snap-on-2026-06-20T194109.png
 security:

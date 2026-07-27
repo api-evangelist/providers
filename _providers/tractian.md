@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API behind the Tractian platform, used for ERP, BI, and business-system integrations alongside native SQL access and prebuilt connectors. The API host is live (public health endpoint reporting v1
@@ -139,7 +139,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 27.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

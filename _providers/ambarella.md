@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 11.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -97,7 +97,7 @@ overview: 'Ambarella is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Ambarella''s developer surface includes documentation, support, engineering blog, and 11 more developer resources.'
-random_paper: 11
+random_paper: 45
 score:
   band: emerging
   composite: 17.0
@@ -111,8 +111,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 17.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ambarella/refs/heads/main/screenshots/ambarella-2026-07-25T200023.png
 security:
 - kind: domain-security
   name: Ambarella Domain Security

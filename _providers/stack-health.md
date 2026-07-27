@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -85,11 +85,11 @@ overview: 'Stack Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Stack Health''s developer surface includes signup flow and 10 more developer resources.'
-random_paper: 36
+random_paper: 53
 score:
   band: emerging
   composite: 23.5
-  delta: 5.4
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 0.0
@@ -97,15 +97,15 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 18.1
+  previous_composite: 23.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: domain-security
   name: Stack Health Domain Security

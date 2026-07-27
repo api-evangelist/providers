@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ plans:
 - name: Orbital Plans Pricing
   plan_count: 3
   slug: orbital-plans-pricing
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Orbital Rate Limits
@@ -162,18 +162,18 @@ rules:
   slug: orbital-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.3
-  delta: 0.0
+  composite: 51.5
+  delta: 4.2
   facets:
     commercial_clarity: 50.0
-    contract_quality: 58.4
+    contract_quality: 67.3
     developer_ergonomics: 10.9
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 47.4
   previous_composite: 47.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/orbital/refs/heads/main/screenshots/orbital-2026-06-20T191159.png
 security:

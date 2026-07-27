@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -126,30 +126,30 @@ plans:
 - name: Thunes Plans Pricing
   plan_count: 1
   slug: thunes-plans-pricing
-random_paper: 0
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Thunes Rate Limits
   slug: thunes-rate-limits
 score:
-  band: emerging
-  composite: 28.6
-  delta: -0.4
+  band: thin
+  composite: 31.4
+  delta: 2.8
   facets:
     commercial_clarity: 28.9
     contract_quality: 51.3
     developer_ergonomics: 10.9
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 29.0
+  previous_composite: 28.6
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 0
@@ -565,7 +565,7 @@ plans:
 - name: Sendcloud Plans Pricing
   plan_count: 6
   slug: sendcloud-plans-pricing
-random_paper: 43
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Sendcloud Rate Limits
@@ -593,19 +593,19 @@ scopes:
   slug: sendcloud-scopes
   summary_line: 1 scope · clientCredentials
 score:
-  band: strong
-  composite: 66.1
-  delta: 0.0
+  band: exemplar
+  composite: 70.8
+  delta: 4.7
   facets:
     commercial_clarity: 57.9
-    contract_quality: 71.6
+    contract_quality: 80.4
     developer_ergonomics: 63.0
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 66.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sendcloud/refs/heads/main/screenshots/sendcloud-2026-06-20T193651.png
 security:

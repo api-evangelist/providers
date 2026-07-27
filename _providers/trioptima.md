@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ plans:
 - name: Trioptima Plans Pricing
   plan_count: 3
   slug: trioptima-plans-pricing
-random_paper: 16
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Trioptima Rate Limits
@@ -228,23 +228,23 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 53.1
-  delta: 1.0
+  composite: 55.9
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 71.7
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
-  previous_composite: 52.1
+  previous_composite: 53.1
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/trioptima/refs/heads/main/screenshots/trioptima-2026-06-20T195722.png
 security:

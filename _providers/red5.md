@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 1
@@ -245,7 +245,7 @@ plans:
 - name: Red5 Plans Pricing
   plan_count: 2
   slug: red5-plans-pricing
-random_paper: 11
+random_paper: 28
 rate_limits:
 - limit_count: 2
   name: Red5 Rate Limits
@@ -277,18 +277,18 @@ rules:
   slug: red5-rules
 score:
   band: developing
-  composite: 50.0
-  delta: 0.0
+  composite: 52.0
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 69.7
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 50.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/red5/refs/heads/main/screenshots/red5-2026-06-20T192724.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -97,7 +97,7 @@ press:
 - date: '2026-05-25'
   title: Men's Wearhouse Unveils Next-Gen Stores
   url: https://www.tailoredbrands.com/2021/02/04/mens-wearhouse-unveils-next-gen-stores/
-random_paper: 1
+random_paper: 35
 score:
   band: minimal
   composite: 5.9
@@ -111,7 +111,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/tailored-brands/refs/heads/main/screenshots/tailored-brands-2026-06-20T194856.png
 security:

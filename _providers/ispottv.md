@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for accessing iSpot.tv TV and video ad measurement data — sync API activity with your database, retrieve ad occurrence and performance stats, and test API calls and endpoints. Reference docum
@@ -93,7 +93,7 @@ overview: 'iSpot.tv publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   iSpot.tv''s developer surface includes documentation, API reference, pricing, engineering blog, and 8 more developer resources.'
-random_paper: 28
+random_paper: 45
 score:
   band: emerging
   composite: 25.0
@@ -107,8 +107,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 25.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ispottv/refs/heads/main/screenshots/ispottv-2026-07-25T222949.png
 security:
 - kind: domain-security
   name: Ispottv Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 2
@@ -183,7 +183,7 @@ plans:
 - name: Codesandbox Plans Pricing
   plan_count: 4
   slug: codesandbox-plans-pricing
-random_paper: 40
+random_paper: 6
 rate_limits:
 - limit_count: 7
   name: Codesandbox Rate Limits
@@ -210,7 +210,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 59.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/codesandbox/refs/heads/main/screenshots/codesandbox-2026-06-20T174706.png
 security:

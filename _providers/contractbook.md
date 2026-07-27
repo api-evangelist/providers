@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -124,26 +124,27 @@ plans:
 - name: Contractbook Plans Pricing
   plan_count: 4
   slug: contractbook-plans-pricing
-random_paper: 14
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Contractbook Rate Limits
   slug: contractbook-rate-limits
 score:
   band: thin
-  composite: 32.5
-  delta: 0.0
+  composite: 35.8
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 37.7
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 32.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/contractbook/refs/heads/main/screenshots/contractbook-2026-07-25T210337.png
 security:
 - kind: authentication
   name: Contractbook Authentication

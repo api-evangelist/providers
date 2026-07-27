@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -177,25 +177,25 @@ plans:
 - name: Monad Plans Pricing
   plan_count: 1
   slug: monad-plans-pricing
-random_paper: 17
+random_paper: 51
 rate_limits:
 - limit_count: 2
   name: Monad Rate Limits
   slug: monad-rate-limits
 score:
   band: thin
-  composite: 41.5
-  delta: 0.0
+  composite: 44.8
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 57.5
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 41.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/monad/refs/heads/main/screenshots/monad-2026-06-20T185714.png
 security:

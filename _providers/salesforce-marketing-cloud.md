@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 1
@@ -569,7 +569,7 @@ plans:
 - name: Salesforce Marketing Cloud Plans Pricing
   plan_count: 1
   slug: salesforce-marketing-cloud-plans-pricing
-random_paper: 49
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Salesforce Marketing Cloud Rate Limits
@@ -597,19 +597,19 @@ scopes:
   slug: salesforce-marketing-cloud-scopes
   summary_line: 42 scopes · clientCredentials
 score:
-  band: developing
-  composite: 59.0
-  delta: 0.0
+  band: strong
+  composite: 62.3
+  delta: 3.3
   facets:
     commercial_clarity: 50.0
     contract_quality: 68.1
     developer_ergonomics: 47.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 52.6
   previous_composite: 59.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/salesforce-marketing-cloud/refs/heads/main/screenshots/salesforce-marketing-cloud-2026-06-20T193349.png
 security:

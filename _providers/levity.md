@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -110,7 +110,7 @@ overview: 'Levity is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Levity''s developer surface includes engineering blog, support, FAQ, and 14 more developer resources.'
-random_paper: 6
+random_paper: 57
 score:
   band: emerging
   composite: 22.2
@@ -124,8 +124,9 @@ score:
     operational_transparency: 31.6
   previous_composite: 22.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/levity/refs/heads/main/screenshots/levity-2026-07-25T224952.png
 security:
 - kind: domain-security
   name: Levity Domain Security

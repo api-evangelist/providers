@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ plans:
 - name: Art Blocks Plans
   plan_count: 4
   slug: art-blocks-plans
-random_paper: 41
+random_paper: 58
 rate_limits:
 - limit_count: 0
   name: Art Blocks Rate Limits
@@ -152,7 +152,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 35.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/art-blocks/refs/heads/main/screenshots/art-blocks-2026-06-20T172442.png
 security:

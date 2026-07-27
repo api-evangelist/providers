@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,7 +77,7 @@ overview: 'SecurityPal is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   SecurityPal''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 32
+random_paper: 49
 score:
   band: emerging
   composite: 17.2
@@ -91,7 +91,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 17.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

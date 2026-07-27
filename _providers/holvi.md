@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -174,11 +174,11 @@ overview: 'Holvi publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Holvi''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, support, engineering blog, and 20 more developer resources.'
-random_paper: 36
+random_paper: 2
 score:
   band: developing
   composite: 50.8
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 60.2
@@ -186,15 +186,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 50.2
+  previous_composite: 50.8
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/holvi/refs/heads/main/screenshots/holvi-2026-07-25T221323.png
 security:
 - kind: authentication
   name: Holvi Authentication

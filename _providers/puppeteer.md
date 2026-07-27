@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Puppeteer is a Node.js library providing a high-level API to control headless Chrome or Chromium browsers for web scraping, testing, and automation.
@@ -70,7 +70,7 @@ plans:
 - name: Puppeteer Plans Pricing
   plan_count: 3
   slug: puppeteer-plans-pricing
-random_paper: 17
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Puppeteer Rate Limits
@@ -88,7 +88,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 19.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/puppeteer/refs/heads/main/screenshots/puppeteer-2026-06-20T192309.png
 security:

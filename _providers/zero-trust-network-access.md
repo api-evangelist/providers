@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: 'Cloudflare Zero Trust (formerly Cloudflare for Teams / Cloudflare Access) provides ZTNA, secure web gateway, browser isolation, CASB, and DLP through a single global edge platform. The Cloudflare API '
@@ -207,7 +207,7 @@ plans:
 - name: Zero Trust Network Access Plans Pricing
   plan_count: 3
   slug: zero-trust-network-access-plans-pricing
-random_paper: 15
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Zero Trust Network Access Rate Limits
@@ -234,7 +234,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 39.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zero-trust-network-access/refs/heads/main/screenshots/zero-trust-network-access-2026-06-20T201911.png
 security:

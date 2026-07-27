@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 52
   human_in_the_loop: 0
@@ -81,7 +81,7 @@ apis:
 - description: The Virtualfields API from Axiom — 2 operation(s) for virtualfields.
   name: Axiom Virtualfields API
   slug: axiom-virtualfields-api
-artifact_total: 48
+artifact_total: 49
 asyncapis:
 - description: 'Axiom delivers monitor-triggered alerts to user-configured HTTP endpoints via the Custom Webhook Notifier. A monitor (match, threshold, or anomaly) runs a periodic query over event data, and when its '
   name: Axiom Custom Webhook Notifier
@@ -187,6 +187,10 @@ integrations:
 - description: Send CI/CD logs from GitHub Actions to Axiom for analysis.
   name: GitHub Actions
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-29'
 name: Axiom
 nav: Providers
@@ -202,7 +206,7 @@ plans:
 - name: Axiom Plans Pricing
   plan_count: 3
   slug: axiom-plans-pricing
-random_paper: 32
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Axiom Rate Limits
@@ -218,18 +222,18 @@ rules:
   slug: axiom-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 51.9
-  delta: 0.0
+  composite: 55.2
+  delta: 3.3
   facets:
     commercial_clarity: 71.1
     contract_quality: 48.7
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 34.2
     operational_transparency: 52.6
   previous_composite: 51.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/axiom/refs/heads/main/screenshots/axiom-2026-06-20T172818.png
 security:

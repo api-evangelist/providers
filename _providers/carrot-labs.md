@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 18.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'The SuperPenguin platform tracks and attributes AI spend per request, per customer, per feature, and per prompt version across 14+ LLM, speech, and gateway providers. Access is via first-party Python '
@@ -130,7 +130,7 @@ overview: 'Carrot Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Carrot Labs'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 43
+random_paper: 26
 score:
   band: emerging
   composite: 29.1
@@ -144,8 +144,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 29.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/carrot-labs/refs/heads/main/screenshots/carrot-labs-2026-07-25T204642.png
 security:
 - kind: authentication
   name: Carrot Labs Authentication

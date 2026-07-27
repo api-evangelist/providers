@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: Creates, manages, and retrieves on-demand and live video interviews, including structured interview guides, candidate invitations, and recorded responses. Exposed to customers and certified ATS partne
@@ -100,7 +100,7 @@ plans:
 - name: Hirevue Plans Pricing
   plan_count: 1
   slug: hirevue-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Hirevue Rate Limits
@@ -118,7 +118,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 20.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hirevue/refs/heads/main/screenshots/hirevue-2026-06-20T182756.png
 security:

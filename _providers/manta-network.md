@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: EVM-compatible Ethereum JSON-RPC endpoint for the Manta Pacific Layer-2 rollup (chain ID 169, currency ETH). Serves standard eth_* JSON-RPC methods; a WebSocket endpoint and public block explorers are
@@ -108,7 +108,7 @@ overview: 'Manta Network publishes 2 APIs on the [APIs.io](https://apis.io/) net
 
 
   Manta Network''s developer surface includes documentation, API reference, getting-started guide, engineering blog, sandbox, and 10 more developer resources.'
-random_paper: 26
+random_paper: 60
 score:
   band: emerging
   composite: 20.6
@@ -122,8 +122,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 20.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/manta-network/refs/heads/main/screenshots/manta-network-2026-07-25T230055.png
 security:
 - kind: domain-security
   name: Manta Network Domain Security

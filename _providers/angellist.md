@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The AngelList Investor Management API is a GraphQL API that enables programmatic access to the AngelList investor portal, supporting fund managers and investors in managing transactions, documents, an
@@ -134,7 +134,7 @@ plans:
 - name: Angellist Plans Pricing
   plan_count: 3
   slug: angellist-plans-pricing
-random_paper: 45
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Angellist Rate Limits
@@ -152,7 +152,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 31.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/angellist/refs/heads/main/screenshots/angellist-2026-06-20T171953.png
 security:

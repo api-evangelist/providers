@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -157,11 +175,32 @@ plans:
 - name: Chief Financial Officers Council Plans Pricing
   plan_count: 3
   slug: chief-financial-officers-council-plans-pricing
-random_paper: 27
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Chief Financial Officers Council Rate Limits
   slug: chief-financial-officers-council-rate-limits
+score:
+  band: thin
+  composite: 32.3
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 45.1
+    developer_ergonomics: 0.0
+    discoverability: 87.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 32.3
+  regulatory:
+    applies: true
+    regime: Government & Public Sector
+    regime_id: government
+    score: 21.7
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/chief-financial-officers-council/refs/heads/main/screenshots/chief-financial-officers-council-2026-07-25T205215.png
 security:
 - kind: domain-security
   name: Chief Financial Officers Council Domain Security

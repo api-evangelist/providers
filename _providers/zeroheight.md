@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The zeroheight REST API can be used to automate your design system workflow, make use of your content in new ways and leverage external tools to empower your design system. It provides access to resou
@@ -86,7 +86,7 @@ plans:
 - name: Zeroheight Plans Pricing
   plan_count: 3
   slug: zeroheight-plans-pricing
-random_paper: 10
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Zeroheight Rate Limits
@@ -104,7 +104,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 22.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zeroheight/refs/heads/main/screenshots/zeroheight-2026-06-20T201844.png
 security:

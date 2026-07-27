@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Read-write REST API for programmatically managing your JWP media library, players, playlists, live streams, advertising configurations, DRM policies, transformations, and webhooks. Authenticated via B
@@ -132,7 +132,7 @@ plans:
 - name: Jwplayer Plans Pricing
   plan_count: 3
   slug: jwplayer-plans-pricing
-random_paper: 11
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Jwplayer Rate Limits
@@ -150,7 +150,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 34.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jwplayer/refs/heads/main/screenshots/jwplayer-2026-06-20T183847.png
 security:

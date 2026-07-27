@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Location-based semantic search for the connected car - onebox search with category, brand, corridor, polygon, and bounding-box filters, reverse geocoding, EV charge-station search, auto-suggest and wo
@@ -153,7 +153,7 @@ overview: 'Telenav publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Telenav''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, changelog, and 17 more developer resources.'
-random_paper: 37
+random_paper: 3
 score:
   band: thin
   composite: 36.4
@@ -167,7 +167,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 36.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -102,7 +102,7 @@ overview: 'evinced is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   evinced''s developer surface includes documentation, support, engineering blog, authentication, and 10 more developer resources.'
-random_paper: 20
+random_paper: 54
 score:
   band: emerging
   composite: 23.6
@@ -116,8 +116,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 23.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/evinced/refs/heads/main/screenshots/evinced-2026-07-25T213804.png
 security:
 - kind: authentication
   name: Evinced Authentication

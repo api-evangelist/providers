@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 26.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: List, retrieve, import and download meetings
@@ -134,7 +134,7 @@ overview: 'tl;dv publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   tl;dv''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 11 more developer resources.'
-random_paper: 28
+random_paper: 11
 score:
   band: developing
   composite: 48.5
@@ -148,7 +148,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 48.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 28.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Tenant-scoped RESTful API for programmatic management of an organization's MCP infrastructure — MCP server/connector management, user operations, audit logs, and analytics. Authenticated with an x-run
@@ -138,7 +138,7 @@ overview: 'Runlayer publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Runlayer''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, CLI, authentication, and 15 more developer resources.'
-random_paper: 15
+random_paper: 66
 score:
   band: thin
   composite: 32.1
@@ -152,7 +152,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 32.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

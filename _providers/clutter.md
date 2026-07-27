@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ overview: 'Clutter is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Clutter''s developer surface includes support, pricing, signup flow, and 4 more developer resources.'
-random_paper: 6
+random_paper: 23
 score:
   band: emerging
   composite: 16.6
@@ -83,8 +83,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 16.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/clutter/refs/heads/main/screenshots/clutter-2026-07-25T205744.png
 security:
 - kind: domain-security
   name: Clutter Domain Security

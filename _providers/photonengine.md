@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 44.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -133,7 +133,7 @@ plans:
 - name: Photonengine Plans Pricing
   plan_count: 6
   slug: photonengine-plans-pricing
-random_paper: 19
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Photonengine Rate Limits
@@ -160,7 +160,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 47.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

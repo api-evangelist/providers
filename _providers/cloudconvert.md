@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Online file converter for audio, video, document, ebook, archive, image, spreadsheet, presentation
@@ -65,7 +65,7 @@ overview: 'CloudConvert publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   CloudConvert''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 29
+random_paper: 12
 score:
   band: minimal
   composite: 8.8
@@ -79,7 +79,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 8.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cloudconvert/refs/heads/main/screenshots/cloudconvert-2026-06-20T174548.png
 security:

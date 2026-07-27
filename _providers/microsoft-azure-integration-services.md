@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -161,7 +161,7 @@ plans:
 - name: Microsoft Azure Integration Services Plans Pricing
   plan_count: 3
   slug: microsoft-azure-integration-services-plans-pricing
-random_paper: 1
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Integration Services Rate Limits
@@ -173,18 +173,18 @@ scopes:
   summary_line: 1 scope · implicit
 score:
   band: developing
-  composite: 54.1
-  delta: 0.0
+  composite: 57.4
+  delta: 3.3
   facets:
     commercial_clarity: 84.2
     contract_quality: 53.1
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 54.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-azure-integration-services/refs/heads/main/screenshots/microsoft-azure-integration-services-2026-06-20T185419.png
 security:

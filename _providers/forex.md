@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -96,30 +96,30 @@ plans:
 - name: Forex Plans Pricing
   plan_count: 3
   slug: forex-plans-pricing
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Forex Rate Limits
   slug: forex-rate-limits
 score:
   band: thin
-  composite: 30.8
-  delta: -0.8
+  composite: 33.6
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 47.8
     developer_ergonomics: 10.9
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 31.6
+  previous_composite: 30.8
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/forex/refs/heads/main/screenshots/forex-2026-06-20T181424.png
 security:

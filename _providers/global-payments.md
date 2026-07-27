@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ press:
 - date: '2026-05-25'
   title: Global Payments Joins Forces with AWS to Deliver ...
   url: https://investors.globalpayments.com/news-events/press-releases/detail/49/global-payments-joins-forces-with-aws-to-deliver-the-future
-random_paper: 21
+random_paper: 55
 rate_limits:
 - limit_count: 2
   name: Global Payments Rate Limits
@@ -142,23 +142,23 @@ scopes:
   summary_line: 4 scopes · clientCredentials
 score:
   band: thin
-  composite: 34.8
-  delta: 2.3
+  composite: 37.5
+  delta: 2.7
   facets:
     commercial_clarity: 28.9
     contract_quality: 50.4
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 32.5
+  previous_composite: 34.8
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/screenshots/global-payments-2026-06-20T181917.png
 security:

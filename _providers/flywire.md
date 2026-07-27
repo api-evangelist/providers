@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for integrating Flywire's global payment network — one-off, recurring, pre-authorization, refund and 529 payments, checkout sessions, payors, recipients, and documents, with real-time payment
@@ -173,11 +173,11 @@ overview: 'Flywire publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Flywire''s developer surface includes documentation, API reference, getting-started guide, sandbox, authentication, and 24 more developer resources.'
-random_paper: 5
+random_paper: 22
 score:
   band: developing
   composite: 46.5
-  delta: 5.6
+  delta: 0.0
   facets:
     commercial_clarity: 36.8
     contract_quality: 22.6
@@ -185,15 +185,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 39.5
-  previous_composite: 40.9
+  previous_composite: 46.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/flywire/refs/heads/main/screenshots/flywire-2026-07-25T214857.png
 security:
 - kind: authentication
   name: Flywire Authentication

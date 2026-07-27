@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 70.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 11
 apis:
 - description: Endpoints to operate on [Depots](/docs/models/depot) resources. This resource is currently read-only on the API.
@@ -207,7 +207,7 @@ overview: 'Circuit publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Circuit''s developer surface includes authentication, documentation, API reference, getting-started guide, code examples, support, pricing, and 23 more developer resources.'
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 6
   name: Circuit Rate Limits
@@ -225,8 +225,9 @@ score:
     operational_transparency: 78.9
   previous_composite: 55.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/circuit/refs/heads/main/screenshots/circuit-2026-07-25T205411.png
 security:
 - kind: authentication
   name: Circuit Authentication

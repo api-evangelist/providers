@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Read-only search over Active.com's public activity assets (events, races, tournaments, classes) with location, date-range, category, topic, and boolean-operator filtering. Returns JSON via HTTP GET; a
@@ -110,7 +110,7 @@ overview: 'ACTIVE Network publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   ACTIVE Network''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 37
+random_paper: 54
 score:
   band: emerging
   composite: 26.5
@@ -124,8 +124,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 26.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/activenetwork/refs/heads/main/screenshots/activenetwork-2026-07-25T181528.png
 security:
 - kind: authentication
   name: Activenetwork Authentication

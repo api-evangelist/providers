@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'GraphQL federation framework that composes any API service — REST, OpenAPI, gRPC, SOAP, OData, JSON Schema, GraphQL, and databases — into a unified, type-safe GraphQL schema with built-in transforms, '
@@ -140,7 +140,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 40.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/graphql-mesh/refs/heads/main/screenshots/graphql-mesh-2026-06-20T182334.png
 security:

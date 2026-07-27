@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -120,25 +120,25 @@ plans:
 - name: Testmo Plans Pricing
   plan_count: 4
   slug: testmo-plans-pricing
-random_paper: 5
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Testmo Rate Limits
   slug: testmo-rate-limits
 score:
   band: thin
-  composite: 37.7
-  delta: 0.0
+  composite: 40.9
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.4
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 37.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

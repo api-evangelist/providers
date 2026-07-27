@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 39.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: 'Connect a worker''s accounts and retrieve normalized income, employment, transactions, activity, assets, banking info, documents, and vehicle data across 70+ gig-economy, tax, payroll, and wallet data '
@@ -184,7 +184,7 @@ random_paper: 31
 score:
   band: developing
   composite: 47.2
-  delta: 3.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 22.6
@@ -192,14 +192,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 23.7
-  previous_composite: 44.1
+  previous_composite: 47.2
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 65.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

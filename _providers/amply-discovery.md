@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -57,7 +57,7 @@ overview: 'AMPLY Discovery is profiled on the [APIs.io](https://apis.io/) networ
 
 
   AMPLY Discovery''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: minimal
   composite: 7.2
@@ -71,8 +71,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/amply-discovery/refs/heads/main/screenshots/amply-discovery-2026-07-25T200139.png
 slug: amply-discovery
 tags:
 - Company

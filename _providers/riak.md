@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 1
@@ -133,18 +133,18 @@ overview: 'Riak KV publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 random_paper: 15
 score:
   band: emerging
-  composite: 24.8
-  delta: 0.0
+  composite: 28.1
+  delta: 3.3
   facets:
     commercial_clarity: 0.0
     contract_quality: 48.7
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 5.3
   previous_composite: 24.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/riak/refs/heads/main/screenshots/riak-2026-06-20T193107.png
 security:

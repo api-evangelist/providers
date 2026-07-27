@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 20
   human_in_the_loop: 0
@@ -126,25 +126,25 @@ plans:
 - name: Mention Plans Pricing
   plan_count: 3
   slug: mention-plans-pricing
-random_paper: 48
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Mention Rate Limits
   slug: mention-rate-limits
 score:
   band: thin
-  composite: 35.7
-  delta: 0.0
+  composite: 38.9
+  delta: 3.2
   facets:
     commercial_clarity: 63.2
     contract_quality: 41.6
     developer_ergonomics: 15.2
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 31.6
   previous_composite: 35.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/mention/refs/heads/main/screenshots/mention-2026-06-20T185146.png
 security:

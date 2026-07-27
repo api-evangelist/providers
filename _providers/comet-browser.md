@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 15
 common:
@@ -122,7 +122,7 @@ overview: 'Comet is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Comet''s developer surface includes engineering blog, FAQ, support, pricing, and 11 more developer resources.'
-random_paper: 27
+random_paper: 61
 score:
   band: emerging
   composite: 15.1
@@ -136,7 +136,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 15.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

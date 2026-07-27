@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 21
   human_in_the_loop: 0
@@ -205,7 +205,7 @@ overview: 'Safello publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Safello''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, authentication, and 23 more developer resources.'
-random_paper: 28
+random_paper: 62
 scopes:
 - name: Safello Scopes
   scope_count: 8
@@ -214,7 +214,7 @@ scopes:
 score:
   band: developing
   composite: 55.5
-  delta: 6.0
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 56.8
@@ -222,15 +222,15 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 15.8
-  previous_composite: 49.5
+  previous_composite: 55.5
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 89.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Safello Authentication

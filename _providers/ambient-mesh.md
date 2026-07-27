@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Ambient Mesh provides a sidecar-less service mesh via the Kubernetes Gateway API and Istio ambient mode. It exposes configuration APIs for traffic management, security policies, resilience settings, a
@@ -110,7 +110,7 @@ plans:
 - name: Ambient Mesh Plans Pricing
   plan_count: 3
   slug: ambient-mesh-plans-pricing
-random_paper: 37
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Ambient Mesh Rate Limits
@@ -128,7 +128,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 26.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambient-mesh/refs/heads/main/screenshots/ambient-mesh-2026-06-20T171854.png
 security:

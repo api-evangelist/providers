@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ overview: 'Dimension is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Dimension''s developer surface includes signup flow, support, engineering blog, and 4 more developer resources.'
-random_paper: 48
+random_paper: 14
 score:
   band: minimal
   composite: 14.9
@@ -83,8 +83,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dimension/refs/heads/main/screenshots/dimension-2026-07-25T212038.png
 security:
 - kind: domain-security
   name: Dimension Domain Security

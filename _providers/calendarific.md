@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -261,20 +261,20 @@ rules:
     warn: 4
   slug: calendarific-rules
 score:
-  band: developing
-  composite: 59.8
-  delta: 0.0
+  band: strong
+  composite: 65.2
+  delta: 5.4
   facets:
     commercial_clarity: 84.2
-    contract_quality: 69.0
+    contract_quality: 77.9
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 5.3
   previous_composite: 59.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/calendarific/refs/heads/main/screenshots/calendarific-2026-06-20T173842.png
 security:
 - kind: authentication

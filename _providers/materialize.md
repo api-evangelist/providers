@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ plans:
 - name: Materialize Plans Pricing
   plan_count: 3
   slug: materialize-plans-pricing
-random_paper: 2
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Materialize Rate Limits
@@ -150,18 +150,18 @@ rules:
   slug: materialize-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 50.7
-  delta: 0.0
+  composite: 54.0
+  delta: 3.3
   facets:
     commercial_clarity: 57.9
     contract_quality: 61.4
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 65.8
     operational_transparency: 36.8
   previous_composite: 50.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/materialize/refs/heads/main/screenshots/materialize-2026-06-20T185034.png
 security:

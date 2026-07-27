@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -63,7 +63,7 @@ apis:
 - description: The Web Forms API from AWeber — 1 operation(s) for web forms.
   name: AWeber Web Forms API
   slug: aweber-web-forms-api
-artifact_total: 15
+artifact_total: 16
 collections:
 - collection_type: open
   name: AWeber REST API
@@ -177,6 +177,10 @@ created: '2026-05-11'
 description: AWeber is an email marketing and automation platform for small businesses, creators, and entrepreneurs providing email broadcasts, drip campaigns, landing pages, sign-up forms, and subscriber management. The AWeber REST API at api.aweber.com offers full programmatic access to lists, subscribers, broadcasts, campaigns, custom fields, segments, and tags using OAuth 2.0 authentication.
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aweber.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: AWeber
 nav: Providers
@@ -193,18 +197,18 @@ scopes:
   summary_line: 9 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.4
-  delta: 0.0
+  composite: 48.7
+  delta: 3.3
   facets:
     commercial_clarity: 52.6
     contract_quality: 51.3
     developer_ergonomics: 63.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 45.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aweber/refs/heads/main/screenshots/aweber-2026-06-20T172736.png
 security:

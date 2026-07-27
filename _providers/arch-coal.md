@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Machine-readable filing data for Core Natural Resources is available from the U.S. Securities and Exchange Commission, not from the company. The SEC EDGAR submissions API returns the full filing histo
@@ -122,11 +140,27 @@ press:
 - date: '2026-05-25'
   title: Despite a strong quarter for its Powder River Basin ...
   url: https://www.facebook.com/cowboystatedaily/posts/despite-a-strong-quarter-for-its-powder-river-basin-operations-arch-resources-in/500718778737496/
-random_paper: 48
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Arch Coal Rate Limits
   slug: arch-coal-rate-limits
+score:
+  band: emerging
+  composite: 22.5
+  delta: 0.0
+  facets:
+    commercial_clarity: 50.0
+    contract_quality: 0.0
+    developer_ergonomics: 8.7
+    discoverability: 80.0
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 22.5
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/arch-coal/refs/heads/main/screenshots/arch-coal-2026-07-25T201016.png
 security:
 - kind: domain-security
   name: Arch Coal Domain Security

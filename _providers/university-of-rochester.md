@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -172,7 +172,7 @@ plans:
 - name: University Of Rochester Plans Pricing
   plan_count: 2
   slug: university-of-rochester-plans-pricing
-random_paper: 3
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: University Of Rochester Rate Limits
@@ -202,7 +202,7 @@ scopes:
 score:
   band: developing
   composite: 49.2
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 67.4
@@ -210,14 +210,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 26.3
-  previous_composite: 47.5
+  previous_composite: 49.2
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/university-of-rochester/refs/heads/main/screenshots/university-of-rochester-2026-06-20T200223.png
 security:

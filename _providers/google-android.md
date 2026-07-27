@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 74.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -98,7 +98,7 @@ arazzos:
 - description: Create a hosted web app, confirm it registered, then add it to a policy so it installs on the fleet.
   name: Google Android Publish a Web App and Push It to a Policy
   slug: google-android-web-app-publishing-workflow
-artifact_total: 48
+artifact_total: 49
 collections:
 - collection_type: open
   name: Android Management API
@@ -296,6 +296,10 @@ integrations:
 - description: Use Android Jetpack libraries for architecture, UI, and behavior best practices.
   name: Jetpack Libraries
 layout: provider
+mcp_servers:
+- description: ''
+  name: google-android-mcp.yml
+  slug: google-android-mcpyml
 modified: '2026-06-20'
 name: Google Android
 nav: Providers
@@ -308,7 +312,7 @@ plans:
 - name: Google Android Plans Pricing
   plan_count: 3
   slug: google-android-plans-pricing
-random_paper: 42
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Google Android Rate Limits
@@ -320,18 +324,18 @@ scopes:
   summary_line: 9 scopes
 score:
   band: developing
-  composite: 48.6
-  delta: 0.0
+  composite: 51.8
+  delta: 3.2
   facets:
     commercial_clarity: 68.4
     contract_quality: 49.1
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 68.4
   previous_composite: 48.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-android/refs/heads/main/screenshots/google-android-2026-06-20T182012.png
 security:

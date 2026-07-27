@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -81,7 +81,7 @@ overview: 'Jabil is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Jabil''s developer surface includes product news and 9 more developer resources.'
-random_paper: 4
+random_paper: 38
 score:
   band: minimal
   composite: 6.2
@@ -95,7 +95,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 6.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jabil/refs/heads/main/screenshots/jabil-2026-06-20T183646.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ plans:
 - name: Giantbomb Plans Pricing
   plan_count: 1
   slug: giantbomb-plans-pricing
-random_paper: 29
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Giantbomb Rate Limits
@@ -191,7 +191,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 52.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

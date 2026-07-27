@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: The Transco Nominations API enables natural gas shippers to submit, modify, and track pipeline transportation nominations on the Transco pipeline system via the 1Line electronic bulletin board portal.
@@ -159,7 +159,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 30.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/williams/refs/heads/main/screenshots/williams-2026-06-20T201501.png
 security:

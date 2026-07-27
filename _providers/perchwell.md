@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -182,7 +182,7 @@ overview: 'Perchwell publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Perchwell''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 48
+random_paper: 14
 score:
   band: developing
   composite: 45.6
@@ -196,7 +196,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 45.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 58
   human_in_the_loop: 2
@@ -336,7 +336,7 @@ plans:
 - name: 1Nce Plans Pricing
   plan_count: 5
   slug: 1nce-plans-pricing
-random_paper: 2
+random_paper: 19
 rate_limits:
 - limit_count: 0
   name: 1Nce Rate Limits
@@ -351,19 +351,19 @@ rules:
     warn: 5
   slug: 1nce-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 55.9
-  delta: 0.0
+  band: strong
+  composite: 60.1
+  delta: 4.2
   facets:
     commercial_clarity: 60.5
-    contract_quality: 66.7
+    contract_quality: 75.6
     developer_ergonomics: 54.3
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 5.3
   previous_composite: 55.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/1nce/refs/heads/main/screenshots/1nce-2026-06-20T162509.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: The Analytics API from Sequence — 177 operation(s) for analytics.
@@ -189,7 +189,7 @@ random_paper: 41
 score:
   band: developing
   composite: 48.0
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 56.6
@@ -197,14 +197,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 44.7
-  previous_composite: 49.9
+  previous_composite: 48.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

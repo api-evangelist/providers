@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -857,7 +857,7 @@ plans:
 - name: Aws Api Gateway Plans Pricing
   plan_count: 6
   slug: aws-api-gateway-plans-pricing
-random_paper: 10
+random_paper: 61
 rate_limits:
 - limit_count: 12
   name: Aws Api Gateway Rate Limits
@@ -889,18 +889,18 @@ rules:
   slug: aws-api-gateway-spectral-rules
 score:
   band: exemplar
-  composite: 72.6
-  delta: 0.0
+  composite: 75.1
+  delta: 2.5
   facets:
     commercial_clarity: 78.9
     contract_quality: 80.8
     developer_ergonomics: 60.9
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 72.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aws-api-gateway/refs/heads/main/screenshots/aws-api-gateway-2026-06-20T172738.png
 security:

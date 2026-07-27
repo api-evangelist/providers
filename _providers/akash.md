@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 75
   human_in_the_loop: 0
@@ -254,7 +254,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 10
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -272,7 +272,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 45.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/akash/refs/heads/main/screenshots/akash-2026-06-20T171446.png
 security:

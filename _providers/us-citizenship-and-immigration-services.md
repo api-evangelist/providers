@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -115,7 +115,7 @@ plans:
 - name: Us Citizenship And Immigration Services Plans Pricing
   plan_count: 3
   slug: us-citizenship-and-immigration-services-plans-pricing
-random_paper: 38
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Us Citizenship And Immigration Services Rate Limits
@@ -144,18 +144,18 @@ scopes:
   summary_line: 3 scopes · clientCredentials
 score:
   band: developing
-  composite: 46.7
-  delta: 0.0
+  composite: 50.0
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 70.8
     developer_ergonomics: 10.9
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 46.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-citizenship-and-immigration-services/refs/heads/main/screenshots/us-citizenship-and-immigration-services-2026-06-20T200606.png
 security:

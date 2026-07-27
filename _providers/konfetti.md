@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Authenticated customer profile and registration.
@@ -175,7 +175,7 @@ overview: 'konfetti publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   konfetti''s developer surface includes support, FAQ, engineering blog, signup flow, developer portal, pricing, and 23 more developer resources.'
-random_paper: 1
+random_paper: 52
 score:
   band: thin
   composite: 36.7
@@ -189,8 +189,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 36.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/konfetti/refs/heads/main/screenshots/konfetti-2026-07-25T224149.png
 security:
 - kind: authentication
   name: Konfetti Authentication

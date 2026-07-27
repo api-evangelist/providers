@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: RushCare Service Connect is a technology platform that provides a single portal integrated with OEMs, third-party repair software systems, and real-time telematics providers. It integrates with Peterb
@@ -153,7 +153,7 @@ press:
 - date: '2026-05-25'
   title: Norton Rose Fulbright represents Rush Enterprises in joint ...
   url: https://www.nortonrosefulbright.com/en-us/news/9cac52b2/norton-rose-fulbright-represents-rush-enterprises-in-joint-venture-with-cummins-inc
-random_paper: 16
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Rush Enterprises Rate Limits
@@ -180,7 +180,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 35.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rush-enterprises/refs/heads/main/screenshots/rush-enterprises-2026-06-20T193300.png
 security:

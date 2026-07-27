@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 3
@@ -52,7 +52,7 @@ apis:
 - description: Team and membership management
   name: Upbound Teams API
   slug: upbound-teams-api
-artifact_total: 20
+artifact_total: 21
 collections:
 - collection_type: open
   name: Upbound API
@@ -134,6 +134,10 @@ jsonld:
   property_count: 15
   slug: upbound-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Upbound
 nav: Providers
@@ -149,7 +153,7 @@ plans:
 - name: Upbound Plans Pricing
   plan_count: 3
   slug: upbound-plans-pricing
-random_paper: 0
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Upbound Rate Limits
@@ -173,18 +177,18 @@ rules:
   slug: upbound-rules
 score:
   band: developing
-  composite: 53.0
-  delta: 0.0
+  composite: 56.2
+  delta: 3.2
   facets:
     commercial_clarity: 47.4
     contract_quality: 68.1
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 53.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/upbound/refs/heads/main/screenshots/upbound-2026-06-20T200438.png
 security:

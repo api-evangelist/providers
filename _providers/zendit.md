@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -391,24 +391,24 @@ rules:
     warn: 13
   slug: zendit-rules
 score:
-  band: developing
-  composite: 56.1
-  delta: -3.4
+  band: strong
+  composite: 60.0
+  delta: 3.9
   facets:
     commercial_clarity: 52.6
-    contract_quality: 68.6
+    contract_quality: 73.9
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 52.6
-  previous_composite: 59.5
+  previous_composite: 56.1
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zendit/refs/heads/main/screenshots/zendit-2026-06-20T201909.png
 security:

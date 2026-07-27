@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -156,25 +156,25 @@ plans:
 - name: Turbopuffer Plans Pricing
   plan_count: 3
   slug: turbopuffer-plans-pricing
-random_paper: 31
+random_paper: 48
 rate_limits:
 - limit_count: 3
   name: Turbopuffer Rate Limits
   slug: turbopuffer-rate-limits
 score:
   band: thin
-  composite: 38.1
-  delta: 0.0
+  composite: 41.4
+  delta: 3.3
   facets:
     commercial_clarity: 60.5
     contract_quality: 40.7
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 38.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turbopuffer/refs/heads/main/screenshots/turbopuffer-2026-06-20T195831.png
 security:

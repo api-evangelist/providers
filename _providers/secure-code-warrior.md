@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -192,7 +192,7 @@ plans:
 - name: Secure Code Warrior Plans Pricing
   plan_count: 3
   slug: secure-code-warrior-plans-pricing
-random_paper: 35
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Secure Code Warrior Rate Limits
@@ -216,18 +216,18 @@ rules:
   slug: secure-code-warrior-rules
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 55.5
+  delta: 2.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 62.3
     developer_ergonomics: 32.6
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 53.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/secure-code-warrior/refs/heads/main/screenshots/secure-code-warrior-2026-06-20T193625.png
 security:

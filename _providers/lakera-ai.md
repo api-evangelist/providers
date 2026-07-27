@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 66.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -49,7 +49,7 @@ apis:
 - description: Retrieve detector confidence levels without runtime enforcement.
   name: Lakera Results API
   slug: lakera-ai-results-api
-artifact_total: 42
+artifact_total: 43
 collections:
 - collection_type: open
   name: Lakera Guard API
@@ -254,6 +254,10 @@ jsonld:
   property_count: 0
   slug: lakera-ai-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: Lakera Docs MCP Server
+  slug: lakera-docs-mcp-server
 modified: '2026-05-25'
 name: Lakera
 nav: Providers
@@ -269,7 +273,7 @@ plans:
 - name: Lakera Ai Plans Pricing
   plan_count: 4
   slug: lakera-ai-plans-pricing
-random_paper: 4
+random_paper: 55
 rate_limits:
 - limit_count: 0
   name: Lakera Ai Rate Limits
@@ -293,18 +297,18 @@ rules:
   slug: lakera-rules
 score:
   band: strong
-  composite: 62.0
-  delta: 0.0
+  composite: 66.2
+  delta: 4.2
   facets:
     commercial_clarity: 78.9
-    contract_quality: 64.6
+    contract_quality: 73.5
     developer_ergonomics: 60.9
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 5.3
   previous_composite: 62.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lakera-ai/refs/heads/main/screenshots/lakera-ai-2026-06-20T184246.png
 security:

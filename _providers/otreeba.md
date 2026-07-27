@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 15
 apis:
 - description: Companies that create or distribute various forms of flowers, extracts, edibles, or products.
@@ -136,7 +136,7 @@ plans:
 - name: Otreeba Plans Pricing
   plan_count: 3
   slug: otreeba-plans-pricing
-random_paper: 24
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Otreeba Rate Limits
@@ -154,7 +154,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 44.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

@@ -20,7 +20,7 @@ modified: '2026-04-30'
 name: Data Format
 nav: Providers
 network: true
-random_paper: 33
+random_paper: 16
 slug: data-format
 tags:
 - Binary Formats

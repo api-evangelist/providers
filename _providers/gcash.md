@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Merchant-facing payment API for GCash mini programs — cashier payment, payment inquiry, refund and refund inquiry, plus OAuth2 user authorization (authCode -> applyToken). Signed requests (Client-Id +
@@ -145,11 +145,11 @@ overview: 'GCash publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   GCash''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, and 16 more developer resources.'
-random_paper: 8
+random_paper: 42
 score:
   band: thin
   composite: 39.5
-  delta: 4.9
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 22.6
@@ -157,15 +157,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 18.4
-  previous_composite: 34.6
+  previous_composite: 39.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gcash/refs/heads/main/screenshots/gcash-2026-07-25T215519.png
 security:
 - kind: authentication
   name: Gcash Authentication

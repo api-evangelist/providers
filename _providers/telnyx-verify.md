@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -112,25 +112,25 @@ plans:
 - name: Telnyx Verify Plans Pricing
   plan_count: 3
   slug: telnyx-verify-plans-pricing
-random_paper: 5
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: Telnyx Verify Rate Limits
   slug: telnyx-verify-rate-limits
 score:
   band: thin
-  composite: 38.6
-  delta: 0.0
+  composite: 41.8
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 60.8
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 38.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

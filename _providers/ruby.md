@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 41.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -290,18 +290,18 @@ rules:
   slug: rubygems-registry-rules
 score:
   band: developing
-  composite: 47.4
-  delta: 0.0
+  composite: 51.6
+  delta: 4.2
   facets:
     commercial_clarity: 0.0
-    contract_quality: 66.8
+    contract_quality: 75.6
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 47.4
   previous_composite: 47.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ruby/refs/heads/main/screenshots/ruby-2026-06-20T193244.png
 security:

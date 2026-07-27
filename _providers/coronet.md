@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 26.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Coro Public API enables service providers and developers to build applications that integrate with the Coro Cybersecurity platform. Organized around workspaces (regular, channel, child), it covers
@@ -153,7 +153,7 @@ overview: 'CoroNet publishes 1 API on the [APIs.io](https://apis.io/) network: C
 
 
   CoroNet''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 48
+random_paper: 14
 score:
   band: thin
   composite: 42.5
@@ -167,8 +167,9 @@ score:
     operational_transparency: 39.5
   previous_composite: 42.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/coronet/refs/heads/main/screenshots/coronet-2026-07-25T210438.png
 security:
 - kind: authentication
   name: Coronet Authentication

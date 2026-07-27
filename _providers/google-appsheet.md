@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -110,7 +110,7 @@ plans:
 - name: Google Appsheet Plans Pricing
   plan_count: 3
   slug: google-appsheet-plans-pricing
-random_paper: 10
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Google Appsheet Rate Limits
@@ -126,18 +126,18 @@ rules:
   slug: google-appsheet-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 50.1
-  delta: 0.0
+  composite: 54.7
+  delta: 4.6
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.3
+    contract_quality: 72.6
     developer_ergonomics: 21.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 50.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-appsheet/refs/heads/main/screenshots/google-appsheet-2026-06-20T182019.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -89,7 +89,7 @@ random_paper: 14
 score:
   band: emerging
   composite: 24.3
-  delta: 5.3
+  delta: 0.0
   facets:
     commercial_clarity: 42.1
     contract_quality: 0.0
@@ -97,15 +97,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 19.0
+  previous_composite: 24.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fortuna-health/refs/heads/main/screenshots/fortuna-health-2026-07-25T215014.png
 security:
 - kind: domain-security
   name: Fortuna Health Domain Security

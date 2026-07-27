@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 29.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 common:
@@ -110,7 +110,7 @@ overview: 'Because is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Because''s developer surface includes engineering blog, support, signup flow, authentication, and 12 more developer resources.'
-random_paper: 14
+random_paper: 48
 scopes:
 - name: Because Scopes
   scope_count: 4
@@ -119,7 +119,7 @@ scopes:
 score:
   band: emerging
   composite: 28.5
-  delta: 8.4
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -127,15 +127,15 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 20.1
+  previous_composite: 28.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 security:
 - kind: authentication
   name: Because Authentication

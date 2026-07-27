@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 26.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'The Klaus platform API at api.klausai.com is a tRPC RPC surface used by the first-party @klausai/cli command-line client to manage OpenClaw instances, agents, integrations, models, and chat sessions, '
@@ -146,7 +146,7 @@ overview: 'Klaus AI publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Klaus AI''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, CLI, and 16 more developer resources.'
-random_paper: 26
+random_paper: 43
 score:
   band: thin
   composite: 36.6
@@ -160,8 +160,9 @@ score:
     operational_transparency: 7.9
   previous_composite: 36.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/klaus-ai/refs/heads/main/screenshots/klaus-ai-2026-07-25T223940.png
 security:
 - kind: authentication
   name: Klaus Ai Authentication

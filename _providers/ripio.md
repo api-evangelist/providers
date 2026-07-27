@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 86.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ overview: 'Ripio publishes 11 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Ripio''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 27 more developer resources.'
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Ripio Rate Limits
@@ -234,7 +234,7 @@ rate_limits:
 score:
   band: strong
   composite: 60.6
-  delta: 3.1
+  delta: 0.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.8
@@ -242,14 +242,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 47.4
-  previous_composite: 57.5
+  previous_composite: 60.6
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

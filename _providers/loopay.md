@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 61.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -199,7 +199,7 @@ random_paper: 48
 score:
   band: thin
   composite: 41.1
-  delta: 0.9
+  delta: 0.0
   facets:
     commercial_clarity: 23.7
     contract_quality: 46.1
@@ -207,15 +207,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 40.2
+  previous_composite: 41.1
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/loopay/refs/heads/main/screenshots/loopay-2026-07-25T225527.png
 security:
 - kind: authentication
   name: Loopay Authentication

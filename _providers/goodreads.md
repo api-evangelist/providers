@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 13.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -106,7 +106,7 @@ overview: 'Goodreads is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Goodreads'' developer surface includes API reference, documentation, support, engineering blog, signup flow, authentication, and 10 more developer resources.'
-random_paper: 34
+random_paper: 0
 score:
   band: emerging
   composite: 21.1
@@ -120,8 +120,9 @@ score:
     operational_transparency: 7.9
   previous_composite: 21.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/goodreads/refs/heads/main/screenshots/goodreads-2026-07-25T220056.png
 security:
 - kind: authentication
   name: Goodreads Authentication

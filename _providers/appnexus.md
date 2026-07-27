@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 17.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: RESTful JSON API for the AppNexus/Xandr programmatic advertising platform - manage advertisers, campaigns, line items, creatives, placements, inventory, deals, and pull reporting. Token authentication
@@ -118,7 +118,7 @@ overview: 'AppNexus publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   AppNexus'' developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, and 12 more developer resources.'
-random_paper: 17
+random_paper: 0
 score:
   band: emerging
   composite: 24.7
@@ -132,8 +132,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 24.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/appnexus/refs/heads/main/screenshots/appnexus-2026-07-25T200821.png
 security:
 - kind: authentication
   name: Appnexus Authentication

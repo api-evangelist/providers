@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 8
@@ -298,7 +298,7 @@ rate_limits:
 score:
   band: strong
   composite: 68.4
-  delta: 1.8
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
     contract_quality: 61.3
@@ -306,15 +306,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 50.0
-  previous_composite: 66.6
+  previous_composite: 68.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hitpay/refs/heads/main/screenshots/hitpay-2026-07-25T221304.png
 security:
 - kind: authentication
   name: Hitpay Authentication

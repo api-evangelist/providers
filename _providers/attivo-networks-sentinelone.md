@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -101,7 +101,7 @@ overview: 'Attivo Networks (SentinelOne) is profiled on the [APIs.io](https://ap
 
 
   Attivo Networks (SentinelOne)''s developer surface includes engineering blog, support, and 13 more developer resources.'
-random_paper: 29
+random_paper: 46
 score:
   band: emerging
   composite: 16.8
@@ -115,8 +115,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 16.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/attivo-networks-sentinelone/refs/heads/main/screenshots/attivo-networks-sentinelone-2026-07-25T201722.png
 security:
 - kind: domain-security
   name: Attivo Networks Sentinelone Domain Security

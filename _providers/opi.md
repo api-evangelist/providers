@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: API for the Open Programmable Infrastructure project, enabling programmatic access to DPU and IPU offloading capabilities for infrastructure management services including security, load balancing, and
@@ -74,7 +74,7 @@ plans:
 - name: Opi Plans Pricing
   plan_count: 3
   slug: opi-plans-pricing
-random_paper: 22
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Opi Rate Limits
@@ -92,7 +92,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 21.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opi/refs/heads/main/screenshots/opi-2026-06-20T191101.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 29.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Native Shopify Universal Commerce Protocol (UCP 2026-04-08) shopping service, exposed as a Model Context Protocol endpoint for agent-driven commerce — catalog search, cart, checkout, fulfillment, disc
@@ -102,7 +102,7 @@ overview: 'The Beard Club publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   The Beard Club''s developer surface includes documentation, authentication, and 11 more developer resources.'
-random_paper: 17
+random_paper: 51
 scopes:
 - name: The Beard Club Scopes
   scope_count: 4
@@ -121,7 +121,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 20.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

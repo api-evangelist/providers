@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 71.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 48
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ overview: 'Sublime Security publishes 16 APIs on the [APIs.io](https://apis.io/)
 
 
   Sublime Security''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 19 more developer resources.'
-random_paper: 3
+random_paper: 54
 score:
   band: developing
   composite: 48.0
@@ -223,7 +223,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 48.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for the CloudGenix AppFabric / Cloud Controller — manage sites, elements (ION devices), WAN networks, application policies, and telemetry. Token-authenticated via the X-Auth-Token header.
@@ -70,7 +70,7 @@ overview: 'Cloudgenix publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Cloudgenix''s developer surface includes documentation, CLI, authentication, and 3 more developer resources.'
-random_paper: 3
+random_paper: 54
 score:
   band: emerging
   composite: 16.5
@@ -84,8 +84,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 16.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cloudgenix/refs/heads/main/screenshots/cloudgenix-2026-07-25T205705.png
 security:
 - kind: authentication
   name: Cloudgenix Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -585,19 +585,19 @@ rules:
     warn: 17
   slug: amazon-rds-spectral-rules
 score:
-  band: strong
-  composite: 68.6
-  delta: 0.0
+  band: exemplar
+  composite: 73.2
+  delta: 4.6
   facets:
     commercial_clarity: 89.5
-    contract_quality: 69.9
+    contract_quality: 75.2
     developer_ergonomics: 39.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 63.2
   previous_composite: 68.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-rds/refs/heads/main/screenshots/amazon-rds-2026-06-20T171805.png
 security:

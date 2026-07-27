@@ -20,7 +20,7 @@ modified: '2026-04-30'
 name: Database Schema Design
 nav: Providers
 network: true
-random_paper: 28
+random_paper: 62
 slug: database-schema-design
 tags:
 - Data Modeling

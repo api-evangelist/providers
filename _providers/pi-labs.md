@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 14.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'OpenAPI-compatible REST API for scoring, calibrating, and optimizing LLM outputs against rubrics of natural-language questions. Authenticated with an API key (WITHPI_API_KEY) sent as an Authorization '
@@ -94,7 +94,7 @@ overview: 'Pi Labs publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Pi Labs'' developer surface includes documentation, API reference, getting-started guide, changelog, authentication, and 7 more developer resources.'
-random_paper: 17
+random_paper: 0
 score:
   band: emerging
   composite: 23.7
@@ -108,7 +108,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 23.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

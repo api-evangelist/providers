@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Keybase public HTTP JSON API (v1.0). Read-oriented endpoints for user lookup and discovery by social proof, PGP public-key fetch, Merkle-tree root and block retrieval for verification, and the salt/lo
@@ -98,7 +98,7 @@ overview: 'Keybase publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Keybase''s developer surface includes documentation, API reference, engineering blog, support, CLI, and 7 more developer resources.'
-random_paper: 26
+random_paper: 60
 score:
   band: emerging
   composite: 20.0
@@ -112,8 +112,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 20.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/keybase/refs/heads/main/screenshots/keybase-2026-07-25T223641.png
 security:
 - kind: authentication
   name: Keybase Authentication

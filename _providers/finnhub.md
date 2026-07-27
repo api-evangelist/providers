@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -61,7 +61,7 @@ apis:
 - description: The Stock API from Finnhub — 5 operation(s) for stock.
   name: Finnhub Stock API
   slug: finnhub-stock-api
-artifact_total: 17
+artifact_total: 18
 asyncapis:
 - description: AsyncAPI specification for Finnhub's real-time streaming WebSocket APIs. A single WebSocket endpoint (wss://ws.finnhub.io) multiplexes three documented streams selected by the envelope `type` field on
   name: Finnhub WebSocket API
@@ -195,6 +195,10 @@ finops:
   slug: finnhub-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/finnhub.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: finnhub-mcp.yml
+  slug: finnhub-mcpyml
 modified: '2026-07-22'
 name: Finnhub
 nav: Providers
@@ -210,7 +214,7 @@ plans:
 - name: Finnhub Plans Pricing
   plan_count: 3
   slug: finnhub-plans-pricing
-random_paper: 32
+random_paper: 66
 rate_limits:
 - limit_count: 6
   name: Finnhub Rate Limits
@@ -226,23 +230,23 @@ rules:
   slug: finnhub-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 55.3
-  delta: -1.7
+  composite: 58.1
+  delta: 2.8
   facets:
     commercial_clarity: 60.5
     contract_quality: 63.0
     developer_ergonomics: 56.5
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 36.8
-  previous_composite: 57.0
+  previous_composite: 55.3
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 45.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/screenshots/finnhub-2026-06-20T181219.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Google Voice Plans Pricing
   plan_count: 3
   slug: google-voice-plans-pricing
-random_paper: 43
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Google Voice Rate Limits
@@ -151,19 +151,19 @@ rules:
     warn: 3
   slug: google-voice-jsonschema-spectral-rules
 score:
-  band: developing
-  composite: 58.1
-  delta: 0.0
+  band: strong
+  composite: 62.7
+  delta: 4.6
   facets:
     commercial_clarity: 71.1
-    contract_quality: 54.9
+    contract_quality: 60.2
     developer_ergonomics: 45.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 73.7
     operational_transparency: 47.4
   previous_composite: 58.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/google-voice/refs/heads/main/screenshots/google-voice-2026-06-20T182246.png
 security:

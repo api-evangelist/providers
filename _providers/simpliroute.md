@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 39.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for delivery visits, route plans, route optimization, vehicles, drivers, clients, invoices and lifecycle webhooks. Token-header authenticated, JSON over HTTPS, versioned at /v1.
@@ -157,7 +157,7 @@ overview: 'Simpliroute publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Simpliroute''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 40
+random_paper: 57
 score:
   band: thin
   composite: 38.2
@@ -171,7 +171,7 @@ score:
     operational_transparency: 13.2
   previous_composite: 38.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

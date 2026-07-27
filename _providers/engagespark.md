@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 42.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -146,7 +146,7 @@ overview: 'engageSPARK publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   engageSPARK''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 10 more developer resources.'
-random_paper: 38
+random_paper: 4
 score:
   band: developing
   composite: 46.9
@@ -160,8 +160,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 46.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/engagespark/refs/heads/main/screenshots/engagespark-2026-07-25T213341.png
 security:
 - kind: authentication
   name: Engagespark Authentication

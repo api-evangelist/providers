@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -242,20 +242,20 @@ rules:
     warn: 18
   slug: amazon-fsx-spectral-rules
 score:
-  band: developing
-  composite: 56.7
-  delta: 0.0
+  band: strong
+  composite: 62.2
+  delta: 5.5
   facets:
     commercial_clarity: 68.4
-    contract_quality: 54.9
+    contract_quality: 63.7
     developer_ergonomics: 30.4
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 56.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-fsx/refs/heads/main/screenshots/amazon-fsx-2026-06-20T171653.png
 security:
 - kind: domain-security

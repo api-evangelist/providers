@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Crane Worldwide Logistics API is a REST API that lets partners and customers connect their systems directly to Crane's logistics platform. Through a single approved API key, developers can request
@@ -102,7 +102,7 @@ plans:
 - name: Crane Worldwide Plans Pricing
   plan_count: 3
   slug: crane-worldwide-plans-pricing
-random_paper: 13
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Crane Worldwide Rate Limits
@@ -120,7 +120,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 27.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/crane-worldwide/refs/heads/main/screenshots/crane-worldwide-2026-06-20T175210.png
 security:

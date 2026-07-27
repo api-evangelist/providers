@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ plans:
 - name: Sam.Gov Plans Pricing
   plan_count: 1
   slug: sam.gov-plans-pricing
-random_paper: 36
+random_paper: 19
 rate_limits:
 - limit_count: 1
   name: Sam.Gov Rate Limits
@@ -178,18 +178,18 @@ rules:
   slug: sam.gov-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 38.8
-  delta: 0.0
+  composite: 40.8
+  delta: 2.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 56.6
     developer_ergonomics: 17.4
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 26.3
     operational_transparency: 42.1
   previous_composite: 38.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sam.gov/refs/heads/main/screenshots/sam.gov-2026-06-20T193356.png
 security:

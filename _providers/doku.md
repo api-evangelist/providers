@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 86.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 5
@@ -244,7 +244,7 @@ rate_limits:
 score:
   band: exemplar
   composite: 71.4
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 100.0
     contract_quality: 66.1
@@ -252,15 +252,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 68.4
-  previous_composite: 70.2
+  previous_composite: 71.4
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/doku/refs/heads/main/screenshots/doku-2026-07-25T212238.png
 security:
 - kind: authentication
   name: Doku Authentication

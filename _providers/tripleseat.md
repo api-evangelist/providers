@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -307,7 +307,7 @@ plans:
 - name: Tripleseat Plans Pricing
   plan_count: 5
   slug: tripleseat-plans-pricing
-random_paper: 14
+random_paper: 65
 rate_limits:
 - limit_count: 4
   name: Tripleseat Rate Limits
@@ -343,20 +343,20 @@ scopes:
   slug: tripleseat-scopes
   summary_line: 6 scopes · clientCredentials/authorizationCode
 score:
-  band: developing
-  composite: 57.3
-  delta: 0.0
+  band: strong
+  composite: 62.7
+  delta: 5.4
   facets:
     commercial_clarity: 57.9
-    contract_quality: 84.1
+    contract_quality: 92.9
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 65.8
     operational_transparency: 36.8
   previous_composite: 57.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/tripleseat/refs/heads/main/screenshots/tripleseat-2026-06-20T195730.png
 security:
 - kind: authentication

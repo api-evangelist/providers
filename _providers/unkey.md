@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 41
   human_in_the_loop: 4
@@ -676,7 +676,7 @@ plans:
 - name: Unkey Plans Pricing
   plan_count: 4
   slug: unkey-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Unkey Rate Limits
@@ -699,20 +699,20 @@ rules:
     warn: 7
   slug: unkey-rules
 score:
-  band: developing
-  composite: 55.5
-  delta: 0.0
+  band: strong
+  composite: 60.9
+  delta: 5.4
   facets:
     commercial_clarity: 50.0
-    contract_quality: 68.5
+    contract_quality: 77.3
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 55.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/unkey/refs/heads/main/screenshots/unkey-2026-06-20T200401.png
 security:
 - kind: authentication

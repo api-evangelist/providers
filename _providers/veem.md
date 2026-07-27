@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 83.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 27
   human_in_the_loop: 27
@@ -224,7 +224,7 @@ scopes:
 score:
   band: developing
   composite: 48.2
-  delta: 1.9
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 57.0
@@ -232,14 +232,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 46.3
+  previous_composite: 48.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

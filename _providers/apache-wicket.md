@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Wicket Component API provides the core Java classes for building web UIs. Pages extend WebPage, components extend Panel, Form, Link, Button, and other base classes. The model system uses IModel<T>
@@ -116,7 +116,7 @@ plans:
 - name: Apache Wicket Plans Pricing
   plan_count: 3
   slug: apache-wicket-plans-pricing
-random_paper: 27
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Apache Wicket Rate Limits
@@ -134,7 +134,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 31.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-wicket/refs/heads/main/screenshots/apache-wicket-2026-06-20T172157.png
 security:

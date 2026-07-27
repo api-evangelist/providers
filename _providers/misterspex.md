@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,7 +77,7 @@ overview: 'MisterSpex is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   MisterSpex''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 37
+random_paper: 20
 score:
   band: minimal
   composite: 10.1
@@ -91,7 +91,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 10.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 47.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: The Discovery API from Voidpet — 1 operation(s) for discovery.
@@ -105,7 +105,7 @@ overview: 'Voidpet publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Voidpet''s developer surface includes authentication, documentation, API reference, engineering blog, and 9 more developer resources.'
-random_paper: 49
+random_paper: 15
 score:
   band: thin
   composite: 32.6
@@ -119,7 +119,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 32.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

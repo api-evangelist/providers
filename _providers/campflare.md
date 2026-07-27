@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Real-time campground availability data at the campsite level across all public campgrounds Campflare tracks. Developers can query current and upcoming availability, inspect amenities (hookups, facilit
@@ -86,7 +86,7 @@ plans:
 - name: Campflare Plans Pricing
   plan_count: 3
   slug: campflare-plans-pricing
-random_paper: 21
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Campflare Rate Limits
@@ -104,7 +104,7 @@ score:
     operational_transparency: 52.6
   previous_composite: 24.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/campflare/refs/heads/main/screenshots/campflare-2026-06-20T173909.png
 security:

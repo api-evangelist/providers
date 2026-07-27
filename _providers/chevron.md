@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 11
 common:
@@ -118,7 +118,7 @@ press:
 - date: '2026-05-25'
   title: Chevron Picks Texas for First AI Data Center Power Project
   url: https://energynow.com/2025/11/chevron-picks-texas-for-first-ai-data-center-power-project/
-random_paper: 43
+random_paper: 9
 score:
   band: minimal
   composite: 6.8
@@ -132,7 +132,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 6.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chevron/refs/heads/main/screenshots/chevron-2026-06-20T174311.png
 security:

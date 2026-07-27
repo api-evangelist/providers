@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -115,25 +115,25 @@ plans:
 - name: Metro Transit Plans Pricing
   plan_count: 1
   slug: metro-transit-plans-pricing
-random_paper: 43
+random_paper: 9
 rate_limits:
 - limit_count: 3
   name: Metro Transit Rate Limits
   slug: metro-transit-rate-limits
 score:
-  band: emerging
-  composite: 28.8
-  delta: 0.0
+  band: thin
+  composite: 32.0
+  delta: 3.2
   facets:
     commercial_clarity: 28.9
     contract_quality: 31.9
     developer_ergonomics: 17.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 28.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/metro-transit/refs/heads/main/screenshots/metro-transit-2026-06-20T185302.png
 security:

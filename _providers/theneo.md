@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -204,20 +204,20 @@ rules:
     warn: 8
   slug: theneo-rules
 score:
-  band: developing
-  composite: 55.1
-  delta: 0.0
+  band: strong
+  composite: 60.6
+  delta: 5.5
   facets:
     commercial_clarity: 57.9
-    contract_quality: 64.6
+    contract_quality: 73.5
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 47.4
   previous_composite: 55.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/theneo/refs/heads/main/screenshots/theneo-2026-06-20T195249.png
 security:
 - kind: authentication

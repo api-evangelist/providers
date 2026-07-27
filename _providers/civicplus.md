@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 50.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: The Request API from CivicPlus — 1 operation(s) for request.
@@ -154,11 +154,11 @@ overview: 'CivicPlus publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   CivicPlus'' developer surface includes support, authentication, sandbox, and 20 more developer resources.'
-random_paper: 9
+random_paper: 26
 score:
   band: thin
   composite: 38.3
-  delta: 2.8
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 37.7
@@ -166,15 +166,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 35.5
+  previous_composite: 38.3
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/civicplus/refs/heads/main/screenshots/civicplus-2026-07-25T205443.png
 security:
 - kind: authentication
   name: Civicplus Authentication

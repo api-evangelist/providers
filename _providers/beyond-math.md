@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -89,7 +89,7 @@ overview: 'Beyond Math is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Beyond Math''s developer surface includes documentation, support, signup flow, and 9 more developer resources.'
-random_paper: 41
+random_paper: 24
 score:
   band: minimal
   composite: 14.8
@@ -103,8 +103,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/beyond-math/refs/heads/main/screenshots/beyond-math-2026-07-25T202839.png
 security:
 - kind: domain-security
   name: Beyond Math Domain Security

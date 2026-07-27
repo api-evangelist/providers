@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 117
   human_in_the_loop: 9
@@ -622,7 +622,7 @@ plans:
 - name: Couchbase Plans Pricing
   plan_count: 4
   slug: couchbase-plans-pricing
-random_paper: 23
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: Couchbase Rate Limits
@@ -678,18 +678,18 @@ rules:
   slug: couchbase-sync-gateway-rules
 score:
   band: developing
-  composite: 58.6
-  delta: 0.0
+  composite: 59.8
+  delta: 1.2
   facets:
     commercial_clarity: 84.2
     contract_quality: 64.5
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 39.5
     operational_transparency: 68.4
   previous_composite: 58.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/couchbase/refs/heads/main/screenshots/couchbase-2026-06-20T175100.png
 security:

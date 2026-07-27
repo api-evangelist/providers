@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 5
 common:
@@ -84,11 +102,26 @@ plans:
 - name: Sustaira Plans Pricing
   plan_count: 1
   slug: sustaira-plans-pricing
-random_paper: 57
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Sustaira Rate Limits
   slug: sustaira-rate-limits
+score:
+  band: emerging
+  composite: 23.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 20.8
+    developer_ergonomics: 2.2
+    discoverability: 67.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 23.0
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sustaira/refs/heads/main/screenshots/sustaira-2026-06-20T194748.png
 security:
 - kind: domain-security

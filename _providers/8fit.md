@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -93,11 +93,11 @@ overview: '8fit is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   8fit''s developer surface includes support, engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 22
+random_paper: 39
 score:
   band: emerging
   composite: 20.3
-  delta: 4.0
+  delta: 0.0
   facets:
     commercial_clarity: 34.2
     contract_quality: 0.0
@@ -105,15 +105,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 16.3
+  previous_composite: 20.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/8fit/refs/heads/main/screenshots/8fit-2026-07-25T181241.png
 security:
 - kind: domain-security
   name: 8Fit Domain Security

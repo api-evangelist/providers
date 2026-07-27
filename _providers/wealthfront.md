@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 5
 apis:
 - description: Internal REST API powering Wealthfront's automated portfolio management service. Supports account creation, portfolio configuration, risk assessment, automated rebalancing, and tax-loss harvesting for
@@ -130,7 +130,7 @@ plans:
 - name: Plans
   plan_count: 6
   slug: plans
-random_paper: 25
+random_paper: 42
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -148,7 +148,7 @@ score:
     operational_transparency: 47.4
   previous_composite: 31.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wealthfront/refs/heads/main/screenshots/wealthfront-2026-06-20T201308.png
 security:

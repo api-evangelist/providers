@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -111,25 +111,25 @@ plans:
 - name: Magic Link Plans Pricing
   plan_count: 4
   slug: magic-link-plans-pricing
-random_paper: 19
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Magic Link Rate Limits
   slug: magic-link-rate-limits
 score:
   band: thin
-  composite: 34.1
-  delta: 0.0
+  composite: 37.4
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 56.6
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 34.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

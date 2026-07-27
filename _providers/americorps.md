@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -131,25 +131,25 @@ plans:
 - name: Americorps Plans Pricing
   plan_count: 3
   slug: americorps-plans-pricing
-random_paper: 6
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Americorps Rate Limits
   slug: americorps-rate-limits
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 43.5
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 59.0
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 40.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/americorps/refs/heads/main/screenshots/americorps-2026-06-20T171928.png
 security:

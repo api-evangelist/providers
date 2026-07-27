@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -209,7 +209,7 @@ plans:
 - name: Cyclr Plans Pricing
   plan_count: 3
   slug: cyclr-plans-pricing
-random_paper: 31
+random_paper: 65
 rate_limits:
 - limit_count: 5
   name: Cyclr Rate Limits
@@ -241,19 +241,19 @@ rules:
   slug: cyclr-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 53.7
-  delta: 0.0
+  composite: 59.2
+  delta: 5.5
   facets:
     commercial_clarity: 63.2
-    contract_quality: 75.2
+    contract_quality: 84.1
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 39.5
     operational_transparency: 63.2
   previous_composite: 53.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/cyclr/refs/heads/main/screenshots/cyclr-2026-06-20T175412.png
 security:
 - kind: authentication

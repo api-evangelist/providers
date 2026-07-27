@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: low
-  generated: '2026-07-22'
   label: Unknown
-  method: derived
   onboarding: unknown
   pricing: unknown
   public: false
@@ -11,17 +9,133 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 1
-artifact_total: 0
+apis:
+- description: REST API for enriching CRM records with contact and company data, including verified emails, phone numbers, job titles, and firmographics. Available to enterprise Cognism customers; endpoints and quot
+  name: Cognism Enrichment API
+  slug: enrichment
+artifact_total: 8
+common:
+- group: auth
+  title: ''
+  type: TrustCenter
+  url: security/cognism-trust-center.yml
+- group: auth
+  title: ''
+  type: VulnerabilityDisclosure
+  url: security/cognism-vulnerability-disclosure.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/cognism-domain-security.yml
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Cognism
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/cognism
+- group: company
+  title: ''
+  type: Website
+  url: https://www.cognism.com/
+- group: start
+  title: ''
+  type: DeveloperPortal
+  url: https://www.cognism.com/api
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/cognism-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/cognism-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/cognism-finops.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.cognism.com/blog/rss.xml
 created: '2026-05-08'
 description: Cognism is a B2B sales intelligence platform providing verified emails, mobile numbers (Diamond Data), firmographic data, intent signals, and enrichment. Cognism exposes APIs for enrichment and integration but they are gated and not publicly self-serve; access is granted to enterprise customers via partnerships and integrations.
+finops:
+- name: Cognism Finops
+  service_category: Sales Intelligence
+  slug: cognism-finops
+graphqls:
+- description: This conceptual GraphQL schema models the Cognism B2B sales intelligence platform, covering contact enrichment, company data, firmographics, phone and email verification, list management, CRM integrat
+  name: Cognism GraphQL Schema
+  slug: cognism-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cognism.png
 layout: provider
 modified: '2026-05-08'
 name: Cognism
 nav: Providers
 network: true
-random_paper: 38
+overview: 'Cognism publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sales Intelligence, B2B, Enrichment, Contact Data, and GDPR.
+
+
+  Cognism''s developer surface includes engineering blog and 10 more developer resources.'
+plans:
+- name: Cognism Plans Pricing
+  plan_count: 1
+  slug: cognism-plans-pricing
+random_paper: 4
+rate_limits:
+- limit_count: 1
+  name: Cognism Rate Limits
+  slug: cognism-rate-limits
+score:
+  band: emerging
+  composite: 22.2
+  delta: 0.0
+  facets:
+    commercial_clarity: 36.8
+    contract_quality: 0.0
+    developer_ergonomics: 10.9
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 26.3
+  previous_composite: 22.2
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cognism/refs/heads/main/screenshots/cognism-2026-06-20T174713.png
+security:
+- kind: domain-security
+  name: Cognism Domain Security
+  slug: cognism-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
+- kind: vulnerability-disclosure
+  name: Cognism Vulnerability Disclosure
+  slug: cognism-vulnerability-disclosure
+  summary_line: disclosure policy published
+- kind: trust-center
+  name: Cognism Trust Center
+  slug: cognism-trust-center
+  summary_line: SOC 2, ISO 27001
 slug: cognism
 tags:
 - Sales Intelligence
@@ -30,4 +144,5 @@ tags:
 - Contact Data
 - GDPR
 - Intent Data
+website: https://www.cognism.com/
 ---

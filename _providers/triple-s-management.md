@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Mi Triple-S is the online provider portal for Triple-S Salud, offering healthcare providers access to insured eligibility verification, claims and payments management, re-credentialing, and provider d
@@ -142,7 +142,7 @@ press:
 - date: '2026-05-25'
   title: Health Insurance Company Seeks Supreme Court Review ...
   url: https://www.taxnotes.com/research/federal/court-documents/court-petitions-and-briefs/health-insurance-company-seeks-supreme-court-review-of-decision-to/wkvm
-random_paper: 27
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Triple S Management Rate Limits
@@ -159,7 +159,7 @@ rules:
 score:
   band: thin
   composite: 33.7
-  delta: -1.7
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 15.1
@@ -167,14 +167,14 @@ score:
     discoverability: 92.5
     governance: 86.8
     operational_transparency: 31.6
-  previous_composite: 35.4
+  previous_composite: 33.7
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/triple-s-management/refs/heads/main/screenshots/triple-s-management-2026-06-20T195730.png
 security:

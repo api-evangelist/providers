@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 52.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -123,25 +123,25 @@ plans:
 - name: Northflank Plans Pricing
   plan_count: 3
   slug: northflank-plans-pricing
-random_paper: 8
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Northflank Rate Limits
   slug: northflank-rate-limits
 score:
   band: thin
-  composite: 36.1
-  delta: 0.0
+  composite: 39.4
+  delta: 3.3
   facets:
     commercial_clarity: 47.4
     contract_quality: 47.8
     developer_ergonomics: 28.3
-    discoverability: 42.5
+    discoverability: 75.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 36.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/northflank/refs/heads/main/screenshots/northflank-2026-06-20T190419.png
 security:

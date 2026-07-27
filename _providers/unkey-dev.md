@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 42
   human_in_the_loop: 4
@@ -131,25 +131,25 @@ plans:
 - name: Unkey Dev Plans Pricing
   plan_count: 7
   slug: unkey-dev-plans-pricing
-random_paper: 2
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Unkey Dev Rate Limits
   slug: unkey-dev-rate-limits
 score:
   band: thin
-  composite: 38.7
-  delta: 0.0
+  composite: 41.9
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 59.7
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 38.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

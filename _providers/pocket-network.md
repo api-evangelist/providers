@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -427,19 +427,19 @@ rules:
     warn: 5
   slug: pocket-network-rules
 score:
-  band: strong
-  composite: 66.3
-  delta: 0.0
+  band: exemplar
+  composite: 70.5
+  delta: 4.2
   facets:
     commercial_clarity: 71.1
-    contract_quality: 55.3
+    contract_quality: 64.2
     developer_ergonomics: 60.9
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 68.4
   previous_composite: 66.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pocket-network/refs/heads/main/screenshots/pocket-network-2026-06-20T191825.png
 security:

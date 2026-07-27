@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 23
 common:
@@ -123,7 +123,7 @@ overview: 'Basel III is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   The Basel III catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 12
+random_paper: 63
 score:
   band: minimal
   composite: 12.1
@@ -137,7 +137,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/basel-iii/refs/heads/main/screenshots/basel-iii-2026-06-20T173017.png
 security:

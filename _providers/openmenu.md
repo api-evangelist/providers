@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ plans:
 - name: Openmenu Plans Pricing
   plan_count: 4
   slug: openmenu-plans-pricing
-random_paper: 4
+random_paper: 55
 rate_limits:
 - limit_count: 0
   name: Openmenu Rate Limits
@@ -174,19 +174,19 @@ rules:
   slug: openmenu-rules
 score:
   band: developing
-  composite: 47.6
-  delta: 0.0
+  composite: 53.1
+  delta: 5.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 67.3
+    contract_quality: 76.1
     developer_ergonomics: 26.1
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 0.0
   previous_composite: 47.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/openmenu/refs/heads/main/screenshots/openmenu-2026-06-20T191015.png
 security:
 - kind: authentication

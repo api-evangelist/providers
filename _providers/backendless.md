@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 1
@@ -131,25 +131,25 @@ plans:
 - name: Backendless Plans Pricing
   plan_count: 4
   slug: backendless-plans-pricing
-random_paper: 29
+random_paper: 63
 rate_limits:
 - limit_count: 6
   name: Backendless Rate Limits
   slug: backendless-rate-limits
 score:
   band: thin
-  composite: 37.2
-  delta: 0.0
+  composite: 40.5
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 53.8
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 37.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/backendless/refs/heads/main/screenshots/backendless-2026-06-20T172920.png
 security:

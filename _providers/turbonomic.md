@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -226,7 +226,7 @@ plans:
 - name: Turbonomic Plans Pricing
   plan_count: 3
   slug: turbonomic-plans-pricing
-random_paper: 19
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Turbonomic Rate Limits
@@ -249,19 +249,19 @@ rules:
     warn: 7
   slug: turbonomic-rest-api-rules
 score:
-  band: developing
-  composite: 59.0
-  delta: 0.0
+  band: strong
+  composite: 62.3
+  delta: 3.3
   facets:
     commercial_clarity: 71.1
     contract_quality: 61.8
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 59.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/turbonomic/refs/heads/main/screenshots/turbonomic-2026-06-20T195852.png
 security:

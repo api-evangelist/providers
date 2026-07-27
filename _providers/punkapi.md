@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -198,7 +198,7 @@ plans:
 - name: Punkapi Plans Pricing
   plan_count: 1
   slug: punkapi-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 3
   name: Punkapi Rate Limits
@@ -221,20 +221,20 @@ rules:
     warn: 21
   slug: punkapi-rules
 score:
-  band: thin
-  composite: 44.2
-  delta: 0.0
+  band: developing
+  composite: 49.6
+  delta: 5.4
   facets:
     commercial_clarity: 21.1
-    contract_quality: 62.8
+    contract_quality: 71.7
     developer_ergonomics: 15.2
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 44.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 security:
 - kind: domain-security
   name: Punkapi Domain Security

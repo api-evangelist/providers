@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 56.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: RESTful API for crypto and stablecoin platforms to onboard end users (KYC/AML), open named and virtual fiat accounts, receive pay-ins and send payouts across GBP, EUR and USD schemes, run FX conversio
@@ -193,7 +193,7 @@ overview: 'Fiat Republic publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Fiat Republic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, changelog, and 27 more developer resources.'
-random_paper: 44
+random_paper: 27
 rate_limits:
 - limit_count: 7
   name: Fiat Republic Rate Limits
@@ -206,7 +206,7 @@ scopes:
 score:
   band: developing
   composite: 53.8
-  delta: 6.6
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 22.6
@@ -214,15 +214,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 89.5
-  previous_composite: 47.2
+  previous_composite: 53.8
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 91.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fiat-republic/refs/heads/main/screenshots/fiat-republic-2026-07-25T214357.png
 security:
 - kind: authentication
   name: Fiat Republic Authentication

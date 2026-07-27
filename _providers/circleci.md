@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 30
   human_in_the_loop: 0
@@ -424,18 +424,18 @@ rules:
   slug: circleci-rules
 score:
   band: strong
-  composite: 61.2
-  delta: 0.0
+  composite: 64.4
+  delta: 3.2
   facets:
     commercial_clarity: 81.6
     contract_quality: 72.0
     developer_ergonomics: 34.8
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 52.6
   previous_composite: 61.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/circleci/refs/heads/main/screenshots/circleci-2026-06-20T174349.png
 security:

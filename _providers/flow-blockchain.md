@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -140,7 +140,7 @@ plans:
 - name: Plans
   plan_count: 3
   slug: plans
-random_paper: 44
+random_paper: 27
 rate_limits:
 - limit_count: 0
   name: Rate Limits
@@ -167,7 +167,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 40.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/flow-blockchain/refs/heads/main/screenshots/flow-blockchain-2026-06-20T181322.png
 security:

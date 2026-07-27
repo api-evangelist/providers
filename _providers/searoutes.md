@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -125,25 +125,25 @@ plans:
 - name: Searoutes Plans Pricing
   plan_count: 5
   slug: searoutes-plans-pricing
-random_paper: 18
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Searoutes Rate Limits
   slug: searoutes-rate-limits
 score:
   band: thin
-  composite: 37.6
-  delta: 0.0
+  composite: 40.8
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 55.2
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 37.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

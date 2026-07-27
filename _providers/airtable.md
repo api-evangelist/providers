@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 77.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 36
   human_in_the_loop: 1
@@ -146,7 +146,7 @@ arazzos:
 - description: Confirm the token's identity and scopes, then list the bases it can reach.
   name: Airtable Verify Token Access
   slug: airtable-verify-token-access-workflow
-artifact_total: 158
+artifact_total: 159
 asyncapis:
 - description: The Airtable Webhooks API delivers lightweight change notifications to a subscriber's notification URL whenever data within a base or table changes. Airtable sends a small "ping" via HTTP POST identif
   name: Airtable Webhooks API
@@ -734,6 +734,10 @@ jsonld:
   property_count: 14
   slug: airtable-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Airtable
 nav: Providers
@@ -781,18 +785,18 @@ rules:
   slug: airtable-spectral-rules
 score:
   band: exemplar
-  composite: 70.3
-  delta: 0.0
+  composite: 75.0
+  delta: 4.7
   facets:
     commercial_clarity: 71.1
-    contract_quality: 79.4
+    contract_quality: 88.2
     developer_ergonomics: 65.2
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 73.7
     operational_transparency: 68.4
   previous_composite: 70.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/airtable/refs/heads/main/screenshots/airtable-2026-06-20T171430.png
 security:

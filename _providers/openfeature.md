@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -90,7 +90,7 @@ plans:
 - name: Openfeature Plans Pricing
   plan_count: 3
   slug: openfeature-plans-pricing
-random_paper: 9
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Openfeature Rate Limits
@@ -108,7 +108,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 40.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/openfeature/refs/heads/main/screenshots/openfeature-2026-06-20T191000.png
 security:

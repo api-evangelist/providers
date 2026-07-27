@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Fudan University Dataverse is a research data repository built on the Dataverse open-source platform, hosting survey, census, and social-science datasets contributed by Fudan researchers. The Datavers
@@ -102,7 +102,7 @@ plans:
 - name: Fudan Plans Pricing
   plan_count: 2
   slug: fudan-plans-pricing
-random_paper: 16
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Fudan Rate Limits
@@ -110,7 +110,7 @@ rate_limits:
 score:
   band: emerging
   composite: 23.4
-  delta: 2.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 15.1
@@ -118,14 +118,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 21.0
+  previous_composite: 23.4
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/fudan/refs/heads/main/screenshots/fudan-2026-06-20T181623.png
 security:

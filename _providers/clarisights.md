@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 11.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 common:
@@ -93,7 +93,7 @@ overview: 'Clarisights is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Clarisights'' developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 8
+random_paper: 25
 score:
   band: emerging
   composite: 18.2
@@ -107,8 +107,9 @@ score:
     operational_transparency: 10.5
   previous_composite: 18.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/clarisights/refs/heads/main/screenshots/clarisights-2026-07-25T205504.png
 security:
 - kind: domain-security
   name: Clarisights Domain Security

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 20
 common:
@@ -103,7 +103,7 @@ overview: 'Agile Delivery is profiled on the [APIs.io](https://apis.io/) network
 
 
   Agile Delivery''s developer surface includes developer portal, engineering blog, and 3 more developer resources.'
-random_paper: 50
+random_paper: 67
 rules:
 - name: Agile Delivery API Rules
   rule_count: 4
@@ -126,7 +126,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 20.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/agile-delivery/refs/heads/main/screenshots/agile-delivery-2026-06-20T170205.png
 security:

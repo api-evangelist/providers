@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -105,7 +105,7 @@ overview: 'Magic Leap is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Magic Leap''s developer surface includes documentation, engineering blog, support, and 13 more developer resources.'
-random_paper: 7
+random_paper: 24
 score:
   band: emerging
   composite: 20.9
@@ -119,8 +119,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 20.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/magic-leap/refs/heads/main/screenshots/magic-leap-2026-07-25T225845.png
 security:
 - kind: domain-security
   name: Magic Leap Domain Security

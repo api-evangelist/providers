@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -211,7 +211,7 @@ plans:
 - name: Wayfair Plans Pricing
   plan_count: 3
   slug: wayfair-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Wayfair Rate Limits
@@ -235,19 +235,19 @@ rules:
   slug: wayfair-spectral-rules
 score:
   band: developing
-  composite: 52.8
-  delta: 0.0
+  composite: 58.3
+  delta: 5.5
   facets:
     commercial_clarity: 39.5
-    contract_quality: 72.1
+    contract_quality: 81.0
     developer_ergonomics: 28.3
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 52.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/screenshots/wayfair-2026-06-20T201300.png
 security:
 - kind: authentication

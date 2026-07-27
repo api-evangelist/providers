@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -67,7 +67,7 @@ apis:
 - description: The SQL API from Carto — 1 operation(s) for sql.
   name: Carto SQL API
   slug: carto-sql-api
-artifact_total: 42
+artifact_total: 43
 collections:
 - collection_type: open
   name: CARTO Platform API
@@ -194,6 +194,10 @@ jsonld:
   property_count: 9
   slug: carto-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Carto
 nav: Providers
@@ -209,25 +213,25 @@ plans:
 - name: Carto Plans Pricing
   plan_count: 3
   slug: carto-plans-pricing
-random_paper: 27
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Carto Rate Limits
   slug: carto-rate-limits
 score:
   band: developing
-  composite: 53.5
-  delta: 0.0
+  composite: 55.5
+  delta: 2.0
   facets:
     commercial_clarity: 84.2
     contract_quality: 55.8
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 0.0
     operational_transparency: 52.6
   previous_composite: 53.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/carto/refs/heads/main/screenshots/carto-2026-06-20T174026.png
 security:

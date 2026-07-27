@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -130,7 +130,7 @@ plans:
 - name: Intelerad Plans Pricing
   plan_count: 1
   slug: intelerad-plans-pricing
-random_paper: 34
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Intelerad Rate Limits
@@ -153,8 +153,9 @@ score:
     regime_id: health
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/intelerad/refs/heads/main/screenshots/intelerad-2026-07-25T222644.png
 security:
 - kind: authentication
   name: Intelerad Authentication

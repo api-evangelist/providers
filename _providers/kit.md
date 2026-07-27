@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -142,7 +142,7 @@ plans:
 - name: Kit Plans Pricing
   plan_count: 3
   slug: kit-plans-pricing
-random_paper: 22
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Kit Rate Limits
@@ -163,18 +163,18 @@ scopes:
   summary_line: 1 scope · authorizationCode
 score:
   band: developing
-  composite: 48.9
-  delta: 0.0
+  composite: 52.1
+  delta: 3.2
   facets:
     commercial_clarity: 57.9
     contract_quality: 70.8
     developer_ergonomics: 21.7
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 52.6
     operational_transparency: 26.3
   previous_composite: 48.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/kit/refs/heads/main/screenshots/kit-2026-06-20T184050.png
 security:

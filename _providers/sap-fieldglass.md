@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -270,7 +270,7 @@ plans:
 - name: Sap Fieldglass Plans Pricing
   plan_count: 1
   slug: sap-fieldglass-plans-pricing
-random_paper: 46
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Sap Fieldglass Rate Limits
@@ -302,7 +302,7 @@ score:
     operational_transparency: 42.1
   previous_composite: 55.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sap-fieldglass/refs/heads/main/screenshots/sap-fieldglass-2026-06-20T193426.png
 security:

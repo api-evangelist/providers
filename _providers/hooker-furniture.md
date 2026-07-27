@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Hooker Furniture API provides access to platform services and data for enterprise integration and automation.
@@ -63,7 +63,7 @@ plans:
 - name: Hooker Furniture Plans Pricing
   plan_count: 1
   slug: hooker-furniture-plans-pricing
-random_paper: 6
+random_paper: 57
 rate_limits:
 - limit_count: 1
   name: Hooker Furniture Rate Limits
@@ -81,7 +81,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 16.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/hooker-furniture/refs/heads/main/screenshots/hooker-furniture-2026-06-20T182830.png
 security:

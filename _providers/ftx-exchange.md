@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -46,7 +46,7 @@ name: FTX Exchange
 nav: Providers
 network: true
 overview: FTX Exchange is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Web3.
-random_paper: 45
+random_paper: 62
 score:
   band: minimal
   composite: 5.5
@@ -60,8 +60,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 5.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ftx-exchange/refs/heads/main/screenshots/ftx-exchange-2026-07-25T215245.png
 security:
 - kind: domain-security
   name: Ftx Exchange Domain Security

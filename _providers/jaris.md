@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 4
 common:
@@ -122,11 +122,11 @@ overview: 'Jaris is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Jaris'' developer surface includes documentation, getting-started guide, engineering blog, support, pricing, authentication, and 14 more developer resources.'
-random_paper: 27
+random_paper: 61
 score:
   band: thin
   composite: 35.5
-  delta: 5.7
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -134,15 +134,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 29.8
+  previous_composite: 35.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/jaris/refs/heads/main/screenshots/jaris-2026-07-25T223054.png
 security:
 - kind: authentication
   name: Jaris Authentication

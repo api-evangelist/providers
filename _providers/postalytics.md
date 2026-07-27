@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for creating and sending personalized postcards and letters, managing contact lists, tracking delivery, and automating direct mail campaigns with webhook support.
@@ -110,7 +110,7 @@ plans:
 - name: Postalytics Plans Pricing
   plan_count: 4
   slug: postalytics-plans-pricing
-random_paper: 42
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Postalytics Rate Limits
@@ -128,7 +128,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 37.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/postalytics/refs/heads/main/screenshots/postalytics-2026-06-20T191950.png
 security:

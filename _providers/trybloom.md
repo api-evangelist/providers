@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -180,7 +180,7 @@ plans:
 - name: Trybloom Plans Pricing
   plan_count: 5
   slug: trybloom-plans-pricing
-random_paper: 21
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Trybloom Rate Limits
@@ -203,7 +203,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 52.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

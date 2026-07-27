@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 4
 apis:
 - description: REST API for Blackboard Learn, the flagship LMS. Covers users, courses, content, grades, assignments, announcements, terms, system roles, and SIS data integration. SOAP APIs are also available for leg
@@ -122,7 +122,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 18.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/blackboard/refs/heads/main/screenshots/blackboard-2026-06-20T173333.png
 security:

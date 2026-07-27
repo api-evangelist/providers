@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST APIs published on the IndusInd Bank developer portal covering core banking, cards, deposits, and account services. Access is via registration on the sandbox developer portal; individual API pages
@@ -77,7 +77,7 @@ random_paper: 46
 score:
   band: emerging
   composite: 16.9
-  delta: -0.7
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -85,15 +85,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 17.6
+  previous_composite: 16.9
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/indusind/refs/heads/main/screenshots/indusind-2026-07-25T222351.png
 security:
 - kind: domain-security
   name: Indusind Domain Security

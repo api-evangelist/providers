@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 75.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -208,7 +208,7 @@ overview: 'Moveworks (ServiceNow) publishes 1 API on the [APIs.io](https://apis.
 
 
   Moveworks (ServiceNow)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 29 more developer resources.'
-random_paper: 1
+random_paper: 35
 score:
   band: strong
   composite: 62.3
@@ -222,7 +222,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 62.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

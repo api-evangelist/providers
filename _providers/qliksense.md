@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 13
 apis:
 - description: JSON-RPC WebSocket API for interacting with the Qlik Associative Engine, creating and manipulating apps, and building visualizations.
@@ -172,7 +172,7 @@ plans:
 - name: Qliksense Plans Pricing
   plan_count: 3
   slug: qliksense-plans-pricing
-random_paper: 6
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Qliksense Rate Limits
@@ -190,7 +190,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 41.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/qliksense/refs/heads/main/screenshots/qliksense-2026-06-20T192343.png
 security:

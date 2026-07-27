@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: US Central Command (CENTCOM) does not offer a public developer API. Public information resources include press releases, news articles, official statements, and media content accessible through the of
@@ -67,7 +67,7 @@ plans:
 - name: Us Central Command Plans Pricing
   plan_count: 3
   slug: us-central-command-plans-pricing
-random_paper: 17
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Us Central Command Rate Limits
@@ -85,7 +85,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 22.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/us-central-command/refs/heads/main/screenshots/us-central-command-2026-06-20T200558.png
 security:

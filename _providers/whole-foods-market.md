@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 5
 common:
@@ -101,7 +101,7 @@ press:
 - date: '2026-05-25'
   title: Whole Foods Market and Amazon unite for one-stop ...
   url: https://www.aboutamazon.com/news/retail/whole-foods-household-essentials-amazon
-random_paper: 31
+random_paper: 48
 rules:
 - name: Whole Foods Market API Rules
   rule_count: 5
@@ -124,7 +124,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/whole-foods-market/refs/heads/main/screenshots/whole-foods-market-2026-06-20T201448.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 70.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 14
   human_in_the_loop: 0
@@ -64,7 +64,7 @@ apis:
 - description: The Products API from Wix — 4 operation(s) for products.
   name: Wix Products API
   slug: wix-products-api
-artifact_total: 42
+artifact_total: 43
 asyncapis:
 - description: AsyncAPI specification for the documented Wix webhook surface. Wix delivers webhook events as signed JSON Web Tokens (JWTs) POSTed to subscriber URLs registered in the Wix Dev Center. The JWT body dec
   name: Wix Webhooks
@@ -179,6 +179,10 @@ graphqls:
   slug: wix-graphql
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wix.png
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-30'
 name: Wix
 nav: Providers
@@ -194,7 +198,7 @@ plans:
 - name: Wix Plans Pricing
   plan_count: 3
   slug: wix-plans-pricing
-random_paper: 38
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Wix Rate Limits
@@ -215,18 +219,18 @@ scopes:
   summary_line: OAuth 2.0 · no documented scopes
 score:
   band: developing
-  composite: 51.8
-  delta: 0.0
+  composite: 53.8
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.9
     developer_ergonomics: 54.3
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 60.5
     operational_transparency: 36.8
   previous_composite: 51.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wix/refs/heads/main/screenshots/wix-2026-06-20T201529.png
 security:

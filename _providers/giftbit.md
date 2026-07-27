@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 0
@@ -181,7 +181,7 @@ plans:
 - name: Giftbit Plans Pricing
   plan_count: 1
   slug: giftbit-plans-pricing
-random_paper: 31
+random_paper: 65
 rate_limits:
 - limit_count: 0
   name: Giftbit Rate Limits
@@ -198,7 +198,7 @@ rules:
 score:
   band: developing
   composite: 54.0
-  delta: 1.2
+  delta: 0.0
   facets:
     commercial_clarity: 47.4
     contract_quality: 69.7
@@ -206,14 +206,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 21.1
-  previous_composite: 52.8
+  previous_composite: 54.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 60.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/giftbit/refs/heads/main/screenshots/giftbit-2026-06-20T181826.png
 security:

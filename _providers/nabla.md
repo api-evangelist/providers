@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -210,30 +210,30 @@ plans:
 - name: Nabla Plans Pricing
   plan_count: 1
   slug: nabla-plans-pricing
-random_paper: 0
+random_paper: 34
 rate_limits:
 - limit_count: 2
   name: Nabla Rate Limits
   slug: nabla-rate-limits
 score:
-  band: thin
-  composite: 42.5
-  delta: 1.3
+  band: developing
+  composite: 45.3
+  delta: 2.8
   facets:
     commercial_clarity: 44.7
     contract_quality: 50.4
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 42.1
-  previous_composite: 41.2
+  previous_composite: 42.5
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 50.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nabla/refs/heads/main/screenshots/nabla-2026-06-20T185922.png
 security:

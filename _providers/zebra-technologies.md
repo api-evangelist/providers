@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Zebra Data Services provides cloud REST APIs for managing Zebra devices, printers, and scanners enrolled in the Zebra cloud. The API covers asset ownership service (AOS), cloud print via SendFileToPri
@@ -114,7 +114,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 18.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zebra-technologies/refs/heads/main/screenshots/zebra-technologies-2026-06-20T201804.png
 security:

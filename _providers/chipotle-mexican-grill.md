@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 20
 common:
@@ -161,7 +161,7 @@ press:
 - date: '2026-05-25'
   title: Tyler Hallam's Post
   url: https://www.linkedin.com/posts/tyler-hallam-a385083a_seems-like-every-month-theres-a-press-release-activity-7261723721080463361-jPoZ
-random_paper: 32
+random_paper: 49
 score:
   band: minimal
   composite: 11.7
@@ -175,7 +175,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 11.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/chipotle-mexican-grill/refs/heads/main/screenshots/chipotle-mexican-grill-2026-06-20T174318.png
 security:

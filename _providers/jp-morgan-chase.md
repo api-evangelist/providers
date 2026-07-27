@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: J.P. Morgan Payments offers a suite of APIs covering ACH, real-time payments, wires, FX, virtual accounts, account services, and treasury management for enterprise clients. APIs are accessed through t
@@ -99,7 +99,7 @@ rate_limits:
 score:
   band: emerging
   composite: 16.6
-  delta: -0.6
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -107,14 +107,14 @@ score:
     discoverability: 80.0
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 17.2
+  previous_composite: 16.6
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/screenshots/jp-morgan-chase-2026-06-20T183806.png
 security:

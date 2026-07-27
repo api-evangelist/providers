@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: Modern API for building Windows applications with support for multiple programming languages.
@@ -115,7 +115,7 @@ plans:
 - name: Microsoft Windows Plans Pricing
   plan_count: 3
   slug: microsoft-windows-plans-pricing
-random_paper: 21
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Microsoft Windows Rate Limits
@@ -133,7 +133,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 35.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/microsoft-windows/refs/heads/main/screenshots/microsoft-windows-2026-06-20T185544.png
 security:

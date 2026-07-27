@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 8
 apis:
 - description: 'Partner-facing developer portal hosted at developer.devops.chvac.trane.com for Trane Commercial HVAC ("CHVAC") cloud and controls APIs. The portal is gated and surfaces API design, documentation, and '
@@ -35,7 +53,7 @@ apis:
 - description: BrainBox AI is the autonomous HVAC-optimization AI platform operated under Trane Technologies, which opened the BrainBox AI Lab in Montreal to accelerate AI-driven building optimization. BrainBox AI e
   name: BrainBox AI (Trane Technologies)
   slug: brainbox-ai
-artifact_total: 8
+artifact_total: 13
 common:
 - group: auth
   title: ''
@@ -80,11 +98,128 @@ common:
 - group: other
   title: ''
   type: SoftwareDownloads
-  url: https://www.trane.com/commercial/north-america/us/en/products-systems/building-management
+  url: https://www.trane.com/commercial/north-america/us/en/products-systems/building-management---automation/trane-controls-software-downloads.html
+- group: build
+  title: ''
+  type: GitHubOrganization
+  url: https://github.com/Trane-Technologies
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/trane-technologies/
+- group: company
+  title: ''
+  type: Twitter
+  url: https://twitter.com/TraneTech
+- group: company
+  title: ''
+  type: NewsRoom
+  url: https://www.tranetechnologies.com/en/index/news-and-events.html
+- group: company
+  title: ''
+  type: InvestorRelations
+  url: https://www.tranetechnologies.com/en/index/investor-relations.html
+- group: other
+  title: ''
+  type: Sustainability
+  url: https://www.tranetechnologies.com/en/index/sustainability.html
+- group: company
+  title: ''
+  type: Careers
+  url: https://careers.tranetechnologies.com/
+- group: operate
+  title: ''
+  type: Contact
+  url: https://www.tranetechnologies.com/en/index/contact-us.html
+- group: commercial
+  title: ''
+  type: Plans
+  url: plans/trane-technologies-plans-pricing.yml
+- group: operate
+  title: ''
+  type: RateLimits
+  url: rate-limits/trane-technologies-rate-limits.yml
+- group: commercial
+  title: ''
+  type: FinOps
+  url: finops/trane-technologies-finops.yml
+- group: design
+  title: ''
+  type: JSONLD
+  url: json-ld/trane-technologies-context.jsonld
+- group: design
+  title: ''
+  type: Vocabulary
+  url: vocabulary/trane-technologies-vocabulary.yml
+- group: company
+  title: ''
+  type: Blog
+  url: https://www.tranetechnologies.com/en/index/blog.html
+created: '2026-05-23'
+description: 'Trane Technologies plc (NYSE: TT) is an Ireland-domiciled global climate innovator that designs, manufactures, sells, and services heating, ventilation, air conditioning (HVAC), transport refrigeration, and building-automation systems. The company operates through two reportable segments — the Americas and EMEA / Asia Pacific — under the Trane, Thermo King, and American Standard Heating & Air Conditioning brands. Spun off from Ingersoll-Rand in 2020, Trane Technologies reported approximately US$23.9B in 2025 revenue, ~45,000 employees, and operations across 61 countries. Its digital surface centers on Trane Connect (cloud building portal), Tracer SC+ / Symbio controllers for commercial building automation, and the Thermo King TracKing / ConnectedSuite telematics platform for transport refrigeration.'
+finops:
+- name: Trane Technologies Finops
+  service_category: HVAC / IoT Platform
+  slug: trane-technologies-finops
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trane-technologies.png
+jsonld:
+- class_count: 0
+  name: Trane Technologies Context
+  property_count: 16
+  slug: trane-technologies-context
 layout: provider
-name: trane-technologies
+modified: '2026-05-23'
+name: Trane Technologies
 nav: Providers
 network: true
+overview: 'Trane Technologies publishes 8 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include HVAC, Cold Chain, Telematics, Building Automation, and IoT.
+
+
+  The Trane Technologies catalog on APIs.io includes 1 JSON-LD context.
+
+
+  Trane Technologies'' developer surface includes documentation, engineering blog, and 23 more developer resources.'
+plans:
+- name: Trane Technologies Plans Pricing
+  plan_count: 4
+  slug: trane-technologies-plans-pricing
 random_paper: 31
+rate_limits:
+- limit_count: 3
+  name: Trane Technologies Rate Limits
+  slug: trane-technologies-rate-limits
+score:
+  band: thin
+  composite: 30.7
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 15.1
+    developer_ergonomics: 19.6
+    discoverability: 87.5
+    governance: 13.2
+    operational_transparency: 36.8
+  previous_composite: 30.7
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/trane-technologies/refs/heads/main/screenshots/trane-technologies-2026-06-20T195537.png
+security:
+- kind: domain-security
+  name: Trane Technologies Domain Security
+  slug: trane-technologies-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: trane-technologies
+tags:
+- HVAC
+- Cold Chain
+- Telematics
+- Building Automation
+- IoT
+- Refrigeration
+- Transport Refrigeration
+- BACnet
+- Smart Buildings
+- Fortune 500
+website: https://www.tranetechnologies.com/
 ---

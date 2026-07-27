@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ plans:
 - name: Cargodocs Plans Pricing
   plan_count: 1
   slug: cargodocs-plans-pricing
-random_paper: 31
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Cargodocs Rate Limits
@@ -186,19 +186,19 @@ rules:
   slug: cargodocs-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 47.1
-  delta: 0.0
+  composite: 52.6
+  delta: 5.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 64.6
+    contract_quality: 73.5
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 21.1
   previous_composite: 47.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 security:
 - kind: authentication
   name: Cargodocs Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The ARGUS Developer API provides programmatic access to development project data, feasibility models, cash flow projections, scenario analysis, and reporting within the ARGUS Developer platform. Enabl
@@ -120,7 +120,7 @@ plans:
 - name: Argus Developer Plans Pricing
   plan_count: 3
   slug: argus-developer-plans-pricing
-random_paper: 27
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Argus Developer Rate Limits
@@ -138,7 +138,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 31.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/argus-developer/refs/heads/main/screenshots/argus-developer-2026-06-20T172427.png
 security:

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -106,11 +106,11 @@ overview: 'CohnReznick is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   CohnReznick''s developer surface includes GitHub presence and 13 more developer resources.'
-random_paper: 9
+random_paper: 26
 score:
   band: minimal
   composite: 14.3
-  delta: 1.7
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 20.8
@@ -118,14 +118,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.6
+  previous_composite: 14.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cohnreznick/refs/heads/main/screenshots/cohnreznick-2026-06-20T174720.png
 security:

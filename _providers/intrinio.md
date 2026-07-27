@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 45.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Intrinio's REST API for financial data — stock prices, options, fundamentals, estimates, ETFs, indices, corporate actions, and ESG — with API-key authentication, next_page cursor pagination, and swagg
@@ -174,7 +174,7 @@ plans:
 - name: Intrinio Plans
   plan_count: 3
   slug: intrinio-plans
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 4
   name: Intrinio Rate Limits
@@ -187,7 +187,7 @@ scopes:
 score:
   band: developing
   composite: 54.3
-  delta: 3.8
+  delta: 0.0
   facets:
     commercial_clarity: 76.3
     contract_quality: 22.6
@@ -195,14 +195,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 50.5
+  previous_composite: 54.3
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 76.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/intrinio/refs/heads/main/screenshots/intrinio-2026-06-20T183509.png
 security:

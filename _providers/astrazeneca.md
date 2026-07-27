@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 10
 common:
@@ -97,11 +97,11 @@ name: AstraZeneca
 nav: Providers
 network: true
 overview: AstraZeneca is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceutical, Biotechnology, and Healthcare.
-random_paper: 47
+random_paper: 13
 score:
   band: emerging
   composite: 16.4
-  delta: 4.4
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 0.0
@@ -109,14 +109,14 @@ score:
     discoverability: 55.0
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 12.0
+  previous_composite: 16.4
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 41.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

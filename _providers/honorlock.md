@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: Generate the integration and user authentication tokens that authorize an assessment platform to provision and drive Honorlock proctoring on behalf of an institution. Endpoints are modeled from Honorl
@@ -88,7 +88,7 @@ overview: 'Honorlock publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Honorlock''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 6
+random_paper: 23
 score:
   band: minimal
   composite: 12.1
@@ -102,8 +102,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 12.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/honorlock/refs/heads/main/screenshots/honorlock-2026-07-25T221411.png
 security:
 - kind: domain-security
   name: Honorlock Domain Security

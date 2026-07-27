@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Astrology API provides comprehensive astrological data including Indian (Vedic) astrology with panchang and dosha data, Western astrology with planetary transits and synastry, daily and monthly ho
@@ -98,25 +98,25 @@ plans:
 - name: Astrology Api Plans Pricing
   plan_count: 3
   slug: astrology-api-plans-pricing
-random_paper: 29
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Astrology Api Rate Limits
   slug: astrology-api-rate-limits
 score:
   band: thin
-  composite: 33.7
-  delta: 0.0
+  composite: 36.9
+  delta: 3.2
   facets:
     commercial_clarity: 50.0
     contract_quality: 37.7
     developer_ergonomics: 17.4
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 33.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/astrology-api/refs/heads/main/screenshots/astrology-api-2026-06-20T172511.png
 security:

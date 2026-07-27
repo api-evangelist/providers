@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 497
   human_in_the_loop: 18
@@ -157,7 +157,7 @@ plans:
 - name: Stream Io Plans Pricing
   plan_count: 8
   slug: stream-io-plans-pricing
-random_paper: 46
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Stream Io Rate Limits
@@ -173,18 +173,18 @@ rules:
   slug: stream-io-asyncapi-spectral-rules
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 50.9
+  delta: 3.2
   facets:
     commercial_clarity: 57.9
     contract_quality: 54.6
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 52.6
     operational_transparency: 42.1
   previous_composite: 47.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/stream-io/refs/heads/main/screenshots/stream-io-2026-06-20T194617.png
 security:

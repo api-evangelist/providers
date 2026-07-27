@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: 'Shippingbo''s primary REST/JSON API for managing the full e-commerce logistics lifecycle: orders, order items, products, stocks, customers, shipments, sources, and warehouse pickings. Documentation is '
@@ -154,7 +154,7 @@ overview: 'Shippingbo publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Shippingbo''s developer surface includes documentation, pricing, engineering blog, YouTube channel, and 18 more developer resources.'
-random_paper: 4
+random_paper: 55
 score:
   band: minimal
   composite: 14.0
@@ -168,7 +168,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/shippingbo/refs/heads/main/screenshots/shippingbo-2026-06-20T193820.png
 security:

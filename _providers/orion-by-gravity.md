@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 27.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Remote Model Context Protocol (MCP) server that lets AI assistants (Claude Code, Claude Desktop, Cursor, Windsurf, Gemini Enterprise) run natural-language analyses, list and execute metrics, trigger w
@@ -148,7 +148,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 34.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

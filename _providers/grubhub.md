@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 18
   human_in_the_loop: 3
@@ -700,7 +700,7 @@ plans:
 - name: Grubhub Plans Pricing
   plan_count: 4
   slug: grubhub-plans-pricing
-random_paper: 37
+random_paper: 3
 rate_limits:
 - limit_count: 3
   name: Grubhub Rate Limits
@@ -737,18 +737,18 @@ scopes:
   summary_line: 2 scopes · clientCredentials
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 50.9
+  delta: 2.5
   facets:
     commercial_clarity: 39.5
     contract_quality: 78.8
     developer_ergonomics: 13.0
-    discoverability: 55.0
+    discoverability: 80.0
     governance: 65.8
     operational_transparency: 36.8
   previous_composite: 48.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/grubhub/refs/heads/main/screenshots/grubhub-2026-06-20T182426.png
 security:

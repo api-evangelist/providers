@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 81
   human_in_the_loop: 2
@@ -181,7 +181,7 @@ plans:
 - name: Erasmus University Rotterdam Plans Pricing
   plan_count: 2
   slug: erasmus-university-rotterdam-plans-pricing
-random_paper: 0
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Erasmus University Rotterdam Rate Limits
@@ -221,7 +221,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 47.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/erasmus-university-rotterdam/refs/heads/main/screenshots/erasmus-university-rotterdam-2026-06-20T180813.png
 security:

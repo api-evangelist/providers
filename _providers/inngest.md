@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -378,7 +378,7 @@ plans:
 - name: Inngest Plans Pricing
   plan_count: 3
   slug: inngest-plans-pricing
-random_paper: 46
+random_paper: 12
 rate_limits:
 - limit_count: 8
   name: Inngest Rate Limits
@@ -402,19 +402,19 @@ rules:
   slug: inngest-rules
 score:
   band: exemplar
-  composite: 73.6
-  delta: 0.0
+  composite: 79.1
+  delta: 5.5
   facets:
     commercial_clarity: 92.1
-    contract_quality: 62.4
+    contract_quality: 71.2
     developer_ergonomics: 65.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 84.2
   previous_composite: 73.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/inngest/refs/heads/main/screenshots/inngest-2026-06-20T183358.png
 security:
 - kind: authentication

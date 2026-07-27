@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 18.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: OpenTofu is a CLI-driven infrastructure-as-code tool forked from Terraform. The opentofu binary reads HashiCorp Configuration Language (HCL) configuration, plans changes, and applies them against clou
@@ -110,7 +110,7 @@ plans:
 - name: Opentofu Plans Pricing
   plan_count: 3
   slug: opentofu-plans-pricing
-random_paper: 13
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Opentofu Rate Limits
@@ -128,7 +128,7 @@ score:
     operational_transparency: 63.2
   previous_composite: 28.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/opentofu/refs/heads/main/screenshots/opentofu-2026-06-20T191043.png
 security:

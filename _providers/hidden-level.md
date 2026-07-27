@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -77,7 +77,7 @@ overview: 'Hidden Level is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Hidden Level''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 28
+random_paper: 45
 score:
   band: minimal
   composite: 13.3
@@ -91,8 +91,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 13.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/hidden-level/refs/heads/main/screenshots/hidden-level-2026-07-25T221144.png
 security:
 - kind: domain-security
   name: Hidden Level Domain Security

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Rollup''s REST API for programmatic access to the hardware engineering collaboration platform. Authenticated with API keys or OAuth tokens; supports pagination and websockets. The API host resolves to '
@@ -57,7 +57,7 @@ overview: 'Rollup AI publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Rollup AI''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 50
+random_paper: 33
 score:
   band: minimal
   composite: 9.7
@@ -71,7 +71,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 9.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

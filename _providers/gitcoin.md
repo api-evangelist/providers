@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -173,7 +173,7 @@ plans:
 - name: Plans
   plan_count: 5
   slug: plans
-random_paper: 35
+random_paper: 1
 rate_limits:
 - limit_count: 3
   name: Rate Limits
@@ -200,7 +200,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 60.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

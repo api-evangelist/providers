@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 31.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -106,7 +106,7 @@ plans:
 - name: Cargurus Dealer Plans Pricing
   plan_count: 3
   slug: cargurus-dealer-plans-pricing
-random_paper: 12
+random_paper: 46
 score:
   band: thin
   composite: 35.7
@@ -120,8 +120,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 35.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cargurus-dealer/refs/heads/main/screenshots/cargurus-dealer-2026-07-25T204615.png
 security:
 - kind: domain-security
   name: Cargurus Dealer Domain Security

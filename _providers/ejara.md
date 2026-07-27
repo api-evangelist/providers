@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,7 +69,7 @@ overview: 'Ejara is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ejara''s developer surface includes support, signup flow, and 5 more developer resources.'
-random_paper: 5
+random_paper: 39
 score:
   band: emerging
   composite: 15.1
@@ -83,8 +83,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 15.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/ejara/refs/heads/main/screenshots/ejara-2026-07-25T213025.png
 security:
 - kind: domain-security
   name: Ejara Domain Security

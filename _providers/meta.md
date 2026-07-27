@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -134,7 +134,7 @@ arazzos:
 - description: Read a user, branch on whether it exists, and apply an update when found.
   name: Meta Verify And Update User
   slug: meta-verify-and-update-user-workflow
-artifact_total: 62
+artifact_total: 63
 collections:
 - collection_type: postman
   name: Meta Graph API - User
@@ -539,6 +539,10 @@ jsonld:
   property_count: 6
   slug: meta-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: meta-mcp.yml
+  slug: meta-mcpyml
 modified: '2026-06-20'
 name: Meta
 nav: Providers
@@ -574,19 +578,19 @@ scopes:
   slug: meta-scopes
   summary_line: 15 scopes · implicit
 score:
-  band: strong
-  composite: 69.4
-  delta: 0.0
+  band: exemplar
+  composite: 71.4
+  delta: 2.0
   facets:
     commercial_clarity: 60.5
     contract_quality: 57.5
     developer_ergonomics: 93.5
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 76.3
   previous_composite: 69.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/meta/refs/heads/main/screenshots/meta-2026-06-20T185238.png
 security:

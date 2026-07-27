@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 57
   human_in_the_loop: 1
@@ -155,7 +155,7 @@ plans:
 - name: Brushfire Plans Pricing
   plan_count: 5
   slug: brushfire-plans-pricing
-random_paper: 1
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Brushfire Rate Limits
@@ -163,7 +163,7 @@ rate_limits:
 score:
   band: thin
   composite: 38.5
-  delta: -2.1
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 48.6
@@ -171,15 +171,16 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 40.6
+  previous_composite: 38.5
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/brushfire/refs/heads/main/screenshots/brushfire-2026-07-25T204003.png
 security:
 - kind: authentication
   name: Brushfire Authentication

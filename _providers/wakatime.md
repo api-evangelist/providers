@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 11
   human_in_the_loop: 0
@@ -684,19 +684,19 @@ scopes:
   slug: wakatime-scopes
   summary_line: 8 scopes · authorizationCode/implicit
 score:
-  band: strong
-  composite: 67.2
-  delta: 0.0
+  band: exemplar
+  composite: 71.9
+  delta: 4.7
   facets:
     commercial_clarity: 92.1
-    contract_quality: 64.4
+    contract_quality: 73.3
     developer_ergonomics: 43.5
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 52.6
   previous_composite: 67.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wakatime/refs/heads/main/screenshots/wakatime-2026-06-20T201207.png
 security:

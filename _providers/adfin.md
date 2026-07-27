@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 39.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Invoicing, payments and credit-control API — customers, invoices, payment requests, direct-debit mandates, payments and signed webhooks.
@@ -165,11 +165,11 @@ overview: 'Adfin publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Adfin''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 20 more developer resources.'
-random_paper: 4
+random_paper: 38
 score:
   band: thin
   composite: 44.2
-  delta: 1.8
+  delta: 0.0
   facets:
     commercial_clarity: 44.7
     contract_quality: 22.6
@@ -177,15 +177,16 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 28.9
-  previous_composite: 42.4
+  previous_composite: 44.2
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 54.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/adfin/refs/heads/main/screenshots/adfin-2026-07-25T181629.png
 security:
 - kind: authentication
   name: Adfin Authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -271,7 +271,7 @@ plans:
 - name: Advanced Excel Plans Pricing
   plan_count: 3
   slug: advanced-excel-plans-pricing
-random_paper: 19
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Advanced Excel Rate Limits
@@ -291,19 +291,19 @@ scopes:
   slug: advanced-excel-scopes
   summary_line: 2 scopes · authorizationCode
 score:
-  band: developing
-  composite: 57.4
-  delta: 0.0
+  band: strong
+  composite: 62.0
+  delta: 4.6
   facets:
     commercial_clarity: 68.4
-    contract_quality: 69.0
+    contract_quality: 74.3
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 57.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/advanced-excel/refs/heads/main/screenshots/advanced-excel-2026-06-20T165321.png
 security:

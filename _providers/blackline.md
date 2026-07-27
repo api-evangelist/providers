@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 7
 apis:
 - description: Manage accounting periods (open/close, list periods) in BlackLine.
@@ -120,7 +120,7 @@ overview: 'BlackLine publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   BlackLine''s developer surface includes documentation, API reference, authentication, engineering blog, and 10 more developer resources.'
-random_paper: 15
+random_paper: 49
 score:
   band: emerging
   composite: 26.8
@@ -134,8 +134,9 @@ score:
     operational_transparency: 15.8
   previous_composite: 26.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/blackline/refs/heads/main/screenshots/blackline-2026-07-25T203251.png
 security:
 - kind: authentication
   name: Blackline Authentication

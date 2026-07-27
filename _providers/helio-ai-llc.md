@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -73,7 +73,7 @@ overview: 'Helio AI LLC is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Helio AI LLC''s developer surface includes engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 14
+random_paper: 48
 score:
   band: minimal
   composite: 14.0
@@ -87,8 +87,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 14.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/helio-ai-llc/refs/heads/main/screenshots/helio-ai-llc-2026-07-25T220917.png
 security:
 - kind: domain-security
   name: Helio Ai Llc Domain Security

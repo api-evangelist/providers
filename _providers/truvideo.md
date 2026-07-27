@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 47.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 11
 apis:
 - description: The Authentication API from TruVideo — 2 operation(s) for authentication.
@@ -172,7 +172,7 @@ overview: 'TruVideo publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   TruVideo''s developer surface includes authentication, sandbox, documentation, pricing, support, and 18 more developer resources.'
-random_paper: 15
+random_paper: 66
 score:
   band: thin
   composite: 43.9
@@ -186,7 +186,7 @@ score:
     operational_transparency: 10.5
   previous_composite: 43.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

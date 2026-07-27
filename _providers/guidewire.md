@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 5
   human_in_the_loop: 0
@@ -136,7 +136,7 @@ plans:
 - name: Guidewire Plans Pricing
   plan_count: 1
   slug: guidewire-plans-pricing
-random_paper: 47
+random_paper: 13
 rate_limits:
 - limit_count: 1
   name: Guidewire Rate Limits
@@ -165,23 +165,23 @@ scopes:
   summary_line: 6 scopes · authorizationCode
 score:
   band: developing
-  composite: 45.8
-  delta: 2.3
+  composite: 47.9
+  delta: 2.1
   facets:
     commercial_clarity: 28.9
     contract_quality: 75.3
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 60.5
     operational_transparency: 21.1
-  previous_composite: 43.5
+  previous_composite: 45.8
   regulatory:
     applies: true
     regime: Insurance
     regime_id: insurance
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/guidewire/refs/heads/main/screenshots/guidewire-2026-06-20T182433.png
 security:

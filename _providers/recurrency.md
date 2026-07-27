@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 57.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Supplier product catalog retrieval, filtering and upload.
@@ -164,7 +164,7 @@ overview: 'Recurrency publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Recurrency''s developer surface includes documentation, authentication, sandbox, engineering blog, support, signup flow, and 20 more developer resources.'
-random_paper: 19
+random_paper: 2
 scopes:
 - name: Recurrency Scopes
   scope_count: 4
@@ -183,7 +183,7 @@ score:
     operational_transparency: 15.8
   previous_composite: 45.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The WunderGraph Cosmo GraphQL API provides full lifecycle management of federated GraphQL APIs, including schema registry operations, composition checks, analytics queries, subgraph management, and ro
@@ -89,7 +89,7 @@ overview: 'WunderGraph Cloud publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   WunderGraph Cloud''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 37
+random_paper: 3
 score:
   band: minimal
   composite: 14.2
@@ -103,7 +103,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 14.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/wundergraph-cloud/refs/heads/main/screenshots/wundergraph-cloud-2026-06-20T201640.png
 security:

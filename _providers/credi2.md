@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 2
 common:
@@ -81,11 +81,11 @@ overview: 'Credi2 is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Credi2''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 8
+random_paper: 25
 score:
   band: emerging
   composite: 19.6
-  delta: 6.5
+  delta: 0.0
   facets:
     commercial_clarity: 18.4
     contract_quality: 0.0
@@ -93,15 +93,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 10.5
-  previous_composite: 13.1
+  previous_composite: 19.6
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 56.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/credi2/refs/heads/main/screenshots/credi2-2026-07-25T210713.png
 security:
 - kind: domain-security
   name: Credi2 Domain Security

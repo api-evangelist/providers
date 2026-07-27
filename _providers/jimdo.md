@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for managing Jimdo website content, blog posts, online store products, orders, and customer data for small business websites built on the Jimdo platform.
@@ -106,7 +106,7 @@ plans:
 - name: Jimdo Plans Pricing
   plan_count: 12
   slug: jimdo-plans-pricing
-random_paper: 21
+random_paper: 55
 rate_limits:
 - limit_count: 0
   name: Jimdo Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 33.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/jimdo/refs/heads/main/screenshots/jimdo-2026-06-20T183734.png
 security:

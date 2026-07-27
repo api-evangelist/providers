@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 76.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 8
   human_in_the_loop: 0
@@ -95,7 +95,7 @@ arazzos:
 - description: Discover an action on an app, resolve its input fields, run it, and poll for the result.
   name: Zapier Run an AI Action
   slug: zapier-run-ai-action-workflow
-artifact_total: 376
+artifact_total: 377
 collections:
 - collection_type: open
   name: Partner API
@@ -1330,6 +1330,10 @@ jsonld:
   property_count: 0
   slug: zapier-zapier-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: zapier-mcp.yml
+  slug: zapier-mcpyml
 modified: '2026-06-20'
 name: Zapier
 nav: Providers
@@ -1374,18 +1378,18 @@ scopes:
   summary_line: 10 scopes · authorizationCode/implicit
 score:
   band: exemplar
-  composite: 76.0
-  delta: 0.0
+  composite: 79.3
+  delta: 3.3
   facets:
     commercial_clarity: 92.1
-    contract_quality: 69.7
+    contract_quality: 75.0
     developer_ergonomics: 71.7
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 86.8
     operational_transparency: 76.3
   previous_composite: 76.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/zapier/refs/heads/main/screenshots/zapier-2026-06-20T201801.png
 security:

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 44.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 10
   human_in_the_loop: 0
@@ -153,7 +153,7 @@ plans:
 - name: Alpaca Markets Plans Pricing
   plan_count: 5
   slug: alpaca-markets-plans-pricing
-random_paper: 37
+random_paper: 54
 rate_limits:
 - limit_count: 7
   name: Alpaca Markets Rate Limits
@@ -169,24 +169,25 @@ rules:
   slug: alpaca-markets-asyncapi-spectral-rules
 score:
   band: thin
-  composite: 37.7
-  delta: -6.6
+  composite: 40.4
+  delta: 2.7
   facets:
     commercial_clarity: 39.5
     contract_quality: 61.8
     developer_ergonomics: 10.9
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 60.5
     operational_transparency: 36.8
-  previous_composite: 44.3
+  previous_composite: 37.7
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 0.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: falling
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/alpaca-markets/refs/heads/main/screenshots/alpaca-markets-2026-07-25T195746.png
 slug: alpaca-markets
 tags:
 - Market Data

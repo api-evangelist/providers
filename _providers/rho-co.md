@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: Rho exposes APIs for partners and customers to embed Rho banking and payments capabilities, including a Virtual Card API for programmatically issuing cards and a Vendor Onboarding API for embedding pa
@@ -70,7 +70,7 @@ plans:
 - name: Rho Co Plans Pricing
   plan_count: 1
   slug: rho-co-plans-pricing
-random_paper: 23
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Rho Co Rate Limits
@@ -88,7 +88,7 @@ score:
     operational_transparency: 21.1
   previous_composite: 18.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/rho-co/refs/heads/main/screenshots/rho-co-2026-06-20T193109.png
 security:

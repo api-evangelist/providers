@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 1
 common:
@@ -69,11 +69,11 @@ overview: 'FITCO is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   FITCO''s developer surface includes pricing, engineering blog, and 5 more developer resources.'
-random_paper: 23
+random_paper: 57
 score:
   band: emerging
   composite: 16.0
-  delta: 2.5
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 0.0
@@ -81,15 +81,16 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 0.0
-  previous_composite: 13.5
+  previous_composite: 16.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 30.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/fitco/refs/heads/main/screenshots/fitco-2026-07-25T214630.png
 security:
 - kind: domain-security
   name: Fitco Domain Security

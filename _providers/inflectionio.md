@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 69.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ overview: 'Inflection.io publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Inflection.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 8
+random_paper: 59
 score:
   band: developing
   composite: 47.5
@@ -192,8 +192,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 47.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/inflectionio/refs/heads/main/screenshots/inflectionio-2026-07-25T222410.png
 security:
 - kind: authentication
   name: Inflectionio Authentication

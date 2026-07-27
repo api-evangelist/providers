@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -266,7 +266,7 @@ plans:
 - name: Sportradar Plans Pricing
   plan_count: 1
   slug: sportradar-plans-pricing
-random_paper: 19
+random_paper: 2
 rate_limits:
 - limit_count: 2
   name: Sportradar Rate Limits
@@ -290,18 +290,18 @@ rules:
   slug: sportradar-rules
 score:
   band: developing
-  composite: 57.1
-  delta: 0.0
+  composite: 59.1
+  delta: 2.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 69.7
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 86.8
     operational_transparency: 42.1
   previous_composite: 57.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/sportradar/refs/heads/main/screenshots/sportradar-2026-06-20T194345.png
 security:

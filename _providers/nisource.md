@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 0
 common:
@@ -61,7 +61,7 @@ press:
 - date: '2026-05-25'
   title: NiSource companies launch chatbots and live chat to ...
   url: https://investors.nisource.com/financial-news/news-details/2022/NiSource-companies-launch-chatbots-and-live-chat-to-provide-an-improved-customer-experience/default.aspx
-random_paper: 5
+random_paper: 56
 score:
   band: minimal
   composite: 7.2
@@ -75,7 +75,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 7.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/nisource/refs/heads/main/screenshots/nisource-2026-06-20T190332.png
 slug: nisource

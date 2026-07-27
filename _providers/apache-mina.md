@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: MINA Core provides a Java NIO-based API for building high-performance network applications with support for TCP and UDP protocols, an event-driven filter chain for protocol codecs, session management,
@@ -126,7 +126,7 @@ plans:
 - name: Apache Mina Plans Pricing
   plan_count: 3
   slug: apache-mina-plans-pricing
-random_paper: 5
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Apache Mina Rate Limits
@@ -144,7 +144,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 25.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/apache-mina/refs/heads/main/screenshots/apache-mina-2026-06-20T172122.png
 security:

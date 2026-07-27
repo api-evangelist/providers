@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -111,7 +111,7 @@ press:
 - date: '2026-05-25'
   title: How Marriott's AI Initiatives Will Empower Event Planners
   url: https://marriottbonvoyevents.com/news-and-highlights/article/674/how-marriott-s-ai-initiatives-will-empower-event-planners
-random_paper: 32
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Marriott International Rate Limits
@@ -122,19 +122,19 @@ scopes:
   slug: marriott-international-scopes
   summary_line: 2 scopes · clientCredentials
 score:
-  band: emerging
-  composite: 27.6
-  delta: 0.0
+  band: thin
+  composite: 30.1
+  delta: 2.5
   facets:
     commercial_clarity: 28.9
     contract_quality: 50.4
     developer_ergonomics: 10.9
-    discoverability: 42.5
+    discoverability: 67.5
     governance: 0.0
     operational_transparency: 21.1
   previous_composite: 27.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/marriott-international/refs/heads/main/screenshots/marriott-international-2026-06-20T185001.png
 security:

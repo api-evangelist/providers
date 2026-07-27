@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -114,30 +114,30 @@ plans:
 - name: Open Payments Plans Pricing
   plan_count: 1
   slug: open-payments-plans-pricing
-random_paper: 34
+random_paper: 0
 rate_limits:
 - limit_count: 3
   name: Open Payments Rate Limits
   slug: open-payments-rate-limits
 score:
   band: thin
-  composite: 34.3
-  delta: -1.4
+  composite: 37.0
+  delta: 2.7
   facets:
     commercial_clarity: 42.1
     contract_quality: 50.1
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 35.7
+  previous_composite: 34.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 24.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Public REST API endpoints for querying market data, instruments, tickers, options boards, implied volatility, settlement history, and liquidity pool analytics without authentication.
@@ -116,7 +116,7 @@ rate_limits:
 score:
   band: thin
   composite: 30.7
-  delta: -1.5
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 37.7
@@ -124,14 +124,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 32.2
+  previous_composite: 30.7
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 21.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/lyra/refs/heads/main/screenshots/lyra-2026-06-20T184813.png
 security:

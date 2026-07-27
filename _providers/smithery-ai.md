@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 32
   human_in_the_loop: 6
@@ -377,7 +377,7 @@ plans:
 - name: Smithery Ai Plans Pricing
   plan_count: 4
   slug: smithery-ai-plans-pricing
-random_paper: 10
+random_paper: 44
 rate_limits:
 - limit_count: 6
   name: Smithery Ai Rate Limits
@@ -400,20 +400,20 @@ rules:
     warn: 3
   slug: smithery-ai-rules
 score:
-  band: developing
-  composite: 55.9
-  delta: 0.0
+  band: strong
+  composite: 61.4
+  delta: 5.5
   facets:
     commercial_clarity: 50.0
-    contract_quality: 60.4
+    contract_quality: 69.2
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 55.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 security:
 - kind: authentication
   name: Smithery Ai Authentication

@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: '@nori/sdk — robot-local teleoperation SDK. Connects to a Nori robot over WebRTC, receives video and telemetry, and drives it from the browser via the RemoteTeleop client. Signaling over the reference '
@@ -113,7 +113,7 @@ overview: 'Nori publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Nori''s developer surface includes documentation, API reference, getting-started guide, support, and 13 more developer resources.'
-random_paper: 36
+random_paper: 53
 score:
   band: emerging
   composite: 17.8
@@ -127,7 +127,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 17.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

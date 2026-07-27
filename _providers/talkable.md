@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 60.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 26
 apis:
 - description: The Advocate Offers API from Talkable — 4 operation(s) for advocate offers.
@@ -255,7 +255,7 @@ score:
     operational_transparency: 28.9
   previous_composite: 47.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

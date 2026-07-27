@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 39.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: GraphQL API for personalized nutrition — users, programs/diets, meal-plan generation, recipe and restaurant search, food logging (incl. AI food log), shopping lists, health trackers, lab tests/biomark
@@ -177,11 +177,11 @@ overview: 'Suggestic publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Suggestic''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, changelog, and 23 more developer resources.'
-random_paper: 5
+random_paper: 22
 score:
   band: thin
   composite: 44.0
-  delta: 0.7
+  delta: 0.0
   facets:
     commercial_clarity: 31.6
     contract_quality: 22.6
@@ -189,14 +189,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 52.6
-  previous_composite: 43.3
+  previous_composite: 44.0
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 47.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

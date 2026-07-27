@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -164,7 +164,7 @@ plans:
 - name: Secureworks Plans Pricing
   plan_count: 3
   slug: secureworks-plans-pricing
-random_paper: 40
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Secureworks Rate Limits
@@ -188,18 +188,18 @@ rules:
   slug: secureworks-rules
 score:
   band: developing
-  composite: 51.9
-  delta: 0.0
+  composite: 55.1
+  delta: 3.2
   facets:
     commercial_clarity: 39.5
     contract_quality: 65.5
     developer_ergonomics: 28.3
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 51.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/secureworks/refs/heads/main/screenshots/secureworks-2026-06-20T193632.png
 security:

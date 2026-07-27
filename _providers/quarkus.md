@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -51,7 +51,7 @@ apis:
 - description: The OpenAPI API from Quarkus — 2 operation(s) for openapi.
   name: Quarkus OpenAPI API
   slug: quarkus-openapi-api
-artifact_total: 17
+artifact_total: 18
 collections:
 - collection_type: open
   name: Quarkus Dev UI & Health/Metrics API
@@ -113,6 +113,10 @@ json_schemas:
   property_count: 1
   slug: quarkus-application-properties
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-19'
 name: Quarkus
 nav: Providers
@@ -128,7 +132,7 @@ plans:
 - name: Quarkus Plans Pricing
   plan_count: 3
   slug: quarkus-plans-pricing
-random_paper: 15
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Quarkus Rate Limits
@@ -144,18 +148,18 @@ rules:
   slug: quarkus-jsonschema-spectral-rules
 score:
   band: developing
-  composite: 45.9
-  delta: 0.0
+  composite: 49.2
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
-    contract_quality: 46.0
+    contract_quality: 51.3
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 36.8
   previous_composite: 45.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/quarkus/refs/heads/main/screenshots/quarkus-2026-06-20T192414.png
 security:

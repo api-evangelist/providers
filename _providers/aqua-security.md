@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 59.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -426,7 +426,7 @@ plans:
 - name: Aqua Security Plans Pricing
   plan_count: 1
   slug: aqua-security-plans-pricing
-random_paper: 31
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Aqua Security Rate Limits
@@ -461,7 +461,7 @@ score:
     operational_transparency: 57.9
   previous_composite: 66.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/aqua-security/refs/heads/main/screenshots/aqua-security-2026-06-20T172346.png
 security:

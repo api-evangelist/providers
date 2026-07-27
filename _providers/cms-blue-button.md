@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -126,31 +126,32 @@ plans:
 - name: Cms Blue Button Plans Pricing
   plan_count: 2
   slug: cms-blue-button-plans-pricing
-random_paper: 26
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Cms Blue Button Rate Limits
   slug: cms-blue-button-rate-limits
 score:
   band: thin
-  composite: 40.3
-  delta: -1.0
+  composite: 43.1
+  delta: 2.8
   facets:
     commercial_clarity: 39.5
     contract_quality: 57.7
     developer_ergonomics: 37.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 41.3
+  previous_composite: 40.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 34.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cms-blue-button/refs/heads/main/screenshots/cms-blue-button-2026-07-25T205758.png
 security:
 - kind: authentication
   name: Cms Blue Button Authentication

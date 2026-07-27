@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Web services API for CosmoLex legal practice management. Enables programmatic access to matters, time entries, billing, trust accounting, documents, and client data. Access is subject to a maximum of '
@@ -106,7 +106,7 @@ plans:
 - name: Cosmolex Plans Pricing
   plan_count: 3
   slug: cosmolex-plans-pricing
-random_paper: 7
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Cosmolex Rate Limits
@@ -124,7 +124,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 36.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/cosmolex/refs/heads/main/screenshots/cosmolex-2026-06-20T175047.png
 security:

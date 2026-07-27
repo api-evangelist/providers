@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -165,7 +165,7 @@ press:
 - date: '2026-05-25'
   title: Teledyne to Hold Investor Meetings
   url: https://www.teledyne.com/en-us/news/Pages/teledyne-to-hold-investor-meetings-20250902.aspx
-random_paper: 45
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Teledyne Technologies Rate Limits
@@ -188,20 +188,20 @@ rules:
     warn: 6
   slug: teledyne-technologies-rules
 score:
-  band: thin
-  composite: 40.8
-  delta: 0.0
+  band: developing
+  composite: 46.2
+  delta: 5.4
   facets:
     commercial_clarity: 28.9
-    contract_quality: 56.9
+    contract_quality: 65.8
     developer_ergonomics: 8.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 26.3
   previous_composite: 40.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/screenshots/teledyne-technologies-2026-06-20T195024.png
 security:
 - kind: domain-security

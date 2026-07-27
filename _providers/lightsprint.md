@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 18.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API over the Lightsprint workspace board — tasks, comments, projects, stacks, and cloud coding agents. Authenticated with OAuth 2.0 authorization-code tokens bound to a single workspace; the repo
@@ -171,7 +171,7 @@ plans:
 - name: Lightsprint Plans Pricing
   plan_count: 3
   slug: lightsprint-plans-pricing
-random_paper: 35
+random_paper: 52
 scopes:
 - name: Lightsprint Scopes
   scope_count: 7
@@ -190,8 +190,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 39.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/lightsprint/refs/heads/main/screenshots/lightsprint-2026-07-25T225137.png
 security:
 - kind: authentication
   name: Lightsprint Authentication

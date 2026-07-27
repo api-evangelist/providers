@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 79.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 43
   human_in_the_loop: 4
@@ -211,7 +211,7 @@ overview: 'H Company publishes 9 APIs on the [APIs.io](https://apis.io/) network
 
 
   H Company''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 41
+random_paper: 24
 score:
   band: developing
   composite: 56.4
@@ -225,8 +225,9 @@ score:
     operational_transparency: 36.8
   previous_composite: 56.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/h-company/refs/heads/main/screenshots/h-company-2026-07-25T220500.png
 security:
 - kind: authentication
   name: H Company Authentication

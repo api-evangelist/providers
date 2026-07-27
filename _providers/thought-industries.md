@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 53.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -170,7 +170,7 @@ plans:
 - name: Thought Industries Plans Pricing
   plan_count: 3
   slug: thought-industries-plans-pricing
-random_paper: 27
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Thought Industries Rate Limits
@@ -193,20 +193,20 @@ rules:
     warn: 5
   slug: thought-industries-rules
 score:
-  band: developing
-  composite: 56.1
-  delta: 0.0
+  band: strong
+  composite: 61.6
+  delta: 5.5
   facets:
     commercial_clarity: 47.4
-    contract_quality: 64.3
+    contract_quality: 73.2
     developer_ergonomics: 45.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 73.7
     operational_transparency: 44.7
   previous_composite: 56.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/thought-industries/refs/heads/main/screenshots/thought-industries-2026-06-20T195312.png
 security:
 - kind: authentication

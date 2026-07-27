@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -154,7 +154,7 @@ plans:
 - name: Rescuegroups Org Plans Pricing
   plan_count: 3
   slug: rescuegroups-org-plans-pricing
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Rescuegroups Org Rate Limits
@@ -178,19 +178,19 @@ rules:
   slug: rescuegroups-org-rules
 score:
   band: developing
-  composite: 48.4
-  delta: 0.0
+  composite: 53.8
+  delta: 5.4
   facets:
     commercial_clarity: 39.5
-    contract_quality: 67.3
+    contract_quality: 76.1
     developer_ergonomics: 26.1
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 48.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/rescuegroups-org/refs/heads/main/screenshots/rescuegroups-org-2026-06-20T192931.png
 security:
 - kind: authentication

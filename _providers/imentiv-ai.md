@@ -1,9 +1,7 @@
 ---
 access_model:
   confidence: high
-  generated: '2026-07-22'
   label: Freemium · Self-serve signup
-  method: derived
   onboarding: self-serve
   pricing: freemium
   public: false
@@ -12,21 +10,132 @@ access_model:
   - authentication
   trial: false
   try_now: true
+agent_readiness:
+  band: agent-ready
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: true
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 48.1
+  scored_at: '2026-07-27'
+agentic_access:
+- acting_count: 34
+  human_in_the_loop: 0
+  name: Imentiv Ai Agentic Access
+  operation_count: 61
+  slug: imentiv-ai-agentic-access
+  summary_line: 61 operations · 34 acting
 api_count: 6
-artifact_total: 0
+apis:
+- description: 'The AI Insights API provides conversational AI-powered analysis of emotional data from your media content. **Features:** - Ask natural language questions about detected emotions, patterns, and trends '
+  name: Imentiv AI AI Insights API API
+  slug: imentiv-ai-ai-insights-api-api
+- description: 'The Audio Emotion Analysis API processes audio files or YouTube URLs to analyze emotions and transcripts. The API provides: **Speaker Diarization:** Identifies and segments audio by speakers. **Audio '
+  name: Imentiv AI Audio Emotion API API
+  slug: imentiv-ai-audio-emotion-api-api
+- description: The Image Emotion Recognition API by Imentiv analyzes human facial expressions in an image and returns the detected emotions. It can detect multiple faces and evaluate each face's emotional state, pro
+  name: Imentiv AI Image Emotion API API
+  slug: imentiv-ai-image-emotion-api-api
+- description: The Report API provides comprehensive emotion analysis reports in PDF format for analyzed media content. **Features:** - Generate detailed PDF reports for video emotion analysis - Includes visual char
+  name: Imentiv AI Report API API
+  slug: imentiv-ai-report-api-api
+- description: The Text Emotion Analysis API by Imentiv analyzes a given piece of text and returns the detected emotional tone(s). **Features:** - The API processes the text, detects emotions for each paragraph, and
+  name: Imentiv AI Text Emotion API API
+  slug: imentiv-ai-text-emotion-api-api
+- description: The Video Emotion Analysis API by Imentiv analyzes the emotional states of individuals in a video. It performs multi-modal emotion detection using facial expressions, audio, and text transcript, and h
+  name: Imentiv AI Video Emotion API API
+  slug: imentiv-ai-video-emotion-api-api
+artifact_total: 13
+collections:
+- collection_type: open
+  name: Welcome to Imentiv AI
+  slug: open-imentiv-ai
+common:
+- group: agent
+  title: ''
+  type: AgenticAccess
+  url: agentic-access/imentiv-ai-agentic-access.yml
+- group: auth
+  title: ''
+  type: DomainSecurity
+  url: security/imentiv-ai-domain-security.yml
+- group: auth
+  title: ''
+  type: Authentication
+  url: authentication/imentiv-ai-authentication.yml
+- group: company
+  title: ''
+  type: LinkedIn
+  url: https://www.linkedin.com/company/imentivai
+- group: company
+  title: ''
+  type: Website
+  url: https://imentiv.ai/
 created: '2025-02-09'
 description: Imentiv AI is an AI-powered platform for analyzing the emotional makeup of videos. The platform uses advanced artificial intelligence to make videos emotionally smart by detecting and analyzing emotions in video content.
+finops:
+- name: Imentiv Ai Finops
+  service_category: API
+  slug: imentiv-ai-finops
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/imentiv-ai.png
 layout: provider
 modified: '2026-05-19'
 name: Imentiv AI
 nav: Providers
 network: true
-random_paper: 42
+overview: 'Imentiv AI publishes 6 APIs on the [APIs.io](https://apis.io/) network, including AI Insights API API, Audio Emotion API API, Image Emotion API API, and 3 more. Tagged areas include Artificial Intelligence, Emotion Detection, Machine Learning, and Video Analysis.
+
+
+  Imentiv AI''s developer surface includes authentication and 4 more developer resources.'
+plans:
+- name: Imentiv Ai Plans Pricing
+  plan_count: 3
+  slug: imentiv-ai-plans-pricing
+random_paper: 59
+rate_limits:
+- limit_count: 5
+  name: Imentiv Ai Rate Limits
+  slug: imentiv-ai-rate-limits
+score:
+  band: thin
+  composite: 36.2
+  delta: 3.2
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 53.1
+    developer_ergonomics: 10.9
+    discoverability: 87.5
+    governance: 0.0
+    operational_transparency: 31.6
+  previous_composite: 33.0
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/imentiv-ai/refs/heads/main/screenshots/imentiv-ai-2026-06-20T183248.png
+security:
+- kind: authentication
+  name: Imentiv Ai Authentication
+  slug: imentiv-ai-authentication
+  summary_line: apiKey · 1 scheme
+- kind: domain-security
+  name: Imentiv Ai Domain Security
+  slug: imentiv-ai-domain-security
+  summary_line: TLSv1.3 · HSTS · DNSSEC · DMARC
 slug: imentiv-ai
 tags:
 - Artificial Intelligence
 - Emotion Detection
 - Machine Learning
 - Video Analysis
+website: https://imentiv.ai/
 ---

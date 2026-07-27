@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 9
   human_in_the_loop: 0
@@ -120,26 +120,27 @@ plans:
 - name: Dome9 Plans Pricing
   plan_count: 3
   slug: dome9-plans-pricing
-random_paper: 19
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Dome9 Rate Limits
   slug: dome9-rate-limits
 score:
   band: thin
-  composite: 39.1
-  delta: 0.0
+  composite: 42.3
+  delta: 3.2
   facets:
     commercial_clarity: 60.5
     contract_quality: 51.3
     developer_ergonomics: 13.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 36.8
   previous_composite: 39.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/dome9/refs/heads/main/screenshots/dome9-2026-07-25T212245.png
 security:
 - kind: authentication
   name: Dome9 Authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 51.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Lightcone API by Tzafon provides cloud browser and desktop computers operated by AI. It spans an agent Tasks API (start, stream, pause, resume, inject messages) driven by the Northstar computer-us
@@ -176,7 +176,7 @@ score:
     operational_transparency: 44.7
   previous_composite: 36.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

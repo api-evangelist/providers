@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 26.9
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 3
 common:
@@ -142,7 +142,7 @@ overview: 'Gel Data is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Gel Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 17 more developer resources.'
-random_paper: 2
+random_paper: 19
 score:
   band: thin
   composite: 34.2
@@ -156,8 +156,9 @@ score:
     operational_transparency: 28.9
   previous_composite: 34.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/gel-data/refs/heads/main/screenshots/gel-data-2026-07-25T215722.png
 security:
 - kind: authentication
   name: Gel Data Authentication

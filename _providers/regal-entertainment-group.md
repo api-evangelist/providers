@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -158,7 +158,7 @@ press:
 - date: '2026-05-25'
   title: News
   url: https://www.motionpictures.org/news/
-random_paper: 26
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: Regal Entertainment Group Rate Limits
@@ -182,18 +182,18 @@ rules:
   slug: regal-entertainment-group-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 40.3
-  delta: 0.0
+  composite: 42.8
+  delta: 2.5
   facets:
     commercial_clarity: 28.9
     contract_quality: 65.5
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 92.5
     governance: 39.5
     operational_transparency: 21.1
   previous_composite: 40.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

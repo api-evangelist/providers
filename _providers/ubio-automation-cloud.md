@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 32.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: REST API for running automation jobs on the Automation Cloud. Clients create jobs against a service, supply initial and deferred inputs, poll job events, retrieve outputs, handle 3-D Secure challenges
@@ -133,7 +133,7 @@ overview: 'UBIO Automation Cloud publishes 2 APIs on the [APIs.io](https://apis.
 
 
   UBIO Automation Cloud''s developer surface includes API reference, authentication, sandbox, and 16 more developer resources.'
-random_paper: 3
+random_paper: 37
 score:
   band: emerging
   composite: 22.0
@@ -147,7 +147,7 @@ score:
     operational_transparency: 5.3
   previous_composite: 22.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

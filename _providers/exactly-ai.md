@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 65.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -178,7 +178,7 @@ overview: 'Exactly Ai publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Exactly Ai''s developer surface includes documentation, API reference, pricing, support, signup flow, getting-started guide, authentication, and 20 more developer resources.'
-random_paper: 40
+random_paper: 57
 score:
   band: developing
   composite: 47.9
@@ -192,8 +192,9 @@ score:
     operational_transparency: 5.3
   previous_composite: 47.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/exactly-ai/refs/heads/main/screenshots/exactly-ai-2026-07-25T213837.png
 security:
 - kind: authentication
   name: Exactly Ai Authentication

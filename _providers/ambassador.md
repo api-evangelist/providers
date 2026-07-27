@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 13
   human_in_the_loop: 0
@@ -591,18 +591,18 @@ rules:
   slug: ambassador-spectral-rules
 score:
   band: developing
-  composite: 56.2
-  delta: 0.0
+  composite: 58.2
+  delta: 2.0
   facets:
     commercial_clarity: 50.0
     contract_quality: 67.6
     developer_ergonomics: 37.0
-    discoverability: 55.0
+    discoverability: 75.0
     governance: 73.7
     operational_transparency: 57.9
   previous_composite: 56.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ambassador/refs/heads/main/screenshots/ambassador-2026-06-20T171959.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 73.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 294
   human_in_the_loop: 2
@@ -695,7 +695,7 @@ arazzos:
 - description: List a shopper's stored payment tokens then disable one of them.
   name: Adyen List Recurring Details and Disable a Token
   slug: adyen-recurring-list-and-disable-workflow
-artifact_total: 6869
+artifact_total: 6870
 asyncapis:
 - description: 'AsyncAPI description of Adyen''s webhook surface. Adyen pushes event-driven messages to a customer-defined HTTPS endpoint using HTTP POST. This document models two webhook surfaces: * Standard Notifica'
   name: Adyen Webhooks (Standard Notifications and Platforms)
@@ -21689,6 +21689,10 @@ jsonld:
   property_count: 171
   slug: adyen-webhooks-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: MCP Server
+  slug: mcp-server
 modified: '2026-05-30'
 name: Adyen
 nav: Providers
@@ -21704,7 +21708,7 @@ plans:
 - name: Adyen Plans Pricing
   plan_count: 2
   slug: adyen-plans-pricing
-random_paper: 19
+random_paper: 53
 rate_limits:
 - limit_count: 3
   name: Adyen Rate Limits
@@ -21736,21 +21740,24 @@ rules:
   slug: adyen-spectral-rules
 score:
   band: exemplar
-  composite: 75.0
+  composite: 77.8
+  delta: 2.8
   facets:
     commercial_clarity: 81.6
     contract_quality: 82.1
     developer_ergonomics: 71.7
-    discoverability: 55.0
+    discoverability: 87.5
     governance: 73.7
     operational_transparency: 68.4
+  previous_composite: 75.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 78.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/adyen/refs/heads/main/screenshots/adyen-2026-06-20T165409.png
 security:
 - kind: authentication

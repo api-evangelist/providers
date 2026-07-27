@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -234,7 +234,7 @@ plans:
 - name: Themeparks Wiki Plans Pricing
   plan_count: 3
   slug: themeparks-wiki-plans-pricing
-random_paper: 27
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Themeparks Wiki Rate Limits
@@ -258,18 +258,18 @@ rules:
   slug: themeparks-wiki-spectral-rules
 score:
   band: developing
-  composite: 47.7
-  delta: 0.0
+  composite: 52.3
+  delta: 4.6
   facets:
     commercial_clarity: 39.5
-    contract_quality: 63.7
+    contract_quality: 69.0
     developer_ergonomics: 19.6
-    discoverability: 47.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 36.8
   previous_composite: 47.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/themeparks-wiki/refs/heads/main/screenshots/themeparks-wiki-2026-06-20T195346.png
 security:

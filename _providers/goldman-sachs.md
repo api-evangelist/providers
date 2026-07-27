@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 30.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 9
 apis:
 - description: Part of the Marquee developer platform, the Content Services API lets institutional clients programmatically consume client-focused Goldman Sachs content and commentary across equity, fixed income, cu
@@ -157,7 +157,7 @@ plans:
 - name: Goldman Sachs Plans Pricing
   plan_count: 2
   slug: goldman-sachs-plans-pricing
-random_paper: 38
+random_paper: 21
 rate_limits:
 - limit_count: 2
   name: Goldman Sachs Rate Limits
@@ -165,7 +165,7 @@ rate_limits:
 score:
   band: thin
   composite: 31.9
-  delta: 11.3
+  delta: 0.0
   facets:
     commercial_clarity: 28.9
     contract_quality: 22.6
@@ -173,15 +173,15 @@ score:
     discoverability: 87.5
     governance: 0.0
     operational_transparency: 26.3
-  previous_composite: 20.6
+  previous_composite: 31.9
   regulatory:
     applies: true
     regime: Banking & Open Finance
     regime_id: banking_open_finance
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: rising
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/goldman-sachs/refs/heads/main/screenshots/goldman-sachs-2026-06-20T181950.png
 security:
 - kind: authentication

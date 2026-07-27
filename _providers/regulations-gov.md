@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -150,7 +150,7 @@ plans:
 - name: Regulations Gov Plans Pricing
   plan_count: 2
   slug: regulations-gov-plans-pricing
-random_paper: 44
+random_paper: 10
 rate_limits:
 - limit_count: 0
   name: Regulations Gov Rate Limits
@@ -167,7 +167,7 @@ rules:
 score:
   band: developing
   composite: 47.4
-  delta: -1.9
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 66.4
@@ -175,14 +175,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 5.3
-  previous_composite: 49.3
+  previous_composite: 47.4
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/regulations-gov/refs/heads/main/screenshots/regulations-gov-2026-06-20T192801.png
 security:

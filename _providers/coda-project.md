@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 84.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 102
   human_in_the_loop: 4
@@ -326,7 +326,7 @@ overview: 'Coda Project publishes 32 APIs on the [APIs.io](https://apis.io/) net
 
 
   Coda Project''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 32 more developer resources.'
-random_paper: 38
+random_paper: 55
 rate_limits:
 - limit_count: 0
   name: Coda Project Rate Limits
@@ -349,8 +349,9 @@ score:
     operational_transparency: 39.5
   previous_composite: 61.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/coda-project/refs/heads/main/screenshots/coda-project-2026-07-25T205859.png
 security:
 - kind: authentication
   name: Coda Project Authentication

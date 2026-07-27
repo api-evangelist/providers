@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 64.4
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -2291,7 +2291,7 @@ overview: 'Amadeus Solutions publishes 2 APIs on the [APIs.io](https://apis.io/)
 
 
   Amadeus Solutions'' developer surface includes developer portal, getting-started guide, authentication, signup flow, pricing, engineering blog, FAQ, and 20 more developer resources.'
-random_paper: 4
+random_paper: 21
 rules:
 - name: Amadeus Solutions API Rules
   rule_count: 5
@@ -2322,8 +2322,9 @@ score:
     operational_transparency: 21.1
   previous_composite: 58.2
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/amadeus-solutions/refs/heads/main/screenshots/amadeus-solutions-2026-07-25T195907.png
 security:
 - kind: domain-security
   name: Amadeus Solutions Domain Security

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 7
   human_in_the_loop: 1
@@ -1702,20 +1702,20 @@ rules:
     warn: 13
   slug: amazon-eventbridge-pipes-spectral-rules
 score:
-  band: strong
-  composite: 68.0
-  delta: 0.0
+  band: exemplar
+  composite: 73.5
+  delta: 5.5
   facets:
     commercial_clarity: 89.5
-    contract_quality: 65.5
+    contract_quality: 74.3
     developer_ergonomics: 45.7
-    discoverability: 60.0
+    discoverability: 92.5
     governance: 86.8
     operational_transparency: 63.2
   previous_composite: 68.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/amazon-eventbridge-pipes/refs/heads/main/screenshots/amazon-eventbridge-pipes-2026-06-20T171645.png
 security:
 - kind: authentication

@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -219,7 +219,7 @@ plans:
 - name: Radio Browser Plans Pricing
   plan_count: 1
   slug: radio-browser-plans-pricing
-random_paper: 18
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Radio Browser Rate Limits
@@ -242,24 +242,24 @@ rules:
     warn: 4
   slug: radio-browser-rules
 score:
-  band: thin
-  composite: 42.0
-  delta: -3.2
+  band: developing
+  composite: 46.6
+  delta: 4.6
   facets:
     commercial_clarity: 21.1
-    contract_quality: 51.8
+    contract_quality: 60.6
     developer_ergonomics: 30.4
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 36.8
-  previous_composite: 45.2
+  previous_composite: 42.0
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 23.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/radio-browser/refs/heads/main/screenshots/radio-browser-2026-06-20T192514.png
 security:

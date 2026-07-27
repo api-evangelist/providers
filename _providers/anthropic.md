@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 86.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 37
   human_in_the_loop: 3
@@ -143,7 +143,7 @@ arazzos:
 - description: Upload a file, read back its metadata, and download its content when it is downloadable.
   name: Anthropic Upload, Verify, and Download a File
   slug: anthropic-upload-verify-download-file-workflow
-artifact_total: 98
+artifact_total: 99
 asyncapis:
 - description: 'AsyncAPI specification modeling the Server-Sent Events (SSE) stream produced by Anthropic''s Messages API when `"stream": true` is set on a POST to `/v1/messages`. Transport: HTTP/1.1 with `Content-Typ'
   name: Anthropic Messages Streaming API
@@ -775,6 +775,10 @@ jsonld:
   property_count: 18
   slug: anthropic-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: anthropic-mcp.yml
+  slug: anthropic-mcpyml
 modified: '2026-06-20'
 name: Anthropic
 nav: Providers
@@ -790,7 +794,7 @@ plans:
 - name: Anthropic Plans Pricing
   plan_count: 5
   slug: anthropic-plans-pricing
-random_paper: 50
+random_paper: 16
 rate_limits:
 - limit_count: 12
   name: Anthropic Rate Limits
@@ -825,7 +829,7 @@ score:
     operational_transparency: 68.4
   previous_composite: 75.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/anthropic/refs/heads/main/screenshots/anthropic-2026-06-20T172029.png
 security:

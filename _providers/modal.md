@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 28
   human_in_the_loop: 3
@@ -415,7 +415,7 @@ plans:
 - name: Modal Plans Pricing
   plan_count: 3
   slug: modal-plans-pricing
-random_paper: 15
+random_paper: 49
 rate_limits:
 - limit_count: 3
   name: Modal Rate Limits
@@ -438,19 +438,19 @@ rules:
     warn: 3
   slug: modal-rules
 score:
-  band: strong
-  composite: 67.5
-  delta: 0.0
+  band: exemplar
+  composite: 71.0
+  delta: 3.5
   facets:
     commercial_clarity: 78.9
-    contract_quality: 60.9
+    contract_quality: 69.8
     developer_ergonomics: 52.2
-    discoverability: 67.5
+    discoverability: 80.0
     governance: 86.8
     operational_transparency: 68.4
   previous_composite: 67.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/modal/refs/heads/main/screenshots/modal-com-2026-06-20T185747.png
 security:

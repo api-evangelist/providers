@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: human-only
+  dimensions:
+    agent_skills: false
+    agentic_access: false
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: false
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 6.7
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: The deployed Solana program that implements Pump.fun's token factory and bonding-curve market. Integrators interact directly via Solana RPC and Anchor-style instructions to create tokens, buy and sell
@@ -60,11 +78,26 @@ plans:
 - name: Pump Fun Plans Pricing
   plan_count: 1
   slug: pump-fun-plans-pricing
-random_paper: 5
+random_paper: 8
 rate_limits:
 - limit_count: 2
   name: Pump Fun Rate Limits
   slug: pump-fun-rate-limits
+score:
+  band: emerging
+  composite: 17.8
+  delta: 0.0
+  facets:
+    commercial_clarity: 28.9
+    contract_quality: 0.0
+    developer_ergonomics: 0.0
+    discoverability: 92.5
+    governance: 0.0
+    operational_transparency: 21.1
+  previous_composite: 17.8
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pump-fun/refs/heads/main/screenshots/pump-fun-2026-06-20T192311.png
 security:
 - kind: domain-security

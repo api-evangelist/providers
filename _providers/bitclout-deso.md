@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 21.2
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The HTTP JSON API served by every DeSo node — data endpoints (profiles, posts, users, NFTs, creator/DAO coins, messages) plus transaction-construction endpoints. The public node is node.deso.org; tran
@@ -138,7 +138,7 @@ overview: 'BitClout (DeSo) publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   BitClout (DeSo)''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, sandbox, and 15 more developer resources.'
-random_paper: 16
+random_paper: 50
 score:
   band: emerging
   composite: 27.0
@@ -152,8 +152,9 @@ score:
     operational_transparency: 26.3
   previous_composite: 27.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/bitclout-deso/refs/heads/main/screenshots/bitclout-deso-2026-07-25T203136.png
 security:
 - kind: authentication
   name: Bitclout Deso Authentication

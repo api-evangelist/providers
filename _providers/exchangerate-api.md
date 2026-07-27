@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 66.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 0
   human_in_the_loop: 0
@@ -77,7 +77,7 @@ arazzos:
 - description: Check remaining quota, then use the keyed endpoint or fall back to open access.
   name: ExchangeRate-API Quota Guarded Rates
   slug: exchangerate-api-quota-guarded-rates-workflow
-artifact_total: 74
+artifact_total: 75
 collections:
 - collection_type: postman
   name: ExchangeRate-API
@@ -344,6 +344,10 @@ jsonld:
   property_count: 32
   slug: exchangerate-api-context
 layout: provider
+mcp_servers:
+- description: ''
+  name: Community ExchangeRate MCP Server
+  slug: community-exchangerate-mcp-server
 modified: '2026-05-29'
 name: ExchangeRate-API
 nav: Providers
@@ -359,7 +363,7 @@ plans:
 - name: Exchangerate Api Plans Pricing
   plan_count: 5
   slug: exchangerate-api-plans-pricing
-random_paper: 41
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Exchangerate Api Rate Limits
@@ -382,20 +386,20 @@ rules:
     warn: 1
   slug: exchangerate-api-rules
 score:
-  band: strong
-  composite: 65.8
-  delta: 0.0
+  band: exemplar
+  composite: 71.3
+  delta: 5.5
   facets:
     commercial_clarity: 84.2
-    contract_quality: 70.8
+    contract_quality: 79.6
     developer_ergonomics: 50.0
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 86.8
     operational_transparency: 31.6
   previous_composite: 65.8
   schema_version: 0.5
-  scored_at: '2026-07-23'
-  trend: flat
+  scored_at: '2026-07-27'
+  trend: rising
 screenshot: https://raw.githubusercontent.com/api-evangelist/exchangerate-api/refs/heads/main/screenshots/exchangerate-api-2026-06-20T180923.png
 security:
 - kind: authentication

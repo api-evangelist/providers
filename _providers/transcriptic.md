@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: JSON:API-compliant REST API for the Transcriptic / Strateos robotic cloud lab — organizations, projects, runs, datasets, containers and aliquots, plus Autoprotocol experiment submission. Authenticates
@@ -102,11 +102,11 @@ overview: 'Transcriptic publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Transcriptic''s developer surface includes documentation, getting-started guide, CLI, authentication, and 10 more developer resources.'
-random_paper: 27
+random_paper: 10
 score:
   band: emerging
   composite: 25.1
-  delta: 2.1
+  delta: 0.0
   facets:
     commercial_clarity: 13.2
     contract_quality: 0.0
@@ -114,14 +114,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 23.0
+  previous_composite: 25.1
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

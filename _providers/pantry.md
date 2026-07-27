@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 38.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 6
   human_in_the_loop: 0
@@ -123,7 +123,7 @@ press:
 - date: '2026-05-25'
   title: Purdue professor uses AI technology to help food pantries
   url: https://www.purdueexponent.org/city_state/purdue-alex-psomas-indianapolis-artificial-intelligence/article_07b6cdae-a219-11ef-866e-17a294dc19fd.html
-random_paper: 7
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Pantry Rate Limits
@@ -139,18 +139,18 @@ rules:
   slug: pantry-jsonschema-spectral-rules
 score:
   band: thin
-  composite: 39.6
-  delta: 0.0
+  composite: 43.8
+  delta: 4.2
   facets:
     commercial_clarity: 39.5
-    contract_quality: 54.0
+    contract_quality: 62.8
     developer_ergonomics: 8.7
-    discoverability: 35.0
+    discoverability: 55.0
     governance: 73.7
     operational_transparency: 31.6
   previous_composite: 39.6
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pantry/refs/heads/main/screenshots/pantry-2026-06-20T191358.png
 security:

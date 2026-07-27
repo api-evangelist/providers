@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 6
 apis:
 - description: OpenAPI-described REST API for the Semgrep AppSec Platform. Lists deployments, projects, findings, scans, secrets, and supply chain data, and supports CI/CD and triage automation. Requires a Team or E
@@ -113,7 +113,7 @@ plans:
 - name: Semgrep Plans Pricing
   plan_count: 1
   slug: semgrep-plans-pricing
-random_paper: 41
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Semgrep Rate Limits
@@ -131,7 +131,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 22.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/semgrep/refs/heads/main/screenshots/semgrep-2026-06-20T193645.png
 security:

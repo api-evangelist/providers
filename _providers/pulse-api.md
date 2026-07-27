@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: The Pulse API allows you to programmatically access the data stored in your Pulse account with ease.
@@ -55,7 +55,7 @@ plans:
 - name: Pulse Api Plans Pricing
   plan_count: 3
   slug: pulse-api-plans-pricing
-random_paper: 45
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Pulse Api Rate Limits
@@ -73,7 +73,7 @@ score:
     operational_transparency: 31.6
   previous_composite: 17.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/pulse-api/refs/heads/main/screenshots/pulse-api-2026-06-20T192253.png
 security:

@@ -9,6 +9,24 @@ access_model:
   - plans
   trial: false
   try_now: false
+agent_readiness:
+  band: agent-aware
+  dimensions:
+    agent_skills: false
+    agentic_access: true
+    asyncapi_events: false
+    auth_clarity: false
+    consent_identity: false
+    error_semantics: false
+    idempotency: false
+    mcp_server: false
+    openapi_examples: false
+    rate_limit_signal: true
+    spec_presence: true
+    well_known_catalog: false
+  schema_version: 0.1
+  score: 38.5
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 4
   human_in_the_loop: 0
@@ -221,7 +239,7 @@ plans:
 - name: Ricoh Usa Plans Pricing
   plan_count: 3
   slug: ricoh-usa-plans-pricing
-random_paper: 25
+random_paper: 23
 rate_limits:
 - limit_count: 4
   name: Ricoh Usa Rate Limits
@@ -243,6 +261,21 @@ rules:
     info: 0
     warn: 11
   slug: theta-web-api-rules
+score:
+  band: developing
+  composite: 55.0
+  delta: 0.0
+  facets:
+    commercial_clarity: 39.5
+    contract_quality: 69.9
+    developer_ergonomics: 28.3
+    discoverability: 87.5
+    governance: 86.8
+    operational_transparency: 36.8
+  previous_composite: 55.0
+  schema_version: 0.5
+  scored_at: '2026-07-27'
+  trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/ricoh-usa/refs/heads/main/screenshots/ricoh-usa-2026-06-20T193118.png
 security:
 - kind: domain-security

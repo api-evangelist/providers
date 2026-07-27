@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 80.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 2
   human_in_the_loop: 0
@@ -181,11 +181,11 @@ overview: 'Robinhood publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Robinhood''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 22 more developer resources.'
-random_paper: 46
+random_paper: 12
 score:
   band: developing
   composite: 50.7
-  delta: 3.0
+  delta: 0.0
   facets:
     commercial_clarity: 21.1
     contract_quality: 63.7
@@ -193,14 +193,14 @@ score:
     discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 47.7
+  previous_composite: 50.7
   regulatory:
     applies: true
     regime: Securities & Market Data
     regime_id: securities_market_data
     score: 67.4
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

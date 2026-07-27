@@ -25,7 +25,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 0.0
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 0
 artifact_total: 19
 common:
@@ -103,11 +103,11 @@ press:
 - date: '2026-05-25'
   title: 'Huge Sartorius loss drives Bio-Rad (NYSE: BIO) Q1 2026 ...'
   url: https://www.stocktitan.net/sec-filings/BIO/10-q-bio-rad-laboratories-inc-quarterly-earnings-report-f49d8af29bd4.html
-random_paper: 13
+random_paper: 30
 score:
   band: minimal
   composite: 9.8
-  delta: 0.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -115,14 +115,14 @@ score:
     discoverability: 67.5
     governance: 0.0
     operational_transparency: 5.3
-  previous_composite: 9.2
+  previous_composite: 9.8
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 13.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: domain-security

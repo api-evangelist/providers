@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 9.6
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for querying biomedical and genomic datasets (now the QuartzBio EDP REST API). Served per-customer on instance hosts; requires authentication.
@@ -86,11 +86,11 @@ overview: 'SolveBio publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   SolveBio''s developer surface includes CLI, authentication, and 8 more developer resources.'
-random_paper: 0
+random_paper: 51
 score:
   band: emerging
   composite: 17.3
-  delta: 1.6
+  delta: 0.0
   facets:
     commercial_clarity: 0.0
     contract_quality: 0.0
@@ -98,14 +98,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 13.2
-  previous_composite: 15.7
+  previous_composite: 17.3
   regulatory:
     applies: true
     regime: Health
     regime_id: health
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 16
   human_in_the_loop: 0
@@ -124,31 +124,32 @@ plans:
 - name: Cross River Plans Pricing
   plan_count: 2
   slug: cross-river-plans-pricing
-random_paper: 29
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Cross River Rate Limits
   slug: cross-river-rate-limits
 score:
   band: thin
-  composite: 36.0
-  delta: -1.8
+  composite: 38.8
+  delta: 2.8
   facets:
     commercial_clarity: 42.1
     contract_quality: 58.4
     developer_ergonomics: 19.6
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 31.6
-  previous_composite: 37.8
+  previous_composite: 36.0
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 26.1
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/screenshots/cross-river-2026-07-25T210751.png
 security:
 - kind: authentication
   name: Cross River Authentication

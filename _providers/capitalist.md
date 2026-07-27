@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 1
   human_in_the_loop: 0
@@ -123,24 +123,24 @@ rate_limits:
   name: Capitalist Rate Limits
   slug: capitalist-rate-limits
 score:
-  band: thin
-  composite: 44.6
-  delta: -0.2
+  band: developing
+  composite: 46.3
+  delta: 1.7
   facets:
     commercial_clarity: 84.2
     contract_quality: 53.1
     developer_ergonomics: 19.6
-    discoverability: 60.0
+    discoverability: 80.0
     governance: 0.0
     operational_transparency: 36.8
-  previous_composite: 44.8
+  previous_composite: 44.6
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 43.5
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/capitalist/refs/heads/main/screenshots/capitalist-2026-06-20T173944.png
 security:

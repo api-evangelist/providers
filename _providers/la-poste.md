@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 12
   human_in_the_loop: 0
@@ -386,7 +386,7 @@ plans:
 - name: Suivi Plans
   plan_count: 2
   slug: suivi-plans
-random_paper: 40
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Colissimo Rate Limits
@@ -421,7 +421,7 @@ rules:
 score:
   band: developing
   composite: 47.4
-  delta: 2.0
+  delta: 0.0
   facets:
     commercial_clarity: 39.5
     contract_quality: 37.2
@@ -429,14 +429,14 @@ score:
     discoverability: 100.0
     governance: 73.7
     operational_transparency: 5.3
-  previous_composite: 45.4
+  previous_composite: 47.4
   regulatory:
     applies: true
     regime: Government & Public Sector
     regime_id: government
     score: 58.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/la-poste/refs/heads/main/screenshots/la-poste-2026-06-20T184234.png
 security:

@@ -27,7 +27,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 48.1
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 agentic_access:
 - acting_count: 3
   human_in_the_loop: 0
@@ -119,26 +119,27 @@ plans:
 - name: Blotato Plans Pricing
   plan_count: 3
   slug: blotato-plans-pricing
-random_paper: 43
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Blotato Rate Limits
   slug: blotato-rate-limits
 score:
   band: thin
-  composite: 37.0
-  delta: 0.0
+  composite: 40.3
+  delta: 3.3
   facets:
     commercial_clarity: 39.5
     contract_quality: 58.4
     developer_ergonomics: 21.7
-    discoverability: 67.5
+    discoverability: 100.0
     governance: 0.0
     operational_transparency: 26.3
   previous_composite: 37.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/blotato/refs/heads/main/screenshots/blotato-2026-07-25T203418.png
 security:
 - kind: authentication
   name: Blotato Authentication

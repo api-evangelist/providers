@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 16.3
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 3
 apis:
 - description: Public REST/search API for the Brown Digital Repository, the library's platform for gathering, indexing, storing, preserving, and making available digital assets from scholarly, instructional, researc
@@ -108,7 +108,7 @@ plans:
 - name: Brown Plans Pricing
   plan_count: 2
   slug: brown-plans-pricing
-random_paper: 42
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Brown Rate Limits
@@ -126,7 +126,7 @@ score:
     operational_transparency: 26.3
   previous_composite: 26.9
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/brown/refs/heads/main/screenshots/brown-2026-06-20T173721.png
 security:

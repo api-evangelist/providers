@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: false
   schema_version: 0.1
   score: 6.7
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: REST API for Logility's AI-powered supply chain planning platform, enabling integration with demand sensing, inventory optimization, supply planning, S&OP process management, and supply chain analytic
@@ -98,7 +98,7 @@ plans:
 - name: Logility Plans Pricing
   plan_count: 1
   slug: logility-plans-pricing
-random_paper: 10
+random_paper: 61
 rate_limits:
 - limit_count: 0
   name: Logility Rate Limits
@@ -116,7 +116,7 @@ score:
     operational_transparency: 0.0
   previous_composite: 19.3
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 screenshot: https://raw.githubusercontent.com/api-evangelist/logility/refs/heads/main/screenshots/logility-2026-06-20T184655.png
 security:

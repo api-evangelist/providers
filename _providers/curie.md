@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: The Catalog API from Curie — 1 operation(s) for catalog.
@@ -133,7 +133,7 @@ overview: 'Curie publishes 2 APIs on the [APIs.io](https://apis.io/) network: Ca
 
 
   Curie''s developer surface includes documentation, pricing, authentication, and 17 more developer resources.'
-random_paper: 26
+random_paper: 60
 scopes:
 - name: Curie Scopes
   scope_count: 1
@@ -152,8 +152,9 @@ score:
     operational_transparency: 0.0
   previous_composite: 39.7
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
+screenshot: https://raw.githubusercontent.com/api-evangelist/curie/refs/heads/main/screenshots/curie-2026-07-25T210955.png
 security:
 - kind: authentication
   name: Curie Authentication

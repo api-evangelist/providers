@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 3.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 1
 apis:
 - description: 'Paystand v3 REST API for B2B payments: create and manage payments, refunds, disputes, payers, customer banks, accounts, balances, scheduled payments, transfers and withdrawals, plus the Assurety block'
@@ -130,7 +130,7 @@ overview: 'PayStand publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   PayStand''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 1
+random_paper: 52
 scopes:
 - name: Paystand Scopes
   scope_count: 1
@@ -139,7 +139,7 @@ scopes:
 score:
   band: thin
   composite: 36.7
-  delta: 4.6
+  delta: 0.0
   facets:
     commercial_clarity: 52.6
     contract_quality: 0.0
@@ -147,14 +147,14 @@ score:
     discoverability: 92.5
     governance: 0.0
     operational_transparency: 21.1
-  previous_composite: 32.1
+  previous_composite: 36.7
   regulatory:
     applies: true
     regime: Payments
     regime_id: payments
     score: 63.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication

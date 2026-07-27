@@ -26,7 +26,7 @@ agent_readiness:
     well_known_catalog: true
   schema_version: 0.1
   score: 54.8
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
 api_count: 2
 apis:
 - description: Create, read, update, move, complete, and delete outline nodes.
@@ -161,7 +161,7 @@ overview: 'Workflowy publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Workflowy''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 43
+random_paper: 60
 score:
   band: developing
   composite: 49.0
@@ -175,7 +175,7 @@ score:
     operational_transparency: 36.8
   previous_composite: 49.0
   schema_version: 0.5
-  scored_at: '2026-07-23'
+  scored_at: '2026-07-27'
   trend: flat
 security:
 - kind: authentication
