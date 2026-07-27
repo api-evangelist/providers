@@ -13,6 +13,10 @@
       symbol: monitoring
       href: https://search.apievangelist.com/analytics/
 
+    - name: Score
+      symbol: workspace_premium
+      href: https://apievangelist.com/rating/
+
 
 - name: Learnings
   nav:
@@ -32,6 +36,10 @@
     - name: Papers
       symbol: description
       href: https://papers.apievangelist.com
+
+    - name: Newsletter
+      symbol: mail
+      href: https://newsletters.apievangelist.com
 
     - name: Videos
       symbol: video_library
@@ -98,87 +106,6 @@
 
         - name: Countries
           href: https://providers.apievangelist.com/countries/
-
-        - name: Australian Banks
-          href: https://providers.apievangelist.com/australian-banks/
-
-        - name: UK Banking
-          href: https://providers.apievangelist.com/uk-banks/
-
-        - name: US Banking
-          href: https://providers.apievangelist.com/us-banks/
-
-        - name: Canadian Banking
-          href: https://providers.apievangelist.com/canadian-banks/
-
-        - name: US Payments
-          href: https://providers.apievangelist.com/us-payments/
-
-        - name: UK Payments
-          href: https://providers.apievangelist.com/uk-payments/
-
-        - name: Australian Payments
-          href: https://providers.apievangelist.com/au-payments/
-
-        - name: Canadian Payments
-          href: https://providers.apievangelist.com/canadian-payments/
-
-        - name: US Healthcare
-          href: https://providers.apievangelist.com/us-healthcare/
-
-        - name: UK Healthcare
-          href: https://providers.apievangelist.com/uk-healthcare/
-
-        - name: Australian Healthcare
-          href: https://providers.apievangelist.com/au-healthcare/
-
-        - name: Canadian Healthcare
-          href: https://providers.apievangelist.com/canadian-healthcare/
-
-        - name: US Insurance
-          href: https://providers.apievangelist.com/us-insurance/
-
-        - name: UK Insurance
-          href: https://providers.apievangelist.com/uk-insurance/
-
-        - name: Australian Insurance
-          href: https://providers.apievangelist.com/au-insurance/
-
-        - name: Canadian Insurance
-          href: https://providers.apievangelist.com/canadian-insurance/
-
-        - name: Telecommunications
-          href: https://providers.apievangelist.com/telecom/
-
-        - name: Fortune 1000
-          href: https://providers.apievangelist.com/fortune-1000/
-
-        - name: U.S. Federal Government
-          href: https://providers.apievangelist.com/federal-government/
-
-        - name: European Government
-          href: https://providers.apievangelist.com/european-government/
-
-        - name: Apache
-          href: https://providers.apievangelist.com/apache/
-
-        - name: CNCF
-          href: https://providers.apievangelist.com/cncf/
-
-        - name: Exemplar
-          href: https://providers.apievangelist.com/exemplar/
-
-        - name: Strong
-          href: https://providers.apievangelist.com/strong/
-
-        - name: Developing
-          href: https://providers.apievangelist.com/developing/
-
-        - name: Thin
-          href: https://providers.apievangelist.com/thin/
-
-        - name: Minimal
-          href: https://providers.apievangelist.com/minimal/
 
     - name: APIs
       symbol: api
@@ -247,6 +174,10 @@
         - name: Kin Lane
           href: https://apievangelist.com/about/kin-lane
 
+    - name: Search Terms
+      symbol: query_stats
+      href: https://apievangelist.com/search-terms/
+
     - name: Contact
       symbol: contact_support
       href: https://apievangelist.com/contact
@@ -265,7 +196,7 @@
           href: https://mastodon.apievangelist.com/web/@api
 
         - name: Newsletter
-          href: https://buttondown.com/apievangelist
+          href: https://newsletters.apievangelist.com
 
         - name: Apple Podcasts
           href: https://podcasts.apple.com/us/podcast/api-evangelist-conversations/id1765157921
