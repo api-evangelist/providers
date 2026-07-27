@@ -32,7 +32,7 @@
   "name": "Banking & Open Banking",
   "description": "Banks, credit unions, neobanks, and the open-banking and banking-as-a-service rails that connect to them.",
   "icon": "savings",
-  "count": 819
+  "count": 826
  },
  {
   "slug": "biotechnology",
@@ -60,7 +60,7 @@
   "name": "Climate & Sustainability",
   "description": "Climate tech, clean energy, carbon accounting, and the ESG and circular-economy data companies now report against.",
   "icon": "eco",
-  "count": 877
+  "count": 910
  },
  {
   "slug": "cloud-data-platform",
@@ -130,14 +130,14 @@
   "name": "Developer Tools & DevOps",
   "description": "The companies developers build on — SDKs and CLIs, CI/CD, containers, observability, API gateways, and the platforms that run it all.",
   "icon": "terminal",
-  "count": 2880
+  "count": 2882
  },
  {
   "slug": "digital-health",
   "name": "Digital Health & Telehealth",
   "description": "Care delivered and coordinated through software — telehealth, EHR interoperability, patient engagement, remote monitoring, and behavioral health.",
   "icon": "monitor_heart",
-  "count": 1583
+  "count": 1584
  },
  {
   "slug": "e-commerce-platform",
@@ -235,7 +235,7 @@
   "name": "Government & Public Sector",
   "description": "Federal, state, and municipal agencies plus the open-data portals, GovTech vendors, and public-safety systems serving them.",
   "icon": "account_balance",
-  "count": 819
+  "count": 826
  },
  {
   "slug": "healthcare",
@@ -277,14 +277,14 @@
   "name": "IoT & Connected Devices",
   "description": "Sensors, telematics, smart home and industrial IoT — the physical world reporting in over an API.",
   "icon": "sensors",
-  "count": 786
+  "count": 789
  },
  {
   "slug": "legal-compliance",
   "name": "Legal & Compliance Tech",
   "description": "Legal software and the compliance, RegTech, and risk platforms companies use to stay inside the rules.",
   "icon": "gavel",
-  "count": 1032
+  "count": 1033
  },
  {
   "slug": "life-sciences",
@@ -312,7 +312,7 @@
   "name": "Marketing & Advertising",
   "description": "AdTech and MarTech — campaigns, attribution, customer data, personalization, and the demand-generation stack.",
   "icon": "campaign",
-  "count": 1344
+  "count": 1346
  },
  {
   "slug": "media",
@@ -333,7 +333,7 @@
   "name": "Mobility & Fleet",
   "description": "Ride-hailing, micromobility, fleet management, EV charging, and the telematics layer under moving vehicles.",
   "icon": "directions_car",
-  "count": 552
+  "count": 577
  },
  {
   "slug": "creator-economy",
@@ -403,7 +403,7 @@
   "name": "Semiconductors & Hardware",
   "description": "Chips, compute, consumer electronics, and the data-center hardware everything else is built on.",
   "icon": "memory",
-  "count": 1185
+  "count": 1186
  },
  {
   "slug": "space",
@@ -424,7 +424,7 @@
   "name": "Supply Chain & Procurement",
   "description": "Sourcing, procurement, freight, warehousing, and the inventory and fulfillment systems that move goods.",
   "icon": "inventory_2",
-  "count": 1161
+  "count": 1166
  },
  {
   "slug": "tax-compliance-software",
@@ -473,7 +473,7 @@
   "name": "Venture Capital & Investing",
   "description": "The firms allocating capital and the platforms moving it — venture and private equity, brokerages, trading, market data, and wealth management.",
   "icon": "trending_up",
-  "count": 1321
+  "count": 1326
  },
  {
   "slug": "video-streaming",
@@ -494,6 +494,6 @@
   "name": "Weather & Geospatial",
   "description": "Weather, mapping, geocoding, and the satellite and location data feeding everything from logistics to insurance.",
   "icon": "public",
-  "count": 469
+  "count": 474
  }
 ]

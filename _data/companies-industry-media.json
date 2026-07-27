@@ -8,26 +8,26 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Warner Music Group",
      "slug": "warner-music-group",
      "description": "Warner Music Group is one of the major record labels in the music industry, with recorded music and music publishing operations spanning a roster of artists, songwriters, and labels around the world. WMG includes Warner Records, Atlantic Records, Elektra Records, and Warner Chappell Music (one of the world's largest music publishing companies). WMG provides music licensing APIs and developer tools for integrating licensed music into applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/warner-music-group/refs/heads/main/screenshots/warner-music-group-2026-06-20T201229.png",
-     "score": 51.4,
+     "score": 56.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 68.1,
+      "discoverability": 100.0,
+      "contract_quality": 73.5,
       "governance": 73.7,
       "operational_transparency": 36.8,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -52,18 +52,18 @@
      "slug": "warner-bros-discovery",
      "description": "Warner Bros. Discovery is a leading global media and entertainment company that creates and distributes the world's most differentiated and complete portfolio of branded content across television, film, and streaming. WBD operates the Max streaming platform, Warner Bros. film studio, HBO, CNN, Discovery, TNT, TBS, and many other brands. The company provides content partner APIs for media supply chain integration and maintains open source projects through its engineering teams.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/screenshots/warner-bros-discovery-2026-06-20T201227.png",
-     "score": 47.5,
+     "score": 52.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 68.1,
+      "discoverability": 100.0,
+      "contract_quality": 73.5,
       "governance": 73.7,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -84,22 +84,58 @@
      "rank": 2
     },
     {
+     "name": "TEGNA",
+     "slug": "tegna",
+     "description": "TEGNA Inc. is an American broadcast, digital media, and marketing services company headquartered in Tysons, Virginia, operating as a subsidiary of Nexstar Media Group following FCC approval of the $6.2 billion acquisition in March 2026. TEGNA operates 64 full-power broadcast television stations across 51 U.S. markets, reaching approximately 39 percent of all television households. TEGNA offers digital marketing solutions including AudienceOne first-party data targeting, OTT/CTV advertising through its Premion platform, and the TEGNA Marketing Solutions full-service agency. The company provides advertising APIs and programmatic integrations for digital, broadcast, streaming, and connected TV advertising campaigns.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/screenshots/tegna-2026-06-20T195014.png",
+     "score": 48.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 68.8,
+      "governance": 73.7,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 3
+    },
+    {
      "name": "Elsevier",
      "slug": "elsevier",
      "description": "Elsevier is a Dutch academic publishing company specializing in scientific, technical, and medical content. Its products include journals such as The Lancet and Cell, the ScienceDirect collection of electronic journals, the online citation database Scopus, the SciVal research performance platform, and the ClinicalKey search engine for clinicians.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/elsevier/refs/heads/main/screenshots/elsevier-2026-06-20T180616.png",
-     "score": 46.4,
+     "score": 48.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 87.5,
       "contract_quality": 54.0,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 52.2,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -123,7 +159,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 3
+     "rank": 4
     }
    ],
    "open": true
@@ -133,45 +169,9 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 2,
-   "shown": 2,
+   "count": 1,
+   "shown": 1,
    "companies": [
-    {
-     "name": "TEGNA",
-     "slug": "tegna",
-     "description": "TEGNA Inc. is an American broadcast, digital media, and marketing services company headquartered in Tysons, Virginia, operating as a subsidiary of Nexstar Media Group following FCC approval of the $6.2 billion acquisition in March 2026. TEGNA operates 64 full-power broadcast television stations across 51 U.S. markets, reaching approximately 39 percent of all television households. TEGNA offers digital marketing solutions including AudienceOne first-party data targeting, OTT/CTV advertising through its Premion platform, and the TEGNA Marketing Solutions full-service agency. The company provides advertising APIs and programmatic integrations for digital, broadcast, streaming, and connected TV advertising campaigns.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tegna/refs/heads/main/screenshots/tegna-2026-06-20T195014.png",
-     "score": 44.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 63.5,
-      "governance": 73.7,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 4
-    },
     {
      "name": "Clear Channel Outdoor Holdings",
      "slug": "clear-channel-outdoor-hldgs",
@@ -188,7 +188,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 24.0,
      "agent_band": "agent-aware",
@@ -234,7 +234,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -270,7 +270,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -306,7 +306,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -352,7 +352,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -388,7 +388,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -424,7 +424,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -459,7 +459,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -501,7 +501,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -537,7 +537,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -573,7 +573,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -609,7 +609,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -644,7 +644,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -679,7 +679,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -715,7 +715,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -750,7 +750,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -786,7 +786,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -822,7 +822,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -858,7 +858,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

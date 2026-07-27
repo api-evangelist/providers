@@ -8,8 +8,8 @@
    "label": "Exemplar",
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "companies": [
     {
      "name": "Stripe",
@@ -27,7 +27,7 @@
       "developer_ergonomics": 100.0,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -59,18 +59,18 @@
      "slug": "square",
      "description": "Square provides APIs for payment processing, point of sale, and business management solutions enabling developers to build custom commerce applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/square/refs/heads/main/screenshots/square-2026-06-20T194428.png",
-     "score": 75.7,
+     "score": 76.7,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 67.5,
       "contract_quality": 72.3,
       "governance": 65.8,
       "operational_transparency": 76.3,
       "developer_ergonomics": 82.6,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -113,7 +113,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -156,7 +156,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -182,6 +182,43 @@
      },
      "tier": "Embedded Finance & BaaS",
      "rank": 4
+    },
+    {
+     "name": "Socure",
+     "slug": "socure",
+     "description": "Socure is the leading vertically-integrated digital identity verification and fraud-prevention platform, used by 3,000+ banks, fintechs, crypto exchanges, marketplaces, gaming operators, and public-sector agencies. The ID+ API exposes Socure's KYC, document verification (DocV), Sigma fraud models, RiskScore (email / phone / address), Global Watchlist screening, Deceased Check, eCBSV, Digital Intelligence (SigmaDevice), Graph Intelligence, Account Intelligence, Prefill, and Decision modules through a single multi-module REST call, complemented by the RiskOS orchestration platform, native mobile SDKs, and webhook event streams. Socure is headquartered in Incline Village, Nevada with origins in New York City.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/screenshots/socure-2026-06-20T194123.png",
+     "score": 71.3,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 76.9,
+      "governance": 65.8,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 78.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 53.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Fraud, Risk & Identity",
+     "rank": 5
     }
    ],
    "open": true
@@ -191,26 +228,63 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 12,
-   "shown": 12,
+   "count": 11,
+   "shown": 11,
    "companies": [
+    {
+     "name": "Fireblocks",
+     "slug": "fireblocks",
+     "description": "Fireblocks is an institutional digital-asset and stablecoin infrastructure company providing MPC-secured custody, wallets (custodial and non-custodial / embedded), payments, tokenization, staking, smart contracts, off-exchange settlement, and DeFi security to trading firms, fintechs, exchanges, payment service providers, banks, financial institutions, and Web3 companies. The Fireblocks REST API exposes 236+ operations across 15 surface areas — Vaults, Transactions, Wallets, Assets, Exchange, Tokenization, Contracts, Staking, NFTs, Payments, Network/Off-Exchange, Compliance, Gas Station, Workspace Management, and Webhooks — alongside the separate Non-Custodial Wallet (NCW) API for embedded wallets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/screenshots/fireblocks-2026-06-20T181228.png",
+     "score": 69.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 67.3,
+      "governance": 73.7,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 63.0,
+      "commercial_clarity": 78.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 54.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": true,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Crypto & Stablecoin Rails",
+     "rank": 6
+    },
     {
      "name": "Block",
      "slug": "block",
      "description": "Block, Inc. is a global technology company building economic empowerment tools through a family of products including Square (commerce and payments), Cash App (personal finance and investing), Afterpay (buy now pay later), TIDAL (music streaming), and Spiral (open-source Bitcoin development). The Square API enables developers to build commerce applications with payment processing, order management, catalog, customer engagement, and business operations capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/screenshots/block-2026-07-25T203345.png",
-     "score": 67.8,
+     "score": 69.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 87.5,
       "contract_quality": 65.5,
       "governance": 86.8,
       "operational_transparency": 52.6,
       "developer_ergonomics": 45.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -235,86 +309,6 @@
       "consent_identity": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 5
-    },
-    {
-     "name": "Socure",
-     "slug": "socure",
-     "description": "Socure is the leading vertically-integrated digital identity verification and fraud-prevention platform, used by 3,000+ banks, fintechs, crypto exchanges, marketplaces, gaming operators, and public-sector agencies. The ID+ API exposes Socure's KYC, document verification (DocV), Sigma fraud models, RiskScore (email / phone / address), Global Watchlist screening, Deceased Check, eCBSV, Digital Intelligence (SigmaDevice), Graph Intelligence, Account Intelligence, Prefill, and Decision modules through a single multi-module REST call, complemented by the RiskOS orchestration platform, native mobile SDKs, and webhook event streams. Socure is headquartered in Incline Village, Nevada with origins in New York City.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/socure/refs/heads/main/screenshots/socure-2026-06-20T194123.png",
-     "score": 67.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 55.0,
-      "contract_quality": 68.0,
-      "governance": 65.8,
-      "operational_transparency": 60.5,
-      "developer_ergonomics": 65.2,
-      "commercial_clarity": 78.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 53.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Fraud, Risk & Identity",
-     "rank": 6
-    },
-    {
-     "name": "PayPal",
-     "slug": "paypal",
-     "description": "PayPal is a global online payment system that lets individuals and businesses send and receive money electronically. PayPal exposes a broad surface of REST APIs covering payments, orders, subscriptions, invoicing, payouts, disputes, payment tokens, shipping tracking, transaction reporting, partner referrals, payment experience, and webhook notifications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/screenshots/paypal-2026-06-20T191505.png",
-     "score": 66.7,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 55.3,
-      "governance": 73.7,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 37.0,
-      "commercial_clarity": 78.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 89.1
-     },
-     "agent_score": 55.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Gateways & PSPs",
      "rank": 7
     },
     {
@@ -322,18 +316,18 @@
      "slug": "highnote",
      "description": "Highnote is a modern, unified embedded-finance and banking-as-a-service platform for card issuing, card acquiring, credit, and real-time money movement, with a built-in real-time programmable ledger and full program management. The entire platform is driven by a single GraphQL API at https://api.us.highnote.com/graphql (test https://api.us.test.highnote.com/graphql), authenticated with a base64-encoded API key over HTTP Basic auth. One endpoint covers card products, US person and business account holders (KYC/KYB onboarding), financial accounts and credit lines, virtual/physical/tokenized payment cards, transaction authorization and clearing, disputes, spend and velocity rules, collaborative authorization, multi-rail money movement (ACH, wire, RTP, push-to-card), and outbound webhook event notifications. Highnote is a US-based platform serving digital-first businesses embedding financial products; access is enterprise, contract-gated, with self-serve dashboard signup and a test environment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/screenshots/highnote-2026-06-20T182732.png",
-     "score": 65.5,
+     "score": 68.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 72.6,
       "governance": 0.0,
       "operational_transparency": 73.7,
       "developer_ergonomics": 73.9,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -361,6 +355,86 @@
      "rank": 8
     },
     {
+     "name": "Ramp",
+     "slug": "ramp",
+     "description": "Ramp is a finance automation platform that combines corporate cards, expense management, accounts payable, vendor management, and accounting integrations into a single product. The Ramp Developer API enables developers to access and manage Ramp account data, build applications for the Ramp App Center reaching over 25,000 Ramp customers, and automate financial workflows by integrating Ramp into existing systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/screenshots/ramp-2026-06-20T192620.png",
+     "score": 67.9,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 78.4,
+      "governance": 65.8,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 39.1,
+      "commercial_clarity": 78.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 53.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Spend, AP & AR",
+     "rank": 9
+    },
+    {
+     "name": "PayPal",
+     "slug": "paypal",
+     "description": "PayPal is a global online payment system that lets individuals and businesses send and receive money electronically. PayPal exposes a broad surface of REST APIs covering payments, orders, subscriptions, invoicing, payouts, disputes, payment tokens, shipping tracking, transaction reporting, partner referrals, payment experience, and webhook notifications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/paypal/refs/heads/main/screenshots/paypal-2026-06-20T191505.png",
+     "score": 66.7,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 55.3,
+      "governance": 73.7,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 37.0,
+      "commercial_clarity": 78.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 89.1
+     },
+     "agent_score": 55.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Gateways & PSPs",
+     "rank": 10
+    },
+    {
      "name": "Finix",
      "slug": "finix",
      "description": "Finix is a full-stack payments technology provider that lets software platforms, marketplaces, and merchants accept and send payments online and in person. The Finix API is a HAL/HATEOAS REST API (HTTP Basic authentication per RFC 7617, date-based Finix-Version header, cursor pagination, idempotency_id) covering Identities, Merchants, Payment Instruments, Authorizations, Transfers, Settlements, Disputes, Fee Profiles, Verifications, Onboarding Forms, Devices, Balance Transfers, Split Transfers, and Webhooks, plus low-code Checkout, Payment Links, Subscriptions, and Payouts. It is Level 1 PCI DSS certified with finix.js browser tokenization, native iOS/Android SDKs, and official Python, Node.js, Java, and PHP client libraries. This profile was enriched from Finix's own public developer surface.",
@@ -376,7 +450,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -401,269 +475,25 @@
       "consent_identity": false
      },
      "tier": "Embedded Finance & BaaS",
-     "rank": 9
-    },
-    {
-     "name": "Fireblocks",
-     "slug": "fireblocks",
-     "description": "Fireblocks is an institutional digital-asset and stablecoin infrastructure company providing MPC-secured custody, wallets (custodial and non-custodial / embedded), payments, tokenization, staking, smart contracts, off-exchange settlement, and DeFi security to trading firms, fintechs, exchanges, payment service providers, banks, financial institutions, and Web3 companies. The Fireblocks REST API exposes 236+ operations across 15 surface areas — Vaults, Transactions, Wallets, Assets, Exchange, Tokenization, Contracts, Staking, NFTs, Payments, Network/Off-Exchange, Compliance, Gas Station, Workspace Management, and Webhooks — alongside the separate Non-Custodial Wallet (NCW) API for embedded wallets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fireblocks/refs/heads/main/screenshots/fireblocks-2026-06-20T181228.png",
-     "score": 65.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 55.0,
-      "contract_quality": 62.0,
-      "governance": 73.7,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 63.0,
-      "commercial_clarity": 78.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 54.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": true,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Crypto & Stablecoin Rails",
-     "rank": 10
-    },
-    {
-     "name": "Spreedly",
-     "slug": "spreedly",
-     "description": "Spreedly is a United States payments orchestration platform and PCI-compliant card vault that lets merchants and platforms securely tokenize payment methods once and then transact against hundreds of payment gateways, processors, and third-party APIs through a single integration. Founded in 2008 and headquartered in Durham, North Carolina, Spreedly sits in the gateway/PSP layer of the deep, fragmented US payments market as an independent, network-agnostic intermediary rather than a card network or acquirer. Its Payments Orchestration offering combines a universal token vault, a normalized transaction API across many gateways, workflow-based routing (Composer), network tokenization, account updater (Card Refresher), 3-D Secure / SCA authentication, and Receivers for forwarding stored payment data to arbitrary third-party endpoints. Spreedly is strongly API-native: it publishes a public developer portal with complete reference documentation and a downloadable OpenAPI 3.1 specification for its Core Transactional API (https://core.spreedly.com/v1), authenticated with HTTP Basic auth using per-environment key/secret credentials.",
-     "score": 62.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 60.4,
-      "governance": 0.0,
-      "operational_transparency": 63.2,
-      "developer_ergonomics": 84.8,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 65.2
-     },
-     "agent_score": 83.7,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": true,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Gateways & PSPs",
      "rank": 11
-    },
-    {
-     "name": "Dwolla",
-     "slug": "dwolla",
-     "description": "Dwolla is a Des Moines-based fintech providing an account-to-account (A2A) payments platform that lets businesses programmatically move money across the U.S. banking system. Its v2 REST API — a JSON-HAL hypermedia API secured with OAuth 2.0 client-credentials — supports ACH (standard and Same-Day), instant/real-time payments over the RTP Network and FedNow Service, bank funding sources with micro-deposit and Open Banking (Plaid/MX) verification, verified Customers (personal and business with beneficial-owner/KYC flows), mass payments, labels and ledgers, virtual account numbers, and webhook event notifications. Dwolla ships official SDKs for Node, Python, Ruby, PHP, C#, and Kotlin, low-code Drop-in Components, and a read-only MCP server for AI agents.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/screenshots/dwolla-2026-07-25T212550.png",
-     "score": 62.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 68.2,
-      "governance": 0.0,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 80.4,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 65.2
-     },
-     "agent_score": 90.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": true,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Financial Data & Aggregation",
-     "rank": 12
-    },
-    {
-     "name": "Ramp",
-     "slug": "ramp",
-     "description": "Ramp is a finance automation platform that combines corporate cards, expense management, accounts payable, vendor management, and accounting integrations into a single product. The Ramp Developer API enables developers to access and manage Ramp account data, build applications for the Ramp App Center reaching over 25,000 Ramp customers, and automate financial workflows by integrating Ramp into existing systems.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ramp/refs/heads/main/screenshots/ramp-2026-06-20T192620.png",
-     "score": 62.5,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 69.5,
-      "governance": 65.8,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 39.1,
-      "commercial_clarity": 78.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 53.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Spend, AP & AR",
-     "rank": 13
-    },
-    {
-     "name": "Payabli",
-     "slug": "payabli",
-     "description": "Payabli is an embedded payments platform and fintech operating system that lets software companies integrate and monetize financial services directly inside their products through a single API. Its \"three Ps\" cover Pay In (payment acceptance and receivables), Pay Out (payables and disbursements), and Pay Ops (boarding, operations, reporting, and money movement). The platform provides card and ACH processing, tokenization, PCI-certified embedded checkout components, subscriptions and recurring billing, invoicing, vendor and customer management, disputes, and a webhook event surface, along with official server SDKs in eight languages, a hosted MCP server, and packaged agent skills.",
-     "score": 60.6,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 53.6,
-      "governance": 0.0,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 87.0,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 65.2
-     },
-     "agent_score": 79.8,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": true,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Gateways & PSPs",
-     "rank": 14
-    },
-    {
-     "name": "Cash App",
-     "slug": "cash-app",
-     "description": "Cash App is a consumer mobile-first financial services platform operated by Block, Inc. (formerly Square, Inc.), a publicly traded company. Cash App is not itself a chartered bank; its banking, card, and lending features are delivered through partner institutions (deposit accounts and the Cash App Card are issued by partner banks, historically Sutton Bank and Lincoln Savings Bank; brokerage and bitcoin services run through Block subsidiaries). Its public developer surface is a merchant/PSP payment-acceptance product, not a consumer-permissioned data-access API - Cash App Pay lets partners and payment service providers charge customers directly from their Cash App balance or linked funding source, and the Afterpay (Cash App Afterpay) buy-now-pay-later product is offered through the same portal. Block runs a real, public first-party developer portal at developers.cash.app (built on Fern) that publishes downloadable OpenAPI 3.1 specifications for the Cash App Pay Partner API (Customer Request, Network, and Management APIs on api.cash.app) and the Afterpay Global API (on global-api.afterpay.com). Consumer-side account data is reached by third parties through aggregators (e.g. Plaid) rather than a first-party FDX data-access API; no FDX participation or CFPB Section 1033 data-rights posture is documented in the developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/screenshots/cash-app-2026-07-25T204719.png",
-     "score": 60.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 60.4,
-      "governance": 0.0,
-      "operational_transparency": 63.2,
-      "developer_ergonomics": 76.1,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 89.1
-     },
-     "agent_score": 86.5,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": true,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "tier": "Gateways & PSPs",
-     "rank": 15
     },
     {
      "name": "Authorize.net",
      "slug": "authorize-net",
      "description": "Authorize.net is a leading payment gateway providing secure online payment processing for merchants. It offers a POST-based XML/JSON API, Accept.js hosted payment forms, the Accept Hosted solution, recurring billing (ARB), customer profile management (CIM), advanced fraud detection, and webhooks. Official SDKs are available for PHP, .NET, Java, Ruby, Python, and Node.js.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/authorize-net/refs/heads/main/screenshots/authorize-net-2026-06-20T172612.png",
-     "score": 60.2,
+     "score": 63.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 56.6,
       "governance": 0.0,
       "operational_transparency": 68.4,
       "developer_ergonomics": 65.2,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -688,41 +518,30 @@
       "consent_identity": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 16
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "45–59.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 17,
-   "shown": 17,
-   "companies": [
+     "rank": 12
+    },
     {
-     "name": "Paxos",
-     "slug": "paxos",
-     "description": "Paxos is a regulated blockchain and stablecoin infrastructure company that lets enterprises move any asset, any time, through a single API. The Paxos v2 REST/FIX/WebSocket platform covers stablecoin issuance and 1:1 conversion (USDG, PYUSD, USDP, PAXG), crypto brokerage and order-book trading, held-rate quotes, custody, fiat and crypto transfers, identity/KYC and account onboarding, orchestration workflows, rewards, tax forms, and Travel Rule compliance. Authentication is OAuth 2.0 client credentials, errors are RFC 9457 problem+json, and a full sandbox with test tooling is provided. Paxos issues PayPal USD (PYUSD) and the Global Dollar (USDG).",
-     "score": 57.9,
-     "band": "developing",
-     "band_label": "Developing",
+     "name": "Spreedly",
+     "slug": "spreedly",
+     "description": "Spreedly is a United States payments orchestration platform and PCI-compliant card vault that lets merchants and platforms securely tokenize payment methods once and then transact against hundreds of payment gateways, processors, and third-party APIs through a single integration. Founded in 2008 and headquartered in Durham, North Carolina, Spreedly sits in the gateway/PSP layer of the deep, fragmented US payments market as an independent, network-agnostic intermediary rather than a card network or acquirer. Its Payments Orchestration offering combines a universal token vault, a normalized transaction API across many gateways, workflow-based routing (Composer), network tokenization, account updater (Card Refresher), 3-D Secure / SCA authentication, and Receivers for forwarding stored payment data to arbitrary third-party endpoints. Spreedly is strongly API-native: it publishes a public developer portal with complete reference documentation and a downloadable OpenAPI 3.1 specification for its Core Transactional API (https://core.spreedly.com/v1), authenticated with HTTP Basic auth using per-environment key/secret credentials.",
+     "score": 62.8,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
       "discoverability": 100.0,
-      "contract_quality": 64.8,
+      "contract_quality": 60.4,
       "governance": 0.0,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 73.9,
-      "commercial_clarity": 34.2
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 84.8,
+      "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 76.1
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 65.2
      },
      "agent_score": 83.7,
      "agent_band": "agent-native",
@@ -740,25 +559,68 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "tier": "Crypto & Stablecoin Rails",
-     "rank": 17
+     "tier": "Gateways & PSPs",
+     "rank": 13
     },
     {
-     "name": "TabaPay",
-     "slug": "tabapay",
-     "description": "TabaPay is an instant money movement platform for fintechs, banks, and payment companies. One Unified API accepts payments (pull) and sends payouts (push) across debit and credit card networks (Visa, Mastercard, Discover, American Express, Accel, STAR), RTP by The Clearing House, and ACH, with cross-border push-to-card, 3D Secure, account verification (AVS, ANI, OFAC), tokenized card storage, KYB/KYC verifications, ledgers, and real-time transaction monitoring. TabaPay is a PCI DSS Level 1 service provider, SOC 1 and SOC 2 Type II certified, and backed by SoftBank Vision Fund. APIs are not publicly self-serve: clients board through TabaPay and receive a dedicated FQDN plus bearer credentials for sandbox and production.",
-     "score": 57.5,
-     "band": "developing",
-     "band_label": "Developing",
+     "name": "Dwolla",
+     "slug": "dwolla",
+     "description": "Dwolla is a Des Moines-based fintech providing an account-to-account (A2A) payments platform that lets businesses programmatically move money across the U.S. banking system. Its v2 REST API — a JSON-HAL hypermedia API secured with OAuth 2.0 client-credentials — supports ACH (standard and Same-Day), instant/real-time payments over the RTP Network and FedNow Service, bank funding sources with micro-deposit and Open Banking (Plaid/MX) verification, verified Customers (personal and business with beneficial-owner/KYC flows), mass payments, labels and ledgers, virtual account numbers, and webhook event notifications. Dwolla ships official SDKs for Node, Python, Ruby, PHP, C#, and Kotlin, low-code Drop-in Components, and a read-only MCP server for AI agents.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dwolla/refs/heads/main/screenshots/dwolla-2026-07-25T212550.png",
+     "score": 62.5,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
       "discoverability": 100.0,
-      "contract_quality": 55.8,
+      "contract_quality": 68.2,
       "governance": 0.0,
       "operational_transparency": 52.6,
-      "developer_ergonomics": 84.8,
-      "commercial_clarity": 42.1
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 65.2
+     },
+     "agent_score": 90.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Financial Data & Aggregation",
+     "rank": 14
+    },
+    {
+     "name": "Payabli",
+     "slug": "payabli",
+     "description": "Payabli is an embedded payments platform and fintech operating system that lets software companies integrate and monetize financial services directly inside their products through a single API. Its \"three Ps\" cover Pay In (payment acceptance and receivables), Pay Out (payables and disbursements), and Pay Ops (boarding, operations, reporting, and money movement). The platform provides card and ACH processing, tokenization, PCI-certified embedded checkout components, subscriptions and recurring billing, invoicing, vendor and customer management, disputes, and a webhook event surface, along with official server SDKs in eight languages, a hosted MCP server, and packaged agent skills.",
+     "score": 60.6,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 53.6,
+      "governance": 0.0,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 87.0,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -766,42 +628,96 @@
       "regime_id": "payments",
       "score": 65.2
      },
-     "agent_score": 70.2,
+     "agent_score": 79.8,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
-      "agentic_access": false,
+      "agentic_access": true,
       "mcp_server": true,
       "auth_clarity": true,
       "idempotency": true,
       "error_semantics": true,
       "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
       "agent_skills": true,
-      "well_known_catalog": true,
+      "well_known_catalog": false,
       "consent_identity": false
      },
-     "tier": "Embedded Finance & BaaS",
-     "rank": 18
+     "tier": "Gateways & PSPs",
+     "rank": 15
     },
+    {
+     "name": "Cash App",
+     "slug": "cash-app",
+     "description": "Cash App is a consumer mobile-first financial services platform operated by Block, Inc. (formerly Square, Inc.), a publicly traded company. Cash App is not itself a chartered bank; its banking, card, and lending features are delivered through partner institutions (deposit accounts and the Cash App Card are issued by partner banks, historically Sutton Bank and Lincoln Savings Bank; brokerage and bitcoin services run through Block subsidiaries). Its public developer surface is a merchant/PSP payment-acceptance product, not a consumer-permissioned data-access API - Cash App Pay lets partners and payment service providers charge customers directly from their Cash App balance or linked funding source, and the Afterpay (Cash App Afterpay) buy-now-pay-later product is offered through the same portal. Block runs a real, public first-party developer portal at developers.cash.app (built on Fern) that publishes downloadable OpenAPI 3.1 specifications for the Cash App Pay Partner API (Customer Request, Network, and Management APIs on api.cash.app) and the Afterpay Global API (on global-api.afterpay.com). Consumer-side account data is reached by third parties through aggregators (e.g. Plaid) rather than a first-party FDX data-access API; no FDX participation or CFPB Section 1033 data-rights posture is documented in the developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cash-app/refs/heads/main/screenshots/cash-app-2026-07-25T204719.png",
+     "score": 60.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 60.4,
+      "governance": 0.0,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 76.1,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 89.1
+     },
+     "agent_score": 86.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "Gateways & PSPs",
+     "rank": 16
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 19,
+   "shown": 19,
+   "companies": [
     {
      "name": "Circle",
      "slug": "circle",
      "description": "Circle Internet Financial is the issuer of USDC and EURC and operates a developer platform for moving regulated stablecoin money across the internet. Their APIs cover programmable wallets (developer- and user-controlled), gas sponsorship, the Cross-Chain Transfer Protocol (CCTP), Gateway unified balances, the Smart Contract Platform, the Circle Payments Network (CPN) for cross-border payments, compliance, StableFX trading on Arc, and xReserve for issuing USDC-backed stablecoins.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/circle/refs/heads/main/screenshots/circle-2026-06-20T174349.png",
-     "score": 56.9,
+     "score": 59.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 66.4,
       "governance": 52.6,
       "operational_transparency": 52.6,
       "developer_ergonomics": 43.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -826,30 +742,29 @@
       "consent_identity": false
      },
      "tier": "Crypto & Stablecoin Rails",
-     "rank": 19
+     "rank": 17
     },
     {
-     "name": "Bridge",
-     "slug": "bridge",
-     "description": "Bridge is stablecoin payment and money-movement infrastructure for developers. Its composable REST APIs let businesses accept, hold, convert, and pay out stablecoins and fiat through a single integration: onboard customers with KYC/KYB, issue USD/EUR/MXN virtual accounts, orchestrate cross-chain and cross-border transfers, custody balances in Bridge Wallets, convert between stablecoins, issue stablecoin-backed cards (via Stripe Issuing), and issue your own stablecoin. The Bridge API is versioned at /v0, authenticated with a scoped Api-Key header, and supports idempotent writes plus a webhook event surface. Bridge was acquired by Stripe. Backed by Ribbit Capital.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/screenshots/bridge-2026-07-25T203806.png",
-     "score": 55.2,
+     "name": "Paxos",
+     "slug": "paxos",
+     "description": "Paxos is a regulated blockchain and stablecoin infrastructure company that lets enterprises move any asset, any time, through a single API. The Paxos v2 REST/FIX/WebSocket platform covers stablecoin issuance and 1:1 conversion (USDG, PYUSD, USDP, PAXG), crypto brokerage and order-book trading, held-rate quotes, custody, fiat and crypto transfers, identity/KYC and account onboarding, orchestration workflows, rewards, tax forms, and Travel Rule compliance. Authentication is OAuth 2.0 client credentials, errors are RFC 9457 problem+json, and a full sandbox with test tooling is provided. Paxos issues PayPal USD (PYUSD) and the Global Dollar (USDG).",
+     "score": 57.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 100.0,
-      "contract_quality": 63.1,
+      "contract_quality": 64.8,
       "governance": 0.0,
-      "operational_transparency": 31.6,
+      "operational_transparency": 52.6,
       "developer_ergonomics": 73.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
       "score": 76.1
      },
      "agent_score": 83.7,
@@ -869,25 +784,67 @@
       "consent_identity": false
      },
      "tier": "Crypto & Stablecoin Rails",
-     "rank": 20
+     "rank": 18
+    },
+    {
+     "name": "TabaPay",
+     "slug": "tabapay",
+     "description": "TabaPay is an instant money movement platform for fintechs, banks, and payment companies. One Unified API accepts payments (pull) and sends payouts (push) across debit and credit card networks (Visa, Mastercard, Discover, American Express, Accel, STAR), RTP by The Clearing House, and ACH, with cross-border push-to-card, 3D Secure, account verification (AVS, ANI, OFAC), tokenized card storage, KYB/KYC verifications, ledgers, and real-time transaction monitoring. TabaPay is a PCI DSS Level 1 service provider, SOC 1 and SOC 2 Type II certified, and backed by SoftBank Vision Fund. APIs are not publicly self-serve: clients board through TabaPay and receive a dedicated FQDN plus bearer credentials for sandbox and production.",
+     "score": 57.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 55.8,
+      "governance": 0.0,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 84.8,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 65.2
+     },
+     "agent_score": 70.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Embedded Finance & BaaS",
+     "rank": 19
     },
     {
      "name": "Moov",
      "slug": "moov",
      "description": "Moov is a financial infrastructure platform that enables developers to embed money movement capabilities directly into their applications. Their developer platform provides a RESTful API, client-side JavaScript SDK, pre-built UI components, and official backend SDKs across multiple languages for building compliant, full-featured financial products.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/moov/refs/heads/main/screenshots/moov-2026-06-20T185802.png",
-     "score": 53.2,
+     "score": 56.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 77.9,
+      "discoverability": 87.5,
+      "contract_quality": 86.7,
       "governance": 52.6,
       "operational_transparency": 26.3,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -912,6 +869,49 @@
       "consent_identity": false
      },
      "tier": "Embedded Finance & BaaS",
+     "rank": 20
+    },
+    {
+     "name": "Bridge",
+     "slug": "bridge",
+     "description": "Bridge is stablecoin payment and money-movement infrastructure for developers. Its composable REST APIs let businesses accept, hold, convert, and pay out stablecoins and fiat through a single integration: onboard customers with KYC/KYB, issue USD/EUR/MXN virtual accounts, orchestrate cross-chain and cross-border transfers, custody balances in Bridge Wallets, convert between stablecoins, issue stablecoin-backed cards (via Stripe Issuing), and issue your own stablecoin. The Bridge API is versioned at /v0, authenticated with a scoped Api-Key header, and supports idempotent writes plus a webhook event surface. Bridge was acquired by Stripe. Backed by Ribbit Capital.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bridge/refs/heads/main/screenshots/bridge-2026-07-25T203806.png",
+     "score": 55.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 63.1,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 76.1
+     },
+     "agent_score": 83.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Crypto & Stablecoin Rails",
      "rank": 21
     },
     {
@@ -919,18 +919,18 @@
      "slug": "mastercard",
      "description": "Mastercard is a global technology company in the payments industry, providing APIs for payment processing, fraud detection, data analytics, and financial services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/screenshots/mastercard-2026-06-20T185023.png",
-     "score": 52.2,
+     "score": 53.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 67.5,
       "contract_quality": 54.9,
       "governance": 73.7,
       "operational_transparency": 42.1,
       "developer_ergonomics": 41.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -958,45 +958,46 @@
      "rank": 22
     },
     {
-     "name": "Orum",
-     "slug": "orum",
-     "description": "Orum is a payments infrastructure company that lets businesses move money and verify bank accounts through a single unified API. Its Deliver product provides \"Direct to Fed\" money movement across FedNow, RTP, Same Day ACH, ACH, Wires, and Visa Direct; Verify instantly confirms bank account status, ownership, and control; and Monitor is a portal for orchestrating and reconciling payment operations in real time. The REST API uses OAuth 2.0 client-credentials, offers signed webhooks for money-movement events, and ships a published OpenAPI spec and an OpenAPI-generated MCP server. Orum is backed by Accel, Bain Capital Ventures, and Craft Ventures.",
-     "score": 50.5,
+     "name": "Alloy",
+     "slug": "alloy",
+     "description": "Alloy is an identity decisioning platform that provides a single REST API for running KYC/KYB workflows, evaluating applicant risk, automating compliance decisions, and managing ongoing monitoring throughout the customer lifecycle. The platform connects banks and fintechs to more than 85 data sources for fraud prevention, credit underwriting, transaction monitoring, and regulatory compliance via configurable workflow-based evaluations and journey applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alloy/refs/heads/main/screenshots/alloy-2026-06-20T171540.png",
+     "score": 52.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 100.0,
-      "contract_quality": 65.9,
+      "contract_quality": 51.1,
       "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 71.7,
-      "commercial_clarity": 7.9
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 73.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
-      "score": 69.6
+      "score": 43.5
      },
-     "agent_score": 77.9,
-     "agent_band": "agent-native",
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": true,
-      "mcp_server": true,
+      "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": true,
+      "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "tier": "Financial Data & Aggregation",
+     "tier": "Fraud, Risk & Identity",
      "rank": 23
     },
     {
@@ -1004,18 +1005,18 @@
      "slug": "clover",
      "description": "Clover is a Fiserv-owned point-of-sale platform for small and mid-size merchants. The Clover developer platform exposes the Clover REST API for inventory/orders/customers/transactions, the Ecommerce API for online payments, an Android Payments API and Clover Android SDK for native apps on Clover devices, the REST Pay Display API for semi-integrated POS, the Remote Pay SDKs (cloud, Windows, iOS, Android), and the Clover Go SDK.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/clover/refs/heads/main/screenshots/clover-2026-06-20T174623.png",
-     "score": 50.1,
+     "score": 51.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 87.5,
       "contract_quality": 73.1,
       "governance": 86.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1043,65 +1044,22 @@
      "rank": 24
     },
     {
-     "name": "Alloy",
-     "slug": "alloy",
-     "description": "Alloy is an identity decisioning platform that provides a single REST API for running KYC/KYB workflows, evaluating applicant risk, automating compliance decisions, and managing ongoing monitoring throughout the customer lifecycle. The platform connects banks and fintechs to more than 85 data sources for fraud prevention, credit underwriting, transaction monitoring, and regulatory compliance via configurable workflow-based evaluations and journey applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alloy/refs/heads/main/screenshots/alloy-2026-06-20T171540.png",
-     "score": 49.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 51.1,
-      "governance": 0.0,
-      "operational_transparency": 63.2,
-      "developer_ergonomics": 41.3,
-      "commercial_clarity": 73.7
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 43.5
-     },
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Fraud, Risk & Identity",
-     "rank": 25
-    },
-    {
      "name": "Braintree",
      "slug": "braintree",
      "description": "Our mission is to empower developers with the tools, resources, and simple-to-use SDKs and APIs to build on one platform, so they can serve merchants from around the world.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/braintree/refs/heads/main/screenshots/braintree-2026-06-20T173632.png",
-     "score": 49.2,
+     "score": 51.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 42.5,
+      "discoverability": 67.5,
       "contract_quality": 75.2,
       "governance": 52.6,
       "operational_transparency": 52.6,
       "developer_ergonomics": 17.4,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 61.5,
      "agent_band": "agent-native",
@@ -1120,6 +1078,48 @@
       "consent_identity": false
      },
      "tier": "Gateways & PSPs",
+     "rank": 25
+    },
+    {
+     "name": "Orum",
+     "slug": "orum",
+     "description": "Orum is a payments infrastructure company that lets businesses move money and verify bank accounts through a single unified API. Its Deliver product provides \"Direct to Fed\" money movement across FedNow, RTP, Same Day ACH, ACH, Wires, and Visa Direct; Verify instantly confirms bank account status, ownership, and control; and Monitor is a portal for orchestrating and reconciling payment operations in real time. The REST API uses OAuth 2.0 client-credentials, offers signed webhooks for money-movement events, and ships a published OpenAPI spec and an OpenAPI-generated MCP server. Orum is backed by Accel, Bain Capital Ventures, and Craft Ventures.",
+     "score": 50.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 65.9,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 69.6
+     },
+     "agent_score": 77.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Financial Data & Aggregation",
      "rank": 26
     },
     {
@@ -1127,18 +1127,18 @@
      "slug": "fis",
      "description": "FIS (Fidelity National Information Services) is a global leader in financial technology providing APIs for core banking, payments, wealth management, and capital markets through the CodeConnect API marketplace. APIs connect financial institutions, fintechs, and enterprises to FIS banking and payment infrastructure.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fis/refs/heads/main/screenshots/fis-2026-06-20T181251.png",
-     "score": 48.2,
+     "score": 50.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 92.5,
       "contract_quality": 69.2,
       "governance": 73.7,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1170,18 +1170,18 @@
      "slug": "ncr",
      "description": "NCR Corporation separated in October 2023 into two independent public companies: NCR Voyix, a global provider of digital commerce solutions for retailers and restaurants, and NCR Atleos, a leader in expanding self-directed banking through ATM networks. NCR Voyix operates the Voyix Commerce Platform, an API-based cloud architecture (the Business Services Platform) that powers unified-commerce POS, ecommerce, and payments for retail and restaurants. Developers access it at developer.ncrvoyix.com using AccessKey (HMAC SHA-512) authentication against api.ncr.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/screenshots/ncr-2026-06-20T190112.png",
-     "score": 47.2,
+     "score": 50.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 68.1,
       "governance": 86.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1213,18 +1213,18 @@
      "slug": "lithic",
      "description": "Lithic is a modern card-issuing and program-management platform offering REST APIs for cards, accounts, transactions, authorization control, ACH/wire payments, external bank accounts, account-holder KYC/KYB, 3-D Secure, tokenization, disputes, and webhooks. OpenAPI spec is published via Stainless and powers official SDKs in Node, Python, Go, Java, Kotlin.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lithic/refs/heads/main/screenshots/lithic-2026-06-20T184605.png",
-     "score": 46.8,
+     "score": 49.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 60.4,
       "governance": 73.7,
       "operational_transparency": 26.3,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1252,108 +1252,22 @@
      "rank": 29
     },
     {
-     "name": "Marqeta",
-     "slug": "marqeta",
-     "description": "Marqeta is a modern card-issuing and embedded-finance platform. The Core API is a large RESTful surface covering cards, users, businesses, GPA orders, KYC/KYB, fee transfer, transactions, real-time decisioning, MCC groups, programs, and webhooks. The Diva (Digital Wallets, Tokenization, 3DS) API extends the Core API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/screenshots/marqeta-2026-06-20T185001.png",
-     "score": 46.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 72.8,
-      "governance": 52.6,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 36.8
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 60.9
-     },
-     "agent_score": 53.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Issuer-Processors",
-     "rank": 30
-    },
-    {
-     "name": "Flywire",
-     "slug": "flywire",
-     "description": "Flywire is a global payments enablement and software company that operates a proprietary cross-border payment network spanning more than 140 currencies and 240 countries and territories, serving the education, healthcare, travel, and business-to-business verticals. The Flywire Payments API is an HTTP-based REST API (JSON request/response bodies, API-Key authorization) that lets platforms integrate Flywire's payment network directly — creating and capturing one-off, recurring, pre-authorization, refund, and 529 payments, managing payors, recipients, checkout sessions and documents, and receiving real-time payment status callbacks (webhooks) signed with an HMAC-SHA256 shared secret. Flywire also ships client-side JavaScript and React libraries (Flywire Elements, Checkout, Pay-By-Link) for embedding hosted payment experiences.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flywire/refs/heads/main/screenshots/flywire-2026-07-25T214857.png",
-     "score": 46.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 22.6,
-      "governance": 0.0,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 67.4,
-      "commercial_clarity": 36.8
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 78.3
-     },
-     "agent_score": 41.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "tier": "Spend, AP & AR",
-     "rank": 31
-    },
-    {
      "name": "Affirm",
      "slug": "affirm",
      "description": "Affirm is a buy-now-pay-later platform offering installment loans at point-of-sale via merchant SDKs and direct APIs. Public Series A through F-funded company.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/affirm/refs/heads/main/screenshots/affirm-2026-06-20T165638.png",
-     "score": 46.1,
+     "score": 48.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 87.5,
       "contract_quality": 84.1,
       "governance": 52.6,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1378,6 +1292,92 @@
       "consent_identity": false
      },
      "tier": "Buy Now, Pay Later",
+     "rank": 30
+    },
+    {
+     "name": "Marqeta",
+     "slug": "marqeta",
+     "description": "Marqeta is a modern card-issuing and embedded-finance platform. The Core API is a large RESTful surface covering cards, users, businesses, GPA orders, KYC/KYB, fee transfer, transactions, real-time decisioning, MCC groups, programs, and webhooks. The Diva (Digital Wallets, Tokenization, 3DS) API extends the Core API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marqeta/refs/heads/main/screenshots/marqeta-2026-06-20T185001.png",
+     "score": 48.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 72.8,
+      "governance": 52.6,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 60.9
+     },
+     "agent_score": 53.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Issuer-Processors",
+     "rank": 31
+    },
+    {
+     "name": "Flywire",
+     "slug": "flywire",
+     "description": "Flywire is a global payments enablement and software company that operates a proprietary cross-border payment network spanning more than 140 currencies and 240 countries and territories, serving the education, healthcare, travel, and business-to-business verticals. The Flywire Payments API is an HTTP-based REST API (JSON request/response bodies, API-Key authorization) that lets platforms integrate Flywire's payment network directly — creating and capturing one-off, recurring, pre-authorization, refund, and 529 payments, managing payors, recipients, checkout sessions and documents, and receiving real-time payment status callbacks (webhooks) signed with an HMAC-SHA256 shared secret. Flywire also ships client-side JavaScript and React libraries (Flywire Elements, Checkout, Pay-By-Link) for embedding hosted payment experiences.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flywire/refs/heads/main/screenshots/flywire-2026-07-25T214857.png",
+     "score": 46.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 67.4,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 78.3
+     },
+     "agent_score": 41.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "Spend, AP & AR",
      "rank": 32
     },
     {
@@ -1395,7 +1395,7 @@
       "developer_ergonomics": 82.6,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1421,40 +1421,73 @@
      },
      "tier": "Acquirers & Processors",
      "rank": 33
-    }
-   ]
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 21,
-   "shown": 21,
-   "companies": [
+    },
     {
-     "name": "Visa",
-     "slug": "visa",
-     "description": "Visa is a global payment technology company that facilitates electronic funds transfers by providing consumers, businesses, and governments with secure, convenient, and reliable payment solutions. Through its network of financial institutions and partners, Visa enables individuals to make purchases, transfer money, and access other financial services in over 200 countries and territories worldwide. The Visa Developer platform provides APIs for money movement (Visa Direct), merchant intelligence, account validation, transaction controls, foreign exchange, digital wallets, tokenization, and more.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/screenshots/visa-2026-06-20T201042.png",
-     "score": 43.7,
-     "band": "thin",
-     "band_label": "Thin",
+     "name": "Chargebee",
+     "slug": "chargebee",
+     "description": "Chargebee is a subscription billing and revenue management platform that enables SaaS and subscription businesses to automate recurring billing, invoicing, payments, dunning, and revenue recognition. The Chargebee REST API v2 provides programmatic access to subscriptions, customers, invoices, payments, plans, addons, coupons, and usage metering, with HTTP Basic Auth using API keys scoped to each Chargebee site.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chargebee/refs/heads/main/screenshots/chargebee-2026-06-20T174220.png",
+     "score": 45.4,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 53.1,
-      "governance": 86.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 26.1,
-      "commercial_clarity": 28.9
+      "discoverability": 100.0,
+      "contract_quality": 61.9,
+      "governance": 52.6,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 47.8,
+      "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 37.0
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 26.1
+     },
+     "agent_score": 53.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Billing & Subscriptions",
+     "rank": 34
+    },
+    {
+     "name": "Modern Treasury",
+     "slug": "modern-treasury",
+     "description": "Modern Treasury is a money movement platform unifying ACH, wires, RTP, checks, FX, and reconciliation across multiple bank partners. Operates as the financial operations system of record.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/modern-treasury/refs/heads/main/screenshots/modern-treasury-2026-06-20T185652.png",
+     "score": 45.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 54.6,
+      "governance": 73.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 50.0
      },
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -1472,69 +1505,36 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "tier": "Card Networks",
-     "rank": 34
-    },
-    {
-     "name": "Euronet Worldwide",
-     "slug": "euronet",
-     "description": "Euronet Worldwide (NASDAQ: EEFT) is a US-based (Leawood, Kansas) global payments and financial technology company operating across three segments: Payments Infrastructure (EFT/ATM networks, transaction processing, merchant acquiring, and the REN payments software from Euronet Software Solutions); epay (prepaid and digital-media distribution across 60+ countries); and Money Transfer, home to its Ria, Xe, and Dandelion brands. The company processes roughly 20 billion transactions a year across 200 countries and territories. Its most API-native surface sits in the Money Transfer segment: the Xe brand publishes several developer APIs on SwaggerHub (Currency Data, Payments, Mass Payments, Tradable Rates, and XETA), and Dandelion operates a real-time, ISO 20022-compliant cross-border payments developer portal. As a US company in a market with no single payments mandate, Euronet exposes a fragmented but genuine set of self-serve (Xe Currency Data free trial) and partner-onboarded (Payments, Dandelion) developer surfaces rather than one unified platform API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/screenshots/euronet-2026-07-25T213700.png",
-     "score": 43.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 37.7,
-      "governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 63.0,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 54.3
-     },
-     "agent_score": 72.1,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Acquirers & Processors",
+     "tier": "Financial Data & Aggregation",
      "rank": 35
-    },
+    }
+   ]
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 19,
+   "shown": 19,
+   "companies": [
     {
      "name": "Fiserv",
      "slug": "fiserv",
      "description": "Fiserv is a global provider of financial services technology solutions, offering a wide range of products and services to help clients in the banking, payments, and wealth management industries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fiserv/refs/heads/main/screenshots/fiserv-2026-06-20T181247.png",
-     "score": 43.1,
+     "score": 44.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 75.0,
       "contract_quality": 73.3,
       "governance": 60.5,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1562,30 +1562,30 @@
      "rank": 36
     },
     {
-     "name": "Chargebee",
-     "slug": "chargebee",
-     "description": "Chargebee is a subscription billing and revenue management platform that enables SaaS and subscription businesses to automate recurring billing, invoicing, payments, dunning, and revenue recognition. The Chargebee REST API v2 provides programmatic access to subscriptions, customers, invoices, payments, plans, addons, coupons, and usage metering, with HTTP Basic Auth using API keys scoped to each Chargebee site.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/chargebee/refs/heads/main/screenshots/chargebee-2026-06-20T174220.png",
-     "score": 42.7,
+     "name": "Visa",
+     "slug": "visa",
+     "description": "Visa is a global payment technology company that facilitates electronic funds transfers by providing consumers, businesses, and governments with secure, convenient, and reliable payment solutions. Through its network of financial institutions and partners, Visa enables individuals to make purchases, transfer money, and access other financial services in over 200 countries and territories worldwide. The Visa Developer platform provides APIs for money movement (Visa Direct), merchant intelligence, account validation, transaction controls, foreign exchange, digital wallets, tokenization, and more.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/screenshots/visa-2026-06-20T201042.png",
+     "score": 44.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 61.9,
-      "governance": 52.6,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 47.8,
-      "commercial_clarity": 23.7
+      "discoverability": 80.0,
+      "contract_quality": 53.1,
+      "governance": 86.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 26.1
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 37.0
      },
-     "agent_score": 53.8,
+     "agent_score": 48.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1596,12 +1596,12 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": true,
-      "asyncapi_events": true,
+      "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "tier": "Billing & Subscriptions",
+     "tier": "Card Networks",
      "rank": 37
     },
     {
@@ -1609,18 +1609,18 @@
      "slug": "brex",
      "description": "Brex is the first fully unified spend platform with global corporate cards, expense management, reimbursements, travel, and bill pay. Brex makes it easy for finance teams to control all of their spend, all in one place. Using the Brex API, you can power your internal tools and create custom workflows.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/brex/refs/heads/main/screenshots/brex-2026-06-20T173653.png",
-     "score": 42.5,
+     "score": 44.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 87.5,
       "contract_quality": 58.4,
       "governance": 52.6,
       "operational_transparency": 36.8,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 53.8,
      "agent_band": "agent-ready",
@@ -1642,6 +1642,49 @@
      "rank": 38
     },
     {
+     "name": "Euronet Worldwide",
+     "slug": "euronet",
+     "description": "Euronet Worldwide (NASDAQ: EEFT) is a US-based (Leawood, Kansas) global payments and financial technology company operating across three segments: Payments Infrastructure (EFT/ATM networks, transaction processing, merchant acquiring, and the REN payments software from Euronet Software Solutions); epay (prepaid and digital-media distribution across 60+ countries); and Money Transfer, home to its Ria, Xe, and Dandelion brands. The company processes roughly 20 billion transactions a year across 200 countries and territories. Its most API-native surface sits in the Money Transfer segment: the Xe brand publishes several developer APIs on SwaggerHub (Currency Data, Payments, Mass Payments, Tradable Rates, and XETA), and Dandelion operates a real-time, ISO 20022-compliant cross-border payments developer portal. As a US company in a market with no single payments mandate, Euronet exposes a fragmented but genuine set of self-serve (Xe Currency Data free trial) and partner-onboarded (Payments, Dandelion) developer surfaces rather than one unified platform API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/euronet/refs/heads/main/screenshots/euronet-2026-07-25T213700.png",
+     "score": 43.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 63.0,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 54.3
+     },
+     "agent_score": 72.1,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Acquirers & Processors",
+     "rank": 39
+    },
+    {
      "name": "Melio",
      "slug": "melio",
      "description": "Melio is a B2B payments platform for small businesses that provides a REST API for managing bills, vendors, payment methods, scheduling payments, and syncing with accounting software including QuickBooks, Xero, and NetSuite. Melio enables software companies to embed bill pay, vendor payments, and invoicing directly inside their products with ACH and card options. Founded in 2018, Melio has processed over $100B in payments for 100,000+ business users and 2M+ vendors.",
@@ -1657,7 +1700,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 24.0,
      "agent_band": "agent-aware",
@@ -1676,49 +1719,6 @@
       "consent_identity": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 39
-    },
-    {
-     "name": "Modern Treasury",
-     "slug": "modern-treasury",
-     "description": "Modern Treasury is a money movement platform unifying ACH, wires, RTP, checks, FX, and reconciliation across multiple bank partners. Operates as the financial operations system of record.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/modern-treasury/refs/heads/main/screenshots/modern-treasury-2026-06-20T185652.png",
-     "score": 42.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 55.0,
-      "contract_quality": 54.6,
-      "governance": 73.7,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 36.8
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 50.0
-     },
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Financial Data & Aggregation",
      "rank": 40
     },
     {
@@ -1737,7 +1737,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1780,7 +1780,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 24.0,
      "agent_band": "agent-aware",
@@ -1802,65 +1802,22 @@
      "rank": 42
     },
     {
-     "name": "American Express",
-     "slug": "american-express",
-     "description": "American Express is a globally integrated payments company and card network that offers charge and credit cards, merchant acquiring, corporate payments, travel, and Membership Rewards loyalty. Its developer platform at developer.americanexpress.com publishes a partner-oriented catalog of REST APIs spanning tokenization (AETS), fraud prevention (Enhanced Authorization), PSD2 open-banking account, transaction and confirmation-of-funds services, corporate @ Work expense management, Pay with Points redemption, Pay with Bank transfer payment initiation, Payment Account Reference, card-linked Smart Offers, Account Connect card-on-file, and the R42 Network Loyalty Platform. Access is onboarding-gated for registered issuers, merchants, acquirers, and partners rather than open self-service.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/screenshots/american-express-2026-06-20T171914.png",
-     "score": 39.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 52.2,
-      "commercial_clarity": 63.2
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 54.3
-     },
-     "agent_score": 16.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Card Networks",
-     "rank": 43
-    },
-    {
      "name": "Basis Theory",
      "slug": "basis-theory",
      "description": "Basis Theory is a PCI Level 1 compliant tokenization and data vault platform. Its API-first product lets developers tokenize, store, and use sensitive data - cardholder data, PII, PHI, and bank account numbers - without that data ever touching their own systems, using tokens, a detokenizing Proxy, serverless Reactors, and 3D Secure authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/basis-theory/refs/heads/main/screenshots/basis-theory-2026-06-20T173050.png",
-     "score": 38.4,
+     "score": 41.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 53.3,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1885,109 +1842,68 @@
       "consent_identity": false
      },
      "tier": "Fraud, Risk & Identity",
-     "rank": 44
+     "rank": 43
     },
     {
-     "name": "Nacha",
-     "slug": "nacha",
-     "description": "Nacha (formerly the National Automated Clearing House Association) is the nonprofit, member-governed steward of the ACH Network, the batch-based account-to-account payment rail that moves consumer and business direct deposits, direct payments, bill pay, and B2B transfers across the United States — more than 30 billion payments and over $80 trillion in value annually. Nacha writes and enforces the Nacha Operating Rules that bind the network's participating depository financial institutions, but it is not itself an ACH Operator (the Federal Reserve and The Clearing House clear and settle the files). Nacha is documentation- and rulebook-first rather than a self-serve PSP: it does not operate a public production payments API of its own. Its API posture is delivered through Afinis Interoperability Standards, the Nacha-stewarded group that publishes royalty-free, standardized financial-services API specifications (payment initiation, account validation, transaction status, returns reporting, and directory services) as Swagger/OpenAPI documents on SwaggerHub, and through Phixius, its payment-information exchange platform. Its home market is the United States.",
-     "score": 37.9,
+     "name": "American Express",
+     "slug": "american-express",
+     "description": "American Express is a globally integrated payments company and card network that offers charge and credit cards, merchant acquiring, corporate payments, travel, and Membership Rewards loyalty. Its developer platform at developer.americanexpress.com publishes a partner-oriented catalog of REST APIs spanning tokenization (AETS), fraud prevention (Enhanced Authorization), PSD2 open-banking account, transaction and confirmation-of-funds services, corporate @ Work expense management, Pay with Points redemption, Pay with Bank transfer payment initiation, Payment Account Reference, card-linked Smart Offers, Account Connect card-on-file, and the R42 Network Loyalty Platform. Access is onboarding-gated for registered issuers, merchants, acquirers, and partners rather than open self-service.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/screenshots/american-express-2026-06-20T171914.png",
+     "score": 39.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 87.5,
-      "contract_quality": 37.7,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 63.0,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 54.3
-     },
-     "agent_score": 65.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Domestic Rails & Schemes",
-     "rank": 45
-    },
-    {
-     "name": "Paymentus",
-     "slug": "paymentus",
-     "description": "Paymentus (NYSE: PAY) is a Addison, Texas-based cloud billing and payment technology company founded in 2004 that operates one of the largest electronic bill presentment and payment (EBPP) networks in North America. Its Intelligent Payment Platform, Instant Payment Network (IPN), BillWallet, and Profit by Paymentus (AP/AR) products let utilities, government agencies, insurers, telecom, healthcare, higher education, and financial institutions accept and disburse payments across web, mobile, IVR, call center, and agent channels using cards, ACH/eCheck, cash, and digital wallets (PayPal, Venmo, Apple Pay, Google Pay). Its home market is the United States. Paymentus is API-native but its developer surface is access-controlled: the developer portal at developer.paymentus.io is live and public, yet the full API reference, specifications, and testing environment sit behind a request-access / NDA gate. A public Node.js Server SDK (@paymentus/core, @paymentus/auth, @paymentus/xotp) documents the real payment (XOTP) surface, JWT/pre-shared-key authentication, granular OAuth-style scopes, and production base URLs. No downloadable OpenAPI/Swagger specification is published on the public web as of this review.",
-     "score": 37.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.5,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 47.8,
-      "commercial_clarity": 36.8
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 87.0
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 54.3
      },
-     "agent_score": 21.2,
+     "agent_score": 16.3,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
-      "mcp_server": true,
+      "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": true,
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "tier": "Spend, AP & AR",
-     "rank": 46
+     "tier": "Card Networks",
+     "rank": 44
     },
     {
      "name": "BILL",
      "slug": "bill",
      "description": "BILL (formerly Bill.com) is a cloud-based financial operations platform for small and midsize businesses that automates accounts payable, accounts receivable, and spend & expense management. The BILL API Platform exposes these workflows through the BILL v3 REST API and embeddable BILL Elements UI components, enabling partners and ERPs to integrate bill capture, approvals, payments, and real-time event notifications via webhooks. The API uses session-based authentication with API keys and developer keys against production and sandbox gateways.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bill/refs/heads/main/screenshots/bill-2026-06-20T173240.png",
-     "score": 37.4,
+     "score": 39.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 87.5,
       "contract_quality": 61.9,
       "governance": 60.5,
       "operational_transparency": 0.0,
       "developer_ergonomics": 39.1,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2012,68 +1928,25 @@
       "consent_identity": false
      },
      "tier": "Spend, AP & AR",
-     "rank": 47
-    },
-    {
-     "name": "FedNow Service",
-     "slug": "fednow",
-     "description": "The FedNow Service is an instant payments rail operated by the Federal Reserve Banks, launched in July 2023 to move funds between U.S. financial institutions in real time, 24 hours a day, 365 days a year, with immediate interbank settlement in central bank money. It is ISO 20022 native and is one of three domestic U.S. rails alongside The Clearing House's RTP network and the ACH network. FedNow is a scheme operator, not a consumer-facing PSP; participating banks and credit unions connect over FedLine (Direct or Advantage), exchange ISO 20022 messages for customer credit transfers, requests for payment, liquidity transfers and system/account reporting, and may optionally use a small set of FedNow REST APIs (Account Balance, Network Intelligence, Participant List, Ping) exposed through the credential-gated FedLine Developer portal. Its public developer surface is documentation- and rulebook-first: ISO 20022 message specifications live behind SWIFT MyStandards and API access is restricted to enrolled institutions, so there is no open, self-serve public API.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fednow/refs/heads/main/screenshots/fednow-2026-07-25T214316.png",
-     "score": 36.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 58.7,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 54.3
-     },
-     "agent_score": 13.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Domestic Rails & Schemes",
-     "rank": 48
+     "rank": 45
     },
     {
      "name": "Cross River",
      "slug": "cross-river",
      "description": "Cross River is a regulated bank (FDIC member, Fort Lee, NJ) that delivers embedded finance and Banking-as-a-Service (BaaS) through its Cross River Operating System (COS) - a collection of REST APIs for deposit accounts, ACH, wires, instant payments (RTP, FedNow, CRNow), card issuing and processing, lending, and KYC/customer onboarding. Access is partner/enterprise-gated - programs are onboarded through Cross River sales and a relationship manager, and OAuth2 client credentials are provisioned for sandbox and then production. Endpoints are grounded in the public developer documentation at docs.crossriver.com; request/response schemas are modeled where the live sandbox is credential-gated.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cross-river/refs/heads/main/screenshots/cross-river-2026-07-25T210751.png",
-     "score": 36.0,
+     "score": 38.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 58.4,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2098,30 +1971,115 @@
       "consent_identity": false
      },
      "tier": "Embedded Finance & BaaS",
-     "rank": 49
+     "rank": 46
     },
     {
-     "name": "Worldpay",
-     "slug": "worldpay",
-     "description": "Worldpay is a global payment processing platform (part of FIS) offering REST APIs for payment acceptance, transaction management, tokenization, recurring billing, fraud prevention, and global acquiring services. It supports card payments, digital wallets, alternative payment methods, payouts, foreign exchange, and hosted payment pages across more than 146 countries.",
-     "score": 35.8,
+     "name": "Nacha",
+     "slug": "nacha",
+     "description": "Nacha (formerly the National Automated Clearing House Association) is the nonprofit, member-governed steward of the ACH Network, the batch-based account-to-account payment rail that moves consumer and business direct deposits, direct payments, bill pay, and B2B transfers across the United States — more than 30 billion payments and over $80 trillion in value annually. Nacha writes and enforces the Nacha Operating Rules that bind the network's participating depository financial institutions, but it is not itself an ACH Operator (the Federal Reserve and The Clearing House clear and settle the files). Nacha is documentation- and rulebook-first rather than a self-serve PSP: it does not operate a public production payments API of its own. Its API posture is delivered through Afinis Interoperability Standards, the Nacha-stewarded group that publishes royalty-free, standardized financial-services API specifications (payment initiation, account validation, transaction status, returns reporting, and directory services) as Swagger/OpenAPI documents on SwaggerHub, and through Phixius, its payment-information exchange platform. Its home market is the United States.",
+     "score": 37.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 53.3,
+      "discoverability": 87.5,
+      "contract_quality": 37.7,
       "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 28.9
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 63.0,
+      "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
-      "score": 26.1
+      "score": 54.3
+     },
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Domestic Rails & Schemes",
+     "rank": 47
+    },
+    {
+     "name": "Paymentus",
+     "slug": "paymentus",
+     "description": "Paymentus (NYSE: PAY) is a Addison, Texas-based cloud billing and payment technology company founded in 2004 that operates one of the largest electronic bill presentment and payment (EBPP) networks in North America. Its Intelligent Payment Platform, Instant Payment Network (IPN), BillWallet, and Profit by Paymentus (AP/AR) products let utilities, government agencies, insurers, telecom, healthcare, higher education, and financial institutions accept and disburse payments across web, mobile, IVR, call center, and agent channels using cards, ACH/eCheck, cash, and digital wallets (PayPal, Venmo, Apple Pay, Google Pay). Its home market is the United States. Paymentus is API-native but its developer surface is access-controlled: the developer portal at developer.paymentus.io is live and public, yet the full API reference, specifications, and testing environment sit behind a request-access / NDA gate. A public Node.js Server SDK (@paymentus/core, @paymentus/auth, @paymentus/xotp) documents the real payment (XOTP) surface, JWT/pre-shared-key authentication, granular OAuth-style scopes, and production base URLs. No downloadable OpenAPI/Swagger specification is published on the public web as of this review.",
+     "score": 37.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 47.8,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 87.0
+     },
+     "agent_score": 21.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Spend, AP & AR",
+     "rank": 48
+    },
+    {
+     "name": "Global Payments",
+     "slug": "global-payments",
+     "description": "Global Payments is a leading worldwide provider of payment technology and software solutions delivering innovative services to customers globally. The company operates developer portals at developer.globalpayments.com and developer.globalpaymentsintegrated.com, offering a unified cloud-powered REST API for payment facilitation, card issuing, and multi-currency processing, along with integrated payment solutions for ISVs and software partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/screenshots/global-payments-2026-06-20T181917.png",
+     "score": 37.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 50.4,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 47.8
      },
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -2140,31 +2098,73 @@
       "consent_identity": false
      },
      "tier": "Acquirers & Processors",
-     "rank": 50
+     "rank": 49
     },
     {
-     "name": "Global Payments",
-     "slug": "global-payments",
-     "description": "Global Payments is a leading worldwide provider of payment technology and software solutions delivering innovative services to customers globally. The company operates developer portals at developer.globalpayments.com and developer.globalpaymentsintegrated.com, offering a unified cloud-powered REST API for payment facilitation, card issuing, and multi-currency processing, along with integrated payment solutions for ISVs and software partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/screenshots/global-payments-2026-06-20T181917.png",
-     "score": 34.8,
+     "name": "FedNow Service",
+     "slug": "fednow",
+     "description": "The FedNow Service is an instant payments rail operated by the Federal Reserve Banks, launched in July 2023 to move funds between U.S. financial institutions in real time, 24 hours a day, 365 days a year, with immediate interbank settlement in central bank money. It is ISO 20022 native and is one of three domestic U.S. rails alongside The Clearing House's RTP network and the ACH network. FedNow is a scheme operator, not a consumer-facing PSP; participating banks and credit unions connect over FedLine (Direct or Advantage), exchange ISO 20022 messages for customer credit transfers, requests for payment, liquidity transfers and system/account reporting, and may optionally use a small set of FedNow REST APIs (Account Balance, Network Intelligence, Participant List, Ping) exposed through the credential-gated FedLine Developer portal. Its public developer surface is documentation- and rulebook-first: ISO 20022 message specifications live behind SWIFT MyStandards and API access is restricted to enrolled institutions, so there is no open, self-serve public API.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fednow/refs/heads/main/screenshots/fednow-2026-07-25T214316.png",
+     "score": 36.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 50.4,
+      "discoverability": 87.5,
+      "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 58.7,
+      "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
-      "score": 47.8
+      "score": 54.3
+     },
+     "agent_score": 13.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Domestic Rails & Schemes",
+     "rank": 50
+    },
+    {
+     "name": "Worldpay",
+     "slug": "worldpay",
+     "description": "Worldpay is a global payment processing platform (part of FIS) offering REST APIs for payment acceptance, transaction management, tokenization, recurring billing, fraud prevention, and global acquiring services. It supports card payments, digital wallets, alternative payment methods, payouts, foreign exchange, and hosted payment pages across more than 146 countries.",
+     "score": 35.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 53.3,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 26.1
      },
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -2190,18 +2190,18 @@
      "slug": "increase",
      "description": "Increase is a banking and payments API providing direct ACH, wire, RTP, FedNow, check, and card programs. Bank-direct connectivity (no aggregator middle layer).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/increase/refs/heads/main/screenshots/increase-2026-06-20T183309.png",
-     "score": 32.0,
+     "score": 34.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 87.5,
       "contract_quality": 53.7,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2232,18 +2232,18 @@
      "name": "Column",
      "slug": "column",
      "description": "Column is a chartered nationally-regulated bank purpose-built for developer APIs. Offers ACH, wires, FedNow, checks, BIN sponsorship, and bank-direct ledgering.",
-     "score": 30.8,
+     "score": 33.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 87.5,
       "contract_quality": 59.8,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2286,7 +2286,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2339,7 +2339,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2382,7 +2382,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2424,7 +2424,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2467,7 +2467,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -2503,7 +2503,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2545,7 +2545,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2588,7 +2588,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2631,7 +2631,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2674,7 +2674,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2727,7 +2727,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2763,7 +2763,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2806,7 +2806,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2848,7 +2848,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2885,7 +2885,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

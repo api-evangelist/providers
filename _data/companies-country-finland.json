@@ -4,65 +4,30 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "developing",
-   "label": "Developing",
-   "range": "45–59.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 3,
-   "shown": 3,
+   "band": "strong",
+   "label": "Strong",
+   "range": "60–69.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "shown": 1,
    "companies": [
-    {
-     "name": "Nokia Network as Code",
-     "slug": "nokia-network-as-code",
-     "description": "Nokia Network as Code is the network-API exposure and aggregation platform operated by Nokia Oyj from Espoo, Finland, launched in September 2023 to make CAMARA-standardised mobile network capabilities commercially reachable by ordinary application developers. It sits in the middle of the telecom value chain: beneath it, Nokia's Network Exposure Platform (NEP) is deployed inside a mobile operator's core to expose that operator's network; above it, the Network as Code developer platform aggregates many operators' networks behind one contract, one credential and one set of SDKs, so a developer integrates once instead of negotiating per-carrier. Nokia states more than 75 partners in the ecosystem — telecom providers, CPaaS platforms, systems integrators and vertical ISVs — with named operator agreements including Deutsche Telekom, Globe (Philippines), Orange (France and Spain), Rakuten Mobile, Tata Communications, Telefónica, TELUS and Vodafone (UK, Netherlands, Germany, Spain, Greece). Its API posture is unusually open for this tier and should be read honestly: the full platform OpenAPI is published verbatim in a public Apache-2.0 GitHub repository (nokia/network-as-code-sdks), generated Python and TypeScript SDKs ship on PyPI and npm, signup at networkascode.nokia.io is self-serve and a SIMULATOR plan exists — but the developer console, the API catalogue and the in-portal specification viewer all sit behind a login wall, the documentation site is a client-rendered SPA that returns HTTP 200 for any path and serves no crawlable content, and reaching a real subscriber on a real network in a given market still depends on Nokia having a commercial agreement with that market's operator. The platform is delivered through a white-labelled RapidAPI Enterprise Hub, and every production call is routed through the RapidAPI gateway host network-as-code.p-eu.rapidapi.com rather than a Nokia-owned API hostname. Nokia reaches the market directly and through Google Cloud Marketplace rather than through Aduna, the rival Ericsson-led carrier joint venture.",
-     "score": 56.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 62.8,
-      "governance": 0.0,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 80.4,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 77.9,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "rank": 1
-    },
     {
      "name": "Enable Banking",
      "slug": "enable-banking",
      "description": "Enable Banking is a Finland-based Open Banking connectivity engine and licensed PSD2 Account Information Service Provider (AISP) regulated by the Finnish Financial Supervisory Authority (FIN-FSA). Headquartered in Espoo, Enable Banking provides a single harmonized API across 2,700+ banks (ASPSPs) in 30 European countries, exposing Account Information Services (AIS) and Payment Initiation Services (PIS), TPP Infrastructure-as-a-Service for licensed Third Party Providers, and an eIDAS-backed JWT authentication model. The platform processes 25M+ API requests monthly across the EEA and maintains 1,000+ ASPSP integrations, serving accounting and ERP platforms, credit risk and KYC providers, wealth managers, and payment service providers including Qred Bank, Fimento, CapitalBox, and iDenfy. Enable Banking is GDPR and DORA compliant with an active PSD3 / FIDA roadmap.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/enable-banking/refs/heads/main/screenshots/enable-banking-2026-06-20T180647.png",
-     "score": 55.9,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 60.5,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 63.7,
+      "discoverability": 100.0,
+      "contract_quality": 72.6,
       "governance": 73.7,
       "operational_transparency": 52.6,
       "developer_ergonomics": 54.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -86,6 +51,52 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
+     "rank": 1
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 2,
+   "shown": 2,
+   "companies": [
+    {
+     "name": "Nokia Network as Code",
+     "slug": "nokia-network-as-code",
+     "description": "Nokia Network as Code is the network-API exposure and aggregation platform operated by Nokia Oyj from Espoo, Finland, launched in September 2023 to make CAMARA-standardised mobile network capabilities commercially reachable by ordinary application developers. It sits in the middle of the telecom value chain: beneath it, Nokia's Network Exposure Platform (NEP) is deployed inside a mobile operator's core to expose that operator's network; above it, the Network as Code developer platform aggregates many operators' networks behind one contract, one credential and one set of SDKs, so a developer integrates once instead of negotiating per-carrier. Nokia states more than 75 partners in the ecosystem — telecom providers, CPaaS platforms, systems integrators and vertical ISVs — with named operator agreements including Deutsche Telekom, Globe (Philippines), Orange (France and Spain), Rakuten Mobile, Tata Communications, Telefónica, TELUS and Vodafone (UK, Netherlands, Germany, Spain, Greece). Its API posture is unusually open for this tier and should be read honestly: the full platform OpenAPI is published verbatim in a public Apache-2.0 GitHub repository (nokia/network-as-code-sdks), generated Python and TypeScript SDKs ship on PyPI and npm, signup at networkascode.nokia.io is self-serve and a SIMULATOR plan exists — but the developer console, the API catalogue and the in-portal specification viewer all sit behind a login wall, the documentation site is a client-rendered SPA that returns HTTP 200 for any path and serves no crawlable content, and reaching a real subscriber on a real network in a given market still depends on Nokia having a commercial agreement with that market's operator. The platform is delivered through a white-labelled RapidAPI Enterprise Hub, and every production call is routed through the RapidAPI gateway host network-as-code.p-eu.rapidapi.com rather than a Nokia-owned API hostname. Nokia reaches the market directly and through Google Cloud Marketplace rather than through Aduna, the rival Ericsson-led carrier joint venture.",
+     "score": 56.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 62.8,
+      "governance": 0.0,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 77.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
      "rank": 2
     },
     {
@@ -104,7 +115,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -157,7 +168,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -183,8 +194,7 @@
      },
      "rank": 4
     }
-   ],
-   "open": true
+   ]
   },
   {
    "band": "emerging",
@@ -210,7 +220,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -252,7 +262,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -304,7 +314,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -339,7 +349,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 11.5,
      "agent_band": "human-only",
@@ -375,7 +385,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -410,7 +420,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -445,7 +455,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -481,7 +491,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -517,7 +527,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -552,7 +562,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -587,7 +597,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

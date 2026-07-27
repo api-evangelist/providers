@@ -1,6 +1,6 @@
 {
- "total": 243,
- "shown": 243,
+ "total": 273,
+ "shown": 273,
  "limit": 1000,
  "bands": [
   {
@@ -27,7 +27,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -69,7 +69,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -107,57 +107,22 @@
    "shown": 8,
    "companies": [
     {
-     "name": "8x8",
-     "slug": "8x8",
-     "description": "8x8, Inc. is a San Jose, California headquartered cloud communications provider that sells an integrated UCaaS, CCaaS and CPaaS platform (marketed as XCaaS) to business buyers in its home market of the United States and internationally. In the telecom value chain 8x8 sits in the aggregator half of the market, not the mobile network operator half: it does not own radio spectrum, and it resells carrier voice and messaging connectivity while adding contact center, unified communications, video (it owns and operates Jitsi as a Service) and analytics on top. Its API posture is genuinely developer-first for a company of its size — developer.8x8.com is a real self-serve portal, sign-up runs through the 8x8 Connect console, and the entire documentation site including 34 OpenAPI 3.x definitions is published openly on GitHub at 8x8Cloud/public-developer-docs. What 8x8 does not do is the network-API layer: there is no CAMARA reference, no GSMA Open Gateway participation, no Aduna channel, no TM Forum Open API conformance and no CIBA anywhere in its public developer corpus. 8x8 competes with Twilio, Vonage and Sinch on application-layer communications APIs, and buys the underlying network access rather than exposing it.",
-     "score": 67.0,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 67.9,
-      "governance": 0.0,
-      "operational_transparency": 94.7,
-      "developer_ergonomics": 78.3,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 90.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": true,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "rank": 3
-    },
-    {
      "name": "Highnote",
      "slug": "highnote",
      "description": "Highnote is a modern, unified embedded-finance and banking-as-a-service platform for card issuing, card acquiring, credit, and real-time money movement, with a built-in real-time programmable ledger and full program management. The entire platform is driven by a single GraphQL API at https://api.us.highnote.com/graphql (test https://api.us.test.highnote.com/graphql), authenticated with a base64-encoded API key over HTTP Basic auth. One endpoint covers card products, US person and business account holders (KYC/KYB onboarding), financial accounts and credit lines, virtual/physical/tokenized payment cards, transaction authorization and clearing, disputes, spend and velocity rules, collaborative authorization, multi-rail money movement (ACH, wire, RTP, push-to-card), and outbound webhook event notifications. Highnote is a US-based platform serving digital-first businesses embedding financial products; access is enterprise, contract-gated, with self-serve dashboard signup and a test environment.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/highnote/refs/heads/main/screenshots/highnote-2026-06-20T182732.png",
-     "score": 65.5,
+     "score": 68.3,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 72.6,
       "governance": 0.0,
       "operational_transparency": 73.7,
       "developer_ergonomics": 73.9,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -181,7 +146,78 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
+     "rank": 3
+    },
+    {
+     "name": "8x8",
+     "slug": "8x8",
+     "description": "8x8, Inc. is a San Jose, California headquartered cloud communications provider that sells an integrated UCaaS, CCaaS and CPaaS platform (marketed as XCaaS) to business buyers in its home market of the United States and internationally. In the telecom value chain 8x8 sits in the aggregator half of the market, not the mobile network operator half: it does not own radio spectrum, and it resells carrier voice and messaging connectivity while adding contact center, unified communications, video (it owns and operates Jitsi as a Service) and analytics on top. Its API posture is genuinely developer-first for a company of its size — developer.8x8.com is a real self-serve portal, sign-up runs through the 8x8 Connect console, and the entire documentation site including 34 OpenAPI 3.x definitions is published openly on GitHub at 8x8Cloud/public-developer-docs. What 8x8 does not do is the network-API layer: there is no CAMARA reference, no GSMA Open Gateway participation, no Aduna channel, no TM Forum Open API conformance and no CIBA anywhere in its public developer corpus. 8x8 competes with Twilio, Vonage and Sinch on application-layer communications APIs, and buys the underlying network access rather than exposing it.",
+     "score": 67.0,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 67.9,
+      "governance": 0.0,
+      "operational_transparency": 94.7,
+      "developer_ergonomics": 78.3,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 90.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
      "rank": 4
+    },
+    {
+     "name": "Sendle",
+     "slug": "sendle",
+     "description": "Sendle is a 100%-carbon-neutral parcel shipping service built for small businesses, offering door-to-door delivery in Australia, the United States, and Canada plus international shipping from AU and US to ~180 countries. The Sendle API exposes quoting, order creation, label retrieval, tracking, USPS SCAN-Form shipping manifests, and per-parcel tracking webhooks via HTTP Basic Authentication.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/screenshots/sendle-2026-06-20T193655.png",
+     "score": 65.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 86.5,
+      "governance": 39.5,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 53.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 5
     },
     {
      "name": "Spreedly",
@@ -198,7 +234,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -222,7 +258,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Dwolla",
@@ -240,7 +276,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -264,7 +300,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "MX",
@@ -281,7 +317,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -305,7 +341,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Elation Health",
@@ -323,7 +359,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -347,42 +383,6 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 8
-    },
-    {
-     "name": "Sendle",
-     "slug": "sendle",
-     "description": "Sendle is a 100%-carbon-neutral parcel shipping service built for small businesses, offering door-to-door delivery in Australia, the United States, and Canada plus international shipping from AU and US to ~180 countries. The Sendle API exposes quoting, order creation, label retrieval, tracking, USPS SCAN-Form shipping manifests, and per-parcel tracking webhooks via HTTP Basic Authentication.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sendle/refs/heads/main/screenshots/sendle-2026-06-20T193655.png",
-     "score": 60.7,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 81.2,
-      "governance": 39.5,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 50.0,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 53.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
      "rank": 9
     },
     {
@@ -401,7 +401,7 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -453,7 +453,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 84.6,
      "agent_band": "agent-native",
@@ -488,7 +488,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 79.8,
      "agent_band": "agent-native",
@@ -523,7 +523,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -565,7 +565,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -606,7 +606,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 84.6,
      "agent_band": "agent-native",
@@ -642,7 +642,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -684,7 +684,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -726,7 +726,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -768,7 +768,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -795,305 +795,22 @@
      "rank": 19
     },
     {
-     "name": "Keller Williams",
-     "slug": "keller-williams",
-     "description": "Keller Williams Realty, Inc. (KWRI) is an Austin, Texas headquartered residential real estate franchisor and the largest real estate brokerage franchise in the United States by agent count, operating more than 1,000 market centers worldwide through independently owned and operated offices. In the value chain Keller Williams sits at the brokerage and agent-platform layer, not the data-cooperative layer: it franchises brokerages, and it builds and operates KW Command, a proprietary agent operating system for lead, contact, task, listing, opportunity and marketing management, plus the KW Marketplace where third-party vendors sell integrated products to KW agents. Its API posture is real but partner-gated. Keller Williams runs a genuine Apigee-backed developer portal (DevHub) at developer.kw.com with a live gateway at partners.api.kw.com and a sandbox at sandbox.partners.api.kw.com, an OpenID Connect authorization server whose discovery document is publicly readable, and a published API License Agreement. Access is not self-serve: a developer must submit a partnership application through the \"Apply to Integrate\" form, be approved by KWRI, receive a DevHub account, then sign the KW API License Agreement and Terms of Use before receiving an API key and secret. Only one API — KW Worldwide Listings Search — is visible anonymously in the API catalog; the rest of the catalog (Command MC, Contact and Lead Data, Tasks, Opportunity/Deal/ Transaction Data, User/Organization/Role Information, Marketplace Subscription Management, Internal) is behind a SAML member login. On the sector's central question, Keller Williams carries no RESO posture at all: it is absent from the RESO certification directory, no RESO Web API, Data Dictionary, OData $metadata or Universal Property Identifier reference appears anywhere in its developer portal or specification, and its own listings spec states in its description that the service \"is not a substitution for or tied to any Multiple Listings Services database records.\" This is a brokerage's own listing and CRM data behind a commercial partner agreement, not licensed MLS data behind a certified standard.",
-     "score": 52.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 60.4,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 58.7,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 76.1
-     },
-     "agent_score": 63.5,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "rank": 20
-    },
-    {
-     "name": "Moxe Health",
-     "slug": "moxe-health",
-     "description": "Moxe Health is a United States healthcare data interoperability company, headquartered in Madison, Wisconsin, that operates the Clinical Data Clearinghouse for secure clinical data exchange between health plans (payers) and health systems (providers). Moxe's API-first platform ingests release-of-information (ROI) requests, searches connected electronic health records (EHRs) to extract the minimum-necessary contextual clinical data for a specified patient and date range, and securely delivers that data to the partner's system. Its Chart Retrieval API supports risk adjustment, quality improvement, claim management, payment integrity, care management, and forecasting use cases. The public developer portal documents a REST (OpenAPI 3.0.1) Chart Retrieval API secured with OAuth2 client-credentials plus an x-api-key header; retrieved charts are returned to a predetermined location via SFTP. Moxe is HIPAA and SOC 2 Type 2 compliant and was named number 1 Best in KLAS for Payer-Provider Data Exchange. The documented API is REST/JSON rather than HL7 FHIR, and full access is granted through a partner onboarding agreement.",
-     "score": 52.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 37.7,
-      "governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 67.4,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 100.0
-     },
-     "agent_score": 65.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 21
-    },
-    {
-     "name": "NextGen Healthcare",
-     "slug": "nextgen-healthcare",
-     "description": "NextGen Healthcare is a United States ambulatory electronic health record (EHR/EMR) and practice-management vendor headquartered in Remote-first / Atlanta, Georgia, serving outpatient specialties and community health with its NextGen Enterprise and NextGen Office platforms plus the Mirth Connect interoperability engine. Its developer surface is standards-driven: 21st Century Cures Act-certified HL7 FHIR APIs for patient access and provider apps, a SMART App Launch API, and a Bulk FHIR (Flat FHIR) API delivering USCDI data, alongside an 800+ route JSON RESTful Enterprise API family. NextGen Enterprise exposes live FHIR R4 and DSTU2 service base URLs with SMART-on-FHIR OAuth2, and NextGen Office exposes live FHIR R3/R4 and Bulk FHIR endpoints. FHIR resources are coded against the US Core / USCDIv1 implementation guides. Developer onboarding is gated behind an API onboarding form and app registration, which is standard for regulated health-data access in the US market.",
-     "score": 51.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 56.6,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 67.4,
-      "commercial_clarity": 36.8
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 87.0
-     },
-     "agent_score": 69.2,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "rank": 22
-    },
-    {
-     "name": "Human API",
-     "slug": "human-api",
-     "description": "Human API is a United States health data platform, founded in 2013 and now part of LexisNexis Risk Solutions, that aggregates, normalizes, and delivers digital and clinical health data from providers, hospitals, labs, pharmacies, wearables, and apps through a single API. Its consumer-mediated Data API returns normalized wellness and medical records via user access tokens (Human Connect single sign-on), while its Health Intelligence Platform (HIP) Admin API lets enterprises order electronic health record (EHR) retrievals, manage users and subscriptions, and receive condensed clinical summary reports - primarily to accelerate life insurance underwriting by reaching 30,000+ data sources across roughly 270 million lives. The surface is a proprietary REST/JSON API secured with OAuth2-style client credentials and Bearer JWT tokens; it is not a HL7 FHIR or SMART-on-FHIR API. Access is gated behind a developer portal and partner agreement.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/screenshots/human-api-2026-07-25T221654.png",
-     "score": 51.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 60.4,
-      "governance": 0.0,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 73.9,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 54.3
-     },
-     "agent_score": 56.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 23
-    },
-    {
-     "name": "Syniverse",
-     "slug": "syniverse",
-     "description": "Syniverse is a United States headquartered wholesale telecommunications company that sits between mobile network operators rather than in front of consumers. Its mobility business runs inter-carrier roaming, IPX network and signaling, 5G SEPP, clearing and settlement, global SIM and satellite roaming for carriers, and none of that carrier-side estate is exposed as a public API. Its messaging business is the opposite: an A2P/CPaaS aggregator selling SMS, MMS, RCS, WhatsApp, push, voice, 10DLC campaign registration, messaging trust/anti-spam and mobile identity services to enterprises, and it is published through a genuine self-serve developer portal, the Syniverse Developer Community (SDC), where anyone can sign up for a free API key, read the docs, and download eleven Redoc-rendered OpenAPI/Swagger definitions. On network APIs Syniverse is a channel, not a source — it joined GSMA Open Gateway in April 2025 as a channel partner and announced an integration with Aduna in June 2025, but no CAMARA-defined API is documented or callable on its developer portal today.",
-     "score": 51.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 61.3,
-      "governance": 0.0,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 65.2,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 66.3,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 24
-    },
-    {
-     "name": "Fifth Third Bancorp",
-     "slug": "fifth-third-bancorp",
-     "description": "Fifth Third Bancorp is a diversified super-regional financial services company providing commercial banking, branch banking, consumer lending, and wealth and asset management services across multiple U.S. states. Its embedded-finance arm, Newline by Fifth Third (built on the 2023 Rize Money acquisition), operates a documented, API-first Banking-as-a-Service platform: the Newline Platform API exposes payments (ACH, wire, Real-Time Payments/RTP, book transfers), FDIC-insured deposit and custodial accounts, synthetic accounts, virtual reference numbers, card issuing, customer/KYC onboarding, transactions, returns, and webhook/message-queue notifications so fintechs and enterprises can embed financial products directly with Fifth Third Bank.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/screenshots/fifth-third-bancorp-2026-06-20T181156.png",
-     "score": 50.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 60.4,
-      "governance": 0.0,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 71.7,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 54.3
-     },
-     "agent_score": 71.2,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 25
-    },
-    {
-     "name": "Vim",
-     "slug": "vim",
-     "description": "Vim is a United States healthcare technology company (getvim.com) that operates a clinical workflow and point-of-care integration platform connecting health plans, provider organizations, and digital-health applications to physicians inside their existing electronic health records. Through the Vim Canvas developer platform and the VimOS.js JavaScript SDK, applications embed actionable clinical insights - diagnosis gaps, risk, quality, and social determinants of health - directly into supported ambulatory EHR workflows and can read and write EHR resources (Patient, Encounter, Orders, Referral, Claim) at the point of care. Vim also exposes a REST API at api.getvim.com/v1 for provisioning applications, organizations, invitations, appointment lookups, and chart retrieval, authenticated with OAuth 2.0 client credentials via an Auth0-backed authorization server (auth.getvim.com). Vim is HIPAA, SOC 2, and HITRUST certified. The platform is proprietary REST and SDK based; it is not an HL7 FHIR API and publishes no FHIR CapabilityStatement. The API is available only to application servers hosted within the United States.",
-     "score": 50.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 37.7,
-      "governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 69.6,
-      "commercial_clarity": 36.8
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 87.0
-     },
-     "agent_score": 69.2,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "rank": 26
-    },
-    {
      "name": "Weather.gov",
      "slug": "weather-gov",
      "description": "Weather.gov is the official website of the National Weather Service (NWS), operated by NOAA within the US Department of Commerce. The NWS provides weather, hydrologic, and climate forecasts and warnings for the United States, its territories, adjacent waters, and ocean areas. The Weather.gov API provides free, open access to forecasts, alerts, observations, radar data, aviation weather, and geographic zone information across all 50 states and territories.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/weather-gov/refs/heads/main/screenshots/weather-gov-2026-06-20T201308.png",
-     "score": 50.1,
+     "score": 52.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 65.2,
       "governance": 86.8,
       "operational_transparency": 31.6,
       "developer_ergonomics": 34.8,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1117,6 +834,289 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
+     "rank": 20
+    },
+    {
+     "name": "Keller Williams",
+     "slug": "keller-williams",
+     "description": "Keller Williams Realty, Inc. (KWRI) is an Austin, Texas headquartered residential real estate franchisor and the largest real estate brokerage franchise in the United States by agent count, operating more than 1,000 market centers worldwide through independently owned and operated offices. In the value chain Keller Williams sits at the brokerage and agent-platform layer, not the data-cooperative layer: it franchises brokerages, and it builds and operates KW Command, a proprietary agent operating system for lead, contact, task, listing, opportunity and marketing management, plus the KW Marketplace where third-party vendors sell integrated products to KW agents. Its API posture is real but partner-gated. Keller Williams runs a genuine Apigee-backed developer portal (DevHub) at developer.kw.com with a live gateway at partners.api.kw.com and a sandbox at sandbox.partners.api.kw.com, an OpenID Connect authorization server whose discovery document is publicly readable, and a published API License Agreement. Access is not self-serve: a developer must submit a partnership application through the \"Apply to Integrate\" form, be approved by KWRI, receive a DevHub account, then sign the KW API License Agreement and Terms of Use before receiving an API key and secret. Only one API — KW Worldwide Listings Search — is visible anonymously in the API catalog; the rest of the catalog (Command MC, Contact and Lead Data, Tasks, Opportunity/Deal/ Transaction Data, User/Organization/Role Information, Marketplace Subscription Management, Internal) is behind a SAML member login. On the sector's central question, Keller Williams carries no RESO posture at all: it is absent from the RESO certification directory, no RESO Web API, Data Dictionary, OData $metadata or Universal Property Identifier reference appears anywhere in its developer portal or specification, and its own listings spec states in its description that the service \"is not a substitution for or tied to any Multiple Listings Services database records.\" This is a brokerage's own listing and CRM data behind a commercial partner agreement, not licensed MLS data behind a certified standard.",
+     "score": 52.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 60.4,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 58.7,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 76.1
+     },
+     "agent_score": 63.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 21
+    },
+    {
+     "name": "Moxe Health",
+     "slug": "moxe-health",
+     "description": "Moxe Health is a United States healthcare data interoperability company, headquartered in Madison, Wisconsin, that operates the Clinical Data Clearinghouse for secure clinical data exchange between health plans (payers) and health systems (providers). Moxe's API-first platform ingests release-of-information (ROI) requests, searches connected electronic health records (EHRs) to extract the minimum-necessary contextual clinical data for a specified patient and date range, and securely delivers that data to the partner's system. Its Chart Retrieval API supports risk adjustment, quality improvement, claim management, payment integrity, care management, and forecasting use cases. The public developer portal documents a REST (OpenAPI 3.0.1) Chart Retrieval API secured with OAuth2 client-credentials plus an x-api-key header; retrieved charts are returned to a predetermined location via SFTP. Moxe is HIPAA and SOC 2 Type 2 compliant and was named number 1 Best in KLAS for Payer-Provider Data Exchange. The documented API is REST/JSON rather than HL7 FHIR, and full access is granted through a partner onboarding agreement.",
+     "score": 52.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 67.4,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 100.0
+     },
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 22
+    },
+    {
+     "name": "NextGen Healthcare",
+     "slug": "nextgen-healthcare",
+     "description": "NextGen Healthcare is a United States ambulatory electronic health record (EHR/EMR) and practice-management vendor headquartered in Remote-first / Atlanta, Georgia, serving outpatient specialties and community health with its NextGen Enterprise and NextGen Office platforms plus the Mirth Connect interoperability engine. Its developer surface is standards-driven: 21st Century Cures Act-certified HL7 FHIR APIs for patient access and provider apps, a SMART App Launch API, and a Bulk FHIR (Flat FHIR) API delivering USCDI data, alongside an 800+ route JSON RESTful Enterprise API family. NextGen Enterprise exposes live FHIR R4 and DSTU2 service base URLs with SMART-on-FHIR OAuth2, and NextGen Office exposes live FHIR R3/R4 and Bulk FHIR endpoints. FHIR resources are coded against the US Core / USCDIv1 implementation guides. Developer onboarding is gated behind an API onboarding form and app registration, which is standard for regulated health-data access in the US market.",
+     "score": 51.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 56.6,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 67.4,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 87.0
+     },
+     "agent_score": 69.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 23
+    },
+    {
+     "name": "Human API",
+     "slug": "human-api",
+     "description": "Human API is a United States health data platform, founded in 2013 and now part of LexisNexis Risk Solutions, that aggregates, normalizes, and delivers digital and clinical health data from providers, hospitals, labs, pharmacies, wearables, and apps through a single API. Its consumer-mediated Data API returns normalized wellness and medical records via user access tokens (Human Connect single sign-on), while its Health Intelligence Platform (HIP) Admin API lets enterprises order electronic health record (EHR) retrievals, manage users and subscriptions, and receive condensed clinical summary reports - primarily to accelerate life insurance underwriting by reaching 30,000+ data sources across roughly 270 million lives. The surface is a proprietary REST/JSON API secured with OAuth2-style client credentials and Bearer JWT tokens; it is not a HL7 FHIR or SMART-on-FHIR API. Access is gated behind a developer portal and partner agreement.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/human-api/refs/heads/main/screenshots/human-api-2026-07-25T221654.png",
+     "score": 51.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 60.4,
+      "governance": 0.0,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 54.3
+     },
+     "agent_score": 56.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 24
+    },
+    {
+     "name": "Syniverse",
+     "slug": "syniverse",
+     "description": "Syniverse is a United States headquartered wholesale telecommunications company that sits between mobile network operators rather than in front of consumers. Its mobility business runs inter-carrier roaming, IPX network and signaling, 5G SEPP, clearing and settlement, global SIM and satellite roaming for carriers, and none of that carrier-side estate is exposed as a public API. Its messaging business is the opposite: an A2P/CPaaS aggregator selling SMS, MMS, RCS, WhatsApp, push, voice, 10DLC campaign registration, messaging trust/anti-spam and mobile identity services to enterprises, and it is published through a genuine self-serve developer portal, the Syniverse Developer Community (SDC), where anyone can sign up for a free API key, read the docs, and download eleven Redoc-rendered OpenAPI/Swagger definitions. On network APIs Syniverse is a channel, not a source — it joined GSMA Open Gateway in April 2025 as a channel partner and announced an integration with Aduna in June 2025, but no CAMARA-defined API is documented or callable on its developer portal today.",
+     "score": 51.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 61.3,
+      "governance": 0.0,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 66.3,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 25
+    },
+    {
+     "name": "Fifth Third Bancorp",
+     "slug": "fifth-third-bancorp",
+     "description": "Fifth Third Bancorp is a diversified super-regional financial services company providing commercial banking, branch banking, consumer lending, and wealth and asset management services across multiple U.S. states. Its embedded-finance arm, Newline by Fifth Third (built on the 2023 Rize Money acquisition), operates a documented, API-first Banking-as-a-Service platform: the Newline Platform API exposes payments (ACH, wire, Real-Time Payments/RTP, book transfers), FDIC-insured deposit and custodial accounts, synthetic accounts, virtual reference numbers, card issuing, customer/KYC onboarding, transactions, returns, and webhook/message-queue notifications so fintechs and enterprises can embed financial products directly with Fifth Third Bank.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/fifth-third-bancorp/refs/heads/main/screenshots/fifth-third-bancorp-2026-06-20T181156.png",
+     "score": 50.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 60.4,
+      "governance": 0.0,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 54.3
+     },
+     "agent_score": 71.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 26
+    },
+    {
+     "name": "Vim",
+     "slug": "vim",
+     "description": "Vim is a United States healthcare technology company (getvim.com) that operates a clinical workflow and point-of-care integration platform connecting health plans, provider organizations, and digital-health applications to physicians inside their existing electronic health records. Through the Vim Canvas developer platform and the VimOS.js JavaScript SDK, applications embed actionable clinical insights - diagnosis gaps, risk, quality, and social determinants of health - directly into supported ambulatory EHR workflows and can read and write EHR resources (Patient, Encounter, Orders, Referral, Claim) at the point of care. Vim also exposes a REST API at api.getvim.com/v1 for provisioning applications, organizations, invitations, appointment lookups, and chart retrieval, authenticated with OAuth 2.0 client credentials via an Auth0-backed authorization server (auth.getvim.com). Vim is HIPAA, SOC 2, and HITRUST certified. The platform is proprietary REST and SDK based; it is not an HL7 FHIR API and publishes no FHIR CapabilityStatement. The API is available only to application servers hosted within the United States.",
+     "score": 50.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 69.6,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 87.0
+     },
+     "agent_score": 69.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
      "rank": 27
     },
     {
@@ -1134,7 +1134,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1175,7 +1175,7 @@
       "developer_ergonomics": 91.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 56.7,
      "agent_band": "agent-ready",
@@ -1210,7 +1210,7 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 77.9,
      "agent_band": "agent-native",
@@ -1246,7 +1246,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1287,7 +1287,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 75.0,
      "agent_band": "agent-native",
@@ -1323,7 +1323,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1364,7 +1364,7 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1406,7 +1406,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1448,7 +1448,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -1484,7 +1484,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1526,7 +1526,7 @@
       "developer_ergonomics": 82.6,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1568,7 +1568,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1610,7 +1610,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 38.5,
      "agent_band": "agent-aware",
@@ -1646,7 +1646,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -1681,7 +1681,7 @@
       "developer_ergonomics": 82.6,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1723,7 +1723,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -1759,7 +1759,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1801,7 +1801,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1838,6 +1838,48 @@
    "shown": 49,
    "companies": [
     {
+     "name": "KeyCorp",
+     "slug": "keycorp",
+     "description": "KeyCorp (KeyBank) is one of the nation's largest bank-based financial services companies and a super-regional commercial bank headquartered in Cleveland, Ohio, providing deposit, lending, cash management, treasury, and investment services to individuals, small businesses, and middle-market companies. The KeyBank Developer Portal at developer.key.com publishes a self-service catalog of commercial and embedded-banking APIs covering account information reporting, ACH origination, RTP and wire payments, account validation, ACH/wire/RTP inquiry, check services, and payment event webhooks. Each product ships a downloadable OpenAPI 3.1 definition and is secured with OAuth2 bearer tokens, mutual TLS client certificates, and FAPI-style interaction-id headers.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/screenshots/keycorp-2026-06-20T184017.png",
+     "score": 44.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 68.7,
+      "governance": 0.0,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 54.3,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 37.0
+     },
+     "agent_score": 86.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 46
+    },
+    {
      "name": "Luma Health",
      "slug": "luma-health",
      "description": "Luma Health is a United States patient-engagement (Patient Success) platform for healthcare provider organizations, headquartered in San Francisco, California. Its operational AI platform automates the patient journey - self-service scheduling and appointment management, referral and waitlist management, intake and digital forms, omnichannel two-way messaging and broadcast, appointment reminders and recalls, insurance eligibility verification, payments and billing, and a conversational AI assistant (Navigator / lumabot) - and integrates bidirectionally with the major EHRs (Epic, Oracle Health/Cerner, MEDITECH, eClinicalWorks, athenahealth, NextGen, Greenway, Nextech). Luma exposes a documented public REST API (Rest-Service v2.0.0, OpenAPI 3.0.0) at https://api.lumahealth.io/api/v2, secured with OAuth2 client-credentials that issue JWT bearer tokens. The developer-facing surface is a REST API rather than an HL7 FHIR server; FHIR/HL7 interoperability with EHRs happens inside Luma's integration layer, not as a public FHIR endpoint.",
@@ -1853,7 +1895,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1877,7 +1919,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 46
+     "rank": 47
     },
     {
      "name": "Spark Platform",
@@ -1894,7 +1936,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 40.4,
      "agent_band": "agent-aware",
@@ -1912,7 +1954,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 47
+     "rank": 48
     },
     {
      "name": "Yale University",
@@ -1930,7 +1972,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 38.5,
      "agent_band": "agent-aware",
@@ -1948,7 +1990,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 48
+     "rank": 49
     },
     {
      "name": "Moody's RMS",
@@ -1965,7 +2007,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1989,7 +2031,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 49
+     "rank": 50
     },
     {
      "name": "University of Chicago",
@@ -2007,7 +2049,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -2025,7 +2067,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 50
+     "rank": 51
     },
     {
      "name": "Euronet Worldwide",
@@ -2043,7 +2085,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2067,7 +2109,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 51
+     "rank": 52
     },
     {
      "name": "Dartmouth College",
@@ -2085,49 +2127,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 37.0
-     },
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 52
-    },
-    {
-     "name": "Michigan State University",
-     "slug": "michigan-state-university",
-     "description": "Michigan State University (MSU) is a public land-grant research university in East Lansing, Michigan, United States, ranked #89 in the QS World University Rankings 2025. Like most large research institutions, MSU does not operate a single consolidated public developer portal; its confirmed public API footprint is concentrated in the MSU Libraries platforms, which expose a VuFind REST API (OpenAPI 3.0) for the library catalog and OAI-PMH 2.0 endpoints for the catalog and the digital repository. Identity is provided through a Shibboleth/SAML Identity Provider with OAuth 2.0 support, and MSU maintains official GitHub organizations for the university and for MSU Libraries. Most administrative, student, and research-profile interfaces are gated behind institutional affiliation rather than offered as open self-service APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/screenshots/michigan-state-university-2026-06-20T185328.png",
-     "score": 43.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 48.7,
-      "governance": 73.7,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2154,42 +2154,42 @@
      "rank": 53
     },
     {
-     "name": "KeyCorp",
-     "slug": "keycorp",
-     "description": "KeyCorp (KeyBank) is one of the nation's largest bank-based financial services companies and a super-regional commercial bank headquartered in Cleveland, Ohio, providing deposit, lending, cash management, treasury, and investment services to individuals, small businesses, and middle-market companies. The KeyBank Developer Portal at developer.key.com publishes a self-service catalog of commercial and embedded-banking APIs covering account information reporting, ACH origination, RTP and wire payments, account validation, ACH/wire/RTP inquiry, check services, and payment event webhooks. Each product ships a downloadable OpenAPI 3.1 definition and is secured with OAuth2 bearer tokens, mutual TLS client certificates, and FAPI-style interaction-id headers.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/screenshots/keycorp-2026-06-20T184017.png",
-     "score": 43.2,
+     "name": "Michigan State University",
+     "slug": "michigan-state-university",
+     "description": "Michigan State University (MSU) is a public land-grant research university in East Lansing, Michigan, United States, ranked #89 in the QS World University Rankings 2025. Like most large research institutions, MSU does not operate a single consolidated public developer portal; its confirmed public API footprint is concentrated in the MSU Libraries platforms, which expose a VuFind REST API (OpenAPI 3.0) for the library catalog and OAI-PMH 2.0 endpoints for the catalog and the digital repository. Identity is provided through a Shibboleth/SAML Identity Provider with OAuth 2.0 support, and MSU maintains official GitHub organizations for the university and for MSU Libraries. Most administrative, student, and research-profile interfaces are gated behind institutional affiliation rather than offered as open self-service APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/michigan-state-university/refs/heads/main/screenshots/michigan-state-university-2026-06-20T185328.png",
+     "score": 43.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 68.7,
-      "governance": 0.0,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 54.3,
+      "discoverability": 100.0,
+      "contract_quality": 48.7,
+      "governance": 73.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
       "score": 37.0
      },
-     "agent_score": 86.5,
-     "agent_band": "agent-native",
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": true,
-      "mcp_server": true,
+      "mcp_server": false,
       "auth_clarity": true,
-      "idempotency": true,
-      "error_semantics": true,
+      "idempotency": false,
+      "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false
      },
@@ -2211,7 +2211,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2253,7 +2253,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2294,7 +2294,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2336,7 +2336,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2377,7 +2377,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 27.9,
      "agent_band": "agent-aware",
@@ -2413,7 +2413,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2455,7 +2455,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2497,7 +2497,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2539,7 +2539,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2581,7 +2581,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2622,7 +2622,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2663,7 +2663,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 39.4,
      "agent_band": "agent-aware",
@@ -2699,7 +2699,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2741,7 +2741,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2783,7 +2783,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2824,7 +2824,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 79.8,
      "agent_band": "agent-native",
@@ -2860,7 +2860,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2902,7 +2902,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2944,7 +2944,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2986,7 +2986,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3028,7 +3028,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3069,7 +3069,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3111,7 +3111,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3152,7 +3152,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3193,7 +3193,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3235,7 +3235,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3277,7 +3277,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3319,7 +3319,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3361,7 +3361,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3403,7 +3403,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3445,7 +3445,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3486,7 +3486,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 72.1,
      "agent_band": "agent-native",
@@ -3522,7 +3522,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3563,7 +3563,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3605,7 +3605,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3646,7 +3646,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3688,7 +3688,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3730,7 +3730,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3771,7 +3771,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3812,7 +3812,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 36.5,
      "agent_band": "agent-aware",
@@ -3858,7 +3858,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3900,7 +3900,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3942,7 +3942,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3983,7 +3983,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4024,7 +4024,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 30.8,
      "agent_band": "agent-aware",
@@ -4060,7 +4060,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4101,7 +4101,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4143,7 +4143,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4185,7 +4185,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4227,7 +4227,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -4262,7 +4262,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4304,7 +4304,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -4339,7 +4339,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4380,7 +4380,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4421,7 +4421,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4463,7 +4463,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -4499,7 +4499,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -4535,7 +4535,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -4571,7 +4571,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4613,7 +4613,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4655,7 +4655,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4697,7 +4697,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -4733,7 +4733,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4775,7 +4775,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4816,7 +4816,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4858,7 +4858,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4900,7 +4900,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4942,7 +4942,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -4978,7 +4978,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5020,7 +5020,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5062,7 +5062,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5104,7 +5104,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -5140,7 +5140,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -5176,7 +5176,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -5211,7 +5211,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5246,7 +5246,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5288,7 +5288,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5330,7 +5330,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5371,7 +5371,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5413,7 +5413,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5455,7 +5455,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5496,7 +5496,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5538,7 +5538,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5580,7 +5580,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5622,7 +5622,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -5658,7 +5658,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5700,7 +5700,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5742,7 +5742,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5784,7 +5784,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5826,7 +5826,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5868,7 +5868,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5909,7 +5909,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5951,7 +5951,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5993,7 +5993,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6035,7 +6035,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6077,7 +6077,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6119,7 +6119,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6161,7 +6161,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6203,7 +6203,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6245,7 +6245,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6287,7 +6287,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6329,7 +6329,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6371,7 +6371,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6413,7 +6413,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6455,7 +6455,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6497,7 +6497,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6539,7 +6539,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6580,7 +6580,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6622,7 +6622,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6664,7 +6664,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6705,7 +6705,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6747,7 +6747,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6789,7 +6789,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6831,7 +6831,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6873,7 +6873,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6915,7 +6915,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6957,7 +6957,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6998,7 +6998,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7034,7 +7034,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7076,7 +7076,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7117,7 +7117,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7159,7 +7159,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7201,7 +7201,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7243,7 +7243,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7284,7 +7284,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7326,7 +7326,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7368,7 +7368,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7410,7 +7410,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7451,7 +7451,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7493,7 +7493,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7535,7 +7535,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7577,7 +7577,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7619,7 +7619,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7660,7 +7660,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7701,7 +7701,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7742,7 +7742,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7783,7 +7783,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7824,7 +7824,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7865,7 +7865,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7907,7 +7907,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7949,7 +7949,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8000,7 +8000,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8041,7 +8041,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8083,7 +8083,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8125,7 +8125,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8167,7 +8167,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8208,7 +8208,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8249,7 +8249,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8290,7 +8290,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8331,7 +8331,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8372,7 +8372,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8413,7 +8413,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8454,7 +8454,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8495,7 +8495,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8537,7 +8537,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8579,7 +8579,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8615,7 +8615,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8657,7 +8657,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8698,7 +8698,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8739,7 +8739,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8780,7 +8780,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8816,7 +8816,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8857,7 +8857,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8898,7 +8898,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8940,7 +8940,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8982,7 +8982,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -9023,7 +9023,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -9064,7 +9064,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -9105,7 +9105,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -9138,8 +9138,8 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 20,
-   "shown": 20,
+   "count": 50,
+   "shown": 50,
    "companies": [
     {
      "name": "Accel",
@@ -9149,128 +9149,308 @@
      "rank": 224
     },
     {
+     "name": "AutoGrid",
+     "slug": "autogrid",
+     "description": "AutoGrid Systems is a United States grid-technology company founded in 2011 by Amit Narayan in Redwood City, California, that built AI and machine-learning software for distributed energy resource management (DERMS), virtual power plants, and automated demand response under the AutoGrid Flex platform, selling to investor-owned utilities, retailers, and aggregators rather than to end consumers. It sits on the grid-tech / DERMS layer of the energy value chain - a buyer and orchestrator of utility and device data, not a data custodian - so no Green Button, Consumer Data Right, or smart-meter data-sharing obligation attaches to it. Schneider Electric took control of AutoGrid and then sold it to Uplight in a deal announced 14 December 2023 and closed in early 2024; auto-grid.com now serves only a 270-byte meta-refresh to uplight.com (on an expired TLS certificate as of 27 July 2026) and every developer, docs, api, and data subdomain fails to resolve. Its API posture is therefore honestly none-published - no public developer portal, no OpenAPI, no consumer usage API, and no open market data. The successor surface at docs.uplight.com is real but fully login-gated, redirecting anonymous visitors to a ReadMe dashboard login, and api.uplight.com answers HTTP 401 with \"Invalid or no token provided\" - partner and customer access only.",
+     "rank": 225
+    },
+    {
      "name": "Battery Ventures",
      "slug": "battery-ventures",
      "description": "Battery Ventures is a global, technology-focused investment firm founded in 1983 and headquartered in Boston, Massachusetts, with additional offices in San Francisco, Menlo Park, New York, London, and Tel Aviv. Battery invests across every stage of a company's life, from seed and early-stage venture through growth equity and private-equity buyouts, giving the firm a distinctive multi-stage perspective on technology markets. Its core areas of focus are application software, infrastructure software, consumer technology, and industrial tech plus life-science tools. As of 2025 the firm reports having invested in more than 530 companies over its 40-plus-year history, of which roughly 70 have gone public and another 185 have been merged or acquired. Battery is currently investing out of its 15th flagship fund, Battery Ventures XV, capitalized at $3.25 billion, and has raised more than $16 billion across all of its funds since inception. The firm describes itself as decisive, hard-working, and thesis-driven, backing category-defining companies including Affirm, Amplitude, AppDynamics, Avalara, Akamai, Coupa, Wonolo, and many others. This profile tracks Battery Ventures' identity and its portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/battery-ventures/refs/heads/main/screenshots/battery-ventures-2026-07-25T202436.png",
-     "rank": 225
+     "rank": 226
     },
     {
      "name": "Benchmark",
      "slug": "benchmark",
      "description": "Benchmark is an American early-stage venture capital firm founded in 1995 by Bob Kagle, Bruce Dunlevie, Andy Rachleff, Kevin Harvey, and Val Vaden, and headquartered at 140 New Montgomery Street in San Francisco, California (with a second office in Woodside). Benchmark is known for its distinctive equal partnership structure, where a small number of general partners share ownership and carry equally with no junior/senior hierarchy and no managing partner. The firm concentrates on leading first institutional rounds — typically Series A — and historically kept fund sizes small (around $425M) with a focus on consumer, marketplaces, social, open source, developer tools, infrastructure, enterprise software, fintech, crypto, and artificial intelligence. Benchmark has backed transformational companies including eBay, Uber, Twitter, Instagram, Snap, Dropbox, Discord, Docker, Zendesk, Confluent, Elastic, New Relic, Asana, Amplitude, Nextdoor, Stitch Fix, Yelp, OpenTable, Zillow, Red Hat, Airtable, Benchling, Cockroach Labs, Chainalysis, HackerOne, Contentful, Modern Treasury, Stytch, and, more recently, AI-native companies such as LangChain, Cerebras, MindsDB, Lovable, Legora, Gumloop, and Starcloud. In 2026 Benchmark broke with tradition to raise roughly $2B across two new vehicles, including its first-ever dedicated later-stage growth fund. This profile tracks Benchmark's identity and its portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/benchmark/refs/heads/main/screenshots/benchmark-2026-07-25T202736.png",
-     "rank": 226
+     "rank": 227
     },
     {
      "name": "Bessemer Venture Partners",
      "slug": "bessemer-venture-partners",
      "description": "Bessemer Venture Partners (BVP) is one of the oldest and largest venture capital firms in the world, founded in 1911 out of the fortune of steel magnate Henry Phipps and headquartered in San Francisco, California. With more than $20 billion in assets under management and investment teams in San Francisco, Silicon Valley, New York, Boston, London, Bangalore, and Tel Aviv, Bessemer invests globally across seed, early, and growth stages, and runs a dedicated private equity buyout arm, BVP Forge. The firm invests across artificial intelligence and machine learning, cloud and infrastructure, developer tools, cybersecurity, fintech, healthcare and biotech, consumer, marketplaces, vertical software, data, deep tech and defense, and crypto/web3. Bessemer has backed transformative companies including Shopify, Twilio, Pinterest, LinkedIn, Yelp, DocuSign, Wix, Fiverr, Toast, ServiceTitan, PagerDuty, Auth0, Box, and Canva, and is known for publishing its \"Anti- Portfolio\" of missed opportunities, its Atlas research roadmaps, and its cloud/state-of-the-industry benchmark reports. Investing out of its 12th early-stage fund (a $3.85B vehicle), Bessemer was ranked among the largest venture firms by five-year fundraising. This profile tracks Bessemer's identity and its portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bessemer-venture-partners/refs/heads/main/screenshots/bessemer-venture-partners-2026-07-25T202751.png",
-     "rank": 227
+     "rank": 228
+    },
+    {
+     "name": "Blink Charging",
+     "slug": "blink-charging",
+     "description": "Blink Charging Co. (Nasdaq BLNK) is a United States electric vehicle charging company headquartered at 17301 Melford Boulevard, Bowie, Maryland, with additional offices in California, the United Kingdom, Belgium and India. It designs and sells Level 2 and DC fast chargers (Series 7, 8 and 9, Shasta, the EQ/PQ line and the HYC DC fast chargers), owns and operates chargers under both owner-operator and host-owned business models, and runs the Blink Network - the proprietary cloud platform behind its host portal, driver mobile app and fleet management product. In the energy value chain Blink is a charge point operator and a load on the distribution grid, not a utility, retailer or system operator. It publishes no electricity usage, tariff, grid or market data of its own, and no consumer energy data right obligation applies to it in its home market of the United States - Green Button is a voluntary NAESB/NIST standard aimed at utilities, and Blink is not a utility. Its API posture is a closed door behind a live legal surface. The Blink Network Terms and Conditions, last modified 2 December 2025, explicitly govern \"the Blink API\" and state that use is \"under your username\", but no live developer portal, API reference, base URL or machine-readable contract is published anywhere on blinkcharging.com. The historical BlinkMap API developer page at prod.blinknetwork.com/developer.html - an application form gated by a Blink Network, LLC Data License Agreement - now refuses connections and was last archived in July 2021. The only live data-access surface Blink publishes is a United Kingdom open data request page citing the Public Charge Point Regulations 2023, where a Google Form request is reviewed by Blink's data team, shared with the aggregator Eco-Movement and answered \"in api format\" - an application-approval gate, not an open feed. Blink's real standards adoption sits below the API layer: OCPP 2.0.1 certification for its Series 7, 8 and 9 chargers announced September 2025, and OpenADR 2.0 approval for the Blink Network announced March 2020 enabling utility load management across its charging network.",
+     "rank": 229
+    },
+    {
+     "name": "California ISO",
+     "slug": "caiso",
+     "description": "The California Independent System Operator (CAISO) is the non-profit public benefit corporation that operates the high-voltage transmission grid serving roughly 80 percent of California plus a portion of Nevada, and runs the wholesale day-ahead and real-time electricity markets, the Western Energy Imbalance Market (WEIM), and the Extended Day-Ahead Market (EDAM). As a system and market operator in the United States it sits at the wholesale layer of the energy value chain — upstream of the investor-owned utilities that bill retail customers, and therefore it holds no retail customer accounts and publishes no consumer usage data. Its API posture is a clean split: market data is genuinely open and consumer data does not exist. The OASIS Download API at https://oasis.caiso.com/oasisapi serves locational marginal prices, demand and renewables forecasts, ancillary services, transmission and nodal reference data as zipped CSV or CIM XML to anonymous callers with no key, no account and no registration — CAISO states in writing that every system it operates except OASIS requires a company User Access Administrator to grant access. The Today's Outlook telemetry feeds under https://www.caiso.com/outlook publish five-minute fuel mix, demand, net demand and CO2 as plain CSV, also anonymously. Everything else — market submission, dispatch, settlements and the participant portals — is behind PKI client certificates and UAA-sponsored accounts, and even the OASIS reference documentation on the developer site requires a signup reviewed against a corporate email domain and a written justification. No Green Button, ESPI, or Consumer Data Right surface exists here and none is expected to; the obligation CAISO answers to is FERC's open-access transparency regime, not a consumer data right. No OpenAPI, AsyncAPI, or other machine-readable contract is published for any of it.",
+     "rank": 230
+    },
+    {
+     "name": "Con Edison",
+     "slug": "con-edison",
+     "description": "Consolidated Edison Company of New York, Inc. (CECONY, trading as Con Edison) is the investor-owned electric, gas and steam utility that serves New York City and Westchester County, and together with its sibling Orange & Rockland Utilities (ORU) forms the regulated utility core of Consolidated Edison, Inc. It is a wires-and-pipes distribution utility rather than a competitive retailer: it owns and operates the distribution system, meters the customer and bills the customer, while wholesale energy markets are run by NYISO and competitive supply is sold by ESCOs. It is rate-regulated by the New York State Public Service Commission. Its API posture is the most interesting in the United States sample because both halves are real and they are gated completely differently. On the consumer side Con Edison runs a genuine, verified Green Button Connect My Data implementation — the NAESB REQ.21 ESPI standard, branded \"Share My Data\" — with a live production base URI at https://api.coned.com/gbc/espi/1_1 that answers anonymously with HTTP 401 \"Unauthorized. Access token is missing or invalid.\", a publicly downloadable 37-path Swagger 2.0 definition (\"DCX GBC API V2\"), a public Postman collection titled \"GBC Certification Third party V3.3\", OAuth 2.0 authorization-code and client-credentials flows, ESPI functional-block scopes, batch and real-time interval endpoints, and a 35-page technical onboarding document last revised 2026-05-07. The United States has no federal energy consumer data right; Con Edison's adoption sits under New York PSC supervision (the Joint Utilities DSIP proceeding, Case 16-M-0411, in which it committed to implement the first phase of GBC by end of 2017, the Data Access Framework in Case 20-M-0082, and a Customer Data Access Tariff) rather than under a statutory mandate like Australia's Consumer Data Right or Ontario Regulation 633/21. That data is not self-serve: a third party must register, sign a Data Security Agreement, submit a technical onboarding form and pass 30 to 60 days of supervised testing before production credentials are issued, and Con Edison states plainly that it \"is unable to support API development for third parties.\" On the market side, by contrast, Con Edison publishes distribution-grid data openly and anonymously: the Hosting Capacity Map documents REST API access, and its ArcGIS feature services for segmented and network hosting capacity, EV transformer capacity, 33kV feeders, non-wires-solutions networks and disadvantaged communities all answer unauthenticated. Open on the grid, accredited on the customer — that split is the finding.",
+     "rank": 231
     },
     {
      "name": "Cowboy Ventures",
      "slug": "cowboy-ventures",
      "description": "Cowboy Ventures is a seed-stage venture capital firm founded in 2012 by Aileen Lee (who coined the term \"unicorn\" for billion-dollar startups) and headquartered in Palo Alto, California. The firm backs pre-seed and seed-stage founders building \"life-changing\" products for large and growing markets, with roughly 70% of investments made pre-product and a strong seed-to-Series A graduation rate. Typical first checks run from about $100K up to $1M, with a sweet spot near $500K–$800K. Cowboy invests across enterprise software, fintech, software infrastructure and security, healthcare, consumer, future of work, and vertical software, primarily in the United States. The firm has made 100+ early-stage investments and cultivates a curated community of founders, operators, and tech leaders. Notable portfolio companies include Chime, Guild, Drata, Dollar Shave Club, Ironclad, Aura, Kiavi, Crunchbase, and Product Hunt.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cowboy-ventures/refs/heads/main/screenshots/cowboy-ventures-2026-07-25T210618.png",
-     "rank": 228
+     "rank": 232
     },
     {
      "name": "Craft Ventures",
      "slug": "craft-ventures",
      "description": "Craft Ventures is a San Francisco-based venture capital firm founded in late 2017 by repeat entrepreneurs David Sacks and Bill Lee, built \"by founders for founders\" and rooted in the operator playbook of the PayPal Mafia. The firm invests across early and growth stages, writing checks that range from micro-seed positions through double-digit millions, and specializes in B2B SaaS, marketplaces, and enterprise software prized for high-growth, high-margin, recurring-revenue economics. Craft is known for its rigorous, metrics-driven SaaS operating framework and hands-on support spanning talent, go-to-market, community, and finance. Beyond core SaaS, the portfolio spans artificial intelligence, developer tools, fintech and crypto, cybersecurity, digital health, defense, and frontier technology. The firm manages roughly $3.3 billion in assets across four early-stage funds and two growth funds, including Craft Ventures IV ($712M) and Craft Ventures Growth II ($608M). Notable investments include Airbnb, Affirm, Reddit, Uber, Lyft, Palantir, Slack, ElevenLabs, Supabase, Anduril, and Neuralink. Headquartered in San Francisco, with offices in New York City and Austin, Texas, and a primarily United States geographic focus.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/craft-ventures/refs/heads/main/screenshots/craft-ventures-2026-07-25T210634.png",
-     "rank": 229
+     "rank": 233
     },
     {
      "name": "DCM Ventures",
      "slug": "dcm-ventures",
      "description": "DCM Ventures (formerly Doll Capital Management, and commonly known as DCM) is an early-stage venture capital firm founded in 1996 by Dixon Doll, a former Accel partner, and David Chao, and headquartered at 2420 Sand Hill Road in Menlo Park, California with additional offices in Beijing and Tokyo. DCM was among the first Silicon Valley firms to build a cross-border, US-Asia investing practice, and typically leads early-stage rounds with checks in the roughly $1M-$5M range, deploying capital into a small group of category-defining companies each year rather than investing broadly. The firm's thesis has evolved from its original focus on communications and semiconductors toward consumer internet and SaaS, and today centers on vertical SaaS, fintech, cross-border innovation, and AI-native applications across the United States, China, Japan, and Southeast Asia. As of 2025 DCM manages approximately $4.5 billion in assets and reports 400+ portfolio companies, 35+ unicorns, and over $150 billion in aggregate market value, with notable investments including SoFi, Bill.com, Kuaishou, Matterport, 51job, Careem, and Sansan.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dcm-ventures/refs/heads/main/screenshots/dcm-ventures-2026-07-25T211459.png",
-     "rank": 230
+     "rank": 234
+    },
+    {
+     "name": "EIA",
+     "slug": "eia",
+     "description": "The U.S. Energy Information Administration (EIA) is the independent statistical and analytical agency within the U.S. Department of Energy, created by the Department of Energy Organization Act of 1977, that collects, analyzes, and disseminates energy information for the United States. EIA sits at the measurement layer of the American energy value chain rather than the operating layer - it does not generate, transmit, distribute, or retail energy, and it does not regulate anyone. Instead it compels the industry to report through mandatory survey forms (EIA-860, EIA-861, EIA-923, EIA-176, EIA-914, EIA-930 and dozens more) and then publishes the result as the reference statistics for electricity, natural gas, petroleum, coal, nuclear, renewables, emissions, and international energy. EIA's API posture is the strongest of any organization in this sector and a genuine benchmark for government data anywhere. The Open Data APIv2 at api.eia.gov/v2 is a fully RESTful, self-documenting, hierarchically routed API covering more than two million time series, described by a real downloadable OpenAPI 3.0.0 contract carrying 225 paths and 278 operations, opened by a free API key that is emailed automatically from a public registration form with no review, no accreditation, and no licence to sign. A companion bulk download facility at api.eia.gov/bulk serves the same data as manifest-indexed zip archives and requires no key at all. The split that defines this sector is absolute here. EIA's market, system, and grid data is wide open - hourly balancing-authority demand and interchange, wholesale and spot prices, generator-level capacity and operations - while EIA publishes no consumer energy data API of any kind. There is no Green Button, no ESPI, no Download My Data, no Connect My Data, no consent flow, and no customer usage or billing endpoint, because individual customer data is never collected by EIA in the first place; its surveys arrive already aggregated from utilities and are further protected by statutory confidentiality. EIA is therefore the clearest instance of the recurring finding in this series - a federal data agency that publishes a far better documented, far more accessible API than the regulated utilities whose numbers it reports.",
+     "rank": 235
+    },
+    {
+     "name": "EnergyHub",
+     "slug": "energyhub",
+     "description": "EnergyHub is a Brooklyn, New York distributed energy resource management system (DERMS) vendor and an independent subsidiary of Alarm.com (Nasdaq ALRM), operating in its home market of the United States. Its Edge DERMS platform (formerly marketed as Mercury DERMS) lets electric utilities enroll, forecast, dispatch, and measure customer-owned distributed energy resources - smart thermostats, batteries, electric vehicles and EV chargers, solar inverters, and commercial and industrial loads - as virtual power plants, and the company says it has been running load control programs since 2009. EnergyHub sits squarely in the private middle layer of the energy value chain. It is not a utility, not a retailer, and not a market operator, so no consumer energy data mandate applies to it: there is no Green Button obligation, no Consumer Data Right designation, and no Ontario regulation in play. Its API posture is honestly partner-only and entirely undocumented in public. Two APIs are publicly announced by the company - the Mercury Edge Connect API, which EnergyHub states is \"based on the Open ADR standard\", and a Marketplace API for demand-response pre-enrollment at the device point of sale - but neither has public reference documentation, a published base URI, a schema, or a self-serve signup. The knowledge base at help.energyhub.com serves a public landing page while every technical guide and device-partner integration article behind it is gated by an Okta SSO login. A live host at mec.energyhub.com answers TLS with a valid DigiCert certificate and rejects every anonymous request with \"400 No required SSL certificate was sent\", which is mutual-TLS client-certificate enforcement rather than a public API. No consumer usage or billing data API exists for third parties, and no open grid or market data is published, so EnergyHub is closed on both the consumer-data and the market-data axis, and a developer gets in only by signing a commercial or DER partner agreement.",
+     "rank": 236
+    },
+    {
+     "name": "Enphase Energy",
+     "slug": "enphase",
+     "description": "Enphase Energy is a Petaluma, California home-energy technology manufacturer and the dominant supplier of solar microinverters in the United States, shipping IQ Microinverters, IQ Batteries, IQ EV Chargers and the Envoy/IQ Gateway that ties them together through the Enlighten cloud. It sits on the DER side of the energy value chain rather than the utility side: it does not own meters, sell electricity, or operate a grid, so no consumer energy data mandate reaches it — there is no Green Button, ESPI or NAESB implementation anywhere in its developer surface, and the United States has no compulsory retail energy data right to designate it under. Its API posture is nevertheless unusually open for this sector. The Enphase Developer Portal at developer-v4.enphase.com is a genuine self-serve 3scale portal where anyone can register, create an application and subscribe to a free Watt plan, and it publishes three complete, anonymously downloadable machine-readable contracts covering 124 operations. The split that defines Enphase is consumer-data-open, market-data-closed: a third-party developer can retrieve an individual homeowner's site production, consumption, battery and EV charger telemetry through documented OAuth 2.0 authorization-code flows with the system owner's explicit approval, but Enphase publishes no open grid, wholesale market or system-wide generation data of any kind. Access is tiered — self-serve for monitoring, application-approval for installer commissioning (10+ installations required), and partner-only for the Virtual Power Plant API, which is the one place a real standard appears: OCPP 1.6 for EV charger control against third-party CSMS platforms.",
+     "rank": 237
+    },
+    {
+     "name": "ERCOT",
+     "slug": "ercot",
+     "description": "The Electric Reliability Council of Texas (ERCOT) is the independent system operator that manages the flow of electric power to roughly 27 million Texas customers on the ERCOT Interconnection, running the wholesale Day-Ahead and Real-Time energy markets, ancillary services, congestion revenue rights, and retail switching for the competitive Texas market. Its home market is the United States (Texas). ERCOT sits at the wholesale/system-operator layer of the energy value chain, upstream of the transmission and distribution utilities (Oncor, CenterPoint, AEP Texas, TNMP) and the retail electric providers that serve end customers. Its API posture is a clean split: market and grid data are genuinely open — ERCOT publishes a real, versioned OpenAPI 3.0 for the Public Data API covering 106 EMIL data-product endpoints (locational marginal prices, settlement point prices, system load, wind and solar production, ancillary services, outage capacity), and the Market Information System still serves public report archives anonymously with no account at all. Consumer energy data is a different story: ERCOT operates no consumer usage API and implements no Green Button / ESPI surface. Texas residential interval data lives in Smart Meter Texas, which is operated by the joint Transmission and Distribution Utilities under PUCT oversight, not by ERCOT. The market-participant SOAP estate (ERCOT Web Services, MarkeTrak, Retail API) is documented publicly on GitHub but reachable only by certified market participants.",
+     "rank": 238
+    },
+    {
+     "name": "FERC",
+     "slug": "ferc",
+     "description": "The Federal Energy Regulatory Commission (FERC) is the independent United States federal agency that regulates the interstate transmission of electricity, natural gas, and oil, licenses hydropower projects, and oversees the wholesale power markets run by the seven ISOs and RTOs. FERC sits on the wholesale side of the US energy value chain — it does not regulate retail utility service, retail rates, or the customer relationship, which remain with the fifty state public utility commissions. That jurisdictional line defines FERC's API posture exactly. FERC operates a real, self-serve open data API at api.data.ferc.gov, documented at data.ferc.gov with a published OpenAPI 3.0 description, a free 40-character API key issued from a sign-up form, a 1,000-request-per-hour rate limit, and X-Api-Key header or api_key query authentication on the api.data.gov API Umbrella stack — genuinely open market and regulatory data covering the Market-Based Rate Database, FERC Form No. 552 natural gas transactions, FERC Form 556 qualifying facility certifications, Company Registration, Annual Charges, Information Collections Management, and the NEPA infrastructure schedule. FERC also runs a credentialed OAuth2 XBRL submission API at ecollection.ferc.gov for the mandated eForms filings (Form Nos. 1, 2, 3-Q, 6, 60, 552, 714). What FERC does NOT do is any part of consumer energy data — there is no Green Button, no ESPI, no consumer data right, and no individual customer usage or billing API anywhere in FERC's surface, because retail customer data is outside its statutory reach. FERC is therefore an open-market-data, zero-consumer-data regulator, and it publishes a better documented API than most of the utilities it indirectly touches.",
+     "rank": 239
     },
     {
      "name": "Founders Fund",
      "slug": "founders-fund",
      "description": "Founders Fund is a San Francisco-based venture capital firm founded in 2005 by Peter Thiel, Ken Howery, and Luke Nosek, best known for the credo \"we wanted flying cars, instead we got 140 characters\" and a contrarian appetite for hard science and frontier technology over incremental consumer apps. The firm backs category-defining, often monopoly-scale companies across aerospace and defense, artificial intelligence, biotech, fintech and crypto, energy, semiconductors, robotics, and deep tech, investing from seed through late-stage growth with an increasingly concentrated, high-conviction style (its recent growth funds put hundreds of millions of dollars into a small number of companies). Founders Fund manages roughly $17 billion in assets as of 2025 and is headquartered at the Letterman Digital Arts Center in San Francisco's Presidio. Its portfolio includes many of the defining technology companies of the era, among them SpaceX, Palantir, Anduril, Stripe, Airbnb, Facebook, Neuralink, OpenAI, DeepMind, Ramp, Nubank, Spotify, and Figma.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/founders-fund/refs/heads/main/screenshots/founders-fund-2026-07-25T215039.png",
-     "rank": 231
+     "rank": 240
+    },
+    {
+     "name": "Genability",
+     "slug": "genability",
+     "description": "Genability is a United States energy-data platform, based in San Francisco and now part of Arcadia, that sells programmatic access to North American electricity tariff data and a bill-calculation engine. Its Signal API — served from api.genability.com and documented as \"Arcadia Platform - Signal\" — covers electricity utilities, tariffs, territories, seasons, time-of-use definitions, calendars, utility taxes and typical-usage baselines across the USA, Canada and Mexico, plus on-demand and mass cost calculations used for solar savings analysis, storage dispatch, EV charging economics, procurement and bill auditing. Genability sits in the private, commercial layer of the energy value chain: it is not a utility, not a retailer and not a designated data holder under any consumer-energy-data mandate, so no Green Button, ESPI, CDR or other energy data standard is referenced anywhere in its documentation. Its API posture is honestly \"self-serve but entirely closed data\": a developer can sign up at dash.genability.com in minutes, but every endpoint — including the ones pathed /rest/public/ — returns 401 without an appId/appKey, so none of this tariff or market reference data is openly published, and Genability exposes no individual customer's usage or billing data at all (that consumer-data surface lives in Arcadia's separate Plug/Arc API).",
+     "rank": 241
     },
     {
      "name": "GGV Capital",
      "slug": "ggv-capital",
      "description": "GGV Capital (Granite Global Ventures) was a global, multi-stage venture capital firm founded in 2000 and headquartered in Menlo Park, California, with offices in San Francisco, Shanghai, Beijing, and Singapore. GGV invested from seed through growth stage across Social/Internet and consumer, Enterprise Tech and SaaS, and Smart Tech (fintech, infrastructure, developer tools, cybersecurity, AI, and cross-border commerce), with a distinctive US–Asia bridge thesis. At its peak the firm managed roughly $9.2B in assets under management and backed more than 400 companies, including 44 unicorns and dozens of IPOs — among them Airbnb, Slack, Square, Affirm, HashiCorp, Coinbase, Peloton, Opendoor, Poshmark, StockX, BigCommerce, Grab, Alibaba, ByteDance, Zendesk, and Xpeng. On March 29, 2024 GGV Capital ceased using the GGV brand and split into two independent successor firms amid US–China tensions: Notable Capital (US/international, led by Hans Tung and Glenn Solomon, ~$4.2B AUM) and Granite Asia (Asia, led by Jenny Lee and Jixun Foo, ~$5B AUM). The former ggvc.com companies surface now redirects to Notable Capital, which carries the US/international portfolio graph. This profile tracks GGV Capital's identity and portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ggv-capital/refs/heads/main/screenshots/ggv-capital-2026-07-25T215753.png",
-     "rank": 232
+     "rank": 242
+    },
+    {
+     "name": "Green Button Alliance",
+     "slug": "green-button-alliance",
+     "description": "The Green Button Alliance (GBA) is the non-profit that stewards, tests and certifies the Green Button standard — the NAESB REQ.21 Energy Services Provider Interface (ESPI) profile for utility customer electricity, natural gas and water usage data, in its Download My Data (DMD) and Connect My Data (CMD) forms. Incorporated in North Carolina and headquartered at PO Box 268, Jamison, Pennsylvania, it was formed after the 2012 White House / U.S. Department of Energy / NIST call to action and is the industry's only source of Green Button certification (Data Custodian DMD $3,000, CMD $3,200, membership not required), alongside a free public Directory Services listing of utilities, third-party apps and platform providers. GBA sits in the standards-and-certification layer of the United States energy value chain, above the investor-owned utilities and the energy-data platforms (UtilityAPI, Con Edison and Enbridge Gas are sponsor members) that actually move consumer data. Its API posture is contracts without a service: two real OpenAPI 3.x definitions of the CMD ESPI resource server are published free under Apache 2.0 on GitHub, but the normative ESPI v4.0 standard itself must be purchased from NAESB, GBA operates no production consumer-data or market-data API of its own, and its ESPI sandbox at sandbox.greenbuttonalliance.org:8443 is offline pending a replacement platform expected 2026Q3. Green Button in the United States is voluntary — there is no federal mandate — with obligation arriving only through state action and, outside the US, Ontario's O. Reg. 633/21.",
+     "rank": 243
+    },
+    {
+     "name": "ISO New England",
+     "slug": "iso-new-england",
+     "description": "ISO New England Inc. is the independent, nonprofit regional transmission organization authorized by the Federal Energy Regulatory Commission to operate the high-voltage power system, administer the wholesale electricity markets, and plan the power system for Connecticut, Rhode Island, Massachusetts, Vermont, New Hampshire, and most of Maine. Home market is the United States. It sits at the wholesale layer of the value chain, between generators, transmission owners, interconnections with New York and Canada, and the load-serving entities that resell power to retail customers - and it states on its own site that handling retail electricity is something it does not do. Its API posture is the sector's classic split, read from the wholesale end. Market and system data is genuinely open, so open that the ISO Express portal serves full nodal day-ahead LMP files as anonymous CSV and the public dashboards are backed by an anonymous JSON feed. Consumer data does not exist here at all, and cannot, because ISO New England holds no retail customer relationships and no Green Button, ESPI, or consumer data-portability mandate reaches it. The one documented programmatic contract, the Web Services API v1.1, is a real, richly documented RESTful surface of 477 path templates across 90 market and operations resources, but it answers 401 to anonymous callers - a developer must first create a free, self-serve ISO Express account, which the ISO says automatically grants access to the data feeds, and then authenticate with HTTP Basic over SSL.",
+     "rank": 244
     },
     {
      "name": "Khosla Ventures",
      "slug": "khosla-ventures",
      "description": "Khosla Ventures is a Menlo Park, California venture capital firm founded in 2004 by Sun Microsystems co-founder Vinod Khosla. The firm backs bold, early, and impactful ventures, favoring contrarian deep-tech bets with world-class teams and a conviction-driven approach that deliberately accepts a high failure rate to capture transformative outcomes. Khosla invests across seed, early (Series A/B), and growth stages through its Seed Fund, Main Fund, and Opportunity (growth) Fund, writing checks that range from small seed positions to large growth rounds. Focus sectors span artificial intelligence, enterprise and consumer software, financial services and fintech, robotics and frontier/deep tech, aerospace and defense, climate and sustainability (clean energy, fusion, materials, agriculture), and digital health, medtech, diagnostics, and therapeutics. The firm manages roughly $16 billion in assets as of 2025 and is known for early investments in OpenAI, Stripe, Square/Block, DoorDash, Instacart, Affirm, Impossible Foods, GitLab, Okta, Rocket Lab, and QuantumScape. Headquarters are at 2128 Sand Hill Road, Menlo Park, CA, with a primarily United States geographic focus and select global investments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/khosla-ventures/refs/heads/main/screenshots/khosla-ventures-2026-07-25T223709.png",
-     "rank": 233
+     "rank": 245
+    },
+    {
+     "name": "Landis+Gyr",
+     "slug": "landis-gyr",
+     "description": "Landis+Gyr Group AG is a 130-year-old energy technology company that builds the smart electricity, gas and water meters, the RF-mesh and cellular networks, and the head-end, meter-data-management and grid-analytics software that utilities run advanced metering infrastructure on. It is incorporated in Cham, Switzerland and listed on the SIX Swiss Exchange, but after divesting its EMEA business to AURELIUS in March 2026 its centre of gravity — and its Americas headquarters and much of its executive team — sits in Alpharetta, Georgia, making the United States its home market. Landis+Gyr sits one layer UPSTREAM of the consumer: it sells to the roughly 2,000 utilities that are themselves the regulated data holders, so no data-sharing mandate — not US Green Button, not Ontario's Green Button regulation, not Australia's Consumer Data Right for energy — attaches to Landis+Gyr itself. Its API posture reflects that. Landis+Gyr publishes NO open market or grid data and NO consumer usage API; the meter interval data its Gridstream Connect and MDMS products produce reaches households only after a utility customer re-publishes it, typically through a third-party Green Button–certified portal that Landis+Gyr does not operate. There is a real developer portal at developers.landisgyr.com — the Gridstream Connect Apps / Revelo edge-app program, with App Studio, documents, learning paths, a Stack Overflow Teams developer forum and a Revelo developer-kit request flow — but every content route renders empty without authentication, the registration path carries an admin invitation and approval workflow, and the corporate site never links to it: the public call to action on the Apps Ecosystem page is \"Email Our Team\", pointing at a sales inquiry form. No OpenAPI, Swagger, Postman collection, SDK download or endpoint reference is published anywhere in public. The only interoperability standard Landis+Gyr states publicly is Wi-SUN FAN certification (15 certified products) over standards-based IPv6 mesh — a network standard, not a customer-data standard.",
+     "rank": 246
+    },
+    {
+     "name": "Leap",
+     "slug": "leapfrog-power",
+     "description": "Leap (Leapfrog Power, Inc.) is a San Francisco based energy software company whose primary domain leap.ac 301-redirects to www.leap.energy. Leap sits in the private, unmandated layer of the United States energy stack — between distributed energy resources and the wholesale markets — letting technology brands build and scale virtual power plants without owning market access. Its software-only platform aggregates residential and commercial battery storage, smart thermostats, heat pumps, HVAC and EV charging, registers those assets into CAISO, NYISO, PJM and utility demand response programs, and settles the revenue back to the partner. Leap publishes a genuinely open developer portal at developer.leap.energy with eight anonymously downloadable OpenAPI definitions covering meter creation, enrollment and idle periods, meter details, market nominations, dispatch, webhooks, interval data upload and revenue and analytics. Its API posture is open documentation over a closed door — every specification and guide can be read without an account, but no key can be self-issued — keys are created only inside a Leap-provisioned partner account and prospective partners are told to contact an account manager or partners@leap.ac. No data-sharing mandate applies to Leap. It is not a utility, not a retailer and not a designated data holder anywhere; it is a downstream recipient of consumer data that California's investor-owned utilities are compelled to share, integrating PG&E, SCE and SDG&E through their Share My Data authorization flow. Leap's documentation never names Green Button, ESPI, OpenADR, IEEE 2030.5, OCPP or CIM. Consumer usage and settlement data are reachable through the API but only for a partner's own consented, enrolled meters, and Leap publishes no open grid or market data at all.",
+     "rank": 247
+    },
+    {
+     "name": "MISO",
+     "slug": "miso",
+     "description": "MISO — the Midcontinent Independent System Operator — is the not-for-profit Regional Transmission Organization that operates the electric grid and the wholesale electricity markets across fifteen US states and the Canadian province of Manitoba, serving a footprint of roughly forty-five million people from headquarters in Carmel, Indiana. Formed in 1998 and operating the region since December 2001, it is regulated by the Federal Energy Regulatory Commission, dispatches generation in real time, clears day-ahead and real-time energy and ancillary services markets, runs the ARR/FTR market and the generator interconnection queue, and plans the transmission system. It sits squarely in the middle of the value chain: it owns no generation, no wires and no retail customers, but it holds the market-wide operational data that every generator, transmission owner, load-serving entity and trader in the Midwest and the South depends on. Its API posture is the classic system operator split, and it is an unusually clean example of it. On the market side MISO is genuinely open — thirty-seven JSON endpoints at public-api.misoenergy.org return real-time fuel mix, load, prices, binding constraints and interchange to an anonymous GET with no key, no account and no click-through, and the full market report archive at docs.misoenergy.org downloads anonymously as CSV and XLSX. On the consumer side there is nothing to open: MISO is not a retail utility, holds no customer usage or billing data, and no energy-data mandate of any kind applies to it. Green Button is voluntary in the United States and is a distribution-utility standard; MISO publishes no Green Button, ESPI, or consumer data-sharing surface, and makes no claim to. Its newer MISO Data Exchange developer portal adds a keyed but self-serve tier over historical market report data, and its MUI 2.0 market interface is a genuinely closed, client-certificate-gated API for registered market participants only.",
+     "rank": 248
     },
     {
      "name": "Multicoin Capital",
      "slug": "multicoin-capital",
      "description": "Multicoin Capital is a thesis-driven crypto investment firm founded in 2017 by Kyle Samani and Tushar Jain, investing in cryptocurrencies, tokens, and blockchain companies and protocols believed to be reshaping trillion-dollar markets. The firm runs a hybrid structure of a hedge fund (its multi-billion dollar Master Fund, investing in public markets, direct positions, and strategic sales) alongside several venture funds that back early-stage companies, with venture checks ranging from roughly $1M to $50M. Its Venture Fund III closed at $422 million in January 2022. Multicoin invests across open and decentralized finance (DeFi), blockchain infrastructure and Layer 1/Layer 2 protocols, decentralized physical infrastructure networks (DePIN), stablecoins and payments, real-world asset tokenization, wallets, identity, gaming, and crypto-native consumer applications, with a well-known concentration around the Solana ecosystem. The firm's phoenix logo symbolizes a new financial system rising from the ashes of the old one, reflecting its long-term, high-conviction approach to absolute returns across market cycles. Headquartered in Austin, Texas, Multicoin manages capital on behalf of family offices, foundations, endowments, and institutional investors. In February 2026 co-founder Kyle Samani stepped back from day-to-day management, with operations continuing under co-founder Tushar Jain and partner Brian Smith.",
-     "rank": 234
+     "rank": 249
+    },
+    {
+     "name": "NAESB",
+     "slug": "naesb",
+     "description": "The North American Energy Standards Board (NAESB) is the non-profit, industry-consensus standards development organization formed in 1994 that writes the business practice standards for the North American wholesale and retail natural gas and electricity markets, organized into four quadrants — Wholesale Electric (WEQ), Retail Electric (REQ), Wholesale Gas (WGQ) and Retail Gas (RGQ). Headquartered in Houston, Texas, its home market is the United States (with Canadian and Mexican participation). NAESB sits upstream of every utility, ISO/RTO and energy-data platform in the value chain: it authors REQ.21 Energy Services Provider Interface (ESPI), the standard that is the basis of every Green Button implementation in North America, and it operates the NAESB Electric Industry Registry (EIR) that underpins electronic tagging across the wholesale electric market. Its API posture is deliberately split and must not be overstated. NAESB is not a data holder and no consumer-data mandate applies to it; the Green Button standard it publishes is adopted by US utilities purely voluntarily, with no federal obligation behind it. The specifications themselves are copyright-protected and paywalled — $8,000/year membership, $2,000 per quadrant version, or $250 per individual standard — with only a free, view-only, three-business-day evaluation waiver for non-members. The single genuinely open artifact is the set of ESPI XML schemas, released under Apache 2.0 as a documented one-time exception to the NAESB Copyright Policy and downloadable anonymously after a one-click terms-of-use acknowledgement. The one real API NAESB operates, the EIR webRegistry SOAP service administered by OATI, is closed: it requires a paid registry subscription and a digitally signed X.509 certificate issued by an NAESB-Authorized Certification Authority, and its endpoint could not even complete a TLS handshake anonymously. Open standard schemas, closed standards text, closed registry API, no consumer data and no open market data of its own.",
+     "rank": 250
+    },
+    {
+     "name": "NERC",
+     "slug": "nerc",
+     "description": "The North American Electric Reliability Corporation (NERC) is the not-for-profit international regulatory authority certified by FERC in July 2006 as the Electric Reliability Organization under Section 215 of the Federal Power Act, added by the Energy Policy Act of 2005. From offices in Washington, DC and Atlanta, and working through six Regional Entities (MRO, NPCC, RF, SERC, Texas RE, WECC), NERC develops and enforces the mandatory Reliability Standards, including the CIP cyber security standards, that govern the bulk power system across the contiguous United States, all of Canada, and a portion of Baja California, Mexico. It registers and certifies the entities that operate that system, monitors and enforces compliance, runs the Electricity Information Sharing and Analysis Center (E-ISAC), and collects mandatory industry performance data through Rules of Procedure Section 1600 data requests into GADS, TADS, DADS and MIDAS. NERC sits at the top of the North American bulk-power value chain, above the ISOs/RTOs, transmission owners and generator owners it registers, and entirely above the retail utility-to-customer relationship. Its API posture is the plainest in this series. NERC publishes NO developer API, NO OpenAPI, NO SDK, NO developer portal and NO open data portal. A site search of nerc.com for the term API on 2026-07-27 returned zero matching documents. NERC is a MANDATOR of energy data, not a publisher of it. The obligation it imposes is to SUBMIT data upward to NERC, and the data submitted is explicitly confidential under Rules of Procedure Section 1500. What NERC does publish anonymously is documents: reliability assessments, the State of Reliability report, aggregated GADS/TADS statistics, Power BI dashboards and the public NERC Compliance Registry Matrix spreadsheet of every registered entity. Everything machine-facing, including the ERO Portal, Align, the Secure Evidence Locker, CORES, the GADS/TADS data stores and the E-ISAC portal, is behind an approved account. No Green Button, no ESPI, no consumer data right, and no consumer usage or billing API exists anywhere in NERC's surface, because retail customer data is outside its reach entirely. NERC is a regulator whose peer FERC publishes a documented public API and whose neighbour EIA publishes one of the best government APIs anywhere, while NERC itself publishes none.",
+     "rank": 251
     },
     {
      "name": "New Enterprise Associates",
      "slug": "nea",
      "description": "New Enterprise Associates (NEA) is one of the world's largest and longest-running venture capital firms, founded in 1977 by Dick Kramlich, Chuck Newhall, and Frank Bonsal. Headquartered in Menlo Park, California, with offices in Timonium (Maryland), New York, and London, NEA invests across the full company lifecycle — \"from idea to IPO\" — spanning seed, Series A, and later growth rounds. The firm has raised over $27 billion in committed capital (as of December 31, 2024) and organizes into specialized practice groups across two core sectors: technology (enterprise software, consumer, fintech, AI, infrastructure) and healthcare (biopharma, life sciences, digital health, and medical devices). NEA is known for an active, hands-on partnership model and long-term support of category-defining companies, with a portfolio that has produced many notable IPOs and acquisitions including Cloudflare, MongoDB, Robinhood, Coursera, Databricks, Plaid, and Tempus.",
-     "rank": 235
+     "rank": 252
+    },
+    {
+     "name": "New York Independent System Operator (NYISO)",
+     "slug": "nyiso",
+     "description": "The New York Independent System Operator (NYISO) is the not-for-profit FERC-jurisdictional entity that operates New York State's bulk electricity grid, administers the state's wholesale energy, capacity and ancillary-services markets, and performs long-term power system planning. Formed in 1999 out of the New York Power Pool, it sits squarely in the wholesale middle of the value chain - between generators, transmission owners and interconnectors on one side and the investor-owned utilities and retail suppliers who actually bill New York consumers on the other. NYISO's API posture is the sector's classic two-speed split, and NYISO lands hard on both ends of it. Market and system data is genuinely open - the MIS public archive at mis.nyiso.com/public serves roughly sixty machine-readable report families (day-ahead and real-time LBMP, actual and forecast load, real-time fuel mix, ATC/TTC, outages, constraints, interface flows, bid data, capacity, uplift, emissions) as daily CSV and monthly ZIP with no account, no key and no referrer check, and the FERC-mandated OASIS node publishes an anonymously listable object store of transmission postings. Consumer data is the exact opposite - there is none, and none is expected, because NYISO holds no retail customer relationships. Every real REST API NYISO documents - the Finance APIs (Metering, Settlements, Invoicing) and the Metering API under api.nyiso.com - is market-participant-only, gated behind an MIS user account plus a NAESB-accredited digital certificate, and every one of those endpoints answers 401 anonymously. The United States has no consumer energy data mandate behind Green Button, and in any case Green Button binds distribution utilities, not system operators, so NYISO carries no Green Button or Consumer Data Right obligation at all.",
+     "rank": 253
+    },
+    {
+     "name": "OpenADR Alliance",
+     "slug": "openadr-alliance",
+     "description": "The OpenADR Alliance is a San Ramon, California mutual-benefit membership corporation that develops, certifies, and promotes OpenADR, the open information-exchange model utilities, ISOs/RTOs, aggregators, and device makers use to automate demand response and dispatch distributed energy resources. It is a standards body, not a service operator: it publishes the OpenADR 2.0a/2.0b profile specifications (approved by the IEC as IEC/PAS 62746-10-1) and OpenADR 3.0/3.1, which abandoned the SOAP-era design and is now defined entirely by an OpenAPI 3.0 contract covering programs, events, reports, subscriptions, VENs, and resources, secured with OAuth 2.0 client credentials. It also runs the OpenADR and EcoPort (CTA-2045-B) certification programmes and their public certified-product databases. Its API posture is honest but narrow: the OpenADR 3 OpenAPI is a genuine, parseable machine-readable contract, and the specifications are license-free, but the Alliance itself operates no developer portal, no api./developer./docs. subdomain, and no hosted API — its canonical specification repository (github.com/oadr3-org) has zero public repositories and requires membership, and the public route to the spec is a registration form that emails download links under terms and conditions. It publishes no consumer energy data and no open grid or market data; it defines the protocol that other parties implement. Home market is the United States, with adoption across Europe, Japan, Korea, and Australia.",
+     "rank": 254
+    },
+    {
+     "name": "Pacific Gas and Electric",
+     "slug": "pge",
+     "description": "Pacific Gas and Electric Company is the investor-owned electric and natural gas utility for northern and central California — incorporated in California in 1905, headquartered in Oakland, roughly 23,000 employees, a 70,000-square- mile service area, about 5.5 million electric accounts and 4.5 million gas accounts, and a subsidiary of PG&E Corporation. It sits in the wires, pipes and metering layer of the United States value chain: a vertically integrated regulated distribution utility that owns the meter and the customer relationship, does not run the wholesale market (CAISO does), and is regulated by the California Public Utilities Commission. Its API posture is the outlier of the American utility sector and deserves to be recorded precisely, because the United States has no federal energy consumer-data mandate at all. PG&E runs Share My Data, its production Green Button Connect My Data implementation, on a live MuleSoft API gateway at https://api.pge.com — a NAESB REQ.21 ESPI 1.1 surface with roughly two dozen documented resources under /GreenButtonConnect/espi/1_1/resource/, an OAuth 2.0 authorization server at /datacustodian/oauth/v2/, and a separate published test environment at /datacustodian/test/oauth/v2/. Unlike almost every other US utility, PG&E publishes the whole contract anonymously: a complete supported-API reference, an OAuth/ESPI authorization guide, a relational data model, supported data elements, function-block scope-string mappings, the ESPI and Share My Data XSD schemas, sample MeterReadings XML, Python and JavaScript SDKs with development guides, published rate limits (one request per second per vendor, 2,000 calls per hour and 20,000 calls per 24 hours per client ID) and a SoapUI walkthrough — all reachable without a login at pge.com. What is not open is the data itself. Share My Data is application-approval gated: a third party needs a US EIN, eligible standing with the CPUC, a CA-issued TLS 1.2 X.509 certificate (self-signed rejected), acceptance of the CPUC-filed Customer Data Access Tariff, and successful connectivity and OAuth testing before approval, after which every production call runs over mutual TLS with bearer tokens scoped to an individual customer's authorization. The mandate story is equally specific and must not be flattened into \"voluntary Green Button\": California compels third-party access through state law and CPUC tariff — Public Utilities Code section 8380 (SB 1476, 2010), the Customer Information Service Request for Share My Data tariff form (Cal. P.U.C. Sheet 55826-E, Sample Form 79-1186, Advice 6900-E, effective 1 April 2023), and Electric Rule 24 / Gas Rule 25 for demand response providers — but no federal obligation and no Ontario-style Green Button regulation applies. The consumer-versus-market split is stark: consumer data is a real, verified, standards-conformant API behind consent and approval, while PG&E publishes no open market or grid API whatsoever. Its aggregated ZIP-code electric and gas usage datasets, released quarterly under CPUC Decision 14-05-016 through the Energy Data Request Program, are CSV-in- ZIP downloads behind an organization/name/email form and a data-use agreement, not an anonymous feed; California wholesale market data belongs to CAISO.",
+     "rank": 255
+    },
+    {
+     "name": "PJM Interconnection",
+     "slug": "pjm",
+     "description": "PJM Interconnection is the regional transmission organization (RTO) that operates the largest competitive wholesale electricity market in the United States, coordinating the movement of electricity across all or parts of Delaware, Illinois, Indiana, Kentucky, Maryland, Michigan, New Jersey, North Carolina, Ohio, Pennsylvania, Tennessee, Virginia, West Virginia and the District of Columbia for roughly 67 million people. PJM sits at the wholesale layer of the energy value chain — it has no retail customers, so no Green Button, ESPI or consumer data-sharing obligation applies to it. Its API posture is honestly \"rich data, universally gated\": PJM publishes a large machine-readable market data catalogue through the Data Miner 2 API at https://api.pjm.com/api/v1 and an Azure API Management developer portal at https://apiportal.pjm.com, but every feed returns HTTP 401 anonymously and a free subscription key is only issued after a PJM Tools account is registered and approved by a Customer Account Manager. Its one genuinely mandated interface is the FERC Order 889 / NAESB WEQ OASIS node, which is verifiably live and standards-conformant at https://pjmoasis.pjm.com, though template submission also requires an authenticated PJM SSO session.",
+     "rank": 256
+    },
+    {
+     "name": "PSEG",
+     "slug": "pseg",
+     "description": "Public Service Enterprise Group (PSEG) is a diversified energy holding company headquartered in Newark, New Jersey. Its regulated utility subsidiary Public Service Electric and Gas (PSE&G) is New Jersey's largest electric and gas distribution utility, and PSEG Long Island operates the transmission and distribution system on behalf of the Long Island Power Authority. PSEG sits squarely in the utility-retailer tier of the United States energy value chain — it meters, bills, and serves end customers, and it sells generation into the PJM wholesale market rather than publishing that market's data itself. Its API posture is honestly closed. There is no developer portal: developer., developers., api., docs., and data.pseg.com do not resolve, and /developers, /api, and /docs on pseg.com return the site's soft-404 page. Green Button is present only as a file: PSEG Long Island's MySmartEnergy FAQ states customers can \"download data information in CSV or Green Button (.XML) format,\" which is Download My Data behind a customer login, not Connect My Data. There is no documented programmatic third-party access to customer usage data — in the New Jersey BPU AMI docket PSE&G described manual secondary-user sharing, a Letter of Authorization with spreadsheets emailed back, and EDI for BPU-licensed suppliers. Grid data is equally closed: the PSE&G NJ and PSEG Long Island outage maps are vendor-hosted KUBRA StormCenter applications with no published data API. Open market data for this territory comes from PJM and the EIA, not from PSEG.",
+     "rank": 257
     },
     {
      "name": "Redpoint Ventures",
      "slug": "redpoint-ventures",
      "description": "Redpoint Ventures is a Silicon Valley venture capital firm founded in 1999 and headquartered in Menlo Park, California, with additional offices in San Francisco and Los Angeles and a history of China-focused funds in Beijing and Shanghai. Redpoint is a multi-stage investor that backs founders from seed and early stage through growth, running dedicated early-stage and growth teams. The firm invests across enterprise software and SaaS, AI and AI infrastructure, cloud and data infrastructure, developer tools, cybersecurity, fintech, consumer internet, healthcare, crypto/web3, and marketplaces. Typical checks range from roughly $0.5M-$2M at seed and $2M-$8M at Series A up to $10M+ at growth stage. As of 2025 Redpoint managed about $4.5 billion in assets, and its partners have participated in 130+ IPOs and acquisitions including Netflix, Snowflake, Twilio, Pure Storage, Zendesk, Stripe, HashiCorp, and HomeAway. The firm launched its tenth flagship fund, a $650M vehicle, in 2025, and publishes the annual InfraRed report on the leading private cloud and infrastructure companies. This profile tracks Redpoint's identity and its portfolio graph across the API Evangelist network.",
-     "rank": 236
+     "rank": 258
     },
     {
      "name": "Sequoia Capital",
      "slug": "sequoia-capital",
      "description": "Sequoia Capital is one of the world's leading venture capital firms, founded by Don Valentine in 1972 and headquartered at 2800 Sand Hill Road in Menlo Park, California. Sequoia partners with founders from idea to IPO and beyond, investing across seed, early, and growth stages, and has backed transformative companies including Apple, Google, Oracle, Cisco, NVIDIA, PayPal, YouTube, Airbnb, Stripe, WhatsApp, Instagram, DoorDash, Snowflake, and Reddit. Its stated mission is to \"help the daring build legendary companies,\" with a current focus on artificial intelligence and AI agents, autonomous systems, fintech, developer tools and infrastructure, healthcare, and consumer technology. Following its 2024 restructuring, Sequoia operates primarily across the US and Europe, while its former India/SEA and China arms became the independent firms Peak XV Partners and HongShan. This profile tracks Sequoia's identity and its portfolio graph across the API Evangelist network.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/sequoia-capital/refs/heads/main/screenshots/sequoia-capital-2026-06-20T193717.png",
-     "rank": 237
+     "rank": 259
     },
     {
      "name": "Shasta Ventures",
      "slug": "shasta-ventures",
      "description": "Shasta Ventures is an early-stage venture capital firm founded in 2004 and based in Silicon Valley (Portola Valley / Menlo Park, on and around Sand Hill Road, California). Founded by Rob Coneybeer and Ravi Mohan (with Tod Francis and Jason Pressman among its long-tenured Managing Directors), the firm invests primarily at the Series A stage in United States technology startups, typically leading rounds and taking board seats. Shasta has roughly $1.3B under management across multiple funds (Fund II $250M, Fund III $265M, Fund IV $300M) and a 20-year track record. Its thesis centers on enterprise software / SaaS, cybersecurity, developer tools and infrastructure, data intelligence, camera / computer vision, and consumer subscription products, pairing capital with operational support (Shasta Elevate) for technical founders. Notable investments include Anaplan, Zuora, Nest, Nextdoor, Apptio, Eero, Sendbird, Tonal, Lattice, Highspot, SentinelOne and Turo, with 12 unicorns, multiple IPOs and dozens of acquisitions across its history.",
-     "rank": 238
+     "rank": 260
     },
     {
      "name": "Sierra Ventures",
      "slug": "sierra-ventures",
      "description": "Sierra Ventures is an early-stage venture capital firm founded by Peter Wendell in 1982 and headquartered in San Mateo, California, in the heart of Silicon Valley. The firm invests from inception through Series A in first-principles founders under the tagline \"Conviction Before Consensus,\" writing checks of up to $5M at seed and up to $10M at Series A. Sierra's current investment thesis centers on the next wave of enterprise technology: Vertical AI (purpose-built AI for specific industries), Infrastructure AI, Frontier and Deep Tech, and Physical AI and Robotics, alongside a longstanding history in enterprise applications, digital health, SaaS, and security. Over its 40-plus-year history the firm has invested more than $2 billion across 13 early-stage funds, with its 13th fund closing in 2023 at $265 million, following Fund 12 at $215 million and Fund 11 at $170 million. Sierra reports 35 IPOs and hundreds of successful exits, having backed companies such as Elastic, Astronomer, Chronosphere, CourseHero, Q-CTRL, Spectro Cloud, Endor Labs, and Reflection AI. The firm is notable for its CXO Advisory Board of Fortune 1000 enterprise leaders who help portfolio companies land early customers. This profile tracks Sierra Ventures' identity and its portfolio graph across the API Evangelist network.",
-     "rank": 239
+     "rank": 261
+    },
+    {
+     "name": "Southern California Edison",
+     "slug": "southern-california-edison",
+     "description": "Southern California Edison (SCE) is the regulated electric utility subsidiary of Edison International, delivering power to roughly 15 million people across a 50,000 square-mile service territory in central, coastal, and southern California. In the United States energy value chain SCE sits at the distribution and retail layer as an investor-owned utility (IOU) regulated by the California Public Utilities Commission, operating the meters, the distribution grid, and the customer of record relationship that every downstream energy-data platform, DER aggregator, demand response provider, and solar installer ultimately depends on. Its API posture splits cleanly in two. Consumer data is mandated but closed to the open web - SCE runs Green Button Connect My Data through its Customer Data Access platform under CPUC tariff Rule 26 (Advice 3087-E, Decision 14-05-016), and states publicly that third parties need OAuth 2.0 and bulk API capability consistent with the NAESB ESPI standard, but publishes no developer portal, no base URI, no OpenAPI, and no sandbox - a third party must register with a Taxpayer Identification Number, accept terms, and pass a machine-to-machine connectivity test before any endpoint is disclosed. Grid data is genuinely open - SCE's Distribution Resources Plan External Portal (DRPEP) serves Integration Capacity Analysis, distribution circuit, PSPS, fire map, and load growth layers over an anonymous, unauthenticated ArcGIS REST service catalog that any developer can query today without a key.",
+     "rank": 262
+    },
+    {
+     "name": "Southern Company",
+     "slug": "southern-company",
+     "description": "Southern Company is an Atlanta-headquartered energy holding company and one of the largest producers of electricity in the United States, serving approximately 9 million electric and natural gas customers through Alabama Power, Georgia Power, Mississippi Power, Southern Power, Southern Company Gas (Atlanta Gas Light, Nicor Gas, Virginia Natural Gas, Chattanooga Gas), Southern Nuclear, PowerSecure, Southern Linc and Southern Telecom. It sits at the vertically-integrated regulated-utility layer of the value chain — it owns generation, transmission and distribution, operates its own balancing authority rather than belonging to an ISO/RTO, and runs a FERC-approved bid-based energy auction for wholesale power in the Southeast. Its API posture is honestly closed on both sides of the sector's two-speed split. There is no consumer data mandate in Alabama, Georgia or Mississippi and Southern Company does not implement Green Button Download My Data or Connect My Data, is not listed by the Green Button Alliance, and publishes no ESPI endpoint — a customer can only export their own interval data as a spreadsheet after logging into My Power Usage, and a third party gets billing history only through a signed paper release form. On the market side the FERC-required auction clearing prices and weighted-average hour-ahead transaction prices are posted as public web pages, but they are JavaScript-rendered HTML with no CSV, no feed and no API behind them. A production Apigee API gateway is live at api.southernco.com and developer.southernco.com resolves behind an Imperva edge, so the platform machinery exists internally, but no proxy, no specification and no documentation are published to anyone outside the company.",
+     "rank": 263
+    },
+    {
+     "name": "Southwest Power Pool",
+     "slug": "spp",
+     "description": "Southwest Power Pool (SPP) is a nonprofit Regional Transmission Organization regulated by the Federal Energy Regulatory Commission and headquartered in Little Rock, Arkansas. Founded in 1941 and approved as an RTO in 2004, SPP operates the Integrated Marketplace day-ahead and real-time balancing markets, the Western Energy Imbalance Service (WEIS) market, Western Reliability Coordination services, and is building the Markets+ day-ahead market for the West with a targeted 2027 go-live. SPP sits at the wholesale layer of the United States energy value chain: it dispatches generation, prices congestion, plans transmission, and settles the market for its member utilities — it has no retail customers, so no consumer energy-data mandate such as Green Button applies to it. Its API posture is a clean split. Market and grid data is genuinely open: locational marginal prices, market clearing prices, operating reserves, load, generation mix, VER curtailments and outage capacity are served anonymously as CSV from the SPP Portal file browser and from an anonymous public FTP site, with an Esri ArcGIS REST price-contour service alongside — no account, no key, no licence click-through. Everything a market participant actually transacts against is the opposite: the Integrated Marketplace SOAP web services, the Settlement Management System API, and the FERC Order 881 LEP/TROLIE ratings API are member-only, require an OATI webCARES x.509 digital certificate plus an SPP UAA role, and SPP publishes no base URL and no OpenAPI for them.",
+     "rank": 264
     },
     {
      "name": "SV Angel",
      "slug": "sv-angel",
      "description": "SV Angel is a San Francisco-based venture capital firm founded in 2009 by Ron Conway, one of Silicon Valley's most prolific angel investors. The firm runs two vehicles: an early-stage Seed Fund that writes roughly $200k checks into pre-seed and seed rounds, and a later-stage Growth Fund that invests at Series B and beyond. SV Angel is a founder-first, high-conviction investor that deliberately does not lead rounds, takes no board seats, and writes smaller checks as part of a larger syndicate so it can act as a neutral \"routing layer\" and advocate for founders. It is famous for its \"Inflection Point Approach\" — showing up at critical moments around fundraising, M&A, and business development. The firm invests almost entirely in US-based, software-driven companies across consumer and enterprise, and its portfolio has produced dozens of unicorns and landmark outcomes including Google, Airbnb, Coinbase, Stripe, Slack, Instacart, DoorDash, Reddit, Pinterest, GitHub, Databricks, Anthropic, and OpenAI.",
-     "rank": 240
+     "rank": 265
     },
     {
      "name": "Threshold Ventures",
      "slug": "threshold-ventures",
      "description": "Threshold Ventures is an early-stage venture capital firm based in Menlo Park, California that backs founder-led technology companies at the threshold of breakout growth. Threshold is the 2019 rebrand of Draper Fisher Jurvetson (DFJ), the storied Sand Hill Road firm founded in 1985; managing partners Emily Melton and Josh Stein spun the venture practice into an independent, focused fund. Threshold pursues a high-conviction strategy, concentrating on a small number of Series A and Series B investments and partnering hands-on with founders for the long term, frequently holding board seats through IPO and beyond. The firm invests across enterprise software and SaaS, developer tools and infrastructure, fintech, digital health and healthcare, and AI. Its portfolio has produced 10 unicorns, 3 IPOs, and 17 acquisitions, and includes Box, Twilio, Redfin, Remitly, Doximity, Rippling, LaunchDarkly, Livongo, and Talkdesk. Threshold has invested in roughly 87 companies and raised a ~$250M fund following the rebrand.",
-     "rank": 241
+     "rank": 266
     },
     {
      "name": "Trinity Ventures",
      "slug": "trinity-ventures",
      "description": "Trinity Ventures is an early-stage venture capital firm founded in 1986 and headquartered in Menlo Park, California, with more than three decades of history backing mission-driven entrepreneurs across technology and consumer markets. The firm takes a deliberately personal, low-capital-to-partner approach to early-stage investing, positioning itself as \"the call you want to make, not the call you have to make\" and emphasizing intellectual candor and lasting founder relationships. Trinity invests primarily at seed, Series A and Series B, with checks generally ranging from roughly $1 million to $15 million and averaging around $5 million. Its focus spans enterprise software and cloud infrastructure, developer tools, fintech, digital media and marketing technology, consumer products and services, healthcare, and artificial intelligence. Over nine funds the firm has managed on the order of $1.3 billion in assets and produced a track record that includes multiple unicorns, IPOs and roughly 130 acquisitions. Notable investments include Starbucks, New Relic, Auth0, Turo, Care.com, Zulily, Blue Nile, Aruba Networks, Infoblox, Cohesity, Outreach, InfluxData, Contentful and Docker. Trinity invests primarily in the United States.",
-     "rank": 242
+     "rank": 267
     },
     {
      "name": "Uncork Capital",
      "slug": "uncork-capital",
      "description": "Uncork Capital is a San Francisco-based seed-stage venture capital firm founded in 2004 by Jeff Clavier, who formalized his angel portfolio into one of Silicon Valley's earliest dedicated seed funds; it operated as SoftTech VC until rebranding to Uncork Capital in 2017. Led by managing partners Jeff Clavier and Andy McLoughlin, the firm invests at the seed stage with a \"first to believe\" conviction style, typically targeting 10-15% ownership and writing seed checks broadly in the $1.5M-$4M range across B2B applications and SaaS, developer tooling, infrastructure and security, consumer and marketplaces, frontier tech/hardware, and AI/ML. In May 2025 the firm closed $300M in fresh capital across Uncork VIII (a $225M seed fund) and Uncork Plus IV (a $75M growth fund), bringing it to roughly $1.2B in assets under management. Across 275+ investments and 100+ outcomes, its portfolio and exits include SendGrid, Fitbit, Poshmark, Postmates, Eventbrite, LaunchDarkly, Tailscale, Front, Shippo, ClassDojo, Groq, Human Interest, Carrot Fertility, and GPTZero.",
-     "rank": 243
+     "rank": 268
+    },
+    {
+     "name": "Uplight",
+     "slug": "uplight",
+     "description": "Uplight is a Boulder, Colorado energy technology company formed in 2019 from the merger of Tendril and Simple Energy and expanded through the acquisitions of EnergySavvy, FirstFuel, Ecotagious, EEme, and DERMS/VPP provider AutoGrid (closed February 2024). It sells software to electric and gas utilities and retailers in North America, Europe, and Asia rather than to consumers, covering energy efficiency and electrification marketplaces, home energy reports, rate engagement, demand response, distributed energy resource management (DERMS), virtual power plants, and a utility data lake with analytics. In the United States value chain Uplight sits on the utility side of the meter as a vendor and orchestration layer between the utility, its customers, and connected devices, and it publicly states support for OpenADR, IEEE 2030.5, Modbus, DNP3 and other SCADA protocols for DER control. Its API posture is honestly closed — a Developer Platform exists and is marketed to utilities and ecosystem partners, the documentation portal at docs.uplight.com serves a public landing shell but every Documentation and API Reference path redirects to a ReadMe login, and the production gateway at api.uplight.com answers anonymously only with HTTP 401 and a bearer-token error. No consumer usage-data API, no open market data, no downloadable OpenAPI, and no Green Button or ESPI reference could be found. Uplight is a software vendor, not a regulated data holder, so no consumer data mandate applies to it.",
+     "rank": 269
+    },
+    {
+     "name": "Virtual Peaker",
+     "slug": "virtual-peaker",
+     "description": "Virtual Peaker is a Louisville, Kentucky software company selling grid-edge DERMS and virtual power plant software to United States and Canadian electric utilities — investor-owned utilities, municipal utilities, and rural electric cooperatives. Its platform is sold as three suites: Shift (grid-edge DERMS device control and demand response event dispatch), Relay (customer engagement, enrollment, and incentive processing), and Envision (demand forecasting). Virtual Peaker sits in the private DER-orchestration layer of the energy value chain, between device OEMs behind the meter and the utility back office — it is a vendor, not a utility, not a retailer, and not a data holder, so no consumer energy data right attaches to it. There is no Green Button / ESPI implementation here, no Consumer Data Right obligation, and no open market or grid data of any kind. What it does publish is its own API specification: Gravity Connect, an OpenAPI 3.0.0 contract (v2.0.6) that Virtual Peaker authored and openly published as a vendor-agnostic alternative to OpenADR and IEEE 2030.5 for onboarding and controlling DER devices. Gravity Connect is two-sided — the device OEM implements one half, the VPP platform implements the other — and both halves are readable anonymously as full Redoc API references. The honest posture: a real, downloadable, standards-ambitious API contract that is effectively undiscoverable (it is linked from nowhere on the marketing site) and whose credentials are partner-only, issued per utility program by emailing the Gravity Connect team. The commercial Shift API is named and sold on the marketing site but has no public documentation at all.",
+     "rank": 270
+    },
+    {
+     "name": "Vistra Corp",
+     "slug": "vistra-energy",
+     "description": "Vistra Corp (NYSE: VST) is an Irving, Texas integrated retail electricity and power generation company and the largest competitive power generator in the United States, operating roughly 41,000-44,000 MW of natural gas, nuclear, coal, solar and battery storage capacity alongside a retail business serving nearly 5 million residential, commercial and industrial customers across 16 states and the District of Columbia through TXU Energy, Dynegy, Ambit Energy, Energy Harbor, Homefield Energy and U.S. Gas & Electric. Its home market is the United States, where it sits on both sides of the competitive value chain, a merchant generator selling into ERCOT, PJM, ISO-NE, NYISO, MISO and CAISO, and a retail electricity provider (REP) reselling that power to end customers. Its API posture is honestly none. No developer portal, no API subdomain and no machine-readable contract of any kind was found: developer., developers., docs., api. and data. on vistracorp.com do not resolve; /developers, /api, /docs, /data, /openapi.json, /swagger.json and /.well-known/openid-configuration all return 404; and TXU Energy's 758-URL sitemap contains no developer or API page. The United States has no consumer energy data mandate. Green Button is an NAESB/NIST ESPI standard adopted voluntarily, and TXU Energy appears on the US Department of Energy's list of \"Utilities Committed to Implementing Green Button\", a 2012-era commitment list and not evidence of a live endpoint. The only customer-data surface found is Download-My-Data-style export behind the TXU Energy MyAccount login, whose interval readings are themselves sourced from Smart Meter Texas, the shared ERCOT meter-data platform operated by the transmission and distribution utilities (Oncor, CenterPoint, AEP Texas, TNMP) rather than by Vistra. Because Vistra is a retailer and generator and not a wires company, the third-party interval-data API in its home Texas market belongs to Smart Meter Texas and not to Vistra. Vistra likewise publishes no open market or grid data of its own; ERCOT, the other ISOs/RTOs and the EIA publish the market data about Vistra's fleet. Both sides are therefore closed at the company boundary. Not to be confused with Vistra Limited (vistra.com), the unrelated corporate-services and fund-administration firm that does run a real API developer portal at devportal.vistra.com.",
+     "rank": 271
+    },
+    {
+     "name": "Voltus",
+     "slug": "voltus",
+     "description": "Voltus is a United States virtual power plant (VPP) operator and distributed energy resource (DER) technology platform, headquartered in San Francisco, California, that aggregates commercial, industrial, residential and transportation loads and batteries into wholesale electricity markets across all of North America's organized markets (AESO, CAISO, ERCOT, IESO, ISO-NE, MISO, NYISO, PJM, SPP). It sits in the demand-response and flexibility layer of the energy value chain: it is not a utility and not a metering data holder, so no Green Button, Consumer Data Right or smart-meter data mandate applies to it — mandate regime is honestly none. Its API posture is unusually good for the sector and unusually split. Voltus runs a genuine public developer portal at api.voltus.co/docs (Docusaurus, no login) with concepts, tutorials, an OpenAPI-generated reference and a changelog, plus a fully anonymous sandbox at sandbox.voltus.co that answers real HTTP requests with the documented public key \"X-Voltus-API-Key: secret\" — a developer can call it before signing anything. Production, however, is partner-only: api.voltus.co/2022-04-15 returns 401 Permission denied to the sandbox key, and real access requires a commercial partnership plus a signed Letter of Authorization per site. Site telemetry and dispatch control are exposed to partners over that account-scoped REST API and over OpenADR 2.0a Simple HTTP PULL with mutual TLS; Voltus publishes no open grid or market data of its own, so consumer/site energy data is available under contract while market data is closed. No downloadable OpenAPI or Swagger document is served — /openapi.json, /swagger.json and /openapi3.yaml all 404.",
+     "rank": 272
+    },
+    {
+     "name": "Yes Energy",
+     "slug": "yes-energy",
+     "description": "Yes Energy is a Boulder, Colorado power market data company serving the North American wholesale electricity markets — the seven ISOs and RTOs (ERCOT, PJM, MISO, CAISO, SPP, ISO-NE, NYISO) plus Canadian and Western markets. It aggregates, cleans, and enriches nodal locational marginal prices, FTR auction results, transmission and generation outages, real-time generation and flow telemetry, constraints, load, weather, and fuels data, and sells it through DataSignals (a REST API), DataSignals Cloud (Snowflake Secure Data Sharing), DataSignals Lake (bulk load into a customer warehouse), the PowerSignals and QuickSignals analyst front ends, EnCompass modeling, Live Power telemetry, Infrastructure Insights, Position Management, and bid-to-bill Submission Services. It sits in the private, commercial layer of the energy value chain: it does not generate, distribute, or retail electricity and it holds no consumer relationship — it resells and enriches public ISO/RTO market data to traders, IPPs, utilities, and asset developers. Its API posture is honestly closed: the DataSignals REST API is real and confirmed live at https://services.yesenergy.com/PS/rest/, but it answers every anonymous request with HTTP 401 and WWW-Authenticate Basic, and even the product documentation (help.yesenergy.com) redirects through services.yesenergy.com/PS/KnowledgeOwlAuthentication to a customer login. No public developer portal, no self-serve signup, no machine-readable specification, and no free tier are published. Home market is the United States. There is no consumer energy data mandate that applies to Yes Energy — it is not a utility, retailer, or metering agent, so Green Button, ESPI, and the Consumer Data Right are all out of scope — and while the underlying ISO/RTO market data is publicly available at the source, Yes Energy itself publishes none of it openly.",
+     "rank": 273
     }
    ]
   }

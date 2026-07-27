@@ -26,7 +26,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 70.2,
      "agent_band": "agent-native",
@@ -47,6 +47,41 @@
      "rank": 1
     },
     {
+     "name": "Telefoon",
+     "slug": "telefoon",
+     "description": "Telefoon is a cloud telephony and communications platform offering programmable voice, SMS, and number management APIs tailored for European markets. Built for GDPR compliance and EU regulatory requirements, Telefoon provides developers with REST APIs to build voice calling, SMS notification, number provisioning, and interactive voice response (IVR) solutions. The platform supports Dutch, Belgian, German, and broader European telecommunications infrastructure with local number availability and EU data residency.",
+     "score": 56.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 61.9,
+      "governance": 73.7,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 2
+    },
+    {
      "name": "Payt",
      "slug": "payt",
      "description": "Payt (Payt B.V.) is a Netherlands-based accounts receivable management platform that automates invoice follow-up and payment collection while keeping personal contact with customers. It syncs invoices and debtor data from accounting and ERP systems, then runs the collections workflow: automated reminders, flexible payment plans, debt-collection cases, creditworthiness checks, electronic (UBL/Peppol) invoicing, a self-service debtor portal, and payment reconciliation. Payt exposes a REST Customer API (api.paytsoftware.com, v1) with OAuth 2.0 authorization, cursor pagination and incremental sync, a rich signed-webhook event surface, and bulk CSV/XML/JSON imports. Surfaced as a portfolio company of Partech and enriched into the API Evangelist network.",
@@ -61,7 +96,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -85,25 +120,32 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 2
+     "rank": 3
     },
     {
-     "name": "Telefoon",
-     "slug": "telefoon",
-     "description": "Telefoon is a cloud telephony and communications platform offering programmable voice, SMS, and number management APIs tailored for European markets. Built for GDPR compliance and EU regulatory requirements, Telefoon provides developers with REST APIs to build voice calling, SMS notification, number provisioning, and interactive voice response (IVR) solutions. The platform supports Dutch, Belgian, German, and broader European telecommunications infrastructure with local number availability and EU data residency.",
-     "score": 53.6,
+     "name": "bunq",
+     "slug": "bunq",
+     "description": "bunq is a European (Dutch) neobank offering personal and business accounts across the EU. Its Public API is a REST API over HTTPS (https://api.bunq.com/v1, sandbox https://public-api.sandbox.bunq.com/v1) that lets account holders and licensed third parties read accounts, initiate SEPA and internal payments, send and answer payment requests, manage cards, export statements, upload attachments, and subscribe to event callbacks. bunq uses a distinctive multi-step handshake - installation (register an RSA public key), device-server, then session-server - after which requests are RSA-signed with X-Bunq-Client-Signature and authenticated with a session token in X-Bunq-Client-Authentication.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/screenshots/bunq-2026-06-20T173803.png",
+     "score": 50.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 61.9,
-      "governance": 73.7,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 28.3,
+      "discoverability": 100.0,
+      "contract_quality": 58.4,
+      "governance": 0.0,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 37.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 47.8
+     },
      "agent_score": 48.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -120,7 +162,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 3
+     "rank": 4
     },
     {
      "name": "ChannelEngine",
@@ -138,7 +180,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 58.7,
      "agent_band": "agent-ready",
@@ -156,7 +198,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 4
+     "rank": 5
     },
     {
      "name": "Wageningen University & Research",
@@ -174,7 +216,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -198,7 +240,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "University of Amsterdam",
@@ -216,55 +258,13 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 37.0
-     },
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 6
-    },
-    {
-     "name": "bunq",
-     "slug": "bunq",
-     "description": "bunq is a European (Dutch) neobank offering personal and business accounts across the EU. Its Public API is a REST API over HTTPS (https://api.bunq.com/v1, sandbox https://public-api.sandbox.bunq.com/v1) that lets account holders and licensed third parties read accounts, initiate SEPA and internal payments, send and answer payment requests, manage cards, export statements, upload attachments, and subscribe to event callbacks. bunq uses a distinctive multi-step handshake - installation (register an RSA public key), device-server, then session-server - after which requests are RSA-signed with X-Bunq-Client-Signature and authenticated with a session token in X-Bunq-Client-Authentication.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bunq/refs/heads/main/screenshots/bunq-2026-06-20T173803.png",
-     "score": 47.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 58.4,
-      "governance": 0.0,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 37.0,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 47.8
      },
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -300,7 +300,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -336,7 +336,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -378,7 +378,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -410,6 +410,41 @@
    "shown": 4,
    "companies": [
     {
+     "name": "Nmbrs",
+     "slug": "nmbrs",
+     "description": "Nmbrs (Visma Nmbrs) is cloud HR and payroll software for the Netherlands and Sweden, widely used by employers, accountants, and payroll service providers. Nmbrs exposes its HRIS and payroll data through a public API in two generations. The current, forward-looking interface is a REST API served from https://api.nmbrsapp.com, authenticated with OAuth 2.0 (Authorization Code flow via identityservice.nmbrs.com) plus a per-product subscription key, with granular scopes over companies, employees, employments, salaries, wage components, payruns, and absences. The older SOAP API (api.nmbrs.nl/soap/v3 - EmployeeService, CompanyService, DebtorService) remains available for existing integrations but is deprecated and scheduled to be retired on 1 March 2027, after which REST is the only supported API.",
+     "score": 44.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 61.9,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 11
+    },
+    {
      "name": "Vrije Universiteit Amsterdam",
      "slug": "vrije-universiteit-amsterdam",
      "description": "Vrije Universiteit Amsterdam (VU Amsterdam) is a public research university in the Netherlands, ranked #221 in the QS World University Rankings 2025. Like most universities, VU Amsterdam does not operate a centralized public developer portal. Its programmatic footprint is concentrated in research-infrastructure systems: the VU Research Portal (research.vu.nl), an Elsevier Pure instance that exposes a live OAI-PMH harvesting endpoint and a Pure REST web service, and research data published through DataverseNL. The University Library maintains an active public GitHub organization (ubvu) of open-science tooling. Most teaching, student-information, and identity systems are internal and not publicly documented.",
@@ -425,7 +460,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -449,7 +484,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "University of Groningen",
@@ -467,7 +502,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -475,41 +510,6 @@
       "regime_id": "government",
       "score": 50.0
      },
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 12
-    },
-    {
-     "name": "Nmbrs",
-     "slug": "nmbrs",
-     "description": "Nmbrs (Visma Nmbrs) is cloud HR and payroll software for the Netherlands and Sweden, widely used by employers, accountants, and payroll service providers. Nmbrs exposes its HRIS and payroll data through a public API in two generations. The current, forward-looking interface is a REST API served from https://api.nmbrsapp.com, authenticated with OAuth 2.0 (Authorization Code flow via identityservice.nmbrs.com) plus a per-product subscription key, with granular scopes over companies, employees, employments, salaries, wage components, payruns, and absences. The older SOAP API (api.nmbrs.nl/soap/v3 - EmployeeService, CompanyService, DebtorService) remains available for existing integrations but is deprecated and scheduled to be retired on 1 March 2027, after which REST is the only supported API.",
-     "score": 41.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 61.9,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -544,7 +544,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -596,7 +596,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -638,7 +638,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -674,7 +674,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -710,7 +710,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -752,7 +752,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -793,7 +793,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 15.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -844,7 +844,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -880,7 +880,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -921,7 +921,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -957,7 +957,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -999,7 +999,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1035,7 +1035,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1076,7 +1076,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1111,7 +1111,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1146,7 +1146,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1182,7 +1182,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

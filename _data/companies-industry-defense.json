@@ -4,66 +4,30 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 4,
-   "shown": 4,
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 1,
+   "shown": 1,
    "companies": [
-    {
-     "name": "Airbus",
-     "slug": "airbus",
-     "description": "A European multinational aerospace corporation designing, manufacturing, and selling commercial aircraft, helicopters, defense, and space products. Through its Space Solutions / OneAtlas division Airbus publishes a developer API portal for satellite imagery, mapping, and elevation data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/airbus/refs/heads/main/screenshots/airbus-2026-06-20T171419.png",
-     "score": 41.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 58.4,
-      "governance": 0.0,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 47.4
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 1
-    },
     {
      "name": "Teledyne Technologies",
      "slug": "teledyne-technologies",
      "description": "Teledyne Technologies Incorporated is a leading provider of sophisticated digital imaging products and software, instrumentation, aerospace and defense electronics, and engineered systems. Headquartered in Thousand Oaks, California, Teledyne serves the defense, commercial, and industrial markets. Key subsidiaries include Teledyne FLIR (thermal imaging cameras and systems), Teledyne LeCroy (oscilloscopes and protocol analyzers), Teledyne Imaging (scientific and industrial cameras), and Teledyne API (air quality monitoring instruments). Teledyne FLIR provides REST APIs and SDKs for thermal camera integration, while Teledyne LeCroy provides ActiveDSO and VISA-based automation APIs for test and measurement instruments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/teledyne-technologies/refs/heads/main/screenshots/teledyne-technologies-2026-06-20T195024.png",
-     "score": 40.8,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 46.2,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 56.9,
+      "discoverability": 100.0,
+      "contract_quality": 65.8,
       "governance": 73.7,
       "operational_transparency": 26.3,
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 38.5,
      "agent_band": "agent-aware",
@@ -81,6 +45,53 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
+     "rank": 1
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 3,
+   "shown": 3,
+   "companies": [
+    {
+     "name": "Airbus",
+     "slug": "airbus",
+     "description": "A European multinational aerospace corporation designing, manufacturing, and selling commercial aircraft, helicopters, defense, and space products. Through its Space Solutions / OneAtlas division Airbus publishes a developer API portal for satellite imagery, mapping, and elevation data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/airbus/refs/heads/main/screenshots/airbus-2026-06-20T171419.png",
+     "score": 43.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 58.4,
+      "governance": 0.0,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 47.4
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
      "rank": 2
     },
     {
@@ -88,18 +99,18 @@
      "slug": "rtx",
      "description": "RTX Corporation is a leading American aerospace and defense company comprising three market businesses: Collins Aerospace, Pratt & Whitney, and Raytheon. Raytheon develops the EAGLE (Enhanced Automated Graphical Logistics Environment) software platform for integrated logistics support and logistic support analysis across defense programs. RTX BBN Technologies (a Raytheon subsidiary) develops open-source software including SPARQL triple stores, NLP frameworks, and TAK ecosystem plugins for government and military situational awareness platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/rtx/refs/heads/main/screenshots/rtx-2026-06-20T193244.png",
-     "score": 40.5,
+     "score": 43.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 54.9,
       "governance": 73.7,
       "operational_transparency": 26.3,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -130,18 +141,18 @@
      "slug": "motorola-solutions",
      "description": "Motorola Solutions is a Fortune 500 company that provides developer APIs and integration capabilities through its developer platform. Motorola Solutions provides APIs for public safety communications, command center software, and video security integration. The platform enables partners to build on Motorola's public safety infrastructure.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/motorola-solutions/refs/heads/main/screenshots/motorola-solutions-2026-06-20T185835.png",
-     "score": 35.0,
+     "score": 37.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 60.0,
+      "discoverability": 80.0,
       "contract_quality": 60.2,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -177,18 +188,18 @@
      "slug": "general-dynamics",
      "description": "General Dynamics Corporation is a global aerospace and defense company headquartered in Reston, Virginia. The company operates across five business segments: Aerospace, Marine Systems, Combat Systems, Technologies, and Mission Systems, providing business aviation, ship construction, land combat vehicles, weapons systems, and technology products and services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/general-dynamics/refs/heads/main/screenshots/general-dynamics-2026-06-20T181724.png",
-     "score": 25.0,
+     "score": 27.8,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 60.0,
+      "discoverability": 92.5,
       "contract_quality": 50.4,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -230,7 +241,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -266,7 +277,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -302,7 +313,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -338,7 +349,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -374,7 +385,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -410,7 +421,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -436,8 +447,7 @@
      },
      "rank": 11
     }
-   ],
-   "open": true
+   ]
   },
   {
    "band": "minimal",
@@ -463,7 +473,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -505,7 +515,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -540,7 +550,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -576,7 +586,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -612,7 +622,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -654,7 +664,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -690,7 +700,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -726,7 +736,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -768,7 +778,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -804,7 +814,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -840,7 +850,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -876,7 +886,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -912,7 +922,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -948,7 +958,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -984,7 +994,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1020,7 +1030,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1056,7 +1066,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1091,7 +1101,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1127,7 +1137,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

@@ -8,8 +8,8 @@
    "label": "Exemplar",
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "PAY.JP",
@@ -26,7 +26,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -51,35 +51,24 @@
       "consent_identity": false
      },
      "rank": 1
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "strong",
-   "label": "Strong",
-   "range": "60–69.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 1,
-   "shown": 1,
-   "companies": [
+    },
     {
      "name": "Soracom",
      "slug": "soracom",
      "description": "Soracom is a global IoT cellular connectivity and platform provider headquartered in Tokyo, founded in 2014, with regional operations in the US (Soracom Global) and EU. The platform pairs multicarrier SIMs (physical, eSIM, iSIM) across 170+ countries with a deep platform of cloud integration services (Beam, Funnel, Funk), data services (Harvest, Lagoon, Query, Orbit), device management (Inventory, Krypton, Endorse, Napter), and network gateways (VPG / Canal / Direct / Door / Gate / Junction / Peek). Soracom exposes the entire stack through a coverage-aware REST API documented at users.soracom.io and maintained as a public OpenAPI 3.0 specification in the soracom-cli GitHub repo.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/soracom/refs/heads/main/screenshots/soracom-2026-06-20T194218.png",
-     "score": 67.9,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 72.7,
+     "band": "exemplar",
+     "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 59.2,
+      "discoverability": 92.5,
+      "contract_quality": 68.1,
       "governance": 86.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 71.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 54.8,
      "agent_band": "agent-ready",
@@ -126,7 +115,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 63.5,
      "agent_band": "agent-native",
@@ -162,7 +151,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -204,7 +193,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -246,7 +235,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 57.7,
      "agent_band": "agent-ready",
@@ -266,7 +255,8 @@
      },
      "rank": 6
     }
-   ]
+   ],
+   "open": true
   },
   {
    "band": "thin",
@@ -291,7 +281,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -333,7 +323,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -363,18 +353,18 @@
      "name": "SmartHR",
      "slug": "smarthr",
      "description": "SmartHR is a leading Japanese cloud HR, labor, and personnel management SaaS (smarthr.jp). Its per-tenant REST API exposes an organization's employee (\"crew\") records and the master data around them - departments, employment types, business establishments, and custom field templates - plus webhook subscriptions for change notifications. The API is served from each customer's own tenant subdomain (https://{tenant}.smarthr.jp/api) under a /v1 path, and is authenticated with a per-tenant access token passed as a Bearer token.",
-     "score": 38.0,
+     "score": 41.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 58.4,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -399,18 +389,18 @@
      "slug": "line",
      "description": "LINE is a Japan-based messaging platform with over 200 million monthly active users across Japan, Taiwan, Thailand, and Indonesia, offering messaging, payments, news, and a broad ecosystem of services. The LINE Developers platform exposes public APIs for building chatbots, mini-apps, social login, and audience marketing, all documented as OpenAPI specifications. APIs use Bearer token authentication with channel access tokens issued per LINE channel.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/line/refs/heads/main/screenshots/line-2026-06-20T184539.png",
-     "score": 37.7,
+     "score": 41.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 66.8,
       "governance": 34.2,
       "operational_transparency": 5.3,
       "developer_ergonomics": 37.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 58.7,
      "agent_band": "agent-ready",
@@ -435,18 +425,18 @@
      "slug": "komoju",
      "description": "KOMOJU is a Japan-focused global payment gateway operated by Degica. Its REST API lets web and e-commerce merchants accept a wide range of local and international payment methods through one interface - credit cards, convenience store (konbini) cash payments, bank transfer, Pay-easy (ATM), and e-money / mobile wallets such as PayPay, Merpay, au PAY, Rakuten Pay, LINE Pay, Alipay, and WeChat Pay - plus a hosted checkout (Sessions), tokenization, saved customers, subscriptions, and webhook events. Base URL is https://komoju.com/api/v1 with HTTP Basic authentication using a secret or publishable API key.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/komoju/refs/heads/main/screenshots/komoju-2026-07-25T224141.png",
-     "score": 37.2,
+     "score": 40.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 61.5,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -473,22 +463,22 @@
      "rank": 11
     },
     {
-     "name": "Rakuten",
-     "slug": "rakuten",
-     "description": "Rakuten Group is a Japan-headquartered internet conglomerate spanning e-commerce (Rakuten Ichiba), fintech (Rakuten Bank, Rakuten Card, Rakuten Securities), digital content (Rakuten Books, Kobo, Viki), travel (Rakuten Travel), telecom (Rakuten Mobile, Rakuten Symphony), and advertising (Rakuten Advertising). Rakuten exposes a long-standing public developer platform — Rakuten Web Services (webservice.rakuten.co.jp) — that offers REST/JSON APIs for searching Ichiba items and genres, books, CDs, DVDs, games, software, magazines, Kobo eBooks, Rakuten Travel hotels (simple, detail, vacant, keyword), Rakuten Recipe, and Rakuten GORA golf courses. All RWS APIs use a Rakuten application ID for authentication and are read-only. Rakuten separately operates merchant-facing RMS (Rakuten Merchant Server) APIs and Rakuten Pay merchant APIs, which are partner-gated.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/screenshots/rakuten-2026-06-20T192542.png",
-     "score": 35.8,
+     "name": "freee",
+     "slug": "freee",
+     "description": "freee K.K. (freee株式会社) is a Japanese cloud business-management SaaS company. Its core products are freee Accounting (会計freee) - cloud accounting and bookkeeping - and freee HR & Payroll (人事労務freee) - HR, attendance, and payroll - plus invoicing (freee請求書) and sales management. freee exposes well-documented public REST APIs for both accounting and HR, authenticated with OAuth 2.0 (authorization code). Accounting endpoints live under https://api.freee.co.jp/api/1 and HR / payroll endpoints under https://api.freee.co.jp/hr/api/v1, and freee publishes machine-readable OpenAPI schemas for its platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/screenshots/freee-2026-07-25T215132.png",
+     "score": 39.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 56.6,
+      "discoverability": 100.0,
+      "contract_quality": 54.9,
       "governance": 0.0,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 28.9
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -509,22 +499,22 @@
      "rank": 12
     },
     {
-     "name": "freee",
-     "slug": "freee",
-     "description": "freee K.K. (freee株式会社) is a Japanese cloud business-management SaaS company. Its core products are freee Accounting (会計freee) - cloud accounting and bookkeeping - and freee HR & Payroll (人事労務freee) - HR, attendance, and payroll - plus invoicing (freee請求書) and sales management. freee exposes well-documented public REST APIs for both accounting and HR, authenticated with OAuth 2.0 (authorization code). Accounting endpoints live under https://api.freee.co.jp/api/1 and HR / payroll endpoints under https://api.freee.co.jp/hr/api/v1, and freee publishes machine-readable OpenAPI schemas for its platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/freee/refs/heads/main/screenshots/freee-2026-07-25T215132.png",
-     "score": 35.7,
+     "name": "Rakuten",
+     "slug": "rakuten",
+     "description": "Rakuten Group is a Japan-headquartered internet conglomerate spanning e-commerce (Rakuten Ichiba), fintech (Rakuten Bank, Rakuten Card, Rakuten Securities), digital content (Rakuten Books, Kobo, Viki), travel (Rakuten Travel), telecom (Rakuten Mobile, Rakuten Symphony), and advertising (Rakuten Advertising). Rakuten exposes a long-standing public developer platform — Rakuten Web Services (webservice.rakuten.co.jp) — that offers REST/JSON APIs for searching Ichiba items and genres, books, CDs, DVDs, games, software, magazines, Kobo eBooks, Rakuten Travel hotels (simple, detail, vacant, keyword), Rakuten Recipe, and Rakuten GORA golf courses. All RWS APIs use a Rakuten application ID for authentication and are read-only. Rakuten separately operates merchant-facing RMS (Rakuten Merchant Server) APIs and Rakuten Pay merchant APIs, which are partner-gated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rakuten/refs/heads/main/screenshots/rakuten-2026-06-20T192542.png",
+     "score": 39.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 54.9,
+      "discoverability": 100.0,
+      "contract_quality": 56.6,
       "governance": 0.0,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -549,18 +539,18 @@
      "slug": "j-quants",
      "description": "J-Quants is a financial data API service operated by Japan Exchange Group (JPX) that makes it easy for retail investors to obtain cleansed financial data such as stock prices and financials in historical format. The service democratizes access to raw financial data for investment analysis.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/j-quants/refs/heads/main/screenshots/j-quants-2026-06-20T183644.png",
-     "score": 35.1,
+     "score": 38.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 87.5,
       "contract_quality": 51.9,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -581,6 +571,41 @@
      "rank": 14
     },
     {
+     "name": "TableCheck",
+     "slug": "tablecheck",
+     "description": "TableCheck is a restaurant booking and guest-experience platform (founded 2011, headquartered in Tokyo, Japan) used by thousands of restaurants across 35+ countries to consolidate reservations, availability, guest CRM, memberships, and POS integration into one system. TableCheck exposes a production JSON/REST API, partitioned into components - Availability, Web Booking, Booking, CRM, POS, and Site Controller - under https://api.tablecheck.com/api. Access is partner-gated, and a per-environment secret_key is issued by the TableCheck API team on approval, while some components (notably the direct Booking API) are available only by special arrangement. Each component publishes an OpenAPI 3.0 description.",
+     "score": 35.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 49.6,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 15
+    },
+    {
      "name": "JAXA",
      "slug": "jaxa",
      "description": "Japan Aerospace Exploration Agency (JAXA) provides public APIs and data services for satellite Earth observation data, including GCOM/ALOS satellite imagery, global precipitation mapping, greenhouse gas monitoring, and scientific mission data from Japanese space programs.",
@@ -596,7 +621,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 38.5,
      "agent_band": "agent-aware",
@@ -605,41 +630,6 @@
       "agentic_access": true,
       "mcp_server": false,
       "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 15
-    },
-    {
-     "name": "TableCheck",
-     "slug": "tablecheck",
-     "description": "TableCheck is a restaurant booking and guest-experience platform (founded 2011, headquartered in Tokyo, Japan) used by thousands of restaurants across 35+ countries to consolidate reservations, availability, guest CRM, memberships, and POS integration into one system. TableCheck exposes a production JSON/REST API, partitioned into components - Availability, Web Booking, Booking, CRM, POS, and Site Controller - under https://api.tablecheck.com/api. Access is partner-gated, and a per-environment secret_key is issued by the TableCheck API team on approval, while some components (notably the direct Booking API) are available only by special arrangement. Each component publishes an OpenAPI 3.0 description.",
-     "score": 32.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 49.6,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -667,7 +657,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 24.0,
      "agent_band": "agent-aware",
@@ -703,7 +693,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -745,7 +735,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 13.5,
      "agent_band": "human-only",
@@ -790,7 +780,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -831,7 +821,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 13.5,
      "agent_band": "human-only",
@@ -867,7 +857,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -909,7 +899,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -945,7 +935,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -981,7 +971,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -1017,7 +1007,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -1053,7 +1043,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1095,7 +1085,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1131,7 +1121,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1167,7 +1157,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 24.0,
      "agent_band": "agent-aware",
@@ -1203,7 +1193,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -1239,7 +1229,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1280,7 +1270,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1316,7 +1306,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1358,7 +1348,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1400,7 +1390,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1442,7 +1432,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1484,7 +1474,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1526,7 +1516,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1567,7 +1557,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1602,7 +1592,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1637,7 +1627,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1673,7 +1663,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1715,7 +1705,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1757,7 +1747,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -1803,7 +1793,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1839,7 +1829,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1881,7 +1871,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 26.3
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1917,7 +1907,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 26.3
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1953,7 +1943,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1989,7 +1979,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2025,7 +2015,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2060,7 +2050,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2096,7 +2086,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2132,7 +2122,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2174,7 +2164,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2216,7 +2206,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2257,7 +2247,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2292,7 +2282,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2328,7 +2318,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2364,7 +2354,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2400,7 +2390,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2435,7 +2425,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2470,7 +2460,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2506,7 +2496,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2541,7 +2531,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2577,7 +2567,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2613,7 +2603,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2649,7 +2639,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2684,7 +2674,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2719,7 +2709,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2754,7 +2744,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2796,7 +2786,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2831,7 +2821,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2867,7 +2857,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2903,7 +2893,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2938,7 +2928,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2973,7 +2963,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3008,7 +2998,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3043,7 +3033,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3078,7 +3068,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,

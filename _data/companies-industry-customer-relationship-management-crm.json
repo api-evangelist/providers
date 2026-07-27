@@ -12,58 +12,22 @@
    "shown": 2,
    "companies": [
     {
-     "name": "HubSpot",
-     "slug": "hubspot",
-     "description": "HubSpot provides a full platform of marketing, sales, customer service, and CRM software plus the methodology, resources, and support to help businesses grow better.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png",
-     "score": 78.5,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 55.0,
-      "contract_quality": 78.6,
-      "governance": 60.5,
-      "operational_transparency": 78.9,
-      "developer_ergonomics": 87.0,
-      "commercial_clarity": 92.1
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 65.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 1
-    },
-    {
      "name": "Salesforce",
      "slug": "salesforce",
      "description": "Salesforce is a cloud-based customer relationship management (CRM) platform that provides a comprehensive suite of enterprise applications for sales, service, marketing, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/salesforce/refs/heads/main/screenshots/salesforce-2026-06-20T193352.png",
-     "score": 76.1,
+     "score": 80.5,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 55.0,
-      "contract_quality": 73.9,
+      "discoverability": 80.0,
+      "contract_quality": 81.5,
       "governance": 86.8,
       "operational_transparency": 78.9,
       "developer_ergonomics": 78.3,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 76.9,
      "agent_band": "agent-native",
@@ -81,79 +45,32 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 2
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "strong",
-   "label": "Strong",
-   "range": "60–69.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 2,
-   "shown": 2,
-   "companies": [
-    {
-     "name": "AppLovin",
-     "slug": "applovin",
-     "description": "AppLovin is a marketing platform that helps businesses reach, monetize, and grow their global audiences through mobile advertising, mediation, and analytics. The company operates platforms including AppDiscovery (Axon) for performance-based user acquisition, MAX for in-app bidding mediation, Adjust for mobile measurement, and Wurl for connected TV. AppLovin provides SDKs and REST APIs that allow app developers and advertisers to integrate ad serving, monetization, campaign management, conversion tracking, and reporting capabilities into their applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/screenshots/applovin-2026-06-20T172326.png",
-     "score": 60.4,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 69.4,
-      "governance": 86.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 50.0,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 54.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": true,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 3
+     "rank": 1
     },
     {
-     "name": "Pipedrive",
-     "slug": "pipedrive",
-     "description": "Pipedrive is a sales CRM and pipeline management tool focused on small and mid-market teams. The Pipedrive REST API exposes deals, persons, organizations, activities, leads, products, pipelines, stages, mail, calls, files, notes, users, permissions, filters, goals, subscriptions, and webhooks.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/screenshots/pipedrive-2026-06-20T191725.png",
-     "score": 60.1,
-     "band": "strong",
-     "band_label": "Strong",
+     "name": "HubSpot",
+     "slug": "hubspot",
+     "description": "HubSpot provides a full platform of marketing, sales, customer service, and CRM software plus the methodology, resources, and support to help businesses grow better.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hubspot/refs/heads/main/screenshots/hubspot-2026-06-20T182920.png",
+     "score": 80.4,
+     "band": "exemplar",
+     "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 63.1,
-      "governance": 52.6,
-      "operational_transparency": 60.5,
-      "developer_ergonomics": 32.6,
-      "commercial_clarity": 84.2
+      "discoverability": 55.0,
+      "contract_quality": 86.1,
+      "governance": 60.5,
+      "operational_transparency": 78.9,
+      "developer_ergonomics": 87.0,
+      "commercial_clarity": 92.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
-     "agent_score": 53.8,
-     "agent_band": "agent-ready",
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": true,
-      "mcp_server": false,
+      "mcp_server": true,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
@@ -164,16 +81,16 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 4
+     "rank": 2
     }
    ],
    "open": true
   },
   {
-   "band": "developing",
-   "label": "Developing",
-   "range": "45–59.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "band": "strong",
+   "label": "Strong",
+   "range": "60–69.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
    "count": 4,
    "shown": 4,
    "companies": [
@@ -182,18 +99,18 @@
      "slug": "copper",
      "description": "Copper is a CRM platform built natively for Google Workspace, designed to help teams cultivate enduring client relationships through purposeful collaboration. Copper offers a RESTful Developer API providing programmatic access to People, Companies, Leads, Opportunities, Projects, Tasks, Activities, Webhooks, and related resources for CRM integration and automation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/copper/refs/heads/main/screenshots/copper-2026-06-20T175018.png",
-     "score": 59.6,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 62.8,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 68.0,
       "governance": 52.6,
       "operational_transparency": 42.1,
       "developer_ergonomics": 41.3,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 61.5,
      "agent_band": "agent-native",
@@ -211,25 +128,25 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 5
+     "rank": 3
     },
     {
      "name": "Microsoft",
      "slug": "microsoft",
      "description": "Collection of Microsoft's primary APIs and developer resources.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/microsoft/refs/heads/main/screenshots/microsoft-2026-06-20T185341.png",
-     "score": 56.5,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 61.2,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 42.5,
-      "contract_quality": 67.1,
+      "discoverability": 67.5,
+      "contract_quality": 75.9,
       "governance": 73.7,
       "operational_transparency": 42.1,
       "developer_ergonomics": 34.8,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 59.6,
      "agent_band": "agent-ready",
@@ -247,8 +164,91 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 6
+     "rank": 4
     },
+    {
+     "name": "AppLovin",
+     "slug": "applovin",
+     "description": "AppLovin is a marketing platform that helps businesses reach, monetize, and grow their global audiences through mobile advertising, mediation, and analytics. The company operates platforms including AppDiscovery (Axon) for performance-based user acquisition, MAX for in-app bidding mediation, Adjust for mobile measurement, and Wurl for connected TV. AppLovin provides SDKs and REST APIs that allow app developers and advertisers to integrate ad serving, monetization, campaign management, conversion tracking, and reporting capabilities into their applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/applovin/refs/heads/main/screenshots/applovin-2026-06-20T172326.png",
+     "score": 60.4,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 69.4,
+      "governance": 86.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 54.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": true,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 5
+    },
+    {
+     "name": "Pipedrive",
+     "slug": "pipedrive",
+     "description": "Pipedrive is a sales CRM and pipeline management tool focused on small and mid-market teams. The Pipedrive REST API exposes deals, persons, organizations, activities, leads, products, pipelines, stages, mail, calls, files, notes, users, permissions, filters, goals, subscriptions, and webhooks.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pipedrive/refs/heads/main/screenshots/pipedrive-2026-06-20T191725.png",
+     "score": 60.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 63.1,
+      "governance": 52.6,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 32.6,
+      "commercial_clarity": 84.2
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 53.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 6
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 2,
+   "shown": 2,
+   "companies": [
     {
      "name": "Zoho",
      "slug": "zoho",
@@ -265,7 +265,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 45.2,
      "agent_band": "agent-ready",
@@ -290,18 +290,18 @@
      "slug": "monday-com",
      "description": "An expressive API to interact with your workflows, automate processes, power integrations, and more!",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/monday-com/refs/heads/main/screenshots/monday-com-2026-06-20T185722.png",
-     "score": 46.2,
+     "score": 49.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 35.0,
+      "discoverability": 67.5,
       "contract_quality": 74.3,
       "governance": 60.5,
       "operational_transparency": 36.8,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 53.8,
      "agent_band": "agent-ready",
@@ -347,7 +347,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -383,7 +383,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -419,7 +419,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

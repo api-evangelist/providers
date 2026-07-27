@@ -16,18 +16,18 @@
      "slug": "tiaa",
      "description": "TIAA (Teachers Insurance and Annuity Association of America) is a leading provider of financial services in the academic, research, medical, cultural, and government fields. Originally founded to provide retirement security for educators, TIAA now offers retirement services, insurance, brokerage, and investment management products to individuals and institutions. TIAA operates a developer portal at developer.tiaa.org exposing APIs for financial data aggregation (FDX standard), secure income account management, and gateway integrations enabling plan portability and fintech connectivity.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/screenshots/tiaa-2026-06-20T195329.png",
-     "score": 54.7,
+     "score": 57.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 66.2,
       "governance": 73.7,
       "operational_transparency": 21.1,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -58,18 +58,18 @@
      "slug": "aflac",
      "description": "Aflac is America's leading provider of supplemental insurance, offering products that pay benefits when a policyholder experiences an accident, illness, or injury. Aflac provides REST APIs through its Enterprise Connect (AEC) platform enabling benefits technology companies, HR platforms, and benefits administrators to integrate supplemental insurance enrollment, policy management, and claims capabilities into their workflows.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/aflac/refs/heads/main/screenshots/aflac-2026-06-20T165702.png",
-     "score": 52.5,
+     "score": 55.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 87.5,
       "contract_quality": 71.7,
       "governance": 86.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 54.8,
      "agent_band": "agent-ready",
@@ -94,18 +94,18 @@
      "slug": "state-farm",
      "description": "State Farm is the largest property and casualty insurance provider in the United States, headquartered in Bloomington, Illinois. Founded in 1922, the company offers a comprehensive range of insurance products including auto, home, renters, life, health, business, and farm/ranch insurance, as well as banking and financial services. State Farm operates through a network of approximately 19,000 agents across the US and Canada. The company has invested heavily in its digital transformation, operating a Partner Gateway developer portal at developer.statefarm.com that exposes APIs enabling partners, agents, and third-party platforms to integrate with State Farm's insurance products and services. State Farm is a mutual company owned by its policyholders, consistently ranked among the Fortune 50.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/state-farm/refs/heads/main/screenshots/state-farm-2026-06-20T194520.png",
-     "score": 50.9,
+     "score": 53.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 80.0,
       "contract_quality": 70.5,
       "governance": 86.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -130,18 +130,18 @@
      "slug": "state-farm-insurance",
      "description": "State Farm Insurance refers to the primary insurance operations of State Farm Mutual Automobile Insurance Company and its affiliated entities, headquartered in Bloomington, Illinois. As the largest property and casualty insurer in the United States, State Farm Insurance provides auto, home, renters, life, health, commercial, and farm insurance products to over 83 million policies across 91 million accounts. The company operates through approximately 19,000 exclusive agents and has a robust digital platform. State Farm Insurance maintains a Partner Gateway developer portal (developer.statefarm.com) offering APIs for embedded insurance, partner integrations, and B2B connectivity. The company has also heavily invested in cloud infrastructure on AWS and has open-sourced numerous DevOps and infrastructure tools via its GitHub organization.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/state-farm-insurance/refs/heads/main/screenshots/state-farm-insurance-2026-06-20T194522.png",
-     "score": 50.2,
+     "score": 52.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 80.0,
       "contract_quality": 67.8,
       "governance": 86.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -162,22 +162,22 @@
      "rank": 4
     },
     {
-     "name": "Unum",
-     "slug": "unum",
-     "description": "Unum Group is a leading provider of financial protection benefits including disability insurance, life insurance, dental insurance, vision insurance, and critical illness coverage. Unum's developer platform offers APIs for HR system integration, eligibility management, leave and absence management, enrollment, and evidence of insurability processing.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/screenshots/unum-2026-06-20T200424.png",
-     "score": 49.2,
+     "name": "Travelers",
+     "slug": "travelers",
+     "description": "Travelers is one of the largest property casualty insurance companies in the United States and a Fortune 500 company. Through their developer portal, Travelers provides APIs for business insurance claim reporting, commercial quoting, and policy management to enable agents, brokers, and partners to programmatically manage insurance workflows.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/screenshots/travelers-2026-06-20T195635.png",
+     "score": 52.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 69.3,
+      "discoverability": 100.0,
+      "contract_quality": 70.8,
       "governance": 73.7,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 30.4,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -204,22 +204,22 @@
      "rank": 5
     },
     {
-     "name": "Travelers",
-     "slug": "travelers",
-     "description": "Travelers is one of the largest property casualty insurance companies in the United States and a Fortune 500 company. Through their developer portal, Travelers provides APIs for business insurance claim reporting, commercial quoting, and policy management to enable agents, brokers, and partners to programmatically manage insurance workflows.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelers/refs/heads/main/screenshots/travelers-2026-06-20T195635.png",
-     "score": 48.6,
+     "name": "Unum",
+     "slug": "unum",
+     "description": "Unum Group is a leading provider of financial protection benefits including disability insurance, life insurance, dental insurance, vision insurance, and critical illness coverage. Unum's developer platform offers APIs for HR system integration, eligibility management, leave and absence management, enrollment, and evidence of insurability processing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/unum/refs/heads/main/screenshots/unum-2026-06-20T200424.png",
+     "score": 52.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 65.5,
+      "discoverability": 100.0,
+      "contract_quality": 69.3,
       "governance": 73.7,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 28.3,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -253,9 +253,51 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "companies": [
+    {
+     "name": "Assurant",
+     "slug": "assurant",
+     "description": "Assurant is a global provider of lifestyle and housing solutions that help people thrive in a connected world. The company provides protection products and services including device protection, renter's insurance, auto F&I products, and connected living services. Assurant's APEX (Assurant Product Experience Exchange) platform provides embedded insurance APIs that enable partners to integrate protection products, claims management, and diagnostics directly into their workflows and customer experiences. The APEX platform supports 99.95% uptime and covers multiple product lines across technology, real estate, auto, and retail industries.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/assurant/refs/heads/main/screenshots/assurant-2026-06-20T172509.png",
+     "score": 39.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 59.3,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 26.1
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 7
+    },
     {
      "name": "AIG",
      "slug": "aig",
@@ -272,7 +314,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -287,48 +329,6 @@
       "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 7
-    },
-    {
-     "name": "Assurant",
-     "slug": "assurant",
-     "description": "Assurant is a global provider of lifestyle and housing solutions that help people thrive in a connected world. The company provides protection products and services including device protection, renter's insurance, auto F&I products, and connected living services. Assurant's APEX (Assurant Product Experience Exchange) platform provides embedded insurance APIs that enable partners to integrate protection products, claims management, and diagnostics directly into their workflows and customer experiences. The APEX platform supports 99.95% uptime and covers multiple product lines across technology, real estate, auto, and retail industries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/assurant/refs/heads/main/screenshots/assurant-2026-06-20T172509.png",
-     "score": 36.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 59.3,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 26.1
-     },
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -356,7 +356,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -383,64 +383,22 @@
      "rank": 9
     },
     {
-     "name": "Reinsurance Group of America",
-     "slug": "reinsurance-group-of-america",
-     "description": "Reinsurance Group of America (RGA) is a leading global provider of life and health reinsurance and financial solutions, serving clients in more than 70 countries. RGA is the only global reinsurance company focused exclusively on life and health solutions. The company provides reinsurance, automated underwriting platforms, digital health data scoring, and financial risk management solutions to insurance carriers worldwide.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/screenshots/reinsurance-group-of-america-2026-06-20T192806.png",
-     "score": 31.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 9.4,
-      "governance": 86.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 23.9
-     },
-     "agent_score": 13.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": true,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 10
-    },
-    {
      "name": "Progressive",
      "slug": "progressive",
      "description": "The Progressive Corporation is one of the largest providers of car insurance in the United States, also offering personal and commercial auto, home, renters, boat, motorcycle, and other insurance products. Progressive operates a developer portal at developer.progressive.com offering APIs for auto insurance quoting, certificate of insurance generation, and agent portal integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/progressive/refs/heads/main/screenshots/progressive-2026-06-20T192149.png",
-     "score": 30.9,
+     "score": 33.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 50.4,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -464,44 +422,33 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 11
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "15–29.9",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 17,
-   "shown": 17,
-   "companies": [
+     "rank": 10
+    },
     {
-     "name": "Thrivent Financial",
-     "slug": "thrivent-financial-for-lutherans",
-     "description": "Thrivent Financial is a not-for-profit, membership-owned Fortune 500 financial services organization headquartered in Minneapolis, Minnesota, that helps Christians be wise with money and live generously. With more than $212 billion in assets under management and advisement, over 4,500 employees, and 2.4 million members and clients, Thrivent provides comprehensive financial advice, insurance, investments, banking, and generosity programs. The organization is distinguished by connecting financial planning with charitable giving, community impact, and values-based decision making.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thrivent-financial-for-lutherans/refs/heads/main/screenshots/thrivent-financial-for-lutherans-2026-06-20T195319.png",
-     "score": 29.2,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "name": "Reinsurance Group of America",
+     "slug": "reinsurance-group-of-america",
+     "description": "Reinsurance Group of America (RGA) is a leading global provider of life and health reinsurance and financial solutions, serving clients in more than 70 countries. RGA is the only global reinsurance company focused exclusively on life and health solutions. The company provides reinsurance, automated underwriting platforms, digital health data scoring, and financial risk management solutions to insurance carriers worldwide.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/reinsurance-group-of-america/refs/heads/main/screenshots/reinsurance-group-of-america-2026-06-20T192806.png",
+     "score": 31.6,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 20.8,
-      "governance": 13.2,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 52.6
+      "discoverability": 92.5,
+      "contract_quality": 9.4,
+      "governance": 86.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
+      "regime": "Insurance",
+      "regime_id": "insurance",
       "score": 23.9
      },
-     "agent_score": 6.7,
+     "agent_score": 13.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -510,32 +457,32 @@
       "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
-      "openapi_examples": false,
+      "openapi_examples": true,
       "rate_limit_signal": true,
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "Lincoln National",
      "slug": "lincoln-national",
      "description": "Lincoln National Corporation, operating as Lincoln Financial Group, is a diversified financial services company offering annuities, retirement plan services, life insurance, and group protection products. The company provides solutions for employers, brokers, and retirement professionals through its LincSmart platform of API integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/screenshots/lincoln-national-2026-06-20T184534.png",
-     "score": 27.9,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 30.6,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 54.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -559,24 +506,77 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
+     "rank": 12
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 16,
+   "shown": 16,
+   "companies": [
+    {
+     "name": "Thrivent Financial",
+     "slug": "thrivent-financial-for-lutherans",
+     "description": "Thrivent Financial is a not-for-profit, membership-owned Fortune 500 financial services organization headquartered in Minneapolis, Minnesota, that helps Christians be wise with money and live generously. With more than $212 billion in assets under management and advisement, over 4,500 employees, and 2.4 million members and clients, Thrivent provides comprehensive financial advice, insurance, investments, banking, and generosity programs. The organization is distinguished by connecting financial planning with charitable giving, community impact, and values-based decision making.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thrivent-financial-for-lutherans/refs/heads/main/screenshots/thrivent-financial-for-lutherans-2026-06-20T195319.png",
+     "score": 29.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 20.8,
+      "governance": 13.2,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 23.9
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
      "rank": 13
     },
     {
      "name": "Liberty Mutual Insurance",
      "slug": "liberty-mutual-insurance",
      "description": "Liberty Mutual Insurance Group is one of the largest global property and casualty insurers, headquartered in Boston, Massachusetts. The company offers a wide range of insurance products and services, including personal automobile, homeowners, workers compensation, and commercial lines, and exposes API-based insurance solutions for partners across the insurance lifecycle from quote-and-purchase through policyholder service and claims.",
-     "score": 26.2,
+     "score": 29.0,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 50.4,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -603,6 +603,47 @@
      "rank": 14
     },
     {
+     "name": "Prudential Financial",
+     "slug": "prudential-financial",
+     "description": "Prudential Financial, Inc. is a global financial services company offering insurance, retirement planning, investment management, and other financial products and services. Founded in 1875 and headquartered in Newark, New Jersey, the company serves individual and institutional customers worldwide.",
+     "score": 28.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 52.2,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 13.0
+     },
+     "agent_score": 38.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 15
+    },
+    {
      "name": "Amica Mutual Insurance",
      "slug": "amica-mutual-insurance",
      "description": "Amica Mutual Insurance, founded in 1907, is a mutual insurance company providing automobile, homeowners, condo, renters, life, marine, motorcycle, umbrella liability, flood, and small business insurance to customers across the United States. As a mutual company, Amica is owned by its policyholders and known for award-winning customer service and competitive pricing through bundling discounts.",
@@ -618,7 +659,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -631,47 +672,6 @@
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 15
-    },
-    {
-     "name": "Prudential Financial",
-     "slug": "prudential-financial",
-     "description": "Prudential Financial, Inc. is a global financial services company offering insurance, retirement planning, investment management, and other financial products and services. Founded in 1875 and headquartered in Newark, New Jersey, the company serves individual and institutional customers worldwide.",
-     "score": 25.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 60.0,
-      "contract_quality": 52.2,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 13.0
-     },
-     "agent_score": 38.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
       "mcp_server": false,
       "auth_clarity": false,
       "idempotency": false,
@@ -701,7 +701,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -743,7 +743,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -778,7 +778,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -820,7 +820,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -862,7 +862,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -904,7 +904,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -940,7 +940,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -982,7 +982,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1024,7 +1024,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1066,7 +1066,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1108,7 +1108,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1150,7 +1150,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1202,7 +1202,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1244,7 +1244,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1286,7 +1286,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1328,7 +1328,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1370,7 +1370,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1412,7 +1412,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1454,7 +1454,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1496,7 +1496,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1538,7 +1538,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1580,7 +1580,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1622,7 +1622,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1664,7 +1664,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1706,7 +1706,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1748,7 +1748,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1790,7 +1790,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1832,7 +1832,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1873,7 +1873,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1915,7 +1915,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1957,7 +1957,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1999,7 +1999,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2041,7 +2041,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2083,7 +2083,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2125,7 +2125,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2167,7 +2167,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2209,7 +2209,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2251,7 +2251,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2293,7 +2293,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2329,7 +2329,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2371,7 +2371,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2413,7 +2413,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2455,7 +2455,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2496,7 +2496,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2531,7 +2531,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2566,7 +2566,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2601,7 +2601,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2636,7 +2636,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2678,7 +2678,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2714,7 +2714,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2750,7 +2750,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2785,7 +2785,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2821,7 +2821,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2857,7 +2857,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2893,7 +2893,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2929,7 +2929,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

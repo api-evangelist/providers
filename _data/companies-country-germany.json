@@ -4,30 +4,30 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "strong",
-   "label": "Strong",
-   "range": "60–69.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 2,
-   "shown": 2,
+   "band": "exemplar",
+   "label": "Exemplar",
+   "range": "70+",
+   "blurb": "Reference-quality API operations across every facet.",
+   "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "parcelLab",
      "slug": "parcellab",
      "description": "parcelLab is a Munich-headquartered post-purchase experience platform (parcelLab GmbH) used by retailers including IKEA, Hugo Boss, Dyson, Puma, and John Lewis to turn delivery and returns into a branded, revenue-generating part of the customer journey. The platform spans four modules — Convert (pre-checkout delivery promise), Engage (multichannel post-purchase communications), Retain (Returns Portal and returns experience), and Insights (analytics, benchmarking, control tower) — layered with AI agents (WISMO/R, Insights, Fraud & Abuse) and exposed via the parcelLab API v4 Enhanced. Global, EU, and US regional endpoints are available; the same data backs a Model Context Protocol server at agents.parcellab.com/mcp/ for agentic clients.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/parcellab/refs/heads/main/screenshots/parcellab-2026-06-20T191411.png",
-     "score": 66.7,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 72.1,
+     "band": "exemplar",
+     "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 65.1,
+      "discoverability": 100.0,
+      "contract_quality": 74.0,
       "governance": 86.8,
       "operational_transparency": 42.1,
       "developer_ergonomics": 78.3,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 55.8,
      "agent_band": "agent-ready",
@@ -46,7 +46,18 @@
       "consent_identity": false
      },
      "rank": 1
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "60–69.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "shown": 1,
+   "companies": [
     {
      "name": "Langdock",
      "slug": "langdock",
@@ -63,7 +74,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 67.3,
      "agent_band": "agent-native",
@@ -109,7 +120,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -150,7 +161,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 71.2,
      "agent_band": "agent-native",
@@ -185,7 +196,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 67.3,
      "agent_band": "agent-native",
@@ -221,7 +232,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -263,7 +274,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -305,7 +316,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 70.2,
      "agent_band": "agent-native",
@@ -341,7 +352,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -368,6 +379,41 @@
      "rank": 9
     },
     {
+     "name": "Nfon",
+     "slug": "nfon",
+     "description": "NFON AG is a European provider of cloud telephony and unified communications (UCaaS/CPaaS), headquartered in Munich and serving businesses across 15+ European countries. Its Cloudya cloud phone system and related products deliver business voice, video, contact centre and AI-assisted communication. For developers and integration partners, NFON publishes a set of RESTful JSON APIs hosted from the NFON-AG GitHub organisation: the flagship PBX Configuration API (OAuth 2.0, ~480 operations for provisioning tenants, extensions, devices, queues, groups, IVRs, phone books, licences and more — the successor to the legacy Service Portal API), the CTI API (server-to-server call control and Server-Sent-Event call/state streaming), and the Call History API offered under \"Login with NFON\" (OAuth 2.0 Authorization Code + PKCE) for retrieving, streaming and deleting call records with transcriptions and summaries. Use of the APIs is free of charge; access is provisioned by contacting integration@nfon.com.",
+     "score": 48.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 55.2,
+      "governance": 0.0,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 58.7,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 69.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 10
+    },
+    {
      "name": "Remberg",
      "slug": "remberg",
      "description": "remberg is a Munich-based B2B SaaS provider of an Intelligent Asset Platform for maintenance, operations, and service — CMMS/EAM/CAFM software used by industrial companies (Vaillant, Remondis, Liqui Moly, SCHUNK, EDEKA, OSRAM) to manage assets, work orders, spare parts, tickets, forms, and preventive maintenance, with an AI Copilot and a lightweight execution layer alongside SAP. remberg exposes a public REST API (api.remberg.de) across Assets, Work Orders, Work Requests, Tickets, Parts, Organizations, Contacts, Users, Files, Forms, Procedures, and AI, with API-key auth, Svix-based webhooks, documented rate limits, and ISO 27001 certification.",
@@ -382,7 +428,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 26.3
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 81.7,
      "agent_band": "agent-native",
@@ -396,41 +442,6 @@
       "openapi_examples": false,
       "rate_limit_signal": true,
       "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "rank": 10
-    },
-    {
-     "name": "Nfon",
-     "slug": "nfon",
-     "description": "NFON AG is a European provider of cloud telephony and unified communications (UCaaS/CPaaS), headquartered in Munich and serving businesses across 15+ European countries. Its Cloudya cloud phone system and related products deliver business voice, video, contact centre and AI-assisted communication. For developers and integration partners, NFON publishes a set of RESTful JSON APIs hosted from the NFON-AG GitHub organisation: the flagship PBX Configuration API (OAuth 2.0, ~480 operations for provisioning tenants, extensions, devices, queues, groups, IVRs, phone books, licences and more — the successor to the legacy Service Portal API), the CTI API (server-to-server call control and Server-Sent-Event call/state streaming), and the Call History API offered under \"Login with NFON\" (OAuth 2.0 Authorization Code + PKCE) for retrieving, streaming and deleting call records with transcriptions and summaries. Use of the APIs is free of charge; access is provisioned by contacting integration@nfon.com.",
-     "score": 48.1,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 55.2,
-      "governance": 0.0,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 58.7,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 69.2,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
       "consent_identity": false
@@ -452,7 +463,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -493,7 +504,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 75.0,
      "agent_band": "agent-native",
@@ -529,7 +540,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -571,7 +582,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -591,8 +602,7 @@
      },
      "rank": 15
     }
-   ],
-   "open": true
+   ]
   },
   {
    "band": "thin",
@@ -618,7 +628,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 38.5,
      "agent_band": "agent-aware",
@@ -653,7 +663,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -695,7 +705,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -737,7 +747,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -773,7 +783,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -800,6 +810,41 @@
      "rank": 20
     },
     {
+     "name": "sevdesk",
+     "slug": "sevdesk",
+     "description": "sevdesk is a German cloud accounting, invoicing, and bookkeeping platform for freelancers and small businesses. Its RESTful API (base https://my.sevdesk.de/api/v1) exposes everything the web application does - contacts, invoices, orders, credit notes, vouchers (receipts), bank check accounts and transactions, parts (inventory), tags, plus DATEV and CSV exports - authenticated with a per-administrator API token passed in the Authorization header. Nested resources can be pulled in with the embed query parameter.",
+     "score": 41.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 58.4,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 21
+    },
+    {
      "name": "Technical University of Munich",
      "slug": "tum",
      "description": "The Technical University of Munich (TUM) is a public research university in Munich, Germany, ranked #47 in the QS World University Rankings 2025. TUM does not operate a single centralized, commercial developer portal; instead its most visible public API footprint is community- and student-driven through the TUM-Dev open-source organization on GitHub, which builds and operates the Campus App ecosystem. Confirmed public, unauthenticated APIs include NavigaTUM (a Rust/MeiliSearch service to search rooms, buildings, and places, documented with an OpenAPI 3.0 spec) and eat-api (a static JSON API for Munich student canteen menus and prices). The institution's central research information system, TUMFIS, runs on Elsevier Pure but exposes no documented public API.",
@@ -815,49 +860,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 37.0
-     },
-     "agent_score": 38.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 21
-    },
-    {
-     "name": "TU Dresden",
-     "slug": "tu-dresden",
-     "description": "Technische Universität Dresden (TU Dresden) is one of Germany's leading research universities and a member of the German Universities Excellence Initiative, located in Dresden, Saxony. It ranks #234 in the QS World University Rankings 2025. Its public developer/API footprint is modest and largely tied to academic infrastructure: a gated lecture-catalog (course directory) JSON API, the Shibboleth SAML-based single sign-on identity provider operated by the Center for Information Services and High Performance Computing (ZIH), the OpARA research-data repository, and the Qucosa document server which exposes an OAI-PMH interface. The Saxony State and University Library (SLUB Dresden), which serves the university, additionally publishes a documented Linked Open Data API for bibliographic and authority data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/screenshots/tu-dresden-2026-06-20T195822.png",
-     "score": 41.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 55.8,
-      "governance": 73.7,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -884,6 +887,48 @@
      "rank": 22
     },
     {
+     "name": "TU Dresden",
+     "slug": "tu-dresden",
+     "description": "Technische Universität Dresden (TU Dresden) is one of Germany's leading research universities and a member of the German Universities Excellence Initiative, located in Dresden, Saxony. It ranks #234 in the QS World University Rankings 2025. Its public developer/API footprint is modest and largely tied to academic infrastructure: a gated lecture-catalog (course directory) JSON API, the Shibboleth SAML-based single sign-on identity provider operated by the Center for Information Services and High Performance Computing (ZIH), the OpARA research-data repository, and the Qucosa document server which exposes an OAI-PMH interface. The Saxony State and University Library (SLUB Dresden), which serves the university, additionally publishes a documented Linked Open Data API for bibliographic and authority data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tu-dresden/refs/heads/main/screenshots/tu-dresden-2026-06-20T195822.png",
+     "score": 41.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 55.8,
+      "governance": 73.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 37.0
+     },
+     "agent_score": 38.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 23
+    },
+    {
      "name": "University of Göttingen",
      "slug": "university-of-gottingen",
      "description": "The University of Göttingen (Georg-August-Universität Göttingen) is a public research university in Lower Saxony, Germany, ranked #254 in the QS World University Rankings 2025. Its public, machine-readable footprint is delivered mainly through campus partners: the Göttingen State and University Library (SUB Göttingen) publishes digital-library interfaces such as the IIIF Image/ Presentation APIs and a custom TextAPI for digitized objects, while the Göttingen eResearch Alliance operates the GRO.data (Göttingen Research Online) Dataverse research-data repository, which exposes an OAI-PMH endpoint and a Dataverse REST search API. There is no single official institution-wide developer portal; identity is handled via SAML/Shibboleth and OpenID Connect AAI run with GWDG.",
@@ -899,7 +944,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -917,7 +962,43 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 23
+     "rank": 24
+    },
+    {
+     "name": "lexoffice",
+     "slug": "lexoffice",
+     "description": "lexoffice (rebranded to \"lexware Office\" in 2025) is a German cloud accounting, invoicing, and bookkeeping SaaS from Lexware (Haufe Group). Its public REST API lets developers push and pull business data - contacts, invoices, quotations, order confirmations, delivery notes, credit notes, dunnings, bookkeeping vouchers, files, payments, and profile metadata - and subscribe to webhooks via event subscriptions. Authentication is a self-serve Bearer API key. The API gateway moved from api.lexoffice.io to api.lexware.io on 26 May 2025 as part of the rebrand; the legacy host remained available through December 2025.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/screenshots/lexoffice-2026-07-25T225004.png",
+     "score": 40.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 58.7,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 25
     },
     {
      "name": "Number26",
@@ -934,7 +1015,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -958,60 +1039,24 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 24
+     "rank": 26
     },
     {
-     "name": "sevdesk",
-     "slug": "sevdesk",
-     "description": "sevdesk is a German cloud accounting, invoicing, and bookkeeping platform for freelancers and small businesses. Its RESTful API (base https://my.sevdesk.de/api/v1) exposes everything the web application does - contacts, invoices, orders, credit notes, vouchers (receipts), bank check accounts and transactions, parts (inventory), tags, plus DATEV and CSV exports - authenticated with a per-administrator API token passed in the Authorization header. Nested resources can be pulled in with the embed query parameter.",
-     "score": 38.4,
+     "name": "weclapp",
+     "slug": "weclapp",
+     "description": "weclapp is a German cloud ERP / CRM / commerce platform for small and mid-sized businesses, combining CRM, sales, order management, accounting, inventory / warehouse management, purchasing, and e-commerce in one SaaS suite. Every weclapp tenant exposes a documented REST API at https://<tenant>.weclapp.com/webapp/api/v1/ with a live Swagger, covering 150+ business entities - parties (customers, suppliers, contacts, leads), articles, sales orders, quotations, sales invoices, shipments, purchase orders, warehouses, and more. Authentication is a per-user API token sent in the AuthenticationToken request header.",
+     "score": 37.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 58.4,
+      "discoverability": 100.0,
+      "contract_quality": 53.1,
       "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 25
-    },
-    {
-     "name": "lexoffice",
-     "slug": "lexoffice",
-     "description": "lexoffice (rebranded to \"lexware Office\" in 2025) is a German cloud accounting, invoicing, and bookkeeping SaaS from Lexware (Haufe Group). Its public REST API lets developers push and pull business data - contacts, invoices, quotations, order confirmations, delivery notes, credit notes, dunnings, bookkeeping vouchers, files, payments, and profile metadata - and subscribe to webhooks via event subscriptions. Authentication is a self-serve Bearer API key. The API gateway moved from api.lexoffice.io to api.lexware.io on 26 May 2025 as part of the rebrand; the legacy host remained available through December 2025.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lexoffice/refs/heads/main/screenshots/lexoffice-2026-07-25T225004.png",
-     "score": 37.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 58.7,
-      "governance": 0.0,
-      "operational_transparency": 31.6,
+      "operational_transparency": 21.1,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -1029,7 +1074,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "konfetti",
@@ -1047,7 +1092,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 21.2,
      "agent_band": "agent-aware",
@@ -1063,41 +1108,6 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "rank": 27
-    },
-    {
-     "name": "weclapp",
-     "slug": "weclapp",
-     "description": "weclapp is a German cloud ERP / CRM / commerce platform for small and mid-sized businesses, combining CRM, sales, order management, accounting, inventory / warehouse management, purchasing, and e-commerce in one SaaS suite. Every weclapp tenant exposes a documented REST API at https://<tenant>.weclapp.com/webapp/api/v1/ with a live Swagger, covering 150+ business entities - parties (customers, suppliers, contacts, leads), articles, sales orders, quotations, sales invoices, shipments, purchase orders, warehouses, and more. Authentication is a per-user API token sent in the AuthenticationToken request header.",
-     "score": 34.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 53.1,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
       "consent_identity": false
      },
      "rank": 28
@@ -1118,7 +1128,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 35.6,
      "agent_band": "agent-aware",
@@ -1154,7 +1164,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 37.5,
      "agent_band": "agent-aware",
@@ -1190,7 +1200,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 21.2,
      "agent_band": "agent-aware",
@@ -1225,7 +1235,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1277,7 +1287,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1298,6 +1308,42 @@
      "rank": 33
     },
     {
+     "name": "Deutsche Telekom",
+     "slug": "deutsche-telekom",
+     "description": "Deutsche Telekom AG is Europe's largest telecommunications operator, headquartered in Bonn, Germany, serving more than 250 million mobile customers across 50+ countries. It is the parent company of T-Mobile US (NASDAQ TMUS) and the majority owner of T-Systems International, its enterprise IT and cloud arm. For developers, Deutsche Telekom operates a public developer portal at developer.telekom.com offering a MagentaBusiness CPaaS suite (SMS, RCS, Voice, Video, Conversational Connect, Reports, AI Studio) built in partnership with Vonage, plus a growing portfolio of GSMA Open Gateway / CAMARA-aligned Network APIs (Number Verification, Verify, 5G Slices) launched jointly with T-Mobile US. T-Systems operates Open Telekom Cloud, an OpenStack-based sovereign public cloud with full REST APIs across compute, storage, networking, container, database, AI, and API Gateway services. Deutsche Telekom is also a substantial open-source contributor — its github.com/telekom organization publishes 245+ repositories including the Open Telekom Integration Platform (O28M), the TARDIS control-plane suite (with OpenAPI 3 specs for Rover, Controlplane, Identity, Discovery, File Manager, Secret Manager, and Stargate), the Horizon pub/sub event-streaming ecosystem, the Scale design system, Wurzel RAG ETL framework, and Kubernetes-native networking and IPAM operators.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/screenshots/deutsche-telekom-2026-06-20T175944.png",
+     "score": 28.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 46.9,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 41.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 34
+    },
+    {
      "name": "Aleph Alpha2",
      "slug": "aleph-alpha2",
      "description": "Aleph Alpha is a Heidelberg, Germany-based artificial intelligence company building sovereign, specialized large language models (SLLMs) for European enterprises and public-sector organizations operating in regulated and sensitive domains. Its PhariaAI suite is an end-to-end, self-hostable stack — PhariaStudio for building AI applications, PhariaAssistant for knowledge workers, and PhariaOS for resource management, alongside the PhariaInference, PhariaSearch, and PhariaData APIs — engineered for data sovereignty, transparency, and EU regulatory compliance while running on European infrastructure. The PhariaInference HTTP API exposes text completion, chat, embeddings, semantic search, tokenization, and explainability, accessed with a bearer token issued from app.aleph-alpha.com and supported by an official open-source Python client.",
@@ -1313,7 +1359,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 13.5,
      "agent_band": "human-only",
@@ -1331,7 +1377,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "Thingsthinking",
@@ -1348,49 +1394,13 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 9.6,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 35
-    },
-    {
-     "name": "Deutsche Telekom",
-     "slug": "deutsche-telekom",
-     "description": "Deutsche Telekom AG is Europe's largest telecommunications operator, headquartered in Bonn, Germany, serving more than 250 million mobile customers across 50+ countries. It is the parent company of T-Mobile US (NASDAQ TMUS) and the majority owner of T-Systems International, its enterprise IT and cloud arm. For developers, Deutsche Telekom operates a public developer portal at developer.telekom.com offering a MagentaBusiness CPaaS suite (SMS, RCS, Voice, Video, Conversational Connect, Reports, AI Studio) built in partnership with Vonage, plus a growing portfolio of GSMA Open Gateway / CAMARA-aligned Network APIs (Number Verification, Verify, 5G Slices) launched jointly with T-Mobile US. T-Systems operates Open Telekom Cloud, an OpenStack-based sovereign public cloud with full REST APIs across compute, storage, networking, container, database, AI, and API Gateway services. Deutsche Telekom is also a substantial open-source contributor — its github.com/telekom organization publishes 245+ repositories including the Open Telekom Integration Platform (O28M), the TARDIS control-plane suite (with OpenAPI 3 specs for Rover, Controlplane, Identity, Discovery, File Manager, Secret Manager, and Stargate), the Horizon pub/sub event-streaming ecosystem, the Scale design system, Wurzel RAG ETL framework, and Kubernetes-native networking and IPAM operators.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deutsche-telekom/refs/heads/main/screenshots/deutsche-telekom-2026-06-20T175944.png",
-     "score": 27.4,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 46.9,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 41.3,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 41.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
@@ -1420,7 +1430,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 9.6,
      "agent_band": "human-only",
@@ -1456,7 +1466,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -1492,7 +1502,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -1528,7 +1538,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1570,7 +1580,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1606,7 +1616,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1648,7 +1658,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -1684,7 +1694,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1726,7 +1736,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1768,7 +1778,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -1803,7 +1813,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 29.8,
      "agent_band": "agent-aware",
@@ -1839,7 +1849,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1881,7 +1891,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 13.5,
      "agent_band": "human-only",
@@ -1916,7 +1926,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1958,7 +1968,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2000,7 +2010,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2042,7 +2052,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2084,7 +2094,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2126,7 +2136,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2162,7 +2172,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2198,7 +2208,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2233,7 +2243,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2275,7 +2285,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2317,7 +2327,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2359,7 +2369,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2401,7 +2411,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2443,7 +2453,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2484,7 +2494,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -2519,7 +2529,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2554,7 +2564,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2596,7 +2606,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2637,7 +2647,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2678,7 +2688,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2720,7 +2730,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2762,7 +2772,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2798,7 +2808,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2834,7 +2844,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2869,7 +2879,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2905,7 +2915,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -2941,7 +2951,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2983,7 +2993,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3025,7 +3035,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3060,7 +3070,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 15.4,
      "agent_band": "agent-aware",
@@ -3095,7 +3105,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3131,7 +3141,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3167,7 +3177,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3203,7 +3213,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3245,7 +3255,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3281,7 +3291,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 26.3
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3322,7 +3332,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 26.3
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3358,7 +3368,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3394,7 +3404,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -3430,7 +3440,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3482,7 +3492,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3517,7 +3527,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3553,7 +3563,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3588,7 +3598,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3623,7 +3633,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3658,7 +3668,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3693,7 +3703,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3734,7 +3744,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3770,7 +3780,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3806,7 +3816,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 26.3
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -3841,7 +3851,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 26.3
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3877,7 +3887,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3918,7 +3928,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3954,7 +3964,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3995,7 +4005,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4037,7 +4047,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4073,7 +4083,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4109,7 +4119,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4145,7 +4155,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4181,7 +4191,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4223,7 +4233,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4259,7 +4269,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4294,7 +4304,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -4329,7 +4339,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4365,7 +4375,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4401,7 +4411,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4437,7 +4447,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4473,7 +4483,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4509,7 +4519,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4544,7 +4554,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4579,7 +4589,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4614,7 +4624,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4650,7 +4660,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4691,7 +4701,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4733,7 +4743,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4775,7 +4785,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4817,7 +4827,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4853,7 +4863,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4889,7 +4899,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4924,7 +4934,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4959,7 +4969,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4995,7 +5005,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5036,7 +5046,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5077,7 +5087,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5113,7 +5123,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5149,7 +5159,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -5185,7 +5195,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5227,7 +5237,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5263,7 +5273,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5299,7 +5309,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5335,7 +5345,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -5371,7 +5381,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5407,7 +5417,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5442,7 +5452,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5477,7 +5487,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5512,7 +5522,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5547,7 +5557,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5583,7 +5593,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5618,7 +5628,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5653,7 +5663,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5689,7 +5699,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5725,7 +5735,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5760,7 +5770,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5796,7 +5806,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5832,7 +5842,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5868,7 +5878,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 11.5,
      "agent_band": "human-only",
@@ -5903,7 +5913,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5939,7 +5949,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5981,7 +5991,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6022,7 +6032,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6063,7 +6073,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6104,7 +6114,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6145,7 +6155,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6180,7 +6190,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6215,7 +6225,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6251,7 +6261,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6286,7 +6296,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6321,7 +6331,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6356,7 +6366,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6392,7 +6402,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6427,7 +6437,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6462,7 +6472,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6498,7 +6508,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6533,7 +6543,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6568,7 +6578,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6604,7 +6614,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6639,7 +6649,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6675,7 +6685,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6711,7 +6721,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -6747,7 +6757,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6782,7 +6792,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6817,7 +6827,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6852,7 +6862,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6888,7 +6898,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6929,7 +6939,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,

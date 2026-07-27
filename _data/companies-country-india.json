@@ -27,7 +27,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 65.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 81.7,
      "agent_band": "agent-native",
@@ -63,7 +63,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 77.9,
      "agent_band": "agent-native",
@@ -88,18 +88,18 @@
      "slug": "100ms-live",
      "description": "100ms is a live video and audio infrastructure company headquartered in Bengaluru, India that provides developer SDKs and a REST control plane for embedding video conferencing, interactive live streaming (HLS), RTMP ingest/egress, recording, real-time chat/messaging, polls, whiteboard, and AI-powered transcription into applications. The company was acquired by Disney+ Hotstar (JioCinema/JioHotstar) in 2023 and continues to operate as an independent commercial SaaS — the same infrastructure powering some of the largest live cricket audiences in the world (IPL on JioCinema/Hotstar). The platform exposes a single Server-Side REST API at api.100ms.live/v2 plus client SDKs for Web (JavaScript/React), iOS (Swift), Android (Kotlin), React Native, Flutter, and a Node.js server SDK, with public OpenAPI specs generated from the docs and a Postman collection.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/100ms-live/refs/heads/main/screenshots/100ms-live-2026-06-20T162232.png",
-     "score": 60.3,
+     "score": 63.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 58.7,
       "governance": 86.8,
       "operational_transparency": 52.6,
       "developer_ergonomics": 50.0,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -135,7 +135,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 65.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -173,6 +173,41 @@
    "shown": 15,
    "companies": [
     {
+     "name": "Beatoven.ai",
+     "slug": "beatoven",
+     "description": "Beatoven.ai is an Indian generative-music startup (Bengaluru, founded 2021) building text-to-music and text-to-sound-effects models for video creators, podcasters, game developers, and brands. Its Maestro Music and Maestro SFX models render royalty-free background tracks and foley from natural-language prompts, with downloads delivered as mp3, aac, or wav plus separately rendered stems (bass, chords, melody, percussion). Beatoven is Fairly Trained certified - musicians whose work appears in the training corpus receive equitable compensation. The company exposes a public REST Composition API (public-api.beatoven.ai) plus an open-source Python SDK (github.com/Beatoven/public-api), a Make.com integration, and a self-serve API dashboard. The company has raised an ~$1.3M pre-Series A led by Capital 2B and IvyCap Ventures, claims 2M+ creators and 15M+ tracks generated, and reports 96% of its revenue from international markets.",
+     "score": 57.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 77.0,
+      "governance": 26.3,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 71.1
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 54.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": true,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 5
+    },
+    {
      "name": "Xflow",
      "slug": "xflow",
      "description": "Xflow is a cross-border payments platform for Indian businesses, freelancers, and exporters, enabling them to receive international payments through local collection accounts (ACH in the US, SEPA in the EU) with one-day INR settlement, transparent FX at mid-market rates, and automated FIRA and compliance reporting. The Xflow REST API exposes accounts, receivables, payment links, deposits, payouts, transfers, balances, exchange rates, and webhook endpoints so platforms and payment aggregators can embed compliant India-bound money movement.",
@@ -187,7 +222,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -211,7 +246,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "Route Mobile",
@@ -228,7 +263,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 77.9,
      "agent_band": "agent-native",
@@ -246,7 +281,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Cashfree Payments",
@@ -264,7 +299,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -288,7 +323,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Credgenics",
@@ -306,7 +341,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 75.0,
      "agent_band": "agent-native",
@@ -324,7 +359,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Keka HR",
@@ -342,50 +377,8 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 9
-    },
-    {
-     "name": "WazirX",
-     "slug": "wazirx",
-     "description": "WazirX is an Indian cryptocurrency exchange (transitioning to Zettai) providing REST and WebSocket APIs for spot trading on INR and crypto markets, order management, market data, account management, and wallet operations. The exchange supports automated trading via HMAC SHA256-authenticated endpoints and real-time streaming through WebSocket connections.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/screenshots/wazirx-2026-06-20T201306.png",
-     "score": 51.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 62.5,
-      "governance": 73.7,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 17.4,
-      "commercial_clarity": 63.2
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 54.3
-     },
      "agent_score": 48.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -405,23 +398,30 @@
      "rank": 10
     },
     {
-     "name": "Beatoven.ai",
-     "slug": "beatoven",
-     "description": "Beatoven.ai is an Indian generative-music startup (Bengaluru, founded 2021) building text-to-music and text-to-sound-effects models for video creators, podcasters, game developers, and brands. Its Maestro Music and Maestro SFX models render royalty-free background tracks and foley from natural-language prompts, with downloads delivered as mp3, aac, or wav plus separately rendered stems (bass, chords, melody, percussion). Beatoven is Fairly Trained certified - musicians whose work appears in the training corpus receive equitable compensation. The company exposes a public REST Composition API (public-api.beatoven.ai) plus an open-source Python SDK (github.com/Beatoven/public-api), a Make.com integration, and a self-serve API dashboard. The company has raised an ~$1.3M pre-Series A led by Capital 2B and IvyCap Ventures, claims 2M+ creators and 15M+ tracks generated, and reports 96% of its revenue from international markets.",
-     "score": 51.5,
+     "name": "WazirX",
+     "slug": "wazirx",
+     "description": "WazirX is an Indian cryptocurrency exchange (transitioning to Zettai) providing REST and WebSocket APIs for spot trading on INR and crypto markets, order management, market data, account management, and wallet operations. The exchange supports automated trading via HMAC SHA256-authenticated endpoints and real-time streaming through WebSocket connections.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wazirx/refs/heads/main/screenshots/wazirx-2026-06-20T201306.png",
+     "score": 51.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 60.0,
-      "contract_quality": 68.1,
-      "governance": 26.3,
+      "discoverability": 100.0,
+      "contract_quality": 62.5,
+      "governance": 73.7,
       "operational_transparency": 5.3,
-      "developer_ergonomics": 52.2,
-      "commercial_clarity": 71.1
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
-     "agent_score": 54.8,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 54.3
+     },
+     "agent_score": 48.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -430,7 +430,7 @@
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
-      "openapi_examples": true,
+      "openapi_examples": false,
       "rate_limit_signal": true,
       "asyncapi_events": false,
       "agent_skills": false,
@@ -455,7 +455,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -482,57 +482,22 @@
      "rank": 12
     },
     {
-     "name": "Tata Communications",
-     "slug": "tata-communications",
-     "description": "Tata Communications is the global wholesale carrier and digital-infrastructure arm of India's Tata Group, headquartered in Mumbai. It owns one of the world's largest subsea cable networks, carries a large share of global internet routes, and sells international voice and messaging wholesale, IZO network services, MOVE global IoT and eSIM connectivity, MVNE services, and — through its October 2023 acquisition of Kaleyra — a full CPaaS, UCaaS, and CCaaS stack. It sits in the supply layer of the telecom value chain: a carrier's carrier whose customers are mostly other operators, enterprises, and aggregators rather than individual developers. Its API posture matches that position and is honestly partner-gated. Tata Communications runs a real first-party developer portal at developer.tatacommunications.com, built on Akana Community Manager, whose catalogue names 49 APIs — but only three are marked Public and return a downloadable Swagger 2.0 document to an anonymous caller; the other forty-six answer 401. MOVE IoT has a second, separate Azure API Management portal that lists three API products but gates the reference behind sign-in. The DIGO CPaaS documentation site is HTML-only, sales-gated behind a \"we will get in touch\" form, and was serving an expired TLS certificate at the time of review. No CAMARA network API and no GSMA Open Gateway participation could be evidenced anywhere on its properties. In practice most developers reach Tata Communications through the separately branded Kaleyra CPaaS portal rather than through Tata Communications itself.",
-     "score": 49.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 60.4,
-      "governance": 0.0,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 77.9,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": true,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 13
-    },
-    {
      "name": "Razorpay",
      "slug": "razorpay",
      "description": "Razorpay is India's leading full-stack payments and business banking platform, enabling merchants to accept, process, and disburse payments across cards, UPI, netbanking, wallets, EMI, and BNPL through a single integration. Its developer platform exposes a fully RESTful API at https://api.razorpay.com/v1 (with select v2 resources) returning JSON, secured by HTTP Basic authentication using a key_id and key_secret pair. Beyond core payment processing, Razorpay offers payment links, hosted pages, subscriptions, smart routing, refunds, settlements, payouts via RazorpayX, and KYC-driven onboarding.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/razorpay/refs/heads/main/screenshots/razorpay-2026-06-20T192629.png",
-     "score": 48.9,
+     "score": 50.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 87.5,
       "contract_quality": 61.9,
       "governance": 52.6,
       "operational_transparency": 36.8,
       "developer_ergonomics": 39.1,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -556,60 +521,25 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 14
-    },
-    {
-     "name": "Bharti Airtel",
-     "slug": "bharti-airtel",
-     "description": "Bharti Airtel Limited is an Indian multinational telecommunications operator headquartered in New Delhi, and one of the two dominant mobile network operators in its home market of India alongside Reliance Jio. It runs mobile (2G/4G/5G), fixed broadband, DTH television, enterprise connectivity, data centre (Nxtra) and payments-bank businesses across India, South Asia and — through the separately listed Airtel Africa — fourteen African countries. In the telecom value chain Airtel is an access-network owner: it holds the spectrum, the SIM estate, the subscriber identity and the network signalling that the rest of the industry resells. Its API posture is split in two, and the split is the whole story. The connectivity-product side is genuinely API-native and publicly documented: Airtel IQ, the operator's CPaaS suite, publishes open Swagger for its SMS and CDR reporting APIs and offers a self-serve trial account, while the Airtel IoT and Airtel Locate developer portals publish complete OpenAPI 3.0 catalogues (43 and 19 operations) as Redoc pages that need no login. The network-API side — the CAMARA and GSMA Open Gateway surface that defines this sector — is the opposite: Airtel is a GSMA Open Gateway signatory, a founding operator shareholder in Aduna (the Ericsson-led network-API joint venture), and has commercially launched a CAMARA SIM Swap API to Indian banks through a federated Jio/Vi/Airtel channel, yet it publishes no CAMARA endpoint, no CAMARA specification, no CIBA authorization surface and no network-API developer portal of its own. Developers reach Airtel's network capabilities only through aggregators — Aduna, and Nokia's Network as Code platform — never directly. Its own \"Airtel API Marketplace\" at developers.airtel.in is a login wall, and its original 2017 Smart API partner programme at openapi.airtel.in/smartapi survives as an unmaintained legacy portal.",
-     "score": 47.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 54.9,
-      "governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 73.9,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 75.0,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "rank": 15
+     "rank": 13
     },
     {
      "name": "Decentro",
      "slug": "decentro",
      "description": "Decentro is a banking-as-a-service platform that provides businesses with seamless integration to Indian banking infrastructure - including payments (UPI, IMPS, NEFT, RTGS), virtual accounts, KYC, ledger primitives, and credit-bureau data. Decentro publishes a developer portal and Postman collection covering six API categories: KYC & Onboarding, Bytes (alternate data), Scanner (forensics), Payments, Virtual Accounts, and Ledger.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/decentro/refs/heads/main/screenshots/decentro-2026-06-20T175753.png",
-     "score": 46.4,
+     "score": 50.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 55.8,
+      "discoverability": 100.0,
+      "contract_quality": 61.1,
       "governance": 86.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -633,7 +563,113 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
+     "rank": 14
+    },
+    {
+     "name": "Exotel",
+     "slug": "exotel",
+     "description": "Exotel is an Indian cloud telephony and customer-engagement (CPaaS) platform offering programmable voice, SMS, virtual numbers (ExoPhones), IVR/call flows, call campaigns, and call-center tooling. Its Twilio-style REST APIs place outbound calls (connect two numbers or connect a number to a call flow), send SMS, return call and number metadata, and manage campaigns, over region-specific subdomains (api.exotel.com for Singapore, api.in.exotel.com for Mumbai/India) using HTTP Basic auth with an API Key and API Token. Exotel AgentStream adds a documented WebSocket voice-streaming API for real-time voicebots.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/screenshots/exotel-2026-07-25T213905.png",
+     "score": 49.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 65.9,
+      "governance": 52.6,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 53.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 15
+    },
+    {
+     "name": "Tata Communications",
+     "slug": "tata-communications",
+     "description": "Tata Communications is the global wholesale carrier and digital-infrastructure arm of India's Tata Group, headquartered in Mumbai. It owns one of the world's largest subsea cable networks, carries a large share of global internet routes, and sells international voice and messaging wholesale, IZO network services, MOVE global IoT and eSIM connectivity, MVNE services, and — through its October 2023 acquisition of Kaleyra — a full CPaaS, UCaaS, and CCaaS stack. It sits in the supply layer of the telecom value chain: a carrier's carrier whose customers are mostly other operators, enterprises, and aggregators rather than individual developers. Its API posture matches that position and is honestly partner-gated. Tata Communications runs a real first-party developer portal at developer.tatacommunications.com, built on Akana Community Manager, whose catalogue names 49 APIs — but only three are marked Public and return a downloadable Swagger 2.0 document to an anonymous caller; the other forty-six answer 401. MOVE IoT has a second, separate Azure API Management portal that lists three API products but gates the reference behind sign-in. The DIGO CPaaS documentation site is HTML-only, sales-gated behind a \"we will get in touch\" form, and was serving an expired TLS certificate at the time of review. No CAMARA network API and no GSMA Open Gateway participation could be evidenced anywhere on its properties. In practice most developers reach Tata Communications through the separately branded Kaleyra CPaaS portal rather than through Tata Communications itself.",
+     "score": 49.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 60.4,
+      "governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 77.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": true,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
      "rank": 16
+    },
+    {
+     "name": "Bharti Airtel",
+     "slug": "bharti-airtel",
+     "description": "Bharti Airtel Limited is an Indian multinational telecommunications operator headquartered in New Delhi, and one of the two dominant mobile network operators in its home market of India alongside Reliance Jio. It runs mobile (2G/4G/5G), fixed broadband, DTH television, enterprise connectivity, data centre (Nxtra) and payments-bank businesses across India, South Asia and — through the separately listed Airtel Africa — fourteen African countries. In the telecom value chain Airtel is an access-network owner: it holds the spectrum, the SIM estate, the subscriber identity and the network signalling that the rest of the industry resells. Its API posture is split in two, and the split is the whole story. The connectivity-product side is genuinely API-native and publicly documented: Airtel IQ, the operator's CPaaS suite, publishes open Swagger for its SMS and CDR reporting APIs and offers a self-serve trial account, while the Airtel IoT and Airtel Locate developer portals publish complete OpenAPI 3.0 catalogues (43 and 19 operations) as Redoc pages that need no login. The network-API side — the CAMARA and GSMA Open Gateway surface that defines this sector — is the opposite: Airtel is a GSMA Open Gateway signatory, a founding operator shareholder in Aduna (the Ericsson-led network-API joint venture), and has commercially launched a CAMARA SIM Swap API to Indian banks through a federated Jio/Vi/Airtel channel, yet it publishes no CAMARA endpoint, no CAMARA specification, no CIBA authorization surface and no network-API developer portal of its own. Developers reach Airtel's network capabilities only through aggregators — Aduna, and Nokia's Network as Code platform — never directly. Its own \"Airtel API Marketplace\" at developers.airtel.in is a login wall, and its original 2017 Smart API partner programme at openapi.airtel.in/smartapi survives as an unmaintained legacy portal.",
+     "score": 47.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 54.9,
+      "governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 75.0,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 17
     },
     {
      "name": "Orange Health",
@@ -650,7 +686,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -674,7 +710,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "Reliance Jio",
@@ -691,7 +727,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 78.8,
      "agent_band": "agent-native",
@@ -708,42 +744,6 @@
       "agent_skills": true,
       "well_known_catalog": true,
       "consent_identity": true
-     },
-     "rank": 18
-    },
-    {
-     "name": "Exotel",
-     "slug": "exotel",
-     "description": "Exotel is an Indian cloud telephony and customer-engagement (CPaaS) platform offering programmable voice, SMS, virtual numbers (ExoPhones), IVR/call flows, call campaigns, and call-center tooling. Its Twilio-style REST APIs place outbound calls (connect two numbers or connect a number to a call flow), send SMS, return call and number metadata, and manage campaigns, over region-specific subdomains (api.exotel.com for Singapore, api.in.exotel.com for Mumbai/India) using HTTP Basic auth with an API Key and API Token. Exotel AgentStream adds a documented WebSocket voice-streaming API for real-time voicebots.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/exotel/refs/heads/main/screenshots/exotel-2026-07-25T213905.png",
-     "score": 45.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 65.9,
-      "governance": 52.6,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 53.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
      },
      "rank": 19
     }
@@ -774,7 +774,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -816,7 +816,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -858,7 +858,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 38.5,
      "agent_band": "agent-aware",
@@ -879,6 +879,78 @@
      "rank": 22
     },
     {
+     "name": "HyperVerge",
+     "slug": "hyperverge",
+     "description": "HyperVerge is an AI-based identity verification and customer onboarding platform (India-HQ, global) providing document OCR and KYC extraction, face match, passive liveness, government/central database verification, and field matching. Its REST APIs extract and verify Indian identity documents (PAN, Aadhaar, Passport, Voter ID, Driving License), match a selfie against an ID photo, and validate user input against central databases for onboarding, AML, and fraud prevention. APIs are region-hosted (India `ind-*`, plus APAC/other regions) and authenticated with an appId and appKey issued by HyperVerge; enterprise onboarding is required to obtain credentials.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/screenshots/hyperverge-2026-07-25T221937.png",
+     "score": 41.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 61.9,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 23
+    },
+    {
+     "name": "Gupshup",
+     "slug": "gupshup",
+     "description": "Gupshup is a conversational messaging and CPaaS platform (headquartered in India) that lets businesses send and receive messages across WhatsApp, SMS, RCS, and other channels, plus build chatbots and conversational AI journeys. The developer platform exposes REST APIs on api.gupshup.io - most prominently the WhatsApp Business API (send session and template messages, opt-in management, templates, media, and inbound webhooks) - authenticated with an apikey header and scoped to a registered app. Separate SMS, RCS, and Partner API surfaces are also documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/screenshots/gupshup-2026-07-25T220436.png",
+     "score": 40.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 61.9,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 24
+    },
+    {
      "name": "Acko",
      "slug": "acko",
      "description": "Acko (ACKO Technology & Services Private Limited) is an Indian digital-first general insurance company founded in 2016 and headquartered in Bengaluru, Karnataka. Acko sells car, bike, health, term life and travel insurance entirely online, along with group health and personal-accident cover and embedded insurance for partners. It is a portfolio company of Accel. Acko exposes insurance policy certificates to citizens through India's government API Setu / DigiLocker platform (car, health and two-wheeler certificate fetch), and operates a separate enterprise/partner issuance API covering token generation, Loan-Shield, Trip, GIG, Health, House, Credit Life, Fire, Cyber and Electronics products plus policy and claims management.",
@@ -894,7 +966,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -918,26 +990,32 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 23
+     "rank": 25
     },
     {
-     "name": "Gupshup",
-     "slug": "gupshup",
-     "description": "Gupshup is a conversational messaging and CPaaS platform (headquartered in India) that lets businesses send and receive messages across WhatsApp, SMS, RCS, and other channels, plus build chatbots and conversational AI journeys. The developer platform exposes REST APIs on api.gupshup.io - most prominently the WhatsApp Business API (send session and template messages, opt-in management, templates, media, and inbound webhooks) - authenticated with an apikey header and scoped to a registered app. Separate SMS, RCS, and Partner API surfaces are also documented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gupshup/refs/heads/main/screenshots/gupshup-2026-07-25T220436.png",
-     "score": 38.6,
+     "name": "Juspay",
+     "slug": "juspay",
+     "description": "Juspay is an Indian payments orchestration and checkout platform that routes transactions across payment gateways, aggregators, UPI, cards, wallets, and netbanking for merchants, banks, and card networks. Its server-to-server Express Checkout / PG REST APIs create and track orders, process transactions, issue refunds, and manage customers, and pair with the HyperSDK / Hyper Checkout drop-in checkout. APIs authenticate with an API key over HTTP Basic plus a merchant ID header, against a sandbox and a production host.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/screenshots/juspay-2026-07-25T223337.png",
+     "score": 39.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 61.9,
+      "discoverability": 100.0,
+      "contract_quality": 58.4,
       "governance": 0.0,
-      "operational_transparency": 31.6,
+      "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 26.1
+     },
      "agent_score": 48.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -954,7 +1032,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 24
+     "rank": 26
     },
     {
      "name": "CoinSwitch",
@@ -972,7 +1050,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -996,43 +1074,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 25
-    },
-    {
-     "name": "HyperVerge",
-     "slug": "hyperverge",
-     "description": "HyperVerge is an AI-based identity verification and customer onboarding platform (India-HQ, global) providing document OCR and KYC extraction, face match, passive liveness, government/central database verification, and field matching. Its REST APIs extract and verify Indian identity documents (PAN, Aadhaar, Passport, Voter ID, Driving License), match a selfie against an ID photo, and validate user input against central databases for onboarding, AML, and fraud prevention. APIs are region-hosted (India `ind-*`, plus APAC/other regions) and authenticated with an appId and appKey issued by HyperVerge; enterprise onboarding is required to obtain credentials.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hyperverge/refs/heads/main/screenshots/hyperverge-2026-07-25T221937.png",
-     "score": 37.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 61.9,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Indian Institute of Technology Kanpur",
@@ -1050,7 +1092,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 38.5,
      "agent_band": "agent-aware",
@@ -1068,222 +1110,25 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 27
-    },
-    {
-     "name": "Cleartax",
-     "slug": "cleartax",
-     "description": "Cleartax (operating as Clear, clear.in) is an Indian fintech and financial-compliance automation platform that provides tax, GST, and e-invoicing software for individuals, tax professionals, and over 4,000 enterprises. Clear exposes a suite of developer APIs through its documentation portal at docs.cleartax.in, including the Clear Finance Cloud (CFC) ingestion APIs, the GST 2.0 / GSP filing API, the Max ITC input-tax-credit reconciliation API, the GLS API, the E-Invoicing and E-Waybill APIs (with government IRP/NIC-compatible endpoints and DSC signing), the Invoicing API, and KSA (Saudi Arabia) e-invoicing APIs. APIs authenticate with a client secret exchanged for an access token and run against production (api.clear.in) and sandbox (api-sandbox.clear.in) hosts.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/screenshots/cleartax-2026-07-25T205549.png",
-     "score": 36.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 60.9,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 56.5
-     },
-     "agent_score": 24.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
      "rank": 28
-    },
-    {
-     "name": "Delhivery",
-     "slug": "delhivery",
-     "description": "Delhivery is India's largest integrated third-party logistics (3PL) service provider, offering express parcel delivery, part-truckload and full-truckload freight, warehousing, supply-chain services, cross-border logistics and shipment tracking. Its developer platform exposes REST APIs for pincode serviceability, waybill generation, order creation and manifestation, shipment tracking (pull and webhook push), shipping-cost invoicing, packing-slip and shipping-label generation, pickup requests, client-warehouse management and NDR (non-delivery report) actions. APIs are consumed with a client API token and are documented across the Delhivery One developer portal, the Express Last-Mile API reference (ReadMe) and the OS1 platform docs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/delhivery/refs/heads/main/screenshots/delhivery-2026-07-25T211645.png",
-     "score": 36.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 22.6,
-      "governance": 0.0,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 52.2,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 15.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 29
-    },
-    {
-     "name": "Juspay",
-     "slug": "juspay",
-     "description": "Juspay is an Indian payments orchestration and checkout platform that routes transactions across payment gateways, aggregators, UPI, cards, wallets, and netbanking for merchants, banks, and card networks. Its server-to-server Express Checkout / PG REST APIs create and track orders, process transactions, issue refunds, and manage customers, and pair with the HyperSDK / Hyper Checkout drop-in checkout. APIs authenticate with an API key over HTTP Basic plus a merchant ID header, against a sandbox and a production host.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/juspay/refs/heads/main/screenshots/juspay-2026-07-25T223337.png",
-     "score": 36.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 58.4,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 26.1
-     },
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 30
-    },
-    {
-     "name": "Easebuzz",
-     "slug": "easebuzz",
-     "description": "Easebuzz is an Indian payments and financial-technology platform providing Software-as-a-Service embedded with payments infrastructure for businesses across India. Its products include a payment gateway supporting 150+ payment options (cards, UPI, net banking, wallets, EMI, BNPL), payment links, and in-store POS; collections products such as EasyCollect subscriptions, InstaCollect virtual accounts, Slices payment splitting and FeesBuzz fee collection; Wire payouts over NEFT, RTGS, IMPS and UPI with vendor and tax payments; sub-merchant management for platforms and marketplaces; Easebuzz Neo connected banking APIs; and SaaS tools including SmartBilling, Teller, Forms and Webstore. Developers integrate through REST APIs authenticated with a merchant key, salt and SHA-512 request hash, backed by official SDKs and e-commerce plugins across web and mobile platforms.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/screenshots/easebuzz-2026-07-25T212713.png",
-     "score": 36.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 54.3,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 65.2
-     },
-     "agent_score": 9.6,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 31
-    },
-    {
-     "name": "Ola",
-     "slug": "ola",
-     "description": "Ola is India's leading ride-sharing and mobility platform operating across 100+ cities in India and international markets. Its developer ecosystem includes partner APIs for ride booking, real-time driver tracking, trip history, and corporate travel management, as well as the Ola Maps geospatial platform offering AI-powered routing, geocoding, places search, and navigation SDKs optimized for Indian roads and language support. Ride APIs are invite-only for affiliates; Ola Maps offers a self-serve free tier.",
-     "score": 36.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 20.8,
-      "governance": 0.0,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 22.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 32
     },
     {
      "name": "PhonePe",
      "slug": "phonepe",
      "description": "PhonePe is India's largest UPI payments network, owned by Walmart. Its PhonePe Business / Developer platform exposes the PhonePe Payment Gateway (PG) APIs for collecting payments, refunds, and status checks across UPI, cards, netbanking, and wallets, alongside in-store solutions (Static QR, Dynamic QR, Collect Call, Integrated EDC). Backend integrations are wrapped in official Java, Python, Node.js, and PHP server SDKs, with mobile SDKs for Android, iOS, Flutter, React Native, and Ionic. PhonePe also operates the Indus AppStore, a developer platform for native app distribution in India.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/phonepe/refs/heads/main/screenshots/phonepe-2026-06-20T191650.png",
-     "score": 35.3,
+     "score": 37.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 92.5,
       "contract_quality": 59.0,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1307,33 +1152,33 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 33
+     "rank": 29
     },
     {
-     "name": "Falcon",
-     "slug": "falcon",
-     "description": "Falcon (Falcon Financial Services, falconfs.com) is a global embedded-finance and Banking-as-a-Service platform that lets fintechs, banks, and enterprises launch credit and payment products in days rather than months. Its developer-first REST APIs and no-code tooling cover the full issuance and lending lifecycle: issuer and program onboarding, enterprise and user KYC, credit-card issuance (virtual, physical, add-on, co-branded, corporate), accounts and credit limits, transactions, statements, repayments and auto-debit, EMI conversion and amortisation, disputes, rewards, interest, fees, funding, and reconciliations. Falcon holds its own lending and issuance licenses, is built on a modular multi-tenant architecture, and is certified against PCI DSS, ISO 27001:2022, and SOC 2. Product lines include Falcon CardFX (issuance), CreditFX (lending), WalletFX (prepaid/wallets), and SurgeFX (AI growth and portfolio tools).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/screenshots/falcon-2026-07-25T214200.png",
-     "score": 33.4,
+     "name": "Cleartax",
+     "slug": "cleartax",
+     "description": "Cleartax (operating as Clear, clear.in) is an Indian fintech and financial-compliance automation platform that provides tax, GST, and e-invoicing software for individuals, tax professionals, and over 4,000 enterprises. Clear exposes a suite of developer APIs through its documentation portal at docs.cleartax.in, including the Clear Finance Cloud (CFC) ingestion APIs, the GST 2.0 / GSP filing API, the Max ITC input-tax-credit reconciliation API, the GLS API, the E-Invoicing and E-Waybill APIs (with government IRP/NIC-compatible endpoints and DSC signing), the Invoicing API, and KSA (Saudi Arabia) e-invoicing APIs. APIs authenticate with a client secret exchanged for an access token and run against production (api.clear.in) and sandbox (api-sandbox.clear.in) hosts.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cleartax/refs/heads/main/screenshots/cleartax-2026-07-25T205549.png",
+     "score": 36.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 92.5,
+      "discoverability": 100.0,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 58.7,
-      "commercial_clarity": 28.9
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 60.9,
+      "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 65.2
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 56.5
      },
-     "agent_score": 17.3,
+     "agent_score": 24.0,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1346,28 +1191,141 @@
       "rate_limit_signal": false,
       "asyncapi_events": false,
       "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 30
+    },
+    {
+     "name": "Delhivery",
+     "slug": "delhivery",
+     "description": "Delhivery is India's largest integrated third-party logistics (3PL) service provider, offering express parcel delivery, part-truckload and full-truckload freight, warehousing, supply-chain services, cross-border logistics and shipment tracking. Its developer platform exposes REST APIs for pincode serviceability, waybill generation, order creation and manifestation, shipment tracking (pull and webhook push), shipping-cost invoicing, packing-slip and shipping-label generation, pickup requests, client-warehouse management and NDR (non-delivery report) actions. APIs are consumed with a client API token and are documented across the Delhivery One developer portal, the Express Last-Mile API reference (ReadMe) and the OS1 platform docs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/delhivery/refs/heads/main/screenshots/delhivery-2026-07-25T211645.png",
+     "score": 36.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 15.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 34
+     "rank": 31
+    },
+    {
+     "name": "Easebuzz",
+     "slug": "easebuzz",
+     "description": "Easebuzz is an Indian payments and financial-technology platform providing Software-as-a-Service embedded with payments infrastructure for businesses across India. Its products include a payment gateway supporting 150+ payment options (cards, UPI, net banking, wallets, EMI, BNPL), payment links, and in-store POS; collections products such as EasyCollect subscriptions, InstaCollect virtual accounts, Slices payment splitting and FeesBuzz fee collection; Wire payouts over NEFT, RTGS, IMPS and UPI with vendor and tax payments; sub-merchant management for platforms and marketplaces; Easebuzz Neo connected banking APIs; and SaaS tools including SmartBilling, Teller, Forms and Webstore. Developers integrate through REST APIs authenticated with a merchant key, salt and SHA-512 request hash, backed by official SDKs and e-commerce plugins across web and mobile platforms.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/easebuzz/refs/heads/main/screenshots/easebuzz-2026-07-25T212713.png",
+     "score": 36.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 54.3,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 65.2
+     },
+     "agent_score": 9.6,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 32
+    },
+    {
+     "name": "Ola",
+     "slug": "ola",
+     "description": "Ola is India's leading ride-sharing and mobility platform operating across 100+ cities in India and international markets. Its developer ecosystem includes partner APIs for ride booking, real-time driver tracking, trip history, and corporate travel management, as well as the Ola Maps geospatial platform offering AI-powered routing, geocoding, places search, and navigation SDKs optimized for Indian roads and language support. Ride APIs are invite-only for affiliates; Ola Maps offers a self-serve free tier.",
+     "score": 36.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 20.8,
+      "governance": 0.0,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 22.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 33
     },
     {
      "name": "Paytm",
      "slug": "paytm",
      "description": "Paytm (One97 Communications) is India's leading digital payments and financial services company. Through Paytm for Business it operates a wide catalogue of payment APIs covering online payment gateway, UPI, payment links, subscriptions, auto-debit, pre-auth, refunds, settlement, payouts, token gateway, bank offers, EMI, disputes, and in-store retail solutions (Dynamic QR, EDC, Point-of-Sale). Backend integrations are exposed via REST APIs at the secure gateway (securegw.paytm.in), with first-party Android, iOS, Flutter, React Native, and Web JS / Custom Checkout / JS Elements SDKs, and server SDKs for S2S checksum-signed flows.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/paytm/refs/heads/main/screenshots/paytm-2026-06-20T191508.png",
-     "score": 33.0,
+     "score": 35.1,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 92.5,
       "contract_quality": 55.8,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1391,7 +1349,85 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
+     "rank": 34
+    },
+    {
+     "name": "Falcon",
+     "slug": "falcon",
+     "description": "Falcon (Falcon Financial Services, falconfs.com) is a global embedded-finance and Banking-as-a-Service platform that lets fintechs, banks, and enterprises launch credit and payment products in days rather than months. Its developer-first REST APIs and no-code tooling cover the full issuance and lending lifecycle: issuer and program onboarding, enterprise and user KYC, credit-card issuance (virtual, physical, add-on, co-branded, corporate), accounts and credit limits, transactions, statements, repayments and auto-debit, EMI conversion and amortisation, disputes, rewards, interest, fees, funding, and reconciliations. Falcon holds its own lending and issuance licenses, is built on a modular multi-tenant architecture, and is certified against PCI DSS, ISO 27001:2022, and SOC 2. Product lines include Falcon CardFX (issuance), CreditFX (lending), WalletFX (prepaid/wallets), and SurgeFX (AI growth and portfolio tools).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/falcon/refs/heads/main/screenshots/falcon-2026-07-25T214200.png",
+     "score": 33.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 58.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 65.2
+     },
+     "agent_score": 17.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
      "rank": 35
+    },
+    {
+     "name": "Locus",
+     "slug": "locus-sh",
+     "description": "Locus is an AI-powered last-mile and dispatch logistics platform headquartered in Bengaluru, India (with US operations in Wilmington, Delaware) that helps enterprises plan, execute, and orchestrate deliveries across captive, contracted, outsourced, and hybrid fleets. The platform spans transportation management, dispatch planning and route optimization (across 180+ variables including time, distance, fuel, capacity, and SLAs), hub operations, delivery orchestration and carrier management, fulfillment automation, driver app and control tower track-and-trace, and analytics. Locus claims 360+ enterprise customers across 30+ countries — including Unilever, Nestlé, Blue Dart DHL, Meesho, Lenskart, and Justo — with 1.5B+ deliveries optimized and $320M+ in cost savings generated. The company was acquired by Ingka Group (the world's largest IKEA retailer) in 2024 while continuing to operate as an independent product organization. Locus exposes a SwaggerUI developer surface with three OpenAPI 2.0 specifications covering Order Management (oms.locus-api.com), Entity Management (locus-api.com), and Platform Entities (platform.locus-api.com); authentication is via HTTP Basic plus API key, provisioned by a Locus representative.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/screenshots/locus-sh-2026-06-20T184640.png",
+     "score": 33.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 37.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 41.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 36
     },
     {
      "name": "Indian Institute of Technology Bombay",
@@ -1409,7 +1445,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 24.0,
      "agent_band": "agent-aware",
@@ -1427,7 +1463,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Flipkart",
@@ -1445,7 +1481,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 26.9,
      "agent_band": "agent-aware",
@@ -1463,7 +1499,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "KartRocket",
@@ -1481,7 +1517,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 26.0,
      "agent_band": "agent-aware",
@@ -1499,7 +1535,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Power2SME",
@@ -1516,7 +1552,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 43.3,
      "agent_band": "agent-aware",
@@ -1534,7 +1570,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Kotak Mahindra Bank",
@@ -1552,7 +1588,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1574,42 +1610,6 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "rank": 40
-    },
-    {
-     "name": "Locus",
-     "slug": "locus-sh",
-     "description": "Locus is an AI-powered last-mile and dispatch logistics platform headquartered in Bengaluru, India (with US operations in Wilmington, Delaware) that helps enterprises plan, execute, and orchestrate deliveries across captive, contracted, outsourced, and hybrid fleets. The platform spans transportation management, dispatch planning and route optimization (across 180+ variables including time, distance, fuel, capacity, and SLAs), hub operations, delivery orchestration and carrier management, fulfillment automation, driver app and control tower track-and-trace, and analytics. Locus claims 360+ enterprise customers across 30+ countries — including Unilever, Nestlé, Blue Dart DHL, Meesho, Lenskart, and Justo — with 1.5B+ deliveries optimized and $320M+ in cost savings generated. The company was acquired by Ingka Group (the world's largest IKEA retailer) in 2024 while continuing to operate as an independent product organization. Locus exposes a SwaggerUI developer surface with three OpenAPI 2.0 specifications covering Order Management (oms.locus-api.com), Entity Management (locus-api.com), and Platform Entities (platform.locus-api.com); authentication is via HTTP Basic plus API key, provisioned by a Locus representative.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/locus-sh/refs/heads/main/screenshots/locus-sh-2026-06-20T184640.png",
-     "score": 30.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 37.7,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 37.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 41.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
       "consent_identity": false
      },
      "rank": 41
@@ -1639,7 +1639,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1680,7 +1680,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1721,7 +1721,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 21.2,
      "agent_band": "agent-aware",
@@ -1757,7 +1757,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1798,7 +1798,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1840,7 +1840,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1882,7 +1882,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 25.0,
      "agent_band": "agent-aware",
@@ -1918,7 +1918,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -1953,7 +1953,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1994,7 +1994,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 9.6,
      "agent_band": "human-only",
@@ -2029,7 +2029,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2070,7 +2070,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2106,7 +2106,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -2141,7 +2141,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2183,7 +2183,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -2219,7 +2219,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2254,7 +2254,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2295,7 +2295,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 5.8,
      "agent_band": "human-only",
@@ -2331,7 +2331,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -2367,7 +2367,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2408,7 +2408,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 36.5,
      "agent_band": "agent-aware",
@@ -2444,7 +2444,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2486,7 +2486,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2522,7 +2522,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2564,7 +2564,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2606,7 +2606,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2648,7 +2648,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2690,7 +2690,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2731,7 +2731,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2772,7 +2772,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2807,7 +2807,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2848,7 +2848,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2889,7 +2889,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2930,7 +2930,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2972,7 +2972,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3008,7 +3008,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3049,7 +3049,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3090,7 +3090,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3131,7 +3131,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3167,7 +3167,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3208,7 +3208,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3249,7 +3249,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3291,7 +3291,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3333,7 +3333,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3368,7 +3368,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3403,7 +3403,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 25.0,
      "agent_band": "agent-aware",
@@ -3439,7 +3439,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3480,7 +3480,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3516,7 +3516,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3557,7 +3557,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3599,7 +3599,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3641,7 +3641,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3676,7 +3676,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3712,7 +3712,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3753,7 +3753,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3795,7 +3795,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3837,7 +3837,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3878,7 +3878,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3919,7 +3919,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3960,7 +3960,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4001,7 +4001,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4042,7 +4042,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4083,7 +4083,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4124,7 +4124,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4176,7 +4176,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4211,7 +4211,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4246,7 +4246,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4282,7 +4282,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4323,7 +4323,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4364,7 +4364,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4405,7 +4405,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4446,7 +4446,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4488,7 +4488,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4530,7 +4530,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4572,7 +4572,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4608,7 +4608,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4649,7 +4649,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4690,7 +4690,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4726,7 +4726,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4768,7 +4768,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4809,7 +4809,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4844,7 +4844,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -4879,7 +4879,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4914,7 +4914,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4949,7 +4949,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4985,7 +4985,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5021,7 +5021,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5056,7 +5056,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5097,7 +5097,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5132,7 +5132,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5167,7 +5167,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 7.7,
      "agent_band": "human-only",
@@ -5203,7 +5203,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5239,7 +5239,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5274,7 +5274,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5309,7 +5309,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5344,7 +5344,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5379,7 +5379,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5420,7 +5420,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5456,7 +5456,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5492,7 +5492,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5528,7 +5528,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5564,7 +5564,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5600,7 +5600,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5636,7 +5636,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5672,7 +5672,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5708,7 +5708,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5743,7 +5743,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5779,7 +5779,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5815,7 +5815,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5851,7 +5851,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5887,7 +5887,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5923,7 +5923,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5958,7 +5958,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5993,7 +5993,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6028,7 +6028,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6063,7 +6063,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6098,7 +6098,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6133,7 +6133,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6168,7 +6168,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6203,7 +6203,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6239,7 +6239,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6275,7 +6275,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6311,7 +6311,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6347,7 +6347,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6383,7 +6383,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6419,7 +6419,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6455,7 +6455,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6491,7 +6491,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -6526,7 +6526,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6561,7 +6561,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6596,7 +6596,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6631,7 +6631,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6666,7 +6666,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6701,7 +6701,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6737,7 +6737,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -6772,7 +6772,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -6814,7 +6814,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6850,7 +6850,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6886,7 +6886,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6922,7 +6922,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6957,7 +6957,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -6992,7 +6992,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7027,7 +7027,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7063,7 +7063,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7105,7 +7105,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7140,7 +7140,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7175,7 +7175,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 11.5,
      "agent_band": "human-only",
@@ -7210,7 +7210,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7245,7 +7245,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7280,7 +7280,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -7316,7 +7316,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 15.4,
      "agent_band": "agent-aware",
@@ -7352,7 +7352,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7388,7 +7388,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7423,7 +7423,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -7464,7 +7464,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7500,7 +7500,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7536,7 +7536,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7572,7 +7572,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7608,7 +7608,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7643,7 +7643,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7678,7 +7678,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7713,7 +7713,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7748,7 +7748,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7783,7 +7783,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7818,7 +7818,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7853,7 +7853,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7889,7 +7889,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7925,7 +7925,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7961,7 +7961,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -7996,7 +7996,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8031,7 +8031,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8072,7 +8072,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8114,7 +8114,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8150,7 +8150,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8191,7 +8191,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8233,7 +8233,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8269,7 +8269,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8305,7 +8305,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8340,7 +8340,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -8376,7 +8376,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8418,7 +8418,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8460,7 +8460,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8502,7 +8502,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8543,7 +8543,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8584,7 +8584,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8625,7 +8625,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8666,7 +8666,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8707,7 +8707,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8748,7 +8748,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8789,7 +8789,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8830,7 +8830,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8871,7 +8871,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8912,7 +8912,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8953,7 +8953,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -8994,7 +8994,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -9036,7 +9036,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9072,7 +9072,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9108,7 +9108,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9144,7 +9144,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9180,7 +9180,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9216,7 +9216,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9251,7 +9251,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9286,7 +9286,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -9321,7 +9321,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9356,7 +9356,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9391,7 +9391,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9427,7 +9427,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9463,7 +9463,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9498,7 +9498,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9534,7 +9534,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9570,7 +9570,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9606,7 +9606,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9642,7 +9642,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9677,7 +9677,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9713,7 +9713,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9749,7 +9749,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9785,7 +9785,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9821,7 +9821,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9856,7 +9856,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9891,7 +9891,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9927,7 +9927,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9962,7 +9962,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -9998,7 +9998,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10033,7 +10033,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10068,7 +10068,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10104,7 +10104,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10139,7 +10139,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10175,7 +10175,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10210,7 +10210,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10245,7 +10245,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10280,7 +10280,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10315,7 +10315,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10350,7 +10350,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10385,7 +10385,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10420,7 +10420,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10455,7 +10455,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10490,7 +10490,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10525,7 +10525,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10560,7 +10560,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10595,7 +10595,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10630,7 +10630,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10665,7 +10665,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10700,7 +10700,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10735,7 +10735,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10770,7 +10770,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10805,7 +10805,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10840,7 +10840,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10875,7 +10875,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10910,7 +10910,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10945,7 +10945,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -10980,7 +10980,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11015,7 +11015,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11050,7 +11050,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11085,7 +11085,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11120,7 +11120,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -11155,7 +11155,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11190,7 +11190,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11225,7 +11225,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11260,7 +11260,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -11295,7 +11295,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -11336,7 +11336,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -11377,7 +11377,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

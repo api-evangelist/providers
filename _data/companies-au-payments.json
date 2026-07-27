@@ -16,18 +16,18 @@
      "slug": "airwallex",
      "description": "Airwallex is a financial technology company that specializes in providing global payment solutions for businesses. Their platform enables companies to accept payments, manage multi-currency accounts, convert currencies at competitive rates, send cross-border payments, issue corporate cards, and embed financial services into their own products. Airwallex serves businesses in over 150 countries with APIs for payment acceptance, FX, accounts, transfers, and embedded finance.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/airwallex/refs/heads/main/screenshots/airwallex-2026-06-20T171444.png",
-     "score": 66.2,
+     "score": 68.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 61.7,
       "governance": 86.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 54.3,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -69,7 +69,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -111,7 +111,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -153,7 +153,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -207,7 +207,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -250,7 +250,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -292,7 +292,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -320,64 +320,22 @@
      "rank": 7
     },
     {
-     "name": "Tyro Payments",
-     "slug": "tyro",
-     "description": "Tyro Payments is an ASX-listed Australian payments company and one of the country's largest merchant acquirers outside the major banks, holding its own banking licence. Founded in 2003, Tyro provides EFTPOS terminals, in-person and online card acceptance, and integrated payments for more than 70,000 Australian merchants across hospitality, retail and health. Its developer surface, Tyro Connect, is a genuinely API-first platform: a REST API family (served from https://api.tyro.com/connect and secured with OpenID Connect / OAuth 2.0) that links Point of Sale software, ordering, booking, loyalty and reporting apps to Tyro merchants, alongside Tyro.js, mobile SDKs and Tap to Pay (SoftPOS) for card-present and online payments. Home market is Australia.",
-     "score": 55.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 67.3,
-      "governance": 0.0,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 73.9,
-      "commercial_clarity": 31.6
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 54.3
-     },
-     "agent_score": 75.0,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Gateways & PSPs",
-     "rank": 8
-    },
-    {
      "name": "Basiq",
      "slug": "basiq",
      "description": "Basiq is an Australian open banking and financial data API platform providing unified access to bank account data and enrichment services. It enables fintechs, lenders, and financial service providers to connect to 180+ Australian and New Zealand banks via CDR (Consumer Data Right) and third-party connectors. The Basiq API provides user management, bank connections, account balances, transaction history, income verification, and expense categorization. Uses JWT Bearer token authentication.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/basiq/refs/heads/main/screenshots/basiq-2026-06-20T173039.png",
-     "score": 54.7,
+     "score": 57.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 68.1,
       "governance": 86.8,
       "operational_transparency": 31.6,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -402,6 +360,48 @@
       "consent_identity": false
      },
      "tier": "Financial Data & Aggregation",
+     "rank": 8
+    },
+    {
+     "name": "Tyro Payments",
+     "slug": "tyro",
+     "description": "Tyro Payments is an ASX-listed Australian payments company and one of the country's largest merchant acquirers outside the major banks, holding its own banking licence. Founded in 2003, Tyro provides EFTPOS terminals, in-person and online card acceptance, and integrated payments for more than 70,000 Australian merchants across hospitality, retail and health. Its developer surface, Tyro Connect, is a genuinely API-first platform: a REST API family (served from https://api.tyro.com/connect and secured with OpenID Connect / OAuth 2.0) that links Point of Sale software, ordering, booking, loyalty and reporting apps to Tyro merchants, alongside Tyro.js, mobile SDKs and Tap to Pay (SoftPOS) for card-present and online payments. Home market is Australia.",
+     "score": 55.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 67.3,
+      "governance": 0.0,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 31.6
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 54.3
+     },
+     "agent_score": 75.0,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Gateways & PSPs",
      "rank": 9
     },
     {
@@ -419,7 +419,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -462,7 +462,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -515,7 +515,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -558,7 +558,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -600,7 +600,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -642,7 +642,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -695,7 +695,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -737,7 +737,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -780,7 +780,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -823,7 +823,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -866,7 +866,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,

@@ -4,30 +4,30 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "strong",
-   "label": "Strong",
-   "range": "60–69.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 2,
-   "shown": 2,
+   "band": "exemplar",
+   "label": "Exemplar",
+   "range": "70+",
+   "blurb": "Reference-quality API operations across every facet.",
+   "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Medplum",
      "slug": "medplum",
      "description": "Medplum is an Apache 2.0 open-source, FHIR-native developer platform for shipping clinical software. It bundles a FHIR R4 datastore, REST and GraphQL APIs, a TypeScript SDK, React component library, OAuth 2.0 / SMART on FHIR authentication, declarative Access Policies, Subscriptions, and TypeScript-based serverless Bots — sold as a hosted service at api.medplum.com and as a self-hostable monorepo on GitHub. Medplum is HIPAA, SOC 2 Type II, and ONC-certified.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/medplum/refs/heads/main/screenshots/medplum-2026-06-20T185123.png",
-     "score": 68.0,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 73.7,
+     "band": "exemplar",
+     "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 52.8,
+      "discoverability": 87.5,
+      "contract_quality": 71.7,
       "governance": 86.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 76.1,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -53,78 +53,72 @@
      },
      "tier": "Interoperability & Health Data Networks",
      "rank": 1
-    },
-    {
-     "name": "Elation Health",
-     "slug": "elation-health",
-     "description": "Elation Health is a United States clinical-first electronic health record (EHR/EMR) and healthcare technology company, founded in 2010 and headquartered in San Francisco, California, serving independent primary care practices, value-based care organizations, digital health startups, and health-tech partners. Beyond its provider-facing EHR, Elation ships a broad, well-documented public REST API (v2.0) that lets partners read and write clinical and administrative data - patient profiles and demographics, allergies and problems, visit notes, clinical and lab/imaging orders, patient documents, scheduling, billing, insurance and eligibility, messaging, practice and user management, care gaps, and data import - authenticated with OAuth2. The API is documented on a ReadMe developer portal backed by machine-readable OpenAPI definitions, augmented with event subscription webhooks and a Model Context Protocol (MCP) server for agentic access. Elation also operates login-gated HL7 FHIR R4 and SMART-on-FHIR interoperability endpoints for ONC/CMS 21st Century Cures Act information-blocking compliance, exposed to registered applications rather than anonymously. Positioned as an independent challenger to the US EHR duopoly, Elation targets the primary-care and value-based-care segment of the largest, most commercial healthcare-API market.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/screenshots/elation-health-2026-07-25T213054.png",
-     "score": 60.8,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 60.4,
-      "governance": 0.0,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 73.9,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 87.0
-     },
-     "agent_score": 75.0,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "EHR / EMR Systems",
-     "rank": 2
     }
    ],
    "open": true
   },
   {
-   "band": "developing",
-   "label": "Developing",
-   "range": "45–59.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 23,
-   "shown": 23,
+   "band": "strong",
+   "label": "Strong",
+   "range": "60–69.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 3,
+   "shown": 3,
    "companies": [
+    {
+     "name": "Veeva",
+     "slug": "veeva",
+     "description": "Veeva Systems is a leader in cloud-based software for the global life sciences industry, providing solutions to help pharmaceutical and biotechnology companies bring products to market more efficiently.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/screenshots/veeva-2026-06-20T200859.png",
+     "score": 61.9,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 77.3,
+      "governance": 86.8,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Life Sciences & Clinical Trials",
+     "rank": 2
+    },
     {
      "name": "Particle Health",
      "slug": "particle-health",
      "description": "Particle Health is a healthcare data interoperability platform that aggregates patient medical records from across the US healthcare system into a single RESTful API. Particle is connected to all three nationwide health information exchange networks (Carequality, CommonWell, eHealth Exchange), TEFCA / QHIN partners, state HIEs (Healthix in New York, Manifest MedEx in California), and Surescripts for pharmacy data. The platform exposes patient demographics, clinical resources, and document retrieval via FHIR R4, C-CDA, Flat, and Deltas formats, layered with deduplication, normalization, AI summarization (Particle Snapshot), real-time encounter and transition alerts (Particle Signal), and longitudinal patient journey tracking (Particle Navigator). Customer segments include value-based care organizations, payers, health systems, primary and specialty providers, and digital health developers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/particle-health/refs/heads/main/screenshots/particle-health-2026-06-20T191425.png",
-     "score": 59.0,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 61.2,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 92.5,
       "contract_quality": 57.9,
       "governance": 86.8,
       "operational_transparency": 68.4,
       "developer_ergonomics": 43.5,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -152,6 +146,103 @@
      "rank": 3
     },
     {
+     "name": "Elation Health",
+     "slug": "elation-health",
+     "description": "Elation Health is a United States clinical-first electronic health record (EHR/EMR) and healthcare technology company, founded in 2010 and headquartered in San Francisco, California, serving independent primary care practices, value-based care organizations, digital health startups, and health-tech partners. Beyond its provider-facing EHR, Elation ships a broad, well-documented public REST API (v2.0) that lets partners read and write clinical and administrative data - patient profiles and demographics, allergies and problems, visit notes, clinical and lab/imaging orders, patient documents, scheduling, billing, insurance and eligibility, messaging, practice and user management, care gaps, and data import - authenticated with OAuth2. The API is documented on a ReadMe developer portal backed by machine-readable OpenAPI definitions, augmented with event subscription webhooks and a Model Context Protocol (MCP) server for agentic access. Elation also operates login-gated HL7 FHIR R4 and SMART-on-FHIR interoperability endpoints for ONC/CMS 21st Century Cures Act information-blocking compliance, exposed to registered applications rather than anonymously. Positioned as an independent challenger to the US EHR duopoly, Elation targets the primary-care and value-based-care segment of the largest, most commercial healthcare-API market.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/elation-health/refs/heads/main/screenshots/elation-health-2026-07-25T213054.png",
+     "score": 60.8,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 60.4,
+      "governance": 0.0,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 87.0
+     },
+     "agent_score": 75.0,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "EHR / EMR Systems",
+     "rank": 4
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 22,
+   "shown": 22,
+   "companies": [
+    {
+     "name": "Suki AI",
+     "slug": "suki",
+     "description": "Suki is a Redwood City, California healthcare AI company building ambient clinical intelligence for clinicians. Founded in 2017 by Punit Soni (CEO, former Google and Flipkart) and Karthik Rajan (former Salesforce), Suki has raised $168M+ across Series A-D from Venrock, March Capital, First Round Capital, MedStar Health, and others. The company's flagship product is Suki Assistant, an AI-powered voice-enabled scribe and documentation assistant that listens to doctor-patient conversations and generates specialty-specific clinical notes, patient instructions, orders, and codes — claimed to cut documentation time by 72% across 100+ specialties. Beyond the end-user assistant, Suki ships Suki Platform (also called Suki for Partners), a developer platform whose Suki Speech Service exposes ambient documentation, dictation, and form-filling capabilities as REST APIs, WebSocket audio-streaming endpoints, webhooks, and SDKs (Web, Headless Web, Mobile iOS, Mobile Android beta, Dictation iframe) so healthcare technology companies can embed Suki's voice AI into their own EHR, telehealth, RCM, or vet-tech applications. Suki has bidirectional ambient integrations with the four leading EHRs — Epic, Oracle Health (Cerner), athenahealth, and MEDITECH — plus partnerships with Amwell, Zoom, HealthEdge, WellSky, MEDENT, and Bond Vet, and is deployed at 400+ health systems and partners with a 70%+ clinician adoption rate.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/suki/refs/heads/main/screenshots/suki-2026-06-20T194641.png",
+     "score": 57.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 77.7,
+      "governance": 73.7,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 37.0
+     },
+     "agent_score": 53.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Clinical AI & Documentation",
+     "rank": 5
+    },
+    {
      "name": "Canvas Medical",
      "slug": "canvas-medical",
      "description": "Canvas Medical is a developer-first EHR platform built for virtual and value-based care, offering a comprehensive FHIR R4 REST API with 41 resources for clinical workflows, patient management, and care team coordination. The platform combines a standards-based FHIR API with a native Python SDK that enables plugins to execute synchronously within the EMR, supporting scheduling, charting, billing, and custom workflow automation across more than 650 clinical and operational events.",
@@ -167,7 +258,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -192,44 +283,7 @@
       "consent_identity": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 4
-    },
-    {
-     "name": "Veeva",
-     "slug": "veeva",
-     "description": "Veeva Systems is a leader in cloud-based software for the global life sciences industry, providing solutions to help pharmaceutical and biotechnology companies bring products to market more efficiently.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/veeva/refs/heads/main/screenshots/veeva-2026-06-20T200859.png",
-     "score": 56.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 55.0,
-      "contract_quality": 68.4,
-      "governance": 86.8,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 50.0,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Life Sciences & Clinical Trials",
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "drchrono",
@@ -247,7 +301,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -272,7 +326,7 @@
       "consent_identity": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Stedi",
@@ -290,7 +344,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -315,7 +369,7 @@
       "consent_identity": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "1upHealth",
@@ -333,7 +387,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -358,7 +412,7 @@
       "consent_identity": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Ribbon Health",
@@ -376,7 +430,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -401,7 +455,44 @@
       "consent_identity": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 9
+     "rank": 10
+    },
+    {
+     "name": "Meditech",
+     "slug": "meditech",
+     "description": "EHR Interoperability benefits everyone in the care network and helps you connect across the continuum of care. MEDITECH supports industry standards.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/screenshots/meditech-2026-06-20T185121.png",
+     "score": 54.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 69.5,
+      "governance": 73.7,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "EHR / EMR Systems",
+     "rank": 11
     },
     {
      "name": "Aidbox",
@@ -419,7 +510,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -444,7 +535,7 @@
       "consent_identity": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 10
+     "rank": 12
     },
     {
      "name": "Moxe Health",
@@ -461,7 +552,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -486,50 +577,7 @@
       "consent_identity": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 11
-    },
-    {
-     "name": "Suki AI",
-     "slug": "suki",
-     "description": "Suki is a Redwood City, California healthcare AI company building ambient clinical intelligence for clinicians. Founded in 2017 by Punit Soni (CEO, former Google and Flipkart) and Karthik Rajan (former Salesforce), Suki has raised $168M+ across Series A-D from Venrock, March Capital, First Round Capital, MedStar Health, and others. The company's flagship product is Suki Assistant, an AI-powered voice-enabled scribe and documentation assistant that listens to doctor-patient conversations and generates specialty-specific clinical notes, patient instructions, orders, and codes — claimed to cut documentation time by 72% across 100+ specialties. Beyond the end-user assistant, Suki ships Suki Platform (also called Suki for Partners), a developer platform whose Suki Speech Service exposes ambient documentation, dictation, and form-filling capabilities as REST APIs, WebSocket audio-streaming endpoints, webhooks, and SDKs (Web, Headless Web, Mobile iOS, Mobile Android beta, Dictation iframe) so healthcare technology companies can embed Suki's voice AI into their own EHR, telehealth, RCM, or vet-tech applications. Suki has bidirectional ambient integrations with the four leading EHRs — Epic, Oracle Health (Cerner), athenahealth, and MEDITECH — plus partnerships with Amwell, Zoom, HealthEdge, WellSky, MEDENT, and Bond Vet, and is deployed at 400+ health systems and partners with a 70%+ clinician adoption rate.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/suki/refs/heads/main/screenshots/suki-2026-06-20T194641.png",
-     "score": 52.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 68.8,
-      "governance": 73.7,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 41.3,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 37.0
-     },
-     "agent_score": 53.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Clinical AI & Documentation",
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "NextGen Healthcare",
@@ -546,7 +594,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -571,7 +619,44 @@
       "consent_identity": false
      },
      "tier": "EHR / EMR Systems",
-     "rank": 13
+     "rank": 14
+    },
+    {
+     "name": "Availity",
+     "slug": "availity",
+     "description": "Availity is a healthcare information network and clearinghouse providing REST APIs for real-time HIPAA EDI transactions. The platform processes over 11 billion annual healthcare transactions connecting providers, health plans, and vendors nationwide. Create your application and subscribe to a plan to make use of Availity APIs for eligibility verification, claims management, prior authorization, and patient cost estimation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/screenshots/availity-2026-06-20T172716.png",
+     "score": 51.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 78.3,
+      "governance": 73.7,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Payer, Claims & Eligibility",
+     "rank": 15
     },
     {
      "name": "Hint Health",
@@ -589,7 +674,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -614,7 +699,7 @@
       "consent_identity": false
      },
      "tier": "Pharmacy & e-Prescribing",
-     "rank": 14
+     "rank": 16
     },
     {
      "name": "Human API",
@@ -632,7 +717,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -657,7 +742,7 @@
       "consent_identity": false
      },
      "tier": "Devices & Wearables",
-     "rank": 15
+     "rank": 17
     },
     {
      "name": "Benchling",
@@ -675,7 +760,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -700,7 +785,7 @@
       "consent_identity": false
      },
      "tier": "Life Sciences & Clinical Trials",
-     "rank": 16
+     "rank": 18
     },
     {
      "name": "Color",
@@ -718,7 +803,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -743,44 +828,7 @@
       "consent_identity": false
      },
      "tier": "Genomics & Diagnostics",
-     "rank": 17
-    },
-    {
-     "name": "Meditech",
-     "slug": "meditech",
-     "description": "EHR Interoperability benefits everyone in the care network and helps you connect across the continuum of care. MEDITECH supports industry standards.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/meditech/refs/heads/main/screenshots/meditech-2026-06-20T185121.png",
-     "score": 50.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 42.5,
-      "contract_quality": 64.2,
-      "governance": 73.7,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 34.8,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "EHR / EMR Systems",
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Vim",
@@ -797,7 +845,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -822,7 +870,7 @@
       "consent_identity": false
      },
      "tier": "Clinical AI & Documentation",
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Candid Health",
@@ -840,7 +888,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -865,7 +913,7 @@
       "consent_identity": false
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Photon",
@@ -882,7 +930,7 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -907,7 +955,7 @@
       "consent_identity": false
      },
      "tier": "Pharmacy & e-Prescribing",
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "H1",
@@ -925,7 +973,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -950,7 +998,7 @@
       "consent_identity": false
      },
      "tier": "Life Sciences & Clinical Trials",
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Zus Health",
@@ -967,7 +1015,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -992,7 +1040,7 @@
       "consent_identity": false
      },
      "tier": "Interoperability & Health Data Networks",
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Zocdoc",
@@ -1010,7 +1058,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1035,116 +1083,25 @@
       "consent_identity": false
      },
      "tier": "Telehealth & Virtual Care",
-     "rank": 24
-    },
-    {
-     "name": "Availity",
-     "slug": "availity",
-     "description": "Availity is a healthcare information network and clearinghouse providing REST APIs for real-time HIPAA EDI transactions. The platform processes over 11 billion annual healthcare transactions connecting providers, health plans, and vendors nationwide. Create your application and subscribe to a plan to make use of Availity APIs for eligibility verification, claims management, prior authorization, and patient cost estimation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/availity/refs/heads/main/screenshots/availity-2026-06-20T172716.png",
-     "score": 47.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 55.0,
-      "contract_quality": 72.9,
-      "governance": 73.7,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 13.0,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Payer, Claims & Eligibility",
      "rank": 25
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 24,
-   "shown": 24,
-   "companies": [
-    {
-     "name": "Luma Health",
-     "slug": "luma-health",
-     "description": "Luma Health is a United States patient-engagement (Patient Success) platform for healthcare provider organizations, headquartered in San Francisco, California. Its operational AI platform automates the patient journey - self-service scheduling and appointment management, referral and waitlist management, intake and digital forms, omnichannel two-way messaging and broadcast, appointment reminders and recalls, insurance eligibility verification, payments and billing, and a conversational AI assistant (Navigator / lumabot) - and integrates bidirectionally with the major EHRs (Epic, Oracle Health/Cerner, MEDITECH, eClinicalWorks, athenahealth, NextGen, Greenway, Nextech). Luma exposes a documented public REST API (Rest-Service v2.0.0, OpenAPI 3.0.0) at https://api.lumahealth.io/api/v2, secured with OAuth2 client-credentials that issue JWT bearer tokens. The developer-facing surface is a REST API rather than an HL7 FHIR server; FHIR/HL7 interoperability with EHRs happens inside Luma's integration layer, not as a public FHIR endpoint.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/screenshots/luma-health-2026-07-25T225704.png",
-     "score": 44.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 26.5,
-      "governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 52.2,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 65.2
-     },
-     "agent_score": 65.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Patient Engagement & Scheduling",
-     "rank": 26
     },
     {
      "name": "Cerner (Oracle Health)",
      "slug": "cerner",
      "description": "Cerner is a global healthcare technology company that designs and develops electronic health record (EHR) and health information technology solutions for hospitals, clinics, and integrated delivery networks. Cerner was acquired by Oracle in June 2022 and is now branded as Oracle Health, with the Cerner Millennium EHR platform's developer program operating as the Oracle Health Developer Program. Millennium exposes HL7 FHIR R4 and DSTU2 APIs, SMART on FHIR app launching, Bulk FHIR, the CareAware device and integration APIs, and the Code Console developer portal for registering applications and obtaining sandbox and production credentials.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cerner/refs/heads/main/screenshots/cerner-2026-06-20T174140.png",
-     "score": 44.7,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 46.4,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 87.5,
       "contract_quality": 59.2,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 17.4,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1169,6 +1126,59 @@
       "consent_identity": false
      },
      "tier": "EHR / EMR Systems",
+     "rank": 26
+    }
+   ]
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 23,
+   "shown": 23,
+   "companies": [
+    {
+     "name": "Luma Health",
+     "slug": "luma-health",
+     "description": "Luma Health is a United States patient-engagement (Patient Success) platform for healthcare provider organizations, headquartered in San Francisco, California. Its operational AI platform automates the patient journey - self-service scheduling and appointment management, referral and waitlist management, intake and digital forms, omnichannel two-way messaging and broadcast, appointment reminders and recalls, insurance eligibility verification, payments and billing, and a conversational AI assistant (Navigator / lumabot) - and integrates bidirectionally with the major EHRs (Epic, Oracle Health/Cerner, MEDITECH, eClinicalWorks, athenahealth, NextGen, Greenway, Nextech). Luma exposes a documented public REST API (Rest-Service v2.0.0, OpenAPI 3.0.0) at https://api.lumahealth.io/api/v2, secured with OAuth2 client-credentials that issue JWT bearer tokens. The developer-facing surface is a REST API rather than an HL7 FHIR server; FHIR/HL7 interoperability with EHRs happens inside Luma's integration layer, not as a public FHIR endpoint.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/luma-health/refs/heads/main/screenshots/luma-health-2026-07-25T225704.png",
+     "score": 44.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 26.5,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 65.2
+     },
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Patient Engagement & Scheduling",
      "rank": 27
     },
     {
@@ -1187,7 +1197,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1230,7 +1240,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1272,7 +1282,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1314,7 +1324,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1342,63 +1352,21 @@
      "rank": 31
     },
     {
-     "name": "Medable",
-     "slug": "medable",
-     "description": "Medable operates a clinical trial technology platform for decentralized and hybrid trials, combining eCOA/ePRO data capture, electronic consent, televisit, and a suite of agentic-AI products (Agent Studio, CRA Agent, PI Summary Review, Digital Data Flow agent) for life-sciences sponsors and CROs. Its developer surface is the Cortex API — a schema-driven object platform (custom objects and properties, querying, aggregation, and server-side scripting) addressed over REST at api.<env>.medable.com/<org_code>/v2/, with session-based and request-signature authentication, an mdctl developer CLI, and an iOS/Swift SDK. Backed by Obvious Ventures and Sapphire Ventures.",
-     "score": 39.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 80.4,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 54.3
-     },
-     "agent_score": 32.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Life Sciences & Clinical Trials",
-     "rank": 32
-    },
-    {
      "name": "Validic",
      "slug": "validic",
      "description": "Validic is an enterprise health-data platform that connects patient-recorded data from digital health applications, medical devices, and wearables to healthcare organizations. Its Inform API and Mobile SDK provision users against an organization, present a hosted Marketplace for connecting API/cloud and Bluetooth sources, and return standardized health observations - CGM, intraday activity, point-in-time measurements, nutrition, sleep, daily summaries, and workouts. Validic also manages cellular-enabled devices, exposes connection-event history, and delivers data in real time through a Server-Sent Events Streaming API and a webhook Push Service. The platform is HITRUST-certified and HIPAA-compliant. Requests authenticate with an organization access token passed as the token query parameter over HTTPS.",
-     "score": 39.3,
+     "score": 42.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 57.2,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1423,152 +1391,24 @@
       "consent_identity": false
      },
      "tier": "Devices & Wearables",
-     "rank": 33
-    },
-    {
-     "name": "Epic Systems",
-     "slug": "epic-systems",
-     "description": "Epic Systems Corporation is a privately held electronic health record (EHR/EMR) software company founded in 1979 and headquartered in Verona, Wisconsin, United States. Epic's software supports the medical records of a large share of U.S. hospital systems and academic medical centers, and its \"Epic on FHIR\" developer program (fhir.epic.com / open.epic.com) exposes a standards-based HL7 FHIR interoperability surface for patient- and provider-facing apps. Epic serves live, public sandbox FHIR endpoints across three FHIR versions - R4 (4.0.1), STU3 (3.0.1), and DSTU2 (1.0.2) - aligned to the US Core implementation guides, with SMART on FHIR / OAuth 2.0 authorization, CDS Hooks, and FHIR Bulk Data ($export) access. Production access requires client registration and a health system's participation; the developer sandbox, specifications, and CapabilityStatements are openly published. Epic is a core node of the U.S. healthcare interoperability landscape shaped by the ONC/CMS 21st Century Cures Act information-blocking rules and TEFCA.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/screenshots/epic-systems-2026-07-25T213516.png",
-     "score": 39.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 22.6,
-      "governance": 0.0,
-      "operational_transparency": 18.4,
-      "developer_ergonomics": 45.7,
-      "commercial_clarity": 23.7
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 80.4
-     },
-     "agent_score": 38.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": true,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "tier": "EHR / EMR Systems",
-     "rank": 34
-    },
-    {
-     "name": "Redox",
-     "slug": "redox",
-     "description": "Redox is a healthcare data interoperability platform, founded in 2014 and headquartered in Madison, Wisconsin, that enables secure, real-time exchange of clinical and administrative data across the healthcare ecosystem. Through a single API and a network of 100+ EHR connections and 12,000+ connected healthcare organizations, Redox lets digital health vendors, providers, payers, EHRs, and life-sciences companies integrate once and reach the entire network. The platform offers a modern FHIR API, the legacy Redox Data Model (Redox Messages) event-based API, and a Platform API for managing organizations, sources, and destinations. Redox is HITRUST r2 and SOC 2 Type 2 certified and HIPAA, GDPR, and CCPA aligned, processing tens of billions of healthcare transactions annually.",
-     "score": 39.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 47.8,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 82.6
-     },
-     "agent_score": 13.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Interoperability & Health Data Networks",
-     "rank": 35
-    },
-    {
-     "name": "Allscripts",
-     "slug": "allscripts",
-     "description": "Allscripts, now operating as Veradigm, is a healthcare IT company providing REST and FHIR APIs for EHR data exchange, clinical workflows, patient portal, and practice management integrations. The Veradigm Developer Program (formerly Allscripts Developer Program) offers FHIR R4 APIs covering 28 clinical resources as well as a Unity API for clinical, scheduling, demographic, and practice management functions across Allscripts EHR products.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/screenshots/allscripts-2026-06-20T171537.png",
-     "score": 38.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 52.8,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 60.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 41.3
-     },
-     "agent_score": 24.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "EHR / EMR Systems",
-     "rank": 36
+     "rank": 32
     },
     {
      "name": "Spruce Health",
      "slug": "spruce-health",
      "description": "Spruce Health is a HIPAA-compliant healthcare communication platform that gives modern clinics secure messaging, voice, video, team chat, e-fax, secure payments, and phone lines in one system. The Spruce Public API is a RESTful, Bearer-token-authenticated interface (base https://api.sprucehealth.com/v1) that lets an organization manage Contacts, Conversations, conversation items and Messages, internal endpoints and phone lines, and register Webhook endpoints for real-time events. API access is gated - it is part of the Communicator plan and organizations must contact Spruce Support to have API access enabled before generating tokens.",
-     "score": 37.1,
+     "score": 39.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 54.9,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1593,81 +1433,37 @@
       "consent_identity": false
      },
      "tier": "Patient Engagement & Scheduling",
-     "rank": 37
+     "rank": 33
     },
     {
-     "name": "Healthie",
-     "slug": "healthie",
-     "description": "Healthie is a cloud, API-first EHR and practice management platform purpose-built for digital health startups, virtual care companies, and modern clinical practices. Healthie packages an EHR, scheduling, charting, telehealth, intake forms, care plans, online programs, messaging, billing, claims (CMS-1500 / ClaimMD), and patient portal behind a single GraphQL API and modular SDKs that power both the Healthie product UI and partner applications. Healthie targets the digital health ecosystem with a \"buy the EHR, build the experience\" model — the same API that backs the Healthie web and mobile apps is fully exposed to customers building branded patient and provider experiences on top of the platform.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/screenshots/healthie-2026-06-20T182600.png",
-     "score": 36.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 22.6,
-      "governance": 52.6,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 47.8,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 26.1
-     },
-     "agent_score": 28.8,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": true,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "EHR / EMR Systems",
-     "rank": 38
-    },
-    {
-     "name": "DexCare",
-     "slug": "dexcare",
-     "description": "DexCare is a healthcare navigation and care-orchestration platform, launched from within Providence Health, that connects patients to available care across fragmented health systems while helping providers fill capacity and reduce wait times. Its products span Search & Schedule, Virtual On Demand, Provider Data Management (PDM+), Optimize AI, and Acquire. DexCare exposes a RESTful API and native iOS, Android, and JavaScript SDKs that power search-and-schedule, virtual visits, patient records, provider data management, care-options discovery, omni search, and reporting for health systems. Public directory endpoints are open, while PHI/PII endpoints require OAuth 2.0-issued JWT bearer tokens. DexCare operates as a HIPAA business associate. This profile was enriched from DexCare's public developer surface as part of the API Evangelist network (originally surfaced as an ICONIQ Capital portfolio lead).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/screenshots/dexcare-2026-07-25T211834.png",
-     "score": 36.5,
+     "name": "Medable",
+     "slug": "medable",
+     "description": "Medable operates a clinical trial technology platform for decentralized and hybrid trials, combining eCOA/ePRO data capture, electronic consent, televisit, and a suite of agentic-AI products (Agent Studio, CRA Agent, PI Summary Review, Digital Data Flow agent) for life-sciences sponsors and CROs. Its developer surface is the Cortex API — a schema-driven object platform (custom objects and properties, querying, aggregation, and server-side scripting) addressed over REST at api.<env>.medable.com/<org_code>/v2/, with session-based and request-signature authentication, an mdctl developer CLI, and an iOS/Swift SDK. Backed by Obvious Ventures and Sapphire Ventures.",
+     "score": 39.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 92.5,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 28.9,
-      "developer_ergonomics": 63.0,
-      "commercial_clarity": 28.9
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
-      "score": 65.2
+      "score": 54.3
      },
-     "agent_score": 17.3,
+     "agent_score": 32.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
-      "mcp_server": false,
+      "mcp_server": true,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": true,
@@ -1675,29 +1471,242 @@
       "rate_limit_signal": false,
       "asyncapi_events": false,
       "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Life Sciences & Clinical Trials",
+     "rank": 34
+    },
+    {
+     "name": "Epic Systems",
+     "slug": "epic-systems",
+     "description": "Epic Systems Corporation is a privately held electronic health record (EHR/EMR) software company founded in 1979 and headquartered in Verona, Wisconsin, United States. Epic's software supports the medical records of a large share of U.S. hospital systems and academic medical centers, and its \"Epic on FHIR\" developer program (fhir.epic.com / open.epic.com) exposes a standards-based HL7 FHIR interoperability surface for patient- and provider-facing apps. Epic serves live, public sandbox FHIR endpoints across three FHIR versions - R4 (4.0.1), STU3 (3.0.1), and DSTU2 (1.0.2) - aligned to the US Core implementation guides, with SMART on FHIR / OAuth 2.0 authorization, CDS Hooks, and FHIR Bulk Data ($export) access. Production access requires client registration and a health system's participation; the developer sandbox, specifications, and CapabilityStatements are openly published. Epic is a core node of the U.S. healthcare interoperability landscape shaped by the ONC/CMS 21st Century Cures Act information-blocking rules and TEFCA.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/epic-systems/refs/heads/main/screenshots/epic-systems-2026-07-25T213516.png",
+     "score": 39.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 18.4,
+      "developer_ergonomics": 45.7,
+      "commercial_clarity": 23.7
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 80.4
+     },
+     "agent_score": 38.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "EHR / EMR Systems",
+     "rank": 35
+    },
+    {
+     "name": "Redox",
+     "slug": "redox",
+     "description": "Redox is a healthcare data interoperability platform, founded in 2014 and headquartered in Madison, Wisconsin, that enables secure, real-time exchange of clinical and administrative data across the healthcare ecosystem. Through a single API and a network of 100+ EHR connections and 12,000+ connected healthcare organizations, Redox lets digital health vendors, providers, payers, EHRs, and life-sciences companies integrate once and reach the entire network. The platform offers a modern FHIR API, the legacy Redox Data Model (Redox Messages) event-based API, and a Platform API for managing organizations, sources, and destinations. Redox is HITRUST r2 and SOC 2 Type 2 certified and HIPAA, GDPR, and CCPA aligned, processing tens of billions of healthcare transactions annually.",
+     "score": 39.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 47.8,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 82.6
+     },
+     "agent_score": 13.5,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Interoperability & Health Data Networks",
+     "rank": 36
+    },
+    {
+     "name": "Allscripts",
+     "slug": "allscripts",
+     "description": "Allscripts, now operating as Veradigm, is a healthcare IT company providing REST and FHIR APIs for EHR data exchange, clinical workflows, patient portal, and practice management integrations. The Veradigm Developer Program (formerly Allscripts Developer Program) offers FHIR R4 APIs covering 28 clinical resources as well as a Unity API for clinical, scheduling, demographic, and practice management functions across Allscripts EHR products.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/allscripts/refs/heads/main/screenshots/allscripts-2026-06-20T171537.png",
+     "score": 38.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 52.8,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 41.3
+     },
+     "agent_score": 24.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "tier": "Telehealth & Virtual Care",
-     "rank": 39
+     "tier": "EHR / EMR Systems",
+     "rank": 37
+    },
+    {
+     "name": "Metriport",
+     "slug": "metriport",
+     "description": "Metriport is an open-source, universal API for healthcare data. The Medical API exchanges patient medical records across the CommonWell and Carequality networks and returns consolidated FHIR R4 data, while the Devices API hydrates activity, biometrics, nutrition, and sleep data from consumer wearables and mHealth apps. Companies can use the hosted Metriport cloud or self-host the open-source code to avoid vendor lock-in.",
+     "score": 38.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 52.6,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 26.1
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Interoperability & Health Data Networks",
+     "rank": 38
     },
     {
      "name": "Flexpa",
      "slug": "flexpa",
      "description": "Flexpa is a patient-access platform that lets applications connect a patient to their health insurance plan and retrieve claims and clinical data as normalized FHIR R4 resources. Patients authorize access through Flexpa Link / OAuth 2.0 PKCE, and applications read ExplanationOfBenefit, Coverage, Patient, and other resources from a single FHIR API at https://api.flexpa.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/flexpa/refs/heads/main/screenshots/flexpa-2026-07-25T214752.png",
-     "score": 35.3,
+     "score": 38.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 52.4,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 26.1
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Interoperability & Health Data Networks",
+     "rank": 39
+    },
+    {
+     "name": "Health Gorilla",
+     "slug": "health-gorilla",
+     "description": "Health Gorilla operates a national health-data interoperability network and a FHIR-first API suite for healthcare developers. Its HL7 FHIR R4 REST API provides access to patient records, person-authorized record retrieval across national exchange networks (QHIN / TEFCA), diagnostic (lab and radiology) ordering and results, clinical documents, and coverage/eligibility data under OAuth 2.0.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/screenshots/health-gorilla-2026-07-25T220828.png",
+     "score": 37.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 53.6,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1725,21 +1734,22 @@
      "rank": 40
     },
     {
-     "name": "Metriport",
-     "slug": "metriport",
-     "description": "Metriport is an open-source, universal API for healthcare data. The Medical API exchanges patient medical records across the CommonWell and Carequality networks and returns consolidated FHIR R4 data, while the Devices API hydrates activity, biometrics, nutrition, and sleep data from consumer wearables and mHealth apps. Companies can use the hosted Metriport cloud or self-host the open-source code to avoid vendor lock-in.",
-     "score": 35.3,
+     "name": "Kno2",
+     "slug": "kno2",
+     "description": "Kno2 provides Interoperability as a Service for healthcare - a single Communication API to SEND, RECEIVE, and FIND patient information across the healthcare ecosystem. One connection reaches Direct Secure Messaging, clinical document exchange, HL7 FHIR resources, HL7 V2.x, cloud fax, and national record location and retrieval through Kno2's private network, Carequality, eHealth Exchange, and TEFCA (Kno2 is a federally designated QHIN). API access is partner/enterprise gated - integrators are provisioned a per-subscription tenant host with OAuth2 client-credentials keys and an IP allowlist; a staging sandbox is available through the Kno2 Developer Program.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/screenshots/kno2-2026-07-25T224009.png",
+     "score": 37.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 52.6,
+      "discoverability": 100.0,
+      "contract_quality": 61.2,
       "governance": 0.0,
       "operational_transparency": 36.8,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 39.5
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1767,22 +1777,21 @@
      "rank": 41
     },
     {
-     "name": "Health Gorilla",
-     "slug": "health-gorilla",
-     "description": "Health Gorilla operates a national health-data interoperability network and a FHIR-first API suite for healthcare developers. Its HL7 FHIR R4 REST API provides access to patient records, person-authorized record retrieval across national exchange networks (QHIN / TEFCA), diagnostic (lab and radiology) ordering and results, clinical documents, and coverage/eligibility data under OAuth 2.0.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/health-gorilla/refs/heads/main/screenshots/health-gorilla-2026-07-25T220828.png",
-     "score": 35.2,
+     "name": "pVerify",
+     "slug": "pverify",
+     "description": "pVerify provides real-time healthcare insurance eligibility verification and revenue-cycle APIs. Its RESTful API at https://api.pverify.com exchanges EDI 270/271 eligibility transactions, returns plan and benefit summaries, checks claim status (276/277), lists supported payers, and estimates patient financial responsibility, secured with OAuth2 bearer tokens.",
+     "score": 36.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 53.6,
+      "discoverability": 100.0,
+      "contract_quality": 55.5,
       "governance": 0.0,
       "operational_transparency": 36.8,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1806,8 +1815,94 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "tier": "Interoperability & Health Data Networks",
+     "tier": "Payer, Claims & Eligibility",
      "rank": 42
+    },
+    {
+     "name": "Healthie",
+     "slug": "healthie",
+     "description": "Healthie is a cloud, API-first EHR and practice management platform purpose-built for digital health startups, virtual care companies, and modern clinical practices. Healthie packages an EHR, scheduling, charting, telehealth, intake forms, care plans, online programs, messaging, billing, claims (CMS-1500 / ClaimMD), and patient portal behind a single GraphQL API and modular SDKs that power both the Healthie product UI and partner applications. Healthie targets the digital health ecosystem with a \"buy the EHR, build the experience\" model — the same API that backs the Healthie web and mobile apps is fully exposed to customers building branded patient and provider experiences on top of the platform.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/healthie/refs/heads/main/screenshots/healthie-2026-06-20T182600.png",
+     "score": 36.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 22.6,
+      "governance": 52.6,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 47.8,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 26.1
+     },
+     "agent_score": 28.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": true,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "EHR / EMR Systems",
+     "rank": 43
+    },
+    {
+     "name": "DexCare",
+     "slug": "dexcare",
+     "description": "DexCare is a healthcare navigation and care-orchestration platform, launched from within Providence Health, that connects patients to available care across fragmented health systems while helping providers fill capacity and reduce wait times. Its products span Search & Schedule, Virtual On Demand, Provider Data Management (PDM+), Optimize AI, and Acquire. DexCare exposes a RESTful API and native iOS, Android, and JavaScript SDKs that power search-and-schedule, virtual visits, patient records, provider data management, care-options discovery, omni search, and reporting for health systems. Public directory endpoints are open, while PHI/PII endpoints require OAuth 2.0-issued JWT bearer tokens. DexCare operates as a HIPAA business associate. This profile was enriched from DexCare's public developer surface as part of the API Evangelist network (originally surfaced as an ICONIQ Capital portfolio lead).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dexcare/refs/heads/main/screenshots/dexcare-2026-07-25T211834.png",
+     "score": 36.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 28.9,
+      "developer_ergonomics": 63.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 65.2
+     },
+     "agent_score": 17.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Telehealth & Virtual Care",
+     "rank": 44
     },
     {
      "name": "Optum",
@@ -1824,7 +1919,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1849,153 +1944,67 @@
       "consent_identity": true
      },
      "tier": "Payer, Claims & Eligibility",
-     "rank": 43
-    },
-    {
-     "name": "Kno2",
-     "slug": "kno2",
-     "description": "Kno2 provides Interoperability as a Service for healthcare - a single Communication API to SEND, RECEIVE, and FIND patient information across the healthcare ecosystem. One connection reaches Direct Secure Messaging, clinical document exchange, HL7 FHIR resources, HL7 V2.x, cloud fax, and national record location and retrieval through Kno2's private network, Carequality, eHealth Exchange, and TEFCA (Kno2 is a federally designated QHIN). API access is partner/enterprise gated - integrators are provisioned a per-subscription tenant host with OAuth2 client-credentials keys and an IP allowlist; a staging sandbox is available through the Kno2 Developer Program.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kno2/refs/heads/main/screenshots/kno2-2026-07-25T224009.png",
-     "score": 35.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 61.2,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 26.1
-     },
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Interoperability & Health Data Networks",
-     "rank": 44
-    },
-    {
-     "name": "pVerify",
-     "slug": "pverify",
-     "description": "pVerify provides real-time healthcare insurance eligibility verification and revenue-cycle APIs. Its RESTful API at https://api.pverify.com exchanges EDI 270/271 eligibility transactions, returns plan and benefit summaries, checks claim status (276/277), lists supported payers, and estimates patient financial responsibility, secured with OAuth2 bearer tokens.",
-     "score": 34.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 55.5,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 26.1
-     },
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Payer, Claims & Eligibility",
      "rank": 45
-    },
-    {
-     "name": "Cohere Health",
-     "slug": "cohere-health",
-     "description": "Cohere Health is a United States clinical-intelligence and utilization-management company that digitizes prior authorization for health plans. Its Unify platform applies clinical AI and evidence-based policy to streamline authorization intake, review, and decisioning, and its API suite implements the HL7 Da Vinci Burden Reduction guides — Coverage Requirements Discovery (CRD), Documentation Templates and Rules (DTR), and Prior Authorization Support (PAS) — to help payers meet the CMS Interoperability and Prior Authorization Final Rule (CMS-0057-F). The FHIR R4 APIs support SMART on FHIR applications and are sold to and embedded with health plans rather than offered through a self-serve public developer portal; the documented product surface is real but the API endpoints are partner/health-plan gated.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cohere-health/refs/heads/main/screenshots/cohere-health-2026-07-25T210019.png",
-     "score": 32.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 26.1,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 87.0
-     },
-     "agent_score": 13.5,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Payer, Claims & Eligibility",
-     "rank": 46
     },
     {
      "name": "DoseSpot",
      "slug": "dosespot",
      "description": "DoseSpot is a Surescripts- and EPCS-certified electronic prescribing (eRx) platform. Its REST API (v2) lets healthcare and EHR/EMR software embed the full prescription lifecycle - patient and clinician management, medication and drug search, pharmacy selection, e-prescribing, medication history, eligibility, and push notifications - using OAuth2 Bearer tokens scoped by clinic and clinician keys.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dosespot/refs/heads/main/screenshots/dosespot-2026-07-25T212312.png",
-     "score": 32.3,
+     "score": 35.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 54.9,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 26.1
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Pharmacy & e-Prescribing",
+     "rank": 46
+    },
+    {
+     "name": "Truepill",
+     "slug": "truepill",
+     "description": "Truepill is a pharmacy and healthcare-infrastructure company providing API-driven prescription fulfillment, pharmacy dispensing, insurance/copay adjudication, telehealth, and at-home diagnostics. Following LetsGetChecked's 2024 acquisition of Truepill, the combined company rebranded as Fuze Health in May 2025, and the developer platform now ships as FuzeRx. The REST API exposes JSON endpoints for patients, prescriptions, transfers, insurance/copay, and webhook events under https://rxapi.fuzehealth.com/v1.",
+     "score": 34.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 50.6,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2023,45 +2032,46 @@
      "rank": 47
     },
     {
-     "name": "Truepill",
-     "slug": "truepill",
-     "description": "Truepill is a pharmacy and healthcare-infrastructure company providing API-driven prescription fulfillment, pharmacy dispensing, insurance/copay adjudication, telehealth, and at-home diagnostics. Following LetsGetChecked's 2024 acquisition of Truepill, the combined company rebranded as Fuze Health in May 2025, and the developer platform now ships as FuzeRx. The REST API exposes JSON endpoints for patients, prescriptions, transfers, insurance/copay, and webhook events under https://rxapi.fuzehealth.com/v1.",
-     "score": 32.1,
+     "name": "Cohere Health",
+     "slug": "cohere-health",
+     "description": "Cohere Health is a United States clinical-intelligence and utilization-management company that digitizes prior authorization for health plans. Its Unify platform applies clinical AI and evidence-based policy to streamline authorization intake, review, and decisioning, and its API suite implements the HL7 Da Vinci Burden Reduction guides — Coverage Requirements Discovery (CRD), Documentation Templates and Rules (DTR), and Prior Authorization Support (PAS) — to help payers meet the CMS Interoperability and Prior Authorization Final Rule (CMS-0057-F). The FHIR R4 APIs support SMART on FHIR applications and are sold to and embedded with health plans rather than offered through a self-serve public developer portal; the documented product surface is real but the API endpoints are partner/health-plan gated.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cohere-health/refs/heads/main/screenshots/cohere-health-2026-07-25T210019.png",
+     "score": 32.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 50.6,
+      "discoverability": 87.5,
+      "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
-      "score": 26.1
+      "score": 87.0
      },
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
+     "agent_score": 13.5,
+     "agent_band": "human-only",
      "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
+      "spec_presence": false,
+      "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": true,
+      "rate_limit_signal": false,
       "asyncapi_events": false,
       "agent_skills": false,
-      "well_known_catalog": false,
+      "well_known_catalog": true,
       "consent_identity": false
      },
-     "tier": "Pharmacy & e-Prescribing",
+     "tier": "Payer, Claims & Eligibility",
      "rank": 48
     },
     {
@@ -2079,7 +2089,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2132,7 +2142,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2175,7 +2185,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2217,7 +2227,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2260,7 +2270,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2302,7 +2312,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2345,7 +2355,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2388,7 +2398,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2431,7 +2441,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2473,7 +2483,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2516,7 +2526,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2559,7 +2569,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2602,7 +2612,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2645,7 +2655,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2687,7 +2697,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2729,7 +2739,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2772,7 +2782,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2814,7 +2824,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2856,7 +2866,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2898,7 +2908,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2940,7 +2950,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2976,7 +2986,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3019,7 +3029,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3062,7 +3072,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3105,7 +3115,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3158,7 +3168,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3200,7 +3210,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3242,7 +3252,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 26.3
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3278,7 +3288,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,

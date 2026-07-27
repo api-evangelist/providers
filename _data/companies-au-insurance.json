@@ -27,7 +27,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -69,7 +69,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -111,7 +111,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -164,7 +164,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -207,7 +207,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -235,150 +235,22 @@
      "rank": 5
     },
     {
-     "name": "Insurance Council of Australia",
-     "slug": "insurance-council-australia",
-     "description": "The Insurance Council of Australia (ICA) is the representative body for Australia's general insurance industry, whose members write approximately 90% of total premium income for private sector general insurers and reinsurers, spanning home and contents, motor, travel, liability, professional indemnity, commercial property and directors and officers lines. The ICA administers the General Insurance Code of Practice, issues catastrophe and significant event declarations, operates the member Data Hub that reports claim counts, incurred losses and closed rates for declared events, and advocates on resilience, climate risk, building standards and insurance affordability. It is a market body rather than a carrier — it sells no policies and exposes no quote, bind, issue or FNOL API. Its API posture is partner-gated with no public developer program: developer, developers, docs and api subdomains do not resolve, and /developers/, /developer/, /partners/ and /integrations/ all return 404. The only integration surface is the member portal at memberportal.insurancecouncil.com.au, an Azure AD B2C (OpenID Connect authorization code) login wall for member insurers. Catastrophe and resilience data is published as PDF reports and a downloadable XLSX master file rather than through an API, and no ACORD, AL3 or NGDS reference appears anywhere on the site — Australia's insurance data seam is the Consumer Data Right, which was designated for general insurance and then deferred.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/screenshots/insurance-council-australia-2026-07-25T222633.png",
-     "score": 37.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 18.9,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 43.5,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 76.1
-     },
-     "agent_score": 32.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Market Bodies, Standards & Regulators",
-     "rank": 6
-    },
-    {
-     "name": "APRA",
-     "slug": "apra",
-     "description": "The Australian Prudential Regulation Authority (APRA) is the Commonwealth statutory authority that prudentially supervises Australia's banks, credit unions, building societies, general insurers, life insurers, private health insurers, reinsurers and most of the superannuation industry, protecting depositors, policyholders and fund members under the Financial Sector (Collection of Data) Act 2001 and the Insurance Act 1973. Across insurance it authorises and registers general insurers, life insurers and friendly societies, and private health insurers; publishes prudential standards and practice guides; maintains public registers of authorised institutions; and runs the quarterly general, life and private health insurance performance statistics plus the National Claims and Policies Database. Its API posture is honestly none as of July 2026 — APRA operates no developer portal, publishes no OpenAPI or Swagger definition, and offers no self-serve API. Regulated entities lodge data through APRA Connect (connect.apra.gov.au), a browser-only portal gated behind the Australian Government Digital ID System (myID plus Relationship Authorisation Manager); APRA's own technical specification page lists the API Technical Specification as \"to be provided when this functionality is available,\" so machine-to-machine submission remains a roadmap item and not a shipped surface. What APRA does publish machine-readably is a standards corpus rather than an API — per-industry APRA Connect taxonomy artefacts (XSD schemas, reporting taxonomy and validation rule workbooks) for General Insurance, Private Health Insurance and Life Insurance — while statistics ship as XLSX and Power BI, and the public insurer registers are HTML tables with no bulk export. No ACORD, AL3 or NGDS reference appears anywhere on apra.gov.au; APRA's reporting data model is its own XBRL/XSD taxonomy, not the insurance industry's ACORD standards.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/screenshots/apra-2026-07-25T200856.png",
-     "score": 35.0,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 34.2,
-      "developer_ergonomics": 52.2,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 78.3
-     },
-     "agent_score": 16.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "tier": "Market Bodies, Standards & Regulators",
-     "rank": 7
-    },
-    {
-     "name": "PSC Insurance",
-     "slug": "psc-insurance",
-     "description": "PSC Insurance is an Australian insurance broking and intermediary group operating as PSC Insurance Brokers across every Australian state and territory, with a New Zealand arm trading as PSC Broking. It places commercial and SME risk — business packages, construction and civil contracting, public liability, cyber, professional indemnity, directors and officers, management liability, commercial property and industrial special risks, strata, motor and fleet, agribusiness and livestock, workers compensation, financial lines and trade credit, and medical and allied health cover — advising clients rather than carrying underwriting risk itself. Formerly the ASX-listed PSC Insurance Group, the business now sits inside The Ardonagh Group's Australian distribution platform; its former corporate domain pscinsurancegroup.com.au 301-redirects to envest.com.au, and the broking site's security.txt names an @envest.com.au contact. Its API posture is honestly assessed as none. There is no public developer portal, no self-serve API, no published OpenAPI or Swagger definition, no GraphQL surface, no Postman collection, no SDK, no webhook catalog, and no ACORD, AL3, IVANS or agency-download reference anywhere on its public estate. Two machine-facing surfaces are confirmed live and neither is documented by PSC — an Auth0-hosted OpenID Connect identity endpoint at login.pscinsurance.com.au fronting a client/broker login wall, and the Sanity Content Lake dataset behind the marketing site, whose GROQ query, document, export and real-time listen endpoints all answer anonymously. Both are vendor infrastructure under PSC tenancy, not developer products. This matches the Australian market seam — the Consumer Data Right that opened banking and energy was designated for general insurance and then deferred, so no forcing function ever reached brokers, and integration here remains partner-gated and broker-platform mediated.",
-     "score": 34.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 22.6,
-      "governance": 0.0,
-      "operational_transparency": 10.5,
-      "developer_ergonomics": 17.4,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 100.0
-     },
-     "agent_score": 22.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "tier": "Brokers & Intermediaries",
-     "rank": 8
-    },
-    {
      "name": "Cover Genius",
      "slug": "cover-genius",
      "description": "Cover Genius is an insurtech company providing embedded insurance and protection at the point of sale. The XCover distribution API lets partners create insurance offers, confirm bookings, modify and cancel policies, and receive policy lifecycle webhooks, while the XClaim API handles claims intake and instant payments.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cover-genius/refs/heads/main/screenshots/cover-genius-2026-06-20T175139.png",
-     "score": 34.5,
+     "score": 37.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 60.2,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -403,6 +275,134 @@
       "consent_identity": false
      },
      "tier": "Embedded Insurance & Distribution APIs",
+     "rank": 6
+    },
+    {
+     "name": "Insurance Council of Australia",
+     "slug": "insurance-council-australia",
+     "description": "The Insurance Council of Australia (ICA) is the representative body for Australia's general insurance industry, whose members write approximately 90% of total premium income for private sector general insurers and reinsurers, spanning home and contents, motor, travel, liability, professional indemnity, commercial property and directors and officers lines. The ICA administers the General Insurance Code of Practice, issues catastrophe and significant event declarations, operates the member Data Hub that reports claim counts, incurred losses and closed rates for declared events, and advocates on resilience, climate risk, building standards and insurance affordability. It is a market body rather than a carrier — it sells no policies and exposes no quote, bind, issue or FNOL API. Its API posture is partner-gated with no public developer program: developer, developers, docs and api subdomains do not resolve, and /developers/, /developer/, /partners/ and /integrations/ all return 404. The only integration surface is the member portal at memberportal.insurancecouncil.com.au, an Azure AD B2C (OpenID Connect authorization code) login wall for member insurers. Catastrophe and resilience data is published as PDF reports and a downloadable XLSX master file rather than through an API, and no ACORD, AL3 or NGDS reference appears anywhere on the site — Australia's insurance data seam is the Consumer Data Right, which was designated for general insurance and then deferred.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/insurance-council-australia/refs/heads/main/screenshots/insurance-council-australia-2026-07-25T222633.png",
+     "score": 37.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 18.9,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 43.5,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 76.1
+     },
+     "agent_score": 32.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Market Bodies, Standards & Regulators",
+     "rank": 7
+    },
+    {
+     "name": "APRA",
+     "slug": "apra",
+     "description": "The Australian Prudential Regulation Authority (APRA) is the Commonwealth statutory authority that prudentially supervises Australia's banks, credit unions, building societies, general insurers, life insurers, private health insurers, reinsurers and most of the superannuation industry, protecting depositors, policyholders and fund members under the Financial Sector (Collection of Data) Act 2001 and the Insurance Act 1973. Across insurance it authorises and registers general insurers, life insurers and friendly societies, and private health insurers; publishes prudential standards and practice guides; maintains public registers of authorised institutions; and runs the quarterly general, life and private health insurance performance statistics plus the National Claims and Policies Database. Its API posture is honestly none as of July 2026 — APRA operates no developer portal, publishes no OpenAPI or Swagger definition, and offers no self-serve API. Regulated entities lodge data through APRA Connect (connect.apra.gov.au), a browser-only portal gated behind the Australian Government Digital ID System (myID plus Relationship Authorisation Manager); APRA's own technical specification page lists the API Technical Specification as \"to be provided when this functionality is available,\" so machine-to-machine submission remains a roadmap item and not a shipped surface. What APRA does publish machine-readably is a standards corpus rather than an API — per-industry APRA Connect taxonomy artefacts (XSD schemas, reporting taxonomy and validation rule workbooks) for General Insurance, Private Health Insurance and Life Insurance — while statistics ship as XLSX and Power BI, and the public insurer registers are HTML tables with no bulk export. No ACORD, AL3 or NGDS reference appears anywhere on apra.gov.au; APRA's reporting data model is its own XBRL/XSD taxonomy, not the insurance industry's ACORD standards.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/apra/refs/heads/main/screenshots/apra-2026-07-25T200856.png",
+     "score": 35.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 34.2,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 78.3
+     },
+     "agent_score": 16.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "Market Bodies, Standards & Regulators",
+     "rank": 8
+    },
+    {
+     "name": "PSC Insurance",
+     "slug": "psc-insurance",
+     "description": "PSC Insurance is an Australian insurance broking and intermediary group operating as PSC Insurance Brokers across every Australian state and territory, with a New Zealand arm trading as PSC Broking. It places commercial and SME risk — business packages, construction and civil contracting, public liability, cyber, professional indemnity, directors and officers, management liability, commercial property and industrial special risks, strata, motor and fleet, agribusiness and livestock, workers compensation, financial lines and trade credit, and medical and allied health cover — advising clients rather than carrying underwriting risk itself. Formerly the ASX-listed PSC Insurance Group, the business now sits inside The Ardonagh Group's Australian distribution platform; its former corporate domain pscinsurancegroup.com.au 301-redirects to envest.com.au, and the broking site's security.txt names an @envest.com.au contact. Its API posture is honestly assessed as none. There is no public developer portal, no self-serve API, no published OpenAPI or Swagger definition, no GraphQL surface, no Postman collection, no SDK, no webhook catalog, and no ACORD, AL3, IVANS or agency-download reference anywhere on its public estate. Two machine-facing surfaces are confirmed live and neither is documented by PSC — an Auth0-hosted OpenID Connect identity endpoint at login.pscinsurance.com.au fronting a client/broker login wall, and the Sanity Content Lake dataset behind the marketing site, whose GROQ query, document, export and real-time listen endpoints all answer anonymously. Both are vendor infrastructure under PSC tenancy, not developer products. This matches the Australian market seam — the Consumer Data Right that opened banking and energy was designated for general insurance and then deferred, so no forcing function ever reached brokers, and integration here remains partner-gated and broker-platform mediated.",
+     "score": 34.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 10.5,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 100.0
+     },
+     "agent_score": 22.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "Brokers & Intermediaries",
      "rank": 9
     },
     {
@@ -421,7 +421,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -463,7 +463,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -516,7 +516,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -559,7 +559,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -601,7 +601,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -644,7 +644,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -686,7 +686,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -728,7 +728,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -770,7 +770,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -823,7 +823,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -866,7 +866,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,

@@ -8,40 +8,47 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 8,
-   "shown": 8,
+   "count": 9,
+   "shown": 9,
    "companies": [
     {
-     "name": "Syntage",
-     "slug": "syntage",
-     "description": "Syntage is a Mexican fintech data platform that aggregates business and fiscal data from official Mexican sources (the SAT tax authority, RPC, RUG, credit bureaus / Buro de Credito, and blacklists) into a single API and dashboard. Financial institutions use it to analyze credit risk, verify CFDI invoices for factoring operations, run KYB/KYC/PLD compliance checks, and monitor taxpayer data changes in real time. Data is consumable via a REST API (JSON-LD / Hydra), an app dashboard, PDF reports, and Excel exports. Reported scale includes 300+ financial-institution clients and billions of transactions processed. ISO/IEC 27001:2022 certified.",
-     "score": 56.0,
+     "name": "Conekta",
+     "slug": "conekta",
+     "description": "Conekta is a Mexico-based payment processor that lets businesses accept credit and debit cards, OXXO cash vouchers, SPEI bank transfers, Apple Pay, Google Pay, and Buy Now Pay Later through a single PCI-DSS Level 1 certified API. The platform serves the Mexican market with Spanish-language documentation, CNBV-aligned compliance, and full Orders, Charges, Customers, Subscriptions, Payment Links, Antifraud, Webhooks, Payouts, and Balances resources. Conekta publishes its OpenAPI 3.1 specification publicly under MIT license, ships official SDKs for PHP, Node.js, Python, Ruby, .NET, and Java, and offers mobile components for Android, iOS, Flutter, and React Native plus plugins for major e-commerce platforms.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/screenshots/conekta-2026-06-20T174849.png",
+     "score": 59.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 71.8,
-      "governance": 0.0,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 73.9,
+      "discoverability": 100.0,
+      "contract_quality": 70.5,
+      "governance": 73.7,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 56.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
-     "agent_score": 81.7,
-     "agent_band": "agent-native",
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 37.0
+     },
+     "agent_score": 55.8,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": true,
-      "mcp_server": true,
+      "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": true,
       "openapi_examples": false,
       "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
       "consent_identity": false
      },
      "rank": 1
@@ -51,18 +58,18 @@
      "slug": "kushki",
      "description": "Kushki is an Ecuador-headquartered LatAm fintech operating as a regional non-banking acquirer for the Andean and Pacific Alliance markets — Ecuador, Colombia, Peru, Chile, Mexico, and Brazil. The Kushki API unifies card payments, scheduled and one-click subscriptions, bank transfers (PSE, Webpay Transferencia, SPEI, PIX), cash vouchers (OXXO, PagoEfectivo, Boleto), payouts/dispersions, and card-present (Kushki One POS) behind a single REST surface. Authentication is split across a Public-Merchant-Id (used in the browser to tokenize cards) and a Private-Merchant-Id (used server-side to charge). PCI DSS Level 1, 3DS 2.0, multi-layer anti-fraud, hosted fields, Kajita payment forms, Smartlinks, and e-commerce plugins (Shopify, VTEX, WooCommerce, Magento, PrestaShop) round out the platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/screenshots/kushki-2026-06-20T184217.png",
-     "score": 55.5,
+     "score": 59.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 64.6,
+      "discoverability": 87.5,
+      "contract_quality": 73.5,
       "governance": 86.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 73.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -89,6 +96,41 @@
      "rank": 2
     },
     {
+     "name": "Syntage",
+     "slug": "syntage",
+     "description": "Syntage is a Mexican fintech data platform that aggregates business and fiscal data from official Mexican sources (the SAT tax authority, RPC, RUG, credit bureaus / Buro de Credito, and blacklists) into a single API and dashboard. Financial institutions use it to analyze credit risk, verify CFDI invoices for factoring operations, run KYB/KYC/PLD compliance checks, and monitor taxpayer data changes in real time. Data is consumable via a REST API (JSON-LD / Hydra), an app dashboard, PDF reports, and Excel exports. Reported scale includes 300+ financial-institution clients and billions of transactions processed. ISO/IEC 27001:2022 certified.",
+     "score": 56.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 71.8,
+      "governance": 0.0,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 81.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 3
+    },
+    {
      "name": "Ualá",
      "slug": "ual",
      "description": "Ualá is a Latin American fintech founded in Argentina in 2017 by Pierpaolo Barbieri, offering a neobank super-app (prepaid and credit cards, savings, investments, loans, insurance) in Argentina and Mexico, where it operates as Ualá ABC through the acquired ABC Capital bank. Its merchant arm, Ualá Bis, provides payments acceptance — link de pago, POS, e-commerce plugins, and the API Cobros Online v2, a checkout API with hosted payment links, order retrieval and listing, refunds, and webhook status notifications, documented at developers.ualabis.com.ar with official Node.js and PHP SDKs.",
@@ -103,7 +145,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -127,48 +169,6 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 3
-    },
-    {
-     "name": "Conekta",
-     "slug": "conekta",
-     "description": "Conekta is a Mexico-based payment processor that lets businesses accept credit and debit cards, OXXO cash vouchers, SPEI bank transfers, Apple Pay, Google Pay, and Buy Now Pay Later through a single PCI-DSS Level 1 certified API. The platform serves the Mexican market with Spanish-language documentation, CNBV-aligned compliance, and full Orders, Charges, Customers, Subscriptions, Payment Links, Antifraud, Webhooks, Payouts, and Balances resources. Conekta publishes its OpenAPI 3.1 specification publicly under MIT license, ships official SDKs for PHP, Node.js, Python, Ruby, .NET, and Java, and offers mobile components for Android, iOS, Flutter, and React Native plus plugins for major e-commerce platforms.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/conekta/refs/heads/main/screenshots/conekta-2026-06-20T174849.png",
-     "score": 54.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 61.6,
-      "governance": 73.7,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 37.0
-     },
-     "agent_score": 55.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
      "rank": 4
     },
     {
@@ -186,7 +186,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 84.6,
      "agent_band": "agent-native",
@@ -211,18 +211,18 @@
      "slug": "mercado-pago",
      "description": "Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Founded in 2003, it processes a substantial share of LatAm digital payments across Brazil (PIX, Boleto, cards), Argentina, Mexico (SPEI, OXXO), Chile, Colombia, Peru, and Uruguay, with consumer wallet, merchant acquiring, card issuing, lending, and crypto products layered on top. The developer portal at developers.mercadopago.com exposes a deep payments stack — Checkout Pro (hosted), Checkout Bricks (composable web components), Checkout API (full server-side control), Orders API (next-gen checkout), Subscriptions, Payment Links, Point (in-person card readers), and QR payments — backed by REST APIs and official SDKs in Node.js / TypeScript, Python, PHP, Ruby, Java, .NET, Go, iOS, and Android, plus a CLI, an MCP server for AI agents, e-commerce plugins (WooCommerce, VTEX, Tiendanube, Shopify), and an n8n integration. Regional developer portals (.com.ar, .com.br, .com.mx, .com.cl, .com.co, .com.pe, .com.uy) localise docs and pricing per LATAM market.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/screenshots/mercado-pago-2026-06-20T185325.png",
-     "score": 51.9,
+     "score": 54.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 92.5,
       "contract_quality": 70.6,
       "governance": 65.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 39.1,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -264,7 +264,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 75.0,
      "agent_band": "agent-native",
@@ -300,7 +300,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -325,35 +325,24 @@
       "consent_identity": false
      },
      "rank": 8
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 14,
-   "shown": 14,
-   "companies": [
+    },
     {
      "name": "Bitso",
      "slug": "bitso",
      "description": "Bitso is one of Latin America's largest cryptocurrency exchanges and stablecoin-rail providers, serving Mexico, Argentina, Brazil, Colombia, and other LATAM markets. Bitso exposes a public REST trading API and a WebSocket feed at bitso.com/api/v3 for market data, order management, conversions, OTC / RFQ, and account operations; a Payouts & Pay-Ins API for cross-border crypto and fiat disbursements; and the Juno API for Mexican peso (MXN) rails and stablecoin programmable money. API and OpenAPI references are catalogued at docs.bitso.com.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bitso/refs/heads/main/screenshots/bitso-2026-06-20T173323.png",
-     "score": 43.4,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 45.5,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 92.5,
       "contract_quality": 65.5,
       "governance": 52.6,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -378,7 +367,18 @@
       "consent_identity": false
      },
      "rank": 9
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 13,
+   "shown": 13,
+   "companies": [
     {
      "name": "BBVA",
      "slug": "bbva",
@@ -395,7 +395,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -437,7 +437,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -479,7 +479,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -521,7 +521,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 35.6,
      "agent_band": "agent-aware",
@@ -542,6 +542,41 @@
      "rank": 13
     },
     {
+     "name": "Skydropx",
+     "slug": "skydropx",
+     "description": "Skydropx is a Mexican multi-carrier shipping and logistics platform that lets e-commerce sellers and businesses compare rates, generate labels, schedule pickups, and track parcels across national and international carriers from a single API. Its modern Skydropx Pro API (base https://pro.skydropx.com/api/v1) is a REST interface secured with OAuth2 client-credentials Bearer tokens and covers quotations, shipments, labels/orders, pickups, address templates, tracking, and account credit balances. A separate classic Skydropx API (https://api.skydropx.com/v1, authenticated with an API key Token header) and a Radar tracking API also exist. Billing is prepaid - the platform is free to use and you pay per label from a wallet balance.",
+     "score": 38.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 60.4,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 14
+    },
+    {
      "name": "Prescrypto",
      "slug": "prescrypto",
      "description": "Prescrypto is an electronic-prescription (eRx) platform used across Mexico and LATAM, backed by 500 Global. Its REST Integration API lets EHRs, hospital systems, telemedicine apps and pharmacies manage medics, hospitals, patients and prescriptions; generate legally-valid electronic prescriptions that are verified against Mexico's NOM-151-SCFI-2016 standard via the RexChain blockchain notary; download prescription PDFs; and let pharmacies search and dispense (burn) prescribed medications. The platform also ships a Deeplink auto-login/auto-fill flow, a standard-drug catalog search of ~25,000 records, webhooks for prescription events, and a prescrypto-elements web-component library for embedding Rx functionality in a host site. Authentication is HTTP Token auth (Authorization: Token <key>).",
@@ -556,7 +591,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -580,7 +615,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Tecnológico de Monterrey",
@@ -598,7 +633,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -622,7 +657,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Cobre",
@@ -640,7 +675,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -664,7 +699,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Super Seguros",
@@ -681,7 +716,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -705,41 +740,6 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 17
-    },
-    {
-     "name": "Skydropx",
-     "slug": "skydropx",
-     "description": "Skydropx is a Mexican multi-carrier shipping and logistics platform that lets e-commerce sellers and businesses compare rates, generate labels, schedule pickups, and track parcels across national and international carriers from a single API. Its modern Skydropx Pro API (base https://pro.skydropx.com/api/v1) is a REST interface secured with OAuth2 client-credentials Bearer tokens and covers quotations, shipments, labels/orders, pickups, address templates, tracking, and account credit balances. A separate classic Skydropx API (https://api.skydropx.com/v1, authenticated with an API key Token header) and a Radar tracking API also exist. Billing is prepaid - the platform is free to use and you pay per label from a wallet balance.",
-     "score": 35.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 60.4,
-      "governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
      "rank": 18
     },
     {
@@ -757,7 +757,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 26.9,
      "agent_band": "agent-aware",
@@ -778,57 +778,21 @@
      "rank": 19
     },
     {
-     "name": "Facturama",
-     "slug": "facturama",
-     "description": "Facturama is a cloud-based Mexican electronic invoicing (CFDI) platform that lets businesses generate, stamp, download, and cancel digital tax receipts (Comprobante Fiscal Digital por Internet) through a REST API. It serves 55,000+ clients — mostly SMEs and startups — and exposes two API products: API Web (single issuer, tied to a Facturama account) and API Multiemisor (multi-issuer, for platforms that invoice on behalf of many taxpayers). The API supports CFDI 4.0 invoices, payroll receipts (nómina), payment complements (complemento de pago), credit notes, Carta Porte (cargo/transport), foreign trade (comercio exterior), and donation receipts, plus management of clients, products/services, branch offices, series, and SAT catalogs (postal codes, currencies, payment methods, tax regimes). Authentication is HTTP Basic. A sandbox environment and 15 free test invoices during a 30-day trial are available, along with first-party SDKs for PHP, Java, .NET, Node.js, JavaScript, Python, and Ruby and a public Postman collection.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/facturama/refs/heads/main/screenshots/facturama-2026-07-25T214144.png",
-     "score": 32.8,
+     "name": "Mercado Pago",
+     "slug": "mercadopago",
+     "description": "Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Its developer portal at developers.mercadopago.com exposes a rich payments stack - Checkout Pro (hosted), Checkout Bricks (composable web components), Checkout API (full server-side control), Subscriptions, Payment Links, Point (in-person card reader), and QR payments - backed by REST APIs and official SDKs in Node.js, Python, PHP, Ruby, Java, .NET, plus a CLI and an MCP server for AI agents. Regional portals (.com.ar, .com.br, .com.mx, etc.) localise the docs and pricing per LATAM market.",
+     "score": 34.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 92.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 69.6,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 9.6,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 20
-    },
-    {
-     "name": "Mercado Pago",
-     "slug": "mercadopago",
-     "description": "Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Its developer portal at developers.mercadopago.com exposes a rich payments stack - Checkout Pro (hosted), Checkout Bricks (composable web components), Checkout API (full server-side control), Subscriptions, Payment Links, Point (in-person card reader), and QR payments - backed by REST APIs and official SDKs in Node.js, Python, PHP, Ruby, Java, .NET, plus a CLI and an MCP server for AI agents. Regional portals (.com.ar, .com.br, .com.mx, etc.) localise the docs and pricing per LATAM market.",
-     "score": 32.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
       "contract_quality": 47.8,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -852,6 +816,42 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
+     "rank": 20
+    },
+    {
+     "name": "Facturama",
+     "slug": "facturama",
+     "description": "Facturama is a cloud-based Mexican electronic invoicing (CFDI) platform that lets businesses generate, stamp, download, and cancel digital tax receipts (Comprobante Fiscal Digital por Internet) through a REST API. It serves 55,000+ clients — mostly SMEs and startups — and exposes two API products: API Web (single issuer, tied to a Facturama account) and API Multiemisor (multi-issuer, for platforms that invoice on behalf of many taxpayers). The API supports CFDI 4.0 invoices, payroll receipts (nómina), payment complements (complemento de pago), credit notes, Carta Porte (cargo/transport), foreign trade (comercio exterior), and donation receipts, plus management of clients, products/services, branch offices, series, and SAT catalogs (postal codes, currencies, payment methods, tax regimes). Authentication is HTTP Basic. A sandbox environment and 15 free test invoices during a 30-day trial are available, along with first-party SDKs for PHP, Java, .NET, Node.js, JavaScript, Python, and Ruby and a public Postman collection.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/facturama/refs/heads/main/screenshots/facturama-2026-07-25T214144.png",
+     "score": 32.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 69.6,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 9.6,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
      "rank": 21
     },
     {
@@ -870,7 +870,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -923,7 +923,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -965,7 +965,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1006,7 +1006,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1042,7 +1042,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1083,7 +1083,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1125,7 +1125,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1167,7 +1167,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1209,7 +1209,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1250,7 +1250,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1291,7 +1291,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1332,7 +1332,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1374,7 +1374,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1416,7 +1416,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1457,7 +1457,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -1492,7 +1492,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1534,7 +1534,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1576,7 +1576,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1618,7 +1618,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1660,7 +1660,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1702,7 +1702,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1743,7 +1743,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1784,7 +1784,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1826,7 +1826,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1861,7 +1861,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1903,7 +1903,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1938,7 +1938,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1979,7 +1979,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2020,7 +2020,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2061,7 +2061,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -2097,7 +2097,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2139,7 +2139,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2190,7 +2190,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 25.0,
      "agent_band": "agent-aware",
@@ -2226,7 +2226,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2261,7 +2261,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2296,7 +2296,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2331,7 +2331,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2373,7 +2373,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2408,7 +2408,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2443,7 +2443,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2478,7 +2478,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2519,7 +2519,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2561,7 +2561,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2596,7 +2596,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2632,7 +2632,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2674,7 +2674,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2709,7 +2709,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2745,7 +2745,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2781,7 +2781,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2816,7 +2816,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2851,7 +2851,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2887,7 +2887,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2923,7 +2923,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2959,7 +2959,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2994,7 +2994,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3029,7 +3029,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3065,7 +3065,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3101,7 +3101,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3137,7 +3137,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3172,7 +3172,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3207,7 +3207,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3243,7 +3243,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3285,7 +3285,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 11.5,
      "agent_band": "human-only",
@@ -3321,7 +3321,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3362,7 +3362,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3404,7 +3404,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3440,7 +3440,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3476,7 +3476,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3511,7 +3511,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3546,7 +3546,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 13.5,
      "agent_band": "human-only",
@@ -3582,7 +3582,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3624,7 +3624,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3666,7 +3666,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3708,7 +3708,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3743,7 +3743,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3778,7 +3778,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3813,7 +3813,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3849,7 +3849,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3884,7 +3884,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3919,7 +3919,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3954,7 +3954,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3989,7 +3989,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4024,7 +4024,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4059,7 +4059,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4094,7 +4094,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -4129,7 +4129,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4164,7 +4164,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4199,7 +4199,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4235,7 +4235,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4270,7 +4270,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,

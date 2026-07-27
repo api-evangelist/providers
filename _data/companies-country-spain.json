@@ -4,30 +4,30 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "developing",
-   "label": "Developing",
-   "range": "45–59.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 3,
-   "shown": 3,
+   "band": "strong",
+   "label": "Strong",
+   "range": "60–69.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "ZenRows",
      "slug": "zenrows",
      "description": "ZenRows is a Spanish web scraping platform headquartered in Madrid that lets developers collect public web data at scale without managing proxies, browsers, or CAPTCHAs. A single API key unlocks four products against a shared 55M+ residential IP pool across 190+ countries: the Universal Scraper API (HTTP scrape with JS rendering, anti-bot bypass, screenshots, CSS/AI extraction, and PDF/markdown output), the Scraping Browser (cloud Playwright/Puppeteer/CDP browser over WebSocket), Residential Proxies (HTTP/SOCKS5 with sticky sessions and country targeting), and a set of vertical Scraper APIs for Amazon, Google, Walmart, Zillow, and Idealista. ZenRows also ships first-party Python, Node.js, and Go SDKs, a Scrapy middleware, deep integrations across Playwright, Puppeteer, Selenium, Scrapy, LangChain, LlamaIndex, OpenAI Agents SDK, Zapier, n8n, Make, Pipedream, Node-RED, MuleSoft, Clay, and an official MCP server (hosted at https://mcp.zenrows.com/mcp and as @zenrows/mcp on npm) exposing scrape and 30+ browser automation tools to AI agents.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zenrows/refs/heads/main/screenshots/zenrows-2026-06-20T201820.png",
-     "score": 57.4,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 60.7,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 65.5,
+      "discoverability": 87.5,
+      "contract_quality": 70.8,
       "governance": 86.8,
       "operational_transparency": 52.6,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 55.8,
      "agent_band": "agent-ready",
@@ -46,24 +46,35 @@
       "consent_identity": false
      },
      "rank": 1
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 2,
+   "shown": 2,
+   "companies": [
     {
      "name": "OpenMercantil",
      "slug": "openmercantil",
      "description": "OpenMercantil is an independent public-data API for Spanish company intelligence. It indexes the Boletin Oficial del Registro Mercantil (BORME) and cross-references it with 29+ public sources (CNMV, OEPM, PLACSP, BDNS, OpenSanctions, CCAA gazettes, CNMC, CENDOJ and more) to expose company search, structured company reports, registry event timelines, officer records, CNAE sector navigation, daily summaries, public-procurement rankings, a v1.4 cross-source trust score, and CSV/JSON exports. The public REST API is free, requires no API key, and is rate-limited per IP. The project is informational and does not replace official Registro Mercantil certificates.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/openmercantil/refs/heads/main/screenshots/openmercantil-2026-06-20T191016.png",
-     "score": 53.2,
+     "score": 56.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 65.5,
       "governance": 86.8,
       "operational_transparency": 31.6,
       "developer_ergonomics": 23.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -105,7 +116,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 65.4,
      "agent_band": "agent-native",
@@ -133,8 +144,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "BBVA",
@@ -152,7 +163,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -193,7 +204,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 57.7,
      "agent_band": "agent-ready",
@@ -229,7 +240,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 65.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 35.6,
      "agent_band": "agent-aware",
@@ -248,17 +259,52 @@
       "consent_identity": true
      },
      "rank": 6
+    },
+    {
+     "name": "Holded",
+     "slug": "holded",
+     "description": "Holded is a cloud-based all-in-one business management platform from Spain (now part of Visma) that combines ERP, CRM, accounting, invoicing, inventory, project management, HR, and team collaboration features for small and medium-sized businesses. The Holded REST API provides programmatic access to invoicing, contacts, products, accounting, projects, employees, and CRM data using a simple API key authentication scheme over JSON.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/screenshots/holded-2026-06-20T182811.png",
+     "score": 30.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 51.3,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 10.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 41.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 7
     }
-   ],
-   "open": true
+   ]
   },
   {
    "band": "emerging",
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 17,
-   "shown": 17,
+   "count": 16,
+   "shown": 16,
    "companies": [
     {
      "name": "Universitat Pompeu Fabra",
@@ -276,7 +322,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -300,42 +346,6 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 7
-    },
-    {
-     "name": "Holded",
-     "slug": "holded",
-     "description": "Holded is a cloud-based all-in-one business management platform from Spain (now part of Visma) that combines ERP, CRM, accounting, invoicing, inventory, project management, HR, and team collaboration features for small and medium-sized businesses. The Holded REST API provides programmatic access to invoicing, contacts, products, accounting, projects, employees, and CRM data using a simple API key authentication scheme over JSON.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/holded/refs/heads/main/screenshots/holded-2026-06-20T182811.png",
-     "score": 26.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 51.3,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 10.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 41.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
      "rank": 8
     },
     {
@@ -353,7 +363,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -395,7 +405,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -431,7 +441,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -473,7 +483,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -509,7 +519,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -545,7 +555,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -581,7 +591,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -623,7 +633,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -665,7 +675,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -707,7 +717,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -749,7 +759,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -791,7 +801,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -833,7 +843,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -869,7 +879,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -910,7 +920,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -956,7 +966,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -992,7 +1002,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1034,7 +1044,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1069,7 +1079,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1105,7 +1115,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1141,7 +1151,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

@@ -8,26 +8,26 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 2,
-   "shown": 2,
+   "count": 3,
+   "shown": 3,
    "companies": [
     {
-     "name": "AMC Entertainment Holdings",
-     "slug": "amc-entertainment-holdings",
-     "description": "AMC Entertainment Holdings is the largest movie exhibition company in the United States and the world, operating AMC Theatres, AMC Stubs loyalty programs, and related entertainment brands. AMC publishes a public developer portal at developers.amctheatres.com that exposes a REST API for movies, showtimes, theatres, locations, seating, ticketing, concessions, AMC Stubs loyalty, refunds, fee waivers, barcodes, and webhooks. The API is the primary integration surface for distributors, partners, and third-party developers building movie discovery, ticket sales, and AMC Stubs co-marketing experiences.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/screenshots/amc-entertainment-holdings-2026-06-20T171856.png",
-     "score": 48.1,
+     "name": "Warner Bros. Discovery",
+     "slug": "warner-bros-discovery",
+     "description": "Warner Bros. Discovery is a leading global media and entertainment company that creates and distributes the world's most differentiated and complete portfolio of branded content across television, film, and streaming. WBD operates the Max streaming platform, Warner Bros. film studio, HBO, CNN, Discovery, TNT, TBS, and many other brands. The company provides content partner APIs for media supply chain integration and maintains open source projects through its engineering teams.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/screenshots/warner-bros-discovery-2026-06-20T201227.png",
+     "score": 52.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 60.6,
+      "discoverability": 100.0,
+      "contract_quality": 73.5,
       "governance": 73.7,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 50.0
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -48,22 +48,22 @@
      "rank": 1
     },
     {
-     "name": "Warner Bros. Discovery",
-     "slug": "warner-bros-discovery",
-     "description": "Warner Bros. Discovery is a leading global media and entertainment company that creates and distributes the world's most differentiated and complete portfolio of branded content across television, film, and streaming. WBD operates the Max streaming platform, Warner Bros. film studio, HBO, CNN, Discovery, TNT, TBS, and many other brands. The company provides content partner APIs for media supply chain integration and maintains open source projects through its engineering teams.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/screenshots/warner-bros-discovery-2026-06-20T201227.png",
-     "score": 47.5,
+     "name": "AMC Entertainment Holdings",
+     "slug": "amc-entertainment-holdings",
+     "description": "AMC Entertainment Holdings is the largest movie exhibition company in the United States and the world, operating AMC Theatres, AMC Stubs loyalty programs, and related entertainment brands. AMC publishes a public developer portal at developers.amctheatres.com that exposes a REST API for movies, showtimes, theatres, locations, seating, ticketing, concessions, AMC Stubs loyalty, refunds, fee waivers, barcodes, and webhooks. The API is the primary integration surface for distributors, partners, and third-party developers building movie discovery, ticket sales, and AMC Stubs co-marketing experiences.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amc-entertainment-holdings/refs/heads/main/screenshots/amc-entertainment-holdings-2026-06-20T171856.png",
+     "score": 50.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 67.5,
-      "contract_quality": 68.1,
+      "contract_quality": 69.5,
       "governance": 73.7,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 28.9
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -82,34 +82,23 @@
       "consent_identity": false
      },
      "rank": 2
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 2,
-   "shown": 2,
-   "companies": [
+    },
     {
      "name": "Walt Disney",
      "slug": "walt-disney",
      "description": "The Walt Disney Company is a leading diversified international family entertainment and media enterprise with operations across media networks, parks and resorts, studio entertainment, and direct-to-consumer streaming. Disney's developer APIs and open source projects enable partners and developers to integrate Disney content, characters, and experiences into their applications.",
-     "score": 43.9,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 48.5,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 60.0,
-      "contract_quality": 63.7,
+      "discoverability": 92.5,
+      "contract_quality": 69.0,
       "governance": 73.7,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 38.5,
      "agent_band": "agent-aware",
@@ -128,24 +117,35 @@
       "consent_identity": false
      },
      "rank": 3
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 1,
+   "shown": 1,
+   "companies": [
     {
      "name": "Disney API",
      "slug": "disney",
      "description": "Community-maintained RESTful and GraphQL API exposing a database of 9,820+ Disney characters and the films, short films, TV shows, video games, and park attractions they appear in. The project (BSD-3-Clause) is developed in the open by Manu Castrillon at https://github.com/ManuCastrillonM/disney-api and documented at https://disneyapi.dev. The REST surface is unauthenticated and read-only. Disney and Disney characters are trademarks of The Walt Disney Company; this project is community fan-content and is not affiliated with or endorsed by Disney.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/screenshots/disney-2026-06-20T180046.png",
-     "score": 40.5,
+     "score": 43.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 61.9,
       "governance": 86.8,
       "operational_transparency": 47.4,
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 45.2,
      "agent_band": "agent-ready",
@@ -192,7 +192,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -237,7 +237,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -273,7 +273,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -308,7 +308,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -344,7 +344,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -379,7 +379,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -415,7 +415,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -450,7 +450,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -486,7 +486,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -522,7 +522,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -558,7 +558,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -594,7 +594,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

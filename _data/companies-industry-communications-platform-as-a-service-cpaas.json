@@ -16,18 +16,18 @@
      "slug": "twilio",
      "description": "Cloud communications platform providing APIs for SMS, voice, video, and authentication services. Twilio offers 30+ APIs covering messaging, voice, video, email, identity verification, IoT connectivity, and contact center solutions. Used by over 10 million developers globally with SDKs for Node.js, Python, Ruby, Java, PHP, C#, and Go.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/twilio/refs/heads/main/screenshots/twilio-2026-06-20T165933.png",
-     "score": 75.6,
+     "score": 76.8,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 80.0,
       "contract_quality": 61.8,
       "governance": 73.7,
       "operational_transparency": 94.7,
       "developer_ergonomics": 84.8,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 77.9,
      "agent_band": "agent-native",
@@ -55,26 +55,26 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 1,
-   "shown": 1,
+   "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "Zoom",
      "slug": "zoom",
      "description": "Zoom is a communications platform that allows users to connect with video, audio, phone, and chat. The Zoom API provides programmatic access to Zoom's core features including meetings, webinars, recordings, users, and more.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/zoom/refs/heads/main/screenshots/zoom-2026-06-20T165938.png",
-     "score": 61.4,
+     "score": 66.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 66.8,
+      "discoverability": 92.5,
+      "contract_quality": 75.6,
       "governance": 52.6,
       "operational_transparency": 63.2,
       "developer_ergonomics": 56.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 61.5,
      "agent_band": "agent-native",
@@ -93,6 +93,41 @@
       "consent_identity": false
      },
      "rank": 2
+    },
+    {
+     "name": "AT&T",
+     "slug": "att",
+     "description": "AT&T Inc. is a multinational telecommunications holding company providing wireless and wireline communications, broadband, and business networking to consumers and enterprises. Its developer surface spans four programs: the legacy AT&T Developer Program (SMS, MMS, in-app messaging, speech and OAuth), the MVNX APIs for mobile virtual network operators, the Alliance enterprise wireline APIs for service qualification and ordering, and the invite-only Network API Accelerator Program exposing GSMA CAMARA network APIs — SIM swap, device status, number verification, quality on demand, network insights and mobility threat detection.",
+     "score": 61.9,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 70.6,
+      "governance": 86.8,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 45.7,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 3
     }
    ],
    "open": true
@@ -121,7 +156,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -139,7 +174,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 3
+     "rank": 4
     }
    ]
   },
@@ -167,7 +202,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -185,7 +220,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 4
+     "rank": 5
     }
    ]
   },
@@ -194,8 +229,8 @@
    "label": "Minimal",
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 3,
-   "shown": 3,
+   "count": 2,
+   "shown": 2,
    "companies": [
     {
      "name": "West Technology Group",
@@ -213,7 +248,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -237,7 +272,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 5
+     "rank": 6
     },
     {
      "name": "T-Mobile",
@@ -254,42 +289,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 6
-    },
-    {
-     "name": "AT&T",
-     "slug": "att",
-     "description": "AT&T Inc. is a multinational telecommunications holding company providing wireless and wireline communications, broadband, and business networking to consumers and enterprises. Its developer surface spans four programs: the legacy AT&T Developer Program (SMS, MMS, in-app messaging, speech and OAuth), the MVNX APIs for mobile virtual network operators, the Alliance enterprise wireline APIs for service qualification and ordering, and the invite-only Network API Accelerator Program exposing GSMA CAMARA network APIs — SIM swap, device status, number verification, quality on demand, network insights and mobility threat detection.",
-     "score": 6.7,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 60.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

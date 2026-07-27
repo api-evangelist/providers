@@ -8,26 +8,26 @@
    "label": "Exemplar",
    "range": "70+",
    "blurb": "Reference-quality API operations across every facet.",
-   "count": 9,
-   "shown": 9,
+   "count": 10,
+   "shown": 10,
    "companies": [
     {
      "name": "Alpaca",
      "slug": "alpaca",
      "description": "Alpaca is an API-first commission-free stock and crypto trading broker offering trading, market data, options, and broker-as-a-service APIs. Alpaca publishes its OpenAPI specifications publicly via the alpacahq/alpaca-docs GitHub repository, with separate specs for Trading, Broker, Market Data, and OAuth.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alpaca/refs/heads/main/screenshots/alpaca-2026-06-20T171542.png",
-     "score": 83.7,
+     "score": 86.4,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 69.0,
       "governance": 60.5,
       "operational_transparency": 86.8,
       "developer_ergonomics": 91.3,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -55,65 +55,22 @@
      "rank": 1
     },
     {
-     "name": "Tradier",
-     "slug": "tradier",
-     "description": "Tradier is a brokerage platform offering REST and WebSocket APIs for trading US equities, options, and futures, plus market data and account-opening services. The Tradier Brokerage API exposes account, trading, market data, fundamentals, watchlist, and streaming endpoints under a single base URL.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/screenshots/tradier-2026-06-20T195526.png",
-     "score": 76.0,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 56.9,
-      "governance": 52.6,
-      "operational_transparency": 78.9,
-      "developer_ergonomics": 80.4,
-      "commercial_clarity": 84.2
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 89.1
-     },
-     "agent_score": 84.6,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "tier": "Developer-First",
-     "rank": 2
-    },
-    {
      "name": "Polygon",
      "slug": "polygon",
      "description": "Polygon (Polygon.io, rebranded as Massive in early 2026) provides real-time and historical market data APIs across US stocks, options, indices, forex, cryptocurrencies, and futures. Coverage is delivered through REST endpoints and WebSocket streams under a single api.polygon.io surface plus an S3 flat files product, with tiered subscription plans for retail developers and Business contracts for redistribution and exchange-licensed data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/polygon/refs/heads/main/screenshots/polygon-2026-06-20T191902.png",
-     "score": 75.3,
+     "score": 79.7,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 69.5,
+      "discoverability": 100.0,
+      "contract_quality": 77.1,
       "governance": 65.8,
       "operational_transparency": 68.4,
       "developer_ergonomics": 87.0,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -138,25 +95,25 @@
       "consent_identity": false
      },
      "tier": "Developer-First",
-     "rank": 3
+     "rank": 2
     },
     {
      "name": "Twelve Data",
      "slug": "twelvedata",
      "description": "Twelve Data is a financial market data provider offering real-time and historical data for stocks, forex, cryptocurrencies, ETFs, indices, commodities, and funds through a single REST API and a real-time WebSocket. Coverage spans time series (OHLCV), quotes and prices, 100-plus technical indicators, reference and catalog data, and company fundamentals. Every request is authenticated with an apikey and metered as API credits; a free Basic plan grants 800 API credits per day. Real-time price streaming is delivered over a WebSocket at wss://ws.twelvedata.com/v1/quotes/price.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/twelvedata/refs/heads/main/screenshots/twelvedata-2026-07-22T202655.png",
-     "score": 74.5,
+     "score": 77.3,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 64.4,
       "governance": 52.6,
       "operational_transparency": 73.7,
       "developer_ergonomics": 87.0,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -181,25 +138,25 @@
       "consent_identity": false
      },
      "tier": "Developer-First",
-     "rank": 4
+     "rank": 3
     },
     {
      "name": "EODHD",
      "slug": "eodhd",
      "description": "Access historical end-of-day stock prices, intraday data, US stock options, and real-time prices with free and advanced plans. EODHD provides financial data for 150,000+ tickers, including stocks, ETFs, funds, and currencies worldwide, through 68+ REST endpoints, WebSocket streaming, an official OpenAPI 3.1.0 specification, an OAuth-secured MCP server with 86 tools, and a published Claude Skills plugin.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/eodhd/refs/heads/main/screenshots/eodhd-2026-06-20T180745.png",
-     "score": 74.0,
+     "score": 76.8,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 69.7,
       "governance": 73.7,
       "operational_transparency": 52.6,
       "developer_ergonomics": 84.8,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -224,25 +181,25 @@
       "consent_identity": false
      },
      "tier": "Developer-First",
-     "rank": 5
+     "rank": 4
     },
     {
      "name": "Bloomberg",
      "slug": "bloomberg",
      "description": "Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring stories from Businessweek and Bloomberg News. Bloomberg provides a suite of developer APIs including BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png",
-     "score": 72.9,
+     "score": 76.5,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 69.0,
+      "discoverability": 87.5,
+      "contract_quality": 77.9,
       "governance": 86.8,
       "operational_transparency": 63.2,
       "developer_ergonomics": 73.9,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -267,6 +224,49 @@
       "consent_identity": true
      },
      "tier": "Enterprise Platform",
+     "rank": 5
+    },
+    {
+     "name": "Tradier",
+     "slug": "tradier",
+     "description": "Tradier is a brokerage platform offering REST and WebSocket APIs for trading US equities, options, and futures, plus market data and account-opening services. The Tradier Brokerage API exposes account, trading, market data, fundamentals, watchlist, and streaming endpoints under a single base URL.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tradier/refs/heads/main/screenshots/tradier-2026-06-20T195526.png",
+     "score": 76.0,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 56.9,
+      "governance": 52.6,
+      "operational_transparency": 78.9,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 84.2
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 89.1
+     },
+     "agent_score": 84.6,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "Developer-First",
      "rank": 6
     },
     {
@@ -274,18 +274,18 @@
      "slug": "alpha-vantage",
      "description": "Alpha Vantage provides a single REST market-data API at https://www.alphavantage.co/query exposing 100+ functions across stocks (intraday/daily/weekly/monthly time series, global quote), fundamentals (income statement, balance sheet, cash flow, earnings), forex, crypto, commodities, economic indicators, technical indicators (50+ TA functions), Alpha Intelligence (news, sentiment, insider transactions, top gainers/losers), and options data. Authentication is by apikey query parameter; output is JSON or CSV.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/alpha-vantage/refs/heads/main/screenshots/alpha-vantage-2026-06-20T171545.png",
-     "score": 72.5,
+     "score": 75.2,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 60.0,
+      "discoverability": 92.5,
       "contract_quality": 69.0,
       "governance": 86.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 82.6,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -317,18 +317,18 @@
      "slug": "factset",
      "description": "FactSet creates flexible, open data and software solutions for tens of thousands of investment professionals around the world, providing instant access to financial data and analytics that investors use to make crucial decisions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/factset/refs/heads/main/screenshots/factset-2026-06-20T181011.png",
-     "score": 71.4,
+     "score": 73.5,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 92.5,
       "contract_quality": 64.1,
       "governance": 86.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 89.1,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -356,119 +356,22 @@
      "rank": 8
     },
     {
-     "name": "Moody's",
-     "slug": "moodys",
-     "description": "Moody's provides a comprehensive suite of APIs spanning KYC compliance, economic data and forecasting, credit risk analytics, insurance and catastrophe modeling, climate risk, commercial real estate, and news aggregation. With evolving regulatory pressures and increasingly complex risk landscapes, Moody's technology, data, and analytical capabilities power industry-leading solutions across financial services, insurance, and risk management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png",
-     "score": 70.0,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 73.5,
-      "governance": 73.7,
-      "operational_transparency": 50.0,
-      "developer_ergonomics": 76.1,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 76.1
-     },
-     "agent_score": 81.7,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Enterprise Platform",
-     "rank": 9
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "strong",
-   "label": "Strong",
-   "range": "60–69.9",
-   "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 11,
-   "shown": 11,
-   "companies": [
-    {
-     "name": "DTN",
-     "slug": "dtn",
-     "description": "DTN is an operational intelligence company delivering weather, agriculture, energy, and commodity market data through a catalog of 36 published APIs on its developer portal. Coverage spans current conditions, point and probabilistic forecasts, 30-year station observation history, lightning, radar and map tiles, tropical cyclones, marine weather, aviation weather (METARs, TAFs, NOTAMs, PIREPs, SIGMETs, flight hazards), soil conditions, renewables production forecasting, refined fuels, and Prophet X commodity market data. All APIs authenticate with OAuth2 client credentials via the DTN Auth and Identity Service, publish OpenAPI specs and Postman collections, and stream real-time data over WebSocket and HTTP streaming surfaces.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/screenshots/dtn-2026-06-20T180300.png",
-     "score": 68.3,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 75.5,
-      "governance": 73.7,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 78.3,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 76.1
-     },
-     "agent_score": 81.7,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Feed & Infrastructure",
-     "rank": 10
-    },
-    {
      "name": "CryptoCompare",
      "slug": "cryptocompare",
      "description": "CryptoCompare (now CoinDesk Data / CCData, acquired by CoinDesk in late 2024) is a long-standing crypto market data aggregator covering 300+ exchanges, 10,000+ assets, and 300,000+ trading pairs. The platform exposes two REST API surfaces — the legacy min-api.cryptocompare.com (Price, Historical OHLCV, Top Lists, News, Social, Order Book, Exchanges, Blockchain) and the modern data-api.cryptocompare.com / CoinDesk Data API (Spot, Index / Reference Rates including CADLI and CCIX, Asset, News, On-Chain, Futures, Options, Overview) — plus a unified WebSocket streamer at wss://streamer.cryptocompare.com/v2 that multiplexes Trade, Ticker, CCCAGG aggregate index, Order Book L2 updates and snapshots, Full Volume, Top Tier Full Volume, OHLC Candles, and Top of Book channels. Authentication uses an API key supplied as the api_key query parameter or as an `Authorization: Apikey {key}` header. Access is metered by monthly call credits with per-second / per-minute / per-hour / per-day ceilings; the Free tier issues 100,000 monthly credits and commercial Starter / Professional / Enterprise tiers escalate credit budgets, history depth, and surface coverage (news, social, on-chain, derivatives, full streamer, on-demand bulk exports, reference-rate licensing).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/cryptocompare/refs/heads/main/screenshots/cryptocompare-2026-06-20T175310.png",
-     "score": 68.2,
-     "band": "strong",
-     "band_label": "Strong",
+     "score": 71.9,
+     "band": "exemplar",
+     "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 72.9,
+      "discoverability": 92.5,
+      "contract_quality": 80.5,
       "governance": 65.8,
       "operational_transparency": 60.5,
       "developer_ergonomics": 78.3,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -493,25 +396,79 @@
       "consent_identity": false
      },
      "tier": "Crypto Market Data",
-     "rank": 11
+     "rank": 9
     },
+    {
+     "name": "Moody's",
+     "slug": "moodys",
+     "description": "Moody's provides a comprehensive suite of APIs spanning KYC compliance, economic data and forecasting, credit risk analytics, insurance and catastrophe modeling, climate risk, commercial real estate, and news aggregation. With evolving regulatory pressures and increasingly complex risk landscapes, Moody's technology, data, and analytical capabilities power industry-leading solutions across financial services, insurance, and risk management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png",
+     "score": 70.0,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 73.5,
+      "governance": 73.7,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 76.1,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 76.1
+     },
+     "agent_score": 81.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Enterprise Platform",
+     "rank": 10
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "60–69.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 11,
+   "shown": 11,
+   "companies": [
     {
      "name": "StockData",
      "slug": "stockdata",
      "description": "StockData.org provides real-time, intraday, and historical stock, forex, and cryptocurrency data along with global financial news and sentiment analysis. The REST API delivers market data for US-listed stocks including OHLCV data, splits, dividends, and entity-level news sentiment from 5,000+ sources in 30+ languages.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/stockdata/refs/heads/main/screenshots/stockdata-2026-06-20T194552.png",
-     "score": 66.3,
+     "score": 69.1,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 65.5,
       "governance": 86.8,
       "operational_transparency": 31.6,
       "developer_ergonomics": 69.6,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -536,62 +493,25 @@
       "consent_identity": false
      },
      "tier": "Developer-First",
-     "rank": 12
-    },
-    {
-     "name": "S&P Global",
-     "slug": "sp-global",
-     "description": "S&P Global (NYSE SPGI) is the parent of S&P Global Ratings, S&P Global Market Intelligence, S&P Dow Jones Indices, S&P Global Commodity Insights (Platts), S&P Global Mobility, and S&P Global Sustainable1. Its public developer surface is anchored by Kensho Technologies (a wholly-owned S&P Global AI subsidiary) which ships REST APIs for the S&P Global LLM-ready API (kFinance), Extract, NERD, Scribe, and the Grounding Agent, plus the S&P Capital IQ Pro and Marketplace data products distributed through the S&P Global Marketplace.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/screenshots/sp-global-2026-06-20T194233.png",
-     "score": 66.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 72.0,
-      "governance": 65.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 69.6,
-      "commercial_clarity": 73.7
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 88.5,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": true,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Enterprise Platform",
-     "rank": 13
+     "rank": 11
     },
     {
      "name": "Databento",
      "slug": "databento",
      "description": "Databento is a market data platform that delivers historical and live financial market data through a single, normalized API. It covers equities, futures, options, and other asset classes across major venues, with full order book depth (MBO/MBP), trades, OHLCV bars, and reference data. Historical data is served over a REST HTTP API (hist.databento.com) with pay-as-you-go billing per byte streamed, while live data is delivered over a low-latency raw TCP binary protocol using Databento Binary Encoding (DBN). Official Python, C++, and Rust client libraries wrap both surfaces, and a Reference API provides security master, corporate actions, and adjustment factor data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/databento/refs/heads/main/screenshots/databento-2026-07-22T202314.png",
-     "score": 66.0,
+     "score": 68.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 59.1,
       "governance": 0.0,
       "operational_transparency": 81.6,
       "developer_ergonomics": 76.1,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -616,24 +536,104 @@
       "consent_identity": false
      },
      "tier": "Feed & Infrastructure",
+     "rank": 12
+    },
+    {
+     "name": "DTN",
+     "slug": "dtn",
+     "description": "DTN is an operational intelligence company delivering weather, agriculture, energy, and commodity market data through a catalog of 36 published APIs on its developer portal. Coverage spans current conditions, point and probabilistic forecasts, 30-year station observation history, lightning, radar and map tiles, tropical cyclones, marine weather, aviation weather (METARs, TAFs, NOTAMs, PIREPs, SIGMETs, flight hazards), soil conditions, renewables production forecasting, refined fuels, and Prophet X commodity market data. All APIs authenticate with OAuth2 client credentials via the DTN Auth and Identity Service, publish OpenAPI specs and Postman collections, and stream real-time data over WebSocket and HTTP streaming surfaces.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dtn/refs/heads/main/screenshots/dtn-2026-06-20T180300.png",
+     "score": 68.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 75.5,
+      "governance": 73.7,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 78.3,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 76.1
+     },
+     "agent_score": 81.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Feed & Infrastructure",
+     "rank": 13
+    },
+    {
+     "name": "S&P Global",
+     "slug": "sp-global",
+     "description": "S&P Global (NYSE SPGI) is the parent of S&P Global Ratings, S&P Global Market Intelligence, S&P Dow Jones Indices, S&P Global Commodity Insights (Platts), S&P Global Mobility, and S&P Global Sustainable1. Its public developer surface is anchored by Kensho Technologies (a wholly-owned S&P Global AI subsidiary) which ships REST APIs for the S&P Global LLM-ready API (kFinance), Extract, NERD, Scribe, and the Grounding Agent, plus the S&P Capital IQ Pro and Marketplace data products distributed through the S&P Global Marketplace.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sp-global/refs/heads/main/screenshots/sp-global-2026-06-20T194233.png",
+     "score": 68.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 72.0,
+      "governance": 65.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 69.6,
+      "commercial_clarity": 73.7
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 88.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": true,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Enterprise Platform",
      "rank": 14
     },
     {
      "name": "Financial Modeling Prep",
      "slug": "financial-modeling-prep",
      "description": "Financial Modeling Prep (FMP) provides financial market data via REST APIs, including real-time and historical stock quotes, company fundamentals, income statements, balance sheets, cash flow statements, financial ratios, insider transactions, earnings, dividends, ETF and mutual fund data, and economic indicators - with up to 30 years of historical coverage.",
-     "score": 64.8,
+     "score": 67.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 74.3,
       "governance": 0.0,
       "operational_transparency": 76.3,
       "developer_ergonomics": 60.9,
       "commercial_clarity": 86.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -661,108 +661,22 @@
      "rank": 15
     },
     {
-     "name": "ThetaData",
-     "slug": "thetadata",
-     "description": "ThetaData is a developer-first US market data vendor founded in 2022 by Bailey Danseglio, selling real-time and historical options, stocks, indices, and interest-rates data with unfiltered tick-level trades, quotes, and Greeks. Delivery is self-serve via the Theta Terminal, a local Java application that authenticates with an API key or account credentials and exposes a local REST API (127.0.0.1:25503/v3), a WebSocket streaming API (127.0.0.1:25520), and an MCP server, backed by a published OpenAPI 3.1 spec, Python library, flat files, and tiered monthly subscriptions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/screenshots/thetadata-2026-07-22T202634.png",
-     "score": 63.1,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 57.9,
-      "governance": 0.0,
-      "operational_transparency": 81.6,
-      "developer_ergonomics": 71.7,
-      "commercial_clarity": 76.3
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 54.3
-     },
-     "agent_score": 64.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": true,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Developer-First",
-     "rank": 16
-    },
-    {
-     "name": "Tiingo",
-     "slug": "tiingo",
-     "description": "Tiingo provides high-quality financial market data APIs across US equities, crypto, FX, fundamentals, and news, popular among quantitative researchers. APIs include End-of-Day prices, IEX intraday data, Crypto, Forex, Fundamentals, and News, with REST and WebSocket access at api.tiingo.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/screenshots/tiingo-2026-06-20T195345.png",
-     "score": 62.9,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 55.8,
-      "governance": 0.0,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 73.9,
-      "commercial_clarity": 84.2
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 54.3
-     },
-     "agent_score": 77.9,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Developer-First",
-     "rank": 17
-    },
-    {
      "name": "Market Data",
      "slug": "marketdata-app",
      "description": "Market Data (marketdata.app) is a financial market data provider offering a REST API for real-time and historical U.S. stock, options, and index data. The API (base https://api.marketdata.app/v1, Bearer-token authenticated) covers stock candles and quotes - single and bulk - plus earnings and news; full options chains with per-contract quotes, expirations, strikes, and OCC symbol lookup; index candles and quotes; and market open/closed status. Responses are JSON or CSV and are billed on a daily API-credit model, where multi-symbol responses (bulk quotes, options chains) consume one credit per symbol. A 30-day trial, a Free Forever tier, and paid Starter, Trader, and Prime plans are available. Note that the API may return HTTP 203 from its caching tier and clients must treat it as success.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/marketdata-app/refs/heads/main/screenshots/marketdata-app-2026-07-22T202452.png",
-     "score": 62.8,
+     "score": 65.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 58.4,
       "governance": 0.0,
       "operational_transparency": 73.7,
       "developer_ergonomics": 82.6,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -787,25 +701,25 @@
       "consent_identity": false
      },
      "tier": "Developer-First",
-     "rank": 18
+     "rank": 16
     },
     {
      "name": "Amberdata",
      "slug": "amberdata",
      "description": "Amberdata delivers institutional-grade digital asset and blockchain data through its REST API at https://api.amberdata.com. Coverage spans spot market data (prices, OHLCV, tickers, trades, order books), derivatives across futures and options (funding rates, open interest, liquidations, implied volatility, Greeks), DeFi (DEX trades and lending), and on-chain blockchain data (blocks, transactions, addresses, tokens, transfers), plus low-latency WebSocket streaming.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/amberdata/refs/heads/main/screenshots/amberdata-2026-07-22T202146.png",
-     "score": 62.0,
+     "score": 64.8,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 57.5,
       "governance": 52.6,
       "operational_transparency": 76.3,
       "developer_ergonomics": 69.6,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -830,6 +744,92 @@
       "consent_identity": false
      },
      "tier": "Crypto Market Data",
+     "rank": 17
+    },
+    {
+     "name": "ThetaData",
+     "slug": "thetadata",
+     "description": "ThetaData is a developer-first US market data vendor founded in 2022 by Bailey Danseglio, selling real-time and historical options, stocks, indices, and interest-rates data with unfiltered tick-level trades, quotes, and Greeks. Delivery is self-serve via the Theta Terminal, a local Java application that authenticates with an API key or account credentials and exposes a local REST API (127.0.0.1:25503/v3), a WebSocket streaming API (127.0.0.1:25520), and an MCP server, backed by a published OpenAPI 3.1 spec, Python library, flat files, and tiered monthly subscriptions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thetadata/refs/heads/main/screenshots/thetadata-2026-07-22T202634.png",
+     "score": 63.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 57.9,
+      "governance": 0.0,
+      "operational_transparency": 81.6,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 54.3
+     },
+     "agent_score": 64.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Developer-First",
+     "rank": 18
+    },
+    {
+     "name": "Tiingo",
+     "slug": "tiingo",
+     "description": "Tiingo provides high-quality financial market data APIs across US equities, crypto, FX, fundamentals, and news, popular among quantitative researchers. APIs include End-of-Day prices, IEX intraday data, Crypto, Forex, Fundamentals, and News, with REST and WebSocket access at api.tiingo.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tiingo/refs/heads/main/screenshots/tiingo-2026-06-20T195345.png",
+     "score": 62.9,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 55.8,
+      "governance": 0.0,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 84.2
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 54.3
+     },
+     "agent_score": 77.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Developer-First",
      "rank": 19
     },
     {
@@ -837,18 +837,18 @@
      "slug": "kaiko",
      "description": "Kaiko is an institutional-grade crypto market data provider. Its product line spans Kaiko REST (historical and reference data), Kaiko Stream (real-time WebSocket and gRPC), Cloud Delivery (S3 and Snowflake direct shares), Kaiko On-chain, and Kaiko Indices (regulated benchmark indices). Authentication uses API keys; access is sales-led.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kaiko/refs/heads/main/screenshots/kaiko-2026-06-20T183855.png",
-     "score": 60.2,
+     "score": 61.9,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 87.5,
       "contract_quality": 56.6,
       "governance": 0.0,
       "operational_transparency": 57.9,
       "developer_ergonomics": 78.3,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -874,34 +874,23 @@
      },
      "tier": "Crypto Market Data",
      "rank": 20
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "45–59.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 21,
-   "shown": 21,
-   "companies": [
+    },
     {
      "name": "Barchart",
      "slug": "barchart",
      "description": "Barchart is a leading provider of market data and commodity data, delivering real-time, delayed, and historical financial and reference data across equities, futures, options, forex, cryptocurrencies, ETFs, mutual funds, indexes, and physical commodities. The Barchart OnDemand API is a commercially licensed REST/JSON (also XML and CSV) service hosted at ondemand.websol.barchart.com, authenticated with an apikey and packaged into subscription and enterprise plans. It exposes a broad documented endpoint catalog - getQuote, getHistory, getEquitiesByExchange, getFuturesOptions, getProfile, getCrypto, getGrainBids, getNews, and dozens more - covering quotes, historical time series, fundamentals, corporate actions, options analytics, agricultural and energy commodity data, technicals, and news.",
-     "score": 58.6,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 61.4,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 61.9,
       "governance": 0.0,
       "operational_transparency": 52.6,
       "developer_ergonomics": 67.4,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -927,239 +916,35 @@
      },
      "tier": "Developer-First",
      "rank": 21
-    },
-    {
-     "name": "Coin Metrics",
-     "slug": "coin-metrics",
-     "description": "Coin Metrics is a Boston-based crypto financial intelligence provider founded in 2017, selling institutional-grade cryptoasset network (on-chain) data, exchange market data (trades, quotes, order books, candles, derivatives), CMBI indexes, reference rates, and reference/security-master data. Everything is delivered through a single documented API v4 - REST at api.coinmetrics.io/v4 and WebSocket streaming at wss://api.coinmetrics.io/v4 as paid, API-key products - plus a free, keyless Community API at community-api.coinmetrics.io/v4 under a CC BY-NC 4.0 license, with flat files, Python and R clients, and Google Sheets as additional delivery channels. A complete OpenAPI 3.0.2 definition is published on the docs site. Coin Metrics is now part of Talos: coinmetrics.io 301-redirects to talos.com/our-solutions/data/overview, while docs.coinmetrics.io and the api/community-api hosts remain live under the Coin Metrics brand.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coin-metrics/refs/heads/main/screenshots/coin-metrics-2026-07-22T202257.png",
-     "score": 57.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 70.7,
-      "governance": 0.0,
-      "operational_transparency": 60.5,
-      "developer_ergonomics": 80.4,
-      "commercial_clarity": 31.6
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 54.3
-     },
-     "agent_score": 77.9,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Crypto Market Data",
-     "rank": 22
-    },
-    {
-     "name": "Deutsche Börse",
-     "slug": "deutsche-boerse",
-     "description": "Deutsche Börse AG is the Frankfurt-based, publicly listed (FWB DB1) exchange organization behind the Frankfurt Stock Exchange and Xetra cash market, the Eurex derivatives exchange, EEX, 360T, Clearstream post-trade services, and the ISS STOXX index and analytics business. Its Market Data + Services arm sells real-time, historical, and reference market data, delivered through a self-serve Group API platform (developer.deutsche-boerse.com, API-key gated REST and GraphQL), the A7 Analytics Platform cloud REST API for nanosecond order-by-order Eurex/Xetra/EEX/CME history, a Cloud Stream WebSocket feed, licensed low-latency feeds, and the Datashop for commercial data purchases.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/screenshots/deutsche-boerse-2026-07-22T202326.png",
-     "score": 56.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 67.9,
-      "governance": 0.0,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 73.9,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 67.4
-     },
-     "agent_score": 70.2,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "tier": "Exchange Data Arm",
-     "rank": 23
-    },
-    {
-     "name": "London Stock Exchange Group",
-     "slug": "london-stock-exchange-group",
-     "description": "London Stock Exchange Group plc is a United Kingdom-based stock exchange and financial information company headquartered in the City of London, England. LSEG provides capital markets, data and analytics, risk management, and post-trade services including the World-Check screening platform for KYC and anti-money-laundering due diligence.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/london-stock-exchange-group/refs/heads/main/screenshots/london-stock-exchange-group-2026-06-20T184706.png",
-     "score": 56.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 37.7,
-      "governance": 0.0,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 80.4,
-      "commercial_clarity": 73.7
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 54.3
-     },
-     "agent_score": 76.0,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Enterprise Platform",
-     "rank": 24
-    },
-    {
-     "name": "Benzinga",
-     "slug": "benzinga",
-     "description": "Benzinga is a Detroit-based financial media and market data company (founded 2010, acquired by Beringer Capital in 2021) that licenses its newsroom and data products through a developer-first API platform at docs.benzinga.com. Products span real-time financial news (Newsfeed, Press Releases, Why Is It Moving), quantified news sentiment, a deep corporate-events Calendar (earnings, dividends, ratings, IPOs, splits, economics, FDA, M&A, government and insider trades), delayed quotes, historical OHLCV bars, fundamentals, logos, ticker trends, and earnings-call transcripts. Delivery is REST over https://api.benzinga.com with API-key auth, plus WebSocket streams, a TCP streaming service (tcp-v1.benzinga.io:11337), and a data webhook engine. OpenAPI and AsyncAPI specs are published in the public Benzinga/benzinga-docs GitHub repo. Access is licensing-led with a developer console registration flow; no public pricing page.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/benzinga/refs/heads/main/screenshots/benzinga-2026-07-22T202216.png",
-     "score": 56.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 66.4,
-      "governance": 0.0,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 73.9,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 67.4
-     },
-     "agent_score": 63.5,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "tier": "Developer-First",
-     "rank": 25
-    },
-    {
-     "name": "Dow Jones",
-     "slug": "dow-jones",
-     "description": "Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png",
-     "score": 55.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 60.4,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 78.3,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 76.1
-     },
-     "agent_score": 75.0,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Enterprise Platform",
-     "rank": 26
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 20,
+   "shown": 20,
+   "companies": [
     {
      "name": "Finnhub",
      "slug": "finnhub",
      "description": "With the sole mission of democratizing financial data, we are proud to offer a FREE realtime API for stocks, forex and cryptocurrency. With this API, you can access realtime market data from stock exchanges, 10 forex brokers, and 15+ crypto exchanges.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/finnhub/refs/heads/main/screenshots/finnhub-2026-06-20T181219.png",
-     "score": 55.3,
+     "score": 58.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 63.0,
       "governance": 52.6,
       "operational_transparency": 36.8,
       "developer_ergonomics": 56.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1184,6 +969,221 @@
       "consent_identity": false
      },
      "tier": "Developer-First",
+     "rank": 22
+    },
+    {
+     "name": "Coin Metrics",
+     "slug": "coin-metrics",
+     "description": "Coin Metrics is a Boston-based crypto financial intelligence provider founded in 2017, selling institutional-grade cryptoasset network (on-chain) data, exchange market data (trades, quotes, order books, candles, derivatives), CMBI indexes, reference rates, and reference/security-master data. Everything is delivered through a single documented API v4 - REST at api.coinmetrics.io/v4 and WebSocket streaming at wss://api.coinmetrics.io/v4 as paid, API-key products - plus a free, keyless Community API at community-api.coinmetrics.io/v4 under a CC BY-NC 4.0 license, with flat files, Python and R clients, and Google Sheets as additional delivery channels. A complete OpenAPI 3.0.2 definition is published on the docs site. Coin Metrics is now part of Talos: coinmetrics.io 301-redirects to talos.com/our-solutions/data/overview, while docs.coinmetrics.io and the api/community-api hosts remain live under the Coin Metrics brand.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coin-metrics/refs/heads/main/screenshots/coin-metrics-2026-07-22T202257.png",
+     "score": 57.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 70.7,
+      "governance": 0.0,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 31.6
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 54.3
+     },
+     "agent_score": 77.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Crypto Market Data",
+     "rank": 23
+    },
+    {
+     "name": "Deutsche Börse",
+     "slug": "deutsche-boerse",
+     "description": "Deutsche Börse AG is the Frankfurt-based, publicly listed (FWB DB1) exchange organization behind the Frankfurt Stock Exchange and Xetra cash market, the Eurex derivatives exchange, EEX, 360T, Clearstream post-trade services, and the ISS STOXX index and analytics business. Its Market Data + Services arm sells real-time, historical, and reference market data, delivered through a self-serve Group API platform (developer.deutsche-boerse.com, API-key gated REST and GraphQL), the A7 Analytics Platform cloud REST API for nanosecond order-by-order Eurex/Xetra/EEX/CME history, a Cloud Stream WebSocket feed, licensed low-latency feeds, and the Datashop for commercial data purchases.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/deutsche-boerse/refs/heads/main/screenshots/deutsche-boerse-2026-07-22T202326.png",
+     "score": 56.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 67.9,
+      "governance": 0.0,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 67.4
+     },
+     "agent_score": 70.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "Exchange Data Arm",
+     "rank": 24
+    },
+    {
+     "name": "London Stock Exchange Group",
+     "slug": "london-stock-exchange-group",
+     "description": "London Stock Exchange Group plc is a United Kingdom-based stock exchange and financial information company headquartered in the City of London, England. LSEG provides capital markets, data and analytics, risk management, and post-trade services including the World-Check screening platform for KYC and anti-money-laundering due diligence.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/london-stock-exchange-group/refs/heads/main/screenshots/london-stock-exchange-group-2026-06-20T184706.png",
+     "score": 56.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 73.7
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 54.3
+     },
+     "agent_score": 76.0,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Enterprise Platform",
+     "rank": 25
+    },
+    {
+     "name": "Benzinga",
+     "slug": "benzinga",
+     "description": "Benzinga is a Detroit-based financial media and market data company (founded 2010, acquired by Beringer Capital in 2021) that licenses its newsroom and data products through a developer-first API platform at docs.benzinga.com. Products span real-time financial news (Newsfeed, Press Releases, Why Is It Moving), quantified news sentiment, a deep corporate-events Calendar (earnings, dividends, ratings, IPOs, splits, economics, FDA, M&A, government and insider trades), delayed quotes, historical OHLCV bars, fundamentals, logos, ticker trends, and earnings-call transcripts. Delivery is REST over https://api.benzinga.com with API-key auth, plus WebSocket streams, a TCP streaming service (tcp-v1.benzinga.io:11337), and a data webhook engine. OpenAPI and AsyncAPI specs are published in the public Benzinga/benzinga-docs GitHub repo. Access is licensing-led with a developer console registration flow; no public pricing page.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/benzinga/refs/heads/main/screenshots/benzinga-2026-07-22T202216.png",
+     "score": 56.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 66.4,
+      "governance": 0.0,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 67.4
+     },
+     "agent_score": 63.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "Developer-First",
+     "rank": 26
+    },
+    {
+     "name": "Dow Jones",
+     "slug": "dow-jones",
+     "description": "Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png",
+     "score": 55.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 60.4,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 78.3,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 76.1
+     },
+     "agent_score": 75.0,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Enterprise Platform",
      "rank": 27
     },
     {
@@ -1202,7 +1202,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1245,7 +1245,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1288,7 +1288,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1331,7 +1331,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1374,7 +1374,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1402,280 +1402,22 @@
      "rank": 32
     },
     {
-     "name": "CME Group",
-     "slug": "cme-group",
-     "description": "CME Group is the world's largest derivatives exchange and operator of the CME, CBOT, NYMEX, and COMEX markets, offering futures and options across interest rates, equity indexes, foreign exchange, energy, agricultural products, and metals. CME Group exposes a portfolio of REST and streaming APIs through its Data Services Portal - including CME Reference Data API, Real-Time Futures and Options Data API, CME Term SOFR API, FedWatch API, Greeks and Implied Volatility API, EUR/USD Cross Currency Basis Index API, the CME ClearPort API for OTC trade submission, and iLink/MDP 3.0 connectivity to CME Globex for execution and market data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/screenshots/cme-group-2026-06-20T174629.png",
-     "score": 51.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 63.2,
-      "developer_ergonomics": 65.2,
-      "commercial_clarity": 73.7
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 89.1
-     },
-     "agent_score": 27.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Exchange Data Arm",
-     "rank": 33
-    },
-    {
-     "name": "Marketstack",
-     "slug": "marketstack",
-     "description": "Marketstack is a real-time, intraday, and historical stock market data API from APILayer, delivering JSON data for tickers across 70+ global stock exchanges. The REST API covers end-of-day and intraday prices, real-time stock prices, splits, dividends, commodities, company ratings, market indexes, bonds, ETF holdings, currencies, timezones, and SEC EDGAR company filings and facts, all authenticated with a simple access_key query parameter.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/screenshots/marketstack-2026-06-20T184956.png",
-     "score": 50.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 37.7,
-      "governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 71.7,
-      "commercial_clarity": 76.3
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 54.3
-     },
-     "agent_score": 57.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Developer-First",
-     "rank": 34
-    },
-    {
-     "name": "Cboe Global Markets",
-     "slug": "cboe",
-     "description": "Cboe Global Markets is one of the world's largest exchange holding companies, operating options, futures, equities, and FX markets including the Cboe Options Exchange, home of the VIX Index and SPX options. Cboe offers market data programmatically through the Cboe DataShop platform and the LiveVol All Access API — a REST API suite covering real-time, delayed, and historical options and equities quotes and trades, Greeks and implied volatility analytics, earnings events, custom market scanners, and trade review — secured with OAuth 2.0 via the LiveVol identity service, plus free public delayed-quote JSON endpoints that back cboe.com quote pages.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cboe/refs/heads/main/screenshots/cboe-2026-06-20T174055.png",
-     "score": 50.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 63.2,
-      "developer_ergonomics": 67.4,
-      "commercial_clarity": 76.3
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 76.1
-     },
-     "agent_score": 39.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Exchange Data Arm",
-     "rank": 35
-    },
-    {
-     "name": "dxFeed",
-     "slug": "dxfeed",
-     "description": "dxFeed is a market data distributor and subsidiary of Devexperts, headquartered in Munich, delivering real-time, delayed, historical, and on-demand financial market data across equities, ETFs, futures, options, indices, FX, fixed income, and crypto (3.5M instruments, ~200,000 simultaneous streaming clients), plus reference data (instrument profiles, corporate actions, trading schedules), Morningstar-sourced fundamentals, options analytics, and news feeds. Delivery is developer-documented but sales-gated - production credentials (endpoint URLs, login, password) arrive via onboarding after contacting sales - across a REST web service with Server-Sent Events streaming, the dxLink WebSocket protocol (public AsyncAPI spec and live demo endpoint), a binary QD protocol over TCP, FIX, file-based historical/tick data extraction, and Java/C++/.NET/Swift/Go/JavaScript/Python client libraries.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/screenshots/dxfeed-2026-07-22T202337.png",
-     "score": 50.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 56.9,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 71.7,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 65.2
-     },
-     "agent_score": 59.6,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Feed & Infrastructure",
-     "rank": 36
-    },
-    {
-     "name": "B3 (Brasil Bolsa Balcão)",
-     "slug": "b3-exchange",
-     "description": "B3 S.A. - Brasil, Bolsa, Balcão is the Brazilian exchange and financial market infrastructure operator formed by the 2017 merger of BM&FBOVESPA and Cetip, running trading, clearing, central depository, and OTC registration for equities, derivatives, fixed income, and FX. Its public B3 for Developers portal documents 114 B2B REST APIs (OAuth 2.0 client credentials and ROPC) across investor-area, OTC (Balcão), listed-markets, Tesouro Direto, Banco B3, and insurance domains. Real-time market data is distributed through the UMDF multicast feed (FIX/FAST and Binary SBE, L1/L2) via authorized distributors, and end-of-day plus reference data through the UP2DATA file service (TXT/CSV/JSON/XML via client software or cloud). All API and data access is contract-gated for institutions - B3 explicitly offers no self-serve access for individuals.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/screenshots/b3-exchange-2026-07-22T202200.png",
-     "score": 49.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 37.7,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 71.7,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 89.1
-     },
-     "agent_score": 57.7,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "tier": "Exchange Data Arm",
-     "rank": 37
-    },
-    {
-     "name": "QUODD",
-     "slug": "quodd",
-     "description": "QUODD is a cloud-native market data provider delivering real-time, delayed, historical, end-of-day, and point-in-time pricing, plus reference data, a security master, fundamentals, estimates, corporate actions, ESG, and news across global equities, ETFs, options, fixed income, FX, funds, and indices. The QUODD Developer Platform (developer.quodd.com) exposes market data through REST and gRPC snapshot APIs, token-based authentication, and cloud delivery options - Cloud APIs, Cloud Streaming, Cloud Alerts, Cloud Search, and Cloud Files. QUODD advertises more than 250 billion data points across 150-plus global exchanges. Developer documentation is public, but production access is gated behind trial or firm credentials and enterprise contact-sales agreements; exact REST base URLs and full endpoint paths are not published openly.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/screenshots/quodd-2026-07-22T202600.png",
-     "score": 49.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 58.4,
-      "governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 50.0,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 54.3
-     },
-     "agent_score": 72.1,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Feed & Infrastructure",
-     "rank": 38
-    },
-    {
      "name": "Intercontinental Exchange",
      "slug": "intercontinental-exchange",
      "description": "Intercontinental Exchange (ICE) operates global exchanges, clearing houses, and data services for financial and commodity markets, including the New York Stock Exchange (NYSE). ICE provides multiple developer portals including the Developer Center at developer.theice.com for market data APIs, the IDS Portal for real-time data integration, and the ICE Mortgage Technology Developer Portal for lending application development.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/screenshots/intercontinental-exchange-2026-06-20T183442.png",
-     "score": 48.7,
+     "score": 51.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 50.4,
       "governance": 0.0,
       "operational_transparency": 42.1,
       "developer_ergonomics": 39.1,
       "commercial_clarity": 65.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1700,6 +1442,264 @@
       "consent_identity": false
      },
      "tier": "Exchange Data Arm",
+     "rank": 33
+    },
+    {
+     "name": "CME Group",
+     "slug": "cme-group",
+     "description": "CME Group is the world's largest derivatives exchange and operator of the CME, CBOT, NYMEX, and COMEX markets, offering futures and options across interest rates, equity indexes, foreign exchange, energy, agricultural products, and metals. CME Group exposes a portfolio of REST and streaming APIs through its Data Services Portal - including CME Reference Data API, Real-Time Futures and Options Data API, CME Term SOFR API, FedWatch API, Greeks and Implied Volatility API, EUR/USD Cross Currency Basis Index API, the CME ClearPort API for OTC trade submission, and iLink/MDP 3.0 connectivity to CME Globex for execution and market data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/screenshots/cme-group-2026-06-20T174629.png",
+     "score": 51.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 73.7
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 89.1
+     },
+     "agent_score": 27.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Exchange Data Arm",
+     "rank": 34
+    },
+    {
+     "name": "Marketstack",
+     "slug": "marketstack",
+     "description": "Marketstack is a real-time, intraday, and historical stock market data API from APILayer, delivering JSON data for tickers across 70+ global stock exchanges. The REST API covers end-of-day and intraday prices, real-time stock prices, splits, dividends, commodities, company ratings, market indexes, bonds, ETF holdings, currencies, timezones, and SEC EDGAR company filings and facts, all authenticated with a simple access_key query parameter.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/marketstack/refs/heads/main/screenshots/marketstack-2026-06-20T184956.png",
+     "score": 50.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 54.3
+     },
+     "agent_score": 57.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Developer-First",
+     "rank": 35
+    },
+    {
+     "name": "Cboe Global Markets",
+     "slug": "cboe",
+     "description": "Cboe Global Markets is one of the world's largest exchange holding companies, operating options, futures, equities, and FX markets including the Cboe Options Exchange, home of the VIX Index and SPX options. Cboe offers market data programmatically through the Cboe DataShop platform and the LiveVol All Access API — a REST API suite covering real-time, delayed, and historical options and equities quotes and trades, Greeks and implied volatility analytics, earnings events, custom market scanners, and trade review — secured with OAuth 2.0 via the LiveVol identity service, plus free public delayed-quote JSON endpoints that back cboe.com quote pages.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cboe/refs/heads/main/screenshots/cboe-2026-06-20T174055.png",
+     "score": 50.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 67.4,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 76.1
+     },
+     "agent_score": 39.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Exchange Data Arm",
+     "rank": 36
+    },
+    {
+     "name": "dxFeed",
+     "slug": "dxfeed",
+     "description": "dxFeed is a market data distributor and subsidiary of Devexperts, headquartered in Munich, delivering real-time, delayed, historical, and on-demand financial market data across equities, ETFs, futures, options, indices, FX, fixed income, and crypto (3.5M instruments, ~200,000 simultaneous streaming clients), plus reference data (instrument profiles, corporate actions, trading schedules), Morningstar-sourced fundamentals, options analytics, and news feeds. Delivery is developer-documented but sales-gated - production credentials (endpoint URLs, login, password) arrive via onboarding after contacting sales - across a REST web service with Server-Sent Events streaming, the dxLink WebSocket protocol (public AsyncAPI spec and live demo endpoint), a binary QD protocol over TCP, FIX, file-based historical/tick data extraction, and Java/C++/.NET/Swift/Go/JavaScript/Python client libraries.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dxfeed/refs/heads/main/screenshots/dxfeed-2026-07-22T202337.png",
+     "score": 50.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 56.9,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 65.2
+     },
+     "agent_score": 59.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Feed & Infrastructure",
+     "rank": 37
+    },
+    {
+     "name": "B3 (Brasil Bolsa Balcão)",
+     "slug": "b3-exchange",
+     "description": "B3 S.A. - Brasil, Bolsa, Balcão is the Brazilian exchange and financial market infrastructure operator formed by the 2017 merger of BM&FBOVESPA and Cetip, running trading, clearing, central depository, and OTC registration for equities, derivatives, fixed income, and FX. Its public B3 for Developers portal documents 114 B2B REST APIs (OAuth 2.0 client credentials and ROPC) across investor-area, OTC (Balcão), listed-markets, Tesouro Direto, Banco B3, and insurance domains. Real-time market data is distributed through the UMDF multicast feed (FIX/FAST and Binary SBE, L1/L2) via authorized distributors, and end-of-day plus reference data through the UP2DATA file service (TXT/CSV/JSON/XML via client software or cloud). All API and data access is contract-gated for institutions - B3 explicitly offers no self-serve access for individuals.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/b3-exchange/refs/heads/main/screenshots/b3-exchange-2026-07-22T202200.png",
+     "score": 49.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 89.1
+     },
+     "agent_score": 57.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "Exchange Data Arm",
+     "rank": 38
+    },
+    {
+     "name": "QUODD",
+     "slug": "quodd",
+     "description": "QUODD is a cloud-native market data provider delivering real-time, delayed, historical, end-of-day, and point-in-time pricing, plus reference data, a security master, fundamentals, estimates, corporate actions, ESG, and news across global equities, ETFs, options, fixed income, FX, funds, and indices. The QUODD Developer Platform (developer.quodd.com) exposes market data through REST and gRPC snapshot APIs, token-based authentication, and cloud delivery options - Cloud APIs, Cloud Streaming, Cloud Alerts, Cloud Search, and Cloud Files. QUODD advertises more than 250 billion data points across 150-plus global exchanges. Developer documentation is public, but production access is gated behind trial or firm credentials and enterprise contact-sales agreements; exact REST base URLs and full endpoint paths are not published openly.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/quodd/refs/heads/main/screenshots/quodd-2026-07-22T202600.png",
+     "score": 49.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 58.4,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 54.3
+     },
+     "agent_score": 72.1,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Feed & Infrastructure",
      "rank": 39
     },
     {
@@ -1718,7 +1718,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1761,7 +1761,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1814,7 +1814,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1857,7 +1857,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1900,7 +1900,7 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1943,7 +1943,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1986,7 +1986,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 26.3
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2029,7 +2029,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2072,7 +2072,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2115,7 +2115,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2158,7 +2158,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2201,7 +2201,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2254,7 +2254,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2297,7 +2297,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2340,7 +2340,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 25.0,
      "agent_band": "agent-aware",
@@ -2377,7 +2377,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2420,7 +2420,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2473,7 +2473,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2516,7 +2516,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,

@@ -27,7 +27,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -55,8 +55,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 6,
-   "shown": 6,
+   "count": 7,
+   "shown": 7,
    "companies": [
     {
      "name": "Southern Company",
@@ -74,7 +74,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -95,6 +95,42 @@
      "rank": 2
     },
     {
+     "name": "CMS Energy",
+     "slug": "cms-energy",
+     "description": "CMS Energy is an energy holding company whose primary subsidiary is Consumers Energy, an electric and natural gas utility serving customers in Michigan. Consumers Energy participates in the Green Button Connect My Data (GBCMD) program, exposing customer-authorized energy usage data to third parties via OAuth 2.0 - typically brokered through UtilityAPI - for use in energy management, demand response, EV charging, solar, and sustainability applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/screenshots/cms-energy-2026-06-20T174637.png",
+     "score": 37.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 52.4,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 3
+    },
+    {
      "name": "Southwest Gas",
      "slug": "southwest-gas",
      "description": "Southwest Gas Holdings is a natural gas distribution company that purchases, distributes, and transports natural gas for customers in Arizona, Nevada, and California. As a Fortune 1000 utility company headquartered in Las Vegas, Nevada, Southwest Gas serves over 2 million customers through its regulated utility segment and also operates Centuri Group, a full-service utility infrastructure services company.",
@@ -110,7 +146,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -119,42 +155,6 @@
       "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 3
-    },
-    {
-     "name": "CMS Energy",
-     "slug": "cms-energy",
-     "description": "CMS Energy is an energy holding company whose primary subsidiary is Consumers Energy, an electric and natural gas utility serving customers in Michigan. Consumers Energy participates in the Green Button Connect My Data (GBCMD) program, exposing customer-authorized energy usage data to third parties via OAuth 2.0 - typically brokered through UtilityAPI - for use in energy management, demand response, EV charging, solar, and sustainability applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cms-energy/refs/heads/main/screenshots/cms-energy-2026-06-20T174637.png",
-     "score": 35.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 52.4,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 23.9,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -182,7 +182,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -203,6 +203,42 @@
      "rank": 5
     },
     {
+     "name": "Pg And E",
+     "slug": "pg-and-e",
+     "description": "Pacific Gas and Electric Company (PG&E) is one of the largest combined natural gas and electric energy companies in the United States, serving approximately 16 million people in northern and central California. PG&E offers the Share My Data API, a Green Button Connect My Data implementation providing customer- authorized access to energy usage interval data for both electricity and gas through RESTful web services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pg-and-e/refs/heads/main/screenshots/pg-and-e-2026-06-20T191630.png",
+     "score": 32.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 50.4,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 6
+    },
+    {
      "name": "UGI Corporation",
      "slug": "ugi",
      "description": "UGI Corporation is a Fortune 500 international energy distribution and services company headquartered in King of Prussia, Pennsylvania. UGI distributes natural gas, liquid propane, and electricity primarily through four business segments: UGI Utilities (natural gas and electric distribution in Pennsylvania), AmeriGas Propane (largest US propane marketer), Midstream and Marketing, and UGI International (European energy distribution). No public developer API has been identified; the company primarily uses EDI and utility industry standards for B2B data exchange.",
@@ -218,43 +254,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 6
-    },
-    {
-     "name": "Williams Companies",
-     "slug": "williams",
-     "description": "Williams Companies is a Fortune 500 energy infrastructure company that operates approximately 33,000 miles of natural gas pipeline infrastructure, moving roughly one-third of the nation's natural gas. The company's flagship Transco pipeline system spans 10,000 miles from south Texas to New York City and is the nation's largest-volume natural gas pipeline. Williams provides pipeline transportation, gathering, processing, and storage services across key natural gas supply basins and serves utilities, power generators, industrial customers, and local distribution companies across the United States.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/williams/refs/heads/main/screenshots/williams-2026-06-20T201501.png",
-     "score": 30.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 20.8,
-      "governance": 13.2,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -273,43 +273,32 @@
       "consent_identity": false
      },
      "rank": 7
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "15–29.9",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 8,
-   "shown": 8,
-   "companies": [
+    },
     {
-     "name": "Pg And E",
-     "slug": "pg-and-e",
-     "description": "Pacific Gas and Electric Company (PG&E) is one of the largest combined natural gas and electric energy companies in the United States, serving approximately 16 million people in northern and central California. PG&E offers the Share My Data API, a Green Button Connect My Data implementation providing customer- authorized access to energy usage interval data for both electricity and gas through RESTful web services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pg-and-e/refs/heads/main/screenshots/pg-and-e-2026-06-20T191630.png",
-     "score": 29.5,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "name": "Williams Companies",
+     "slug": "williams",
+     "description": "Williams Companies is a Fortune 500 energy infrastructure company that operates approximately 33,000 miles of natural gas pipeline infrastructure, moving roughly one-third of the nation's natural gas. The company's flagship Transco pipeline system spans 10,000 miles from south Texas to New York City and is the nation's largest-volume natural gas pipeline. Williams provides pipeline transportation, gathering, processing, and storage services across key natural gas supply basins and serves utilities, power generators, industrial customers, and local distribution companies across the United States.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/williams/refs/heads/main/screenshots/williams-2026-06-20T201501.png",
+     "score": 30.6,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 55.0,
-      "contract_quality": 50.4,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
+      "discoverability": 92.5,
+      "contract_quality": 20.8,
+      "governance": 13.2,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
+     "agent_score": 6.7,
+     "agent_band": "human-only",
      "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
+      "spec_presence": false,
+      "agentic_access": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -320,7 +309,18 @@
       "consent_identity": false
      },
      "rank": 8
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 7,
+   "shown": 7,
+   "companies": [
     {
      "name": "AES Corporation",
      "slug": "aes",
@@ -337,7 +337,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -373,7 +373,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -409,7 +409,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -445,7 +445,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -466,21 +466,22 @@
      "rank": 12
     },
     {
-     "name": "Ameren",
-     "slug": "ameren",
-     "description": "Ameren Corporation is a regulated electric and natural gas utility serving customers in Missouri and Illinois. The company provides reliable energy delivery, smart grid infrastructure, and renewable energy programs. Ameren Illinois implements the Green Button Connect My Data program (Share My Usage) based on the ESPI standard, enabling authorized third parties to access customer energy usage data. Ameren also operates a Renewables Portal for community solar generation owners and participates in grid modernization initiatives.",
-     "score": 20.2,
+     "name": "Constellation Energy",
+     "slug": "constellation-energy",
+     "description": "Constellation Energy Corporation is a Fortune 500 clean-energy producer and competitive retail electricity and natural gas supplier in the United States, generating power from a fleet of nuclear, hydro, wind, and solar facilities. Constellation does not publish a public developer portal; programmatic interactions are delivered to enterprise and large commercial customers through the Energy Manager platform (account-managed onboarding, no public API specifications) and consumer interactions are handled through the My Constellation account portal. EDI 867 (usage) and 810 (invoice) remain the most common machine-to-machine integration paths and are arranged on a contract-by-contract basis.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/constellation-energy/refs/heads/main/screenshots/constellation-energy-2026-06-20T174911.png",
+     "score": 20.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 92.5,
+      "discoverability": 67.5,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 28.9
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -501,22 +502,21 @@
      "rank": 13
     },
     {
-     "name": "Constellation Energy",
-     "slug": "constellation-energy",
-     "description": "Constellation Energy Corporation is a Fortune 500 clean-energy producer and competitive retail electricity and natural gas supplier in the United States, generating power from a fleet of nuclear, hydro, wind, and solar facilities. Constellation does not publish a public developer portal; programmatic interactions are delivered to enterprise and large commercial customers through the Energy Manager platform (account-managed onboarding, no public API specifications) and consumer interactions are handled through the My Constellation account portal. EDI 867 (usage) and 810 (invoice) remain the most common machine-to-machine integration paths and are arranged on a contract-by-contract basis.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/constellation-energy/refs/heads/main/screenshots/constellation-energy-2026-06-20T174911.png",
-     "score": 19.6,
+     "name": "Ameren",
+     "slug": "ameren",
+     "description": "Ameren Corporation is a regulated electric and natural gas utility serving customers in Missouri and Illinois. The company provides reliable energy delivery, smart grid infrastructure, and renewable energy programs. Ameren Illinois implements the Green Button Connect My Data program (Share My Usage) based on the ESPI standard, enabling authorized third parties to access customer energy usage data. Ameren also operates a Renewables Portal for community solar generation owners and participates in grid modernization initiatives.",
+     "score": 20.2,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 60.0,
+      "discoverability": 92.5,
       "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 50.0
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -552,7 +552,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -598,7 +598,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -634,7 +634,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -670,7 +670,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -706,7 +706,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -741,7 +741,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -777,7 +777,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -813,7 +813,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -849,7 +849,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -885,7 +885,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -921,7 +921,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -957,7 +957,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -992,7 +992,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1028,7 +1028,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1064,7 +1064,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1100,7 +1100,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1135,7 +1135,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1171,7 +1171,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1206,7 +1206,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1241,7 +1241,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1277,7 +1277,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1313,7 +1313,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1348,7 +1348,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1383,7 +1383,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1419,7 +1419,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

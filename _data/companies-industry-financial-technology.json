@@ -27,7 +27,7 @@
       "developer_ergonomics": 100.0,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -54,58 +54,22 @@
      "rank": 1
     },
     {
-     "name": "Avalara",
-     "slug": "avalara",
-     "description": "Avalara helps businesses of all sizes get tax compliance right. We deliver cloud-based solutions that work with existing business applications to calculate tax accurately and file returns automatically.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png",
-     "score": 72.9,
-     "band": "exemplar",
-     "band_label": "Exemplar",
-     "facets": {
-      "discoverability": 55.0,
-      "contract_quality": 72.6,
-      "governance": 78.9,
-      "operational_transparency": 57.9,
-      "developer_ergonomics": 71.7,
-      "commercial_clarity": 89.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 76.9,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "rank": 2
-    },
-    {
      "name": "Bloomberg",
      "slug": "bloomberg",
      "description": "Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring stories from Businessweek and Bloomberg News. Bloomberg provides a suite of developer APIs including BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png",
-     "score": 72.9,
+     "score": 76.5,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 69.0,
+      "discoverability": 87.5,
+      "contract_quality": 77.9,
       "governance": 86.8,
       "operational_transparency": 63.2,
       "developer_ergonomics": 73.9,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -129,6 +93,42 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
+     "rank": 2
+    },
+    {
+     "name": "Avalara",
+     "slug": "avalara",
+     "description": "Avalara helps businesses of all sizes get tax compliance right. We deliver cloud-based solutions that work with existing business applications to calculate tax accurately and file returns automatically.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/avalara/refs/heads/main/screenshots/avalara-2026-06-20T172715.png",
+     "score": 74.1,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 72.6,
+      "governance": 78.9,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 89.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 76.9,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
      "rank": 3
     },
     {
@@ -147,7 +147,7 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -181,26 +181,26 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 2,
-   "shown": 2,
+   "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Block",
      "slug": "block",
      "description": "Block, Inc. is a global technology company building economic empowerment tools through a family of products including Square (commerce and payments), Cash App (personal finance and investing), Afterpay (buy now pay later), TIDAL (music streaming), and Spiral (open-source Bitcoin development). The Square API enables developers to build commerce applications with payment processing, order management, catalog, customer engagement, and business operations capabilities.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/block/refs/heads/main/screenshots/block-2026-07-25T203345.png",
-     "score": 67.8,
+     "score": 69.5,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 87.5,
       "contract_quality": 65.5,
       "governance": 86.8,
       "operational_transparency": 52.6,
       "developer_ergonomics": 45.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -242,7 +242,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -267,77 +267,24 @@
       "consent_identity": false
      },
      "rank": 6
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "45–59.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 19,
-   "shown": 19,
-   "companies": [
-    {
-     "name": "Coinbase",
-     "slug": "coinbase",
-     "description": "Coinbase is a leading cryptocurrency platform providing trading, custody, and payment infrastructure for individuals, businesses, and institutions. The Coinbase Developer Platform (CDP) exposes a wide product surface across retail trading (Advanced Trade), professional and institutional trading (Exchange and Prime), merchant payments (Commerce), fiat onboarding (Onramp), developer wallet integration (Wallet SDK), market and on-chain data (Data API), and AI agent toolkits (AgentKit). Authentication is performed using API keys with HMAC-SHA256 signatures (Advanced Trade, Exchange) or JWT bearer tokens (Prime, CDP), with WebSocket and FIX feeds available for low-latency market data and order management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/screenshots/coinbase-2026-06-20T174726.png",
-     "score": 59.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 72.8,
-      "governance": 52.6,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 34.8,
-      "commercial_clarity": 73.7
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 67.4
-     },
-     "agent_score": 53.8,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 7
     },
     {
      "name": "Verisk",
      "slug": "verisk",
      "description": "Verisk (formerly ISO) is a leading data analytics and technology company serving the insurance, energy, and financial services industries. Verisk provides risk scoring, actuarial data, property analytics, catastrophe modeling, claims benchmarking, and underwriting intelligence through RESTful APIs that power insurance pricing, reserving, and exposure management workflows.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/screenshots/verisk-2026-06-20T200935.png",
-     "score": 57.0,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 60.5,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 70.8,
+      "discoverability": 87.5,
+      "contract_quality": 79.6,
       "governance": 86.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 45.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -361,25 +308,78 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 8
+     "rank": 7
     },
+    {
+     "name": "Coinbase",
+     "slug": "coinbase",
+     "description": "Coinbase is a leading cryptocurrency platform providing trading, custody, and payment infrastructure for individuals, businesses, and institutions. The Coinbase Developer Platform (CDP) exposes a wide product surface across retail trading (Advanced Trade), professional and institutional trading (Exchange and Prime), merchant payments (Commerce), fiat onboarding (Onramp), developer wallet integration (Wallet SDK), market and on-chain data (Data API), and AI agent toolkits (AgentKit). Authentication is performed using API keys with HMAC-SHA256 signatures (Advanced Trade, Exchange) or JWT bearer tokens (Prime, CDP), with WebSocket and FIX feeds available for low-latency market data and order management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/coinbase/refs/heads/main/screenshots/coinbase-2026-06-20T174726.png",
+     "score": 60.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 72.8,
+      "governance": 52.6,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 73.7
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 67.4
+     },
+     "agent_score": 53.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 8
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 18,
+   "shown": 18,
+   "companies": [
     {
      "name": "Charles Schwab",
      "slug": "charles-schwab",
      "description": "Charles Schwab is a financial services company providing brokerage, banking, asset management, and financial advisory services to individual investors and independent investment advisors. The Schwab Developer Portal exposes Trader APIs that let registered applications access account balances, positions, and orders, place equity and option trades, and consume real-time and historical market data through OAuth 2.0-secured REST endpoints.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/screenshots/charles-schwab-2026-06-20T174236.png",
-     "score": 56.0,
+     "score": 58.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 55.8,
       "governance": 73.7,
       "operational_transparency": 31.6,
       "developer_ergonomics": 32.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -406,6 +406,48 @@
      "rank": 9
     },
     {
+     "name": "Bank of America",
+     "slug": "bank-of-america",
+     "description": "Bank of America is a multinational investment bank and financial services holding company providing consumer banking, wealth management, corporate banking, and investment banking services worldwide. The CashPro Developer Studio provides REST APIs for corporate treasury clients to automate account management, payments, balance reporting, and statement access, supporting over 350 payment types and integration with TMS and ERP platforms.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/screenshots/bank-of-america-2026-06-20T172951.png",
+     "score": 58.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 67.3,
+      "governance": 86.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 76.1
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 10
+    },
+    {
      "name": "Dow Jones",
      "slug": "dow-jones",
      "description": "Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.",
@@ -421,7 +463,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -445,32 +487,26 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
-     "name": "Bank of America",
-     "slug": "bank-of-america",
-     "description": "Bank of America is a multinational investment bank and financial services holding company providing consumer banking, wealth management, corporate banking, and investment banking services worldwide. The CashPro Developer Studio provides REST APIs for corporate treasury clients to automate account management, payments, balance reporting, and statement access, supporting over 350 payment types and integration with TMS and ERP platforms.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/screenshots/bank-of-america-2026-06-20T172951.png",
-     "score": 55.4,
+     "name": "Western Union",
+     "slug": "western-union",
+     "description": "The Western Union Company is a global leader in cross-border, cross-currency money movement, providing money transfer, money order, and other financial services to consumers and businesses worldwide. Western Union's Partnership APIs enable financial institutions, fintech companies, and enterprise customers to integrate WU's global payment network for money transfers, batch payments, FX quotes, and account management across 200+ countries and territories in 130+ currencies. Authentication uses mTLS with client certificates.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/screenshots/western-union-2026-06-20T201410.png",
+     "score": 53.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 67.3,
-      "governance": 86.8,
+      "discoverability": 80.0,
+      "contract_quality": 67.8,
+      "governance": 73.7,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 21.7,
+      "developer_ergonomics": 30.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 76.1
-     },
      "agent_score": 48.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -487,25 +523,25 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Mastercard",
      "slug": "mastercard",
      "description": "Mastercard is a global technology company in the payments industry, providing APIs for payment processing, fraud detection, data analytics, and financial services.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mastercard/refs/heads/main/screenshots/mastercard-2026-06-20T185023.png",
-     "score": 52.2,
+     "score": 53.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 67.5,
       "contract_quality": 54.9,
       "governance": 73.7,
       "operational_transparency": 42.1,
       "developer_ergonomics": 41.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -529,109 +565,25 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 12
-    },
-    {
-     "name": "CME Group",
-     "slug": "cme-group",
-     "description": "CME Group is the world's largest derivatives exchange and operator of the CME, CBOT, NYMEX, and COMEX markets, offering futures and options across interest rates, equity indexes, foreign exchange, energy, agricultural products, and metals. CME Group exposes a portfolio of REST and streaming APIs through its Data Services Portal - including CME Reference Data API, Real-Time Futures and Options Data API, CME Term SOFR API, FedWatch API, Greeks and Implied Volatility API, EUR/USD Cross Currency Basis Index API, the CME ClearPort API for OTC trade submission, and iLink/MDP 3.0 connectivity to CME Globex for execution and market data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/screenshots/cme-group-2026-06-20T174629.png",
-     "score": 51.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 63.2,
-      "developer_ergonomics": 65.2,
-      "commercial_clarity": 73.7
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 89.1
-     },
-     "agent_score": 27.9,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
      "rank": 13
     },
     {
-     "name": "Commonwealth Bank",
-     "slug": "commonwealth-bank",
-     "description": "Commonwealth Bank of Australia (CBA) is Australia's largest bank by market capitalization, a \"Big Four\" authorised deposit-taking institution (ADI) regulated by APRA and listed on the ASX (CBA), providing retail, business, and institutional banking. CBA serves millions of customers through NetBank online banking, the CommBank mobile app, CommBiz for business, and CommBank Yello loyalty. As a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) regime, CommBank exposes a PUBLIC, unauthenticated Product Reference Data (PRD) API and a full set of consumer-AUTHORIZED CDR Banking endpoints (accounts, balances, transactions, direct debits, scheduled payments, payees, customer) conforming to the DSB Consumer Data Standards CDR Banking API v1.36.0. The bank publishes its own first-party Swagger 2.0 specifications for each of these families on its developer portal, and additionally documents a business API catalogue (Fast Payment / NPP credit transfer initiation, NameCheck, PayTo) and a hosted merchant Payment Gateway.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/screenshots/commonwealth-bank-2026-07-21T114720.png",
-     "score": 50.8,
+     "name": "Broadridge",
+     "slug": "broadridge",
+     "description": "Best-in-class API components meet expert support to create the ideal wealth management operations environment. Optimize productivity, client experiences, and more.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/screenshots/broadridge-2026-06-20T173715.png",
+     "score": 52.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 37.7,
-      "governance": 0.0,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 67.4,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 87.0
-     },
-     "agent_score": 65.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 14
-    },
-    {
-     "name": "Western Union",
-     "slug": "western-union",
-     "description": "The Western Union Company is a global leader in cross-border, cross-currency money movement, providing money transfer, money order, and other financial services to consumers and businesses worldwide. Western Union's Partnership APIs enable financial institutions, fintech companies, and enterprise customers to integrate WU's global payment network for money transfers, batch payments, FX quotes, and account management across 200+ countries and territories in 130+ currencies. Authentication uses mTLS with client certificates.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/western-union/refs/heads/main/screenshots/western-union-2026-06-20T201410.png",
-     "score": 50.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 55.0,
-      "contract_quality": 67.8,
+      "discoverability": 75.0,
+      "contract_quality": 61.9,
       "governance": 73.7,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 30.4,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 32.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -649,67 +601,25 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 15
-    },
-    {
-     "name": "Cboe Global Markets",
-     "slug": "cboe",
-     "description": "Cboe Global Markets is one of the world's largest exchange holding companies, operating options, futures, equities, and FX markets including the Cboe Options Exchange, home of the VIX Index and SPX options. Cboe offers market data programmatically through the Cboe DataShop platform and the LiveVol All Access API — a REST API suite covering real-time, delayed, and historical options and equities quotes and trades, Greeks and implied volatility analytics, earnings events, custom market scanners, and trade review — secured with OAuth 2.0 via the LiveVol identity service, plus free public delayed-quote JSON endpoints that back cboe.com quote pages.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cboe/refs/heads/main/screenshots/cboe-2026-06-20T174055.png",
-     "score": 50.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 63.2,
-      "developer_ergonomics": 67.4,
-      "commercial_clarity": 76.3
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 76.1
-     },
-     "agent_score": 39.4,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "rank": 16
+     "rank": 14
     },
     {
      "name": "Interactive Brokers",
      "slug": "interactive-brokers",
      "description": "Interactive Brokers is an online brokerage firm providing trading access to stocks, options, futures, currencies, bonds, and funds across 150+ markets worldwide. IBKR offers comprehensive REST APIs that enable developers and traders to programmatically access trading, portfolio management, market data, and account management capabilities through the IBKR Web API and Client Portal API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/screenshots/interactive-brokers-2026-06-20T183445.png",
-     "score": 50.6,
+     "score": 52.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 87.5,
       "contract_quality": 64.6,
       "governance": 60.5,
       "operational_transparency": 36.8,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -733,25 +643,25 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 17
+     "rank": 15
     },
     {
-     "name": "Broadridge",
-     "slug": "broadridge",
-     "description": "Best-in-class API components meet expert support to create the ideal wealth management operations environment. Optimize productivity, client experiences, and more.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/screenshots/broadridge-2026-06-20T173715.png",
-     "score": 49.2,
+     "name": "Wells Fargo",
+     "slug": "wells-fargo",
+     "description": "Wells Fargo is a diversified, community-based financial services company providing banking, investment, mortgage, and consumer and commercial finance through thousands of stores and digital channels. Wells Fargo operates a comprehensive developer portal at developer.wellsfargo.com offering open banking APIs for payments, account data, and treasury management. The Gateway API platform handles over 1.5 billion API calls annually and supports commercial banking customers with ACH, wire, RTP, FedNow, and data reporting capabilities.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/screenshots/wells-fargo-2026-06-20T201349.png",
+     "score": 52.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 42.5,
-      "contract_quality": 61.9,
-      "governance": 73.7,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 32.6,
-      "commercial_clarity": 50.0
+      "discoverability": 80.0,
+      "contract_quality": 75.4,
+      "governance": 86.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -769,25 +679,25 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 18
+     "rank": 16
     },
     {
      "name": "Intercontinental Exchange",
      "slug": "intercontinental-exchange",
      "description": "Intercontinental Exchange (ICE) operates global exchanges, clearing houses, and data services for financial and commodity markets, including the New York Stock Exchange (NYSE). ICE provides multiple developer portals including the Developer Center at developer.theice.com for market data APIs, the IDS Portal for real-time data integration, and the ICE Mortgage Technology Developer Portal for lending application development.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/intercontinental-exchange/refs/heads/main/screenshots/intercontinental-exchange-2026-06-20T183442.png",
-     "score": 48.7,
+     "score": 51.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 50.4,
       "governance": 0.0,
       "operational_transparency": 42.1,
       "developer_ergonomics": 39.1,
       "commercial_clarity": 65.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -811,7 +721,211 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
+     "rank": 17
+    },
+    {
+     "name": "CME Group",
+     "slug": "cme-group",
+     "description": "CME Group is the world's largest derivatives exchange and operator of the CME, CBOT, NYMEX, and COMEX markets, offering futures and options across interest rates, equity indexes, foreign exchange, energy, agricultural products, and metals. CME Group exposes a portfolio of REST and streaming APIs through its Data Services Portal - including CME Reference Data API, Real-Time Futures and Options Data API, CME Term SOFR API, FedWatch API, Greeks and Implied Volatility API, EUR/USD Cross Currency Basis Index API, the CME ClearPort API for OTC trade submission, and iLink/MDP 3.0 connectivity to CME Globex for execution and market data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cme-group/refs/heads/main/screenshots/cme-group-2026-06-20T174629.png",
+     "score": 51.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 73.7
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 89.1
+     },
+     "agent_score": 27.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 18
+    },
+    {
+     "name": "S&P Global",
+     "slug": "s-and-p-global",
+     "description": "S&P Global is a leading provider of credit ratings, benchmarks, analytics, and workflow solutions in the global capital, commodity, and automotive markets. Through its divisions — S&P Global Market Intelligence, S&P Global Ratings, S&P Global Commodity Insights, S&P Global Mobility, and S&P Dow Jones Indices — the company delivers data, analytics, and decisioning capabilities to financial institutions, corporations, governments, and individuals worldwide. S&P Global APIs enable programmatic access to financial data, market prices, energy market data, credit ratings, and geospatial intelligence.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/s-and-p-global/refs/heads/main/screenshots/s-and-p-global-2026-06-20T193312.png",
+     "score": 51.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 64.4,
+      "governance": 73.7,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
      "rank": 19
+    },
+    {
+     "name": "Commonwealth Bank",
+     "slug": "commonwealth-bank",
+     "description": "Commonwealth Bank of Australia (CBA) is Australia's largest bank by market capitalization, a \"Big Four\" authorised deposit-taking institution (ADI) regulated by APRA and listed on the ASX (CBA), providing retail, business, and institutional banking. CBA serves millions of customers through NetBank online banking, the CommBank mobile app, CommBiz for business, and CommBank Yello loyalty. As a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) regime, CommBank exposes a PUBLIC, unauthenticated Product Reference Data (PRD) API and a full set of consumer-AUTHORIZED CDR Banking endpoints (accounts, balances, transactions, direct debits, scheduled payments, payees, customer) conforming to the DSB Consumer Data Standards CDR Banking API v1.36.0. The bank publishes its own first-party Swagger 2.0 specifications for each of these families on its developer portal, and additionally documents a business API catalogue (Fast Payment / NPP credit transfer initiation, NameCheck, PayTo) and a hosted merchant Payment Gateway.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/screenshots/commonwealth-bank-2026-07-21T114720.png",
+     "score": 50.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 67.4,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 87.0
+     },
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 20
+    },
+    {
+     "name": "Cboe Global Markets",
+     "slug": "cboe",
+     "description": "Cboe Global Markets is one of the world's largest exchange holding companies, operating options, futures, equities, and FX markets including the Cboe Options Exchange, home of the VIX Index and SPX options. Cboe offers market data programmatically through the Cboe DataShop platform and the LiveVol All Access API — a REST API suite covering real-time, delayed, and historical options and equities quotes and trades, Greeks and implied volatility analytics, earnings events, custom market scanners, and trade review — secured with OAuth 2.0 via the LiveVol identity service, plus free public delayed-quote JSON endpoints that back cboe.com quote pages.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cboe/refs/heads/main/screenshots/cboe-2026-06-20T174055.png",
+     "score": 50.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 67.4,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 76.1
+     },
+     "agent_score": 39.4,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 21
+    },
+    {
+     "name": "NCR",
+     "slug": "ncr",
+     "description": "NCR Corporation separated in October 2023 into two independent public companies: NCR Voyix, a global provider of digital commerce solutions for retailers and restaurants, and NCR Atleos, a leader in expanding self-directed banking through ATM networks. NCR Voyix operates the Voyix Commerce Platform, an API-based cloud architecture (the Business Services Platform) that powers unified-commerce POS, ecommerce, and payments for retail and restaurants. Developers access it at developer.ncrvoyix.com using AccessKey (HMAC SHA-512) authentication against api.ncr.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/screenshots/ncr-2026-06-20T190112.png",
+     "score": 50.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 68.1,
+      "governance": 86.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 37.0
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 22
     },
     {
      "name": "Barclays",
@@ -829,7 +943,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -853,175 +967,25 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 20
-    },
-    {
-     "name": "Wells Fargo",
-     "slug": "wells-fargo",
-     "description": "Wells Fargo is a diversified, community-based financial services company providing banking, investment, mortgage, and consumer and commercial finance through thousands of stores and digital channels. Wells Fargo operates a comprehensive developer portal at developer.wellsfargo.com offering open banking APIs for payments, account data, and treasury management. The Gateway API platform handles over 1.5 billion API calls annually and supports commercial banking customers with ACH, wire, RTP, FedNow, and data reporting capabilities.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/screenshots/wells-fargo-2026-06-20T201349.png",
-     "score": 48.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 55.0,
-      "contract_quality": 70.1,
-      "governance": 86.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 21
-    },
-    {
-     "name": "S&P Global",
-     "slug": "s-and-p-global",
-     "description": "S&P Global is a leading provider of credit ratings, benchmarks, analytics, and workflow solutions in the global capital, commodity, and automotive markets. Through its divisions — S&P Global Market Intelligence, S&P Global Ratings, S&P Global Commodity Insights, S&P Global Mobility, and S&P Dow Jones Indices — the company delivers data, analytics, and decisioning capabilities to financial institutions, corporations, governments, and individuals worldwide. S&P Global APIs enable programmatic access to financial data, market prices, energy market data, credit ratings, and geospatial intelligence.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/s-and-p-global/refs/heads/main/screenshots/s-and-p-global-2026-06-20T193312.png",
-     "score": 48.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 64.4,
-      "governance": 73.7,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 22
-    },
-    {
-     "name": "Toast",
-     "slug": "toast",
-     "description": "Toast is a restaurant technology platform providing cloud-based point-of-sale, payment processing, and business management tools for the restaurant industry. The Toast platform exposes REST APIs enabling technology partners to build integrations for orders, menus, labor management, restaurant configuration, inventory/stock management, authentication, and partner ecosystem access. APIs use OAuth 2.0 client credentials authentication with GUIDs for resource identification. Toast serves 120,000+ restaurant locations and offers both partner integrations (requiring formal partnership) and custom integrations via the developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/screenshots/toast-2026-06-20T195427.png",
-     "score": 47.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 58.5,
-      "governance": 86.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
      "rank": 23
-    },
-    {
-     "name": "NCR",
-     "slug": "ncr",
-     "description": "NCR Corporation separated in October 2023 into two independent public companies: NCR Voyix, a global provider of digital commerce solutions for retailers and restaurants, and NCR Atleos, a leader in expanding self-directed banking through ATM networks. NCR Voyix operates the Voyix Commerce Platform, an API-based cloud architecture (the Business Services Platform) that powers unified-commerce POS, ecommerce, and payments for retail and restaurants. Developers access it at developer.ncrvoyix.com using AccessKey (HMAC SHA-512) authentication against api.ncr.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ncr/refs/heads/main/screenshots/ncr-2026-06-20T190112.png",
-     "score": 47.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 68.1,
-      "governance": 86.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 37.0
-     },
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 24
     },
     {
      "name": "Scotiabank",
      "slug": "scotiabank",
      "description": "Scotiabank is one of Canada's leading financial institutions and a major international bank. Through its Scotia TranXact developer portal, Scotiabank provides APIs for corporate and commercial customers to integrate banking capabilities into their treasury management, ERP, and CRM systems. APIs cover wire payments, real-time payments via INTERAC e-Transfer, EFT payments, account balance and transaction data, account validation, and payment track and trace.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/screenshots/scotiabank-2026-06-20T193550.png",
-     "score": 45.3,
+     "score": 48.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 64.0,
+      "discoverability": 87.5,
+      "contract_quality": 69.3,
       "governance": 73.7,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1045,42 +1009,26 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 25
-    }
-   ]
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 9,
-   "shown": 9,
-   "companies": [
+     "rank": 24
+    },
     {
-     "name": "Visa",
-     "slug": "visa",
-     "description": "Visa is a global payment technology company that facilitates electronic funds transfers by providing consumers, businesses, and governments with secure, convenient, and reliable payment solutions. Through its network of financial institutions and partners, Visa enables individuals to make purchases, transfer money, and access other financial services in over 200 countries and territories worldwide. The Visa Developer platform provides APIs for money movement (Visa Direct), merchant intelligence, account validation, transaction controls, foreign exchange, digital wallets, tokenization, and more.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/screenshots/visa-2026-06-20T201042.png",
-     "score": 43.7,
-     "band": "thin",
-     "band_label": "Thin",
+     "name": "Toast",
+     "slug": "toast",
+     "description": "Toast is a restaurant technology platform providing cloud-based point-of-sale, payment processing, and business management tools for the restaurant industry. The Toast platform exposes REST APIs enabling technology partners to build integrations for orders, menus, labor management, restaurant configuration, inventory/stock management, authentication, and partner ecosystem access. APIs use OAuth 2.0 client credentials authentication with GUIDs for resource identification. Toast serves 120,000+ restaurant locations and offers both partner integrations (requiring formal partnership) and custom integrations via the developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/toast/refs/heads/main/screenshots/toast-2026-06-20T195427.png",
+     "score": 47.4,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 53.1,
+      "discoverability": 75.0,
+      "contract_quality": 58.5,
       "governance": 86.8,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 26.1,
+      "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 37.0
-     },
      "agent_score": 48.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -1097,25 +1045,77 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 26
+     "rank": 25
     },
+    {
+     "name": "Shift4 Payments",
+     "slug": "shift4-payments",
+     "description": "Shift4 Payments is a leading integrated payments and commerce technology provider and a Fortune 1000 company. The company processes payments for hospitality, retail, gaming, sports, e-commerce, and other verticals, offering checkout flows, custom payment forms, hosted UI components, and a developer API that supports global payment methods, subscriptions, fraud prevention, and 3D Secure. Developers integrate Shift4 through a REST API, JavaScript library, webhooks, and a sandbox testing environment.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/screenshots/shift4-payments-2026-06-20T193806.png",
+     "score": 45.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 62.8,
+      "governance": 65.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 39.1,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 37.0
+     },
+     "agent_score": 54.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": true,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 26
+    }
+   ]
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 8,
+   "shown": 8,
+   "companies": [
     {
      "name": "Fiserv",
      "slug": "fiserv",
      "description": "Fiserv is a global provider of financial services technology solutions, offering a wide range of products and services to help clients in the banking, payments, and wealth management industries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fiserv/refs/heads/main/screenshots/fiserv-2026-06-20T181247.png",
-     "score": 43.1,
+     "score": 44.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 75.0,
       "contract_quality": 73.3,
       "governance": 60.5,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1142,30 +1142,30 @@
      "rank": 27
     },
     {
-     "name": "Shift4 Payments",
-     "slug": "shift4-payments",
-     "description": "Shift4 Payments is a leading integrated payments and commerce technology provider and a Fortune 1000 company. The company processes payments for hospitality, retail, gaming, sports, e-commerce, and other verticals, offering checkout flows, custom payment forms, hosted UI components, and a developer API that supports global payment methods, subscriptions, fraud prevention, and 3D Secure. Developers integrate Shift4 through a REST API, JavaScript library, webhooks, and a sandbox testing environment.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/shift4-payments/refs/heads/main/screenshots/shift4-payments-2026-06-20T193806.png",
-     "score": 42.9,
+     "name": "Visa",
+     "slug": "visa",
+     "description": "Visa is a global payment technology company that facilitates electronic funds transfers by providing consumers, businesses, and governments with secure, convenient, and reliable payment solutions. Through its network of financial institutions and partners, Visa enables individuals to make purchases, transfer money, and access other financial services in over 200 countries and territories worldwide. The Visa Developer platform provides APIs for money movement (Visa Direct), merchant intelligence, account validation, transaction controls, foreign exchange, digital wallets, tokenization, and more.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/visa/refs/heads/main/screenshots/visa-2026-06-20T201042.png",
+     "score": 44.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 55.0,
-      "contract_quality": 54.0,
-      "governance": 65.8,
+      "discoverability": 80.0,
+      "contract_quality": 53.1,
+      "governance": 86.8,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 39.1,
+      "developer_ergonomics": 26.1,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
       "score": 37.0
      },
-     "agent_score": 54.8,
+     "agent_score": 48.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1174,7 +1174,7 @@
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
-      "openapi_examples": true,
+      "openapi_examples": false,
       "rate_limit_signal": true,
       "asyncapi_events": false,
       "agent_skills": false,
@@ -1198,7 +1198,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1234,7 +1234,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1276,7 +1276,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1303,6 +1303,48 @@
      "rank": 31
     },
     {
+     "name": "Global Payments",
+     "slug": "global-payments",
+     "description": "Global Payments is a leading worldwide provider of payment technology and software solutions delivering innovative services to customers globally. The company operates developer portals at developer.globalpayments.com and developer.globalpaymentsintegrated.com, offering a unified cloud-powered REST API for payment facilitation, card issuing, and multi-currency processing, along with integrated payment solutions for ISVs and software partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/screenshots/global-payments-2026-06-20T181917.png",
+     "score": 37.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 50.4,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 47.8
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 32
+    },
+    {
      "name": "ABN AMRO",
      "slug": "abn-amro",
      "description": "A Dutch banking and financial services group serving retail, private, and corporate clients across Europe. ABN AMRO publishes a public developer portal exposing PSD2 Open Banking, Tikkie payment-request, and corporate payment APIs.",
@@ -1318,7 +1360,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1331,48 +1373,6 @@
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 32
-    },
-    {
-     "name": "Global Payments",
-     "slug": "global-payments",
-     "description": "Global Payments is a leading worldwide provider of payment technology and software solutions delivering innovative services to customers globally. The company operates developer portals at developer.globalpayments.com and developer.globalpaymentsintegrated.com, offering a unified cloud-powered REST API for payment facilitation, card issuing, and multi-currency processing, along with integrated payment solutions for ISVs and software partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/global-payments/refs/heads/main/screenshots/global-payments-2026-06-20T181917.png",
-     "score": 34.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 50.4,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 47.8
-     },
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
       "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
@@ -1402,7 +1402,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1454,7 +1454,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 25.0,
      "agent_band": "agent-aware",
@@ -1490,7 +1490,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1532,7 +1532,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1574,7 +1574,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1615,7 +1615,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1657,7 +1657,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1693,7 +1693,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 5.8,
      "agent_band": "human-only",
@@ -1729,7 +1729,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1781,7 +1781,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1817,7 +1817,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1859,7 +1859,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1901,7 +1901,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1943,7 +1943,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1979,7 +1979,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2021,7 +2021,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2063,7 +2063,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2099,7 +2099,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2135,7 +2135,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2171,7 +2171,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2207,7 +2207,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

@@ -8,8 +8,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 3,
-   "shown": 3,
+   "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "ArcBest",
@@ -27,7 +27,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -48,21 +48,22 @@
      "rank": 1
     },
     {
-     "name": "Sysco",
-     "slug": "sysco",
-     "description": "Sysco is the global leader in selling, marketing, and distributing food products to restaurants, healthcare and educational facilities, lodging establishments, and other foodservice customers. Sysco operates the Sysco Shop ecommerce platform (US, Canada, Bahamas) backed by an Apollo GraphQL supergraph composed of domain subgraphs for ordering, product, pricing, delivery, and accounts. Programmatic access is partner/customer-gated through the login-only APIC Developer Portal and through traditional EDI (X12) trading-partner integration; Sysco does not publish a self-serve public developer API, OpenAPI specification, or open GitHub presence.",
-     "score": 46.6,
+     "name": "UPS",
+     "slug": "ups",
+     "description": "UPS, or United Parcel Service, is a Fortune 500 global logistics company that specializes in package delivery and supply chain management services. UPS provides a comprehensive REST API platform with OAuth 2.0 authentication covering shipping, tracking, rating, address validation, pickup scheduling, paperless international documents, and time-in-transit estimation.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/screenshots/ups-2026-06-20T200507.png",
+     "score": 49.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 65.1,
-      "governance": 86.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 19.6,
+      "discoverability": 87.5,
+      "contract_quality": 67.3,
+      "governance": 73.7,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -83,22 +84,21 @@
      "rank": 2
     },
     {
-     "name": "UPS",
-     "slug": "ups",
-     "description": "UPS, or United Parcel Service, is a Fortune 500 global logistics company that specializes in package delivery and supply chain management services. UPS provides a comprehensive REST API platform with OAuth 2.0 authentication covering shipping, tracking, rating, address validation, pickup scheduling, paperless international documents, and time-in-transit estimation.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ups/refs/heads/main/screenshots/ups-2026-06-20T200507.png",
-     "score": 45.8,
+     "name": "Sysco",
+     "slug": "sysco",
+     "description": "Sysco is the global leader in selling, marketing, and distributing food products to restaurants, healthcare and educational facilities, lodging establishments, and other foodservice customers. Sysco operates the Sysco Shop ecommerce platform (US, Canada, Bahamas) backed by an Apollo GraphQL supergraph composed of domain subgraphs for ordering, product, pricing, delivery, and accounts. Programmatic access is partner/customer-gated through the login-only APIC Developer Portal and through traditional EDI (X12) trading-partner integration; Sysco does not publish a self-serve public developer API, OpenAPI specification, or open GitHub presence.",
+     "score": 47.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 55.0,
-      "contract_quality": 67.3,
-      "governance": 73.7,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 30.4,
+      "discoverability": 80.0,
+      "contract_quality": 65.1,
+      "governance": 86.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -117,35 +117,24 @@
       "consent_identity": false
      },
      "rank": 3
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 9,
-   "shown": 9,
-   "companies": [
+    },
     {
      "name": "Ryder System",
      "slug": "ryder-system",
      "description": "Ryder System, Inc. is a leading provider of supply chain, dedicated transportation, and fleet management solutions. Ryder operates a developer portal offering REST APIs for fleet management and supply chain operations, enabling customers to integrate Ryder services into their business systems. The Fleet Management APIs support customers who lease, rent, and maintain vehicles, while the Supply Chain Solutions APIs support carrier management, load tracking, shipment management, and last-mile delivery operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ryder-system/refs/heads/main/screenshots/ryder-system-2026-06-20T193310.png",
-     "score": 44.1,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 46.1,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 87.5,
       "contract_quality": 65.6,
       "governance": 47.4,
       "operational_transparency": 26.3,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -164,23 +153,34 @@
       "consent_identity": false
      },
      "rank": 4
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 8,
+   "shown": 8,
+   "companies": [
     {
      "name": "United Natural Foods (UNFI)",
      "slug": "united-natural-foods",
      "description": "United Natural Foods, Inc. (UNFI) is the largest publicly traded wholesale distributor of health and specialty food in the United States and Canada. UNFI supplies natural, organic, specialty, and conventional foods to over 30,000 retail locations. UNFI provides digital supplier and customer portals including myUNFI, supplier portal, EDI integration, and the Harmony Core API for data access.",
-     "score": 40.0,
+     "score": 43.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 67.3,
       "governance": 47.4,
       "operational_transparency": 21.1,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -205,18 +205,18 @@
      "slug": "gopuff",
      "description": "Gopuff is a private quick-commerce company headquartered in Philadelphia that operates its own network of micro-fulfillment centers to deliver everyday essentials — snacks, beverages, household goods, fresh items, alcohol, and over-the-counter medicines — to consumers in roughly 15 to 30 minutes. Beyond its direct-to-consumer mobile app and website, Gopuff exposes its instant-delivery infrastructure to brands and retailers through the Powered by Gopuff platform, which offers a Shopify Fulfillment app, a white-labeled Storefronts theme, and a partner Developer Portal backed by HTTP APIs (e.g. fulfillment-api-eus.partners.gopuff.com). Gopuff also operates a Delivery Partner program with its own driver pay portal, scheduling UI, and ID-scanning flow (alcohol delivery uses the Microblink BlinkID SDK).",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gopuff/refs/heads/main/screenshots/gopuff-2026-06-20T182249.png",
-     "score": 39.3,
+     "score": 42.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 64.6,
       "governance": 39.5,
       "operational_transparency": 5.3,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -241,18 +241,18 @@
      "slug": "fedex",
      "description": "FedEx is a logistics company that provides shipping and delivery services worldwide. They offer a range of solutions for individuals and businesses, including express shipping, freight services, and e-commerce fulfillment. FedEx publishes a suite of REST APIs covering tracking, shipping, rating, address validation, pickup, locator, trade documents, and post-shipment visibility through their developer portal.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fedex/refs/heads/main/screenshots/fedex-2026-06-20T181131.png",
-     "score": 36.0,
+     "score": 39.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 58.4,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -273,58 +273,22 @@
      "rank": 7
     },
     {
-     "name": "Americold Realty Trust",
-     "slug": "americold-realty-trust",
-     "description": "Americold Realty Trust is a global leader in temperature-controlled logistics, real estate, and value-added services, owning and operating one of the largest networks of cold storage warehouses in the world. The company serves food producers, retailers, and distributors with integrated logistics solutions, offering technology platforms such as i-3PL for customer-facing inventory and order visibility and EDI for system-to-system supply chain integration. While Americold provides customer-facing technology and integration capabilities, it does not currently publish a public developer-facing API portal with open OpenAPI documentation; integrations are established project-by-project through the Americold service desk and EDI onboarding process.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/americold-realty-trust/refs/heads/main/screenshots/americold-realty-trust-2026-06-20T171923.png",
-     "score": 35.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 85.0,
-      "contract_quality": 39.6,
-      "governance": 86.8,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 8
-    },
-    {
      "name": "DHL",
      "slug": "dhl",
      "description": "DHL is a global logistics company that provides a wide range of services, including express delivery, freight transportation, supply chain solutions, and e-commerce services. As one of the largest logistics companies in the world, DHL operates in over 220 countries and territories, connecting businesses and individuals with seamless and reliable shipping solutions. The DHL API Developer Portal exposes APIs across the company's business divisions including DHL eCommerce, DHL Express, DHL Global Forwarding, DHL Freight, DHL Supply Chain, and Post and Parcel Germany.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/dhl/refs/heads/main/screenshots/dhl-2026-06-20T180001.png",
-     "score": 34.6,
+     "score": 36.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 87.5,
       "contract_quality": 47.8,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 51.9,
      "agent_band": "agent-ready",
@@ -342,25 +306,25 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 9
+     "rank": 8
     },
     {
      "name": "Old Dominion Freight Line",
      "slug": "old-dominion-freight-line",
      "description": "Old Dominion Freight Line is a leading less-than-truckload (LTL) motor carrier providing regional, inter-regional, and national freight services in the United States. ODFL offers a suite of REST web services for shippers and partners to integrate freight booking, pickup, tracking, document retrieval, and electronic bill of lading capabilities directly into their systems.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/old-dominion-freight-line/refs/heads/main/screenshots/old-dominion-freight-line-2026-06-20T190653.png",
-     "score": 33.4,
+     "score": 36.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 60.2,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 15.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -378,6 +342,42 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
+     "rank": 9
+    },
+    {
+     "name": "Americold Realty Trust",
+     "slug": "americold-realty-trust",
+     "description": "Americold Realty Trust is a global leader in temperature-controlled logistics, real estate, and value-added services, owning and operating one of the largest networks of cold storage warehouses in the world. The company serves food producers, retailers, and distributors with integrated logistics solutions, offering technology platforms such as i-3PL for customer-facing inventory and order visibility and EDI for system-to-system supply chain integration. While Americold provides customer-facing technology and integration capabilities, it does not currently publish a public developer-facing API portal with open OpenAPI documentation; integrations are established project-by-project through the Americold service desk and EDI onboarding process.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/americold-realty-trust/refs/heads/main/screenshots/americold-realty-trust-2026-06-20T171923.png",
+     "score": 35.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 85.0,
+      "contract_quality": 39.6,
+      "governance": 86.8,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
      "rank": 10
     },
     {
@@ -385,18 +385,18 @@
      "slug": "jb-hunt-transport-services",
      "description": "J.B. Hunt Transport Services, Inc. is one of the largest transportation and logistics companies in North America, providing trucking, intermodal, and contract services. J.B. Hunt offers the J.B. Hunt 360 Connect API portal for shippers and partners to programmatically access quotes, order management, shipment tracking, document management, and scheduling for full-truckload (FTL) and less-than-truckload (LTL) operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/jb-hunt-transport-services/refs/heads/main/screenshots/jb-hunt-transport-services-2026-06-20T183810.png",
-     "score": 31.0,
+     "score": 34.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 54.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 38.5,
      "agent_band": "agent-aware",
@@ -421,18 +421,18 @@
      "slug": "pitney-bowes",
      "description": "Pitney Bowes is a global technology company that specializes in providing innovative shipping and mailing solutions. They offer a range of products and services, including postage meters, shipping software, and mail sorting equipment, to help businesses streamline their shipping and mailing processes. With a focus on efficiency and productivity, Pitney Bowes aims to help companies save time and money on their shipping and mailing operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pitney-bowes/refs/heads/main/screenshots/pitney-bowes-2026-06-20T191739.png",
-     "score": 30.0,
+     "score": 33.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 87.5,
       "contract_quality": 50.9,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -478,7 +478,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -514,7 +514,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -550,7 +550,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -592,7 +592,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -628,7 +628,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -664,7 +664,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -700,7 +700,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -736,7 +736,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -782,7 +782,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -818,7 +818,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -853,7 +853,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -889,7 +889,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -925,7 +925,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -961,7 +961,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -997,7 +997,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1033,7 +1033,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1075,7 +1075,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1111,7 +1111,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1147,7 +1147,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1183,7 +1183,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1218,7 +1218,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

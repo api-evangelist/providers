@@ -1,5 +1,11 @@
 [
  {
+  "slug": "united-kingdom",
+  "name": "United Kingdom",
+  "flag": "🇬🇧",
+  "count": 310
+ },
+ {
   "slug": "india",
   "name": "India",
   "flag": "🇮🇳",
@@ -12,16 +18,16 @@
   "count": 301
  },
  {
-  "slug": "united-kingdom",
-  "name": "United Kingdom",
-  "flag": "🇬🇧",
-  "count": 287
- },
- {
   "slug": "united-states",
   "name": "United States",
   "flag": "🇺🇸",
-  "count": 243
+  "count": 273
+ },
+ {
+  "slug": "australia",
+  "name": "Australia",
+  "flag": "🇦🇺",
+  "count": 188
  },
  {
   "slug": "germany",
@@ -30,16 +36,10 @@
   "count": 186
  },
  {
-  "slug": "australia",
-  "name": "Australia",
-  "flag": "🇦🇺",
-  "count": 163
- },
- {
   "slug": "canada",
   "name": "Canada",
   "flag": "🇨🇦",
-  "count": 136
+  "count": 155
  },
  {
   "slug": "brazil",
@@ -117,7 +117,7 @@
   "slug": "ireland",
   "name": "Ireland",
   "flag": "🇮🇪",
-  "count": 20
+  "count": 21
  },
  {
   "slug": "switzerland",

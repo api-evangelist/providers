@@ -12,22 +12,22 @@
    "shown": 2,
    "companies": [
     {
-     "name": "Starbucks",
-     "slug": "starbucks",
-     "description": "Starbucks provides partner APIs for ordering, loyalty program integration, store locations, and menu data through their developer portal. These APIs enable authorized partners to integrate Starbucks ordering, rewards, and store discovery into their applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/screenshots/starbucks-2026-06-20T194508.png",
-     "score": 51.5,
+     "name": "Aramark",
+     "slug": "aramark",
+     "description": "Aramark is a Fortune 500 company providing food, facilities, and uniform services. The Marko platform provides a data and AI API with 70+ services for real-time insights across organizational, point-of-sale, product, and revenue data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/screenshots/aramark-2026-06-20T172345.png",
+     "score": 53.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 67.3,
-      "governance": 73.7,
+      "discoverability": 100.0,
+      "contract_quality": 71.7,
+      "governance": 86.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.3,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -48,22 +48,22 @@
      "rank": 1
     },
     {
-     "name": "Aramark",
-     "slug": "aramark",
-     "description": "Aramark is a Fortune 500 company providing food, facilities, and uniform services. The Marko platform provides a data and AI API with 70+ services for real-time insights across organizational, point-of-sale, product, and revenue data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/aramark/refs/heads/main/screenshots/aramark-2026-06-20T172345.png",
-     "score": 50.0,
+     "name": "Starbucks",
+     "slug": "starbucks",
+     "description": "Starbucks provides partner APIs for ordering, loyalty program integration, store locations, and menu data through their developer portal. These APIs enable authorized partners to integrate Starbucks ordering, rewards, and store discovery into their applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/starbucks/refs/heads/main/screenshots/starbucks-2026-06-20T194508.png",
+     "score": 51.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 67.5,
-      "contract_quality": 71.7,
-      "governance": 86.8,
+      "contract_quality": 67.3,
+      "governance": 73.7,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.3,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -110,7 +110,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 38.5,
      "agent_band": "agent-aware",
@@ -146,7 +146,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -193,7 +193,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -229,7 +229,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 13.5,
      "agent_band": "human-only",
@@ -265,7 +265,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -311,7 +311,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -347,7 +347,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -383,7 +383,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -419,7 +419,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -454,7 +454,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -490,7 +490,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -526,7 +526,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -562,7 +562,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -598,7 +598,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

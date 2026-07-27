@@ -336,6 +336,14 @@
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-payments-apis.png"
   },
   {
+    "slug": "state-of-australian-real-estate-apis",
+    "title": "The State of Australian Real Estate APIs",
+    "tagline": "What eighteen Australian real estate organizations actually publish, scored — the market that mandated the rail instead of the schema, and got an API that carries production traffic.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-australian-real-estate-apis.png"
+  },
+  {
     "slug": "state-of-canadian-banking-apis",
     "title": "The State of Canadian Banking APIs",
     "tagline": "What 42 Canadian banks, credit unions, caisses, and fintechs actually publish, scored — the emptiest banking market measured, where the rails outrank the banks.",
@@ -368,12 +376,28 @@
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-payments-apis.png"
   },
   {
+    "slug": "state-of-canadian-real-estate-apis",
+    "title": "The State of Canadian Real Estate APIs",
+    "tagline": "What fourteen Canadian real estate organizations actually publish, scored — four facets at a clean sweep of zeros, and the fifth consecutive sector in which Canada finishes last.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-canadian-real-estate-apis.png"
+  },
+  {
     "slug": "state-of-market-data-apis",
     "title": "The State of Market Data APIs",
     "tagline": "What the market data providers actually publish, scored — and where the durable value hides in a commoditizing feed.",
     "area": "Sector Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-market-data-apis.png"
+  },
+  {
+    "slug": "state-of-telecom-apis",
+    "title": "The State of Telecom APIs",
+    "tagline": "What eighty-three telecom organizations worldwide actually publish, scored — the industry that built a real open standard and then published 351 specifications with no hosts in them.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-telecom-apis.png"
   },
   {
     "slug": "state-of-uk-banking-apis",
@@ -408,6 +432,14 @@
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-payments-apis.png"
   },
   {
+    "slug": "state-of-uk-real-estate-apis",
+    "title": "The State of UK Real Estate APIs",
+    "tagline": "What twenty-four UK real estate organizations actually publish, scored — the market with no MLS, no standard and no mandate, and the best-published real estate sector in the world.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-uk-real-estate-apis.png"
+  },
+  {
     "slug": "state-of-us-banking-apis",
     "title": "The State of US Banking APIs",
     "tagline": "What 113 US banks, credit unions, neobanks, and banking-rails providers actually publish, scored — the one open-finance market with no mandate, and the widest split in banking.",
@@ -438,6 +470,14 @@
     "area": "Sector Report",
     "price": "500",
     "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-payments-apis.png"
+  },
+  {
+    "slug": "state-of-us-real-estate-apis",
+    "title": "The State of US Real Estate APIs",
+    "tagline": "What forty-five US real estate organizations actually publish, scored — the only industry that successfully mandated a machine-readable contract on itself, and the two points it bought.",
+    "area": "Sector Report",
+    "price": "500",
+    "cover": "https://papers.apievangelist.com/assets/covers/state-of-us-real-estate-apis.png"
   },
   {
     "slug": "techstars-api-portfolio",

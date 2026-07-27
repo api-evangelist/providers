@@ -8,8 +8,8 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 2,
-   "shown": 2,
+   "count": 4,
+   "shown": 4,
    "companies": [
     {
      "name": "Moneyhub",
@@ -26,7 +26,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -54,161 +54,22 @@
      "rank": 1
     },
     {
-     "name": "Form3",
-     "slug": "form3",
-     "description": "Form3 is a United Kingdom-headquartered, cloud-native payments technology company offering account-to-account payment processing as a single, unified REST API to banks and fintechs. Founded in 2016 and headquartered in London, Form3 runs a fully managed, Payments-as-a-Service platform that connects customers to domestic and cross-border schemes - UK Faster Payments, Bacs and CHAPS, SEPA Credit Transfer, SEPA Instant and SEPA Direct Debit, and US instant rails - alongside Confirmation of Payee / Verification of Payee name-checking, direct debit mandate management, scheme-addressable account identification, event notifications (webhooks), and full audit trails. Its public API is REST built on the json:api specification, documented at api-docs.form3.tech with a downloadable Swagger 2.0 definition, and authenticated with OAuth2 client-credentials plus HTTP Message Signatures request signing and, in some environments, mutual TLS. Form3 is API-native and developer-facing but is a regulated B2B rail rather than an open self-serve signup product; production access is contracted.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png",
-     "score": 61.3,
-     "band": "strong",
-     "band_label": "Strong",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 60.4,
-      "governance": 0.0,
-      "operational_transparency": 55.3,
-      "developer_ergonomics": 73.9,
-      "commercial_clarity": 36.8
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 100.0
-     },
-     "agent_score": 86.5,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": true,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "tier": "Embedded Finance & BaaS",
-     "rank": 2
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "developing",
-   "label": "Developing",
-   "range": "45–59.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 15,
-   "shown": 15,
-   "companies": [
-    {
-     "name": "Primer",
-     "slug": "primer",
-     "description": "Primer is a payment orchestration platform that enables merchants to build flexible payment flows across multiple processors through a single REST API integration. The platform provides intelligent routing, automatic fallback logic, fraud detection integrations, and a no-code Workflows builder for managing payment rules without engineering effort. Primer supports 60+ payment methods including cards, digital wallets, and regional alternatives such as iDEAL, Klarna, and Alipay. The platform delivers unified observability, reconciliation, and analytics across all connected payment providers, and processes billions of dollars monthly with 99.99% uptime.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/screenshots/primer-2026-06-20T192104.png",
-     "score": 59.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 64.6,
-      "governance": 86.8,
-      "operational_transparency": 68.4,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 47.4
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 60.9
-     },
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Gateways & PSPs",
-     "rank": 3
-    },
-    {
-     "name": "Volt",
-     "slug": "volt-io",
-     "description": "Volt is a London-headquartered real-time payments company that operates a global account-to-account (A2A) \"pay by bank\" network built on open banking rails. Founded in 2019, Volt connects merchants to bank-initiated payments across the UK (Faster Payments / Open Banking under PSD2), Europe (SEPA), Brazil (Pix), Australia (PayTo), and other real-time schemes through a single API, so shoppers pay directly from their bank account without cards. Its platform spans payment initiation, refunds, payouts, recurring payments (mandates / variable recurring payments), Volt Accounts and virtual IBANs for settlement and collections, account verification (confirmation of payee), and reconciliation reporting. Volt sells to merchants and PSPs across ecommerce, travel, gaming, iGaming and financial services, and is FCA-authorised in its home market of the United Kingdom. Volt ships a genuine, API-native developer surface: a public developer portal and OpenAPI-backed API reference at docs.volt.io, a single production gateway host (gateway.volt.io) with a sandbox, OAuth2 authentication, and webhooks for asynchronous payment events. The docs.volt.io API reference renders schemas server-side, but Volt publishes a real OpenAPI 3.0.1 definition for its Accounts API (virtual IBANs, named accounts, settlement) in the github.com/volt-io/volt-io-accounts repository, and ships first-party mobile checkout SDKs (iOS/Android) plus e-commerce plugins in the same GitHub organization.",
-     "score": 59.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 59.3,
-      "governance": 0.0,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 71.7,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 78.3
-     },
-     "agent_score": 75.0,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": true,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "tier": "Open Banking & A2A Payments",
-     "rank": 4
-    },
-    {
      "name": "TrueLayer",
      "slug": "truelayer",
      "description": "TrueLayer is Europe's leading open banking platform providing unified access to bank data, payments, payouts, refunds, and variable recurring payments across the UK and EU. TrueLayer connects to 69+ financial institutions and enables instant bank payments, data enrichment, and account verification through a single API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/truelayer/refs/heads/main/screenshots/truelayer-2026-06-20T195753.png",
-     "score": 58.7,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 62.6,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 65.5,
+      "discoverability": 100.0,
+      "contract_quality": 70.8,
       "governance": 73.7,
       "operational_transparency": 52.6,
       "developer_ergonomics": 50.0,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -233,33 +94,33 @@
       "consent_identity": false
      },
      "tier": "Open Banking & A2A Payments",
-     "rank": 5
+     "rank": 2
     },
     {
-     "name": "Dojo",
-     "slug": "dojo",
-     "description": "Dojo is a United Kingdom payments company (Paymentsense trading as Dojo, headquartered in London) that provides card acquiring and payment processing for in-person, online, and omnichannel merchants. It combines Dojo card machines and terminals, a payment gateway, and merchant tooling (bookings, EPOS integrations, business banking-style accounts) into a single acquirer-processor stack aimed at UK small and mid-market businesses and hospitality. Dojo is genuinely API-native and publishes a public developer portal at docs.dojo.tech with a REST API for payment intents, customers, refunds, captures, terminals, and webhooks, alongside separate specs for transactions, EPOS data ingestion, and Tap to Pay on iPhone. Authentication is a secret API key sent in the Authorization header (sandbox sk_sandbox_ and production sk_prod_ prefixes), and the platform supports webhook event subscriptions. Positioned within the UK's dense card-acquiring and PSP cluster alongside players like Checkout.com and SumUp.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/screenshots/dojo-2026-07-25T212236.png",
-     "score": 57.6,
-     "band": "developing",
-     "band_label": "Developing",
+     "name": "Form3",
+     "slug": "form3",
+     "description": "Form3 is a United Kingdom-headquartered, cloud-native payments technology company offering account-to-account payment processing as a single, unified REST API to banks and fintechs. Founded in 2016 and headquartered in London, Form3 runs a fully managed, Payments-as-a-Service platform that connects customers to domestic and cross-border schemes - UK Faster Payments, Bacs and CHAPS, SEPA Credit Transfer, SEPA Instant and SEPA Direct Debit, and US instant rails - alongside Confirmation of Payee / Verification of Payee name-checking, direct debit mandate management, scheme-addressable account identification, event notifications (webhooks), and full audit trails. Its public API is REST built on the json:api specification, documented at api-docs.form3.tech with a downloadable Swagger 2.0 definition, and authenticated with OAuth2 client-credentials plus HTTP Message Signatures request signing and, in some environments, mutual TLS. Form3 is API-native and developer-facing but is a regulated B2B rail rather than an open self-serve signup product; production access is contracted.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/form3/refs/heads/main/screenshots/form3-2026-07-25T214957.png",
+     "score": 61.3,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 87.5,
+      "discoverability": 100.0,
       "contract_quality": 60.4,
       "governance": 0.0,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 84.8,
-      "commercial_clarity": 44.7
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
-      "score": 67.4
+      "score": 100.0
      },
-     "agent_score": 79.8,
+     "agent_score": 86.5,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -272,71 +133,29 @@
       "rate_limit_signal": false,
       "asyncapi_events": true,
       "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
+      "well_known_catalog": true,
+      "consent_identity": true
      },
-     "tier": "Gateways & PSPs",
-     "rank": 6
-    },
-    {
-     "name": "Paymentsense",
-     "slug": "paymentsense",
-     "description": "Paymentsense is a United Kingdom payment processing company that provides card payment acceptance to small and medium-sized businesses through card machines (PDQ terminals), online payment gateways, and EPOS integrations. Now part of Dojo, its developer-facing surface centers on the Connect platform, a cloud-hosted integration layer that gives each merchant an isolated host so point-of-sale and hospitality software can drive card terminals without touching card data. Paymentsense publishes a genuine public developer portal at docs.connect.paymentsense.cloud with interactive Swagger reference docs and downloadable OpenAPI/Swagger specifications for the Connect REST API (Pay-At-Counter and Pay-At-Table terminal integration, versions v0/v1/v2) and the Connect-E REST API for online/e-commerce card payments, plus a documented WebSockets interface. Authentication is HTTP Basic using a per-merchant API key supplied by Paymentsense. A separate merchant/software-house management portal at developers.paymentsense.com sits behind Google sign-in.",
-     "score": 56.7,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 60.4,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 73.9,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 65.2
-     },
-     "agent_score": 71.2,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Gateways & PSPs",
-     "rank": 7
+     "tier": "Embedded Finance & BaaS",
+     "rank": 3
     },
     {
      "name": "Token Io",
      "slug": "token-io",
      "description": "Token.io is an Open Banking infrastructure provider offering A2A (Account-to-Account) payments and account information services across Europe. Founded in 2016 and FCA-authorised since 2018, Token.io was the first payment initiation service provider to conduct an end-to-end PSD2-compliant Open Banking transaction. The Token.io platform connects developers and TPPs to over 4,000 banks via a single standardised API supporting Payment Initiation Services (PIS), Account Information Services (AIS), Variable Recurring Payments (VRP), refunds, payouts, settlement accounts, account verification, and Pay-by-Link checkout. Used by merchants, PSPs, fintechs, PFM apps, and platform businesses to replace card-rail payments and aggregate multibank data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/token-io/refs/heads/main/screenshots/token-io-2026-06-20T195438.png",
-     "score": 56.1,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 60.3,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 55.0,
-      "contract_quality": 60.8,
+      "discoverability": 75.0,
+      "contract_quality": 69.7,
       "governance": 73.7,
       "operational_transparency": 36.8,
       "developer_ergonomics": 58.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -355,25 +174,36 @@
       "consent_identity": false
      },
      "tier": "Open Banking & A2A Payments",
-     "rank": 8
-    },
+     "rank": 4
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 13,
+   "shown": 13,
+   "companies": [
     {
-     "name": "SumUp",
-     "slug": "sumup",
-     "description": "European mobile payment and POS platform with REST APIs for creating checkout links, managing card readers, processing payments, tracking transactions, and accessing payout data. SumUp serves over 4 million merchants in 37 markets with built-in fraud protection, sandbox environments for testing, and SDKs for multiple programming languages.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/screenshots/sumup-2026-06-20T194647.png",
-     "score": 56.0,
+     "name": "Primer",
+     "slug": "primer",
+     "description": "Primer is a payment orchestration platform that enables merchants to build flexible payment flows across multiple processors through a single REST API integration. The platform provides intelligent routing, automatic fallback logic, fraud detection integrations, and a no-code Workflows builder for managing payment rules without engineering effort. Primer supports 60+ payment methods including cards, digital wallets, and regional alternatives such as iDEAL, Klarna, and Alipay. The platform delivers unified observability, reconciliation, and analytics across all connected payment providers, and processes billions of dollars monthly with 99.99% uptime.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/primer/refs/heads/main/screenshots/primer-2026-06-20T192104.png",
+     "score": 59.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 100.0,
-      "contract_quality": 57.5,
-      "governance": 73.7,
-      "operational_transparency": 57.9,
+      "contract_quality": 64.6,
+      "governance": 86.8,
+      "operational_transparency": 68.4,
       "developer_ergonomics": 21.7,
-      "commercial_clarity": 50.0
+      "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -398,25 +228,25 @@
       "consent_identity": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 9
+     "rank": 5
     },
     {
      "name": "Yapily",
      "slug": "yapily",
      "description": "Yapily is a UK-headquartered Open Banking platform that exposes a single REST API across 2,000+ banks in the UK and 18+ European countries. The platform provides AISP (Account Information) and PISP (Payment Initiation) capabilities, Variable Recurring Payments (VRP), transaction enrichment (Data Plus), Account Validation, and Hosted Payment/Consent Pages. Yapily Connect Ltd is FCA-authorised in the UK and Yapily Connect UAB is authorised by the Bank of Lithuania for EU coverage, allowing customers to launch without holding their own PSD2 permissions.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/yapily/refs/heads/main/screenshots/yapily-2026-06-20T201736.png",
-     "score": 54.8,
+     "score": 59.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 65.8,
+      "discoverability": 100.0,
+      "contract_quality": 74.6,
       "governance": 86.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 47.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -441,6 +271,176 @@
       "consent_identity": false
      },
      "tier": "Open Banking & A2A Payments",
+     "rank": 6
+    },
+    {
+     "name": "Volt",
+     "slug": "volt-io",
+     "description": "Volt is a London-headquartered real-time payments company that operates a global account-to-account (A2A) \"pay by bank\" network built on open banking rails. Founded in 2019, Volt connects merchants to bank-initiated payments across the UK (Faster Payments / Open Banking under PSD2), Europe (SEPA), Brazil (Pix), Australia (PayTo), and other real-time schemes through a single API, so shoppers pay directly from their bank account without cards. Its platform spans payment initiation, refunds, payouts, recurring payments (mandates / variable recurring payments), Volt Accounts and virtual IBANs for settlement and collections, account verification (confirmation of payee), and reconciliation reporting. Volt sells to merchants and PSPs across ecommerce, travel, gaming, iGaming and financial services, and is FCA-authorised in its home market of the United Kingdom. Volt ships a genuine, API-native developer surface: a public developer portal and OpenAPI-backed API reference at docs.volt.io, a single production gateway host (gateway.volt.io) with a sandbox, OAuth2 authentication, and webhooks for asynchronous payment events. The docs.volt.io API reference renders schemas server-side, but Volt publishes a real OpenAPI 3.0.1 definition for its Accounts API (virtual IBANs, named accounts, settlement) in the github.com/volt-io/volt-io-accounts repository, and ships first-party mobile checkout SDKs (iOS/Android) plus e-commerce plugins in the same GitHub organization.",
+     "score": 59.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 59.3,
+      "governance": 0.0,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 78.3
+     },
+     "agent_score": 75.0,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "Open Banking & A2A Payments",
+     "rank": 7
+    },
+    {
+     "name": "Dojo",
+     "slug": "dojo",
+     "description": "Dojo is a United Kingdom payments company (Paymentsense trading as Dojo, headquartered in London) that provides card acquiring and payment processing for in-person, online, and omnichannel merchants. It combines Dojo card machines and terminals, a payment gateway, and merchant tooling (bookings, EPOS integrations, business banking-style accounts) into a single acquirer-processor stack aimed at UK small and mid-market businesses and hospitality. Dojo is genuinely API-native and publishes a public developer portal at docs.dojo.tech with a REST API for payment intents, customers, refunds, captures, terminals, and webhooks, alongside separate specs for transactions, EPOS data ingestion, and Tap to Pay on iPhone. Authentication is a secret API key sent in the Authorization header (sandbox sk_sandbox_ and production sk_prod_ prefixes), and the platform supports webhook event subscriptions. Positioned within the UK's dense card-acquiring and PSP cluster alongside players like Checkout.com and SumUp.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dojo/refs/heads/main/screenshots/dojo-2026-07-25T212236.png",
+     "score": 57.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 60.4,
+      "governance": 0.0,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 84.8,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 67.4
+     },
+     "agent_score": 79.8,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Gateways & PSPs",
+     "rank": 8
+    },
+    {
+     "name": "Paymentsense",
+     "slug": "paymentsense",
+     "description": "Paymentsense is a United Kingdom payment processing company that provides card payment acceptance to small and medium-sized businesses through card machines (PDQ terminals), online payment gateways, and EPOS integrations. Now part of Dojo, its developer-facing surface centers on the Connect platform, a cloud-hosted integration layer that gives each merchant an isolated host so point-of-sale and hospitality software can drive card terminals without touching card data. Paymentsense publishes a genuine public developer portal at docs.connect.paymentsense.cloud with interactive Swagger reference docs and downloadable OpenAPI/Swagger specifications for the Connect REST API (Pay-At-Counter and Pay-At-Table terminal integration, versions v0/v1/v2) and the Connect-E REST API for online/e-commerce card payments, plus a documented WebSockets interface. Authentication is HTTP Basic using a per-merchant API key supplied by Paymentsense. A separate merchant/software-house management portal at developers.paymentsense.com sits behind Google sign-in.",
+     "score": 56.7,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 60.4,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 65.2
+     },
+     "agent_score": 71.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Gateways & PSPs",
+     "rank": 9
+    },
+    {
+     "name": "SumUp",
+     "slug": "sumup",
+     "description": "European mobile payment and POS platform with REST APIs for creating checkout links, managing card readers, processing payments, tracking transactions, and accessing payout data. SumUp serves over 4 million merchants in 37 markets with built-in fraud protection, sandbox environments for testing, and SDKs for multiple programming languages.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sumup/refs/heads/main/screenshots/sumup-2026-06-20T194647.png",
+     "score": 56.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 57.5,
+      "governance": 73.7,
+      "operational_transparency": 57.9,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 60.9
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Gateways & PSPs",
      "rank": 10
     },
     {
@@ -458,7 +458,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -501,7 +501,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -543,7 +543,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -571,64 +571,22 @@
      "rank": 13
     },
     {
-     "name": "Revolut",
-     "slug": "revolut",
-     "description": "Revolut is a global financial technology company providing banking, payments, cards, foreign exchange, savings, and crypto services to retail and business customers. Its developer platform publishes several distinct REST APIs: the Business API (accounts, transfers, payments, counterparties, cards, webhooks), the Merchant API (online card acquiring, orders, captures, refunds, subscriptions), the Open Banking API (UK Open Banking / PSD2 account information and payment initiation, FAPI-secured with detached JWS), the Crypto Ramp API (fiat-to-crypto on/off ramp for partners), and the Revolut X crypto exchange API (balances, orders, trades, market data). Revolut publishes official OpenAPI specifications and Agent Skills on GitHub.",
-     "score": 48.6,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 65.6,
-      "governance": 0.0,
-      "operational_transparency": 47.4,
-      "developer_ergonomics": 73.9,
-      "commercial_clarity": 7.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 60.9
-     },
-     "agent_score": 86.5,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": true,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "tier": "Cross-Border & Money Movement",
-     "rank": 14
-    },
-    {
      "name": "GoCardless",
      "slug": "gocardless",
      "description": "GoCardless is a global account-to-account payments platform specializing in pull-based bank debit (UK Bacs, SEPA Direct Debit, ACH, BECS, PAD, Autogiro) and open-banking instant bank payments, used by businesses to collect recurring subscriptions, invoices, and one-off payments directly from customer bank accounts. The GoCardless REST API exposes customers, bank accounts, mandates, payments, payouts, subscriptions, refunds, events, webhooks, and verification flows. Authentication uses Bearer access tokens issued from the dashboard, with separate sandbox and live environments; every request must include a GoCardless-Version header.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gocardless/refs/heads/main/screenshots/gocardless-2026-06-20T181944.png",
-     "score": 47.7,
+     "score": 50.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 61.9,
       "governance": 52.6,
       "operational_transparency": 36.8,
       "developer_ergonomics": 32.6,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -653,6 +611,48 @@
       "consent_identity": false
      },
      "tier": "Open Banking & A2A Payments",
+     "rank": 14
+    },
+    {
+     "name": "Revolut",
+     "slug": "revolut",
+     "description": "Revolut is a global financial technology company providing banking, payments, cards, foreign exchange, savings, and crypto services to retail and business customers. Its developer platform publishes several distinct REST APIs: the Business API (accounts, transfers, payments, counterparties, cards, webhooks), the Merchant API (online card acquiring, orders, captures, refunds, subscriptions), the Open Banking API (UK Open Banking / PSD2 account information and payment initiation, FAPI-secured with detached JWS), the Crypto Ramp API (fiat-to-crypto on/off ramp for partners), and the Revolut X crypto exchange API (balances, orders, trades, market data). Revolut publishes official OpenAPI specifications and Agent Skills on GitHub.",
+     "score": 48.6,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 65.6,
+      "governance": 0.0,
+      "operational_transparency": 47.4,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 60.9
+     },
+     "agent_score": 86.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "Cross-Border & Money Movement",
      "rank": 15
     },
     {
@@ -670,7 +670,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -713,7 +713,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -767,7 +767,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -810,7 +810,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -853,7 +853,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -895,7 +895,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -923,106 +923,22 @@
      "rank": 21
     },
     {
-     "name": "Ordo",
-     "slug": "ordo",
-     "description": "Ordo (operated by The Smart Request Company Ltd, ordohq.com / ordopay.com) is a United Kingdom open-banking payments provider that lets businesses collect money directly from a customer's bank account over the UK Faster Payments rails, avoiding card fees and chargebacks. Built on PSD2 / Open Banking payment initiation, its fully hosted, white-labelled platform delivers Request to Pay, one-off payment requests, e-commerce, Point of Sale / QR code and contact centre payments, plus Variable Recurring Payments (VRP) for fixed, variable and sweeping collections, and account information (AIS) and account verification services. Ordo is FCA-authorised and an Open Banking regulated provider, with a developer surface historically published as a ReadMe.io portal at docs.myordo.com backed by an Azure API Management gateway (test.api.ordopay.com). Ordo has since ceased trading and been acquired by Neonomics; the marketing site at ordopay.com remains live while the developer portal is now offline. Its API posture is documented here honestly from six OpenAPI 3.0.1 definitions harvested verbatim from the archived developer portal.",
-     "score": 41.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 52.8,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 54.3
-     },
-     "agent_score": 65.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Open Banking & A2A Payments",
-     "rank": 22
-    },
-    {
-     "name": "WorldFirst",
-     "slug": "worldfirst",
-     "description": "WorldFirst is a United Kingdom-founded cross-border payments and money-movement company, headquartered in London and owned by Ant Group (Alipay) since 2019. It gives online sellers, marketplaces, and SMEs a multi-currency World Account to collect, hold, convert, and send money across borders, alongside a World Card for multi-currency spending and marketplace/supplier payouts. Its home market is the United Kingdom, but its book is global e-commerce and cross-border trade, serving merchants selling on Amazon and other marketplaces. WorldFirst ships a genuine, API-native developer platform at developers.worldfirst.com built on Ant Group's Antom-style gateway (open-sea/open-eu/open-na hosts, /amsin/api/v1 paths): a RESTful, JSON, HTTPS-only interface segmented into an Enterprise Solution (account, beneficiary, FX, transfer, payout, invoicing, virtual-card credit), a Pay Solution (Cashier Payment / online checkout acceptance for merchants), and a WorldTrade Solution (cross-border trade orders). Requests are secured with RSA256/ECC224 digital signatures plus OAuth 2.0 access tokens; asynchronous notifications (webhooks) return payment and trade-order results. The public reference is documentation-and-console only — the underlying OpenAPI/Swagger is not offered as a downloadable spec (the gateway blocks anonymous spec fetches), so integration is gated behind partner onboarding and the console's iMock/iTest tooling.",
-     "score": 39.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 22.6,
-      "governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 58.7,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 54.3
-     },
-     "agent_score": 23.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Cross-Border & Money Movement",
-     "rank": 23
-    },
-    {
      "name": "Checkout.com",
      "slug": "checkout-com",
      "description": "Checkout.com is a global payment processor offering card acquiring, alternative payments, fraud, and connected accounts via a single API. Direct integrations with Visa, Mastercard, and APMs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/checkout-com/refs/heads/main/screenshots/checkout-com-2026-06-20T174248.png",
-     "score": 38.8,
+     "score": 41.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 87.5,
       "contract_quality": 51.3,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1047,39 +963,81 @@
       "consent_identity": false
      },
      "tier": "Gateways & PSPs",
-     "rank": 24
+     "rank": 22
     },
     {
-     "name": "Paysend",
-     "slug": "paysend",
-     "description": "Paysend is a London-headquartered global fintech, founded in 2017, building a cross-border digital payments network that moves money to bank accounts, cards, and wallets across 170+ countries in 40+ currencies for more than 11 million consumers and a growing base of enterprise clients. Alongside its consumer money-transfer app, Paysend operates Paysend Enterprise, a business-facing payments platform whose developer surface is a single Payout API: one integration disburses funds worldwide to cards and accounts, with FX rate lookups, bank and card tokenization utilities, partner statements, and balance queries. The API is a partner-provisioned, enterprise integration (United Kingdom home market) rather than a fully public self-serve product — authentication is API key plus HMAC digital signature (X-OPP-Signature), requests are idempotent via a request id and date, and payout status is delivered through configurable webhook notifications. Paysend documents this surface openly on a Docusaurus developer portal with a sandbox mock service, but does not publish a downloadable OpenAPI/Swagger definition or a public base URL.",
-     "score": 36.1,
+     "name": "Ordo",
+     "slug": "ordo",
+     "description": "Ordo (operated by The Smart Request Company Ltd, ordohq.com / ordopay.com) is a United Kingdom open-banking payments provider that lets businesses collect money directly from a customer's bank account over the UK Faster Payments rails, avoiding card fees and chargebacks. Built on PSD2 / Open Banking payment initiation, its fully hosted, white-labelled platform delivers Request to Pay, one-off payment requests, e-commerce, Point of Sale / QR code and contact centre payments, plus Variable Recurring Payments (VRP) for fixed, variable and sweeping collections, and account information (AIS) and account verification services. Ordo is FCA-authorised and an Open Banking regulated provider, with a developer surface historically published as a ReadMe.io portal at docs.myordo.com backed by an Azure API Management gateway (test.api.ordopay.com). Ordo has since ceased trading and been acquired by Neonomics; the marketing site at ordopay.com remains live while the developer portal is now offline. Its API posture is documented here honestly from six OpenAPI 3.0.1 definitions harvested verbatim from the archived developer portal.",
+     "score": 41.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 80.0,
+      "discoverability": 100.0,
+      "contract_quality": 52.8,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 54.3
+     },
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Open Banking & A2A Payments",
+     "rank": 23
+    },
+    {
+     "name": "WorldFirst",
+     "slug": "worldfirst",
+     "description": "WorldFirst is a United Kingdom-founded cross-border payments and money-movement company, headquartered in London and owned by Ant Group (Alipay) since 2019. It gives online sellers, marketplaces, and SMEs a multi-currency World Account to collect, hold, convert, and send money across borders, alongside a World Card for multi-currency spending and marketplace/supplier payouts. Its home market is the United Kingdom, but its book is global e-commerce and cross-border trade, serving merchants selling on Amazon and other marketplaces. WorldFirst ships a genuine, API-native developer platform at developers.worldfirst.com built on Ant Group's Antom-style gateway (open-sea/open-eu/open-na hosts, /amsin/api/v1 paths): a RESTful, JSON, HTTPS-only interface segmented into an Enterprise Solution (account, beneficiary, FX, transfer, payout, invoicing, virtual-card credit), a Pay Solution (Cashier Payment / online checkout acceptance for merchants), and a WorldTrade Solution (cross-border trade orders). Requests are secured with RSA256/ECC224 digital signatures plus OAuth 2.0 access tokens; asynchronous notifications (webhooks) return payment and trade-order results. The public reference is documentation-and-console only — the underlying OpenAPI/Swagger is not offered as a downloadable spec (the gateway blocks anonymous spec fetches), so integration is gated behind partner onboarding and the console's iMock/iTest tooling.",
+     "score": 39.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
       "contract_quality": 22.6,
       "governance": 0.0,
-      "operational_transparency": 13.2,
-      "developer_ergonomics": 67.4,
-      "commercial_clarity": 18.4
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 58.7,
+      "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
-      "score": 56.5
+      "score": 54.3
      },
-     "agent_score": 43.3,
+     "agent_score": 23.1,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
       "agentic_access": false,
-      "mcp_server": true,
+      "mcp_server": false,
       "auth_clarity": true,
-      "idempotency": true,
+      "idempotency": false,
       "error_semantics": true,
       "openapi_examples": false,
       "rate_limit_signal": false,
@@ -1089,66 +1047,24 @@
       "consent_identity": false
      },
      "tier": "Cross-Border & Money Movement",
-     "rank": 25
-    },
-    {
-     "name": "takepayments",
-     "slug": "takepayments",
-     "description": "takepayments (a trading name of Payzone UK Limited) is a United Kingdom payment gateway and merchant-services provider that lets businesses accept card payments online, in person, and over the phone. Its online payment gateway offers Hosted (redirect) and Direct (server-to-server) integrations for e-commerce checkouts, delivered as SOAP v1.1 XML and HTTPS form-POST requests authenticated with a merchant ID and a pre-shared-key signature hash, alongside ready-made shopping-cart plugins and backend SDK code packs. Its newer Terminal API is a modern REST/JSON surface hosted on Azure API Management, secured with OAuth 2.0 client-credentials via Microsoft Azure AD, that pairs and drives card machines (Move5000, PAX A920 Pro) for Start-Transaction, Pairing, Split Bill & Gratuity, and Pay at Table flows. takepayments runs a real public developer portal at developer.takepayments.com but does not publish a downloadable OpenAPI/Swagger definition; its API reference is documentation-only, and merchant onboarding is sales-led rather than open self-serve.",
-     "score": 35.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 63.0,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 65.2
-     },
-     "agent_score": 32.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "tier": "Gateways & PSPs",
-     "rank": 26
+     "rank": 24
     },
     {
      "name": "Paddle",
      "slug": "paddle",
      "description": "Paddle is a merchant-of-record billing platform for SaaS and digital products. The Paddle Billing API manages the full revenue lifecycle - products, prices, customers, subscriptions, transactions, invoices, adjustments, and discounts - while Paddle handles global sales tax, payment processing, fraud, and compliance on the seller's behalf.",
-     "score": 35.1,
+     "score": 37.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 51.1,
       "governance": 0.0,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1173,6 +1089,90 @@
       "consent_identity": false
      },
      "tier": "Billing & Subscriptions",
+     "rank": 25
+    },
+    {
+     "name": "Paysend",
+     "slug": "paysend",
+     "description": "Paysend is a London-headquartered global fintech, founded in 2017, building a cross-border digital payments network that moves money to bank accounts, cards, and wallets across 170+ countries in 40+ currencies for more than 11 million consumers and a growing base of enterprise clients. Alongside its consumer money-transfer app, Paysend operates Paysend Enterprise, a business-facing payments platform whose developer surface is a single Payout API: one integration disburses funds worldwide to cards and accounts, with FX rate lookups, bank and card tokenization utilities, partner statements, and balance queries. The API is a partner-provisioned, enterprise integration (United Kingdom home market) rather than a fully public self-serve product — authentication is API key plus HMAC digital signature (X-OPP-Signature), requests are idempotent via a request id and date, and payout status is delivered through configurable webhook notifications. Paysend documents this surface openly on a Docusaurus developer portal with a sandbox mock service, but does not publish a downloadable OpenAPI/Swagger definition or a public base URL.",
+     "score": 36.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 13.2,
+      "developer_ergonomics": 67.4,
+      "commercial_clarity": 18.4
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 56.5
+     },
+     "agent_score": 43.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Cross-Border & Money Movement",
+     "rank": 26
+    },
+    {
+     "name": "takepayments",
+     "slug": "takepayments",
+     "description": "takepayments (a trading name of Payzone UK Limited) is a United Kingdom payment gateway and merchant-services provider that lets businesses accept card payments online, in person, and over the phone. Its online payment gateway offers Hosted (redirect) and Direct (server-to-server) integrations for e-commerce checkouts, delivered as SOAP v1.1 XML and HTTPS form-POST requests authenticated with a merchant ID and a pre-shared-key signature hash, alongside ready-made shopping-cart plugins and backend SDK code packs. Its newer Terminal API is a modern REST/JSON surface hosted on Azure API Management, secured with OAuth 2.0 client-credentials via Microsoft Azure AD, that pairs and drives card machines (Move5000, PAX A920 Pro) for Start-Transaction, Pairing, Split Bill & Gratuity, and Pay at Table flows. takepayments runs a real public developer portal at developer.takepayments.com but does not publish a downloadable OpenAPI/Swagger definition; its API reference is documentation-only, and merchant onboarding is sales-led rather than open self-serve.",
+     "score": 35.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 63.0,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 65.2
+     },
+     "agent_score": 32.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Gateways & PSPs",
      "rank": 27
     }
    ]
@@ -1200,7 +1200,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1242,7 +1242,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1285,7 +1285,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1328,7 +1328,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1380,7 +1380,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,

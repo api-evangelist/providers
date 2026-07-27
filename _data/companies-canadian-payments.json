@@ -16,18 +16,18 @@
      "slug": "trulioo",
      "description": "Trulioo is a Vancouver-based global identity verification platform that operates GlobalGateway, a single-API gateway into 450+ data sources across 195+ countries for person verification (KYC), business verification (KYB), watchlist and PEP screening, identity document verification (DocV), biometric face match, and fraud-intelligence risk scoring. The Trulioo Platform layers Workflow Studio (hosted and low-code), reusable end-client profiles, event-driven webhooks, native mobile and web capture SDKs, and an MCP server on top of the underlying Verifications and Business APIs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/trulioo/refs/heads/main/screenshots/trulioo-2026-06-20T195758.png",
-     "score": 79.0,
+     "score": 84.5,
      "band": "exemplar",
      "band_label": "Exemplar",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 67.1,
+      "discoverability": 100.0,
+      "contract_quality": 76.0,
       "governance": 73.7,
       "operational_transparency": 71.1,
       "developer_ergonomics": 87.0,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 73.1,
      "agent_band": "agent-native",
@@ -75,7 +75,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -128,7 +128,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -170,7 +170,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -212,7 +212,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -254,7 +254,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -296,7 +296,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -334,65 +334,22 @@
    "shown": 4,
    "companies": [
     {
-     "name": "Flinks",
-     "slug": "flinks",
-     "description": "Flinks is a Canadian financial data platform (owned by National Bank of Canada) that lets businesses connect to consumer and business bank accounts to aggregate account, transaction, and statement data, verify identity, and derive income, credit-risk, and fraud analytics. Access begins with a Flinks Connect authentication session and a multi-step /Authorize (MFA) call, after which banking, enrichment, and analytics endpoints are invoked with the returned RequestId.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/screenshots/flinks-2026-07-25T214800.png",
-     "score": 38.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 53.7,
-      "governance": 0.0,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 36.8
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 50.0
-     },
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "tier": "Financial Data & Aggregation",
-     "rank": 8
-    },
-    {
      "name": "Nuvei",
      "slug": "nuvei",
      "description": "Nuvei is a global payment technology company headquartered in Montreal, Canada, providing a single platform for online card acquiring, alternative payment methods (700+ APMs), payouts, currency management across 150+ currencies, risk and fraud, and payment orchestration. Nuvei serves merchants in 200+ markets with local acquiring in 52 markets across eCommerce, iGaming, sports betting, travel, retail, B2B, and financial services. Originally listed on Nasdaq and TSX as NVEI, Nuvei was taken private by Advent International in 2024.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/nuvei/refs/heads/main/screenshots/nuvei-2026-06-20T190542.png",
-     "score": 37.6,
+     "score": 40.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 62.3,
+      "discoverability": 87.5,
+      "contract_quality": 69.8,
       "governance": 73.7,
       "operational_transparency": 0.0,
       "developer_ergonomics": 15.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -417,6 +374,49 @@
       "consent_identity": false
      },
      "tier": "Gateways & PSPs",
+     "rank": 8
+    },
+    {
+     "name": "Flinks",
+     "slug": "flinks",
+     "description": "Flinks is a Canadian financial data platform (owned by National Bank of Canada) that lets businesses connect to consumer and business bank accounts to aggregate account, transaction, and statement data, verify identity, and derive income, credit-risk, and fraud analytics. Access begins with a Flinks Connect authentication session and a multi-step /Authorize (MFA) call, after which banking, enrichment, and analytics endpoints are invoked with the returned RequestId.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/flinks/refs/heads/main/screenshots/flinks-2026-07-25T214800.png",
+     "score": 40.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 53.7,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 36.8
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 50.0
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Financial Data & Aggregation",
      "rank": 9
     },
     {
@@ -434,7 +434,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -477,7 +477,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -530,7 +530,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -572,7 +572,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -614,7 +614,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,

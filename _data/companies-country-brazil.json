@@ -16,18 +16,18 @@
      "slug": "gerencianet",
      "description": "Efí Pay (formerly Gerencianet) is a Brazilian fintech and Banco Central-licensed payment institution headquartered in Belo Horizonte, Brazil. It provides a developer-first payments stack covering Pix (instant payments), Boleto / Bolix / Carnê (Brazilian bank slips), credit-card processing, recurring billing (assinaturas + carnês), marketplace splits, programmatic account opening (BaaS), Open Finance payment initiation, bill-payment automation, and CNAB statement extraction. The company rebranded from Gerencianet to Efí Pay / Efí Bank in 2022 and is rated at the top tier by Banco Central for its Pix API. The technical surface is exposed as five distinct REST APIs (Cobranças, Pix, Open Finance, Pagamentos, Contas) with twelve official SDKs plus e-commerce plugins.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/gerencianet/refs/heads/main/screenshots/gerencianet-2026-06-20T181803.png",
-     "score": 63.2,
+     "score": 65.7,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 59.3,
+      "discoverability": 75.0,
+      "contract_quality": 68.1,
       "governance": 47.4,
       "operational_transparency": 52.6,
       "developer_ergonomics": 63.0,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -65,64 +65,22 @@
    "shown": 9,
    "companies": [
     {
-     "name": "Koin",
-     "slug": "koin",
-     "description": "Koin is a Brazilian payments and fraud-prevention provider operating across Latin America, offering merchants a single private-key API for BNPL (\"Pix Parcelado\" / installment payments without a card), instant Pix, card payments with anti-fraud, crypto and Pix payouts, refunds, cancellations and account-validation. Its Antifraud API scores e-commerce, wire-transfer and account-takeover events with device fingerprinting, 3-D Secure and strategy-based recovery, while an Onboarding API registers merchants. Koin publishes a ReadMe-hosted developer portal with OpenAPI 3 contracts, first-party Magento 2, WooCommerce, VTEX, Shopify, Wake, Nuvemshop and Tiendanube plugins, and iOS/Android checkout SDKs. Founded in Brazil and backed by Speedinvest (2018), Koin was acquired by Despegar in 2020.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/screenshots/koin-2026-07-25T224112.png",
-     "score": 56.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 61.9,
-      "governance": 0.0,
-      "operational_transparency": 44.7,
-      "developer_ergonomics": 80.4,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 54.3
-     },
-     "agent_score": 65.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": true,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 2
-    },
-    {
      "name": "Kushki",
      "slug": "kushki",
      "description": "Kushki is an Ecuador-headquartered LatAm fintech operating as a regional non-banking acquirer for the Andean and Pacific Alliance markets — Ecuador, Colombia, Peru, Chile, Mexico, and Brazil. The Kushki API unifies card payments, scheduled and one-click subscriptions, bank transfers (PSE, Webpay Transferencia, SPEI, PIX), cash vouchers (OXXO, PagoEfectivo, Boleto), payouts/dispersions, and card-present (Kushki One POS) behind a single REST surface. Authentication is split across a Public-Merchant-Id (used in the browser to tokenize cards) and a Private-Merchant-Id (used server-side to charge). PCI DSS Level 1, 3DS 2.0, multi-layer anti-fraud, hosted fields, Kajita payment forms, Smartlinks, and e-commerce plugins (Shopify, VTEX, WooCommerce, Magento, PrestaShop) round out the platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/kushki/refs/heads/main/screenshots/kushki-2026-06-20T184217.png",
-     "score": 55.5,
+     "score": 59.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 64.6,
+      "discoverability": 87.5,
+      "contract_quality": 73.5,
       "governance": 86.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 73.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -146,6 +104,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
+     "rank": 2
+    },
+    {
+     "name": "Koin",
+     "slug": "koin",
+     "description": "Koin is a Brazilian payments and fraud-prevention provider operating across Latin America, offering merchants a single private-key API for BNPL (\"Pix Parcelado\" / installment payments without a card), instant Pix, card payments with anti-fraud, crypto and Pix payouts, refunds, cancellations and account-validation. Its Antifraud API scores e-commerce, wire-transfer and account-takeover events with device fingerprinting, 3-D Secure and strategy-based recovery, while an Onboarding API registers merchants. Koin publishes a ReadMe-hosted developer portal with OpenAPI 3 contracts, first-party Magento 2, WooCommerce, VTEX, Shopify, Wake, Nuvemshop and Tiendanube plugins, and iOS/Android checkout SDKs. Founded in Brazil and backed by Speedinvest (2018), Koin was acquired by Despegar in 2020.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/koin/refs/heads/main/screenshots/koin-2026-07-25T224112.png",
+     "score": 56.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 61.9,
+      "governance": 0.0,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 80.4,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 54.3
+     },
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
      "rank": 3
     },
     {
@@ -163,7 +163,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -205,7 +205,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -232,105 +232,22 @@
      "rank": 5
     },
     {
-     "name": "Malga",
-     "slug": "plug",
-     "description": "Malga (formerly Plug / plugpagamentos.com) is a Brazilian intelligent payment infrastructure and orchestration platform. It lets companies route transactions across multiple acquirers, payment providers, methods (card, Pix, boleto, wallets such as PicPay and Apple Pay) and anti-fraud engines from a single API, with smart routing/retry flows, tokenization, 3D Secure 2, subscriptions/recurrence, split payments, sellers/payouts and a GraphQL analytics API. Malga is PCI DSS Level 1 compliant and backed by Lightspeed Venture Partners and QED Investors.",
-     "score": 52.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 64.8,
-      "governance": 0.0,
-      "operational_transparency": 52.6,
-      "developer_ergonomics": 82.6,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 47.8
-     },
-     "agent_score": 83.7,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": true,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "rank": 6
-    },
-    {
-     "name": "Datanomik",
-     "slug": "datanomik",
-     "description": "Datanomik is a Brazilian open finance and treasury-management platform that gives mid-to-large enterprises real-time, consolidated visibility across their bank accounts, balances, investments and payments through a single API. Authorized by Banco Central do Brasil as a Payment Transaction Initiator (ITP) and a participant in Brazil's Open Finance ecosystem, Datanomik connects to 30+ Brazilian financial institutions (Banco do Brasil, Itau, Bradesco, Caixa, BTG, Nubank, Safra, Mercado Pago and others) to deliver bank connectivity, cash and liquidity management, investment-portfolio tracking, cash-flow forecasting, cash pooling and transfers, automated bank statements and financial reporting. The company exposes two REST APIs - an OpenBanking data API and a Treasury/Remuneration API - secured with HTTP Basic API keys, documented on a ReadMe developer portal with a public Postman workspace and a dedicated sandbox. Backed by a16z, its clients include iFood, Magalu, Flamengo and Unimed.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/screenshots/datanomik-2026-07-25T211349.png",
-     "score": 52.8,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 55.2,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 78.3,
-      "commercial_clarity": 42.1
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 65.2
-     },
-     "agent_score": 69.2,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "rank": 7
-    },
-    {
      "name": "Mercado Pago",
      "slug": "mercado-pago",
      "description": "Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Founded in 2003, it processes a substantial share of LatAm digital payments across Brazil (PIX, Boleto, cards), Argentina, Mexico (SPEI, OXXO), Chile, Colombia, Peru, and Uruguay, with consumer wallet, merchant acquiring, card issuing, lending, and crypto products layered on top. The developer portal at developers.mercadopago.com exposes a deep payments stack — Checkout Pro (hosted), Checkout Bricks (composable web components), Checkout API (full server-side control), Orders API (next-gen checkout), Subscriptions, Payment Links, Point (in-person card readers), and QR payments — backed by REST APIs and official SDKs in Node.js / TypeScript, Python, PHP, Ruby, Java, .NET, Go, iOS, and Android, plus a CLI, an MCP server for AI agents, e-commerce plugins (WooCommerce, VTEX, Tiendanube, Shopify), and an n8n integration. Regional developer portals (.com.ar, .com.br, .com.mx, .com.cl, .com.co, .com.pe, .com.uy) localise docs and pricing per LATAM market.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/mercado-pago/refs/heads/main/screenshots/mercado-pago-2026-06-20T185325.png",
-     "score": 51.9,
+     "score": 54.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 92.5,
       "contract_quality": 70.6,
       "governance": 65.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 39.1,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -354,6 +271,89 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
+     "rank": 6
+    },
+    {
+     "name": "Malga",
+     "slug": "plug",
+     "description": "Malga (formerly Plug / plugpagamentos.com) is a Brazilian intelligent payment infrastructure and orchestration platform. It lets companies route transactions across multiple acquirers, payment providers, methods (card, Pix, boleto, wallets such as PicPay and Apple Pay) and anti-fraud engines from a single API, with smart routing/retry flows, tokenization, 3D Secure 2, subscriptions/recurrence, split payments, sellers/payouts and a GraphQL analytics API. Malga is PCI DSS Level 1 compliant and backed by Lightspeed Venture Partners and QED Investors.",
+     "score": 52.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 64.8,
+      "governance": 0.0,
+      "operational_transparency": 52.6,
+      "developer_ergonomics": 82.6,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 47.8
+     },
+     "agent_score": 83.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 7
+    },
+    {
+     "name": "Datanomik",
+     "slug": "datanomik",
+     "description": "Datanomik is a Brazilian open finance and treasury-management platform that gives mid-to-large enterprises real-time, consolidated visibility across their bank accounts, balances, investments and payments through a single API. Authorized by Banco Central do Brasil as a Payment Transaction Initiator (ITP) and a participant in Brazil's Open Finance ecosystem, Datanomik connects to 30+ Brazilian financial institutions (Banco do Brasil, Itau, Bradesco, Caixa, BTG, Nubank, Safra, Mercado Pago and others) to deliver bank connectivity, cash and liquidity management, investment-portfolio tracking, cash-flow forecasting, cash pooling and transfers, automated bank statements and financial reporting. The company exposes two REST APIs - an OpenBanking data API and a Treasury/Remuneration API - secured with HTTP Basic API keys, documented on a ReadMe developer portal with a public Postman workspace and a dedicated sandbox. Backed by a16z, its clients include iFood, Magalu, Flamengo and Unimed.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/datanomik/refs/heads/main/screenshots/datanomik-2026-07-25T211349.png",
+     "score": 52.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 55.2,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 78.3,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 65.2
+     },
+     "agent_score": 69.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
      "rank": 8
     },
     {
@@ -372,7 +372,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -414,7 +414,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -466,7 +466,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -508,7 +508,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -550,7 +550,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -591,7 +591,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -633,7 +633,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -660,30 +660,23 @@
      "rank": 15
     },
     {
-     "name": "Celcoin",
-     "slug": "celcoin",
-     "description": "Celcoin is a Brazilian Banking-as-a-Service (BaaS) infratech platform that provides REST APIs for Pix, boleto, TED transfers, bill payments, prepaid and post-paid cards, digital account opening, open banking integration, and credit operations. Processing over R$30 billion monthly across 6,000+ clients, Celcoin enables fintechs, digital banks, and enterprises to embed financial services without a banking license.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/screenshots/celcoin-2026-06-20T174114.png",
-     "score": 40.2,
+     "name": "Nuvemshop / Tiendanube",
+     "slug": "nuvemshop",
+     "description": "Nuvemshop (Tiendanube in Spanish-speaking markets) is the leading Latin American e-commerce platform, powering online stores for merchants across Brazil, Argentina, Mexico, Chile, and Colombia. Its public REST Admin API lets apps and integrations manage products, variants, images, categories, orders, customers, coupons, scripts, webhooks, and store settings on a per-store basis. Apps authenticate with OAuth 2 (authorization code grant) and pass a non-expiring access token in a non-standard `Authentication` header (lowercase bearer prefix) along with a required `User-Agent`. The API is store-scoped - every path is prefixed with the store id - and is rate limited with a per-store leaky bucket.",
+     "score": 41.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 100.0,
-      "contract_quality": 43.1,
-      "governance": 13.2,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 50.0
+      "contract_quality": 58.8,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 37.0
-     },
-     "agent_score": 54.8,
+     "agent_score": 48.1,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -692,7 +685,7 @@
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
-      "openapi_examples": true,
+      "openapi_examples": false,
       "rate_limit_signal": true,
       "asyncapi_events": false,
       "agent_skills": false,
@@ -702,106 +695,22 @@
      "rank": 16
     },
     {
-     "name": "Iniciador",
-     "slug": "iniciador",
-     "description": "Iniciador is a Brazilian Open Finance infrastructure company that provides the regulated rails, APIs, and managed operations banks, payment institutions, fintechs, and platforms use to participate in Brazil's Open Finance ecosystem. It operates as a Payment Initiator (Iniciadora de Pagamentos), Data Receptor, Account Holder, and Data Transmitter, reportedly processing roughly one in three Pix initiations nationally and over a billion API data calls monthly. Its product surface spans Pague com Seu Banco, Pix Inteligente, Pix Biometria, Pix Automatico, Pix por Aproximacao, agentic payments, and data products such as real-time Dados Bancarios and Cadastro Expresso one-click onboarding. The platform is a FAPI / Open Finance Brasil OAuth2 + OpenID Connect provider using private_key_jwt client authentication, mTLS-bound access tokens, pushed authorization requests (PAR), and PS256 signed request objects.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/iniciador/refs/heads/main/screenshots/iniciador-2026-07-25T222443.png",
-     "score": 40.2,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 34.8,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 100.0
-     },
-     "agent_score": 16.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "rank": 17
-    },
-    {
-     "name": "Cora",
-     "slug": "cora",
-     "description": "Cora is a Brazilian digital bank (conta PJ) for small and medium businesses, offering fee-free business checking, Pix, boletos, transfers, payment initiation and financial management. Its developer platform exposes REST APIs for registered boleto and carnê issuance, Pix QR code generation, account data, balance and statement queries, payment and transfer initiation (including DARF and GPS tax payments), webhook notifications, and municipal service invoice (NFS-e) issuance. Cora offers two integration modalities — Direct Integration (mutual-TLS certificate plus OAuth2 client-credentials) and Cora Partnership — with a Stage sandbox for testing. Backed by QED Investors and Ribbit Capital.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/screenshots/cora-2026-07-25T210413.png",
-     "score": 39.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 22.6,
-      "governance": 0.0,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 63.0,
-      "commercial_clarity": 31.6
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 54.3
-     },
-     "agent_score": 24.0,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": true,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 18
-    },
-    {
      "name": "PagSeguro / PagBank",
      "slug": "pagseguro",
      "description": "PagSeguro (operating consumer-facing under the PagBank brand) is one of Brazil's largest payment processors and digital-banking platforms. Originally spun out of UOL (Universo Online) and listed on the NYSE under PAGS, the company offers an end-to-end financial stack covering online payments, in-person card acceptance via the Moderninha and Minizinha terminal families, Pix instant payments, boleto, credit and debit cards, recurring subscriptions, marketplace split, payouts, account-as-a-service, and a digital bank with cards, credit, and investments. Its developer portal at developer.pagbank.com.br exposes a REST API surface (Orders, Charges, Public Keys, Checkout, Recurring, Connect/OAuth, Account Registration, EDI, Webhooks) backed by official SDKs in PHP, Java, Ruby, and .NET, plus WooCommerce, Magento/Adobe Commerce, and PrestaShop plugins.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/pagseguro/refs/heads/main/screenshots/pagseguro-2026-06-20T191324.png",
-     "score": 38.4,
+     "score": 40.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 92.5,
       "contract_quality": 47.8,
       "governance": 0.0,
       "operational_transparency": 60.5,
       "developer_ergonomics": 41.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -825,25 +734,158 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 19
+     "rank": 17
     },
     {
-     "name": "Nuvemshop / Tiendanube",
-     "slug": "nuvemshop",
-     "description": "Nuvemshop (Tiendanube in Spanish-speaking markets) is the leading Latin American e-commerce platform, powering online stores for merchants across Brazil, Argentina, Mexico, Chile, and Colombia. Its public REST Admin API lets apps and integrations manage products, variants, images, categories, orders, customers, coupons, scripts, webhooks, and store settings on a per-store basis. Apps authenticate with OAuth 2 (authorization code grant) and pass a non-expiring access token in a non-standard `Authentication` header (lowercase bearer prefix) along with a required `User-Agent`. The API is store-scoped - every path is prefixed with the store id - and is rate limited with a per-store leaky bucket.",
-     "score": 38.1,
+     "name": "Celcoin",
+     "slug": "celcoin",
+     "description": "Celcoin is a Brazilian Banking-as-a-Service (BaaS) infratech platform that provides REST APIs for Pix, boleto, TED transfers, bill payments, prepaid and post-paid cards, digital account opening, open banking integration, and credit operations. Processing over R$30 billion monthly across 6,000+ clients, Celcoin enables fintechs, digital banks, and enterprises to embed financial services without a banking license.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/celcoin/refs/heads/main/screenshots/celcoin-2026-06-20T174114.png",
+     "score": 40.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 58.8,
+      "discoverability": 100.0,
+      "contract_quality": 43.1,
+      "governance": 13.2,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 37.0
+     },
+     "agent_score": 54.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": true,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 18
+    },
+    {
+     "name": "Iniciador",
+     "slug": "iniciador",
+     "description": "Iniciador is a Brazilian Open Finance infrastructure company that provides the regulated rails, APIs, and managed operations banks, payment institutions, fintechs, and platforms use to participate in Brazil's Open Finance ecosystem. It operates as a Payment Initiator (Iniciadora de Pagamentos), Data Receptor, Account Holder, and Data Transmitter, reportedly processing roughly one in three Pix initiations nationally and over a billion API data calls monthly. Its product surface spans Pague com Seu Banco, Pix Inteligente, Pix Biometria, Pix Automatico, Pix por Aproximacao, agentic payments, and data products such as real-time Dados Bancarios and Cadastro Expresso one-click onboarding. The platform is a FAPI / Open Finance Brasil OAuth2 + OpenID Connect provider using private_key_jwt client authentication, mTLS-bound access tokens, pushed authorization requests (PAR), and PS256 signed request objects.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/iniciador/refs/heads/main/screenshots/iniciador-2026-07-25T222443.png",
+     "score": 40.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
       "governance": 0.0,
-      "operational_transparency": 36.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 100.0
+     },
+     "agent_score": 16.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 19
+    },
+    {
+     "name": "Cora",
+     "slug": "cora",
+     "description": "Cora is a Brazilian digital bank (conta PJ) for small and medium businesses, offering fee-free business checking, Pix, boletos, transfers, payment initiation and financial management. Its developer platform exposes REST APIs for registered boleto and carnê issuance, Pix QR code generation, account data, balance and statement queries, payment and transfer initiation (including DARF and GPS tax payments), webhook notifications, and municipal service invoice (NFS-e) issuance. Cora offers two integration modalities — Direct Integration (mutual-TLS certificate plus OAuth2 client-credentials) and Cora Partnership — with a Stage sandbox for testing. Backed by QED Investors and Ribbit Capital.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cora/refs/heads/main/screenshots/cora-2026-07-25T210413.png",
+     "score": 39.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 63.0,
+      "commercial_clarity": 31.6
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 54.3
+     },
+     "agent_score": 24.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 20
+    },
+    {
+     "name": "Efí",
+     "slug": "efi-bank",
+     "description": "Efí (formerly Gerencianet) is a Brazilian payment institution and digital bank that exposes well-documented public REST APIs for the Brazilian financial system - Pix (immediate and dated charges, send/receive, refunds, webhooks), Boletos and Charges (Cobranças), Carnê installment booklets, subscriptions and payment links, Pix via Open Finance, and account financial services. Pix and Open Finance APIs require OAuth2 client-credentials plus a mutual TLS (mTLS) client certificate as mandated by the Brazilian Central Bank; the Cobranças API uses OAuth2 without mTLS.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/screenshots/efi-bank-2026-07-25T212946.png",
+     "score": 38.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 59.9,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 26.1
+     },
      "agent_score": 48.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -860,7 +902,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "alt.bank",
@@ -878,7 +920,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -902,30 +944,30 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
-     "name": "Efí",
-     "slug": "efi-bank",
-     "description": "Efí (formerly Gerencianet) is a Brazilian payment institution and digital bank that exposes well-documented public REST APIs for the Brazilian financial system - Pix (immediate and dated charges, send/receive, refunds, webhooks), Boletos and Charges (Cobranças), Carnê installment booklets, subscriptions and payment links, Pix via Open Finance, and account financial services. Pix and Open Finance APIs require OAuth2 client-credentials plus a mutual TLS (mTLS) client certificate as mandated by the Brazilian Central Bank; the Cobranças API uses OAuth2 without mTLS.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/efi-bank/refs/heads/main/screenshots/efi-bank-2026-07-25T212946.png",
-     "score": 35.9,
+     "name": "AbacatePay",
+     "slug": "abacatepay",
+     "description": "AbacatePay is a Brazilian payment gateway built for developers and indie hackers, focused on instant Pix payments. Its REST API lets you create billings and charges, generate and check Pix QR Codes, manage customers and coupons, request withdrawals, and receive webhooks - charging a flat per-transaction Pix fee with funds available immediately.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/screenshots/abacatepay-2026-07-25T181328.png",
+     "score": 36.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 59.9,
+      "discoverability": 100.0,
+      "contract_quality": 58.4,
       "governance": 0.0,
-      "operational_transparency": 31.6,
+      "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
+      "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
+      "regime": "Payments",
+      "regime_id": "payments",
       "score": 26.1
      },
      "agent_score": 48.1,
@@ -944,61 +986,24 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 22
-    },
-    {
-     "name": "Loggi",
-     "slug": "loggi",
-     "description": "Loggi is the largest private shipping and last-mile logistics company in Brazil, operating its own delivery network across more than 4,000 municipalities. Loggi publishes a REST developer platform (docs.api.loggi.com) that lets partner platforms and integrators estimate freight prices and delivery times, create single or multiple shipments (synchronously or asynchronously), generate Loggi shipping labels, update or cancel packages, retrieve package details, track packages in real time, and receive delivery status updates via webhooks. Authentication is OAuth2 client-credentials style (client_id/client_secret exchanged for a JWT). Backed by Fifth Wall, GGV Capital and SoftBank Vision Fund. Sector: logistics.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/screenshots/loggi-2026-07-25T225453.png",
-     "score": 35.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 22.6,
-      "governance": 0.0,
-      "operational_transparency": 15.8,
-      "developer_ergonomics": 58.7,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 38.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
      "rank": 23
     },
     {
-     "name": "AbacatePay",
-     "slug": "abacatepay",
-     "description": "AbacatePay is a Brazilian payment gateway built for developers and indie hackers, focused on instant Pix payments. Its REST API lets you create billings and charges, generate and check Pix QR Codes, manage customers and coupons, request withdrawals, and receive webhooks - charging a flat per-transaction Pix fee with funds available immediately.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/abacatepay/refs/heads/main/screenshots/abacatepay-2026-07-25T181328.png",
-     "score": 33.2,
+     "name": "Pagar.me",
+     "slug": "pagarme",
+     "description": "Pagar.me is a Brazilian payments and payment-gateway provider (part of the Stone group) offering a unified REST API for online checkout, recurring billing, and marketplace split payments. The Core API (v5) processes orders and charges via credit card, PIX, and boleto, manages customers, cards, subscriptions, plans, and invoices, and handles marketplace recipients, split, transfers, and anticipations, with webhook event notifications.",
+     "score": 35.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 58.4,
+      "discoverability": 100.0,
+      "contract_quality": 49.6,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
-      "commercial_clarity": 28.9
+      "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1025,77 +1030,77 @@
      "rank": 24
     },
     {
-     "name": "Cumbuca",
-     "slug": "cumbuca",
-     "description": "Cumbuca is a Banco Central do Brasil-licensed Payment Institution that provides regulated \"proxy\" access to Brazil's Pix and Open Finance networks. Acting as a thin, transparent layer with a 1:1 mapping to the official Open Finance Brasil and Central Bank API specifications, it forwards cryptographically signed requests between client infrastructure and the regulated ecosystem so fintechs can build directly on the rails without holding their own license (zero lock-in via certificate swap when they obtain one). Capabilities span Pix payment initiation, Open Finance account and credit-data access, recurring payments, and SCR credit-information queries, with a 0ms median latency overhead and a 99.99% availability SLA. Founded in 2021 in Sao Paulo and backed by Lightspeed Venture Partners and Y Combinator, Cumbuca also ships an Open Finance Data MCP server, the Regulus regulatory AI assistant, public status pages, and the open-source Open Finance Playground developer guide built with Juspay.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cumbuca/refs/heads/main/screenshots/cumbuca-2026-07-25T210921.png",
-     "score": 33.2,
+     "name": "Loggi",
+     "slug": "loggi",
+     "description": "Loggi is the largest private shipping and last-mile logistics company in Brazil, operating its own delivery network across more than 4,000 municipalities. Loggi publishes a REST developer platform (docs.api.loggi.com) that lets partner platforms and integrators estimate freight prices and delivery times, create single or multiple shipments (synchronously or asynchronously), generate Loggi shipping labels, update or cancel packages, retrieve package details, track packages in real time, and receive delivery status updates via webhooks. Authentication is OAuth2 client-credentials style (client_id/client_secret exchanged for a JWT). Backed by Fifth Wall, GGV Capital and SoftBank Vision Fund. Sector: logistics.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/loggi/refs/heads/main/screenshots/loggi-2026-07-25T225453.png",
+     "score": 35.5,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
+      "discoverability": 92.5,
+      "contract_quality": 22.6,
       "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 45.7,
-      "commercial_clarity": 18.4
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 58.7,
+      "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 38.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 25
+    },
+    {
+     "name": "Kanastra",
+     "slug": "kanastra",
+     "description": "Kanastra is a Brazilian fintech building full-stack infrastructure for banking and the private credit market. Its Banking API offers banking-as-a-service capabilities to financial institutions, funds and securitization vehicles: financial (checking) accounts with balances and transactions, PIX (key registration, transfers, deposits, and static/dynamic QR Codes on the BR Code / EMV-QRCPS standard), boleto (bank slip) issuance with CNAB return-file processing settled via the Nuclea clearing house, TED transfers, wallets, commercial notes (CCB) with guarantees and documents, and issuers. Authentication uses a private_key_jwt (ES512 client-assertion) flow that returns a scoped Bearer JWT, and a webhook surface streams bank slip and CNAB lifecycle events. Kanastra is backed by QED Investors, Kaszek, Valor Capital, Quona Capital, Itau, IFC and F-Prime.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/screenshots/kanastra-2026-07-25T223445.png",
+     "score": 35.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 64.2,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
-      "score": 91.3
+      "score": 47.8
      },
-     "agent_score": 27.9,
+     "agent_score": 32.7,
      "agent_band": "agent-aware",
      "agent_dims": {
-      "spec_presence": false,
+      "spec_presence": true,
       "agentic_access": false,
-      "mcp_server": true,
+      "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "rank": 25
-    },
-    {
-     "name": "Gorila",
-     "slug": "gorila",
-     "description": "Gorila is a Brazilian investment-technology company that consolidates, calculates, and reconciles investment portfolios across every custodian. Its developer product, GorilaCORE, is a B2B REST API that lets financial institutions, fintechs, brokerages, multi-family offices, and advisors build their own investment-consolidation and portfolio-analytics experiences: create portfolios, ingest transactions, and retrieve NAV, P&L, time-weighted return (TWR), and internal-rate-of-return (IRR) time series computed from millions of transactions across hundreds of thousands of products. Gorila is backed by Ribbit Capital.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gorila/refs/heads/main/screenshots/gorila-2026-07-25T220111.png",
-     "score": 33.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 60.9,
-      "commercial_clarity": 34.2
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 21.2,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
+      "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false
@@ -1103,21 +1108,21 @@
      "rank": 26
     },
     {
-     "name": "Pagar.me",
-     "slug": "pagarme",
-     "description": "Pagar.me is a Brazilian payments and payment-gateway provider (part of the Stone group) offering a unified REST API for online checkout, recurring billing, and marketplace split payments. The Core API (v5) processes orders and charges via credit card, PIX, and boleto, manages customers, cards, subscriptions, plans, and invoices, and handles marketplace recipients, split, transfers, and anticipations, with webhook event notifications.",
-     "score": 33.1,
+     "name": "Mercado Pago",
+     "slug": "mercadopago",
+     "description": "Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Its developer portal at developers.mercadopago.com exposes a rich payments stack - Checkout Pro (hosted), Checkout Bricks (composable web components), Checkout API (full server-side control), Subscriptions, Payment Links, Point (in-person card reader), and QR payments - backed by REST APIs and official SDKs in Node.js, Python, PHP, Ruby, Java, .NET, plus a CLI and an MCP server for AI agents. Regional portals (.com.ar, .com.br, .com.mx, etc.) localise the docs and pricing per LATAM market.",
+     "score": 34.6,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 49.6,
+      "discoverability": 92.5,
+      "contract_quality": 47.8,
       "governance": 0.0,
       "operational_transparency": 26.3,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1144,6 +1149,84 @@
      "rank": 27
     },
     {
+     "name": "Cumbuca",
+     "slug": "cumbuca",
+     "description": "Cumbuca is a Banco Central do Brasil-licensed Payment Institution that provides regulated \"proxy\" access to Brazil's Pix and Open Finance networks. Acting as a thin, transparent layer with a 1:1 mapping to the official Open Finance Brasil and Central Bank API specifications, it forwards cryptographically signed requests between client infrastructure and the regulated ecosystem so fintechs can build directly on the rails without holding their own license (zero lock-in via certificate swap when they obtain one). Capabilities span Pix payment initiation, Open Finance account and credit-data access, recurring payments, and SCR credit-information queries, with a 0ms median latency overhead and a 99.99% availability SLA. Founded in 2021 in Sao Paulo and backed by Lightspeed Venture Partners and Y Combinator, Cumbuca also ships an Open Finance Data MCP server, the Regulus regulatory AI assistant, public status pages, and the open-source Open Finance Playground developer guide built with Juspay.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cumbuca/refs/heads/main/screenshots/cumbuca-2026-07-25T210921.png",
+     "score": 33.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 45.7,
+      "commercial_clarity": 18.4
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 91.3
+     },
+     "agent_score": 27.9,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 28
+    },
+    {
+     "name": "Gorila",
+     "slug": "gorila",
+     "description": "Gorila is a Brazilian investment-technology company that consolidates, calculates, and reconciles investment portfolios across every custodian. Its developer product, GorilaCORE, is a B2B REST API that lets financial institutions, fintechs, brokerages, multi-family offices, and advisors build their own investment-consolidation and portfolio-analytics experiences: create portfolios, ingest transactions, and retrieve NAV, P&L, time-weighted return (TWR), and internal-rate-of-return (IRR) time series computed from millions of transactions across hundreds of thousands of products. Gorila is backed by Ribbit Capital.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/gorila/refs/heads/main/screenshots/gorila-2026-07-25T220111.png",
+     "score": 33.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 60.9,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 21.2,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 29
+    },
+    {
      "name": "Iugu",
      "slug": "iugu",
      "description": "Iugu is a Brazilian payment infrastructure platform offering REST APIs for invoicing, subscriptions, payment splits, boleto bancário generation, credit card processing, and marketplace payments. The platform enables businesses to automate financial operations including recurring billing, split payments for marketplaces, Pix instant payments, and sub-account management. Iugu operates as a Bacen-licensed Payment Institution and is PCI DSS compliant, serving e-commerce, SaaS, and marketplace companies across Brazil.",
@@ -1159,7 +1242,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1174,89 +1257,6 @@
       "agentic_access": false,
       "mcp_server": false,
       "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 28
-    },
-    {
-     "name": "Kanastra",
-     "slug": "kanastra",
-     "description": "Kanastra is a Brazilian fintech building full-stack infrastructure for banking and the private credit market. Its Banking API offers banking-as-a-service capabilities to financial institutions, funds and securitization vehicles: financial (checking) accounts with balances and transactions, PIX (key registration, transfers, deposits, and static/dynamic QR Codes on the BR Code / EMV-QRCPS standard), boleto (bank slip) issuance with CNAB return-file processing settled via the Nuclea clearing house, TED transfers, wallets, commercial notes (CCB) with guarantees and documents, and issuers. Authentication uses a private_key_jwt (ES512 client-assertion) flow that returns a scoped Bearer JWT, and a webhook surface streams bank slip and CNAB lifecycle events. Kanastra is backed by QED Investors, Kaszek, Valor Capital, Quona Capital, Itau, IFC and F-Prime.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/kanastra/refs/heads/main/screenshots/kanastra-2026-07-25T223445.png",
-     "score": 32.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 64.2,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 34.8,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 47.8
-     },
-     "agent_score": 32.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": true,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 29
-    },
-    {
-     "name": "Mercado Pago",
-     "slug": "mercadopago",
-     "description": "Mercado Pago is the payments and financial-services arm of Mercado Libre, Latin America's largest e-commerce and fintech platform. Its developer portal at developers.mercadopago.com exposes a rich payments stack - Checkout Pro (hosted), Checkout Bricks (composable web components), Checkout API (full server-side control), Subscriptions, Payment Links, Point (in-person card reader), and QR payments - backed by REST APIs and official SDKs in Node.js, Python, PHP, Ruby, Java, .NET, plus a CLI and an MCP server for AI agents. Regional portals (.com.ar, .com.br, .com.mx, etc.) localise the docs and pricing per LATAM market.",
-     "score": 32.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 47.8,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Payments",
-      "regime_id": "payments",
-      "score": 26.1
-     },
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -1284,7 +1284,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1326,7 +1326,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1368,7 +1368,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 17.3,
      "agent_band": "agent-aware",
@@ -1404,7 +1404,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 26.9,
      "agent_band": "agent-aware",
@@ -1450,7 +1450,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1491,7 +1491,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 45.2,
      "agent_band": "agent-ready",
@@ -1527,7 +1527,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1569,7 +1569,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1611,7 +1611,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1653,7 +1653,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1695,7 +1695,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1737,7 +1737,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1779,7 +1779,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 18.3,
      "agent_band": "agent-aware",
@@ -1815,7 +1815,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1857,7 +1857,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1899,7 +1899,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1941,7 +1941,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1977,7 +1977,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2019,7 +2019,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2055,7 +2055,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2097,7 +2097,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2139,7 +2139,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 11.5,
      "agent_band": "human-only",
@@ -2175,7 +2175,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2211,7 +2211,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2253,7 +2253,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2295,7 +2295,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2337,7 +2337,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2379,7 +2379,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2421,7 +2421,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2463,7 +2463,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2505,7 +2505,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2547,7 +2547,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2589,7 +2589,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2625,7 +2625,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2666,7 +2666,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2707,7 +2707,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 13.5,
      "agent_band": "human-only",
@@ -2742,7 +2742,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2783,7 +2783,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2825,7 +2825,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2867,7 +2867,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2903,7 +2903,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2945,7 +2945,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2987,7 +2987,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3029,7 +3029,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3071,7 +3071,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3113,7 +3113,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3155,7 +3155,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3197,7 +3197,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3243,7 +3243,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3278,7 +3278,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3319,7 +3319,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3361,7 +3361,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3396,7 +3396,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3432,7 +3432,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3467,7 +3467,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3509,7 +3509,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3550,7 +3550,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3585,7 +3585,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3620,7 +3620,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3655,7 +3655,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3696,7 +3696,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -3731,7 +3731,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3766,7 +3766,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3801,7 +3801,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3837,7 +3837,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3873,7 +3873,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3915,7 +3915,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3956,7 +3956,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -3991,7 +3991,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4026,7 +4026,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4062,7 +4062,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4097,7 +4097,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4132,7 +4132,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4168,7 +4168,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4204,7 +4204,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4239,7 +4239,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4274,7 +4274,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4309,7 +4309,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4350,7 +4350,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4386,7 +4386,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4421,7 +4421,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -4457,7 +4457,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4498,7 +4498,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4533,7 +4533,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4569,7 +4569,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4604,7 +4604,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4639,7 +4639,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4675,7 +4675,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4710,7 +4710,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4745,7 +4745,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4780,7 +4780,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4815,7 +4815,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4850,7 +4850,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,

@@ -27,7 +27,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -55,8 +55,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "companies": [
     {
      "name": "Roku",
@@ -74,7 +74,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 54.8,
      "agent_band": "agent-ready",
@@ -99,18 +99,18 @@
      "slug": "riot-games",
      "description": "Riot Games provides a comprehensive developer platform for accessing game data across League of Legends, VALORANT, Teamfight Tactics, Legends of Runeterra, and other titles. The Riot Developer Portal offers REST APIs for match history, ranked standings, champion mastery, live spectator data, tournament management, and player account data.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/riot-games/refs/heads/main/screenshots/riot-games-2026-06-20T193125.png",
-     "score": 53.7,
+     "score": 56.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 62.8,
       "governance": 86.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -135,18 +135,18 @@
      "slug": "blizzard-entertainment",
      "description": "Blizzard Entertainment is an American video game developer and publisher and a subsidiary of Activision Blizzard. Blizzard exposes a Battle.net Developer Portal that provides public OAuth 2.0 protected APIs returning game data and player profile data for its major franchises including World of Warcraft, Diablo III, StarCraft II, and Hearthstone.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/blizzard-entertainment/refs/heads/main/screenshots/blizzard-entertainment-2026-06-20T173354.png",
-     "score": 51.5,
+     "score": 54.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 63.5,
       "governance": 39.5,
       "operational_transparency": 36.8,
       "developer_ergonomics": 39.1,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -171,18 +171,18 @@
      "slug": "warner-bros-discovery",
      "description": "Warner Bros. Discovery is a leading global media and entertainment company that creates and distributes the world's most differentiated and complete portfolio of branded content across television, film, and streaming. WBD operates the Max streaming platform, Warner Bros. film studio, HBO, CNN, Discovery, TNT, TBS, and many other brands. The company provides content partner APIs for media supply chain integration and maintains open source projects through its engineering teams.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/warner-bros-discovery/refs/heads/main/screenshots/warner-bros-discovery-2026-06-20T201227.png",
-     "score": 47.5,
+     "score": 52.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 68.1,
+      "discoverability": 100.0,
+      "contract_quality": 73.5,
       "governance": 73.7,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -201,34 +201,23 @@
       "consent_identity": false
      },
      "rank": 5
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 2,
-   "shown": 2,
-   "companies": [
+    },
     {
      "name": "Walt Disney",
      "slug": "walt-disney",
      "description": "The Walt Disney Company is a leading diversified international family entertainment and media enterprise with operations across media networks, parks and resorts, studio entertainment, and direct-to-consumer streaming. Disney's developer APIs and open source projects enable partners and developers to integrate Disney content, characters, and experiences into their applications.",
-     "score": 43.9,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 48.5,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 60.0,
-      "contract_quality": 63.7,
+      "discoverability": 92.5,
+      "contract_quality": 69.0,
       "governance": 73.7,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 38.5,
      "agent_band": "agent-aware",
@@ -247,24 +236,35 @@
       "consent_identity": false
      },
      "rank": 6
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 1,
+   "shown": 1,
+   "companies": [
     {
      "name": "Disney API",
      "slug": "disney",
      "description": "Community-maintained RESTful and GraphQL API exposing a database of 9,820+ Disney characters and the films, short films, TV shows, video games, and park attractions they appear in. The project (BSD-3-Clause) is developed in the open by Manu Castrillon at https://github.com/ManuCastrillonM/disney-api and documented at https://disneyapi.dev. The REST surface is unauthenticated and read-only. Disney and Disney characters are trademarks of The Walt Disney Company; this project is community fan-content and is not affiliated with or endorsed by Disney.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/disney/refs/heads/main/screenshots/disney-2026-06-20T180046.png",
-     "score": 40.5,
+     "score": 43.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 61.9,
       "governance": 86.8,
       "operational_transparency": 47.4,
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 45.2,
      "agent_band": "agent-ready",
@@ -309,7 +309,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -345,7 +345,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -381,7 +381,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -402,58 +402,22 @@
      "rank": 10
     },
     {
-     "name": "AMC Networks",
-     "slug": "amc-networks",
-     "description": "AMC Networks is a global entertainment company that owns and operates distinctive cable television and streaming brands including AMC, BBC America, IFC, Sundance TV, and We TV, as well as the AMC+ streaming service. The company operates 33 FAST channels across 22 platforms and delivers digital advertising through its Audience+ data platform. AMC Networks provides affiliate partnership services, advertising solutions, and streaming content distribution through its network of cable and digital properties.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amc-networks/refs/heads/main/screenshots/amc-networks-2026-06-20T171857.png",
-     "score": 20.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 11
-    },
-    {
      "name": "National Hockey League",
      "slug": "national-hockey-league",
      "description": "The National Hockey League (NHL) is the premier professional ice hockey league in North America, comprised of 32 franchises across the United States and Canada. The NHL produces the Stanley Cup playoffs and is one of the major North American professional sports leagues. The NHL does not publish an officially documented developer portal; the league operates undocumented JSON endpoints used by its first-party web and mobile apps (api-web.nhle.com) and provides advanced statistics through NHL EDGE. Commercial data feeds are licensed through SMT, Sportradar, and other approved partners.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/national-hockey-league/refs/heads/main/screenshots/national-hockey-league-2026-06-20T190023.png",
-     "score": 17.2,
+     "score": 20.4,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 87.5,
       "contract_quality": 46.6,
       "governance": 0.0,
       "operational_transparency": 0.0,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 31.7,
      "agent_band": "agent-aware",
@@ -471,7 +435,78 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
+     "rank": 11
+    },
+    {
+     "name": "AMC Networks",
+     "slug": "amc-networks",
+     "description": "AMC Networks is a global entertainment company that owns and operates distinctive cable television and streaming brands including AMC, BBC America, IFC, Sundance TV, and We TV, as well as the AMC+ streaming service. The company operates 33 FAST channels across 22 platforms and delivers digital advertising through its Audience+ data platform. AMC Networks provides affiliate partnership services, advertising solutions, and streaming content distribution through its network of cable and digital properties.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/amc-networks/refs/heads/main/screenshots/amc-networks-2026-06-20T171857.png",
+     "score": 20.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
      "rank": 12
+    },
+    {
+     "name": "Major League Baseball",
+     "slug": "major-league-baseball",
+     "description": "Major League Baseball (MLB) is the professional baseball organization of the United States and Canada, operating the National League and American League with 30 teams. MLB Advanced Media (now part of MLB) provides public stats and game data through the MLB Stats API and the legacy MLB Data (lookup service) API, used by teams, broadcasters, analysts, and a wide community of developers building stats sites, fantasy applications, and analytical tools. MLB also exposes Statcast data through Baseball Savant. There is no general-purpose self-service developer portal with terms or signup; the APIs are widely consumed but are formally intended for partner use.",
+     "score": 19.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 39.8,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 31.7,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 13
     },
     {
      "name": "Netflix",
@@ -489,7 +524,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -502,41 +537,6 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 13
-    },
-    {
-     "name": "Major League Baseball",
-     "slug": "major-league-baseball",
-     "description": "Major League Baseball (MLB) is the professional baseball organization of the United States and Canada, operating the National League and American League with 30 teams. MLB Advanced Media (now part of MLB) provides public stats and game data through the MLB Stats API and the legacy MLB Data (lookup service) API, used by teams, broadcasters, analysts, and a wide community of developers building stats sites, fantasy applications, and analytical tools. MLB also exposes Statcast data through Baseball Savant. There is no general-purpose self-service developer portal with terms or signup; the APIs are widely consumed but are formally intended for partner use.",
-     "score": 17.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 39.8,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 2.2,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 31.7,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -570,7 +570,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -606,7 +606,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -642,7 +642,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -678,7 +678,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -714,7 +714,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -749,7 +749,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -785,7 +785,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

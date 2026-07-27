@@ -26,7 +26,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -57,18 +57,18 @@
      "slug": "fintecture",
      "description": "Fintecture is a French Open Banking payments platform and ACPR-authorised payment institution (#17248). Its API stack covers PSD2 Payment Initiation (Immediate Transfer, Smart Transfer, Request To Pay, Buy Now Pay Later, Verified Payout, Immediate Refund), PSD2 Account Information (accounts, holders, transactions, identity verification), Customers, E-Mandates, and a beta Organisation Access Credentials surface for managing multi-tenant enterprise estates. Clients include Auchan, Bricoman, Pluxee, PMU, and Edenred, with 2M+ end payers served. Plug-and-play modules for PrestaShop, Magento, Shopify, WordPress, Odoo, Intershop, and Oasis sit on top of official JavaScript, Python, PHP, and Ruby SDKs.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fintecture/refs/heads/main/screenshots/fintecture-2026-06-20T181225.png",
-     "score": 65.7,
+     "score": 68.6,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 58.6,
+      "discoverability": 80.0,
+      "contract_quality": 67.5,
       "governance": 73.7,
       "operational_transparency": 68.4,
       "developer_ergonomics": 71.7,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -110,7 +110,7 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -146,7 +146,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -199,7 +199,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 79.8,
      "agent_band": "agent-native",
@@ -234,7 +234,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 60.6,
      "agent_band": "agent-native",
@@ -270,7 +270,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -312,7 +312,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -354,18 +354,18 @@
      "slug": "orange-business",
      "description": "Orange Business is the B2B, telco-cloud, and developer arm of Orange S.A. — France's leading telecommunications group operating across Europe, the Middle East, and Africa. The company markets itself as \"an operator, integrator, and platform player\" and serves 30,000+ enterprise customers across 65 countries with cloud, cybersecurity, SD-WAN/SASE, 5G, IoT, data, AI, and digital-workplace services. Orange's developer surface is split across two tracks. The Orange Developer portal (developer.orange.com) publishes the Orange Open Gateway — Orange's implementation of GSMA Open Gateway / CAMARA standardised network APIs (Number Verification, SIM Swap, Device Swap, KYC Match, Device Location, Geofencing, Device Status, Quality on Demand, Population Density Data) — alongside Orange-specific APIs for IoT (Live Objects, IoT Global Connectivity), payments (Orange Money WebPay, Pay With Orange Bill, carrier billing across Orange Africa), communications (Voice, SMS MEA, Business Talk, Contact Everyone), cloud (Cloud Avenue sovereign IaaS, Evolution Platform), and identity (Live Identity Verify, Live Identity Captcha). The Orange Business Services portfolio adds a B2B TM Forum–aligned API track for ordering, billing, incident management, eligibility, and order tracking. The Orange-OpenSource GitHub org backs the developer ecosystem with 427+ repos including Hurl (the popular Rust HTTP testing CLI with 18K+ stars), the Boosted accessible Bootstrap framework, the OUDS Orange Unified Design System for iOS / Android / Flutter, and 5G Kubernetes Helm charts. Orange has also stood up Orange LiveNet, a business unit dedicated to commercialising programmable network capabilities, and is one of the founding operators of the GSMA Open Gateway initiative with the CAMARA Linux Foundation project.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/orange-business/refs/heads/main/screenshots/orange-business-2026-06-20T191153.png",
-     "score": 39.2,
+     "score": 40.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 80.0,
       "contract_quality": 57.8,
       "governance": 0.0,
       "operational_transparency": 5.3,
       "developer_ergonomics": 50.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -406,7 +406,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 39.4,
      "agent_band": "agent-aware",
@@ -441,7 +441,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 44.2,
      "agent_band": "agent-aware",
@@ -487,7 +487,7 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 9.6,
      "agent_band": "human-only",
@@ -522,7 +522,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -564,7 +564,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -599,7 +599,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -641,7 +641,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -662,140 +662,21 @@
      "rank": 16
     },
     {
-     "name": "Lassie",
-     "slug": "lassie",
-     "description": "Lassie is a Swedish insurtech that sells preventive digital pet insurance for dogs and cats. Founded in Stockholm in 2020, the company pairs veterinary-care cover with an app-based prevention programme: owners take courses designed by animal experts and earn up to SEK 500 a year off their premium. Cover includes unlimited digital vet consultations through FirstVet, 24-hour claims handling, direct settlement with clinics, no breed or age restrictions and no lock-in period. Lassie AB is an insurance intermediary supervised by Finansinspektionen under the Swedish Insurance Distribution Act (2018:1219); policies are underwritten by Dina Forsakring AB. The company operates in Sweden, Germany and France with 100+ staff and more than one million insured animals, and is backed by a16z and Balderton Capital. Lassie publishes no public developer API - its GraphQL backend at api.lassie.co is private to its own apps - but it does publish a per-market llms.txt, making it an early example of a consumer insurer building an agent-readable surface without an API programme.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lassie/refs/heads/main/screenshots/lassie-2026-07-25T224549.png",
-     "score": 23.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 4.3,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Insurance",
-      "regime_id": "insurance",
-      "score": 52.2
-     },
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 17
-    },
-    {
-     "name": "École des Ponts ParisTech",
-     "slug": "ecole-des-ponts-paristech",
-     "description": "École des Ponts ParisTech (École nationale des ponts et chaussées, ENPC) is a leading French public engineering grande école based in Champs-sur-Marne, ranked #205 in the QS World University Rankings 2025. Its public developer/API footprint is research- and library-oriented rather than a commercial developer program: the institution operates an institutional open-access repository as the ENPC collection within the national HAL platform, which is harvestable through the HAL Search API and an OAI-PMH endpoint. The school maintains a small public GitHub organization (EcoleDesPontsParisTech) hosting an OAI-PMH repository plugin used for exposing its digital heritage library metadata to Gallica and Europeana. No general-purpose, self-service developer portal with course, timetable, or identity APIs was found publicly documented.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/screenshots/ecole-des-ponts-paristech-2026-06-20T180431.png",
-     "score": 22.1,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 15.1,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Government & Public Sector",
-      "regime_id": "government",
-      "score": 23.9
-     },
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 18
-    },
-    {
-     "name": "Yampa",
-     "slug": "yampa",
-     "description": "Yampa is a Paris-based B2B platform for deploying and operating fleets of autonomous AI agents that handle customer service end-to-end across voice, chat, email, ticketing, and messaging channels. Its Y.core orchestration platform provides a visual workflow builder, guardrails, a knowledge layer, multichannel orchestration, QA and auditing tools, and observability, with connectors to CRMs, helpdesks, and telephony systems (Salesforce, Zendesk, Intercom, Twilio, Genesys, and others). Founded in 2024 by Marin Huet, Baptiste Saintot, and Patrice Mazoyer, Yampa raised a ~EUR 3M seed led by Partech and emphasizes sovereign EU-hosted infrastructure with GDPR and SOC 2 aligned security. Developer documentation at docs.yampa.ai is gated behind an access code; the public status page lists an API component alongside chat, email, calls, and console services.",
-     "score": 21.7,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 19
-    },
-    {
      "name": "Swan",
      "slug": "swan-io",
      "description": "Swan is a European embedded-banking / Banking-as-a-Service (BaaS) platform, headquartered in France, that lets companies embed accounts, IBANs, cards, and SEPA payments into their own products. Swan holds an Electronic Money Institution (EMI) license and exposes a single GraphQL API covering accounts, account holders, account memberships, IBAN management, card issuing, transactions, SEPA credit transfers and direct debits, digital onboarding, users, and consents. Integrations are backend-only, authenticated with OAuth2 (client credentials for server-to-server and authorization code for user access tokens) and scoped to a partner Project, with separate Sandbox and Live environments.",
-     "score": 21.2,
+     "score": 23.9,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 0.0,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -819,6 +700,125 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
+     "rank": 17
+    },
+    {
+     "name": "Lassie",
+     "slug": "lassie",
+     "description": "Lassie is a Swedish insurtech that sells preventive digital pet insurance for dogs and cats. Founded in Stockholm in 2020, the company pairs veterinary-care cover with an app-based prevention programme: owners take courses designed by animal experts and earn up to SEK 500 a year off their premium. Cover includes unlimited digital vet consultations through FirstVet, 24-hour claims handling, direct settlement with clinics, no breed or age restrictions and no lock-in period. Lassie AB is an insurance intermediary supervised by Finansinspektionen under the Swedish Insurance Distribution Act (2018:1219); policies are underwritten by Dina Forsakring AB. The company operates in Sweden, Germany and France with 100+ staff and more than one million insured animals, and is backed by a16z and Balderton Capital. Lassie publishes no public developer API - its GraphQL backend at api.lassie.co is private to its own apps - but it does publish a per-market llms.txt, making it an early example of a consumer insurer building an agent-readable surface without an API programme.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/lassie/refs/heads/main/screenshots/lassie-2026-07-25T224549.png",
+     "score": 23.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 52.2
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 18
+    },
+    {
+     "name": "École des Ponts ParisTech",
+     "slug": "ecole-des-ponts-paristech",
+     "description": "École des Ponts ParisTech (École nationale des ponts et chaussées, ENPC) is a leading French public engineering grande école based in Champs-sur-Marne, ranked #205 in the QS World University Rankings 2025. Its public developer/API footprint is research- and library-oriented rather than a commercial developer program: the institution operates an institutional open-access repository as the ENPC collection within the national HAL platform, which is harvestable through the HAL Search API and an OAI-PMH endpoint. The school maintains a small public GitHub organization (EcoleDesPontsParisTech) hosting an OAI-PMH repository plugin used for exposing its digital heritage library metadata to Gallica and Europeana. No general-purpose, self-service developer portal with course, timetable, or identity APIs was found publicly documented.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ecole-des-ponts-paristech/refs/heads/main/screenshots/ecole-des-ponts-paristech-2026-06-20T180431.png",
+     "score": 22.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 15.1,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 23.9
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 19
+    },
+    {
+     "name": "Yampa",
+     "slug": "yampa",
+     "description": "Yampa is a Paris-based B2B platform for deploying and operating fleets of autonomous AI agents that handle customer service end-to-end across voice, chat, email, ticketing, and messaging channels. Its Y.core orchestration platform provides a visual workflow builder, guardrails, a knowledge layer, multichannel orchestration, QA and auditing tools, and observability, with connectors to CRMs, helpdesks, and telephony systems (Salesforce, Zendesk, Intercom, Twilio, Genesys, and others). Founded in 2024 by Marin Huet, Baptiste Saintot, and Patrice Mazoyer, Yampa raised a ~EUR 3M seed led by Partech and emphasizes sovereign EU-hosted infrastructure with GDPR and SOC 2 aligned security. Developer documentation at docs.yampa.ai is gated behind an access code; the public status page lists an API component alongside chat, email, calls, and console services.",
+     "score": 21.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
      "rank": 20
     },
     {
@@ -837,7 +837,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -872,7 +872,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -914,7 +914,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -956,7 +956,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -998,7 +998,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1039,7 +1039,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1081,7 +1081,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1116,7 +1116,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1158,7 +1158,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1199,7 +1199,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1240,7 +1240,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1282,7 +1282,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -1318,7 +1318,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1360,7 +1360,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1396,7 +1396,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1437,7 +1437,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1479,7 +1479,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1521,7 +1521,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1556,7 +1556,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1602,7 +1602,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1638,7 +1638,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1673,7 +1673,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1708,7 +1708,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1743,7 +1743,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -1779,7 +1779,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1815,7 +1815,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1857,7 +1857,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1893,7 +1893,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1929,7 +1929,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1965,7 +1965,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2000,7 +2000,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2042,7 +2042,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2084,7 +2084,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2120,7 +2120,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 13.5,
      "agent_band": "human-only",
@@ -2156,7 +2156,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2192,7 +2192,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2228,7 +2228,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2264,7 +2264,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2300,7 +2300,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2336,7 +2336,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2372,7 +2372,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2408,7 +2408,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2443,7 +2443,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2479,7 +2479,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2521,7 +2521,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2563,7 +2563,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2599,7 +2599,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2641,7 +2641,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2683,7 +2683,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2719,7 +2719,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2754,7 +2754,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2796,7 +2796,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2831,7 +2831,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2867,7 +2867,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2903,7 +2903,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2938,7 +2938,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2973,7 +2973,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3008,7 +3008,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3043,7 +3043,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3078,7 +3078,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3113,7 +3113,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3154,7 +3154,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3189,7 +3189,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3224,7 +3224,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3259,7 +3259,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

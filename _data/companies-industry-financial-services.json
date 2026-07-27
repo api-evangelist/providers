@@ -4,30 +4,30 @@
  "limit": 1000,
  "bands": [
   {
-   "band": "developing",
-   "label": "Developing",
-   "range": "45–59.9",
-   "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 17,
-   "shown": 17,
+   "band": "strong",
+   "label": "Strong",
+   "range": "60–69.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "shown": 1,
    "companies": [
     {
      "name": "Verisk",
      "slug": "verisk",
      "description": "Verisk (formerly ISO) is a leading data analytics and technology company serving the insurance, energy, and financial services industries. Verisk provides risk scoring, actuarial data, property analytics, catastrophe modeling, claims benchmarking, and underwriting intelligence through RESTful APIs that power insurance pricing, reserving, and exposure management workflows.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/verisk/refs/heads/main/screenshots/verisk-2026-06-20T200935.png",
-     "score": 57.0,
-     "band": "developing",
-     "band_label": "Developing",
+     "score": 60.5,
+     "band": "strong",
+     "band_label": "Strong",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 70.8,
+      "discoverability": 87.5,
+      "contract_quality": 79.6,
       "governance": 86.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 45.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -52,24 +52,35 @@
       "consent_identity": false
      },
      "rank": 1
-    },
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 16,
+   "shown": 16,
+   "companies": [
     {
      "name": "Truist Financial",
      "slug": "truist-financial",
      "description": "Truist Financial Corporation is a purpose-driven financial services company headquartered in Charlotte, North Carolina, formed by the merger of BB&T and SunTrust Banks in 2019. As one of the ten largest commercial banks in the United States, Truist offers a comprehensive suite of developer APIs through its Developer Center, enabling financial institutions, fintech companies, and enterprise clients to integrate banking capabilities into their applications. The platform covers personal and small business banking, commercial accounts, transactions, open banking, and association services, with OAuth 2.0 and API key authentication. Truist launched FDX-compliant open banking in 2026, partnering with Mastercard and Plaid to enable secure, tokenized financial data sharing for consumers and businesses.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/truist-financial/refs/heads/main/screenshots/truist-financial-2026-06-20T195759.png",
-     "score": 56.1,
+     "score": 58.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 68.1,
       "governance": 73.7,
       "operational_transparency": 26.3,
       "developer_ergonomics": 32.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -100,18 +111,18 @@
      "slug": "charles-schwab",
      "description": "Charles Schwab is a financial services company providing brokerage, banking, asset management, and financial advisory services to individual investors and independent investment advisors. The Schwab Developer Portal exposes Trader APIs that let registered applications access account balances, positions, and orders, place equity and option trades, and consume real-time and historical market data through OAuth 2.0-secured REST endpoints.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/charles-schwab/refs/heads/main/screenshots/charles-schwab-2026-06-20T174236.png",
-     "score": 56.0,
+     "score": 58.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 55.8,
       "governance": 73.7,
       "operational_transparency": 31.6,
       "developer_ergonomics": 32.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -142,18 +153,18 @@
      "slug": "state-street",
      "description": "State Street Corporation is one of the world's largest financial services companies, headquartered in Boston, Massachusetts. Founded in 1792, State Street provides investment servicing, investment management, investment research, and trading services to institutional investors including mutual funds, collective investment funds, corporate and public retirement plans, insurance companies, foundations, and endowments. State Street manages approximately $4.7 trillion in assets under management through State Street Global Advisors and services nearly $40 trillion in assets under custody. The company operates the State Street Alpha front-to-back investment management platform, Fund Connect for ETF creation and redemption, and Charles River Development for investment management technology. State Street's developer portal at developer.statestreet.com provides OAuth 2.0-secured APIs enabling institutional clients to programmatically access portfolio data, transaction history, NAV calculations, analytics, and ETF order management. APIs follow REST conventions with OpenAPI 3.0 specifications, JSON data format, and JSON Schema documentation.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/state-street/refs/heads/main/screenshots/state-street-2026-06-20T194521.png",
-     "score": 56.0,
+     "score": 58.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 80.0,
       "contract_quality": 71.7,
       "governance": 86.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 43.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -178,18 +189,18 @@
      "slug": "bank-of-america",
      "description": "Bank of America is a multinational investment bank and financial services holding company providing consumer banking, wealth management, corporate banking, and investment banking services worldwide. The CashPro Developer Studio provides REST APIs for corporate treasury clients to automate account management, payments, balance reporting, and statement access, supporting over 350 payment types and integration with TMS and ERP platforms.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-america/refs/heads/main/screenshots/bank-of-america-2026-06-20T172951.png",
-     "score": 55.4,
+     "score": 58.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 67.3,
       "governance": 86.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -220,18 +231,18 @@
      "slug": "bank-of-new-york-mellon",
      "description": "BNY Mellon is a global investments company providing asset servicing, asset management, wealth management, treasury services, and clearance and collateral management for institutions and individuals. The BNY Mellon Marketplace (marketplace.bnymellon.com) and developer portal (developer.bny.com) provide Treasury Services APIs for corporate clients to automate payments, account management, balance reporting, and funds transfers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/bank-of-new-york-mellon/refs/heads/main/screenshots/bank-of-new-york-mellon-2026-06-20T172950.png",
-     "score": 54.9,
+     "score": 57.6,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 65.5,
       "governance": 86.8,
       "operational_transparency": 36.8,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -262,18 +273,18 @@
      "slug": "tiaa",
      "description": "TIAA (Teachers Insurance and Annuity Association of America) is a leading provider of financial services in the academic, research, medical, cultural, and government fields. Originally founded to provide retirement security for educators, TIAA now offers retirement services, insurance, brokerage, and investment management products to individuals and institutions. TIAA operates a developer portal at developer.tiaa.org exposing APIs for financial data aggregation (FDX standard), secure income account management, and gateway integrations enabling plan portability and fintech connectivity.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tiaa/refs/heads/main/screenshots/tiaa-2026-06-20T195329.png",
-     "score": 54.7,
+     "score": 57.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 66.2,
       "governance": 73.7,
       "operational_transparency": 21.1,
       "developer_ergonomics": 30.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -304,18 +315,18 @@
      "slug": "synchrony-financial",
      "description": "Synchrony Financial is one of the nation's premier consumer financial services companies, providing a range of credit products through programs established with retailers, manufacturers, and merchants. Synchrony offers APIs enabling partners and retailers to integrate credit applications, authorizations, payments, loyalty, and account management into their digital commerce experiences.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/synchrony-financial/refs/heads/main/screenshots/synchrony-financial-2026-06-20T194826.png",
-     "score": 51.2,
+     "score": 53.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 92.5,
       "contract_quality": 67.3,
       "governance": 86.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -342,42 +353,36 @@
      "rank": 8
     },
     {
-     "name": "Commonwealth Bank",
-     "slug": "commonwealth-bank",
-     "description": "Commonwealth Bank of Australia (CBA) is Australia's largest bank by market capitalization, a \"Big Four\" authorised deposit-taking institution (ADI) regulated by APRA and listed on the ASX (CBA), providing retail, business, and institutional banking. CBA serves millions of customers through NetBank online banking, the CommBank mobile app, CommBiz for business, and CommBank Yello loyalty. As a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) regime, CommBank exposes a PUBLIC, unauthenticated Product Reference Data (PRD) API and a full set of consumer-AUTHORIZED CDR Banking endpoints (accounts, balances, transactions, direct debits, scheduled payments, payees, customer) conforming to the DSB Consumer Data Standards CDR Banking API v1.36.0. The bank publishes its own first-party Swagger 2.0 specifications for each of these families on its developer portal, and additionally documents a business API catalogue (Fast Payment / NPP credit transfer initiation, NameCheck, PayTo) and a hosted merchant Payment Gateway.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/screenshots/commonwealth-bank-2026-07-21T114720.png",
-     "score": 50.8,
+     "name": "Broadridge",
+     "slug": "broadridge",
+     "description": "Best-in-class API components meet expert support to create the ideal wealth management operations environment. Optimize productivity, client experiences, and more.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/screenshots/broadridge-2026-06-20T173715.png",
+     "score": 52.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 37.7,
-      "governance": 0.0,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 67.4,
-      "commercial_clarity": 42.1
+      "discoverability": 75.0,
+      "contract_quality": 61.9,
+      "governance": 73.7,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 32.6,
+      "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 87.0
-     },
-     "agent_score": 65.4,
-     "agent_band": "agent-native",
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": true,
-      "mcp_server": true,
+      "mcp_server": false,
       "auth_clarity": true,
       "idempotency": false,
-      "error_semantics": true,
+      "error_semantics": false,
       "openapi_examples": false,
-      "rate_limit_signal": false,
+      "rate_limit_signal": true,
       "asyncapi_events": false,
-      "agent_skills": true,
+      "agent_skills": false,
       "well_known_catalog": false,
       "consent_identity": false
      },
@@ -388,18 +393,18 @@
      "slug": "interactive-brokers",
      "description": "Interactive Brokers is an online brokerage firm providing trading access to stocks, options, futures, currencies, bonds, and funds across 150+ markets worldwide. IBKR offers comprehensive REST APIs that enable developers and traders to programmatically access trading, portfolio management, market data, and account management capabilities through the IBKR Web API and Client Portal API.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/interactive-brokers/refs/heads/main/screenshots/interactive-brokers-2026-06-20T183445.png",
-     "score": 50.6,
+     "score": 52.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 87.5,
       "contract_quality": 64.6,
       "governance": 60.5,
       "operational_transparency": 36.8,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -426,6 +431,84 @@
      "rank": 10
     },
     {
+     "name": "Wells Fargo",
+     "slug": "wells-fargo",
+     "description": "Wells Fargo is a diversified, community-based financial services company providing banking, investment, mortgage, and consumer and commercial finance through thousands of stores and digital channels. Wells Fargo operates a comprehensive developer portal at developer.wellsfargo.com offering open banking APIs for payments, account data, and treasury management. The Gateway API platform handles over 1.5 billion API calls annually and supports commercial banking customers with ACH, wire, RTP, FedNow, and data reporting capabilities.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/screenshots/wells-fargo-2026-06-20T201349.png",
+     "score": 52.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 75.4,
+      "governance": 86.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 11
+    },
+    {
+     "name": "Commonwealth Bank",
+     "slug": "commonwealth-bank",
+     "description": "Commonwealth Bank of Australia (CBA) is Australia's largest bank by market capitalization, a \"Big Four\" authorised deposit-taking institution (ADI) regulated by APRA and listed on the ASX (CBA), providing retail, business, and institutional banking. CBA serves millions of customers through NetBank online banking, the CommBank mobile app, CommBiz for business, and CommBank Yello loyalty. As a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) regime, CommBank exposes a PUBLIC, unauthenticated Product Reference Data (PRD) API and a full set of consumer-AUTHORIZED CDR Banking endpoints (accounts, balances, transactions, direct debits, scheduled payments, payees, customer) conforming to the DSB Consumer Data Standards CDR Banking API v1.36.0. The bank publishes its own first-party Swagger 2.0 specifications for each of these families on its developer portal, and additionally documents a business API catalogue (Fast Payment / NPP credit transfer initiation, NameCheck, PayTo) and a hosted merchant Payment Gateway.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/commonwealth-bank/refs/heads/main/screenshots/commonwealth-bank-2026-07-21T114720.png",
+     "score": 50.8,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 67.4,
+      "commercial_clarity": 42.1
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 87.0
+     },
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 12
+    },
+    {
      "name": "Fifth Third Bancorp",
      "slug": "fifth-third-bancorp",
      "description": "Fifth Third Bancorp is a diversified super-regional financial services company providing commercial banking, branch banking, consumer lending, and wealth and asset management services across multiple U.S. states. Its embedded-finance arm, Newline by Fifth Third (built on the 2023 Rize Money acquisition), operates a documented, API-first Banking-as-a-Service platform: the Newline Platform API exposes payments (ACH, wire, Real-Time Payments/RTP, book transfers), FDIC-insured deposit and custodial accounts, synthetic accounts, virtual reference numbers, card issuing, customer/KYC onboarding, transactions, returns, and webhook/message-queue notifications so fintechs and enterprises can embed financial products directly with Fifth Third Bank.",
@@ -441,7 +524,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -465,104 +548,32 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 11
+     "rank": 13
     },
     {
-     "name": "Broadridge",
-     "slug": "broadridge",
-     "description": "Best-in-class API components meet expert support to create the ideal wealth management operations environment. Optimize productivity, client experiences, and more.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/broadridge/refs/heads/main/screenshots/broadridge-2026-06-20T173715.png",
-     "score": 49.2,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 42.5,
-      "contract_quality": 61.9,
-      "governance": 73.7,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 32.6,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 12
-    },
-    {
-     "name": "Barclays",
-     "slug": "barclays",
-     "description": "Barclays is a multinational financial services company providing retail and commercial banking, investment banking, wealth management, and credit cards. The Barclays API Exchange (developer.barclays.com) offers 22+ APIs covering open banking account information, payment initiation, confirmation of funds, ATM/branch location, rewards, digital wallet, and more, compliant with UK Open Banking and EU PSD2 standards.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/barclays/refs/heads/main/screenshots/barclays-2026-06-20T173004.png",
-     "score": 48.3,
+     "name": "US Bancorp",
+     "slug": "us-bancorp",
+     "description": "U.S. Bancorp is the parent company of U.S. Bank National Association, one of the largest commercial banks in the United States. U.S. Bank provides a developer portal at developer.usbank.com offering APIs for corporate banking, payments, and treasury management including RTP, ACH, Positive Pay, corporate account information, data toolbox, fleet management (Voyager), freight payment, and push-to-card capabilities. Authentication uses OAuth MFA with SinglePoint credentials.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/screenshots/us-bancorp-2026-06-20T200603.png",
+     "score": 49.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 87.5,
-      "contract_quality": 15.1,
-      "governance": 86.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 23.9,
-      "commercial_clarity": 73.7
+      "contract_quality": 73.9,
+      "governance": 73.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
-      "score": 54.3
+      "score": 58.7
      },
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 13
-    },
-    {
-     "name": "Wells Fargo",
-     "slug": "wells-fargo",
-     "description": "Wells Fargo is a diversified, community-based financial services company providing banking, investment, mortgage, and consumer and commercial finance through thousands of stores and digital channels. Wells Fargo operates a comprehensive developer portal at developer.wellsfargo.com offering open banking APIs for payments, account data, and treasury management. The Gateway API platform handles over 1.5 billion API calls annually and supports commercial banking customers with ACH, wire, RTP, FedNow, and data reporting capabilities.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wells-fargo/refs/heads/main/screenshots/wells-fargo-2026-06-20T201349.png",
-     "score": 48.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 55.0,
-      "contract_quality": 70.1,
-      "governance": 86.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -585,18 +596,18 @@
      "name": "Regions Financial",
      "slug": "regions-financial",
      "description": "Regions Financial Corporation is a member of the S&P 500 Index and one of the nation's largest full-service providers of consumer and commercial banking, wealth management, and mortgage products and services. Regions Bank is implementing open banking capabilities through a partnership with Axway's Amplify Open Banking solution, building APIs aligned to the Financial Data Exchange (FDX) standard to enable secure financial data sharing with fintech partners and third-party platforms. Regions joined FDX in 2021 and is targeting compliance with CFPB open banking rules by April 2027.",
-     "score": 46.4,
+     "score": 48.5,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 92.5,
       "contract_quality": 65.5,
       "governance": 86.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -623,36 +634,36 @@
      "rank": 15
     },
     {
-     "name": "US Bancorp",
-     "slug": "us-bancorp",
-     "description": "U.S. Bancorp is the parent company of U.S. Bank National Association, one of the largest commercial banks in the United States. U.S. Bank provides a developer portal at developer.usbank.com offering APIs for corporate banking, payments, and treasury management including RTP, ACH, Positive Pay, corporate account information, data toolbox, fleet management (Voyager), freight payment, and push-to-card capabilities. Authentication uses OAuth MFA with SinglePoint credentials.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/us-bancorp/refs/heads/main/screenshots/us-bancorp-2026-06-20T200603.png",
-     "score": 45.6,
+     "name": "Barclays",
+     "slug": "barclays",
+     "description": "Barclays is a multinational financial services company providing retail and commercial banking, investment banking, wealth management, and credit cards. The Barclays API Exchange (developer.barclays.com) offers 22+ APIs covering open banking account information, payment initiation, confirmation of funds, ATM/branch location, rewards, digital wallet, and more, compliant with UK Open Banking and EU PSD2 standards.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/barclays/refs/heads/main/screenshots/barclays-2026-06-20T173004.png",
+     "score": 48.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 65.1,
-      "governance": 73.7,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
+      "discoverability": 87.5,
+      "contract_quality": 15.1,
+      "governance": 86.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 73.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
-      "score": 58.7
+      "score": 54.3
      },
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
+     "agent_score": 6.7,
+     "agent_band": "human-only",
      "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
+      "spec_presence": false,
+      "agentic_access": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -669,18 +680,18 @@
      "slug": "scotiabank",
      "description": "Scotiabank is one of Canada's leading financial institutions and a major international bank. Through its Scotia TranXact developer portal, Scotiabank provides APIs for corporate and commercial customers to integrate banking capabilities into their treasury management, ERP, and CRM systems. APIs cover wire payments, real-time payments via INTERAC e-Transfer, EFT payments, account balance and transaction data, account validation, and payment track and trace.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/scotiabank/refs/heads/main/screenshots/scotiabank-2026-06-20T193550.png",
-     "score": 45.3,
+     "score": 48.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 64.0,
+      "discoverability": 87.5,
+      "contract_quality": 69.3,
       "governance": 73.7,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -714,62 +725,26 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 21,
-   "shown": 21,
+   "count": 22,
+   "shown": 22,
    "companies": [
-    {
-     "name": "Blackstone",
-     "slug": "blackstone",
-     "description": "Blackstone is the world's largest alternative asset manager with over $1 trillion in assets under management across private equity, real estate, credit, and hedge fund strategies. Blackstone serves institutional investors including pension funds, sovereign wealth funds, endowments, and foundations, as well as accredited individual investors through its private wealth solutions. Technology and data platforms are central to Blackstone's investment operations and portfolio company management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/screenshots/blackstone-2026-06-20T173341.png",
-     "score": 44.5,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 34.0,
-      "governance": 86.8,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 63.2
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 18
-    },
     {
      "name": "KeyCorp",
      "slug": "keycorp",
      "description": "KeyCorp (KeyBank) is one of the nation's largest bank-based financial services companies and a super-regional commercial bank headquartered in Cleveland, Ohio, providing deposit, lending, cash management, treasury, and investment services to individuals, small businesses, and middle-market companies. The KeyBank Developer Portal at developer.key.com publishes a self-service catalog of commercial and embedded-banking APIs covering account information reporting, ACH origination, RTP and wire payments, account validation, ACH/wire/RTP inquiry, check services, and payment event webhooks. Each product ships a downloadable OpenAPI 3.1 definition and is secured with OAuth2 bearer tokens, mutual TLS client certificates, and FAPI-style interaction-id headers.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/keycorp/refs/heads/main/screenshots/keycorp-2026-06-20T184017.png",
-     "score": 43.2,
+     "score": 44.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 87.5,
       "contract_quality": 68.7,
       "governance": 0.0,
       "operational_transparency": 28.9,
       "developer_ergonomics": 54.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -793,25 +768,25 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 19
+     "rank": 18
     },
     {
      "name": "Fiserv",
      "slug": "fiserv",
      "description": "Fiserv is a global provider of financial services technology solutions, offering a wide range of products and services to help clients in the banking, payments, and wealth management industries.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/fiserv/refs/heads/main/screenshots/fiserv-2026-06-20T181247.png",
-     "score": 43.1,
+     "score": 44.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 75.0,
       "contract_quality": 73.3,
       "governance": 60.5,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -835,6 +810,42 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
+     "rank": 19
+    },
+    {
+     "name": "Blackstone",
+     "slug": "blackstone",
+     "description": "Blackstone is the world's largest alternative asset manager with over $1 trillion in assets under management across private equity, real estate, credit, and hedge fund strategies. Blackstone serves institutional investors including pension funds, sovereign wealth funds, endowments, and foundations, as well as accredited individual investors through its private wealth solutions. Technology and data platforms are central to Blackstone's investment operations and portfolio company management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/blackstone/refs/heads/main/screenshots/blackstone-2026-06-20T173341.png",
+     "score": 44.5,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 34.0,
+      "governance": 86.8,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 63.2
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
      "rank": 20
     },
     {
@@ -852,7 +863,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -873,106 +884,22 @@
      "rank": 21
     },
     {
-     "name": "Capital One",
-     "slug": "capital-one",
-     "description": "Capital One is a US money-center bank and financial services company offering credit cards, checking and savings accounts, loans, and auto financing. Through the Capital One DevExchange developer program the bank publishes a catalog of partner-facing production APIs for account lookup, transaction authorizations, credit offers, customer transactions, credit card applications, auto financing, proactive prescreen, partner account summary, shop with rewards, and public key sharing for client authentication. Access is secured with OAuth 2.0 and a public sandbox supports pre-production integration, with production access gated behind partner approval. Developer documentation is HTML-only (the portal is a single-page app); Capital One does not publish downloadable OpenAPI specifications. As an FDX member, Capital One also supports consumer-permissioned open-finance data access through aggregators in the US voluntary open-banking context.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/screenshots/capital-one-2026-06-20T173936.png",
-     "score": 40.1,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 52.2,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 67.4
-     },
-     "agent_score": 23.1,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "rank": 22
-    },
-    {
-     "name": "American Express",
-     "slug": "american-express",
-     "description": "American Express is a globally integrated payments company and card network that offers charge and credit cards, merchant acquiring, corporate payments, travel, and Membership Rewards loyalty. Its developer platform at developer.americanexpress.com publishes a partner-oriented catalog of REST APIs spanning tokenization (AETS), fraud prevention (Enhanced Authorization), PSD2 open-banking account, transaction and confirmation-of-funds services, corporate @ Work expense management, Pay with Points redemption, Pay with Bank transfer payment initiation, Payment Account Reference, card-linked Smart Offers, Account Connect card-on-file, and the R42 Network Loyalty Platform. Access is onboarding-gated for registered issuers, merchants, acquirers, and partners rather than open self-service.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/screenshots/american-express-2026-06-20T171914.png",
-     "score": 39.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 52.2,
-      "commercial_clarity": 63.2
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 54.3
-     },
-     "agent_score": 16.3,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 23
-    },
-    {
      "name": "Huntington Bancshares",
      "slug": "huntington-bancshares",
      "description": "Huntington Bancshares is a regional bank holding company that provides full-service consumer and business banking, insurance, investment, mortgage, equipment leasing, and commercial banking services. Huntington operates a developer portal at hnbdevportal.huntington.com built on Apigee X, offering API-first treasury management solutions with over 500 interfaces that process more than 10 million transaction events daily.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/huntington-bancshares/refs/heads/main/screenshots/huntington-bancshares-2026-06-20T182949.png",
-     "score": 39.1,
+     "score": 41.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 59.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -996,7 +923,127 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
+     "rank": 22
+    },
+    {
+     "name": "CBRE",
+     "slug": "cbre",
+     "description": "CBRE Group, Inc. (NYSE: CBRE) is the world's largest commercial real estate services and investment firm, with 155,000 professionals across 500+ offices in 100+ countries. CBRE provides advisory and transaction, project management, property management, valuation, investment management, and consulting services. Its technology arm publishes developer APIs through developer.cbre.com that expose property, analytics, and facilities data to partners.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cbre/refs/heads/main/screenshots/cbre-2026-06-20T174059.png",
+     "score": 41.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 60.2,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 23
+    },
+    {
+     "name": "Capital One",
+     "slug": "capital-one",
+     "description": "Capital One is a US money-center bank and financial services company offering credit cards, checking and savings accounts, loans, and auto financing. Through the Capital One DevExchange developer program the bank publishes a catalog of partner-facing production APIs for account lookup, transaction authorizations, credit offers, customer transactions, credit card applications, auto financing, proactive prescreen, partner account summary, shop with rewards, and public key sharing for client authentication. Access is secured with OAuth 2.0 and a public sandbox supports pre-production integration, with production access gated behind partner approval. Developer documentation is HTML-only (the portal is a single-page app); Capital One does not publish downloadable OpenAPI specifications. As an FDX member, Capital One also supports consumer-permissioned open-finance data access through aggregators in the US voluntary open-banking context.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/capital-one/refs/heads/main/screenshots/capital-one-2026-06-20T173936.png",
+     "score": 40.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 67.4
+     },
+     "agent_score": 23.1,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
      "rank": 24
+    },
+    {
+     "name": "American Express",
+     "slug": "american-express",
+     "description": "American Express is a globally integrated payments company and card network that offers charge and credit cards, merchant acquiring, corporate payments, travel, and Membership Rewards loyalty. Its developer platform at developer.americanexpress.com publishes a partner-oriented catalog of REST APIs spanning tokenization (AETS), fraud prevention (Enhanced Authorization), PSD2 open-banking account, transaction and confirmation-of-funds services, corporate @ Work expense management, Pay with Points redemption, Pay with Bank transfer payment initiation, Payment Account Reference, card-linked Smart Offers, Account Connect card-on-file, and the R42 Network Loyalty Platform. Access is onboarding-gated for registered issuers, merchants, acquirers, and partners rather than open self-service.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/american-express/refs/heads/main/screenshots/american-express-2026-06-20T171914.png",
+     "score": 39.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 63.2
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 54.3
+     },
+     "agent_score": 16.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 25
     },
     {
      "name": "Northern Trust",
@@ -1014,7 +1061,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1038,7 +1085,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Citigroup",
@@ -1056,7 +1103,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1080,42 +1127,6 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 26
-    },
-    {
-     "name": "CBRE",
-     "slug": "cbre",
-     "description": "CBRE Group, Inc. (NYSE: CBRE) is the world's largest commercial real estate services and investment firm, with 155,000 professionals across 500+ offices in 100+ countries. CBRE provides advisory and transaction, project management, property management, valuation, investment management, and consulting services. Its technology arm publishes developer APIs through developer.cbre.com that expose property, analytics, and facilities data to partners.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/cbre/refs/heads/main/screenshots/cbre-2026-06-20T174059.png",
-     "score": 38.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 60.0,
-      "contract_quality": 60.2,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
      "rank": 27
     },
     {
@@ -1134,7 +1145,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1176,7 +1187,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1218,7 +1229,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1260,7 +1271,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1302,7 +1313,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1329,106 +1340,22 @@
      "rank": 32
     },
     {
-     "name": "Citizens Financial Group",
-     "slug": "citizens-financial-group",
-     "description": "Citizens Financial Group is one of the oldest and largest financial institutions in the United States, providing retail and commercial banking products and services to individuals, small businesses, middle-market companies, and large corporations through Citizens Bank and its subsidiaries. Citizens exposes a public developer portal at developer.citizensbank.com with REST APIs for accounts, statements, branch and ATM lookup, and a sandbox powered by the Open Bank Project. In 2025 Citizens launched a new FDX-aligned Open Banking API providing business, commercial, wealth, and private-banking customers with a single endpoint for sharing account, balance, and transaction data with authorized third parties. A separate Citizens Pay developer portal exposes Buy-Now-Pay-Later integration APIs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/screenshots/citizens-financial-group-2026-06-20T174413.png",
-     "score": 34.8,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 15.1,
-      "governance": 26.3,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 41.3
-     },
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 33
-    },
-    {
-     "name": "Arthur J. Gallagher",
-     "slug": "arthur-j-gallagher",
-     "description": "Arthur J. Gallagher & Co. is a global insurance brokerage, risk management, and consulting firm headquartered in Rolling Meadows, Illinois. The company provides insurance brokerage, risk management, employee benefits, and retirement services to clients worldwide. Its subsidiaries include Gallagher Security (which offers the Command Centre REST API for physical security integration) and Gallagher Bassett (which offers claims management APIs for third-party claims administration). Arthur J. Gallagher serves clients in over 130 countries through its international network of brokers and offices.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/screenshots/arthur-j-gallagher-2026-06-20T172441.png",
-     "score": 32.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 51.3,
-      "governance": 0.0,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 17.4,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Securities & Market Data",
-      "regime_id": "securities_market_data",
-      "score": 13.0
-     },
-     "agent_score": 38.5,
-     "agent_band": "agent-aware",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 34
-    },
-    {
      "name": "Ameriprise Financial",
      "slug": "ameriprise-financial",
      "description": "Get financial planning advice and retirement investment advice from Ameriprise financial advisors at ameriprise.com. Ameriprise Financial is a diversified financial services company offering comprehensive financial planning, wealth management, retirement planning, investment management, insurance, and annuities through a nationwide network of financial advisors.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/ameriprise-financial/refs/heads/main/screenshots/ameriprise-financial-2026-06-20T171926.png",
-     "score": 32.2,
+     "score": 35.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 60.0,
+      "discoverability": 92.5,
       "contract_quality": 37.7,
       "governance": 0.0,
       "operational_transparency": 31.6,
       "developer_ergonomics": 15.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1452,7 +1379,126 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
+     "rank": 33
+    },
+    {
+     "name": "Citizens Financial Group",
+     "slug": "citizens-financial-group",
+     "description": "Citizens Financial Group is one of the oldest and largest financial institutions in the United States, providing retail and commercial banking products and services to individuals, small businesses, middle-market companies, and large corporations through Citizens Bank and its subsidiaries. Citizens exposes a public developer portal at developer.citizensbank.com with REST APIs for accounts, statements, branch and ATM lookup, and a sandbox powered by the Open Bank Project. In 2025 Citizens launched a new FDX-aligned Open Banking API providing business, commercial, wealth, and private-banking customers with a single endpoint for sharing account, balance, and transaction data with authorized third parties. A separate Citizens Pay developer portal exposes Buy-Now-Pay-Later integration APIs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/citizens-financial-group/refs/heads/main/screenshots/citizens-financial-group-2026-06-20T174413.png",
+     "score": 34.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 15.1,
+      "governance": 26.3,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 41.3
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 34
+    },
+    {
+     "name": "Arthur J. Gallagher",
+     "slug": "arthur-j-gallagher",
+     "description": "Arthur J. Gallagher & Co. is a global insurance brokerage, risk management, and consulting firm headquartered in Rolling Meadows, Illinois. The company provides insurance brokerage, risk management, employee benefits, and retirement services to clients worldwide. Its subsidiaries include Gallagher Security (which offers the Command Centre REST API for physical security integration) and Gallagher Bassett (which offers claims management APIs for third-party claims administration). Arthur J. Gallagher serves clients in over 130 countries through its international network of brokers and offices.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/arthur-j-gallagher/refs/heads/main/screenshots/arthur-j-gallagher-2026-06-20T172441.png",
+     "score": 34.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 51.3,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 17.4,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 13.0
+     },
+     "agent_score": 38.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
      "rank": 35
+    },
+    {
+     "name": "Jones Lang LaSalle",
+     "slug": "jones-lang-lasalle",
+     "description": "Jones Lang LaSalle Incorporated (JLL) is a global commercial real estate services company offering investment management, property management, and facility services. Through JLL Technologies (JLLT), the company delivers technology solutions including the Corrigo Enterprise platform for facility management with a REST API enabling integration with work order management, asset tracking, procurement, billing, and vendor management systems.",
+     "score": 34.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 50.4,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 36
     },
     {
      "name": "Goldman Sachs",
@@ -1470,7 +1516,7 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1494,7 +1540,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Zions Bancorporation",
@@ -1512,7 +1558,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1536,113 +1582,25 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 37
-    },
-    {
-     "name": "Jones Lang LaSalle",
-     "slug": "jones-lang-lasalle",
-     "description": "Jones Lang LaSalle Incorporated (JLL) is a global commercial real estate services company offering investment management, property management, and facility services. Through JLL Technologies (JLLT), the company delivers technology solutions including the Corrigo Enterprise platform for facility management with a REST API enabling integration with work order management, asset tracking, procurement, billing, and vendor management systems.",
-     "score": 30.7,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 50.4,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
      "rank": 38
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "emerging",
-   "label": "Emerging",
-   "range": "15–29.9",
-   "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 28,
-   "shown": 28,
-   "companies": [
-    {
-     "name": "Thrivent Financial",
-     "slug": "thrivent-financial-for-lutherans",
-     "description": "Thrivent Financial is a not-for-profit, membership-owned Fortune 500 financial services organization headquartered in Minneapolis, Minnesota, that helps Christians be wise with money and live generously. With more than $212 billion in assets under management and advisement, over 4,500 employees, and 2.4 million members and clients, Thrivent provides comprehensive financial advice, insurance, investments, banking, and generosity programs. The organization is distinguished by connecting financial planning with charitable giving, community impact, and values-based decision making.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thrivent-financial-for-lutherans/refs/heads/main/screenshots/thrivent-financial-for-lutherans-2026-06-20T195319.png",
-     "score": 29.2,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 20.8,
-      "governance": 13.2,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 52.6
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 23.9
-     },
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 39
     },
     {
      "name": "Lincoln National",
      "slug": "lincoln-national",
      "description": "Lincoln National Corporation, operating as Lincoln Financial Group, is a diversified financial services company offering annuities, retirement plan services, life insurance, and group protection products. The company provides solutions for employers, brokers, and retirement professionals through its LincSmart platform of API integrations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lincoln-national/refs/heads/main/screenshots/lincoln-national-2026-06-20T184534.png",
-     "score": 27.9,
-     "band": "emerging",
-     "band_label": "Emerging",
+     "score": 30.6,
+     "band": "thin",
+     "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 54.0,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1666,24 +1624,76 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
+     "rank": 39
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 27,
+   "shown": 27,
+   "companies": [
+    {
+     "name": "Thrivent Financial",
+     "slug": "thrivent-financial-for-lutherans",
+     "description": "Thrivent Financial is a not-for-profit, membership-owned Fortune 500 financial services organization headquartered in Minneapolis, Minnesota, that helps Christians be wise with money and live generously. With more than $212 billion in assets under management and advisement, over 4,500 employees, and 2.4 million members and clients, Thrivent provides comprehensive financial advice, insurance, investments, banking, and generosity programs. The organization is distinguished by connecting financial planning with charitable giving, community impact, and values-based decision making.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thrivent-financial-for-lutherans/refs/heads/main/screenshots/thrivent-financial-for-lutherans-2026-06-20T195319.png",
+     "score": 29.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 20.8,
+      "governance": 13.2,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 23.9
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
      "rank": 40
     },
     {
      "name": "Prudential Financial",
      "slug": "prudential-financial",
      "description": "Prudential Financial, Inc. is a global financial services company offering insurance, retirement planning, investment management, and other financial products and services. Founded in 1875 and headquartered in Newark, New Jersey, the company serves individual and institutional customers worldwide.",
-     "score": 25.4,
+     "score": 28.1,
      "band": "emerging",
      "band_label": "Emerging",
      "facets": {
-      "discoverability": 60.0,
+      "discoverability": 92.5,
       "contract_quality": 52.2,
       "governance": 0.0,
       "operational_transparency": 21.1,
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1725,7 +1735,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1761,7 +1771,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1797,7 +1807,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1839,7 +1849,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1881,7 +1891,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1923,7 +1933,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1959,7 +1969,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2001,7 +2011,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -2037,7 +2047,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2078,7 +2088,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2120,7 +2130,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2162,7 +2172,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2204,7 +2214,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2240,7 +2250,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2281,7 +2291,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2323,7 +2333,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -2359,7 +2369,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2400,7 +2410,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -2436,7 +2446,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2478,7 +2488,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2520,7 +2530,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2562,7 +2572,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2604,7 +2614,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2646,7 +2656,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2688,7 +2698,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2739,7 +2749,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2781,7 +2791,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2817,7 +2827,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2853,7 +2863,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2895,7 +2905,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2937,7 +2947,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2979,7 +2989,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3021,7 +3031,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3057,7 +3067,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3099,7 +3109,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3141,7 +3151,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3183,7 +3193,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3225,7 +3235,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3267,7 +3277,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3303,7 +3313,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3345,7 +3355,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3387,7 +3397,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3428,7 +3438,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3470,7 +3480,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3511,7 +3521,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3553,7 +3563,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3595,7 +3605,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3637,7 +3647,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3679,7 +3689,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3721,7 +3731,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3763,7 +3773,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3805,7 +3815,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3847,7 +3857,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3889,7 +3899,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3931,7 +3941,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3973,7 +3983,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4009,7 +4019,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4045,7 +4055,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4086,7 +4096,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4128,7 +4138,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4170,7 +4180,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4212,7 +4222,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4254,7 +4264,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4289,7 +4299,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4325,7 +4335,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4360,7 +4370,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4396,7 +4406,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4432,7 +4442,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4468,7 +4478,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4504,7 +4514,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4540,7 +4550,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4575,7 +4585,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4610,7 +4620,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4645,7 +4655,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4680,7 +4690,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4716,7 +4726,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4752,7 +4762,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4788,7 +4798,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4824,7 +4834,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4860,7 +4870,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4896,7 +4906,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4931,7 +4941,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4967,7 +4977,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5003,7 +5013,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

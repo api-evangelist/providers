@@ -12,21 +12,22 @@
    "shown": 8,
    "companies": [
     {
-     "name": "BJ's Wholesale Club",
-     "slug": "bjs-wholesale-club",
-     "description": "BJ's Wholesale Club is a leading operator of membership warehouse clubs concentrated primarily on the eastern half of the United States. BJ's offers its members significant savings on a wide assortment of merchandise, including fresh foods, groceries, household essentials, and general merchandise. The company operates over 230 clubs and is focused on digital transformation, offering APIs to partners for product data, inventory, pricing, and order management integrations.",
-     "score": 54.4,
+     "name": "Advance Auto Parts",
+     "slug": "advance-auto-parts",
+     "description": "Advance Auto Parts is a leading automotive aftermarket parts retailer offering a comprehensive catalog of automotive parts, accessories, batteries, and maintenance items. The company serves both professional automotive technicians and do-it-yourself customers across North America through retail stores, online, and commercial delivery programs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/screenshots/advance-auto-parts-2026-06-20T165218.png",
+     "score": 58.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 75.0,
-      "contract_quality": 72.9,
-      "governance": 78.9,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 15.2,
-      "commercial_clarity": 60.5
+      "discoverability": 100.0,
+      "contract_quality": 74.3,
+      "governance": 73.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -47,22 +48,22 @@
      "rank": 1
     },
     {
-     "name": "Advance Auto Parts",
-     "slug": "advance-auto-parts",
-     "description": "Advance Auto Parts is a leading automotive aftermarket parts retailer offering a comprehensive catalog of automotive parts, accessories, batteries, and maintenance items. The company serves both professional automotive technicians and do-it-yourself customers across North America through retail stores, online, and commercial delivery programs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/advance-auto-parts/refs/heads/main/screenshots/advance-auto-parts-2026-06-20T165218.png",
-     "score": 54.1,
+     "name": "Wayfair",
+     "slug": "wayfair",
+     "description": "Wayfair Inc. is one of the world's largest online destinations for home goods and furniture, serving over 20 million customers and 10,000+ suppliers. Wayfair's Developer Portal provides GraphQL-based APIs enabling suppliers to manage purchase orders, inventory updates, product catalog management, advanced shipment notifications, and returns. The platform is built on federated GraphQL architecture using domain-oriented microservices, allowing suppliers to request only the data they need.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/screenshots/wayfair-2026-06-20T201300.png",
+     "score": 58.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 69.0,
-      "governance": 73.7,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 26.1,
-      "commercial_clarity": 63.2
+      "discoverability": 92.5,
+      "contract_quality": 81.0,
+      "governance": 86.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 28.3,
+      "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -83,22 +84,21 @@
      "rank": 2
     },
     {
-     "name": "Wayfair",
-     "slug": "wayfair",
-     "description": "Wayfair Inc. is one of the world's largest online destinations for home goods and furniture, serving over 20 million customers and 10,000+ suppliers. Wayfair's Developer Portal provides GraphQL-based APIs enabling suppliers to manage purchase orders, inventory updates, product catalog management, advanced shipment notifications, and returns. The platform is built on federated GraphQL architecture using domain-oriented microservices, allowing suppliers to request only the data they need.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/wayfair/refs/heads/main/screenshots/wayfair-2026-06-20T201300.png",
-     "score": 52.8,
+     "name": "Albertsons",
+     "slug": "albertsons",
+     "description": "Albertsons Companies is one of the largest food and drug retailers in the United States, operating supermarkets and pharmacies under banners including Albertsons, Safeway, Vons, Jewel-Osco, Acme, Shaw's, Star Market, and others. The company operates the Albertsons Media Collective, a retail media network that provides advertisers API access to near-real-time campaign performance data and audience targeting capabilities based on shopper purchase behavior across its banner network.",
+     "score": 57.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 60.0,
-      "contract_quality": 72.1,
+      "discoverability": 100.0,
+      "contract_quality": 82.3,
       "governance": 86.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 28.3,
-      "commercial_clarity": 39.5
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -119,22 +119,22 @@
      "rank": 3
     },
     {
-     "name": "Walmart",
-     "slug": "walmart",
-     "description": "Walmart is a multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores. The company is known for offering a wide range of products at competitive prices, attracting customers from all walks of life. Walmart also provides various convenience services, such as pharmacy, optical, and financial services, making it a one-stop shop for many consumers. The Walmart Marketplace APIs enable third-party sellers to list and sell products, manage orders, inventory, pricing, fulfillment, and reporting on Walmart.com.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/screenshots/walmart-2026-06-20T201220.png",
-     "score": 52.4,
+     "name": "Urban Outfitters",
+     "slug": "urban-outfitters",
+     "description": "Urban Outfitters is a multi-channel lifestyle retailer offering an eclectic mix of women's, men's, and kids apparel, footwear, accessories, beauty, and home goods. Part of URBN, Inc. (which also owns Anthropologie, Free People, Bhldn, and Nuuly), Urban Outfitters operates stores in the US, Europe, and Canada alongside a robust ecommerce platform. The brand provides affiliate marketing integration through the Rakuten Advertising network and a third-party seller marketplace program (UO MRKT) that accepts independent brands selling through EDI and third-party integration platforms. Urban Outfitters uses Stripe for payment processing, Stripe Connect for marketplace seller payouts, and Stripe Terminal for in-store payments.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/screenshots/urban-outfitters-2026-06-20T200530.png",
+     "score": 57.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 57.3,
-      "governance": 73.7,
-      "operational_transparency": 42.1,
-      "developer_ergonomics": 39.1,
+      "discoverability": 100.0,
+      "contract_quality": 80.5,
+      "governance": 86.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -155,21 +155,21 @@
      "rank": 4
     },
     {
-     "name": "Albertsons",
-     "slug": "albertsons",
-     "description": "Albertsons Companies is one of the largest food and drug retailers in the United States, operating supermarkets and pharmacies under banners including Albertsons, Safeway, Vons, Jewel-Osco, Acme, Shaw's, Star Market, and others. The company operates the Albertsons Media Collective, a retail media network that provides advertisers API access to near-real-time campaign performance data and audience targeting capabilities based on shopper purchase behavior across its banner network.",
-     "score": 52.2,
+     "name": "BJ's Wholesale Club",
+     "slug": "bjs-wholesale-club",
+     "description": "BJ's Wholesale Club is a leading operator of membership warehouse clubs concentrated primarily on the eastern half of the United States. BJ's offers its members significant savings on a wide assortment of merchandise, including fresh foods, groceries, household essentials, and general merchandise. The company operates over 230 clubs and is focused on digital transformation, offering APIs to partners for product data, inventory, pricing, and order management integrations.",
+     "score": 54.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 73.5,
-      "governance": 86.8,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 50.0
+      "discoverability": 75.0,
+      "contract_quality": 72.9,
+      "governance": 78.9,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 15.2,
+      "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -190,23 +190,29 @@
      "rank": 5
     },
     {
-     "name": "Urban Outfitters",
-     "slug": "urban-outfitters",
-     "description": "Urban Outfitters is a multi-channel lifestyle retailer offering an eclectic mix of women's, men's, and kids apparel, footwear, accessories, beauty, and home goods. Part of URBN, Inc. (which also owns Anthropologie, Free People, Bhldn, and Nuuly), Urban Outfitters operates stores in the US, Europe, and Canada alongside a robust ecommerce platform. The brand provides affiliate marketing integration through the Rakuten Advertising network and a third-party seller marketplace program (UO MRKT) that accepts independent brands selling through EDI and third-party integration platforms. Urban Outfitters uses Stripe for payment processing, Stripe Connect for marketplace seller payouts, and Stripe Terminal for in-store payments.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/urban-outfitters/refs/heads/main/screenshots/urban-outfitters-2026-06-20T200530.png",
-     "score": 51.7,
+     "name": "Walgreens",
+     "slug": "walgreens",
+     "description": "Walgreens is one of the largest pharmacy-led health and wellbeing companies in the United States, operating over 8,000 locations nationwide. The Walgreens Developer Program provides APIs enabling third-party applications to integrate pharmacy prescription management, vaccine scheduling, retail shopping, store locations, and product inventory. The APIs support seamless healthcare delivery, prescription refills, immunization appointments, and retail e-commerce integrations for mobile and web applications.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/screenshots/walgreens-2026-06-20T201206.png",
+     "score": 53.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 71.7,
-      "governance": 86.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 39.5
+      "discoverability": 100.0,
+      "contract_quality": 77.9,
+      "governance": 73.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 50.0
+     },
      "agent_score": 48.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -229,18 +235,18 @@
      "name": "Target",
      "slug": "target",
      "description": "Target Corporation is one of the largest retailers in the United States, offering a wide assortment of general merchandise and food through more than 1,900 stores and digital channels. Target's technology platform powers partner integrations, internal services, and open-source tooling across their retail operations.",
-     "score": 49.4,
+     "score": 52.7,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 66.7,
       "governance": 86.8,
       "operational_transparency": 42.1,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -261,29 +267,23 @@
      "rank": 7
     },
     {
-     "name": "Walgreens",
-     "slug": "walgreens",
-     "description": "Walgreens is one of the largest pharmacy-led health and wellbeing companies in the United States, operating over 8,000 locations nationwide. The Walgreens Developer Program provides APIs enabling third-party applications to integrate pharmacy prescription management, vaccine scheduling, retail shopping, store locations, and product inventory. The APIs support seamless healthcare delivery, prescription refills, immunization appointments, and retail e-commerce integrations for mobile and web applications.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/walgreens/refs/heads/main/screenshots/walgreens-2026-06-20T201206.png",
-     "score": 48.4,
+     "name": "Walmart",
+     "slug": "walmart",
+     "description": "Walmart is a multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores. The company is known for offering a wide range of products at competitive prices, attracting customers from all walks of life. Walmart also provides various convenience services, such as pharmacy, optical, and financial services, making it a one-stop shop for many consumers. The Walmart Marketplace APIs enable third-party sellers to list and sell products, manage orders, inventory, pricing, fulfillment, and reporting on Walmart.com.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/walmart/refs/heads/main/screenshots/walmart-2026-06-20T201220.png",
+     "score": 52.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 69.0,
+      "discoverability": 80.0,
+      "contract_quality": 57.3,
       "governance": 73.7,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 28.9
+      "operational_transparency": 42.1,
+      "developer_ergonomics": 39.1,
+      "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 50.0
-     },
      "agent_score": 48.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -314,57 +314,21 @@
    "shown": 5,
    "companies": [
     {
-     "name": "Skechers U.S.A.",
-     "slug": "skechers-usa",
-     "description": "Skechers U.S.A. is an American lifestyle and performance footwear company (Fortune 500) that designs, develops, and markets a diverse range of footwear for men, women, and children across 170+ countries. Skechers operates direct-to-consumer digital commerce through its website and mobile app, wholesale partnerships with retailers, and a global network of owned and franchised retail stores. Their digital commerce infrastructure relies on e-commerce APIs for product catalog management, inventory, order management, customer accounts, and loyalty programs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skechers-usa/refs/heads/main/screenshots/skechers-usa-2026-06-20T194019.png",
-     "score": 38.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 15.1,
-      "governance": 86.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 9
-    },
-    {
      "name": "IKEA",
      "slug": "ikea",
      "description": "A Swedish multinational furniture and home goods retailer known for its affordable, ready-to-assemble products. Operates hundreds of stores worldwide and is the world's largest furniture retailer with a distinctive showroom-based shopping experience. IKEA does not publish an official public developer API or developer portal; the surfaces profiled here are community reverse-engineered specs of the IKEA storefront (Product Catalog, Search, Sales Item availability, After Purchase Ordering / spare parts) plus the local-network API of the DIRIGERA smart home hub. All artifacts are community-built and unofficial — they may change at any time and are not affiliated with, endorsed by, or supported by IKEA.",
-     "score": 37.0,
+     "score": 39.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 87.5,
       "contract_quality": 67.1,
       "governance": 73.7,
       "operational_transparency": 5.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -382,25 +346,25 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 10
+     "rank": 9
     },
     {
      "name": "Lowe's",
      "slug": "lowes",
      "description": "Lowe's Companies, Inc. is an American retail company specializing in home improvement. Lowe's operates a developer portal built on Microsoft Azure API Management that provides partners and developers access to product, inventory, pricing, and store APIs for integration with Lowe's retail operations. Discover APIs, learn how to use them, try them out interactively, and sign up to acquire keys.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/lowes/refs/heads/main/screenshots/lowes-2026-06-20T184736.png",
-     "score": 35.1,
+     "score": 38.4,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 50.4,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 19.6,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -418,25 +382,25 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 11
+     "rank": 10
     },
     {
-     "name": "Sally Beauty Holdings",
-     "slug": "sally-beauty-holdings",
-     "description": "Sally Beauty Holdings, Inc. is a leading international specialty retailer and distributor of professional beauty supplies. Operates through two segments: Sally Beauty Supply (consumer-facing beauty retail) and Beauty Systems Group (BSG, professional-only distribution). The company serves salon professionals, colorists, and beauty enthusiasts with over 4,800 stores globally.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sally-beauty-holdings/refs/heads/main/screenshots/sally-beauty-holdings-2026-06-20T193353.png",
-     "score": 31.6,
+     "name": "Skechers U.S.A.",
+     "slug": "skechers-usa",
+     "description": "Skechers U.S.A. is an American lifestyle and performance footwear company (Fortune 500) that designs, develops, and markets a diverse range of footwear for men, women, and children across 170+ countries. Skechers operates direct-to-consumer digital commerce through its website and mobile app, wholesale partnerships with retailers, and a global network of owned and franchised retail stores. Their digital commerce infrastructure relies on e-commerce APIs for product catalog management, inventory, order management, customer accounts, and loyalty programs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skechers-usa/refs/heads/main/screenshots/skechers-usa-2026-06-20T194019.png",
+     "score": 38.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 9.4,
-      "governance": 73.7,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 2.2,
+      "discoverability": 92.5,
+      "contract_quality": 15.1,
+      "governance": 86.8,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -454,25 +418,25 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
      "name": "Home Depot",
      "slug": "home-depot",
      "description": "The Home Depot is the world's largest home improvement retailer, offering tools, construction products, appliances, and services through stores, websites, and apps in the United States, Canada, and Mexico.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/home-depot/refs/heads/main/screenshots/home-depot-2026-06-20T182823.png",
-     "score": 31.2,
+     "score": 33.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 47.5,
+      "discoverability": 72.5,
       "contract_quality": 60.2,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -481,6 +445,42 @@
       "agentic_access": true,
       "mcp_server": false,
       "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 12
+    },
+    {
+     "name": "Sally Beauty Holdings",
+     "slug": "sally-beauty-holdings",
+     "description": "Sally Beauty Holdings, Inc. is a leading international specialty retailer and distributor of professional beauty supplies. Operates through two segments: Sally Beauty Supply (consumer-facing beauty retail) and Beauty Systems Group (BSG, professional-only distribution). The company serves salon professionals, colorists, and beauty enthusiasts with over 4,800 stores globally.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/sally-beauty-holdings/refs/heads/main/screenshots/sally-beauty-holdings-2026-06-20T193353.png",
+     "score": 31.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 9.4,
+      "governance": 73.7,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -519,7 +519,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -555,7 +555,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -596,7 +596,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -632,7 +632,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -668,7 +668,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -704,7 +704,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -740,7 +740,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -776,7 +776,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -812,7 +812,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -847,7 +847,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -883,7 +883,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -919,7 +919,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -955,7 +955,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -991,7 +991,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1027,7 +1027,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1073,7 +1073,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1109,7 +1109,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1145,7 +1145,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1181,7 +1181,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1217,7 +1217,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1253,7 +1253,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1289,7 +1289,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1325,7 +1325,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1361,7 +1361,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1397,7 +1397,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1433,7 +1433,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1469,7 +1469,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1505,7 +1505,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1541,7 +1541,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1577,7 +1577,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1613,7 +1613,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1649,7 +1649,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1684,7 +1684,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1720,7 +1720,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1756,7 +1756,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1791,7 +1791,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1827,7 +1827,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1863,7 +1863,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1899,7 +1899,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1935,7 +1935,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1971,7 +1971,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2007,7 +2007,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2043,7 +2043,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2079,7 +2079,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2115,7 +2115,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2151,7 +2151,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2187,7 +2187,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2223,7 +2223,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2258,7 +2258,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2293,7 +2293,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2329,7 +2329,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2365,7 +2365,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2401,7 +2401,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2437,7 +2437,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2473,7 +2473,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2509,7 +2509,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2545,7 +2545,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2581,7 +2581,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2617,7 +2617,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2653,7 +2653,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2689,7 +2689,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2724,7 +2724,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2760,7 +2760,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2795,7 +2795,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2831,7 +2831,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2866,7 +2866,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2902,7 +2902,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2938,7 +2938,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2974,7 +2974,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3010,7 +3010,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3045,7 +3045,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3081,7 +3081,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3117,7 +3117,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3153,7 +3153,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3189,7 +3189,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3225,7 +3225,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3261,7 +3261,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

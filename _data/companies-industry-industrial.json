@@ -8,26 +8,26 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 10,
-   "shown": 10,
+   "count": 12,
+   "shown": 12,
    "companies": [
     {
      "name": "ADT",
      "slug": "adt",
      "description": "ADT is a provider of monitored security, interactive home and business automation, and related monitoring services for residential and small business customers across the United States and Canada. ADT offers smart home security systems, professional monitoring, video surveillance, access control, and automation integrations with Google Nest, Amazon Alexa, and Z-Wave smart home devices through the ADT+ platform.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/adt/refs/heads/main/screenshots/adt-2026-06-20T165203.png",
-     "score": 53.5,
+     "score": 58.1,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 69.2,
+      "discoverability": 100.0,
+      "contract_quality": 74.5,
       "governance": 73.7,
       "operational_transparency": 21.1,
       "developer_ergonomics": 26.1,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -52,18 +52,18 @@
      "slug": "3m",
      "description": "3M is a global science and manufacturing company. The 3M Partner and Supplier API provides real-time access to product, pricing, order, delivery, and invoice data for partners and suppliers, enabling automated commerce and supply chain integration.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/screenshots/3m-2026-06-20T162653.png",
-     "score": 50.8,
+     "score": 56.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 55.0,
-      "contract_quality": 69.9,
+      "discoverability": 87.5,
+      "contract_quality": 78.8,
       "governance": 86.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 41.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -84,22 +84,22 @@
      "rank": 2
     },
     {
-     "name": "Stanley Black & Decker",
-     "slug": "stanley-black-and-decker",
-     "description": "Stanley Black & Decker is a global manufacturer and marketer of hand tools, power tools, and related accessories. Through brands like DEWALT, Stanley, Craftsman, and Black+Decker, the company provides connected tool management platforms, IoT solutions, and partner integrations for jobsite productivity.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/screenshots/stanley-black-and-decker-2026-06-20T194505.png",
-     "score": 50.2,
+     "name": "United Rentals",
+     "slug": "united-rentals",
+     "description": "United Rentals is the world's largest equipment rental company, headquartered in Stamford, Connecticut. The company provides a broad selection of APIs to help customers simplify the procure-to-pay lifecycle for equipment rentals. United Rentals offers system integration through its Total Control platform, supporting EDI, cXML, JSON, and flat-file formats to connect with customer procurement and ERP systems.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/screenshots/united-rentals-2026-06-20T200042.png",
+     "score": 51.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 67.3,
-      "governance": 73.7,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 21.7,
-      "commercial_clarity": 50.0
+      "governance": 86.8,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -120,57 +120,22 @@
      "rank": 3
     },
     {
-     "name": "Applied Industrial Technologies",
-     "slug": "applied-industrial-technologies",
-     "description": "Applied Industrial Technologies is an industrial distributor of bearings, power transmission products, fluid power components, industrial rubber products, linear motion components, tools, and related supplies.",
-     "score": 48.9,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 72.5,
-      "contract_quality": 74.3,
-      "governance": 73.7,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 4
-    },
-    {
      "name": "Agco",
      "slug": "agco",
      "description": "AGCO is a global leader in the design, manufacture, and distribution of agricultural machinery and precision ag technology. The AGCO AgCommand API enables approved third-party developers and service providers to access machine telemetry data, location tracking, and performance metrics from AGCO Connect-ready equipment including Fendt, Massey Ferguson, Challenger, and Valtra brands.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/agco/refs/heads/main/screenshots/agco-2026-06-20T165808.png",
-     "score": 48.7,
+     "score": 51.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 55.0,
+      "discoverability": 80.0,
       "contract_quality": 59.9,
       "governance": 86.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 32.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 54.8,
      "agent_band": "agent-ready",
@@ -188,25 +153,61 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 5
+     "rank": 4
     },
     {
-     "name": "United Rentals",
-     "slug": "united-rentals",
-     "description": "United Rentals is the world's largest equipment rental company, headquartered in Stamford, Connecticut. The company provides a broad selection of APIs to help customers simplify the procure-to-pay lifecycle for equipment rentals. United Rentals offers system integration through its Total Control platform, supporting EDI, cXML, JSON, and flat-file formats to connect with customer procurement and ERP systems.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/united-rentals/refs/heads/main/screenshots/united-rentals-2026-06-20T200042.png",
-     "score": 48.2,
+     "name": "Stanley Black & Decker",
+     "slug": "stanley-black-and-decker",
+     "description": "Stanley Black & Decker is a global manufacturer and marketer of hand tools, power tools, and related accessories. Through brands like DEWALT, Stanley, Craftsman, and Black+Decker, the company provides connected tool management platforms, IoT solutions, and partner integrations for jobsite productivity.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/stanley-black-and-decker/refs/heads/main/screenshots/stanley-black-and-decker-2026-06-20T194505.png",
+     "score": 50.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 67.5,
       "contract_quality": 67.3,
-      "governance": 86.8,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
+      "governance": 73.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 5
+    },
+    {
+     "name": "Vertiv",
+     "slug": "vertiv",
+     "description": "Vertiv is a global provider of critical digital infrastructure and continuity solutions for data centers and communication networks. The company delivers power management, thermal management, IT management software (DCIM), and infrastructure monitoring solutions through brands including Geist (DCIM and PDU monitoring), Avocent (IT management and KVM), and Liebert (UPS and thermal). Vertiv's software platforms expose REST APIs for integrating with third-party systems, automation workflows, and data center management platforms.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/screenshots/vertiv-2026-06-20T200959.png",
+     "score": 49.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 74.9,
+      "governance": 60.5,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -227,21 +228,21 @@
      "rank": 6
     },
     {
-     "name": "Siemens",
-     "slug": "siemens",
-     "description": "Siemens is a global powerhouse in the fields of electrification, automation and digitalization. The company offers a broad portfolio of products, solutions and services that enable customers to increase their efficiency and sustainability. Siemens operates in a variety of sectors including energy, healthcare, infrastructure, and industry. With a focus on innovation and technology, Siemens is constantly pushing the boundaries to create a better future for society and the environment.",
-     "score": 47.7,
+     "name": "Applied Industrial Technologies",
+     "slug": "applied-industrial-technologies",
+     "description": "Applied Industrial Technologies is an industrial distributor of bearings, power transmission products, fluid power components, industrial rubber products, linear motion components, tools, and related supplies.",
+     "score": 48.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 67.3,
+      "discoverability": 72.5,
+      "contract_quality": 74.3,
       "governance": 73.7,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 30.4,
-      "commercial_clarity": 28.9
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -262,21 +263,21 @@
      "rank": 7
     },
     {
-     "name": "Toro",
-     "slug": "toro",
-     "description": "The Toro Company is a leading worldwide provider of innovative solutions for the outdoor environment, including turf and landscape maintenance, snow and ice management, underground utility construction, rental and specialty construction, and irrigation and outdoor lighting solutions. Toro offers smart connected products including IntelliDash for golf course management, Horizon360 for landscape business management, Lynx Central Control for irrigation, and myTurf Pro for equipment fleet management.",
-     "score": 46.0,
+     "name": "Siemens",
+     "slug": "siemens",
+     "description": "Siemens is a global powerhouse in the fields of electrification, automation and digitalization. The company offers a broad portfolio of products, solutions and services that enable customers to increase their efficiency and sustainability. Siemens operates in a variety of sectors including energy, healthcare, infrastructure, and industry. With a focus on innovation and technology, Siemens is constantly pushing the boundaries to create a better future for society and the environment.",
+     "score": 48.9,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 62.3,
-      "governance": 86.8,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 13.0,
-      "commercial_clarity": 39.5
+      "discoverability": 80.0,
+      "contract_quality": 67.3,
+      "governance": 73.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -297,22 +298,21 @@
      "rank": 8
     },
     {
-     "name": "Vertiv",
-     "slug": "vertiv",
-     "description": "Vertiv is a global provider of critical digital infrastructure and continuity solutions for data centers and communication networks. The company delivers power management, thermal management, IT management software (DCIM), and infrastructure monitoring solutions through brands including Geist (DCIM and PDU monitoring), Avocent (IT management and KVM), and Liebert (UPS and thermal). Vertiv's software platforms expose REST APIs for integrating with third-party systems, automation workflows, and data center management platforms.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/vertiv/refs/heads/main/screenshots/vertiv-2026-06-20T200959.png",
-     "score": 45.8,
+     "name": "Toro",
+     "slug": "toro",
+     "description": "The Toro Company is a leading worldwide provider of innovative solutions for the outdoor environment, including turf and landscape maintenance, snow and ice management, underground utility construction, rental and specialty construction, and irrigation and outdoor lighting solutions. Toro offers smart connected products including IntelliDash for golf course management, Horizon360 for landscape business management, Lynx Central Control for irrigation, and myTurf Pro for equipment fleet management.",
+     "score": 48.0,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 69.6,
-      "governance": 60.5,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 26.1,
-      "commercial_clarity": 28.9
+      "discoverability": 87.5,
+      "contract_quality": 62.3,
+      "governance": 86.8,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -333,68 +333,21 @@
      "rank": 9
     },
     {
-     "name": "Rockwell Automation",
-     "slug": "rockwell-automation",
-     "description": "Rockwell Automation is a global provider of industrial automation and digital transformation solutions, helping manufacturers boost productivity, sustainability, and agility. The company offers a portfolio of hardware, software, and services including programmable logic controllers (PLCs), industrial networking, motor control, safety systems, and the FactoryTalk software suite for MES, SCADA, historian, remote access, and industrial data management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rockwell-automation/refs/heads/main/screenshots/rockwell-automation-2026-06-20T193157.png",
-     "score": 45.2,
+     "name": "Steelcase",
+     "slug": "steelcase",
+     "description": "Steelcase is a global leader in the office furniture and workplace design industry, providing furniture, technology, and research-based insights to help organizations create effective work environments. Steelcase offers the RoomWizard API for integrating room scheduling and conference room reservation systems with enterprise calendaring platforms. The API enables developers to manage room bookings, retrieve availability, and synchronize reservations with Microsoft Exchange, Office 365, and Google Calendar.",
+     "score": 47.8,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
       "discoverability": 100.0,
-      "contract_quality": 20.8,
-      "governance": 86.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 23.9,
-      "commercial_clarity": 50.0
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 10
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 10,
-   "shown": 10,
-   "companies": [
-    {
-     "name": "Steelcase",
-     "slug": "steelcase",
-     "description": "Steelcase is a global leader in the office furniture and workplace design industry, providing furniture, technology, and research-based insights to help organizations create effective work environments. Steelcase offers the RoomWizard API for integrating room scheduling and conference room reservation systems with enterprise calendaring platforms. The API enables developers to manage room bookings, retrieve availability, and synchronize reservations with Microsoft Exchange, Office 365, and Google Calendar.",
-     "score": 44.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 67.5,
       "contract_quality": 59.9,
       "governance": 86.8,
       "operational_transparency": 31.6,
       "developer_ergonomics": 2.2,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 38.5,
      "agent_band": "agent-aware",
@@ -412,25 +365,25 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 11
+     "rank": 10
     },
     {
      "name": "Acuity Brands",
      "slug": "acuity-brands",
      "description": "Acuity Brands is a provider of lighting, lighting controls, building management systems, and location-aware applications for commercial, industrial, institutional, and residential markets.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/acuity-brands/refs/heads/main/screenshots/acuity-brands-2026-06-20T164408.png",
-     "score": 44.5,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 45.8,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
       "discoverability": 42.5,
-      "contract_quality": 70.8,
+      "contract_quality": 76.1,
       "governance": 86.8,
       "operational_transparency": 5.3,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -448,25 +401,25 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 12
+     "rank": 11
     },
     {
-     "name": "Timken",
-     "slug": "timken",
-     "description": "The Timken Company is a global manufacturer of engineered bearings and industrial motion products including ball bearings, tapered roller bearings, seals, lubrication systems, gear drives, belts, clutches, couplings, and related motion control products serving aerospace, automotive, industrial, and energy markets.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/timken/refs/heads/main/screenshots/timken-2026-06-20T195401.png",
-     "score": 40.0,
-     "band": "thin",
-     "band_label": "Thin",
+     "name": "Rockwell Automation",
+     "slug": "rockwell-automation",
+     "description": "Rockwell Automation is a global provider of industrial automation and digital transformation solutions, helping manufacturers boost productivity, sustainability, and agility. The company offers a portfolio of hardware, software, and services including programmable logic controllers (PLCs), industrial networking, motor control, safety systems, and the FactoryTalk software suite for MES, SCADA, historian, remote access, and industrial data management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rockwell-automation/refs/heads/main/screenshots/rockwell-automation-2026-06-20T193157.png",
+     "score": 45.2,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 26.4,
+      "discoverability": 100.0,
+      "contract_quality": 20.8,
       "governance": 86.8,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 39.5
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -484,25 +437,72 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 13
-    },
+     "rank": 12
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 8,
+   "shown": 8,
+   "companies": [
     {
-     "name": "Baker Hughes",
-     "slug": "baker-hughes",
-     "description": "Baker Hughes is an energy technology company providing solutions to energy and industrial customers worldwide. Their digital portfolio includes the Cordant industrial software platform for asset performance management, process optimization, and emissions management, along with the BHC3 AI Suite (in alliance with C3.ai) for enterprise AI applications in oil and gas. Baker Hughes operates across oilfield services, industrial equipment, and digital solutions segments globally.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/screenshots/baker-hughes-2026-06-20T172934.png",
-     "score": 38.7,
+     "name": "Xerox",
+     "slug": "xerox",
+     "description": "Xerox is a global technology company and document management leader providing printing, digital document management, and business process solutions. Xerox offers the Xerox Developer Program providing open, standards-based APIs for integration with ConnectKey multifunction printers, FreeFlow production printing, Managed Print Services (MPS), and the Xerox Public Print Service. The program provides SDKs, APIs, and tools for building custom printing applications, workflow integrations, and enterprise print management solutions.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/screenshots/xerox-2026-06-20T201703.png",
+     "score": 40.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 15.1,
-      "governance": 86.8,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 15.2,
+      "discoverability": 87.5,
+      "contract_quality": 59.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 13
+    },
+    {
+     "name": "Timken",
+     "slug": "timken",
+     "description": "The Timken Company is a global manufacturer of engineered bearings and industrial motion products including ball bearings, tapered roller bearings, seals, lubrication systems, gear drives, belts, clutches, couplings, and related motion control products serving aerospace, automotive, industrial, and energy markets.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/timken/refs/heads/main/screenshots/timken-2026-06-20T195401.png",
+     "score": 40.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 26.4,
+      "governance": 86.8,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -523,30 +523,30 @@
      "rank": 14
     },
     {
-     "name": "Xerox",
-     "slug": "xerox",
-     "description": "Xerox is a global technology company and document management leader providing printing, digital document management, and business process solutions. Xerox offers the Xerox Developer Program providing open, standards-based APIs for integration with ConnectKey multifunction printers, FreeFlow production printing, Managed Print Services (MPS), and the Xerox Public Print Service. The program provides SDKs, APIs, and tools for building custom printing applications, workflow integrations, and enterprise print management solutions.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/xerox/refs/heads/main/screenshots/xerox-2026-06-20T201703.png",
-     "score": 38.2,
+     "name": "Baker Hughes",
+     "slug": "baker-hughes",
+     "description": "Baker Hughes is an energy technology company providing solutions to energy and industrial customers worldwide. Their digital portfolio includes the Cordant industrial software platform for asset performance management, process optimization, and emissions management, along with the BHC3 AI Suite (in alliance with C3.ai) for enterprise AI applications in oil and gas. Baker Hughes operates across oilfield services, industrial equipment, and digital solutions segments globally.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/baker-hughes/refs/heads/main/screenshots/baker-hughes-2026-06-20T172934.png",
+     "score": 38.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 59.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 19.6,
+      "discoverability": 80.0,
+      "contract_quality": 15.1,
+      "governance": 86.8,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 15.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
+     "agent_score": 6.7,
+     "agent_band": "human-only",
      "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
+      "spec_presence": false,
+      "agentic_access": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -574,7 +574,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -599,18 +599,18 @@
      "slug": "motorola-solutions",
      "description": "Motorola Solutions is a Fortune 500 company that provides developer APIs and integration capabilities through its developer platform. Motorola Solutions provides APIs for public safety communications, command center software, and video security integration. The platform enables partners to build on Motorola's public safety infrastructure.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/motorola-solutions/refs/heads/main/screenshots/motorola-solutions-2026-06-20T185835.png",
-     "score": 35.0,
+     "score": 37.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 60.0,
+      "discoverability": 80.0,
       "contract_quality": 60.2,
       "governance": 0.0,
       "operational_transparency": 26.3,
       "developer_ergonomics": 13.0,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -645,7 +645,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -681,7 +681,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -717,7 +717,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -745,8 +745,8 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 20,
-   "shown": 20,
+   "count": 21,
+   "shown": 21,
    "companies": [
     {
      "name": "AMETEK",
@@ -764,7 +764,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -799,7 +799,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -835,7 +835,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -871,7 +871,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -907,7 +907,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -943,7 +943,7 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -979,7 +979,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1015,7 +1015,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1051,7 +1051,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1087,7 +1087,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1123,7 +1123,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1159,7 +1159,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1195,7 +1195,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1231,7 +1231,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1266,7 +1266,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1302,7 +1302,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1338,7 +1338,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1374,7 +1374,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1395,6 +1395,42 @@
      "rank": 38
     },
     {
+     "name": "Celanese",
+     "slug": "celanese",
+     "description": "Celanese Corporation is a global chemical and specialty materials company that produces high-performance engineered polymers and acetyl products used across automotive, medical, consumer, and industrial applications. Celanese has no publicly documented developer API; digital engagement is delivered through the Chemille digital materials assistant for product search and selection, and a Cognite Data Fusion based manufacturing data platform for internal operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/celanese/refs/heads/main/screenshots/celanese-2026-06-20T174110.png",
+     "score": 15.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 39
+    },
+    {
      "name": "WestRock",
      "slug": "westrock",
      "description": "WestRock (now Smurfit Westrock following its 2024 merger with Smurfit Kappa) is one of the world's largest paper and packaging companies. The company provides differentiated paper and packaging solutions including corrugated containers, consumer packaging, displays, and specialty packaging. WestRock serves consumer and industrial markets with an integrated supply chain connecting mills, converting operations, and customers globally.",
@@ -1409,43 +1445,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 0.0,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 39
-    },
-    {
-     "name": "Bosch",
-     "slug": "bosch",
-     "description": "Bosch is a German multinational engineering and technology company producing automotive components, industrial technology, consumer goods, and energy and building technology. Bosch operates the Bosch IoT Suite, an open IoT platform offering device management, software rollouts, edge services, and IoT data analytics, along with open source contributions to Eclipse Foundation IoT projects.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bosch/refs/heads/main/screenshots/bosch-2026-06-20T173611.png",
-     "score": 15.0,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 87.5,
-      "contract_quality": 15.1,
-      "governance": 0.0,
-      "operational_transparency": 5.3,
-      "developer_ergonomics": 8.7,
-      "commercial_clarity": 0.0
-     },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1464,6 +1464,42 @@
       "consent_identity": false
      },
      "rank": 40
+    },
+    {
+     "name": "Bosch",
+     "slug": "bosch",
+     "description": "Bosch is a German multinational engineering and technology company producing automotive components, industrial technology, consumer goods, and energy and building technology. Bosch operates the Bosch IoT Suite, an open IoT platform offering device management, software rollouts, edge services, and IoT data analytics, along with open source contributions to Eclipse Foundation IoT projects.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bosch/refs/heads/main/screenshots/bosch-2026-06-20T173611.png",
+     "score": 15.0,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 15.1,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 41
     }
    ]
   },
@@ -1472,8 +1508,8 @@
    "label": "Minimal",
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 97,
-   "shown": 97,
+   "count": 96,
+   "shown": 96,
    "companies": [
     {
      "name": "Moog",
@@ -1491,7 +1527,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1515,7 +1551,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Ball Corporation",
@@ -1533,7 +1569,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1546,42 +1582,6 @@
       "error_semantics": false,
       "openapi_examples": false,
       "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 42
-    },
-    {
-     "name": "Celanese",
-     "slug": "celanese",
-     "description": "Celanese Corporation is a global chemical and specialty materials company that produces high-performance engineered polymers and acetyl products used across automotive, medical, consumer, and industrial applications. Celanese has no publicly documented developer API; digital engagement is delivered through the Chemille digital materials assistant for product search and selection, and a Cognite Data Fusion based manufacturing data platform for internal operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/celanese/refs/heads/main/screenshots/celanese-2026-06-20T174110.png",
-     "score": 14.5,
-     "band": "minimal",
-     "band_label": "Minimal",
-     "facets": {
-      "discoverability": 60.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
@@ -1605,7 +1605,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1647,7 +1647,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1683,7 +1683,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1719,7 +1719,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1755,7 +1755,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1791,7 +1791,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1827,7 +1827,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1863,7 +1863,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1899,7 +1899,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1935,7 +1935,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1971,7 +1971,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2007,7 +2007,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2043,7 +2043,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2079,7 +2079,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2115,7 +2115,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2157,7 +2157,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2193,7 +2193,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -2229,7 +2229,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2264,7 +2264,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2299,7 +2299,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2335,7 +2335,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2370,7 +2370,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2406,7 +2406,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2442,7 +2442,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2484,7 +2484,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2520,7 +2520,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2556,7 +2556,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2592,7 +2592,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2628,7 +2628,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2664,7 +2664,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2700,7 +2700,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2736,7 +2736,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2772,7 +2772,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2808,7 +2808,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2844,7 +2844,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2880,7 +2880,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2915,7 +2915,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2951,7 +2951,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2987,7 +2987,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3023,7 +3023,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3059,7 +3059,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3095,7 +3095,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3131,7 +3131,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3167,7 +3167,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3203,7 +3203,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3239,7 +3239,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3275,7 +3275,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3311,7 +3311,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3347,7 +3347,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3383,7 +3383,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3419,7 +3419,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3455,7 +3455,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3491,7 +3491,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3527,7 +3527,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3562,7 +3562,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3597,7 +3597,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3633,7 +3633,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3669,7 +3669,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3705,7 +3705,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3741,7 +3741,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3777,7 +3777,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3813,7 +3813,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3848,7 +3848,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3884,7 +3884,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3920,7 +3920,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3956,7 +3956,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3992,7 +3992,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4028,7 +4028,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4064,7 +4064,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4100,7 +4100,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4136,7 +4136,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4172,7 +4172,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4207,7 +4207,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4243,7 +4243,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4279,7 +4279,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4315,7 +4315,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4350,7 +4350,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4386,7 +4386,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4422,7 +4422,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4458,7 +4458,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4494,7 +4494,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4530,7 +4530,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4566,7 +4566,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4602,7 +4602,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4638,7 +4638,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4674,7 +4674,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4710,7 +4710,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4746,7 +4746,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4782,7 +4782,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4818,7 +4818,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4854,7 +4854,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4889,7 +4889,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4924,7 +4924,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -4960,7 +4960,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",

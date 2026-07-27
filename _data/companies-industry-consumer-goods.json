@@ -8,26 +8,26 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 4,
-   "shown": 4,
+   "count": 5,
+   "shown": 5,
    "companies": [
     {
      "name": "Under Armour",
      "slug": "under-armour",
      "description": "Under Armour is an American company that manufactures footwear, sports, and casual apparel known for its performance products designed for athletes. Under Armour operates a Connected Fitness platform — powered by MapMyFitness — that provides developer APIs for integrating workout tracking, route data, user profiles, heart rate zones, and fitness devices into third-party applications.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/under-armour/refs/heads/main/screenshots/under-armour-2026-06-20T200017.png",
-     "score": 53.6,
+     "score": 56.4,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 68.1,
       "governance": 86.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -58,18 +58,18 @@
      "slug": "3m",
      "description": "3M is a global science and manufacturing company. The 3M Partner and Supplier API provides real-time access to product, pricing, order, delivery, and invoice data for partners and suppliers, enabling automated commerce and supply chain integration.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/3m/refs/heads/main/screenshots/3m-2026-06-20T162653.png",
-     "score": 50.8,
+     "score": 56.3,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 55.0,
-      "contract_quality": 69.9,
+      "discoverability": 87.5,
+      "contract_quality": 78.8,
       "governance": 86.8,
       "operational_transparency": 26.3,
       "developer_ergonomics": 41.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -94,18 +94,18 @@
      "slug": "archer-daniels-midland",
      "description": "Archer Daniels Midland (ADM) is a Fortune 100 global leader in agricultural processing and food ingredient manufacturing, providing nutrition solutions for food, beverage, health, and industrial markets worldwide.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/archer-daniels-midland/refs/heads/main/screenshots/archer-daniels-midland-2026-06-20T172404.png",
-     "score": 48.0,
+     "score": 51.2,
      "band": "developing",
      "band_label": "Developing",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 71.7,
       "governance": 86.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -126,68 +126,22 @@
      "rank": 3
     },
     {
-     "name": "AptarGroup",
-     "slug": "aptargroup",
-     "description": "AptarGroup is a global supplier of consumer-product dispensing, sealing, and active packaging solutions serving the beauty, personal care, home care, food, beverage, pharmaceutical, and other markets.",
-     "score": 45.4,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 72.5,
-      "contract_quality": 74.3,
-      "governance": 73.7,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": false,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 4
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 9,
-   "shown": 9,
-   "companies": [
-    {
      "name": "Tyson Foods",
      "slug": "tyson-foods",
      "description": "Tyson Foods is one of the world's largest food companies and a Fortune 100 company, producing chicken, beef, pork, and prepared foods. Tyson Foods provides B2B integration capabilities for trading partners including EDI (Electronic Data Interchange) and API integrations for supply chain management, order processing, and logistics operations.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/tyson-foods/refs/heads/main/screenshots/tyson-foods-2026-06-20T195909.png",
-     "score": 44.6,
-     "band": "thin",
-     "band_label": "Thin",
+     "score": 47.9,
+     "band": "developing",
+     "band_label": "Developing",
      "facets": {
-      "discoverability": 60.0,
+      "discoverability": 92.5,
       "contract_quality": 60.2,
       "governance": 86.8,
       "operational_transparency": 21.1,
       "developer_ergonomics": 2.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 38.5,
      "agent_band": "agent-aware",
@@ -205,24 +159,70 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 5
+     "rank": 4
     },
+    {
+     "name": "AptarGroup",
+     "slug": "aptargroup",
+     "description": "AptarGroup is a global supplier of consumer-product dispensing, sealing, and active packaging solutions serving the beauty, personal care, home care, food, beverage, pharmaceutical, and other markets.",
+     "score": 45.4,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 72.5,
+      "contract_quality": 74.3,
+      "governance": 73.7,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 5
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 8,
+   "shown": 8,
+   "companies": [
     {
      "name": "United Natural Foods (UNFI)",
      "slug": "united-natural-foods",
      "description": "United Natural Foods, Inc. (UNFI) is the largest publicly traded wholesale distributor of health and specialty food in the United States and Canada. UNFI supplies natural, organic, specialty, and conventional foods to over 30,000 retail locations. UNFI provides digital supplier and customer portals including myUNFI, supplier portal, EDI integration, and the Harmony Core API for data access.",
-     "score": 40.0,
+     "score": 43.2,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 67.3,
       "governance": 47.4,
       "operational_transparency": 21.1,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -243,6 +243,42 @@
      "rank": 6
     },
     {
+     "name": "Constellation Brands",
+     "slug": "constellation-brands",
+     "description": "Constellation Brands is a Fortune 500 producer and marketer of beer, wine, and spirits brands such as Corona, Modelo, Robert Mondavi, and Casa Noble. Constellation publishes a partner-oriented API catalog at dev.cbrands.com that exposes product, brand, and digital-asset data (bottle shots, tasting notes, hot sheets, shelf talkers, neck hangers, recipes, and an items product API) to distributors, retailers, and on-premise partners. Most endpoints require an API key issued through the developer registration process.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/constellation-brands/refs/heads/main/screenshots/constellation-brands-2026-06-20T174911.png",
+     "score": 39.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 47.8,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 7
+    },
+    {
      "name": "Sherwin-Williams",
      "slug": "sherwin-williams",
      "description": "The Sherwin-Williams Company is a global leader in the paint and coatings industry, offering products for consumers, contractors, industrial clients, and commercial builders. Sherwin-Williams provides B2B API and EDI integration capabilities for suppliers and trading partners to connect with their enterprise supply chain and retail operations.",
@@ -258,43 +294,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 7
-    },
-    {
-     "name": "Skechers U.S.A.",
-     "slug": "skechers-usa",
-     "description": "Skechers U.S.A. is an American lifestyle and performance footwear company (Fortune 500) that designs, develops, and markets a diverse range of footwear for men, women, and children across 170+ countries. Skechers operates direct-to-consumer digital commerce through its website and mobile app, wholesale partnerships with retailers, and a global network of owned and franchised retail stores. Their digital commerce infrastructure relies on e-commerce APIs for product catalog management, inventory, order management, customer accounts, and loyalty programs.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skechers-usa/refs/heads/main/screenshots/skechers-usa-2026-06-20T194019.png",
-     "score": 38.3,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 15.1,
-      "governance": 86.8,
-      "operational_transparency": 36.8,
-      "developer_ergonomics": 10.9,
-      "commercial_clarity": 39.5
-     },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -315,22 +315,22 @@
      "rank": 8
     },
     {
-     "name": "Tempur Sealy International",
-     "slug": "tempur-sealy-international",
-     "description": "Tempur Sealy International is one of the world's largest bedding providers, developing, manufacturing, marketing, and distributing bedding products under the Tempur-Pedic, Sealy, and Stearns & Foster brands. As a Fortune 500 manufacturer and retailer, the company operates e-commerce platforms and provides retailer integration APIs for product catalogs, inventory, and order management.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/screenshots/tempur-sealy-international-2026-06-20T195104.png",
-     "score": 37.3,
+     "name": "Skechers U.S.A.",
+     "slug": "skechers-usa",
+     "description": "Skechers U.S.A. is an American lifestyle and performance footwear company (Fortune 500) that designs, develops, and markets a diverse range of footwear for men, women, and children across 170+ countries. Skechers operates direct-to-consumer digital commerce through its website and mobile app, wholesale partnerships with retailers, and a global network of owned and franchised retail stores. Their digital commerce infrastructure relies on e-commerce APIs for product catalog management, inventory, order management, customer accounts, and loyalty programs.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/skechers-usa/refs/heads/main/screenshots/skechers-usa-2026-06-20T194019.png",
+     "score": 38.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 92.5,
-      "contract_quality": 20.8,
+      "contract_quality": 15.1,
       "governance": 86.8,
-      "operational_transparency": 31.6,
-      "developer_ergonomics": 2.2,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -351,30 +351,30 @@
      "rank": 9
     },
     {
-     "name": "Constellation Brands",
-     "slug": "constellation-brands",
-     "description": "Constellation Brands is a Fortune 500 producer and marketer of beer, wine, and spirits brands such as Corona, Modelo, Robert Mondavi, and Casa Noble. Constellation publishes a partner-oriented API catalog at dev.cbrands.com that exposes product, brand, and digital-asset data (bottle shots, tasting notes, hot sheets, shelf talkers, neck hangers, recipes, and an items product API) to distributors, retailers, and on-premise partners. Most endpoints require an API key issued through the developer registration process.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/constellation-brands/refs/heads/main/screenshots/constellation-brands-2026-06-20T174911.png",
-     "score": 36.0,
+     "name": "Tempur Sealy International",
+     "slug": "tempur-sealy-international",
+     "description": "Tempur Sealy International is one of the world's largest bedding providers, developing, manufacturing, marketing, and distributing bedding products under the Tempur-Pedic, Sealy, and Stearns & Foster brands. As a Fortune 500 manufacturer and retailer, the company operates e-commerce platforms and provides retailer integration APIs for product catalogs, inventory, and order management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/tempur-sealy-international/refs/heads/main/screenshots/tempur-sealy-international-2026-06-20T195104.png",
+     "score": 37.3,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 47.8,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 19.6,
-      "commercial_clarity": 50.0
+      "discoverability": 92.5,
+      "contract_quality": 20.8,
+      "governance": 86.8,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
+     "agent_score": 6.7,
+     "agent_band": "human-only",
      "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
+      "spec_presence": false,
+      "agentic_access": false,
       "mcp_server": false,
-      "auth_clarity": true,
+      "auth_clarity": false,
       "idempotency": false,
       "error_semantics": false,
       "openapi_examples": false,
@@ -387,29 +387,23 @@
      "rank": 10
     },
     {
-     "name": "Johnson & Johnson",
-     "slug": "johnson-and-johnson",
-     "description": "Johnson & Johnson is a multinational pharmaceutical and medical devices corporation. Operating today as Johnson & Johnson Innovative Medicine and MedTech, J&J has historically connected health platforms and APIs through subsidiaries such as LifeScan (OneTouch blood glucose monitoring), which was divested to Platinum Equity in 2018 and continues to operate the LifeScan developer portal referenced here. Consumer health brands (Tylenol, Listerine, Neutrogena, Band-Aid) were spun out as Kenvue in 2023 and are tracked in a separate kenvue index.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/screenshots/johnson-and-johnson-2026-06-20T183753.png",
-     "score": 30.9,
+     "name": "Procter & Gamble",
+     "slug": "procter-and-gamble",
+     "description": "Procter & Gamble (P&G) is one of the world's largest consumer goods companies, with a portfolio of trusted brands across beauty, grooming, health care, fabric and home care, and baby, feminine, and family care. P&G operates an API Marketplace at developer.pg.com that provides partners, suppliers, and developers with programmatic access to P&G systems for integrating with the company's supply chain, product data, and business operations.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/screenshots/procter-and-gamble-2026-06-20T192133.png",
+     "score": 34.0,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
+      "discoverability": 100.0,
       "contract_quality": 50.4,
       "governance": 0.0,
-      "operational_transparency": 21.1,
-      "developer_ergonomics": 19.6,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Health",
-      "regime_id": "health",
-      "score": 26.1
-     },
      "agent_score": 48.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -429,22 +423,22 @@
      "rank": 11
     },
     {
-     "name": "Procter & Gamble",
-     "slug": "procter-and-gamble",
-     "description": "Procter & Gamble (P&G) is one of the world's largest consumer goods companies, with a portfolio of trusted brands across beauty, grooming, health care, fabric and home care, and baby, feminine, and family care. P&G operates an API Marketplace at developer.pg.com that provides partners, suppliers, and developers with programmatic access to P&G systems for integrating with the company's supply chain, product data, and business operations.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/procter-and-gamble/refs/heads/main/screenshots/procter-and-gamble-2026-06-20T192133.png",
-     "score": 30.7,
+     "name": "PepsiCo",
+     "slug": "pepsico",
+     "description": "PepsiCo is one of the world's largest food and beverage companies, with a portfolio of brands including Pepsi-Cola, Mountain Dew, Frito-Lay, Quaker, Tropicana, and Gatorade.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pepsico/refs/heads/main/screenshots/pepsico-2026-06-20T191557.png",
+     "score": 33.8,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 67.5,
-      "contract_quality": 50.4,
+      "discoverability": 80.0,
+      "contract_quality": 60.2,
       "governance": 0.0,
-      "operational_transparency": 26.3,
+      "operational_transparency": 21.1,
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -465,23 +459,29 @@
      "rank": 12
     },
     {
-     "name": "PepsiCo",
-     "slug": "pepsico",
-     "description": "PepsiCo is one of the world's largest food and beverage companies, with a portfolio of brands including Pepsi-Cola, Mountain Dew, Frito-Lay, Quaker, Tropicana, and Gatorade.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/pepsico/refs/heads/main/screenshots/pepsico-2026-06-20T191557.png",
-     "score": 30.5,
+     "name": "Johnson & Johnson",
+     "slug": "johnson-and-johnson",
+     "description": "Johnson & Johnson is a multinational pharmaceutical and medical devices corporation. Operating today as Johnson & Johnson Innovative Medicine and MedTech, J&J has historically connected health platforms and APIs through subsidiaries such as LifeScan (OneTouch blood glucose monitoring), which was divested to Platinum Equity in 2018 and continues to operate the LifeScan developer portal referenced here. Consumer health brands (Tylenol, Listerine, Neutrogena, Band-Aid) were spun out as Kenvue in 2023 and are tracked in a separate kenvue index.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/johnson-and-johnson/refs/heads/main/screenshots/johnson-and-johnson-2026-06-20T183753.png",
+     "score": 33.7,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
-      "discoverability": 47.5,
-      "contract_quality": 60.2,
+      "discoverability": 100.0,
+      "contract_quality": 50.4,
       "governance": 0.0,
       "operational_transparency": 21.1,
-      "developer_ergonomics": 10.9,
+      "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 26.1
+     },
      "agent_score": 48.1,
      "agent_band": "agent-ready",
      "agent_dims": {
@@ -527,7 +527,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -563,7 +563,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -599,7 +599,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -634,7 +634,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -670,7 +670,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -706,7 +706,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -742,7 +742,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -778,7 +778,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -814,7 +814,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -850,7 +850,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -895,7 +895,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -930,7 +930,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -966,7 +966,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1002,7 +1002,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1038,7 +1038,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1074,7 +1074,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1110,7 +1110,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1146,7 +1146,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 7.9
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -1182,7 +1182,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1217,7 +1217,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1252,7 +1252,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1287,7 +1287,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1323,7 +1323,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1359,7 +1359,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1395,7 +1395,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1431,7 +1431,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1466,7 +1466,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1501,7 +1501,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1537,7 +1537,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1572,7 +1572,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1608,7 +1608,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1644,7 +1644,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1680,7 +1680,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1716,7 +1716,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1752,7 +1752,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1788,7 +1788,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1824,7 +1824,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1860,7 +1860,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1896,7 +1896,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1932,7 +1932,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -1968,7 +1968,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2003,7 +2003,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2038,7 +2038,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2074,7 +2074,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2110,7 +2110,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2146,7 +2146,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2182,7 +2182,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2218,7 +2218,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2253,7 +2253,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2289,7 +2289,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2325,7 +2325,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2361,7 +2361,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2397,7 +2397,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2433,7 +2433,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2469,7 +2469,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2505,7 +2505,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2541,7 +2541,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2577,7 +2577,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2612,7 +2612,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2648,7 +2648,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2684,7 +2684,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2720,7 +2720,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2755,7 +2755,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2791,7 +2791,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2827,7 +2827,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2863,7 +2863,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2899,7 +2899,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2934,7 +2934,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -2969,7 +2969,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -3005,7 +3005,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-26",
+     "scored_at": "2026-07-27",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
