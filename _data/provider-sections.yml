@@ -201,6 +201,17 @@
       href: /market-data/
       cta: Browse Market Data
 
+    - name: Headless
+      icon: view_headline
+      unit: providers
+      count: { from: total, key: providers-headless }
+      description: >-
+        One architecture, three unrelated markets — headless CMS, headless and composable
+        commerce, and the headless browser infrastructure now serving AI agents, plus the
+        monoliths that bolted an API onto an existing platform, ranked by Kin Score.
+      href: /headless/
+      cta: Browse Headless
+
 - id: collections
   title: Collections
   intro: Standing rosters of providers drawn from public indexes, government registries, and open-source foundations.

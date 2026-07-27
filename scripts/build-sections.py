@@ -1407,6 +1407,31 @@ def main():
     energy_counts = {}
     build_roster_sections(ENERGY_SECTIONS, ENERGY_TIER_LABELS, energy_counts)
 
+    # --- Headless (single GLOBAL cohort) ----------------------------------
+    # Not a sector in the usual sense: "headless" is a delivery architecture,
+    # so it sells into three unrelated markets that share a word and little
+    # else — content (CMS), commerce (cart/catalog/checkout), and rendering
+    # (a browser as an API). A fourth tier tracks the monoliths and suites
+    # that bolted a headless API onto an existing platform, which is where the
+    # gap between the marketing and the contract is widest. The cohort is
+    # curated in all/0-working/headless-roster.json from providers already in
+    # all/*, with duplicate company repos resolved to the richer survivor
+    # (see the roster's retired_duplicates map) so this counts companies.
+    HEADLESS_TIER_LABELS = {
+        "cms":      "Headless CMS & Content Platforms",
+        "commerce": "Headless & Composable Commerce",
+        "browser":  "Headless Browser & Rendering Infrastructure",
+        "platform": "Platforms & Suites Going Headless",
+    }
+    HEADLESS_SECTIONS = [
+        ("headless", "headless-roster.json", "Headless",
+         "The headless landscape ranked by Kin Score — the headless CMS and content platforms that sell content as an API (Contentful, Storyblok, Sanity, Contentstack, Strapi), the headless and composable commerce platforms that sell cart, catalog and checkout as an API (commercetools, Commerce Layer, Salla, Swell, Elastic Path, Saleor, Medusa), the headless browser and rendering infrastructure that sells a rendered page as an API to scrapers and AI agents (Bright Data, Apify, Browserless, Browserbase, Hyperbrowser, Firecrawl), and the monoliths and suites that bolted a headless API onto an existing platform (WordPress, Shopify, Drupal, Magento, Sitecore, Adobe Experience Manager, Salesforce Commerce Cloud). One architecture, three unrelated markets, and a very uneven willingness to publish the contract the architecture depends on.",
+         {"slug": "state-of-headless-apis", "title": "The State of Headless APIs",
+          "blurb": "108 headless providers scored — the architecture whose whole promise is that the API is the product, tested against the evidence. The tier that invented the word finishes last: headless CMS averages 39.1 against 49.4 for the monoliths it was funded to disrupt, and WordPress out-publishes 33 of the 34 headless CMS vendors in the study. Not one provider in 108 signals idempotency, in a cohort selling checkout as an API.", "price": "500"}),
+    ]
+    headless_counts = {}
+    build_roster_sections(HEADLESS_SECTIONS, HEADLESS_TIER_LABELS, headless_counts)
+
     print("industries:       %d (providers matched: %d)" % (
         len(industry_cards), sum(c["count"] for c in industry_cards)))
     print("countries:        %d (providers matched: %d)" % (
@@ -1436,6 +1461,9 @@ def main():
         print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
     for slug_page, _r, _t, _s, _p in ENERGY_SECTIONS:
         n, sc = energy_counts.get(slug_page, (0, 0))
+        print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
+    for slug_page, _r, _t, _s, _p in HEADLESS_SECTIONS:
+        n, sc = headless_counts.get(slug_page, (0, 0))
         print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
 
 
