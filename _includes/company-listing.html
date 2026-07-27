@@ -15,7 +15,7 @@
 </div>
 
 {% assign key = page.letter | downcase %}
-{% assign companies = site.data.companies[key] %}
+{% assign providers = site.data.providers[key] %}
 
 <!-- Letter navigation + Search -->
 <div class="card mb-4">
@@ -35,7 +35,7 @@
       </div>
       <div class="col-12">
         <div class="input-group input-group-sm">
-          <input type="text" id="item-search" class="form-control" placeholder="Filter companies on this page..." onkeyup="filterItems()">
+          <input type="text" id="item-search" class="form-control" placeholder="Filter providers on this page..." onkeyup="filterItems()">
           <span class="input-group-text">
             <span class="material-symbols-outlined" style="font-size: 18px;">search</span>
           </span>
@@ -45,11 +45,11 @@
   </div>
 </div>
 
-<p class="text-muted small mb-3">{{ companies | size }} compan{% if companies.size == 1 %}y{% else %}ies{% endif %}</p>
+<p class="text-muted small mb-3">{{ providers | size }} provider{% unless providers.size == 1 %}s{% endunless %}</p>
 
 <!-- Item list -->
 <div id="item-list">
-  {% for item in companies %}
+  {% for item in providers %}
     <div class="item-entry" data-title="{{ item.name | downcase }} {{ item.slug }}">
       <div class="post-item d-flex align-items-center">
         <div class="prov-thumb flex-shrink-0 me-3">
@@ -72,7 +72,7 @@
 </div>
 
 <div id="no-results" class="text-center text-muted py-5" style="display: none;">
-  No companies match your filter.
+  No providers match your filter.
 </div>
 
 <script>

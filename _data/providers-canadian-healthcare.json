@@ -1,0 +1,474 @@
+{
+  "total": 10,
+  "shown": 10,
+  "limit": 1000,
+  "bands": [
+    {
+      "band": "developing",
+      "label": "Developing",
+      "range": "45–59.9",
+      "blurb": "Real signal across most facets with visible, nameable gaps.",
+      "count": 1,
+      "shown": 1,
+      "providers": [
+        {
+          "name": "Jane",
+          "slug": "jane-app",
+          "description": "Jane is a cloud-based practice management platform for health and wellness clinics, headquartered in North Vancouver, Canada, with regional data residency across Canada, the USA, the United Kingdom, and Australia. Jane combines online booking, scheduling, charting and clinical documentation (including AI-assisted notes), insurance billing, payments, patient intake, a patient mobile app, and telehealth in a single system used by interdisciplinary clinics — physiotherapy, massage therapy, chiropractic, counselling, midwifery, and more. The Jane Developer Platform (developers.jane.app) exposes a documented REST API that lets approved Technology Partners build \"Jane Extensions\" — practitioner-authorized integrations that read and write clinic data. Authentication is OAuth 2.0 with PKCE over OpenID Connect (Keycloak realms), using RS256 JWT bearer access tokens and granular scopes (e.g. observations:read). The API is date-versioned in the URL path and is per-clinic (https://<clinic>/api/YYYY-MM-DD/), covering patients, appointments, locations, staff, disciplines, treatments, medical records (observations, care plans, medications), document uploads, webhooks, and extension management. Jane is not FHIR/HL7-based: it is a proprietary REST practice-management API rather than a SMART-on-FHIR EHR interoperability surface.",
+          "screenshot": "https://raw.githubusercontent.com/api-evangelist/jane-app/refs/heads/main/screenshots/jane-app-2026-07-25T223058.png",
+          "score": 48.8,
+          "band": "developing",
+          "band_label": "Developing",
+          "facets": {
+            "discoverability": 87.5,
+            "contract_quality": 22.6,
+            "governance": 0.0,
+            "operational_transparency": 39.5,
+            "developer_ergonomics": 65.2,
+            "commercial_clarity": 47.4
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "regulatory": {
+            "applies": true,
+            "regime": "Health",
+            "regime_id": "health",
+            "score": 87.0
+          },
+          "agent_score": 46.2,
+          "agent_band": "agent-ready",
+          "agent_dims": {
+            "spec_presence": false,
+            "agentic_access": true,
+            "mcp_server": false,
+            "auth_clarity": true,
+            "idempotency": false,
+            "error_semantics": true,
+            "openapi_examples": false,
+            "rate_limit_signal": false,
+            "asyncapi_events": true,
+            "agent_skills": true,
+            "well_known_catalog": true,
+            "consent_identity": false
+          },
+          "tier": "EHR / EMR Systems",
+          "rank": 1
+        }
+      ],
+      "open": true
+    },
+    {
+      "band": "thin",
+      "label": "Thin",
+      "range": "30–44.9",
+      "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+      "count": 1,
+      "shown": 1,
+      "providers": [
+        {
+          "name": "Canada Health Infoway",
+          "slug": "canada-health-infoway",
+          "description": "Canada Health Infoway is an independent, federally funded not-for-profit organization that leads the adoption of digital health and pan-Canadian interoperability across Canada's province- and territory-fragmented healthcare system. Infoway stewards the pan-Canadian FHIR interoperability specifications - CA Core+ and the CA Baseline profiles developed with the Canadian Institute for Health Information (CIHI) - and operates the Canadian FHIR Registry, the Canadian URI Registry, and a national Terminology Gateway. Its developer-facing API surface, published through the Accelero developer portal, is a HAPI-FHIR R4 (4.0.1) Terminology Service exposing CodeSystem, ValueSet, and ConceptMap resources with $lookup, $expand, $translate, and $validate-code operations, alongside a companion RESTful Terminology API for browsing code systems, subsets, maps, and packages. Infoway is a standards steward and terminology infrastructure operator for the Canadian market rather than a commercial clinical-data platform; the terminology content APIs are gated behind free registration and a session/token login, while the FHIR CapabilityStatement is served anonymously.",
+          "screenshot": "https://raw.githubusercontent.com/api-evangelist/canada-health-infoway/refs/heads/main/screenshots/canada-health-infoway-2026-07-25T204326.png",
+          "score": 44.4,
+          "band": "thin",
+          "band_label": "Thin",
+          "facets": {
+            "discoverability": 92.5,
+            "contract_quality": 60.4,
+            "governance": 0.0,
+            "operational_transparency": 7.9,
+            "developer_ergonomics": 52.2,
+            "commercial_clarity": 34.2
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "regulatory": {
+            "applies": true,
+            "regime": "Health",
+            "regime_id": "health",
+            "score": 54.3
+          },
+          "agent_score": 71.2,
+          "agent_band": "agent-native",
+          "agent_dims": {
+            "spec_presence": true,
+            "agentic_access": true,
+            "mcp_server": true,
+            "auth_clarity": true,
+            "idempotency": false,
+            "error_semantics": true,
+            "openapi_examples": false,
+            "rate_limit_signal": false,
+            "asyncapi_events": true,
+            "agent_skills": true,
+            "well_known_catalog": false,
+            "consent_identity": false
+          },
+          "tier": "National Health System",
+          "rank": 2
+        }
+      ],
+      "open": true
+    },
+    {
+      "band": "emerging",
+      "label": "Emerging",
+      "range": "15–29.9",
+      "blurb": "More than an index entry but still mostly links rather than artifacts.",
+      "count": 7,
+      "shown": 7,
+      "providers": [
+        {
+          "name": "Maple",
+          "slug": "maple-health",
+          "description": "Maple is a Canadian virtual-care company (getmaple.ca) headquartered in Toronto that connects patients across every Canadian province to Canadian-licensed doctors and nurse practitioners for on-demand and scheduled telehealth. Its consumer membership and B2B programs cover same-day acute care, paediatrics, mental health therapy and psychiatry, specialist consultations, chronic-condition management, prescriptions with pickup or delivery, lab requisitions, and medical notes, delivered through iOS, Android, and web apps. Maple sells to individuals and to employers, insurers, and health systems (clients include Air Canada, Blue Cross, Rogers, and Green Shield) via custom care programs rather than a self-serve technical platform. As of this review Maple publishes NO public developer portal, REST API, or HL7 FHIR endpoint; there is no documented CapabilityStatement or SMART-on-FHIR configuration. Its interoperability posture is enterprise/partner-gated, and its security program is SOC 2 Type II and ISO 27001 aligned with a responsible-disclosure channel at security@getmaple.ca.",
+          "screenshot": "https://raw.githubusercontent.com/api-evangelist/maple-health/refs/heads/main/screenshots/maple-health-2026-07-25T230125.png",
+          "score": 27.0,
+          "band": "emerging",
+          "band_label": "Emerging",
+          "facets": {
+            "discoverability": 67.5,
+            "contract_quality": 0.0,
+            "governance": 0.0,
+            "operational_transparency": 15.8,
+            "developer_ergonomics": 6.5,
+            "commercial_clarity": 60.5
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "regulatory": {
+            "applies": true,
+            "regime": "Health",
+            "regime_id": "health",
+            "score": 54.3
+          },
+          "agent_score": 6.7,
+          "agent_band": "human-only",
+          "agent_dims": {
+            "spec_presence": false,
+            "agentic_access": false,
+            "mcp_server": false,
+            "auth_clarity": false,
+            "idempotency": false,
+            "error_semantics": false,
+            "openapi_examples": false,
+            "rate_limit_signal": false,
+            "asyncapi_events": false,
+            "agent_skills": false,
+            "well_known_catalog": true,
+            "consent_identity": true
+          },
+          "tier": "Telehealth & Virtual Care",
+          "rank": 3
+        },
+        {
+          "name": "OSCAR EMR",
+          "slug": "oscar-emr",
+          "description": "OSCAR EMR is an open-source electronic medical record (EMR) system created by Dr. David Chan and McMaster University's Department of Family Medicine, and one of Canada's most widely deployed primary-care EMRs. The core software is distributed under the GPL v2+ license (mirrored on GitHub as scoophealth/oscar and on Bitbucket), while the commercially supported OSCAR Pro distribution is delivered by the WELL EMR Group (a WELL Health company) to more than 2,000 clinics and 10,000 providers across Canada. OSCAR exposes a documented REST web-services API under the /ws/services path (scheduling, demographics, billing, prescriptions, documents, labs, ticklers, eForms and providers), secured with 3-legged OAuth 1.0a via /ws/oauth. Clinical data flows historically use HL7 v2 messaging, and OSCAR ships an internal HL7 FHIR integration used for Ontario public-health and immunization reporting (BORN, DHIR). Third-party integrations for OSCAR Pro are partner-gated through the apps.health marketplace. As self-hosted software there is no single public API host or hosted FHIR CapabilityStatement; the API surface is documented on the OSCAR EMR developer wiki and realized per clinic deployment.",
+          "score": 25.5,
+          "band": "emerging",
+          "band_label": "Emerging",
+          "facets": {
+            "discoverability": 80.0,
+            "contract_quality": 0.0,
+            "governance": 0.0,
+            "operational_transparency": 5.3,
+            "developer_ergonomics": 50.0,
+            "commercial_clarity": 23.7
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "regulatory": {
+            "applies": true,
+            "regime": "Health",
+            "regime_id": "health",
+            "score": 37.0
+          },
+          "agent_score": 9.6,
+          "agent_band": "human-only",
+          "agent_dims": {
+            "spec_presence": false,
+            "agentic_access": false,
+            "mcp_server": false,
+            "auth_clarity": true,
+            "idempotency": false,
+            "error_semantics": false,
+            "openapi_examples": false,
+            "rate_limit_signal": false,
+            "asyncapi_events": false,
+            "agent_skills": false,
+            "well_known_catalog": false,
+            "consent_identity": false
+          },
+          "tier": "EHR / EMR Systems",
+          "rank": 4
+        },
+        {
+          "name": "WELL Health Technologies",
+          "slug": "well-health",
+          "description": "WELL Health Technologies Corp (TSX: WELL, OTCQX: WHTCF) is a Vancouver, Canada-headquartered healthcare technology company that is Canada's largest outpatient medical clinic owner-operator and a leading multi-disciplinary digital health service provider. It runs two synergistic channels: an omni-channel patient services business operating 115+ multidisciplinary clinics across Canada plus US telehealth and anesthesia operations, and a virtual-services / practitioner-enablement platform serving 44,000+ providers through the OSCAR Pro EMR, billing and revenue-cycle tools, eReferral, digital booking, and ePharma. Its programmatic surface is the apps.health marketplace, through which third-party digital health apps integrate with WELL's network of EMRs (OSCAR Pro, Profile) using HL7 FHIR and other interoperability standards. As of this review WELL exposes no self-serve public developer portal, sandbox, OpenAPI, or FHIR CapabilityStatement; integration is FHIR-based but gated behind a partner/contact process. Home market is Canada, positioned in a province-fragmented healthcare landscape coordinated federally by Canada Health Infoway's pan-Canadian FHIR (CA Core / CA Baseline) specifications.",
+          "score": 22.5,
+          "band": "emerging",
+          "band_label": "Emerging",
+          "facets": {
+            "discoverability": 80.0,
+            "contract_quality": 0.0,
+            "governance": 0.0,
+            "operational_transparency": 0.0,
+            "developer_ergonomics": 34.8,
+            "commercial_clarity": 21.1
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "regulatory": {
+            "applies": true,
+            "regime": "Health",
+            "regime_id": "health",
+            "score": 41.3
+          },
+          "agent_score": 0.0,
+          "agent_band": "human-only",
+          "agent_dims": {
+            "spec_presence": false,
+            "agentic_access": false,
+            "mcp_server": false,
+            "auth_clarity": false,
+            "idempotency": false,
+            "error_semantics": false,
+            "openapi_examples": false,
+            "rate_limit_signal": false,
+            "asyncapi_events": false,
+            "agent_skills": false,
+            "well_known_catalog": false,
+            "consent_identity": false
+          },
+          "tier": "Health Data & Analytics",
+          "rank": 5
+        },
+        {
+          "name": "TELUS Health",
+          "slug": "telus-health",
+          "description": "TELUS Health is the digital-health division of TELUS, one of Canada's largest telecommunications and technology companies, and the country's leading health-IT provider. It operates the PS Suite, Med Access, and cloud-native Collaborative Health Record (CHR) electronic medical records used across Canadian primary care, along with pharmacy management, virtual care, and employer/benefits health services. Its documented public integration surface is the CHR Enterprise API, a GraphQL endpoint secured with RS512-signed JWT bearer tokens that exposes clinic data (patients, appointments, encounters, clinical documents and more) for partner-built add-ons, complemented by the TELUS Patient Chart FHIR R4 implementation guide, a package of 89 published StructureDefinition profiles under the http://telus.com/fhir/patientChart canonical for standards-based patient-record exchange out of TELUS EMRs, and the Omara Health Exchange FHIR interoperability platform. Home market is Canada, where healthcare is province-fragmented and FHIR interoperability is stewarded federally by Canada Health Infoway. Both API surfaces are documented but gated behind a partner or CHR-domain agreement.",
+          "score": 21.8,
+          "band": "emerging",
+          "band_label": "Emerging",
+          "facets": {
+            "discoverability": 80.0,
+            "contract_quality": 0.0,
+            "governance": 0.0,
+            "operational_transparency": 5.3,
+            "developer_ergonomics": 52.2,
+            "commercial_clarity": 0.0
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "regulatory": {
+            "applies": true,
+            "regime": "Health",
+            "regime_id": "health",
+            "score": 37.0
+          },
+          "agent_score": 18.3,
+          "agent_band": "agent-aware",
+          "agent_dims": {
+            "spec_presence": false,
+            "agentic_access": false,
+            "mcp_server": false,
+            "auth_clarity": true,
+            "idempotency": false,
+            "error_semantics": false,
+            "openapi_examples": false,
+            "rate_limit_signal": false,
+            "asyncapi_events": false,
+            "agent_skills": true,
+            "well_known_catalog": true,
+            "consent_identity": false
+          },
+          "tier": "Health Data & Analytics",
+          "rank": 6
+        },
+        {
+          "name": "Dialogue",
+          "slug": "dialogue",
+          "description": "Dialogue is a leading Canadian virtual healthcare and employee wellness provider operating an Integrated Health Platform that delivers primary care, mental health support, Employee Assistance Programs (EAP), and wellness programming to members through a single mobile and web application available 24/7/365. The company serves more than 52,000 Canadian organizations — including Sun Life, National Bank of Canada, Via Rail, Lightspeed, and Samsung — connecting employees and their families with multidisciplinary care teams of nurses, physicians, and mental health specialists. Dialogue is a consumer-facing digital health application; it does not currently publish a public developer API or OpenAPI surface.",
+          "screenshot": "https://raw.githubusercontent.com/api-evangelist/dialogue/refs/heads/main/screenshots/dialogue-2026-07-25T211910.png",
+          "score": 20.7,
+          "band": "emerging",
+          "band_label": "Emerging",
+          "facets": {
+            "discoverability": 67.5,
+            "contract_quality": 0.0,
+            "governance": 0.0,
+            "operational_transparency": 15.8,
+            "developer_ergonomics": 6.5,
+            "commercial_clarity": 44.7
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "regulatory": {
+            "applies": true,
+            "regime": "Health",
+            "regime_id": "health",
+            "score": 30.4
+          },
+          "agent_score": 0.0,
+          "agent_band": "human-only",
+          "agent_dims": {
+            "spec_presence": false,
+            "agentic_access": false,
+            "mcp_server": false,
+            "auth_clarity": false,
+            "idempotency": false,
+            "error_semantics": false,
+            "openapi_examples": false,
+            "rate_limit_signal": false,
+            "asyncapi_events": false,
+            "agent_skills": false,
+            "well_known_catalog": false,
+            "consent_identity": false
+          },
+          "tier": "Telehealth & Virtual Care",
+          "rank": 7
+        },
+        {
+          "name": "Tia Health",
+          "slug": "tia-health",
+          "description": "Tia Health is a Canadian telehealth platform that connects patients with licensed Canadian providers - family doctors, nurse practitioners, specialists, and naturopaths - for on-demand virtual care by phone, video, and secure messaging. Its services span virtual walk-in and family-practice appointments, prescription renewals, sick notes, lab requisitions, and mental health therapy (via partner Focus Mental Wellness), with visits covered by provincial health plans in Ontario (OHIP), British Columbia (MSP), and Alberta (AHCIP) and paid options elsewhere. Tia Health is part of the WELL Health Technologies Corp. clinic network, one of the largest outpatient networks in Canada. As of this review Tia Health is a consumer-facing virtual-care product with no public developer portal, no documented REST/OpenAPI, and no exposed HL7 FHIR CapabilityStatement or SMART-on-FHIR configuration; interoperability in the Canadian market is stewarded federally through Canada Health Infoway's pan-Canadian FHIR (CA Core / CA Baseline) specifications, which this platform does not publicly surface.",
+          "score": 19.0,
+          "band": "emerging",
+          "band_label": "Emerging",
+          "facets": {
+            "discoverability": 67.5,
+            "contract_quality": 0.0,
+            "governance": 0.0,
+            "operational_transparency": 0.0,
+            "developer_ergonomics": 6.5,
+            "commercial_clarity": 44.7
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "regulatory": {
+            "applies": true,
+            "regime": "Health",
+            "regime_id": "health",
+            "score": 30.4
+          },
+          "agent_score": 0.0,
+          "agent_band": "human-only",
+          "agent_dims": {
+            "spec_presence": false,
+            "agentic_access": false,
+            "mcp_server": false,
+            "auth_clarity": false,
+            "idempotency": false,
+            "error_semantics": false,
+            "openapi_examples": false,
+            "rate_limit_signal": false,
+            "asyncapi_events": false,
+            "agent_skills": false,
+            "well_known_catalog": false,
+            "consent_identity": false
+          },
+          "tier": "Telehealth & Virtual Care",
+          "rank": 8
+        },
+        {
+          "name": "Cortico",
+          "slug": "cortico",
+          "description": "Cortico (Cortico Health Technologies) is a Vancouver, British Columbia based healthcare connection platform, founded in 2019, that links patients, medical clinics, and health records across Canada and the United States. Its patient-engagement suite layers online booking, automated appointment reminders, secure two-way patient messaging, digital intake forms, telemedicine, specialist e-referrals, payments, and AI-driven administrative automation on top of the electronic medical records (EMRs) clinics already run — most notably a supported two-way integration with OSCAR EMR through that system's REST/SOAP web services, plus SMART on FHIR contextual launch and robotic process automation (RPA). Cortico is SOC 2 Type II and ISO 27001 certified and compliant with HIPAA, PIPEDA, and PHIPA. Cortico consumes EMR and FHIR interfaces rather than publishing its own public developer API: as of this review there is no public developer portal, API reference, or FHIR CapabilityStatement, and integration is delivered through a partnership and onboarding model rather than self-serve API access.",
+          "screenshot": "https://raw.githubusercontent.com/api-evangelist/cortico/refs/heads/main/screenshots/cortico-2026-07-25T210445.png",
+          "score": 17.4,
+          "band": "emerging",
+          "band_label": "Emerging",
+          "facets": {
+            "discoverability": 67.5,
+            "contract_quality": 0.0,
+            "governance": 0.0,
+            "operational_transparency": 5.3,
+            "developer_ergonomics": 6.5,
+            "commercial_clarity": 31.6
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "regulatory": {
+            "applies": true,
+            "regime": "Health",
+            "regime_id": "health",
+            "score": 30.4
+          },
+          "agent_score": 0.0,
+          "agent_band": "human-only",
+          "agent_dims": {
+            "spec_presence": false,
+            "agentic_access": false,
+            "mcp_server": false,
+            "auth_clarity": false,
+            "idempotency": false,
+            "error_semantics": false,
+            "openapi_examples": false,
+            "rate_limit_signal": false,
+            "asyncapi_events": false,
+            "agent_skills": false,
+            "well_known_catalog": false,
+            "consent_identity": false
+          },
+          "tier": "Patient Engagement & Scheduling",
+          "rank": 9
+        }
+      ]
+    },
+    {
+      "band": "minimal",
+      "label": "Minimal",
+      "range": "0–14.9",
+      "blurb": "Index entry only; little beyond a description and a link.",
+      "count": 1,
+      "shown": 1,
+      "providers": [
+        {
+          "name": "Pomelo Health",
+          "slug": "pomelo-health",
+          "description": "Pomelo Health (formerly Chronometriq, founded 2012, headquartered in Montreal with offices in Boston and Toronto) is a Canadian patient-engagement software company operating within the TELUS Health ecosystem. Its cloud platform helps medical clinics reduce no-shows and modernize the front-desk experience with online booking/e-booking, automated SMS/voice/email appointment reminders, digital intake eForms, telemedicine, secure two-way messaging, patient broadcasts, and a patient portal. Pomelo ships as an EMR add-on that syncs with TELUS Health EMRs — Accuro, Medesync, and TELUS CHR — rather than as an open integration platform. As of this review Pomelo Health publishes NO public developer portal, NO documented REST/OpenAPI, and NO public HL7 FHIR CapabilityStatement or SMART-on-FHIR surface; third-party connectivity is achieved through the underlying EMR partner APIs, so this profile is an honest identity stub for a company with a gated, partner-only integration model. Home market: Canada.",
+          "score": 11.5,
+          "band": "minimal",
+          "band_label": "Minimal",
+          "facets": {
+            "discoverability": 67.5,
+            "contract_quality": 0.0,
+            "governance": 0.0,
+            "operational_transparency": 0.0,
+            "developer_ergonomics": 4.3,
+            "commercial_clarity": 10.5
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "regulatory": {
+            "applies": true,
+            "regime": "Health",
+            "regime_id": "health",
+            "score": 21.7
+          },
+          "agent_score": 0.0,
+          "agent_band": "human-only",
+          "agent_dims": {
+            "spec_presence": false,
+            "agentic_access": false,
+            "mcp_server": false,
+            "auth_clarity": false,
+            "idempotency": false,
+            "error_semantics": false,
+            "openapi_examples": false,
+            "rate_limit_signal": false,
+            "asyncapi_events": false,
+            "agent_skills": false,
+            "well_known_catalog": false,
+            "consent_identity": false
+          },
+          "tier": "Patient Engagement & Scheduling",
+          "rank": 10
+        }
+      ]
+    }
+  ]
+}

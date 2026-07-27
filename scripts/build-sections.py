@@ -14,9 +14,9 @@ Sources:
 Output:
   - _data/sections-industries.json          : card data for /industries/
   - _data/sections-countries.json           : card data for /countries/
-  - _data/companies-industry-<slug>.json    : provider list per industry
-  - _data/companies-country-<slug>.json     : provider list per country
-  - _data/companies-australian-banks.json   : AU banks sorted by rating score
+  - _data/providers-industry-<slug>.json    : provider list per industry
+  - _data/providers-country-<slug>.json     : provider list per country
+  - _data/providers-australian-banks.json   : AU banks sorted by rating score
   - industries/index.html + industries/<slug>/index.html
   - countries/index.html + countries/<slug>/index.html
   - australian-banks/index.html
@@ -769,7 +769,7 @@ def main():
             shown = [e for e in members if e["rank"] <= LISTING_LIMIT]
             groups.append({
                 "band": band, "label": label, "range": band_range, "blurb": blurb,
-                "count": len(members), "shown": len(shown), "companies": shown,
+                "count": len(members), "shown": len(shown), "providers": shown,
             })
         for g in groups[:2]:
             g["open"] = True
@@ -787,14 +787,14 @@ def main():
     with open(INDUSTRIES_YML, "r", encoding="utf-8") as fh:
         taxonomy = yaml.safe_load(fh)
 
-    industries = {}   # slug -> {name, description, icon, companies:set}
+    industries = {}   # slug -> {name, description, icon, providers:set}
     order = []        # slug order of first definition
 
     def industry(slug, name, description, icon):
         if slug not in industries:
             industries[slug] = {
                 "name": name, "description": description,
-                "icon": icon, "companies": set(),
+                "icon": icon, "providers": set(),
             }
             order.append(slug)
         return industries[slug]
@@ -806,7 +806,7 @@ def main():
             INDUSTRY_ICONS.get(ind_slug, "domain"),
         )
         for sub in ind.get("industries") or []:
-            rec["companies"].update(sub.get("companies") or [])
+            rec["providers"].update(sub.get("companies") or [])
 
     # Tag clusters. A definition here overrides the taxonomy's name, blurb, and
     # icon for a shared slug — the catalog-derived framing is the better one —
@@ -839,19 +839,19 @@ def main():
             continue
         for t in meta[2]:
             for slug in tag_to_slugs.get(t.strip().lower(), ()):
-                industries[slug]["companies"].add(repo)
+                industries[slug]["providers"].add(repo)
 
     industry_cards = []
     for ind_slug in order:
         rec = industries[ind_slug]
         entries = []
-        for c in sorted(rec["companies"]):
+        for c in sorted(rec["providers"]):
             meta = meta_of(c)
             if meta is None:
                 continue
             entries.append(rated_entry(c, meta))
         grouped = band_grouped(entries)
-        with open(os.path.join(data_dir, "companies-industry-%s.json" % ind_slug), "w", encoding="utf-8") as fh:
+        with open(os.path.join(data_dir, "providers-industry-%s.json" % ind_slug), "w", encoding="utf-8") as fh:
             json.dump(grouped, fh, ensure_ascii=False, indent=1)
         industry_cards.append({
             "slug": ind_slug,
@@ -865,7 +865,7 @@ def main():
             listing_page(
                 esc(rec["name"]),
                 esc("%s providers in the %s industry, ranked by their Kin Score." % (len(entries), rec["name"])),
-                "companies-industry-%s" % ind_slug,
+                "providers-industry-%s" % ind_slug,
                 rated=True,
             ),
         )
@@ -908,7 +908,7 @@ def main():
     for slug, name, flag, _aliases in COUNTRIES:
         entries = country_entries[slug]
         grouped = band_grouped(entries)
-        with open(os.path.join(data_dir, "companies-country-%s.json" % slug), "w", encoding="utf-8") as fh:
+        with open(os.path.join(data_dir, "providers-country-%s.json" % slug), "w", encoding="utf-8") as fh:
             json.dump(grouped, fh, ensure_ascii=False, indent=1)
         country_cards.append({
             "slug": slug,
@@ -921,7 +921,7 @@ def main():
             listing_page(
                 name,
                 esc("%s providers operating in %s, ranked by their Kin Score." % (len(entries), name)),
-                "companies-country-%s" % slug,
+                "providers-country-%s" % slug,
                 rated=True,
             ),
         )
@@ -952,7 +952,7 @@ def main():
         if "Australia" in tags and "Banks" in tags:
             au_banks.append(rated_entry(repo, meta))
     au_banks_grouped = band_grouped(au_banks)
-    with open(os.path.join(data_dir, "companies-australian-banks.json"), "w", encoding="utf-8") as fh:
+    with open(os.path.join(data_dir, "providers-australian-banks.json"), "w", encoding="utf-8") as fh:
         json.dump(au_banks_grouped, fh, ensure_ascii=False, indent=1)
 
     write_page(
@@ -960,7 +960,7 @@ def main():
         listing_page(
             "Australian Banks",
             "Australian banks ranked by their Kin Score.",
-            "companies-australian-banks",
+            "providers-australian-banks",
             rated=True,
             paper={
                 "slug": "state-of-australian-banking-apis",
@@ -995,7 +995,7 @@ def main():
             entry["tier"] = MD_TIER_LABELS.get(tier, titleize(tier))
         market_data.append(entry)
     market_data_grouped = band_grouped(market_data)
-    with open(os.path.join(data_dir, "companies-market-data.json"), "w", encoding="utf-8") as fh:
+    with open(os.path.join(data_dir, "providers-market-data.json"), "w", encoding="utf-8") as fh:
         json.dump(market_data_grouped, fh, ensure_ascii=False, indent=1)
 
     write_page(
@@ -1003,7 +1003,7 @@ def main():
         listing_page(
             "Market Data",
             "Financial market data providers ranked by their Kin Score, from terminal and feed incumbents to API-first challengers.",
-            "companies-market-data",
+            "providers-market-data",
             rated=True,
             paper={
                 "slug": "state-of-market-data-apis",
@@ -1043,7 +1043,7 @@ def main():
             entry["tier"] = UK_TIER_LABELS.get(tier, titleize(tier))
         uk_banks.append(entry)
     uk_banks_grouped = band_grouped(uk_banks)
-    with open(os.path.join(data_dir, "companies-uk-banks.json"), "w", encoding="utf-8") as fh:
+    with open(os.path.join(data_dir, "providers-uk-banks.json"), "w", encoding="utf-8") as fh:
         json.dump(uk_banks_grouped, fh, ensure_ascii=False, indent=1)
 
     write_page(
@@ -1051,7 +1051,7 @@ def main():
         listing_page(
             "UK Banking",
             "UK banks and building societies ranked by their Kin Score, from the CMA9 Open Banking mandate to challengers, building societies, and private banks.",
-            "companies-uk-banks",
+            "providers-uk-banks",
             rated=True,
         ),
     )
@@ -1082,7 +1082,7 @@ def main():
             entry["tier"] = US_TIER_LABELS.get(tier, titleize(tier))
         us_banks.append(entry)
     us_banks_grouped = band_grouped(us_banks)
-    with open(os.path.join(data_dir, "companies-us-banks.json"), "w", encoding="utf-8") as fh:
+    with open(os.path.join(data_dir, "providers-us-banks.json"), "w", encoding="utf-8") as fh:
         json.dump(us_banks_grouped, fh, ensure_ascii=False, indent=1)
 
     write_page(
@@ -1090,7 +1090,7 @@ def main():
         listing_page(
             "US Banking",
             "US banks, credit unions, neobanks, and banking-as-a-service providers ranked by their Kin Score — from the money-center banks and the BaaS layer to the aggregators wiring the CFPB 1033 / FDX open-finance era.",
-            "companies-us-banks",
+            "providers-us-banks",
             rated=True,
         ),
     )
@@ -1121,7 +1121,7 @@ def main():
             entry["tier"] = CA_TIER_LABELS.get(tier, titleize(tier))
         ca_banks.append(entry)
     ca_banks_grouped = band_grouped(ca_banks)
-    with open(os.path.join(data_dir, "companies-canadian-banks.json"), "w", encoding="utf-8") as fh:
+    with open(os.path.join(data_dir, "providers-canadian-banks.json"), "w", encoding="utf-8") as fh:
         json.dump(ca_banks_grouped, fh, ensure_ascii=False, indent=1)
 
     write_page(
@@ -1129,7 +1129,7 @@ def main():
         listing_page(
             "Canadian Banking",
             "Canadian banks, credit unions and caisses, and fintechs ranked by their Kin Score — the Big Six, the digital arms, and the challengers, ahead of Canada's Consumer-Driven Banking framework.",
-            "companies-canadian-banks",
+            "providers-canadian-banks",
             rated=True,
         ),
     )
@@ -1189,7 +1189,7 @@ def main():
                     entry["tier"] = tier_labels.get(tier, titleize(tier))
                 entries.append(entry)
             grouped = band_grouped(entries)
-            data_key = "companies-%s" % slug_page
+            data_key = "providers-%s" % slug_page
             with open(os.path.join(data_dir, "%s.json" % data_key), "w", encoding="utf-8") as fh:
                 json.dump(grouped, fh, ensure_ascii=False, indent=1)
             write_page(
@@ -1361,6 +1361,52 @@ def main():
     re_counts = {}
     build_roster_sections(RE_SECTIONS, RE_TIER_LABELS, re_counts)
 
+    # --- Energy & Utilities (US / UK / AU / CA) ---------------------------
+    # Roster-driven, HQ/origin model. Energy is the sector that tests whether a
+    # data mandate is REPLICABLE: Australia extended the same Consumer Data Right
+    # that produced its byte-for-byte fifty-bank banking contract to ENERGY, and
+    # Ontario mandated Green Button by regulation — against a US where Green Button
+    # is a real standard nobody is compelled to adopt, and a UK that mandated smart-
+    # meter INFRASTRUCTURE rather than a consumer data right. The sector also runs
+    # at two speeds the tiers deliberately separate: consumer data (mandated, gated
+    # by accreditation and consent) and market/grid data (frequently wide open).
+    # Rosters live in all/0-working/<cc>-energy-roster.json.
+    ENERGY_TIER_LABELS = {
+        "utility-retailer":          "Utilities & Retailers",
+        "network-distributor":       "Network Distributors",
+        "system-operator":           "System & Market Operators",
+        "regulator":                 "Regulators & Government Data",
+        "energy-data-platform":      "Energy Data Platforms",
+        "grid-tech-derms":           "Grid Tech & DERMS",
+        "metering":                  "Metering",
+        "solar-der":                 "Solar & Distributed Energy",
+        "ev-charging":               "EV Charging",
+        "energy-trading-markets":    "Energy Trading & Markets",
+        "carbon-climate-accounting": "Carbon & Climate Accounting",
+        "storage-flexibility":       "Storage & Flexibility",
+        "industry-body-standards":   "Industry Bodies & Standards",
+    }
+    ENERGY_SECTIONS = [
+        ("us-energy", "us-energy-roster.json", "US Energy",
+         "US energy and utilities organizations ranked by their Kin Score — the investor-owned utilities, the seven ISOs and RTOs that run the wholesale markets and publish genuine open market data, the federal data agencies (EIA publishes one of the best government APIs anywhere), the energy-data platforms that resell utility billing and usage data, DERMS and demand response, metering, solar and distributed energy, EV charging, energy trading, carbon accounting, and the standards bodies behind Green Button and OpenADR — in the one market where Green Button is a real standard with no mandate compelling anyone to adopt it.",
+         {"slug": "state-of-us-energy-apis", "title": "The State of US Energy APIs",
+          "blurb": "PENDING_SCORING", "price": "500"}),
+        ("uk-energy", "uk-energy-roster.json", "UK Energy",
+         "UK energy organizations ranked by their Kin Score — the suppliers (including Octopus, whose Kraken platform is licensed to utilities worldwide), the distribution network operators and their open-data programmes, NESO and Elexon running the system and the balancing market, the licensed Smart DCC monopoly carrying smart-meter traffic, Ofgem, the consumer-data intermediaries, EV charging and flexibility — in the market that mandated the infrastructure rather than the data right.",
+         {"slug": "state-of-uk-energy-apis", "title": "The State of UK Energy APIs",
+          "blurb": "PENDING_SCORING", "price": "500"}),
+        ("au-energy", "au-energy-roster.json", "Australian Energy",
+         "Australian energy organizations ranked by their Kin Score — the retailers bound by the Consumer Data Right, the distribution networks and their open data, AEMO acting as both the national market operator and the CDR energy gateway, the AER and AEMC, storage and flexibility, EV charging and the consumer-data platforms — in the only market anywhere that took a data mandate proven in banking and transplanted it into a second industry.",
+         {"slug": "state-of-australian-energy-apis", "title": "The State of Australian Energy APIs",
+          "blurb": "PENDING_SCORING", "price": "500"}),
+        ("canadian-energy", "canadian-energy-roster.json", "Canadian Energy",
+         "Canadian energy organizations ranked by their Kin Score — the provincial Crown corporations and investor-owned utilities, the Ontario utilities bound by the province's Green Button regulation, IESO and AESO running the two competitive markets, the Ontario Energy Board and the Canada Energy Regulator, and EV charging — in a federation where electricity is provincial and the only data mandate is one province's.",
+         {"slug": "state-of-canadian-energy-apis", "title": "The State of Canadian Energy APIs",
+          "blurb": "PENDING_SCORING", "price": "500"}),
+    ]
+    energy_counts = {}
+    build_roster_sections(ENERGY_SECTIONS, ENERGY_TIER_LABELS, energy_counts)
+
     print("industries:       %d (providers matched: %d)" % (
         len(industry_cards), sum(c["count"] for c in industry_cards)))
     print("countries:        %d (providers matched: %d)" % (
@@ -1387,6 +1433,9 @@ def main():
         print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
     for slug_page, _r, _t, _s, _p in RE_SECTIONS:
         n, sc = re_counts.get(slug_page, (0, 0))
+        print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
+    for slug_page, _r, _t, _s, _p in ENERGY_SECTIONS:
+        n, sc = energy_counts.get(slug_page, (0, 0))
         print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
 
 

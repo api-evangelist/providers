@@ -8,10 +8,10 @@ Sources:
                                                        (score.band, tags, etc.)
 
 Output:
-  - _data/companies.json               : alphabetical { letter: [...] }
-  - _data/companies-fortune1000.json   : flat list of Fortune 1000 providers
-  - _data/companies-federal.json       : flat list of Federal Government providers
-  - _data/companies-{band}.json        : flat list per apis.io rating band
+  - _data/providers.json               : alphabetical { letter: [...] }
+  - _data/providers-fortune1000.json   : flat list of Fortune 1000 providers
+  - _data/providers-federal.json       : flat list of Federal Government providers
+  - _data/providers-{band}.json        : flat list per apis.io rating band
   - index.html                         : home with category cards (includes home.html)
   - alphabetical/index.html + alphabetical/<letter>/index.html
   - fortune-1000/index.html
@@ -329,7 +329,7 @@ def band_grouped(entries):
             continue
         groups.append({
             "band": band, "label": label, "range": band_range, "blurb": blurb,
-            "count": len(members), "companies": members,
+            "count": len(members), "providers": members,
         })
     for g in groups[:2]:
         g["open"] = True
@@ -426,24 +426,24 @@ def main():
     os.makedirs(data_dir, exist_ok=True)
 
     # Alphabetical stays a flat { letter: [...] } map for the A–Z browse pages.
-    with open(os.path.join(data_dir, "companies.json"), "w", encoding="utf-8") as fh:
+    with open(os.path.join(data_dir, "providers.json"), "w", encoding="utf-8") as fh:
         json.dump(groups, fh, ensure_ascii=False, indent=1, sort_keys=True)
 
     # Every other section is grouped by Kin Score band, matching Market Data
     # and the banking pages (rendered by company-listing-rated.html).
     mirror_scoring(data_dir)
-    with open(os.path.join(data_dir, "companies-fortune1000.json"), "w", encoding="utf-8") as fh:
+    with open(os.path.join(data_dir, "providers-fortune1000.json"), "w", encoding="utf-8") as fh:
         json.dump(band_grouped(fortune1000), fh, ensure_ascii=False, indent=1)
-    with open(os.path.join(data_dir, "companies-federal.json"), "w", encoding="utf-8") as fh:
+    with open(os.path.join(data_dir, "providers-federal.json"), "w", encoding="utf-8") as fh:
         json.dump(band_grouped(federal), fh, ensure_ascii=False, indent=1)
-    with open(os.path.join(data_dir, "companies-european.json"), "w", encoding="utf-8") as fh:
+    with open(os.path.join(data_dir, "providers-european.json"), "w", encoding="utf-8") as fh:
         json.dump(band_grouped(european), fh, ensure_ascii=False, indent=1)
-    with open(os.path.join(data_dir, "companies-apache.json"), "w", encoding="utf-8") as fh:
+    with open(os.path.join(data_dir, "providers-apache.json"), "w", encoding="utf-8") as fh:
         json.dump(band_grouped(apache), fh, ensure_ascii=False, indent=1)
-    with open(os.path.join(data_dir, "companies-cncf.json"), "w", encoding="utf-8") as fh:
+    with open(os.path.join(data_dir, "providers-cncf.json"), "w", encoding="utf-8") as fh:
         json.dump(band_grouped(cncf), fh, ensure_ascii=False, indent=1)
     for b in BANDS:
-        with open(os.path.join(data_dir, "companies-%s.json" % b), "w", encoding="utf-8") as fh:
+        with open(os.path.join(data_dir, "providers-%s.json" % b), "w", encoding="utf-8") as fh:
             json.dump(band_grouped(band_lists[b]), fh, ensure_ascii=False, indent=1)
 
     total = sum(len(v) for v in groups.values())
@@ -532,7 +532,7 @@ def write_pages(groups, fortune1000, federal, european, apache, cncf, band_lists
     with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
         fh.write(flat_page(
             "Fortune 1000",
-            "companies-fortune1000",
+            "providers-fortune1000",
             "Fortune 100, 500, and 1000 companies with APIs on the network.",
             "Fortune 100, Fortune 500, and Fortune 1000 companies with APIs on the network.",
         ))
@@ -542,7 +542,7 @@ def write_pages(groups, fortune1000, federal, european, apache, cncf, band_lists
     with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
         fh.write(flat_page(
             "U.S. Federal Government",
-            "companies-federal",
+            "providers-federal",
             "U.S. Federal Government agencies with APIs.",
             "United States Federal Government agencies and departments publishing APIs on the network.",
         ))
@@ -552,7 +552,7 @@ def write_pages(groups, fortune1000, federal, european, apache, cncf, band_lists
     with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
         fh.write(flat_page(
             "European Government",
-            "companies-european",
+            "providers-european",
             "European national, regional, and EU government agencies with APIs.",
             "European national, regional, and European Union government agencies and departments publishing APIs on the network.",
         ))
@@ -562,7 +562,7 @@ def write_pages(groups, fortune1000, federal, european, apache, cncf, band_lists
     with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
         fh.write(flat_page(
             "Apache",
-            "companies-apache",
+            "providers-apache",
             "Apache Software Foundation projects with APIs.",
             "Apache Software Foundation projects publishing APIs on the network.",
         ))
@@ -572,7 +572,7 @@ def write_pages(groups, fortune1000, federal, european, apache, cncf, band_lists
     with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
         fh.write(flat_page(
             "CNCF",
-            "companies-cncf",
+            "providers-cncf",
             "Cloud Native Computing Foundation projects with APIs.",
             "Cloud Native Computing Foundation (CNCF) projects publishing APIs on the network.",
         ))
@@ -584,7 +584,7 @@ def write_pages(groups, fortune1000, federal, european, apache, cncf, band_lists
         with open(os.path.join(d, "index.html"), "w", encoding="utf-8") as fh:
             fh.write(flat_page(
                 "Kin Score: %s" % label,
-                "companies-%s" % b,
+                "providers-%s" % b,
                 "%s — %s" % (label, desc),
                 desc,
             ))

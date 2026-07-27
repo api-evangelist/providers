@@ -16,7 +16,7 @@
   </div>
 </div>
 
-{% assign companies = site.data[page.data_key] %}
+{% assign providers = site.data[page.data_key] %}
 
 <!-- Search -->
 <div class="card mb-4">
@@ -30,11 +30,11 @@
   </div>
 </div>
 
-<p class="text-muted small mb-3">{{ companies | size }} provider{% unless companies.size == 1 %}s{% endunless %}</p>
+<p class="text-muted small mb-3">{{ providers | size }} provider{% unless providers.size == 1 %}s{% endunless %}</p>
 
 <!-- Item list -->
 <div id="item-list">
-  {% for item in companies %}
+  {% for item in providers %}
     <div class="item-entry" data-title="{{ item.name | downcase }} {{ item.slug }}">
       <div class="post-item d-flex align-items-center">
         <div class="prov-thumb flex-shrink-0 me-3">

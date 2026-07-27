@@ -109,7 +109,7 @@
   {% if group.shown < group.count %}
     <p class="band-cap text-muted small mb-2">Showing {{ group.shown }} of {{ group.count }} — this listing renders the top {{ listing.limit }} providers by Kin Score.</p>
   {% endif %}
-  {% for item in group.companies %}
+  {% for item in group.providers %}
     <div class="item-entry" data-title="{{ item.name | downcase }} {{ item.slug }}">
       <div class="post-item d-flex align-items-center">
         <div class="rate-rank flex-shrink-0">{{ item.rank }}</div>

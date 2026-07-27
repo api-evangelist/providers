@@ -1,0 +1,413 @@
+{
+  "total": 10,
+  "shown": 10,
+  "limit": 1000,
+  "bands": [
+    {
+      "band": "strong",
+      "label": "Strong",
+      "range": "60–69.9",
+      "blurb": "Solid contracts, transparent operations, and an easy start.",
+      "count": 1,
+      "shown": 1,
+      "providers": [
+        {
+          "name": "Amadeus",
+          "slug": "amadeus",
+          "description": "Amadeus for Developers is the self-service developer program from Amadeus IT Group, the leading technology provider for the global travel and tourism industry. The Self-Service catalog offers 40+ travel REST APIs across flights, hotels, destination experiences, cars and transfers, market insights, itinerary management, and AI-powered prediction services. APIs use OAuth2 client credentials authentication and are organized into Test (free, capped) and Production (paid, higher TPS) environments. Note: Amadeus has announced the Self-Service developer portal will be decommissioned on 17 July 2026; Enterprise customers retain access to the equivalent Enterprise APIs.",
+          "screenshot": "https://raw.githubusercontent.com/api-evangelist/amadeus/refs/heads/main/screenshots/amadeus-2026-06-20T171604.png",
+          "score": 67.9,
+          "band": "strong",
+          "band_label": "Strong",
+          "facets": {
+            "discoverability": 92.5,
+            "contract_quality": 75.8,
+            "governance": 86.8,
+            "operational_transparency": 5.3,
+            "developer_ergonomics": 71.7,
+            "commercial_clarity": 71.1
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "agent_score": 60.6,
+          "agent_band": "agent-native",
+          "agent_dims": {
+            "spec_presence": true,
+            "agentic_access": true,
+            "mcp_server": false,
+            "auth_clarity": true,
+            "idempotency": false,
+            "error_semantics": false,
+            "openapi_examples": true,
+            "rate_limit_signal": true,
+            "asyncapi_events": true,
+            "agent_skills": false,
+            "well_known_catalog": false,
+            "consent_identity": false
+          },
+          "rank": 1
+        }
+      ],
+      "open": true
+    },
+    {
+      "band": "developing",
+      "label": "Developing",
+      "range": "45–59.9",
+      "blurb": "Real signal across most facets with visible, nameable gaps.",
+      "count": 4,
+      "shown": 4,
+      "providers": [
+        {
+          "name": "Sabre",
+          "slug": "sabre",
+          "description": "Sabre Corporation is a leading technology provider for the global travel industry, operating one of the world's largest travel marketplaces through its Global Distribution System (GDS). Sabre provides APIs for air shopping, booking, hotel reservations, car rentals, rail ticketing, and travel agency workflow automation to airlines, hotels, travel agencies, and online travel agencies (OTAs).",
+          "screenshot": "https://raw.githubusercontent.com/api-evangelist/sabre/refs/heads/main/screenshots/sabre-2026-06-20T193316.png",
+          "score": 57.2,
+          "band": "developing",
+          "band_label": "Developing",
+          "facets": {
+            "discoverability": 87.5,
+            "contract_quality": 73.5,
+            "governance": 86.8,
+            "operational_transparency": 26.3,
+            "developer_ergonomics": 52.2,
+            "commercial_clarity": 28.9
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "agent_score": 48.1,
+          "agent_band": "agent-ready",
+          "agent_dims": {
+            "spec_presence": true,
+            "agentic_access": true,
+            "mcp_server": false,
+            "auth_clarity": true,
+            "idempotency": false,
+            "error_semantics": false,
+            "openapi_examples": false,
+            "rate_limit_signal": true,
+            "asyncapi_events": false,
+            "agent_skills": false,
+            "well_known_catalog": false,
+            "consent_identity": false
+          },
+          "rank": 2
+        },
+        {
+          "name": "Airbnb",
+          "slug": "airbnb",
+          "description": "Airbnb is the world's leading home-sharing and short-term rental marketplace, connecting hosts who offer accommodations and experiences with guests worldwide. The Airbnb developer platform provides connectivity partners — property management systems, channel managers, and experience operators — with APIs to manage listings, reservations, calendars, messaging, reviews, and webhook-based event notifications. Access is restricted to approved partners.",
+          "screenshot": "https://raw.githubusercontent.com/api-evangelist/airbnb/refs/heads/main/screenshots/airbnb-2026-06-20T171418.png",
+          "score": 56.8,
+          "band": "developing",
+          "band_label": "Developing",
+          "facets": {
+            "discoverability": 80.0,
+            "contract_quality": 75.8,
+            "governance": 65.8,
+            "operational_transparency": 42.1,
+            "developer_ergonomics": 21.7,
+            "commercial_clarity": 60.5
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "agent_score": 60.6,
+          "agent_band": "agent-native",
+          "agent_dims": {
+            "spec_presence": true,
+            "agentic_access": true,
+            "mcp_server": false,
+            "auth_clarity": true,
+            "idempotency": false,
+            "error_semantics": false,
+            "openapi_examples": true,
+            "rate_limit_signal": true,
+            "asyncapi_events": true,
+            "agent_skills": false,
+            "well_known_catalog": false,
+            "consent_identity": false
+          },
+          "rank": 3
+        },
+        {
+          "name": "United Airlines",
+          "slug": "united-airlines",
+          "description": "United Airlines is a major American airline headquartered in Chicago, Illinois. It operates one of the largest route networks in the world with hubs in Chicago, Denver, Houston, Los Angeles, New York, San Francisco, and Washington, D.C. United provides NDC (New Distribution Capability) APIs for flight shopping, booking, and servicing, as well as corporate travel integration capabilities.",
+          "screenshot": "https://raw.githubusercontent.com/api-evangelist/united-airlines/refs/heads/main/screenshots/united-airlines-2026-06-20T200049.png",
+          "score": 49.7,
+          "band": "developing",
+          "band_label": "Developing",
+          "facets": {
+            "discoverability": 100.0,
+            "contract_quality": 67.3,
+            "governance": 86.8,
+            "operational_transparency": 21.1,
+            "developer_ergonomics": 19.6,
+            "commercial_clarity": 28.9
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "agent_score": 48.1,
+          "agent_band": "agent-ready",
+          "agent_dims": {
+            "spec_presence": true,
+            "agentic_access": true,
+            "mcp_server": false,
+            "auth_clarity": true,
+            "idempotency": false,
+            "error_semantics": false,
+            "openapi_examples": false,
+            "rate_limit_signal": true,
+            "asyncapi_events": false,
+            "agent_skills": false,
+            "well_known_catalog": false,
+            "consent_identity": false
+          },
+          "rank": 4
+        },
+        {
+          "name": "Booking Holdings",
+          "slug": "booking-holdings",
+          "description": "Booking Holdings is the world's leading provider of online travel and related services, operating a portfolio of brands including Booking.com, Priceline, Agoda, KAYAK, OpenTable, Rentalcars.com, Rocketmiles, FareHarbor, HotelsCombined, Cheapflights, and Momondo. The company connects travelers with accommodations, flights, rental cars, restaurant reservations, and travel experiences worldwide.",
+          "screenshot": "https://raw.githubusercontent.com/api-evangelist/booking-holdings/refs/heads/main/screenshots/booking-holdings-2026-06-20T173602.png",
+          "score": 46.2,
+          "band": "developing",
+          "band_label": "Developing",
+          "facets": {
+            "discoverability": 100.0,
+            "contract_quality": 63.3,
+            "governance": 60.5,
+            "operational_transparency": 36.8,
+            "developer_ergonomics": 13.0,
+            "commercial_clarity": 28.9
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "agent_score": 48.1,
+          "agent_band": "agent-ready",
+          "agent_dims": {
+            "spec_presence": true,
+            "agentic_access": true,
+            "mcp_server": false,
+            "auth_clarity": true,
+            "idempotency": false,
+            "error_semantics": false,
+            "openapi_examples": false,
+            "rate_limit_signal": true,
+            "asyncapi_events": false,
+            "agent_skills": false,
+            "well_known_catalog": false,
+            "consent_identity": false
+          },
+          "rank": 5
+        }
+      ],
+      "open": true
+    },
+    {
+      "band": "thin",
+      "label": "Thin",
+      "range": "30–44.9",
+      "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+      "count": 3,
+      "shown": 3,
+      "providers": [
+        {
+          "name": "American Airlines",
+          "slug": "american-airlines",
+          "description": "American Airlines is one of the world's largest airlines, operating an extensive domestic and international route network. The company's Runway developer experience platform, built on Spotify's Backstage, provides internal developer tooling and API management for engineering teams. American Airlines exposes flight data, status, and booking capabilities through its developer portal, and maintains an active open-source presence via the AmericanAirlines GitHub organization.",
+          "score": 44.5,
+          "band": "thin",
+          "band_label": "Thin",
+          "facets": {
+            "discoverability": 92.5,
+            "contract_quality": 60.2,
+            "governance": 73.7,
+            "operational_transparency": 26.3,
+            "developer_ergonomics": 10.9,
+            "commercial_clarity": 28.9
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "agent_score": 38.5,
+          "agent_band": "agent-aware",
+          "agent_dims": {
+            "spec_presence": true,
+            "agentic_access": true,
+            "mcp_server": false,
+            "auth_clarity": false,
+            "idempotency": false,
+            "error_semantics": false,
+            "openapi_examples": false,
+            "rate_limit_signal": true,
+            "asyncapi_events": false,
+            "agent_skills": false,
+            "well_known_catalog": false,
+            "consent_identity": false
+          },
+          "rank": 6
+        },
+        {
+          "name": "Expedia Group",
+          "slug": "expedia-group",
+          "description": "Expedia Group is an American travel technology company that owns and operates travel fare aggregators and travel metasearch engines, including Expedia, Hotels.com, Vrbo, Travelocity, Hotwire.com, Orbitz, Ebookers, CheapTickets, CarRentals.com, and Trivago. Their developer platform provides APIs for travel inventory, lodging, and analytics.",
+          "screenshot": "https://raw.githubusercontent.com/api-evangelist/expedia-group/refs/heads/main/screenshots/expedia-group-2026-06-20T180935.png",
+          "score": 40.3,
+          "band": "thin",
+          "band_label": "Thin",
+          "facets": {
+            "discoverability": 87.5,
+            "contract_quality": 55.2,
+            "governance": 0.0,
+            "operational_transparency": 42.1,
+            "developer_ergonomics": 32.6,
+            "commercial_clarity": 28.9
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "agent_score": 48.1,
+          "agent_band": "agent-ready",
+          "agent_dims": {
+            "spec_presence": true,
+            "agentic_access": true,
+            "mcp_server": false,
+            "auth_clarity": true,
+            "idempotency": false,
+            "error_semantics": false,
+            "openapi_examples": false,
+            "rate_limit_signal": true,
+            "asyncapi_events": false,
+            "agent_skills": false,
+            "well_known_catalog": false,
+            "consent_identity": false
+          },
+          "rank": 7
+        },
+        {
+          "name": "Hilton",
+          "slug": "hilton",
+          "description": "Hilton is one of the largest and fastest-growing hospitality companies in the world, with a portfolio of hotel brands across luxury, full-service, focused-service, and timeshare segments. Hilton operates a developer program that exposes APIs for hotel search, availability, reservations, loyalty program integration, and partner distribution. Most Hilton APIs are partner-gated and require credentials issued through the Hilton developer program.",
+          "score": 36.7,
+          "band": "thin",
+          "band_label": "Thin",
+          "facets": {
+            "discoverability": 92.5,
+            "contract_quality": 60.2,
+            "governance": 0.0,
+            "operational_transparency": 21.1,
+            "developer_ergonomics": 19.6,
+            "commercial_clarity": 28.9
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "agent_score": 48.1,
+          "agent_band": "agent-ready",
+          "agent_dims": {
+            "spec_presence": true,
+            "agentic_access": true,
+            "mcp_server": false,
+            "auth_clarity": true,
+            "idempotency": false,
+            "error_semantics": false,
+            "openapi_examples": false,
+            "rate_limit_signal": true,
+            "asyncapi_events": false,
+            "agent_skills": false,
+            "well_known_catalog": false,
+            "consent_identity": false
+          },
+          "rank": 8
+        }
+      ]
+    },
+    {
+      "band": "emerging",
+      "label": "Emerging",
+      "range": "15–29.9",
+      "blurb": "More than an index entry but still mostly links rather than artifacts.",
+      "count": 2,
+      "shown": 2,
+      "providers": [
+        {
+          "name": "Travelport",
+          "slug": "travelport",
+          "description": "A global travel technology company connecting travel providers with online and offline travel agencies. Operates a commerce platform facilitating airline, hotel, and car rental bookings through its Galileo, Apollo, and Worldspan systems.",
+          "screenshot": "https://raw.githubusercontent.com/api-evangelist/travelport/refs/heads/main/screenshots/travelport-2026-06-20T195638.png",
+          "score": 27.6,
+          "band": "emerging",
+          "band_label": "Emerging",
+          "facets": {
+            "discoverability": 100.0,
+            "contract_quality": 47.8,
+            "governance": 0.0,
+            "operational_transparency": 5.3,
+            "developer_ergonomics": 26.1,
+            "commercial_clarity": 0.0
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "regulatory": {
+            "applies": true,
+            "regime": "Payments",
+            "regime_id": "payments",
+            "score": 26.1
+          },
+          "agent_score": 41.3,
+          "agent_band": "agent-aware",
+          "agent_dims": {
+            "spec_presence": true,
+            "agentic_access": true,
+            "mcp_server": false,
+            "auth_clarity": true,
+            "idempotency": false,
+            "error_semantics": false,
+            "openapi_examples": false,
+            "rate_limit_signal": false,
+            "asyncapi_events": false,
+            "agent_skills": false,
+            "well_known_catalog": false,
+            "consent_identity": false
+          },
+          "rank": 9
+        },
+        {
+          "name": "Delta Air Lines",
+          "slug": "delta-air-lines",
+          "description": "Delta Air Lines is a major U.S. airline providing scheduled air transportation for passengers and cargo throughout the United States and across the world. Delta operates a developer API portal for partner integrations covering flight search, flight offers, customer journey, loyalty, and operations data, with an emphasis on NDC-based content distribution.",
+          "screenshot": "https://raw.githubusercontent.com/api-evangelist/delta-air-lines/refs/heads/main/screenshots/delta-air-lines-2026-07-25T211713.png",
+          "score": 18.7,
+          "band": "emerging",
+          "band_label": "Emerging",
+          "facets": {
+            "discoverability": 80.0,
+            "contract_quality": 0.0,
+            "governance": 0.0,
+            "operational_transparency": 21.1,
+            "developer_ergonomics": 10.9,
+            "commercial_clarity": 28.9
+          },
+          "scored_at": "2026-07-27",
+          "schema_version": 0.5,
+          "agent_score": 6.7,
+          "agent_band": "human-only",
+          "agent_dims": {
+            "spec_presence": false,
+            "agentic_access": false,
+            "mcp_server": false,
+            "auth_clarity": false,
+            "idempotency": false,
+            "error_semantics": false,
+            "openapi_examples": false,
+            "rate_limit_signal": true,
+            "asyncapi_events": false,
+            "agent_skills": false,
+            "well_known_catalog": false,
+            "consent_identity": false
+          },
+          "rank": 10
+        }
+      ]
+    }
+  ]
+}

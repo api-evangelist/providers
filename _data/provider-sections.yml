@@ -35,7 +35,7 @@
     - name: Alphabetical
       icon: sort_by_alpha
       unit: providers
-      count: { from: sum, key: companies }
+      count: { from: sum, key: providers }
       description: Every provider tracked across the API Evangelist network, sorted A–Z.
       href: /alphabetical/
       cta: Browse A–Z
@@ -70,16 +70,16 @@
       markets:
         - name: United States
           href: /us-banks/
-          count: { from: total, key: companies-us-banks }
+          count: { from: total, key: providers-us-banks }
         - name: United Kingdom
           href: /uk-banks/
-          count: { from: total, key: companies-uk-banks }
+          count: { from: total, key: providers-uk-banks }
         - name: Australia
           href: /australian-banks/
-          count: { from: total, key: companies-australian-banks }
+          count: { from: total, key: providers-australian-banks }
         - name: Canada
           href: /canadian-banks/
-          count: { from: total, key: companies-canadian-banks }
+          count: { from: total, key: providers-canadian-banks }
 
     - name: Payments
       icon: credit_card
@@ -89,16 +89,16 @@
       markets:
         - name: United States
           href: /us-payments/
-          count: { from: total, key: companies-us-payments }
+          count: { from: total, key: providers-us-payments }
         - name: United Kingdom
           href: /uk-payments/
-          count: { from: total, key: companies-uk-payments }
+          count: { from: total, key: providers-uk-payments }
         - name: Australia
           href: /au-payments/
-          count: { from: total, key: companies-au-payments }
+          count: { from: total, key: providers-au-payments }
         - name: Canada
           href: /canadian-payments/
-          count: { from: total, key: companies-canadian-payments }
+          count: { from: total, key: providers-canadian-payments }
 
     - name: Healthcare
       icon: health_and_safety
@@ -108,16 +108,16 @@
       markets:
         - name: United States
           href: /us-healthcare/
-          count: { from: total, key: companies-us-healthcare }
+          count: { from: total, key: providers-us-healthcare }
         - name: United Kingdom
           href: /uk-healthcare/
-          count: { from: total, key: companies-uk-healthcare }
+          count: { from: total, key: providers-uk-healthcare }
         - name: Australia
           href: /au-healthcare/
-          count: { from: total, key: companies-au-healthcare }
+          count: { from: total, key: providers-au-healthcare }
         - name: Canada
           href: /canadian-healthcare/
-          count: { from: total, key: companies-canadian-healthcare }
+          count: { from: total, key: providers-canadian-healthcare }
 
     - name: Insurance
       icon: verified_user
@@ -128,16 +128,16 @@
       markets:
         - name: United States
           href: /us-insurance/
-          count: { from: total, key: companies-us-insurance }
+          count: { from: total, key: providers-us-insurance }
         - name: United Kingdom
           href: /uk-insurance/
-          count: { from: total, key: companies-uk-insurance }
+          count: { from: total, key: providers-uk-insurance }
         - name: Australia
           href: /au-insurance/
-          count: { from: total, key: companies-au-insurance }
+          count: { from: total, key: providers-au-insurance }
         - name: Canada
           href: /canadian-insurance/
-          count: { from: total, key: companies-canadian-insurance }
+          count: { from: total, key: providers-canadian-insurance }
 
     - name: Real Estate
       icon: home_work
@@ -148,21 +148,42 @@
       markets:
         - name: United States
           href: /us-real-estate/
-          count: { from: total, key: companies-us-real-estate }
+          count: { from: total, key: providers-us-real-estate }
         - name: United Kingdom
           href: /uk-real-estate/
-          count: { from: total, key: companies-uk-real-estate }
+          count: { from: total, key: providers-uk-real-estate }
         - name: Australia
           href: /au-real-estate/
-          count: { from: total, key: companies-au-real-estate }
+          count: { from: total, key: providers-au-real-estate }
         - name: Canada
           href: /canadian-real-estate/
-          count: { from: total, key: companies-canadian-real-estate }
+          count: { from: total, key: providers-canadian-real-estate }
+
+    - name: Energy & Utilities
+      icon: bolt
+      description: >-
+        Utilities and retailers, the network distributors, the system and market operators that
+        run the grid, regulators, metering, solar and distributed energy, EV charging, storage
+        and carbon accounting — the sector that tests whether a data mandate is replicable,
+        ranked by Kin Score.
+      markets:
+        - name: United States
+          href: /us-energy/
+          count: { from: total, key: providers-us-energy }
+        - name: United Kingdom
+          href: /uk-energy/
+          count: { from: total, key: providers-uk-energy }
+        - name: Australia
+          href: /au-energy/
+          count: { from: total, key: providers-au-energy }
+        - name: Canada
+          href: /canadian-energy/
+          count: { from: total, key: providers-canadian-energy }
 
     - name: Telecommunications
       icon: cell_tower
       unit: providers
-      count: { from: total, key: companies-telecom }
+      count: { from: total, key: providers-telecom }
       description: >-
         A single global cohort — mobile network operators, the CPaaS aggregators that resell
         their connectivity, the CAMARA / GSMA Open Gateway exposure layer, standards bodies
@@ -173,7 +194,7 @@
     - name: Market Data
       icon: monitoring
       unit: providers
-      count: { from: total, key: companies-market-data }
+      count: { from: total, key: providers-market-data }
       description: >-
         Financial market data providers ranked by their Kin Score, from terminal and feed
         incumbents to API-first challengers.
@@ -189,7 +210,7 @@
     - name: Fortune 1000
       icon: leaderboard
       unit: providers
-      count: { from: total, key: companies-fortune1000 }
+      count: { from: total, key: providers-fortune1000 }
       description: Fortune 100, Fortune 500, and Fortune 1000 companies with APIs on the network.
       href: /fortune-1000/
       cta: Browse Fortune 1000
@@ -197,7 +218,7 @@
     - name: U.S. Federal Government
       icon: gavel
       unit: providers
-      count: { from: total, key: companies-federal }
+      count: { from: total, key: providers-federal }
       description: United States Federal Government agencies and departments publishing APIs on the network.
       href: /federal-government/
       cta: Browse U.S. Federal
@@ -205,7 +226,7 @@
     - name: European Government
       icon: flag
       unit: providers
-      count: { from: total, key: companies-european }
+      count: { from: total, key: providers-european }
       description: European national, regional, and European Union government agencies publishing APIs on the network.
       href: /european-government/
       cta: Browse European
@@ -213,7 +234,7 @@
     - name: Apache
       icon: foundation
       unit: providers
-      count: { from: total, key: companies-apache }
+      count: { from: total, key: providers-apache }
       description: Apache Software Foundation projects publishing APIs on the network.
       href: /apache/
       cta: Browse Apache
@@ -221,7 +242,7 @@
     - name: CNCF
       icon: cloud
       unit: providers
-      count: { from: total, key: companies-cncf }
+      count: { from: total, key: providers-cncf }
       description: Cloud Native Computing Foundation projects publishing APIs on the network.
       href: /cncf/
       cta: Browse CNCF
@@ -236,7 +257,7 @@
     - name: Exemplar
       icon: workspace_premium
       unit: providers
-      count: { from: total, key: companies-exemplar }
+      count: { from: total, key: providers-exemplar }
       description: Comprehensive API programs with full governance and excellent developer experience.
       href: /exemplar/
       cta: View Exemplar
@@ -248,7 +269,7 @@
     - name: Strong
       icon: verified
       unit: providers
-      count: { from: total, key: companies-strong }
+      count: { from: total, key: providers-strong }
       description: Solid governance, documentation, and developer tooling across the API program.
       href: /strong/
       cta: View Strong
@@ -258,7 +279,7 @@
     - name: Developing
       icon: trending_up
       unit: providers
-      count: { from: total, key: companies-developing }
+      count: { from: total, key: providers-developing }
       description: Making good progress toward a complete and well-governed API program.
       href: /developing/
       cta: View Developing
@@ -268,7 +289,7 @@
     - name: Thin
       icon: radio_button_unchecked
       unit: providers
-      count: { from: total, key: companies-thin }
+      count: { from: total, key: providers-thin }
       description: Basic API presence with limited governance, tooling, or documentation.
       href: /thin/
       cta: View Thin
@@ -278,7 +299,7 @@
     - name: Minimal
       icon: fiber_manual_record
       unit: providers
-      count: { from: total, key: companies-minimal }
+      count: { from: total, key: providers-minimal }
       description: Minimal API program signals detected on the network.
       href: /minimal/
       cta: View Minimal
