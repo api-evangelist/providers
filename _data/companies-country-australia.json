@@ -8,8 +8,8 @@
    "label": "Strong",
    "range": "60–69.9",
    "blurb": "Solid contracts, transparent operations, and an easy start.",
-   "count": 5,
-   "shown": 5,
+   "count": 6,
+   "shown": 6,
    "companies": [
     {
      "name": "Heidi Health",
@@ -27,7 +27,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -68,7 +68,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -109,7 +109,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -151,7 +151,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 53.8,
      "agent_band": "agent-ready",
@@ -186,7 +186,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -211,6 +211,41 @@
       "consent_identity": false
      },
      "rank": 5
+    },
+    {
+     "name": "PEXA",
+     "slug": "pexa",
+     "description": "PEXA (Property Exchange Australia) operates Australia's dominant Electronic Lodgement Network (ELN), the digital rail on which property is settled and title dealings are lodged with the state land registries. Where the Australian real estate value chain splits into a listings duopoly (REA Group and Domain) sitting over progressively privatised state land registries, PEXA occupies the transaction layer underneath both — electronic conveyancing, settlement funds movement, digital signing and lodgement — and e-conveyancing is now effectively mandated for most dealings in most Australian jurisdictions, making PEXA the closest thing in the property sector to a required, national, machine-readable rail. Its API posture is correspondingly unusual: PEXA publishes a genuine developer portal at developer.pexa.com.au with Swagger UI reference documentation and machine-readable OpenAPI/Swagger contracts for the Exchange, Projects, Notification (webhooks), Standalone Discharge and PEXA Plus Marketplace APIs, and the ARNECC Model Operating Requirements oblige it to offer API access to third parties on an equivalent basis. But that surface is not self-serve: PEXA states plainly that access to the Developer Portal and to test or production credentials is contingent on having signed PEXA's API Agreement, so a developer registers via a form, is validated and approved, signs an agreement, and is then issued OAuth 2.0 client credentials (or mutual TLS). RESO is absent — it is a North American MLS standard with no bearing on Australian e-conveyancing — so there is no RESO Web API or Data Dictionary certification here, and none should be expected. This is a well-documented, regulated, licensed-access API estate rather than an open one.",
+     "score": 60.1,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 70.5,
+      "governance": 0.0,
+      "operational_transparency": 55.3,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "agent_score": 86.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 6
     }
    ],
    "open": true
@@ -220,8 +255,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 55,
-   "shown": 55,
+   "count": 60,
+   "shown": 60,
    "companies": [
     {
      "name": "Azupay",
@@ -239,7 +274,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -263,7 +298,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 6
+     "rank": 7
     },
     {
      "name": "Coviu",
@@ -281,7 +316,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -305,7 +340,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 7
+     "rank": 8
     },
     {
      "name": "Fat Zebra",
@@ -323,7 +358,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -347,7 +382,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 8
+     "rank": 9
     },
     {
      "name": "Halo Connect",
@@ -365,7 +400,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -389,7 +424,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 9
+     "rank": 10
     },
     {
      "name": "Monoova",
@@ -406,7 +441,7 @@
       "developer_ergonomics": 84.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -430,7 +465,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 10
+     "rank": 11
     },
     {
      "name": "HR Partner",
@@ -448,7 +483,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -466,7 +501,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 11
+     "rank": 12
     },
     {
      "name": "Up",
@@ -484,7 +519,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -508,7 +543,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "ACMA",
@@ -525,7 +560,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -549,7 +584,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Evari",
@@ -567,7 +602,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -591,7 +626,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Telstra",
@@ -609,7 +644,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -627,7 +662,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Macquarie Bank",
@@ -645,7 +680,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -669,7 +704,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Tyro Payments",
@@ -686,7 +721,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -710,7 +745,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "IMB Bank",
@@ -728,7 +763,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -752,7 +787,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "Basiq",
@@ -770,7 +805,7 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -794,7 +829,42 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 19
+     "rank": 20
+    },
+    {
+     "name": "VaultRE",
+     "slug": "vaultre",
+     "description": "VaultRE - now marketed as MRI Vault CRM, after VaultRE's parent Vault Group / PropTech Group was absorbed into MRI Software - is an Australian cloud real estate CRM and transaction platform used by residential, commercial, rural, land, business and property-management agencies across Australia and New Zealand. It sits in the agency and CRM layer of the value chain rather than the portal or registry layer: it holds the agency's contacts, appraisals, listings, offers, open homes, feedback, tenancies, maintenance, invoicing and AML records, and feeds listings outward to Australia's portal duopoly (realestate.com.au and Domain) instead of being a portal, a land registry or a conveyancing rail itself. Unlike most of this sector, VaultRE publishes a genuinely open, versioned, machine-readable contract - a public MkDocs developer site at docs.api.vaultre.com.au carrying downloadable OpenAPI 3.0.1 documents for v1.1, v1.2 and v1.3 of the core API (324 paths and 453 operations in v1.3) plus a separate Aggregator API for franchise-group CRM data feeds. The API surface is documented openly but access is not self-serve: anyone can read the docs and download the specs, but API keys are issued only after an integrator-registration request is reviewed and approved (VaultRE states new integrations are generally created within two business days), and each agency must then mint a scoped access token for that integrator from inside its own VaultRE account. RESO plays no part here - Australia has no RESO mandate and no RESO, OData or $metadata reference appears anywhere in VaultRE's documentation or specifications; the local listing-distribution seam is REAXML and portal-specific feeds instead. Auth is a static X-Api-Key integrator key paired with a per-account Bearer access token, with an OAuth2-style authorisation-code flow available for token minting, scoped tokens readable via GET /scopes, HMAC-SHA512-signed webhooks, and published rate limits of 10 requests per second and 10,000 requests per day.",
+     "score": 54.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 63.1,
+      "governance": 0.0,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 67.4,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "agent_score": 84.6,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": true,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 21
     },
     {
      "name": "Optus",
@@ -811,7 +881,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 71.2,
      "agent_band": "agent-native",
@@ -829,7 +899,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 20
+     "rank": 22
     },
     {
      "name": "Buildxact",
@@ -847,7 +917,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 53.8,
      "agent_band": "agent-ready",
@@ -865,7 +935,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 21
+     "rank": 23
     },
     {
      "name": "Newcastle Permanent Building Society",
@@ -883,7 +953,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -907,7 +977,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 22
+     "rank": 24
     },
     {
      "name": "Monash University",
@@ -925,7 +995,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -949,7 +1019,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 23
+     "rank": 25
     },
     {
      "name": "BankVic",
@@ -967,7 +1037,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -991,7 +1061,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 24
+     "rank": 26
     },
     {
      "name": "Westpac Banking Corporation",
@@ -1009,7 +1079,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1033,7 +1103,42 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 25
+     "rank": 27
+    },
+    {
+     "name": "Reapit",
+     "slug": "reapit",
+     "description": "Reapit is a United Kingdom-headquartered supplier of agency CRM and property management software for estate and letting agents, best known for AgencyCloud and Property Cloud, and operating across the UK and Ireland, Australia and New Zealand, and Denmark (through Mindworking). In a market with no MLS, Reapit sits in the middle of the value chain: listings are created and maintained in the agent's CRM and pushed outward to the two dominant consumer portals, Rightmove and Zoopla, so the CRM — not any cooperative database — is where the machine-readable property record actually lives. Its API posture is unusually open for this sector and is the counter-example to \"certified but unreachable\": Reapit Foundations is a genuine developer platform with a public documentation site at foundations-documentation.reapit.cloud, a self-serve registration form at developers.reapit.cloud/register behind published Developer Terms and Conditions, an immediately usable SBOX sandbox, OpenID Connect authentication through Reapit Connect with a live anonymous discovery document, a REST API covering roughly thirty CRM resource domains, a public GraphQL proxy, a real webhooks system with sixty-plus event topics, and an alpha Model Context Protocol server. The contract is split rather than absent: the Swagger/OpenAPI document that powers the Interactive API Explorer is served from platform.reapit.cloud/docs behind a bearer token, so no REST spec is harvestable anonymously — but full GraphQL introspection against graphql.reapit.cloud succeeds without credentials and yields a real machine-readable contract of 190 types, 63 queries and 58 mutations, which is the widest public description of the platform that exists. The MCP server's tools/list is auth-gated, so its 43 tools are known only from the docs. Reaching any real agency's data still requires the app to pass Reapit's AppMarket listing review and then be installed by that customer, who grants the scopes. There is no RESO Web API or Data Dictionary certification, no OData $metadata document and no Universal Property Identifier anywhere in Reapit's stack — RESO is a North American, NAR-driven construct and the UK has no MLS to certify against. Reapit publishes no open data; the open UK property layer belongs to HM Land Registry and Ordnance Survey, not to the CRM vendors.",
+     "score": 51.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 76.3,
+      "developer_ergonomics": 78.3,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "agent_score": 53.8,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": true,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 28
     },
     {
      "name": "Best Practice Software",
@@ -1051,7 +1156,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1075,7 +1180,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 26
+     "rank": 29
     },
     {
      "name": "Commonwealth Bank",
@@ -1093,7 +1198,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1117,7 +1222,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 27
+     "rank": 30
     },
     {
      "name": "Australia and New Zealand Banking Group (ANZ)",
@@ -1135,7 +1240,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1159,7 +1264,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 28
+     "rank": 31
     },
     {
      "name": "Teachers Mutual Bank",
@@ -1177,7 +1282,7 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1201,7 +1306,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 29
+     "rank": 32
     },
     {
      "name": "QBE Insurance",
@@ -1218,7 +1323,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1242,7 +1347,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 30
+     "rank": 33
     },
     {
      "name": "University of Adelaide",
@@ -1260,7 +1365,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1284,7 +1389,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 31
+     "rank": 34
     },
     {
      "name": "National Australia Bank",
@@ -1302,7 +1407,7 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1326,7 +1431,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 32
+     "rank": 35
     },
     {
      "name": "St.George Bank",
@@ -1344,7 +1449,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1368,7 +1473,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 33
+     "rank": 36
     },
     {
      "name": "BCU Bank",
@@ -1386,7 +1491,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1410,7 +1515,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 34
+     "rank": 37
     },
     {
      "name": "Bendigo and Adelaide Bank",
@@ -1428,7 +1533,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1452,7 +1557,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 35
+     "rank": 38
     },
     {
      "name": "Suncorp Bank",
@@ -1470,7 +1575,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1494,7 +1599,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 36
+     "rank": 39
     },
     {
      "name": "Regional Australia Bank",
@@ -1512,7 +1617,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1536,7 +1641,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 37
+     "rank": 40
     },
     {
      "name": "Deakin University",
@@ -1554,7 +1659,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1578,7 +1683,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 38
+     "rank": 41
     },
     {
      "name": "MOVE Bank",
@@ -1596,7 +1701,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1620,7 +1725,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 39
+     "rank": 42
     },
     {
      "name": "AMP Bank",
@@ -1638,7 +1743,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1662,7 +1767,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 40
+     "rank": 43
     },
     {
      "name": "Bank First",
@@ -1680,7 +1785,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1704,7 +1809,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 41
+     "rank": 44
     },
     {
      "name": "Weel",
@@ -1721,7 +1826,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1745,7 +1850,42 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 42
+     "rank": 45
+    },
+    {
+     "name": "Domain Group",
+     "slug": "domain-group",
+     "description": "Domain Group (Domain Holdings Australia Ltd, trading as domain.com.au) is the second of Australia's two national residential property portals, alongside REA Group's realestate.com.au, and since 27 August 2025 has been a wholly owned subsidiary of CoStar Group. Headquartered in Sydney, Domain operates the domain.com.au consumer marketplace plus commercial, agent, and developer-project brands, and sits in the middle of the Australian value chain between selling and leasing agencies on one side and buyers, renters, banks, and PropTech builders on the other. Unlike most of the real estate sector, Domain runs a genuine, self-serve public developer portal at developer.domain.com.au: a developer signs up with GitHub, Google, or email, creates a project, and is immediately granted the \"Agents & Listings\" and \"Properties & Locations\" packages, with the remaining eleven packages - Address Suggestions, Campaign reporting, Listings Management, Price Estimation, Property Enrichment, Property Package, PropertyRadar, Rental AVM, Schools Data, and Webhooks - added per project and negotiated with an account manager. Domain publishes three machine-readable OpenAPI 3.0.4 documents (latest, v1, v2) directly from its Libraries page, backs them with an OpenID Connect discovery document at auth.domain.com.au, and serves everything from api.domain.com.au behind API-key or OAuth 2.0 (client credentials, authorization code, implicit) credentials. Write access is a different gate entirely: uploading or updating listings requires sandbox sign-off by email to api@domain.com.au and written permission from the principal agent of each agency, making listing management broker-authorised even though the read surface is self-serve. Domain carries no RESO Web API or RESO Data Dictionary certification, exposes no OData $metadata document and no Universal Property Identifier - RESO is a North American NAR-driven standard with no presence in the Australian portal duopoly - and it publishes no open, unlicensed dataset; all data is licensed under the Domain Group API Terms and Conditions.",
+     "score": 49.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 60.4,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 71.7,
+      "commercial_clarity": 23.7
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "agent_score": 81.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 46
     },
     {
      "name": "Great Southern Bank",
@@ -1763,7 +1903,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1787,7 +1927,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 43
+     "rank": 47
     },
     {
      "name": "RMIT University",
@@ -1805,7 +1945,7 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -1823,7 +1963,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 44
+     "rank": 48
     },
     {
      "name": "Open",
@@ -1840,7 +1980,7 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1864,7 +2004,48 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 45
+     "rank": 49
+    },
+    {
+     "name": "Landgate",
+     "slug": "landgate",
+     "description": "Landgate is the Western Australian Land Information Authority — the WA government agency that maintains the state land titles register, values every rateable property in Western Australia, and curates the state's foundational location data (cadastre, tenure, property addresses, sales evidence, imagery, elevation, geographic names). In the Australian real estate value chain Landgate sits underneath the listing portals (REA Group's realestate.com.au and Domain) and underneath PEXA's electronic conveyancing rail as the authoritative source of the public land record for WA; since 2019 the automated land titling and registry operations have been operated under a commercial services arrangement while Landgate retains the Registrar of Titles function and the data custodianship. Its API posture is genuinely split and should not be overstated — a real, anonymously callable public surface exists (the SLIP Shared Location Information Platform ArcGIS REST directory plus OGC WMS/WFS services, and the Data WA CKAN Action API that Landgate operates for the whole WA public sector), while the richer registry and subscription data sits behind SLIP subscription, transaction, publication, broker, distributor and value-added-reseller licences that must be signed and, for bulk downloads, behind a MyLandgate account login. There is no developer portal, no published OpenAPI, no API key self-service, and no RESO involvement of any kind — RESO is a North American MLS standard and is absent from this Australian government registry.",
+     "score": 48.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 52.2,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 76.1
+     },
+     "agent_score": 57.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 50
     },
     {
      "name": "Qudos Bank",
@@ -1882,7 +2063,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1906,7 +2087,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 46
+     "rank": 51
     },
     {
      "name": "Beyond Bank Australia",
@@ -1924,7 +2105,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -1948,7 +2129,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 47
+     "rank": 52
     },
     {
      "name": "Macquarie University",
@@ -1966,7 +2147,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -1984,7 +2165,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 48
+     "rank": 53
     },
     {
      "name": "Australian Military Bank",
@@ -2002,7 +2183,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2026,7 +2207,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 49
+     "rank": 54
+    },
+    {
+     "name": "PropertyMe",
+     "slug": "propertyme",
+     "description": "PropertyMe is an Australian cloud property management and trust accounting platform for residential real estate agencies, founded in 2013 and operated by MePay Holdings Pty Ltd (AFCA member ID 81095, AFS licence no. 528836), with roughly 1.7 million properties under management across Australia and New Zealand. In the Australian property value chain it sits on the PROPERTY MANAGEMENT rail rather than the listing or settlement rails — it does not operate a portal like REA Group's realestate.com.au or Domain, and it is not a PEXA conveyancing participant; it is the system of record for the rental portfolio, holding lots, tenancies, owners, tenants, suppliers, trust transactions, inspections, maintenance jobs and documents, plus its own MePay payments product and the Grow CRM and AiMe assistant products. Its API posture is unusually honest for this sector — the machine-readable contract is genuinely open while the credentials are not. A Swagger 2.0 document describing 75 paths, 86 operations and 296 definitions is served anonymously with no login at https://app.propertyme.com/api/openapi.json, rendered by a public Swagger UI at https://app.propertyme.com/api/swagger-ui/, and the OpenID Connect discovery document at https://login.propertyme.com is also served anonymously and advertises the full scope list. But no self-serve developer signup, app registration route or public client-credential issuance path exists anywhere on propertyme.com.au, app.propertyme.com or any developer/developers/docs/api subdomain (none of which resolve); a developer must approach PropertyMe to be issued an OAuth client_id and client_secret, and every call is additionally scoped to one customer's portfolio that the agency itself connects and can disconnect. RESO is absent — PropertyMe does not appear in the RESO certification directory, there is no OData service, no $metadata document and no Universal Property Identifier, which is the expected Australian answer because RESO is a North American NAR/MLS construct with no Australian counterpart. PropertyMe publishes no open data.",
+     "score": 47.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 47.8,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 76.1
+     },
+     "agent_score": 69.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 55
     },
     {
      "name": "University of Newcastle Australia",
@@ -2044,7 +2266,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -2062,7 +2284,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 50
+     "rank": 56
     },
     {
      "name": "University of Western Australia",
@@ -2080,7 +2302,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -2098,7 +2320,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 51
+     "rank": 57
     },
     {
      "name": "Bank of Queensland",
@@ -2116,7 +2338,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2140,7 +2362,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 52
+     "rank": 58
     },
     {
      "name": "Summerland Bank",
@@ -2158,7 +2380,7 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2182,7 +2404,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 53
+     "rank": 59
     },
     {
      "name": "Bankwest",
@@ -2200,7 +2422,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2224,7 +2446,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 54
+     "rank": 60
     },
     {
      "name": "Unity Bank",
@@ -2242,7 +2464,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2266,7 +2488,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 55
+     "rank": 61
     },
     {
      "name": "Bank of us",
@@ -2284,7 +2506,7 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2308,7 +2530,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 56
+     "rank": 62
     },
     {
      "name": "HSBC Bank Australia",
@@ -2326,263 +2548,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 76.1
-     },
-     "agent_score": 69.2,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "rank": 57
-    },
-    {
-     "name": "ING Australia",
-     "slug": "ing-australia",
-     "description": "ING Australia is the retail banking division of ING Bank (Australia) Limited (ABN 24 000 893 292), a wholly owned subsidiary of the Dutch multinational ING Groep N.V. headquartered in Amsterdam. Launched in 1999 as ING Direct and rebranded to ING in 2017, it is a branchless, digital-first direct bank offering everyday transaction and savings accounts, home loans, superannuation, and insurance to Australian consumers. It is not a customer-owned mutual; it is a foreign-owned Authorised Deposit-taking Institution (ADI) regulated by APRA and ASIC. As an active ADI, ING is an accredited data holder under Australia's Consumer Data Right (CDR / Open Banking) and exposes the mandatory public, unauthenticated Product Reference Data (PRD) API conforming to the Consumer Data Standards (CDS). Authenticated consumer-data sharing follows the CDR ecosystem model (OAuth2 / OIDC FAPI profile via accredited data recipients); ING does not operate a broad, self-serve public developer portal.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/screenshots/ing-australia-2026-07-21T114732.png",
-     "score": 45.5,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 54.2,
-      "governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 76.1
-     },
-     "agent_score": 69.2,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": false
-     },
-     "rank": 58
-    },
-    {
-     "name": "TPG Telecom",
-     "slug": "tpg-telecom",
-     "description": "TPG Telecom Limited is Australia's second-largest telecommunications company and an ASX-listed mobile network operator and fixed broadband carrier, formed by the 2020 merger of Vodafone Hutchison Australia and TPG Corporation. It runs its own mobile network reaching 98.4% of the Australian population and sells under the Vodafone, TPG, iiNet, Internode, Lebara and felix brands, with business, enterprise, government and wholesale services consolidated under Vodafone Business. In the telecom API value chain TPG Telecom sits squarely on the network side and not the developer side: it publishes no first-party developer portal, no downloadable OpenAPI, and no network APIs. Its only public, callable developer surface is the Vodafone Business Messaging Hub — a white-labelled Sinch MessageMedia (Sinch Engage) CPaaS platform running on TPG-branded hosts at messaging.tpgtelecom.com.au and api.messaging.tpgtelecom.com.au, with documentation served from a Zendesk help centre and an Apiary API Blueprint owned by MessageMedia. On the sector's defining signal, CAMARA and GSMA Open Gateway, TPG Telecom is a stated non-participant: while Telstra went live with Number Verification and SIM Swap through Aduna and Optus signalled it would follow, TPG's public position is that it is \"closely watching developments like GSMA Open Gateway\" while prioritising local scam prevention — a watching brief, not an implementation. TPG Telecom is therefore partner-gated and aggregator-mediated: developers reach its network through a CPaaS supplier, not through TPG.",
-     "score": 45.3,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 92.5,
-      "contract_quality": 22.6,
-      "governance": 0.0,
-      "operational_transparency": 39.5,
-      "developer_ergonomics": 50.0,
-      "commercial_clarity": 76.3
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "agent_score": 52.9,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": true,
-      "agent_skills": true,
-      "well_known_catalog": true,
-      "consent_identity": true
-     },
-     "rank": 59
-    },
-    {
-     "name": "Rabobank Australia",
-     "slug": "rabobank-australia",
-     "description": "Rabobank Australia is the Australian arm of Rabobank Group, the Netherlands-headquartered cooperative bank and one of the world's leading food and agribusiness specialist lenders. In Australia it operates as an Authorised Deposit-taking Institution (ADI), offering rural and agribusiness finance alongside consumer online savings accounts and term deposits, including SMSF products. As a member-focused, cooperatively owned institution rather than a shareholder-driven bank, its Australian retail and business deposit products fall under the Consumer Data Right (CDR / Open Banking). Rabobank therefore exposes a public, unauthenticated Product Reference Data (PRD) API that conforms to the Data Standards Body (DSB) Consumer Data Standards, while authenticated consumer data sharing follows the CDR accredited data recipient (ADR) model built on OAuth2 / OpenID Connect (FAPI).",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/screenshots/rabobank-australia-2026-07-21T114745.png",
-     "score": 45.0,
-     "band": "developing",
-     "band_label": "Developing",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 54.0,
-      "governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 54.3,
-      "commercial_clarity": 18.4
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 78.3
-     },
-     "agent_score": 51.0,
-     "agent_band": "agent-ready",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": false,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 60
-    }
-   ],
-   "open": true
-  },
-  {
-   "band": "thin",
-   "label": "Thin",
-   "range": "30–44.9",
-   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 37,
-   "shown": 37,
-   "companies": [
-    {
-     "name": "Hume Bank",
-     "slug": "hume-bank",
-     "description": "Hume Bank is a customer-owned (mutual) Australian bank headquartered in Albury, New South Wales. Founded in 1955 as the Hume Co-operative Building & Investment Society, it became Hume Building Society and then Hume Bank on 1 July 2014, serving roughly 65,000 customers with around A$1.70 billion in assets. As an authorised deposit-taking institution (ADI) it participates in Australia's Consumer Data Right (CDR / Open Banking) regime, exposing a public, unauthenticated Product Reference Data (PRD) API built to the Consumer Data Standards for its retail and business deposit and credit card products, alongside the accredited-data-recipient consent flows required of a CDR data holder.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/screenshots/hume-bank-2026-07-21T114727.png",
-     "score": 44.9,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 53.6,
-      "governance": 0.0,
-      "operational_transparency": 0.0,
-      "developer_ergonomics": 54.3,
-      "commercial_clarity": 44.7
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 54.3
-     },
-     "agent_score": 65.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 61
-    },
-    {
-     "name": "Defence Bank",
-     "slug": "defence-bank",
-     "description": "Defence Bank Limited is an Australian customer-owned (mutual) bank established in 1975 and headquartered in Melbourne, serving current and former Australian Defence Force personnel, Department of Defence employees, and their families as well as the broader community. As an APRA-regulated Authorised Deposit-taking Institution (ADI), it exists to return value to members rather than external shareholders. Under Australia's Consumer Data Right (CDR / Open Banking), Defence Bank operates as a data holder and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards; deeper consumer-data sharing requires an accredited data recipient and the OAuth2/OIDC FAPI CDR authorization model.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/screenshots/defence-bank-2026-07-21T114721.png",
-     "score": 44.6,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 54.0,
-      "governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 52.2,
-      "commercial_clarity": 18.4
-     },
-     "scored_at": "2026-07-25",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 78.3
-     },
-     "agent_score": 65.4,
-     "agent_band": "agent-native",
-     "agent_dims": {
-      "spec_presence": true,
-      "agentic_access": true,
-      "mcp_server": true,
-      "auth_clarity": true,
-      "idempotency": false,
-      "error_semantics": true,
-      "openapi_examples": false,
-      "rate_limit_signal": false,
-      "asyncapi_events": false,
-      "agent_skills": true,
-      "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 62
-    },
-    {
-     "name": "Alex Bank",
-     "slug": "alex-bank",
-     "description": "Alex Bank (Alex Bank Pty Ltd, ABN 13 627 244 848) is an Australian digital bank headquartered in Brisbane, founded in 2018 by former Suncorp bankers Simon Beitz and Craig Fenwick. It is a shareholder-owned, venture-backed authorised deposit-taking institution (ADI) - not a customer-owned mutual - that received its Restricted ADI licence from APRA in July 2021 and a full banking licence in December 2021, and joined the Reserve Bank of Australia's RITS as an Exchange Settlement Account holder in 2025. Alex offers consumer lending (personal, green, car and EV loans) and deposit products (term deposits and a savings account). As an active ADI, Alex is a Consumer Data Right (CDR) data holder - it publishes an unauthenticated Product Reference Data API under the DSB Consumer Data Standards, runs a CDR consent-management portal, and supports accredited-data-recipient sharing of savings, term deposit and personal loan data.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/screenshots/alex-bank-2026-07-21T114701.png",
-     "score": 44.4,
-     "band": "thin",
-     "band_label": "Thin",
-     "facets": {
-      "discoverability": 100.0,
-      "contract_quality": 55.8,
-      "governance": 0.0,
-      "operational_transparency": 7.9,
-      "developer_ergonomics": 47.8,
-      "commercial_clarity": 21.1
-     },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2609,22 +2575,152 @@
      "rank": 63
     },
     {
-     "name": "Greater Bank",
-     "slug": "greater-bank",
-     "description": "Greater Bank is a customer-owned Australian retail bank headquartered in Newcastle, New South Wales, offering everyday transaction and savings accounts, term deposits, home loans, personal loans, and credit cards to personal and business customers. In March 2023 Greater Bank merged with Newcastle Permanent to form Newcastle Greater Mutual Group (NGM Group), one of Australia's largest customer-owned mutual banking organisations, while continuing to trade under the Greater Bank brand. As an Authorised Deposit-taking Institution (ADI) it is a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards. Consumer-data sharing beyond PRD runs on the accredited CDR data-recipient (ADR) model with OAuth2/OpenID Connect FAPI-profile security.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/screenshots/greater-bank-2026-07-21T130910.png",
-     "score": 44.3,
+     "name": "ING Australia",
+     "slug": "ing-australia",
+     "description": "ING Australia is the retail banking division of ING Bank (Australia) Limited (ABN 24 000 893 292), a wholly owned subsidiary of the Dutch multinational ING Groep N.V. headquartered in Amsterdam. Launched in 1999 as ING Direct and rebranded to ING in 2017, it is a branchless, digital-first direct bank offering everyday transaction and savings accounts, home loans, superannuation, and insurance to Australian consumers. It is not a customer-owned mutual; it is a foreign-owned Authorised Deposit-taking Institution (ADI) regulated by APRA and ASIC. As an active ADI, ING is an accredited data holder under Australia's Consumer Data Right (CDR / Open Banking) and exposes the mandatory public, unauthenticated Product Reference Data (PRD) API conforming to the Consumer Data Standards (CDS). Authenticated consumer-data sharing follows the CDR ecosystem model (OAuth2 / OIDC FAPI profile via accredited data recipients); ING does not operate a broad, self-serve public developer portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/ing-australia/refs/heads/main/screenshots/ing-australia-2026-07-21T114732.png",
+     "score": 45.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 54.2,
+      "governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 76.1
+     },
+     "agent_score": 69.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 64
+    },
+    {
+     "name": "TPG Telecom",
+     "slug": "tpg-telecom",
+     "description": "TPG Telecom Limited is Australia's second-largest telecommunications company and an ASX-listed mobile network operator and fixed broadband carrier, formed by the 2020 merger of Vodafone Hutchison Australia and TPG Corporation. It runs its own mobile network reaching 98.4% of the Australian population and sells under the Vodafone, TPG, iiNet, Internode, Lebara and felix brands, with business, enterprise, government and wholesale services consolidated under Vodafone Business. In the telecom API value chain TPG Telecom sits squarely on the network side and not the developer side: it publishes no first-party developer portal, no downloadable OpenAPI, and no network APIs. Its only public, callable developer surface is the Vodafone Business Messaging Hub — a white-labelled Sinch MessageMedia (Sinch Engage) CPaaS platform running on TPG-branded hosts at messaging.tpgtelecom.com.au and api.messaging.tpgtelecom.com.au, with documentation served from a Zendesk help centre and an Apiary API Blueprint owned by MessageMedia. On the sector's defining signal, CAMARA and GSMA Open Gateway, TPG Telecom is a stated non-participant: while Telstra went live with Number Verification and SIM Swap through Aduna and Optus signalled it would follow, TPG's public position is that it is \"closely watching developments like GSMA Open Gateway\" while prioritising local scam prevention — a watching brief, not an implementation. TPG Telecom is therefore partner-gated and aggregator-mediated: developers reach its network through a CPaaS supplier, not through TPG.",
+     "score": 45.3,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 76.3
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "agent_score": 52.9,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 65
+    },
+    {
+     "name": "Rabobank Australia",
+     "slug": "rabobank-australia",
+     "description": "Rabobank Australia is the Australian arm of Rabobank Group, the Netherlands-headquartered cooperative bank and one of the world's leading food and agribusiness specialist lenders. In Australia it operates as an Authorised Deposit-taking Institution (ADI), offering rural and agribusiness finance alongside consumer online savings accounts and term deposits, including SMSF products. As a member-focused, cooperatively owned institution rather than a shareholder-driven bank, its Australian retail and business deposit products fall under the Consumer Data Right (CDR / Open Banking). Rabobank therefore exposes a public, unauthenticated Product Reference Data (PRD) API that conforms to the Data Standards Body (DSB) Consumer Data Standards, while authenticated consumer data sharing follows the CDR accredited data recipient (ADR) model built on OAuth2 / OpenID Connect (FAPI).",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/rabobank-australia/refs/heads/main/screenshots/rabobank-australia-2026-07-21T114745.png",
+     "score": 45.0,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 54.0,
+      "governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 54.3,
+      "commercial_clarity": 18.4
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 78.3
+     },
+     "agent_score": 51.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 66
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 40,
+   "shown": 40,
+   "companies": [
+    {
+     "name": "Hume Bank",
+     "slug": "hume-bank",
+     "description": "Hume Bank is a customer-owned (mutual) Australian bank headquartered in Albury, New South Wales. Founded in 1955 as the Hume Co-operative Building & Investment Society, it became Hume Building Society and then Hume Bank on 1 July 2014, serving roughly 65,000 customers with around A$1.70 billion in assets. As an authorised deposit-taking institution (ADI) it participates in Australia's Consumer Data Right (CDR / Open Banking) regime, exposing a public, unauthenticated Product Reference Data (PRD) API built to the Consumer Data Standards for its retail and business deposit and credit card products, alongside the accredited-data-recipient consent flows required of a CDR data holder.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/hume-bank/refs/heads/main/screenshots/hume-bank-2026-07-21T114727.png",
+     "score": 44.9,
      "band": "thin",
      "band_label": "Thin",
      "facets": {
       "discoverability": 100.0,
-      "contract_quality": 55.8,
+      "contract_quality": 53.6,
       "governance": 0.0,
-      "operational_transparency": 23.7,
-      "developer_ergonomics": 56.5,
-      "commercial_clarity": 21.1
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 54.3,
+      "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2648,7 +2744,133 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 64
+     "rank": 67
+    },
+    {
+     "name": "Defence Bank",
+     "slug": "defence-bank",
+     "description": "Defence Bank Limited is an Australian customer-owned (mutual) bank established in 1975 and headquartered in Melbourne, serving current and former Australian Defence Force personnel, Department of Defence employees, and their families as well as the broader community. As an APRA-regulated Authorised Deposit-taking Institution (ADI), it exists to return value to members rather than external shareholders. Under Australia's Consumer Data Right (CDR / Open Banking), Defence Bank operates as a data holder and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the DSB Consumer Data Standards; deeper consumer-data sharing requires an accredited data recipient and the OAuth2/OIDC FAPI CDR authorization model.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/defence-bank/refs/heads/main/screenshots/defence-bank-2026-07-21T114721.png",
+     "score": 44.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 54.0,
+      "governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 52.2,
+      "commercial_clarity": 18.4
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 78.3
+     },
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 68
+    },
+    {
+     "name": "Alex Bank",
+     "slug": "alex-bank",
+     "description": "Alex Bank (Alex Bank Pty Ltd, ABN 13 627 244 848) is an Australian digital bank headquartered in Brisbane, founded in 2018 by former Suncorp bankers Simon Beitz and Craig Fenwick. It is a shareholder-owned, venture-backed authorised deposit-taking institution (ADI) - not a customer-owned mutual - that received its Restricted ADI licence from APRA in July 2021 and a full banking licence in December 2021, and joined the Reserve Bank of Australia's RITS as an Exchange Settlement Account holder in 2025. Alex offers consumer lending (personal, green, car and EV loans) and deposit products (term deposits and a savings account). As an active ADI, Alex is a Consumer Data Right (CDR) data holder - it publishes an unauthenticated Product Reference Data API under the DSB Consumer Data Standards, runs a CDR consent-management portal, and supports accredited-data-recipient sharing of savings, term deposit and personal loan data.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/alex-bank/refs/heads/main/screenshots/alex-bank-2026-07-21T114701.png",
+     "score": 44.4,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 55.8,
+      "governance": 0.0,
+      "operational_transparency": 7.9,
+      "developer_ergonomics": 47.8,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 76.1
+     },
+     "agent_score": 69.2,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 69
+    },
+    {
+     "name": "Greater Bank",
+     "slug": "greater-bank",
+     "description": "Greater Bank is a customer-owned Australian retail bank headquartered in Newcastle, New South Wales, offering everyday transaction and savings accounts, term deposits, home loans, personal loans, and credit cards to personal and business customers. In March 2023 Greater Bank merged with Newcastle Permanent to form Newcastle Greater Mutual Group (NGM Group), one of Australia's largest customer-owned mutual banking organisations, while continuing to trade under the Greater Bank brand. As an Authorised Deposit-taking Institution (ADI) it is a designated data holder under Australia's Consumer Data Right (CDR / Open Banking) and exposes a public, unauthenticated Product Reference Data (PRD) API conforming to the Data Standards Body (DSB) Consumer Data Standards. Consumer-data sharing beyond PRD runs on the accredited CDR data-recipient (ADR) model with OAuth2/OpenID Connect FAPI-profile security.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/greater-bank/refs/heads/main/screenshots/greater-bank-2026-07-21T130910.png",
+     "score": 44.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 55.8,
+      "governance": 0.0,
+      "operational_transparency": 23.7,
+      "developer_ergonomics": 56.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 54.3
+     },
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 70
     },
     {
      "name": "BankSA",
@@ -2666,7 +2888,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2690,7 +2912,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 65
+     "rank": 71
     },
     {
      "name": "P&N Bank",
@@ -2708,7 +2930,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2732,7 +2954,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 66
+     "rank": 72
     },
     {
      "name": "Till Payments",
@@ -2749,7 +2971,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2773,7 +2995,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 67
+     "rank": 73
     },
     {
      "name": "People First Bank",
@@ -2791,7 +3013,7 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2815,7 +3037,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 68
+     "rank": 74
     },
     {
      "name": "Bank Australia",
@@ -2833,7 +3055,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2857,7 +3079,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 69
+     "rank": 75
     },
     {
      "name": "Avenue Bank",
@@ -2875,7 +3097,7 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2899,7 +3121,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 70
+     "rank": 76
     },
     {
      "name": "Auswide Bank",
@@ -2917,7 +3139,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2941,7 +3163,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 71
+     "rank": 77
     },
     {
      "name": "Australian Unity Bank",
@@ -2959,7 +3181,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -2983,7 +3205,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 72
+     "rank": 78
     },
     {
      "name": "RACQ Bank",
@@ -3001,7 +3223,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3025,7 +3247,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 73
+     "rank": 79
     },
     {
      "name": "Gateway Bank",
@@ -3043,7 +3265,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 18.4
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3067,7 +3289,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 74
+     "rank": 80
     },
     {
      "name": "eWAY",
@@ -3085,7 +3307,7 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3109,7 +3331,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 75
+     "rank": 81
     },
     {
      "name": "HotDoc",
@@ -3127,7 +3349,7 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3151,7 +3373,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 76
+     "rank": 82
     },
     {
      "name": "ubank",
@@ -3169,7 +3391,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3193,7 +3415,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 77
+     "rank": 83
     },
     {
      "name": "Healthdirect Australia",
@@ -3211,7 +3433,7 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3235,7 +3457,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 78
+     "rank": 84
     },
     {
      "name": "La Trobe University",
@@ -3253,7 +3475,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3277,7 +3499,89 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 79
+     "rank": 85
+    },
+    {
+     "name": "Pricefinder",
+     "slug": "pricefinder",
+     "description": "Pricefinder is an Australian property intelligence and valuation platform operating at pricefinder.com.au, supplying property records, comparable sales and rental history, suburb statistics, AVM-powered price estimates and CMA/appraisal reports to real estate agencies, mortgage brokers, banks and lenders, valuers, property developers, advisory firms and government. Its home market is Australia and it sits on the data side of the value chain rather than the portal side — it blends Domain and Allhomes first-party listing feeds with state and territory government land valuation and sales data plus third-party mapping, then resells that as reports, a web application and an API. Pricefinder is a brand of Domain Holdings Australia, which CoStar Group completed the acquisition of in August 2025, so it now sits inside the same group as Domain, Allhomes and Commercial Real Estate. Its API posture is unusually honest for this sector — the full machine-readable contract is genuinely public. A complete Swagger 2.0 document (v1.13.1, 112 paths, 188 definitions, 19 tags) and an interactive Swagger UI are served anonymously from api.pricefinder.com.au, and OAuth 2.0 client_credentials, authorization_code and refresh_token flows are documented in full. But every data path returns 401 without credentials, and credentials are not self-serve — there is no developer signup, only industry \"Get started\" forms that route to sales for a custom, minimum-one-month commercial subscription governed by the Domain Group API Terms and Conditions. Australia has no MLS system and no RESO regime — no RESO Web API or Data Dictionary certification, no OData $metadata document and no Universal Property Identifier appears anywhere in Pricefinder's contract or documentation. The land-registry seam shows up instead as state-specific title reference lookups (NSW/VIC/QLD/SA/WA/TAS/NT/ACT plan, lot, section, volume and folio paths).",
+     "score": 40.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 60.9,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 54.3
+     },
+     "agent_score": 51.0,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 86
+    },
+    {
+     "name": "NSW Land Registry Services",
+     "slug": "nsw-land-registry",
+     "description": "NSW Land Registry Services (NSW LRS) operates the Torrens Title Register for New South Wales, Australia's largest property market, under a concession granted by the NSW Government on 1 July 2017 and held by Australian Registry Investments Pty Ltd (ACN 617 926 020) as trustee for the Australian Registry Investments Trust. It is a privatised operator of a public record: the Registrar General retains the statutory authority and the Office of the Registrar General regulates the concession, while NSW LRS runs the register, examines and registers dealings and plans, and sells access to the resulting data. It sits at the legal foundation of the Australian value chain, beneath the REA Group and Domain portal duopoly, beneath PropTrack and CoreLogic valuation, and beneath PEXA and Sympli, the Electronic Lodgment Network Operators through which every Real Property Act dealing must now be lodged. Its API posture is the sharpest example in this study of a registry that is technically modern and commercially closed. There is no developer portal, no developer or docs subdomain, no published API programme, no OpenAPI or Swagger document, no SDK, no Postman workspace and no GitHub organization. One documented, anonymously callable API does exist, and it is not about land: the NSW LRS status page is an Atlassian Statuspage with the public v2 API enabled and referenced at status.nswlrs.com.au/api, publishing 27 components — among them an \"API Service\" component under Information Broker Services that confirms from the registry's own mouth that a production API estate sits behind the broker licence — plus RSS and Atom incident feeds and webhook notifications on incident and component changes. Access to the register itself is gated behind a licence: the site states plainly that \"Only an information broker we've authorised can access our records\", and those brokers — InfoTrack, Dye & Durham, Equifax, CITEC Confirm, TriSearch, Landchecker, Fynd, PSI Global and others — \"deliver and on-sell land titling and related property information through an official licence agreement with NSW LRS\". Wholesale data products (Property Alerts, Lease Notifications, Mortgage Insights, Mortgage Verifications) are sold by emailing datasolutions@nswlrs.com.au, with no self-serve path and no published technical contract. What does exist, and what this profile records, are three genuinely reachable machine-readable surfaces that NSW LRS never advertises to developers: a Cantaloupe IIIF Image API 2.0 Level 2 endpoint serving the scanned historical land records behind the Historical Land Records Viewer, an anonymously callable Elasticsearch search proxy over 7,160,622 indexed historical documents, and a publicly downloadable W3C XML Schema for the ICSM ePlan Cadastral Information File enumerated types that pins the NSW LandXML jurisdictional vocabulary now mandatory for digital plan lodgment. The contracts are open; the licence is not — the HLRV terms of use prohibit on-supply, data aggregation, republishing and \"any device, software or routine to abuse the service of HLRV or emulate human interaction and operation\". RESO is entirely absent: NSW LRS appears nowhere in RESO's certified-organizations list, there is no RESO Web API or Data Dictionary certification, no OData $metadata document and no Universal Property Identifier, which is the expected answer for Australia, where RESO is a North American NAR construct with no adoption. No open, unlicensed dataset is published — NSW LRS is not a publishing organization on data.nsw.gov.au — and a privatised registry selling the public record back through a licensed broker channel is itself the finding. The registry does publish its language: a 257-term glossary of NSW land titling definitions, harvested here as the controlled vocabulary that stands in for the data dictionary it never wrote.",
+     "score": 40.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 22.6,
+      "governance": 13.2,
+      "operational_transparency": 39.5,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 54.3
+     },
+     "agent_score": 29.8,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": true,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 87
     },
     {
      "name": "MedAdvisor",
@@ -3294,7 +3598,7 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3318,7 +3622,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 80
+     "rank": 88
     },
     {
      "name": "Police Bank",
@@ -3336,7 +3640,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3360,7 +3664,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 81
+     "rank": 89
     },
     {
      "name": "MyState Bank",
@@ -3378,7 +3682,7 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3402,7 +3706,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 82
+     "rank": 90
     },
     {
      "name": "Steadfast Group",
@@ -3419,7 +3723,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3443,7 +3747,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 83
+     "rank": 91
     },
     {
      "name": "G&C Mutual Bank",
@@ -3461,7 +3765,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3485,7 +3789,42 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 84
+     "rank": 92
+    },
+    {
+     "name": "CoreLogic Australia",
+     "slug": "corelogic-au",
+     "description": "CoreLogic Australia — trading as Cotality since the 2025 global rebrand, and operating the RP Data platform through RP Data Pty Ltd — is the dominant independent property data, analytics and valuation provider in Australia and New Zealand. It sits in the middle of the Australian property value chain: it aggregates state land-registry and valuer-general records, agent and portal listing campaigns, auction results and rental campaigns into a single property spine, then sells that spine back to banks, mortgage brokers, valuers, insurers, agents and government. Its commercial products include the RP Data / RP Professional desktop, the IntelliVal automated valuation model, the CoreLogic Home Value Index, Cordell construction cost data, Cityscope commercial property data, and the PSX valuation ordering exchange. Its API posture is genuinely developer-facing but commercially licensed: a live Backstage-based Cotality Developer Portal at developer.corelogic.asia offers self-serve signup and self-serve creation of sandbox OAuth clients against a deliberately restricted evaluation dataset with request quotas, while every production API host in the *.api.cotality.com.au family answers 401 \"Access token is missing\" and requires a signed commercial data licence. Australia has no MLS and no RESO mandate — CoreLogic's RESO Web API and Data Dictionary certifications belong to Trestle, its United States MLS platform, not to this Australian surface. The Australian APIs are proprietary REST/JSON over an Apigee gateway with OAuth 2.0 client credentials; no OData $metadata, no RESO endpoint, and no RESO Universal Property Identifier appears anywhere in the Australian developer portal.",
+     "score": 38.6,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 69.6,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "agent_score": 38.5,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 93
     },
     {
      "name": "Codafication",
@@ -3503,7 +3842,7 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3527,7 +3866,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 85
+     "rank": 94
     },
     {
      "name": "Bank of Sydney",
@@ -3545,7 +3884,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3569,7 +3908,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 86
+     "rank": 95
     },
     {
      "name": "Bank of Melbourne",
@@ -3587,7 +3926,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3611,7 +3950,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 87
+     "rank": 96
     },
     {
      "name": "Insurance Council of Australia",
@@ -3629,7 +3968,7 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3653,7 +3992,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 88
+     "rank": 97
     },
     {
      "name": "Shippit",
@@ -3670,7 +4009,7 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 48.1,
      "agent_band": "agent-ready",
@@ -3688,7 +4027,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 89
+     "rank": 98
     },
     {
      "name": "Zeller",
@@ -3705,7 +4044,7 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3729,7 +4068,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 90
+     "rank": 99
     },
     {
      "name": "NPP Australia (AP+)",
@@ -3746,7 +4085,7 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3770,7 +4109,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 91
+     "rank": 100
     },
     {
      "name": "APRA",
@@ -3788,7 +4127,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3812,7 +4151,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 92
+     "rank": 101
     },
     {
      "name": "Judo Bank",
@@ -3830,7 +4169,7 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3854,7 +4193,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 93
+     "rank": 102
     },
     {
      "name": "PSC Insurance",
@@ -3871,7 +4210,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3895,7 +4234,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 94
+     "rank": 103
     },
     {
      "name": "Bupa Australia",
@@ -3913,7 +4252,7 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3937,7 +4276,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 95
+     "rank": 104
     },
     {
      "name": "nib",
@@ -3954,7 +4293,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -3978,7 +4317,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 96
+     "rank": 105
     },
     {
      "name": "MYOB",
@@ -3996,7 +4335,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -4014,7 +4353,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 97
+     "rank": 106
     }
    ]
   },
@@ -4023,8 +4362,8 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 36,
-   "shown": 36,
+   "count": 44,
+   "shown": 44,
    "companies": [
     {
      "name": "Australian Digital Health Agency",
@@ -4041,7 +4380,7 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4065,7 +4404,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 98
+     "rank": 107
     },
     {
      "name": "HCF",
@@ -4082,7 +4421,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4106,7 +4445,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 99
+     "rank": 108
     },
     {
      "name": "Cuscal",
@@ -4124,7 +4463,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4148,7 +4487,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 100
+     "rank": 109
     },
     {
      "name": "Honey Insurance",
@@ -4166,7 +4505,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4190,7 +4529,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 101
+     "rank": 110
     },
     {
      "name": "University of Melbourne",
@@ -4208,7 +4547,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4232,7 +4571,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 102
+     "rank": 111
     },
     {
      "name": "TAL",
@@ -4249,7 +4588,7 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4273,7 +4612,42 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 103
+     "rank": 112
+    },
+    {
+     "name": "Agentbox",
+     "slug": "agentbox",
+     "description": "Agentbox - rebranded Reapit Sales after its acquisition by the UK-headquartered proptech group Reapit - is an Australian real estate CRM and sales platform used by residential sales agencies across Australia and New Zealand, covering contacts and prospecting, listing management, appraisals, vendor management, marketing, agency websites, and a mobile agent app. Its position in the value chain is the agency system of record and, critically, the portal uploader - Agentbox is the system that pushes an agency's for-sale and for-rent listings out to realestate.com.au, domain.com.au, allhomes, commercialrealestate.com.au and dozens of other Australian portals, which in the Australian market is the REAXML feed seam rather than an MLS. Its API posture is honest but closed - a production API gateway is live at api.agentboxcrm.com.au (Tyk, HTTP 401 \"Authorization field missing\" to anonymous callers, authenticated with an X-API-Key header alongside a Client ID and Office ID), but there is no public developer portal, no published reference, and no downloadable machine-readable contract. Access is application-approval only - every third party must complete the Reapit Sales Integrator Application and be reviewed before an agency's API Key, Client ID and Office ID are issued by support. There is no RESO Web API or Data Dictionary certification, no OData $metadata document, and no Universal Property Identifier - RESO is a North American MLS regime with no presence in this Australian vendor's surface - and no open data is published.",
+     "score": 25.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "agent_score": 24.0,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 113
     },
     {
      "name": "Budget Direct",
@@ -4291,7 +4665,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4315,7 +4689,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 104
+     "rank": 114
     },
     {
      "name": "Youi",
@@ -4332,7 +4706,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4356,7 +4730,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 105
+     "rank": 115
     },
     {
      "name": "MedicalDirector",
@@ -4373,7 +4747,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4397,7 +4771,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 106
+     "rank": 116
+    },
+    {
+     "name": "Console Group",
+     "slug": "console-group",
+     "description": "Console Group is an Australian property management software company, founded in 1992 in Brisbane, Queensland, that built the first property management and trust accounting software released in Australia and launched its cloud platform, Console Cloud, in 2017. It serves thousands of residential and commercial property management agencies across Australia and New Zealand with trust accounting, tenancy and lease management, inspections (Console Go + Inspect), maintenance, arrears, owner and tenant portals, SMS, analytics and payments (Console Pay). The company was acquired by the United Kingdom's Reapit and its flagship product has been rebranded Reapit PM, though the business continues to trade from console.com.au. In the Australian value chain Console Group sits on the property MANAGEMENT side rather than the sales-listing side, as the system of record for the rent roll, the trust account and the tenancy, downstream of REA Group's realestate.com.au and Domain and separate from PEXA's conveyancing rail and from PropTrack and CoreLogic valuation data. Its API posture is honestly closed. Console Group publishes no developer portal, no API reference, no OpenAPI or Swagger document and no partner developer program on console.com.au; the full sitemap contains no /developers, /api or /docs page, and the developer., developers. and docs. subdomains do not resolve. An api.console.com.au host answers as a Kong API Gateway but returns \"no Route matched with those values\" on every probed path, including GraphQL. A live integration marketplace at /integrate lists more than twenty two-way third-party products, so a working private integration API demonstrably exists, but access is by commercial marketplace arrangement only and nothing about it is published. The company does run a real public status page at status.console.com.au (Hund.io, Cloud and Accounts components, published uptime and response-time metrics), though its HAL+JSON status API is credential-gated. Australia has no MLS, so there is no RESO Web API or Data Dictionary certification, no OData $metadata document and no Universal Property Identifier anywhere in Console Group's stack, and the company publishes no open data.",
+     "score": 24.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 41.3
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 117
     },
     {
      "name": "Medibank",
@@ -4414,7 +4829,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4438,7 +4853,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 107
+     "rank": 118
     },
     {
      "name": "PayTo",
@@ -4455,7 +4870,7 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4479,7 +4894,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 108
+     "rank": 119
     },
     {
      "name": "University of New South Wales",
@@ -4497,7 +4912,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -4515,7 +4930,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 109
+     "rank": 120
     },
     {
      "name": "Griffith University",
@@ -4533,7 +4948,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4557,7 +4972,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 110
+     "rank": 121
     },
     {
      "name": "University of Queensland",
@@ -4575,7 +4990,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4599,7 +5014,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 111
+     "rank": 122
     },
     {
      "name": "Australian National University",
@@ -4617,7 +5032,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4641,7 +5056,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 112
+     "rank": 123
     },
     {
      "name": "REA Group",
@@ -4658,7 +5073,7 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 16.3,
      "agent_band": "agent-aware",
@@ -4676,7 +5091,48 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 113
+     "rank": 124
+    },
+    {
+     "name": "PropTrack",
+     "slug": "proptrack",
+     "description": "PropTrack is an Australian property data, analytics, and automated valuation business, part of REA Group. It supplies residential property data, an industry-leading AI-powered Automated Valuation Model (AVM), the PropTrack Home Price Index, and market insights drawn from more than a trillion property data points across some twelve million Australian residential properties. Its raw data is sourced from public records (State/Territory land titles offices, Valuers General, and Geoscape Australia) and proprietary sources including the realestate.com.au listing portal. PropTrack exposes this through a developer program of REST APIs — covering address suggestion and matching, property and listing data, sold-transaction search (including point-and-radius queries), automated valuations, and market metrics — documented on a hosted Stoplight developer portal and secured with OAuth 2.0. The APIs are aimed at banks, lenders, brokers, proptech platforms, and other enterprise customers integrating Australian property intelligence.",
+     "score": 22.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 32.6,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 39.1
+     },
+     "agent_score": 16.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 125
     },
     {
      "name": "University of Sydney",
@@ -4694,7 +5150,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4718,7 +5174,42 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 114
+     "rank": 126
+    },
+    {
+     "name": "View.com.au",
+     "slug": "view-com-au",
+     "description": "View.com.au is an Australian residential property portal operated by View Media Group Pty Ltd (ACN 619 657 680) through view.com.au Pty Ltd (ACN 088 369 395), based in Victoria. It is the challenger portal to the REA Group / Domain duopoly, carrying for-sale, for-rent and sold listings, agency and agent profiles, Victorian sales and auction results, off-market \"Property 360\" property records with price estimates and planning/zoning overlays, plus home loans and editorial. Its API posture is unusual and worth stating precisely. The company publishes no developer portal, no OpenAPI, and no self-serve API program, and every HTML page on view.com.au sits behind DataDome bot protection that returns HTTP 403 to non-browser clients — yet it operates a completely public, unauthenticated Model Context Protocol server at https://mcp.view.com.au/mcp that returns live listing data to any anonymous agent. The human web is closed to machines while the agent surface is wide open. RESO plays no part here. RESO is a US National Association of REALTORS construct, and the RESO certified-organizations directory lists no Australian organizations at all.",
+     "score": 21.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "agent_score": 35.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 127
     },
     {
      "name": "Curtin University",
@@ -4736,7 +5227,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4760,7 +5251,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 115
+     "rank": 128
     },
     {
      "name": "University of Wollongong",
@@ -4778,7 +5269,7 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -4796,7 +5287,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 116
+     "rank": 129
     },
     {
      "name": "Limepay",
@@ -4814,7 +5305,7 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4838,7 +5329,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 117
+     "rank": 130
     },
     {
      "name": "Transport for NSW Open Data Hub",
@@ -4856,7 +5347,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4880,7 +5371,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 118
+     "rank": 131
     },
     {
      "name": "NSW Government Open Data",
@@ -4898,7 +5389,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4922,7 +5413,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 119
+     "rank": 132
     },
     {
      "name": "Queensland University of Technology",
@@ -4939,7 +5430,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -4963,7 +5454,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 120
+     "rank": 133
     },
     {
      "name": "Kismet",
@@ -4981,7 +5472,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5005,7 +5496,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 121
+     "rank": 134
     },
     {
      "name": "HealthEngine",
@@ -5023,7 +5514,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5047,7 +5538,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 122
+     "rank": 135
     },
     {
      "name": "Queensland Government Data",
@@ -5065,7 +5556,7 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5089,7 +5580,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 123
+     "rank": 136
     },
     {
      "name": "Butn",
@@ -5107,7 +5598,7 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5131,7 +5622,48 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 124
+     "rank": 137
+    },
+    {
+     "name": "Ray White",
+     "slug": "ray-white",
+     "description": "Ray White is Australasia's largest real estate group, a family-owned brokerage network founded in 1902 and headquartered in Brisbane, Australia, running 550+ Australian offices and roughly a thousand offices in total across Australia, New Zealand, Indonesia, Hong Kong, China, Papua New Guinea, the Middle East and Atlanta USA, spanning residential sales, auctions, commercial (Ray White Commercial / rwc.com.au), rural and livestock, property management, projects, marine, hotels, valuations, business sales, insurance and mortgage broking through sister brand Loan Market. In the Australian property value chain Ray White sits on the AGENCY side of a portal duopoly — it lists into REA Group's realestate.com.au and Domain rather than operating a portal or a registry of its own — and it is an API CONSUMER, not an API producer. In December 2025 Ray White named realestate.com.au and PropTrack its data partners explicitly for their \"industry leading API architecture\", piping that licensed market data into its proprietary OneSystem, NurtureCloud and Pulse platforms. Its API posture is therefore honestly stated as none-published — as of 2026-07-26 no developer portal, no public API documentation, no OpenAPI or OData $metadata contract, and no published partner-API application path could be found on raywhite.com or any developer/api/docs subdomain (all of which fail DNS resolution). RESO is absent — Ray White does not appear in the RESO certification directory, which is unsurprising because RESO is a North American, NAR-driven mandate with no Australian counterpart; Australia's closest thing to a required machine-readable property rail is PEXA electronic conveyancing, which Ray White transacts through as a participant rather than exposes.",
+     "score": 18.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 43.5
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 138
     },
     {
      "name": "data.gov.au Federal",
@@ -5149,7 +5681,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5173,7 +5705,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 125
+     "rank": 139
     },
     {
      "name": "data.sa.gov.au South Australia",
@@ -5191,7 +5723,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5215,7 +5747,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 126
+     "rank": 140
     },
     {
      "name": "DataVic Victoria",
@@ -5233,7 +5765,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5257,7 +5789,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 127
+     "rank": 141
     },
     {
      "name": "Northern Territory Open Data",
@@ -5275,7 +5807,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5299,7 +5831,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 128
+     "rank": 142
     },
     {
      "name": "Queensland Geoscience Data",
@@ -5317,7 +5849,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5341,7 +5873,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 129
+     "rank": 143
     },
     {
      "name": "Western Australia Data Catalogue",
@@ -5359,7 +5891,7 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5383,7 +5915,42 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 130
+     "rank": 144
+    },
+    {
+     "name": "Real Estate Institute of Australia",
+     "slug": "reia",
+     "description": "The Real Estate Institute of Australia (REIA), founded in 1924 and based in Canberra, is the national federation of the eight state and territory Real Estate Institutes (REINSW, REIV, REIQ, REIWA, REISA, REIT, REIACT, REINT), which between them represent roughly 85% of Australian real estate businesses and agents. REIA is a policy, research and accreditation body, not an operator of market infrastructure: it administers the REIA National Principles of Conduct that underpin state institute codes and training, awards Associate (AREI) and Fellow accreditations, runs the Australasian Auctioneering Championships (AUSTROS) jointly with REINZ and the National Awards for Excellence (NAFE), makes submissions to the Commonwealth Government, and publishes the quarterly Housing Affordability Report (HAR) and Real Estate Market Facts (REMF) series that Federal Treasury, the Reserve Bank, state treasuries and investment banks subscribe to. It sits well above the transaction rail in the Australian value chain - listings run through REA Group's realestate.com.au and Domain, settlement through PEXA, valuation through PropTrack and CoreLogic, and title through the state land registries - and REIA touches none of those pipes. Its API posture is therefore an honest absence: no developer portal, no API subdomain, no OpenAPI or OData contract, and no RESO reference anywhere on its estate, because RESO is a NAR-mandated United States construct with no Australian counterpart. What REIA sells is data, not access to it - the HAR and REMF reports are AUD 450 subscriptions and each of the 7 HAR and 15 REMF underlying datasets is a separate AUD 280 subscription, delivered as documents through a platformOS/Insites ecommerce storefront with Stripe checkout behind an email-and-password account. Policy submissions, standalone research reports and the strategic plan are freely downloadable PDFs; the quarterly numbers are not, and there is no open data.",
+     "score": 17.3,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 0.0,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 145
     },
     {
      "name": "Suncorp Group",
@@ -5400,7 +5967,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5424,7 +5991,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 131
+     "rank": 146
     },
     {
      "name": "Chimelabs Holdings PTY LTD",
@@ -5442,7 +6009,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5460,7 +6027,89 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 132
+     "rank": 147
+    },
+    {
+     "name": "LJ Hooker",
+     "slug": "lj-hooker",
+     "description": "LJ Hooker is one of the largest residential and commercial real estate brokerage and property management networks in Australia and New Zealand. Founded in Maroubra, Sydney in 1928, the franchise network reports 390 businesses and around 4,000 sales professionals, property managers and support staff, facilitated more than AUD$20 billion in property transactions during 2024, and manages roughly 100,000 properties valued at about AUD$82 billion on behalf of investors. It operates across residential sales and rentals (ljhooker.com.au), commercial (ljhcommercial.com.au), rural (ljhrural.com.au), land and projects (ljhland.com.au) and New Zealand (ljhooker.co.nz). LJ Hooker sits at the agency layer of the Australian property value chain — below the REA Group / Domain portal duopoly that distributes its listings, and upstream of PEXA electronic conveyancing and the PropTrack / CoreLogic valuation data concentration. Its API posture is honestly stated as none-published: there is no developer portal, no published API documentation, no API terms of use and no partner or data-feed programme on any LJ Hooker domain. The only programmatic surface located is an undocumented, vendor-operated website backend at api01.ljx.com.au, generated by OpenAPI Generator and consumed by the Agentpoint-built property search front end; that OpenAPI definition is not published. RESO — the Real Estate Standards Organization Web API and Data Dictionary — is a North American, NAR-driven regime with no Australian footprint, and LJ Hooker appears nowhere in the RESO certificates directory.",
+     "score": 15.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 41.3
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 148
+    },
+    {
+     "name": "McGrath",
+     "slug": "mcgrath",
+     "description": "McGrath is one of Australia's largest residential real estate brokerage networks, founded in Sydney in 1988 by John McGrath and operating a mixed company-owned and franchise network of roughly 118 offices across New South Wales, Queensland, the ACT, Victoria and Tasmania. Its business lines span residential sales, property management and rentals, projects and new-development marketing, rural and livestock, an Asia Desk for offshore buyers, and mortgage broking through Oxygen Home Loans. Listed on the ASX in 2015 as McGrath Limited (ASX:MEA), it was acquired in June 2024 by a consortium of Knight Frank Australia and New Zealand's Bayleys for A$95.5m and delisted from the ASX on 28 June 2024. McGrath sits on the demand side of the Australian property value chain: it is a brokerage that publishes listings into the REA Group (realestate.com.au) and Domain portal duopoly, settles transactions over the PEXA electronic conveyancing network, and consumes valuation data from PropTrack and CoreLogic rather than producing any of those rails itself. Its API posture is honestly nil. No developer portal exists — developer., developers., api., docs., feeds., data. and portal. subdomains of mcgrath.com.au all fail to resolve (NXDOMAIN), and /developers, /api, /docs, /api-docs, /openapi.json, /swagger.json, /$metadata and /.well-known/openid-configuration all return HTTP 404. RESO — the only genuinely mandated machine-readable real estate contract anywhere in this study — is a North American standard driven by NAR and MLS membership; it has no Australian counterpart and McGrath has no RESO Web API or Data Dictionary certification, no OData surface, and no Universal Property Identifier usage. The only interoperability standards McGrath demonstrably implements are robots.txt and twelve XML sitemaps; every /.well-known/ document probed — security.txt, openid-configuration, oauth-authorization-server, api-catalog, ai-plugin.json — and /llms.txt return 404. Its robots.txt enumerates twenty crawler groups including GPTBot, ChatGPT-User, OAI-SearchBot, ClaudeBot, PerplexityBot, Google-Extended, CCBot and Bytespider, but under RFC 9309 group-matching rules those named AI agents are disallowed only from Google Maps JS/RPC paths — the /properties/ and /search/ disallow lands solely on User-agent: *, so the listing corpus is nominally open to the named AI crawlers and closed to generic ones, while the properties-buy/sold/rent/leased sitemaps advertise those same URLs. Reachability is the harder gate: www.mcgrath.com.au sits behind a Vercel Security Checkpoint that answers scripted clients with HTTP 429 and a browser challenge on every path, so no unattended agent can read the site regardless of robots.txt. The listing inventory is a marketing asset routed to portals under commercial agreements, not a developer surface.",
+     "score": 15.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 41.3
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 149
     },
     {
      "name": "Eucalyptus",
@@ -5478,7 +6127,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5502,7 +6151,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 133
+     "rank": 150
     }
    ]
   },
@@ -5511,8 +6160,8 @@
    "label": "Minimal",
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 12,
-   "shown": 12,
+   "count": 13,
+   "shown": 13,
    "companies": [
     {
      "name": "Care GP",
@@ -5530,7 +6179,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5554,7 +6203,42 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 134
+     "rank": 151
+    },
+    {
+     "name": "CBRE Australia",
+     "slug": "cbre-australia",
+     "description": "CBRE Australia is the Australian arm of CBRE Group, the global commercial real estate services and investment firm, trading locally as CBRE (Gwsla) Pty Ltd (AU09949) and operating across the Pacific from cbre.com.au. It sits on the advisory and management side of the Australian property value chain rather than the data-infrastructure side: capital markets and investment sales, leasing and occupier advisory, valuation and advisory services, property and asset management, and project and design-and-build delivery across office, retail, industrial and logistics, build-to-rent, and alternative asset classes. Its API posture is closed. As of 26 July 2026 no public developer portal, API documentation, machine-readable contract, or self-serve onboarding exists for CBRE Australia: developer.cbre.com.au, developers.cbre.com.au, api.cbre.com.au, and docs.cbre.com.au do not resolve, and the global developer.cbre.com host is NXDOMAIN as well. CBRE does run API infrastructure — api.cbre.com sits behind an Imperva WAF that returns 403 to every anonymous request, api-dev.cbre.com serves a default WSO2 API Manager landing page, and eipportal.cbre.com is a login-gated \"Integration Platform\" SPA — but none of it is published, catalogued, or reachable by an outside developer. Commercial listings are distributed through the cbre.com.au property search and Australia's portal duopoly, and CBRE's terms of use explicitly prohibit scraping property listings from the site. RESO is absent entirely, which is the honest answer for Australia: there is no MLS here, no RESO-certified Australian organization, and the country's mandated machine-readable property rail is PEXA's electronic conveyancing network, not a RESO Web API. Access to CBRE data in Australia is a client or partner relationship, not a developer signup.",
+     "score": 14.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 152
     },
     {
      "name": "Refundid",
@@ -5571,7 +6255,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -5589,7 +6273,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 135
+     "rank": 153
     },
     {
      "name": "Carma",
@@ -5607,7 +6291,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 6.7,
      "agent_band": "human-only",
@@ -5625,7 +6309,7 @@
       "well_known_catalog": true,
       "consent_identity": true
      },
-     "rank": 136
+     "rank": 154
     },
     {
      "name": "Transfercar",
@@ -5642,7 +6326,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5660,7 +6344,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 137
+     "rank": 155
     },
     {
      "name": "Booko",
@@ -5678,7 +6362,7 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5696,7 +6380,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 138
+     "rank": 156
     },
     {
      "name": "Insurance Australia Group",
@@ -5714,7 +6398,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5738,7 +6422,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 139
+     "rank": 157
     },
     {
      "name": "Collabra",
@@ -5755,7 +6439,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5773,7 +6457,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 140
+     "rank": 158
     },
     {
      "name": "Ensurance",
@@ -5791,7 +6475,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "regulatory": {
       "applies": true,
@@ -5815,7 +6499,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 141
+     "rank": 159
     },
     {
      "name": "Fixed",
@@ -5833,7 +6517,7 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 3.8,
      "agent_band": "human-only",
@@ -5851,7 +6535,7 @@
       "well_known_catalog": true,
       "consent_identity": false
      },
-     "rank": 142
+     "rank": 160
     },
     {
      "name": "DGIT",
@@ -5869,7 +6553,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5887,7 +6571,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 143
+     "rank": 161
     },
     {
      "name": "Gilmour Space",
@@ -5905,7 +6589,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5923,7 +6607,7 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 144
+     "rank": 162
     },
     {
      "name": "MYSALE GROUP PLC",
@@ -5940,7 +6624,7 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-25",
+     "scored_at": "2026-07-26",
      "schema_version": 0.5,
      "agent_score": 0.0,
      "agent_band": "human-only",
@@ -5958,124 +6642,6 @@
       "well_known_catalog": false,
       "consent_identity": false
      },
-     "rank": 145
-    }
-   ]
-  },
-  {
-   "band": "unrated",
-   "label": "Not Yet Rated",
-   "range": "",
-   "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 18,
-   "shown": 18,
-   "companies": [
-    {
-     "name": "Agentbox",
-     "slug": "agentbox",
-     "description": "Agentbox - rebranded Reapit Sales after its acquisition by the UK-headquartered proptech group Reapit - is an Australian real estate CRM and sales platform used by residential sales agencies across Australia and New Zealand, covering contacts and prospecting, listing management, appraisals, vendor management, marketing, agency websites, and a mobile agent app. Its position in the value chain is the agency system of record and, critically, the portal uploader - Agentbox is the system that pushes an agency's for-sale and for-rent listings out to realestate.com.au, domain.com.au, allhomes, commercialrealestate.com.au and dozens of other Australian portals, which in the Australian market is the REAXML feed seam rather than an MLS. Its API posture is honest but closed - a production API gateway is live at api.agentboxcrm.com.au (Tyk, HTTP 401 \"Authorization field missing\" to anonymous callers, authenticated with an X-API-Key header alongside a Client ID and Office ID), but there is no public developer portal, no published reference, and no downloadable machine-readable contract. Access is application-approval only - every third party must complete the Reapit Sales Integrator Application and be reviewed before an agency's API Key, Client ID and Office ID are issued by support. There is no RESO Web API or Data Dictionary certification, no OData $metadata document, and no Universal Property Identifier - RESO is a North American MLS regime with no presence in this Australian vendor's surface - and no open data is published.",
-     "rank": 146
-    },
-    {
-     "name": "CBRE Australia",
-     "slug": "cbre-australia",
-     "description": "CBRE Australia is the Australian arm of CBRE Group, the global commercial real estate services and investment firm, trading locally as CBRE (Gwsla) Pty Ltd (AU09949) and operating across the Pacific from cbre.com.au. It sits on the advisory and management side of the Australian property value chain rather than the data-infrastructure side: capital markets and investment sales, leasing and occupier advisory, valuation and advisory services, property and asset management, and project and design-and-build delivery across office, retail, industrial and logistics, build-to-rent, and alternative asset classes. Its API posture is closed. As of 26 July 2026 no public developer portal, API documentation, machine-readable contract, or self-serve onboarding exists for CBRE Australia: developer.cbre.com.au, developers.cbre.com.au, api.cbre.com.au, and docs.cbre.com.au do not resolve, and the global developer.cbre.com host is NXDOMAIN as well. CBRE does run API infrastructure — api.cbre.com sits behind an Imperva WAF that returns 403 to every anonymous request, api-dev.cbre.com serves a default WSO2 API Manager landing page, and eipportal.cbre.com is a login-gated \"Integration Platform\" SPA — but none of it is published, catalogued, or reachable by an outside developer. Commercial listings are distributed through the cbre.com.au property search and Australia's portal duopoly, and CBRE's terms of use explicitly prohibit scraping property listings from the site. RESO is absent entirely, which is the honest answer for Australia: there is no MLS here, no RESO-certified Australian organization, and the country's mandated machine-readable property rail is PEXA's electronic conveyancing network, not a RESO Web API. Access to CBRE data in Australia is a client or partner relationship, not a developer signup.",
-     "rank": 147
-    },
-    {
-     "name": "Console Group",
-     "slug": "console-group",
-     "description": "Console Group is an Australian property management software company, founded in 1992 in Brisbane, Queensland, that built the first property management and trust accounting software released in Australia and launched its cloud platform, Console Cloud, in 2017. It serves thousands of residential and commercial property management agencies across Australia and New Zealand with trust accounting, tenancy and lease management, inspections (Console Go + Inspect), maintenance, arrears, owner and tenant portals, SMS, analytics and payments (Console Pay). The company was acquired by the United Kingdom's Reapit and its flagship product has been rebranded Reapit PM, though the business continues to trade from console.com.au. In the Australian value chain Console Group sits on the property MANAGEMENT side rather than the sales-listing side, as the system of record for the rent roll, the trust account and the tenancy, downstream of REA Group's realestate.com.au and Domain and separate from PEXA's conveyancing rail and from PropTrack and CoreLogic valuation data. Its API posture is honestly closed. Console Group publishes no developer portal, no API reference, no OpenAPI or Swagger document and no partner developer program on console.com.au; the full sitemap contains no /developers, /api or /docs page, and the developer., developers. and docs. subdomains do not resolve. An api.console.com.au host answers but returns 404 on every probed path. A live integration marketplace at /integrate lists roughly eighteen third-party products, so a working private integration API demonstrably exists, but access is by commercial marketplace arrangement only and nothing about it is published. Australia has no MLS, so there is no RESO Web API or Data Dictionary certification, no OData $metadata document and no Universal Property Identifier anywhere in Console Group's stack, and the company publishes no open data.",
-     "rank": 148
-    },
-    {
-     "name": "CoreLogic Australia",
-     "slug": "corelogic-au",
-     "description": "CoreLogic Australia — trading as Cotality since the 2025 global rebrand, and operating the RP Data platform through RP Data Pty Ltd — is the dominant independent property data, analytics and valuation provider in Australia and New Zealand. It sits in the middle of the Australian property value chain: it aggregates state land-registry and valuer-general records, agent and portal listing campaigns, auction results and rental campaigns into a single property spine, then sells that spine back to banks, mortgage brokers, valuers, insurers, agents and government. Its commercial products include the RP Data / RP Professional desktop, the IntelliVal automated valuation model, the CoreLogic Home Value Index, Cordell construction cost data, Cityscope commercial property data, and the PSX valuation ordering exchange. Its API posture is genuinely developer-facing but commercially licensed: a live Backstage-based Cotality Developer Portal at developer.corelogic.asia offers self-serve signup and self-serve creation of sandbox OAuth clients against a deliberately restricted evaluation dataset with request quotas, while every production API host in the *.api.cotality.com.au family answers 401 \"Access token is missing\" and requires a signed commercial data licence. Australia has no MLS and no RESO mandate — CoreLogic's RESO Web API and Data Dictionary certifications belong to Trestle, its United States MLS platform, not to this Australian surface. The Australian APIs are proprietary REST/JSON over an Apigee gateway with OAuth 2.0 client credentials; no OData $metadata, no RESO endpoint, and no RESO Universal Property Identifier appears anywhere in the Australian developer portal.",
-     "rank": 149
-    },
-    {
-     "name": "Domain Group",
-     "slug": "domain-group",
-     "description": "Domain Group (Domain Holdings Australia Ltd, trading as domain.com.au) is the second of Australia's two national residential property portals, alongside REA Group's realestate.com.au, and since 27 August 2025 has been a wholly owned subsidiary of CoStar Group. Headquartered in Sydney, Domain operates the domain.com.au consumer marketplace plus commercial, agent, and developer-project brands, and sits in the middle of the Australian value chain between selling and leasing agencies on one side and buyers, renters, banks, and PropTech builders on the other. Unlike most of the real estate sector, Domain runs a genuine, self-serve public developer portal at developer.domain.com.au: a developer signs up with GitHub, Google, or email, creates a project, and is immediately granted the \"Agents & Listings\" and \"Properties & Locations\" packages, with the remaining eleven packages - Address Suggestions, Campaign reporting, Listings Management, Price Estimation, Property Enrichment, Property Package, PropertyRadar, Rental AVM, Schools Data, and Webhooks - added per project and negotiated with an account manager. Domain publishes three machine-readable OpenAPI 3.0.4 documents (latest, v1, v2) directly from its Libraries page, backs them with an OpenID Connect discovery document at auth.domain.com.au, and serves everything from api.domain.com.au behind API-key or OAuth 2.0 (client credentials, authorization code, implicit) credentials. Write access is a different gate entirely: uploading or updating listings requires sandbox sign-off by email to api@domain.com.au and written permission from the principal agent of each agency, making listing management broker-authorised even though the read surface is self-serve. Domain carries no RESO Web API or RESO Data Dictionary certification, exposes no OData $metadata document and no Universal Property Identifier - RESO is a North American NAR-driven standard with no presence in the Australian portal duopoly - and it publishes no open, unlicensed dataset; all data is licensed under the Domain Group API Terms and Conditions.",
-     "rank": 150
-    },
-    {
-     "name": "Landgate",
-     "slug": "landgate",
-     "description": "Landgate is the Western Australian Land Information Authority — the WA government agency that maintains the state land titles register, values every rateable property in Western Australia, and curates the state's foundational location data (cadastre, tenure, property addresses, sales evidence, imagery, elevation, geographic names). In the Australian real estate value chain Landgate sits underneath the listing portals (REA Group's realestate.com.au and Domain) and underneath PEXA's electronic conveyancing rail as the authoritative source of the public land record for WA; since 2019 the automated land titling and registry operations have been operated under a commercial services arrangement while Landgate retains the Registrar of Titles function and the data custodianship. Its API posture is genuinely split and should not be overstated — a real, anonymously callable public surface exists (the SLIP Shared Location Information Platform ArcGIS REST directory plus OGC WMS/WFS services, and the Data WA CKAN Action API that Landgate operates for the whole WA public sector), while the richer registry and subscription data sits behind SLIP subscription, transaction, publication, broker, distributor and value-added-reseller licences that must be signed and, for bulk downloads, behind a MyLandgate account login. There is no developer portal, no published OpenAPI, no API key self-service, and no RESO involvement of any kind — RESO is a North American MLS standard and is absent from this Australian government registry.",
-     "rank": 151
-    },
-    {
-     "name": "LJ Hooker",
-     "slug": "lj-hooker",
-     "description": "LJ Hooker is one of the largest residential and commercial real estate brokerage and property management networks in Australia and New Zealand. Founded in Maroubra, Sydney in 1928, the franchise network reports 390 businesses and around 4,000 sales professionals, property managers and support staff, facilitated more than AUD$20 billion in property transactions during 2024, and manages roughly 100,000 properties valued at about AUD$82 billion on behalf of investors. It operates across residential sales and rentals (ljhooker.com.au), commercial (ljhcommercial.com.au), rural (ljhrural.com.au), land and projects (ljhland.com.au) and New Zealand (ljhooker.co.nz). LJ Hooker sits at the agency layer of the Australian property value chain — below the REA Group / Domain portal duopoly that distributes its listings, and upstream of PEXA electronic conveyancing and the PropTrack / CoreLogic valuation data concentration. Its API posture is honestly stated as none-published: there is no developer portal, no published API documentation, no API terms of use and no partner or data-feed programme on any LJ Hooker domain. The only programmatic surface located is an undocumented, vendor-operated website backend at api01.ljx.com.au, generated by OpenAPI Generator and consumed by the Agentpoint-built property search front end; that OpenAPI definition is not published. RESO — the Real Estate Standards Organization Web API and Data Dictionary — is a North American, NAR-driven regime with no Australian footprint, and LJ Hooker appears nowhere in the RESO certificates directory.",
-     "rank": 152
-    },
-    {
-     "name": "McGrath",
-     "slug": "mcgrath",
-     "description": "McGrath is one of Australia's largest residential real estate brokerage networks, founded in Sydney in 1988 by John McGrath and operating a mixed company-owned and franchise network of roughly 118 offices across New South Wales, Queensland, the ACT, Victoria and Tasmania. Its business lines span residential sales, property management and rentals, projects and new-development marketing, rural and livestock, an Asia Desk for offshore buyers, and mortgage broking through Oxygen Home Loans. Listed on the ASX in 2015 as McGrath Limited (ASX:MEA), it was acquired in June 2024 by a consortium of Knight Frank Australia and New Zealand's Bayleys for A$95.5m and delisted from the ASX on 28 June 2024. McGrath sits on the demand side of the Australian property value chain: it is a brokerage that publishes listings into the REA Group (realestate.com.au) and Domain portal duopoly, settles transactions over the PEXA electronic conveyancing network, and consumes valuation data from PropTrack and CoreLogic rather than producing any of those rails itself. Its API posture is honestly nil. No developer portal exists — developer., developers., api., docs., feeds., data. and portal. subdomains of mcgrath.com.au all fail to resolve (NXDOMAIN), and /developers, /api, /docs, /api-docs, /openapi.json, /swagger.json, /$metadata and /.well-known/openid-configuration all return HTTP 404. RESO — the only genuinely mandated machine-readable real estate contract anywhere in this study — is a North American standard driven by NAR and MLS membership; it has no Australian counterpart and McGrath has no RESO Web API or Data Dictionary certification, no OData surface, and no Universal Property Identifier usage. McGrath's own mcgrath.com.au robots.txt explicitly disallows /properties/ and /search/ to every crawler including GPTBot, ClaudeBot, OAI-SearchBot and PerplexityBot, which is the clearest available statement of intent: the listing inventory is a marketing asset routed to portals under commercial agreements, not a developer surface.",
-     "rank": 153
-    },
-    {
-     "name": "NSW Land Registry Services",
-     "slug": "nsw-land-registry",
-     "description": "NSW Land Registry Services (NSW LRS) operates the Torrens Title Register for New South Wales, Australia's largest property market, under a concession granted by the NSW Government on 1 July 2017 and held by Australian Registry Investments Pty Ltd (ACN 617 926 020) as trustee for the Australian Registry Investments Trust. It is a privatised operator of a public record: the Registrar General retains the statutory authority and the Office of the Registrar General regulates the concession, while NSW LRS runs the register, examines and registers dealings and plans, and sells access to the resulting data. It sits at the legal foundation of the Australian value chain, beneath the REA Group and Domain portal duopoly, beneath PropTrack and CoreLogic valuation, and beneath PEXA and Sympli, the Electronic Lodgment Network Operators through which every Real Property Act dealing must now be lodged. Its API posture is the sharpest example in this study of a registry that is technically modern and commercially closed. There is no developer portal, no developer or docs subdomain, no published API programme, no OpenAPI or Swagger document, no SDK, no Postman workspace and no GitHub organization. One documented, anonymously callable API does exist, and it is not about land: the NSW LRS status page is an Atlassian Statuspage with the public v2 API enabled and referenced at status.nswlrs.com.au/api, publishing 27 components — among them an \"API Service\" component under Information Broker Services that confirms from the registry's own mouth that a production API estate sits behind the broker licence — plus RSS and Atom incident feeds and webhook notifications on incident and component changes. Access to the register itself is gated behind a licence: the site states plainly that \"Only an information broker we've authorised can access our records\", and those brokers — InfoTrack, Dye & Durham, Equifax, CITEC Confirm, TriSearch, Landchecker, Fynd, PSI Global and others — \"deliver and on-sell land titling and related property information through an official licence agreement with NSW LRS\". Wholesale data products (Property Alerts, Lease Notifications, Mortgage Insights, Mortgage Verifications) are sold by emailing datasolutions@nswlrs.com.au, with no self-serve path and no published technical contract. What does exist, and what this profile records, are three genuinely reachable machine-readable surfaces that NSW LRS never advertises to developers: a Cantaloupe IIIF Image API 2.0 Level 2 endpoint serving the scanned historical land records behind the Historical Land Records Viewer, an anonymously callable Elasticsearch search proxy over 7,160,622 indexed historical documents, and a publicly downloadable W3C XML Schema for the ICSM ePlan Cadastral Information File enumerated types that pins the NSW LandXML jurisdictional vocabulary now mandatory for digital plan lodgment. The contracts are open; the licence is not — the HLRV terms of use prohibit on-supply, data aggregation, republishing and \"any device, software or routine to abuse the service of HLRV or emulate human interaction and operation\". RESO is entirely absent: NSW LRS appears nowhere in RESO's certified-organizations list, there is no RESO Web API or Data Dictionary certification, no OData $metadata document and no Universal Property Identifier, which is the expected answer for Australia, where RESO is a North American NAR construct with no adoption. No open, unlicensed dataset is published — NSW LRS is not a publishing organization on data.nsw.gov.au — and a privatised registry selling the public record back through a licensed broker channel is itself the finding. The registry does publish its language: a 257-term glossary of NSW land titling definitions, harvested here as the controlled vocabulary that stands in for the data dictionary it never wrote.",
-     "rank": 154
-    },
-    {
-     "name": "PEXA",
-     "slug": "pexa",
-     "description": "PEXA (Property Exchange Australia) operates Australia's dominant Electronic Lodgement Network (ELN), the digital rail on which property is settled and title dealings are lodged with the state land registries. Where the Australian real estate value chain splits into a listings duopoly (REA Group and Domain) sitting over progressively privatised state land registries, PEXA occupies the transaction layer underneath both — electronic conveyancing, settlement funds movement, digital signing and lodgement — and e-conveyancing is now effectively mandated for most dealings in most Australian jurisdictions, making PEXA the closest thing in the property sector to a required, national, machine-readable rail. Its API posture is correspondingly unusual: PEXA publishes a genuine developer portal at developer.pexa.com.au with Swagger UI reference documentation and machine-readable OpenAPI/Swagger contracts for the Exchange, Projects, Notification (webhooks), Standalone Discharge and PEXA Plus Marketplace APIs, and the ARNECC Model Operating Requirements oblige it to offer API access to third parties on an equivalent basis. But that surface is not self-serve: PEXA states plainly that access to the Developer Portal and to test or production credentials is contingent on having signed PEXA's API Agreement, so a developer registers via a form, is validated and approved, signs an agreement, and is then issued OAuth 2.0 client credentials (or mutual TLS). RESO is absent — it is a North American MLS standard with no bearing on Australian e-conveyancing — so there is no RESO Web API or Data Dictionary certification here, and none should be expected. This is a well-documented, regulated, licensed-access API estate rather than an open one.",
-     "rank": 155
-    },
-    {
-     "name": "Pricefinder",
-     "slug": "pricefinder",
-     "description": "Pricefinder is an Australian property intelligence and valuation platform operating at pricefinder.com.au, supplying property records, comparable sales and rental history, suburb statistics, AVM-powered price estimates and CMA/appraisal reports to real estate agencies, mortgage brokers, banks and lenders, valuers, property developers, advisory firms and government. Its home market is Australia and it sits on the data side of the value chain rather than the portal side — it blends Domain and Allhomes first-party listing feeds with state and territory government land valuation and sales data plus third-party mapping, then resells that as reports, a web application and an API. Pricefinder is a brand of Domain Holdings Australia, which CoStar Group completed the acquisition of in August 2025, so it now sits inside the same group as Domain, Allhomes and Commercial Real Estate. Its API posture is unusually honest for this sector — the full machine-readable contract is genuinely public. A complete Swagger 2.0 document (v1.13.1, 112 paths, 188 definitions, 19 tags) and an interactive Swagger UI are served anonymously from api.pricefinder.com.au, and OAuth 2.0 client_credentials, authorization_code and refresh_token flows are documented in full. But every data path returns 401 without credentials, and credentials are not self-serve — there is no developer signup, only industry \"Get started\" forms that route to sales for a custom, minimum-one-month commercial subscription governed by the Domain Group API Terms and Conditions. Australia has no MLS system and no RESO regime — no RESO Web API or Data Dictionary certification, no OData $metadata document and no Universal Property Identifier appears anywhere in Pricefinder's contract or documentation. The land-registry seam shows up instead as state-specific title reference lookups (NSW/VIC/QLD/SA/WA/TAS/NT/ACT plan, lot, section, volume and folio paths).",
-     "rank": 156
-    },
-    {
-     "name": "PropertyMe",
-     "slug": "propertyme",
-     "description": "PropertyMe is an Australian cloud property management and trust accounting platform for residential real estate agencies, founded in 2013 and operated by MePay Holdings Pty Ltd (AFCA member ID 81095, AFS licence no. 528836), with roughly 1.7 million properties under management across Australia and New Zealand. In the Australian property value chain it sits on the PROPERTY MANAGEMENT rail rather than the listing or settlement rails — it does not operate a portal like REA Group's realestate.com.au or Domain, and it is not a PEXA conveyancing participant; it is the system of record for the rental portfolio, holding lots, tenancies, owners, tenants, suppliers, trust transactions, inspections, maintenance jobs and documents, plus its own MePay payments product and the Grow CRM and AiMe assistant products. Its API posture is unusually honest for this sector — the machine-readable contract is genuinely open while the credentials are not. A Swagger 2.0 document describing 75 paths, 86 operations and 296 definitions is served anonymously with no login at https://app.propertyme.com/api/openapi.json, rendered by a public Swagger UI at https://app.propertyme.com/api/swagger-ui/, and the OpenID Connect discovery document at https://login.propertyme.com is also served anonymously and advertises the full scope list. But no self-serve developer signup, app registration route or public client-credential issuance path exists anywhere on propertyme.com.au, app.propertyme.com or any developer/developers/docs/api subdomain (none of which resolve); a developer must approach PropertyMe to be issued an OAuth client_id and client_secret, and every call is additionally scoped to one customer's portfolio that the agency itself connects and can disconnect. RESO is absent — PropertyMe does not appear in the RESO certification directory, there is no OData service, no $metadata document and no Universal Property Identifier, which is the expected Australian answer because RESO is a North American NAR/MLS construct with no Australian counterpart. PropertyMe publishes no open data.",
-     "rank": 157
-    },
-    {
-     "name": "PropTrack",
-     "slug": "proptrack",
-     "description": "PropTrack is an Australian property data, analytics, and automated valuation business, part of REA Group. It supplies residential property data, an industry-leading AI-powered Automated Valuation Model (AVM), the PropTrack Home Price Index, and market insights drawn from more than a trillion property data points across some twelve million Australian residential properties. Its raw data is sourced from public records (State/Territory land titles offices, Valuers General, and Geoscape Australia) and proprietary sources including the realestate.com.au listing portal. PropTrack exposes this through a developer program of REST APIs — covering address suggestion and matching, property and listing data, sold-transaction search (including point-and-radius queries), automated valuations, and market metrics — documented on a hosted Stoplight developer portal and secured with OAuth 2.0. The APIs are aimed at banks, lenders, brokers, proptech platforms, and other enterprise customers integrating Australian property intelligence.",
-     "rank": 158
-    },
-    {
-     "name": "Ray White",
-     "slug": "ray-white",
-     "description": "Ray White is Australasia's largest real estate group, a family-owned brokerage network founded in 1902 and headquartered in Brisbane, Australia, running 550+ Australian offices and roughly a thousand offices in total across Australia, New Zealand, Indonesia, Hong Kong, China, Papua New Guinea, the Middle East and Atlanta USA, spanning residential sales, auctions, commercial (Ray White Commercial / rwc.com.au), rural and livestock, property management, projects, marine, hotels, valuations, business sales, insurance and mortgage broking through sister brand Loan Market. In the Australian property value chain Ray White sits on the AGENCY side of a portal duopoly — it lists into REA Group's realestate.com.au and Domain rather than operating a portal or a registry of its own — and it is an API CONSUMER, not an API producer. In December 2025 Ray White named realestate.com.au and PropTrack its data partners explicitly for their \"industry leading API architecture\", piping that licensed market data into its proprietary OneSystem, NurtureCloud and Pulse platforms. Its API posture is therefore honestly stated as none-published — as of 2026-07-26 no developer portal, no public API documentation, no OpenAPI or OData $metadata contract, and no published partner-API application path could be found on raywhite.com or any developer/api/docs subdomain (all of which fail DNS resolution). RESO is absent — Ray White does not appear in the RESO certification directory, which is unsurprising because RESO is a North American, NAR-driven mandate with no Australian counterpart; Australia's closest thing to a required machine-readable property rail is PEXA electronic conveyancing, which Ray White transacts through as a participant rather than exposes.",
-     "rank": 159
-    },
-    {
-     "name": "Real Estate Institute of Australia",
-     "slug": "reia",
-     "description": "The Real Estate Institute of Australia (REIA), founded in 1924 and based in Canberra, is the national federation of the eight state and territory Real Estate Institutes (REINSW, REIV, REIQ, REIWA, REISA, REIT, REIACT, REINT), which between them represent roughly 85% of Australian real estate businesses and agents. REIA is a policy, research and accreditation body, not an operator of market infrastructure: it administers the REIA National Principles of Conduct that underpin state institute codes and training, awards Associate (AREI) and Fellow accreditations, runs the Australasian Auctioneering Championships (AUSTROS) jointly with REINZ and the National Awards for Excellence (NAFE), makes submissions to the Commonwealth Government, and publishes the quarterly Housing Affordability Report (HAR) and Real Estate Market Facts (REMF) series that Federal Treasury, the Reserve Bank, state treasuries and investment banks subscribe to. It sits well above the transaction rail in the Australian value chain - listings run through REA Group's realestate.com.au and Domain, settlement through PEXA, valuation through PropTrack and CoreLogic, and title through the state land registries - and REIA touches none of those pipes. Its API posture is therefore an honest absence: no developer portal, no API subdomain, no OpenAPI or OData contract, and no RESO reference anywhere on its estate, because RESO is a NAR-mandated United States construct with no Australian counterpart. What REIA sells is data, not access to it - the HAR and REMF reports are AUD 450 subscriptions and each of the 7 HAR and 15 REMF underlying datasets is a separate AUD 280 subscription, delivered as documents through a platformOS/Insites ecommerce storefront with Stripe checkout behind an email-and-password account. Policy submissions, standalone research reports and the strategic plan are freely downloadable PDFs; the quarterly numbers are not, and there is no open data.",
-     "rank": 160
-    },
-    {
-     "name": "Reapit",
-     "slug": "reapit",
-     "description": "Reapit is a United Kingdom-headquartered supplier of agency CRM and property management software for estate and letting agents, best known for AgencyCloud and Property Cloud, and operating across the UK and Ireland, Australia and New Zealand, and Denmark (through Mindworking). In a market with no MLS, Reapit sits in the middle of the value chain: listings are created and maintained in the agent's CRM and pushed outward to the two dominant consumer portals, Rightmove and Zoopla, so the CRM — not any cooperative database — is where the machine-readable property record actually lives. Its API posture is unusually open for this sector and is the counter-example to \"certified but unreachable\": Reapit Foundations is a genuine developer platform with a public documentation site at foundations-documentation.reapit.cloud, a self-serve registration form at developers.reapit.cloud/register behind published Developer Terms and Conditions, an immediately usable SBOX sandbox, OpenID Connect authentication through Reapit Connect with a live anonymous discovery document, a REST API covering roughly thirty CRM resource domains, a public GraphQL proxy, a real webhooks system with sixty-plus event topics, and an alpha Model Context Protocol server. The contract is split rather than absent: the Swagger/OpenAPI document that powers the Interactive API Explorer is served from platform.reapit.cloud/docs behind a bearer token, so no REST spec is harvestable anonymously — but full GraphQL introspection against graphql.reapit.cloud succeeds without credentials and yields a real machine-readable contract of 190 types, 63 queries and 58 mutations, which is the widest public description of the platform that exists. The MCP server's tools/list is auth-gated, so its 43 tools are known only from the docs. Reaching any real agency's data still requires the app to pass Reapit's AppMarket listing review and then be installed by that customer, who grants the scopes. There is no RESO Web API or Data Dictionary certification, no OData $metadata document and no Universal Property Identifier anywhere in Reapit's stack — RESO is a North American, NAR-driven construct and the UK has no MLS to certify against. Reapit publishes no open data; the open UK property layer belongs to HM Land Registry and Ordnance Survey, not to the CRM vendors.",
-     "rank": 161
-    },
-    {
-     "name": "VaultRE",
-     "slug": "vaultre",
-     "description": "VaultRE - now marketed as MRI Vault CRM, after VaultRE's parent Vault Group / PropTech Group was absorbed into MRI Software - is an Australian cloud real estate CRM and transaction platform used by residential, commercial, rural, land, business and property-management agencies across Australia and New Zealand. It sits in the agency and CRM layer of the value chain rather than the portal or registry layer: it holds the agency's contacts, appraisals, listings, offers, open homes, feedback, tenancies, maintenance, invoicing and AML records, and feeds listings outward to Australia's portal duopoly (realestate.com.au and Domain) instead of being a portal, a land registry or a conveyancing rail itself. Unlike most of this sector, VaultRE publishes a genuinely open, versioned, machine-readable contract - a public MkDocs developer site at docs.api.vaultre.com.au carrying downloadable OpenAPI 3.0.1 documents for v1.1, v1.2 and v1.3 of the core API (324 paths and 453 operations in v1.3) plus a separate Aggregator API for franchise-group CRM data feeds. The API surface is documented openly but access is not self-serve: anyone can read the docs and download the specs, but API keys are issued only after an integrator-registration request is reviewed and approved (VaultRE states new integrations are generally created within two business days), and each agency must then mint a scoped access token for that integrator from inside its own VaultRE account. RESO plays no part here - Australia has no RESO mandate and no RESO, OData or $metadata reference appears anywhere in VaultRE's documentation or specifications; the local listing-distribution seam is REAXML and portal-specific feeds instead. Auth is a static X-Api-Key integrator key paired with a per-account Bearer access token, with an OAuth2-style authorisation-code flow available for token minting, scoped tokens readable via GET /scopes, HMAC-SHA512-signed webhooks, and published rate limits of 10 requests per second and 10,000 requests per day.",
-     "rank": 162
-    },
-    {
-     "name": "View.com.au",
-     "slug": "view-com-au",
-     "description": "View.com.au is an Australian residential property portal operated by View Media Group Pty Ltd (ACN 619 657 680) through view.com.au Pty Ltd (ACN 088 369 395), based in Victoria. It is the challenger portal to the REA Group / Domain duopoly, carrying for-sale, for-rent and sold listings, agency and agent profiles, Victorian sales and auction results, off-market \"Property 360\" property records with price estimates and planning/zoning overlays, plus home loans and editorial. Its API posture is unusual and worth stating precisely. The company publishes no developer portal, no OpenAPI, and no self-serve API program, and every HTML page on view.com.au sits behind DataDome bot protection that returns HTTP 403 to non-browser clients — yet it operates a completely public, unauthenticated Model Context Protocol server at https://mcp.view.com.au/mcp that returns live listing data to any anonymous agent. The human web is closed to machines while the agent surface is wide open. RESO plays no part here. RESO is a US National Association of REALTORS construct, and the RESO certified-organizations directory lists no Australian organizations at all.",
      "rank": 163
     }
    ]

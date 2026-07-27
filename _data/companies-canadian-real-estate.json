@@ -1,0 +1,601 @@
+{
+ "total": 14,
+ "shown": 14,
+ "limit": 1000,
+ "bands": [
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 1,
+   "shown": 1,
+   "companies": [
+    {
+     "name": "Yardi Canada",
+     "slug": "yardi-canada",
+     "description": "Yardi Canada Ltd. is the Canadian subsidiary of Yardi Systems, Inc. (Goleta, California), opened in Mississauga in 1998 and now headquartered in Toronto with regional offices in Saskatoon and Vancouver and roughly 500 staff. It sells, implements and supports the Yardi property and investment management stack in Canada — Voyager, Breeze Premier, RentCafe, Home IQ, Matrix and Pulse — across residential, commercial, affordable, senior living and investment portfolios, and its Canadian footprint grew by acquisition: Point2 Technologies in Saskatoon in 2010, an EnerNOC division in Vancouver in 2016, and Planimetron in Toronto in 2022. It sits on the systems-of-record rung of the value chain rather than the listing or land-registration rung — it is the ledger and operating platform a landlord or asset manager runs on, not a portal like REALTOR.ca and not a registry operator like Teranet. Its API posture, stated honestly, is licensed-access-only and partner-gated. There is no public developer portal: developer., developers., api. and docs. hosts do not resolve on either yardi.ca or yardi.com, and the primary Canadian domain yardi.ca — registered to Yardi Systems, Inc. since 2003 — resolves to 104.156.161.80 but serves no web content at all (TCP 443 and 80 both time out). Real interfaces exist, but only behind the Interface Partnership Program: an application, a signed Data Exchange Agreement per interface type, a company at least two years old with three or more active Voyager clients, and an annual per-interface fee. RESO is absent entirely — Yardi appears nowhere in the RESO certification directory — which is the expected result for a Canadian property management vendor, because Canadian residential listings move through CREA's DDF and REALTOR.ca rather than through RESO-certified MLS endpoints. Two public, machine-readable surfaces do exist and neither of them is REST. Yardi ships a first-party MCP server — the Yardi Virtuoso Connector, listed on the Anthropic connector directory and served from mcp.virtuoso.ai — whose OAuth 2.1 authorization contract (RFC 8414 and RFC 9728 metadata, PKCE, dynamic client registration) is published anonymously even though its tool list is not. And status.yardi.com runs a full Atlassian Statuspage with a public JSON API across 134 components in 16 product groups, seven of which carry an explicit Canada component — the only anonymous, machine-readable signal of Yardi Canada's production service health.",
+     "score": 51.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 54.0,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 87.0
+     },
+     "agent_score": 61.5,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Property Management",
+     "rank": 1
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 6,
+   "shown": 6,
+   "companies": [
+    {
+     "name": "CREA (REALTOR.ca)",
+     "slug": "crea",
+     "description": "The Canadian Real Estate Association (CREA) is the national industry body for Canadian residential real estate, representing roughly 160,000 REALTORS through some 60 member boards and associations, owning the MLS and REALTOR trademarks in Canada, and operating REALTOR.ca - the country's single national consumer listing portal. Where the United States fragments into roughly 500 independently governed MLSs, Canada consolidates: CREA runs the REALTOR.ca Data Distribution Facility (DDF), one national syndication seam that collects listing content from member boards' MLS Systems and redistributes it to member websites, franchisor pools, and a network of Real Estate Advertising Websites. That makes CREA simultaneously the standards-setter (it writes the DDF Policy and Rules that boards must adopt and enforce), the operator of the pipe, and the gatekeeper of the data. Its API posture is unusually good for an industry body and still firmly gated. Three real machine-readable contracts are downloadable anonymously - an OpenAPI 3.0.4 document for the DDF Web API served from ddfapi.realtor.ca/swagger/v1/swagger.json and embedded in the public Redoc site at ddfapi-docs.realtor.ca, an OpenAPI 3.0.1 document for the REALTOR.ca Board API at boardapi-docs.realtor.ca, and a full OpenID Connect discovery document at identity.crea.ca. The DDF Web API is an OData v4 surface normalized to the RESO Data Dictionary and described by CREA as built on the RESO Web API specification, but CREA is RESO-aligned rather than RESO-certified - it does not appear in RESO's public certification directory of 578 organizations, where the only Canadian entries are individual boards such as the Toronto Regional Real Estate Board and Greater Vancouver REALTORS, none of them Certified Current. Nothing is self-serve. There is no signup, no sandbox and no free tier; client_id and client_secret are, in CREA's own words, provided by CREA. A REALTOR must opt in through the DDF Dashboard on CREA's member portal, and a third-party developer must enter a data access agreement with CREA as a Technology Provider operating a National Pool Website or Member Website on behalf of that opted-in member. The OData $metadata document, the actual RESO contract, returns HTTP 401 to anonymous callers. No open, unlicensed Canadian listing dataset exists behind any of it.",
+     "score": 41.9,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 60.9,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "agent_score": 72.1,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "Industry Bodies & Standards",
+     "rank": 2
+    },
+    {
+     "name": "Landcor Data",
+     "slug": "landcor",
+     "description": "Landcor Data Corporation is a New Westminster, British Columbia property data and automated valuation company, founded in 2000, that sells residential valuations, assessment detail and land title documents across the roughly 1.9 million residential properties in BC. It sits in the valuation and public-record layer of the Canadian value chain rather than the listings layer: its inputs are BC Assessment detail, Land Title and Survey Authority (LTSA) title and document search, BC Registry Services, municipal tax certificates and materials licensed from the Integrated Cadastral Information Society (ICIS), and its outputs are the Valuator AVM report, the Adjusted Value Profiler, the Property Profiler, Title Search Plus and historic valuation reports sold to lenders, appraisers, notaries, insurers and brokerages. Its API posture is the unusual case in this study: a real, live, anonymously readable machine-readable contract exists with no developer programme around it. The host api.landcor.com runs a FastAPI service on Azure App Service in Canada Central that serves a valid OpenAPI 3.1.0 document titled \"Landcor Property API\" version 0.1.0 at /openapi.json, with Swagger UI at /docs and ReDoc at /redoc, all returning HTTP 200 without credentials. Twelve operations cover property search, property detail, PDF report retrieval, valuation range, valuation history, loan-to-value checks, neighbourhood sales series, comparables, address autocomplete and an AVM narrative summary. Every operation except /health requires an HTTP Bearer token and returns 401 \"Missing token\" without one, and no route to obtain that token is published anywhere: landcor.com carries no developer, API, partner or data-licensing page, does not link api.landcor.com at all, and the store.landcor.com self-serve account is for buying individual reports through the web store, not for API credentials. RESO is absent, which is the expected Canadian answer. Landcor is not among the nineteen Canadian organizations RESO lists as members, holds no Web API or Data Dictionary certification, exposes no OData $metadata document, and uses its own PID identifier rather than the RESO Universal Property Identifier. No open, unlicensed dataset is published: the underlying assessment, title and cadastral data is licensed to Landcor from provincial bodies and resold, so the public record itself is a commercial product here.",
+     "score": 39.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 47.8,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "agent_score": 65.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Valuation & AVM",
+     "rank": 3
+    },
+    {
+     "name": "REALTOR.ca",
+     "slug": "realtor-ca",
+     "description": "REALTOR.ca is the national residential property listing portal of the Canadian Real Estate Association (CREA), the cooperative trade association representing roughly 160,000 REALTORS® across some 60 member boards and associations in Canada. Unlike the United States, where roughly 500 independent MLSs each run their own data pipe, Canadian listing distribution is consolidated through CREA's REALTOR.ca Data Distribution Facility (DDF®), a single national syndication service that normalizes MLS® System data from member boards and republishes it to member websites, franchisor sites, real estate advertising websites and technology providers. CREA sits squarely in the middle of the Canadian value chain — it owns the consumer portal, the national listing pool, and the syndication rails that every downstream site depends on. Its API posture is real but closed: the DDF® Web API is a genuine OData surface at https://ddfapi.realtor.ca/odata/v1 with public, browsable documentation and a downloadable OpenAPI 3.0.4 description, yet every endpoint (including the OData $metadata document) returns 401 without a Bearer token, and tokens are only issued via client_credentials against identity.crea.ca using data-feed credentials that a REALTOR® or broker owner must first create and link in the member portal. CREA is a RESO member and states its data is normalized to the RESO Data Dictionary, but no CREA entry could be confirmed in the RESO certification directory, so this profile records the DDF® Web API as RESO-aligned rather than RESO-certified. There is no self-serve developer signup, no sandbox, no open data product, and no public consumer search API for realtor.ca itself.",
+     "score": 38.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 58.7,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "agent_score": 72.1,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "Portals & Marketplaces",
+     "rank": 4
+    },
+    {
+     "name": "HouseSigma",
+     "slug": "housesigma",
+     "description": "HouseSigma, Inc. Brokerage is a Toronto-based Canadian residential real estate portal and licensed brokerage that pairs map-based MLS listing search with sold-price history and machine-learning home valuations (SigmaEstimate) across Ontario, British Columbia, and Alberta. It sits in the challenger layer of the Canadian value chain, below CREA, which operates REALTOR.ca and the national Data Distribution Facility (DDF) that syndicates member boards' listings, and alongside Wahi, Zolo, and Properly, competing on visibility into data the boards control, a position it won in part through the Competition Bureau litigation that forced TRREB to release sold data in 2018. Its API posture is closed. There is no developer portal, no published API program, and no partner or data-licensing page; developer., developers., and docs.housesigma.com do not resolve in DNS, and /developers, /api, /api-docs, /openapi.json and /swagger.json all return the single-page-application shell rather than any contract. The listing, sold-history and valuation backend at housesigma.com/bkv2/api/ is private, keyless, undocumented, and explicitly disallowed to all crawlers in robots.txt. The one genuinely public, anonymously callable, machine-readable HTTP surface the company operates is the WordPress REST API behind housesigma.com/blog-en, which serves its Canadian housing-market analysis blog as JSON across 157 advertised routes; API Evangelist derived an OpenAPI for the 22 operations verified to answer anonymously. HouseSigma also publishes a real llms.txt and mobile deep-link association documents. RESO is absent: HouseSigma is not among the Canadian organizations RESO lists as members, and no Web API or Data Dictionary certification, OData $metadata document, or Universal Property Identifier usage was found. No open, unlicensed dataset is published. The underlying listing and sold data is board-licensed and reaches HouseSigma through its own brokerage membership, not through anything a third-party developer can sign up for.",
+     "score": 33.1,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 56.6,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "agent_score": 64.4,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": true,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Portals & Marketplaces",
+     "rank": 5
+    },
+    {
+     "name": "Wahi",
+     "slug": "wahi",
+     "description": "Wahi is a Toronto-headquartered Canadian digital real estate platform and licensed brokerage — Wahi Inc., trading as Wahi Realty Inc., Brokerage — founded in 2021 by Benjy Katchen. It runs a consumer home search, an instant home valuation estimate, market data products (Market Pulse, House Price Index), a Wahi Select REALTOR matching service and a cashback program across Ontario, British Columbia, Alberta, Nova Scotia, Saskatchewan and New Brunswick. Wahi sits in the challenger layer of the Canadian listings value chain and does not own the data it surfaces: Canadian residential listings run through CREA, the single national cooperative that operates REALTOR.ca and the Data Distribution Facility (DDF), and Wahi reaches that data as a member brokerage and through a commercial MLS connectivity vendor (Repliers) rather than by operating a feed of its own. Wahi runs no developer programme: there is no developer portal, no api./developer./developers./docs. subdomain (all fail DNS resolution), no API key or OAuth credential path, and no RESO Web API certification, RESO Data Dictionary certification, OData service or $metadata document anywhere on its hosts — Wahi appears in neither the RESO certificates directory nor RESO's Canadian membership roster. The Terms of Use expressly forbid automated access, crawling and scraping, and forbid collecting, copying, storing or redistributing MLS data. It does, however, publish two agent-facing artifacts that a portal-shaped search misses: a 421KB llms.txt at https://wahi.com/llms.txt (Last-Updated 2025-07-20) and an OpenAI-style AI plugin manifest at /.well-known/ai-plugin.json that points to a genuine OpenAPI 3.0.1 \"Listing Search API\" at https://wahi.com/gpt/openapi.yaml — one anonymous searchListings operation with 30 typed filters over Canadian listings. The spec is still served; the server it names, api.prod.wahi.com/gpt, returns 404, so the contract is published but unserved. A live Apollo GraphQL endpoint exists at api.prod.wahi.com/graphql with introspection disabled and robots.txt disallowing it, and the stock WordPress REST API of the marketing CMS remains anonymously callable. Wahi is overwhelmingly an API consumer rather than a producer, but not a zero.",
+     "score": 32.7,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 39.8,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 54.3
+     },
+     "agent_score": 57.7,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "tier": "Portals & Marketplaces",
+     "rank": 6
+    },
+    {
+     "name": "Teranet",
+     "slug": "teranet",
+     "description": "Teranet Inc. is the private operator of Ontario's Electronic Land Registration System (ELRS) and the POLARIS land records database under a long-running concession with the Government of Ontario, and is the exclusive service provider for Manitoba's Land Titles System and Personal Property Registry. Founded in 1991, headquartered in Toronto and wholly owned by OMERS, Teranet sits at the base of the Canadian property value chain: it holds the authoritative title, parcel, writ and instrument record and resells it as commercial products — Teraview, OnLand, Teranet eXpress, GeoWarehouse, PurView, Teranet Xchange, DataConnect/ValueProtect AVM, TeraIntelligence — plus the Teranet-National Bank House Price Index. Its API posture is licensed access only. Teranet Connect is genuinely described by Teranet as an API (XML and web services over POLARIS and the Writs database), but it is licensed to legal-software vendors through an account manager, with no public documentation, no published base URL, no self-serve signup and no developer portal; Teranet's own support site states plainly that GeoWarehouse has no open API. No RESO certification was found — Teranet is a land registry, not an MLS — and the public record it stewards is sold back rather than published as open data.",
+     "score": 32.0,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 31.6,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 54.3
+     },
+     "agent_score": 9.6,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Land Registries & Government",
+     "rank": 7
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 4,
+   "shown": 4,
+   "companies": [
+    {
+     "name": "RE/MAX Canada",
+     "slug": "re-max-canada",
+     "description": "RE/MAX Canada is the Canadian arm of RE/MAX, LLC, operating the remax.ca consumer portal in English and French and franchising RE/MAX brokerages across the country. Since RE/MAX Holdings closed its USD 235 million purchase of the RE/MAX INTEGRA North America regions on 2021-07-21, the Ontario-Atlantic and Western Canada regions are company-owned regions of RE/MAX, LLC, folded into RE/MAX Canada; Quebec is served separately and remax.ca robots.txt explicitly disallows /qc and /quebec. Its home market is Canada, and it sits in the value chain as a brokerage franchisor and consumer portal operator rather than as a data owner. Canadian residential listing content is cooperatively controlled by CREA and the member boards through REALTOR.ca and the Data Distribution Facility, so RE/MAX Canada displays MLS content it licenses rather than publishes; the remax.ca footer carries CREA's MLS trademark notice, and the site's home price estimates are supplied by Teranet Inc. under a personal-use-only licence that forbids commercial use, resale, external distribution and sublicensing even though Teranet's own inputs derive from public records collected by the Province of Ontario, the Province of Manitoba and the British Columbia Assessment Authority. Its API posture is recorded here honestly: there is no developer portal, no published API programme, no OpenAPI, Swagger, GraphQL or OData $metadata document, and no RESO Web API or Data Dictionary certification — a case-insensitive search of the full RESO certification directory returns zero RE/MAX matches, while 30 Canadian boards and pooled platforms do appear there. developer.remax.ca, developers.remax.ca and docs.remax.ca are wildcard DNS artifacts pointing at the kvCORE platform, proven by a control probe; api.remax.ca is a real AWS load balancer that 301-redirects every path to www.remax.ca; and the remax.ca terms of use prohibit crawlers, scripts and other automated devices outright. The only anonymously callable machine-readable RE/MAX Canada surface found is the default WordPress REST API on its WordPress VIP-hosted blog — content, not property data.",
+     "score": 29.8,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 37.7,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 54.3
+     },
+     "agent_score": 34.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Brokerages & Agencies",
+     "rank": 8
+    },
+    {
+     "name": "Nesto",
+     "slug": "nesto",
+     "description": "Nesto Inc. is a Montreal-headquartered Canadian digital mortgage lender and mortgage technology provider, founded in 2018 and licensed across Canadian jurisdictions. It sits on the financing side of the residential real estate value chain rather than the listings side — originating, underwriting, and servicing mortgages direct-to-consumer at nesto.ca, and, following its 2024 acquisition of CMLS Group, administering roughly CA$73 billion in residential and commercial mortgage assets. Its Nesto Cloud business (nestocloud.ca) sells the same origination, underwriting, and servicing platform to banks, credit unions, and commercial lenders as SaaS or fully outsourced BPO, and advertises \"seamless API integrations with your existing systems and third-party providers\" alongside a Maestro AI underwriting engine. That API surface is not publicly documented: there is no developer portal, no published reference, no OpenAPI or other machine-readable contract, and no self-serve signup. Access is a commercial engagement negotiated with the Nesto Cloud team. As a mortgage lender Nesto sits outside the listings syndication layer entirely — no RESO Web API or Data Dictionary certification, no RESO UPI usage, and no CREA Data Distribution Facility participation is published or discoverable. The company's only machine-readable public artifact is a security.txt whose disclosure scope explicitly names \"Web applications, APIs, and customer-facing services\", confirming APIs exist while none are documented for outside developers. Its compliance posture is, by contrast, published and audited — SOC 1 Type II, SOC 2 Type II and ISO 27001:2022 with a Vanta trust center — and its GitHub organization (nestoca) ships MIT-licensed developer-platform tooling such as the joy GitOps CLI, though no client SDK for any Nesto service.",
+     "score": 26.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 65.2
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "tier": "Mortgage Proptech",
+     "rank": 9
+    },
+    {
+     "name": "Rentals.ca",
+     "slug": "rentals-ca",
+     "description": "Rentals.ca is a Toronto-headquartered residential rental marketplace and the flagship brand of the Rentals.ca Network, which also operates Rentfaster.ca, Louer.ca, Rentboard.ca, RentCanada.com and TorontoRentals.com across more than 100 Canadian cities. The network is owned and operated by Rentsync (formerly Landlord Web Solutions Inc.), which also acquired the research firm Urbanation in January 2026 and co-publishes the monthly Rentals.ca / Urbanation National Rent Report; Rentals.ca listing data also feeds a Statistics Canada rental housing index. In the Canadian real estate value chain it sits on the rentals side of the market, outside CREA's REALTOR.ca and Data Distribution Facility, which syndicate member boards' for-sale listings. Its API posture is honest but closed: rentals.ca itself publishes no developer portal, no OpenAPI, and no documented public endpoint, and the entire consumer site sits behind a Cloudflare managed challenge that returns HTTP 403 to anonymous clients. The real developer surface belongs to the parent, at the Rentsync Partners portal (partners.rentsync.ca, branded \"LIFT System API\"), which publicly names a REST API, an Ad Syndication API and a Search API but places all documentation behind an account whose registration form requires a written application explaining what you intend to build. There is no RESO Web API or Data Dictionary certification, no OData $metadata document, no Universal Property Identifier, and no open dataset published by the company.",
+     "score": 22.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 30.4
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Rentals & Listings",
+     "rank": 10
+    },
+    {
+     "name": "Royal LePage",
+     "slug": "royal-lepage",
+     "description": "Royal LePage is Canada's largest residential real estate brokerage brand, founded in Toronto in 1913 as A.E. LePage and operated today under franchise and corporately-owned brokerages by Bridgemarq Real Estate Services (TSX: BRE), an affiliate of Brookfield. It spans roughly 20,000 licensed REALTORS across 600-plus offices nationwide, and sits in the value chain as a brokerage/franchisor rather than as a data platform. Its consumer search at royallepage.ca is a downstream CONSUMER of listing data, not a publisher of it - the site states its inventory is \"226,755 active MLS listings via the CREA DDF network,\" meaning the machine-readable feed belongs to the Canadian Real Estate Association's Data Distribution Facility, not to Royal LePage. On API posture the honest finding is that there is none published for developers - no developer portal, no documented API, no OpenAPI or OData $metadata, no RESO Web API or Data Dictionary certification anywhere in evidence (RESO is a US NAR-adjacent regime and is simply absent from the Canadian brokerage layer), and no SDKs, webhooks, or Postman collections. Account registration on the site creates a Virtual Office Website (VOW) relationship with Royal LePage Real Estate Services, Brokerage that restricts data to personal, non-commercial use, and the legal notice expressly forbids \"spiders, robots, crawlers, data mining tools, or the like.\" Any programmatic access to the underlying Canadian listing record runs through CREA membership and the DDF licence, not through Royal LePage.",
+     "score": 19.7,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 9.4,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 41.3
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Brokerages & Agencies",
+     "rank": 11
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0–14.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 3,
+   "shown": 3,
+   "companies": [
+    {
+     "name": "Zolo",
+     "slug": "zolo",
+     "description": "Zolo is one of Canada's largest national residential real estate marketplaces and a licensed brokerage, operating as Zolo Ventures Ltd. with provincial brokerage subsidiaries — Zolo Realty (Ontario), (Alberta), (British Columbia), (Saskatchewan), (Manitoba) and (Quebec) Inc. — plus Zolo Mortgages Ltd. and Zolo Mortgages (Alberta) Ltd., all owned by Questrade Financial Group Inc. Founded in 2012 as a digital-first brokerage and headquartered at 1900-5700 Yonge Street in Toronto, Zolo reports over 10 million monthly visitors, 750+ active REALTORS®, and $1.5B+ in annual transaction volume across British Columbia, Alberta, Saskatchewan and Ontario. It sits in the Canadian challenger layer alongside HouseSigma, Wahi and Properly, below CREA — the single national cooperative that operates REALTOR.ca and the Data Distribution Facility (DDF) that syndicates member boards' listings — competing on listing speed, sold-price visibility and home-value tooling over data the boards and CREA control. Its API posture is closed. There is no developer portal, no API program page, no partner or data-licensing page, and no machine-readable API contract of any kind — no OpenAPI, GraphQL, AsyncAPI or MCP surface. The subdomains api., developer., developers., docs., data. and partners.zolo.ca do not resolve in DNS and have never appeared in Certificate Transparency, and every conventional contract path on www.zolo.ca is answered by a Cloudflare bot challenge (HTTP 403, cf-mitigated: challenge) rather than a specification. What Zolo does publish is syndication, not integration: an unauthenticated RSS 2.0 new-listings feed at /rss_new_listings.php, a family of sitemaps.org XML documents, and a site-wide schema.org JSON-LD block carrying organization identity only. Behind the edge it operates an undocumented JSON endpoint at /gallery_map_json.php and two first-party mobile apps (com.ols.zolo) on a private backend. Zolo's own robots.txt declares that RSS feed as a sitemap and a CREA terms-acceptance route at /crea_accept.php, and Section 23 of its Terms of Use is a Virtual Office Website (VOW) clause requiring registration, a bona fide interest in buying or selling, personal non-commercial use only, and an express prohibition on \"scraping\" (including \"screen scraping\" and \"database scraping\"), data mining, redistribution or sublicensing — enforceable directly by CREA, TRREB, ITSO, REBGV, Pillar9 and OREB. Access is licensed, not open. RESO is absent: Zolo is not among the nineteen Canadian organizations RESO lists as members, and no Web API or Data Dictionary certification, OData $metadata document, or Universal Property Identifier (UPI) usage was found. No open, unlicensed dataset is published.",
+     "score": 14.6,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 9.4,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 6.5,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Portals & Marketplaces",
+     "rank": 12
+    },
+    {
+     "name": "Century 21 Canada",
+     "slug": "century-21-canada",
+     "description": "CENTURY 21 Canada Limited Partnership is the Canadian master franchisor of the CENTURY 21® real estate brand, headquartered at 1285 West Pender Street in Vancouver, British Columbia. The master licence for Canada was secured in Vancouver in 1976 — the first international franchise of the CENTURY 21 System — and the network today spans roughly 400 independently owned and operated offices from coast to coast. Century 21 Canada sits in the brokerage/franchisor layer of the Canadian real estate value chain: it does not originate listing data, it consumes it. Canadian residential listings are consolidated nationally by the Canadian Real Estate Association (CREA), which runs REALTOR.ca and the Data Distribution Facility (DDF®); franchisors and brokerages redistribute that member-owned MLS® content under CREA rules rather than publishing it themselves. Century 21 Canada's API posture is accordingly empty. As of a 2026-07-26 probe there is no developer portal, no API documentation, no published base URL, no SDK, no webhooks, no Postman collection and no machine-readable contract of any kind on century21.ca or c21.ca — both century21.ca and c21.ca resolve to the same WordPress consumer site whose terms of use name MoxiWorks LLC as the site operator, and whose property search is a hosted MoxiWorks Web Marketing System surface rather than a first-party API. Wildcard DNS on *.century21.ca and *.c21.ca returns HTTP 200 for every subdomain probed (developer., developers., api., docs.) by parking them all on eboat.moxiworks.com, so those 200s are a DNS artifact and not a developer portal. RESO is absent: no RESO Web API or Data Dictionary certification, no OData or $metadata endpoint, and no Universal Property Identifier reference appears anywhere in the public surface — consistent with Canada, where RESO certification is not the operative seam and CREA's DDF® is. The only genuinely public, anonymously callable machine-readable surface found is the incidental WordPress REST API route index at https://www.c21.ca/wp-json/, which is a CMS artifact, is undocumented by Century 21 Canada, and is deliberately not listed here as a product API. Agent- and franchisee-facing tools live behind the hub21.ca member login. This profile is therefore identity-only and honestly records a brokerage franchisor with no published developer surface.",
+     "score": 14.3,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 30.4
+     },
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "Brokerages & Agencies",
+     "rank": 13
+    },
+    {
+     "name": "Properly",
+     "slug": "properly",
+     "description": "Properly was a Toronto-based Canadian digital real estate brokerage founded in 2018 that began as one of the country's only iBuyers — making algorithmic cash offers on Calgary homes — before pivoting to Sale Assurance, a guaranteed-purchase backstop that let a seller buy their next home before selling the current one, wrapped around an online listing search and a machine-generated home valuation. It sat in the challenger layer of the Canadian value chain alongside HouseSigma, Wahi, and Zolo, competing on visibility into listing data controlled by CREA, the national cooperative that operates REALTOR.ca and the Data Distribution Facility (DDF) syndicating member boards' listings, in a market where land registration is provincially privatised and the public record is itself a commercial product. Properly was acquired by Pine Canada Financial Corporation in October 2023 and the brand has since been absorbed: properly.ca and www.properly.ca now answer HTTP 301 from an Amazon S3 and CloudFront redirect bucket to www.pine.ca, and the word \"Properly\" no longer appears anywhere on the surviving Pine real estate pages. Its API posture is closed and, as of this profile, non-existent. No developer portal, no API program page, no partner or data licensing page, and no published terms of API use were found. The developer., developers., api., docs., app., and blog. subdomains of properly.ca do not resolve in DNS, and every contract path probed — /openapi.json, /swagger.json, /api-docs, /$metadata, /odata — redirects into a Pine 404. The successor host api.pine.ca resolves to an AWS API Gateway that answers every path with HTTP 403 MissingAuthenticationTokenException: a private first-party backend, not a developer product. RESO is absent, which is the honest Canadian answer — Properly and Pine appear nowhere on RESO's own Canadian membership roster, and no Web API or Data Dictionary certification, OData $metadata document, or Universal Property Identifier usage was observed. No open, unlicensed dataset is published. The underlying listings reach the platform through licensed channels — CREA MLS trademark attribution appears in the site footer and listing media is served from cdn.repliers.io, the CDN of the licensed MLS data vendor Repliers, whose own developer guide names \"Pine (formerly Properly)\" as a customer — which is a brokerage and vendor licensing posture, not anything a third-party developer can sign up for.",
+     "score": 7.2,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 2.2,
+      "commercial_clarity": 0.0
+     },
+     "scored_at": "2026-07-26",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "tier": "iBuyers & Instant Offers",
+     "rank": 14
+    }
+   ]
+  }
+ ]
+}

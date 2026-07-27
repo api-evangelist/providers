@@ -139,6 +139,26 @@
           href: /canadian-insurance/
           count: { from: total, key: companies-canadian-insurance }
 
+    - name: Real Estate
+      icon: home_work
+      description: >-
+        Portals, the listing-data infrastructure that federates the MLSs, brokerages, agency CRM,
+        valuation, title and closing, property management and the land registries — the only sector
+        with a mandated machine-readable standard, ranked by Kin Score.
+      markets:
+        - name: United States
+          href: /us-real-estate/
+          count: { from: total, key: companies-us-real-estate }
+        - name: United Kingdom
+          href: /uk-real-estate/
+          count: { from: total, key: companies-uk-real-estate }
+        - name: Australia
+          href: /au-real-estate/
+          count: { from: total, key: companies-au-real-estate }
+        - name: Canada
+          href: /canadian-real-estate/
+          count: { from: total, key: companies-canadian-real-estate }
+
     - name: Telecommunications
       icon: cell_tower
       unit: providers
