@@ -14,6 +14,13 @@
   "count": 18
  },
  {
+  "slug": "artificial-intelligence",
+  "name": "Artificial Intelligence",
+  "description": "Model providers, agent frameworks, inference platforms, and the applied AI companies putting them to work behind an API.",
+  "icon": "smart_toy",
+  "count": 4910
+ },
+ {
   "slug": "automotive",
   "name": "Automotive",
   "description": "Companies engaged in the design, manufacturing, and sale of motor vehicles, including connected vehicle technologies and mobility solutions.",
@@ -21,11 +28,39 @@
   "count": 42
  },
  {
+  "slug": "banking",
+  "name": "Banking & Open Banking",
+  "description": "Banks, credit unions, neobanks, and the open-banking and banking-as-a-service rails that connect to them.",
+  "icon": "savings",
+  "count": 819
+ },
+ {
+  "slug": "biotechnology",
+  "name": "Biotechnology & Drug Discovery",
+  "description": "Drug discovery and development, genomics, clinical research, and the computational biology behind modern therapeutics.",
+  "icon": "biotech",
+  "count": 891
+ },
+ {
+  "slug": "blockchain-crypto",
+  "name": "Blockchain, Crypto & Web3",
+  "description": "Chains, exchanges, wallets, and the on-chain data and settlement infrastructure the digital-asset economy runs on.",
+  "icon": "currency_bitcoin",
+  "count": 1248
+ },
+ {
   "slug": "cannabis",
   "name": "Cannabis",
   "description": "Companies involved in the cultivation, processing, distribution, and retail sale of cannabis products for medical and recreational markets.",
   "icon": "spa",
   "count": 3
+ },
+ {
+  "slug": "climate-sustainability",
+  "name": "Climate & Sustainability",
+  "description": "Climate tech, clean energy, carbon accounting, and the ESG and circular-economy data companies now report against.",
+  "icon": "eco",
+  "count": 877
  },
  {
   "slug": "cloud-data-platform",
@@ -71,10 +106,17 @@
  },
  {
   "slug": "cybersecurity",
-  "name": "Cybersecurity",
-  "description": "Companies operating in the Cybersecurity sector.",
+  "name": "Cybersecurity & Identity",
+  "description": "Security and identity providers — authentication and authorization, threat detection, application and cloud security, fraud, and privacy.",
   "icon": "security",
-  "count": 9
+  "count": 1963
+ },
+ {
+  "slug": "data-analytics",
+  "name": "Data & Analytics",
+  "description": "Warehouses, catalogs, pipelines, and the analytics and business-intelligence layers companies expose as APIs.",
+  "icon": "insights",
+  "count": 2162
  },
  {
   "slug": "defense",
@@ -84,11 +126,32 @@
   "count": 30
  },
  {
+  "slug": "developer-tools",
+  "name": "Developer Tools & DevOps",
+  "description": "The companies developers build on — SDKs and CLIs, CI/CD, containers, observability, API gateways, and the platforms that run it all.",
+  "icon": "terminal",
+  "count": 2879
+ },
+ {
+  "slug": "digital-health",
+  "name": "Digital Health & Telehealth",
+  "description": "Care delivered and coordinated through software — telehealth, EHR interoperability, patient engagement, remote monitoring, and behavioral health.",
+  "icon": "monitor_heart",
+  "count": 1583
+ },
+ {
   "slug": "e-commerce-platform",
   "name": "E-commerce Platform",
   "description": "Companies operating online retail platforms that enable consumers to browse, purchase, and receive products digitally.",
   "icon": "shopping_cart",
   "count": 35
+ },
+ {
+  "slug": "education",
+  "name": "Education & EdTech",
+  "description": "Universities, school systems, and the learning platforms, credentialing, and research infrastructure around them.",
+  "icon": "school",
+  "count": 1057
  },
  {
   "slug": "energy",
@@ -162,10 +225,17 @@
  },
  {
   "slug": "gaming",
-  "name": "Gaming",
-  "description": "Companies that develop, publish, and distribute video games across console, PC, and mobile platforms.",
+  "name": "Gaming & Interactive",
+  "description": "Game studios and the engines, multiplayer backends, and immersive platforms behind interactive entertainment.",
   "icon": "sports_esports",
-  "count": 10
+  "count": 661
+ },
+ {
+  "slug": "government",
+  "name": "Government & Public Sector",
+  "description": "Federal, state, and municipal agencies plus the open-data portals, GovTech vendors, and public-safety systems serving them.",
+  "icon": "account_balance",
+  "count": 819
  },
  {
   "slug": "healthcare",
@@ -183,10 +253,10 @@
  },
  {
   "slug": "human-capital-management",
-  "name": "Human Capital Management",
-  "description": "Companies offering software and services for managing workforce processes such as payroll, benefits, talent acquisition, and employee development.",
+  "name": "Human Resources & Payroll",
+  "description": "Hiring, payroll, benefits, and the workforce systems of record companies run their people on.",
   "icon": "groups",
-  "count": 8
+  "count": 826
  },
  {
   "slug": "industrial",
@@ -201,6 +271,20 @@
   "description": "Companies that underwrite and manage risk by offering life, health, property, and casualty insurance policies to individuals and businesses.",
   "icon": "verified_user",
   "count": 72
+ },
+ {
+  "slug": "iot",
+  "name": "IoT & Connected Devices",
+  "description": "Sensors, telematics, smart home and industrial IoT — the physical world reporting in over an API.",
+  "icon": "sensors",
+  "count": 786
+ },
+ {
+  "slug": "legal-compliance",
+  "name": "Legal & Compliance Tech",
+  "description": "Legal software and the compliance, RegTech, and risk platforms companies use to stay inside the rules.",
+  "icon": "gavel",
+  "count": 1032
  },
  {
   "slug": "life-sciences",
@@ -224,6 +308,13 @@
   "count": 7
  },
  {
+  "slug": "marketing-advertising",
+  "name": "Marketing & Advertising",
+  "description": "AdTech and MarTech — campaigns, attribution, customer data, personalization, and the demand-generation stack.",
+  "icon": "campaign",
+  "count": 1344
+ },
+ {
   "slug": "media",
   "name": "Media",
   "description": "Companies involved in the creation, publishing, and distribution of news, academic content, and entertainment media across print and digital channels.",
@@ -236,6 +327,20 @@
   "description": "Companies engaged in the exploration, extraction, and processing of metals, minerals, and other natural resources from the earth.",
   "icon": "landslide",
   "count": 20
+ },
+ {
+  "slug": "mobility",
+  "name": "Mobility & Fleet",
+  "description": "Ride-hailing, micromobility, fleet management, EV charging, and the telematics layer under moving vehicles.",
+  "icon": "directions_car",
+  "count": 552
+ },
+ {
+  "slug": "creator-economy",
+  "name": "Music, Audio & Creator Economy",
+  "description": "Music and audio platforms, podcasting, publishing, social, and the tools creators use to make and monetize what they publish.",
+  "icon": "graphic_eq",
+  "count": 823
  },
  {
   "slug": "pet-care",
@@ -287,11 +392,39 @@
   "count": 90
  },
  {
+  "slug": "robotics",
+  "name": "Robotics & Autonomous Systems",
+  "description": "Robots, drones, autonomous vehicles, and the perception and control stacks that let machines act on their own.",
+  "icon": "precision_manufacturing",
+  "count": 947
+ },
+ {
+  "slug": "semiconductors-hardware",
+  "name": "Semiconductors & Hardware",
+  "description": "Chips, compute, consumer electronics, and the data-center hardware everything else is built on.",
+  "icon": "memory",
+  "count": 1185
+ },
+ {
+  "slug": "space",
+  "name": "Space & Satellite",
+  "description": "Launch, satellites, ground segment, and the earth-observation and aviation data coming down from above.",
+  "icon": "rocket_launch",
+  "count": 274
+ },
+ {
   "slug": "sports",
   "name": "Sports",
   "description": "Organizations that govern and operate professional sports leagues, managing competitions, broadcasting rights, and fan engagement.",
   "icon": "sports_soccer",
   "count": 6
+ },
+ {
+  "slug": "supply-chain",
+  "name": "Supply Chain & Procurement",
+  "description": "Sourcing, procurement, freight, warehousing, and the inventory and fulfillment systems that move goods.",
+  "icon": "inventory_2",
+  "count": 1161
  },
  {
   "slug": "tax-compliance-software",
@@ -309,10 +442,10 @@
  },
  {
   "slug": "telecommunications",
-  "name": "Telecommunications",
-  "description": "Companies that build and operate networks providing voice, data, internet, and broadband services to consumers and businesses.",
+  "name": "Telecommunications & Connectivity",
+  "description": "Carriers, network operators, and the messaging, voice, and connectivity platforms built on top of them.",
   "icon": "cell_tower",
-  "count": 14
+  "count": 1196
  },
  {
   "slug": "transportation",
@@ -336,6 +469,13 @@
   "count": 39
  },
  {
+  "slug": "venture-capital",
+  "name": "Venture Capital & Investing",
+  "description": "The firms allocating capital and the platforms moving it — venture and private equity, brokerages, trading, market data, and wealth management.",
+  "icon": "trending_up",
+  "count": 1321
+ },
+ {
   "slug": "video-streaming",
   "name": "Video Streaming",
   "description": "Companies operating digital platforms that deliver on-demand and live video content to consumers via the internet.",
@@ -348,5 +488,12 @@
   "description": "Companies providing solid waste collection, disposal, recycling, and environmental sustainability services to residential, commercial, and industrial customers.",
   "icon": "delete",
   "count": 5
+ },
+ {
+  "slug": "weather-geospatial",
+  "name": "Weather & Geospatial",
+  "description": "Weather, mapping, geocoding, and the satellite and location data feeding everything from logistics to insurance.",
+  "icon": "public",
+  "count": 469
  }
 ]

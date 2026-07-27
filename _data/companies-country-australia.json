@@ -1,5 +1,5 @@
 {
- "total": 146,
+ "total": 163,
  "bands": [
   {
    "band": "strong",
@@ -5960,13 +5960,115 @@
    "label": "Not Yet Rated",
    "range": "",
    "blurb": "Providers we have not scored yet — unknown, not zero.",
-   "count": 1,
+   "count": 18,
    "companies": [
+    {
+     "name": "Agentbox",
+     "slug": "agentbox",
+     "description": "Agentbox - rebranded Reapit Sales after its acquisition by the UK-headquartered",
+     "rank": 146
+    },
+    {
+     "name": "CBRE Australia",
+     "slug": "cbre-australia",
+     "description": "CBRE Australia is the Australian arm of CBRE Group, the global commercial real estate services and investment firm, trading locally as CBRE (Gwsla) Pty Ltd (AU09949) and operating across the Pacific from cbre.com.au. It sits on the advisory and management side of the Australian property value chain rather than the data-infrastructure side: capital markets and investment sales, leasing and occupier advisory, valuation and advisory services, property and asset management, and project and design-and-build delivery across office, retail, industrial and logistics, build-to-rent, and alternative asset classes. Its API posture is closed. As of 26 July 2026 no public developer portal, API documentation, machine-readable contract, or self-serve onboarding exists for CBRE Australia: developer.cbre.com.au, developers.cbre.com.au, api.cbre.com.au, and docs.cbre.com.au do not resolve, and the global developer.cbre.com host is NXDOMAIN as well. CBRE does run API infrastructure — api.cbre.com sits behind an Imperva WAF that returns 403 to every anonymous request, api-dev.cbre.com serves a default WSO2 API Manager landing page, and eipportal.cbre.com is a login-gated \"Integration Platform\" SPA — but none of it is published, catalogued, or reachable by an outside developer. Commercial listings are distributed through the cbre.com.au property search and Australia's portal duopoly, and CBRE's terms of use explicitly prohibit scraping property listings from the site. RESO is absent entirely, which is the honest answer for Australia: there is no MLS here, no RESO-certified Australian organization, and the country's mandated machine-readable property rail is PEXA's electronic conveyancing network, not a RESO Web API. Access to CBRE data in Australia is a client or partner relationship, not a developer signup.",
+     "rank": 147
+    },
+    {
+     "name": "Console Group",
+     "slug": "console-group",
+     "description": "Console Group is an Australian property management software company, founded",
+     "rank": 148
+    },
+    {
+     "name": "CoreLogic Australia",
+     "slug": "corelogic-au",
+     "description": "CoreLogic Australia — trading as Cotality since the 2025 global rebrand, and operating the RP Data platform through RP Data Pty Ltd — is the dominant independent property data, analytics and valuation provider in Australia and New Zealand. It sits in the middle of the Australian property value chain: it aggregates state land-registry and valuer-general records, agent and portal listing campaigns, auction results and rental campaigns into a single property spine, then sells that spine back to banks, mortgage brokers, valuers, insurers, agents and government. Its commercial products include the RP Data / RP Professional desktop, the IntelliVal automated valuation model, the CoreLogic Home Value Index, Cordell construction cost data, Cityscope commercial property data, and the PSX valuation ordering exchange. Its API posture is genuinely developer-facing but commercially licensed: a live Backstage-based Cotality Developer Portal at developer.corelogic.asia offers self-serve signup and self-serve creation of sandbox OAuth clients against a deliberately restricted evaluation dataset with request quotas, while every production API host in the *.api.cotality.com.au family answers 401 \"Access token is missing\" and requires a signed commercial data licence. Australia has no MLS and no RESO mandate — CoreLogic's RESO Web API and Data Dictionary certifications belong to Trestle, its United States MLS platform, not to this Australian surface. The Australian APIs are proprietary REST/JSON over an Apigee gateway with OAuth 2.0 client credentials; no OData $metadata, no RESO endpoint, and no RESO Universal Property Identifier appears anywhere in the Australian developer portal.",
+     "rank": 149
+    },
+    {
+     "name": "Domain Group",
+     "slug": "domain-group",
+     "description": "'Domain Group (Domain Holdings Australia Ltd, trading as domain.com.au) is the second of",
+     "rank": 150
+    },
+    {
+     "name": "Landgate",
+     "slug": "landgate",
+     "description": "Landgate is the Western Australian Land Information Authority — the WA government",
+     "rank": 151
+    },
+    {
+     "name": "LJ Hooker",
+     "slug": "lj-hooker",
+     "description": "LJ Hooker is one of the largest residential and commercial real estate brokerage and property management networks in Australia and New Zealand. Founded in Maroubra, Sydney in 1928, the franchise network reports 390 businesses and around 4,000 sales professionals, property managers and support staff, facilitated more than AUD$20 billion in property transactions during 2024, and manages roughly 100,000 properties valued at about AUD$82 billion on behalf of investors. It operates across residential sales and rentals (ljhooker.com.au), commercial (ljhcommercial.com.au), rural (ljhrural.com.au), land and projects (ljhland.com.au) and New Zealand (ljhooker.co.nz). LJ Hooker sits at the agency layer of the Australian property value chain — below the REA Group / Domain portal duopoly that distributes its listings, and upstream of PEXA electronic conveyancing and the PropTrack / CoreLogic valuation data concentration. Its API posture is honestly stated as none-published: there is no developer portal, no published API documentation, no API terms of use and no partner or data-feed programme on any LJ Hooker domain. The only programmatic surface located is an undocumented, vendor-operated website backend at api01.ljx.com.au, generated by OpenAPI Generator and consumed by the Agentpoint-built property search front end; that OpenAPI definition is not published. RESO — the Real Estate Standards Organization Web API and Data Dictionary — is a North American, NAR-driven regime with no Australian footprint, and LJ Hooker appears nowhere in the RESO certificates directory.",
+     "rank": 152
+    },
+    {
+     "name": "McGrath",
+     "slug": "mcgrath",
+     "description": "McGrath is one of Australia's largest residential real estate brokerage networks, founded in Sydney in 1988 by John McGrath and operating a mixed company-owned and franchise network of roughly 118 offices across New South Wales, Queensland, the ACT, Victoria and Tasmania. Its business lines span residential sales, property management and rentals, projects and new-development marketing, rural and livestock, an Asia Desk for offshore buyers, and mortgage broking through Oxygen Home Loans. Listed on the ASX in 2015 as McGrath Limited (ASX:MEA), it was acquired in June 2024 by a consortium of Knight Frank Australia and New Zealand's Bayleys for A$95.5m and delisted from the ASX on 28 June 2024. McGrath sits on the demand side of the Australian property value chain: it is a brokerage that publishes listings into the REA Group (realestate.com.au) and Domain portal duopoly, settles transactions over the PEXA electronic conveyancing network, and consumes valuation data from PropTrack and CoreLogic rather than producing any of those rails itself. Its API posture is honestly nil. No developer portal exists — developer., developers., api., docs., feeds., data. and portal. subdomains of mcgrath.com.au all fail to resolve (NXDOMAIN), and /developers, /api, /docs, /api-docs, /openapi.json, /swagger.json, /$metadata and /.well-known/openid-configuration all return HTTP 404. RESO — the only genuinely mandated machine-readable real estate contract anywhere in this study — is a North American standard driven by NAR and MLS membership; it has no Australian counterpart and McGrath has no RESO Web API or Data Dictionary certification, no OData surface, and no Universal Property Identifier usage. McGrath's own mcgrath.com.au robots.txt explicitly disallows /properties/ and /search/ to every crawler including GPTBot, ClaudeBot, OAI-SearchBot and PerplexityBot, which is the clearest available statement of intent: the listing inventory is a marketing asset routed to portals under commercial agreements, not a developer surface.",
+     "rank": 153
+    },
+    {
+     "name": "NSW Land Registry Services",
+     "slug": "nsw-land-registry",
+     "description": "NSW Land Registry Services (NSW LRS) operates the Torrens Title Register for New South Wales, Australia's largest property market, under a concession granted by the NSW Government on 1 July 2017 and held by Australian Registry Investments Pty Ltd (ACN 617 926 020) as trustee for the Australian Registry Investments Trust. It is a privatised operator of a public record: the Registrar General retains the statutory authority and the Office of the Registrar General regulates the concession, while NSW LRS runs the register, examines and registers dealings and plans, and sells access to the resulting data. It sits at the legal foundation of the Australian value chain, beneath the REA Group and Domain portal duopoly, beneath PropTrack and CoreLogic valuation, and beneath PEXA and Sympli, the Electronic Lodgment Network Operators through which every Real Property Act dealing must now be lodged. Its API posture is the sharpest example in this study of a registry that is technically modern and commercially closed. There is no developer portal, no developer or docs subdomain, no published API programme, no OpenAPI or Swagger document, no SDK, no Postman workspace and no GitHub organization. One documented, anonymously callable API does exist, and it is not about land: the NSW LRS status page is an Atlassian Statuspage with the public v2 API enabled and referenced at status.nswlrs.com.au/api, publishing 27 components — among them an \"API Service\" component under Information Broker Services that confirms from the registry's own mouth that a production API estate sits behind the broker licence — plus RSS and Atom incident feeds and webhook notifications on incident and component changes. Access to the register itself is gated behind a licence: the site states plainly that \"Only an information broker we've authorised can access our records\", and those brokers — InfoTrack, Dye & Durham, Equifax, CITEC Confirm, TriSearch, Landchecker, Fynd, PSI Global and others — \"deliver and on-sell land titling and related property information through an official licence agreement with NSW LRS\". Wholesale data products (Property Alerts, Lease Notifications, Mortgage Insights, Mortgage Verifications) are sold by emailing datasolutions@nswlrs.com.au, with no self-serve path and no published technical contract. What does exist, and what this profile records, are three genuinely reachable machine-readable surfaces that NSW LRS never advertises to developers: a Cantaloupe IIIF Image API 2.0 Level 2 endpoint serving the scanned historical land records behind the Historical Land Records Viewer, an anonymously callable Elasticsearch search proxy over 7,160,622 indexed historical documents, and a publicly downloadable W3C XML Schema for the ICSM ePlan Cadastral Information File enumerated types that pins the NSW LandXML jurisdictional vocabulary now mandatory for digital plan lodgment. The contracts are open; the licence is not — the HLRV terms of use prohibit on-supply, data aggregation, republishing and \"any device, software or routine to abuse the service of HLRV or emulate human interaction and operation\". RESO is entirely absent: NSW LRS appears nowhere in RESO's certified-organizations list, there is no RESO Web API or Data Dictionary certification, no OData $metadata document and no Universal Property Identifier, which is the expected answer for Australia, where RESO is a North American NAR construct with no adoption. No open, unlicensed dataset is published — NSW LRS is not a publishing organization on data.nsw.gov.au — and a privatised registry selling the public record back through a licensed broker channel is itself the finding. The registry does publish its language: a 257-term glossary of NSW land titling definitions, harvested here as the controlled vocabulary that stands in for the data dictionary it never wrote.",
+     "rank": 154
+    },
+    {
+     "name": "PEXA",
+     "slug": "pexa",
+     "description": "PEXA (Property Exchange Australia) operates Australia's dominant Electronic Lodgement Network (ELN), the digital rail on which property is settled and title dealings are lodged with the state land registries. Where the Australian real estate value chain splits into a listings duopoly (REA Group and Domain) sitting over progressively privatised state land registries, PEXA occupies the transaction layer underneath both — electronic conveyancing, settlement funds movement, digital signing and lodgement — and e-conveyancing is now effectively mandated for most dealings in most Australian jurisdictions, making PEXA the closest thing in the property sector to a required, national, machine-readable rail. Its API posture is correspondingly unusual: PEXA publishes a genuine developer portal at developer.pexa.com.au with Swagger UI reference documentation and machine-readable OpenAPI/Swagger contracts for the Exchange, Projects, Notification (webhooks), Standalone Discharge and PEXA Plus Marketplace APIs, and the ARNECC Model Operating Requirements oblige it to offer API access to third parties on an equivalent basis. But that surface is not self-serve: PEXA states plainly that access to the Developer Portal and to test or production credentials is contingent on having signed PEXA's API Agreement, so a developer registers via a form, is validated and approved, signs an agreement, and is then issued OAuth 2.0 client credentials (or mutual TLS). RESO is absent — it is a North American MLS standard with no bearing on Australian e-conveyancing — so there is no RESO Web API or Data Dictionary certification here, and none should be expected. This is a well-documented, regulated, licensed-access API estate rather than an open one.",
+     "rank": 155
+    },
+    {
+     "name": "Pricefinder",
+     "slug": "pricefinder",
+     "description": "Pricefinder is an Australian property intelligence and valuation platform operating",
+     "rank": 156
+    },
+    {
+     "name": "PropertyMe",
+     "slug": "propertyme",
+     "description": "PropertyMe is an Australian cloud property management and trust accounting platform",
+     "rank": 157
+    },
     {
      "name": "PropTrack",
      "slug": "proptrack",
      "description": "PropTrack is an Australian property data, analytics, and automated valuation business, part of REA Group. It supplies residential property data, an industry-leading AI-powered Automated Valuation Model (AVM), the PropTrack Home Price Index, and market insights drawn from more than a trillion property data points across some twelve million Australian residential properties. Its raw data is sourced from public records (State/Territory land titles offices, Valuers General, and Geoscape Australia) and proprietary sources including the realestate.com.au listing portal. PropTrack exposes this through a developer program of REST APIs — covering address suggestion and matching, property and listing data, sold-transaction search (including point-and-radius queries), automated valuations, and market metrics — documented on a hosted Stoplight developer portal and secured with OAuth 2.0. The APIs are aimed at banks, lenders, brokers, proptech platforms, and other enterprise customers integrating Australian property intelligence.",
-     "rank": 146
+     "rank": 158
+    },
+    {
+     "name": "Ray White",
+     "slug": "ray-white",
+     "description": "Ray White is Australasia's largest real estate group, a family-owned",
+     "rank": 159
+    },
+    {
+     "name": "Real Estate Institute of Australia",
+     "slug": "reia",
+     "description": "The Real Estate Institute of Australia (REIA), founded in 1924 and based in Canberra, is the national federation of the eight state and territory Real Estate Institutes (REINSW, REIV, REIQ, REIWA, REISA, REIT, REIACT, REINT), which between them represent roughly 85% of Australian real estate businesses and agents. REIA is a policy, research and accreditation body, not an operator of market infrastructure: it administers the REIA National Principles of Conduct that underpin state institute codes and training, awards Associate (AREI) and Fellow accreditations, runs the Australasian Auctioneering Championships (AUSTROS) jointly with REINZ and the National Awards for Excellence (NAFE), makes submissions to the Commonwealth Government, and publishes the quarterly Housing Affordability Report (HAR) and Real Estate Market Facts (REMF) series that Federal Treasury, the Reserve Bank, state treasuries and investment banks subscribe to. It sits well above the transaction rail in the Australian value chain - listings run through REA Group's realestate.com.au and Domain, settlement through PEXA, valuation through PropTrack and CoreLogic, and title through the state land registries - and REIA touches none of those pipes. Its API posture is therefore an honest absence: no developer portal, no API subdomain, no OpenAPI or OData contract, and no RESO reference anywhere on its estate, because RESO is a NAR-mandated United States construct with no Australian counterpart. What REIA sells is data, not access to it - the HAR and REMF reports are AUD 450 subscriptions and each of the 7 HAR and 15 REMF underlying datasets is a separate AUD 280 subscription, delivered as documents through a platformOS/Insites ecommerce storefront with Stripe checkout behind an email-and-password account. Policy submissions, standalone research reports and the strategic plan are freely downloadable PDFs; the quarterly numbers are not, and there is no open data.",
+     "rank": 160
+    },
+    {
+     "name": "Reapit",
+     "slug": "reapit",
+     "description": "Reapit is a United Kingdom-headquartered supplier of agency CRM and property management software for estate and letting agents, best known for AgencyCloud and Property Cloud, and operating across the UK and Ireland, Australia and New Zealand, and Denmark (through Mindworking). In a market with no MLS, Reapit sits in the middle of the value chain: listings are created and maintained in the agent's CRM and pushed outward to the two dominant consumer portals, Rightmove and Zoopla, so the CRM — not any cooperative database — is where the machine-readable property record actually lives. Its API posture is unusually open for this sector and is the counter-example to \"certified but unreachable\": Reapit Foundations is a genuine developer platform with a public documentation site at foundations-documentation.reapit.cloud, a self-serve registration form at developers.reapit.cloud/register behind published Developer Terms and Conditions, an immediately usable SBOX sandbox, OpenID Connect authentication through Reapit Connect with a live anonymous discovery document, a REST API covering roughly thirty CRM resource domains, a public GraphQL proxy, a real webhooks system with sixty-plus event topics, and an alpha Model Context Protocol server. The contract is split rather than absent: the Swagger/OpenAPI document that powers the Interactive API Explorer is served from platform.reapit.cloud/docs behind a bearer token, so no REST spec is harvestable anonymously — but full GraphQL introspection against graphql.reapit.cloud succeeds without credentials and yields a real machine-readable contract of 190 types, 63 queries and 58 mutations, which is the widest public description of the platform that exists. The MCP server's tools/list is auth-gated, so its 43 tools are known only from the docs. Reaching any real agency's data still requires the app to pass Reapit's AppMarket listing review and then be installed by that customer, who grants the scopes. There is no RESO Web API or Data Dictionary certification, no OData $metadata document and no Universal Property Identifier anywhere in Reapit's stack — RESO is a North American, NAR-driven construct and the UK has no MLS to certify against. Reapit publishes no open data; the open UK property layer belongs to HM Land Registry and Ordnance Survey, not to the CRM vendors.",
+     "rank": 161
+    },
+    {
+     "name": "VaultRE",
+     "slug": "vaultre",
+     "description": "VaultRE - now marketed as MRI Vault CRM, after VaultRE's parent Vault Group / PropTech Group was absorbed into MRI Software - is an Australian cloud real estate CRM and transaction platform used by residential, commercial, rural, land, business and property-management agencies across Australia and New Zealand. It sits in the agency and CRM layer of the value chain rather than the portal or registry layer: it holds the agency's contacts, appraisals, listings, offers, open homes, feedback, tenancies, maintenance, invoicing and AML records, and feeds listings outward to Australia's portal duopoly (realestate.com.au and Domain) instead of being a portal, a land registry or a conveyancing rail itself. Unlike most of this sector, VaultRE publishes a genuinely open, versioned, machine-readable contract - a public MkDocs developer site at docs.api.vaultre.com.au carrying downloadable OpenAPI 3.0.1 documents for v1.1, v1.2 and v1.3 of the core API (324 paths and 453 operations in v1.3) plus a separate Aggregator API for franchise-group CRM data feeds. The API surface is documented openly but access is not self-serve: anyone can read the docs and download the specs, but API keys are issued only after an integrator-registration request is reviewed and approved (VaultRE states new integrations are generally created within two business days), and each agency must then mint a scoped access token for that integrator from inside its own VaultRE account. RESO plays no part here - Australia has no RESO mandate and no RESO, OData or $metadata reference appears anywhere in VaultRE's documentation or specifications; the local listing-distribution seam is REAXML and portal-specific feeds instead. Auth is a static X-Api-Key integrator key paired with a per-account Bearer access token, with an OAuth2-style authorisation-code flow available for token minting, scoped tokens readable via GET /scopes, HMAC-SHA512-signed webhooks, and published rate limits of 10 requests per second and 10,000 requests per day.",
+     "rank": 162
+    },
+    {
+     "name": "View.com.au",
+     "slug": "view-com-au",
+     "description": "View.com.au is an Australian residential property portal operated by View Media Group Pty Ltd (ACN 619 657 680) through view.com.au Pty Ltd (ACN 088 369 395), based in Victoria. It is the challenger portal to the REA Group / Domain duopoly, carrying for-sale, for-rent and sold listings, agency and agent profiles, Victorian sales and auction results, off-market \"Property 360\" property records with price estimates and planning/zoning overlays, plus home loans and editorial. Its API posture is unusual and worth stating precisely. The company publishes no developer portal, no OpenAPI, and no self-serve API program, and every HTML page on view.com.au sits behind DataDome bot protection that returns HTTP 403 to non-browser clients — yet it operates a completely public, unauthenticated Model Context Protocol server at https://mcp.view.com.au/mcp that returns live listing data to any anonymous agent. The human web is closed to machines while the agent surface is wide open. RESO plays no part here. RESO is a US National Association of REALTORS construct, and the RESO certified-organizations directory lists no Australian organizations at all.",
+     "rank": 163
     }
    ]
   }

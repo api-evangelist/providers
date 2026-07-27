@@ -99,6 +99,346 @@ INDUSTRY_ICONS = {
     "waste-management": "delete",
 }
 
+# Industries derived from the catalog itself rather than from the jobs taxonomy
+# in industries.yml. A provider joins one of these when any of its top-level
+# apis.yml tags matches an alias below (case-insensitive, exact match on the
+# whole tag). Providers can belong to several — these are lenses, not buckets.
+#
+# Where a slug already exists in the jobs taxonomy the two memberships are
+# unioned and the definition here wins for name/description/icon, which is how
+# thin taxonomy pages (Cybersecurity had 9 companies against 1,500+ security
+# providers in the catalog) get filled out.
+TAG_INDUSTRIES = [
+    # --- Tier 1 -----------------------------------------------------------
+    {
+        "slug": "artificial-intelligence",
+        "name": "Artificial Intelligence",
+        "icon": "smart_toy",
+        "description": "Model providers, agent frameworks, inference platforms, and the applied AI companies putting them to work behind an API.",
+        "tags": [
+            "artificial intelligence", "ai", "ai ml", "machine learning", "deep learning",
+            "reinforcement learning", "ai agents", "agents", "agentic ai", "agentic commerce",
+            "agent commerce", "llm", "large language models", "generative ai", "foundation models",
+            "computer vision", "natural language processing", "nlp", "conversational ai",
+            "voice ai", "speech recognition", "text to speech", "image generation",
+            "video generation", "multimodal", "embeddings", "rag", "inference", "mlops",
+            "ai infrastructure", "enterprise ai", "ai apps", "edge ai", "physical ai",
+            "ai governance", "ai security", "chatbots", "code generation", "data science",
+            # Deliberately not `mcp` / `model context protocol`: shipping an MCP
+            # server is an agent-readiness signal on any provider, not evidence
+            # that AI is the business.
+        ],
+    },
+    {
+        "slug": "developer-tools",
+        "name": "Developer Tools & DevOps",
+        "icon": "terminal",
+        "description": "The companies developers build on — SDKs and CLIs, CI/CD, containers, observability, API gateways, and the platforms that run it all.",
+        "tags": [
+            "developer tools", "developer platform", "developer experience", "devops", "devsecops",
+            "ci/cd", "kubernetes", "containers", "cloud native", "observability", "monitoring",
+            "aiops", "telemetry", "incident management", "incident response", "serverless",
+            "microservices", "infrastructure as code", "orchestration", "deployment",
+            "edge computing", "api gateway", "api management", "api design", "api testing",
+            "api security", "sdk", "sdks", "cli", "software development", "testing",
+            "quality assurance", "low-code", "no-code", "version control", "repository",
+            "distributed systems", "multi-cloud",
+        ],
+    },
+    {
+        "slug": "data-analytics",
+        "name": "Data & Analytics",
+        "icon": "insights",
+        "description": "Warehouses, catalogs, pipelines, and the analytics and business-intelligence layers companies expose as APIs.",
+        "tags": [
+            "analytics", "data analytics", "big data", "business intelligence",
+            "data catalog", "data integration", "data aggregation", "data engineering",
+            "data pipelines", "data platform", "data warehouse", "data management",
+            "data governance", "data quality", "data enrichment", "data extraction",
+            "data visualization", "data science", "database", "sql", "etl", "dashboards",
+            "reporting", "predictive analytics", "market intelligence", "metadata", "datasets",
+            "time series", "real-time data", "knowledge graph", "web scraping", "statistics",
+        ],
+    },
+    {
+        "slug": "cybersecurity",
+        "name": "Cybersecurity & Identity",
+        "icon": "security",
+        "description": "Security and identity providers — authentication and authorization, threat detection, application and cloud security, fraud, and privacy.",
+        "tags": [
+            "security", "cybersecurity", "application security", "cloud security",
+            "network security", "endpoint security", "data security", "api security",
+            "zero trust", "threat detection", "threat intelligence", "vulnerability management",
+            "security operations", "siem", "incident response", "identity",
+            "identity verification", "authentication", "authorization", "access control",
+            "openid connect", "oauth", "sso", "scim", "biometrics", "encryption",
+            "cryptography", "privacy", "data protection", "fraud detection",
+            "fraud prevention", "kyc", "kyb", "aml",
+        ],
+    },
+    {
+        "slug": "digital-health",
+        "name": "Digital Health & Telehealth",
+        "icon": "monitor_heart",
+        "description": "Care delivered and coordinated through software — telehealth, EHR interoperability, patient engagement, remote monitoring, and behavioral health.",
+        "tags": [
+            "digital health", "health tech", "healthtech", "telehealth", "telemedicine",
+            "virtual care", "remote patient monitoring", "patient engagement",
+            "care coordination", "value-based care", "primary care", "mental health",
+            "behavioral health", "consumer health", "women's health", "health data",
+            "health it", "ehr", "ehr integration", "electronic health records", "fhir", "hl7",
+            "interoperability", "hipaa", "medical imaging", "diagnostics", "medical devices",
+            "medtech", "practice management", "revenue cycle management", "wearables",
+            "pharmacy", "dental", "veterinary", "nutrition",
+        ],
+    },
+    {
+        "slug": "blockchain-crypto",
+        "name": "Blockchain, Crypto & Web3",
+        "icon": "currency_bitcoin",
+        "description": "Chains, exchanges, wallets, and the on-chain data and settlement infrastructure the digital-asset economy runs on.",
+        "tags": [
+            "blockchain", "web3", "crypto web3", "cryptocurrency", "crypto", "defi", "bitcoin",
+            "ethereum", "solana", "evm", "smart contracts", "nft", "digital assets", "tokens",
+            "tokenization", "stablecoins", "stablecoin", "staking", "wallet", "wallets",
+            "digital wallet", "decentralized", "exchange", "liquidity",
+        ],
+    },
+    # --- Tier 2 -----------------------------------------------------------
+    {
+        "slug": "government",
+        "name": "Government & Public Sector",
+        "icon": "account_balance",
+        "description": "Federal, state, and municipal agencies plus the open-data portals, GovTech vendors, and public-safety systems serving them.",
+        "tags": [
+            "government", "federal government", "state government", "local government",
+            "municipal", "public sector", "govtech", "civic", "government data",
+            "open data portal", "ckan", "dcat", "public safety", "national security",
+            "census", "smart city",
+            # Not bare `open data`: it tags open datasets of every kind
+            # (Wikidata, OpenStreetMap, card games), not public-sector data.
+        ],
+    },
+    {
+        "slug": "creator-economy",
+        "name": "Music, Audio & Creator Economy",
+        "icon": "graphic_eq",
+        "description": "Music and audio platforms, podcasting, publishing, social, and the tools creators use to make and monetize what they publish.",
+        "tags": [
+            "music", "audio", "podcast", "podcasts", "creator economy", "creators",
+            "content creation", "publishing", "books", "social media",
+            "influencer marketing", "live streaming", "broadcasting", "photography",
+            # Not `content` / `community` / `social` / `video` / `monetization`:
+            # each is generic platform vocabulary that pulls in CPaaS, CRM, and
+            # market-data providers that have nothing to do with creators.
+        ],
+    },
+    {
+        "slug": "venture-capital",
+        "name": "Venture Capital & Investing",
+        "icon": "trending_up",
+        "description": "The firms allocating capital and the platforms moving it — venture and private equity, brokerages, trading, market data, and wealth management.",
+        "tags": [
+            "venture capital", "private equity", "growth equity", "investing", "investment",
+            "investment management", "asset management", "wealth management",
+            "portfolio management", "trading", "brokerage", "broker", "stocks", "options",
+            "derivatives", "capital markets", "market data", "financial data", "hedge fund",
+            "family office", "crowdfunding", "startups", "venture backed",
+        ],
+    },
+    {
+        "slug": "telecommunications",
+        "name": "Telecommunications & Connectivity",
+        "icon": "cell_tower",
+        "description": "Carriers, network operators, and the messaging, voice, and connectivity platforms built on top of them.",
+        "tags": [
+            "telecommunications", "telecom", "telephony", "networking", "connectivity",
+            "wireless", "broadband", "5g", "isp", "network apis", "cpaas", "sms", "messaging",
+            "whatsapp", "voice", "communications", "contact center", "video conferencing",
+            "webrtc", "chat", "satellite communications", "dns", "cdn",
+        ],
+    },
+    {
+        "slug": "education",
+        "name": "Education & EdTech",
+        "icon": "school",
+        "description": "Universities, school systems, and the learning platforms, credentialing, and research infrastructure around them.",
+        "tags": [
+            "education", "edtech", "higher education", "university", "universities", "k-12",
+            "e-learning", "online learning", "learning", "lms", "students", "academic",
+            "research", "research data", "institutional repository", "open access", "library",
+            "libraries", "training", "coaching", "curriculum", "credentials",
+        ],
+    },
+    {
+        "slug": "legal-compliance",
+        "name": "Legal & Compliance Tech",
+        "icon": "gavel",
+        "description": "Legal software and the compliance, RegTech, and risk platforms companies use to stay inside the rules.",
+        "tags": [
+            "legal", "legal tech", "legaltech", "law", "contracts", "contract management",
+            "compliance", "regtech", "risk management",
+            "document automation", "document management", "e-signature", "esignature",
+            # Not `governance` / `audit` / `risk`: in this catalog those mostly
+            # mean API governance and security posture, not legal work.
+            "intellectual property", "patents", "litigation",
+        ],
+    },
+    {
+        "slug": "supply-chain",
+        "name": "Supply Chain & Procurement",
+        "icon": "inventory_2",
+        "description": "Sourcing, procurement, freight, warehousing, and the inventory and fulfillment systems that move goods.",
+        "tags": [
+            "supply chain", "procurement", "sourcing", "wholesale", "distribution", "freight",
+            "trucking", "shipping", "fulfillment", "warehousing", "inventory",
+            "inventory management", "order management", "orders", "edi", "customs",
+            "cross-border", "tracking", "3pl",
+        ],
+    },
+    {
+        "slug": "biotechnology",
+        "name": "Biotechnology & Drug Discovery",
+        "icon": "biotech",
+        "description": "Drug discovery and development, genomics, clinical research, and the computational biology behind modern therapeutics.",
+        "tags": [
+            "biotechnology", "biotech", "biopharmaceutical", "drug discovery",
+            "drug development", "therapeutics", "clinical trials", "clinical research",
+            "clinical stage", "genomics", "bioinformatics", "proteomics", "synthetic biology",
+            "cell therapy", "gene therapy", "immunotherapy", "immunology", "oncology",
+            "neuroscience", "precision medicine", "molecular biology", "crispr",
+        ],
+    },
+    {
+        "slug": "robotics",
+        "name": "Robotics & Autonomous Systems",
+        "icon": "precision_manufacturing",
+        "description": "Robots, drones, autonomous vehicles, and the perception and control stacks that let machines act on their own.",
+        "tags": [
+            "robotics", "robots", "autonomous systems", "autonomous vehicles", "autonomy",
+            "self-driving", "drones", "uav", "industrial automation", "automation",
+            "warehouse automation", "simulation", "teleoperation", "humanoid",
+        ],
+    },
+    {
+        "slug": "marketing-advertising",
+        "name": "Marketing & Advertising",
+        "icon": "campaign",
+        "description": "AdTech and MarTech — campaigns, attribution, customer data, personalization, and the demand-generation stack.",
+        "tags": [
+            "marketing", "marketing automation", "martech", "advertising", "adtech",
+            "programmatic", "attribution", "campaigns", "email marketing", "seo",
+            "lead generation", "personalization", "customer data platform",
+            "customer engagement", "customer experience", "loyalty", "rewards", "surveys",
+            "sales enablement", "sales intelligence", "growth",
+        ],
+    },
+    # --- Tier 3 -----------------------------------------------------------
+    {
+        "slug": "semiconductors-hardware",
+        "name": "Semiconductors & Hardware",
+        "icon": "memory",
+        "description": "Chips, compute, consumer electronics, and the data-center hardware everything else is built on.",
+        "tags": [
+            "semiconductors", "semiconductor", "chips", "hardware", "consumer hardware",
+            "consumer electronics", "electronics", "compute", "gpu", "quantum computing",
+            "data center", "data centers", "cloud computing", "storage", "3d printing",
+            "cad", "materials science",
+        ],
+    },
+    {
+        "slug": "climate-sustainability",
+        "name": "Climate & Sustainability",
+        "icon": "eco",
+        "description": "Climate tech, clean energy, carbon accounting, and the ESG and circular-economy data companies now report against.",
+        "tags": [
+            "climate", "climate tech", "cleantech", "clean energy", "renewable energy", "solar",
+            "wind", "energy storage", "carbon", "carbon accounting", "decarbonization",
+            "emissions", "esg", "sustainability", "circular economy", "recycling",
+            "environment", "climate data", "earth observation", "remote sensing",
+        ],
+    },
+    {
+        "slug": "banking",
+        "name": "Banking & Open Banking",
+        "icon": "savings",
+        "description": "Banks, credit unions, neobanks, and the open-banking and banking-as-a-service rails that connect to them.",
+        "tags": [
+            "banking", "banks", "bank", "consumer banking", "commercial banking",
+            "open banking", "open finance", "banking as a service", "neobank",
+            "core banking", "credit union", "account information", "psd2", "obie", "cdr",
+            "savings", "credit", "deposits", "treasury",
+        ],
+    },
+    {
+        "slug": "human-capital-management",
+        "name": "Human Resources & Payroll",
+        "icon": "groups",
+        "description": "Hiring, payroll, benefits, and the workforce systems of record companies run their people on.",
+        "tags": [
+            "human resources", "hr", "hr tech", "hris", "human capital management", "payroll",
+            "benefits", "employee benefits", "recruiting", "recruitment", "hiring",
+            "talent", "talent acquisition", "staffing", "jobs", "workforce",
+            "workforce management", "time tracking", "gig economy", "employer of record",
+        ],
+    },
+    {
+        "slug": "iot",
+        "name": "IoT & Connected Devices",
+        "icon": "sensors",
+        "description": "Sensors, telematics, smart home and industrial IoT — the physical world reporting in over an API.",
+        "tags": [
+            "iot", "internet of things", "industrial iot", "sensors", "telematics",
+            "smart home", "connected devices", "device management", "embedded",
+            "wearables", "edge computing", "asset tracking", "smart building",
+        ],
+    },
+    {
+        "slug": "gaming",
+        "name": "Gaming & Interactive",
+        "icon": "sports_esports",
+        "description": "Game studios and the engines, multiplayer backends, and immersive platforms behind interactive entertainment.",
+        "tags": [
+            "gaming", "games", "video games", "mobile games", "game development",
+            "game studio", "esports", "multiplayer", "virtual reality", "augmented reality",
+            "metaverse", "3d", "games and comics", "game engine",
+        ],
+    },
+    {
+        "slug": "weather-geospatial",
+        "name": "Weather & Geospatial",
+        "icon": "public",
+        "description": "Weather, mapping, geocoding, and the satellite and location data feeding everything from logistics to insurance.",
+        "tags": [
+            "weather", "geospatial", "gis", "mapping", "maps", "geocoding", "location",
+            "satellite imagery", "remote sensing", "earth observation", "navigation",
+            "cartography", "elevation", "air quality",
+        ],
+    },
+    {
+        "slug": "mobility",
+        "name": "Mobility & Fleet",
+        "icon": "directions_car",
+        "description": "Ride-hailing, micromobility, fleet management, EV charging, and the telematics layer under moving vehicles.",
+        "tags": [
+            "mobility", "fleet management", "fleet", "electric vehicles", "ev charging",
+            "ride sharing", "ridesharing", "micromobility", "car sharing", "parking",
+            "last mile", "delivery", "on-demand", "telematics",
+        ],
+    },
+    {
+        "slug": "space",
+        "name": "Space & Satellite",
+        "icon": "rocket_launch",
+        "description": "Launch, satellites, ground segment, and the earth-observation and aviation data coming down from above.",
+        "tags": [
+            "space", "space technology", "satellite", "satellites", "launch", "spacecraft",
+            "earth observation", "remote sensing", "aviation", "orbital", "ground station",
+            "space situational awareness",
+        ],
+    },
+]
+
 RAW_BASE = "https://raw.githubusercontent.com/api-evangelist/%s/refs/heads/main/screenshots/%s"
 
 BAND_LABELS = {
@@ -114,7 +454,13 @@ def slugify(name):
     return s
 
 
+_SCREENSHOTS = {}
+
+
 def newest_screenshot(slug):
+    if slug in _SCREENSHOTS:
+        return _SCREENSHOTS[slug]
+    _SCREENSHOTS[slug] = None
     shots = os.path.join(ALL, slug, "screenshots")
     if not os.path.isdir(shots):
         return None
@@ -135,7 +481,8 @@ def newest_screenshot(slug):
             fname = sorted(pngs)[-1]
     if not fname:
         return None
-    return RAW_BASE % (slug, fname)
+    _SCREENSHOTS[slug] = RAW_BASE % (slug, fname)
+    return _SCREENSHOTS[slug]
 
 
 def titleize(slug):
@@ -217,8 +564,18 @@ def _fm_block(content, key):
         return None
 
 
+_SCORE_DETAILS = {}
+
+
 def read_score_details(slug):
-    """Full score + agent_readiness blocks for one provider, or None."""
+    """Full score + agent_readiness blocks for one provider, or None.
+
+    Cached: providers now appear on several industry listings each, and this
+    parses YAML out of a file on every call.
+    """
+    if slug in _SCORE_DETAILS:
+        return _SCORE_DETAILS[slug]
+    _SCORE_DETAILS[slug] = None
     path = os.path.join(PROVIDERS, slug + ".md")
     if not os.path.isfile(path):
         return None
@@ -227,10 +584,11 @@ def read_score_details(slug):
             content = fh.read()
     except OSError:
         return None
-    return {
+    _SCORE_DETAILS[slug] = {
         "score": _fm_block(content, "score"),
         "agent": _fm_block(content, "agent_readiness"),
     }
+    return _SCORE_DETAILS[slug]
 
 
 def entry_for(slug, meta, scores):
@@ -389,18 +747,58 @@ def main():
         return {"total": len(entries), "bands": groups}
 
     # --- Industries -------------------------------------------------------
+    # Two sources, unioned by slug: the jobs taxonomy in industries.yml (which
+    # only knows the ~2k companies with job-posting signal) and the tag clusters
+    # in TAG_INDUSTRIES, matched against every all/* repo's top-level tags.
     with open(INDUSTRIES_YML, "r", encoding="utf-8") as fh:
         taxonomy = yaml.safe_load(fh)
 
-    industry_cards = []
+    industries = {}   # slug -> {name, description, icon, companies:set}
+    order = []        # slug order of first definition
+
+    def industry(slug, name, description, icon):
+        if slug not in industries:
+            industries[slug] = {
+                "name": name, "description": description,
+                "icon": icon, "companies": set(),
+            }
+            order.append(slug)
+        return industries[slug]
+
     for ind in taxonomy:
         ind_slug = slugify(ind["name"])
-        comps = set()
+        rec = industry(
+            ind_slug, ind["name"], ind.get("description", ""),
+            INDUSTRY_ICONS.get(ind_slug, "domain"),
+        )
         for sub in ind.get("industries") or []:
-            for c in sub.get("companies") or []:
-                comps.add(c)
+            rec["companies"].update(sub.get("companies") or [])
+
+    # Tag clusters. A definition here overrides the taxonomy's name, blurb, and
+    # icon for a shared slug — the catalog-derived framing is the better one —
+    # while the membership sets are unioned.
+    tag_to_slugs = {}
+    for spec in TAG_INDUSTRIES:
+        rec = industry(spec["slug"], spec["name"], spec["description"], spec["icon"])
+        rec.update({"name": spec["name"], "description": spec["description"], "icon": spec["icon"]})
+        for tag in spec["tags"]:
+            tag_to_slugs.setdefault(tag, set()).add(spec["slug"])
+
+    for repo in sorted(os.listdir(ALL), key=str.lower):
+        if not os.path.isdir(os.path.join(ALL, repo)):
+            continue
+        meta = meta_of(repo)
+        if meta is None:
+            continue
+        for t in meta[2]:
+            for slug in tag_to_slugs.get(t.strip().lower(), ()):
+                industries[slug]["companies"].add(repo)
+
+    industry_cards = []
+    for ind_slug in order:
+        rec = industries[ind_slug]
         entries = []
-        for c in sorted(comps):
+        for c in sorted(rec["companies"]):
             meta = meta_of(c)
             if meta is None:
                 continue
@@ -410,16 +808,16 @@ def main():
             json.dump(grouped, fh, ensure_ascii=False, indent=1)
         industry_cards.append({
             "slug": ind_slug,
-            "name": ind["name"],
-            "description": ind.get("description", ""),
-            "icon": INDUSTRY_ICONS.get(ind_slug, "domain"),
+            "name": rec["name"],
+            "description": rec["description"],
+            "icon": rec["icon"],
             "count": len(entries),
         })
         write_page(
             os.path.join(SITE, "industries", ind_slug, "index.html"),
             listing_page(
-                esc(ind["name"]),
-                esc("%s providers in the %s industry, ranked by their Kin Score." % (len(entries), ind["name"])),
+                esc(rec["name"]),
+                esc("%s providers in the %s industry, ranked by their Kin Score." % (len(entries), rec["name"])),
                 "companies-industry-%s" % ind_slug,
                 rated=True,
             ),
@@ -868,6 +1266,54 @@ def main():
     telecom_counts = {}
     build_roster_sections(TELECOM_SECTIONS, TELECOM_TIER_LABELS, telecom_counts)
 
+    # --- Real Estate (US / UK / AU / CA) ----------------------------------
+    # Roster-driven, HQ/origin model. Real estate is the ONLY sector in the
+    # series with a genuinely mandated machine-readable contract — RESO, whose
+    # Web API and Data Dictionary NAR requires association-owned MLSs to
+    # certify against (Policy Statement 7.90). The mandate comes from an
+    # industry body, not a regulator, and it exists only in the US: 57 of the
+    # 67 organizations bootstrapped for this study have no RESO reference at
+    # all, mostly because outside the US there is no MLS to certify against.
+    # The tiers therefore separate the listing-data infrastructure that holds
+    # the certifications from the portals, brokerages and registries around it.
+    # Rosters live in all/0-working/<cc>-real-estate-roster.json.
+    RE_TIER_LABELS = {
+        "portal-marketplace":      "Portals & Marketplaces",
+        "mls-data-infrastructure": "Listing Data Infrastructure",
+        "brokerage":               "Brokerages & Agencies",
+        "crm-transaction-tech":    "Agency CRM & Transaction Technology",
+        "valuation-avm":           "Valuation & AVM",
+        "title-escrow-closing":    "Title, Escrow & Closing",
+        "property-management":     "Property Management",
+        "commercial-cre":          "Commercial Real Estate",
+        "ibuyer":                  "iBuyers & Instant Offers",
+        "land-registry-govt":      "Land Registries & Government",
+        "rental-listings":         "Rentals & Listings",
+        "mortgage-proptech":       "Mortgage Proptech",
+        "proptech-data":           "Property Data & Analytics",
+        "industry-body":           "Industry Bodies & Standards",
+    }
+    RE_SECTIONS = [
+        ("us-real-estate", "us-real-estate-roster.json", "US Real Estate",
+         "US real estate organizations ranked by their Kin Score — the portals (Zillow, Realtor.com, Redfin, Homes.com), the listing-data infrastructure that federates roughly 500 local MLSs (Trestle, MLS Grid, Spark, Bridge), the national brokerages, agency CRM and transaction technology, valuation and AVM, title and closing, property management, commercial CRE, iBuyers, the property-data layer, and the two bodies that make this market unique — RESO, which writes the only mandated machine-readable contract in the series, and NAR, which requires MLSs to certify against it.",
+         {"slug": "state-of-us-real-estate-apis", "title": "The State of US Real Estate APIs",
+          "blurb": "PENDING_SCORING", "price": "500"}),
+        ("uk-real-estate", "uk-real-estate-roster.json", "UK Real Estate",
+         "UK real estate organizations ranked by their Kin Score — the portal duopoly (Rightmove, Zoopla) and its challenger OnTheMarket, the agency CRM layer that actually feeds them (Reapit, Alto, Street, Apex27), the national brokerages, the property-data and analytics cluster, property management, the professional bodies (RICS, Propertymark), and the open-government layer that has no counterpart in the US — HM Land Registry and Ordnance Survey.",
+         {"slug": "state-of-uk-real-estate-apis", "title": "The State of UK Real Estate APIs",
+          "blurb": "PENDING_SCORING", "price": "500"}),
+        ("au-real-estate", "au-real-estate-roster.json", "Australian Real Estate",
+         "Australian real estate organizations ranked by their Kin Score — the portal duopoly (REA Group's realestate.com.au and Domain) and challenger View, the valuation concentration in PropTrack and CoreLogic, the national brokerage networks, agency CRM and property-management software, the progressively privatised state land registries, and PEXA — the electronic conveyancing network that settles the overwhelming majority of Australian property transactions and is the closest thing in this study to a required national machine-readable property rail.",
+         {"slug": "state-of-australian-real-estate-apis", "title": "The State of Australian Real Estate APIs",
+          "blurb": "PENDING_SCORING", "price": "500"}),
+        ("canadian-real-estate", "canadian-real-estate-roster.json", "Canadian Real Estate",
+         "Canadian real estate organizations ranked by their Kin Score — CREA and REALTOR.ca with the Data Distribution Facility that syndicates member boards' listings in place of the US's ~500 MLSs, the challenger portals that have historically fought CREA for access to that data (HouseSigma, Wahi, Zolo, Properly), the national brokerage brands, rentals and property management, mortgage proptech, and the privatised provincial land registries including Teranet — where the public record itself is a commercial product.",
+         {"slug": "state-of-canadian-real-estate-apis", "title": "The State of Canadian Real Estate APIs",
+          "blurb": "PENDING_SCORING", "price": "500"}),
+    ]
+    re_counts = {}
+    build_roster_sections(RE_SECTIONS, RE_TIER_LABELS, re_counts)
+
     print("industries:       %d (providers matched: %d)" % (
         len(industry_cards), sum(c["count"] for c in industry_cards)))
     print("countries:        %d (providers matched: %d)" % (
@@ -891,6 +1337,9 @@ def main():
         print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
     for slug_page, _r, _t, _s, _p in TELECOM_SECTIONS:
         n, sc = telecom_counts.get(slug_page, (0, 0))
+        print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
+    for slug_page, _r, _t, _s, _p in RE_SECTIONS:
+        n, sc = re_counts.get(slug_page, (0, 0))
         print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
 
 
