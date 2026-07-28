@@ -27,15 +27,15 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 65.2
      },
-     "agent_score": 90.4,
+     "agent_score": 83.9,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -49,7 +49,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Aggregator & FDX",
      "rank": 1
@@ -70,15 +71,15 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 100.0
      },
-     "agent_score": 72.1,
+     "agent_score": 67.0,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -92,7 +93,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Banking-as-a-Service",
      "rank": 2
@@ -124,15 +126,15 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 81.6
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 65.2
      },
-     "agent_score": 90.4,
+     "agent_score": 83.9,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -146,7 +148,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Banking-as-a-Service",
      "rank": 3
@@ -167,15 +170,15 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 65.2
      },
-     "agent_score": 90.4,
+     "agent_score": 83.9,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -189,7 +192,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Aggregator & FDX",
      "rank": 4
@@ -209,15 +213,15 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 78.3
      },
-     "agent_score": 58.7,
+     "agent_score": 54.5,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -231,7 +235,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "tier": "Aggregator & FDX",
      "rank": 5
@@ -252,15 +257,15 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 89.1
      },
-     "agent_score": 86.5,
+     "agent_score": 80.4,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -274,7 +279,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "tier": "Digital & Neobank",
      "rank": 6
@@ -306,15 +312,15 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 89.1
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -328,7 +334,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 7
@@ -349,9 +356,9 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -365,7 +372,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Money-Center & Custody",
      "rank": 8
@@ -386,15 +394,15 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 76.1
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -408,7 +416,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Money-Center & Custody",
      "rank": 9
@@ -428,15 +437,15 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 67.4
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -450,7 +459,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 10
@@ -471,15 +481,15 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 76.1
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -493,7 +503,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Aggregator & FDX",
      "rank": 11
@@ -514,15 +525,15 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 47.8
      },
-     "agent_score": 53.8,
+     "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -536,7 +547,8 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Banking-as-a-Service",
      "rank": 12
@@ -557,15 +569,15 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 65.2
      },
-     "agent_score": 29.8,
+     "agent_score": 27.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -579,7 +591,8 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Aggregator & FDX",
      "rank": 13
@@ -600,15 +613,15 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 76.1
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -622,7 +635,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Money-Center & Custody",
      "rank": 14
@@ -643,9 +657,9 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -659,7 +673,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Banking-as-a-Service",
      "rank": 15
@@ -680,15 +695,15 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 58.7
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -702,7 +717,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 16
@@ -723,15 +739,15 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 54.3
      },
-     "agent_score": 72.1,
+     "agent_score": 67.0,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -745,7 +761,8 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Digital & Neobank",
      "rank": 17
@@ -766,15 +783,15 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 50.0
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -788,7 +805,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Digital & Neobank",
      "rank": 18
@@ -809,9 +827,9 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -825,7 +843,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Money-Center & Custody",
      "rank": 19
@@ -846,15 +865,15 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 54.3
      },
-     "agent_score": 71.2,
+     "agent_score": 66.1,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -868,7 +887,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 20
@@ -889,15 +909,15 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 67.4
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -911,7 +931,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 21
@@ -932,15 +953,15 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 50.0
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -954,7 +975,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Banking-as-a-Service",
      "rank": 22
@@ -975,15 +997,15 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 58.7
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -997,7 +1019,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Money-Center & Custody",
      "rank": 23
@@ -1018,15 +1041,15 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 60.9
      },
-     "agent_score": 53.8,
+     "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1040,7 +1063,8 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Banking-as-a-Service",
      "rank": 24
@@ -1060,15 +1084,15 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 58.7
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1082,7 +1106,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 25
@@ -1103,15 +1128,15 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 54.3
      },
-     "agent_score": 79.8,
+     "agent_score": 74.1,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -1125,7 +1150,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 26
@@ -1146,15 +1172,15 @@
       "developer_ergonomics": 82.6,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 37.0
      },
-     "agent_score": 60.6,
+     "agent_score": 56.3,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -1168,7 +1194,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Aggregator & FDX",
      "rank": 27
@@ -1189,15 +1216,15 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 76.1
      },
-     "agent_score": 43.3,
+     "agent_score": 40.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1211,7 +1238,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Digital & Neobank",
      "rank": 28
@@ -1232,15 +1260,15 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 43.5
      },
-     "agent_score": 38.5,
+     "agent_score": 35.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -1254,7 +1282,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Aggregator & FDX",
      "rank": 29
@@ -1275,15 +1304,15 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 67.4
      },
-     "agent_score": 59.6,
+     "agent_score": 55.4,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1297,7 +1326,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 30
@@ -1318,15 +1348,15 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 26.1
      },
-     "agent_score": 53.8,
+     "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1340,7 +1370,8 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Digital & Neobank",
      "rank": 31
@@ -1361,15 +1392,15 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 65.2
      },
-     "agent_score": 23.1,
+     "agent_score": 21.4,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1383,7 +1414,8 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Banking-as-a-Service",
      "rank": 32
@@ -1414,15 +1446,15 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 37.0
      },
-     "agent_score": 86.5,
+     "agent_score": 80.4,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -1436,7 +1468,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 33
@@ -1457,15 +1490,15 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 56.5
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1479,7 +1512,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 34
@@ -1500,15 +1534,15 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 67.4
      },
-     "agent_score": 23.1,
+     "agent_score": 21.4,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1522,7 +1556,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "tier": "Money-Center & Custody",
      "rank": 35
@@ -1543,15 +1578,15 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 54.3
      },
-     "agent_score": 16.3,
+     "agent_score": 15.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1565,7 +1600,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 36
@@ -1586,15 +1622,15 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 76.1
      },
-     "agent_score": 19.2,
+     "agent_score": 17.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1608,7 +1644,8 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Money-Center & Custody",
      "rank": 37
@@ -1629,15 +1666,15 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 54.3
      },
-     "agent_score": 20.2,
+     "agent_score": 18.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1651,7 +1688,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Money-Center & Custody",
      "rank": 38
@@ -1672,15 +1710,15 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 67.4
      },
-     "agent_score": 22.1,
+     "agent_score": 20.5,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1694,7 +1732,8 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 39
@@ -1715,15 +1754,15 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 50.0
      },
-     "agent_score": 23.1,
+     "agent_score": 21.4,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1737,7 +1776,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 40
@@ -1758,15 +1798,15 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 71.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 43.5
      },
-     "agent_score": 13.5,
+     "agent_score": 12.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1780,7 +1820,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "tier": "Digital & Neobank",
      "rank": 41
@@ -1801,15 +1842,15 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 58.7
      },
-     "agent_score": 32.7,
+     "agent_score": 30.4,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1823,7 +1864,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Money-Center & Custody",
      "rank": 42
@@ -1844,15 +1886,15 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 39.1
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1866,7 +1908,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Banking-as-a-Service",
      "rank": 43
@@ -1887,15 +1930,15 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 23.9
      },
-     "agent_score": 38.5,
+     "agent_score": 35.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -1909,7 +1952,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Aggregator & FDX",
      "rank": 44
@@ -1929,15 +1973,15 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 26.1
      },
-     "agent_score": 53.8,
+     "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1951,7 +1995,8 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Banking-as-a-Service",
      "rank": 45
@@ -1972,15 +2017,15 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 26.1
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1994,7 +2039,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Banking-as-a-Service",
      "rank": 46
@@ -2015,15 +2061,15 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 37.0
      },
-     "agent_score": 30.8,
+     "agent_score": 28.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -2037,7 +2083,8 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Money-Center & Custody",
      "rank": 47
@@ -2057,15 +2104,15 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 67.4
      },
-     "agent_score": 16.3,
+     "agent_score": 15.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -2079,7 +2126,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "tier": "Credit Union",
      "rank": 48
@@ -2100,15 +2148,15 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 41.3
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2122,7 +2170,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Digital & Neobank",
      "rank": 49
@@ -2143,15 +2192,15 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 76.1
      },
-     "agent_score": 13.5,
+     "agent_score": 12.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2165,7 +2214,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 50
@@ -2196,15 +2246,15 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 54.3
      },
-     "agent_score": 9.6,
+     "agent_score": 8.9,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2218,7 +2268,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 51
@@ -2238,15 +2289,15 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 54.3
      },
-     "agent_score": 13.5,
+     "agent_score": 12.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2260,7 +2311,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 52
@@ -2280,8 +2332,8 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2302,7 +2354,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Money-Center & Custody",
      "rank": 53
@@ -2322,8 +2375,8 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2344,7 +2397,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Digital & Neobank",
      "rank": 54
@@ -2365,15 +2419,15 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 43.5
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2387,7 +2441,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "tier": "Money-Center & Custody",
      "rank": 55
@@ -2408,8 +2463,8 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2430,7 +2485,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Money-Center & Custody",
      "rank": 56
@@ -2451,15 +2507,15 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 43.5
      },
-     "agent_score": 9.6,
+     "agent_score": 8.9,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2473,7 +2529,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 57
@@ -2493,8 +2550,8 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2515,7 +2572,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 58
@@ -2536,8 +2594,8 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2558,7 +2616,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 59
@@ -2579,8 +2638,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2601,7 +2660,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 60
@@ -2622,8 +2682,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2644,7 +2704,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 61
@@ -2665,8 +2726,8 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2687,7 +2748,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 62
@@ -2708,15 +2770,15 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 23.9
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2730,7 +2792,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 63
@@ -2751,15 +2814,15 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 34.8
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2773,7 +2836,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 64
@@ -2793,8 +2857,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2815,7 +2879,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 65
@@ -2835,15 +2900,15 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 37.0
      },
-     "agent_score": 9.6,
+     "agent_score": 8.9,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2857,7 +2922,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 66
@@ -2878,8 +2944,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2900,7 +2966,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 67
@@ -2921,8 +2988,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2943,7 +3010,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Digital & Neobank",
      "rank": 68
@@ -2964,8 +3032,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2986,7 +3054,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Credit Union",
      "rank": 69
@@ -3007,15 +3076,15 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 30.4
      },
-     "agent_score": 3.8,
+     "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3029,7 +3098,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 70
@@ -3050,8 +3120,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3072,7 +3142,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 71
@@ -3093,8 +3164,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3115,7 +3186,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 72
@@ -3135,8 +3207,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3157,7 +3229,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 73
@@ -3178,8 +3251,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3200,7 +3273,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 74
@@ -3221,8 +3295,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3243,7 +3317,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Digital & Neobank",
      "rank": 75
@@ -3264,8 +3339,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3286,7 +3361,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 76
@@ -3306,8 +3382,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3328,7 +3404,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 77
@@ -3349,15 +3426,15 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 21.7
      },
-     "agent_score": 3.8,
+     "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3371,7 +3448,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Credit Union",
      "rank": 78
@@ -3392,8 +3470,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3414,7 +3492,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Credit Union",
      "rank": 79
@@ -3435,15 +3514,15 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 30.4
      },
-     "agent_score": 3.8,
+     "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3457,7 +3536,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 80
@@ -3478,8 +3558,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3500,7 +3580,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 81
@@ -3520,8 +3601,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3542,7 +3623,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Digital & Neobank",
      "rank": 82
@@ -3562,8 +3644,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3584,7 +3666,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 83
@@ -3604,8 +3687,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3626,7 +3709,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 84
@@ -3646,8 +3730,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3668,7 +3752,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 85
@@ -3688,8 +3773,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3710,7 +3795,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Credit Union",
      "rank": 86
@@ -3730,8 +3816,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3752,7 +3838,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 87
@@ -3773,8 +3860,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3795,7 +3882,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 88
@@ -3816,8 +3904,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3838,7 +3926,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Credit Union",
      "rank": 89
@@ -3868,15 +3957,15 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 26.1
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3890,7 +3979,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 90
@@ -3910,8 +4000,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3932,7 +4022,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 91
@@ -3953,8 +4044,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3975,7 +4066,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 92
@@ -3996,8 +4088,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4018,7 +4110,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 93
@@ -4039,8 +4132,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4061,7 +4154,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 94
@@ -4081,8 +4175,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4103,7 +4197,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 95
@@ -4123,8 +4218,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4145,7 +4240,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 96
@@ -4165,8 +4261,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4187,7 +4283,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Credit Union",
      "rank": 97
@@ -4207,8 +4304,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4229,7 +4326,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 98
@@ -4249,8 +4347,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4271,7 +4369,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Credit Union",
      "rank": 99
@@ -4291,8 +4390,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4313,7 +4412,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Credit Union",
      "rank": 100
@@ -4333,8 +4433,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4355,7 +4455,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 101
@@ -4376,8 +4477,8 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4398,7 +4499,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 102
@@ -4419,8 +4521,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4441,7 +4543,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 103
@@ -4462,8 +4565,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4484,7 +4587,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 104
@@ -4504,8 +4608,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4526,7 +4630,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Credit Union",
      "rank": 105
@@ -4546,8 +4651,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4568,7 +4673,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Regional",
      "rank": 106
@@ -4589,8 +4695,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4611,7 +4717,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 107
@@ -4631,8 +4738,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4653,7 +4760,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Super-Regional",
      "rank": 108
@@ -4674,8 +4782,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4696,7 +4804,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Credit Union",
      "rank": 109
@@ -4717,8 +4826,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4739,7 +4848,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Credit Union",
      "rank": 110
@@ -4759,8 +4869,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4781,7 +4891,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Credit Union",
      "rank": 111
@@ -4801,8 +4912,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4823,7 +4934,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Credit Union",
      "rank": 112
@@ -4843,8 +4955,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4865,7 +4977,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Credit Union",
      "rank": 113

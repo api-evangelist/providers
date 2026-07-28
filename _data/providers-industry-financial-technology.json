@@ -27,15 +27,15 @@
       "developer_ergonomics": 100.0,
       "commercial_clarity": 100.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 100.0
      },
-     "agent_score": 100.0,
+     "agent_score": 92.9,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -49,7 +49,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "rank": 1
     },
@@ -69,15 +70,15 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 89.1
      },
-     "agent_score": 84.6,
+     "agent_score": 78.6,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -91,7 +92,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "rank": 2
     },
@@ -111,9 +113,9 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 89.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 76.9,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 71.4,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -127,7 +129,8 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 3
     },
@@ -147,15 +150,15 @@
       "developer_ergonomics": 76.1,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 76.1
      },
-     "agent_score": 81.7,
+     "agent_score": 75.9,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -169,7 +172,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 4
     }
@@ -200,15 +204,15 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 84.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 76.1
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -222,7 +226,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 5
     },
@@ -242,15 +247,15 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 78.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 89.1
      },
-     "agent_score": 55.8,
+     "agent_score": 51.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -264,7 +269,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 6
     },
@@ -284,15 +290,15 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 54.3
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -306,7 +312,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 7
     },
@@ -326,15 +333,15 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 67.4
      },
-     "agent_score": 53.8,
+     "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -348,7 +355,8 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 8
     }
@@ -360,8 +368,8 @@
    "label": "Developing",
    "range": "45–59.9",
    "blurb": "Real signal across most facets with visible, nameable gaps.",
-   "count": 18,
-   "shown": 18,
+   "count": 19,
+   "shown": 19,
    "providers": [
     {
      "name": "Charles Schwab",
@@ -379,15 +387,15 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 89.1
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -401,7 +409,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 9
     },
@@ -421,15 +430,15 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 76.1
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -443,7 +452,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 10
     },
@@ -463,15 +473,15 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 76.1
      },
-     "agent_score": 75.0,
+     "agent_score": 69.6,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -485,9 +495,53 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 11
+    },
+    {
+     "name": "JPMorgan Chase",
+     "slug": "jp-morgan-chase",
+     "description": "JPMorgan Chase is a leading global financial services firm and one of the largest banking institutions in the United States, with operations across investment banking, financial services, asset management, and private equity. Its J.P. Morgan Payments Developer Portal publishes 26 API definitions covering 194 operations across payments, treasury, onboarding, tokenization, disputes, reporting and blockchain deposit accounts, with OAuth 2.0, mTLS and digital-signature authentication and a Mock environment for client testing.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/screenshots/jp-morgan-chase-2026-06-20T183806.png",
+     "score": 54.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 58.7,
+      "governance": 0.0,
+      "operational_transparency": 60.5,
+      "developer_ergonomics": 54.3,
+      "commercial_clarity": 63.2
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Banking & Open Finance",
+      "regime_id": "banking_open_finance",
+      "score": 43.5
+     },
+     "agent_score": 58.0,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": true,
+      "error_semantics": true,
+      "openapi_examples": true,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false
+     },
+     "rank": 12
     },
     {
      "name": "Western Union",
@@ -505,9 +559,9 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -521,9 +575,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 12
+     "rank": 13
     },
     {
      "name": "Mastercard",
@@ -541,15 +596,15 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 54.3
      },
-     "agent_score": 54.8,
+     "agent_score": 50.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -563,9 +618,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 13
+     "rank": 14
     },
     {
      "name": "Broadridge",
@@ -583,9 +639,9 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -599,9 +655,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 14
+     "rank": 15
     },
     {
      "name": "Interactive Brokers",
@@ -619,15 +676,15 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 47.8
      },
-     "agent_score": 53.8,
+     "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -641,9 +698,10 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 15
+     "rank": 16
     },
     {
      "name": "Wells Fargo",
@@ -661,9 +719,9 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -677,9 +735,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 16
+     "rank": 17
     },
     {
      "name": "Intercontinental Exchange",
@@ -697,15 +756,15 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 65.8
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 65.2
      },
-     "agent_score": 56.7,
+     "agent_score": 52.7,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -719,9 +778,10 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 17
+     "rank": 18
     },
     {
      "name": "CME Group",
@@ -739,15 +799,15 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 89.1
      },
-     "agent_score": 27.9,
+     "agent_score": 25.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -761,9 +821,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 18
+     "rank": 19
     },
     {
      "name": "S&P Global",
@@ -781,9 +842,9 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -797,9 +858,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 19
+     "rank": 20
     },
     {
      "name": "Commonwealth Bank",
@@ -817,15 +879,15 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 87.0
      },
-     "agent_score": 65.4,
+     "agent_score": 60.7,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -839,9 +901,10 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 20
+     "rank": 21
     },
     {
      "name": "Cboe Global Markets",
@@ -859,15 +922,15 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 76.1
      },
-     "agent_score": 39.4,
+     "agent_score": 36.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -881,9 +944,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 21
+     "rank": 22
     },
     {
      "name": "NCR",
@@ -901,15 +965,15 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 37.0
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -923,9 +987,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 22
+     "rank": 23
     },
     {
      "name": "Barclays",
@@ -943,15 +1008,15 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 73.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 54.3
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -965,9 +1030,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 23
+     "rank": 24
     },
     {
      "name": "Scotiabank",
@@ -985,15 +1051,15 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 58.7
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1007,9 +1073,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 24
+     "rank": 25
     },
     {
      "name": "Toast",
@@ -1027,9 +1094,9 @@
       "developer_ergonomics": 28.3,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1043,9 +1110,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "Shift4 Payments",
@@ -1063,15 +1131,15 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 37.0
      },
-     "agent_score": 54.8,
+     "agent_score": 50.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1085,9 +1153,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 26
+     "rank": 27
     }
    ]
   },
@@ -1115,15 +1184,15 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 37.0
      },
-     "agent_score": 53.8,
+     "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1137,9 +1206,10 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Visa",
@@ -1157,15 +1227,15 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 37.0
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1179,9 +1249,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "BlackRock",
@@ -1198,9 +1269,9 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1214,9 +1285,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "Capital One",
@@ -1234,15 +1306,15 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 67.4
      },
-     "agent_score": 23.1,
+     "agent_score": 21.4,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1256,9 +1328,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "American Express",
@@ -1276,15 +1349,15 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 54.3
      },
-     "agent_score": 16.3,
+     "agent_score": 15.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1298,9 +1371,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Global Payments",
@@ -1318,15 +1392,15 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 47.8
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1340,9 +1414,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "ABN AMRO",
@@ -1360,15 +1435,15 @@
       "developer_ergonomics": 39.1,
       "commercial_clarity": 57.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 58.7
      },
-     "agent_score": 16.3,
+     "agent_score": 15.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1382,9 +1457,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "Goldman Sachs",
@@ -1402,15 +1478,15 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 37.0
      },
-     "agent_score": 30.8,
+     "agent_score": 28.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1424,9 +1500,10 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 34
+     "rank": 35
     }
    ]
   },
@@ -1435,8 +1512,8 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 8,
-   "shown": 8,
+   "count": 7,
+   "shown": 7,
    "providers": [
     {
      "name": "MSCI",
@@ -1454,9 +1531,9 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 25.0,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 23.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1470,9 +1547,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "BNP Paribas",
@@ -1490,15 +1568,15 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 13.0
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1512,9 +1590,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Deutsche Bank",
@@ -1532,15 +1611,15 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 26.1
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1554,9 +1633,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "Bread Financial",
@@ -1574,15 +1654,15 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 13.0
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1596,9 +1676,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Fidelity National Information Services (FIS)",
@@ -1615,15 +1696,15 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 13.0
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1637,9 +1718,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "Equifax",
@@ -1657,9 +1739,9 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1673,9 +1755,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Nasdaq",
@@ -1693,9 +1776,9 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 5.8,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 5.4,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1709,49 +1792,8 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
-     },
-     "rank": 41
-    },
-    {
-     "name": "JPMorgan Chase",
-     "slug": "jp-morgan-chase",
-     "description": "JPMorgan Chase is a leading global financial services firm and one of the largest banking institutions in the United States, with operations across investment banking, financial services, asset management, and private equity. J.P. Morgan publishes a Payments Developer Portal exposing APIs for payments, treasury, and account services.",
-     "screenshot": "https://raw.githubusercontent.com/api-evangelist/jp-morgan-chase/refs/heads/main/screenshots/jp-morgan-chase-2026-06-20T183806.png",
-     "score": 16.6,
-     "band": "emerging",
-     "band_label": "Emerging",
-     "facets": {
-      "discoverability": 80.0,
-      "contract_quality": 0.0,
-      "governance": 0.0,
-      "operational_transparency": 26.3,
-      "developer_ergonomics": 0.0,
-      "commercial_clarity": 28.9
-     },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "regulatory": {
-      "applies": true,
-      "regime": "Banking & Open Finance",
-      "regime_id": "banking_open_finance",
-      "score": 13.0
-     },
-     "agent_score": 6.7,
-     "agent_band": "human-only",
-     "agent_dims": {
-      "spec_presence": false,
-      "agentic_access": false,
-      "mcp_server": false,
-      "auth_clarity": false,
-      "idempotency": false,
-      "error_semantics": false,
-      "openapi_examples": false,
-      "rate_limit_signal": true,
-      "asyncapi_events": false,
-      "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 42
     }
@@ -1781,8 +1823,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1797,7 +1839,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 43
     },
@@ -1817,8 +1860,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1839,7 +1882,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 44
     },
@@ -1859,8 +1903,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1881,7 +1925,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 45
     },
@@ -1901,8 +1946,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -1923,7 +1968,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 46
     },
@@ -1943,8 +1989,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1959,7 +2005,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 47
     },
@@ -1979,8 +2026,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2001,7 +2048,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 48
     },
@@ -2021,8 +2069,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2043,7 +2091,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 49
     },
@@ -2063,8 +2112,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2079,7 +2128,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 50
     },
@@ -2099,8 +2149,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2115,7 +2165,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 51
     },
@@ -2135,8 +2186,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2151,7 +2202,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 52
     },
@@ -2171,8 +2223,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2187,7 +2239,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 53
     },
@@ -2207,8 +2260,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2223,7 +2276,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 54
     }

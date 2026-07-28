@@ -27,15 +27,15 @@
       "developer_ergonomics": 54.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 37.0
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -49,7 +49,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 1
     }
@@ -79,9 +80,9 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 77.9,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 72.3,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -95,7 +96,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "rank": 2
     },
@@ -115,15 +117,15 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 54.3
      },
-     "agent_score": 69.2,
+     "agent_score": 64.3,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -137,7 +139,8 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 3
     }
@@ -168,15 +171,15 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 23.9
      },
-     "agent_score": 24.0,
+     "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -190,7 +193,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 4
     }
@@ -220,15 +224,15 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 37.0
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -242,7 +246,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 5
     },
@@ -262,15 +267,15 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 13.0
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -284,7 +289,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 6
     }
@@ -314,8 +320,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -330,7 +336,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 7
     },
@@ -349,9 +356,9 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 11.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 10.7,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -365,7 +372,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 8
     },
@@ -385,8 +393,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -401,7 +409,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 9
     },
@@ -420,8 +429,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -436,7 +445,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 10
     },
@@ -455,8 +465,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -471,7 +481,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 11
     },
@@ -491,8 +502,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -507,7 +518,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 12
     },
@@ -527,8 +539,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -543,7 +555,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 13
     },
@@ -562,8 +575,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -578,7 +591,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 14
     },
@@ -597,8 +611,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -613,7 +627,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 15
     }

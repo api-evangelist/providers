@@ -1440,19 +1440,19 @@ def main():
         ("us-travel", "us-travel-roster.json", "US Travel & Aviation",
          "US travel and aviation organizations ranked by their Kin Score — Sabre, one of the three GDS companies whose intermediation of airline inventory is the sector's defining commercial structure, the major carriers, the OTA duopoly that owns consumer demand (Expedia, Booking Holdings) plus Airbnb, the hotel groups whose direct-booking strategies are an explicit fight against that intermediation, hospitality technology, corporate travel, car rental, rail, the standards bodies (OpenTravel, HEDNA) and the federal regulators.",
          {"slug": "state-of-us-travel-apis", "title": "The State of US Travel APIs",
-          "blurb": "PENDING_SCORING", "price": "500"}),
+          "blurb": "30 US travel organizations scored (avg 34.3) — the strongest of the four travel markets, and still a sector where the companies that own the customer publish worst. Expedia scores 8.5 and Hertz 3.5 while the OpenTravel Alliance tops the market at 58.3 and the FAA reaches 56.3. Idempotency is 1 of 30, in an industry that books, pays, changes and cancels.", "price": "500"}),
         ("uk-travel", "uk-travel-roster.json", "UK Travel & Aviation",
          "UK travel and aviation organizations ranked by their Kin Score — Travelport, the third GDS, alongside Duffel, an API-first booking layer built explicitly to route around GDS intermediation using IATA's NDC; British Airways, an early and aggressive NDC adopter that surcharged GDS bookings; easyJet and Jet2, direct-distribution carriers that never used a GDS at all; Skyscanner in metasearch, Trainline in rail, IHG in hotels, and the Civil Aviation Authority.",
          {"slug": "state-of-uk-travel-apis", "title": "The State of UK Travel APIs",
-          "blurb": "PENDING_SCORING", "price": "500"}),
+          "blurb": "14 UK travel organizations scored (avg 27.1) — the market building the alternative to GDS intermediation, and scoring below the market it is trying to replace. Duffel, the API-first booking layer built on NDC, reaches 38.8; Travelport, the GDS it exists to route around, scores 27.6; British Airways, an early NDC adopter that surcharged GDS bookings, scores 23.7. Skyscanner, the country\u2019s best-known travel brand, scores 7.4.", "price": "500"}),
         ("au-travel", "au-travel-roster.json", "Australian Travel & Aviation",
          "Australian travel and aviation organizations ranked by their Kin Score — SiteMinder, a genuinely global channel manager built in Sydney that holds the same intermediary position in hotels that the GDS holds in aviation; the Qantas and Virgin Australia duopoly and its long history of distribution disputes; Jetstar as the low-cost direct-distribution arm; the unusually large agency groups (Webjet, Flight Centre, Corporate Travel Management, Helloworld); Sydney Airport and CASA.",
          {"slug": "state-of-australian-travel-apis", "title": "The State of Australian Travel APIs",
-          "blurb": "PENDING_SCORING", "price": "500"}),
+          "blurb": "11 Australian travel organizations scored (avg 24.8) — the thinnest published surface in the entire sector series. Contract quality averages 5.9 with nine of eleven organizations at zero, one organization in eleven publishes a machine-readable spec, and agent-readiness averages 14.5. SiteMinder, a channel manager used by hotels worldwide, scores 21.0 with zero agent-readiness.", "price": "500"}),
         ("canadian-travel", "canadian-travel-roster.json", "Canadian Travel & Aviation",
          "Canadian travel and aviation organizations ranked by their Kin Score — IATA, headquartered in Montreal, which writes the NDC standard intended to restructure airline distribution worldwide; the Air Canada and WestJet duopoly with Porter as challenger; Hopper as an unusually API-native OTA; Transat and Flight Network; VIA Rail; and Transport Canada.",
          {"slug": "state-of-canadian-travel-apis", "title": "The State of Canadian Travel APIs",
-          "blurb": "PENDING_SCORING", "price": "500"}),
+          "blurb": "9 Canadian travel organizations scored (avg 26.0) — and the finding is IATA, headquartered in Montreal, scoring 23.8 in the Emerging band. The body that writes NDC, the standard meant to restructure airline distribution worldwide, publishes less than the carriers it is trying to reorganise. No Strong band, no Exemplar, and no organization above 43.2.", "price": "500"}),
     ]
     travel_counts = {}
     build_roster_sections(TRAVEL_SECTIONS, TRAVEL_TIER_LABELS, travel_counts)

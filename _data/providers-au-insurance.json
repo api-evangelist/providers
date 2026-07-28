@@ -27,15 +27,15 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 92.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 78.3
      },
-     "agent_score": 64.4,
+     "agent_score": 59.8,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -49,7 +49,8 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "tier": "Core Systems & Policy Administration",
      "rank": 1
@@ -69,15 +70,15 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 67.4
      },
-     "agent_score": 65.4,
+     "agent_score": 60.7,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -91,7 +92,8 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "P&C / General Insurers",
      "rank": 2
@@ -111,15 +113,15 @@
       "developer_ergonomics": 80.4,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 65.2
      },
-     "agent_score": 69.2,
+     "agent_score": 64.3,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -133,7 +135,8 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
      "rank": 3
@@ -164,15 +167,15 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 76.1
      },
-     "agent_score": 57.7,
+     "agent_score": 53.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -186,7 +189,8 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Brokers & Intermediaries",
      "rank": 4
@@ -207,15 +211,15 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 65.2
      },
-     "agent_score": 15.4,
+     "agent_score": 14.3,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -229,7 +233,8 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Claims Technology",
      "rank": 5
@@ -250,15 +255,15 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 26.1
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -272,7 +277,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Embedded Insurance & Distribution APIs",
      "rank": 6
@@ -293,15 +299,15 @@
       "developer_ergonomics": 43.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 76.1
      },
-     "agent_score": 32.7,
+     "agent_score": 30.4,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -315,7 +321,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Market Bodies, Standards & Regulators",
      "rank": 7
@@ -336,15 +343,15 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 78.3
      },
-     "agent_score": 16.3,
+     "agent_score": 15.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -358,7 +365,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "tier": "Market Bodies, Standards & Regulators",
      "rank": 8
@@ -378,15 +386,15 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 100.0
      },
-     "agent_score": 22.1,
+     "agent_score": 20.5,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -400,7 +408,8 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "tier": "Brokers & Intermediaries",
      "rank": 9
@@ -421,15 +430,15 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 76.1
      },
-     "agent_score": 13.5,
+     "agent_score": 12.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -443,7 +452,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Life, Health & Benefits Insurers",
      "rank": 10
@@ -463,15 +473,15 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 89.1
      },
-     "agent_score": 16.3,
+     "agent_score": 15.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -485,7 +495,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "tier": "Life, Health & Benefits Insurers",
      "rank": 11
@@ -516,15 +527,15 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 87.0
      },
-     "agent_score": 13.5,
+     "agent_score": 12.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -538,7 +549,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Life, Health & Benefits Insurers",
      "rank": 12
@@ -559,15 +571,15 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 76.1
      },
-     "agent_score": 13.5,
+     "agent_score": 12.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -581,7 +593,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
      "rank": 13
@@ -601,15 +614,15 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 67.4
      },
-     "agent_score": 21.2,
+     "agent_score": 19.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -623,7 +636,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Life, Health & Benefits Insurers",
      "rank": 14
@@ -644,15 +658,15 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 65.2
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -666,7 +680,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "tier": "P&C / General Insurers",
      "rank": 15
@@ -686,15 +701,15 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 65.2
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -708,7 +723,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "tier": "P&C / General Insurers",
      "rank": 16
@@ -728,15 +744,15 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 41.3
      },
-     "agent_score": 3.8,
+     "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -750,7 +766,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Life, Health & Benefits Insurers",
      "rank": 17
@@ -770,8 +787,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -792,7 +809,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "P&C / General Insurers",
      "rank": 18
@@ -823,8 +841,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -845,7 +863,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "P&C / General Insurers",
      "rank": 19
@@ -866,8 +885,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -888,7 +907,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Insurtech & Digital-Native Insurers",
      "rank": 20

@@ -14,27 +14,27 @@
     {
      "name": "Yardi",
      "slug": "yardi",
-     "description": "Yardi develops and supports industry-leading investment and property management software for all types and sizes of real estate companies. The platform includes solutions for residential, commercial, public housing, affordable housing, and military housing management.",
+     "description": "Yardi Systems, Inc. (Goleta, California) builds the investment and property management software that residential, commercial, affordable housing, public housing, military housing, self-storage, coworking and senior living operators run as their system of record — Voyager, Breeze, RentCafe, Elevate, Investment Suite, Matrix, Kube and Virtuoso. It sits on the systems-of-record rung of the real estate value chain: the ledger and operating platform a landlord or asset manager runs on, not a listing portal and not a registry operator. Its API posture, stated honestly, is licensed-access-only and partner-gated. There is no public developer portal — developer., developers., api. and docs. hosts do not resolve on yardi.com, and the /platform/ and /platform/api/ paths previously catalogued here return HTTP 404. Real interfaces exist in volume, but only behind the Voyager Standard Interface Partnership Program (SIPP): an application, a signed Data Exchange Agreement per interface type, a company at least two years old with three or more active Voyager clients, and an annual license fee per interface that is in some cases charged per transaction. A development sandbox is provided only after acceptance. The public \"find an interface partner\" page is a directory of 450+ already-accepted vendors across twelve interface categories, not documentation — its only calls to action are \"Talk to sales\" and \"Contact us\". Three public, machine-readable or anonymously readable surfaces do exist, and none of them is the Voyager API. Yardi ships a first-party MCP server, the Virtuoso Connector, whose OAuth 2.1 authorization contract is published anonymously on mcp.virtuoso.ai even though its tool list is not. status.yardi.com runs a full Atlassian Statuspage with an unauthenticated JSON API across 134 components in 16 product groups. And centershiftdevx.com, the legacy CenterShift developer site carried forward into Yardi Store, still serves genuine SWS2 endpoint documentation to anonymous readers — the only Yardi property that does. Every OpenAPI, JSON Schema, GraphQL schema, Postman collection and derived governance artifact in this repository was written by API Evangelist from Yardi's own interface naming and public partner documentation. Yardi publishes no OpenAPI, no WSDL, no OData $metadata and no machine-readable contract of any kind.",
      "screenshot": "https://raw.githubusercontent.com/api-evangelist/yardi/refs/heads/main/screenshots/yardi-2026-06-20T201730.png",
-     "score": 62.9,
+     "score": 62.0,
      "band": "strong",
      "band_label": "Strong",
      "facets": {
-      "discoverability": 100.0,
+      "discoverability": 87.5,
       "contract_quality": 67.3,
       "governance": 73.7,
       "operational_transparency": 42.1,
-      "developer_ergonomics": 45.7,
-      "commercial_clarity": 63.2
+      "developer_ergonomics": 50.0,
+      "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
-     "agent_band": "agent-ready",
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 58.9,
+     "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
       "agentic_access": true,
-      "mcp_server": false,
+      "mcp_server": true,
       "auth_clarity": true,
       "idempotency": false,
       "error_semantics": false,
@@ -42,8 +42,9 @@
       "rate_limit_signal": true,
       "asyncapi_events": false,
       "agent_skills": false,
-      "well_known_catalog": false,
-      "consent_identity": false
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Property Management",
      "rank": 1
@@ -75,9 +76,9 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -91,7 +92,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Property Data & Analytics",
      "rank": 2
@@ -111,15 +113,15 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 76.1
      },
-     "agent_score": 63.5,
+     "agent_score": 58.9,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -133,7 +135,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Brokerages & Agencies",
      "rank": 3
@@ -153,9 +156,9 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 63.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 38.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 35.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -169,7 +172,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Portals & Marketplaces",
      "rank": 4
@@ -189,9 +193,9 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 75.0,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 69.6,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -205,7 +209,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Agency CRM & Transaction Technology",
      "rank": 5
@@ -225,9 +230,9 @@
       "developer_ergonomics": 67.4,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 72.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 67.0,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -241,7 +246,8 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Property Data & Analytics",
      "rank": 6
@@ -261,9 +267,9 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 69.2,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 64.3,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -277,7 +283,8 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Commercial Real Estate",
      "rank": 7
@@ -308,9 +315,9 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 40.4,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 37.5,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -324,7 +331,8 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Listing Data Infrastructure",
      "rank": 8
@@ -344,15 +352,15 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 87.0
      },
-     "agent_score": 21.2,
+     "agent_score": 19.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -366,7 +374,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Brokerages & Agencies",
      "rank": 9
@@ -387,9 +396,9 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -403,7 +412,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Commercial Real Estate",
      "rank": 10
@@ -423,9 +433,9 @@
       "developer_ergonomics": 78.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 27.9,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 25.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -439,7 +449,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Industry Bodies & Standards",
      "rank": 11
@@ -460,9 +471,9 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 24.0,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -476,7 +487,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Valuation & AVM",
      "rank": 12
@@ -497,9 +509,9 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -513,7 +525,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Property Data & Analytics",
      "rank": 13
@@ -533,15 +546,15 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 76.1
      },
-     "agent_score": 69.2,
+     "agent_score": 64.3,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -555,7 +568,8 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "iBuyers & Instant Offers",
      "rank": 14
@@ -575,9 +589,9 @@
       "developer_ergonomics": 63.0,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 39.4,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 36.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -591,7 +605,8 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Listing Data Infrastructure",
      "rank": 15
@@ -612,15 +627,15 @@
       "developer_ergonomics": 45.7,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 13.0
      },
-     "agent_score": 26.9,
+     "agent_score": 25.0,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -634,7 +649,8 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Mortgage Proptech",
      "rank": 16
@@ -655,9 +671,9 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -671,7 +687,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Listing Data Infrastructure",
      "rank": 17
@@ -692,9 +709,9 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -708,7 +725,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Agency CRM & Transaction Technology",
      "rank": 18
@@ -729,9 +747,9 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -745,7 +763,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Mortgage Proptech",
      "rank": 19
@@ -765,9 +784,9 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -781,7 +800,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Commercial Real Estate",
      "rank": 20
@@ -801,9 +821,9 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 38.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 35.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -817,7 +837,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Agency CRM & Transaction Technology",
      "rank": 21
@@ -837,9 +858,9 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 72.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 67.0,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -853,7 +874,8 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Industry Bodies & Standards",
      "rank": 22
@@ -874,9 +896,9 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 33.7,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 31.3,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -890,7 +912,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Valuation & AVM",
      "rank": 23
@@ -910,9 +933,9 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 48.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -926,7 +949,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Commercial Real Estate",
      "rank": 24
@@ -947,9 +971,9 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 41.3,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 38.4,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -963,7 +987,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Agency CRM & Transaction Technology",
      "rank": 25
@@ -993,9 +1018,9 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 30.8,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 28.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1009,7 +1034,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Listing Data Infrastructure",
      "rank": 26
@@ -1030,9 +1056,9 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1046,7 +1072,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Portals & Marketplaces",
      "rank": 27
@@ -1066,15 +1093,15 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 45.7
      },
-     "agent_score": 37.5,
+     "agent_score": 34.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1088,7 +1115,8 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Brokerages & Agencies",
      "rank": 28
@@ -1109,9 +1137,9 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1125,7 +1153,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "iBuyers & Instant Offers",
      "rank": 29
@@ -1146,15 +1175,15 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 13.0
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1168,7 +1197,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Property Management",
      "rank": 30
@@ -1189,9 +1219,9 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1205,7 +1235,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Rentals & Listings",
      "rank": 31
@@ -1226,9 +1257,9 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1242,7 +1273,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Title, Escrow & Closing",
      "rank": 32
@@ -1262,8 +1294,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1278,7 +1310,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Portals & Marketplaces",
      "rank": 33
@@ -1298,9 +1331,9 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 39.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1314,7 +1347,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Title, Escrow & Closing",
      "rank": 34
@@ -1335,9 +1369,9 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1351,7 +1385,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Commercial Real Estate",
      "rank": 35
@@ -1372,9 +1407,9 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1388,7 +1423,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Property Management",
      "rank": 36
@@ -1409,9 +1445,9 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1425,7 +1461,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Property Management",
      "rank": 37
@@ -1445,8 +1482,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1461,7 +1498,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Rentals & Listings",
      "rank": 38
@@ -1481,8 +1519,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1503,7 +1541,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Brokerages & Agencies",
      "rank": 39
@@ -1523,8 +1562,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1545,7 +1584,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Brokerages & Agencies",
      "rank": 40
@@ -1576,8 +1616,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -1598,7 +1638,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Brokerages & Agencies",
      "rank": 41
@@ -1619,8 +1660,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1635,7 +1676,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Property Management",
      "rank": 42
@@ -1656,8 +1698,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1672,7 +1714,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Title, Escrow & Closing",
      "rank": 43
@@ -1692,8 +1735,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1708,7 +1751,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Portals & Marketplaces",
      "rank": 44
@@ -1729,8 +1773,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -1745,7 +1789,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "tier": "Title, Escrow & Closing",
      "rank": 45

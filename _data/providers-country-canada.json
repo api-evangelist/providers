@@ -1,6 +1,6 @@
 {
- "total": 155,
- "shown": 155,
+ "total": 162,
+ "shown": 162,
  "limit": 1000,
  "bands": [
   {
@@ -27,9 +27,9 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 53.8,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -43,7 +43,8 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 1
     },
@@ -63,15 +64,15 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 65.2
      },
-     "agent_score": 86.5,
+     "agent_score": 80.4,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -85,7 +86,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 2
     }
@@ -115,15 +117,15 @@
       "developer_ergonomics": 71.7,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 87.0
      },
-     "agent_score": 83.7,
+     "agent_score": 77.7,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -137,7 +139,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 3
     },
@@ -156,15 +159,15 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 67.4
      },
-     "agent_score": 86.5,
+     "agent_score": 80.4,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -178,7 +181,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "rank": 4
     },
@@ -197,15 +201,15 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 87.0
      },
-     "agent_score": 75.0,
+     "agent_score": 69.6,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -219,7 +223,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 5
     },
@@ -239,15 +244,15 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 65.2
      },
-     "agent_score": 86.5,
+     "agent_score": 80.4,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -261,7 +266,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 6
     },
@@ -280,15 +286,15 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 89.1
      },
-     "agent_score": 87.5,
+     "agent_score": 81.3,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -302,7 +308,8 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
      "rank": 7
     },
@@ -321,15 +328,15 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 87.0
      },
-     "agent_score": 61.5,
+     "agent_score": 57.1,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -343,7 +350,8 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 8
     },
@@ -362,15 +370,15 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 54.3
      },
-     "agent_score": 71.2,
+     "agent_score": 66.1,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -384,7 +392,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 9
     },
@@ -403,15 +412,15 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 89.1
      },
-     "agent_score": 38.5,
+     "agent_score": 35.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -425,7 +434,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 10
     },
@@ -445,15 +455,15 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 47.4
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 87.0
      },
-     "agent_score": 46.2,
+     "agent_score": 42.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": false,
@@ -467,7 +477,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 11
     },
@@ -486,9 +497,9 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 77.9,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 72.3,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -502,7 +513,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 12
     },
@@ -521,15 +533,15 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 89.1
      },
-     "agent_score": 43.3,
+     "agent_score": 40.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -543,7 +555,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 13
     },
@@ -563,15 +576,15 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 58.7
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -585,7 +598,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 14
     },
@@ -604,15 +618,15 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 54.3
      },
-     "agent_score": 47.1,
+     "agent_score": 43.8,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": false,
@@ -626,7 +640,8 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 15
     },
@@ -645,15 +660,15 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 87.0
      },
-     "agent_score": 54.8,
+     "agent_score": 50.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -667,7 +682,8 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 16
     },
@@ -687,15 +703,15 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 50.0
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -709,7 +725,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 17
     },
@@ -729,15 +746,15 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 50.0
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -751,7 +768,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 18
     },
@@ -770,15 +788,15 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 37.0
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -792,7 +810,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 19
     },
@@ -811,15 +830,15 @@
       "developer_ergonomics": 69.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 76.1
      },
-     "agent_score": 69.2,
+     "agent_score": 64.3,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -833,7 +852,8 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 20
     },
@@ -852,9 +872,9 @@
       "developer_ergonomics": 65.2,
       "commercial_clarity": 55.3
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 60.6,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 56.3,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -868,7 +888,8 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 21
     }
@@ -880,8 +901,8 @@
    "label": "Thin",
    "range": "30–44.9",
    "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-   "count": 31,
-   "shown": 31,
+   "count": 33,
+   "shown": 33,
    "providers": [
     {
      "name": "Canada Health Infoway",
@@ -899,15 +920,15 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 54.3
      },
-     "agent_score": 71.2,
+     "agent_score": 66.1,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -921,7 +942,8 @@
       "asyncapi_events": true,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 22
     },
@@ -941,15 +963,15 @@
       "developer_ergonomics": 56.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 87.0
      },
-     "agent_score": 21.2,
+     "agent_score": 19.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -963,7 +985,8 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 23
     },
@@ -983,15 +1006,15 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 54.3
      },
-     "agent_score": 27.9,
+     "agent_score": 25.9,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1005,9 +1028,46 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
      "rank": 24
+    },
+    {
+     "name": "Air Canada",
+     "slug": "air-canada",
+     "description": "Air Canada is Canada's flag carrier and largest airline, headquartered in Montreal, operating scheduled passenger service under the AC designator along with Air Canada Rouge, Air Canada Express and the Aeroplan loyalty programme. Its home market is Canada, where it forms a duopoly with WestJet. Air Canada sits at the supply end of the travel distribution chain: it is the sole source of its own seat inventory, reached either through the legacy GDS EDIFACT channel (Amadeus, Sabre, Travelport), through certified NDC aggregators, or directly through its own NDC API. Its API posture is unusual for a carrier in that the distribution surface is genuinely well documented in public: the ndc.aircanada.com developer portal publishes complete IATA NDC 17.2 (EDIST) message documentation, request/response element tables, error catalogues, use cases and downloadable sample XML with no login. What is not public is access itself - production credentials require a commercial agreement with Air Canada's distribution team, accredited IATA/ARC codes passed on every request, and passing Air Canada display certification test cases. There is no consumer API (no public flight status, booking or Aeroplan endpoint), no OpenAPI or machine-readable contract, no bulk export operation, and Air Canada publishes that it may revoke NDC programme access at its sole discretion. Public docs, gated access, no exit path.",
+     "score": 43.2,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 22.6,
+      "governance": 13.2,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 63.0,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 45.5,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": true,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false
+     },
+     "rank": 25
     },
     {
      "name": "CREA (REALTOR.ca)",
@@ -1024,9 +1084,9 @@
       "developer_ergonomics": 60.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 72.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 67.0,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -1040,9 +1100,10 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
-     "rank": 25
+     "rank": 26
     },
     {
      "name": "McGill University",
@@ -1060,15 +1121,15 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 37.0
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1082,9 +1143,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 26
+     "rank": 27
     },
     {
      "name": "Loon Finance",
@@ -1102,15 +1164,15 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 65.2
      },
-     "agent_score": 54.8,
+     "agent_score": 50.9,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1124,9 +1186,10 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
-     "rank": 27
+     "rank": 28
     },
     {
      "name": "Flinks",
@@ -1144,15 +1207,15 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 36.8
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 50.0
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1166,9 +1229,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 28
+     "rank": 29
     },
     {
      "name": "Hydro Ottawa",
@@ -1185,9 +1249,9 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 43.3,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 40.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -1201,9 +1265,10 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 29
+     "rank": 30
     },
     {
      "name": "University of British Columbia",
@@ -1221,15 +1286,15 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 37.0
      },
-     "agent_score": 38.5,
+     "agent_score": 35.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -1243,9 +1308,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 30
+     "rank": 31
     },
     {
      "name": "Toronto Hydro",
@@ -1262,9 +1328,9 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 43.3,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 40.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -1278,9 +1344,10 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 31
+     "rank": 32
     },
     {
      "name": "Landcor Data",
@@ -1297,9 +1364,9 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 65.4,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 60.7,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -1313,9 +1380,10 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 32
+     "rank": 33
     },
     {
      "name": "Ontario Energy Board",
@@ -1332,15 +1400,15 @@
       "developer_ergonomics": 47.8,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 45.7
      },
-     "agent_score": 39.4,
+     "agent_score": 36.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -1354,9 +1422,10 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 33
+     "rank": 34
     },
     {
      "name": "REALTOR.ca",
@@ -1373,9 +1442,9 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 72.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 67.0,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -1389,9 +1458,10 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
-     "rank": 34
+     "rank": 35
     },
     {
      "name": "ATCO",
@@ -1408,15 +1478,15 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 54.3
      },
-     "agent_score": 61.5,
+     "agent_score": 57.1,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -1430,9 +1500,10 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 35
+     "rank": 36
     },
     {
      "name": "EPCOR",
@@ -1449,15 +1520,15 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 54.3
      },
-     "agent_score": 53.8,
+     "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1471,9 +1542,10 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 36
+     "rank": 37
     },
     {
      "name": "Rotessa",
@@ -1490,15 +1562,15 @@
       "developer_ergonomics": 73.9,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 54.3
      },
-     "agent_score": 48.1,
+     "agent_score": 44.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": false,
@@ -1512,9 +1584,10 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 37
+     "rank": 38
     },
     {
      "name": "The Co-operators",
@@ -1532,15 +1605,15 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 54.3
      },
-     "agent_score": 53.8,
+     "agent_score": 50.0,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1554,9 +1627,10 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 38
+     "rank": 39
     },
     {
      "name": "Queen's University at Kingston",
@@ -1574,15 +1648,15 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 23.9
      },
-     "agent_score": 38.5,
+     "agent_score": 35.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -1596,9 +1670,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 39
+     "rank": 40
     },
     {
      "name": "BMO Financial Group",
@@ -1616,15 +1691,15 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 67.4
      },
-     "agent_score": 13.5,
+     "agent_score": 12.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1638,9 +1713,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 40
+     "rank": 41
     },
     {
      "name": "Rogers Communications",
@@ -1657,9 +1733,9 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 76.3
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 12.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 11.6,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1673,9 +1749,10 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 41
+     "rank": 42
     },
     {
      "name": "Université de Montréal",
@@ -1693,15 +1770,15 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 23.9
      },
-     "agent_score": 38.5,
+     "agent_score": 35.7,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -1715,9 +1792,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 42
+     "rank": 43
     },
     {
      "name": "Manitoba Hydro",
@@ -1734,15 +1812,15 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 67.4
      },
-     "agent_score": 30.8,
+     "agent_score": 28.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1756,9 +1834,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
-     "rank": 43
+     "rank": 44
     },
     {
      "name": "Interac",
@@ -1776,15 +1855,15 @@
       "developer_ergonomics": 58.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 76.1
      },
-     "agent_score": 26.0,
+     "agent_score": 24.1,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1798,9 +1877,46 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 44
+     "rank": 45
+    },
+    {
+     "name": "WestJet",
+     "slug": "westjet",
+     "description": "WestJet Airlines Ltd. is Canada's second-largest air carrier, headquartered in Calgary, Alberta, operating scheduled passenger service to more than 100 destinations across Canada, the United States, Mexico, Central America, the Caribbean, Europe and Asia, alongside WestJet Encore, WestJet Vacations, WestJet Cargo and the Sunwing Vacations Group. In the distribution chain WestJet sits upstream of the agency channel: its inventory reaches travel sellers today through EDIFACT in the Amadeus, Sabre and Travelport GDSs, and it is standing up an IATA NDC surface (schema 17.2 and 21.3/24.1) built and hosted on Accelya's FLX/Farelogix platform, with a stated Q4 2026 rollout. Its API posture is honest but closed: there is no public developer portal, no self-serve signup, no OpenAPI or WSDL and no consumer API. The WestJet Direct Connect API is documented only as a public capability matrix at westjetndc.com, and access requires an IATA or ARC accreditation number (TIDS is explicitly not supported), a business-type and sales-volume qualification form, and WestJet approval. Agency booking through WestJet Agent Direct likewise requires an IATA/TIDS/ARC number and a five-to-ten business day review. There is no bulk export for agency or booking data; guest data comes out only via a verbally authenticated PIPEDA-style \"Guest information report\" request.",
+     "score": 33.3,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 44.7,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 5.4,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false
+     },
+     "rank": 46
     },
     {
      "name": "HouseSigma",
@@ -1817,9 +1933,9 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 64.4,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 59.8,
      "agent_band": "agent-native",
      "agent_dims": {
       "spec_presence": true,
@@ -1833,9 +1949,10 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 45
+     "rank": 47
     },
     {
      "name": "Wahi",
@@ -1852,15 +1969,15 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 54.3
      },
-     "agent_score": 57.7,
+     "agent_score": 53.6,
      "agent_band": "agent-ready",
      "agent_dims": {
       "spec_presence": true,
@@ -1874,9 +1991,10 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 46
+     "rank": 48
     },
     {
      "name": "Teranet",
@@ -1893,15 +2011,15 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 54.3
      },
-     "agent_score": 9.6,
+     "agent_score": 8.9,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -1915,9 +2033,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 47
+     "rank": 49
     },
     {
      "name": "SaskPower",
@@ -1934,15 +2053,15 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 54.3
      },
-     "agent_score": 24.0,
+     "agent_score": 22.3,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1956,9 +2075,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 48
+     "rank": 50
     },
     {
      "name": "Shakepay",
@@ -1975,15 +2095,15 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 65.2
      },
-     "agent_score": 18.3,
+     "agent_score": 17.0,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -1997,9 +2117,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
-     "rank": 49
+     "rank": 51
     },
     {
      "name": "Canada Energy Regulator",
@@ -2016,15 +2137,15 @@
       "developer_ergonomics": 32.6,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 54.3
      },
-     "agent_score": 17.3,
+     "agent_score": 16.1,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -2038,9 +2159,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 50
+     "rank": 52
     },
     {
      "name": "humi.ca",
@@ -2058,9 +2180,9 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 33.7,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 31.3,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -2074,9 +2196,10 @@
       "asyncapi_events": true,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
-     "rank": 51
+     "rank": 53
     },
     {
      "name": "Wawanesa Insurance",
@@ -2093,15 +2216,15 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 87.0
      },
-     "agent_score": 13.5,
+     "agent_score": 12.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2115,9 +2238,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 52
+     "rank": 54
     }
    ]
   },
@@ -2126,8 +2250,8 @@
    "label": "Emerging",
    "range": "15–29.9",
    "blurb": "More than an index entry but still mostly links rather than artifacts.",
-   "count": 75,
-   "shown": 75,
+   "count": 79,
+   "shown": 79,
    "providers": [
     {
      "name": "RE/MAX Canada",
@@ -2144,15 +2268,15 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 54.3
      },
-     "agent_score": 34.6,
+     "agent_score": 32.1,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -2166,9 +2290,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 53
+     "rank": 55
     },
     {
      "name": "Canada Life",
@@ -2186,15 +2311,15 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 89.1
      },
-     "agent_score": 13.5,
+     "agent_score": 12.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2208,9 +2333,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 54
+     "rank": 56
     },
     {
      "name": "Wealthsimple",
@@ -2227,15 +2353,15 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 54.3
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2249,9 +2375,52 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
-     "rank": 55
+     "rank": 57
+    },
+    {
+     "name": "VIA Rail Canada",
+     "slug": "via-rail",
+     "description": "VIA Rail Canada Inc. is the federal Crown corporation that operates Canada's national intercity passenger rail network, headquartered in Montreal and reporting to Parliament through the Minister of Transport. It runs the Quebec City - Windsor corridor plus long-distance and regional services including The Canadian (Toronto - Vancouver), The Ocean (Montreal - Halifax), Winnipeg - Churchill, Jasper - Prince Rupert, Sudbury - White River, and the jointly operated Toronto - New York Maple Leaf. In the distribution chain VIA Rail is a direct-only supplier: it sells through viarail.ca, its mobile app, its call centre, and its own Travel Agency and Tour Operator portals on reservia.viarail.ca. There is no GDS channel, no NDC, no OSDM, and no reseller API. VIA Rail's API posture is honestly stated as an open-standard data feed and nothing else. It publishes a real, ungated Developer Resources page offering a static GTFS schedule feed licensed under the Open Government Licence - Canada 2.0, with a dev@viarail.ca contact address - one of the very few genuinely self-serve, commercially reusable machine-readable contracts in Canadian travel. Everything transactional is unpublished: the reservation platform is Sqills S3 Passenger integrated by CGI, its API gateway at api.reservia.viarail.ca answers 403 \"Missing Authentication Token\" with no documentation, no terms and no published contract, and agency access is gated behind approval plus a registered IATA number, while tour operators must commit to a CAD $25,000 per year minimum revenue and may not sell VIA tickets outside packaged travel.",
+     "score": 28.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 11.3,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 34.8,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 54.3
+     },
+     "agent_score": 8.9,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false
+     },
+     "rank": 58
     },
     {
      "name": "Alectra Utilities",
@@ -2268,9 +2437,9 @@
       "developer_ergonomics": 30.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 22.1,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 20.5,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": true,
@@ -2284,9 +2453,10 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 56
+     "rank": 59
     },
     {
      "name": "FLO",
@@ -2303,9 +2473,9 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 37.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 34.8,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -2319,9 +2489,10 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 57
+     "rank": 60
     },
     {
      "name": "NERC",
@@ -2338,15 +2509,15 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 76.1
      },
-     "agent_score": 16.3,
+     "agent_score": 15.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -2360,9 +2531,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
-     "rank": 58
+     "rank": 61
     },
     {
      "name": "Maple",
@@ -2380,15 +2552,15 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 60.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 54.3
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2402,9 +2574,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
-     "rank": 59
+     "rank": 62
     },
     {
      "name": "Steinbach Credit Union",
@@ -2421,15 +2594,15 @@
       "developer_ergonomics": 23.9,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 76.1
      },
-     "agent_score": 13.5,
+     "agent_score": 12.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2443,9 +2616,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 60
+     "rank": 63
     },
     {
      "name": "Certn",
@@ -2463,8 +2637,8 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -2479,9 +2653,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 61
+     "rank": 64
     },
     {
      "name": "Nesto",
@@ -2498,15 +2673,15 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 65.2
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2520,9 +2695,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
-     "rank": 62
+     "rank": 65
     },
     {
      "name": "Definity Financial",
@@ -2540,15 +2716,15 @@
       "developer_ergonomics": 21.7,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 65.2
      },
-     "agent_score": 13.5,
+     "agent_score": 12.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2562,9 +2738,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 63
+     "rank": 66
     },
     {
      "name": "Blue Cross Canada",
@@ -2581,15 +2758,15 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 76.1
      },
-     "agent_score": 21.2,
+     "agent_score": 19.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -2603,9 +2780,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 64
+     "rank": 67
     },
     {
      "name": "CAA Insurance",
@@ -2623,15 +2801,15 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
       "regime_id": "securities_market_data",
       "score": 76.1
      },
-     "agent_score": 21.2,
+     "agent_score": 19.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -2645,9 +2823,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 65
+     "rank": 68
     },
     {
      "name": "OSCAR EMR",
@@ -2664,15 +2843,15 @@
       "developer_ergonomics": 50.0,
       "commercial_clarity": 23.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 37.0
      },
-     "agent_score": 9.6,
+     "agent_score": 8.9,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2686,9 +2865,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 66
+     "rank": 69
     },
     {
      "name": "Plooto",
@@ -2705,8 +2885,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 52.6
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2727,9 +2907,52 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 67
+     "rank": 70
+    },
+    {
+     "name": "Transport Canada",
+     "slug": "transport-canada",
+     "description": "Transport Canada (Transports Canada) is the federal department that regulates aviation, marine, rail and road transportation in Canada under the Aeronautics Act and the Canadian Aviation Regulations. In travel it is the safety-and-security regulator rather than a participant in distribution — it certifies air operators, registers aircraft on the Canadian Civil Aircraft Register, licenses pilots and drone operators, runs the Civil Aviation Daily Occurrence Reporting System (CADORS) and the Air Cargo Security program, and publishes the Canadian airports layer. It sits entirely outside the GDS/NDC distribution chain; airline economic licensing, all-in fare advertising and the Air Passenger Protection Regulations belong to the separate Canadian Transportation Agency. Its API posture is thin but genuinely open — no developer portal exists at tc.canada.ca, developer./developers./docs. subdomains do not resolve, and no OpenAPI is published anywhere. What does exist is real and ungated: a self-describing JSON/XML Vehicle Recalls Database API at data.tc.gc.ca, an ArcGIS REST and OGC WMS service for Canadian airports with air navigation services, and bulk CSV/XML extracts of CADORS, the Air Cargo Security members list and the vessel registers, all indexed through the Treasury-Board-operated open.canada.ca CKAN Action API under the Open Government Licence – Canada. No key, no account, no accreditation, no contract.",
+     "score": 24.9,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 5.3,
+      "developer_ergonomics": 23.9,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 54.3
+     },
+     "agent_score": 19.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false,
+      "agent_card": false
+     },
+     "rank": 71
     },
     {
      "name": "Royal Bank of Canada",
@@ -2746,8 +2969,8 @@
       "developer_ergonomics": 37.0,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -2768,9 +2991,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 68
+     "rank": 72
     },
     {
      "name": "KOHO",
@@ -2787,15 +3011,15 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 50.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 54.3
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2809,9 +3033,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
-     "rank": 69
+     "rank": 73
     },
     {
      "name": "Trufla",
@@ -2828,8 +3053,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 42.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -2850,9 +3075,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 70
+     "rank": 74
     },
     {
      "name": "University of Ottawa",
@@ -2870,9 +3096,9 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2886,9 +3112,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 71
+     "rank": 75
     },
     {
      "name": "McMaster University",
@@ -2906,9 +3133,9 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 6.7,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2922,9 +3149,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 72
+     "rank": 76
     },
     {
      "name": "Peoples Group",
@@ -2941,8 +3169,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -2963,9 +3191,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 73
+     "rank": 77
     },
     {
      "name": "Hydro One",
@@ -2982,9 +3211,9 @@
       "developer_ergonomics": 41.3,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 9.6,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 8.9,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -2998,9 +3227,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 74
+     "rank": 78
     },
     {
      "name": "Rentals.ca",
@@ -3017,8 +3247,8 @@
       "developer_ergonomics": 19.6,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -3039,9 +3269,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 75
+     "rank": 79
     },
     {
      "name": "WELL Health Technologies",
@@ -3058,8 +3289,8 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3080,9 +3311,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 76
+     "rank": 80
     },
     {
      "name": "Western University",
@@ -3100,9 +3332,9 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 16.3,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 15.2,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -3116,9 +3348,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 77
+     "rank": 81
     },
     {
      "name": "Finaeo",
@@ -3135,8 +3368,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -3157,9 +3390,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 78
+     "rank": 82
     },
     {
      "name": "Alterna Savings",
@@ -3177,15 +3411,15 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 65.2
      },
-     "agent_score": 13.5,
+     "agent_score": 12.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3199,9 +3433,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 79
+     "rank": 83
     },
     {
      "name": "University of Toronto",
@@ -3219,15 +3454,15 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 23.9
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3241,9 +3476,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 80
+     "rank": 84
     },
     {
      "name": "TELUS Health",
@@ -3260,15 +3496,15 @@
       "developer_ergonomics": 52.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
       "regime_id": "health",
       "score": 37.0
      },
-     "agent_score": 18.3,
+     "agent_score": 17.0,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -3282,9 +3518,10 @@
       "asyncapi_events": false,
       "agent_skills": true,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 81
+     "rank": 85
     },
     {
      "name": "ENMAX",
@@ -3301,9 +3538,9 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 30.8,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 28.6,
      "agent_band": "agent-aware",
      "agent_dims": {
       "spec_presence": false,
@@ -3317,9 +3554,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 82
+     "rank": 86
     },
     {
      "name": "Dialogue",
@@ -3337,8 +3575,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3359,9 +3597,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 83
+     "rank": 87
     },
     {
      "name": "Yukon Open Data",
@@ -3379,15 +3618,15 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 26.1
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3401,9 +3640,46 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 84
+     "rank": 88
+    },
+    {
+     "name": "Transat",
+     "slug": "transat",
+     "description": "Transat A.T. Inc. (TSX: TRZ) is a Montreal-headquartered, vertically integrated Canadian leisure travel group. It operates Air Transat (IATA carrier code TS), a transatlantic and sun-destination leisure airline, alongside tour-operating brands (Transat / Transat Tours Canada Inc.) and one of Canada's largest retail travel agency networks (Transat Travel, Voyages Transat, Marlin Travel, Club Voyages). It sits on the supply side of the distribution chain: it owns the seat and package inventory, sells it direct through transat.com and airtransat.com, through its own retail agencies, through GDS/CRS EDIFACT channels governed by IATA Resolution 850m and BSP settlement, and — since its published NDC programme — through an Accelya Farelogix NDC gateway and a named set of NDC aggregators. Its API posture is partner-gated but not opaque: Air Transat publishes a public NDC connectivity page and a publicly downloadable 46-page \"Air Transat API specifications\" document, but that document is a proprietary Radixx ConnectPoint SOAP contract (v2.2.4, May 2023), not an IATA NDC schema. There is no self-serve developer portal, no machine-readable OpenAPI or WSDL, no published base URL, no sandbox, no bulk export operation, and no IATA NDC certification level is claimed. Credentials (a Transat-assigned IATA number, agency login and password) are issued only under a commercial agreement, and the site terms plus the CRS Booking and Ticketing Procedures Policy expressly prohibit scraping and prohibit redistributing Air Transat content to any third-party agent, GDS or metasearch engine without prior written consent.",
+     "score": 20.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 21.1,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 21.1
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 8.9,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false
+     },
+     "rank": 89
     },
     {
      "name": "connectFirst Credit Union",
@@ -3421,15 +3697,15 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 67.4
      },
-     "agent_score": 13.5,
+     "agent_score": 12.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3443,9 +3719,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 85
+     "rank": 90
     },
     {
      "name": "Royal LePage",
@@ -3462,8 +3739,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -3484,9 +3761,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 86
+     "rank": 91
     },
     {
      "name": "Canadian Tire Bank",
@@ -3504,15 +3782,15 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 67.4
      },
-     "agent_score": 13.5,
+     "agent_score": 12.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3526,9 +3804,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 87
+     "rank": 92
     },
     {
      "name": "Coast Capital Savings",
@@ -3546,15 +3825,15 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 67.4
      },
-     "agent_score": 13.5,
+     "agent_score": 12.5,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3568,9 +3847,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 88
+     "rank": 93
     },
     {
      "name": "FortisBC",
@@ -3587,8 +3867,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -3603,9 +3883,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 89
+     "rank": 94
     },
     {
      "name": "Tia Health",
@@ -3622,8 +3903,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -3644,9 +3925,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 90
+     "rank": 95
     },
     {
      "name": "Vancity Community Investment Bank",
@@ -3663,8 +3945,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 44.7
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -3685,9 +3967,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 91
+     "rank": 96
     },
     {
      "name": "Donnees Quebec",
@@ -3705,15 +3988,15 @@
       "developer_ergonomics": 10.9,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 13.0
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3727,9 +4010,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 92
+     "rank": 97
     },
     {
      "name": "Alberta",
@@ -3747,15 +4031,15 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 13.0
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3769,9 +4053,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 93
+     "rank": 98
     },
     {
      "name": "BC Data Catalogue",
@@ -3789,15 +4074,15 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 13.0
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3811,9 +4096,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 94
+     "rank": 99
     },
     {
      "name": "British Columbia (DataBC)",
@@ -3831,15 +4117,15 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 13.0
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3853,9 +4139,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 95
+     "rank": 100
     },
     {
      "name": "City of Toronto Open Data",
@@ -3873,15 +4160,15 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 13.0
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3895,9 +4182,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 96
+     "rank": 101
     },
     {
      "name": "Donnees Ouvertes Montreal",
@@ -3915,15 +4203,15 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 13.0
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3937,9 +4225,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 97
+     "rank": 102
     },
     {
      "name": "Gouvernement ouvert Canada (FR)",
@@ -3957,15 +4246,15 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 13.0
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -3979,9 +4268,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 98
+     "rank": 103
     },
     {
      "name": "Montréal, Québec",
@@ -3999,15 +4289,15 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 13.0
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -4021,9 +4311,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 99
+     "rank": 104
     },
     {
      "name": "Niagara Open Data",
@@ -4041,15 +4332,15 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 13.0
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -4063,9 +4354,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 100
+     "rank": 105
     },
     {
      "name": "Ontario Data Catalogue",
@@ -4083,15 +4375,15 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 13.0
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -4105,9 +4397,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 101
+     "rank": 106
     },
     {
      "name": "Open Government Canada",
@@ -4125,15 +4418,15 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 13.0
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -4147,9 +4440,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 102
+     "rank": 107
     },
     {
      "name": "Brim Financial",
@@ -4167,8 +4461,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4189,9 +4483,46 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 103
+     "rank": 108
+    },
+    {
+     "name": "Flight Network",
+     "slug": "flight-network",
+     "description": "Flight Network (Flight Network Ltd, 145 King St. West Suite 2850, Toronto, Ontario, TICO Registration 50009248) is a Canadian online travel agency founded in 2005 and owned by Sweden's Etraveli Group since 2019. It retails flights plus hotels and car rentals to consumers across 75+ markets in 35 languages, sourcing air content through the GDSs - its own About Us page carries the Amadeus and Sabre marks and claims \"IATA Certified Travel Agents\" - and reaching buyers through its own sites, its iOS/Android apps, metasearch deep links from Skyscanner and Kayak, and third-party affiliate networks. It sits in the distribution chain as a retailer downstream of the GDSs and of its Etraveli sibling TripStack (the group's B2B LCC/NDC/virtual-interlining API), not as a content owner. Its API posture is honest and thin: no developer portal, no published API documentation, no machine-readable specification, and no exit path. developer/developers/docs/api.flightnetwork.com are all NXDOMAIN, /openapi.json and /swagger.json return 404, and the only machine-readable surfaces reachable are the consumer booking site, a security.txt pointing at security@etraveligroup.com, the iOS/Android app-link declarations, and - the one genuine find - a substantial provider-published llms.txt at the site root that hands agents a regional domain map, a product and ancillary catalogue, a support-escalation hierarchy, and explicit DO/DON'T directives for AI systems. Flight Network is thus addressable by agents as a referral target while remaining entirely uncallable. Any B2B or travel-seller access is arranged by commercial agreement off-web.",
+     "score": 18.2,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 13.0,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 19.6,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true,
+      "agent_card": false
+     },
+     "rank": 109
     },
     {
      "name": "Desjardins Group",
@@ -4209,15 +4540,15 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 43.5
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -4231,9 +4562,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
-     "rank": 104
+     "rank": 110
     },
     {
      "name": "Intact Financial",
@@ -4250,8 +4582,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -4272,9 +4604,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 105
+     "rank": 111
     },
     {
      "name": "Nova Scotia Power",
@@ -4291,9 +4624,9 @@
       "developer_ergonomics": 34.8,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 9.6,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 8.9,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -4307,9 +4640,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 106
+     "rank": 112
     },
     {
      "name": "BC Hydro",
@@ -4326,9 +4660,9 @@
       "developer_ergonomics": 26.1,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
-     "agent_score": 9.6,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 8.9,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -4342,9 +4676,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 107
+     "rank": 113
     },
     {
      "name": "Zensurance",
@@ -4361,8 +4696,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -4383,9 +4718,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 108
+     "rank": 114
     },
     {
      "name": "Cortico",
@@ -4403,8 +4739,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 31.6
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -4425,9 +4761,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 109
+     "rank": 115
     },
     {
      "name": "Sonnet Insurance",
@@ -4444,15 +4781,15 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
       "regime_id": "insurance",
       "score": 30.4
      },
-     "agent_score": 2.9,
+     "agent_score": 2.7,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -4466,9 +4803,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
-     "rank": 110
+     "rank": 116
     },
     {
      "name": "Tangerine",
@@ -4485,8 +4823,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4507,9 +4845,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 111
+     "rank": 117
     },
     {
      "name": "Goose Insurance",
@@ -4527,8 +4866,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -4549,9 +4888,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 112
+     "rank": 118
     },
     {
      "name": "Onlia",
@@ -4568,8 +4908,8 @@
       "developer_ergonomics": 15.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -4590,9 +4930,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 113
+     "rank": 119
     },
     {
      "name": "Affinity Credit Union",
@@ -4610,8 +4951,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4632,9 +4973,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 114
+     "rank": 120
     },
     {
      "name": "Bridgewater Bank",
@@ -4652,8 +4994,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4674,9 +5016,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 115
+     "rank": 121
     },
     {
      "name": "Conexus Credit Union",
@@ -4694,8 +5037,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4716,9 +5059,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 116
+     "rank": 122
     },
     {
      "name": "Equitable Bank",
@@ -4736,8 +5080,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4758,9 +5102,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 117
+     "rank": 123
     },
     {
      "name": "Laurentian Bank of Canada",
@@ -4778,8 +5123,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4800,9 +5145,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 118
+     "rank": 124
     },
     {
      "name": "PC Financial",
@@ -4819,8 +5165,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4841,9 +5187,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 119
+     "rank": 125
     },
     {
      "name": "Simplii Financial",
@@ -4860,8 +5207,8 @@
       "developer_ergonomics": 13.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4882,9 +5229,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 120
+     "rank": 126
     },
     {
      "name": "CIBC",
@@ -4902,8 +5250,8 @@
       "developer_ergonomics": 8.7,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4924,9 +5272,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 121
+     "rank": 127
     },
     {
      "name": "Servus Credit Union",
@@ -4943,8 +5292,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -4965,9 +5314,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 122
+     "rank": 128
     },
     {
      "name": "ApplyBoard Inc.",
@@ -4985,8 +5335,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5001,9 +5351,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 123
+     "rank": 129
     },
     {
      "name": "Neo Financial",
@@ -5020,8 +5371,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5042,9 +5393,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 124
+     "rank": 130
     },
     {
      "name": "Citibank Canada",
@@ -5062,8 +5414,8 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5084,9 +5436,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 125
+     "rank": 131
     },
     {
      "name": "First Nations Bank of Canada",
@@ -5104,15 +5457,15 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 30.4
      },
-     "agent_score": 3.8,
+     "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -5126,9 +5479,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 126
+     "rank": 132
     },
     {
      "name": "Remitbee",
@@ -5145,8 +5499,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -5167,9 +5521,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 127
+     "rank": 133
     }
    ]
   },
@@ -5178,8 +5533,8 @@
    "label": "Minimal",
    "range": "0–14.9",
    "blurb": "Index entry only; little beyond a description and a link.",
-   "count": 27,
-   "shown": 27,
+   "count": 28,
+   "shown": 28,
    "providers": [
     {
      "name": "Dominion Dynamics",
@@ -5197,15 +5552,15 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Government & Public Sector",
       "regime_id": "government",
       "score": 34.8
      },
-     "agent_score": 6.7,
+     "agent_score": 6.3,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -5219,9 +5574,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": true
+      "consent_identity": true,
+      "agent_card": false
      },
-     "rank": 128
+     "rank": 134
     },
     {
      "name": "National Bank of Canada",
@@ -5238,8 +5594,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5260,9 +5616,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 129
+     "rank": 135
     },
     {
      "name": "Paperstack",
@@ -5279,8 +5636,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5295,9 +5652,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 130
+     "rank": 136
     },
     {
      "name": "Pine",
@@ -5314,8 +5672,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 34.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5330,9 +5688,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 131
+     "rank": 137
     },
     {
      "name": "Amex Bank of Canada",
@@ -5350,8 +5709,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5372,9 +5731,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 132
+     "rank": 138
     },
     {
      "name": "B2B Bank",
@@ -5392,8 +5752,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5414,9 +5774,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 133
+     "rank": 139
     },
     {
      "name": "Meridian Credit Union",
@@ -5433,8 +5794,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5455,9 +5816,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 134
+     "rank": 140
     },
     {
      "name": "Zolo",
@@ -5474,8 +5836,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5490,9 +5852,46 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 135
+     "rank": 141
+    },
+    {
+     "name": "Porter Airlines",
+     "slug": "porter-airlines",
+     "description": "Porter Airlines is a Canadian carrier headquartered in Toronto, operating as Porter Airlines (Canada) Limited and Porter Airlines Inc. under IATA designator PD, IATA ticketing plate 451, and ICAO code POE. It is the challenger to the Air Canada / WestJet duopoly in Canada, flying an Embraer E195-E2 and De Havilland Dash 8 fleet across domestic, transborder and sun destinations, and it joined IATA as a member in 2026 following IOSA certification. Porter sits in the distribution chain as a conventional GDS-intermediated carrier: agencies reach its inventory through the GDSs (Sabre is named explicitly in Porter's agency terms, and Travelport is the channel Duffel uses to resell Porter content) or through Porter's own ticketless Travel Agency Portal on flyporter.com. Porter's API posture is honestly stated as none-published. There is no developer portal, no public or partner API documentation, no OpenAPI, and no NDC endpoint of any kind. The developer, developers and apis subdomains do not resolve; api.flyporter.com resolves but does not answer on 80 or 443; docs.flyporter.com redirects to an internal Google Drive. Every well-known spec path returns 404 and the whole site sits behind a Cloudflare bot challenge with ai-train=no content signals. Access is accreditation-gated: an agency must hold ARC accreditation or an IATA Passenger Sales Agency Agreement, register on flyporter.com, and accept Porter's Agency Terms and Conditions, which assert Porter ownership of all Porter Data, prohibit scraping and redistribution, and revoke all data rights the moment an appointment is suspended or terminated. There is no exit path beyond a written PIPEDA access request to Porter's Privacy Officer.",
+     "score": 14.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false,
+      "agent_card": false
+     },
+     "rank": 142
     },
     {
      "name": "Alexi",
@@ -5510,8 +5909,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 28.9
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5526,9 +5925,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 136
+     "rank": 143
     },
     {
      "name": "BitAccess",
@@ -5546,15 +5946,15 @@
       "developer_ergonomics": 17.4,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
       "regime_id": "payments",
       "score": 21.7
      },
-     "agent_score": 3.8,
+     "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -5568,9 +5968,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 137
+     "rank": 144
     },
     {
      "name": "Century 21 Canada",
@@ -5587,8 +5988,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Securities & Market Data",
@@ -5609,9 +6010,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 138
+     "rank": 145
     },
     {
      "name": "Home Trust",
@@ -5629,8 +6031,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 21.1
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5651,9 +6053,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 139
+     "rank": 146
     },
     {
      "name": "ATB Financial",
@@ -5671,8 +6074,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5693,9 +6096,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 140
+     "rank": 147
     },
     {
      "name": "Resolute Forest Products",
@@ -5713,8 +6117,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5729,9 +6133,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 141
+     "rank": 148
     },
     {
      "name": "Pomelo Health",
@@ -5748,8 +6153,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Health",
@@ -5770,9 +6175,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 142
+     "rank": 149
     },
     {
      "name": "Prospera Credit Union",
@@ -5789,8 +6195,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5811,9 +6217,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 143
+     "rank": 150
     },
     {
      "name": "TD Bank Group",
@@ -5830,8 +6237,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 10.5
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5852,9 +6259,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 144
+     "rank": 151
     },
     {
      "name": "Breathe Life",
@@ -5872,8 +6280,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Insurance",
@@ -5894,9 +6302,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 145
+     "rank": 152
     },
     {
      "name": "Skipthedishes",
@@ -5913,8 +6322,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 13.2
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -5929,9 +6338,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 146
+     "rank": 153
     },
     {
      "name": "Vancity",
@@ -5948,8 +6358,8 @@
       "developer_ergonomics": 4.3,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -5970,9 +6380,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 147
+     "rank": 154
     },
     {
      "name": "Airborne Entertainment",
@@ -5990,8 +6401,8 @@
       "developer_ergonomics": 6.5,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6006,9 +6417,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 148
+     "rank": 155
     },
     {
      "name": "Canadian Western Bank",
@@ -6026,8 +6438,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -6048,9 +6460,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 149
+     "rank": 156
     },
     {
      "name": "First West Credit Union",
@@ -6068,15 +6481,15 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
       "regime_id": "banking_open_finance",
       "score": 13.0
      },
-     "agent_score": 3.8,
+     "agent_score": 3.6,
      "agent_band": "human-only",
      "agent_dims": {
       "spec_presence": false,
@@ -6090,9 +6503,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": true,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 150
+     "rank": 157
     },
     {
      "name": "Manulife Bank",
@@ -6110,8 +6524,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Banking & Open Finance",
@@ -6132,9 +6546,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 151
+     "rank": 158
     },
     {
      "name": "WayPay",
@@ -6151,8 +6566,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "regulatory": {
       "applies": true,
       "regime": "Payments",
@@ -6173,9 +6588,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 152
+     "rank": 159
     },
     {
      "name": "Properly",
@@ -6192,8 +6608,8 @@
       "developer_ergonomics": 2.2,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6208,9 +6624,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 153
+     "rank": 160
     },
     {
      "name": "Smart Reno",
@@ -6227,8 +6644,8 @@
       "developer_ergonomics": 0.0,
       "commercial_clarity": 0.0
      },
-     "scored_at": "2026-07-27",
-     "schema_version": 0.5,
+     "scored_at": "2026-07-28",
+     "schema_version": "0.5.1",
      "agent_score": 0.0,
      "agent_band": "human-only",
      "agent_dims": {
@@ -6243,9 +6660,10 @@
       "asyncapi_events": false,
       "agent_skills": false,
       "well_known_catalog": false,
-      "consent_identity": false
+      "consent_identity": false,
+      "agent_card": false
      },
-     "rank": 154
+     "rank": 161
     }
    ]
   },
@@ -6261,7 +6679,7 @@
      "name": "Version One Ventures",
      "slug": "version-one-ventures",
      "description": "Version One Ventures is an early-stage venture capital firm founded in July 2012 by Boris Wertz and headquartered in Vancouver, British Columbia, Canada, with a partner presence in San Francisco. Run by founding partner Boris Wertz and general partner Angela Tran, the firm backs mission-driven founders who are early in new areas, writing pre-seed and seed checks where it typically leads or co-leads rounds in the roughly $500K-$1.5M range. Version One invests across marketplaces, SaaS, fintech and crypto, AI and automation, robotics and physical AI, deep tech, biology and health, and emerging-market ecosystems including India and Africa. Over more than a decade the firm has grown into a franchise of six funds and backed 100+ companies, with an early-stage track record that includes Coinbase (2021 NASDAQ direct listing), Uniswap, Dapper Labs, Ada, Jobber, Top Hat, and Shippo. In June 2026 the firm closed Version One Fund V ($78M) alongside Opportunities Fund III ($30M) for $108M in combined new capital.",
-     "rank": 155
+     "rank": 162
     }
    ]
   }

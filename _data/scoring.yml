@@ -8,12 +8,24 @@
 # All weights and point values are tunable. Keep this file the single source
 # of truth for the rubric — code that scores providers should read from here.
 
-schema_version: 0.5
-last_updated: '2026-07-23'
+schema_version: 0.5.1
+last_updated: '2026-07-28'
 maintainer: kin@apievangelist.com
 
 # ---------------------------------------------------------------------------
 # CHANGELOG
+#   0.5.1 (2026-07-28) — Added the agent_card dimension (8 pts) to the standalone
+#       Agent Readiness score, and RE-CUT its bands to 56/42/14. Additive: the
+#       composite and every base facet are untouched. agent_card is the first
+#       GRADED dimension — conformant 1.0 / near-conformant 0.6 / flavored 0.25
+#       against A2A 1.0.0 — because a survey of 22,341 catalog hosts found 65
+#       providers serving an agent card and only 10 conformant, so a bit would
+#       have reported 65 adopters of a spec 41 of them do not follow. The band
+#       re-cut is mandatory, not cosmetic: agent readiness is earned/max, so a new
+#       dimension raises max 104 -> 112 and rescales every score by 104/112. At the
+#       old cuts that would have demoted 3,726 providers for publishing nothing
+#       different. Re-cut at the same valleys, 15 providers move — all upward, all
+#       because they publish an agent card.
 #   0.5 (2026-07-23) — Added a CONDITIONAL regulatory facet (weight 0.15) that
 #       applies only to providers in regulated industries, matched by tags via
 #       the industry_regulatory map below. When it applies, the six base facets
@@ -1138,7 +1150,7 @@ trending:
 # so every dimension is always in the denominator.
 # ===========================================================================
 agent_readiness:
-  schema_version: 0.1
+  schema_version: 0.2
   standalone: true          # not part of the composite; own score + own band
   label: Agent Readiness
   description: >
@@ -1241,36 +1253,72 @@ agent_readiness:
         Forward-looking signals for machine-readable AI usage preferences (AIPREF,
         Content-Signals) and cryptographically identified agent traffic (Web Bot
         Auth / RFC 9421). Rare today; rewards the providers defining the frontier.
-  # Cut points calibrated against the real distribution (2026-07-17, 8,959
-  # providers) — re-derive with band_distribution.rb after any change to
+    # GRADED, not binary — the only dimension scored on a scale rather than a bit.
+    # A survey of 22,341 catalog hosts (2026-07-28) found 65 providers serving an
+    # agent card and only 10 of them conformant: `capabilities` shipped as an array
+    # where A2A defines an object, `supportedInterfaces` where the spec says
+    # `additionalInterfaces`, no `protocolVersion` at all. A boolean would record 65
+    # adopters of a specification 41 of them are not following.
+    - id: agent_card
+      label: A2A Agent Card
+      points: 8
+      graded: true
+      signal: 'a2a/<slug>-a2a.yml manifest, graded on conformance.grade against A2A 1.0.0'
+      credit:
+        conformant: 1.0        # passes every structural check
+        near-conformant: 0.6   # correctly shaped, omits optional fields
+        flavored: 0.25         # agent card in spirit, fails a hard check
+        invalid: 0.0
+      description: >
+        The provider serves a machine-readable agent discovery manifest at the A2A
+        well-known path (/.well-known/agent-card.json, RFC 8615), advertising its
+        identity, capabilities, skills, endpoint and auth. Weighted above agent_skills
+        despite low adoption for a structural reason: an agent card is the only agent
+        surface in this rubric that CANNOT be derived on a provider's behalf — it is
+        served from the provider's own host or it does not exist. Where mcp_server,
+        agent_skills and agentic_access can all credit an artifact API Evangelist
+        authored, this one is provider-published by construction, and so is immune to
+        the provenance defect that distorts the others.
+  # Cut points calibrated against the real distribution (re-cut 2026-07-28,
+  # 25,573 providers) — re-derive with band_distribution.rb after any change to
   # dimensions or points. The spread is deliberately bimodal: a large floor at
-  # 0–9 (no agent signal) and a large plateau at ~48 — the ~3,400 providers the
+  # 0–9 (no agent signal) and a large plateau — the ~3,300 providers the
   # enrichment pipeline gave the same baseline (a spec, a generated agentic-
   # access contract, documented auth, rate limits) and nothing more. No cut can
   # split an identical-score plateau, so agent-ready is intentionally broad: it
   # is the baseline cohort, and the differentiators (MCP, idempotency, stable
   # errors, examples) are what lift a provider out of it into agent-native.
+  #
+  # WHY THE CUTS MOVED IN 0.5.1 (60/45/15 -> 56/42/14). Agent Readiness is
+  # earned/max, so adding agent_card raised max from 104 to 112 and rescaled every
+  # provider's score by 104/112 — an arithmetic change, not a measurement one.
+  # Left alone it would have pushed the baseline plateau from 48 to 44.6, just
+  # under the old 45 cut, and DEMOTED 3,726 providers (14.6% of the catalog) for
+  # publishing nothing different. The cuts are re-derived at the same valleys in
+  # the rescaled distribution: 56 sits in the 57–59 trough, 42 just below the
+  # plateau now at 44, 14 at the old 15 boundary. Result: 15 providers change
+  # band, all UPWARD, and every one of them earned it with a published agent card.
   bands:
     - id: agent-native
       label: Agent-Native
-      min: 60
-      share: 1.4%
+      min: 56
+      share: 6.2%
       description: >
         Built to be driven by agents — the baseline contract plus the
         differentiators most providers lack: an MCP server, idempotency, stable
         error semantics, examples. The providers an agent can drive safely today.
     - id: agent-ready
       label: Agent-Ready
-      min: 45
-      share: 43.3%
+      min: 42
+      share: 17.5%
       description: >
         An agent can drive the core surface. A machine-readable contract, an
         agentic-access classification, and documented auth are in place; the safety
         rails (idempotency, stable errors, rate-limit signalling) mostly are not.
     - id: agent-aware
       label: Agent-Aware
-      min: 15
-      share: 16.4%
+      min: 14
+      share: 10.3%
       description: >
         Partial machine-readable surface. An agent can read some of the API but
         would hit implicit conventions a human silently absorbs — the gaps where it
@@ -1278,7 +1326,7 @@ agent_readiness:
     - id: human-only
       label: Human-Only
       min: 0
-      share: 38.9%
+      share: 66.0%
       description: >
         Little an agent can consume without a human first reading the site. A
         developer can integrate it; their agent cannot yet.
