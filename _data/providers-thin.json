@@ -1,5 +1,5 @@
 {
-  "total": 3885,
+  "total": 3884,
   "bands": [
     {
       "band": "thin",
@@ -58515,49 +58515,6 @@
             "consent_identity": false
           },
           "rank": 1497
-        },
-        {
-          "name": "Prescrypto",
-          "slug": "prescrypto",
-          "url": "https://providers.apis.io/providers/prescrypto/",
-          "type": "API Provider",
-          "description": "Prescrypto is an electronic-prescription (eRx) platform used across Mexico and LATAM, backed by 500 Global. Its REST Integration API lets EHRs, hospital systems, telemedicine apps and pharmacies manage medics, hospitals, patients and prescriptions; generate legally-valid electronic prescriptions that are verified against Mexico's NOM-151-SCFI-2016 standard via the RexChain blockchain notary; download prescription PDFs; and let pharmacies search and dispense (burn) prescribed medications. The platform also ships a Deeplink auto-login/auto-fill flow, a standard-drug catalog search of ~25,000 records, webhooks for prescription events, and a prescrypto-elements web-component library for embedding Rx functionality in a host site. Authentication is HTTP Token auth (Authorization: Token <key>).",
-          "score": 38.8,
-          "band": "thin",
-          "band_label": "Thin",
-          "facets": {
-            "discoverability": 100.0,
-            "contract_quality": 64.6,
-            "governance": 0.0,
-            "operational_transparency": 21.1,
-            "developer_ergonomics": 43.5,
-            "commercial_clarity": 7.9
-          },
-          "scored_at": "2026-07-25",
-          "schema_version": 0.5,
-          "regulatory": {
-            "applies": true,
-            "regime": "Health",
-            "regime_id": "health",
-            "score": 37.0
-          },
-          "agent_score": 55.8,
-          "agent_band": "agent-ready",
-          "agent_dims": {
-            "spec_presence": true,
-            "agentic_access": true,
-            "mcp_server": false,
-            "auth_clarity": true,
-            "idempotency": false,
-            "error_semantics": false,
-            "openapi_examples": false,
-            "rate_limit_signal": false,
-            "asyncapi_events": true,
-            "agent_skills": true,
-            "well_known_catalog": true,
-            "consent_identity": false
-          },
-          "rank": 1498
         },
         {
           "name": "Proctorio",
