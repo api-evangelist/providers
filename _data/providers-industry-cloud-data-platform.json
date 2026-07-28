@@ -1,331 +1,331 @@
 {
-  "total": 7,
-  "shown": 7,
-  "limit": 1000,
-  "bands": [
+ "total": 7,
+ "shown": 7,
+ "limit": 1000,
+ "bands": [
+  {
+   "band": "exemplar",
+   "label": "Exemplar",
+   "range": "70+",
+   "blurb": "Reference-quality API operations across every facet.",
+   "count": 2,
+   "shown": 2,
+   "providers": [
     {
-      "band": "exemplar",
-      "label": "Exemplar",
-      "range": "70+",
-      "blurb": "Reference-quality API operations across every facet.",
-      "count": 2,
-      "shown": 2,
-      "providers": [
-        {
-          "name": "Bloomberg",
-          "slug": "bloomberg",
-          "description": "Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring stories from Businessweek and Bloomberg News. Bloomberg provides a suite of developer APIs including BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise services.",
-          "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png",
-          "score": 76.5,
-          "band": "exemplar",
-          "band_label": "Exemplar",
-          "facets": {
-            "discoverability": 87.5,
-            "contract_quality": 77.9,
-            "governance": 86.8,
-            "operational_transparency": 63.2,
-            "developer_ergonomics": 73.9,
-            "commercial_clarity": 63.2
-          },
-          "scored_at": "2026-07-27",
-          "schema_version": 0.5,
-          "regulatory": {
-            "applies": true,
-            "regime": "Securities & Market Data",
-            "regime_id": "securities_market_data",
-            "score": 89.1
-          },
-          "agent_score": 84.6,
-          "agent_band": "agent-native",
-          "agent_dims": {
-            "spec_presence": true,
-            "agentic_access": true,
-            "mcp_server": true,
-            "auth_clarity": true,
-            "idempotency": false,
-            "error_semantics": true,
-            "openapi_examples": false,
-            "rate_limit_signal": true,
-            "asyncapi_events": true,
-            "agent_skills": true,
-            "well_known_catalog": true,
-            "consent_identity": true
-          },
-          "rank": 1
-        },
-        {
-          "name": "Moody's",
-          "slug": "moodys",
-          "description": "Moody's provides a comprehensive suite of APIs spanning KYC compliance, economic data and forecasting, credit risk analytics, insurance and catastrophe modeling, climate risk, commercial real estate, and news aggregation. With evolving regulatory pressures and increasingly complex risk landscapes, Moody's technology, data, and analytical capabilities power industry-leading solutions across financial services, insurance, and risk management.",
-          "screenshot": "https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png",
-          "score": 70.0,
-          "band": "exemplar",
-          "band_label": "Exemplar",
-          "facets": {
-            "discoverability": 100.0,
-            "contract_quality": 73.5,
-            "governance": 73.7,
-            "operational_transparency": 50.0,
-            "developer_ergonomics": 76.1,
-            "commercial_clarity": 50.0
-          },
-          "scored_at": "2026-07-27",
-          "schema_version": 0.5,
-          "regulatory": {
-            "applies": true,
-            "regime": "Insurance",
-            "regime_id": "insurance",
-            "score": 76.1
-          },
-          "agent_score": 81.7,
-          "agent_band": "agent-native",
-          "agent_dims": {
-            "spec_presence": true,
-            "agentic_access": true,
-            "mcp_server": true,
-            "auth_clarity": true,
-            "idempotency": false,
-            "error_semantics": true,
-            "openapi_examples": false,
-            "rate_limit_signal": true,
-            "asyncapi_events": true,
-            "agent_skills": true,
-            "well_known_catalog": true,
-            "consent_identity": false
-          },
-          "rank": 2
-        }
-      ],
-      "open": true
+     "name": "Bloomberg",
+     "slug": "bloomberg",
+     "description": "Bloomberg delivers business and markets news, data, analysis, and video to the world, featuring stories from Businessweek and Bloomberg News. Bloomberg provides a suite of developer APIs including BLPAPI, Server API, and the Hypermedia API for programmatic access to market data, analytics, and enterprise services.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/bloomberg/refs/heads/main/screenshots/bloomberg-2026-06-20T173403.png",
+     "score": 76.5,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 77.9,
+      "governance": 86.8,
+      "operational_transparency": 63.2,
+      "developer_ergonomics": 73.9,
+      "commercial_clarity": 63.2
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 89.1
+     },
+     "agent_score": 84.6,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 1
     },
     {
-      "band": "strong",
-      "label": "Strong",
-      "range": "60–69.9",
-      "blurb": "Solid contracts, transparent operations, and an easy start.",
-      "count": 1,
-      "shown": 1,
-      "providers": [
-        {
-          "name": "Snowflake",
-          "slug": "snowflake",
-          "description": "Snowflake is a cloud-based data platform that provides data warehousing, data lakes, data engineering, data science, and data application development capabilities.",
-          "screenshot": "https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/screenshots/snowflake-2026-06-20T194110.png",
-          "score": 68.3,
-          "band": "strong",
-          "band_label": "Strong",
-          "facets": {
-            "discoverability": 55.0,
-            "contract_quality": 73.4,
-            "governance": 73.7,
-            "operational_transparency": 68.4,
-            "developer_ergonomics": 65.2,
-            "commercial_clarity": 68.4
-          },
-          "scored_at": "2026-07-27",
-          "schema_version": 0.5,
-          "agent_score": 59.6,
-          "agent_band": "agent-ready",
-          "agent_dims": {
-            "spec_presence": true,
-            "agentic_access": true,
-            "mcp_server": true,
-            "auth_clarity": true,
-            "idempotency": false,
-            "error_semantics": false,
-            "openapi_examples": false,
-            "rate_limit_signal": true,
-            "asyncapi_events": false,
-            "agent_skills": false,
-            "well_known_catalog": false,
-            "consent_identity": false
-          },
-          "rank": 3
-        }
-      ],
-      "open": true
-    },
-    {
-      "band": "developing",
-      "label": "Developing",
-      "range": "45–59.9",
-      "blurb": "Real signal across most facets with visible, nameable gaps.",
-      "count": 3,
-      "shown": 3,
-      "providers": [
-        {
-          "name": "Dow Jones",
-          "slug": "dow-jones",
-          "description": "Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.",
-          "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png",
-          "score": 55.9,
-          "band": "developing",
-          "band_label": "Developing",
-          "facets": {
-            "discoverability": 100.0,
-            "contract_quality": 60.4,
-            "governance": 0.0,
-            "operational_transparency": 36.8,
-            "developer_ergonomics": 78.3,
-            "commercial_clarity": 34.2
-          },
-          "scored_at": "2026-07-27",
-          "schema_version": 0.5,
-          "regulatory": {
-            "applies": true,
-            "regime": "Securities & Market Data",
-            "regime_id": "securities_market_data",
-            "score": 76.1
-          },
-          "agent_score": 75.0,
-          "agent_band": "agent-native",
-          "agent_dims": {
-            "spec_presence": true,
-            "agentic_access": true,
-            "mcp_server": true,
-            "auth_clarity": true,
-            "idempotency": false,
-            "error_semantics": true,
-            "openapi_examples": false,
-            "rate_limit_signal": false,
-            "asyncapi_events": true,
-            "agent_skills": true,
-            "well_known_catalog": true,
-            "consent_identity": false
-          },
-          "rank": 4
-        },
-        {
-          "name": "Clarivate",
-          "slug": "clarivate",
-          "description": "Clarivate is a global information services company providing data, insights, and analytics across academia, government, life sciences, healthcare, and intellectual property. Clarivate exposes a unified developer portal at developer.clarivate.com that catalogs APIs across its product families: Web of Science for publication and citation data, Derwent for patent data, Cortellis for life sciences and drug pipeline intelligence, and supporting tools such as InCites and ScholarOne. APIs are subscription-based and authenticated with per-API keys issued through the developer portal after subscription approval.",
-          "screenshot": "https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/screenshots/clarivate-2026-06-20T174437.png",
-          "score": 49.5,
-          "band": "developing",
-          "band_label": "Developing",
-          "facets": {
-            "discoverability": 87.5,
-            "contract_quality": 58.4,
-            "governance": 26.3,
-            "operational_transparency": 36.8,
-            "developer_ergonomics": 26.1,
-            "commercial_clarity": 60.5
-          },
-          "scored_at": "2026-07-27",
-          "schema_version": 0.5,
-          "regulatory": {
-            "applies": true,
-            "regime": "Health",
-            "regime_id": "health",
-            "score": 54.3
-          },
-          "agent_score": 48.1,
-          "agent_band": "agent-ready",
-          "agent_dims": {
-            "spec_presence": true,
-            "agentic_access": true,
-            "mcp_server": false,
-            "auth_clarity": true,
-            "idempotency": false,
-            "error_semantics": false,
-            "openapi_examples": false,
-            "rate_limit_signal": true,
-            "asyncapi_events": false,
-            "agent_skills": false,
-            "well_known_catalog": false,
-            "consent_identity": false
-          },
-          "rank": 5
-        },
-        {
-          "name": "Palantir",
-          "slug": "palantir",
-          "description": "Palantir is a data analytics company providing software platforms for organizations to integrate, analyze, and visualize data. Palantir Foundry and AIP provide REST APIs for data workflows, AI operations, ontology management, orchestration, and decision-making across enterprise and government use cases.",
-          "screenshot": "https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/screenshots/palantir-2026-06-20T191326.png",
-          "score": 47.2,
-          "band": "developing",
-          "band_label": "Developing",
-          "facets": {
-            "discoverability": 75.0,
-            "contract_quality": 60.2,
-            "governance": 0.0,
-            "operational_transparency": 36.8,
-            "developer_ergonomics": 30.4,
-            "commercial_clarity": 60.5
-          },
-          "scored_at": "2026-07-27",
-          "schema_version": 0.5,
-          "regulatory": {
-            "applies": true,
-            "regime": "Government & Public Sector",
-            "regime_id": "government",
-            "score": 56.5
-          },
-          "agent_score": 48.1,
-          "agent_band": "agent-ready",
-          "agent_dims": {
-            "spec_presence": true,
-            "agentic_access": true,
-            "mcp_server": false,
-            "auth_clarity": true,
-            "idempotency": false,
-            "error_semantics": false,
-            "openapi_examples": false,
-            "rate_limit_signal": true,
-            "asyncapi_events": false,
-            "agent_skills": false,
-            "well_known_catalog": false,
-            "consent_identity": false
-          },
-          "rank": 6
-        }
-      ]
-    },
-    {
-      "band": "emerging",
-      "label": "Emerging",
-      "range": "15–29.9",
-      "blurb": "More than an index entry but still mostly links rather than artifacts.",
-      "count": 1,
-      "shown": 1,
-      "providers": [
-        {
-          "name": "Thomson Reuters",
-          "slug": "thomson-reuters",
-          "description": "Thomson Reuters provides over 137 APIs across legal, tax and accounting, risk and fraud, and trade and supply industries through their global developer portal. APIs cover Westlaw legal research, Checkpoint tax content, ONESOURCE tax software, HighQ document management, Legal Tracker matter management, and risk and fraud solutions including identity verification and adverse media screening.",
-          "screenshot": "https://raw.githubusercontent.com/api-evangelist/thomson-reuters/refs/heads/main/screenshots/thomson-reuters-2026-06-20T195310.png",
-          "score": 29.1,
-          "band": "emerging",
-          "band_label": "Emerging",
-          "facets": {
-            "discoverability": 87.5,
-            "contract_quality": 15.1,
-            "governance": 0.0,
-            "operational_transparency": 36.8,
-            "developer_ergonomics": 19.6,
-            "commercial_clarity": 39.5
-          },
-          "scored_at": "2026-07-27",
-          "schema_version": 0.5,
-          "agent_score": 6.7,
-          "agent_band": "human-only",
-          "agent_dims": {
-            "spec_presence": false,
-            "agentic_access": false,
-            "mcp_server": false,
-            "auth_clarity": false,
-            "idempotency": false,
-            "error_semantics": false,
-            "openapi_examples": false,
-            "rate_limit_signal": true,
-            "asyncapi_events": false,
-            "agent_skills": false,
-            "well_known_catalog": false,
-            "consent_identity": false
-          },
-          "rank": 7
-        }
-      ]
+     "name": "Moody's",
+     "slug": "moodys",
+     "description": "Moody's provides a comprehensive suite of APIs spanning KYC compliance, economic data and forecasting, credit risk analytics, insurance and catastrophe modeling, climate risk, commercial real estate, and news aggregation. With evolving regulatory pressures and increasingly complex risk landscapes, Moody's technology, data, and analytical capabilities power industry-leading solutions across financial services, insurance, and risk management.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/moodys/refs/heads/main/screenshots/moodys-2026-06-20T185751.png",
+     "score": 70.0,
+     "band": "exemplar",
+     "band_label": "Exemplar",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 73.5,
+      "governance": 73.7,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 76.1,
+      "commercial_clarity": 50.0
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Insurance",
+      "regime_id": "insurance",
+      "score": 76.1
+     },
+     "agent_score": 81.7,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 2
     }
-  ]
+   ],
+   "open": true
+  },
+  {
+   "band": "strong",
+   "label": "Strong",
+   "range": "60–69.9",
+   "blurb": "Solid contracts, transparent operations, and an easy start.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "Snowflake",
+     "slug": "snowflake",
+     "description": "Snowflake is a cloud-based data platform that provides data warehousing, data lakes, data engineering, data science, and data application development capabilities.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/snowflake/refs/heads/main/screenshots/snowflake-2026-06-20T194110.png",
+     "score": 68.3,
+     "band": "strong",
+     "band_label": "Strong",
+     "facets": {
+      "discoverability": 55.0,
+      "contract_quality": 73.4,
+      "governance": 73.7,
+      "operational_transparency": 68.4,
+      "developer_ergonomics": 65.2,
+      "commercial_clarity": 68.4
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 59.6,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 3
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 3,
+   "shown": 3,
+   "providers": [
+    {
+     "name": "Dow Jones",
+     "slug": "dow-jones",
+     "description": "Dow Jones is a financial news and information company, publisher of The Wall Street Journal, Barron's, MarketWatch, and Dow Jones Newswires, and operator of the Factiva news archive and the Risk & Compliance data business. Its Developer Platform (developer.dowjones.com) publishes REST APIs for entity screening and monitoring, third-party risk, due-diligence reports, risk profile search, and news content (Newswires real-time search, top stories, calendars, newsletters), secured by the Dow Jones Identity Service (OAuth 2.0 / OIDC) or Factiva user keys.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/dow-jones/refs/heads/main/screenshots/dow-jones-2026-06-20T180210.png",
+     "score": 55.9,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 60.4,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 78.3,
+      "commercial_clarity": 34.2
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Securities & Market Data",
+      "regime_id": "securities_market_data",
+      "score": 76.1
+     },
+     "agent_score": 75.0,
+     "agent_band": "agent-native",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": true,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 4
+    },
+    {
+     "name": "Clarivate",
+     "slug": "clarivate",
+     "description": "Clarivate is a global information services company providing data, insights, and analytics across academia, government, life sciences, healthcare, and intellectual property. Clarivate exposes a unified developer portal at developer.clarivate.com that catalogs APIs across its product families: Web of Science for publication and citation data, Derwent for patent data, Cortellis for life sciences and drug pipeline intelligence, and supporting tools such as InCites and ScholarOne. APIs are subscription-based and authenticated with per-API keys issued through the developer portal after subscription approval.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/clarivate/refs/heads/main/screenshots/clarivate-2026-06-20T174437.png",
+     "score": 49.5,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 58.4,
+      "governance": 26.3,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 26.1,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Health",
+      "regime_id": "health",
+      "score": 54.3
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 5
+    },
+    {
+     "name": "Palantir",
+     "slug": "palantir",
+     "description": "Palantir is a data analytics company providing software platforms for organizations to integrate, analyze, and visualize data. Palantir Foundry and AIP provide REST APIs for data workflows, AI operations, ontology management, orchestration, and decision-making across enterprise and government use cases.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/palantir/refs/heads/main/screenshots/palantir-2026-06-20T191326.png",
+     "score": 47.2,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 75.0,
+      "contract_quality": 60.2,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 30.4,
+      "commercial_clarity": 60.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 56.5
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 6
+    }
+   ]
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "Thomson Reuters",
+     "slug": "thomson-reuters",
+     "description": "Thomson Reuters provides over 137 APIs across legal, tax and accounting, risk and fraud, and trade and supply industries through their global developer portal. APIs cover Westlaw legal research, Checkpoint tax content, ONESOURCE tax software, HighQ document management, Legal Tracker matter management, and risk and fraud solutions including identity verification and adverse media screening.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/thomson-reuters/refs/heads/main/screenshots/thomson-reuters-2026-06-20T195310.png",
+     "score": 29.1,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 87.5,
+      "contract_quality": 15.1,
+      "governance": 0.0,
+      "operational_transparency": 36.8,
+      "developer_ergonomics": 19.6,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 7
+    }
+   ]
+  }
+ ]
 }

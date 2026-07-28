@@ -1,281 +1,281 @@
 {
-  "total": 6,
-  "shown": 6,
-  "limit": 1000,
-  "bands": [
+ "total": 6,
+ "shown": 6,
+ "limit": 1000,
+ "bands": [
+  {
+   "band": "developing",
+   "label": "Developing",
+   "range": "45–59.9",
+   "blurb": "Real signal across most facets with visible, nameable gaps.",
+   "count": 2,
+   "shown": 2,
+   "providers": [
     {
-      "band": "developing",
-      "label": "Developing",
-      "range": "45–59.9",
-      "blurb": "Real signal across most facets with visible, nameable gaps.",
-      "count": 2,
-      "shown": 2,
-      "providers": [
-        {
-          "name": "Przelewy24",
-          "slug": "przelewy24",
-          "description": "Przelewy24 is Poland's leading online payment gateway, providing REST APIs for bank transfer payments, card processing, BLIK mobile payments, and multi-currency payment processing for e-commerce merchants. With 91% brand recognition among Polish online customers, the platform connects merchants to over 165 Polish banks and supports payment methods including online bank transfers, credit and debit cards, BLIK, Google Pay, digital wallets, and prepaid cards. The API supports PLN and EUR currencies and enables transaction registration, payment verification, refunds, and real-time webhook notifications for payment events.",
-          "screenshot": "https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/screenshots/przelewy24-2026-06-20T192230.png",
-          "score": 50.1,
-          "band": "developing",
-          "band_label": "Developing",
-          "facets": {
-            "discoverability": 100.0,
-            "contract_quality": 61.4,
-            "governance": 73.7,
-            "operational_transparency": 15.8,
-            "developer_ergonomics": 41.3,
-            "commercial_clarity": 39.5
-          },
-          "scored_at": "2026-07-27",
-          "schema_version": 0.5,
-          "regulatory": {
-            "applies": true,
-            "regime": "Payments",
-            "regime_id": "payments",
-            "score": 37.0
-          },
-          "agent_score": 48.1,
-          "agent_band": "agent-ready",
-          "agent_dims": {
-            "spec_presence": true,
-            "agentic_access": true,
-            "mcp_server": false,
-            "auth_clarity": true,
-            "idempotency": false,
-            "error_semantics": false,
-            "openapi_examples": false,
-            "rate_limit_signal": true,
-            "asyncapi_events": false,
-            "agent_skills": false,
-            "well_known_catalog": false,
-            "consent_identity": false
-          },
-          "rank": 1
-        },
-        {
-          "name": "University of Warsaw",
-          "slug": "university-of-warsaw",
-          "description": "The University of Warsaw (Uniwersytet Warszawski) is Poland's largest and highest-ranked university, placed #258 in the QS World University Rankings 2025. Its public developer footprint centers on the USOS API, a documented OAuth-secured REST-like protocol exposing the institution's academic database (courses, grades, exams, users, payments and more), and on the Dane Badawcze UW research data repository, a Dataverse instance that offers a native REST API and an OAI-PMH endpoint for metadata harvesting. Developer access to USOS requires registration for an API key (Consumer Key/Secret) via the USOS developers portal.",
-          "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/screenshots/university-of-warsaw-2026-06-20T200305.png",
-          "score": 49.1,
-          "band": "developing",
-          "band_label": "Developing",
-          "facets": {
-            "discoverability": 100.0,
-            "contract_quality": 75.2,
-            "governance": 73.7,
-            "operational_transparency": 26.3,
-            "developer_ergonomics": 21.7,
-            "commercial_clarity": 28.9
-          },
-          "scored_at": "2026-07-27",
-          "schema_version": 0.5,
-          "regulatory": {
-            "applies": true,
-            "regime": "Government & Public Sector",
-            "regime_id": "government",
-            "score": 37.0
-          },
-          "agent_score": 48.1,
-          "agent_band": "agent-ready",
-          "agent_dims": {
-            "spec_presence": true,
-            "agentic_access": true,
-            "mcp_server": false,
-            "auth_clarity": true,
-            "idempotency": false,
-            "error_semantics": false,
-            "openapi_examples": false,
-            "rate_limit_signal": true,
-            "asyncapi_events": false,
-            "agent_skills": false,
-            "well_known_catalog": false,
-            "consent_identity": false
-          },
-          "rank": 2
-        }
-      ],
-      "open": true
+     "name": "Przelewy24",
+     "slug": "przelewy24",
+     "description": "Przelewy24 is Poland's leading online payment gateway, providing REST APIs for bank transfer payments, card processing, BLIK mobile payments, and multi-currency payment processing for e-commerce merchants. With 91% brand recognition among Polish online customers, the platform connects merchants to over 165 Polish banks and supports payment methods including online bank transfers, credit and debit cards, BLIK, Google Pay, digital wallets, and prepaid cards. The API supports PLN and EUR currencies and enables transaction registration, payment verification, refunds, and real-time webhook notifications for payment events.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/przelewy24/refs/heads/main/screenshots/przelewy24-2026-06-20T192230.png",
+     "score": 50.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 61.4,
+      "governance": 73.7,
+      "operational_transparency": 15.8,
+      "developer_ergonomics": 41.3,
+      "commercial_clarity": 39.5
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Payments",
+      "regime_id": "payments",
+      "score": 37.0
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 1
     },
     {
-      "band": "thin",
-      "label": "Thin",
-      "range": "30–44.9",
-      "blurb": "Limited machine-readable signal beyond documentation a human can read.",
-      "count": 1,
-      "shown": 1,
-      "providers": [
-        {
-          "name": "inFakt",
-          "slug": "infakt",
-          "description": "inFakt is a Polish fintech platform that combines invoicing software, online accounting, and dedicated bookkeeper services for sole proprietors (JDG), limited-liability companies (sp. z o.o.), foundations and other business types operating in Poland. Used by over 460,000 companies and headquartered in Kraków, inFakt offers a web app, iOS/Android mobile apps, deep KSeF (Poland's National e-Invoice System) integration, and a REST API (v3, JSON) for third-party integrations. The API exposes invoices, clients, products, costs, bank accounts, VAT exemptions, payment methods and business-activity data so e-commerce shops, CRMs and accounting tools can automate invoicing, cost booking and tax compliance. inFakt also publishes a hosted MCP server so AI agents can operate a company's accounting through Claude and other MCP clients.",
-          "screenshot": "https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/screenshots/infakt-2026-07-25T222350.png",
-          "score": 43.8,
-          "band": "thin",
-          "band_label": "Thin",
-          "facets": {
-            "discoverability": 92.5,
-            "contract_quality": 22.6,
-            "governance": 0.0,
-            "operational_transparency": 50.0,
-            "developer_ergonomics": 67.4,
-            "commercial_clarity": 44.7
-          },
-          "scored_at": "2026-07-27",
-          "schema_version": 0.5,
-          "agent_score": 41.3,
-          "agent_band": "agent-aware",
-          "agent_dims": {
-            "spec_presence": false,
-            "agentic_access": false,
-            "mcp_server": true,
-            "auth_clarity": true,
-            "idempotency": false,
-            "error_semantics": true,
-            "openapi_examples": false,
-            "rate_limit_signal": false,
-            "asyncapi_events": true,
-            "agent_skills": false,
-            "well_known_catalog": true,
-            "consent_identity": true
-          },
-          "rank": 3
-        }
-      ],
-      "open": true
-    },
-    {
-      "band": "emerging",
-      "label": "Emerging",
-      "range": "15–29.9",
-      "blurb": "More than an index entry but still mostly links rather than artifacts.",
-      "count": 2,
-      "shown": 2,
-      "providers": [
-        {
-          "name": "Symmetrical",
-          "slug": "symmetrical",
-          "description": "Symmetrical.ai is a Polish-British HR and payroll fintech, founded in 2019 in Warsaw with offices in London and Barcelona and backed by Partech. It provides payroll and HR bureau outsourcing plus an HR platform automating wage calculation, digital document management, onboarding, leave and time tracking, and real-time analytics, alongside employee financial wellbeing tools such as earned-wage / salary-on-demand access. Symmetrical is ISO/IEC 27001 certified. The company operates an authentication-gated developer documentation portal (developer.symmetrical.ai) but publishes no public OpenAPI, API reference, or SDKs; this profile captures its public identity plus probed security posture.",
-          "score": 19.5,
-          "band": "emerging",
-          "band_label": "Emerging",
-          "facets": {
-            "discoverability": 67.5,
-            "contract_quality": 0.0,
-            "governance": 0.0,
-            "operational_transparency": 0.0,
-            "developer_ergonomics": 10.9,
-            "commercial_clarity": 52.6
-          },
-          "scored_at": "2026-07-27",
-          "schema_version": 0.5,
-          "agent_score": 0.0,
-          "agent_band": "human-only",
-          "agent_dims": {
-            "spec_presence": false,
-            "agentic_access": false,
-            "mcp_server": false,
-            "auth_clarity": false,
-            "idempotency": false,
-            "error_semantics": false,
-            "openapi_examples": false,
-            "rate_limit_signal": false,
-            "asyncapi_events": false,
-            "agent_skills": false,
-            "well_known_catalog": false,
-            "consent_identity": false
-          },
-          "rank": 4
-        },
-        {
-          "name": "Oferteo",
-          "slug": "oferteo",
-          "description": "Oferteo (oferteo.pl) is a Polish online services marketplace that connects people and businesses seeking services (Zlecający) with local contractors and service providers (Wykonawcy). Clients post a request across hundreds of categories — construction and renovation, IT, legal, health, events, transport and more — and matched providers respond with competitive quotes. The platform layers on verified reviews, a buyer-protection program (Ochrona Zlecających), and native iOS/Android apps for both sides of the marketplace. Oferteo operates nationwide across Poland and reports tens of millions of submitted requests and offers, millions of registered clients, and hundreds of thousands of registered providers. It was surfaced as a portfolio company of Point Nine and added to the API Evangelist network. No public developer API surface was found during enrichment; this profile currently carries verified identity, website link-properties, and infrastructure/security probes.",
-          "score": 16.6,
-          "band": "emerging",
-          "band_label": "Emerging",
-          "facets": {
-            "discoverability": 67.5,
-            "contract_quality": 0.0,
-            "governance": 0.0,
-            "operational_transparency": 0.0,
-            "developer_ergonomics": 4.3,
-            "commercial_clarity": 44.7
-          },
-          "scored_at": "2026-07-27",
-          "schema_version": 0.5,
-          "agent_score": 3.8,
-          "agent_band": "human-only",
-          "agent_dims": {
-            "spec_presence": false,
-            "agentic_access": false,
-            "mcp_server": false,
-            "auth_clarity": false,
-            "idempotency": false,
-            "error_semantics": false,
-            "openapi_examples": false,
-            "rate_limit_signal": false,
-            "asyncapi_events": false,
-            "agent_skills": false,
-            "well_known_catalog": true,
-            "consent_identity": false
-          },
-          "rank": 5
-        }
-      ]
-    },
-    {
-      "band": "minimal",
-      "label": "Minimal",
-      "range": "0–14.9",
-      "blurb": "Index entry only; little beyond a description and a link.",
-      "count": 1,
-      "shown": 1,
-      "providers": [
-        {
-          "name": "Opolskie Open Data",
-          "slug": "maps-opolskie-pl",
-          "description": "Opolskie Open Data is a regional government open-data portal for Poland running DKAN.",
-          "screenshot": "https://raw.githubusercontent.com/api-evangelist/maps-opolskie-pl/refs/heads/main/screenshots/maps-opolskie-pl-2026-06-20T184952.png",
-          "score": 13.5,
-          "band": "minimal",
-          "band_label": "Minimal",
-          "facets": {
-            "discoverability": 80.0,
-            "contract_quality": 0.0,
-            "governance": 0.0,
-            "operational_transparency": 0.0,
-            "developer_ergonomics": 8.7,
-            "commercial_clarity": 7.9
-          },
-          "scored_at": "2026-07-27",
-          "schema_version": 0.5,
-          "regulatory": {
-            "applies": true,
-            "regime": "Government & Public Sector",
-            "regime_id": "government",
-            "score": 26.1
-          },
-          "agent_score": 6.7,
-          "agent_band": "human-only",
-          "agent_dims": {
-            "spec_presence": false,
-            "agentic_access": false,
-            "mcp_server": false,
-            "auth_clarity": false,
-            "idempotency": false,
-            "error_semantics": false,
-            "openapi_examples": false,
-            "rate_limit_signal": true,
-            "asyncapi_events": false,
-            "agent_skills": false,
-            "well_known_catalog": false,
-            "consent_identity": false
-          },
-          "rank": 6
-        }
-      ]
+     "name": "University of Warsaw",
+     "slug": "university-of-warsaw",
+     "description": "The University of Warsaw (Uniwersytet Warszawski) is Poland's largest and highest-ranked university, placed #258 in the QS World University Rankings 2025. Its public developer footprint centers on the USOS API, a documented OAuth-secured REST-like protocol exposing the institution's academic database (courses, grades, exams, users, payments and more), and on the Dane Badawcze UW research data repository, a Dataverse instance that offers a native REST API and an OAI-PMH endpoint for metadata harvesting. Developer access to USOS requires registration for an API key (Consumer Key/Secret) via the USOS developers portal.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/university-of-warsaw/refs/heads/main/screenshots/university-of-warsaw-2026-06-20T200305.png",
+     "score": 49.1,
+     "band": "developing",
+     "band_label": "Developing",
+     "facets": {
+      "discoverability": 100.0,
+      "contract_quality": 75.2,
+      "governance": 73.7,
+      "operational_transparency": 26.3,
+      "developer_ergonomics": 21.7,
+      "commercial_clarity": 28.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 37.0
+     },
+     "agent_score": 48.1,
+     "agent_band": "agent-ready",
+     "agent_dims": {
+      "spec_presence": true,
+      "agentic_access": true,
+      "mcp_server": false,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 2
     }
-  ]
+   ],
+   "open": true
+  },
+  {
+   "band": "thin",
+   "label": "Thin",
+   "range": "30–44.9",
+   "blurb": "Limited machine-readable signal beyond documentation a human can read.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "inFakt",
+     "slug": "infakt",
+     "description": "inFakt is a Polish fintech platform that combines invoicing software, online accounting, and dedicated bookkeeper services for sole proprietors (JDG), limited-liability companies (sp. z o.o.), foundations and other business types operating in Poland. Used by over 460,000 companies and headquartered in Kraków, inFakt offers a web app, iOS/Android mobile apps, deep KSeF (Poland's National e-Invoice System) integration, and a REST API (v3, JSON) for third-party integrations. The API exposes invoices, clients, products, costs, bank accounts, VAT exemptions, payment methods and business-activity data so e-commerce shops, CRMs and accounting tools can automate invoicing, cost booking and tax compliance. inFakt also publishes a hosted MCP server so AI agents can operate a company's accounting through Claude and other MCP clients.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/infakt/refs/heads/main/screenshots/infakt-2026-07-25T222350.png",
+     "score": 43.8,
+     "band": "thin",
+     "band_label": "Thin",
+     "facets": {
+      "discoverability": 92.5,
+      "contract_quality": 22.6,
+      "governance": 0.0,
+      "operational_transparency": 50.0,
+      "developer_ergonomics": 67.4,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 41.3,
+     "agent_band": "agent-aware",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": true,
+      "auth_clarity": true,
+      "idempotency": false,
+      "error_semantics": true,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": true,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": true
+     },
+     "rank": 3
+    }
+   ],
+   "open": true
+  },
+  {
+   "band": "emerging",
+   "label": "Emerging",
+   "range": "15–29.9",
+   "blurb": "More than an index entry but still mostly links rather than artifacts.",
+   "count": 2,
+   "shown": 2,
+   "providers": [
+    {
+     "name": "Symmetrical",
+     "slug": "symmetrical",
+     "description": "Symmetrical.ai is a Polish-British HR and payroll fintech, founded in 2019 in Warsaw with offices in London and Barcelona and backed by Partech. It provides payroll and HR bureau outsourcing plus an HR platform automating wage calculation, digital document management, onboarding, leave and time tracking, and real-time analytics, alongside employee financial wellbeing tools such as earned-wage / salary-on-demand access. Symmetrical is ISO/IEC 27001 certified. The company operates an authentication-gated developer documentation portal (developer.symmetrical.ai) but publishes no public OpenAPI, API reference, or SDKs; this profile captures its public identity plus probed security posture.",
+     "score": 19.5,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 10.9,
+      "commercial_clarity": 52.6
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 0.0,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 4
+    },
+    {
+     "name": "Oferteo",
+     "slug": "oferteo",
+     "description": "Oferteo (oferteo.pl) is a Polish online services marketplace that connects people and businesses seeking services (Zlecający) with local contractors and service providers (Wykonawcy). Clients post a request across hundreds of categories — construction and renovation, IT, legal, health, events, transport and more — and matched providers respond with competitive quotes. The platform layers on verified reviews, a buyer-protection program (Ochrona Zlecających), and native iOS/Android apps for both sides of the marketplace. Oferteo operates nationwide across Poland and reports tens of millions of submitted requests and offers, millions of registered clients, and hundreds of thousands of registered providers. It was surfaced as a portfolio company of Point Nine and added to the API Evangelist network. No public developer API surface was found during enrichment; this profile currently carries verified identity, website link-properties, and infrastructure/security probes.",
+     "score": 16.6,
+     "band": "emerging",
+     "band_label": "Emerging",
+     "facets": {
+      "discoverability": 67.5,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 4.3,
+      "commercial_clarity": 44.7
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "agent_score": 3.8,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": false,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": true,
+      "consent_identity": false
+     },
+     "rank": 5
+    }
+   ]
+  },
+  {
+   "band": "minimal",
+   "label": "Minimal",
+   "range": "0–14.9",
+   "blurb": "Index entry only; little beyond a description and a link.",
+   "count": 1,
+   "shown": 1,
+   "providers": [
+    {
+     "name": "Opolskie Open Data",
+     "slug": "maps-opolskie-pl",
+     "description": "Opolskie Open Data is a regional government open-data portal for Poland running DKAN.",
+     "screenshot": "https://raw.githubusercontent.com/api-evangelist/maps-opolskie-pl/refs/heads/main/screenshots/maps-opolskie-pl-2026-06-20T184952.png",
+     "score": 13.5,
+     "band": "minimal",
+     "band_label": "Minimal",
+     "facets": {
+      "discoverability": 80.0,
+      "contract_quality": 0.0,
+      "governance": 0.0,
+      "operational_transparency": 0.0,
+      "developer_ergonomics": 8.7,
+      "commercial_clarity": 7.9
+     },
+     "scored_at": "2026-07-27",
+     "schema_version": 0.5,
+     "regulatory": {
+      "applies": true,
+      "regime": "Government & Public Sector",
+      "regime_id": "government",
+      "score": 26.1
+     },
+     "agent_score": 6.7,
+     "agent_band": "human-only",
+     "agent_dims": {
+      "spec_presence": false,
+      "agentic_access": false,
+      "mcp_server": false,
+      "auth_clarity": false,
+      "idempotency": false,
+      "error_semantics": false,
+      "openapi_examples": false,
+      "rate_limit_signal": true,
+      "asyncapi_events": false,
+      "agent_skills": false,
+      "well_known_catalog": false,
+      "consent_identity": false
+     },
+     "rank": 6
+    }
+   ]
+  }
+ ]
 }
