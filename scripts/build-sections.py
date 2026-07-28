@@ -1407,6 +1407,56 @@ def main():
     energy_counts = {}
     build_roster_sections(ENERGY_SECTIONS, ENERGY_TIER_LABELS, energy_counts)
 
+    # --- Travel & Aviation (US / UK / AU / CA) ----------------------------
+    # Roster-driven, HQ/origin model. Travel is the sector where SWITCHING COST
+    # is the commercial structure rather than a side effect: three GDS companies
+    # have intermediated airline distribution for decades, IATA's NDC is a
+    # standard mid-rollout intended to route around them, and channel managers
+    # hold the same position in hotels. The bootstrap recorded interface shape,
+    # second-source availability, exit path and identifier portability as
+    # research metadata — the Kin Score cannot read any of it yet, and that
+    # evidence is what will specify the switchability lens on the roadmap.
+    #
+    # Genuinely global infrastructure with no home market in the quartet —
+    # Amadeus (Spain), Mews (NL/CZ), Ryanair (IE), Accor (FR) — is recorded in
+    # each roster's `excluded` block and discussed in the reports as shared
+    # context rather than forced onto a country page.
+    # Rosters live in all/0-working/<cc>-travel-roster.json.
+    TRAVEL_TIER_LABELS = {
+        "gds-distribution":        "GDS & Distribution",
+        "airline":                 "Airlines",
+        "ota-metasearch":          "OTAs & Metasearch",
+        "hotel-group":             "Hotel Groups",
+        "hospitality-tech":        "Hospitality Technology",
+        "booking-api-aggregator":  "Booking API Aggregators",
+        "corporate-travel":        "Corporate Travel",
+        "rail-ground":             "Rail & Ground",
+        "car-rental":              "Car Rental",
+        "airport-infrastructure":  "Airports & Infrastructure",
+        "industry-body-standards": "Industry Bodies & Standards",
+        "regulator":               "Regulators",
+    }
+    TRAVEL_SECTIONS = [
+        ("us-travel", "us-travel-roster.json", "US Travel & Aviation",
+         "US travel and aviation organizations ranked by their Kin Score — Sabre, one of the three GDS companies whose intermediation of airline inventory is the sector's defining commercial structure, the major carriers, the OTA duopoly that owns consumer demand (Expedia, Booking Holdings) plus Airbnb, the hotel groups whose direct-booking strategies are an explicit fight against that intermediation, hospitality technology, corporate travel, car rental, rail, the standards bodies (OpenTravel, HEDNA) and the federal regulators.",
+         {"slug": "state-of-us-travel-apis", "title": "The State of US Travel APIs",
+          "blurb": "PENDING_SCORING", "price": "500"}),
+        ("uk-travel", "uk-travel-roster.json", "UK Travel & Aviation",
+         "UK travel and aviation organizations ranked by their Kin Score — Travelport, the third GDS, alongside Duffel, an API-first booking layer built explicitly to route around GDS intermediation using IATA's NDC; British Airways, an early and aggressive NDC adopter that surcharged GDS bookings; easyJet and Jet2, direct-distribution carriers that never used a GDS at all; Skyscanner in metasearch, Trainline in rail, IHG in hotels, and the Civil Aviation Authority.",
+         {"slug": "state-of-uk-travel-apis", "title": "The State of UK Travel APIs",
+          "blurb": "PENDING_SCORING", "price": "500"}),
+        ("au-travel", "au-travel-roster.json", "Australian Travel & Aviation",
+         "Australian travel and aviation organizations ranked by their Kin Score — SiteMinder, a genuinely global channel manager built in Sydney that holds the same intermediary position in hotels that the GDS holds in aviation; the Qantas and Virgin Australia duopoly and its long history of distribution disputes; Jetstar as the low-cost direct-distribution arm; the unusually large agency groups (Webjet, Flight Centre, Corporate Travel Management, Helloworld); Sydney Airport and CASA.",
+         {"slug": "state-of-australian-travel-apis", "title": "The State of Australian Travel APIs",
+          "blurb": "PENDING_SCORING", "price": "500"}),
+        ("canadian-travel", "canadian-travel-roster.json", "Canadian Travel & Aviation",
+         "Canadian travel and aviation organizations ranked by their Kin Score — IATA, headquartered in Montreal, which writes the NDC standard intended to restructure airline distribution worldwide; the Air Canada and WestJet duopoly with Porter as challenger; Hopper as an unusually API-native OTA; Transat and Flight Network; VIA Rail; and Transport Canada.",
+         {"slug": "state-of-canadian-travel-apis", "title": "The State of Canadian Travel APIs",
+          "blurb": "PENDING_SCORING", "price": "500"}),
+    ]
+    travel_counts = {}
+    build_roster_sections(TRAVEL_SECTIONS, TRAVEL_TIER_LABELS, travel_counts)
+
     # --- Headless (single GLOBAL cohort) ----------------------------------
     # Not a sector in the usual sense: "headless" is a delivery architecture,
     # so it sells into three unrelated markets that share a word and little
@@ -1461,6 +1511,9 @@ def main():
         print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
     for slug_page, _r, _t, _s, _p in ENERGY_SECTIONS:
         n, sc = energy_counts.get(slug_page, (0, 0))
+        print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
+    for slug_page, _r, _t, _s, _p in TRAVEL_SECTIONS:
+        n, sc = travel_counts.get(slug_page, (0, 0))
         print("%-19s %d (scored: %d)" % (slug_page + ":", n, sc))
     for slug_page, _r, _t, _s, _p in HEADLESS_SECTIONS:
         n, sc = headless_counts.get(slug_page, (0, 0))

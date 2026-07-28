@@ -180,6 +180,27 @@
           href: /canadian-energy/
           count: { from: total, key: providers-canadian-energy }
 
+    - name: Travel & Aviation
+      icon: flight
+      description: >-
+        The GDS companies that intermediate airline inventory, the carriers, OTAs and metasearch,
+        hotel groups and hospitality technology, corporate travel, rail, car rental, airports and
+        the standards bodies — the sector where switching cost is the commercial structure,
+        ranked by Kin Score.
+      markets:
+        - name: United States
+          href: /us-travel/
+          count: { from: total, key: providers-us-travel }
+        - name: United Kingdom
+          href: /uk-travel/
+          count: { from: total, key: providers-uk-travel }
+        - name: Australia
+          href: /au-travel/
+          count: { from: total, key: providers-au-travel }
+        - name: Canada
+          href: /canadian-travel/
+          count: { from: total, key: providers-canadian-travel }
+
     - name: Telecommunications
       icon: cell_tower
       unit: providers
