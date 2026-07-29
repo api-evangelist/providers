@@ -170,7 +170,7 @@ overview: 'NewsWhip publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   NewsWhip''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 12 more developer resources.'
-random_paper: 5
+random_paper: 75
 score:
   band: developing
   composite: 42.6

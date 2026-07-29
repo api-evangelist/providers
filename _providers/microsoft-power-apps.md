@@ -330,7 +330,7 @@ plans:
 - name: Microsoft Power Apps Plans Pricing
   plan_count: 6
   slug: microsoft-power-apps-plans-pricing
-random_paper: 65
+random_paper: 40
 rate_limits:
 - limit_count: 9
   name: Microsoft Power Apps Rate Limits

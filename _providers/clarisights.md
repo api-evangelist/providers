@@ -95,7 +95,7 @@ overview: 'Clarisights is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Clarisights'' developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 61
+random_paper: 47
 score:
   band: emerging
   composite: 19.8

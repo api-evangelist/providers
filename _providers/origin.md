@@ -153,7 +153,7 @@ overview: 'Origin publishes 1 API on the [APIs.io](https://apis.io/) network: Tr
 
 
   Origin''s developer surface includes authentication, changelog, documentation, API reference, engineering blog, support, and 16 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: thin
   composite: 33.6

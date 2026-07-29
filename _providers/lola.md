@@ -67,7 +67,7 @@ overview: 'Lola is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Lola''s developer surface includes support and 5 more developer resources.'
-random_paper: 24
+random_paper: 19
 score:
   band: minimal
   composite: 12.7

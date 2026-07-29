@@ -137,7 +137,7 @@ overview: 'HKEX publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   HKEX''s developer surface includes authentication, changelog, developer portal, documentation, engineering blog, pricing, support, and 13 more developer resources.'
-random_paper: 32
+random_paper: 27
 rate_limits:
 - limit_count: 2
   name: Hkex Rate Limits

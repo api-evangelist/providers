@@ -215,7 +215,7 @@ overview: 'Very Good Security publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Very Good Security''s developer surface includes CLI, sandbox, changelog, authentication, documentation, API reference, getting-started guide, and 31 more developer resources.'
-random_paper: 17
+random_paper: 75
 scopes:
 - name: Very Good Security Scopes
   scope_count: 3

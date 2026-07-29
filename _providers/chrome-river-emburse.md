@@ -111,7 +111,7 @@ overview: 'Chrome River (Emburse) is profiled on the [APIs.io](https://apis.io/)
 
 
   Chrome River (Emburse)''s developer surface includes support, engineering blog, and 15 more developer resources.'
-random_paper: 35
+random_paper: 10
 score:
   band: emerging
   composite: 23.1

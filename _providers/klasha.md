@@ -203,7 +203,7 @@ overview: 'Klasha publishes 5 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Klasha''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, engineering blog, authentication, and 26 more developer resources.'
-random_paper: 68
+random_paper: 61
 score:
   band: developing
   composite: 55.8

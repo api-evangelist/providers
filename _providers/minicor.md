@@ -222,7 +222,7 @@ overview: 'Minicor publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Minicor''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, signup flow, and 28 more developer resources.'
-random_paper: 33
+random_paper: 24
 score:
   band: strong
   composite: 58.8

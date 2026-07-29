@@ -107,7 +107,7 @@ press:
 - date: '2026-05-25'
   title: US Foods Reports First Quarter Fiscal Year 2026 Earnings
   url: https://ir.usfoods.com/newsroom/news/news-details/2026/US-Foods-Reports-First-Quarter-Fiscal-Year-2026-Earnings/default.aspx
-random_paper: 16
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Us Foods Rate Limits

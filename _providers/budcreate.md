@@ -48,7 +48,7 @@ name: budcreate
 nav: Providers
 network: true
 overview: budcreate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, 3D, Gaming, and UGC.
-random_paper: 63
+random_paper: 52
 score:
   band: minimal
   composite: 5.0

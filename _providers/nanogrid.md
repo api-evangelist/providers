@@ -48,7 +48,7 @@ name: Nanogrid
 nav: Providers
 network: true
 overview: Nanogrid is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Solar, Battery Storage, and Electric Vehicles.
-random_paper: 50
+random_paper: 40
 score:
   band: minimal
   composite: 4.8

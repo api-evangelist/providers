@@ -48,7 +48,7 @@ name: Airbility
 nav: Providers
 network: true
 overview: Airbility is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 9
+random_paper: 78
 score:
   band: minimal
   composite: 3.2

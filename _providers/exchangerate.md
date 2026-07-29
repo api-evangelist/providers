@@ -147,7 +147,7 @@ plans:
 - name: Exchangerate Plans Pricing
   plan_count: 4
   slug: exchangerate-plans-pricing
-random_paper: 63
+random_paper: 48
 rate_limits:
 - limit_count: 0
   name: Exchangerate Rate Limits

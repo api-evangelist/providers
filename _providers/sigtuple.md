@@ -63,7 +63,7 @@ overview: 'SigTuple is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   SigTuple''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 77
+random_paper: 67
 score:
   band: minimal
   composite: 9.0

@@ -115,7 +115,7 @@ overview: 'Wisk Aero is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Wisk Aero''s developer surface includes engineering blog, developer portal, YouTube channel, and 15 more developer resources.'
-random_paper: 34
+random_paper: 23
 score:
   band: minimal
   composite: 12.1

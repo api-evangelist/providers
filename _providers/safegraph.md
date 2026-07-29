@@ -95,7 +95,7 @@ overview: 'SafeGraph is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   SafeGraph''s developer surface includes documentation, engineering blog, pricing, changelog, and 9 more developer resources.'
-random_paper: 65
+random_paper: 54
 score:
   band: emerging
   composite: 18.1

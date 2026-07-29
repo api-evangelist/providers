@@ -39,7 +39,7 @@ name: Advanced Biohealing
 nav: Providers
 network: true
 overview: Advanced Biohealing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Regenerative Medicine, Biotechnology, Medical Devices, and Healthcare.
-random_paper: 69
+random_paper: 46
 score:
   band: minimal
   composite: 4.3

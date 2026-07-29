@@ -106,7 +106,7 @@ overview: 'Santiment publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Santiment''s developer surface includes developer portal, pricing, status page, engineering blog, authentication, and 6 more developer resources.'
-random_paper: 19
+random_paper: 7
 score:
   band: thin
   composite: 30.5

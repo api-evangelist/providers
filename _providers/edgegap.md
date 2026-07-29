@@ -129,7 +129,7 @@ plans:
 - name: Edgegap Plans Pricing
   plan_count: 3
   slug: edgegap-plans-pricing
-random_paper: 77
+random_paper: 69
 rate_limits:
 - limit_count: 4
   name: Edgegap Rate Limits

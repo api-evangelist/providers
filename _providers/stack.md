@@ -63,7 +63,7 @@ overview: 'Stack is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Stack''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 54
+random_paper: 48
 score:
   band: minimal
   composite: 9.7

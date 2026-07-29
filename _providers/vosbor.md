@@ -95,7 +95,7 @@ overview: 'Vosbor is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Vosbor''s developer surface includes signup flow, support, and 11 more developer resources.'
-random_paper: 27
+random_paper: 19
 score:
   band: emerging
   composite: 13.7

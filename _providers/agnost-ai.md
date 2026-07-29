@@ -218,7 +218,7 @@ overview: 'Agnost AI publishes 14 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Agnost AI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 24 more developer resources.'
-random_paper: 19
+random_paper: 8
 scopes:
 - name: Agnost Ai Scopes
   scope_count: 1

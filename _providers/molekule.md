@@ -100,7 +100,7 @@ overview: 'Molekule publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Molekule''s developer surface includes authentication and 11 more developer resources.'
-random_paper: 62
+random_paper: 52
 scopes:
 - name: Molekule Scopes
   scope_count: 4

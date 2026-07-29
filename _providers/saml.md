@@ -155,7 +155,7 @@ plans:
 - name: Saml Plans Pricing
   plan_count: 3
   slug: saml-plans-pricing
-random_paper: 29
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Saml Rate Limits

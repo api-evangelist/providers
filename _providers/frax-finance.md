@@ -52,7 +52,7 @@ name: Frax Finance
 nav: Providers
 network: true
 overview: Frax Finance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, Stablecoin, AMM, TWAMM, and GraphQL.
-random_paper: 2
+random_paper: 68
 score:
   band: emerging
   composite: 18.4

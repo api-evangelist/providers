@@ -122,7 +122,7 @@ overview: 'McGrath is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   McGrath''s developer surface includes engineering blog and 18 more developer resources.'
-random_paper: 22
+random_paper: 13
 score:
   band: emerging
   composite: 14.9

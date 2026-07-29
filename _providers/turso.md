@@ -194,7 +194,7 @@ plans:
 - name: Turso Plans Pricing
   plan_count: 5
   slug: turso-plans-pricing
-random_paper: 13
+random_paper: 6
 rate_limits:
 - limit_count: 11
   name: Turso Rate Limits

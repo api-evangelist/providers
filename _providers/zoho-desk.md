@@ -95,7 +95,7 @@ overview: 'Zoho Desk publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Zoho Desk''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 6 more developer resources.'
-random_paper: 36
+random_paper: 25
 score:
   band: emerging
   composite: 27.7

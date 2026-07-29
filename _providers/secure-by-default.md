@@ -39,7 +39,7 @@ name: Secure-By-Default
 nav: Providers
 network: true
 overview: Secure-By-Default is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Best Practices, Design Principles, Security, Security Architecture, and Software Design.
-random_paper: 17
+random_paper: 77
 score:
   band: minimal
   composite: 5.2

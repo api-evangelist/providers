@@ -138,7 +138,7 @@ overview: 'Litmus Hiring publishes 3 APIs on the [APIs.io](https://apis.io/) net
 
 
   Litmus Hiring''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 15 more developer resources.'
-random_paper: 76
+random_paper: 60
 scopes:
 - name: Litmus Hiring Scopes
   scope_count: 7

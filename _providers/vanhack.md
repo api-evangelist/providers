@@ -83,7 +83,7 @@ overview: 'VanHack is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   VanHack''s developer surface includes pricing, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 12
+random_paper: 3
 score:
   band: emerging
   composite: 17.1

@@ -63,7 +63,7 @@ overview: 'Astrus is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Astrus'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 34
+random_paper: 26
 score:
   band: minimal
   composite: 9.7

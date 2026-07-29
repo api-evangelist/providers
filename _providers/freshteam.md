@@ -112,7 +112,7 @@ plans:
 - name: Freshteam Plans Pricing
   plan_count: 4
   slug: freshteam-plans-pricing
-random_paper: 79
+random_paper: 68
 rate_limits:
 - limit_count: 4
   name: Freshteam Rate Limits

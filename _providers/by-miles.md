@@ -115,7 +115,7 @@ overview: 'By Miles is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   By Miles'' developer surface includes engineering blog, support, and 18 more developer resources.'
-random_paper: 2
+random_paper: 73
 score:
   band: emerging
   composite: 23.9

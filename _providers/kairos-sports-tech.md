@@ -44,7 +44,7 @@ name: Kairos Sports Tech
 nav: Providers
 network: true
 overview: Kairos Sports Tech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Sports Technology, Athlete Management, and Team Communication.
-random_paper: 2
+random_paper: 60
 score:
   band: minimal
   composite: 5.0

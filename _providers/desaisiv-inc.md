@@ -55,7 +55,7 @@ overview: 'Desaisiv Inc. is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Desaisiv Inc.''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 15
+random_paper: 0
 score:
   band: minimal
   composite: 6.0

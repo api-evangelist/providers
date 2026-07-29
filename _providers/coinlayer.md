@@ -56,7 +56,7 @@ name: Coinlayer
 nav: Providers
 network: true
 overview: Coinlayer publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 6
+random_paper: 75
 score:
   band: minimal
   composite: 5.7

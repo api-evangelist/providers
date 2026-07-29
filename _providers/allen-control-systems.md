@@ -63,7 +63,7 @@ overview: 'Allen Control Systems is profiled on the [APIs.io](https://apis.io/) 
 
 
   Allen Control Systems'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 15
+random_paper: 69
 score:
   band: minimal
   composite: 8.4

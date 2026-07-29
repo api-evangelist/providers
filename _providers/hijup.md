@@ -60,7 +60,7 @@ name: HijUp
 nav: Providers
 network: true
 overview: HijUp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Fashion, Retail, and Marketplace.
-random_paper: 64
+random_paper: 58
 score:
   band: minimal
   composite: 11.8

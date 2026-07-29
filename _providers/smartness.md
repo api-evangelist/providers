@@ -63,7 +63,7 @@ overview: 'Smartness is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Smartness'' developer surface includes engineering blog, pricing, and 3 more developer resources.'
-random_paper: 32
+random_paper: 20
 score:
   band: minimal
   composite: 8.2

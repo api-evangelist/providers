@@ -105,7 +105,7 @@ press:
 - date: '2026-05-25'
   title: NANGA SYSTEMS' Post
   url: https://www.linkedin.com/posts/nanga-systems_the-recent-press-release-that-autoliv-is-activity-7445439948893184000-nIRn
-random_paper: 52
+random_paper: 43
 rate_limits:
 - limit_count: 1
   name: Autoliv Rate Limits

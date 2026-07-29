@@ -48,7 +48,7 @@ name: Vyne
 nav: Providers
 network: true
 overview: Vyne is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Payments, Open Banking, and Account-to-Account.
-random_paper: 50
+random_paper: 45
 score:
   band: minimal
   composite: 5.4

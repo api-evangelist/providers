@@ -96,7 +96,7 @@ overview: 'Lindus Health is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Lindus Health''s developer surface includes engineering blog, product news, support, and 10 more developer resources.'
-random_paper: 50
+random_paper: 34
 score:
   band: emerging
   composite: 15.0

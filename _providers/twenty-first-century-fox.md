@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Strategic Analysis of Disney's Acquisition of 21st Century Fox
   url: https://www.researchgate.net/publication/391517273_Strategic_Analysis_of_Disney's_Acquisition_of_21st_Century_Fox_Market_Expansion_Synergies_and_Competitive_Impacts
-random_paper: 1
+random_paper: 51
 score:
   band: minimal
   composite: 5.0

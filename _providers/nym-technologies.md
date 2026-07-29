@@ -254,7 +254,7 @@ overview: 'Nym Technologies publishes 23 APIs on the [APIs.io](https://apis.io/)
 
 
   Nym Technologies'' developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, signup flow, and 27 more developer resources.'
-random_paper: 69
+random_paper: 49
 score:
   band: developing
   composite: 51.4

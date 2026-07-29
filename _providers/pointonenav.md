@@ -131,7 +131,7 @@ overview: 'Pointonenav publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Pointonenav''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, CLI, and 13 more developer resources.'
-random_paper: 1
+random_paper: 67
 score:
   band: thin
   composite: 29.4

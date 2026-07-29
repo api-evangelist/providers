@@ -118,7 +118,7 @@ plans:
 - name: Appsmith Plans Pricing
   plan_count: 3
   slug: appsmith-plans-pricing
-random_paper: 70
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Appsmith Rate Limits

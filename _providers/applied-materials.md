@@ -118,7 +118,7 @@ press:
 - date: '2026-05-25'
   title: Applied Materials Debuts New Gear For Making AI Chips
   url: https://www.investors.com/news/technology/amat-stock-applied-materials-new-gear-ai-chips/
-random_paper: 62
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Applied Materials Rate Limits

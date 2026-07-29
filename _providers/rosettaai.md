@@ -103,7 +103,7 @@ overview: 'Rosetta.ai is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Rosetta.ai''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, changelog, and 8 more developer resources.'
-random_paper: 12
+random_paper: 0
 score:
   band: emerging
   composite: 22.6

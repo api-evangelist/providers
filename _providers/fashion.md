@@ -39,7 +39,7 @@ name: Fashion, Inc. (Fab.com)
 nav: Providers
 network: true
 overview: Fashion, Inc. (Fab.com) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Design, and Consumer.
-random_paper: 24
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

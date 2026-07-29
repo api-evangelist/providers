@@ -103,7 +103,7 @@ overview: 'Recurse is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Recurse''s developer surface includes documentation, getting-started guide, CLI, engineering blog, support, pricing, signup flow, and 7 more developer resources.'
-random_paper: 41
+random_paper: 32
 score:
   band: emerging
   composite: 21.2

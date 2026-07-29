@@ -63,7 +63,7 @@ overview: 'Gitter publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Gitter''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 15
+random_paper: 7
 score:
   band: minimal
   composite: 6.2

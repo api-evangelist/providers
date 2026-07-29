@@ -152,7 +152,7 @@ plans:
 - name: Salt Edge Plans Pricing
   plan_count: 4
   slug: salt-edge-plans-pricing
-random_paper: 6
+random_paper: 76
 rate_limits:
 - limit_count: 3
   name: Salt Edge Rate Limits

@@ -44,7 +44,7 @@ name: Kalto
 nav: Providers
 network: true
 overview: Kalto is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, B2B, and Checkout.
-random_paper: 59
+random_paper: 53
 score:
   band: minimal
   composite: 4.3

@@ -83,7 +83,7 @@ overview: 'Compstak is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Compstak''s developer surface includes engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 66
+random_paper: 56
 score:
   band: emerging
   composite: 13.7

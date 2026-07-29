@@ -91,7 +91,7 @@ overview: 'Vinted is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Vinted''s developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 10
+random_paper: 2
 score:
   band: emerging
   composite: 14.4

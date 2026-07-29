@@ -39,7 +39,7 @@ name: Movivo
 nav: Providers
 network: true
 overview: Movivo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Airtime, Rewards, and Telecommunications.
-random_paper: 32
+random_paper: 24
 score:
   band: minimal
   composite: 4.3

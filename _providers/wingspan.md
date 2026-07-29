@@ -286,7 +286,7 @@ overview: 'Wingspan publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   Wingspan''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 26 more developer resources.'
-random_paper: 71
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Wingspan Rate Limits

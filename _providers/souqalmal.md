@@ -63,7 +63,7 @@ overview: 'Souqalmal is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Souqalmal''s developer surface includes support and 4 more developer resources.'
-random_paper: 15
+random_paper: 3
 score:
   band: minimal
   composite: 11.7

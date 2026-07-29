@@ -56,7 +56,7 @@ name: Imsea
 nav: Providers
 network: true
 overview: Imsea publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Photography and Public APIs.
-random_paper: 47
+random_paper: 41
 score:
   band: minimal
   composite: 5.7

@@ -152,7 +152,7 @@ overview: 'FordPass / Ford Pro is profiled on the [APIs.io](https://apis.io/) ne
 
 
   FordPass / Ford Pro''s developer surface includes developer portal, changelog, pricing, YouTube channel, support, and 22 more developer resources.'
-random_paper: 66
+random_paper: 56
 score:
   band: emerging
   composite: 17.0

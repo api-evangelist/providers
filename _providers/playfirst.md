@@ -39,7 +39,7 @@ name: PlayFirst
 nav: Providers
 network: true
 overview: PlayFirst is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Gaming.
-random_paper: 30
+random_paper: 18
 score:
   band: minimal
   composite: 4.1

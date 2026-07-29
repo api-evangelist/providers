@@ -212,7 +212,7 @@ overview: 'Context.dev publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Context.dev''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 25 more developer resources.'
-random_paper: 52
+random_paper: 39
 scopes:
 - name: Contextdev Scopes
   scope_count: 2

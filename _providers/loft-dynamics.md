@@ -71,7 +71,7 @@ overview: 'Loft Dynamics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Loft Dynamics'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 58
+random_paper: 42
 score:
   band: emerging
   composite: 13.1

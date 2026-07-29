@@ -39,7 +39,7 @@ name: Dimensional Modeling
 nav: Providers
 network: true
 overview: Dimensional Modeling is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Business Intelligence, Data Modeling, and Data Warehousing.
-random_paper: 63
+random_paper: 38
 score:
   band: minimal
   composite: 4.8

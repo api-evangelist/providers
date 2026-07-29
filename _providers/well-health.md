@@ -83,7 +83,7 @@ overview: 'WELL Health Technologies publishes 1 API on the [APIs.io](https://api
 
 
   WELL Health Technologies'' developer surface includes documentation, getting-started guide, engineering blog, support, and 7 more developer resources.'
-random_paper: 71
+random_paper: 58
 score:
   band: emerging
   composite: 23.6

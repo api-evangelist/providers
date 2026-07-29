@@ -104,7 +104,7 @@ overview: 'IM8 Health publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   IM8 Health''s developer surface includes documentation, authentication, engineering blog, and 10 more developer resources.'
-random_paper: 30
+random_paper: 27
 scopes:
 - name: Im8 Scopes
   scope_count: 0

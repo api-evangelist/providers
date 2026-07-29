@@ -48,7 +48,7 @@ name: Packfleet
 nav: Providers
 network: true
 overview: Packfleet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Climate, Logistics, Delivery, and Last Mile.
-random_paper: 63
+random_paper: 52
 score:
   band: minimal
   composite: 5.0

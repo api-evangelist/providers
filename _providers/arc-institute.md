@@ -128,7 +128,7 @@ overview: 'Arc Institute is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Arc Institute''s developer surface includes tooling, product news, YouTube channel, engineering blog, and 17 more developer resources.'
-random_paper: 76
+random_paper: 60
 score:
   band: minimal
   composite: 6.1

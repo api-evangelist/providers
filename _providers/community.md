@@ -187,7 +187,7 @@ overview: 'Community publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Community''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, pricing, and 21 more developer resources.'
-random_paper: 37
+random_paper: 25
 scopes:
 - name: Community Scopes
   scope_count: 0

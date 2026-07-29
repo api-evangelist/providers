@@ -56,7 +56,7 @@ name: Jooble
 nav: Providers
 network: true
 overview: Jooble publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Jobs and Public APIs.
-random_paper: 75
+random_paper: 68
 score:
   band: minimal
   composite: 5.7

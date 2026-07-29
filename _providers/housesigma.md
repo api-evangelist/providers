@@ -179,7 +179,7 @@ overview: 'HouseSigma publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   HouseSigma''s developer surface includes authentication, engineering blog, code examples, support, FAQ, and 24 more developer resources.'
-random_paper: 37
+random_paper: 24
 score:
   band: thin
   composite: 33.4

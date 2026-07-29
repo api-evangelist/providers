@@ -299,7 +299,7 @@ plans:
 - name: Amazon Firewall Manager Plans Pricing
   plan_count: 3
   slug: amazon-firewall-manager-plans-pricing
-random_paper: 1
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Amazon Firewall Manager Rate Limits

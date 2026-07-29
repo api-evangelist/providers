@@ -48,7 +48,7 @@ name: Subtle Medical
 nav: Providers
 network: true
 overview: Subtle Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Imaging, Artificial Intelligence, and Deep Learning.
-random_paper: 59
+random_paper: 42
 score:
   band: minimal
   composite: 5.4

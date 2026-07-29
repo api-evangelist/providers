@@ -48,7 +48,7 @@ name: Hyalex Orthopaedics
 nav: Providers
 network: true
 overview: Hyalex Orthopaedics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Orthopedics, MedTech, and Health.
-random_paper: 61
+random_paper: 37
 score:
   band: minimal
   composite: 5.4

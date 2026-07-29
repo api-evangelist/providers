@@ -140,7 +140,7 @@ overview: 'Lifesize publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Lifesize''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 15 more developer resources.'
-random_paper: 59
+random_paper: 49
 score:
   band: thin
   composite: 32.4

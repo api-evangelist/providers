@@ -393,7 +393,7 @@ plans:
 - name: Covalent Plans Pricing
   plan_count: 4
   slug: covalent-plans-pricing
-random_paper: 60
+random_paper: 50
 rate_limits:
 - limit_count: 4
   name: Covalent Rate Limits

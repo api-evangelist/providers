@@ -219,7 +219,7 @@ plans:
 - name: Grist Plans Pricing
   plan_count: 5
   slug: grist-plans-pricing
-random_paper: 73
+random_paper: 67
 rate_limits:
 - limit_count: 6
   name: Grist Rate Limits

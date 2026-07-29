@@ -241,7 +241,7 @@ plans:
 - name: Ricoh Usa Plans Pricing
   plan_count: 3
   slug: ricoh-usa-plans-pricing
-random_paper: 27
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Ricoh Usa Rate Limits

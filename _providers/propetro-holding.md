@@ -68,7 +68,7 @@ name: ProPetro Holding
 nav: Providers
 network: true
 overview: ProPetro Holding is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Fortune 1000, Oil and Gas, Oilfield Services, and Hydraulic Fracturing.
-random_paper: 77
+random_paper: 57
 score:
   band: minimal
   composite: 5.5

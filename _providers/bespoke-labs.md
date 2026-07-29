@@ -163,7 +163,7 @@ overview: 'Bespoke Labs publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Bespoke Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, signup flow, support, engineering blog, and 19 more developer resources.'
-random_paper: 8
+random_paper: 74
 score:
   band: thin
   composite: 41.8

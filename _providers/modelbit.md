@@ -115,7 +115,7 @@ overview: 'Modelbit publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Modelbit''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, changelog, and 9 more developer resources.'
-random_paper: 48
+random_paper: 38
 score:
   band: thin
   composite: 35.6

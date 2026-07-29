@@ -220,7 +220,7 @@ overview: 'Aidbox publishes 7 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Aidbox''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 31 more developer resources.'
-random_paper: 71
+random_paper: 64
 scopes:
 - name: Aidbox Scopes
   scope_count: 12

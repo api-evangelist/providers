@@ -68,7 +68,7 @@ overview: 'Dren Bio is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Dren Bio''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 64
+random_paper: 55
 score:
   band: minimal
   composite: 10.5

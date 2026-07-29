@@ -107,7 +107,7 @@ overview: 'Stotles is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Stotles'' developer surface includes documentation, support, getting-started guide, signup flow, pricing, engineering blog, and 10 more developer resources.'
-random_paper: 62
+random_paper: 53
 score:
   band: emerging
   composite: 27.5

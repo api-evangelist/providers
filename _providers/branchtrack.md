@@ -75,7 +75,7 @@ overview: 'Branchtrack is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Branchtrack''s developer surface includes pricing, signup flow, support, and 5 more developer resources.'
-random_paper: 35
+random_paper: 21
 score:
   band: emerging
   composite: 14.8

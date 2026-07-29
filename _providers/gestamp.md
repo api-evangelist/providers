@@ -73,7 +73,7 @@ plans:
 - name: Gestamp Plans Pricing
   plan_count: 1
   slug: gestamp-plans-pricing
-random_paper: 33
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Gestamp Rate Limits

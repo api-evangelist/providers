@@ -97,7 +97,7 @@ overview: 'Lovys publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Lovys'' developer surface includes documentation, API reference, getting-started guide, changelog, support, signup flow, authentication, and 5 more developer resources.'
-random_paper: 13
+random_paper: 6
 score:
   band: emerging
   composite: 20.9

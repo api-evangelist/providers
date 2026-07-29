@@ -39,7 +39,7 @@ name: LSI Logic
 nav: Providers
 network: true
 overview: LSI Logic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductor, Hardware, Integrated Circuits, and Storage.
-random_paper: 19
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

@@ -143,7 +143,7 @@ plans:
 - name: Lexoffice Plans Pricing
   plan_count: 4
   slug: lexoffice-plans-pricing
-random_paper: 69
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Lexoffice Rate Limits

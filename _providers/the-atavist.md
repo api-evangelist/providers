@@ -67,7 +67,7 @@ overview: 'The Atavist is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   The Atavist''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 10
+random_paper: 77
 score:
   band: minimal
   composite: 11.8

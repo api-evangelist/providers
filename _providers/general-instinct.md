@@ -53,7 +53,7 @@ name: General Instinct
 nav: Providers
 network: true
 overview: General Instinct is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Edge AI, and Edge Computing.
-random_paper: 55
+random_paper: 35
 score:
   band: minimal
   composite: 5.0

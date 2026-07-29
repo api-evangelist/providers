@@ -44,7 +44,7 @@ name: Interwoven
 nav: Providers
 network: true
 overview: Interwoven is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Cloud Saas.
-random_paper: 65
+random_paper: 52
 score:
   band: minimal
   composite: 4.1

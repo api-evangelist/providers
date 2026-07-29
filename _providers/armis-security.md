@@ -104,7 +104,7 @@ overview: 'Armis Security is profiled on the [APIs.io](https://apis.io/) network
 
 
   Armis Security''s developer surface includes documentation, engineering blog, CLI, authentication, and 10 more developer resources.'
-random_paper: 33
+random_paper: 15
 score:
   band: emerging
   composite: 19.0

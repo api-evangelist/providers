@@ -115,7 +115,7 @@ overview: 'InMobi is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   InMobi''s developer surface includes documentation, API reference, getting-started guide, support, changelog, and 13 more developer resources.'
-random_paper: 78
+random_paper: 71
 score:
   band: thin
   composite: 29.5

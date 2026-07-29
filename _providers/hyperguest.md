@@ -103,7 +103,7 @@ overview: 'Hyperguest publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Hyperguest''s developer surface includes signup flow, support, engineering blog, and 11 more developer resources.'
-random_paper: 64
+random_paper: 51
 score:
   band: thin
   composite: 28.3

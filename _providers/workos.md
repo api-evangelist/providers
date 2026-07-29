@@ -1205,7 +1205,7 @@ plans:
 - name: Workos Plans Pricing
   plan_count: 7
   slug: workos-plans-pricing
-random_paper: 37
+random_paper: 29
 rate_limits:
 - limit_count: 4
   name: Workos Rate Limits

@@ -216,7 +216,7 @@ plans:
 - name: Amazon Transit Gateway Plans Pricing
   plan_count: 3
   slug: amazon-transit-gateway-plans-pricing
-random_paper: 23
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Amazon Transit Gateway Rate Limits

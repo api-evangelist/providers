@@ -1249,7 +1249,7 @@ plans:
 - name: Zendesk Plans Pricing
   plan_count: 7
   slug: zendesk-plans-pricing
-random_paper: 36
+random_paper: 27
 rate_limits:
 - limit_count: 17
   name: Zendesk Rate Limits

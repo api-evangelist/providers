@@ -67,7 +67,7 @@ overview: 'Avidbots is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Avidbots'' developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 60
+random_paper: 50
 score:
   band: minimal
   composite: 11.3

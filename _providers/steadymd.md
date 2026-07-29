@@ -75,7 +75,7 @@ overview: 'SteadyMD is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   SteadyMD''s developer surface includes documentation, support, engineering blog, and 5 more developer resources.'
-random_paper: 59
+random_paper: 49
 score:
   band: emerging
   composite: 13.7

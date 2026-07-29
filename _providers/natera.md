@@ -117,7 +117,7 @@ plans:
 - name: Natera Plans Pricing
   plan_count: 2
   slug: natera-plans-pricing
-random_paper: 75
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: Natera Rate Limits

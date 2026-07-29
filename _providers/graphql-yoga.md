@@ -83,7 +83,7 @@ overview: 'GraphQL Yoga publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   GraphQL Yoga''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 28
+random_paper: 13
 score:
   band: emerging
   composite: 20.5

@@ -160,7 +160,7 @@ overview: 'FANUC is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   FANUC''s developer surface includes academy / training, GitHub presence, YouTube channel, and 24 more developer resources.'
-random_paper: 79
+random_paper: 62
 score:
   band: minimal
   composite: 10.1

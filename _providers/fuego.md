@@ -39,7 +39,7 @@ name: Fuego
 nav: Providers
 network: true
 overview: Fuego is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Software, Business Process Management, BPM, and Service Oriented Architecture.
-random_paper: 54
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

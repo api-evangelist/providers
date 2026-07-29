@@ -111,7 +111,7 @@ overview: 'Substack publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Substack''s developer surface includes engineering blog, pricing, and 13 more developer resources.'
-random_paper: 64
+random_paper: 54
 score:
   band: emerging
   composite: 14.3

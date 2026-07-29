@@ -71,7 +71,7 @@ overview: 'Green Fusion is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Green Fusion''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 34
+random_paper: 19
 score:
   band: minimal
   composite: 11.0

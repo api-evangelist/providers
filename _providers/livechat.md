@@ -139,7 +139,7 @@ overview: 'LiveChat publishes 8 APIs on the [APIs.io](https://apis.io/) network,
 
 
   LiveChat''s developer surface includes authentication, documentation, developer console, signup flow, pricing, engineering blog, and 5 more developer resources.'
-random_paper: 48
+random_paper: 38
 score:
   band: thin
   composite: 29.5

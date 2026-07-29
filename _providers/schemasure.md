@@ -38,7 +38,7 @@ name: SchemaSure
 nav: Providers
 network: true
 overview: 'SchemaSure publishes 1 API on the [APIs.io](https://apis.io/) network: Structured Extraction API. Tagged areas include structured-data-extraction, text-to-JSON, JSON-Schema, document-parsing, and data-cleaning.'
-random_paper: 32
+random_paper: 19
 score:
   band: emerging
   composite: 14.0

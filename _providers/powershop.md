@@ -188,7 +188,7 @@ overview: 'Powershop publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Powershop''s developer surface includes authentication, changelog, API reference, support, engineering blog, pricing, signup flow, and 26 more developer resources.'
-random_paper: 39
+random_paper: 27
 scopes:
 - name: Powershop Scopes
   scope_count: 11

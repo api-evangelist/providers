@@ -60,7 +60,7 @@ name: Unidesk
 nav: Providers
 network: true
 overview: Unidesk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Virtualization, Desktop Virtualization, and Application Layering.
-random_paper: 35
+random_paper: 26
 score:
   band: minimal
   composite: 6.4

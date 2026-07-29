@@ -84,7 +84,7 @@ plans:
 - name: Data Medicaid Gov Plans Pricing
   plan_count: 1
   slug: data-medicaid-gov-plans-pricing
-random_paper: 48
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Data Medicaid Gov Rate Limits

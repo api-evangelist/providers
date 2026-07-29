@@ -48,7 +48,7 @@ name: Noondual-canvas for design and code
 nav: Providers
 network: true
 overview: Noondual-canvas for design and code is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Design, Design Tools, and Code.
-random_paper: 44
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

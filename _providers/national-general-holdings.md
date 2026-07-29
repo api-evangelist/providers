@@ -68,7 +68,7 @@ name: National General Holdings
 nav: Providers
 network: true
 overview: National General Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Property & Casualty, Auto Insurance, Accident & Health Insurance, and Acquired.
-random_paper: 54
+random_paper: 23
 score:
   band: minimal
   composite: 5.6

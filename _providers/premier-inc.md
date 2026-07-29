@@ -76,7 +76,7 @@ plans:
 - name: Premier Inc Plans Pricing
   plan_count: 1
   slug: premier-inc-plans-pricing
-random_paper: 75
+random_paper: 62
 rate_limits:
 - limit_count: 1
   name: Premier Inc Rate Limits

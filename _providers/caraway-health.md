@@ -48,7 +48,7 @@ name: Caraway Health *
 nav: Providers
 network: true
 overview: Caraway Health * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Digital Health, Telehealth, and Mental Health.
-random_paper: 59
+random_paper: 42
 score:
   band: minimal
   composite: 5.4

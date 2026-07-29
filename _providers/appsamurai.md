@@ -140,7 +140,7 @@ overview: 'Appsamurai publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Appsamurai''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 35
+random_paper: 22
 score:
   band: developing
   composite: 44.5

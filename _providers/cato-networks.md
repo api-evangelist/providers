@@ -160,7 +160,7 @@ overview: 'Cato Networks publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Cato Networks'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, CLI, and 20 more developer resources.'
-random_paper: 1
+random_paper: 65
 score:
   band: thin
   composite: 37.5

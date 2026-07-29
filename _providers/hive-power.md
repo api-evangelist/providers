@@ -91,7 +91,7 @@ overview: 'Hive Power publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Hive Power''s developer surface includes documentation, engineering blog, support, and 8 more developer resources.'
-random_paper: 70
+random_paper: 58
 score:
   band: emerging
   composite: 20.7

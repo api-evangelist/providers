@@ -167,7 +167,7 @@ plans:
 - name: Chargepoint Plans
   plan_count: 3
   slug: chargepoint-plans
-random_paper: 52
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Chargepoint Rate Limits

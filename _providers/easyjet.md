@@ -125,7 +125,7 @@ overview: 'easyJet publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   easyJet''s developer surface includes support, signup flow, and 19 more developer resources.'
-random_paper: 37
+random_paper: 28
 score:
   band: emerging
   composite: 17.9

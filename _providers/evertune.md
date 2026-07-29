@@ -96,7 +96,7 @@ overview: 'Evertune is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Evertune''s developer surface includes documentation, pricing, engineering blog, signup flow, YouTube channel, and 8 more developer resources.'
-random_paper: 78
+random_paper: 68
 score:
   band: emerging
   composite: 18.8

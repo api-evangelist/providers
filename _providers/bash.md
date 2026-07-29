@@ -117,7 +117,7 @@ overview: 'Bash Shell is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Bash Shell''s developer surface includes documentation and 9 more developer resources.'
-random_paper: 14
+random_paper: 9
 score:
   band: minimal
   composite: 6.7

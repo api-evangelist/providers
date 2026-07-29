@@ -117,7 +117,7 @@ press:
 - date: '2026-05-25'
   title: Wesco International Reports Second Quarter 2025 Results
   url: https://investors.wesco.com/news-releases/news-release-details/wesco-international-reports-second-quarter-2025-results
-random_paper: 70
+random_paper: 46
 score:
   band: minimal
   composite: 10.7

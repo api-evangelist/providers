@@ -447,7 +447,7 @@ plans:
 - name: Dolby Io Plans Pricing
   plan_count: 4
   slug: dolby-io-plans-pricing
-random_paper: 79
+random_paper: 70
 rate_limits:
 - limit_count: 4
   name: Dolby Io Rate Limits

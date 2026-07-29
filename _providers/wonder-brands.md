@@ -48,7 +48,7 @@ name: Wonder Brands
 nav: Providers
 network: true
 overview: Wonder Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, E-Commerce, Consumer Goods, and Retail.
-random_paper: 54
+random_paper: 38
 score:
   band: minimal
   composite: 5.0

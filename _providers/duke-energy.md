@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Duke Energy leverages AI to protect customers and combat ...
   url: https://www.prnewswire.com/news-releases/duke-energy-leverages-ai-to-protect-customers-and-combat-scams-302686573.html
-random_paper: 0
+random_paper: 67
 score:
   band: minimal
   composite: 2.6

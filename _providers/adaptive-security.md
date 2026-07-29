@@ -191,7 +191,7 @@ overview: 'Adaptive Security publishes 5 APIs on the [APIs.io](https://apis.io/)
 
 
   Adaptive Security''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 19
+random_paper: 78
 rate_limits:
 - limit_count: 0
   name: Adaptive Security Rate Limits

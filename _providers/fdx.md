@@ -447,7 +447,7 @@ plans:
 - name: Fdx Plans Pricing
   plan_count: 4
   slug: fdx-plans-pricing
-random_paper: 2
+random_paper: 79
 rate_limits:
 - limit_count: 0
   name: Fdx Rate Limits

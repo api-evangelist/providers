@@ -80,7 +80,7 @@ plans:
 - name: Blameless Plans Pricing
   plan_count: 3
   slug: blameless-plans-pricing
-random_paper: 72
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Blameless Rate Limits

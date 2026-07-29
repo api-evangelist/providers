@@ -93,7 +93,7 @@ name: Insurance Australia Group
 nav: Providers
 network: true
 overview: Insurance Australia Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Australia, New Zealand, Property and Casualty, and General Insurance.
-random_paper: 65
+random_paper: 62
 score:
   band: minimal
   composite: 11.8

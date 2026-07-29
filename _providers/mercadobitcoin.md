@@ -56,7 +56,7 @@ name: MercadoBitcoin
 nav: Providers
 network: true
 overview: MercadoBitcoin publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 35
+random_paper: 17
 score:
   band: minimal
   composite: 5.7

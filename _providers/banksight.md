@@ -52,7 +52,7 @@ name: Banksight
 nav: Providers
 network: true
 overview: Banksight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Banking, Financial Services, CRM, and Customer Engagement.
-random_paper: 75
+random_paper: 64
 score:
   band: minimal
   composite: 5.4

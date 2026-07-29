@@ -67,7 +67,7 @@ overview: 'Marvel Fusion is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Marvel Fusion''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 72
+random_paper: 56
 score:
   band: minimal
   composite: 11.0

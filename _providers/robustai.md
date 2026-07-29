@@ -67,7 +67,7 @@ overview: 'Robust.AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Robust.AI''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 73
+random_paper: 63
 score:
   band: minimal
   composite: 10.5

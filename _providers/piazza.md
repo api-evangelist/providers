@@ -67,7 +67,7 @@ overview: 'Piazza is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Piazza''s developer surface includes support and 5 more developer resources.'
-random_paper: 15
+random_paper: 7
 score:
   band: minimal
   composite: 11.6

@@ -63,7 +63,7 @@ overview: 'Forward Platform is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Forward Platform''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 71
+random_paper: 51
 score:
   band: minimal
   composite: 9.9

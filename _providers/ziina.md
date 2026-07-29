@@ -289,7 +289,7 @@ plans:
 - name: Ziina Plans Pricing
   plan_count: 3
   slug: ziina-plans-pricing
-random_paper: 59
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Ziina Rate Limits

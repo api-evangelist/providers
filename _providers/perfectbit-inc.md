@@ -52,7 +52,7 @@ name: Perfectbit Inc
 nav: Providers
 network: true
 overview: Perfectbit Inc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Training Data, and Data Verification.
-random_paper: 63
+random_paper: 46
 score:
   band: minimal
   composite: 5.7

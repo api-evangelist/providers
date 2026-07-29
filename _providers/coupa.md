@@ -365,7 +365,7 @@ plans:
 - name: Coupa Plans Pricing
   plan_count: 1
   slug: coupa-plans-pricing
-random_paper: 56
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Coupa Rate Limits

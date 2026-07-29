@@ -56,7 +56,7 @@ name: Sirum
 nav: Providers
 network: true
 overview: Sirum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medication, Prescription Access, and Nonprofit.
-random_paper: 0
+random_paper: 74
 score:
   band: minimal
   composite: 11.6

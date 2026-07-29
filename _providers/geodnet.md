@@ -83,7 +83,7 @@ overview: 'GEODNET is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   GEODNET''s developer surface includes documentation, getting-started guide, developer console, support, engineering blog, and 5 more developer resources.'
-random_paper: 22
+random_paper: 13
 score:
   band: emerging
   composite: 14.7

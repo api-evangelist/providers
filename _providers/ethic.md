@@ -63,7 +63,7 @@ overview: 'Ethic is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ethic''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 45
+random_paper: 39
 score:
   band: minimal
   composite: 9.7

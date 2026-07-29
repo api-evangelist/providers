@@ -161,7 +161,7 @@ overview: 'Trust Payments publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Trust Payments'' developer surface includes documentation, API reference, pricing, engineering blog, getting-started guide, support, authentication, and 21 more developer resources.'
-random_paper: 64
+random_paper: 46
 score:
   band: developing
   composite: 53.2

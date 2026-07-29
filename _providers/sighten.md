@@ -79,7 +79,7 @@ overview: 'Sighten is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Sighten''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 34
+random_paper: 25
 score:
   band: emerging
   composite: 15.1

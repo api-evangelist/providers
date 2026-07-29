@@ -63,7 +63,7 @@ overview: 'Ayrshare publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Ayrshare''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 63
+random_paper: 53
 score:
   band: minimal
   composite: 6.2

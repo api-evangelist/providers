@@ -52,7 +52,7 @@ name: Brazilian Vehicles and Prices
 nav: Providers
 network: true
 overview: Brazilian Vehicles and Prices publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Vehicle and Public APIs.
-random_paper: 15
+random_paper: 60
 score:
   band: minimal
   composite: 5.7

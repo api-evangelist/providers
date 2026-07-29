@@ -115,7 +115,7 @@ plans:
 - name: Windy Plans Pricing
   plan_count: 6
   slug: windy-plans-pricing
-random_paper: 75
+random_paper: 69
 rate_limits:
 - limit_count: 8
   name: Windy Rate Limits

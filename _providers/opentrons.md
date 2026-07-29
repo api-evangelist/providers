@@ -175,7 +175,7 @@ plans:
 - name: Opentrons Plans Pricing
   plan_count: 4
   slug: opentrons-plans-pricing
-random_paper: 40
+random_paper: 28
 rate_limits:
 - limit_count: 0
   name: Opentrons Rate Limits

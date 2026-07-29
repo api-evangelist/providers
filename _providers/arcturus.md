@@ -52,7 +52,7 @@ name: Arcturus
 nav: Providers
 network: true
 overview: Arcturus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Advanced Materials, Carbon Nanomaterials, and Energy.
-random_paper: 9
+random_paper: 79
 score:
   band: minimal
   composite: 5.5

@@ -235,7 +235,7 @@ plans:
 - name: Koyeb Plans Pricing
   plan_count: 3
   slug: koyeb-plans-pricing
-random_paper: 58
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Koyeb Rate Limits

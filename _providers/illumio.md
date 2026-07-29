@@ -140,7 +140,7 @@ overview: 'Illumio publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Illumio''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 16 more developer resources.'
-random_paper: 43
+random_paper: 34
 score:
   band: thin
   composite: 34.5

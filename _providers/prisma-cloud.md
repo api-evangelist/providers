@@ -123,7 +123,7 @@ plans:
 - name: Prisma Cloud Plans Pricing
   plan_count: 3
   slug: prisma-cloud-plans-pricing
-random_paper: 32
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Prisma Cloud Rate Limits

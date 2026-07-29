@@ -139,7 +139,7 @@ plans:
 - name: Debezium Plans Pricing
   plan_count: 3
   slug: debezium-plans-pricing
-random_paper: 53
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Debezium Rate Limits

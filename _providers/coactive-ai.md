@@ -254,7 +254,7 @@ overview: 'Coactive AI publishes 22 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Coactive AI''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 26 more developer resources.'
-random_paper: 53
+random_paper: 40
 score:
   band: developing
   composite: 55.0

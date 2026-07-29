@@ -49,7 +49,7 @@ name: Swoop
 nav: Providers
 network: true
 overview: Swoop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, E-Commerce, Payments, and Africa.
-random_paper: 8
+random_paper: 1
 score:
   band: minimal
   composite: 5.7

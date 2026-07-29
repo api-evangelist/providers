@@ -55,7 +55,7 @@ overview: 'Fourier is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Fourier''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 44
+random_paper: 35
 score:
   band: minimal
   composite: 4.6

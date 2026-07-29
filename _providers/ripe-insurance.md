@@ -177,7 +177,7 @@ overview: 'Ripe Insurance publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Ripe Insurance''s developer surface includes authentication, support, product news, engineering blog, and 27 more developer resources.'
-random_paper: 5
+random_paper: 68
 scopes:
 - name: Ripe Insurance Scopes
   scope_count: 2

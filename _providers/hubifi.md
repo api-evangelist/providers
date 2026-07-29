@@ -107,7 +107,7 @@ overview: 'Hubifi is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Hubifi''s developer surface includes getting-started guide, pricing, engineering blog, support, signup flow, and 11 more developer resources.'
-random_paper: 71
+random_paper: 64
 score:
   band: emerging
   composite: 21.2

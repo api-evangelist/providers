@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Newell Brands Announces Global Productivity Plan to ...
   url: https://www.barchart.com/story/news/36384882/newell-brands-announces-global-productivity-plan-to-strengthen-competitiveness-and-deliver-greater-value-for-consumers
-random_paper: 65
+random_paper: 44
 score:
   band: minimal
   composite: 4.8

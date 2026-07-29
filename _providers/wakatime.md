@@ -658,7 +658,7 @@ plans:
 - name: Wakatime Plans Pricing
   plan_count: 5
   slug: wakatime-plans-pricing
-random_paper: 51
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Wakatime Rate Limits

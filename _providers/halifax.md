@@ -159,7 +159,7 @@ overview: 'Halifax publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Halifax''s developer surface includes documentation, support, getting-started guide, authentication, sandbox, and 18 more developer resources.'
-random_paper: 13
+random_paper: 4
 scopes:
 - name: Halifax Scopes
   scope_count: 4

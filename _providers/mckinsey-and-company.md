@@ -215,7 +215,7 @@ plans:
 - name: Mckinsey And Company Plans Pricing
   plan_count: 3
   slug: mckinsey-and-company-plans-pricing
-random_paper: 23
+random_paper: 79
 rate_limits:
 - limit_count: 1
   name: Mckinsey And Company Rate Limits

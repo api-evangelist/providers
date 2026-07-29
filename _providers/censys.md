@@ -10708,7 +10708,7 @@ plans:
 - name: Censys Plans Pricing
   plan_count: 4
   slug: censys-plans-pricing
-random_paper: 21
+random_paper: 13
 rate_limits:
 - limit_count: 8
   name: Censys Rate Limits

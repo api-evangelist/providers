@@ -67,7 +67,7 @@ overview: 'Photon Crystal Energy is profiled on the [APIs.io](https://apis.io/) 
 
 
   Photon Crystal Energy''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 74
+random_paper: 57
 score:
   band: minimal
   composite: 7.0

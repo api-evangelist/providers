@@ -183,7 +183,7 @@ plans:
 - name: Giftbit Plans Pricing
   plan_count: 1
   slug: giftbit-plans-pricing
-random_paper: 25
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Giftbit Rate Limits

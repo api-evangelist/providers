@@ -67,7 +67,7 @@ overview: 'Above is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Above''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 45
+random_paper: 39
 score:
   band: minimal
   composite: 8.3

@@ -71,7 +71,7 @@ overview: 'Switch Therapeutics is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Switch Therapeutics'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 0
+random_paper: 56
 score:
   band: minimal
   composite: 10.8

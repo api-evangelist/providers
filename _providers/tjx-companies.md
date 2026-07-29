@@ -56,7 +56,7 @@ name: TJX Companies
 nav: Providers
 network: true
 overview: TJX Companies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Retail, Fashion, and Discount.
-random_paper: 66
+random_paper: 50
 score:
   band: minimal
   composite: 4.2

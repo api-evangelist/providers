@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Biden Administration Actions on AI
   url: https://www.epi.org/database-of-biden-administration-actions-on-ai/
-random_paper: 9
+random_paper: 1
 score:
   band: minimal
   composite: 5.6

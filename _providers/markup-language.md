@@ -39,7 +39,7 @@ name: Markup Language
 nav: Providers
 network: true
 overview: Markup Language is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Documentation, HTML, Markdown, Markup Language, and XML.
-random_paper: 17
+random_paper: 79
 score:
   band: minimal
   composite: 5.0

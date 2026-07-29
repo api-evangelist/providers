@@ -182,7 +182,7 @@ overview: 'Relace publishes 2 APIs on the [APIs.io](https://apis.io/) network: C
 
 
   Relace''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, engineering blog, and 23 more developer resources.'
-random_paper: 60
+random_paper: 53
 score:
   band: developing
   composite: 51.2

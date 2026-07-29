@@ -162,7 +162,7 @@ press:
 - date: '2026-05-25'
   title: Truist CIO Focuses on Positioning Bank for Digital Innovation
   url: https://www.wsj.com/articles/truist-cio-focuses-on-positioning-bank-for-digital-innovation-11625563800?eafs_enabled=false
-random_paper: 60
+random_paper: 47
 rate_limits:
 - limit_count: 1
   name: Bbandt Corp Rate Limits

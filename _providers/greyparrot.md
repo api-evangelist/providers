@@ -88,7 +88,7 @@ overview: 'Greyparrot is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Greyparrot''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 63
+random_paper: 50
 score:
   band: emerging
   composite: 15.0

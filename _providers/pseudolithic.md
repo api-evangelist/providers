@@ -48,7 +48,7 @@ name: Pseudolithic
 nav: Providers
 network: true
 overview: Pseudolithic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Hardware, RFIC, and Radio Frequency.
-random_paper: 13
+random_paper: 78
 score:
   band: minimal
   composite: 5.0

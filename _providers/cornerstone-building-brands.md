@@ -65,7 +65,7 @@ plans:
 - name: Cornerstone Building Brands Plans Pricing
   plan_count: 0
   slug: cornerstone-building-brands-plans-pricing
-random_paper: 52
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Cornerstone Building Brands Rate Limits

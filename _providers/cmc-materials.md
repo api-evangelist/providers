@@ -85,7 +85,7 @@ name: CMC Materials
 nav: Providers
 network: true
 overview: CMC Materials publishes 4 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Semiconductors, Materials, Manufacturing, CMP, and Specialty Chemicals.
-random_paper: 34
+random_paper: 18
 score:
   band: minimal
   composite: 6.5

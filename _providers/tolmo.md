@@ -140,7 +140,7 @@ overview: 'Tolmo publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Tolmo''s developer surface includes documentation, getting-started guide, authentication, CLI, changelog, engineering blog, support, and 16 more developer resources.'
-random_paper: 75
+random_paper: 69
 score:
   band: thin
   composite: 29.8

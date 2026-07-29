@@ -777,7 +777,7 @@ plans:
 - name: Oanda Plans Pricing
   plan_count: 6
   slug: oanda-plans-pricing
-random_paper: 35
+random_paper: 29
 rate_limits:
 - limit_count: 6
   name: Oanda Rate Limits

@@ -192,7 +192,7 @@ overview: 'Koppla publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Koppla''s developer surface includes signup flow, support, engineering blog, pricing, YouTube channel, authentication, and 29 more developer resources.'
-random_paper: 7
+random_paper: 80
 score:
   band: thin
   composite: 41.8

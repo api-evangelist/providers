@@ -80,7 +80,7 @@ plans:
 - name: Lf Networking Plans Pricing
   plan_count: 3
   slug: lf-networking-plans-pricing
-random_paper: 71
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Lf Networking Rate Limits

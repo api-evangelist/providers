@@ -21,7 +21,7 @@ modified: '2026-04-28'
 name: Linux/Unix System
 nav: Providers
 network: true
-random_paper: 52
+random_paper: 40
 slug: linuxunix
 tags:
 - Kernel

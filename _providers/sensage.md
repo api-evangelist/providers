@@ -48,7 +48,7 @@ name: SenSage
 nav: Providers
 network: true
 overview: SenSage is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, SIEM, Log Management, and Security Analytics.
-random_paper: 22
+random_paper: 13
 score:
   band: minimal
   composite: 5.0

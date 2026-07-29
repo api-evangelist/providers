@@ -117,7 +117,7 @@ plans:
 - name: Microsoft Windows Plans Pricing
   plan_count: 3
   slug: microsoft-windows-plans-pricing
-random_paper: 46
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Microsoft Windows Rate Limits

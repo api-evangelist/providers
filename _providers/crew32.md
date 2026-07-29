@@ -48,7 +48,7 @@ name: Crew32
 nav: Providers
 network: true
 overview: Crew32 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Employment, Workplace Culture, and Compensation.
-random_paper: 54
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

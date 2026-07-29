@@ -48,7 +48,7 @@ name: TXN Solutions
 nav: Providers
 network: true
 overview: TXN Solutions is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Transaction Data, Consumer Spending, and Market Research.
-random_paper: 39
+random_paper: 22
 score:
   band: minimal
   composite: 5.7

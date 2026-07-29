@@ -150,7 +150,7 @@ plans:
 - name: Bizapi Plans Pricing
   plan_count: 3
   slug: bizapi-plans-pricing
-random_paper: 79
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Bizapi Rate Limits

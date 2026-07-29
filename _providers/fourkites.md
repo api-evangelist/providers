@@ -92,7 +92,7 @@ plans:
 - name: Fourkites Plans Pricing
   plan_count: 1
   slug: fourkites-plans-pricing
-random_paper: 28
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Fourkites Rate Limits

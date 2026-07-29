@@ -48,7 +48,7 @@ name: abbisko
 nav: Providers
 network: true
 overview: abbisko is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Oncology, Drug Discovery, and Small Molecule.
-random_paper: 11
+random_paper: 2
 score:
   band: minimal
   composite: 5.4

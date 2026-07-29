@@ -103,7 +103,7 @@ overview: 'Genie is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Genie''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, changelog, and 8 more developer resources.'
-random_paper: 40
+random_paper: 34
 score:
   band: emerging
   composite: 21.3

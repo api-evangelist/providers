@@ -56,7 +56,7 @@ name: IBGE
 nav: Providers
 network: true
 overview: IBGE publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 7
+random_paper: 2
 score:
   band: minimal
   composite: 5.7

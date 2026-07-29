@@ -71,7 +71,7 @@ overview: 'Influenxio is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Influenxio''s developer surface includes pricing, support, engineering blog, and 4 more developer resources.'
-random_paper: 49
+random_paper: 36
 score:
   band: minimal
   composite: 12.6

@@ -171,7 +171,7 @@ overview: 'Reactor publishes 1 API on the [APIs.io](https://apis.io/) network: R
 
 
   Reactor''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 21 more developer resources.'
-random_paper: 32
+random_paper: 23
 score:
   band: developing
   composite: 49.1

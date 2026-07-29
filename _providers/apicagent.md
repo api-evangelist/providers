@@ -56,7 +56,7 @@ name: ApicAgent
 nav: Providers
 network: true
 overview: ApicAgent publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 60
+random_paper: 49
 score:
   band: minimal
   composite: 5.7

@@ -44,7 +44,7 @@ name: Fakespot
 nav: Providers
 network: true
 overview: Fakespot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Reviews, E-Commerce, Consumer Protection, and Artificial Intelligence.
-random_paper: 61
+random_paper: 51
 score:
   band: minimal
   composite: 5.0

@@ -120,7 +120,7 @@ overview: 'Super Seguros publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Super Seguros'' developer surface includes authentication, documentation, getting-started guide, API reference, sandbox, and 12 more developer resources.'
-random_paper: 20
+random_paper: 3
 score:
   band: thin
   composite: 33.7

@@ -75,7 +75,7 @@ overview: 'Chegg is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Chegg''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 30
+random_paper: 24
 score:
   band: minimal
   composite: 11.9

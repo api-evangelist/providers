@@ -112,7 +112,7 @@ plans:
 - name: Fxratesapi Plans Pricing
   plan_count: 2
   slug: fxratesapi-plans-pricing
-random_paper: 39
+random_paper: 26
 rate_limits:
 - limit_count: 1
   name: Fxratesapi Rate Limits

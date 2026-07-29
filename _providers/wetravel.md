@@ -218,7 +218,7 @@ overview: 'WeTravel publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   WeTravel''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, sandbox, and 19 more developer resources.'
-random_paper: 74
+random_paper: 64
 rate_limits:
 - limit_count: 0
   name: Wetravel Rate Limits

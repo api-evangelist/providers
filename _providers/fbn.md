@@ -89,7 +89,7 @@ plans:
 - name: Fbn Plans Pricing
   plan_count: 1
   slug: fbn-plans-pricing
-random_paper: 70
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Fbn Rate Limits

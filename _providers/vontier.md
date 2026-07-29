@@ -56,7 +56,7 @@ name: Vontier
 nav: Providers
 network: true
 overview: Vontier is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Mobility, Fueling, Fleet Management, EV Charging, and Automotive.
-random_paper: 55
+random_paper: 46
 score:
   band: minimal
   composite: 5.6

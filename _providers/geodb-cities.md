@@ -63,7 +63,7 @@ overview: 'GeoDB Cities publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   GeoDB Cities'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 79
+random_paper: 65
 score:
   band: minimal
   composite: 6.2

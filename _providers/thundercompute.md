@@ -133,7 +133,7 @@ plans:
 - name: Thundercompute Plans Pricing
   plan_count: 3
   slug: thundercompute-plans-pricing
-random_paper: 7
+random_paper: 69
 rate_limits:
 - limit_count: 3
   name: Thundercompute Rate Limits

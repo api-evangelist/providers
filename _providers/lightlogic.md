@@ -40,7 +40,7 @@ name: LightLogic
 nav: Providers
 network: true
 overview: LightLogic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Optoelectronics, Photonics, Fiber Optics, and Optical Networking.
-random_paper: 22
+random_paper: 9
 score:
   band: minimal
   composite: 4.3

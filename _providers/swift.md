@@ -228,7 +228,7 @@ plans:
 - name: Swift Plans Pricing
   plan_count: 1
   slug: swift-plans-pricing
-random_paper: 77
+random_paper: 71
 rate_limits:
 - limit_count: 1
   name: Swift Rate Limits

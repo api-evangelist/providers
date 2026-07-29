@@ -161,7 +161,7 @@ overview: 'Webull publishes 3 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Webull''s developer surface includes documentation, API reference, getting-started guide, changelog, authentication, CLI, sandbox, and 17 more developer resources.'
-random_paper: 11
+random_paper: 3
 score:
   band: thin
   composite: 40.3

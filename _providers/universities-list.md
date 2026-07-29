@@ -52,7 +52,7 @@ name: Universities List
 nav: Providers
 network: true
 overview: Universities List publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 51
+random_paper: 29
 score:
   band: minimal
   composite: 4.3

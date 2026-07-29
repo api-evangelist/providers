@@ -130,7 +130,7 @@ plans:
 - name: Terminal49 Plans Pricing
   plan_count: 4
   slug: terminal49-plans-pricing
-random_paper: 9
+random_paper: 78
 rate_limits:
 - limit_count: 3
   name: Terminal49 Rate Limits

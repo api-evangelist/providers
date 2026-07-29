@@ -164,7 +164,7 @@ plans:
 - name: Cnh Plans Pricing
   plan_count: 3
   slug: cnh-plans-pricing
-random_paper: 73
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Cnh Rate Limits

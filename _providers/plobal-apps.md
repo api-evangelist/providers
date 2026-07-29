@@ -71,7 +71,7 @@ overview: 'Plobal Apps is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Plobal Apps'' developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 75
+random_paper: 62
 score:
   band: emerging
   composite: 13.1

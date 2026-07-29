@@ -75,7 +75,7 @@ overview: 'Ziff Davis Enterprise is profiled on the [APIs.io](https://apis.io/) 
 
 
   Ziff Davis Enterprise''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 65
+random_paper: 39
 score:
   band: minimal
   composite: 11.2

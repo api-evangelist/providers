@@ -123,7 +123,7 @@ overview: 'BETA Technologies is profiled on the [APIs.io](https://apis.io/) netw
 
 
   BETA Technologies'' developer surface includes engineering blog, YouTube channel, and 18 more developer resources.'
-random_paper: 61
+random_paper: 40
 score:
   band: minimal
   composite: 10.4

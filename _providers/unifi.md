@@ -39,7 +39,7 @@ name: Unifi
 nav: Providers
 network: true
 overview: Unifi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data Catalog, Data Preparation, Self-Service Analytics, and Big Data.
-random_paper: 59
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

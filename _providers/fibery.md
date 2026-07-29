@@ -115,7 +115,7 @@ plans:
 - name: Fibery Plans Pricing
   plan_count: 4
   slug: fibery-plans-pricing
-random_paper: 1
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Fibery Rate Limits

@@ -132,7 +132,7 @@ plans:
 - name: Fish Audio Plans Pricing
   plan_count: 1
   slug: fish-audio-plans-pricing
-random_paper: 41
+random_paper: 29
 rate_limits:
 - limit_count: 2
   name: Fish Audio Rate Limits

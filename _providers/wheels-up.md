@@ -113,7 +113,7 @@ name: Wheels Up
 nav: Providers
 network: true
 overview: Wheels Up is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Aviation, Private Aviation, Charter, Membership, and Travel.
-random_paper: 42
+random_paper: 31
 score:
   band: minimal
   composite: 5.7

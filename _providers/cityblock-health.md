@@ -63,7 +63,7 @@ overview: 'Cityblock Health is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Cityblock Health''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 39
+random_paper: 19
 score:
   band: minimal
   composite: 10.8

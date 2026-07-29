@@ -64,7 +64,7 @@ name: Octavewealth
 nav: Providers
 network: true
 overview: Octavewealth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wealth Management, Personal Finance, Fintech, and Y Combinator.
-random_paper: 7
+random_paper: 72
 score:
   band: minimal
   composite: 7.5

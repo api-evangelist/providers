@@ -133,7 +133,7 @@ plans:
 - name: Nutrient Io Plans Pricing
   plan_count: 3
   slug: nutrient-io-plans-pricing
-random_paper: 30
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Nutrient Io Rate Limits

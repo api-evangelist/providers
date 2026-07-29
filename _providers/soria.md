@@ -79,7 +79,7 @@ overview: 'Soria is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Soria''s developer surface includes signup flow, support, and 7 more developer resources.'
-random_paper: 62
+random_paper: 56
 score:
   band: minimal
   composite: 9.9

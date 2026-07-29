@@ -88,7 +88,7 @@ plans:
 - name: Whova Plans Pricing
   plan_count: 2
   slug: whova-plans-pricing
-random_paper: 69
+random_paper: 63
 score:
   band: minimal
   composite: 12.3

@@ -289,7 +289,7 @@ overview: 'Facilio publishes 35 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Facilio''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, signup flow, and 25 more developer resources.'
-random_paper: 7
+random_paper: 79
 scopes:
 - name: Facilio Scopes
   scope_count: 7

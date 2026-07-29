@@ -56,7 +56,7 @@ name: Simplifai Labs
 nav: Providers
 network: true
 overview: Simplifai Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Marketing Technology, and Advertising.
-random_paper: 61
+random_paper: 44
 score:
   band: minimal
   composite: 5.7

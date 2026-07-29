@@ -63,7 +63,7 @@ overview: 'Diamond Foundry is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Diamond Foundry''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 32
+random_paper: 13
 score:
   band: minimal
   composite: 8.4

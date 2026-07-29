@@ -128,7 +128,7 @@ overview: 'Forter is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Forter''s developer surface includes documentation, engineering blog, GitHub presence, and 18 more developer resources.'
-random_paper: 62
+random_paper: 50
 score:
   band: minimal
   composite: 7.9

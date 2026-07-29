@@ -75,7 +75,7 @@ overview: 'Regular Finance is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Regular Finance''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 3
+random_paper: 65
 score:
   band: emerging
   composite: 13.1

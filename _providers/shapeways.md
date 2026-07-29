@@ -172,7 +172,7 @@ overview: 'Shapeways publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Shapeways'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 21
+random_paper: 9
 scopes:
 - name: Shapeways Scopes
   scope_count: 0

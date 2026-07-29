@@ -67,7 +67,7 @@ overview: 'Material Bank is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Material Bank''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 24
+random_paper: 8
 score:
   band: minimal
   composite: 12.7

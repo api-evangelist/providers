@@ -67,7 +67,7 @@ overview: 'Explomar is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Explomar''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 72
+random_paper: 62
 score:
   band: minimal
   composite: 10.5

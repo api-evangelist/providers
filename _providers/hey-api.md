@@ -76,7 +76,7 @@ plans:
 - name: Hey Api Plans Pricing
   plan_count: 3
   slug: hey-api-plans-pricing
-random_paper: 45
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Hey Api Rate Limits

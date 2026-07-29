@@ -67,7 +67,7 @@ overview: 'CloudConvert publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   CloudConvert''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 24
+random_paper: 8
 score:
   band: minimal
   composite: 7.8

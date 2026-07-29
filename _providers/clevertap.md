@@ -181,7 +181,7 @@ plans:
 - name: Clevertap Plans Pricing
   plan_count: 3
   slug: clevertap-plans-pricing
-random_paper: 6
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Clevertap Rate Limits

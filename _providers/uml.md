@@ -159,7 +159,7 @@ plans:
 - name: Uml Plans Pricing
   plan_count: 3
   slug: uml-plans-pricing
-random_paper: 14
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Uml Rate Limits

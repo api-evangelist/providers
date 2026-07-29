@@ -96,7 +96,7 @@ overview: 'CircuitHub is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   CircuitHub''s developer surface includes engineering blog, pricing, signup flow, authentication, and 9 more developer resources.'
-random_paper: 34
+random_paper: 21
 score:
   band: emerging
   composite: 20.7

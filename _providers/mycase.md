@@ -220,7 +220,7 @@ overview: 'MyCase publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   MyCase''s developer surface includes authentication, pricing, signup flow, developer portal, documentation, support, engineering blog, and 25 more developer resources.'
-random_paper: 2
+random_paper: 75
 rules:
 - name: MyCase API Rules
   rule_count: 5

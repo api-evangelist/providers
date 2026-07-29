@@ -67,7 +67,7 @@ overview: 'Mejuri is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Mejuri''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 12
+random_paper: 4
 score:
   band: minimal
   composite: 10.5

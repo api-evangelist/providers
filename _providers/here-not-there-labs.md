@@ -132,7 +132,7 @@ overview: 'Here Not There Labs publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Here Not There Labs'' developer surface includes documentation, API reference, getting-started guide, signup flow, CLI, authentication, and 13 more developer resources.'
-random_paper: 6
+random_paper: 64
 score:
   band: thin
   composite: 37.6

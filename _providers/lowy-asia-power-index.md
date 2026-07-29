@@ -52,7 +52,7 @@ name: Lowy Asia Power Index
 nav: Providers
 network: true
 overview: Lowy Asia Power Index publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 21
+random_paper: 76
 score:
   band: minimal
   composite: 4.3

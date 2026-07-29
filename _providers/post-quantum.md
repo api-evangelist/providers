@@ -60,7 +60,7 @@ name: Post-Quantum
 nav: Providers
 network: true
 overview: Post-Quantum is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cybersecurity, Quantum, and Post-Quantum Cryptography.
-random_paper: 78
+random_paper: 63
 score:
   band: minimal
   composite: 9.2

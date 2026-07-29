@@ -67,7 +67,7 @@ overview: 'Nuevo Método is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Nuevo Método''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 74
+random_paper: 60
 score:
   band: minimal
   composite: 12.1

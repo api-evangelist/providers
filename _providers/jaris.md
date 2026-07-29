@@ -124,7 +124,7 @@ overview: 'Jaris is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Jaris'' developer surface includes documentation, getting-started guide, engineering blog, support, pricing, authentication, and 14 more developer resources.'
-random_paper: 57
+random_paper: 51
 score:
   band: thin
   composite: 32.7

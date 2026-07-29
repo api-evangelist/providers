@@ -56,7 +56,7 @@ name: Karpatia Benefits
 nav: Providers
 network: true
 overview: Karpatia Benefits is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Employee Benefits, Human Resources, HR Tech, and Insurance.
-random_paper: 58
+random_paper: 37
 score:
   band: minimal
   composite: 8.3

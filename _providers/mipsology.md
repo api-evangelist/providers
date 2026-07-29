@@ -52,7 +52,7 @@ name: Mipsology
 nav: Providers
 network: true
 overview: Mipsology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai/Ml, Artificial Intelligence, Machine Learning, and Deep Learning.
-random_paper: 35
+random_paper: 23
 score:
   band: minimal
   composite: 5.7

@@ -100,7 +100,7 @@ overview: 'Allbirds publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Allbirds'' developer surface includes authentication, support, engineering blog, and 9 more developer resources.'
-random_paper: 45
+random_paper: 35
 scopes:
 - name: Allbirds Scopes
   scope_count: 4

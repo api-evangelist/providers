@@ -91,7 +91,7 @@ overview: 'Ontra AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Ontra AI''s developer surface includes pricing, engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 75
+random_paper: 66
 score:
   band: emerging
   composite: 19.9

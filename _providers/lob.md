@@ -267,7 +267,7 @@ plans:
 - name: Lob Plans Pricing
   plan_count: 3
   slug: lob-plans-pricing
-random_paper: 77
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Lob Rate Limits

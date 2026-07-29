@@ -71,7 +71,7 @@ overview: 'EFEX (Ventu) is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   EFEX (Ventu)''s developer surface includes support, YouTube channel, and 5 more developer resources.'
-random_paper: 71
+random_paper: 59
 score:
   band: minimal
   composite: 11.4

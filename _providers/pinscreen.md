@@ -95,7 +95,7 @@ overview: 'Pinscreen publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Pinscreen''s developer surface includes support, YouTube channel, and 10 more developer resources.'
-random_paper: 7
+random_paper: 76
 score:
   band: emerging
   composite: 14.8

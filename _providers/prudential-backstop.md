@@ -48,7 +48,7 @@ name: Prudential Backstop
 nav: Providers
 network: true
 overview: Prudential Backstop is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include 401k, Backstop, Financial Services, Insurance, and Investments.
-random_paper: 60
+random_paper: 36
 score:
   band: minimal
   composite: 4.8

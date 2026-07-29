@@ -67,7 +67,7 @@ overview: 'The Guardian publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   The Guardian''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 9
+random_paper: 75
 score:
   band: minimal
   composite: 6.2

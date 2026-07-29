@@ -166,7 +166,7 @@ overview: 'ShopMy publishes 6 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   ShopMy''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, signup flow, and 16 more developer resources.'
-random_paper: 32
+random_paper: 24
 scopes:
 - name: Shopmy Scopes
   scope_count: 5

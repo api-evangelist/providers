@@ -67,7 +67,7 @@ overview: 'Affinia Therapeutics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Affinia Therapeutics'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 60
+random_paper: 35
 score:
   band: minimal
   composite: 11.6

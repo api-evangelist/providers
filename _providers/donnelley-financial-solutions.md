@@ -65,7 +65,7 @@ plans:
 - name: Donnelley Financial Solutions Plans Pricing
   plan_count: 1
   slug: donnelley-financial-solutions-plans-pricing
-random_paper: 41
+random_paper: 4
 rate_limits:
 - limit_count: 1
   name: Donnelley Financial Solutions Rate Limits

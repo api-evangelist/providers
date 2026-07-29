@@ -87,7 +87,7 @@ plans:
 - name: Ibm App Connect Plans Pricing
   plan_count: 3
   slug: ibm-app-connect-plans-pricing
-random_paper: 29
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Ibm App Connect Rate Limits

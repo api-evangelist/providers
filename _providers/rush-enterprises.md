@@ -155,7 +155,7 @@ press:
 - date: '2026-05-25'
   title: Norton Rose Fulbright represents Rush Enterprises in joint ...
   url: https://www.nortonrosefulbright.com/en-us/news/9cac52b2/norton-rose-fulbright-represents-rush-enterprises-in-joint-venture-with-cummins-inc
-random_paper: 19
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Rush Enterprises Rate Limits

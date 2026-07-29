@@ -83,7 +83,7 @@ overview: 'Varda is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Varda''s developer surface includes engineering blog, YouTube channel, and 8 more developer resources.'
-random_paper: 46
+random_paper: 40
 score:
   band: minimal
   composite: 9.9

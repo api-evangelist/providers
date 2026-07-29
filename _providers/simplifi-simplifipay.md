@@ -194,7 +194,7 @@ overview: 'Simplifi/Simplifipay publishes 9 APIs on the [APIs.io](https://apis.i
 
 
   Simplifi/Simplifipay''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, authentication, sandbox, and 19 more developer resources.'
-random_paper: 17
+random_paper: 72
 score:
   band: developing
   composite: 52.3

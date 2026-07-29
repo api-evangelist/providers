@@ -52,7 +52,7 @@ name: Helix Nano
 nav: Providers
 network: true
 overview: Helix Nano is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, mRNA, Vaccines, and Therapeutics.
-random_paper: 51
+random_paper: 39
 score:
   band: minimal
   composite: 5.4

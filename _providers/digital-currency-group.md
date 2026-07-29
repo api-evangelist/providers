@@ -63,7 +63,7 @@ overview: 'Digital Currency Group is profiled on the [APIs.io](https://apis.io/)
 
 
   Digital Currency Group''s developer surface includes support and 4 more developer resources.'
-random_paper: 16
+random_paper: 69
 score:
   band: minimal
   composite: 10.1

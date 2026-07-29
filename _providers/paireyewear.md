@@ -67,7 +67,7 @@ overview: 'Paireyewear is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Paireyewear''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 62
+random_paper: 48
 score:
   band: minimal
   composite: 10.5

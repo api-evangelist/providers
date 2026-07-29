@@ -67,7 +67,7 @@ overview: 'Syntetica is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Syntetica''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 20
+random_paper: 8
 score:
   band: minimal
   composite: 8.4

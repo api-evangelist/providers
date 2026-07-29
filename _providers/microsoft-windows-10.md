@@ -1052,7 +1052,7 @@ plans:
 - name: Microsoft Windows 10 Plans Pricing
   plan_count: 5
   slug: microsoft-windows-10-plans-pricing
-random_paper: 28
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Microsoft Windows 10 Rate Limits

@@ -112,7 +112,7 @@ plans:
 - name: Wingstop Plans Pricing
   plan_count: 1
   slug: wingstop-plans-pricing
-random_paper: 11
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Wingstop Rate Limits

@@ -67,7 +67,7 @@ overview: 'Yana is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Yana''s developer surface includes support and 5 more developer resources.'
-random_paper: 25
+random_paper: 20
 score:
   band: minimal
   composite: 11.9

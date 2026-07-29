@@ -132,7 +132,7 @@ plans:
 - name: Folk App Plans Pricing
   plan_count: 4
   slug: folk-app-plans-pricing
-random_paper: 74
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Folk App Rate Limits

@@ -56,7 +56,7 @@ name: Geodata.gov.gr
 nav: Providers
 network: true
 overview: Geodata.gov.gr publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 4
+random_paper: 68
 score:
   band: minimal
   composite: 5.7

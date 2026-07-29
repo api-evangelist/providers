@@ -52,7 +52,7 @@ name: Layer By Layer
 nav: Providers
 network: true
 overview: Layer By Layer is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, 3D Printing, Additive Manufacturing, Marketplace, and Digital Rights Management.
-random_paper: 31
+random_paper: 14
 score:
   band: minimal
   composite: 6.1

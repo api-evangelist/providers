@@ -141,7 +141,7 @@ plans:
 - name: Campfire Hq Plans Pricing
   plan_count: 2
   slug: campfire-hq-plans-pricing
-random_paper: 61
+random_paper: 48
 rate_limits:
 - limit_count: 3
   name: Campfire Hq Rate Limits

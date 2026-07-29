@@ -100,7 +100,7 @@ overview: 'AmazingTalker publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   AmazingTalker''s developer surface includes authentication, engineering blog, and 10 more developer resources.'
-random_paper: 26
+random_paper: 9
 score:
   band: thin
   composite: 28.9

@@ -91,7 +91,7 @@ overview: 'Xtype is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Xtype''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 10
+random_paper: 3
 score:
   band: emerging
   composite: 17.6

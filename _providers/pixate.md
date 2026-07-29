@@ -44,7 +44,7 @@ name: Pixate
 nav: Providers
 network: true
 overview: Pixate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Prototyping, Design Tools, Mobile, and Discontinued.
-random_paper: 11
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

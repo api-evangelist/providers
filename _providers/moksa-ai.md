@@ -72,7 +72,7 @@ name: mokSa AI
 nav: Providers
 network: true
 overview: mokSa AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Surveillance, Video Analytics, and Security.
-random_paper: 66
+random_paper: 57
 score:
   band: minimal
   composite: 9.7

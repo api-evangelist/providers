@@ -52,7 +52,7 @@ name: Chery
 nav: Providers
 network: true
 overview: Chery is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Technology, Automotive, Automobile Manufacturer, and Electric Vehicles.
-random_paper: 59
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

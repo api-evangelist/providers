@@ -63,7 +63,7 @@ overview: 'AutoFi is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   AutoFi''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: minimal
   composite: 8.3

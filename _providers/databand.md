@@ -99,7 +99,7 @@ overview: 'Databand is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Databand''s developer surface includes documentation, getting-started guide, support, CLI, changelog, and 9 more developer resources.'
-random_paper: 15
+random_paper: 5
 score:
   band: emerging
   composite: 17.6

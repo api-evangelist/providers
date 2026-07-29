@@ -63,7 +63,7 @@ overview: 'dMed Global (Caidya) is profiled on the [APIs.io](https://apis.io/) n
 
 
   dMed Global (Caidya)''s developer surface includes support and 4 more developer resources.'
-random_paper: 75
+random_paper: 63
 score:
   band: minimal
   composite: 8.6

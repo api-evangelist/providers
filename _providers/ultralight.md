@@ -87,7 +87,7 @@ overview: 'Ultralight is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Ultralight''s developer surface includes pricing, engineering blog, and 9 more developer resources.'
-random_paper: 48
+random_paper: 35
 score:
   band: emerging
   composite: 20.9

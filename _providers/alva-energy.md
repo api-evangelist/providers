@@ -59,7 +59,7 @@ overview: 'Alva Energy is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Alva Energy''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 75
+random_paper: 62
 score:
   band: minimal
   composite: 6.6

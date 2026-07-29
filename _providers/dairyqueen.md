@@ -48,7 +48,7 @@ name: Dairyqueen
 nav: Providers
 network: true
 overview: Dairyqueen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurant, Fast Food, Ice Cream, and Quick Service Restaurant.
-random_paper: 39
+random_paper: 26
 score:
   band: minimal
   composite: 5.0

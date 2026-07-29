@@ -83,7 +83,7 @@ overview: 'Livspace is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Livspace''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 55
+random_paper: 45
 score:
   band: minimal
   composite: 11.6

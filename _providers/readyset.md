@@ -127,7 +127,7 @@ overview: 'ReadySet is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   ReadySet''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 13 more developer resources.'
-random_paper: 65
+random_paper: 55
 score:
   band: emerging
   composite: 25.0

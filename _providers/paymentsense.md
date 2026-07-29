@@ -194,7 +194,7 @@ overview: 'Paymentsense publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Paymentsense''s developer surface includes authentication, sandbox, changelog, documentation, API reference, getting-started guide, pricing, and 24 more developer resources.'
-random_paper: 28
+random_paper: 12
 score:
   band: developing
   composite: 54.0

@@ -67,7 +67,7 @@ overview: 'Sunday is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sunday''s developer surface includes engineering blog, support, pricing, and 3 more developer resources.'
-random_paper: 20
+random_paper: 12
 score:
   band: minimal
   composite: 9.1

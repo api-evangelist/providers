@@ -56,7 +56,7 @@ name: US Weather
 nav: Providers
 network: true
 overview: US Weather publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Weather and Public APIs.
-random_paper: 69
+random_paper: 57
 score:
   band: minimal
   composite: 5.7

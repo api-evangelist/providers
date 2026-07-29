@@ -52,7 +52,7 @@ name: TSMC
 nav: Providers
 network: true
 overview: TSMC is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Semiconductors, Technology, and Manufacturing.
-random_paper: 39
+random_paper: 34
 score:
   band: minimal
   composite: 3.5

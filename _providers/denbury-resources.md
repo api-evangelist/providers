@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Denbury Resources
   url: https://en.wikipedia.org/wiki/Denbury_Resources
-random_paper: 33
+random_paper: 11
 score:
   band: minimal
   composite: 4.3

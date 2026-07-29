@@ -71,7 +71,7 @@ overview: 'Locusrobotics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Locusrobotics'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 59
+random_paper: 42
 score:
   band: minimal
   composite: 8.8

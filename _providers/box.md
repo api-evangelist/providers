@@ -1340,7 +1340,7 @@ plans:
 - name: Box Plans Pricing
   plan_count: 8
   slug: box-plans-pricing
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 5
   name: Box Rate Limits

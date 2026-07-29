@@ -99,7 +99,7 @@ overview: 'Constantinople is profiled on the [APIs.io](https://apis.io/) network
 
 
   Constantinople''s developer surface includes documentation, engineering blog, support, and 11 more developer resources.'
-random_paper: 1
+random_paper: 63
 score:
   band: emerging
   composite: 20.5

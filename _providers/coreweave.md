@@ -187,7 +187,7 @@ plans:
 - name: Coreweave Plans Pricing
   plan_count: 1
   slug: coreweave-plans-pricing
-random_paper: 1
+random_paper: 70
 rate_limits:
 - limit_count: 2
   name: Coreweave Rate Limits

@@ -60,7 +60,7 @@ name: MalShare
 nav: Providers
 network: true
 overview: MalShare publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anti Malware and Public APIs.
-random_paper: 45
+random_paper: 35
 score:
   band: minimal
   composite: 5.7

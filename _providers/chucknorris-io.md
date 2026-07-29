@@ -195,7 +195,7 @@ overview: 'chucknorris.io publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   chucknorris.io''s developer surface includes tooling and 10 more developer resources.'
-random_paper: 16
+random_paper: 79
 rules:
 - name: chucknorris.io API Rules
   rule_count: 5

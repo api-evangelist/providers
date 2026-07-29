@@ -123,7 +123,7 @@ overview: 'Interac publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Interac''s developer surface includes documentation, engineering blog, getting-started guide, support, authentication, sandbox, and 15 more developer resources.'
-random_paper: 22
+random_paper: 13
 scopes:
 - name: Interac Scopes
   scope_count: 3

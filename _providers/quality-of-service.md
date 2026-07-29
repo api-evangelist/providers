@@ -39,7 +39,7 @@ name: Quality of Service
 nav: Providers
 network: true
 overview: Quality of Service is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Quality of Service.
-random_paper: 73
+random_paper: 51
 score:
   band: minimal
   composite: 4.1

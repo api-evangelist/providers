@@ -39,7 +39,7 @@ name: CrowdMob
 nav: Providers
 network: true
 overview: CrowdMob is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Mobile, Gaming, and Advertising.
-random_paper: 61
+random_paper: 51
 score:
   band: minimal
   composite: 5.0

@@ -68,7 +68,7 @@ name: Swile
 nav: Providers
 network: true
 overview: Swile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Employee Benefits, Meal Vouchers, and Payments.
-random_paper: 68
+random_paper: 62
 score:
   band: minimal
   composite: 9.8

@@ -75,7 +75,7 @@ overview: 'Tallyman is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Tallyman''s developer surface includes documentation, developer portal, and 6 more developer resources.'
-random_paper: 66
+random_paper: 56
 score:
   band: minimal
   composite: 12.7

@@ -48,7 +48,7 @@ name: Wow AI LTD.
 nav: Providers
 network: true
 overview: Wow AI LTD. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 5
+random_paper: 74
 score:
   band: minimal
   composite: 5.0

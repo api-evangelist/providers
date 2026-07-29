@@ -158,7 +158,7 @@ overview: 'Unrivaled Basketball publishes 7 APIs on the [APIs.io](https://apis.i
 
 
   Unrivaled Basketball''s developer surface includes authentication, engineering blog, support, documentation, API reference, getting-started guide, changelog, and 15 more developer resources.'
-random_paper: 60
+random_paper: 35
 score:
   band: thin
   composite: 38.5

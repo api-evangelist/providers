@@ -88,7 +88,7 @@ overview: 'Pantomath is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Pantomath''s developer surface includes engineering blog, signup flow, authentication, and 8 more developer resources.'
-random_paper: 12
+random_paper: 0
 score:
   band: emerging
   composite: 18.0

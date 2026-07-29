@@ -164,7 +164,7 @@ overview: 'Range publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Range''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 21 more developer resources.'
-random_paper: 45
+random_paper: 39
 score:
   band: thin
   composite: 36.4

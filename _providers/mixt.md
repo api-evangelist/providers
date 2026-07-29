@@ -67,7 +67,7 @@ overview: 'Mixt is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Mixt''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 50
+random_paper: 45
 score:
   band: minimal
   composite: 7.6

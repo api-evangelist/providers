@@ -131,7 +131,7 @@ overview: 'INSTANDA is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   INSTANDA''s developer surface includes engineering blog, product news, support, and 19 more developer resources.'
-random_paper: 50
+random_paper: 40
 score:
   band: thin
   composite: 37.5

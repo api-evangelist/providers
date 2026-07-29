@@ -67,7 +67,7 @@ overview: 'United Solar is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   United Solar''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 39
+random_paper: 24
 score:
   band: minimal
   composite: 9.4

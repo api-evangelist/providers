@@ -333,7 +333,7 @@ plans:
 - name: Bugsnag Plans Pricing
   plan_count: 4
   slug: bugsnag-plans-pricing
-random_paper: 23
+random_paper: 14
 rate_limits:
 - limit_count: 3
   name: Bugsnag Rate Limits

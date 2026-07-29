@@ -136,7 +136,7 @@ plans:
 - name: Apiclarity Plans Pricing
   plan_count: 3
   slug: apiclarity-plans-pricing
-random_paper: 34
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Apiclarity Rate Limits

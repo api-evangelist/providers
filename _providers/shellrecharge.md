@@ -115,7 +115,7 @@ plans:
 - name: Shellrecharge Plans Pricing
   plan_count: 1
   slug: shellrecharge-plans-pricing
-random_paper: 9
+random_paper: 73
 rate_limits:
 - limit_count: 1
   name: Shellrecharge Rate Limits

@@ -48,7 +48,7 @@ name: Kenz
 nav: Providers
 network: true
 overview: Kenz is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 40
+random_paper: 35
 score:
   band: minimal
   composite: 3.2

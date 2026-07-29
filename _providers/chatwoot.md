@@ -293,7 +293,7 @@ plans:
 - name: Chatwoot Plans Pricing
   plan_count: 4
   slug: chatwoot-plans-pricing
-random_paper: 73
+random_paper: 63
 rate_limits:
 - limit_count: 0
   name: Chatwoot Rate Limits

@@ -39,7 +39,7 @@ name: Reveal Imaging
 nav: Providers
 network: true
 overview: Reveal Imaging is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Explosives Detection, Checkpoint Screening, and Aviation Security.
-random_paper: 56
+random_paper: 39
 score:
   band: minimal
   composite: 5.0

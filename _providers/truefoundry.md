@@ -229,7 +229,7 @@ plans:
 - name: Truefoundry Plans Pricing
   plan_count: 4
   slug: truefoundry-plans-pricing
-random_paper: 23
+random_paper: 8
 rate_limits:
 - limit_count: 6
   name: Truefoundry Rate Limits

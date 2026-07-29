@@ -48,7 +48,7 @@ name: Truffle
 nav: Providers
 network: true
 overview: Truffle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Restaurants, Hospitality, Restaurant Management, and Back Office.
-random_paper: 40
+random_paper: 31
 score:
   band: minimal
   composite: 5.0

@@ -71,7 +71,7 @@ overview: 'Kirilys Therapeutics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Kirilys Therapeutics'' developer surface includes product news, engineering blog, support, and 4 more developer resources.'
-random_paper: 37
+random_paper: 11
 score:
   band: minimal
   composite: 11.6

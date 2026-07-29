@@ -133,7 +133,7 @@ plans:
 - name: Veradigm Fhir Plans
   plan_count: 6
   slug: veradigm-fhir-plans
-random_paper: 49
+random_paper: 36
 rate_limits:
 - limit_count: 0
   name: Unity Api Rate Limits

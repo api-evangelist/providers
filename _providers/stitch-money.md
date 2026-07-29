@@ -120,7 +120,7 @@ plans:
 - name: Stitch Money Plans Pricing
   plan_count: 2
   slug: stitch-money-plans-pricing
-random_paper: 52
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Stitch Money Rate Limits

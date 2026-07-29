@@ -178,7 +178,7 @@ plans:
 - name: Confluent The Data Streaming Platform Plans Pricing
   plan_count: 3
   slug: confluent-the-data-streaming-platform-plans-pricing
-random_paper: 44
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Confluent The Data Streaming Platform Rate Limits

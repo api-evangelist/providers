@@ -95,7 +95,7 @@ overview: 'Token is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Token''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 65
+random_paper: 59
 score:
   band: emerging
   composite: 18.1

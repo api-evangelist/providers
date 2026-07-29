@@ -83,7 +83,7 @@ overview: 'Eleqtron is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Eleqtron''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 74
+random_paper: 64
 score:
   band: minimal
   composite: 8.4

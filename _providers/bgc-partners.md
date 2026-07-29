@@ -170,7 +170,7 @@ plans:
 - name: Bgc Partners Plans Pricing
   plan_count: 6
   slug: bgc-partners-plans-pricing
-random_paper: 24
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Bgc Partners Rate Limits

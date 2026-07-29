@@ -234,7 +234,7 @@ plans:
 - name: Redpanda Plans Pricing
   plan_count: 5
   slug: redpanda-plans-pricing
-random_paper: 31
+random_paper: 21
 rate_limits:
 - limit_count: 6
   name: Redpanda Rate Limits

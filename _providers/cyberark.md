@@ -198,7 +198,7 @@ plans:
 - name: Cyberark Plans Pricing
   plan_count: 4
   slug: cyberark-plans-pricing
-random_paper: 51
+random_paper: 41
 rate_limits:
 - limit_count: 4
   name: Cyberark Rate Limits

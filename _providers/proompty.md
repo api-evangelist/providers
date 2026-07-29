@@ -99,7 +99,7 @@ plans:
 - name: Proompty Plans Pricing
   plan_count: 3
   slug: proompty-plans-pricing
-random_paper: 26
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Proompty Rate Limits

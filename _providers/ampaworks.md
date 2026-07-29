@@ -83,7 +83,7 @@ overview: 'AMPAworks is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   AMPAworks'' developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 21
+random_paper: 9
 score:
   band: emerging
   composite: 15.7

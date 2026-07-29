@@ -67,7 +67,7 @@ overview: 'Dinii is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Dinii''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 45
+random_paper: 39
 score:
   band: minimal
   composite: 10.5

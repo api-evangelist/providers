@@ -117,7 +117,7 @@ plans:
 - name: Hotelrunner Plans Pricing
   plan_count: 5
   slug: hotelrunner-plans-pricing
-random_paper: 6
+random_paper: 72
 rate_limits:
 - limit_count: 4
   name: Hotelrunner Rate Limits

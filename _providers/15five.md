@@ -132,7 +132,7 @@ plans:
 - name: 15Five Plans Pricing
   plan_count: 3
   slug: 15five-plans-pricing
-random_paper: 48
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: 15Five Rate Limits

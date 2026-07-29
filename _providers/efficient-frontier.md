@@ -44,7 +44,7 @@ name: Efficient Frontier
 nav: Providers
 network: true
 overview: Efficient Frontier is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Digital Advertising, Search Marketing, and Social Advertising.
-random_paper: 19
+random_paper: 77
 score:
   band: minimal
   composite: 5.0

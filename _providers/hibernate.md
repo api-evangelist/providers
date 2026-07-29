@@ -94,7 +94,7 @@ plans:
 - name: Hibernate Plans Pricing
   plan_count: 3
   slug: hibernate-plans-pricing
-random_paper: 66
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Hibernate Rate Limits

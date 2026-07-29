@@ -113,7 +113,7 @@ overview: 'F5 Distributed Cloud Services publishes 2 APIs on the [APIs.io](https
 
 
   F5 Distributed Cloud Services'' developer surface includes authentication, documentation, pricing, signup flow, developer console, support, engineering blog, and 5 more developer resources.'
-random_paper: 0
+random_paper: 45
 score:
   band: thin
   composite: 31.6

@@ -142,7 +142,7 @@ plans:
 - name: Google Fonts Plans Pricing
   plan_count: 3
   slug: google-fonts-plans-pricing
-random_paper: 36
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Google Fonts Rate Limits

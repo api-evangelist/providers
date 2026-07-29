@@ -132,7 +132,7 @@ overview: 'Carrot Labs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Carrot Labs'' developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, engineering blog, authentication, and 14 more developer resources.'
-random_paper: 74
+random_paper: 61
 score:
   band: emerging
   composite: 27.4

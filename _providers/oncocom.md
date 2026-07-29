@@ -71,7 +71,7 @@ overview: 'Onco.com is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Onco.com''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 30
+random_paper: 21
 score:
   band: minimal
   composite: 12.2

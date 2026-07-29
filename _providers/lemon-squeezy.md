@@ -238,7 +238,7 @@ plans:
 - name: Lemon Squeezy Plans Pricing
   plan_count: 2
   slug: lemon-squeezy-plans-pricing
-random_paper: 14
+random_paper: 78
 rate_limits:
 - limit_count: 2
   name: Lemon Squeezy Rate Limits

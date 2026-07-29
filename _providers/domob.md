@@ -65,7 +65,7 @@ name: domob
 nav: Providers
 network: true
 overview: domob is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Mobile, AdTech, and Marketing.
-random_paper: 49
+random_paper: 43
 score:
   band: minimal
   composite: 9.1

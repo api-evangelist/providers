@@ -71,7 +71,7 @@ overview: 'In Focus Systems is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   In Focus Systems'' developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 41
+random_paper: 21
 score:
   band: minimal
   composite: 10.5

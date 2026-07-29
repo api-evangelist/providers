@@ -48,7 +48,7 @@ name: Digital Mortar
 nav: Providers
 network: true
 overview: Digital Mortar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail Analytics, Location Analytics, People Counting, and Queue Management.
-random_paper: 0
+random_paper: 63
 score:
   band: minimal
   composite: 5.0

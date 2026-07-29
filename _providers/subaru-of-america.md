@@ -130,7 +130,7 @@ plans:
 - name: Subaru Of America Plans Pricing
   plan_count: 5
   slug: subaru-of-america-plans-pricing
-random_paper: 3
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Subaru Of America Rate Limits

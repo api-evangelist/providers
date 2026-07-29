@@ -56,7 +56,7 @@ name: Bayshore
 nav: Providers
 network: true
 overview: Bayshore is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal Tech, Compliance, RegTech, and Artificial Intelligence.
-random_paper: 61
+random_paper: 51
 score:
   band: minimal
   composite: 7.1

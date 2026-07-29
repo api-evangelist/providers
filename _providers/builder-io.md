@@ -167,7 +167,7 @@ plans:
 - name: Builder Io Plans Pricing
   plan_count: 4
   slug: builder-io-plans-pricing
-random_paper: 44
+random_paper: 32
 rate_limits:
 - limit_count: 4
   name: Builder Io Rate Limits

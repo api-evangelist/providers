@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: Carl Icahn (@Carl_C_Icahn) / Posts / X
   url: https://x.com/Carl_C_Icahn
-random_paper: 4
+random_paper: 63
 score:
   band: minimal
   composite: 5.5

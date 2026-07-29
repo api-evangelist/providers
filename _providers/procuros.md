@@ -160,7 +160,7 @@ overview: 'Procuros publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Procuros'' developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, sandbox, and 16 more developer resources.'
-random_paper: 13
+random_paper: 2
 score:
   band: developing
   composite: 44.5

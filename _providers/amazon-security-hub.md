@@ -274,7 +274,7 @@ plans:
 - name: Amazon Security Hub Plans Pricing
   plan_count: 3
   slug: amazon-security-hub-plans-pricing
-random_paper: 23
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Amazon Security Hub Rate Limits

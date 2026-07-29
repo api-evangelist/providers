@@ -126,7 +126,7 @@ plans:
 - name: Cliniko Plans Pricing
   plan_count: 8
   slug: cliniko-plans-pricing
-random_paper: 25
+random_paper: 16
 rate_limits:
 - limit_count: 3
   name: Cliniko Rate Limits

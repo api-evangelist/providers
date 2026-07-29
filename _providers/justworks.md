@@ -258,7 +258,7 @@ plans:
 - name: Justworks Plans Pricing
   plan_count: 5
   slug: justworks-plans-pricing
-random_paper: 60
+random_paper: 48
 rate_limits:
 - limit_count: 2
   name: Justworks Rate Limits

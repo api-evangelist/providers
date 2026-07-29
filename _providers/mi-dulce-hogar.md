@@ -63,7 +63,7 @@ overview: 'Mi Dulce Hogar is profiled on the [APIs.io](https://apis.io/) network
 
 
   Mi Dulce Hogar''s developer surface includes support and 4 more developer resources.'
-random_paper: 78
+random_paper: 62
 score:
   band: minimal
   composite: 10.1

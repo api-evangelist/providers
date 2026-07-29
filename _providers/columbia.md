@@ -117,7 +117,7 @@ plans:
 - name: Columbia Plans Pricing
   plan_count: 2
   slug: columbia-plans-pricing
-random_paper: 44
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Columbia Rate Limits

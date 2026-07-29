@@ -92,7 +92,7 @@ name: Dealogic
 nav: Providers
 network: true
 overview: Dealogic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Analytics, Capital Markets, Compliance, Deal Management, and Finance.
-random_paper: 24
+random_paper: 14
 score:
   band: minimal
   composite: 8.3

@@ -336,7 +336,7 @@ plans:
 - name: Cockroach Labs Plans Pricing
   plan_count: 3
   slug: cockroach-labs-plans-pricing
-random_paper: 44
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Cockroach Labs Rate Limits

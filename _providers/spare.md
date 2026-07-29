@@ -238,7 +238,7 @@ overview: 'Spare publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Spare''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 24 more developer resources.'
-random_paper: 59
+random_paper: 53
 scopes:
 - name: Spare Scopes
   scope_count: 0

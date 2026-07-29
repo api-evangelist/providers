@@ -91,7 +91,7 @@ overview: 'DigitalOwl is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   DigitalOwl''s developer surface includes engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 32
+random_paper: 19
 score:
   band: emerging
   composite: 18.8

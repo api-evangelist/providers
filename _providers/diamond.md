@@ -52,7 +52,7 @@ name: Diamond
 nav: Providers
 network: true
 overview: Diamond is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure SaaS, Database, Serverless, and Data Backend.
-random_paper: 12
+random_paper: 3
 score:
   band: minimal
   composite: 7.6

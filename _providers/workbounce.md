@@ -60,7 +60,7 @@ name: Workbounce
 nav: Providers
 network: true
 overview: Workbounce is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Business Applications, Sales Enablement, Revenue Enablement, and Artificial Intelligence.
-random_paper: 47
+random_paper: 34
 score:
   band: minimal
   composite: 7.5

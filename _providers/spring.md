@@ -188,7 +188,7 @@ plans:
 - name: Spring Plans Pricing
   plan_count: 2
   slug: spring-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 1
   name: Spring Rate Limits

@@ -114,7 +114,7 @@ overview: 'ManageEngine ServiceDesk Plus publishes 1 API on the [APIs.io](https:
 
 
   ManageEngine ServiceDesk Plus'' developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 73
+random_paper: 53
 scopes:
 - name: Servicedesk Plus Scopes
   scope_count: 5

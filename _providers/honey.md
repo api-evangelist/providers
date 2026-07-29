@@ -44,7 +44,7 @@ name: Honey
 nav: Providers
 network: true
 overview: Honey is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Intranet, Internal Communications, Employee Engagement, and Collaboration.
-random_paper: 67
+random_paper: 61
 score:
   band: minimal
   composite: 5.0

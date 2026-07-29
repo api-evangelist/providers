@@ -67,7 +67,7 @@ overview: 'First Circle is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   First Circle''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 23
+random_paper: 8
 score:
   band: minimal
   composite: 12.2

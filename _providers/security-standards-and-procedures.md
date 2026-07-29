@@ -39,7 +39,7 @@ name: Security Standards and Procedures
 nav: Providers
 network: true
 overview: Security Standards and Procedures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Compliance, Governance, Risk Management, and Security.
-random_paper: 18
+random_paper: 57
 score:
   band: minimal
   composite: 4.3

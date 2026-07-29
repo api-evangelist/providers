@@ -170,7 +170,7 @@ plans:
 - name: Tooljet Plans Pricing
   plan_count: 4
   slug: tooljet-plans-pricing
-random_paper: 49
+random_paper: 40
 rate_limits:
 - limit_count: 4
   name: Tooljet Rate Limits

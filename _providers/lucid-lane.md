@@ -67,7 +67,7 @@ overview: 'Lucid Lane is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Lucid Lane''s developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 30
+random_paper: 18
 score:
   band: emerging
   composite: 13.4

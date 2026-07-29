@@ -63,7 +63,7 @@ overview: 'Bonobos is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bonobos'' developer surface includes support and 4 more developer resources.'
-random_paper: 34
+random_paper: 25
 score:
   band: minimal
   composite: 10.1

@@ -117,7 +117,7 @@ plans:
 - name: Graphite Dev Plans Pricing
   plan_count: 4
   slug: graphite-dev-plans-pricing
-random_paper: 16
+random_paper: 1
 rate_limits:
 - limit_count: 4
   name: Graphite Dev Rate Limits

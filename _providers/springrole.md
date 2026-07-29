@@ -48,7 +48,7 @@ name: SpringRole
 nav: Providers
 network: true
 overview: SpringRole is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Blockchain, Professional Reputation, Attestation, and Web3.
-random_paper: 53
+random_paper: 40
 score:
   band: minimal
   composite: 5.0

@@ -44,7 +44,7 @@ name: Propagate
 nav: Providers
 network: true
 overview: Propagate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Direct-to-Consumer, Shopify, and Accelerator.
-random_paper: 3
+random_paper: 72
 score:
   band: minimal
   composite: 5.0

@@ -155,7 +155,7 @@ overview: 'Crescendo publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Crescendo''s developer surface includes documentation, API reference, quickstart, engineering blog, support, authentication, and 15 more developer resources.'
-random_paper: 70
+random_paper: 59
 score:
   band: thin
   composite: 41.1

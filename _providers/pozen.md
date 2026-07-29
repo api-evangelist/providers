@@ -39,7 +39,7 @@ name: Pozen
 nav: Providers
 network: true
 overview: Pozen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceutical, Healthcare, Biotech, and Migraine.
-random_paper: 76
+random_paper: 70
 score:
   band: minimal
   composite: 4.3

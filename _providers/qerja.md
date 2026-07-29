@@ -48,7 +48,7 @@ name: Qerja
 nav: Providers
 network: true
 overview: Qerja is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Human Resources, Recruitment, Jobs, and HR Technology.
-random_paper: 51
+random_paper: 45
 score:
   band: minimal
   composite: 5.0

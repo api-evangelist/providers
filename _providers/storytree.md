@@ -68,7 +68,7 @@ name: Storytree
 nav: Providers
 network: true
 overview: Storytree is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Photo Printing, Consumer, Mobile App, and Photography.
-random_paper: 49
+random_paper: 37
 score:
   band: minimal
   composite: 8.6

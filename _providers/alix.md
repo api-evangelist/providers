@@ -79,7 +79,7 @@ overview: 'Alix is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Alix''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 30
+random_paper: 25
 score:
   band: emerging
   composite: 13.0

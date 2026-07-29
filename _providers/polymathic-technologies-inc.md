@@ -44,7 +44,7 @@ name: Polymathic Technologies Inc.
 nav: Providers
 network: true
 overview: Polymathic Technologies Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 50
+random_paper: 16
 score:
   band: minimal
   composite: 4.1

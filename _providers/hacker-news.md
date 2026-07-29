@@ -124,7 +124,7 @@ plans:
 - name: Hacker News Plans Pricing
   plan_count: 3
   slug: hacker-news-plans-pricing
-random_paper: 72
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Hacker News Rate Limits

@@ -60,7 +60,7 @@ name: 'Animal Crossing: New Horizons'
 nav: Providers
 network: true
 overview: 'Animal Crossing: New Horizons publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.'
-random_paper: 55
+random_paper: 20
 score:
   band: minimal
   composite: 5.7

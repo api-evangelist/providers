@@ -345,7 +345,7 @@ plans:
 - name: Scryfall Plans Pricing
   plan_count: 2
   slug: scryfall-plans-pricing
-random_paper: 64
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Scryfall Rate Limits

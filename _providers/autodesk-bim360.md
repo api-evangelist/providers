@@ -242,7 +242,7 @@ plans:
 - name: Autodesk Bim360 Plans Pricing
   plan_count: 4
   slug: autodesk-bim360-plans-pricing
-random_paper: 14
+random_paper: 78
 rate_limits:
 - limit_count: 0
   name: Autodesk Bim360 Rate Limits

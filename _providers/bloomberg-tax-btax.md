@@ -100,7 +100,7 @@ plans:
 - name: Bloomberg Tax Btax Plans Pricing
   plan_count: 3
   slug: bloomberg-tax-btax-plans-pricing
-random_paper: 47
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Bloomberg Tax Btax Rate Limits

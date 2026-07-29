@@ -167,7 +167,7 @@ plans:
 - name: Oracle Database 19C Plans Pricing
   plan_count: 5
   slug: oracle-database-19c-plans-pricing
-random_paper: 66
+random_paper: 45
 rate_limits:
 - limit_count: 4
   name: Oracle Database 19C Rate Limits

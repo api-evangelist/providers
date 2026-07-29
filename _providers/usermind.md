@@ -60,7 +60,7 @@ name: Usermind
 nav: Providers
 network: true
 overview: Usermind is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customer Journey, Journey Orchestration, Customer Experience, and Marketing Technology.
-random_paper: 71
+random_paper: 61
 score:
   band: minimal
   composite: 6.9

@@ -142,7 +142,7 @@ overview: 'ZeroEntropy publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   ZeroEntropy''s developer surface includes authentication, documentation, API reference, quickstart, signup flow, pricing, engineering blog, and 12 more developer resources.'
-random_paper: 33
+random_paper: 18
 score:
   band: developing
   composite: 48.1

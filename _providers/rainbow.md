@@ -189,7 +189,7 @@ plans:
 - name: Rainbow Plans Pricing
   plan_count: 1
   slug: rainbow-plans-pricing
-random_paper: 34
+random_paper: 25
 rate_limits:
 - limit_count: 1
   name: Rainbow Rate Limits

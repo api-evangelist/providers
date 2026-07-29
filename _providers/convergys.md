@@ -103,7 +103,7 @@ press:
 - date: '2026-05-25'
   title: 'It''s here. #Concentrix completes the acquisition of # ...'
   url: https://www.facebook.com/convergysglobal/posts/its-here-concentrix-completes-the-acquisition-of-convergys-creating-the-worlds-g/10156626173185786/
-random_paper: 32
+random_paper: 20
 score:
   band: minimal
   composite: 9.7

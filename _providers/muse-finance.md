@@ -135,7 +135,7 @@ overview: 'Muse Finance publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Muse Finance''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 13 more developer resources.'
-random_paper: 11
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Muse Finance Rate Limits

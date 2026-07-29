@@ -129,7 +129,7 @@ plans:
 - name: Fincra Plans Pricing
   plan_count: 2
   slug: fincra-plans-pricing
-random_paper: 67
+random_paper: 60
 rate_limits:
 - limit_count: 3
   name: Fincra Rate Limits

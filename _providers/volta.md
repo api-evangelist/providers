@@ -55,7 +55,7 @@ overview: 'Volta is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Volta''s developer surface includes support and 2 more developer resources.'
-random_paper: 70
+random_paper: 64
 score:
   band: minimal
   composite: 5.9

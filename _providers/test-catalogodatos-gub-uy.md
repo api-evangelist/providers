@@ -83,7 +83,7 @@ plans:
 - name: Test Catalogodatos Gub Uy Plans Pricing
   plan_count: 0
   slug: test-catalogodatos-gub-uy-plans-pricing
-random_paper: 40
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Test Catalogodatos Gub Uy Rate Limits

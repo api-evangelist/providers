@@ -158,7 +158,7 @@ overview: 'Bitly publishes 10 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Bitly''s developer surface includes authentication, documentation, API reference, pricing, signup flow, support, engineering blog, and 11 more developer resources.'
-random_paper: 68
+random_paper: 62
 score:
   band: thin
   composite: 36.3

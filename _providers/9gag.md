@@ -83,7 +83,7 @@ overview: '9GAG is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   9GAG''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 40
+random_paper: 36
 score:
   band: emerging
   composite: 13.0

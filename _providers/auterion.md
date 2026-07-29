@@ -115,7 +115,7 @@ overview: 'Auterion is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Auterion''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, signup flow, changelog, and 11 more developer resources.'
-random_paper: 71
+random_paper: 61
 score:
   band: emerging
   composite: 26.0

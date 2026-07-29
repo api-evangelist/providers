@@ -75,7 +75,7 @@ overview: 'Canadian Tire Bank is profiled on the [APIs.io](https://apis.io/) net
 
 
   Canadian Tire Bank''s developer surface includes authentication and 9 more developer resources.'
-random_paper: 73
+random_paper: 52
 scopes:
 - name: Canadian Tire Bank Scopes
   scope_count: 4

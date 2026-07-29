@@ -97,7 +97,7 @@ overview: 'Blink Charging publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Blink Charging''s developer surface includes authentication, documentation, product news, and 6 more developer resources.'
-random_paper: 48
+random_paper: 42
 score:
   band: emerging
   composite: 25.5

@@ -48,7 +48,7 @@ name: Dangdang
 nav: Providers
 network: true
 overview: Dangdang is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-Commerce, Retail, and Books.
-random_paper: 20
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

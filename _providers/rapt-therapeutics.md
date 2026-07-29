@@ -48,7 +48,7 @@ name: RAPT Therapeutics
 nav: Providers
 network: true
 overview: RAPT Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Pharmaceuticals, and Immunology.
-random_paper: 21
+random_paper: 80
 score:
   band: minimal
   composite: 5.4

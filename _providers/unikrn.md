@@ -56,7 +56,7 @@ name: Unikrn
 nav: Providers
 network: true
 overview: Unikrn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Esports, Betting, Gaming, and Cryptocurrency.
-random_paper: 23
+random_paper: 15
 score:
   band: minimal
   composite: 7.5

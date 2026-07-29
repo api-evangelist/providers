@@ -48,7 +48,7 @@ name: bomming
 nav: Providers
 network: true
 overview: bomming is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Machine Vision, Industrial Inspection, 3D Sensors, and Optical Measurement.
-random_paper: 25
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

@@ -115,7 +115,7 @@ overview: 'Nori publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Nori''s developer surface includes documentation, API reference, getting-started guide, support, and 13 more developer resources.'
-random_paper: 37
+random_paper: 30
 score:
   band: emerging
   composite: 18.0

@@ -124,7 +124,7 @@ plans:
 - name: Sardine Plans Pricing
   plan_count: 1
   slug: sardine-plans-pricing
-random_paper: 22
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Sardine Rate Limits

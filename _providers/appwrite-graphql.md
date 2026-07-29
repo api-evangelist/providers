@@ -91,7 +91,7 @@ overview: 'Appwrite GraphQL publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Appwrite GraphQL''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 72
+random_paper: 52
 score:
   band: emerging
   composite: 24.6

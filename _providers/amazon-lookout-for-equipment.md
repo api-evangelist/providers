@@ -195,7 +195,7 @@ plans:
 - name: Amazon Lookout For Equipment Plans Pricing
   plan_count: 3
   slug: amazon-lookout-for-equipment-plans-pricing
-random_paper: 73
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Amazon Lookout For Equipment Rate Limits

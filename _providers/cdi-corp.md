@@ -99,7 +99,7 @@ name: CDI Corp
 nav: Providers
 network: true
 overview: CDI Corp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Engineering Services, Technical Staffing, Energy, Chemicals, and Project Services.
-random_paper: 65
+random_paper: 56
 score:
   band: minimal
   composite: 5.5

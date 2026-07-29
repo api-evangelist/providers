@@ -60,7 +60,7 @@ name: Amadeus for Developers
 nav: Providers
 network: true
 overview: Amadeus for Developers publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 74
+random_paper: 47
 score:
   band: minimal
   composite: 5.7

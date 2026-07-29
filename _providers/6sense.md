@@ -184,7 +184,7 @@ plans:
 - name: 6Sense Plans Pricing
   plan_count: 4
   slug: 6sense-plans-pricing
-random_paper: 36
+random_paper: 29
 rate_limits:
 - limit_count: 6
   name: 6Sense Rate Limits

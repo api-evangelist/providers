@@ -63,7 +63,7 @@ overview: 'Popular (Banco Popular) is profiled on the [APIs.io](https://apis.io/
 
 
   Popular (Banco Popular)''s developer surface includes support and 6 more developer resources.'
-random_paper: 51
+random_paper: 35
 score:
   band: minimal
   composite: 11.2

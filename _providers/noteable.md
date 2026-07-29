@@ -56,7 +56,7 @@ overview: 'Noteable is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Noteable''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 42
+random_paper: 32
 score:
   band: minimal
   composite: 5.4

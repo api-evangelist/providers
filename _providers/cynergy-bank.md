@@ -147,7 +147,7 @@ overview: 'Cynergy Bank publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Cynergy Bank''s developer surface includes authentication, documentation, support, and 20 more developer resources.'
-random_paper: 26
+random_paper: 11
 scopes:
 - name: Cynergy Bank Scopes
   scope_count: 3

@@ -63,7 +63,7 @@ overview: 'Kanvas Biosciences is profiled on the [APIs.io](https://apis.io/) net
 
 
   Kanvas Biosciences'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 8
+random_paper: 66
 score:
   band: minimal
   composite: 9.0

@@ -59,7 +59,7 @@ overview: 'Mozart AI is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Mozart AI''s developer surface includes pricing, signup flow, and 2 more developer resources.'
-random_paper: 71
+random_paper: 61
 score:
   band: minimal
   composite: 11.8

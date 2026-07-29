@@ -76,7 +76,7 @@ plans:
 - name: Ko Plans Pricing
   plan_count: 3
   slug: ko-plans-pricing
-random_paper: 58
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Ko Rate Limits

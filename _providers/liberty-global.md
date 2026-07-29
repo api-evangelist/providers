@@ -144,7 +144,7 @@ overview: 'Liberty Global publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Liberty Global''s developer surface includes engineering blog, authentication, changelog, sandbox, and 19 more developer resources.'
-random_paper: 73
+random_paper: 56
 score:
   band: thin
   composite: 36.1

@@ -72,7 +72,7 @@ overview: 'OneHealthCompany is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   OneHealthCompany''s developer surface includes developer portal, engineering blog, support, and 4 more developer resources.'
-random_paper: 31
+random_paper: 10
 score:
   band: emerging
   composite: 13.0

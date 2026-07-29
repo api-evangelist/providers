@@ -56,7 +56,7 @@ name: FazWaz
 nav: Providers
 network: true
 overview: FazWaz is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, PropTech, Property Listings, and Marketplace.
-random_paper: 19
+random_paper: 11
 score:
   band: minimal
   composite: 6.4

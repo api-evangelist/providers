@@ -330,7 +330,7 @@ plans:
 - name: Dtn Plans Pricing
   plan_count: 2
   slug: dtn-plans-pricing
-random_paper: 6
+random_paper: 2
 rate_limits:
 - limit_count: 1
   name: Dtn Rate Limits

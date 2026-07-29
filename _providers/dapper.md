@@ -52,7 +52,7 @@ name: Dapper
 nav: Providers
 network: true
 overview: Dapper is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Web Scraping, and Data Extraction.
-random_paper: 76
+random_paper: 69
 score:
   band: minimal
   composite: 5.0

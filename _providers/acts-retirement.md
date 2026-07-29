@@ -134,7 +134,7 @@ overview: 'Acts Retirement-Life Communities is profiled on the [APIs.io](https:/
 
 
   Acts Retirement-Life Communities'' developer surface includes developer portal, product news, engineering blog, YouTube channel, GitHub presence, and 10 more developer resources.'
-random_paper: 39
+random_paper: 20
 score:
   band: minimal
   composite: 10.3

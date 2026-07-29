@@ -132,7 +132,7 @@ overview: 'Covariant is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Covariant''s developer surface includes engineering blog and 19 more developer resources.'
-random_paper: 7
+random_paper: 76
 score:
   band: minimal
   composite: 9.9

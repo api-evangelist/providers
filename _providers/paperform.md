@@ -115,7 +115,7 @@ plans:
 - name: Paperform Plans Pricing
   plan_count: 5
   slug: paperform-plans-pricing
-random_paper: 12
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Paperform Rate Limits

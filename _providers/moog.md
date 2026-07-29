@@ -85,7 +85,7 @@ press:
 - date: '2026-05-25'
   title: Moog to Share Innovations in Advanced Spacecraft ...
   url: https://www.moog.com/news/operating-group-news/2025/moog-advanced-space-computing-at-satellite-2025-conference.html
-random_paper: 34
+random_paper: 29
 rate_limits:
 - limit_count: 1
   name: Moog Rate Limits

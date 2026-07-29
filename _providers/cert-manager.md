@@ -134,7 +134,7 @@ plans:
 - name: Cert Manager Plans Pricing
   plan_count: 3
   slug: cert-manager-plans-pricing
-random_paper: 6
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Cert Manager Rate Limits

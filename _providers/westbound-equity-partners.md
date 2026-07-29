@@ -59,7 +59,7 @@ overview: 'Westbound Equity Partners is profiled on the [APIs.io](https://apis.i
 
 
   Westbound Equity Partners'' developer surface includes support and 3 more developer resources.'
-random_paper: 69
+random_paper: 37
 score:
   band: minimal
   composite: 8.0

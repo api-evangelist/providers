@@ -71,7 +71,7 @@ overview: 'Funding Societies | Modalku is profiled on the [APIs.io](https://apis
 
 
   Funding Societies | Modalku''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 74
+random_paper: 43
 score:
   band: emerging
   composite: 13.1

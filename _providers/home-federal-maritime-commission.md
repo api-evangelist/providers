@@ -59,7 +59,7 @@ overview: 'Federal Maritime Commission is profiled on the [APIs.io](https://apis
 
 
   Federal Maritime Commission''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 28
+random_paper: 69
 score:
   band: minimal
   composite: 4.5

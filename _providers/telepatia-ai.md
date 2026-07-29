@@ -71,7 +71,7 @@ overview: 'Telepatia AI is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Telepatia AI''s developer surface includes signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 0
+random_paper: 66
 score:
   band: emerging
   composite: 14.0

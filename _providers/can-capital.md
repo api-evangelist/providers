@@ -83,7 +83,7 @@ overview: 'Can Capital is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Can Capital''s developer surface includes engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 45
+random_paper: 32
 score:
   band: emerging
   composite: 14.3

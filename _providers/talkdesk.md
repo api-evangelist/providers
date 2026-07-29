@@ -90,7 +90,7 @@ overview: 'Talkdesk publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Talkdesk''s developer surface includes documentation, support, engineering blog, and 6 more developer resources.'
-random_paper: 51
+random_paper: 41
 rules:
 - name: Talkdesk API Rules
   rule_count: 8

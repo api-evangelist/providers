@@ -250,7 +250,7 @@ plans:
 - name: Permit Io Plans Pricing
   plan_count: 3
   slug: permit-io-plans-pricing
-random_paper: 38
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Permit Io Rate Limits

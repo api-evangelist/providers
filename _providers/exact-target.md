@@ -48,7 +48,7 @@ name: Exact Target
 nav: Providers
 network: true
 overview: Exact Target is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email Marketing, Marketing Automation, Digital Marketing, and SaaS.
-random_paper: 25
+random_paper: 10
 score:
   band: minimal
   composite: 5.0

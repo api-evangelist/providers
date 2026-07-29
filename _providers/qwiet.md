@@ -256,7 +256,7 @@ overview: 'Qwiet publishes 27 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Qwiet''s developer surface includes documentation, API reference, engineering blog, pricing, support, authentication, CLI, and 21 more developer resources.'
-random_paper: 74
+random_paper: 68
 score:
   band: developing
   composite: 49.9

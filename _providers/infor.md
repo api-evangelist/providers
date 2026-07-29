@@ -119,7 +119,7 @@ plans:
 - name: Infor Plans Pricing
   plan_count: 1
   slug: infor-plans-pricing
-random_paper: 62
+random_paper: 56
 rate_limits:
 - limit_count: 1
   name: Infor Rate Limits

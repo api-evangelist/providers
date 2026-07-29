@@ -75,7 +75,7 @@ overview: 'Tagged is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Tagged''s developer surface includes support and 7 more developer resources.'
-random_paper: 60
+random_paper: 53
 score:
   band: emerging
   composite: 13.7

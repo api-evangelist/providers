@@ -67,7 +67,7 @@ overview: 'Alcove is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Alcove''s developer surface includes pricing, signup flow, and 4 more developer resources.'
-random_paper: 74
+random_paper: 67
 score:
   band: emerging
   composite: 13.9

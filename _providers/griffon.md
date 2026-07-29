@@ -44,7 +44,7 @@ name: Griffon
 nav: Providers
 network: true
 overview: Griffon is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 27
+random_paper: 18
 score:
   band: minimal
   composite: 2.6

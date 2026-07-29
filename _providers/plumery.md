@@ -71,7 +71,7 @@ overview: 'Plumery is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Plumery''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 62
+random_paper: 53
 score:
   band: minimal
   composite: 12.6

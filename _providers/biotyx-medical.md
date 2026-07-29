@@ -52,7 +52,7 @@ name: Biotyx Medical
 nav: Providers
 network: true
 overview: Biotyx Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, Cardiovascular, and Bioresorbable Scaffold.
-random_paper: 75
+random_paper: 58
 score:
   band: minimal
   composite: 4.3

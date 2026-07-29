@@ -191,7 +191,7 @@ overview: 'Archil publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Archil''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 67
+random_paper: 60
 score:
   band: strong
   composite: 59.1

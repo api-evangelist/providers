@@ -79,7 +79,7 @@ overview: 'Bluecoat (Symantec) is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Bluecoat (Symantec)''s developer surface includes developer portal, documentation, support, engineering blog, and 5 more developer resources.'
-random_paper: 0
+random_paper: 59
 score:
   band: emerging
   composite: 15.1

@@ -60,7 +60,7 @@ name: Guardian Life Insurance
 nav: Providers
 network: true
 overview: Guardian Life Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Alias, Insurance, Life Insurance, Disability Insurance, and Dental Insurance.
-random_paper: 77
+random_paper: 49
 score:
   band: minimal
   composite: 7.0

@@ -39,7 +39,7 @@ name: Foxconn Industrial Internet
 nav: Providers
 network: true
 overview: Foxconn Industrial Internet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Technology, Smart Manufacturing, Industrial Internet, and Cloud Computing.
-random_paper: 13
+random_paper: 59
 score:
   band: minimal
   composite: 5.0

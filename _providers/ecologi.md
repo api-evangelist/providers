@@ -184,7 +184,7 @@ overview: 'Ecologi publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Ecologi''s developer surface includes developer portal, documentation, getting-started guide, signup flow, support, pricing, engineering blog, and 21 more developer resources.'
-random_paper: 18
+random_paper: 9
 score:
   band: emerging
   composite: 20.8

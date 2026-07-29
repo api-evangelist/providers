@@ -716,11 +716,12 @@ overview: 'Splunk publishes 3 APIs on the [APIs.io](https://apis.io/) network: D
 
 
   Splunk''s developer surface includes authentication, engineering blog, support, documentation, getting-started guide, pricing, signup flow, and 40 more developer resources.'
+paper_is_own: true
 plans:
 - name: Splunk Plans Pricing
   plan_count: 3
   slug: splunk-plans-pricing
-random_paper: 29
+random_paper: 26
 rate_limits:
 - limit_count: 2
   name: Splunk Rate Limits

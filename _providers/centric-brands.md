@@ -171,7 +171,7 @@ overview: 'Centric Brands is profiled on the [APIs.io](https://apis.io/) network
 
 
   Centric Brands'' developer surface includes developer portal, engineering blog, and 12 more developer resources.'
-random_paper: 63
+random_paper: 46
 score:
   band: minimal
   composite: 8.6

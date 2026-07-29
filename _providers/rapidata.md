@@ -326,7 +326,7 @@ overview: 'Rapidata publishes 55 APIs on the [APIs.io](https://apis.io/) network
 
 
   Rapidata''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 38
+random_paper: 28
 scopes:
 - name: Rapidata Scopes
   scope_count: 9

@@ -72,7 +72,7 @@ plans:
 - name: Vidcruiter Plans Pricing
   plan_count: 1
   slug: vidcruiter-plans-pricing
-random_paper: 49
+random_paper: 36
 score:
   band: minimal
   composite: 11.9

@@ -133,7 +133,7 @@ plans:
 - name: Vetspire Plans Pricing
   plan_count: 4
   slug: vetspire-plans-pricing
-random_paper: 2
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Vetspire Rate Limits

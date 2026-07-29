@@ -55,7 +55,7 @@ overview: 'Monte Rosa Therapeutics * is profiled on the [APIs.io](https://apis.i
 
 
   Monte Rosa Therapeutics *''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 51
+random_paper: 22
 score:
   band: minimal
   composite: 5.7

@@ -87,7 +87,7 @@ overview: 'Firstory is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Firstory''s developer surface includes pricing, engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 18
+random_paper: 7
 score:
   band: emerging
   composite: 16.7

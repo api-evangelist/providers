@@ -52,7 +52,7 @@ name: Times Adder
 nav: Providers
 network: true
 overview: Times Adder publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Science And Math and Public APIs.
-random_paper: 63
+random_paper: 50
 score:
   band: minimal
   composite: 5.0

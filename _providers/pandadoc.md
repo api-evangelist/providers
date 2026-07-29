@@ -425,7 +425,7 @@ plans:
 - name: Pandadoc Plans Pricing
   plan_count: 4
   slug: pandadoc-plans-pricing
-random_paper: 26
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Pandadoc Rate Limits

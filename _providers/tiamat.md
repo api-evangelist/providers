@@ -44,7 +44,7 @@ name: Tiamat
 nav: Providers
 network: true
 overview: Tiamat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Startup, Venture Backed, and Artificial Intelligence.
-random_paper: 0
+random_paper: 73
 score:
   band: minimal
   composite: 5.0

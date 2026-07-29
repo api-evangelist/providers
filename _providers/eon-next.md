@@ -115,7 +115,7 @@ overview: 'E.ON Next publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   E.ON Next''s developer surface includes authentication, engineering blog, support, pricing, and 15 more developer resources.'
-random_paper: 14
+random_paper: 4
 scopes:
 - name: Eon Next Scopes
   scope_count: 14

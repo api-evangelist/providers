@@ -39,7 +39,7 @@ name: Platypus
 nav: Providers
 network: true
 overview: Platypus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, HR Tech, People Analytics, Talent Management, and Company Culture.
-random_paper: 18
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

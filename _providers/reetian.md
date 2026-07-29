@@ -48,7 +48,7 @@ name: reetian
 nav: Providers
 network: true
 overview: reetian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, China, Digital Intelligence, Data, and Analytics.
-random_paper: 24
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

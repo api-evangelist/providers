@@ -106,7 +106,7 @@ overview: 'OpenCitations publishes 5 APIs on the [APIs.io](https://apis.io/) net
 
 
   OpenCitations'' developer surface includes authentication and 2 more developer resources.'
-random_paper: 48
+random_paper: 31
 score:
   band: emerging
   composite: 27.8

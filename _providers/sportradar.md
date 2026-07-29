@@ -268,7 +268,7 @@ plans:
 - name: Sportradar Plans Pricing
   plan_count: 1
   slug: sportradar-plans-pricing
-random_paper: 50
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: Sportradar Rate Limits

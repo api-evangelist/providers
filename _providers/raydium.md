@@ -126,7 +126,7 @@ plans:
 - name: Raydium Plans Pricing
   plan_count: 2
   slug: raydium-plans-pricing
-random_paper: 43
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Raydium Rate Limits

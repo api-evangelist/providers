@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Winning at this level takes partners you trust. We' ...
   url: https://www.linkedin.com/posts/tenneco_winning-at-this-level-takes-partners-you-activity-7420103720606175232-MQsC
-random_paper: 28
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Tenneco Rate Limits

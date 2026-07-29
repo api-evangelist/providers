@@ -104,7 +104,7 @@ plans:
 - name: Iugu Plans Pricing
   plan_count: 3
   slug: iugu-plans-pricing
-random_paper: 42
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Iugu Rate Limits

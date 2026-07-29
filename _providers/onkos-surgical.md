@@ -56,7 +56,7 @@ name: Onkos Surgical
 nav: Providers
 network: true
 overview: Onkos Surgical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Surgical Oncology, Orthopaedics, and Musculoskeletal Oncology.
-random_paper: 17
+random_paper: 80
 score:
   band: minimal
   composite: 4.3

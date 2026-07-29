@@ -71,7 +71,7 @@ overview: 'Aspen RxHealth is profiled on the [APIs.io](https://apis.io/) network
 
 
   Aspen RxHealth''s developer surface includes support, signup flow, and 5 more developer resources.'
-random_paper: 4
+random_paper: 67
 score:
   band: minimal
   composite: 10.9

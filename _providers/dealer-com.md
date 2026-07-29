@@ -100,7 +100,7 @@ plans:
 - name: Dealer Com Plans Pricing
   plan_count: 2
   slug: dealer-com-plans-pricing
-random_paper: 25
+random_paper: 13
 rate_limits:
 - limit_count: 3
   name: Dealer Com Rate Limits

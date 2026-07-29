@@ -80,7 +80,7 @@ name: ManTech International
 nav: Providers
 network: true
 overview: ManTech International is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Defense, Intelligence, Cybersecurity, Federal Services, and Information Technology.
-random_paper: 16
+random_paper: 7
 score:
   band: minimal
   composite: 5.7

@@ -67,7 +67,7 @@ overview: 'Snout is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Snout''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 9
+random_paper: 2
 score:
   band: minimal
   composite: 11.6

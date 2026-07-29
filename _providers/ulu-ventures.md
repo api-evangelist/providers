@@ -71,7 +71,7 @@ overview: 'Ulu Ventures is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Ulu Ventures'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 79
+random_paper: 64
 score:
   band: minimal
   composite: 12.2

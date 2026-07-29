@@ -51,7 +51,7 @@ name: microchip-technology
 nav: Providers
 network: true
 overview: microchip-technology is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 7
+random_paper: 62
 score:
   band: minimal
   composite: 3.3

@@ -509,7 +509,7 @@ press:
 - date: '2026-05-25'
   title: Visa's 30-Year AI Legacy Fuels Launch of New Global AI ...
   url: https://usa.visa.com/about-visa/newsroom/press-releases.releaseId.20076.html
-random_paper: 35
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Visa Rate Limits

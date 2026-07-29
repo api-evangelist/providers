@@ -56,7 +56,7 @@ name: Auxos
 nav: Providers
 network: true
 overview: Auxos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Market Research, Customer Research, Artificial Intelligence, and Consumer Insights.
-random_paper: 0
+random_paper: 74
 score:
   band: minimal
   composite: 7.6

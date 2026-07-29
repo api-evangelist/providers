@@ -56,7 +56,7 @@ name: AMD
 nav: Providers
 network: true
 overview: AMD is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Semiconductors, Technology, Processors, and Graphics.
-random_paper: 66
+random_paper: 63
 score:
   band: minimal
   composite: 4.2

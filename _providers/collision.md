@@ -99,7 +99,7 @@ overview: 'Collision (now Web Summit Vancouver) is profiled on the [APIs.io](htt
 
 
   Collision (now Web Summit Vancouver)''s developer surface includes product news, engineering blog, support, developer portal, and 10 more developer resources.'
-random_paper: 12
+random_paper: 0
 score:
   band: minimal
   composite: 10.1

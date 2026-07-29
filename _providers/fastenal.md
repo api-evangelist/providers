@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: 'AI in Supply ChaAIns: Navigating the Future - THE BLUE PRINT'
   url: https://blueprint.fastenal.com/ai-in-supply-chains.html
-random_paper: 46
+random_paper: 36
 score:
   band: minimal
   composite: 5.0

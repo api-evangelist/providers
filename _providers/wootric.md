@@ -172,7 +172,7 @@ plans:
 - name: Wootric Plans Pricing
   plan_count: 3
   slug: wootric-plans-pricing
-random_paper: 55
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Wootric Rate Limits

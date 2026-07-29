@@ -129,7 +129,7 @@ plans:
 - name: Wasabi Plans Pricing
   plan_count: 2
   slug: wasabi-plans-pricing
-random_paper: 71
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Wasabi Rate Limits

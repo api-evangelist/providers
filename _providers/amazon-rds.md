@@ -564,7 +564,7 @@ plans:
 - name: Amazon Rds Plans Pricing
   plan_count: 3
   slug: amazon-rds-plans-pricing
-random_paper: 60
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Amazon Rds Rate Limits

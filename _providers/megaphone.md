@@ -134,7 +134,7 @@ plans:
 - name: Megaphone Plans Pricing
   plan_count: 2
   slug: megaphone-plans-pricing
-random_paper: 68
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: Megaphone Rate Limits

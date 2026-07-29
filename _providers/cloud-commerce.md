@@ -48,7 +48,7 @@ name: Cloud Commerce
 nav: Providers
 network: true
 overview: Cloud Commerce is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Logistics, Marketplace, and Influencer Marketing.
-random_paper: 63
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

@@ -56,7 +56,7 @@ name: xkcd
 nav: Providers
 network: true
 overview: xkcd publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Games And Comics and Public APIs.
-random_paper: 26
+random_paper: 21
 score:
   band: minimal
   composite: 5.7

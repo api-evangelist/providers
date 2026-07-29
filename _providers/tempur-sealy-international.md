@@ -139,7 +139,7 @@ press:
 - date: '2026-05-25'
   title: Tempur Sealy integrates A.I. in newest ActiveBreeze smart ...
   url: https://www.furnituretoday.com/bedding-manufacturers/tempur-sealy-integrates-a-i-in-newest-activebreeze-smart-bed/
-random_paper: 61
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Tempur Sealy International Rate Limits

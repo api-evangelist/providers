@@ -144,7 +144,7 @@ plans:
 - name: Idenfy Plans Pricing
   plan_count: 3
   slug: idenfy-plans-pricing
-random_paper: 79
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Idenfy Rate Limits

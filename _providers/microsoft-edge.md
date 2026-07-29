@@ -358,7 +358,7 @@ plans:
 - name: Microsoft Edge Plans Pricing
   plan_count: 2
   slug: microsoft-edge-plans-pricing
-random_paper: 72
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Microsoft Edge Rate Limits

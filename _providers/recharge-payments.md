@@ -143,7 +143,7 @@ plans:
 - name: Recharge Payments Plans Pricing
   plan_count: 3
   slug: recharge-payments-plans-pricing
-random_paper: 79
+random_paper: 58
 rate_limits:
 - limit_count: 4
   name: Recharge Payments Rate Limits

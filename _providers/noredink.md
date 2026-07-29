@@ -128,7 +128,7 @@ overview: 'NoRedInk publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   NoRedInk''s developer surface includes support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 58
+random_paper: 48
 scopes:
 - name: Noredink Scopes
   scope_count: 1

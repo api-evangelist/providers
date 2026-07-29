@@ -95,7 +95,7 @@ overview: 'Useful Sensors is profiled on the [APIs.io](https://apis.io/) network
 
 
   Useful Sensors'' developer surface includes documentation, getting-started guide, support, CLI, changelog, and 8 more developer resources.'
-random_paper: 46
+random_paper: 28
 score:
   band: emerging
   composite: 17.2

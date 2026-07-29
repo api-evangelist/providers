@@ -71,7 +71,7 @@ overview: 'Club Feast is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Club Feast''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 38
+random_paper: 26
 score:
   band: emerging
   composite: 13.1

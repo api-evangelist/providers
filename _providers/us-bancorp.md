@@ -189,7 +189,7 @@ press:
 - date: '2026-05-25'
   title: U.S. Bancorp Annual Report 2025
   url: https://s203.q4cdn.com/711684571/files/doc_financials/2025/ar/2025-Annual-Report_ADA_F.pdf
-random_paper: 58
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Us Bancorp Rate Limits

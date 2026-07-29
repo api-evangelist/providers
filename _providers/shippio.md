@@ -59,7 +59,7 @@ overview: 'Shippio is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Shippio''s developer surface includes support and 3 more developer resources.'
-random_paper: 44
+random_paper: 35
 score:
   band: minimal
   composite: 8.0

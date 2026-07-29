@@ -39,7 +39,7 @@ name: Fan Controlled Football
 nav: Providers
 network: true
 overview: Fan Controlled Football is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Football, Entertainment, and Streaming.
-random_paper: 8
+random_paper: 60
 score:
   band: minimal
   composite: 5.0

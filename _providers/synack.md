@@ -260,7 +260,7 @@ overview: 'Synack publishes 28 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Synack''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 9
+random_paper: 1
 scopes:
 - name: Synack Scopes
   scope_count: 21

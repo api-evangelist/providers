@@ -110,7 +110,7 @@ plans:
 - name: Quiz Api Plans Pricing
   plan_count: 3
   slug: quiz-api-plans-pricing
-random_paper: 16
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Quiz Api Rate Limits

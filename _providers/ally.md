@@ -48,7 +48,7 @@ name: Ally
 nav: Providers
 network: true
 overview: Ally is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hr Tech, OKR, Goal Management, and Performance Management.
-random_paper: 34
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

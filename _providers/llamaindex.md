@@ -299,7 +299,7 @@ plans:
 - name: Llamaindex Plans Pricing
   plan_count: 4
   slug: llamaindex-plans-pricing
-random_paper: 15
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Llamaindex Rate Limits

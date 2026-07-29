@@ -179,7 +179,7 @@ plans:
 - name: Jetic Plans Pricing
   plan_count: 3
   slug: jetic-plans-pricing
-random_paper: 47
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Jetic Rate Limits

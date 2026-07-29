@@ -208,7 +208,7 @@ plans:
 - name: Amazon Kinesis Video Streams Plans Pricing
   plan_count: 3
   slug: amazon-kinesis-video-streams-plans-pricing
-random_paper: 41
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Amazon Kinesis Video Streams Rate Limits

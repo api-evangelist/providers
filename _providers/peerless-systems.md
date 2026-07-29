@@ -48,7 +48,7 @@ name: Peerless Systems
 nav: Providers
 network: true
 overview: Peerless Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Imaging, Embedded Systems, Printing, and Licensing.
-random_paper: 24
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

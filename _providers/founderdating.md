@@ -44,7 +44,7 @@ name: FounderDating
 nav: Providers
 network: true
 overview: FounderDating is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Startups, Entrepreneurship, Co-Founder Matching, and Founder Network.
-random_paper: 26
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

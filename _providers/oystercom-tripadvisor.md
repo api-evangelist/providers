@@ -48,7 +48,7 @@ name: Oyster.com (TripAdvisor)
 nav: Providers
 network: true
 overview: Oyster.com (TripAdvisor) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Travel, Hotels, and Reviews.
-random_paper: 9
+random_paper: 62
 score:
   band: minimal
   composite: 5.0

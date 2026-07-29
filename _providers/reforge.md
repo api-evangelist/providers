@@ -136,7 +136,7 @@ overview: 'Reforge publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Reforge''s developer surface includes documentation, getting-started guide, engineering blog, pricing, CLI, authentication, and 15 more developer resources.'
-random_paper: 26
+random_paper: 17
 score:
   band: thin
   composite: 32.2

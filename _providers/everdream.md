@@ -39,7 +39,7 @@ name: Everdream
 nav: Providers
 network: true
 overview: Everdream is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Acquired, IT Management, and Desktop Management.
-random_paper: 75
+random_paper: 64
 score:
   band: minimal
   composite: 5.0

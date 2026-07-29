@@ -67,7 +67,7 @@ overview: 'Portea is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Portea''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 11
+random_paper: 3
 score:
   band: minimal
   composite: 10.8

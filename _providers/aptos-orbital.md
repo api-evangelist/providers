@@ -59,7 +59,7 @@ overview: 'Aptos Orbital is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Aptos Orbital''s developer surface includes support and 3 more developer resources.'
-random_paper: 65
+random_paper: 49
 score:
   band: minimal
   composite: 10.1

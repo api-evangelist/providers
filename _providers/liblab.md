@@ -189,7 +189,7 @@ plans:
 - name: Liblab Plans Pricing
   plan_count: 5
   slug: liblab-plans-pricing
-random_paper: 54
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: Liblab Rate Limits

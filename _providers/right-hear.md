@@ -48,7 +48,7 @@ name: Right Hear
 nav: Providers
 network: true
 overview: Right Hear is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accessibility, Assistive Technology, Indoor Navigation, and Wayfinding.
-random_paper: 43
+random_paper: 31
 score:
   band: minimal
   composite: 5.0

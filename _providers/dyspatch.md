@@ -255,7 +255,7 @@ overview: 'Dyspatch publishes 20 APIs on the [APIs.io](https://apis.io/) network
 
 
   Dyspatch''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 26 more developer resources.'
-random_paper: 64
+random_paper: 54
 score:
   band: strong
   composite: 56.0

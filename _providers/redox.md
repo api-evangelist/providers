@@ -142,7 +142,7 @@ overview: 'Redox publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Redox''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 15 more developer resources.'
-random_paper: 66
+random_paper: 60
 scopes:
 - name: Redox Scopes
   scope_count: 3

@@ -2727,7 +2727,7 @@ plans:
 - name: Axway Plans Pricing
   plan_count: 3
   slug: axway-plans-pricing
-random_paper: 74
+random_paper: 68
 rate_limits:
 - limit_count: 2
   name: Axway Rate Limits

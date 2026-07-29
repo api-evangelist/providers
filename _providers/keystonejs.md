@@ -100,7 +100,7 @@ plans:
 - name: Keystonejs Plans Pricing
   plan_count: 4
   slug: keystonejs-plans-pricing
-random_paper: 63
+random_paper: 50
 rate_limits:
 - limit_count: 0
   name: Keystonejs Rate Limits

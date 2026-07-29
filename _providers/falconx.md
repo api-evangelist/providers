@@ -116,7 +116,7 @@ overview: 'FalconX publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   FalconX''s developer surface includes documentation, API reference, signup flow, engineering blog, support, authentication, and 11 more developer resources.'
-random_paper: 27
+random_paper: 18
 score:
   band: thin
   composite: 29.7

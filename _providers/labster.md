@@ -137,7 +137,7 @@ overview: 'Labster is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Labster''s developer surface includes documentation, support, engineering blog, pricing, signup flow, authentication, and 17 more developer resources.'
-random_paper: 29
+random_paper: 20
 score:
   band: emerging
   composite: 27.7

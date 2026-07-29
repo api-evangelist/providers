@@ -177,7 +177,7 @@ press:
 - date: '2026-05-25'
   title: H2O.ai Empowers Stanley Black & Decker to Develop ...
   url: https://h2o.ai/company/press-media/2018/h2o-ai-empowers-stanley-black-decker-to-develop-innovative-manufacturing-processes/
-random_paper: 21
+random_paper: 73
 rate_limits:
 - limit_count: 1
   name: Stanley Black And Decker Rate Limits

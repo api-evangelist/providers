@@ -87,7 +87,7 @@ overview: 'Agile Loop L.L.C. is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Agile Loop L.L.C.''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 1
+random_paper: 65
 score:
   band: minimal
   composite: 8.2

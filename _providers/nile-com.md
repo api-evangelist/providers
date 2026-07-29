@@ -132,7 +132,7 @@ overview: 'Nile is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Nile''s developer surface includes documentation, developer portal, product news, engineering blog, YouTube channel, and 15 more developer resources.'
-random_paper: 68
+random_paper: 59
 score:
   band: emerging
   composite: 13.3

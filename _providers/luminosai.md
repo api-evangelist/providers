@@ -95,7 +95,7 @@ overview: 'Luminos.AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Luminos.AI''s developer surface includes getting-started guide, signup flow, engineering blog, support, and 9 more developer resources.'
-random_paper: 17
+random_paper: 5
 score:
   band: emerging
   composite: 19.0

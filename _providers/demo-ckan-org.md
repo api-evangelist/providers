@@ -84,7 +84,7 @@ plans:
 - name: Demo Ckan Org Plans Pricing
   plan_count: 1
   slug: demo-ckan-org-plans-pricing
-random_paper: 52
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Demo Ckan Org Rate Limits

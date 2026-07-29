@@ -291,7 +291,7 @@ overview: 'Weka publishes 45 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Weka''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 18 more developer resources.'
-random_paper: 24
+random_paper: 19
 score:
   band: developing
   composite: 48.5

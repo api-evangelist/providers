@@ -44,7 +44,7 @@ name: Turnstyle
 nav: Providers
 network: true
 overview: Turnstyle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, WiFi Marketing, Customer Analytics, Location Marketing, and Acquired.
-random_paper: 58
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

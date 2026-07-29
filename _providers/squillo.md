@@ -156,7 +156,7 @@ plans:
 - name: Squillo Plans Pricing
   plan_count: 3
   slug: squillo-plans-pricing
-random_paper: 57
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Squillo Rate Limits

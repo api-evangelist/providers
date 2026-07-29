@@ -150,7 +150,7 @@ plans:
 - name: Base L2 Plans Pricing
   plan_count: 1
   slug: base-l2-plans-pricing
-random_paper: 54
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Base L2 Rate Limits

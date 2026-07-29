@@ -150,7 +150,7 @@ plans:
 - name: Nudge Security Plans Pricing
   plan_count: 3
   slug: nudge-security-plans-pricing
-random_paper: 24
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Nudge Security Rate Limits

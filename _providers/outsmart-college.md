@@ -72,7 +72,7 @@ name: Outsmart College
 nav: Providers
 network: true
 overview: Outsmart College is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Higher Education, and Artificial Intelligence.
-random_paper: 71
+random_paper: 51
 score:
   band: minimal
   composite: 9.2

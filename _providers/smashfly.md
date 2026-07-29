@@ -55,7 +55,7 @@ overview: 'Smashfly is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Smashfly''s developer surface includes documentation and 2 more developer resources.'
-random_paper: 71
+random_paper: 61
 score:
   band: minimal
   composite: 6.7

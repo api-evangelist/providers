@@ -56,7 +56,7 @@ name: Structure Therapeutics
 nav: Providers
 network: true
 overview: Structure Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Pharmaceuticals, and Drug Discovery.
-random_paper: 31
+random_paper: 2
 score:
   band: minimal
   composite: 10.5

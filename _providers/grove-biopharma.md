@@ -63,7 +63,7 @@ overview: 'Grove Biopharma is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Grove Biopharma''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 19
+random_paper: 0
 score:
   band: minimal
   composite: 4.6

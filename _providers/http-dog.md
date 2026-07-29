@@ -56,7 +56,7 @@ name: HTTP Dog
 nav: Providers
 network: true
 overview: HTTP Dog publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Animals and Public APIs.
-random_paper: 7
+random_paper: 78
 score:
   band: minimal
   composite: 5.7

@@ -803,7 +803,7 @@ plans:
 - name: Tvdb Plans Pricing
   plan_count: 5
   slug: tvdb-plans-pricing
-random_paper: 32
+random_paper: 27
 rate_limits:
 - limit_count: 3
   name: Tvdb Rate Limits

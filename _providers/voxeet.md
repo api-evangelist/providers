@@ -68,7 +68,7 @@ name: Voxeet
 nav: Providers
 network: true
 overview: Voxeet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conferencing, Voice, Video, and WebRTC.
-random_paper: 27
+random_paper: 19
 score:
   band: minimal
   composite: 8.8

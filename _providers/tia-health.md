@@ -83,7 +83,7 @@ overview: 'Tia Health is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Tia Health''s developer surface includes engineering blog, support, pricing, signup flow, and 8 more developer resources.'
-random_paper: 33
+random_paper: 21
 score:
   band: emerging
   composite: 16.2

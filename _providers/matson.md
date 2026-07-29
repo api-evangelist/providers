@@ -48,7 +48,7 @@ name: Matson
 nav: Providers
 network: true
 overview: Matson is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 18
+random_paper: 10
 score:
   band: minimal
   composite: 3.3

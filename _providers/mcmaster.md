@@ -115,7 +115,7 @@ plans:
 - name: Mcmaster Plans Pricing
   plan_count: 2
   slug: mcmaster-plans-pricing
-random_paper: 60
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Mcmaster Rate Limits

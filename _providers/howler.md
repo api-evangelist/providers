@@ -211,7 +211,7 @@ overview: 'Howler publishes 17 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Howler''s developer surface includes documentation, API reference, developer portal, support, signup flow, authentication, and 20 more developer resources.'
-random_paper: 17
+random_paper: 9
 scopes:
 - name: Howler Scopes
   scope_count: 3

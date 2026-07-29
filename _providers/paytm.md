@@ -152,7 +152,7 @@ plans:
 - name: Paytm Plans Pricing
   plan_count: 1
   slug: paytm-plans-pricing
-random_paper: 75
+random_paper: 69
 rate_limits:
 - limit_count: 2
   name: Paytm Rate Limits

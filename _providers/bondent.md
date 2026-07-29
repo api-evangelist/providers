@@ -71,7 +71,7 @@ overview: 'Bondent (博恩登特) is profiled on the [APIs.io](https://apis.io/)
 
 
   Bondent (博恩登特)''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 26
+random_paper: 17
 score:
   band: minimal
   composite: 6.5

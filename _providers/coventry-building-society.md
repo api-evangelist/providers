@@ -167,7 +167,7 @@ overview: 'Coventry Building Society publishes 4 APIs on the [APIs.io](https://a
 
 
   Coventry Building Society''s developer surface includes authentication, documentation, support, and 24 more developer resources.'
-random_paper: 34
+random_paper: 2
 scopes:
 - name: Coventry Building Society Scopes
   scope_count: 3

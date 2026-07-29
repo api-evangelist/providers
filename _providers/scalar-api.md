@@ -130,7 +130,7 @@ plans:
 - name: Scalar Api Plans Pricing
   plan_count: 5
   slug: scalar-api-plans-pricing
-random_paper: 29
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Scalar Api Rate Limits

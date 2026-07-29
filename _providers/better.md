@@ -92,7 +92,7 @@ overview: 'Better is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Better''s developer surface includes engineering blog, support, pricing, authentication, and 8 more developer resources.'
-random_paper: 6
+random_paper: 79
 scopes:
 - name: Better Scopes
   scope_count: 4

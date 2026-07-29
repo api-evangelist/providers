@@ -91,7 +91,7 @@ overview: 'Wiz publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Wiz''s developer surface includes documentation, signup flow, pricing, academy / training, engineering blog, and 5 more developer resources.'
-random_paper: 26
+random_paper: 22
 score:
   band: minimal
   composite: 12.7

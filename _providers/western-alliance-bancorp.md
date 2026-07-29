@@ -68,7 +68,7 @@ name: Western Alliance Bancorp.
 nav: Providers
 network: true
 overview: Western Alliance Bancorp. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Commercial Banking, and Fortune 500.
-random_paper: 32
+random_paper: 2
 score:
   band: minimal
   composite: 9.2

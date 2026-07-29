@@ -67,7 +67,7 @@ overview: 'Flow48 is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Flow48''s developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 68
+random_paper: 62
 score:
   band: minimal
   composite: 12.7

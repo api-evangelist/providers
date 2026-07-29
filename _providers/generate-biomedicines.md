@@ -133,7 +133,7 @@ overview: 'Generate Biomedicines is profiled on the [APIs.io](https://apis.io/) 
 
 
   Generate Biomedicines'' developer surface includes developer portal, engineering blog, YouTube channel, and 19 more developer resources.'
-random_paper: 67
+random_paper: 41
 score:
   band: minimal
   composite: 9.2

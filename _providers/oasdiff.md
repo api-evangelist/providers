@@ -73,7 +73,7 @@ plans:
 - name: Oasdiff Plans Pricing
   plan_count: 3
   slug: oasdiff-plans-pricing
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Oasdiff Rate Limits

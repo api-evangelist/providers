@@ -44,7 +44,7 @@ name: Tapsense
 nav: Providers
 network: true
 overview: Tapsense is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile Advertising, AdTech, Real-Time Bidding, and Monetization.
-random_paper: 67
+random_paper: 57
 score:
   band: minimal
   composite: 5.0

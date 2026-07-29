@@ -48,7 +48,7 @@ name: Ailumia
 nav: Providers
 network: true
 overview: Ailumia is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Retail, Marketplaces, and Amazon.
-random_paper: 18
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

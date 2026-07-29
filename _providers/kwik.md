@@ -44,7 +44,7 @@ name: Kwik
 nav: Providers
 network: true
 overview: Kwik is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Unknown.
-random_paper: 38
+random_paper: 33
 score:
   band: minimal
   composite: 4.1

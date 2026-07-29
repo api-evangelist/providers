@@ -179,7 +179,7 @@ overview: 'New York Independent System Operator (NYISO) publishes 6 APIs on the 
 
 
   New York Independent System Operator (NYISO)''s developer surface includes developer portal, documentation, legal docs, support, engineering blog, authentication, sandbox, and 14 more developer resources.'
-random_paper: 2
+random_paper: 76
 score:
   band: thin
   composite: 29.0

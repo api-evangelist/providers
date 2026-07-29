@@ -55,7 +55,7 @@ overview: 'Rovio is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Rovio''s developer surface includes support and 2 more developer resources.'
-random_paper: 79
+random_paper: 73
 score:
   band: minimal
   composite: 5.9

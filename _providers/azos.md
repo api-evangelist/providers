@@ -67,7 +67,7 @@ overview: 'Azos is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Azos'' developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 45
+random_paper: 40
 score:
   band: minimal
   composite: 12.1

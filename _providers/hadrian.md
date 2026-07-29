@@ -81,7 +81,7 @@ overview: 'Hadrian is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   The Hadrian catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 7
+random_paper: 79
 score:
   band: minimal
   composite: 11.5

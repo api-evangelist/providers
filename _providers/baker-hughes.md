@@ -168,7 +168,7 @@ press:
 - date: '2026-05-25'
   title: Baker Hughes and C3 AI to Provide Joint Enterprise AI ...
   url: https://www.linkedin.com/posts/bakerhughes_baker-hughes-and-c3-ai-to-provide-joint-enterprise-activity-6764960334307495936-z-zl
-random_paper: 6
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Baker Hughes Rate Limits

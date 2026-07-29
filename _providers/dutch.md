@@ -87,7 +87,7 @@ overview: 'Dutch is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Dutch''s developer surface includes engineering blog, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 56
+random_paper: 50
 score:
   band: emerging
   composite: 17.2

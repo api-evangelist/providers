@@ -55,7 +55,7 @@ overview: 'The Bouqs is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   The Bouqs'' developer surface includes support and 2 more developer resources.'
-random_paper: 40
+random_paper: 29
 score:
   band: minimal
   composite: 5.9

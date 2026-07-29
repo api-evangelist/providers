@@ -154,7 +154,7 @@ overview: 'Admiral Group is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Admiral Group''s developer surface includes support, engineering blog, and 25 more developer resources.'
-random_paper: 52
+random_paper: 36
 score:
   band: emerging
   composite: 18.4

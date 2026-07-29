@@ -48,7 +48,7 @@ name: Curio Labs
 nav: Providers
 network: true
 overview: Curio Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Audio, Journalism, Media, and Podcasts.
-random_paper: 49
+random_paper: 37
 score:
   band: minimal
   composite: 5.0

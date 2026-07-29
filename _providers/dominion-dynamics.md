@@ -87,7 +87,7 @@ overview: 'Dominion Dynamics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Dominion Dynamics'' developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 2
+random_paper: 61
 score:
   band: emerging
   composite: 14.2

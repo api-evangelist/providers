@@ -169,7 +169,7 @@ plans:
 - name: R Plans Pricing
   plan_count: 3
   slug: r-plans-pricing
-random_paper: 34
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: R Rate Limits

@@ -108,7 +108,7 @@ overview: 'Weav publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Weav''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 9 more developer resources.'
-random_paper: 35
+random_paper: 30
 score:
   band: emerging
   composite: 18.4

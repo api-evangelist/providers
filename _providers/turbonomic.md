@@ -262,7 +262,7 @@ plans:
 - name: Turbonomic Plans Pricing
   plan_count: 3
   slug: turbonomic-plans-pricing
-random_paper: 50
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Turbonomic Rate Limits

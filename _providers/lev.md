@@ -307,7 +307,7 @@ plans:
 - name: Lev Plans
   plan_count: 4
   slug: lev-plans
-random_paper: 7
+random_paper: 3
 rate_limits:
 - limit_count: 6
   name: Lev Rate Limits

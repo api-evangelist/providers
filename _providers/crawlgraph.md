@@ -43,7 +43,7 @@ name: CrawlGraph
 nav: Providers
 network: true
 overview: CrawlGraph publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include SEO, backlink-intelligence, martech, competitive-intelligence, and web-data.
-random_paper: 27
+random_paper: 14
 score:
   band: minimal
   composite: 6.3

@@ -66,7 +66,7 @@ overview: 'SchoolsFirst FCU is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   SchoolsFirst FCU''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 35
+random_paper: 19
 score:
   band: minimal
   composite: 11.3

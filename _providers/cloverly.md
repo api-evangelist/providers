@@ -235,7 +235,7 @@ plans:
 - name: Cloverly Plans Pricing
   plan_count: 3
   slug: cloverly-plans-pricing
-random_paper: 0
+random_paper: 70
 rate_limits:
 - limit_count: 2
   name: Cloverly Rate Limits

@@ -48,7 +48,7 @@ name: Agile Software
 nav: Providers
 network: true
 overview: Agile Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Product Lifecycle Management, PLM, Manufacturing, and Supply Chain.
-random_paper: 74
+random_paper: 57
 score:
   band: minimal
   composite: 5.0

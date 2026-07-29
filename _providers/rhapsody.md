@@ -122,7 +122,7 @@ overview: 'Rhapsody publishes 5 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Rhapsody''s developer surface includes authentication, documentation, engineering blog, support, and 11 more developer resources.'
-random_paper: 74
+random_paper: 64
 score:
   band: emerging
   composite: 27.9

@@ -44,7 +44,7 @@ name: Shiru
 nav: Providers
 network: true
 overview: Shiru is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Foodtech.
-random_paper: 75
+random_paper: 69
 score:
   band: minimal
   composite: 4.1

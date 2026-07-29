@@ -63,7 +63,7 @@ overview: 'DCU (Digital Federal Credit Union) is profiled on the [APIs.io](https
 
 
   DCU (Digital Federal Credit Union)''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 60
+random_paper: 26
 score:
   band: minimal
   composite: 11.6

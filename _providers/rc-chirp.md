@@ -39,7 +39,7 @@ name: RC Chirp
 nav: Providers
 network: true
 overview: RC Chirp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 72
+random_paper: 63
 score:
   band: minimal
   composite: 3.2

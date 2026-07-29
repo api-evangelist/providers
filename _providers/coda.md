@@ -182,7 +182,7 @@ plans:
 - name: Coda Plans Pricing
   plan_count: 4
   slug: coda-plans-pricing
-random_paper: 7
+random_paper: 2
 rate_limits:
 - limit_count: 3
   name: Coda Rate Limits

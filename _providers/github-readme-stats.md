@@ -52,7 +52,7 @@ name: GitHub ReadMe Stats
 nav: Providers
 network: true
 overview: GitHub ReadMe Stats publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Source Projects and Public APIs.
-random_paper: 74
+random_paper: 51
 score:
   band: minimal
   composite: 5.0

@@ -104,7 +104,7 @@ overview: 'Transcriptic publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Transcriptic''s developer surface includes documentation, getting-started guide, CLI, authentication, and 10 more developer resources.'
-random_paper: 22
+random_paper: 6
 score:
   band: emerging
   composite: 22.6

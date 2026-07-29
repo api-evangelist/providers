@@ -71,7 +71,7 @@ overview: 'River Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   River Health''s developer surface includes signup flow and 6 more developer resources.'
-random_paper: 27
+random_paper: 12
 score:
   band: minimal
   composite: 12.7

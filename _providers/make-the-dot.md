@@ -83,7 +83,7 @@ overview: 'Make the Dot is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Make the Dot''s developer surface includes pricing, engineering blog, support, getting-started guide, and 6 more developer resources.'
-random_paper: 32
+random_paper: 18
 score:
   band: emerging
   composite: 18.1

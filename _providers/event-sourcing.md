@@ -48,7 +48,7 @@ name: Event Sourcing
 nav: Providers
 network: true
 overview: Event Sourcing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, CQRS, Distributed Systems, and Event Sourcing.
-random_paper: 25
+random_paper: 7
 score:
   band: minimal
   composite: 4.8

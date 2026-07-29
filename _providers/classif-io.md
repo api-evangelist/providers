@@ -80,7 +80,7 @@ plans:
 - name: Classif Io Plans Pricing
   plan_count: 3
   slug: classif-io-plans-pricing
-random_paper: 42
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Classif Io Rate Limits

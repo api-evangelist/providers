@@ -104,7 +104,7 @@ press:
 - date: '2026-05-25'
   title: Delta Air Lines, Inc – Digital Transformation Strategies
   url: https://www.globaldata.com/store/report/delta-air-lines-enterprise-tech-analysis/
-random_paper: 27
+random_paper: 9
 rate_limits:
 - limit_count: 1
   name: Delta Air Lines Rate Limits

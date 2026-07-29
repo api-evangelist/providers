@@ -132,7 +132,7 @@ plans:
 - name: Wireshark Plans Pricing
   plan_count: 3
   slug: wireshark-plans-pricing
-random_paper: 16
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Wireshark Rate Limits

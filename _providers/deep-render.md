@@ -44,7 +44,7 @@ name: Deep Render
 nav: Providers
 network: true
 overview: Deep Render is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Video Compression, and Image Compression.
-random_paper: 59
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

@@ -177,7 +177,7 @@ plans:
 - name: University Of Canterbury Plans Pricing
   plan_count: 2
   slug: university-of-canterbury-plans-pricing
-random_paper: 32
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: University Of Canterbury Rate Limits

@@ -195,7 +195,7 @@ plans:
 - name: Resemble Ai Plans Pricing
   plan_count: 2
   slug: resemble-ai-plans-pricing
-random_paper: 54
+random_paper: 41
 rate_limits:
 - limit_count: 2
   name: Resemble Ai Rate Limits

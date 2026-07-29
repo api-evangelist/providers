@@ -111,7 +111,7 @@ overview: 'Warblerlabs publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Warblerlabs'' developer surface includes documentation, API reference, engineering blog, and 12 more developer resources.'
-random_paper: 49
+random_paper: 35
 score:
   band: emerging
   composite: 24.9

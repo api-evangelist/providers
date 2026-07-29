@@ -52,7 +52,7 @@ name: Wandbox
 nav: Providers
 network: true
 overview: Wandbox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 35
+random_paper: 26
 score:
   band: minimal
   composite: 5.0

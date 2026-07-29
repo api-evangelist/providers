@@ -44,7 +44,7 @@ name: Pento
 nav: Providers
 network: true
 overview: Pento is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payroll, Human Resources, HR, and Fintech.
-random_paper: 70
+random_paper: 64
 score:
   band: minimal
   composite: 5.0

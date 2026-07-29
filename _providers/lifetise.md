@@ -123,7 +123,7 @@ overview: 'Coadjute is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Coadjute''s developer surface includes authentication, support, pricing, engineering blog, and 18 more developer resources.'
-random_paper: 53
+random_paper: 43
 scopes:
 - name: Lifetise Scopes
   scope_count: 14

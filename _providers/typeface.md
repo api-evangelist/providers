@@ -236,7 +236,7 @@ overview: 'Typeface publishes 15 APIs on the [APIs.io](https://apis.io/) network
 
 
   Typeface''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 26 more developer resources.'
-random_paper: 49
+random_paper: 39
 scopes:
 - name: Typeface Scopes
   scope_count: 4

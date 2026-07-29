@@ -370,7 +370,7 @@ plans:
 - name: Weblogic Plans Pricing
   plan_count: 1
   slug: weblogic-plans-pricing
-random_paper: 44
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: Weblogic Rate Limits

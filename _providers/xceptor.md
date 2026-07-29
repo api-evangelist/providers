@@ -330,7 +330,7 @@ plans:
 - name: Xceptor Plans Pricing
   plan_count: 1
   slug: xceptor-plans-pricing
-random_paper: 53
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Xceptor Rate Limits

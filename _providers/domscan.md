@@ -43,7 +43,7 @@ name: DomScan
 nav: Providers
 network: true
 overview: DomScan publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include domains, dns, whois, rdap, and ssl-tls.
-random_paper: 21
+random_paper: 12
 score:
   band: emerging
   composite: 14.4

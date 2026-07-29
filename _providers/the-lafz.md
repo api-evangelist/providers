@@ -108,7 +108,7 @@ overview: 'The Lafz publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   The Lafz''s developer surface includes authentication, support, engineering blog, and 11 more developer resources.'
-random_paper: 75
+random_paper: 66
 score:
   band: emerging
   composite: 17.8

@@ -220,7 +220,7 @@ plans:
 - name: Apache Pulsar Plans Pricing
   plan_count: 3
   slug: apache-pulsar-plans-pricing
-random_paper: 38
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Apache Pulsar Rate Limits

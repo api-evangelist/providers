@@ -52,7 +52,7 @@ name: Flagstar
 nav: Providers
 network: true
 overview: Flagstar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, United States, National Bank, and Super-Regional Bank.
-random_paper: 52
+random_paper: 42
 score:
   band: minimal
   composite: 9.4

@@ -743,7 +743,7 @@ plans:
 - name: Microsoft Azure Key Vault Plans Pricing
   plan_count: 3
   slug: microsoft-azure-key-vault-plans-pricing
-random_paper: 73
+random_paper: 42
 rate_limits:
 - limit_count: 13
   name: Azure Key Vault Rate Limits

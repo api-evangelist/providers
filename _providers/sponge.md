@@ -204,7 +204,7 @@ overview: 'Sponge publishes 10 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sponge''s developer surface includes documentation, getting-started guide, support, signup flow, authentication, CLI, sandbox, and 20 more developer resources.'
-random_paper: 12
+random_paper: 4
 scopes:
 - name: Sponge Scopes
   scope_count: 5

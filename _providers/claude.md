@@ -673,7 +673,7 @@ plans:
 - name: Claude Plans Pricing
   plan_count: 13
   slug: claude-plans-pricing
-random_paper: 62
+random_paper: 55
 rate_limits:
 - limit_count: 38
   name: Claude Rate Limits

@@ -282,7 +282,7 @@ plans:
 - name: Lunar Energy Plans Pricing
   plan_count: 4
   slug: lunar-energy-plans-pricing
-random_paper: 41
+random_paper: 26
 rate_limits:
 - limit_count: 3
   name: Lunar Energy Rate Limits

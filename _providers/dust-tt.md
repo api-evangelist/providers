@@ -460,7 +460,7 @@ plans:
 - name: Dust Plans Pricing
   plan_count: 2
   slug: dust-plans-pricing
-random_paper: 5
+random_paper: 77
 rate_limits:
 - limit_count: 4
   name: Dust Rate Limits

@@ -44,7 +44,7 @@ name: Brightmail
 nav: Providers
 network: true
 overview: Brightmail is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Email, Anti-Spam, Email Security, and Security.
-random_paper: 19
+random_paper: 6
 score:
   band: minimal
   composite: 4.3

@@ -44,7 +44,7 @@ name: Spaceape
 nav: Providers
 network: true
 overview: Spaceape is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Mobile Games, and Video Games.
-random_paper: 34
+random_paper: 24
 score:
   band: minimal
   composite: 5.0

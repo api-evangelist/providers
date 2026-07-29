@@ -91,7 +91,7 @@ overview: 'Lala is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Lala''s developer surface includes pricing, signup flow, support, FAQ, and 8 more developer resources.'
-random_paper: 10
+random_paper: 5
 score:
   band: emerging
   composite: 13.1

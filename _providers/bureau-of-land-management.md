@@ -93,7 +93,7 @@ plans:
 - name: Bureau Of Land Management Plans Pricing
   plan_count: 3
   slug: bureau-of-land-management-plans-pricing
-random_paper: 60
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Bureau Of Land Management Rate Limits

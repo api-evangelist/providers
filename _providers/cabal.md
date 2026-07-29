@@ -91,7 +91,7 @@ overview: 'Cabal is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Cabal''s developer surface includes engineering blog, pricing, and 9 more developer resources.'
-random_paper: 19
+random_paper: 13
 score:
   band: minimal
   composite: 12.5

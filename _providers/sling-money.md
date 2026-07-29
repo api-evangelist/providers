@@ -111,7 +111,7 @@ overview: 'Sling Money is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Sling Money''s developer surface includes engineering blog, support, pricing, and 14 more developer resources.'
-random_paper: 18
+random_paper: 4
 score:
   band: emerging
   composite: 26.8

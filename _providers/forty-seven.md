@@ -48,7 +48,7 @@ name: Forty Seven *
 nav: Providers
 network: true
 overview: Forty Seven * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Immuno-Oncology, and Oncology.
-random_paper: 34
+random_paper: 20
 score:
   band: minimal
   composite: 5.4

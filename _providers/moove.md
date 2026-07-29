@@ -63,7 +63,7 @@ overview: 'Moove is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Moove''s developer surface includes engineering blog, support, signup flow, and 2 more developer resources.'
-random_paper: 70
+random_paper: 64
 score:
   band: minimal
   composite: 8.9

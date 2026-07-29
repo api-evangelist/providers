@@ -48,7 +48,7 @@ name: mogujie
 nav: Providers
 network: true
 overview: mogujie is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Fashion, Social Commerce, and Live Streaming.
-random_paper: 32
+random_paper: 23
 score:
   band: minimal
   composite: 5.0

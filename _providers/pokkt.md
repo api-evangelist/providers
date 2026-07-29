@@ -59,7 +59,7 @@ overview: 'Pokkt is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Pokkt''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 73
+random_paper: 67
 score:
   band: minimal
   composite: 7.4

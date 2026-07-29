@@ -39,7 +39,7 @@ name: Semantic Kernel
 nav: Providers
 network: true
 overview: Semantic Kernel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Agents, AI, LLM, Orchestration, and SDK.
-random_paper: 18
+random_paper: 80
 score:
   band: minimal
   composite: 4.4

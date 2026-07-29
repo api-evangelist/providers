@@ -71,7 +71,7 @@ overview: 'Empirico is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Empirico''s developer surface includes product news and 6 more developer resources.'
-random_paper: 56
+random_paper: 46
 score:
   band: minimal
   composite: 9.3

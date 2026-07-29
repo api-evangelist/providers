@@ -63,7 +63,7 @@ overview: 'Iconbuild is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Iconbuild''s developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 73
+random_paper: 62
 score:
   band: minimal
   composite: 10.5

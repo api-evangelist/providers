@@ -142,7 +142,7 @@ plans:
 - name: Plasmic Plans Pricing
   plan_count: 1
   slug: plasmic-plans-pricing
-random_paper: 25
+random_paper: 16
 rate_limits:
 - limit_count: 2
   name: Plasmic Rate Limits

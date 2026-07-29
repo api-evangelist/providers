@@ -161,7 +161,7 @@ overview: 'Subspace publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Subspace''s developer surface includes documentation, API reference, pricing, signup flow, authentication, and 19 more developer resources.'
-random_paper: 54
+random_paper: 44
 scopes:
 - name: Subspace Scopes
   scope_count: 9

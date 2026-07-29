@@ -189,7 +189,7 @@ plans:
 - name: Postalcodes Info Plans Pricing
   plan_count: 1
   slug: postalcodes-info-plans-pricing
-random_paper: 58
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Postalcodes Info Rate Limits

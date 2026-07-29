@@ -361,7 +361,7 @@ plans:
 - name: Jack Henry Plans Pricing
   plan_count: 2
   slug: jack-henry-plans-pricing
-random_paper: 44
+random_paper: 32
 rate_limits:
 - limit_count: 0
   name: Jack Henry Rate Limits

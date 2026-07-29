@@ -67,7 +67,7 @@ overview: 'Elligo Health Research is profiled on the [APIs.io](https://apis.io/)
 
 
   Elligo Health Research''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 31
+random_paper: 5
 score:
   band: minimal
   composite: 9.6

@@ -183,7 +183,7 @@ overview: 'Human API publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Human API''s developer surface includes authentication, documentation, API reference, getting-started guide, CLI, and 27 more developer resources.'
-random_paper: 16
+random_paper: 5
 score:
   band: developing
   composite: 44.5

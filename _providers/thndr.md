@@ -67,7 +67,7 @@ overview: 'Thndr is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Thndr''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 64
+random_paper: 58
 score:
   band: emerging
   composite: 13.2

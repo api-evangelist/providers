@@ -219,7 +219,7 @@ overview: 'Sibill publishes 12 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Sibill''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 79
+random_paper: 72
 rate_limits:
 - limit_count: 0
   name: Sibill Rate Limits

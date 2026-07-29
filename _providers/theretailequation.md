@@ -63,7 +63,7 @@ overview: 'Theretailequation is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Theretailequation''s developer surface includes support and 4 more developer resources.'
-random_paper: 72
+random_paper: 50
 score:
   band: minimal
   composite: 10.1

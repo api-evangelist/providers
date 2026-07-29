@@ -146,7 +146,7 @@ overview: 'Weel publishes 1 API on the [APIs.io](https://apis.io/) network: Open
 
 
   Weel''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, changelog, support, and 17 more developer resources.'
-random_paper: 29
+random_paper: 24
 score:
   band: developing
   composite: 47.0

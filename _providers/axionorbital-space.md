@@ -52,7 +52,7 @@ name: Axionorbital Space
 nav: Providers
 network: true
 overview: Axionorbital Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Earth Observation, Satellite Imagery, Artificial Intelligence, and Computer Vision.
-random_paper: 21
+random_paper: 79
 score:
   band: minimal
   composite: 5.7

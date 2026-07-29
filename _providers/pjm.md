@@ -234,7 +234,7 @@ overview: 'PJM Interconnection publishes 6 APIs on the [APIs.io](https://apis.io
 
 
   PJM Interconnection''s developer surface includes documentation, signup flow, authentication, engineering blog, support, legal docs, API reference, and 36 more developer resources.'
-random_paper: 7
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Pjm Rate Limits

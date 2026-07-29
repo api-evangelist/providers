@@ -180,7 +180,7 @@ overview: 'ironSource is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   ironSource''s developer surface includes documentation, authentication, engineering blog, pricing, YouTube channel, and 29 more developer resources.'
-random_paper: 57
+random_paper: 44
 score:
   band: minimal
   composite: 12.1

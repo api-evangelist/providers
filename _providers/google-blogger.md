@@ -119,7 +119,7 @@ plans:
 - name: Google Blogger Plans Pricing
   plan_count: 3
   slug: google-blogger-plans-pricing
-random_paper: 60
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Google Blogger Rate Limits

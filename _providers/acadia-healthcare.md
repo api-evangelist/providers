@@ -69,7 +69,7 @@ plans:
 - name: Acadia Healthcare Plans Pricing
   plan_count: 0
   slug: acadia-healthcare-plans-pricing
-random_paper: 1
+random_paper: 61
 rate_limits:
 - limit_count: 0
   name: Acadia Healthcare Rate Limits

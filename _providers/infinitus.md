@@ -91,7 +91,7 @@ overview: 'Infinitus is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Infinitus'' developer surface includes pricing, engineering blog, support, and 9 more developer resources.'
-random_paper: 25
+random_paper: 13
 score:
   band: emerging
   composite: 19.9

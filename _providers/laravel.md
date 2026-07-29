@@ -467,7 +467,7 @@ overview: 'Laravel publishes 40 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Laravel''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, pricing, and 34 more developer resources.'
-random_paper: 23
+random_paper: 14
 scopes:
 - name: Laravel Scopes
   scope_count: 62

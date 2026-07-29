@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: Standard Industries Launches a $1 Million AI Challenge to ...
   url: https://www.prnewswire.com/news-releases/standard-industries-launches-a-1-million-ai-challenge-to-transform-chemical-innovation-302082496.html
-random_paper: 72
+random_paper: 63
 score:
   band: minimal
   composite: 11.2

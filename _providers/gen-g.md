@@ -52,7 +52,7 @@ name: Gen.G
 nav: Providers
 network: true
 overview: Gen.G is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Esports, Gaming, Entertainment, and Sports.
-random_paper: 62
+random_paper: 57
 score:
   band: minimal
   composite: 9.2

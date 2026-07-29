@@ -132,7 +132,7 @@ overview: 'Appgain publishes 1 API on the [APIs.io](https://apis.io/) network: O
 
 
   Appgain''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 16
+random_paper: 7
 score:
   band: thin
   composite: 30.6

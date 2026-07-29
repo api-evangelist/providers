@@ -48,7 +48,7 @@ name: SecureInfo Corporation
 nav: Providers
 network: true
 overview: SecureInfo Corporation is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Information Assurance, Compliance, and FISMA.
-random_paper: 0
+random_paper: 52
 score:
   band: minimal
   composite: 5.0

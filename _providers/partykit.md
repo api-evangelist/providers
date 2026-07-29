@@ -120,7 +120,7 @@ plans:
 - name: Partykit Plans Pricing
   plan_count: 1
   slug: partykit-plans-pricing
-random_paper: 8
+random_paper: 78
 rate_limits:
 - limit_count: 2
   name: Partykit Rate Limits

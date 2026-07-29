@@ -87,7 +87,7 @@ overview: 'Grow Therapy is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Grow Therapy''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 57
+random_paper: 42
 score:
   band: emerging
   composite: 16.5

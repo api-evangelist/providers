@@ -71,7 +71,7 @@ overview: 'AI Medical Service is profiled on the [APIs.io](https://apis.io/) net
 
 
   AI Medical Service''s developer surface includes product news and 6 more developer resources.'
-random_paper: 4
+random_paper: 63
 score:
   band: minimal
   composite: 7.1

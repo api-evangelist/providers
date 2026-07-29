@@ -68,7 +68,7 @@ name: Verse
 nav: Providers
 network: true
 overview: Verse publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, API, Connect RPC, gRPC, and Bessemer Portfolio.
-random_paper: 69
+random_paper: 63
 score:
   band: minimal
   composite: 9.3

@@ -188,7 +188,7 @@ overview: 'Zwift is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Zwift''s developer surface includes pricing, support, status page, GitHub presence, YouTube channel, and 31 more developer resources.'
-random_paper: 4
+random_paper: 78
 score:
   band: minimal
   composite: 12.9

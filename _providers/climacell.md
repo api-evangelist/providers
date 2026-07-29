@@ -95,7 +95,7 @@ overview: 'Climacell is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Climacell''s developer surface includes developer portal, documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, and 6 more developer resources.'
-random_paper: 54
+random_paper: 43
 score:
   band: emerging
   composite: 24.0

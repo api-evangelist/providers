@@ -120,7 +120,7 @@ overview: 'CAA Insurance is profiled on the [APIs.io](https://apis.io/) network.
 
 
   CAA Insurance''s developer surface includes authentication, engineering blog, FAQ, support, and 17 more developer resources.'
-random_paper: 26
+random_paper: 10
 scopes:
 - name: Caa Insurance Scopes
   scope_count: 4

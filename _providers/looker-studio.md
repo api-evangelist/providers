@@ -365,7 +365,7 @@ plans:
 - name: Looker Studio Plans Pricing
   plan_count: 2
   slug: looker-studio-plans-pricing
-random_paper: 1
+random_paper: 65
 rate_limits:
 - limit_count: 3
   name: Looker Studio Rate Limits

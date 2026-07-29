@@ -76,7 +76,7 @@ overview: 'Sunyur publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Sunyur''s developer surface includes documentation, authentication, and 5 more developer resources.'
-random_paper: 54
+random_paper: 46
 score:
   band: emerging
   composite: 13.6

@@ -152,7 +152,7 @@ overview: 'Levelset is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Levelset''s developer surface includes pricing, engineering blog, product news, support, GitHub presence, YouTube channel, and 21 more developer resources.'
-random_paper: 32
+random_paper: 17
 score:
   band: minimal
   composite: 11.7

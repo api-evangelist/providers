@@ -95,7 +95,7 @@ overview: 'Manulife is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Manulife''s developer surface includes product news and 12 more developer resources.'
-random_paper: 49
+random_paper: 39
 score:
   band: minimal
   composite: 6.2

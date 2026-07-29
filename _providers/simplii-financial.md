@@ -63,7 +63,7 @@ overview: 'Simplii Financial is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Simplii Financial''s developer surface includes documentation, support, and 5 more developer resources.'
-random_paper: 57
+random_paper: 36
 score:
   band: minimal
   composite: 12.7

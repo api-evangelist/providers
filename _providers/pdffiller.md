@@ -182,7 +182,7 @@ plans:
 - name: Pdffiller Plans Pricing
   plan_count: 3
   slug: pdffiller-plans-pricing
-random_paper: 72
+random_paper: 61
 rate_limits:
 - limit_count: 0
   name: Pdffiller Rate Limits

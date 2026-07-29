@@ -79,7 +79,7 @@ overview: 'Sentient is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Sentient''s developer surface includes documentation, engineering blog, support, and 6 more developer resources.'
-random_paper: 74
+random_paper: 64
 score:
   band: minimal
   composite: 9.5

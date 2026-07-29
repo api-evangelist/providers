@@ -117,7 +117,7 @@ overview: 'Vertica publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Vertica''s developer surface includes authentication, documentation, support, and 10 more developer resources.'
-random_paper: 30
+random_paper: 21
 score:
   band: emerging
   composite: 25.6

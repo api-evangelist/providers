@@ -39,7 +39,7 @@ name: WiTag
 nav: Providers
 network: true
 overview: WiTag is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Augmented Reality, Gaming, Mobile, and Laser Tag.
-random_paper: 60
+random_paper: 54
 score:
   band: minimal
   composite: 5.0

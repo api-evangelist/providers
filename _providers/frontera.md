@@ -71,7 +71,7 @@ overview: 'Frontera is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Frontera''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 65
+random_paper: 55
 score:
   band: emerging
   composite: 13.4

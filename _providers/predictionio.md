@@ -99,7 +99,7 @@ overview: 'PredictionIO publishes 2 APIs on the [APIs.io](https://apis.io/) netw
 
 
   PredictionIO''s developer surface includes documentation, API reference, getting-started guide, authentication, and 8 more developer resources.'
-random_paper: 9
+random_paper: 74
 score:
   band: emerging
   composite: 17.5

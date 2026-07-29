@@ -171,7 +171,7 @@ overview: 'Notarize publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Notarize''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 76
+random_paper: 66
 scopes:
 - name: Notarize Scopes
   scope_count: 2

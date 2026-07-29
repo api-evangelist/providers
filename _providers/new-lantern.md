@@ -71,7 +71,7 @@ overview: 'New Lantern is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   New Lantern''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 11
+random_paper: 78
 score:
   band: emerging
   composite: 13.1

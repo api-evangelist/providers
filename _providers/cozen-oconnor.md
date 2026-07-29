@@ -115,7 +115,7 @@ name: Cozen O'Connor
 nav: Providers
 network: true
 overview: Cozen O'Connor publishes 3 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Am Law 100, Corporate Law, Government Affairs, Insurance Law, and Intellectual Property.
-random_paper: 74
+random_paper: 58
 score:
   band: minimal
   composite: 6.5

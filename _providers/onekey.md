@@ -147,7 +147,7 @@ overview: 'OneKey is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   OneKey''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, pricing, and 19 more developer resources.'
-random_paper: 11
+random_paper: 3
 score:
   band: thin
   composite: 36.4

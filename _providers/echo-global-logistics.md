@@ -172,7 +172,7 @@ plans:
 - name: Echo Global Logistics Plans Pricing
   plan_count: 1
   slug: echo-global-logistics-plans-pricing
-random_paper: 27
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Echo Global Logistics Rate Limits

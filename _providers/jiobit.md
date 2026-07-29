@@ -67,7 +67,7 @@ overview: 'Jiobit is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Jiobit''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 1
+random_paper: 74
 score:
   band: minimal
   composite: 10.5

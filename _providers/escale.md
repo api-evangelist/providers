@@ -79,7 +79,7 @@ overview: 'Escale is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Escale''s developer surface includes support and 8 more developer resources.'
-random_paper: 61
+random_paper: 54
 score:
   band: emerging
   composite: 15.9

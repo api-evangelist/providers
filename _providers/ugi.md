@@ -105,7 +105,7 @@ press:
 - date: '2026-05-25'
   title: 'Press Release: UGI Selects IntelliShift for Vehicle AI Video ...'
   url: https://intellishift.com/resources/blog/press-release-ugi-selects-intellishift-for-vehicle-ai-video-deployment/
-random_paper: 5
+random_paper: 1
 rate_limits:
 - limit_count: 1
   name: Ugi Rate Limits

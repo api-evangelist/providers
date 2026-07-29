@@ -48,7 +48,7 @@ name: Webfinanceholding
 nav: Providers
 network: true
 overview: Webfinanceholding is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Holding Company, Debt Portfolio Management, and Receivables.
-random_paper: 23
+random_paper: 1
 score:
   band: minimal
   composite: 5.6

@@ -278,7 +278,7 @@ plans:
 - name: Hugging Face Transformers Plans Pricing
   plan_count: 3
   slug: hugging-face-transformers-plans-pricing
-random_paper: 72
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Hugging Face Transformers Rate Limits

@@ -80,7 +80,7 @@ overview: 'Approve.com publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Approve.com''s developer surface includes documentation, API reference, authentication, sandbox, and 4 more developer resources.'
-random_paper: 44
+random_paper: 31
 score:
   band: emerging
   composite: 15.1

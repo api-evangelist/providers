@@ -401,7 +401,7 @@ plans:
 - name: Spree Plans Pricing
   plan_count: 2
   slug: spree-plans-pricing
-random_paper: 63
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Spree Rate Limits

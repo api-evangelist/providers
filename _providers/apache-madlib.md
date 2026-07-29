@@ -118,7 +118,7 @@ plans:
 - name: Apache Madlib Plans Pricing
   plan_count: 3
   slug: apache-madlib-plans-pricing
-random_paper: 72
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Apache Madlib Rate Limits

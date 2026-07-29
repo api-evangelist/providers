@@ -48,7 +48,7 @@ name: Standard Economics
 nav: Providers
 network: true
 overview: Standard Economics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Fintech, Financial Inclusion, and Capital Allocation.
-random_paper: 14
+random_paper: 72
 score:
   band: minimal
   composite: 5.0

@@ -131,7 +131,7 @@ plans:
 - name: Herald Plans Pricing
   plan_count: 1
   slug: herald-plans-pricing
-random_paper: 64
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: Herald Rate Limits

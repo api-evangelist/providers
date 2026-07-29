@@ -56,7 +56,7 @@ name: Eatsii
 nav: Providers
 network: true
 overview: Eatsii is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Cloud Kitchen, Food Delivery, and Restaurants.
-random_paper: 79
+random_paper: 72
 score:
   band: minimal
   composite: 5.0

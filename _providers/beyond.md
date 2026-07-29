@@ -204,7 +204,7 @@ overview: 'Beyond publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Beyond''s developer surface includes documentation, API reference, getting-started guide, pricing, signup flow, support, engineering blog, and 23 more developer resources.'
-random_paper: 1
+random_paper: 74
 scopes:
 - name: Beyond Scopes
   scope_count: 9

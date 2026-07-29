@@ -110,7 +110,7 @@ plans:
 - name: Rest Assured Plans Pricing
   plan_count: 3
   slug: rest-assured-plans-pricing
-random_paper: 50
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Rest Assured Rate Limits

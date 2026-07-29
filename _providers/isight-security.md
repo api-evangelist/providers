@@ -39,7 +39,7 @@ name: iSIGHT Security
 nav: Providers
 network: true
 overview: iSIGHT Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Security, Threat Intelligence, and Venture Backed.
-random_paper: 61
+random_paper: 42
 score:
   band: minimal
   composite: 5.0

@@ -60,7 +60,7 @@ name: Krunch
 nav: Providers
 network: true
 overview: Krunch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consulting, Services, Product Management, and Engineering.
-random_paper: 11
+random_paper: 3
 score:
   band: minimal
   composite: 6.9

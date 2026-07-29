@@ -52,7 +52,7 @@ name: Discovered Materials
 nav: Providers
 network: true
 overview: Discovered Materials is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Materials Science, Semiconductors, and Deep Tech.
-random_paper: 71
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

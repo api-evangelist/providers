@@ -636,7 +636,7 @@ plans:
 - name: Shodan Plans Pricing
   plan_count: 6
   slug: shodan-plans-pricing
-random_paper: 77
+random_paper: 70
 rate_limits:
 - limit_count: 17
   name: Shodan Rate Limits

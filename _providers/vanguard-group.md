@@ -227,7 +227,7 @@ overview: 'The Vanguard Group is profiled on the [APIs.io](https://apis.io/) net
 
 
   The Vanguard Group''s developer surface includes YouTube channel, GitHub presence, and 33 more developer resources.'
-random_paper: 18
+random_paper: 0
 score:
   band: emerging
   composite: 19.3

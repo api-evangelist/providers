@@ -91,7 +91,7 @@ overview: 'WunderGraph Cloud publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   WunderGraph Cloud''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 11
+random_paper: 70
 score:
   band: emerging
   composite: 23.4

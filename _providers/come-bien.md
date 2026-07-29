@@ -79,7 +79,7 @@ overview: 'Come Bien is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Come Bien''s developer surface includes signup flow, support, and 7 more developer resources.'
-random_paper: 79
+random_paper: 69
 score:
   band: minimal
   composite: 10.6

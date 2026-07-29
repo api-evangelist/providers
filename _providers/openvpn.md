@@ -94,7 +94,7 @@ overview: 'OpenVPN publishes 2 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   OpenVPN''s developer surface includes documentation, pricing, signup flow, support, engineering blog, and 6 more developer resources.'
-random_paper: 54
+random_paper: 45
 score:
   band: minimal
   composite: 12.7

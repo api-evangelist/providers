@@ -174,7 +174,7 @@ overview: 'Superlog publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Superlog''s developer surface includes documentation, API reference, getting-started guide, signup flow, authentication, CLI, and 17 more developer resources.'
-random_paper: 1
+random_paper: 71
 scopes:
 - name: Superlog Scopes
   scope_count: 3

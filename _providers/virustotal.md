@@ -514,7 +514,7 @@ plans:
 - name: Virustotal Plans Pricing
   plan_count: 3
   slug: virustotal-plans-pricing
-random_paper: 77
+random_paper: 64
 rate_limits:
 - limit_count: 10
   name: Virustotal Rate Limits

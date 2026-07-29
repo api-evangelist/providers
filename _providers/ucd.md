@@ -170,7 +170,7 @@ plans:
 - name: Ucd Plans Pricing
   plan_count: 2
   slug: ucd-plans-pricing
-random_paper: 76
+random_paper: 73
 rate_limits:
 - limit_count: 1
   name: Ucd Rate Limits

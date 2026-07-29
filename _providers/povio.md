@@ -71,7 +71,7 @@ overview: 'Povio is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Povio''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 77
+random_paper: 71
 score:
   band: minimal
   composite: 10.3

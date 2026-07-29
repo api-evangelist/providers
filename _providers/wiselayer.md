@@ -75,7 +75,7 @@ overview: 'Wiselayer is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Wiselayer''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 21
+random_paper: 9
 score:
   band: emerging
   composite: 15.4

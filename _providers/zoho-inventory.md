@@ -367,7 +367,7 @@ plans:
 - name: Zoho Inventory Plans Pricing
   plan_count: 5
   slug: zoho-inventory-plans-pricing
-random_paper: 59
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Zoho Inventory Rate Limits

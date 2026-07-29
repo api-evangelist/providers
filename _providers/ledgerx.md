@@ -139,7 +139,7 @@ overview: 'LedgerX (MIAX Derivatives Exchange) publishes 1 API on the [APIs.io](
 
 
   LedgerX (MIAX Derivatives Exchange)''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, changelog, authentication, and 13 more developer resources.'
-random_paper: 27
+random_paper: 18
 rate_limits:
 - limit_count: 0
   name: Ledgerx Rate Limits

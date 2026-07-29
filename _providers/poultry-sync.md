@@ -63,7 +63,7 @@ overview: 'Poultry sync is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Poultry sync''s developer surface includes support and 4 more developer resources.'
-random_paper: 9
+random_paper: 74
 score:
   band: minimal
   composite: 7.7

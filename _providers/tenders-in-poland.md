@@ -52,7 +52,7 @@ name: Tenders in Poland
 nav: Providers
 network: true
 overview: Tenders in Poland publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Business and Public APIs.
-random_paper: 20
+random_paper: 80
 score:
   band: minimal
   composite: 5.7

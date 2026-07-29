@@ -48,7 +48,7 @@ name: Okol
 nav: Providers
 network: true
 overview: Okol is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Property, Marketplace, and Listings.
-random_paper: 37
+random_paper: 32
 score:
   band: minimal
   composite: 5.0

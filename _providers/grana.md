@@ -48,7 +48,7 @@ name: Grana
 nav: Providers
 network: true
 overview: Grana is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fashion, Apparel, E-Commerce, and Direct-to-Consumer.
-random_paper: 41
+random_paper: 35
 score:
   band: minimal
   composite: 5.0

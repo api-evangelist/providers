@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: 'Bull of the Day: MasTec, Inc. (MTZ)'
   url: https://finance.yahoo.com/news/bull-day-mastec-inc-mtz-080000848.html
-random_paper: 77
+random_paper: 70
 score:
   band: minimal
   composite: 4.7

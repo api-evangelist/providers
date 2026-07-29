@@ -207,7 +207,7 @@ overview: 'Factorial publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Factorial''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 21 more developer resources.'
-random_paper: 69
+random_paper: 58
 scopes:
 - name: Factorial Scopes
   scope_count: 2

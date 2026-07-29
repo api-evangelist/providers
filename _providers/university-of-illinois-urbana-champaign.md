@@ -187,7 +187,7 @@ plans:
 - name: University Of Illinois Urbana Champaign Plans Pricing
   plan_count: 2
   slug: university-of-illinois-urbana-champaign-plans-pricing
-random_paper: 31
+random_paper: 63
 rate_limits:
 - limit_count: 1
   name: University Of Illinois Urbana Champaign Rate Limits

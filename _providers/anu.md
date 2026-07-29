@@ -99,7 +99,7 @@ plans:
 - name: Anu Plans Pricing
   plan_count: 2
   slug: anu-plans-pricing
-random_paper: 4
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Anu Rate Limits

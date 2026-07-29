@@ -118,7 +118,7 @@ plans:
 - name: Inflection Ai Plans Pricing
   plan_count: 1
   slug: inflection-ai-plans-pricing
-random_paper: 34
+random_paper: 18
 rate_limits:
 - limit_count: 2
   name: Inflection Ai Rate Limits

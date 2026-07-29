@@ -39,7 +39,7 @@ name: iPierian *
 nav: Providers
 network: true
 overview: iPierian * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Life Sciences.
-random_paper: 49
+random_paper: 39
 score:
   band: minimal
   composite: 3.5

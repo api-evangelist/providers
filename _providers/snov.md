@@ -139,7 +139,7 @@ plans:
 - name: Snov Plans Pricing
   plan_count: 5
   slug: snov-plans-pricing
-random_paper: 54
+random_paper: 49
 rate_limits:
 - limit_count: 4
   name: Snov Rate Limits

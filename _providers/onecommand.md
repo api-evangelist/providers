@@ -44,7 +44,7 @@ name: OneCommand
 nav: Providers
 network: true
 overview: OneCommand is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Marketing, Customer Loyalty, and Marketing Automation.
-random_paper: 17
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

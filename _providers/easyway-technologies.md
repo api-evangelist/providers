@@ -52,7 +52,7 @@ name: EasyWay Technologies
 nav: Providers
 network: true
 overview: EasyWay Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hospitality, Artificial Intelligence, Conversational AI, and Guest Experience.
-random_paper: 20
+random_paper: 75
 score:
   band: minimal
   composite: 7.1

@@ -164,7 +164,7 @@ plans:
 - name: Digicert Plans Pricing
   plan_count: 3
   slug: digicert-plans-pricing
-random_paper: 43
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Digicert Rate Limits

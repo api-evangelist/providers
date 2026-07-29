@@ -96,7 +96,7 @@ plans:
 - name: Vertex Pharmaceuticals Plans Pricing
   plan_count: 1
   slug: vertex-pharmaceuticals-plans-pricing
-random_paper: 65
+random_paper: 37
 rate_limits:
 - limit_count: 1
   name: Vertex Pharmaceuticals Rate Limits

@@ -64,7 +64,7 @@ name: Nazar
 nav: Providers
 network: true
 overview: Nazar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Database, Database Monitoring, Performance, and Observability.
-random_paper: 60
+random_paper: 54
 score:
   band: minimal
   composite: 8.4

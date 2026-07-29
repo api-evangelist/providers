@@ -136,7 +136,7 @@ plans:
 - name: Sambanova Plans Pricing
   plan_count: 1
   slug: sambanova-plans-pricing
-random_paper: 72
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Sambanova Rate Limits

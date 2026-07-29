@@ -192,7 +192,7 @@ overview: 'Supermetrics publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Supermetrics'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 38
+random_paper: 22
 scopes:
 - name: Supermetrics Scopes
   scope_count: 13

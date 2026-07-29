@@ -99,7 +99,7 @@ overview: 'ObjectBox is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   ObjectBox''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, and 9 more developer resources.'
-random_paper: 0
+random_paper: 69
 score:
   band: emerging
   composite: 19.6

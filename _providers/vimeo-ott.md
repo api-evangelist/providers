@@ -127,7 +127,7 @@ plans:
 - name: Vimeo Ott Plans Pricing
   plan_count: 2
   slug: vimeo-ott-plans-pricing
-random_paper: 52
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Vimeo Ott Rate Limits

@@ -131,7 +131,7 @@ plans:
 - name: Bird Com Plans Pricing
   plan_count: 4
   slug: bird-com-plans-pricing
-random_paper: 61
+random_paper: 52
 rate_limits:
 - limit_count: 6
   name: Bird Com Rate Limits

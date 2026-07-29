@@ -87,7 +87,7 @@ overview: 'Almanac Leie1 publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Almanac Leie1''s developer surface includes documentation, API reference, support, pricing, changelog, and 5 more developer resources.'
-random_paper: 26
+random_paper: 11
 score:
   band: emerging
   composite: 23.5

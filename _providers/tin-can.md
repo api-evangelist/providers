@@ -104,7 +104,7 @@ overview: 'Tin Can is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Tin Can''s developer surface includes support, engineering blog, pricing, authentication, and 10 more developer resources.'
-random_paper: 42
+random_paper: 34
 scopes:
 - name: Tin Can Scopes
   scope_count: 4

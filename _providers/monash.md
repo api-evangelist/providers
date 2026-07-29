@@ -182,7 +182,7 @@ plans:
 - name: Monash Plans Pricing
   plan_count: 2
   slug: monash-plans-pricing
-random_paper: 6
+random_paper: 79
 rate_limits:
 - limit_count: 1
   name: Monash Rate Limits

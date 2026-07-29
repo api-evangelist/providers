@@ -151,7 +151,7 @@ overview: 'BambooHR publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   BambooHR''s developer surface includes authentication, documentation, API reference, signup flow, pricing, support, and 10 more developer resources.'
-random_paper: 42
+random_paper: 32
 scopes:
 - name: Bamboohr Scopes
   scope_count: 1

@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: National Oilwell Varco, Inc. Second Quarter 2020 Earnings ...
   url: https://investors.nov.com/static-files/a35a11c0-867d-4ade-a3f2-6d99ac8f1e20
-random_paper: 3
+random_paper: 56
 score:
   band: minimal
   composite: 5.5

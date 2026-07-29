@@ -238,7 +238,7 @@ overview: 'Talkable publishes 26 APIs on the [APIs.io](https://apis.io/) network
 
 
   Talkable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 20 more developer resources.'
-random_paper: 32
+random_paper: 22
 scopes:
 - name: Talkable Scopes
   scope_count: 3

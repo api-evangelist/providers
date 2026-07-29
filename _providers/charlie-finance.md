@@ -75,7 +75,7 @@ overview: 'Charlie Finance is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Charlie Finance''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 57
+random_paper: 39
 score:
   band: emerging
   composite: 13.8

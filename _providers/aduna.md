@@ -169,7 +169,7 @@ overview: 'Aduna publishes 3 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Aduna''s developer surface includes authentication, changelog, documentation, engineering blog, support, and 26 more developer resources.'
-random_paper: 41
+random_paper: 35
 scopes:
 - name: Aduna Scopes
   scope_count: 4

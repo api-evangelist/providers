@@ -71,7 +71,7 @@ overview: 'Conceive is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Conceive''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 44
+random_paper: 34
 score:
   band: emerging
   composite: 13.4

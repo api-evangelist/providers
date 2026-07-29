@@ -87,7 +87,7 @@ overview: 'Gousto is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Gousto''s developer surface includes signup flow, engineering blog, and 9 more developer resources.'
-random_paper: 33
+random_paper: 25
 score:
   band: emerging
   composite: 15.4

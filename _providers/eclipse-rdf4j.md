@@ -129,7 +129,7 @@ plans:
 - name: Eclipse Rdf4J Plans Pricing
   plan_count: 3
   slug: eclipse-rdf4j-plans-pricing
-random_paper: 60
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Eclipse Rdf4J Rate Limits

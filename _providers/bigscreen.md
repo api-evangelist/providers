@@ -56,7 +56,7 @@ name: BigScreen
 nav: Providers
 network: true
 overview: BigScreen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Virtual Reality, VR, Hardware, and Consumer Electronics.
-random_paper: 66
+random_paper: 55
 score:
   band: minimal
   composite: 9.2

@@ -245,7 +245,7 @@ plans:
 - name: Itron Plans Pricing
   plan_count: 4
   slug: itron-plans-pricing
-random_paper: 76
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Itron Rate Limits

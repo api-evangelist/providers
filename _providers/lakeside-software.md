@@ -154,7 +154,7 @@ overview: 'Lakeside Software publishes 2 APIs on the [APIs.io](https://apis.io/)
 
 
   Lakeside Software''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 16 more developer resources.'
-random_paper: 74
+random_paper: 53
 score:
   band: developing
   composite: 49.4

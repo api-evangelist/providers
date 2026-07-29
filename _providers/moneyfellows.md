@@ -75,7 +75,7 @@ overview: 'Moneyfellows is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Moneyfellows'' developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 36
+random_paper: 20
 score:
   band: emerging
   composite: 13.1

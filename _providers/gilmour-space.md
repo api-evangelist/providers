@@ -48,7 +48,7 @@ name: Gilmour Space
 nav: Providers
 network: true
 overview: Gilmour Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Aerospace, Rocket Launch, and Space Launch Vehicles.
-random_paper: 56
+random_paper: 40
 score:
   band: minimal
   composite: 5.0

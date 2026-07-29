@@ -160,7 +160,7 @@ plans:
 - name: Papaya Global Plans Pricing
   plan_count: 6
   slug: papaya-global-plans-pricing
-random_paper: 26
+random_paper: 10
 rate_limits:
 - limit_count: 3
   name: Papaya Global Rate Limits

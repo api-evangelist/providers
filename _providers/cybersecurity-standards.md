@@ -22,7 +22,7 @@ modified: '2026-04-28'
 name: Cybersecurity Standards
 nav: Providers
 network: true
-random_paper: 30
+random_paper: 0
 slug: cybersecurity-standards
 tags:
 - CIS Controls

@@ -56,7 +56,7 @@ name: Xiudan (Showball)
 nav: Providers
 network: true
 overview: Xiudan (Showball) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Avatars, Virtual Worlds, and Mobile Apps.
-random_paper: 9
+random_paper: 1
 score:
   band: minimal
   composite: 9.0

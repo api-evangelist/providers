@@ -56,7 +56,7 @@ name: Engram
 nav: Providers
 network: true
 overview: Engram is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Machine Learning, LLM, and Model Training.
-random_paper: 74
+random_paper: 67
 score:
   band: minimal
   composite: 5.0

@@ -94,7 +94,7 @@ overview: 'Sage Intacct publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Sage Intacct''s developer surface includes documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 3
+random_paper: 69
 score:
   band: emerging
   composite: 25.2

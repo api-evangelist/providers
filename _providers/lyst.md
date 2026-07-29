@@ -71,7 +71,7 @@ overview: 'LYST is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   LYST''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 60
+random_paper: 55
 score:
   band: minimal
   composite: 9.6

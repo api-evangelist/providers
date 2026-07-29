@@ -59,7 +59,7 @@ overview: 'BlackBuck is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   BlackBuck''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 50
+random_paper: 39
 score:
   band: minimal
   composite: 6.3

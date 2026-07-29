@@ -72,7 +72,7 @@ name: Entegris
 nav: Providers
 network: true
 overview: Entegris is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Advanced Materials, Filtration, Manufacturing, Materials Science, and Microcontamination Control.
-random_paper: 65
+random_paper: 55
 score:
   band: minimal
   composite: 5.1

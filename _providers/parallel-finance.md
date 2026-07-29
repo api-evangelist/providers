@@ -76,7 +76,7 @@ name: Parallel Finance
 nav: Providers
 network: true
 overview: Parallel Finance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Blockchain, Polkadot, and Lending.
-random_paper: 14
+random_paper: 75
 score:
   band: minimal
   composite: 10.7

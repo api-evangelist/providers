@@ -60,7 +60,7 @@ name: Spatialedge
 nav: Providers
 network: true
 overview: Spatialedge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Data, and Analytics.
-random_paper: 35
+random_paper: 21
 score:
   band: minimal
   composite: 7.1

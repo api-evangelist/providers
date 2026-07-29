@@ -297,7 +297,7 @@ press:
 - date: '2026-05-25'
   title: From Dining to Facilities, Aramark Celebrates Innovation ...
   url: https://www.aramark.com/newsroom/news/2026/february/aramark-celebrates-national-innovation-day
-random_paper: 15
+random_paper: 6
 rate_limits:
 - limit_count: 1
   name: Aramark Rate Limits

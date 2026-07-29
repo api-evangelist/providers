@@ -108,7 +108,7 @@ plans:
 - name: Benchsci Plans Pricing
   plan_count: 3
   slug: benchsci-plans-pricing
-random_paper: 31
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Benchsci Rate Limits

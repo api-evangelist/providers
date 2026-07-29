@@ -479,7 +479,7 @@ press:
 - date: '2026-05-25'
   title: Citrix Systems Archives - Software Strategies Blog
   url: http://softwarestrategiesblog.com/tag/citrix-systems/
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 3
   name: Citrix Rate Limits

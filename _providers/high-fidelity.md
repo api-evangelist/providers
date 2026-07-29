@@ -108,7 +108,7 @@ overview: 'High Fidelity publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   High Fidelity''s developer surface includes authentication, changelog, getting-started guide, engineering blog, support, pricing, and 9 more developer resources.'
-random_paper: 39
+random_paper: 23
 score:
   band: emerging
   composite: 24.2

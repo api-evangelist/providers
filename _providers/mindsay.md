@@ -48,7 +48,7 @@ name: Mindsay
 nav: Providers
 network: true
 overview: Mindsay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai/Ml, Conversational AI, Chatbots, and Customer Service.
-random_paper: 37
+random_paper: 28
 score:
   band: minimal
   composite: 5.0

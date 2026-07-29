@@ -112,7 +112,7 @@ overview: 'Alkera Ai is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Alkera Ai''s developer surface includes documentation, getting-started guide, pricing, signup flow, changelog, CLI, and 11 more developer resources.'
-random_paper: 71
+random_paper: 61
 score:
   band: emerging
   composite: 23.7

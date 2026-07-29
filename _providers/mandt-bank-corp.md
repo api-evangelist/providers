@@ -107,7 +107,7 @@ press:
 - date: '2026-05-25'
   title: Rich Data Co & M&T Bank Collaborate to Expand AI Lending
   url: https://insidetelecom.com/rich-data-co-mt-bank-collaborate-to-expand-ai-lending/
-random_paper: 30
+random_paper: 12
 score:
   band: emerging
   composite: 13.1

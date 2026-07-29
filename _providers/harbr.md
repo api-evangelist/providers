@@ -95,7 +95,7 @@ overview: 'Harbr is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Harbr''s developer surface includes documentation, engineering blog, support, changelog, and 9 more developer resources.'
-random_paper: 47
+random_paper: 41
 score:
   band: emerging
   composite: 20.4

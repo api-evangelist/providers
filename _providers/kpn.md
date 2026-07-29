@@ -341,7 +341,7 @@ overview: 'KPN publishes 34 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   KPN''s developer surface includes authentication, documentation, getting-started guide, signup flow, engineering blog, support, changelog, and 38 more developer resources.'
-random_paper: 9
+random_paper: 5
 rate_limits:
 - limit_count: 3
   name: Kpn Rate Limits

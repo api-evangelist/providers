@@ -170,7 +170,7 @@ plans:
 - name: Simplelegal Plans Pricing
   plan_count: 3
   slug: simplelegal-plans-pricing
-random_paper: 47
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Simplelegal Rate Limits

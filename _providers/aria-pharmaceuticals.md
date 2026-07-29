@@ -48,7 +48,7 @@ name: Aria Pharmaceuticals
 nav: Providers
 network: true
 overview: Aria Pharmaceuticals is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Pharmaceuticals, Drug Discovery, Artificial Intelligence, and Biotechnology.
-random_paper: 48
+random_paper: 23
 score:
   band: minimal
   composite: 5.4

@@ -111,7 +111,7 @@ plans:
 - name: Zhejiang Plans Pricing
   plan_count: 2
   slug: zhejiang-plans-pricing
-random_paper: 48
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Zhejiang Rate Limits

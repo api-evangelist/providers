@@ -165,7 +165,7 @@ overview: 'Defence Bank publishes 7 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Defence Bank''s developer surface includes documentation, engineering blog, support, getting-started guide, authentication, and 17 more developer resources.'
-random_paper: 51
+random_paper: 37
 scopes:
 - name: Defence Bank Scopes
   scope_count: 5

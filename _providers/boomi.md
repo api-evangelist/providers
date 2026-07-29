@@ -948,7 +948,7 @@ plans:
 - name: Boomi Plans Pricing
   plan_count: 9
   slug: boomi-plans-pricing
-random_paper: 54
+random_paper: 48
 rate_limits:
 - limit_count: 6
   name: Boomi Rate Limits

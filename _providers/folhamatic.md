@@ -48,7 +48,7 @@ name: Folhamatic
 nav: Providers
 network: true
 overview: Folhamatic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Accounting, Payroll, Tax, and Fiscal.
-random_paper: 8
+random_paper: 76
 score:
   band: minimal
   composite: 5.0

@@ -136,7 +136,7 @@ press:
 - date: '2026-05-25'
   title: Chiquita Brings Immersive Brand Experiences and ...
   url: https://www.prnewswire.com/news-releases/chiquita-brings-immersive-brand-experiences-and-innovation-to-ifpa-2025-302586784.html
-random_paper: 20
+random_paper: 64
 score:
   band: minimal
   composite: 9.7

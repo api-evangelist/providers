@@ -83,7 +83,7 @@ overview: 'Metaview is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Metaview''s developer surface includes pricing, engineering blog, and 8 more developer resources.'
-random_paper: 66
+random_paper: 56
 score:
   band: emerging
   composite: 19.4

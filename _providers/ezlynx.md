@@ -95,7 +95,7 @@ overview: 'EZLynx publishes 5 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   EZLynx''s developer surface includes documentation, API reference, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 42
+random_paper: 34
 score:
   band: emerging
   composite: 15.9

@@ -75,7 +75,7 @@ overview: 'Turquoise Health publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Turquoise Health''s developer surface includes engineering blog, pricing, signup flow, and 4 more developer resources.'
-random_paper: 49
+random_paper: 37
 score:
   band: minimal
   composite: 12.9

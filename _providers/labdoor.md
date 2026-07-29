@@ -95,7 +95,7 @@ overview: 'LabDoor is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   LabDoor''s developer surface includes support, signup flow, and 11 more developer resources.'
-random_paper: 19
+random_paper: 10
 score:
   band: emerging
   composite: 15.6

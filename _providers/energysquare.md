@@ -48,7 +48,7 @@ name: Energysquare
 nav: Providers
 network: true
 overview: Energysquare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Industrial, Energy & Iot.
-random_paper: 27
+random_paper: 11
 score:
   band: minimal
   composite: 4.1

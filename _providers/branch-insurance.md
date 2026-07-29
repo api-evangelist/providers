@@ -141,7 +141,7 @@ overview: 'Branch publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Branch''s developer surface includes developer portal, signup flow, getting-started guide, sandbox, engineering blog, documentation, support, and 15 more developer resources.'
-random_paper: 35
+random_paper: 15
 score:
   band: emerging
   composite: 20.2

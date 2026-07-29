@@ -92,7 +92,7 @@ overview: 'Duroflexworld is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Duroflexworld''s developer surface includes authentication, engineering blog, support, and 8 more developer resources.'
-random_paper: 65
+random_paper: 48
 scopes:
 - name: Duroflexworld Scopes
   scope_count: 4

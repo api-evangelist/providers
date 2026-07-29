@@ -87,7 +87,7 @@ overview: 'DeepStream Technologies is profiled on the [APIs.io](https://apis.io/
 
 
   DeepStream Technologies'' developer surface includes support, engineering blog, pricing, and 8 more developer resources.'
-random_paper: 75
+random_paper: 46
 score:
   band: emerging
   composite: 16.7

@@ -79,7 +79,7 @@ press:
 - date: '2026-05-25'
   title: Diebold Nixdorf taps SeeChange machine learning for self- ...
   url: https://www.kioskmarketplace.com/news/diebold-nixdorf-taps-seechange-machine-learning-for-self-checkout-solutions/
-random_paper: 3
+random_paper: 75
 score:
   band: minimal
   composite: 7.3

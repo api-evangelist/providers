@@ -152,7 +152,7 @@ plans:
 - name: Google Recaptcha Plans Pricing
   plan_count: 3
   slug: google-recaptcha-plans-pricing
-random_paper: 21
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Google Recaptcha Rate Limits

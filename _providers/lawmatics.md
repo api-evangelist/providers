@@ -108,7 +108,7 @@ plans:
 - name: Lawmatics Plans Pricing
   plan_count: 3
   slug: lawmatics-plans-pricing
-random_paper: 5
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Lawmatics Rate Limits

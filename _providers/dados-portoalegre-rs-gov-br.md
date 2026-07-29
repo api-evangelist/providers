@@ -84,7 +84,7 @@ plans:
 - name: Dados Portoalegre Rs Gov Br Plans Pricing
   plan_count: 1
   slug: dados-portoalegre-rs-gov-br-plans-pricing
-random_paper: 24
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Dados Portoalegre Rs Gov Br Rate Limits

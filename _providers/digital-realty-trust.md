@@ -51,7 +51,7 @@ overview: 'Digital Realty Trust is profiled on the [APIs.io](https://apis.io/) n
 
 
   Digital Realty Trust''s developer surface includes engineering blog and 1 more developer resources.'
-random_paper: 59
+random_paper: 34
 score:
   band: minimal
   composite: 3.0

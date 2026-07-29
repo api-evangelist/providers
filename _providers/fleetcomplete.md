@@ -114,7 +114,7 @@ plans:
 - name: Fleetcomplete Plans Pricing
   plan_count: 3
   slug: fleetcomplete-plans-pricing
-random_paper: 25
+random_paper: 8
 rate_limits:
 - limit_count: 4
   name: Fleetcomplete Rate Limits

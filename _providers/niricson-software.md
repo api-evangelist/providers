@@ -71,7 +71,7 @@ overview: 'Niricson Software is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Niricson Software''s developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
-random_paper: 29
+random_paper: 7
 score:
   band: minimal
   composite: 11.6

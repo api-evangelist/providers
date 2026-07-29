@@ -44,7 +44,7 @@ name: ZTO Express
 nav: Providers
 network: true
 overview: ZTO Express is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 52
+random_paper: 38
 score:
   band: minimal
   composite: 4.1

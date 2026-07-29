@@ -152,7 +152,7 @@ plans:
 - name: Regulations Gov Plans Pricing
   plan_count: 2
   slug: regulations-gov-plans-pricing
-random_paper: 54
+random_paper: 35
 rate_limits:
 - limit_count: 0
   name: Regulations Gov Rate Limits

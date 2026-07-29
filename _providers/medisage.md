@@ -67,7 +67,7 @@ overview: 'MediSage is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   MediSage''s developer surface includes signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 31
+random_paper: 21
 score:
   band: minimal
   composite: 8.0

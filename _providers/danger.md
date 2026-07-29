@@ -39,7 +39,7 @@ name: Danger
 nav: Providers
 network: true
 overview: Danger is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Mobile, Smartphones, and Consumer Electronics.
-random_paper: 65
+random_paper: 58
 score:
   band: minimal
   composite: 5.0

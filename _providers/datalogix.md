@@ -44,7 +44,7 @@ name: Datalogix
 nav: Providers
 network: true
 overview: Datalogix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Data, Advertising, Marketing, and Analytics.
-random_paper: 77
+random_paper: 66
 score:
   band: minimal
   composite: 5.0

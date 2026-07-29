@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: nsit-ex991_6.pptx.htm
   url: https://www.sec.gov/Archives/edgar/data/932696/000156459019037006/nsit-ex991_6.htm
-random_paper: 7
+random_paper: 63
 score:
   band: minimal
   composite: 3.3

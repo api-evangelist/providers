@@ -178,7 +178,7 @@ overview: 'Lucidya Ltd publishes 6 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Lucidya Ltd''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 20 more developer resources.'
-random_paper: 76
+random_paper: 63
 score:
   band: developing
   composite: 52.3

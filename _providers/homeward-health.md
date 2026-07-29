@@ -68,7 +68,7 @@ name: Homeward Health
 nav: Providers
 network: true
 overview: Homeward Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Rural Health, Value-Based Care, and Medicare Advantage.
-random_paper: 10
+random_paper: 72
 score:
   band: minimal
   composite: 12.0

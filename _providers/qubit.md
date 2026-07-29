@@ -48,7 +48,7 @@ name: QuBit
 nav: Providers
 network: true
 overview: QuBit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Personalization, Ecommerce, Recommendations, and Customer Experience.
-random_paper: 69
+random_paper: 63
 score:
   band: minimal
   composite: 5.0

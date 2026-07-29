@@ -44,7 +44,7 @@ name: Makelog
 nav: Providers
 network: true
 overview: Makelog is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Productivity, ChangeLog, Release Notes, and Product Updates.
-random_paper: 16
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

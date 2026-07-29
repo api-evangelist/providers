@@ -75,7 +75,7 @@ overview: 'Cohere Technologies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Cohere Technologies'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 39
+random_paper: 15
 score:
   band: minimal
   composite: 10.1

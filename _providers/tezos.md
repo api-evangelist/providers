@@ -899,7 +899,7 @@ plans:
 - name: Tezos Plans Pricing
   plan_count: 3
   slug: tezos-plans-pricing
-random_paper: 5
+random_paper: 79
 rate_limits:
 - limit_count: 3
   name: Tezos Rate Limits

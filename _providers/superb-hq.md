@@ -84,7 +84,7 @@ plans:
 - name: Superb Hq Plans Pricing
   plan_count: 3
   slug: superb-hq-plans-pricing
-random_paper: 39
+random_paper: 28
 score:
   band: emerging
   composite: 15.5

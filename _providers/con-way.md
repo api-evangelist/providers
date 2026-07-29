@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: XPO closes purchase of Con-way; layoffs begin within ...
   url: https://www.dcvelocity.com/articles/27607-xpo-closes-purchase-of-con-way-layoffs-begin-within-con-way-system
-random_paper: 62
+random_paper: 54
 score:
   band: minimal
   composite: 5.0

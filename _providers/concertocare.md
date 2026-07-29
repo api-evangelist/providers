@@ -75,7 +75,7 @@ overview: 'ConcertoCare is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   ConcertoCare''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 72
+random_paper: 57
 score:
   band: minimal
   composite: 11.3

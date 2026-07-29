@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: News - Press Release
   url: https://ipc.mitacmdt.com/en-US@AI_Plus_NVR_Is_a_Powerful_Surveillance_Combination~PRDetail
-random_paper: 22
+random_paper: 18
 score:
   band: minimal
   composite: 4.1

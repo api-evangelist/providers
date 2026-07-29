@@ -39,7 +39,7 @@ name: Partitioning
 nav: Providers
 network: true
 overview: Partitioning is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Partitioning, Database, Scalability, and Architecture.
-random_paper: 24
+random_paper: 8
 score:
   band: minimal
   composite: 3.2

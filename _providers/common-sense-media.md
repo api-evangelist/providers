@@ -143,7 +143,7 @@ plans:
 - name: Common Sense Media Plans Pricing
   plan_count: 3
   slug: common-sense-media-plans-pricing
-random_paper: 33
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Common Sense Media Rate Limits

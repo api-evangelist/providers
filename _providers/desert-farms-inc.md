@@ -71,7 +71,7 @@ overview: 'DESERT FARMS INC. is profiled on the [APIs.io](https://apis.io/) netw
 
 
   DESERT FARMS INC.''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 68
+random_paper: 49
 score:
   band: minimal
   composite: 11.6

@@ -104,7 +104,7 @@ overview: 'Defer is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Defer''s developer surface includes documentation, GitHub presence, and 13 more developer resources.'
-random_paper: 24
+random_paper: 13
 score:
   band: minimal
   composite: 7.4

@@ -56,7 +56,7 @@ name: Micro User Service
 nav: Providers
 network: true
 overview: Micro User Service publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Authentication And Authorization and Public APIs.
-random_paper: 68
+random_paper: 46
 score:
   band: minimal
   composite: 5.7

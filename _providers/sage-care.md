@@ -83,7 +83,7 @@ overview: 'Sage Care is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Sage Care''s developer surface includes engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 72
+random_paper: 62
 score:
   band: emerging
   composite: 16.3

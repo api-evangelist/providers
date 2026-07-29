@@ -64,7 +64,7 @@ name: LearnVest
 nav: Providers
 network: true
 overview: LearnVest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Financial Services, Personal Finance, and Financial Planning.
-random_paper: 20
+random_paper: 8
 score:
   band: minimal
   composite: 11.1

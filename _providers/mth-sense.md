@@ -60,7 +60,7 @@ overview: 'mth Sense is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   mth Sense''s developer surface includes support and 3 more developer resources.'
-random_paper: 36
+random_paper: 25
 score:
   band: minimal
   composite: 8.5

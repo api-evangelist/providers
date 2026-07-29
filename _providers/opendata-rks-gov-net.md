@@ -56,7 +56,7 @@ name: opendata.rks-gov.net (Kosovo Open Data) [offline]
 nav: Providers
 network: true
 overview: opendata.rks-gov.net (Kosovo Open Data) [offline] publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data, CKAN, Data Catalog, Government Data, and National Government.
-random_paper: 54
+random_paper: 30
 score:
   band: minimal
   composite: 7.5

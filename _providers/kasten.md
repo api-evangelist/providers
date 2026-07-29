@@ -128,7 +128,7 @@ overview: 'Kasten is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Kasten''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, pricing, changelog, and 14 more developer resources.'
-random_paper: 6
+random_paper: 79
 score:
   band: thin
   composite: 30.2

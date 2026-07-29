@@ -217,7 +217,7 @@ overview: 'Australian Energy Regulator publishes 3 APIs on the [APIs.io](https:/
 
 
   Australian Energy Regulator''s developer surface includes documentation, API reference, engineering blog, getting-started guide, support, authentication, changelog, and 35 more developer resources.'
-random_paper: 72
+random_paper: 69
 rate_limits:
 - limit_count: 0
   name: Aer Rate Limits

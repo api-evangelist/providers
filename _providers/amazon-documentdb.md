@@ -291,7 +291,7 @@ plans:
 - name: Amazon Documentdb Plans Pricing
   plan_count: 3
   slug: amazon-documentdb-plans-pricing
-random_paper: 72
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Amazon Documentdb Rate Limits

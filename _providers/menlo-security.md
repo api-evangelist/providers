@@ -72,7 +72,7 @@ overview: 'Menlo Security is profiled on the [APIs.io](https://apis.io/) network
 
 
   Menlo Security''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 32
+random_paper: 14
 score:
   band: minimal
   composite: 12.1

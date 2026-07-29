@@ -87,7 +87,7 @@ press:
 - date: '2026-05-25'
   title: Lincoln Electric Reports First Quarter 2026 Results
   url: https://www.businesswire.com/news/home/20260430107151/en/Lincoln-Electric-Reports-First-Quarter-2026-Results
-random_paper: 60
+random_paper: 29
 score:
   band: minimal
   composite: 6.5

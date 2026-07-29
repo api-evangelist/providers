@@ -99,7 +99,7 @@ overview: 'Brokk is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Brokk''s developer surface includes documentation, engineering blog, CLI, changelog, and 9 more developer resources.'
-random_paper: 57
+random_paper: 51
 score:
   band: emerging
   composite: 16.1

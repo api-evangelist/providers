@@ -72,7 +72,7 @@ overview: 'Signos is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Signos'' developer surface includes pricing, engineering blog, support, and 4 more developer resources.'
-random_paper: 19
+random_paper: 11
 score:
   band: emerging
   composite: 13.4

@@ -115,7 +115,7 @@ overview: 'Tripledot is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Tripledot''s developer surface includes engineering blog and 16 more developer resources.'
-random_paper: 23
+random_paper: 11
 score:
   band: emerging
   composite: 13.9

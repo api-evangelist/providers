@@ -60,7 +60,7 @@ name: Google Cloud Natural
 nav: Providers
 network: true
 overview: Google Cloud Natural publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Text Analysis and Public APIs.
-random_paper: 21
+random_paper: 77
 score:
   band: minimal
   composite: 5.7

@@ -182,7 +182,7 @@ plans:
 - name: Trybloom Plans Pricing
   plan_count: 5
   slug: trybloom-plans-pricing
-random_paper: 8
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Trybloom Rate Limits

@@ -135,7 +135,7 @@ plans:
 - name: Step Functions Plans Pricing
   plan_count: 3
   slug: step-functions-plans-pricing
-random_paper: 34
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Step Functions Rate Limits

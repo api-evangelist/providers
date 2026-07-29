@@ -110,7 +110,7 @@ plans:
 - name: Scraper Api Plans Pricing
   plan_count: 3
   slug: scraper-api-plans-pricing
-random_paper: 71
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Scraper Api Rate Limits

@@ -271,7 +271,7 @@ plans:
 - name: America Movil Plans
   plan_count: 2
   slug: america-movil-plans
-random_paper: 38
+random_paper: 22
 rate_limits:
 - limit_count: 4
   name: America Movil Rate Limits

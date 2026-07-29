@@ -59,7 +59,7 @@ overview: 'Rumarocket is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Rumarocket''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 45
+random_paper: 32
 score:
   band: minimal
   composite: 5.4

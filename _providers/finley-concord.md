@@ -71,7 +71,7 @@ overview: 'Finley (Concord) is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Finley (Concord)''s developer surface includes documentation, support, and 5 more developer resources.'
-random_paper: 76
+random_paper: 59
 score:
   band: emerging
   composite: 14.4

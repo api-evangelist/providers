@@ -107,7 +107,7 @@ overview: 'Return Path is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Return Path''s developer surface includes engineering blog, support, and 14 more developer resources.'
-random_paper: 26
+random_paper: 12
 score:
   band: emerging
   composite: 14.0

@@ -135,7 +135,7 @@ plans:
 - name: Anodot Plans Pricing
   plan_count: 3
   slug: anodot-plans-pricing
-random_paper: 5
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Anodot Rate Limits

@@ -71,7 +71,7 @@ overview: 'Nave Bank is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Nave Bank''s developer surface includes support, engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 3
+random_paper: 73
 score:
   band: emerging
   composite: 13.8

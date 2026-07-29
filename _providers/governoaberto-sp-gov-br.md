@@ -84,7 +84,7 @@ plans:
 - name: Governoaberto Sp Gov Br Plans Pricing
   plan_count: 1
   slug: governoaberto-sp-gov-br-plans-pricing
-random_paper: 71
+random_paper: 43
 rate_limits:
 - limit_count: 1
   name: Governoaberto Sp Gov Br Rate Limits

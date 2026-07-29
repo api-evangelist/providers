@@ -52,7 +52,7 @@ name: VeeR VR
 nav: Providers
 network: true
 overview: VeeR VR is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Virtual Reality, 360 Video, Video Sharing, and Content Community.
-random_paper: 34
+random_paper: 29
 score:
   band: minimal
   composite: 5.7

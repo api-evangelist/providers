@@ -198,7 +198,7 @@ plans:
 - name: University Of The Witwatersrand Plans Pricing
   plan_count: 2
   slug: university-of-the-witwatersrand-plans-pricing
-random_paper: 14
+random_paper: 55
 rate_limits:
 - limit_count: 1
   name: University Of The Witwatersrand Rate Limits

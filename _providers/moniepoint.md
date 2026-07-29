@@ -516,7 +516,7 @@ plans:
 - name: Moniepoint Plans Pricing
   plan_count: 3
   slug: moniepoint-plans-pricing
-random_paper: 50
+random_paper: 37
 rate_limits:
 - limit_count: 9
   name: Moniepoint Rate Limits

@@ -44,7 +44,7 @@ name: Farmeron
 nav: Providers
 network: true
 overview: Farmeron is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, AgTech, Dairy, and Farm Management.
-random_paper: 58
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

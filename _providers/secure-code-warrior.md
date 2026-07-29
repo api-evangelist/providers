@@ -194,7 +194,7 @@ plans:
 - name: Secure Code Warrior Plans Pricing
   plan_count: 3
   slug: secure-code-warrior-plans-pricing
-random_paper: 2
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Secure Code Warrior Rate Limits

@@ -45,7 +45,7 @@ name: Stacklok
 nav: Providers
 network: true
 overview: Stacklok is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Open Source.
-random_paper: 60
+random_paper: 50
 score:
   band: minimal
   composite: 5.8

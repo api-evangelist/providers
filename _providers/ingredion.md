@@ -71,7 +71,7 @@ press:
 - date: '2026-05-25'
   title: Amyris And Ingredion Partner To Manufacture And Market ...
   url: https://www.prnewswire.com/news-releases/amyris-and-ingredion-partner-to-manufacture-and-market-sugar-reduction-and-fermentation-based-food-ingredients-301282441.html
-random_paper: 79
+random_paper: 68
 score:
   band: minimal
   composite: 3.3

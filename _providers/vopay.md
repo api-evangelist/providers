@@ -278,7 +278,7 @@ overview: 'VoPay publishes 23 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   VoPay''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, engineering blog, support, and 32 more developer resources.'
-random_paper: 79
+random_paper: 73
 score:
   band: developing
   composite: 49.6

@@ -179,7 +179,7 @@ overview: 'End Close publishes 12 APIs on the [APIs.io](https://apis.io/) networ
 
 
   End Close''s developer surface includes authentication and 19 more developer resources.'
-random_paper: 10
+random_paper: 80
 score:
   band: thin
   composite: 37.0

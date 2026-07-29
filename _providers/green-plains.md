@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Green Plains Inc. (GPRE) reports earnings - Quartz
   url: https://qz.com/green-plains-inc-gpre-reports-earnings-1851758511
-random_paper: 21
+random_paper: 6
 score:
   band: minimal
   composite: 4.7

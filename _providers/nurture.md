@@ -63,7 +63,7 @@ overview: 'Nurture is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Nurture''s developer surface includes support, pricing, and 3 more developer resources.'
-random_paper: 69
+random_paper: 60
 score:
   band: minimal
   composite: 12.2

@@ -151,7 +151,7 @@ overview: 'Code publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Code''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, and 17 more developer resources.'
-random_paper: 11
+random_paper: 6
 score:
   band: thin
   composite: 35.2

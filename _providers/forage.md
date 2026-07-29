@@ -195,7 +195,7 @@ overview: 'Forage publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Forage''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 68
+random_paper: 61
 score:
   band: strong
   composite: 56.4

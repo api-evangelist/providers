@@ -44,7 +44,7 @@ name: All Def Digital
 nav: Providers
 network: true
 overview: All Def Digital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Entertainment, Digital Media, and Video.
-random_paper: 0
+random_paper: 63
 score:
   band: minimal
   composite: 5.0

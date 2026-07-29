@@ -127,7 +127,7 @@ overview: 'Deputy publishes 1 API on the [APIs.io](https://apis.io/) network: Pu
 
 
   Deputy''s developer surface includes documentation, getting-started guide, authentication, pricing, signup flow, support, engineering blog, and 13 more developer resources.'
-random_paper: 27
+random_paper: 19
 score:
   band: thin
   composite: 37.3

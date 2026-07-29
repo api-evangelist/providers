@@ -76,7 +76,7 @@ name: Customer Database
 nav: Providers
 network: true
 overview: Customer Database is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Account, Consent, Contacts, CRM, and Customer Data.
-random_paper: 68
+random_paper: 47
 score:
   band: minimal
   composite: 5.0

@@ -44,7 +44,7 @@ name: Humu
 nav: Providers
 network: true
 overview: Humu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Talent.
-random_paper: 47
+random_paper: 42
 score:
   band: minimal
   composite: 4.1

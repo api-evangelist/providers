@@ -113,7 +113,7 @@ plans:
 - name: Midpage Plans Pricing
   plan_count: 4
   slug: midpage-plans-pricing
-random_paper: 7
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Midpage Rate Limits

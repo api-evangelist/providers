@@ -68,7 +68,7 @@ name: Liberate Bio
 nav: Providers
 network: true
 overview: Liberate Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Genetic Medicine, Cell Therapy, and Oncology.
-random_paper: 34
+random_paper: 20
 score:
   band: minimal
   composite: 6.9

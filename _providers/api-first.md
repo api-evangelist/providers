@@ -21,7 +21,7 @@ modified: '2026-04-19'
 name: API-First
 nav: Providers
 network: true
-random_paper: 31
+random_paper: 20
 slug: api-first
 tags:
 - API Design

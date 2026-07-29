@@ -153,7 +153,7 @@ plans:
 - name: Imf Plans Pricing
   plan_count: 1
   slug: imf-plans-pricing
-random_paper: 76
+random_paper: 73
 rate_limits:
 - limit_count: 0
   name: Imf Rate Limits

@@ -52,7 +52,7 @@ name: Seekster
 nav: Providers
 network: true
 overview: Seekster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, On-Demand Services, Home Services, Field Service Management, and Marketplace.
-random_paper: 70
+random_paper: 60
 score:
   band: minimal
   composite: 5.7

@@ -188,7 +188,7 @@ overview: 'Truecaller publishes 4 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Truecaller''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 24 more developer resources.'
-random_paper: 35
+random_paper: 22
 scopes:
 - name: Truecaller Scopes
   scope_count: 6

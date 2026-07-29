@@ -126,7 +126,7 @@ plans:
 - name: Peopledatalabs Plans Pricing
   plan_count: 4
   slug: peopledatalabs-plans-pricing
-random_paper: 33
+random_paper: 15
 rate_limits:
 - limit_count: 7
   name: Peopledatalabs Rate Limits

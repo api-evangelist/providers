@@ -59,7 +59,7 @@ overview: 'Skycatch is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Skycatch''s developer surface includes documentation and 3 more developer resources.'
-random_paper: 58
+random_paper: 48
 score:
   band: minimal
   composite: 9.4

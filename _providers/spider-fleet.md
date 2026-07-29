@@ -48,7 +48,7 @@ name: Spider Fleet
 nav: Providers
 network: true
 overview: Spider Fleet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fleet Management, Mobility, Telematics, and Vehicle Maintenance.
-random_paper: 20
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

@@ -207,7 +207,7 @@ plans:
 - name: Epic Games Plans Pricing
   plan_count: 1
   slug: epic-games-plans-pricing
-random_paper: 27
+random_paper: 15
 rate_limits:
 - limit_count: 2
   name: Epic Games Rate Limits

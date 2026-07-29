@@ -235,7 +235,7 @@ overview: 'Armada publishes 33 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Armada''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 54
+random_paper: 47
 score:
   band: thin
   composite: 36.6

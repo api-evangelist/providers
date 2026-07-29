@@ -71,7 +71,7 @@ overview: 'Sketchdeck.ai is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Sketchdeck.ai''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 51
+random_paper: 36
 score:
   band: emerging
   composite: 13.1

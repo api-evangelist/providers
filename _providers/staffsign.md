@@ -56,7 +56,7 @@ name: staffSign
 nav: Providers
 network: true
 overview: staffSign publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Documents And Productivity and Public APIs.
-random_paper: 5
+random_paper: 74
 score:
   band: minimal
   composite: 5.7

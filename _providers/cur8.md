@@ -88,7 +88,7 @@ overview: 'Cur8 is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Cur8''s developer surface includes engineering blog, signup flow, YouTube channel, and 8 more developer resources.'
-random_paper: 66
+random_paper: 62
 score:
   band: minimal
   composite: 12.3

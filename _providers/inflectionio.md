@@ -180,7 +180,7 @@ overview: 'Inflection.io publishes 4 APIs on the [APIs.io](https://apis.io/) net
 
 
   Inflection.io''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 3
+random_paper: 68
 score:
   band: developing
   composite: 45.6

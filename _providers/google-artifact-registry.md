@@ -150,7 +150,7 @@ plans:
 - name: Google Artifact Registry Plans Pricing
   plan_count: 3
   slug: google-artifact-registry-plans-pricing
-random_paper: 62
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Google Artifact Registry Rate Limits

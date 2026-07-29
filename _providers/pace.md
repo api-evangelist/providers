@@ -48,7 +48,7 @@ name: Pace
 nav: Providers
 network: true
 overview: Pace is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Enterprise Software.
-random_paper: 9
+random_paper: 4
 score:
   band: minimal
   composite: 4.1

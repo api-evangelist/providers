@@ -120,7 +120,7 @@ overview: 'Budget Direct is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Budget Direct''s developer surface includes support and 20 more developer resources.'
-random_paper: 35
+random_paper: 19
 score:
   band: emerging
   composite: 23.6

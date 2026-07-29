@@ -151,7 +151,7 @@ plans:
 - name: Bitwarden Plans Pricing
   plan_count: 6
   slug: bitwarden-plans-pricing
-random_paper: 0
+random_paper: 69
 rate_limits:
 - limit_count: 3
   name: Bitwarden Rate Limits

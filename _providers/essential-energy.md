@@ -188,7 +188,7 @@ overview: 'Essential Energy publishes 3 APIs on the [APIs.io](https://apis.io/) 
 
 
   Essential Energy''s developer surface includes developer portal, documentation, authentication, code examples, support, engineering blog, and 24 more developer resources.'
-random_paper: 63
+random_paper: 43
 score:
   band: thin
   composite: 28.5

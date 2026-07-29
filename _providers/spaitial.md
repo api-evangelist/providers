@@ -195,7 +195,7 @@ overview: 'SpAItial publishes 4 APIs on the [APIs.io](https://apis.io/) network,
 
 
   SpAItial''s developer surface includes authentication, changelog, sandbox, documentation, API reference, getting-started guide, pricing, and 23 more developer resources.'
-random_paper: 55
+random_paper: 45
 scopes:
 - name: Spaitial Scopes
   scope_count: 0

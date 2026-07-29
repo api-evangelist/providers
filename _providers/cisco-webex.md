@@ -635,7 +635,7 @@ plans:
 - name: Cisco Webex Plans Pricing
   plan_count: 4
   slug: cisco-webex-plans-pricing
-random_paper: 73
+random_paper: 60
 rate_limits:
 - limit_count: 3
   name: Cisco Webex Rate Limits

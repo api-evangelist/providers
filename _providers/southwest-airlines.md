@@ -145,7 +145,7 @@ press:
 - date: '2026-05-25'
   title: Southwest uses AI to modernize management software
   url: https://www.pwc.com/us/en/library/case-studies/southwest-ai-software-update.html
-random_paper: 74
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: Southwest Airlines Rate Limits

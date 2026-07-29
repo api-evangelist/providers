@@ -56,7 +56,7 @@ name: Compound Finance
 nav: Providers
 network: true
 overview: Compound Finance publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include DeFi, Lending, Borrowing, Ethereum, and Blockchain.
-random_paper: 69
+random_paper: 59
 score:
   band: emerging
   composite: 16.4

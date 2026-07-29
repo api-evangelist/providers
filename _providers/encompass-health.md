@@ -65,7 +65,7 @@ plans:
 - name: Encompass Health Plans Pricing
   plan_count: 1
   slug: encompass-health-plans-pricing
-random_paper: 44
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Encompass Health Rate Limits

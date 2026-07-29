@@ -321,7 +321,7 @@ plans:
 - name: Alchemy Plans Pricing
   plan_count: 4
   slug: alchemy-plans-pricing
-random_paper: 19
+random_paper: 10
 rate_limits:
 - limit_count: 4
   name: Alchemy Rate Limits

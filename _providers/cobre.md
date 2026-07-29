@@ -154,7 +154,7 @@ overview: 'Cobre publishes 1 API on the [APIs.io](https://apis.io/) network: Pla
 
 
   Cobre''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, sandbox, and 16 more developer resources.'
-random_paper: 43
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Cobre Rate Limits

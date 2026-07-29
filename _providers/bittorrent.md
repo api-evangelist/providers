@@ -83,7 +83,7 @@ overview: 'BitTorrent is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   BitTorrent''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, and 5 more developer resources.'
-random_paper: 61
+random_paper: 48
 score:
   band: emerging
   composite: 16.4

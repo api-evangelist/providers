@@ -1320,7 +1320,7 @@ plans:
 - name: Toast Tab Plans Pricing
   plan_count: 1
   slug: toast-tab-plans-pricing
-random_paper: 31
+random_paper: 20
 rate_limits:
 - limit_count: 1
   name: Toast Tab Rate Limits

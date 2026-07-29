@@ -103,7 +103,7 @@ press:
 - date: '2026-05-25'
   title: 'Ford''s Simple Vision for Smart Tech: Make It for Everyone'
   url: https://www.fromtheroad.ford.com/us/en/articles/2026/ford-affordable-smart-vehicle-technology-strategy
-random_paper: 73
+random_paper: 61
 rate_limits:
 - limit_count: 2
   name: Ford Motor Rate Limits

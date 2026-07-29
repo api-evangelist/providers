@@ -186,7 +186,7 @@ overview: 'Corridor publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Corridor''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 68
+random_paper: 58
 score:
   band: developing
   composite: 54.8

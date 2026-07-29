@@ -107,7 +107,7 @@ overview: 'Known is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Known''s developer surface includes support, signup flow, legal docs, and 13 more developer resources.'
-random_paper: 77
+random_paper: 71
 score:
   band: emerging
   composite: 14.6

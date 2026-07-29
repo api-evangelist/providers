@@ -71,7 +71,7 @@ overview: 'One More Game is profiled on the [APIs.io](https://apis.io/) network.
 
 
   One More Game''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 57
+random_paper: 42
 score:
   band: minimal
   composite: 8.2

@@ -162,7 +162,7 @@ overview: 'Tessian publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Tessian''s developer surface includes documentation, API reference, authentication, support, and 15 more developer resources.'
-random_paper: 39
+random_paper: 30
 score:
   band: thin
   composite: 34.4

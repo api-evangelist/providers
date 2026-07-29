@@ -52,7 +52,7 @@ name: Fabraix
 nav: Providers
 network: true
 overview: Fabraix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI Security, Red Teaming, AI Agents, and Adversarial Verification.
-random_paper: 13
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

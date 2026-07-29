@@ -88,7 +88,7 @@ overview: 'KoBold Metals is profiled on the [APIs.io](https://apis.io/) network.
 
 
   KoBold Metals'' developer surface includes engineering blog, product news, support, and 8 more developer resources.'
-random_paper: 46
+random_paper: 30
 score:
   band: minimal
   composite: 12.4

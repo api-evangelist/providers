@@ -297,7 +297,7 @@ overview: 'CMS — Centers for Medicare & Medicaid Services publishes 25 APIs on
 
 
   CMS — Centers for Medicare & Medicaid Services'' developer surface includes authentication, developer portal, support, sandbox, engineering blog, privacy policy, documentation, and 20 more developer resources.'
-random_paper: 60
+random_paper: 52
 rate_limits:
 - limit_count: 0
   name: Cms Gov Rate Limits

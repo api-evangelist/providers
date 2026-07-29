@@ -106,7 +106,7 @@ plans:
 - name: Lexisnexis Plans Pricing
   plan_count: 3
   slug: lexisnexis-plans-pricing
-random_paper: 60
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Lexisnexis Rate Limits

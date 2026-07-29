@@ -87,7 +87,7 @@ overview: 'Datameer is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Datameer''s developer surface includes documentation, getting-started guide, signup flow, pricing, support, engineering blog, and 5 more developer resources.'
-random_paper: 35
+random_paper: 25
 score:
   band: emerging
   composite: 20.7

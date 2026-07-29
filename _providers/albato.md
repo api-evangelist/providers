@@ -294,7 +294,7 @@ plans:
 - name: Albato Plans Pricing
   plan_count: 3
   slug: albato-plans-pricing
-random_paper: 67
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Albato Rate Limits

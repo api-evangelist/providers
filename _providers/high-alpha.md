@@ -95,7 +95,7 @@ overview: 'High Alpha is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   High Alpha''s developer surface includes engineering blog, product news, support, and 10 more developer resources.'
-random_paper: 19
+random_paper: 7
 score:
   band: minimal
   composite: 9.1

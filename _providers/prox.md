@@ -120,7 +120,7 @@ overview: 'Prox publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Prox''s developer surface includes documentation, authentication, pricing, signup flow, support, and 12 more developer resources.'
-random_paper: 57
+random_paper: 52
 scopes:
 - name: Prox Scopes
   scope_count: 4

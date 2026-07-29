@@ -48,7 +48,7 @@ name: Cray
 nav: Providers
 network: true
 overview: Cray is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supercomputing, High Performance Computing, HPC, and Hardware.
-random_paper: 31
+random_paper: 26
 score:
   band: minimal
   composite: 5.0

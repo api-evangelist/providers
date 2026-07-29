@@ -83,7 +83,7 @@ overview: 'NoScrubs is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   NoScrubs'' developer surface includes getting-started guide, pricing, engineering blog, support, and 6 more developer resources.'
-random_paper: 79
+random_paper: 69
 score:
   band: emerging
   composite: 15.5

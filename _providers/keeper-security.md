@@ -139,7 +139,7 @@ overview: 'Keeper Security is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Keeper Security''s developer surface includes documentation, engineering blog, support, pricing, CLI, and 19 more developer resources.'
-random_paper: 49
+random_paper: 30
 score:
   band: thin
   composite: 32.0

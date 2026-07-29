@@ -99,7 +99,7 @@ overview: 'Source Beauty is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Source Beauty''s developer surface includes signup flow, authentication, and 9 more developer resources.'
-random_paper: 72
+random_paper: 56
 scopes:
 - name: Source Beauty Scopes
   scope_count: 4

@@ -139,7 +139,7 @@ overview: 'Astra publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Astra''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 14 more developer resources.'
-random_paper: 59
+random_paper: 53
 score:
   band: developing
   composite: 47.0

@@ -177,7 +177,7 @@ overview: 'Bitfinder publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Bitfinder''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 71
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Bitfinder Rate Limits

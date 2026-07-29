@@ -48,7 +48,7 @@ name: Ornikar
 nav: Providers
 network: true
 overview: Ornikar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Insurance, Driving School, and Education.
-random_paper: 38
+random_paper: 29
 score:
   band: minimal
   composite: 5.6

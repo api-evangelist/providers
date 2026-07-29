@@ -71,7 +71,7 @@ overview: 'BlueOcean is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   BlueOcean''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 62
+random_paper: 51
 score:
   band: emerging
   composite: 13.0

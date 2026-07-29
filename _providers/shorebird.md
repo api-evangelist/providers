@@ -140,7 +140,7 @@ overview: 'Shorebird is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Shorebird''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, CLI, and 17 more developer resources.'
-random_paper: 2
+random_paper: 71
 score:
   band: thin
   composite: 33.2

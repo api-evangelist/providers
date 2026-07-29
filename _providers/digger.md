@@ -139,7 +139,7 @@ overview: 'Digger publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Digger''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 14 more developer resources.'
-random_paper: 66
+random_paper: 59
 score:
   band: developing
   composite: 43.4

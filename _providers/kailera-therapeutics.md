@@ -79,7 +79,7 @@ overview: 'Kailera Therapeutics is profiled on the [APIs.io](https://apis.io/) n
 
 
   Kailera Therapeutics'' developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 71
+random_paper: 46
 score:
   band: minimal
   composite: 11.6

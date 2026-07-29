@@ -217,7 +217,7 @@ overview: 'Lighthouse publishes 8 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Lighthouse''s developer surface includes authentication, engineering blog, GitHub presence, YouTube channel, and 30 more developer resources.'
-random_paper: 23
+random_paper: 1
 score:
   band: thin
   composite: 28.9

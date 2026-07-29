@@ -56,7 +56,7 @@ name: FreeForexAPI
 nav: Providers
 network: true
 overview: FreeForexAPI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Currency Exchange and Public APIs.
-random_paper: 0
+random_paper: 65
 score:
   band: minimal
   composite: 5.7

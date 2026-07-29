@@ -187,7 +187,7 @@ overview: 'Parseur publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Parseur''s developer surface includes authentication, developer portal, signup flow, documentation, engineering blog, pricing, GitHub presence, and 21 more developer resources.'
-random_paper: 50
+random_paper: 41
 score:
   band: thin
   composite: 39.6

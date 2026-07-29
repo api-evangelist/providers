@@ -39,7 +39,7 @@ name: Siri
 nav: Providers
 network: true
 overview: Siri is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Virtual Assistant, Voice Assistant, Artificial Intelligence, and Machine Learning.
-random_paper: 39
+random_paper: 34
 score:
   band: minimal
   composite: 5.0

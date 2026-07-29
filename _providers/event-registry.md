@@ -153,7 +153,7 @@ plans:
 - name: Event Registry Plans Pricing
   plan_count: 5
   slug: event-registry-plans-pricing
-random_paper: 40
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Event Registry Rate Limits

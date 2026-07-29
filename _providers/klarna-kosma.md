@@ -171,7 +171,7 @@ overview: 'Klarna Kosma publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Klarna Kosma''s developer surface includes developer portal, documentation, getting-started guide, authentication, sandbox, code examples, support, and 16 more developer resources.'
-random_paper: 17
+random_paper: 2
 score:
   band: emerging
   composite: 23.9

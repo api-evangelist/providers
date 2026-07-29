@@ -79,7 +79,7 @@ overview: 'London House Exchange (Property Partner) is profiled on the [APIs.io]
 
 
   London House Exchange (Property Partner)''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 65
+random_paper: 45
 score:
   band: emerging
   composite: 13.1

@@ -163,7 +163,7 @@ overview: 'NIFT publishes 1 API on the [APIs.io](https://apis.io/) network: Cust
 
 
   NIFT''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 33
+random_paper: 28
 scopes:
 - name: Nift Scopes
   scope_count: 2

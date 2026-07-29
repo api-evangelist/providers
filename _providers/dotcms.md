@@ -124,7 +124,7 @@ plans:
 - name: Dotcms Plans Pricing
   plan_count: 3
   slug: dotcms-plans-pricing
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Dotcms Rate Limits

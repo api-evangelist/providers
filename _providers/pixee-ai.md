@@ -151,7 +151,7 @@ overview: 'Pixee publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Pixee''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 14 more developer resources.'
-random_paper: 66
+random_paper: 57
 score:
   band: developing
   composite: 53.5

@@ -75,7 +75,7 @@ plans:
 - name: Httpx Plans Pricing
   plan_count: 3
   slug: httpx-plans-pricing
-random_paper: 8
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Httpx Rate Limits

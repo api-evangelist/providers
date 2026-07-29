@@ -219,7 +219,7 @@ overview: 'Nokia publishes 6 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Nokia''s developer surface includes developer portal, documentation, getting-started guide, signup flow, tooling, engineering blog, YouTube channel, and 32 more developer resources.'
-random_paper: 51
+random_paper: 39
 score:
   band: emerging
   composite: 20.1

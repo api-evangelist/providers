@@ -56,7 +56,7 @@ name: Open Government, Cyprus
 nav: Providers
 network: true
 overview: Open Government, Cyprus publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 55
+random_paper: 27
 score:
   band: minimal
   composite: 6.5

@@ -60,7 +60,7 @@ name: Tokaido Health
 nav: Providers
 network: true
 overview: Tokaido Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Pharmacy, Medication, and Employee Benefits.
-random_paper: 17
+random_paper: 0
 score:
   band: minimal
   composite: 6.9

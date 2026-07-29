@@ -72,7 +72,7 @@ overview: 'Spredfast publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Spredfast''s developer surface includes documentation, API reference, authentication, and 3 more developer resources.'
-random_paper: 12
+random_paper: 0
 score:
   band: emerging
   composite: 14.9

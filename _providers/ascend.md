@@ -236,7 +236,7 @@ overview: 'Ascend publishes 23 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Ascend''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 19 more developer resources.'
-random_paper: 62
+random_paper: 55
 score:
   band: developing
   composite: 51.1

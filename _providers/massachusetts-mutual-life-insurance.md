@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: With recent offerings, life insurance goes high-tech
   url: https://insurancenewsnet.com/oarticle/with-recent-offerings-life-insurance-goes-high-tech
-random_paper: 79
+random_paper: 35
 score:
   band: minimal
   composite: 5.6

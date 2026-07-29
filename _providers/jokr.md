@@ -56,7 +56,7 @@ name: jokr
 nav: Providers
 network: true
 overview: jokr is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Grocery Delivery, Quick Commerce, Instant Delivery, and Q-Commerce.
-random_paper: 38
+random_paper: 33
 score:
   band: minimal
   composite: 9.2

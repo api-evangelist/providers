@@ -79,7 +79,7 @@ overview: 'Dezerv is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Dezerv''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 16
+random_paper: 8
 score:
   band: emerging
   composite: 16.3

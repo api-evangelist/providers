@@ -75,7 +75,7 @@ overview: 'Comfi Holdings Limited is profiled on the [APIs.io](https://apis.io/)
 
 
   Comfi Holdings Limited''s developer surface includes support, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 56
+random_paper: 29
 score:
   band: emerging
   composite: 13.9

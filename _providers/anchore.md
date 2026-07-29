@@ -259,7 +259,7 @@ plans:
 - name: Anchore Plans Pricing
   plan_count: 3
   slug: anchore-plans-pricing
-random_paper: 16
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Anchore Rate Limits

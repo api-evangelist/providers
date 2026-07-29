@@ -91,7 +91,7 @@ overview: 'Cloaked is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cloaked''s developer surface includes signup flow, pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 3
+random_paper: 75
 score:
   band: emerging
   composite: 19.1

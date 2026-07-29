@@ -144,7 +144,7 @@ overview: 'LegalZoom is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   LegalZoom''s developer surface includes pricing, engineering blog, GitHub presence, YouTube channel, and 20 more developer resources.'
-random_paper: 10
+random_paper: 79
 score:
   band: emerging
   composite: 14.7

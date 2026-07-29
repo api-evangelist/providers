@@ -130,7 +130,7 @@ overview: 'Vindicia publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Vindicia''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, changelog, and 11 more developer resources.'
-random_paper: 39
+random_paper: 29
 score:
   band: thin
   composite: 36.5

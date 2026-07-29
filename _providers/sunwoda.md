@@ -52,7 +52,7 @@ name: SUNWODA
 nav: Providers
 network: true
 overview: SUNWODA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer Technology, Batteries, Lithium-Ion, and Energy Storage.
-random_paper: 49
+random_paper: 40
 score:
   band: minimal
   composite: 5.0

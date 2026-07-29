@@ -59,7 +59,7 @@ overview: 'Windfall Bio is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Windfall Bio''s developer surface includes support and 3 more developer resources.'
-random_paper: 8
+random_paper: 74
 score:
   band: minimal
   composite: 8.0

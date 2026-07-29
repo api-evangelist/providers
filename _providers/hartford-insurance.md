@@ -75,7 +75,7 @@ overview: 'Hartford Insurance is profiled on the [APIs.io](https://apis.io/) net
 
 
   Hartford Insurance''s developer surface includes product news and 7 more developer resources.'
-random_paper: 31
+random_paper: 8
 score:
   band: minimal
   composite: 6.2

@@ -119,7 +119,7 @@ plans:
 - name: Bureau Of Consular Affairs Plans Pricing
   plan_count: 3
   slug: bureau-of-consular-affairs-plans-pricing
-random_paper: 35
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Bureau Of Consular Affairs Rate Limits

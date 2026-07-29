@@ -109,7 +109,7 @@ plans:
 - name: Airbase Plans Pricing
   plan_count: 2
   slug: airbase-plans-pricing
-random_paper: 7
+random_paper: 79
 rate_limits:
 - limit_count: 2
   name: Airbase Rate Limits

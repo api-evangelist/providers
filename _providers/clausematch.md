@@ -48,7 +48,7 @@ name: Clausematch
 nav: Providers
 network: true
 overview: Clausematch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, RegTech, Compliance, Regulatory Change Management, and Policy Management.
-random_paper: 42
+random_paper: 28
 score:
   band: minimal
   composite: 5.9

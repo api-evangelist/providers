@@ -95,7 +95,7 @@ overview: 'Arch Network is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Arch Network''s developer surface includes documentation, getting-started guide, engineering blog, support, changelog, CLI, and 7 more developer resources.'
-random_paper: 37
+random_paper: 22
 score:
   band: emerging
   composite: 19.2

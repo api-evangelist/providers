@@ -48,7 +48,7 @@ name: Brosmed
 nav: Providers
 network: true
 overview: Brosmed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, Medical Technology, and Cardiovascular.
-random_paper: 28
+random_paper: 19
 score:
   band: minimal
   composite: 5.4

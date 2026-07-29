@@ -67,7 +67,7 @@ overview: 'Gesund is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Gesund''s developer surface includes documentation, engineering blog, and 4 more developer resources.'
-random_paper: 6
+random_paper: 79
 score:
   band: minimal
   composite: 12.0

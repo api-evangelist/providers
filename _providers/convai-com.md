@@ -278,7 +278,7 @@ plans:
 - name: Convai Plans Pricing
   plan_count: 5
   slug: convai-plans-pricing
-random_paper: 44
+random_paper: 32
 rate_limits:
 - limit_count: 7
   name: Convai Rate Limits

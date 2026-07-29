@@ -104,7 +104,7 @@ overview: 'Us2.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Us2.ai''s developer surface includes documentation, support, engineering blog, and 12 more developer resources.'
-random_paper: 4
+random_paper: 79
 score:
   band: emerging
   composite: 27.1

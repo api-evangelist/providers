@@ -71,7 +71,7 @@ overview: 'Catalyx Space is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Catalyx Space''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 47
+random_paper: 31
 score:
   band: minimal
   composite: 7.4

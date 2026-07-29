@@ -148,7 +148,7 @@ plans:
 - name: Smithsonian Plans Pricing
   plan_count: 3
   slug: smithsonian-plans-pricing
-random_paper: 77
+random_paper: 63
 rate_limits:
 - limit_count: 0
   name: Smithsonian Rate Limits

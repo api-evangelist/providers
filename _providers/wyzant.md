@@ -110,7 +110,7 @@ plans:
 - name: Wyzant Plans Pricing
   plan_count: 2
   slug: wyzant-plans-pricing
-random_paper: 45
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Wyzant Rate Limits

@@ -215,7 +215,7 @@ overview: 'The Mobile First Company publishes 13 APIs on the [APIs.io](https://a
 
 
   The Mobile First Company''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, pricing, engineering blog, and 23 more developer resources.'
-random_paper: 79
+random_paper: 50
 scopes:
 - name: The Mobile First Company Scopes
   scope_count: 0

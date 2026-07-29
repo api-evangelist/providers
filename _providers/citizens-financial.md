@@ -136,7 +136,7 @@ plans:
 - name: Citizens Financial Plans Pricing
   plan_count: 2
   slug: citizens-financial-plans-pricing
-random_paper: 11
+random_paper: 69
 rate_limits:
 - limit_count: 2
   name: Citizens Financial Rate Limits

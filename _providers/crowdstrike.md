@@ -92,7 +92,7 @@ plans:
 - name: Crowdstrike Plans Pricing
   plan_count: 4
   slug: crowdstrike-plans-pricing
-random_paper: 1
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Crowdstrike Rate Limits

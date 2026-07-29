@@ -48,7 +48,7 @@ name: Hedgeye
 nav: Providers
 network: true
 overview: Hedgeye is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Investment Research, Market Analysis, and Financial Media.
-random_paper: 11
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

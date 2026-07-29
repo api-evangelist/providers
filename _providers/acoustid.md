@@ -96,7 +96,7 @@ plans:
 - name: Acoustid Plans Pricing
   plan_count: 5
   slug: acoustid-plans-pricing
-random_paper: 60
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Acoustid Rate Limits

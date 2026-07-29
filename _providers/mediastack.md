@@ -223,7 +223,7 @@ plans:
 - name: Mediastack Plans Pricing
   plan_count: 5
   slug: mediastack-plans-pricing
-random_paper: 6
+random_paper: 74
 rate_limits:
 - limit_count: 8
   name: Mediastack Rate Limits

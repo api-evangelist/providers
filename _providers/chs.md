@@ -146,7 +146,7 @@ press:
 - date: '2026-05-25'
   title: CHS Inc's post
   url: https://www.facebook.com/CHSInc/posts/cooperative-ventures-a-joint-venture-between-farmer-owned-cooperatives-chs-and-g/1540997380376074/
-random_paper: 78
+random_paper: 75
 score:
   band: minimal
   composite: 10.7

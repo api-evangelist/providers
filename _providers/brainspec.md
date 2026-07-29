@@ -52,7 +52,7 @@ name: Brainspec
 nav: Providers
 network: true
 overview: Brainspec is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Imaging, Neuroimaging, and MRI.
-random_paper: 71
+random_paper: 60
 score:
   band: minimal
   composite: 6.8

@@ -151,7 +151,7 @@ overview: 'myTomorrows publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   myTomorrows'' developer surface includes engineering blog, signup flow, and 19 more developer resources.'
-random_paper: 50
+random_paper: 35
 score:
   band: thin
   composite: 35.1

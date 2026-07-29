@@ -141,7 +141,7 @@ plans:
 - name: Puzzle Io Plans Pricing
   plan_count: 4
   slug: puzzle-io-plans-pricing
-random_paper: 63
+random_paper: 52
 rate_limits:
 - limit_count: 3
   name: Puzzle Io Rate Limits

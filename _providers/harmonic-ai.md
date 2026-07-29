@@ -155,7 +155,7 @@ overview: 'Harmonic.ai publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Harmonic.ai''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 56
+random_paper: 43
 scopes:
 - name: Harmonic Ai Scopes
   scope_count: 2

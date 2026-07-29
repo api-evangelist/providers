@@ -96,7 +96,7 @@ overview: 'Lato is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Lato''s developer surface includes support and 12 more developer resources.'
-random_paper: 32
+random_paper: 27
 score:
   band: emerging
   composite: 15.5

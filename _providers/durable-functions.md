@@ -111,7 +111,7 @@ plans:
 - name: Durable Functions Plans Pricing
   plan_count: 3
   slug: durable-functions-plans-pricing
-random_paper: 5
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Durable Functions Rate Limits

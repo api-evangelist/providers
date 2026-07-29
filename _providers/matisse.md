@@ -39,7 +39,7 @@ name: Matisse
 nav: Providers
 network: true
 overview: Matisse is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 38
+random_paper: 29
 score:
   band: minimal
   composite: 3.2

@@ -48,7 +48,7 @@ name: guokang
 nav: Providers
 network: true
 overview: guokang is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Health Management, and Corporate Wellness.
-random_paper: 28
+random_paper: 19
 score:
   band: minimal
   composite: 5.4

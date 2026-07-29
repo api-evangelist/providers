@@ -142,7 +142,7 @@ overview: 'Breaking Bad publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   The Breaking Bad catalog on APIs.io includes 1 JSON-LD context and 2 Spectral governance rulesets.'
-random_paper: 55
+random_paper: 41
 rules:
 - name: Breaking Bad API Rules
   rule_count: 5

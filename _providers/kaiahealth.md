@@ -91,7 +91,7 @@ overview: 'kaiahealth is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   kaiahealth''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 76
+random_paper: 64
 score:
   band: emerging
   composite: 20.3

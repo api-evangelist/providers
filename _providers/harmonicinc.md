@@ -100,7 +100,7 @@ overview: 'Harmonic Inc. publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Harmonic Inc.''s developer surface includes documentation, API reference, support, engineering blog, changelog, authentication, and 7 more developer resources.'
-random_paper: 43
+random_paper: 29
 score:
   band: emerging
   composite: 22.5

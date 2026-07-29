@@ -182,7 +182,7 @@ overview: 'Zus Health publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Zus Health''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 23 more developer resources.'
-random_paper: 69
+random_paper: 57
 score:
   band: developing
   composite: 50.3

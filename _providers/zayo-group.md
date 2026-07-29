@@ -103,7 +103,7 @@ plans:
 - name: Zayo Group Plans Pricing
   plan_count: 1
   slug: zayo-group-plans-pricing
-random_paper: 13
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: Zayo Group Rate Limits

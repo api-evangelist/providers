@@ -176,7 +176,7 @@ overview: 'Kubit AI, Inc. publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Kubit AI, Inc.''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, CLI, and 24 more developer resources.'
-random_paper: 29
+random_paper: 15
 scopes:
 - name: Kubit Ai Inc Scopes
   scope_count: 0

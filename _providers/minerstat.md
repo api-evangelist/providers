@@ -92,7 +92,7 @@ plans:
 - name: Minerstat Plans Pricing
   plan_count: 3
   slug: minerstat-plans-pricing
-random_paper: 23
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Minerstat Rate Limits

@@ -169,7 +169,7 @@ plans:
 - name: Escape Plans Pricing
   plan_count: 3
   slug: escape-plans-pricing
-random_paper: 65
+random_paper: 58
 rate_limits:
 - limit_count: 5
   name: Escape Rate Limits

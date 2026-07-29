@@ -44,7 +44,7 @@ name: Skypunk
 nav: Providers
 network: true
 overview: Skypunk is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Game Studio, Gaming, Video Games, and Multiplayer.
-random_paper: 69
+random_paper: 60
 score:
   band: minimal
   composite: 5.0

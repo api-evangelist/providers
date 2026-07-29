@@ -116,7 +116,7 @@ plans:
 - name: Carfax Plans Pricing
   plan_count: 6
   slug: carfax-plans-pricing
-random_paper: 69
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Carfax Rate Limits

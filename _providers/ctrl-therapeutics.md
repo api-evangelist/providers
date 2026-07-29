@@ -75,7 +75,7 @@ overview: 'CTRL Therapeutics is profiled on the [APIs.io](https://apis.io/) netw
 
 
   CTRL Therapeutics'' developer surface includes product news and 7 more developer resources.'
-random_paper: 19
+random_paper: 78
 score:
   band: minimal
   composite: 5.4

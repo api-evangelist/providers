@@ -21,7 +21,7 @@ modified: '2026-05-02'
 name: SAFe Agile
 nav: Providers
 network: true
-random_paper: 14
+random_paper: 2
 slug: safe-agile
 tags:
 - Agile

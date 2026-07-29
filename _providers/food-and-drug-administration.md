@@ -122,7 +122,7 @@ plans:
 - name: Food And Drug Administration Plans Pricing
   plan_count: 3
   slug: food-and-drug-administration-plans-pricing
-random_paper: 10
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Food And Drug Administration Rate Limits

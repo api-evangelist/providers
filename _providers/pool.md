@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: PoolPros.ai Launches AI-Powered National Marketplace ...
   url: https://www.kitsapsun.com/press-release/story/750387/poolpros-ai-launches-ai-powered-national-marketplace-for-pool-service-repair-remodeling-and-pool-builders/
-random_paper: 42
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Pool Rate Limits

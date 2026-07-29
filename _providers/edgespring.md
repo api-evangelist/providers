@@ -39,7 +39,7 @@ name: EdgeSpring
 nav: Providers
 network: true
 overview: EdgeSpring is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Analytics, Business Intelligence, and Acquired.
-random_paper: 24
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

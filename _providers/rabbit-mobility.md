@@ -91,7 +91,7 @@ overview: 'Rabbit Mobility is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Rabbit Mobility''s developer surface includes support, engineering blog, and 10 more developer resources.'
-random_paper: 26
+random_paper: 7
 score:
   band: minimal
   composite: 10.5

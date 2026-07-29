@@ -101,7 +101,7 @@ plans:
 - name: Huly Plans Pricing
   plan_count: 6
   slug: huly-plans-pricing
-random_paper: 50
+random_paper: 45
 rate_limits:
 - limit_count: 4
   name: Huly Rate Limits

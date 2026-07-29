@@ -44,7 +44,7 @@ name: Nugit
 nav: Providers
 network: true
 overview: Nugit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Data Storytelling, Marketing Analytics, and Reporting.
-random_paper: 71
+random_paper: 65
 score:
   band: minimal
   composite: 4.1

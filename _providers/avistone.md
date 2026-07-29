@@ -60,7 +60,7 @@ name: Avistone
 nav: Providers
 network: true
 overview: Avistone is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biopharmaceutical, Oncology, and Pharmaceuticals.
-random_paper: 73
+random_paper: 63
 score:
   band: minimal
   composite: 6.8

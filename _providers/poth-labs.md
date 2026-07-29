@@ -55,7 +55,7 @@ overview: 'Poth Labs is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Poth Labs'' developer surface includes support and 2 more developer resources.'
-random_paper: 26
+random_paper: 15
 score:
   band: minimal
   composite: 5.9

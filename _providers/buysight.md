@@ -45,7 +45,7 @@ name: Buysight
 nav: Providers
 network: true
 overview: Buysight is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Advertising Technology, AdTech, and Retargeting.
-random_paper: 79
+random_paper: 69
 score:
   band: minimal
   composite: 5.0

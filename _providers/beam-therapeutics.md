@@ -63,7 +63,7 @@ overview: 'Beam Therapeutics * is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Beam Therapeutics *''s developer surface includes support and 4 more developer resources.'
-random_paper: 67
+random_paper: 46
 score:
   band: minimal
   composite: 11.2

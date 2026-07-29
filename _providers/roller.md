@@ -170,7 +170,7 @@ overview: 'ROLLER publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   ROLLER''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Roller Rate Limits

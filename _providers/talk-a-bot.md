@@ -75,7 +75,7 @@ overview: 'Talk-A-Bot is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Talk-A-Bot''s developer surface includes support and 7 more developer resources.'
-random_paper: 60
+random_paper: 49
 score:
   band: emerging
   composite: 13.2

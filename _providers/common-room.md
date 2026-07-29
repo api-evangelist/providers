@@ -442,7 +442,7 @@ plans:
 - name: Common Room Plans Pricing
   plan_count: 3
   slug: common-room-plans-pricing
-random_paper: 19
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Common Room Rate Limits

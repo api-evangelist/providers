@@ -123,7 +123,7 @@ overview: 'SoundCommerce is profiled on the [APIs.io](https://apis.io/) network.
 
 
   SoundCommerce''s developer surface includes documentation, pricing, engineering blog, support, signup flow, changelog, and 13 more developer resources.'
-random_paper: 36
+random_paper: 19
 score:
   band: thin
   composite: 31.1

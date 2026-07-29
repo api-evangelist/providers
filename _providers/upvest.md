@@ -934,7 +934,7 @@ plans:
 - name: Upvest Plans Pricing
   plan_count: 3
   slug: upvest-plans-pricing
-random_paper: 39
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Upvest Rate Limits

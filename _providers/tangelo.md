@@ -71,7 +71,7 @@ overview: 'Tangelo is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Tangelo''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 26
+random_paper: 17
 score:
   band: minimal
   composite: 11.6

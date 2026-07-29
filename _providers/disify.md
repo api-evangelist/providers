@@ -56,7 +56,7 @@ name: Disify
 nav: Providers
 network: true
 overview: Disify publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Email and Public APIs.
-random_paper: 8
+random_paper: 0
 score:
   band: minimal
   composite: 5.7

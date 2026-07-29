@@ -48,7 +48,7 @@ name: Rote
 nav: Providers
 network: true
 overview: Rote is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Artificial Intelligence, and AI Agents.
-random_paper: 42
+random_paper: 37
 score:
   band: minimal
   composite: 5.6

@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: Workday and Insperity Announce Exclusive Strategic ...
   url: https://newsroom.workday.com/2024-02-08-Workday-and-Insperity-Announce-Exclusive-Strategic-Partnership-to-Provide-Best-in-Class-HR-Service-and-Technology-to-Small-and-Midsize-Businesses
-random_paper: 39
+random_paper: 27
 score:
   band: minimal
   composite: 2.6

@@ -56,7 +56,7 @@ name: Mativ Holdings
 nav: Providers
 network: true
 overview: Mativ Holdings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Manufacturing, Specialty Materials, and Filtration.
-random_paper: 6
+random_paper: 69
 score:
   band: minimal
   composite: 3.5

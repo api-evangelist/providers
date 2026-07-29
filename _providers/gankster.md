@@ -75,7 +75,7 @@ overview: 'Gankster is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Gankster''s developer surface includes engineering blog, signup flow, support, and 5 more developer resources.'
-random_paper: 63
+random_paper: 53
 score:
   band: emerging
   composite: 13.8

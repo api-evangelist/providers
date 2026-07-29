@@ -56,7 +56,7 @@ name: Trove
 nav: Providers
 network: true
 overview: Trove publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include News and Public APIs.
-random_paper: 0
+random_paper: 74
 score:
   band: minimal
   composite: 5.7

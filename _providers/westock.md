@@ -71,7 +71,7 @@ overview: 'WeStock is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   WeStock''s developer surface includes pricing, engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 48
+random_paper: 39
 score:
   band: emerging
   composite: 14.4

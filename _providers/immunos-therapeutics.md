@@ -52,7 +52,7 @@ name: Immunos Therapeutics
 nav: Providers
 network: true
 overview: Immunos Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Immuno-Oncology, and Immunotherapy.
-random_paper: 38
+random_paper: 12
 score:
   band: minimal
   composite: 5.4

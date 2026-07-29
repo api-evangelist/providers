@@ -83,7 +83,7 @@ overview: 'Justlife is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Justlife''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 70
+random_paper: 60
 score:
   band: minimal
   composite: 12.2

@@ -52,7 +52,7 @@ name: elo7
 nav: Providers
 network: true
 overview: elo7 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, E-commerce, Handmade, and Crafts.
-random_paper: 55
+random_paper: 51
 score:
   band: minimal
   composite: 5.7

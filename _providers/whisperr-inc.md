@@ -71,7 +71,7 @@ overview: 'Whisperr, Inc. is profiled on the [APIs.io](https://apis.io/) network
 
 
   Whisperr, Inc.''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 43
+random_paper: 28
 score:
   band: minimal
   composite: 10.2

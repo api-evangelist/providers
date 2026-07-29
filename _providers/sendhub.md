@@ -193,7 +193,7 @@ overview: 'SendHub publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   SendHub''s developer surface includes documentation, API reference, pricing, engineering blog, support, signup flow, authentication, and 21 more developer resources.'
-random_paper: 25
+random_paper: 16
 score:
   band: developing
   composite: 46.9

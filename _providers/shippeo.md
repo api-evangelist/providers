@@ -121,7 +121,7 @@ plans:
 - name: Shippeo Plans Pricing
   plan_count: 1
   slug: shippeo-plans-pricing
-random_paper: 40
+random_paper: 31
 rate_limits:
 - limit_count: 3
   name: Shippeo Rate Limits

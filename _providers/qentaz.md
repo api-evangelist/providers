@@ -151,7 +151,7 @@ overview: 'Qentaz publishes 1 API on the [APIs.io](https://apis.io/) network: Tr
 
 
   Qentaz''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, signup flow, and 17 more developer resources.'
-random_paper: 19
+random_paper: 11
 score:
   band: developing
   composite: 43.5

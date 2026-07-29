@@ -96,7 +96,7 @@ overview: 'Alaffia is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Alaffia''s developer surface includes signup flow and 12 more developer resources.'
-random_paper: 68
+random_paper: 60
 score:
   band: emerging
   composite: 21.6

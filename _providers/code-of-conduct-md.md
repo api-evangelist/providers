@@ -87,7 +87,7 @@ overview: 'CODE_OF_CONDUCT.md is profiled on the [APIs.io](https://apis.io/) net
 
 
   CODE_OF_CONDUCT.md''s developer surface includes documentation and 10 more developer resources.'
-random_paper: 40
+random_paper: 19
 score:
   band: minimal
   composite: 8.0

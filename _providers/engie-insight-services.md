@@ -48,7 +48,7 @@ name: ENGIE Insight Services
 nav: Providers
 network: true
 overview: ENGIE Insight Services is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Sustainability, Resource Management, and Utilities.
-random_paper: 76
+random_paper: 49
 score:
   band: minimal
   composite: 5.5

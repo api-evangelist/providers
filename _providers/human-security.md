@@ -120,7 +120,7 @@ plans:
 - name: Human Security Plans Pricing
   plan_count: 1
   slug: human-security-plans-pricing
-random_paper: 30
+random_paper: 12
 rate_limits:
 - limit_count: 2
   name: Human Security Rate Limits

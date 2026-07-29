@@ -167,7 +167,7 @@ overview: 'Raindrop publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Raindrop''s developer surface includes documentation, API reference, getting-started guide, authentication, CLI, engineering blog, support, and 21 more developer resources.'
-random_paper: 63
+random_paper: 53
 scopes:
 - name: Raindrop Scopes
   scope_count: 0

@@ -123,7 +123,7 @@ overview: 'Observable is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Observable''s developer surface includes documentation, getting-started guide, pricing, engineering blog, support, changelog, CLI, and 13 more developer resources.'
-random_paper: 21
+random_paper: 8
 score:
   band: thin
   composite: 29.8

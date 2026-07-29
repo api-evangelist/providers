@@ -91,7 +91,7 @@ overview: 'Talus Network is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Talus Network''s developer surface includes documentation, API reference, getting-started guide, engineering blog, CLI, and 7 more developer resources.'
-random_paper: 16
+random_paper: 80
 score:
   band: emerging
   composite: 17.5

@@ -48,7 +48,7 @@ name: Flixster
 nav: Providers
 network: true
 overview: Flixster is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Movies, Entertainment, Showtimes, and Movie Ratings.
-random_paper: 1
+random_paper: 71
 score:
   band: minimal
   composite: 5.0

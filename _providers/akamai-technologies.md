@@ -101,7 +101,7 @@ plans:
 - name: Akamai Technologies Plans Pricing
   plan_count: 4
   slug: akamai-technologies-plans-pricing
-random_paper: 21
+random_paper: 78
 rate_limits:
 - limit_count: 3
   name: Akamai Technologies Rate Limits

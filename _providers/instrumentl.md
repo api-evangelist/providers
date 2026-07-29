@@ -136,7 +136,7 @@ overview: 'Instrumentl publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Instrumentl''s developer surface includes authentication, support, engineering blog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 21
+random_paper: 6
 scopes:
 - name: Instrumentl Scopes
   scope_count: 2

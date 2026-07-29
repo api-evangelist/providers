@@ -51,7 +51,7 @@ overview: 'Mynvax is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Mynvax''s developer surface includes product news and 1 more developer resources.'
-random_paper: 35
+random_paper: 27
 score:
   band: minimal
   composite: 4.3

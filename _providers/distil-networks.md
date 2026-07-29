@@ -48,7 +48,7 @@ name: Distil Networks
 nav: Providers
 network: true
 overview: Distil Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Bot Detection, Bot Mitigation, Security, and Web Security.
-random_paper: 67
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

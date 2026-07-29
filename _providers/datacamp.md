@@ -95,7 +95,7 @@ overview: 'DataCamp is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   DataCamp''s developer surface includes support, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 27
+random_paper: 17
 score:
   band: emerging
   composite: 20.5

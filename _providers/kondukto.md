@@ -283,7 +283,7 @@ plans:
 - name: Kondukto Plans
   plan_count: 2
   slug: kondukto-plans
-random_paper: 79
+random_paper: 69
 score:
   band: exemplar
   composite: 66.2

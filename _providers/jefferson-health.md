@@ -267,7 +267,7 @@ plans:
 - name: Jefferson Health Plans Pricing
   plan_count: 4
   slug: jefferson-health-plans-pricing
-random_paper: 37
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Jefferson Health Rate Limits

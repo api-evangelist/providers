@@ -67,7 +67,7 @@ overview: 'Bloomscape is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Bloomscape''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 21
+random_paper: 8
 score:
   band: minimal
   composite: 10.5

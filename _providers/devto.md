@@ -705,7 +705,7 @@ plans:
 - name: Devto Plans Pricing
   plan_count: 2
   slug: devto-plans-pricing
-random_paper: 66
+random_paper: 60
 rate_limits:
 - limit_count: 0
   name: Devto Rate Limits

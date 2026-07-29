@@ -39,7 +39,7 @@ name: Prototypes
 nav: Providers
 network: true
 overview: Prototypes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Design, Innovation, Product Development, and Testing.
-random_paper: 9
+random_paper: 76
 score:
   band: minimal
   composite: 4.1

@@ -44,7 +44,7 @@ name: Velostrata
 nav: Providers
 network: true
 overview: Velostrata is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cloud Migration, Cloud Computing, Acquired, and Google Cloud.
-random_paper: 53
+random_paper: 40
 score:
   band: minimal
   composite: 5.0

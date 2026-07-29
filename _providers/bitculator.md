@@ -43,7 +43,7 @@ name: Bitculator
 nav: Providers
 network: true
 overview: 'Bitculator publishes 1 API on the [APIs.io](https://apis.io/) network: Data API. Tagged areas include cryptocurrency, crypto market data, blockchain, finance, and fintech.'
-random_paper: 41
+random_paper: 28
 score:
   band: minimal
   composite: 12.2

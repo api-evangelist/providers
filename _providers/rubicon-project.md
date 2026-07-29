@@ -75,7 +75,7 @@ overview: 'Rubicon Project is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Rubicon Project''s developer surface includes engineering blog, support, legal docs, and 5 more developer resources.'
-random_paper: 38
+random_paper: 19
 score:
   band: minimal
   composite: 11.6

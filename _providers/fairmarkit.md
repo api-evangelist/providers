@@ -225,7 +225,7 @@ overview: 'Fairmarkit publishes 18 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Fairmarkit''s developer surface includes documentation, API reference, getting-started guide, authentication, support, engineering blog, changelog, and 20 more developer resources.'
-random_paper: 26
+random_paper: 13
 score:
   band: developing
   composite: 49.0

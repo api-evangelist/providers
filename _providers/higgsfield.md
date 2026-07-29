@@ -194,7 +194,7 @@ overview: 'Higgsfield publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Higgsfield''s developer surface includes documentation, getting-started guide, API reference, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 6
+random_paper: 74
 score:
   band: developing
   composite: 52.2

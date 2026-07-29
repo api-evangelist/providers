@@ -87,7 +87,7 @@ plans:
 - name: Data Gov Me Plans Pricing
   plan_count: 0
   slug: data-gov-me-plans-pricing
-random_paper: 2
+random_paper: 70
 rate_limits:
 - limit_count: 0
   name: Data Gov Me Rate Limits

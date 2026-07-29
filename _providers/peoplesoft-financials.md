@@ -105,7 +105,7 @@ plans:
 - name: Peoplesoft Financials Plans Pricing
   plan_count: 3
   slug: peoplesoft-financials-plans-pricing
-random_paper: 22
+random_paper: 76
 rate_limits:
 - limit_count: 5
   name: Peoplesoft Financials Rate Limits

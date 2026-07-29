@@ -120,7 +120,7 @@ plans:
 - name: Portcast Plans Pricing
   plan_count: 2
   slug: portcast-plans-pricing
-random_paper: 0
+random_paper: 70
 rate_limits:
 - limit_count: 2
   name: Portcast Rate Limits

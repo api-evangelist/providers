@@ -63,7 +63,7 @@ overview: 'Trial Library is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Trial Library''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 62
+random_paper: 46
 score:
   band: minimal
   composite: 8.3

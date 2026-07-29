@@ -285,7 +285,7 @@ plans:
 - name: Resend Plans Pricing
   plan_count: 3
   slug: resend-plans-pricing
-random_paper: 1
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Resend Rate Limits

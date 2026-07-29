@@ -103,7 +103,7 @@ overview: 'Trifacta publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Trifacta''s developer surface includes documentation, API reference, and 12 more developer resources.'
-random_paper: 46
+random_paper: 36
 score:
   band: emerging
   composite: 21.8

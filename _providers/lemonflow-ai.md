@@ -136,7 +136,7 @@ overview: 'Lemonflow publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Lemonflow''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, and 16 more developer resources.'
-random_paper: 26
+random_paper: 11
 score:
   band: thin
   composite: 34.3

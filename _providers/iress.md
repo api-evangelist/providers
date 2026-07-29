@@ -69,7 +69,7 @@ plans:
 - name: Iress Plans Pricing
   plan_count: 3
   slug: iress-plans-pricing
-random_paper: 70
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Iress Rate Limits

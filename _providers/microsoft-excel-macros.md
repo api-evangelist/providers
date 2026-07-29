@@ -102,7 +102,7 @@ plans:
 - name: Microsoft Excel Macros Plans Pricing
   plan_count: 3
   slug: microsoft-excel-macros-plans-pricing
-random_paper: 6
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Microsoft Excel Macros Rate Limits

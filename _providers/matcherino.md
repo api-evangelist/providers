@@ -67,7 +67,7 @@ overview: 'Matcherino is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Matcherino''s developer surface includes support and 5 more developer resources.'
-random_paper: 26
+random_paper: 13
 score:
   band: emerging
   composite: 14.1

@@ -131,7 +131,7 @@ plans:
 - name: Deepnote Plans Pricing
   plan_count: 3
   slug: deepnote-plans-pricing
-random_paper: 52
+random_paper: 42
 rate_limits:
 - limit_count: 3
   name: Deepnote Rate Limits

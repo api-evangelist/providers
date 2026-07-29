@@ -67,7 +67,7 @@ overview: 'Firefly is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Firefly''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 33
+random_paper: 24
 score:
   band: minimal
   composite: 10.5

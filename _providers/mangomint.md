@@ -84,7 +84,7 @@ plans:
 - name: Mangomint Plans Pricing
   plan_count: 4
   slug: mangomint-plans-pricing
-random_paper: 10
+random_paper: 79
 score:
   band: emerging
   composite: 15.0

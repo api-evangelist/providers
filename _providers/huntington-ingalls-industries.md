@@ -84,7 +84,7 @@ press:
 - date: '2026-04-16'
   title: HII to Showcase Company’s Role as America’s Seapower Company at Sea-Air-Space 2026
   url: https://hiicomstg.wpengine.com/news/hii-to-showcase-companys-role-as-americas-seapower-company-at-sea-air-space-2026/
-random_paper: 76
+random_paper: 39
 score:
   band: minimal
   composite: 4.5

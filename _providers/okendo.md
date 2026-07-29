@@ -174,7 +174,7 @@ overview: 'Okendo publishes 2 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Okendo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
-random_paper: 0
+random_paper: 73
 score:
   band: developing
   composite: 48.4

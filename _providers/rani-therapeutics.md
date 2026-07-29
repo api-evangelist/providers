@@ -52,7 +52,7 @@ name: Rani Therapeutics
 nav: Providers
 network: true
 overview: Rani Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Pharmaceuticals, and Drug Delivery.
-random_paper: 8
+random_paper: 67
 score:
   band: minimal
   composite: 7.9

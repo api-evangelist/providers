@@ -39,7 +39,7 @@ name: Focal Communications
 nav: Providers
 network: true
 overview: Focal Communications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, CLEC, Local Exchange Carrier, and Networking.
-random_paper: 75
+random_paper: 50
 score:
   band: minimal
   composite: 4.3

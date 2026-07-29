@@ -63,7 +63,7 @@ overview: 'Probably Genetic is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Probably Genetic''s developer surface includes support and 4 more developer resources.'
-random_paper: 39
+random_paper: 19
 score:
   band: minimal
   composite: 11.2

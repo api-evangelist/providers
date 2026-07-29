@@ -44,7 +44,7 @@ name: Prelay
 nav: Providers
 network: true
 overview: Prelay is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Revenue Operations, Deal Collaboration, and Team Selling.
-random_paper: 13
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

@@ -63,7 +63,7 @@ overview: 'Intello is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Intello''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 39
+random_paper: 30
 score:
   band: minimal
   composite: 6.8

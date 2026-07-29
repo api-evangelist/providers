@@ -115,7 +115,7 @@ press:
 - date: '2026-05-25'
   title: Keurig Dr Pepper Reports Q4 and Full Year 2025 Results ...
   url: https://www.prnewswire.com/news-releases/keurig-dr-pepper-reports-q4-and-full-year-2025-results-and-provides-2026-outlook-302695312.html
-random_paper: 73
+random_paper: 45
 score:
   band: minimal
   composite: 4.5

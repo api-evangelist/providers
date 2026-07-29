@@ -68,7 +68,7 @@ name: Visibl Semiconductors
 nav: Providers
 network: true
 overview: Visibl Semiconductors is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Chip Design, Artificial Intelligence, and Electronic Design Automation.
-random_paper: 56
+random_paper: 29
 score:
   band: minimal
   composite: 9.2

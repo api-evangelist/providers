@@ -179,7 +179,7 @@ overview: 'Allica Bank publishes 2 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Allica Bank''s developer surface includes authentication, sandbox, getting-started guide, documentation, engineering blog, support, and 24 more developer resources.'
-random_paper: 31
+random_paper: 18
 scopes:
 - name: Allica Bank Scopes
   scope_count: 17

@@ -95,7 +95,7 @@ overview: 'Revelio Labs publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Revelio Labs'' developer surface includes documentation, engineering blog, signup flow, support, and 8 more developer resources.'
-random_paper: 21
+random_paper: 6
 score:
   band: emerging
   composite: 19.9

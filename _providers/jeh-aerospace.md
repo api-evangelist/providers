@@ -63,7 +63,7 @@ overview: 'Jeh Aerospace is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Jeh Aerospace''s developer surface includes support and 4 more developer resources.'
-random_paper: 23
+random_paper: 7
 score:
   band: minimal
   composite: 8.5

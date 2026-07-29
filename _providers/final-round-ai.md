@@ -103,7 +103,7 @@ overview: 'Final Round AI is profiled on the [APIs.io](https://apis.io/) network
 
 
   Final Round AI''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 6
+random_paper: 70
 score:
   band: emerging
   composite: 22.0

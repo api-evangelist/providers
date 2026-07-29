@@ -48,7 +48,7 @@ name: Mochatrade
 nav: Providers
 network: true
 overview: Mochatrade is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Trading, Brokerage, Fintech, and Cryptocurrency.
-random_paper: 8
+random_paper: 76
 score:
   band: minimal
   composite: 4.3

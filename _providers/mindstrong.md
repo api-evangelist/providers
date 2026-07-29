@@ -52,7 +52,7 @@ name: Mindstrong
 nav: Providers
 network: true
 overview: Mindstrong is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mental Health, Digital Health, Behavioral Health, and Digital Biomarkers.
-random_paper: 53
+random_paper: 40
 score:
   band: minimal
   composite: 5.0

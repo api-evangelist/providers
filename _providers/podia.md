@@ -81,7 +81,7 @@ plans:
 - name: Podia Plans Pricing
   plan_count: 3
   slug: podia-plans-pricing
-random_paper: 45
+random_paper: 39
 score:
   band: emerging
   composite: 14.5

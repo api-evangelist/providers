@@ -44,7 +44,7 @@ name: Pongalo
 nav: Providers
 network: true
 overview: Pongalo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 32
+random_paper: 23
 score:
   band: minimal
   composite: 3.2

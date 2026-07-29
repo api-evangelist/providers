@@ -44,7 +44,7 @@ name: Texas Roadhouse
 nav: Providers
 network: true
 overview: Texas Roadhouse is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 44
+random_paper: 25
 score:
   band: minimal
   composite: 2.6

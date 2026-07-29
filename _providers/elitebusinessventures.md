@@ -48,7 +48,7 @@ name: Elite Business Ventures
 nav: Providers
 network: true
 overview: Elite Business Ventures is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Compliance, Labor Law, Workplace Safety, and Human Resources.
-random_paper: 59
+random_paper: 31
 score:
   band: minimal
   composite: 5.0

@@ -103,7 +103,7 @@ overview: 'Modelcode is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Modelcode''s developer surface includes documentation, getting-started guide, engineering blog, support, pricing, changelog, and 9 more developer resources.'
-random_paper: 60
+random_paper: 49
 score:
   band: emerging
   composite: 23.2

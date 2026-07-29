@@ -83,7 +83,7 @@ overview: 'Foraged is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Foraged''s developer surface includes getting-started guide, support, engineering blog, pricing, signup flow, and 5 more developer resources.'
-random_paper: 8
+random_paper: 80
 score:
   band: emerging
   composite: 19.3

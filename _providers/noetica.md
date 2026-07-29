@@ -60,7 +60,7 @@ name: Noetica
 nav: Providers
 network: true
 overview: Noetica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal Tech, Financial, Deal Intelligence, and Market Data.
-random_paper: 19
+random_paper: 10
 score:
   band: minimal
   composite: 9.8

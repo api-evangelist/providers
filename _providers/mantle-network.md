@@ -120,7 +120,7 @@ plans:
 - name: Mantle Network Plans Pricing
   plan_count: 1
   slug: mantle-network-plans-pricing
-random_paper: 24
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Mantle Network Rate Limits

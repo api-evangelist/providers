@@ -48,7 +48,7 @@ name: Elanco Animal Health
 nav: Providers
 network: true
 overview: Elanco Animal Health is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 52
+random_paper: 28
 score:
   band: minimal
   composite: 3.3

@@ -48,7 +48,7 @@ name: Call Levels
 nav: Providers
 network: true
 overview: Call Levels is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, FinTech, Market Data, and Price Alerts.
-random_paper: 68
+random_paper: 55
 score:
   band: minimal
   composite: 4.3

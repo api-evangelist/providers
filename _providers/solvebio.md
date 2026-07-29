@@ -88,7 +88,7 @@ overview: 'SolveBio publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   SolveBio''s developer surface includes CLI, authentication, and 8 more developer resources.'
-random_paper: 67
+random_paper: 57
 score:
   band: emerging
   composite: 15.2

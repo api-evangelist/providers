@@ -71,7 +71,7 @@ overview: 'Another is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Another''s developer surface includes signup flow and 6 more developer resources.'
-random_paper: 33
+random_paper: 24
 score:
   band: minimal
   composite: 11.8

@@ -39,7 +39,7 @@ name: IAM
 nav: Providers
 network: true
 overview: IAM is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Access Management, Authentication, Authorization, IAM, and Identity.
-random_paper: 71
+random_paper: 68
 score:
   band: minimal
   composite: 5.0

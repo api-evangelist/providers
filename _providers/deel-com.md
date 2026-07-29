@@ -22,7 +22,7 @@ modified: '2026-05-25'
 name: Deel
 nav: Providers
 network: true
-random_paper: 54
+random_paper: 45
 slug: deel-com
 tags:
 - HR

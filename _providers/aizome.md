@@ -67,7 +67,7 @@ overview: 'Aizome is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Aizome''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 5
+random_paper: 78
 score:
   band: minimal
   composite: 9.7

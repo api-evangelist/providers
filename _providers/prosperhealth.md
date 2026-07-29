@@ -79,7 +79,7 @@ overview: 'Prosper Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Prosper Health''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 49
+random_paper: 32
 score:
   band: emerging
   composite: 14.4

@@ -119,7 +119,7 @@ press:
 - date: '2026-05-25'
   title: Cognizant Named Aston Martin Aramco Formula One™ ...
   url: https://www.prnewswire.com/news-releases/cognizant-named-aston-martin-aramco-formula-one-team-global-ai-services-partner-302755751.html
-random_paper: 22
+random_paper: 77
 score:
   band: minimal
   composite: 10.3

@@ -83,7 +83,7 @@ plans:
 - name: Dati Comune Rimini It Plans Pricing
   plan_count: 0
   slug: dati-comune-rimini-it-plans-pricing
-random_paper: 69
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Dati Comune Rimini It Rate Limits

@@ -131,7 +131,7 @@ overview: 'Virgin Media O2 publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Virgin Media O2''s developer surface includes support, engineering blog, and 17 more developer resources.'
-random_paper: 58
+random_paper: 41
 score:
   band: emerging
   composite: 26.7

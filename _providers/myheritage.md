@@ -75,7 +75,7 @@ overview: 'MyHeritage is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   MyHeritage''s developer surface includes engineering blog, support, pricing, signup flow, and 4 more developer resources.'
-random_paper: 31
+random_paper: 18
 score:
   band: emerging
   composite: 15.9

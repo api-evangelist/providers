@@ -73,7 +73,7 @@ plans:
 - name: Change Healthcare Plans Pricing
   plan_count: 2
   slug: change-healthcare-plans-pricing
-random_paper: 20
+random_paper: 80
 rate_limits:
 - limit_count: 2
   name: Change Healthcare Rate Limits

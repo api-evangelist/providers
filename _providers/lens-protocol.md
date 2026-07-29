@@ -119,7 +119,7 @@ plans:
 - name: Lens Protocol Plans Pricing
   plan_count: 1
   slug: lens-protocol-plans-pricing
-random_paper: 1
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Lens Protocol Rate Limits

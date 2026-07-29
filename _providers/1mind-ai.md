@@ -87,7 +87,7 @@ overview: '1mind AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   1mind AI''s developer surface includes engineering blog, signup flow, support, and 8 more developer resources.'
-random_paper: 0
+random_paper: 72
 score:
   band: emerging
   composite: 17.5

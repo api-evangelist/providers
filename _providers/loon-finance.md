@@ -148,7 +148,7 @@ overview: 'Loon Finance publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Loon Finance''s developer surface includes documentation, engineering blog, support, and 18 more developer resources.'
-random_paper: 9
+random_paper: 75
 score:
   band: thin
   composite: 37.7

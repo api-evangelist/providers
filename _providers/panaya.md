@@ -155,7 +155,7 @@ overview: 'Panaya publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Panaya''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 18 more developer resources.'
-random_paper: 74
+random_paper: 67
 rate_limits:
 - limit_count: 0
   name: Panaya Rate Limits

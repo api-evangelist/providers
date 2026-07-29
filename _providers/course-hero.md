@@ -67,7 +67,7 @@ overview: 'Course Hero is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Course Hero''s developer surface includes support and 5 more developer resources.'
-random_paper: 12
+random_paper: 79
 score:
   band: minimal
   composite: 10.8

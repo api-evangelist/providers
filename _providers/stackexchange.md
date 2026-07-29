@@ -458,7 +458,7 @@ plans:
 - name: Stackexchange Plans Pricing
   plan_count: 3
   slug: stackexchange-plans-pricing
-random_paper: 9
+random_paper: 73
 rate_limits:
 - limit_count: 6
   name: Stackexchange Rate Limits

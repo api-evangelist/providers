@@ -206,7 +206,7 @@ overview: 'Overflow publishes 13 APIs on the [APIs.io](https://apis.io/) network
 
 
   Overflow''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, signup flow, sandbox, and 19 more developer resources.'
-random_paper: 4
+random_paper: 74
 score:
   band: developing
   composite: 47.9

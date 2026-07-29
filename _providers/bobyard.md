@@ -95,7 +95,7 @@ overview: 'Bobyard is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Bobyard''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 8 more developer resources.'
-random_paper: 19
+random_paper: 10
 score:
   band: emerging
   composite: 19.8

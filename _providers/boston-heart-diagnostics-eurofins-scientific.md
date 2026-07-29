@@ -71,7 +71,7 @@ overview: 'Boston Heart Diagnostics (Eurofins Scientific) is profiled on the [AP
 
 
   Boston Heart Diagnostics (Eurofins Scientific)''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 1
+random_paper: 26
 score:
   band: emerging
   composite: 13.8

@@ -67,7 +67,7 @@ overview: 'Cyclone Robotics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Cyclone Robotics'' developer surface includes signup flow, support, engineering blog, and 3 more developer resources.'
-random_paper: 63
+random_paper: 43
 score:
   band: minimal
   composite: 11.0

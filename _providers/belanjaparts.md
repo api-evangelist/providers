@@ -48,7 +48,7 @@ name: Belanjaparts
 nav: Providers
 network: true
 overview: Belanjaparts is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Spare Parts, Aftermarket, and E-Commerce.
-random_paper: 71
+random_paper: 56
 score:
   band: minimal
   composite: 5.0

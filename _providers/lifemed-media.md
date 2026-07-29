@@ -39,7 +39,7 @@ name: LifeMed Media
 nav: Providers
 network: true
 overview: LifeMed Media is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Diabetes, and Media.
-random_paper: 3
+random_paper: 68
 score:
   band: minimal
   composite: 4.3

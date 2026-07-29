@@ -204,7 +204,7 @@ plans:
 - name: Magic Eden Plans Pricing
   plan_count: 2
   slug: magic-eden-plans-pricing
-random_paper: 10
+random_paper: 79
 rate_limits:
 - limit_count: 4
   name: Magic Eden Rate Limits

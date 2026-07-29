@@ -59,7 +59,7 @@ overview: 'Omate is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Omate''s developer surface includes support and 3 more developer resources.'
-random_paper: 54
+random_paper: 48
 score:
   band: minimal
   composite: 8.6

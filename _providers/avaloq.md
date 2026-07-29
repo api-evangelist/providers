@@ -321,7 +321,7 @@ plans:
 - name: Avaloq Plans Pricing
   plan_count: 2
   slug: avaloq-plans-pricing
-random_paper: 4
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Avaloq Rate Limits

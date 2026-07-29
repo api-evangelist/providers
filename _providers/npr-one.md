@@ -56,7 +56,7 @@ name: NPR One
 nav: Providers
 network: true
 overview: NPR One publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include News and Public APIs.
-random_paper: 63
+random_paper: 55
 score:
   band: minimal
   composite: 5.7

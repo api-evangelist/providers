@@ -122,7 +122,7 @@ overview: 'Switchfly publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   Switchfly''s developer surface includes documentation, API reference, engineering blog, support, signup flow, authentication, and 11 more developer resources.'
-random_paper: 29
+random_paper: 17
 score:
   band: thin
   composite: 33.4

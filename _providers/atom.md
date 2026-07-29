@@ -72,7 +72,7 @@ overview: 'ATOM is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   ATOM''s developer surface includes documentation, support, engineering blog, authentication, and 3 more developer resources.'
-random_paper: 33
+random_paper: 28
 score:
   band: minimal
   composite: 12.8

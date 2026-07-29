@@ -60,7 +60,7 @@ name: Theker
 nav: Providers
 network: true
 overview: Theker is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Artificial Intelligence, Humanoid Robots, and Physical AI.
-random_paper: 3
+random_paper: 76
 score:
   band: minimal
   composite: 9.9

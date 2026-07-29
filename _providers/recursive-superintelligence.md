@@ -56,7 +56,7 @@ name: Recursive Superintelligence
 nav: Providers
 network: true
 overview: Recursive Superintelligence is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, AI Research, and Superintelligence.
-random_paper: 55
+random_paper: 20
 score:
   band: minimal
   composite: 9.2

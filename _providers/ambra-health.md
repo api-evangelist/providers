@@ -135,7 +135,7 @@ plans:
 - name: Ambra Health Plans Pricing
   plan_count: 3
   slug: ambra-health-plans-pricing
-random_paper: 70
+random_paper: 56
 rate_limits:
 - limit_count: 4
   name: Ambra Health Rate Limits

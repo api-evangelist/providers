@@ -117,7 +117,7 @@ plans:
 - name: University Of Exeter Plans Pricing
   plan_count: 2
   slug: university-of-exeter-plans-pricing
-random_paper: 78
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: University Of Exeter Rate Limits

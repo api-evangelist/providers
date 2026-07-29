@@ -116,7 +116,7 @@ overview: 'FLORA is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   FLORA''s developer surface includes documentation, engineering blog, status page, support, YouTube channel, and 13 more developer resources.'
-random_paper: 60
+random_paper: 47
 score:
   band: emerging
   composite: 13.8

@@ -67,7 +67,7 @@ overview: 'Aerska is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Aerska''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 71
+random_paper: 64
 score:
   band: minimal
   composite: 10.8

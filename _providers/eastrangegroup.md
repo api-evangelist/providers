@@ -60,7 +60,7 @@ name: East Range Group
 nav: Providers
 network: true
 overview: East Range Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, High Purity Water, Water Treatment, Water Services, and Industrial Services.
-random_paper: 71
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

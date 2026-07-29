@@ -161,7 +161,7 @@ plans:
 - name: Upbit Plans Pricing
   plan_count: 2
   slug: upbit-plans-pricing
-random_paper: 68
+random_paper: 62
 rate_limits:
 - limit_count: 4
   name: Upbit Rate Limits

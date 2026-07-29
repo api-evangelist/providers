@@ -60,7 +60,7 @@ name: Transport for Norway
 nav: Providers
 network: true
 overview: Transport for Norway publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 14
+random_paper: 69
 score:
   band: minimal
   composite: 5.7

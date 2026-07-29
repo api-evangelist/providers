@@ -48,7 +48,7 @@ name: Rex
 nav: Providers
 network: true
 overview: Rex is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Mobile, Startup, and Consumer App.
-random_paper: 15
+random_paper: 11
 score:
   band: minimal
   composite: 4.1

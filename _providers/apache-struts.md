@@ -149,7 +149,7 @@ plans:
 - name: Apache Struts Plans Pricing
   plan_count: 3
   slug: apache-struts-plans-pricing
-random_paper: 68
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Apache Struts Rate Limits

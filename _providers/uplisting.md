@@ -132,7 +132,7 @@ plans:
 - name: Uplisting Plans Pricing
   plan_count: 3
   slug: uplisting-plans-pricing
-random_paper: 31
+random_paper: 19
 rate_limits:
 - limit_count: 4
   name: Uplisting Rate Limits

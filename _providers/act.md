@@ -79,7 +79,7 @@ overview: 'Act! CRM publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Act! CRM''s developer surface includes documentation, support, pricing, signup flow, engineering blog, and 3 more developer resources.'
-random_paper: 72
+random_paper: 69
 score:
   band: emerging
   composite: 20.1

@@ -91,7 +91,7 @@ overview: 'Tendo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Tendo''s developer surface includes documentation, engineering blog, support, and 9 more developer resources.'
-random_paper: 58
+random_paper: 52
 score:
   band: emerging
   composite: 18.4

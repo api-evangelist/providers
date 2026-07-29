@@ -56,7 +56,7 @@ name: Drill Creative
 nav: Providers
 network: true
 overview: Drill Creative is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video Games, Game Development, Interactive Entertainment, and Fortnite.
-random_paper: 71
+random_paper: 54
 score:
   band: minimal
   composite: 7.1

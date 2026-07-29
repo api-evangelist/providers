@@ -873,7 +873,7 @@ plans:
 - name: Amazon Healthlake Plans Pricing
   plan_count: 3
   slug: amazon-healthlake-plans-pricing
-random_paper: 54
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Amazon Healthlake Rate Limits

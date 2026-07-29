@@ -52,7 +52,7 @@ name: Lucifer Quotes
 nav: Providers
 network: true
 overview: Lucifer Quotes publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video and Public APIs.
-random_paper: 24
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

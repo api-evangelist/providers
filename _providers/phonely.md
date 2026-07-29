@@ -209,7 +209,7 @@ plans:
 - name: Phonely Plans Pricing
   plan_count: 4
   slug: phonely-plans-pricing
-random_paper: 47
+random_paper: 38
 rate_limits:
 - limit_count: 3
   name: Phonely Rate Limits

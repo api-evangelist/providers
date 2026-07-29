@@ -87,7 +87,7 @@ overview: 'Plooto is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Plooto''s developer surface includes engineering blog, pricing, getting-started guide, and 10 more developer resources.'
-random_paper: 29
+random_paper: 21
 score:
   band: emerging
   composite: 23.3

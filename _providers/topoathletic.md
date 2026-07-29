@@ -52,7 +52,7 @@ name: Topo Athletic
 nav: Providers
 network: true
 overview: Topo Athletic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Footwear, Running, Trail Running, and Hiking.
-random_paper: 16
+random_paper: 0
 score:
   band: minimal
   composite: 5.7

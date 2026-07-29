@@ -8328,7 +8328,7 @@ plans:
 - name: Auth0 Plans Pricing
   plan_count: 4
   slug: auth0-plans-pricing
-random_paper: 2
+random_paper: 77
 rate_limits:
 - limit_count: 9
   name: Auth0 Rate Limits

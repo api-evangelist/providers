@@ -67,7 +67,7 @@ press:
 - date: '2026-05-25'
   title: HollyFrontier Corporation Third Quarter 2021 Earnings ...
   url: http://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2021-10-4-hollyfrontier-corporation-third-quarter-2021-earnings-release-and-conference-webcast
-random_paper: 65
+random_paper: 48
 score:
   band: minimal
   composite: 2.6

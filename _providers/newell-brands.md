@@ -64,7 +64,7 @@ name: Newell Brands
 nav: Providers
 network: true
 overview: Newell Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500 and Consumer Goods.
-random_paper: 46
+random_paper: 30
 score:
   band: minimal
   composite: 4.8

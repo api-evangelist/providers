@@ -172,7 +172,7 @@ plans:
 - name: Cfpb Plans Pricing
   plan_count: 2
   slug: cfpb-plans-pricing
-random_paper: 11
+random_paper: 6
 rate_limits:
 - limit_count: 0
   name: Cfpb Rate Limits

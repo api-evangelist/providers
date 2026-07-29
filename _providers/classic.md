@@ -160,7 +160,7 @@ overview: 'Classic publishes 5 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Classic''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 19 more developer resources.'
-random_paper: 18
+random_paper: 9
 score:
   band: thin
   composite: 38.8

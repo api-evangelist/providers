@@ -63,7 +63,7 @@ overview: 'Kayum is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kayum''s developer surface includes support and 4 more developer resources.'
-random_paper: 71
+random_paper: 65
 score:
   band: minimal
   composite: 9.0

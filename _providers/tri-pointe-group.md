@@ -115,7 +115,7 @@ overview: 'Tri Pointe Homes is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Tri Pointe Homes'' developer surface includes engineering blog, YouTube channel, and 12 more developer resources.'
-random_paper: 37
+random_paper: 17
 score:
   band: minimal
   composite: 6.0

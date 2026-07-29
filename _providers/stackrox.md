@@ -257,7 +257,7 @@ plans:
 - name: Stackrox Plans Pricing
   plan_count: 3
   slug: stackrox-plans-pricing
-random_paper: 79
+random_paper: 69
 rate_limits:
 - limit_count: 5
   name: Stackrox Rate Limits

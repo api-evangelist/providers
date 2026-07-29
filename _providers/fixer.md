@@ -277,7 +277,7 @@ plans:
 - name: Fixer Plans Pricing
   plan_count: 5
   slug: fixer-plans-pricing
-random_paper: 62
+random_paper: 56
 rate_limits:
 - limit_count: 0
   name: Fixer Rate Limits

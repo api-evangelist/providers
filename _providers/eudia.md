@@ -87,7 +87,7 @@ overview: 'Eudia is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Eudia''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 40
+random_paper: 34
 score:
   band: emerging
   composite: 14.4

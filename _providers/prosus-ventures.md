@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Prosus Ventures
 nav: Providers
 network: true
-random_paper: 21
+random_paper: 1
 slug: prosus-ventures
 tags:
 - Venture Capital

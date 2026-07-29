@@ -365,7 +365,7 @@ plans:
 - name: Exchangerate Api Plans Pricing
   plan_count: 5
   slug: exchangerate-api-plans-pricing
-random_paper: 22
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Exchangerate Api Rate Limits

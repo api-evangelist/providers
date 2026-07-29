@@ -95,7 +95,7 @@ overview: 'Archive is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Archive''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 18
+random_paper: 9
 score:
   band: emerging
   composite: 15.6

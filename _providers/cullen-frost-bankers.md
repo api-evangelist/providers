@@ -61,7 +61,7 @@ plans:
 - name: Cullen Frost Bankers Plans Pricing
   plan_count: 1
   slug: cullen-frost-bankers-plans-pricing
-random_paper: 33
+random_paper: 8
 rate_limits:
 - limit_count: 1
   name: Cullen Frost Bankers Rate Limits

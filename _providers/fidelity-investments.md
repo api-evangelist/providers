@@ -103,7 +103,7 @@ overview: 'Fidelity Investments is profiled on the [APIs.io](https://apis.io/) n
 
 
   Fidelity Investments'' developer surface includes product news and 13 more developer resources.'
-random_paper: 39
+random_paper: 13
 score:
   band: emerging
   composite: 22.8

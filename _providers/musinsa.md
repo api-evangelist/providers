@@ -60,7 +60,7 @@ overview: 'MUSINSA is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   MUSINSA''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 48
+random_paper: 39
 score:
   band: minimal
   composite: 6.1

@@ -88,7 +88,7 @@ overview: 'HomeAway * is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   HomeAway *''s developer surface includes authentication, CLI, and 9 more developer resources.'
-random_paper: 59
+random_paper: 49
 score:
   band: minimal
   composite: 12.9

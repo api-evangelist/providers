@@ -208,7 +208,7 @@ overview: 'HookLogic (Criteo) publishes 8 APIs on the [APIs.io](https://apis.io/
 
 
   HookLogic (Criteo)''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 50
+random_paper: 30
 rate_limits:
 - limit_count: 0
   name: Hooklogic Criteo Rate Limits

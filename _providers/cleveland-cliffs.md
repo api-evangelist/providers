@@ -87,7 +87,7 @@ overview: 'Cleveland-Cliffs is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Cleveland-Cliffs'' developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 18
+random_paper: 79
 score:
   band: minimal
   composite: 9.7

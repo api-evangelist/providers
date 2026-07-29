@@ -267,7 +267,7 @@ plans:
 - name: Absence Io Plans Pricing
   plan_count: 3
   slug: absence-io-plans-pricing
-random_paper: 22
+random_paper: 10
 rate_limits:
 - limit_count: 5
   name: Absence Io Rate Limits

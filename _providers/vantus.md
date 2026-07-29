@@ -39,7 +39,7 @@ name: Vantus
 nav: Providers
 network: true
 overview: Vantus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, CRM, Call Centers, Enterprise Software, and Customer Service.
-random_paper: 33
+random_paper: 25
 score:
   band: minimal
   composite: 5.0

@@ -48,7 +48,7 @@ name: The Boring Company
 nav: Providers
 network: true
 overview: The Boring Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Transportation, Tunnels, and Transit.
-random_paper: 51
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

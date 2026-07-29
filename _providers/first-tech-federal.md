@@ -75,7 +75,7 @@ overview: 'First Tech Federal Credit Union is profiled on the [APIs.io](https://
 
 
   First Tech Federal Credit Union''s developer surface includes support, engineering blog, pricing, and 7 more developer resources.'
-random_paper: 25
+random_paper: 3
 score:
   band: emerging
   composite: 14.6

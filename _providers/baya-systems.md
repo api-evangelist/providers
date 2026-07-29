@@ -52,7 +52,7 @@ name: Baya Systems
 nav: Providers
 network: true
 overview: Baya Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Chiplets, Network on Chip, and Interconnect IP.
-random_paper: 50
+random_paper: 35
 score:
   band: minimal
   composite: 5.7

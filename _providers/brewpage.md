@@ -258,7 +258,7 @@ plans:
 - name: Brewpage Plans Pricing
   plan_count: 1
   slug: brewpage-plans-pricing
-random_paper: 45
+random_paper: 35
 rate_limits:
 - limit_count: 11
   name: Brewpage Rate Limits

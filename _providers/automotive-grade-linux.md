@@ -110,7 +110,7 @@ plans:
 - name: Automotive Grade Linux Plans Pricing
   plan_count: 3
   slug: automotive-grade-linux-plans-pricing
-random_paper: 26
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Automotive Grade Linux Rate Limits

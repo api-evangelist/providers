@@ -176,7 +176,7 @@ plans:
 - name: Loughborough Plans Pricing
   plan_count: 2
   slug: loughborough-plans-pricing
-random_paper: 21
+random_paper: 5
 rate_limits:
 - limit_count: 1
   name: Loughborough Rate Limits

@@ -63,7 +63,7 @@ overview: 'MicroBenefits is profiled on the [APIs.io](https://apis.io/) network.
 
 
   MicroBenefits'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 26
+random_paper: 9
 score:
   band: minimal
   composite: 8.4

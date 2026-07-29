@@ -123,7 +123,7 @@ overview: 'WSFS Financial is profiled on the [APIs.io](https://apis.io/) network
 
 
   WSFS Financial''s developer surface includes developer portal, engineering blog, YouTube channel, and 10 more developer resources.'
-random_paper: 69
+random_paper: 52
 score:
   band: minimal
   composite: 12.3

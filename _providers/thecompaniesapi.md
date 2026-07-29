@@ -137,7 +137,7 @@ plans:
 - name: Thecompaniesapi Plans Pricing
   plan_count: 4
   slug: thecompaniesapi-plans-pricing
-random_paper: 74
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: Thecompaniesapi Rate Limits

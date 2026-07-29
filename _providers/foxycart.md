@@ -104,7 +104,7 @@ plans:
 - name: Foxycart Plans Pricing
   plan_count: 4
   slug: foxycart-plans-pricing
-random_paper: 0
+random_paper: 70
 rate_limits:
 - limit_count: 0
   name: Foxycart Rate Limits

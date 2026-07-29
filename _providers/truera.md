@@ -88,7 +88,7 @@ plans:
 - name: Truera Plans Pricing
   plan_count: 2
   slug: truera-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 2
   name: Truera Rate Limits

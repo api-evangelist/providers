@@ -98,7 +98,7 @@ plans:
 - name: Delta Lake Plans Pricing
   plan_count: 3
   slug: delta-lake-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Delta Lake Rate Limits

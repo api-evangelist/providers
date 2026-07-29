@@ -343,7 +343,7 @@ plans:
 - name: Youki Plans Pricing
   plan_count: 3
   slug: youki-plans-pricing
-random_paper: 1
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Youki Rate Limits

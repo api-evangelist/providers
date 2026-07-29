@@ -56,7 +56,7 @@ name: Cloudbet
 nav: Providers
 network: true
 overview: Cloudbet publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sports And Fitness and Public APIs.
-random_paper: 50
+random_paper: 40
 score:
   band: minimal
   composite: 5.7

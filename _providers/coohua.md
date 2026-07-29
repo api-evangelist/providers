@@ -44,7 +44,7 @@ name: coohua
 nav: Providers
 network: true
 overview: coohua is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Mobile, AdTech, and Incentive Advertising.
-random_paper: 79
+random_paper: 72
 score:
   band: minimal
   composite: 5.0

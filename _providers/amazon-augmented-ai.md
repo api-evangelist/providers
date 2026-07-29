@@ -224,7 +224,7 @@ overview: 'Amazon Augmented AI publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Amazon Augmented AI''s developer surface includes authentication and 6 more developer resources.'
-random_paper: 52
+random_paper: 29
 rules:
 - name: Amazon Augmented AI API Rules
   rule_count: 4

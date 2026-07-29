@@ -56,7 +56,7 @@ name: Yuga Labs
 nav: Providers
 network: true
 overview: Yuga Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, NFT, Blockchain, and Web3.
-random_paper: 21
+random_paper: 10
 score:
   band: minimal
   composite: 9.2

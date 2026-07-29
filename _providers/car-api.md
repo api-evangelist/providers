@@ -216,7 +216,7 @@ plans:
 - name: Car Api Plans Pricing
   plan_count: 4
   slug: car-api-plans-pricing
-random_paper: 29
+random_paper: 21
 rate_limits:
 - limit_count: 4
   name: Car Api Rate Limits

@@ -135,7 +135,7 @@ plans:
 - name: Ticketspice Plans Pricing
   plan_count: 3
   slug: ticketspice-plans-pricing
-random_paper: 56
+random_paper: 42
 rate_limits:
 - limit_count: 3
   name: Ticketspice Rate Limits

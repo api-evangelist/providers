@@ -116,7 +116,7 @@ plans:
 - name: Airdna Plans Pricing
   plan_count: 1
   slug: airdna-plans-pricing
-random_paper: 63
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Airdna Rate Limits

@@ -212,7 +212,7 @@ overview: 'SambaNova Systems publishes 12 APIs on the [APIs.io](https://apis.io/
 
 
   SambaNova Systems'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 29
+random_paper: 7
 rate_limits:
 - limit_count: 11
   name: Sambanova Systems Rate Limits

@@ -64,7 +64,7 @@ name: Alan
 nav: Providers
 network: true
 overview: Alan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Insurance, Health Insurance, and InsurTech.
-random_paper: 12
+random_paper: 7
 score:
   band: minimal
   composite: 9.1

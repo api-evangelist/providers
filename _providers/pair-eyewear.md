@@ -116,7 +116,7 @@ overview: 'Pair Eyewear publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Pair Eyewear''s developer surface includes documentation, support, engineering blog, signup flow, authentication, and 11 more developer resources.'
-random_paper: 27
+random_paper: 12
 scopes:
 - name: Pair Eyewear Scopes
   scope_count: 4

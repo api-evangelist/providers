@@ -152,7 +152,7 @@ overview: 'QuEra Computing publishes 8 APIs on the [APIs.io](https://apis.io/) n
 
 
   QuEra Computing''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, pricing, product news, and 11 more developer resources.'
-random_paper: 49
+random_paper: 30
 score:
   band: emerging
   composite: 18.4

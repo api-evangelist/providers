@@ -169,7 +169,7 @@ plans:
 - name: Rubrik Plans Pricing
   plan_count: 1
   slug: rubrik-plans-pricing
-random_paper: 15
+random_paper: 7
 rate_limits:
 - limit_count: 2
   name: Rubrik Rate Limits

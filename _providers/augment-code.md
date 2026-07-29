@@ -131,7 +131,7 @@ plans:
 - name: Augment Code Plans Pricing
   plan_count: 1
   slug: augment-code-plans-pricing
-random_paper: 9
+random_paper: 75
 rate_limits:
 - limit_count: 2
   name: Augment Code Rate Limits

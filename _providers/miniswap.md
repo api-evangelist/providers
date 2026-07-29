@@ -48,7 +48,7 @@ name: Miniswap
 nav: Providers
 network: true
 overview: Miniswap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Ecommerce, Tabletop Gaming, and Warhammer.
-random_paper: 72
+random_paper: 62
 score:
   band: minimal
   composite: 5.0

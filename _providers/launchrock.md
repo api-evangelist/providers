@@ -108,7 +108,7 @@ overview: 'LaunchRock is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   LaunchRock''s developer surface includes pricing, signup flow, support, and 13 more developer resources.'
-random_paper: 26
+random_paper: 13
 score:
   band: emerging
   composite: 16.7

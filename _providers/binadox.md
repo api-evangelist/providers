@@ -130,7 +130,7 @@ plans:
 - name: Binadox Plans Pricing
   plan_count: 3
   slug: binadox-plans-pricing
-random_paper: 21
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Binadox Rate Limits

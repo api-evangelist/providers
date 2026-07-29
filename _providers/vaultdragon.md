@@ -76,7 +76,7 @@ overview: 'VaultDragon is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   VaultDragon''s developer surface includes engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 71
+random_paper: 57
 score:
   band: minimal
   composite: 10.3

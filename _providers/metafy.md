@@ -64,7 +64,7 @@ name: Metafy
 nav: Providers
 network: true
 overview: Metafy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Gaming, Coaching, and Esports.
-random_paper: 6
+random_paper: 79
 score:
   band: minimal
   composite: 7.5

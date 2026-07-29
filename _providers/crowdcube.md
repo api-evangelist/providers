@@ -48,7 +48,7 @@ name: crowdcube
 nav: Providers
 network: true
 overview: crowdcube is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Equity Crowdfunding, Investing, Fintech, and Startups.
-random_paper: 78
+random_paper: 67
 score:
   band: minimal
   composite: 5.0

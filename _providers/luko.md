@@ -83,7 +83,7 @@ overview: 'Luko is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Luko''s developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 43
+random_paper: 38
 score:
   band: emerging
   composite: 15.6

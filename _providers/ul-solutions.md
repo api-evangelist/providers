@@ -107,7 +107,7 @@ overview: 'UL Solutions is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   UL Solutions'' developer surface includes developer portal, product news, engineering blog, and 13 more developer resources.'
-random_paper: 78
+random_paper: 63
 score:
   band: emerging
   composite: 13.3

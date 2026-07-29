@@ -83,7 +83,7 @@ overview: 'Enjamb Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Enjamb Labs'' developer surface includes engineering blog, pricing, signup flow, and 7 more developer resources.'
-random_paper: 44
+random_paper: 31
 score:
   band: emerging
   composite: 14.8

@@ -48,7 +48,7 @@ name: Markato
 nav: Providers
 network: true
 overview: Markato is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Distribution, Beauty, Cosmetics, and Wellness.
-random_paper: 31
+random_paper: 22
 score:
   band: minimal
   composite: 5.0

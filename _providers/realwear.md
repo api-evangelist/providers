@@ -99,7 +99,7 @@ overview: 'RealWear is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   RealWear''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, and 8 more developer resources.'
-random_paper: 51
+random_paper: 41
 score:
   band: emerging
   composite: 20.0

@@ -63,7 +63,7 @@ overview: 'Tejas Networks India is profiled on the [APIs.io](https://apis.io/) n
 
 
   Tejas Networks India''s developer surface includes support and 4 more developer resources.'
-random_paper: 35
+random_paper: 10
 score:
   band: minimal
   composite: 11.5

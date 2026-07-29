@@ -114,7 +114,7 @@ plans:
 - name: Glhf Chat Plans Pricing
   plan_count: 2
   slug: glhf-chat-plans-pricing
-random_paper: 78
+random_paper: 68
 rate_limits:
 - limit_count: 3
   name: Glhf Chat Rate Limits

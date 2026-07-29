@@ -147,7 +147,7 @@ overview: 'Goji publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Goji''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 25
+random_paper: 20
 score:
   band: thin
   composite: 40.9

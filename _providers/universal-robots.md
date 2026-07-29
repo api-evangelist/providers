@@ -158,7 +158,7 @@ overview: 'Universal Robots publishes 7 APIs on the [APIs.io](https://apis.io/) 
 
 
   Universal Robots'' developer surface includes documentation, GitHub presence, academy / training, support, YouTube channel, and 16 more developer resources.'
-random_paper: 15
+random_paper: 75
 score:
   band: emerging
   composite: 14.2

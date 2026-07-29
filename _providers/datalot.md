@@ -60,7 +60,7 @@ name: Datalot
 nav: Providers
 network: true
 overview: Datalot is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, InsurTech, Lead Generation, and Customer Acquisition.
-random_paper: 25
+random_paper: 16
 score:
   band: emerging
   composite: 13.2

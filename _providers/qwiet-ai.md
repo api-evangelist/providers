@@ -245,7 +245,7 @@ overview: 'Qwiet Ai publishes 27 APIs on the [APIs.io](https://apis.io/) network
 
 
   Qwiet Ai''s developer surface includes documentation, API reference, getting-started guide, support, pricing, authentication, CLI, and 20 more developer resources.'
-random_paper: 1
+random_paper: 72
 score:
   band: developing
   composite: 52.5

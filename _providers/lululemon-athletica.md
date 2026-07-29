@@ -64,7 +64,7 @@ name: Lululemon Athletica
 nav: Providers
 network: true
 overview: Lululemon Athletica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Apparel, Athletic Wear, Retail, Ecommerce, and Fortune 500.
-random_paper: 57
+random_paper: 33
 score:
   band: minimal
   composite: 5.7

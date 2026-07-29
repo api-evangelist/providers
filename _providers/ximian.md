@@ -45,7 +45,7 @@ name: Ximian
 nav: Providers
 network: true
 overview: Ximian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open Source, Linux, GNOME, and Email.
-random_paper: 6
+random_paper: 79
 score:
   band: minimal
   composite: 6.1

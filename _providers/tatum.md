@@ -140,7 +140,7 @@ plans:
 - name: Tatum Plans Pricing
   plan_count: 5
   slug: tatum-plans-pricing
-random_paper: 75
+random_paper: 69
 rate_limits:
 - limit_count: 3
   name: Tatum Rate Limits

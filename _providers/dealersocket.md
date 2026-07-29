@@ -80,7 +80,7 @@ overview: 'DealerSocket publishes 4 APIs on the [APIs.io](https://apis.io/) netw
 
 
   DealerSocket''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 70
+random_paper: 55
 score:
   band: minimal
   composite: 8.2

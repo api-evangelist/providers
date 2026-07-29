@@ -173,7 +173,7 @@ plans:
 - name: Salesforce Automation System Plans Pricing
   plan_count: 1
   slug: salesforce-automation-system-plans-pricing
-random_paper: 39
+random_paper: 3
 rate_limits:
 - limit_count: 4
   name: Salesforce Automation System Rate Limits

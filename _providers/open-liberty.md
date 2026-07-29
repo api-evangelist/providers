@@ -113,7 +113,7 @@ plans:
 - name: Open Liberty Plans Pricing
   plan_count: 3
   slug: open-liberty-plans-pricing
-random_paper: 42
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Open Liberty Rate Limits

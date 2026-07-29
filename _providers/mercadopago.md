@@ -165,7 +165,7 @@ plans:
 - name: Mercadopago Plans Pricing
   plan_count: 1
   slug: mercadopago-plans-pricing
-random_paper: 34
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Mercadopago Rate Limits

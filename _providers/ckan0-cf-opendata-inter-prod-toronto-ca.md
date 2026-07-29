@@ -84,7 +84,7 @@ plans:
 - name: Ckan0 Cf Opendata Inter Prod Toronto Ca Plans Pricing
   plan_count: 1
   slug: ckan0-cf-opendata-inter-prod-toronto-ca-plans-pricing
-random_paper: 64
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Ckan0 Cf Opendata Inter Prod Toronto Ca Rate Limits

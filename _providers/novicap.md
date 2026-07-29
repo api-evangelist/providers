@@ -131,7 +131,7 @@ overview: 'Novicap publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Novicap''s developer surface includes engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 32
+random_paper: 23
 score:
   band: thin
   composite: 32.8

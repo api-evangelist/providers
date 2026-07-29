@@ -122,7 +122,7 @@ overview: 'Microsoft Azure AI Foundry publishes 5 APIs on the [APIs.io](https://
 
 
   Microsoft Azure AI Foundry''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 7 more developer resources.'
-random_paper: 18
+random_paper: 79
 scopes:
 - name: Azure Ai Foundry Scopes
   scope_count: 1

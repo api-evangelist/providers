@@ -95,7 +95,7 @@ overview: 'Epicor publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Epicor''s developer surface includes documentation, engineering blog, YouTube channel, pricing, support, and 5 more developer resources.'
-random_paper: 2
+random_paper: 75
 score:
   band: emerging
   composite: 15.9

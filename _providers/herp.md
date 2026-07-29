@@ -75,7 +75,7 @@ overview: 'HERP is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   HERP''s developer surface includes documentation, engineering blog, and 6 more developer resources.'
-random_paper: 31
+random_paper: 26
 score:
   band: minimal
   composite: 10.8

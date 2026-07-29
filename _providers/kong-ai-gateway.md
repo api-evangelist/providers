@@ -216,7 +216,7 @@ plans:
 - name: Kong Ai Gateway Plans Pricing
   plan_count: 1
   slug: kong-ai-gateway-plans-pricing
-random_paper: 37
+random_paper: 19
 rate_limits:
 - limit_count: 2
   name: Kong Ai Gateway Rate Limits

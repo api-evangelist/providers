@@ -250,7 +250,7 @@ overview: 'LI.FI publishes 17 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   LI.FI''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 20
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Lifi Rate Limits

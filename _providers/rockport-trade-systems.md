@@ -48,7 +48,7 @@ name: Rockport Trade Systems
 nav: Providers
 network: true
 overview: Rockport Trade Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Global Trade Management, Trade Compliance, Customs, and Import Export.
-random_paper: 54
+random_paper: 26
 score:
   band: minimal
   composite: 6.1

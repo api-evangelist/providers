@@ -167,7 +167,7 @@ plans:
 - name: Parea Plans Pricing
   plan_count: 4
   slug: parea-plans-pricing
-random_paper: 41
+random_paper: 35
 rate_limits:
 - limit_count: 0
   name: Parea Rate Limits

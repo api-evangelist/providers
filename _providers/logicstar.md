@@ -107,7 +107,7 @@ overview: 'Logicstar is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Logicstar''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, and 10 more developer resources.'
-random_paper: 8
+random_paper: 77
 score:
   band: emerging
   composite: 23.9

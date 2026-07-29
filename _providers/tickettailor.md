@@ -129,7 +129,7 @@ plans:
 - name: Tickettailor Plans Pricing
   plan_count: 3
   slug: tickettailor-plans-pricing
-random_paper: 15
+random_paper: 80
 rate_limits:
 - limit_count: 3
   name: Tickettailor Rate Limits

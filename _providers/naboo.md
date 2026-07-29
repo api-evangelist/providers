@@ -76,7 +76,7 @@ name: Naboo
 nav: Providers
 network: true
 overview: Naboo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Knowledge Graph, and Reasoning Layer.
-random_paper: 47
+random_paper: 41
 score:
   band: emerging
   composite: 15.7

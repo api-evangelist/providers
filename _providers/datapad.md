@@ -111,7 +111,7 @@ overview: 'Datapad is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Datapad''s developer surface includes documentation, engineering blog, pricing, signup flow, support, and 12 more developer resources.'
-random_paper: 79
+random_paper: 71
 score:
   band: emerging
   composite: 24.4

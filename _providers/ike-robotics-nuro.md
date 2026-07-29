@@ -71,7 +71,7 @@ overview: 'Ike Robotics (Nuro) is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Ike Robotics (Nuro)''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 44
+random_paper: 23
 score:
   band: minimal
   composite: 11.2

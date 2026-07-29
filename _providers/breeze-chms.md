@@ -135,7 +135,7 @@ plans:
 - name: Breeze Chms Plans Pricing
   plan_count: 2
   slug: breeze-chms-plans-pricing
-random_paper: 69
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Breeze Chms Rate Limits

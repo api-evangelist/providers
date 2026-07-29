@@ -184,7 +184,7 @@ overview: 'Perchwell publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Perchwell''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 20 more developer resources.'
-random_paper: 6
+random_paper: 75
 score:
   band: developing
   composite: 44.5

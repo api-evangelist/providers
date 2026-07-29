@@ -342,7 +342,7 @@ plans:
 - name: Sketchfab Plans Pricing
   plan_count: 5
   slug: sketchfab-plans-pricing
-random_paper: 59
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Sketchfab Rate Limits

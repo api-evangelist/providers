@@ -48,7 +48,7 @@ name: Shelf Engine
 nav: Providers
 network: true
 overview: Shelf Engine is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Grocery, Retail, Food Waste, and Demand Forecasting.
-random_paper: 5
+random_paper: 71
 score:
   band: minimal
   composite: 5.0

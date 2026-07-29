@@ -83,7 +83,7 @@ overview: 'CSS (Cascading Style Sheets) is profiled on the [APIs.io](https://api
 
 
   CSS (Cascading Style Sheets)''s developer surface includes documentation and 9 more developer resources.'
-random_paper: 9
+random_paper: 5
 score:
   band: minimal
   composite: 8.9

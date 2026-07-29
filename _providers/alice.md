@@ -172,7 +172,7 @@ overview: 'Alice publishes 7 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Alice''s developer surface includes documentation, API reference, engineering blog, authentication, and 18 more developer resources.'
-random_paper: 30
+random_paper: 24
 score:
   band: developing
   composite: 44.9

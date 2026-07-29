@@ -79,7 +79,7 @@ overview: 'Cult.fit is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Cult.fit''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 43
+random_paper: 34
 score:
   band: emerging
   composite: 14.4

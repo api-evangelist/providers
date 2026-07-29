@@ -234,7 +234,7 @@ overview: 'RICS (Royal Institution of Chartered Surveyors) publishes 1 API on th
 
 
   RICS (Royal Institution of Chartered Surveyors)''s developer surface includes authentication, changelog, code examples, engineering blog, support, signup flow, pricing, and 39 more developer resources.'
-random_paper: 33
+random_paper: 28
 scopes:
 - name: Rics Scopes
   scope_count: 1

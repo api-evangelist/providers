@@ -48,7 +48,7 @@ name: Pine Street Labs
 nav: Providers
 network: true
 overview: Pine Street Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Blockchain, Cryptocurrency, and Digital Assets.
-random_paper: 79
+random_paper: 60
 score:
   band: minimal
   composite: 5.0

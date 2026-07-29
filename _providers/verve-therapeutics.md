@@ -48,7 +48,7 @@ name: Verve Therapeutics
 nav: Providers
 network: true
 overview: Verve Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Gene Editing, and Genetic Medicine.
-random_paper: 54
+random_paper: 31
 score:
   band: minimal
   composite: 5.4

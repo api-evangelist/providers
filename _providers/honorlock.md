@@ -90,7 +90,7 @@ overview: 'Honorlock publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Honorlock''s developer surface includes documentation and 6 more developer resources.'
-random_paper: 15
+random_paper: 3
 score:
   band: minimal
   composite: 9.8

@@ -145,7 +145,7 @@ plans:
 - name: Shutterstock Plans Pricing
   plan_count: 3
   slug: shutterstock-plans-pricing
-random_paper: 51
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Shutterstock Rate Limits

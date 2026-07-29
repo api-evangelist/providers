@@ -99,7 +99,7 @@ overview: 'FastLane is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   FastLane''s developer surface includes documentation, getting-started guide, engineering blog, support, and 10 more developer resources.'
-random_paper: 46
+random_paper: 36
 score:
   band: emerging
   composite: 18.9

@@ -166,7 +166,7 @@ overview: 'Tristero publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Tristero''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 17 more developer resources.'
-random_paper: 12
+random_paper: 1
 score:
   band: thin
   composite: 40.1

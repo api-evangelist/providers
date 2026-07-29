@@ -117,7 +117,7 @@ plans:
 - name: Wellsaid Labs Plans Pricing
   plan_count: 5
   slug: wellsaid-labs-plans-pricing
-random_paper: 36
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Wellsaid Labs Rate Limits

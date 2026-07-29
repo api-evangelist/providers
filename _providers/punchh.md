@@ -374,7 +374,7 @@ plans:
 - name: Punchh Plans Pricing
   plan_count: 1
   slug: punchh-plans-pricing
-random_paper: 6
+random_paper: 79
 rate_limits:
 - limit_count: 4
   name: Punchh Rate Limits

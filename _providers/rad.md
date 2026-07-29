@@ -108,7 +108,7 @@ overview: 'Rad. publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Rad.''s developer surface includes documentation, API reference, getting-started guide, quickstart, signup flow, pricing, and 8 more developer resources.'
-random_paper: 71
+random_paper: 68
 scopes:
 - name: Rad Scopes
   scope_count: 1

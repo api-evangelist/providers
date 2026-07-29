@@ -92,7 +92,7 @@ overview: 'BaubleBar is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   BaubleBar''s developer surface includes authentication, support, signup flow, and 8 more developer resources.'
-random_paper: 48
+random_paper: 37
 scopes:
 - name: Baublebar Scopes
   scope_count: 4

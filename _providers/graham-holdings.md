@@ -136,7 +136,7 @@ press:
 - date: '2026-05-25'
   title: 'Graham Holdings (GHC): Evaluating Valuation After ...'
   url: https://finance.yahoo.com/news/graham-holdings-ghc-evaluating-valuation-090900483.html
-random_paper: 5
+random_paper: 67
 score:
   band: minimal
   composite: 5.4

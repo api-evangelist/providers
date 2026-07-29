@@ -171,7 +171,7 @@ plans:
 - name: Captions Ai Plans Pricing
   plan_count: 6
   slug: captions-ai-plans-pricing
-random_paper: 72
+random_paper: 59
 rate_limits:
 - limit_count: 6
   name: Captions Ai Rate Limits

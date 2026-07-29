@@ -71,7 +71,7 @@ overview: 'DubClub is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   DubClub''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 17
+random_paper: 8
 score:
   band: emerging
   composite: 13.7

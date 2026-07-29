@@ -76,7 +76,7 @@ overview: 'Haladir is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Haladir''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 5
+random_paper: 77
 score:
   band: minimal
   composite: 7.7

@@ -958,7 +958,7 @@ plans:
 - name: Amazon Marketplace Plans Pricing
   plan_count: 3
   slug: amazon-marketplace-plans-pricing
-random_paper: 12
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Amazon Marketplace Rate Limits

@@ -63,7 +63,7 @@ overview: 'Admission Table is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Admission Table''s developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 12
+random_paper: 74
 score:
   band: minimal
   composite: 10.5

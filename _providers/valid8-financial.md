@@ -103,7 +103,7 @@ overview: 'VALID8 Financial is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   VALID8 Financial''s developer surface includes support, engineering blog, YouTube channel, and 12 more developer resources.'
-random_paper: 42
+random_paper: 23
 score:
   band: emerging
   composite: 16.7

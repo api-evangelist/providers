@@ -148,7 +148,7 @@ overview: 'Parsable publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Parsable''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, CLI, and 18 more developer resources.'
-random_paper: 42
+random_paper: 32
 score:
   band: thin
   composite: 30.6

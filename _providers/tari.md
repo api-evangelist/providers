@@ -124,7 +124,7 @@ overview: 'Tari publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Tari''s developer surface includes documentation, getting-started guide, engineering blog, changelog, CLI, and 13 more developer resources.'
-random_paper: 32
+random_paper: 27
 score:
   band: emerging
   composite: 20.4

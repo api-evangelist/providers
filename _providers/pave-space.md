@@ -48,7 +48,7 @@ name: PAVE Space
 nav: Providers
 network: true
 overview: PAVE Space is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Other.
-random_paper: 37
+random_paper: 25
 score:
   band: minimal
   composite: 4.1

@@ -74,7 +74,7 @@ overview: 'Bitmex publishes 1 API on the [APIs.io](https://apis.io/) network: Bi
 
 
   Bitmex''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 9
+random_paper: 1
 rules:
 - name: Bitmex API Rules
   rule_count: 10

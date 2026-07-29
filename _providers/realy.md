@@ -48,7 +48,7 @@ name: Realy
 nav: Providers
 network: true
 overview: Realy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto Web3, Blockchain, Web3, and Cryptocurrency.
-random_paper: 61
+random_paper: 55
 score:
   band: minimal
   composite: 5.0

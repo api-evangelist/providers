@@ -92,7 +92,7 @@ overview: 'Ovation is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Ovation''s developer surface includes documentation, signup flow, pricing, support, engineering blog, and 7 more developer resources.'
-random_paper: 48
+random_paper: 39
 score:
   band: emerging
   composite: 13.5

@@ -55,7 +55,7 @@ overview: 'Paisley Consulting is profiled on the [APIs.io](https://apis.io/) net
 
 
   Paisley Consulting''s developer surface includes engineering blog, support, and 1 more developer resources.'
-random_paper: 58
+random_paper: 35
 score:
   band: minimal
   composite: 6.3

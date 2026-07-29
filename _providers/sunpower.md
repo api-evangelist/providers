@@ -98,7 +98,7 @@ press:
 - date: '2026-05-25'
   title: SunPower Adds $5M to Recent $41M Offering
   url: https://natlawreview.com/press-releases/sunpower-adds-5m-recent-41m-offering
-random_paper: 19
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Sunpower Rate Limits

@@ -110,7 +110,7 @@ plans:
 - name: Uber Freight Plans Pricing
   plan_count: 2
   slug: uber-freight-plans-pricing
-random_paper: 20
+random_paper: 5
 rate_limits:
 - limit_count: 4
   name: Uber Freight Rate Limits

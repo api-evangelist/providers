@@ -157,7 +157,7 @@ plans:
 - name: Tratta Plans Pricing
   plan_count: 3
   slug: tratta-plans-pricing
-random_paper: 16
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Tratta Rate Limits

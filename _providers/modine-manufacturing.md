@@ -65,7 +65,7 @@ plans:
 - name: Modine Manufacturing Plans Pricing
   plan_count: 1
   slug: modine-manufacturing-plans-pricing
-random_paper: 77
+random_paper: 52
 rate_limits:
 - limit_count: 1
   name: Modine Manufacturing Rate Limits

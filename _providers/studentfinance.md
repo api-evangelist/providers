@@ -48,7 +48,7 @@ name: StudentFinance
 nav: Providers
 network: true
 overview: StudentFinance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Education, Financing, and Students.
-random_paper: 59
+random_paper: 41
 score:
   band: minimal
   composite: 5.0

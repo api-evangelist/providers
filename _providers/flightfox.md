@@ -79,7 +79,7 @@ overview: 'Flightfox is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Flightfox''s developer surface includes pricing, engineering blog, support, and 6 more developer resources.'
-random_paper: 11
+random_paper: 80
 score:
   band: emerging
   composite: 16.0

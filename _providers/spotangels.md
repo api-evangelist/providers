@@ -59,7 +59,7 @@ overview: 'Spotangels is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Spotangels'' developer surface includes support and 3 more developer resources.'
-random_paper: 48
+random_paper: 35
 score:
   band: minimal
   composite: 5.9

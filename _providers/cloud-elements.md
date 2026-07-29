@@ -64,7 +64,7 @@ name: Cloud Elements
 nav: Providers
 network: true
 overview: Cloud Elements is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Acquired, Connectors, Embedded iPaaS, Integration Platform, and Unified API.
-random_paper: 1
+random_paper: 64
 score:
   band: minimal
   composite: 5.7

@@ -98,7 +98,7 @@ plans:
 - name: Risklytics Plans Pricing
   plan_count: 2
   slug: risklytics-plans-pricing
-random_paper: 65
+random_paper: 52
 score:
   band: emerging
   composite: 24.3

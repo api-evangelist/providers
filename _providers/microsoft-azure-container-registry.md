@@ -116,7 +116,7 @@ plans:
 - name: Microsoft Azure Container Registry Plans Pricing
   plan_count: 3
   slug: microsoft-azure-container-registry-plans-pricing
-random_paper: 0
+random_paper: 37
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Container Registry Rate Limits

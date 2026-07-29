@@ -92,7 +92,7 @@ overview: 'Latitud is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Latitud''s developer surface includes signup flow, YouTube channel, and 10 more developer resources.'
-random_paper: 39
+random_paper: 30
 score:
   band: minimal
   composite: 10.2

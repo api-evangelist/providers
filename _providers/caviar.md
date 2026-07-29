@@ -48,7 +48,7 @@ name: Caviar
 nav: Providers
 network: true
 overview: Caviar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food Delivery, Restaurants, Marketplace, and Logistics.
-random_paper: 70
+random_paper: 63
 score:
   band: minimal
   composite: 5.0

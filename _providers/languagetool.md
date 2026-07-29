@@ -116,7 +116,7 @@ plans:
 - name: Languagetool Plans Pricing
   plan_count: 3
   slug: languagetool-plans-pricing
-random_paper: 2
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Languagetool Rate Limits

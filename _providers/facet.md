@@ -48,7 +48,7 @@ name: Facet
 nav: Providers
 network: true
 overview: Facet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Photography, Design, and Artificial Intelligence.
-random_paper: 35
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

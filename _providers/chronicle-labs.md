@@ -68,7 +68,7 @@ overview: 'Chronicle Labs is profiled on the [APIs.io](https://apis.io/) network
 
 
   Chronicle Labs'' developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 54
+random_paper: 37
 score:
   band: minimal
   composite: 10.4

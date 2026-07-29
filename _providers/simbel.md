@@ -87,7 +87,7 @@ overview: 'Simbel is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Simbel''s developer surface includes pricing, engineering blog, support, signup flow, and 7 more developer resources.'
-random_paper: 76
+random_paper: 69
 score:
   band: emerging
   composite: 15.2

@@ -51,7 +51,7 @@ name: kla
 nav: Providers
 network: true
 overview: kla is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 72
+random_paper: 69
 score:
   band: minimal
   composite: 2.6

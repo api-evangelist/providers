@@ -67,7 +67,7 @@ overview: 'Etherealize is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Etherealize''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 50
+random_paper: 36
 score:
   band: minimal
   composite: 5.4

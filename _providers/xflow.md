@@ -253,7 +253,7 @@ overview: 'Xflow publishes 18 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Xflow''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 27 more developer resources.'
-random_paper: 0
+random_paper: 74
 score:
   band: developing
   composite: 52.7

@@ -48,7 +48,7 @@ name: Virgin Galactic
 nav: Providers
 network: true
 overview: Virgin Galactic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Space, Spaceflight, Space Tourism, and Aerospace.
-random_paper: 4
+random_paper: 66
 score:
   band: minimal
   composite: 5.0

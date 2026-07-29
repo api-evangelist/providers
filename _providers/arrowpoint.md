@@ -56,7 +56,7 @@ name: ArrowPoint
 nav: Providers
 network: true
 overview: ArrowPoint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Infrastructure, Networking, Content Delivery, and Load Balancing.
-random_paper: 69
+random_paper: 56
 score:
   band: minimal
   composite: 5.0

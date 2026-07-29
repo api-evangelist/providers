@@ -131,7 +131,7 @@ press:
 - date: '2026-05-25'
   title: J.B. Hunt Teams up with Google for Next-Generation ...
   url: https://www.truckinginfo.com/news/j-b-hunt-teams-up-with-google-for-next-generation-supply-chain-technology
-random_paper: 19
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Jb Hunt Transport Services Rate Limits

@@ -55,7 +55,7 @@ overview: 'Tiffany & Co. is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Tiffany & Co.''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 0
+random_paper: 64
 score:
   band: minimal
   composite: 4.0

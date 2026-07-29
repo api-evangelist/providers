@@ -76,7 +76,7 @@ plans:
 - name: Koordinator Plans Pricing
   plan_count: 3
   slug: koordinator-plans-pricing
-random_paper: 76
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Koordinator Rate Limits

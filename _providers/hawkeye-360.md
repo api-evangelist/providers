@@ -92,7 +92,7 @@ overview: 'HawkEye 360 is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   HawkEye 360''s developer surface includes product news and 11 more developer resources.'
-random_paper: 68
+random_paper: 57
 score:
   band: minimal
   composite: 5.0

@@ -88,7 +88,7 @@ overview: 'Teabox publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Teabox''s developer surface includes authentication and 8 more developer resources.'
-random_paper: 3
+random_paper: 76
 scopes:
 - name: Teabox Scopes
   scope_count: 4

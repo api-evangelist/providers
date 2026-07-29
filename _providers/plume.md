@@ -103,7 +103,7 @@ overview: 'Plume is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Plume''s developer surface includes documentation, sandbox, support, and 12 more developer resources.'
-random_paper: 67
+random_paper: 61
 score:
   band: emerging
   composite: 22.1

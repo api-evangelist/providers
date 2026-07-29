@@ -67,7 +67,7 @@ overview: 'Alcresta Therapeutics is profiled on the [APIs.io](https://apis.io/) 
 
 
   Alcresta Therapeutics'' developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 29
+random_paper: 2
 score:
   band: minimal
   composite: 11.6

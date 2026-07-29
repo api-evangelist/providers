@@ -185,7 +185,7 @@ overview: 'GetPaid publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   GetPaid''s developer surface includes documentation, API reference, quickstart, signup flow, support, changelog, authentication, and 19 more developer resources.'
-random_paper: 14
+random_paper: 5
 scopes:
 - name: Getpaid Scopes
   scope_count: 4

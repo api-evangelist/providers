@@ -293,7 +293,7 @@ plans:
 - name: Front Plans Pricing
   plan_count: 10
   slug: front-plans-pricing
-random_paper: 73
+random_paper: 67
 rate_limits:
 - limit_count: 7
   name: Front Rate Limits

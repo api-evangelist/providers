@@ -54,7 +54,7 @@ name: Voidly
 nav: Providers
 network: true
 overview: Voidly publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 23
+random_paper: 15
 score:
   band: minimal
   composite: 7.9

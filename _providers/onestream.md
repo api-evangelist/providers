@@ -148,7 +148,7 @@ overview: 'OneStream publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   OneStream''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 17 more developer resources.'
-random_paper: 14
+random_paper: 2
 score:
   band: thin
   composite: 32.7

@@ -75,7 +75,7 @@ overview: 'Jacobs Solutions is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Jacobs Solutions'' developer surface includes product news and 7 more developer resources.'
-random_paper: 79
+random_paper: 59
 score:
   band: minimal
   composite: 4.1

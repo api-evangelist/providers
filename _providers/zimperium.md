@@ -48,7 +48,7 @@ name: Zimperium
 nav: Providers
 network: true
 overview: Zimperium is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Security.
-random_paper: 34
+random_paper: 22
 score:
   band: minimal
   composite: 4.1

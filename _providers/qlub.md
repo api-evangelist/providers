@@ -44,7 +44,7 @@ name: Qlub
 nav: Providers
 network: true
 overview: Qlub is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Contactless Payments, QR Payments, and Restaurants.
-random_paper: 36
+random_paper: 31
 score:
   band: minimal
   composite: 4.3

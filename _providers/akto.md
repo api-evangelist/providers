@@ -115,7 +115,7 @@ overview: 'Akto is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Akto''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, changelog, and 11 more developer resources.'
-random_paper: 31
+random_paper: 26
 score:
   band: thin
   composite: 29.6

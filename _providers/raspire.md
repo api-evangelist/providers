@@ -64,7 +64,7 @@ name: Raspire
 nav: Providers
 network: true
 overview: Raspire is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Mobile, Application Security, and Runtime Application Self-Protection.
-random_paper: 38
+random_paper: 29
 score:
   band: minimal
   composite: 9.5

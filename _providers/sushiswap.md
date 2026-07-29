@@ -205,7 +205,7 @@ overview: 'SushiSwap publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   SushiSwap''s developer surface includes authentication, developer portal, documentation, engineering blog, and 12 more developer resources.'
-random_paper: 39
+random_paper: 27
 rules:
 - name: SushiSwap API Rules
   rule_count: 5

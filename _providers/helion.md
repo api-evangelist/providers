@@ -120,7 +120,7 @@ overview: 'Helion Energy is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Helion Energy''s developer surface includes FAQ, engineering blog, GitHub presence, YouTube channel, and 15 more developer resources.'
-random_paper: 79
+random_paper: 72
 score:
   band: minimal
   composite: 6.1

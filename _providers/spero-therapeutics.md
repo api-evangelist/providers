@@ -63,7 +63,7 @@ overview: 'Spero Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Spero Therapeutics'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 55
+random_paper: 32
 score:
   band: minimal
   composite: 10.8

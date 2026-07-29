@@ -91,7 +91,7 @@ overview: 'HandUp is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   HandUp''s developer surface includes getting-started guide, support, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 0
+random_paper: 73
 score:
   band: emerging
   composite: 15.3

@@ -180,7 +180,7 @@ plans:
 - name: Substance Abuse And Mental Health Services Administration Plans Pricing
   plan_count: 3
   slug: substance-abuse-and-mental-health-services-administration-plans-pricing
-random_paper: 42
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Substance Abuse And Mental Health Services Administration Rate Limits

@@ -44,7 +44,7 @@ name: Catch
 nav: Providers
 network: true
 overview: Catch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Fintech.
-random_paper: 35
+random_paper: 29
 score:
   band: minimal
   composite: 4.1

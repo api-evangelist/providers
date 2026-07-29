@@ -40,7 +40,7 @@ name: Fashionara
 nav: Providers
 network: true
 overview: Fashionara is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, E-Commerce, Fashion, and Retail.
-random_paper: 12
+random_paper: 80
 score:
   band: minimal
   composite: 5.0

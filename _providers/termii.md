@@ -119,7 +119,7 @@ plans:
 - name: Termii Plans Pricing
   plan_count: 2
   slug: termii-plans-pricing
-random_paper: 10
+random_paper: 2
 rate_limits:
 - limit_count: 4
   name: Termii Rate Limits

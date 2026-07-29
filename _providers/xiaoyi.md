@@ -63,7 +63,7 @@ overview: 'xiaoyi is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   xiaoyi''s developer surface includes support and 4 more developer resources.'
-random_paper: 19
+random_paper: 11
 score:
   band: minimal
   composite: 8.7

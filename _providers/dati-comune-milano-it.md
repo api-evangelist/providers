@@ -84,7 +84,7 @@ plans:
 - name: Dati Comune Milano It Plans Pricing
   plan_count: 1
   slug: dati-comune-milano-it-plans-pricing
-random_paper: 61
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Dati Comune Milano It Rate Limits

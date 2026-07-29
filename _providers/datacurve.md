@@ -60,7 +60,7 @@ name: Datacurve
 nav: Providers
 network: true
 overview: Datacurve is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai, Machine Learning, Datasets, and Reinforcement Learning.
-random_paper: 79
+random_paper: 68
 score:
   band: minimal
   composite: 6.1

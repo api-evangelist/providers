@@ -67,7 +67,7 @@ overview: 'Summer is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Summer''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 25
+random_paper: 17
 score:
   band: emerging
   composite: 13.1

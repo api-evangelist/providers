@@ -191,7 +191,7 @@ overview: 'Cogny publishes 4 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Cogny''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 22 more developer resources.'
-random_paper: 64
+random_paper: 58
 scopes:
 - name: Cogny Scopes
   scope_count: 8

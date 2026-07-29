@@ -44,7 +44,7 @@ name: Bluebirds
 nav: Providers
 network: true
 overview: Bluebirds is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Go-To-Market, Prospecting, and Sales Intelligence.
-random_paper: 76
+random_paper: 65
 score:
   band: minimal
   composite: 5.0

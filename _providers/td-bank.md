@@ -309,7 +309,7 @@ plans:
 - name: Td Bank Plans Pricing
   plan_count: 3
   slug: td-bank-plans-pricing
-random_paper: 33
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Td Bank Rate Limits

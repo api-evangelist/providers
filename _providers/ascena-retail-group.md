@@ -98,7 +98,7 @@ press:
 - date: '2026-05-25'
   title: Ascena Retail Group ICT Spend & Tech Priorities - GlobalData
   url: https://www.globaldata.com/company-profile/ascena-retail-group-inc/premium-data/ict-spend-tech-priorities/?scalar=true&pid=77422&sid=27
-random_paper: 67
+random_paper: 44
 rate_limits:
 - limit_count: 1
   name: Ascena Retail Group Rate Limits

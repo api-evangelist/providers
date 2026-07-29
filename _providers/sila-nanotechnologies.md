@@ -64,7 +64,7 @@ name: Sila Nanotechnologies
 nav: Providers
 network: true
 overview: Sila Nanotechnologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Battery Materials, Energy Storage, Silicon Anode, and Manufacturing.
-random_paper: 22
+random_paper: 76
 score:
   band: minimal
   composite: 7.5

@@ -140,7 +140,7 @@ overview: 'ERGO NEXT Insurance publishes 1 API on the [APIs.io](https://apis.io/
 
 
   ERGO NEXT Insurance''s developer surface includes engineering blog, GitHub presence, YouTube channel, and 19 more developer resources.'
-random_paper: 20
+random_paper: 2
 score:
   band: emerging
   composite: 16.5

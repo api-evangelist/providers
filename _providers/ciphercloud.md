@@ -44,7 +44,7 @@ name: CipherCloud
 nav: Providers
 network: true
 overview: CipherCloud is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Cloud Security, CASB, and Data Protection.
-random_paper: 50
+random_paper: 36
 score:
   band: minimal
   composite: 5.0

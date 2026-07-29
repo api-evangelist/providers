@@ -56,7 +56,7 @@ name: chatous
 nav: Providers
 network: true
 overview: chatous is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Messaging, Chat, Social, and Consumer.
-random_paper: 39
+random_paper: 30
 score:
   band: minimal
   composite: 10.7

@@ -109,7 +109,7 @@ overview: 'Ontraport publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   Ontraport''s developer surface includes authentication, documentation, pricing, signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 41
+random_paper: 29
 score:
   band: emerging
   composite: 27.9

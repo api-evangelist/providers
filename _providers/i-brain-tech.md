@@ -60,7 +60,7 @@ name: i-Brain Tech
 nav: Providers
 network: true
 overview: i-Brain Tech is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sports, Neuroscience, Neurofeedback, and Health.
-random_paper: 19
+random_paper: 5
 score:
   band: minimal
   composite: 12.7

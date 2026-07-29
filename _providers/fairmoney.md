@@ -116,7 +116,7 @@ overview: 'FairMoney is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   FairMoney''s developer surface includes engineering blog, FAQ, GitHub presence, and 15 more developer resources.'
-random_paper: 10
+random_paper: 79
 score:
   band: minimal
   composite: 6.3

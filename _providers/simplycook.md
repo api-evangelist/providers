@@ -48,7 +48,7 @@ name: SimplyCook
 nav: Providers
 network: true
 overview: SimplyCook is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food and Beverage, Meal Kits, Subscription, and E-commerce.
-random_paper: 58
+random_paper: 45
 score:
   band: minimal
   composite: 5.0

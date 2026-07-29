@@ -52,7 +52,7 @@ name: Jiumaojiu
 nav: Providers
 network: true
 overview: Jiumaojiu is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Food and Beverage, Restaurants, and Dining.
-random_paper: 13
+random_paper: 1
 score:
   band: minimal
   composite: 5.0

@@ -48,7 +48,7 @@ name: eigencomm
 nav: Providers
 network: true
 overview: eigencomm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductor, Chipsets, Internet of Things, and Cellular IoT.
-random_paper: 68
+random_paper: 57
 score:
   band: minimal
   composite: 5.0

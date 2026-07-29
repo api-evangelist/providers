@@ -59,7 +59,7 @@ overview: 'Avea Robotics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Avea Robotics'' developer surface includes documentation, engineering blog, and 2 more developer resources.'
-random_paper: 47
+random_paper: 31
 score:
   band: minimal
   composite: 7.2

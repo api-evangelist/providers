@@ -153,7 +153,7 @@ plans:
 - name: Typeform Plans Pricing
   plan_count: 7
   slug: typeform-plans-pricing
-random_paper: 6
+random_paper: 76
 rate_limits:
 - limit_count: 2
   name: Typeform Rate Limits

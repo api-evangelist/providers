@@ -87,7 +87,7 @@ overview: 'Remofirst is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Remofirst''s developer surface includes pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 27
+random_paper: 15
 score:
   band: emerging
   composite: 19.6

@@ -104,7 +104,7 @@ overview: 'Control Seat is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Control Seat''s developer surface includes documentation, API reference, changelog, engineering blog, pricing, support, and 9 more developer resources.'
-random_paper: 43
+random_paper: 28
 score:
   band: emerging
   composite: 21.3

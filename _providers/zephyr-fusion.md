@@ -48,7 +48,7 @@ name: Zephyr Fusion
 nav: Providers
 network: true
 overview: Zephyr Fusion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fusion Energy, Nuclear Fusion, Space, and Deep Tech.
-random_paper: 19
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

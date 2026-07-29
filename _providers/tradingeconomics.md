@@ -141,7 +141,7 @@ plans:
 - name: Tradingeconomics Plans Pricing
   plan_count: 4
   slug: tradingeconomics-plans-pricing
-random_paper: 25
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Tradingeconomics Rate Limits

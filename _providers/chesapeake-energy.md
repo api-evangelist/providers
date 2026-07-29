@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: tm243657-1_s4 - none - 58.1072356s
   url: https://www.sec.gov/Archives/edgar/data/895126/000110465924029464/tm243657-1_s4.htm
-random_paper: 49
+random_paper: 28
 score:
   band: minimal
   composite: 5.5

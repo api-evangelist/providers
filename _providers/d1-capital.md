@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: D1 Capital Partners
 nav: Providers
 network: true
-random_paper: 48
+random_paper: 37
 slug: d1-capital
 tags:
 - Venture Capital

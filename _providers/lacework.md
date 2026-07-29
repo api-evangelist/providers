@@ -99,7 +99,7 @@ overview: 'Lacework FortiCNAPP publishes 1 API on the [APIs.io](https://apis.io/
 
 
   Lacework FortiCNAPP''s developer surface includes documentation, pricing, signup flow, support, engineering blog, CLI, and 6 more developer resources.'
-random_paper: 56
+random_paper: 46
 score:
   band: thin
   composite: 28.7

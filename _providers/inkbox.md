@@ -52,7 +52,7 @@ name: Inkbox
 nav: Providers
 network: true
 overview: Inkbox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-commerce, Retail, Consumer, and Temporary Tattoos.
-random_paper: 11
+random_paper: 3
 score:
   band: minimal
   composite: 6.1

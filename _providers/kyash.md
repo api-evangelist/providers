@@ -128,7 +128,7 @@ overview: 'Kyash is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kyash''s developer surface includes engineering blog, support, pricing, signup flow, product news, and 16 more developer resources.'
-random_paper: 64
+random_paper: 58
 score:
   band: emerging
   composite: 24.0

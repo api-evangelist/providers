@@ -39,7 +39,7 @@ name: Evalve
 nav: Providers
 network: true
 overview: Evalve is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Devices, Cardiology, and Structural Heart.
-random_paper: 3
+random_paper: 76
 score:
   band: minimal
   composite: 4.3

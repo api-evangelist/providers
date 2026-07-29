@@ -71,7 +71,7 @@ overview: 'The Meta is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   The Meta''s developer surface includes documentation, support, pricing, and 4 more developer resources.'
-random_paper: 69
+random_paper: 60
 score:
   band: emerging
   composite: 15.0

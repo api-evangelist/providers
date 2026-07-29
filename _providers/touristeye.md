@@ -52,7 +52,7 @@ name: TouristEye
 nav: Providers
 network: true
 overview: TouristEye is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Travel, Trip Planning, Mobile Apps, and Consumer.
-random_paper: 77
+random_paper: 64
 score:
   band: minimal
   composite: 5.7

@@ -115,7 +115,7 @@ overview: 'MoveInSync publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   MoveInSync''s developer surface includes authentication, documentation, support, engineering blog, and 11 more developer resources.'
-random_paper: 59
+random_paper: 46
 score:
   band: thin
   composite: 36.9

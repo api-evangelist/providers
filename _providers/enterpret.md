@@ -128,7 +128,7 @@ overview: 'Enterpret is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Enterpret''s developer surface includes documentation, support, getting-started guide, engineering blog, signup flow, authentication, changelog, and 13 more developer resources.'
-random_paper: 25
+random_paper: 13
 score:
   band: thin
   composite: 32.2

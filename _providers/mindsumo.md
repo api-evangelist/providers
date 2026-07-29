@@ -56,7 +56,7 @@ name: MindSumo
 nav: Providers
 network: true
 overview: MindSumo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Crowdsourcing, Open Innovation, and Challenges.
-random_paper: 76
+random_paper: 66
 score:
   band: minimal
   composite: 9.2

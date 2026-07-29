@@ -180,7 +180,7 @@ overview: 'Mukuru is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Mukuru''s developer surface includes signup flow, engineering blog, legal docs, GitHub presence, YouTube channel, and 29 more developer resources.'
-random_paper: 41
+random_paper: 33
 score:
   band: minimal
   composite: 12.7

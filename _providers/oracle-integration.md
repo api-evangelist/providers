@@ -463,7 +463,7 @@ plans:
 - name: Oracle Integration Plans Pricing
   plan_count: 4
   slug: oracle-integration-plans-pricing
-random_paper: 23
+random_paper: 0
 rate_limits:
 - limit_count: 24
   name: Oracle Integration Rate Limits

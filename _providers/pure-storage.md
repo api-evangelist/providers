@@ -926,7 +926,7 @@ plans:
 - name: Pure Storage Plans Pricing
   plan_count: 1
   slug: pure-storage-plans-pricing
-random_paper: 46
+random_paper: 31
 rate_limits:
 - limit_count: 2
   name: Pure Storage Rate Limits

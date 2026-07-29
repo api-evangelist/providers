@@ -39,7 +39,7 @@ name: Koffie Financial
 nav: Providers
 network: true
 overview: Koffie Financial is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurtech, Insurance, Commercial Trucking, and Fleet Management.
-random_paper: 6
+random_paper: 67
 score:
   band: minimal
   composite: 4.3

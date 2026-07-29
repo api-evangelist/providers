@@ -68,7 +68,7 @@ plans:
 - name: Node Fetch Plans Pricing
   plan_count: 3
   slug: node-fetch-plans-pricing
-random_paper: 29
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Node Fetch Rate Limits

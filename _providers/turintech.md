@@ -88,7 +88,7 @@ overview: 'Turintech is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Turintech''s developer surface includes documentation, engineering blog, signup flow, CLI, authentication, and 6 more developer resources.'
-random_paper: 22
+random_paper: 10
 score:
   band: emerging
   composite: 16.5

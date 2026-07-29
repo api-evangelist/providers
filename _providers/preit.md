@@ -60,7 +60,7 @@ overview: 'Pennsylvania Real Estate Investment Trust (PREIT) is profiled on the 
 
 
   Pennsylvania Real Estate Investment Trust (PREIT)''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 68
+random_paper: 62
 score:
   band: minimal
   composite: 5.4

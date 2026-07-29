@@ -152,7 +152,7 @@ overview: 'Polymer publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Polymer''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, support, signup flow, and 18 more developer resources.'
-random_paper: 56
+random_paper: 47
 score:
   band: thin
   composite: 33.7

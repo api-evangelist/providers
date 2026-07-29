@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Techstars
 nav: Providers
 network: true
-random_paper: 17
+random_paper: 5
 slug: techstars
 tags:
 - Venture Capital

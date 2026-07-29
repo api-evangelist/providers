@@ -87,7 +87,7 @@ overview: 'PlayPlay is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   PlayPlay''s developer surface includes pricing, engineering blog, support, and 8 more developer resources.'
-random_paper: 76
+random_paper: 66
 score:
   band: emerging
   composite: 17.1

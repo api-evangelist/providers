@@ -68,7 +68,7 @@ name: Shennon Biotechnologies
 nav: Providers
 network: true
 overview: Shennon Biotechnologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Drug Discovery, Artificial Intelligence, and Immunology.
-random_paper: 4
+random_paper: 55
 score:
   band: minimal
   composite: 6.8

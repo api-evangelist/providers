@@ -71,7 +71,7 @@ overview: 'Planetary is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Planetary''s developer surface includes support and 6 more developer resources.'
-random_paper: 16
+random_paper: 4
 score:
   band: minimal
   composite: 12.5

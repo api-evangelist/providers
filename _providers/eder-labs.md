@@ -103,7 +103,7 @@ overview: 'Eder Labs publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Eder Labs'' developer surface includes documentation, getting-started guide, GitHub presence, support, and 6 more developer resources.'
-random_paper: 79
+random_paper: 69
 score:
   band: thin
   composite: 32.0

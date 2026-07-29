@@ -96,7 +96,7 @@ overview: 'Didi publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Didi''s developer surface includes documentation, getting-started guide, authentication, and 9 more developer resources.'
-random_paper: 10
+random_paper: 5
 score:
   band: emerging
   composite: 17.8

@@ -71,7 +71,7 @@ overview: 'Verse Enterprises is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Verse Enterprises'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 38
+random_paper: 16
 score:
   band: minimal
   composite: 9.2

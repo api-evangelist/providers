@@ -222,7 +222,7 @@ overview: 'Science Exchange publishes 23 APIs on the [APIs.io](https://apis.io/)
 
 
   Science Exchange''s developer surface includes documentation, API reference, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 10
+random_paper: 71
 score:
   band: developing
   composite: 46.5

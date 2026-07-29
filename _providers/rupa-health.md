@@ -83,7 +83,7 @@ overview: 'Rupa Health is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Rupa Health''s developer surface includes support, engineering blog, pricing, and 7 more developer resources.'
-random_paper: 75
+random_paper: 62
 score:
   band: emerging
   composite: 15.6

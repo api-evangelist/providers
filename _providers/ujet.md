@@ -111,7 +111,7 @@ overview: 'UJET is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   UJET''s developer surface includes engineering blog, pricing, support, and 14 more developer resources.'
-random_paper: 40
+random_paper: 35
 score:
   band: emerging
   composite: 23.3

@@ -103,7 +103,7 @@ overview: 'Superscale is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Superscale''s developer surface includes pricing, engineering blog, support, and 12 more developer resources.'
-random_paper: 39
+random_paper: 26
 score:
   band: emerging
   composite: 20.5

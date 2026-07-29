@@ -245,7 +245,7 @@ overview: 'Boxc publishes 22 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Boxc''s developer surface includes documentation, API reference, getting-started guide, support, authentication, changelog, sandbox, and 22 more developer resources.'
-random_paper: 28
+random_paper: 23
 scopes:
 - name: Boxc Scopes
   scope_count: 19

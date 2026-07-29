@@ -63,7 +63,7 @@ overview: 'Open Government, Czech Republic publishes 1 API on the [APIs.io](http
 
 
   Open Government, Czech Republic''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 1
+random_paper: 44
 score:
   band: minimal
   composite: 6.9

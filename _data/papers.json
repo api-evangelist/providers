@@ -208,6 +208,14 @@
     "cover": "https://papers.apievangelist.com/assets/covers/insights-salesforce.png"
   },
   {
+    "slug": "insights-splunk",
+    "title": "Splunk — Enterprise Insights Bundle",
+    "tagline": "What Splunk is actually buying, read from 955 of its own job postings — and why a platform this API-heavy publishes machine-readable contracts for only three of its fourteen APIs.",
+    "area": "Enterprise Insights",
+    "price": "1,500",
+    "cover": "https://papers.apievangelist.com/assets/covers/insights-splunk.png"
+  },
+  {
     "slug": "kleiner-perkins-api-portfolio",
     "title": "The Kleiner Perkins API Portfolio",
     "tagline": "A small book with the densest top end I have measured, where every exemplar is a frontier AI or design-infra bet and the mature franchises ship breadth but no agent surface.",

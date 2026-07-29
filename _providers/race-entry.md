@@ -129,7 +129,7 @@ plans:
 - name: Race Entry Plans Pricing
   plan_count: 3
   slug: race-entry-plans-pricing
-random_paper: 58
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Race Entry Rate Limits

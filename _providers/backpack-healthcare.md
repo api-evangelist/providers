@@ -95,7 +95,7 @@ overview: 'Backpack Healthcare is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Backpack Healthcare''s developer surface includes engineering blog, support, FAQ, pricing, and 9 more developer resources.'
-random_paper: 62
+random_paper: 39
 score:
   band: emerging
   composite: 15.6

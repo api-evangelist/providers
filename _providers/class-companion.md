@@ -48,7 +48,7 @@ name: Class Companion
 nav: Providers
 network: true
 overview: Class Companion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Ai Ml.
-random_paper: 23
+random_paper: 4
 score:
   band: minimal
   composite: 4.1

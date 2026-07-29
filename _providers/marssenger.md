@@ -39,7 +39,7 @@ name: Marssenger
 nav: Providers
 network: true
 overview: Marssenger is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 39
+random_paper: 26
 score:
   band: minimal
   composite: 4.1

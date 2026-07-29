@@ -191,7 +191,7 @@ overview: 'evernote publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   evernote''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 72
+random_paper: 62
 score:
   band: strong
   composite: 56.1

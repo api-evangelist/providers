@@ -71,7 +71,7 @@ overview: 'Nix is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Nix''s developer surface includes engineering blog, support, pricing, and 4 more developer resources.'
-random_paper: 15
+random_paper: 11
 score:
   band: minimal
   composite: 12.2

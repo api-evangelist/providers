@@ -60,7 +60,7 @@ name: Divvy Homes
 nav: Providers
 network: true
 overview: Divvy Homes is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Proptech, Rent-to-Own, and Home Ownership.
-random_paper: 27
+random_paper: 13
 score:
   band: minimal
   composite: 10.1

@@ -65,7 +65,7 @@ plans:
 - name: South Jersey Industries Plans Pricing
   plan_count: 1
   slug: south-jersey-industries-plans-pricing
-random_paper: 9
+random_paper: 60
 rate_limits:
 - limit_count: 1
   name: South Jersey Industries Rate Limits

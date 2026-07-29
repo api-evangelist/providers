@@ -166,7 +166,7 @@ plans:
 - name: Tradestation Plans Pricing
   plan_count: 3
   slug: tradestation-plans-pricing
-random_paper: 18
+random_paper: 2
 rate_limits:
 - limit_count: 5
   name: Tradestation Rate Limits

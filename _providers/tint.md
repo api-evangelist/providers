@@ -123,7 +123,7 @@ plans:
 - name: Tint Plans Pricing
   plan_count: 1
   slug: tint-plans-pricing
-random_paper: 47
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: Tint Rate Limits

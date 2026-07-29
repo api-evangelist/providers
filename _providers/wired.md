@@ -164,7 +164,7 @@ plans:
 - name: Wired Plans Pricing
   plan_count: 3
   slug: wired-plans-pricing
-random_paper: 59
+random_paper: 53
 rate_limits:
 - limit_count: 5
   name: Wired Rate Limits

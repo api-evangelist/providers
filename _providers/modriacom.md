@@ -39,7 +39,7 @@ name: Modria.com
 nav: Providers
 network: true
 overview: Modria.com is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Online Dispute Resolution, Legal Tech, Government, and Acquired.
-random_paper: 75
+random_paper: 64
 score:
   band: minimal
   composite: 4.3

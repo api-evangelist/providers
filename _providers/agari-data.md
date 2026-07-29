@@ -104,7 +104,7 @@ overview: 'Agari Data publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Agari Data''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, and 9 more developer resources.'
-random_paper: 11
+random_paper: 80
 score:
   band: emerging
   composite: 21.8

@@ -303,7 +303,7 @@ overview: 'DNSFilter publishes 45 APIs on the [APIs.io](https://apis.io/) networ
 
 
   DNSFilter''s developer surface includes authentication, documentation, API reference, support, engineering blog, pricing, signup flow, and 21 more developer resources.'
-random_paper: 11
+random_paper: 80
 score:
   band: developing
   composite: 44.8

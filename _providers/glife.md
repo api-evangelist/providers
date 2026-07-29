@@ -112,7 +112,7 @@ overview: 'Glife publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Glife''s developer surface includes engineering blog, signup flow, support, authentication, and 10 more developer resources.'
-random_paper: 39
+random_paper: 33
 score:
   band: emerging
   composite: 25.0

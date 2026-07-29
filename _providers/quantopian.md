@@ -56,7 +56,7 @@ name: Quantopian
 nav: Providers
 network: true
 overview: Quantopian is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Algorithmic Trading, Quantitative Finance, FinTech, and Backtesting.
-random_paper: 48
+random_paper: 35
 score:
   band: minimal
   composite: 5.7

@@ -636,7 +636,7 @@ plans:
 - name: Socket Dev Plans Pricing
   plan_count: 3
   slug: socket-dev-plans-pricing
-random_paper: 53
+random_paper: 41
 rate_limits:
 - limit_count: 3
   name: Socket Dev Rate Limits

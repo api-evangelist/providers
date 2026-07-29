@@ -56,7 +56,7 @@ name: Spanish random names
 nav: Providers
 network: true
 overview: Spanish random names publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Test Data and Public APIs.
-random_paper: 21
+random_paper: 77
 score:
   band: minimal
   composite: 5.7

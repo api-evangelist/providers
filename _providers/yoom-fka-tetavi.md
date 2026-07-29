@@ -48,7 +48,7 @@ name: Yoom (fka Tetavi)
 nav: Providers
 network: true
 overview: Yoom (fka Tetavi) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Volumetric Video, Motion Capture, and Performance Capture.
-random_paper: 61
+random_paper: 43
 score:
   band: minimal
   composite: 5.0

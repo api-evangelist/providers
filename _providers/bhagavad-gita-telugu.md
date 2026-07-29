@@ -56,7 +56,7 @@ name: Bhagavad Gita telugu
 nav: Providers
 network: true
 overview: Bhagavad Gita telugu publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Books and Public APIs.
-random_paper: 67
+random_paper: 43
 score:
   band: minimal
   composite: 5.7

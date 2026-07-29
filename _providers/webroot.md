@@ -108,7 +108,7 @@ overview: 'Webroot publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Webroot''s developer surface includes documentation, API reference, getting-started guide, authentication, and 11 more developer resources.'
-random_paper: 50
+random_paper: 41
 score:
   band: emerging
   composite: 24.5

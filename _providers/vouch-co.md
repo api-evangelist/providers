@@ -168,7 +168,7 @@ overview: 'Vouch is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Vouch''s developer surface includes engineering blog, support, and 29 more developer resources.'
-random_paper: 4
+random_paper: 75
 score:
   band: emerging
   composite: 14.3

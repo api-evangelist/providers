@@ -48,7 +48,7 @@ name: qiangsenmedical
 nav: Providers
 network: true
 overview: qiangsenmedical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 53
+random_paper: 34
 score:
   band: minimal
   composite: 3.2

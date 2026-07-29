@@ -247,7 +247,7 @@ plans:
 - name: Cloudflare D1 Plans Pricing
   plan_count: 2
   slug: cloudflare-d1-plans-pricing
-random_paper: 51
+random_paper: 36
 rate_limits:
 - limit_count: 25
   name: Cloudflare D1 Rate Limits

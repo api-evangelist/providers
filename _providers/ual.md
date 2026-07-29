@@ -188,7 +188,7 @@ overview: 'Ualá publishes 3 APIs on the [APIs.io](https://apis.io/) network: Au
 
 
   Ualá''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, changelog, and 22 more developer resources.'
-random_paper: 2
+random_paper: 79
 score:
   band: developing
   composite: 50.7

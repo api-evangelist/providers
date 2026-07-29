@@ -44,7 +44,7 @@ name: Yaya Pass, Inc.
 nav: Providers
 network: true
 overview: Yaya Pass, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 79
+random_paper: 64
 score:
   band: minimal
   composite: 3.2

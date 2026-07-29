@@ -71,7 +71,7 @@ overview: 'PathSpot is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   PathSpot''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 3
+random_paper: 73
 score:
   band: minimal
   composite: 10.5

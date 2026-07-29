@@ -144,7 +144,7 @@ plans:
 - name: Currencybeacon Plans Pricing
   plan_count: 5
   slug: currencybeacon-plans-pricing
-random_paper: 51
+random_paper: 33
 rate_limits:
 - limit_count: 0
   name: Currencybeacon Rate Limits

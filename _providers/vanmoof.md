@@ -99,7 +99,7 @@ overview: 'VanMoof is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   VanMoof''s developer surface includes engineering blog, support, and 12 more developer resources.'
-random_paper: 38
+random_paper: 29
 score:
   band: emerging
   composite: 17.0

@@ -139,7 +139,7 @@ plans:
 - name: Accredible Plans Pricing
   plan_count: 4
   slug: accredible-plans-pricing
-random_paper: 62
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Accredible Rate Limits

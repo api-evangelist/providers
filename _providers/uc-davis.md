@@ -180,7 +180,7 @@ plans:
 - name: Uc Davis Plans Pricing
   plan_count: 2
   slug: uc-davis-plans-pricing
-random_paper: 76
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Uc Davis Rate Limits

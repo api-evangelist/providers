@@ -79,7 +79,7 @@ overview: 'Verax is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Verax''s developer surface includes documentation, getting-started guide, support, engineering blog, and 5 more developer resources.'
-random_paper: 70
+random_paper: 64
 score:
   band: emerging
   composite: 16.3

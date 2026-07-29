@@ -48,7 +48,7 @@ name: Wonder
 nav: Providers
 network: true
 overview: Wonder is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Food, Delivery, and Marketplace.
-random_paper: 15
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

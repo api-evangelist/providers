@@ -111,7 +111,7 @@ overview: 'Mr. Cooper Group is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Mr. Cooper Group''s developer surface includes engineering blog, authentication, and 5 more developer resources.'
-random_paper: 78
+random_paper: 60
 score:
   band: minimal
   composite: 11.8

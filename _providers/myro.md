@@ -48,7 +48,7 @@ name: Myro
 nav: Providers
 network: true
 overview: Myro is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 55
+random_paper: 50
 score:
   band: minimal
   composite: 3.2

@@ -155,7 +155,7 @@ press:
 - date: '2026-05-25'
   title: The Walt Disney Company and OpenAI Reach Agreement ...
   url: https://thewaltdisneycompany.com/news/disney-openai-sora-agreement/
-random_paper: 17
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Walt Disney Rate Limits

@@ -219,7 +219,7 @@ overview: 'Mesh Connect publishes 12 APIs on the [APIs.io](https://apis.io/) net
 
 
   Mesh Connect''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, sandbox, changelog, and 23 more developer resources.'
-random_paper: 20
+random_paper: 5
 score:
   band: developing
   composite: 54.3

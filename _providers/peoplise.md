@@ -67,7 +67,7 @@ overview: 'Peoplise is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Peoplise''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 65
+random_paper: 55
 score:
   band: minimal
   composite: 8.4

@@ -67,7 +67,7 @@ overview: 'Ultima Genomics is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Ultima Genomics'' developer surface includes documentation, engineering blog, and 4 more developer resources.'
-random_paper: 30
+random_paper: 11
 score:
   band: minimal
   composite: 8.4

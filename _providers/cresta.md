@@ -233,7 +233,7 @@ overview: 'Cresta is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cresta''s developer surface includes developer portal, documentation, engineering blog, support, YouTube channel, and 25 more developer resources.'
-random_paper: 2
+random_paper: 75
 score:
   band: emerging
   composite: 25.5

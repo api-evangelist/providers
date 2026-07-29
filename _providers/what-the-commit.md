@@ -56,7 +56,7 @@ name: What The Commit
 nav: Providers
 network: true
 overview: What The Commit publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Test Data and Public APIs.
-random_paper: 56
+random_paper: 38
 score:
   band: minimal
   composite: 5.7

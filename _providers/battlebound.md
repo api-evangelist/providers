@@ -39,7 +39,7 @@ name: Battlebound
 nav: Providers
 network: true
 overview: Battlebound is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Video Games, Web3, and Blockchain.
-random_paper: 52
+random_paper: 38
 score:
   band: minimal
   composite: 5.0

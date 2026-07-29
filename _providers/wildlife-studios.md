@@ -63,7 +63,7 @@ overview: 'Wildlife Studios is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Wildlife Studios'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 72
+random_paper: 52
 score:
   band: minimal
   composite: 9.7

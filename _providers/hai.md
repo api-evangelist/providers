@@ -39,7 +39,7 @@ name: Hai
 nav: Providers
 network: true
 overview: Hai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 66
+random_paper: 63
 score:
   band: minimal
   composite: 3.2

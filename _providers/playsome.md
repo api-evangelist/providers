@@ -75,7 +75,7 @@ overview: 'Playsome is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Playsome''s developer surface includes support and 6 more developer resources.'
-random_paper: 74
+random_paper: 64
 score:
   band: minimal
   composite: 12.6

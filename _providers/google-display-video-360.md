@@ -146,7 +146,7 @@ plans:
 - name: Google Display Video 360 Plans Pricing
   plan_count: 3
   slug: google-display-video-360-plans-pricing
-random_paper: 58
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Google Display Video 360 Rate Limits

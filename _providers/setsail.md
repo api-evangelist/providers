@@ -79,7 +79,7 @@ overview: 'SetSail is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   SetSail''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 37
+random_paper: 28
 score:
   band: emerging
   composite: 14.7

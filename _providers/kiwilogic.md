@@ -65,7 +65,7 @@ name: Kiwilogic
 nav: Providers
 network: true
 overview: Kiwilogic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Conversational AI, Chatbots, Natural Language Processing, and Virtual Agents.
-random_paper: 2
+random_paper: 71
 score:
   band: minimal
   composite: 6.9

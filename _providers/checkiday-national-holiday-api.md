@@ -216,7 +216,7 @@ plans:
 - name: Checkiday Plans Pricing
   plan_count: 5
   slug: checkiday-plans-pricing
-random_paper: 22
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Checkiday Rate Limits

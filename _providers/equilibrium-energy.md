@@ -84,7 +84,7 @@ overview: 'Equilibrium Energy is profiled on the [APIs.io](https://apis.io/) net
 
 
   Equilibrium Energy''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 47
+random_paper: 24
 score:
   band: minimal
   composite: 10.4

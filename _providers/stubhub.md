@@ -220,7 +220,7 @@ overview: 'StubHub publishes 15 APIs on the [APIs.io](https://apis.io/) network,
 
 
   StubHub''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 21 more developer resources.'
-random_paper: 45
+random_paper: 36
 scopes:
 - name: Stubhub Scopes
   scope_count: 9

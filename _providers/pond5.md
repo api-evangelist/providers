@@ -48,7 +48,7 @@ name: Pond5
 nav: Providers
 network: true
 overview: Pond5 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Stock Media, Video, and Music.
-random_paper: 6
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

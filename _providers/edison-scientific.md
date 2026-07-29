@@ -71,7 +71,7 @@ overview: 'Edison Scientific is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Edison Scientific''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 64
+random_paper: 43
 score:
   band: emerging
   composite: 14.5

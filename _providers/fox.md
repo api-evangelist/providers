@@ -83,7 +83,7 @@ overview: 'Fox Corporation is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Fox Corporation''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 13
+random_paper: 9
 score:
   band: minimal
   composite: 6.1

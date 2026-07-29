@@ -230,7 +230,7 @@ plans:
 - name: Openrouteservice Plans Pricing
   plan_count: 4
   slug: openrouteservice-plans-pricing
-random_paper: 66
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Openrouteservice Rate Limits

@@ -171,7 +171,7 @@ overview: 'ShortKit publishes 5 APIs on the [APIs.io](https://apis.io/) network,
 
 
   ShortKit''s developer surface includes documentation, API reference, getting-started guide, pricing, engineering blog, signup flow, sandbox, and 18 more developer resources.'
-random_paper: 8
+random_paper: 78
 score:
   band: developing
   composite: 48.1

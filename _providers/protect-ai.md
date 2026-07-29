@@ -136,7 +136,7 @@ overview: 'Protect AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Protect AI''s developer surface includes engineering blog, training material, documentation, YouTube channel, and 19 more developer resources.'
-random_paper: 56
+random_paper: 44
 score:
   band: minimal
   composite: 7.9

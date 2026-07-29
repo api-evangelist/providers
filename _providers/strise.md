@@ -171,7 +171,7 @@ overview: 'Strise publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Strise''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 26
+random_paper: 18
 score:
   band: developing
   composite: 52.0

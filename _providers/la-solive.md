@@ -96,7 +96,7 @@ overview: 'La Solive is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   La Solive''s developer surface includes engineering blog, support, YouTube channel, and 10 more developer resources.'
-random_paper: 28
+random_paper: 17
 score:
   band: minimal
   composite: 12.4

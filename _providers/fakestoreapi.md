@@ -56,7 +56,7 @@ name: FakeStoreAPI
 nav: Providers
 network: true
 overview: FakeStoreAPI publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Test Data and Public APIs.
-random_paper: 78
+random_paper: 63
 score:
   band: minimal
   composite: 5.7

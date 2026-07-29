@@ -125,7 +125,7 @@ plans:
 - name: Martian Ai Plans Pricing
   plan_count: 3
   slug: martian-ai-plans-pricing
-random_paper: 35
+random_paper: 23
 rate_limits:
 - limit_count: 4
   name: Martian Ai Rate Limits

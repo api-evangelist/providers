@@ -60,7 +60,7 @@ name: USA TODAY
 nav: Providers
 network: true
 overview: USA TODAY is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Media, News, and Publishing.
-random_paper: 39
+random_paper: 28
 score:
   band: minimal
   composite: 4.2

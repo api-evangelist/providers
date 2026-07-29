@@ -63,7 +63,7 @@ overview: 'Coveti is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Coveti''s developer surface includes support and 4 more developer resources.'
-random_paper: 10
+random_paper: 2
 score:
   band: minimal
   composite: 10.1

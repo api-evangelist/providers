@@ -192,7 +192,7 @@ overview: 'Spreadshirt publishes 7 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Spreadshirt''s developer surface includes authentication, documentation, API reference, getting-started guide, support, signup flow, sandbox, and 21 more developer resources.'
-random_paper: 73
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Spreadshirt Rate Limits

@@ -75,7 +75,7 @@ overview: 'Nirvana Tech is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Nirvana Tech''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 16
+random_paper: 1
 score:
   band: emerging
   composite: 16.1

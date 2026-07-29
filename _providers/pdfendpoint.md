@@ -106,7 +106,7 @@ plans:
 - name: Pdfendpoint Plans Pricing
   plan_count: 2
   slug: pdfendpoint-plans-pricing
-random_paper: 59
+random_paper: 45
 rate_limits:
 - limit_count: 3
   name: Pdfendpoint Rate Limits

@@ -205,7 +205,7 @@ plans:
 - name: Mlsgrid Plans Pricing
   plan_count: 2
   slug: mlsgrid-plans-pricing
-random_paper: 34
+random_paper: 25
 rate_limits:
 - limit_count: 0
   name: Mlsgrid Rate Limits

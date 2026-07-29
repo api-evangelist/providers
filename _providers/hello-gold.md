@@ -48,7 +48,7 @@ name: Hello Gold
 nav: Providers
 network: true
 overview: Hello Gold is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Gold, Savings, and Investing.
-random_paper: 39
+random_paper: 27
 score:
   band: minimal
   composite: 5.0

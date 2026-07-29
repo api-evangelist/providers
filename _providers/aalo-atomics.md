@@ -67,7 +67,7 @@ overview: 'Aalo Atomics is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Aalo Atomics'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 10
+random_paper: 76
 score:
   band: minimal
   composite: 11.8

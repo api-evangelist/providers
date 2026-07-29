@@ -155,7 +155,7 @@ plans:
 - name: Alpaca Markets Plans Pricing
   plan_count: 5
   slug: alpaca-markets-plans-pricing
-random_paper: 54
+random_paper: 37
 rate_limits:
 - limit_count: 7
   name: Alpaca Markets Rate Limits

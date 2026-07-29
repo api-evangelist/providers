@@ -39,7 +39,7 @@ name: OptoAtmospherics
 nav: Providers
 network: true
 overview: OptoAtmospherics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, LIDAR, Atmospheric Sensing, Wind Energy, and Remote Sensing.
-random_paper: 68
+random_paper: 47
 score:
   band: minimal
   composite: 5.0

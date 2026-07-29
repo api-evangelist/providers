@@ -104,7 +104,7 @@ plans:
 - name: Jfrog Container Registry Plans Pricing
   plan_count: 3
   slug: jfrog-container-registry-plans-pricing
-random_paper: 78
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Jfrog Container Registry Rate Limits

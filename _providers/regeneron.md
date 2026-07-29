@@ -89,7 +89,7 @@ name: Regeneron
 nav: Providers
 network: true
 overview: Regeneron is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Pharmaceutical, Biotechnology, Healthcare, and Genomics.
-random_paper: 5
+random_paper: 74
 score:
   band: minimal
   composite: 7.2

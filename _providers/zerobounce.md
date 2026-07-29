@@ -108,7 +108,7 @@ overview: 'ZeroBounce publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   ZeroBounce''s developer surface includes documentation, pricing, signup flow, GitHub presence, engineering blog, and 6 more developer resources.'
-random_paper: 44
+random_paper: 31
 score:
   band: emerging
   composite: 24.6

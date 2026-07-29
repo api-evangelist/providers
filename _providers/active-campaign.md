@@ -134,7 +134,7 @@ overview: 'ActiveCampaign publishes 10 APIs on the [APIs.io](https://apis.io/) n
 
 
   ActiveCampaign''s developer surface includes authentication, documentation, pricing, signup flow, and 8 more developer resources.'
-random_paper: 73
+random_paper: 55
 score:
   band: thin
   composite: 28.0

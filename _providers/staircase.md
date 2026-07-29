@@ -115,7 +115,7 @@ overview: 'Staircase is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Staircase''s developer surface includes documentation, engineering blog, support, CLI, and 13 more developer resources.'
-random_paper: 79
+random_paper: 68
 score:
   band: emerging
   composite: 22.6

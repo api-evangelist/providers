@@ -159,7 +159,7 @@ overview: 'Spacemesh publishes 8 APIs on the [APIs.io](https://apis.io/) network
 
 
   Spacemesh''s developer surface includes documentation, API reference, CLI, changelog, and 16 more developer resources.'
-random_paper: 73
+random_paper: 62
 score:
   band: emerging
   composite: 27.9

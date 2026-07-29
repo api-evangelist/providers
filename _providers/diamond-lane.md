@@ -39,7 +39,7 @@ name: Diamond Lane
 nav: Providers
 network: true
 overview: Diamond Lane is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardtech, Networking, Broadband, and DSL.
-random_paper: 73
+random_paper: 59
 score:
   band: minimal
   composite: 4.3

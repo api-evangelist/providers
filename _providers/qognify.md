@@ -63,7 +63,7 @@ overview: 'Qognify is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Qognify''s developer surface includes support, documentation, developer portal, and 2 more developer resources.'
-random_paper: 45
+random_paper: 36
 score:
   band: minimal
   composite: 9.3

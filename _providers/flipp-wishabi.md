@@ -75,7 +75,7 @@ overview: 'Flipp (Wishabi) is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Flipp (Wishabi)''s developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 47
+random_paper: 31
 score:
   band: minimal
   composite: 11.2

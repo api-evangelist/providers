@@ -39,7 +39,7 @@ name: Timeful
 nav: Providers
 network: true
 overview: Timeful is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Acquired, Scheduling, Time Management, and Portfolio.
-random_paper: 38
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

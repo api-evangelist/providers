@@ -1554,7 +1554,7 @@ plans:
 - name: Weaviate Plans Pricing
   plan_count: 3
   slug: weaviate-plans-pricing
-random_paper: 54
+random_paper: 44
 rate_limits:
 - limit_count: 4
   name: Weaviate Rate Limits

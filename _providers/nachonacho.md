@@ -76,7 +76,7 @@ plans:
 - name: Nachonacho Plans Pricing
   plan_count: 3
   slug: nachonacho-plans-pricing
-random_paper: 2
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Nachonacho Rate Limits

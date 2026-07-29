@@ -144,7 +144,7 @@ plans:
 - name: Shelf Plans Pricing
   plan_count: 3
   slug: shelf-plans-pricing
-random_paper: 50
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Shelf Rate Limits

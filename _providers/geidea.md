@@ -127,7 +127,7 @@ plans:
 - name: Geidea Plans Pricing
   plan_count: 2
   slug: geidea-plans-pricing
-random_paper: 47
+random_paper: 40
 rate_limits:
 - limit_count: 2
   name: Geidea Rate Limits

@@ -79,7 +79,7 @@ overview: 'Shift Technology is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Shift Technology''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 62
+random_paper: 56
 score:
   band: emerging
   composite: 17.4

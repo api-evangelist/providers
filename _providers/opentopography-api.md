@@ -104,7 +104,7 @@ plans:
 - name: Opentopography Api Plans Pricing
   plan_count: 3
   slug: opentopography-api-plans-pricing
-random_paper: 54
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Opentopography Api Rate Limits

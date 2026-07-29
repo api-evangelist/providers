@@ -265,7 +265,7 @@ plans:
 - name: Positionstack Plans Pricing
   plan_count: 5
   slug: positionstack-plans-pricing
-random_paper: 59
+random_paper: 42
 rate_limits:
 - limit_count: 0
   name: Positionstack Rate Limits

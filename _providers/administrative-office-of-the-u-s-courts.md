@@ -132,7 +132,7 @@ plans:
 - name: Administrative Office Of The U S Courts Plans Pricing
   plan_count: 3
   slug: administrative-office-of-the-u-s-courts-plans-pricing
-random_paper: 76
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Administrative Office Of The U S Courts Rate Limits

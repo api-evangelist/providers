@@ -44,7 +44,7 @@ name: Brainient
 nav: Providers
 network: true
 overview: Brainient is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, AdTech, Video Advertising, and Interactive Video.
-random_paper: 76
+random_paper: 65
 score:
   band: minimal
   composite: 5.0

@@ -21,7 +21,7 @@ modified: '2026-05-03'
 name: Web Standards
 nav: Providers
 network: true
-random_paper: 47
+random_paper: 31
 slug: web-standards
 tags:
 - Browser Compatibility

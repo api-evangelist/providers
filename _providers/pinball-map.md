@@ -63,7 +63,7 @@ overview: 'Pinball Map publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Pinball Map''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 61
+random_paper: 48
 score:
   band: minimal
   composite: 6.2

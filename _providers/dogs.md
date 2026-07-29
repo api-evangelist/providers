@@ -56,7 +56,7 @@ name: Dogs
 nav: Providers
 network: true
 overview: Dogs publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Animals and Public APIs.
-random_paper: 29
+random_paper: 24
 score:
   band: minimal
   composite: 5.7

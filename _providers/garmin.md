@@ -238,7 +238,7 @@ overview: 'Garmin publishes 17 APIs on the [APIs.io](https://apis.io/) network. 
 
 
   Garmin''s developer surface includes developer portal, documentation, signup flow, tooling, engineering blog, YouTube channel, and 23 more developer resources.'
-random_paper: 78
+random_paper: 71
 score:
   band: thin
   composite: 30.2

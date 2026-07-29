@@ -140,7 +140,7 @@ overview: 'Color publishes 1 API on the [APIs.io](https://apis.io/) network: Eli
 
 
   Color''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, signup flow, support, and 16 more developer resources.'
-random_paper: 63
+random_paper: 57
 score:
   band: developing
   composite: 46.8

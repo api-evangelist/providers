@@ -48,7 +48,7 @@ name: Alooma
 nav: Providers
 network: true
 overview: Alooma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, ETL, Data Integration, Data Pipeline, and Data Warehouse.
-random_paper: 73
+random_paper: 66
 score:
   band: minimal
   composite: 6.3

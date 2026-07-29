@@ -93,7 +93,7 @@ overview: 'Spectra (Defunct / Merged into OVG360) is profiled on the [APIs.io](h
 
 
   The Spectra (Defunct / Merged into OVG360) catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 34
+random_paper: 25
 score:
   band: minimal
   composite: 10.7

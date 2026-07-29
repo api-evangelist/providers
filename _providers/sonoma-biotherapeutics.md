@@ -48,7 +48,7 @@ name: Sonoma Biotherapeutics
 nav: Providers
 network: true
 overview: Sonoma Biotherapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Cell Therapy, Immunology, and Autoimmune.
-random_paper: 69
+random_paper: 41
 score:
   band: minimal
   composite: 5.0

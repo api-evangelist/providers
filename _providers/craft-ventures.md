@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Craft Ventures
 nav: Providers
 network: true
-random_paper: 25
+random_paper: 7
 slug: craft-ventures
 tags:
 - Venture Capital

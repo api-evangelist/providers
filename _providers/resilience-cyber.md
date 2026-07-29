@@ -155,7 +155,7 @@ overview: 'Resilience publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Resilience''s developer surface includes engineering blog, signup flow, authentication, support, YouTube channel, and 24 more developer resources.'
-random_paper: 37
+random_paper: 17
 scopes:
 - name: Resilience Cyber Scopes
   scope_count: 14

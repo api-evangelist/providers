@@ -133,7 +133,7 @@ plans:
 - name: Codeberg Plans Pricing
   plan_count: 2
   slug: codeberg-plans-pricing
-random_paper: 27
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Codeberg Rate Limits

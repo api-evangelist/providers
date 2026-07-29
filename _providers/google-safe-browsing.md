@@ -161,7 +161,7 @@ plans:
 - name: Google Safe Browsing Plans Pricing
   plan_count: 3
   slug: google-safe-browsing-plans-pricing
-random_paper: 17
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Google Safe Browsing Rate Limits

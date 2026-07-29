@@ -206,7 +206,7 @@ overview: 'Limrun publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Limrun''s developer surface includes documentation, API reference, getting-started guide, signup flow, developer console, support, CLI, and 25 more developer resources.'
-random_paper: 23
+random_paper: 15
 scopes:
 - name: Limrun Scopes
   scope_count: 1

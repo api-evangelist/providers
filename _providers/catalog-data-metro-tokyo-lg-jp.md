@@ -84,7 +84,7 @@ plans:
 - name: Catalog Data Metro Tokyo Lg Jp Plans Pricing
   plan_count: 1
   slug: catalog-data-metro-tokyo-lg-jp-plans-pricing
-random_paper: 32
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Catalog Data Metro Tokyo Lg Jp Rate Limits

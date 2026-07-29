@@ -72,7 +72,7 @@ plans:
 - name: Ensign Group Plans Pricing
   plan_count: 1
   slug: ensign-group-plans-pricing
-random_paper: 46
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Ensign Group Rate Limits

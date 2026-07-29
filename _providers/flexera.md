@@ -22,7 +22,7 @@ modified: '2026-05-19'
 name: Spot
 nav: Providers
 network: true
-random_paper: 23
+random_paper: 14
 slug: flexera
 tags:
 - Autoscaling

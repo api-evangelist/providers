@@ -48,7 +48,7 @@ name: zhaohu365
 nav: Providers
 network: true
 overview: zhaohu365 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Elderly Care, Home Care, and Aging.
-random_paper: 13
+random_paper: 3
 score:
   band: minimal
   composite: 5.4

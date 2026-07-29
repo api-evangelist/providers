@@ -80,7 +80,7 @@ name: C16 Biosciences
 nav: Providers
 network: true
 overview: C16 Biosciences is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Synthetic Biology, Biotechnology, Sustainable Ingredients, and Palm Oil Alternative.
-random_paper: 46
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

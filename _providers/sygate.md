@@ -39,7 +39,7 @@ name: Sygate
 nav: Providers
 network: true
 overview: Sygate is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Endpoint Security, Firewall, and Network Access Control.
-random_paper: 13
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

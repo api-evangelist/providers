@@ -79,7 +79,7 @@ overview: 'Gilion (formerly ArK) is profiled on the [APIs.io](https://apis.io/) 
 
 
   Gilion (formerly ArK)''s developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 10
+random_paper: 67
 score:
   band: emerging
   composite: 15.4

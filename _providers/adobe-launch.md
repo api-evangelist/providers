@@ -1581,7 +1581,7 @@ plans:
 - name: Adobe Launch Plans Pricing
   plan_count: 1
   slug: adobe-launch-plans-pricing
-random_paper: 67
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Adobe Launch Rate Limits

@@ -83,7 +83,7 @@ overview: 'AdRoll publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   AdRoll''s developer surface includes engineering blog, documentation, pricing, signup flow, and 4 more developer resources.'
-random_paper: 78
+random_paper: 71
 score:
   band: emerging
   composite: 22.6

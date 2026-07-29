@@ -158,7 +158,7 @@ overview: 'Australian Military Bank publishes 7 APIs on the [APIs.io](https://ap
 
 
   Australian Military Bank''s developer surface includes support, API reference, authentication, and 19 more developer resources.'
-random_paper: 53
+random_paper: 23
 scopes:
 - name: Australian Military Bank Scopes
   scope_count: 0

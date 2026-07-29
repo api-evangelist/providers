@@ -79,7 +79,7 @@ overview: 'Plume Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Plume Health''s developer surface includes signup flow, getting-started guide, pricing, engineering blog, support, and 4 more developer resources.'
-random_paper: 22
+random_paper: 7
 score:
   band: emerging
   composite: 17.4

@@ -291,7 +291,7 @@ plans:
 - name: Lakera Ai Plans Pricing
   plan_count: 4
   slug: lakera-ai-plans-pricing
-random_paper: 71
+random_paper: 61
 rate_limits:
 - limit_count: 0
   name: Lakera Ai Rate Limits

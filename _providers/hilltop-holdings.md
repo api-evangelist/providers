@@ -72,7 +72,7 @@ plans:
 - name: Hilltop Holdings Plans Pricing
   plan_count: 1
   slug: hilltop-holdings-plans-pricing
-random_paper: 65
+random_paper: 45
 rate_limits:
 - limit_count: 1
   name: Hilltop Holdings Rate Limits

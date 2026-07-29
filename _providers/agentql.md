@@ -228,7 +228,7 @@ plans:
 - name: Agentql Plans Pricing
   plan_count: 4
   slug: agentql-plans-pricing
-random_paper: 28
+random_paper: 19
 rate_limits:
 - limit_count: 5
   name: Agentql Rate Limits

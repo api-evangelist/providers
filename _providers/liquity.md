@@ -172,7 +172,7 @@ overview: 'Liquity publishes 7 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Liquity''s developer surface includes documentation, engineering blog, and 16 more developer resources.'
-random_paper: 65
+random_paper: 56
 rules:
 - name: Liquity API Rules
   rule_count: 6

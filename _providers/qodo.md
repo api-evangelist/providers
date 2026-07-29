@@ -113,7 +113,7 @@ plans:
 - name: Qodo Plans Pricing
   plan_count: 4
   slug: qodo-plans-pricing
-random_paper: 35
+random_paper: 30
 rate_limits:
 - limit_count: 4
   name: Qodo Rate Limits

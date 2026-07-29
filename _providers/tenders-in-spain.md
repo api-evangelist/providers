@@ -52,7 +52,7 @@ name: Tenders in Spain
 nav: Providers
 network: true
 overview: Tenders in Spain publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Business and Public APIs.
-random_paper: 1
+random_paper: 62
 score:
   band: minimal
   composite: 5.7

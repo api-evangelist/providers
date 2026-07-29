@@ -147,7 +147,7 @@ plans:
 - name: The News Api Plans Pricing
   plan_count: 3
   slug: the-news-api-plans-pricing
-random_paper: 50
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: The News Api Rate Limits

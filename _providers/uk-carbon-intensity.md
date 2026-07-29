@@ -52,7 +52,7 @@ name: UK Carbon Intensity
 nav: Providers
 network: true
 overview: UK Carbon Intensity publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Environment and Public APIs.
-random_paper: 22
+random_paper: 79
 score:
   band: minimal
   composite: 5.7

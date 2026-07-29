@@ -79,7 +79,7 @@ overview: 'ResourceWise is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   ResourceWise''s developer surface includes engineering blog, support, product news, and 6 more developer resources.'
-random_paper: 32
+random_paper: 16
 score:
   band: minimal
   composite: 10.5

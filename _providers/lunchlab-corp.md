@@ -63,7 +63,7 @@ overview: 'lunchlab Corp. is profiled on the [APIs.io](https://apis.io/) network
 
 
   lunchlab Corp.''s developer surface includes support and 4 more developer resources.'
-random_paper: 42
+random_paper: 26
 score:
   band: minimal
   composite: 10.1

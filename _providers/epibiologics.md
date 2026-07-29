@@ -59,7 +59,7 @@ overview: 'EpiBiologics is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   EpiBiologics'' developer surface includes support and 3 more developer resources.'
-random_paper: 73
+random_paper: 58
 score:
   band: minimal
   composite: 6.1

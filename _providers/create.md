@@ -52,7 +52,7 @@ name: Create
 nav: Providers
 network: true
 overview: Create is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Cell Therapy, mRNA, and Oncology.
-random_paper: 68
+random_paper: 61
 score:
   band: minimal
   composite: 9.2

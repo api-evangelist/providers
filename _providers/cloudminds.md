@@ -71,7 +71,7 @@ overview: 'CloudMinds is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   CloudMinds'' developer surface includes support and 6 more developer resources.'
-random_paper: 34
+random_paper: 21
 score:
   band: minimal
   composite: 9.6

@@ -480,7 +480,7 @@ plans:
 - name: D Wave Plans Pricing
   plan_count: 3
   slug: d-wave-plans-pricing
-random_paper: 20
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: D Wave Rate Limits

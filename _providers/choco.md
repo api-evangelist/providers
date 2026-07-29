@@ -88,7 +88,7 @@ overview: 'Choco is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Choco''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 44
+random_paper: 38
 score:
   band: emerging
   composite: 15.4

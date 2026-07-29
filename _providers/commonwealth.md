@@ -102,7 +102,7 @@ overview: 'Commonwealth is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Commonwealth''s developer surface includes documentation, getting-started guide, engineering blog, signup flow, support, and 8 more developer resources.'
-random_paper: 14
+random_paper: 79
 score:
   band: thin
   composite: 31.3

@@ -83,7 +83,7 @@ overview: 'Grubmarket is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Grubmarket''s developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 36
+random_paper: 23
 score:
   band: minimal
   composite: 9.7

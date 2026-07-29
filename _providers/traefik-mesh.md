@@ -192,7 +192,7 @@ overview: 'Traefik Mesh publishes 3 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Traefik Mesh''s developer surface includes documentation, engineering blog, release notes, changelog, and 15 more developer resources.'
-random_paper: 16
+random_paper: 1
 rules:
 - name: Traefik Mesh API Rules
   rule_count: 5

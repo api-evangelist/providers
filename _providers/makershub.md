@@ -99,7 +99,7 @@ overview: 'Makershub is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Makershub''s developer surface includes signup flow, pricing, engineering blog, changelog, support, and 9 more developer resources.'
-random_paper: 2
+random_paper: 71
 score:
   band: emerging
   composite: 23.6

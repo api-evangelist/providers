@@ -126,7 +126,7 @@ plans:
 - name: Eight Sleep Plans Pricing
   plan_count: 3
   slug: eight-sleep-plans-pricing
-random_paper: 71
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Eight Sleep Rate Limits

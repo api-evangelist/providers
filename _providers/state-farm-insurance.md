@@ -186,7 +186,7 @@ plans:
 - name: State Farm Insurance Plans Pricing
   plan_count: 1
   slug: state-farm-insurance-plans-pricing
-random_paper: 25
+random_paper: 0
 rate_limits:
 - limit_count: 1
   name: State Farm Insurance Rate Limits

@@ -79,7 +79,7 @@ overview: 'Trendsi is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Trendsi''s developer surface includes signup flow, pricing, engineering blog, support, and 5 more developer resources.'
-random_paper: 41
+random_paper: 32
 score:
   band: emerging
   composite: 15.2

@@ -63,7 +63,7 @@ overview: 'Akorda is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Akorda''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 66
+random_paper: 59
 score:
   band: minimal
   composite: 10.5

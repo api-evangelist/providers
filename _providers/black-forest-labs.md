@@ -121,7 +121,7 @@ plans:
 - name: Black Forest Labs Plans Pricing
   plan_count: 2
   slug: black-forest-labs-plans-pricing
-random_paper: 76
+random_paper: 56
 rate_limits:
 - limit_count: 2
   name: Black Forest Labs Rate Limits

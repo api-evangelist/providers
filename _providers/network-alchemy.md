@@ -39,7 +39,7 @@ name: Network Alchemy
 nav: Providers
 network: true
 overview: Network Alchemy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Security, Networking, VPN, and IPsec.
-random_paper: 42
+random_paper: 23
 score:
   band: minimal
   composite: 5.0

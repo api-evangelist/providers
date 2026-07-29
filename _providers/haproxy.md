@@ -102,7 +102,7 @@ plans:
 - name: Haproxy Plans Pricing
   plan_count: 3
   slug: haproxy-plans-pricing
-random_paper: 59
+random_paper: 50
 rate_limits:
 - limit_count: 5
   name: Haproxy Rate Limits

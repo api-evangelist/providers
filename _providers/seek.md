@@ -48,7 +48,7 @@ name: Seek
 nav: Providers
 network: true
 overview: Seek is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Fintech.
-random_paper: 24
+random_paper: 19
 score:
   band: minimal
   composite: 4.1

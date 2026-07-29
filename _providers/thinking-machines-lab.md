@@ -164,7 +164,7 @@ overview: 'Thinking Machines Lab is profiled on the [APIs.io](https://apis.io/) 
 
 
   Thinking Machines Lab''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 23 more developer resources.'
-random_paper: 13
+random_paper: 68
 scopes:
 - name: Thinking Machines Lab Scopes
   scope_count: 4

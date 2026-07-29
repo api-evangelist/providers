@@ -92,7 +92,7 @@ overview: 'Zap Energy is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Zap Energy''s developer surface includes product news, YouTube channel, and 10 more developer resources.'
-random_paper: 66
+random_paper: 54
 score:
   band: minimal
   composite: 5.5

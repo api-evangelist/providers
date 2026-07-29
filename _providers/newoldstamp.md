@@ -79,7 +79,7 @@ overview: 'Newoldstamp is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Newoldstamp''s developer surface includes pricing, engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 78
+random_paper: 64
 score:
   band: emerging
   composite: 15.2

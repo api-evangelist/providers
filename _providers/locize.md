@@ -112,7 +112,7 @@ plans:
 - name: Locize Plans Pricing
   plan_count: 7
   slug: locize-plans-pricing
-random_paper: 6
+random_paper: 79
 rate_limits:
 - limit_count: 3
   name: Locize Rate Limits

@@ -368,7 +368,7 @@ plans:
 - name: Amazon Vpc Lattice Plans Pricing
   plan_count: 3
   slug: amazon-vpc-lattice-plans-pricing
-random_paper: 47
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Amazon Vpc Lattice Rate Limits

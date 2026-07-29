@@ -44,7 +44,7 @@ name: Rovilus
 nav: Providers
 network: true
 overview: Rovilus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hardware, Battery, Thermal Management, and Energy Storage.
-random_paper: 68
+random_paper: 59
 score:
   band: minimal
   composite: 5.0

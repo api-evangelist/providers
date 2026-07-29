@@ -71,7 +71,7 @@ overview: 'Spokn is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Spokn''s developer surface includes engineering blog, pricing, signup flow, support, and 3 more developer resources.'
-random_paper: 75
+random_paper: 69
 score:
   band: minimal
   composite: 11.0

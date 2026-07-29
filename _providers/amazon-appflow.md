@@ -781,7 +781,7 @@ overview: 'Amazon AppFlow publishes 3 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Amazon AppFlow''s developer surface includes authentication, developer portal, documentation, support, engineering blog, developer console, signup flow, and 27 more developer resources.'
-random_paper: 12
+random_paper: 75
 rules:
 - name: Amazon AppFlow API Rules
   rule_count: 6

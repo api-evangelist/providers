@@ -99,7 +99,7 @@ overview: 'JOLT is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   JOLT''s developer surface includes engineering blog, support, signup flow, pricing, and 12 more developer resources.'
-random_paper: 64
+random_paper: 51
 score:
   band: emerging
   composite: 19.3

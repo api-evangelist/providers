@@ -237,7 +237,7 @@ plans:
 - name: Fazz Plans Pricing
   plan_count: 2
   slug: fazz-plans-pricing
-random_paper: 43
+random_paper: 38
 rate_limits:
 - limit_count: 1
   name: Fazz Rate Limits

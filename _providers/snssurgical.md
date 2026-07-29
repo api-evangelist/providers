@@ -48,7 +48,7 @@ name: snssurgical
 nav: Providers
 network: true
 overview: snssurgical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Surgical, Medical Devices, Healthcare, and China.
-random_paper: 78
+random_paper: 64
 score:
   band: minimal
   composite: 5.4

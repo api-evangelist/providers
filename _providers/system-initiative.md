@@ -128,7 +128,7 @@ overview: 'System Initiative publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   System Initiative''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, and 13 more developer resources.'
-random_paper: 40
+random_paper: 18
 score:
   band: thin
   composite: 31.3

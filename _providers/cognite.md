@@ -421,7 +421,7 @@ overview: 'Cognite publishes 89 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Cognite''s developer surface includes authentication, documentation, developer portal, engineering blog, YouTube channel, pricing, and 10 more developer resources.'
-random_paper: 25
+random_paper: 16
 rules:
 - name: Cognite API Rules
   rule_count: 5

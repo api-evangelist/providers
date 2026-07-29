@@ -784,7 +784,7 @@ plans:
 - name: Cardano Plans Pricing
   plan_count: 4
   slug: cardano-plans-pricing
-random_paper: 8
+random_paper: 80
 rate_limits:
 - limit_count: 6
   name: Cardano Rate Limits

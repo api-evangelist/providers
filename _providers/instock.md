@@ -159,7 +159,7 @@ overview: 'Instock publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Instock''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, sandbox, and 16 more developer resources.'
-random_paper: 43
+random_paper: 34
 score:
   band: developing
   composite: 43.1

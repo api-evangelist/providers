@@ -158,7 +158,7 @@ plans:
 - name: Meteomatics Plans Pricing
   plan_count: 4
   slug: meteomatics-plans-pricing
-random_paper: 59
+random_paper: 45
 rate_limits:
 - limit_count: 0
   name: Meteomatics Rate Limits

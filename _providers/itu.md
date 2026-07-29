@@ -141,7 +141,7 @@ overview: 'ITU publishes 2 APIs on the [APIs.io](https://apis.io/) network: Data
 
 
   ITU''s developer surface includes authentication, code examples, documentation, engineering blog, support, and 17 more developer resources.'
-random_paper: 18
+random_paper: 14
 score:
   band: thin
   composite: 37.0

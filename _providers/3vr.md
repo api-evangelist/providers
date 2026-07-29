@@ -52,7 +52,7 @@ name: 3VR
 nav: Providers
 network: true
 overview: 3VR is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Video Analytics, Video Surveillance, and Physical Security.
-random_paper: 43
+random_paper: 40
 score:
   band: minimal
   composite: 5.0

@@ -150,7 +150,7 @@ plans:
 - name: Apache Tomcat Plans Pricing
   plan_count: 3
   slug: apache-tomcat-plans-pricing
-random_paper: 23
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Apache Tomcat Rate Limits

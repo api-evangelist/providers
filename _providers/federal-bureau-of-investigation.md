@@ -94,7 +94,7 @@ plans:
 - name: Federal Bureau Of Investigation Plans Pricing
   plan_count: 3
   slug: federal-bureau-of-investigation-plans-pricing
-random_paper: 7
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Federal Bureau Of Investigation Rate Limits

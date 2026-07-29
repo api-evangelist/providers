@@ -517,7 +517,7 @@ overview: 'Tenable publishes 107 APIs on the [APIs.io](https://apis.io/) network
 
 
   Tenable''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 11
+random_paper: 2
 score:
   band: strong
   composite: 56.9

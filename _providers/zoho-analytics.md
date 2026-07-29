@@ -174,7 +174,7 @@ plans:
 - name: Zoho Analytics Plans Pricing
   plan_count: 6
   slug: zoho-analytics-plans-pricing
-random_paper: 21
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Zoho Analytics Rate Limits

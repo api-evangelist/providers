@@ -63,7 +63,7 @@ overview: 'Coru is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Coru''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 41
+random_paper: 36
 score:
   band: minimal
   composite: 9.7

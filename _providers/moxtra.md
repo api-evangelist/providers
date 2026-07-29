@@ -87,7 +87,7 @@ overview: 'Moxtra publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Moxtra''s developer surface includes documentation, pricing, signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 27
+random_paper: 19
 score:
   band: emerging
   composite: 13.7

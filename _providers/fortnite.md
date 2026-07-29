@@ -229,7 +229,7 @@ plans:
 - name: Fortnite Plans Pricing
   plan_count: 2
   slug: fortnite-plans-pricing
-random_paper: 75
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Fortnite Rate Limits

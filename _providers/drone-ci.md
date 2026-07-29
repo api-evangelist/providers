@@ -131,7 +131,7 @@ plans:
 - name: Drone Ci Plans Pricing
   plan_count: 2
   slug: drone-ci-plans-pricing
-random_paper: 65
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Drone Ci Rate Limits

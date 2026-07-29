@@ -140,7 +140,7 @@ overview: 'Cogniac publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Cogniac''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, authentication, and 16 more developer resources.'
-random_paper: 4
+random_paper: 76
 score:
   band: thin
   composite: 32.5

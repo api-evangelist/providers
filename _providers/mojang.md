@@ -505,7 +505,7 @@ overview: 'Mojang publishes 14 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Mojang''s developer surface includes authentication, documentation, and 16 more developer resources.'
-random_paper: 76
+random_paper: 69
 rate_limits:
 - limit_count: 6
   name: Mojang Rate Limits

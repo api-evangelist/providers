@@ -130,7 +130,7 @@ press:
 - date: '2026-05-25'
   title: 'When IR Met AI: How the Technology Is Shaping Earnings- ...'
   url: https://www.wsj.com/articles/when-ir-met-ai-how-the-technology-is-shaping-earnings-day-prep-5054a057
-random_paper: 30
+random_paper: 15
 rate_limits:
 - limit_count: 5
   name: Skechers Usa Rate Limits

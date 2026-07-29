@@ -48,7 +48,7 @@ name: Partnered
 nav: Providers
 network: true
 overview: Partnered is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Partnerships, Co-Selling, Sales, and Partner Ecosystem.
-random_paper: 5
+random_paper: 74
 score:
   band: minimal
   composite: 5.0

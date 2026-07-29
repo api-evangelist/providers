@@ -21,7 +21,7 @@ modified: '2026-07-21'
 name: Stellation Capital
 nav: Providers
 network: true
-random_paper: 47
+random_paper: 34
 slug: stellation
 tags:
 - Venture Capital

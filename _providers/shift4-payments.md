@@ -241,7 +241,7 @@ plans:
 - name: Shift4 Payments Plans Pricing
   plan_count: 1
   slug: shift4-payments-plans-pricing
-random_paper: 0
+random_paper: 62
 rate_limits:
 - limit_count: 2
   name: Shift4 Payments Rate Limits

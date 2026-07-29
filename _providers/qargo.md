@@ -253,7 +253,7 @@ overview: 'Qargo publishes 24 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Qargo''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 21 more developer resources.'
-random_paper: 58
+random_paper: 52
 score:
   band: developing
   composite: 47.8

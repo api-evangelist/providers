@@ -126,7 +126,7 @@ plans:
 - name: Open Loyalty Plans Pricing
   plan_count: 3
   slug: open-loyalty-plans-pricing
-random_paper: 61
+random_paper: 46
 rate_limits:
 - limit_count: 3
   name: Open Loyalty Rate Limits

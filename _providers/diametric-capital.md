@@ -56,7 +56,7 @@ name: Diametric Capital
 nav: Providers
 network: true
 overview: Diametric Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Investment Management, Hedge Fund, and Asset Management.
-random_paper: 45
+random_paper: 24
 score:
   band: minimal
   composite: 7.6

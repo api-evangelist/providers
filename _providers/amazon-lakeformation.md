@@ -200,7 +200,7 @@ plans:
 - name: Amazon Lakeformation Plans Pricing
   plan_count: 3
   slug: amazon-lakeformation-plans-pricing
-random_paper: 79
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Amazon Lakeformation Rate Limits

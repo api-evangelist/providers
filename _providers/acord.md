@@ -337,7 +337,7 @@ plans:
 - name: Acord Plans Pricing
   plan_count: 1
   slug: acord-plans-pricing
-random_paper: 41
+random_paper: 35
 rate_limits:
 - limit_count: 0
   name: Acord Rate Limits

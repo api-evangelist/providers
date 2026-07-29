@@ -64,7 +64,7 @@ name: Neuralink
 nav: Providers
 network: true
 overview: Neuralink is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Brain Computer Interface, Neurotechnology, and Medical Devices.
-random_paper: 9
+random_paper: 78
 score:
   band: minimal
   composite: 7.5

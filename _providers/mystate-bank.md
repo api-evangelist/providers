@@ -157,7 +157,7 @@ overview: 'MyState Bank publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   MyState Bank''s developer surface includes support, documentation, authentication, and 18 more developer resources.'
-random_paper: 32
+random_paper: 17
 score:
   band: thin
   composite: 33.6

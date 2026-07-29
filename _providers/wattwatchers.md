@@ -178,7 +178,7 @@ overview: 'Wattwatchers publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Wattwatchers'' developer surface includes authentication, documentation, changelog, support, API reference, getting-started guide, code examples, and 24 more developer resources.'
-random_paper: 33
+random_paper: 17
 rate_limits:
 - limit_count: 2
   name: Wattwatchers Rate Limits

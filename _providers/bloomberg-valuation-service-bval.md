@@ -99,7 +99,7 @@ plans:
 - name: Bloomberg Valuation Service Bval Plans Pricing
   plan_count: 3
   slug: bloomberg-valuation-service-bval-plans-pricing
-random_paper: 41
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Bloomberg Valuation Service Bval Rate Limits

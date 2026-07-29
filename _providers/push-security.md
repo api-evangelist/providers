@@ -163,7 +163,7 @@ overview: 'Push Security publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Push Security''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 20 more developer resources.'
-random_paper: 21
+random_paper: 4
 score:
   band: developing
   composite: 49.3

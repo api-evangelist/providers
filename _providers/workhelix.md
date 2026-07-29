@@ -76,7 +76,7 @@ name: Workhelix
 nav: Providers
 network: true
 overview: Workhelix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Workforce Analytics, AI ROI, and Enterprise Software.
-random_paper: 29
+random_paper: 17
 score:
   band: emerging
   composite: 13.7

@@ -148,7 +148,7 @@ overview: 'Zipcar is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Zipcar''s developer surface includes pricing, support, documentation, GitHub presence, engineering blog, YouTube channel, and 20 more developer resources.'
-random_paper: 53
+random_paper: 41
 score:
   band: emerging
   composite: 13.7

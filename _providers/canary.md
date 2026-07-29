@@ -59,7 +59,7 @@ overview: 'Canary is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Canary''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 78
+random_paper: 71
 score:
   band: minimal
   composite: 8.9

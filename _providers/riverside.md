@@ -181,7 +181,7 @@ plans:
 - name: Riverside Plans Pricing
   plan_count: 3
   slug: riverside-plans-pricing
-random_paper: 13
+random_paper: 1
 rate_limits:
 - limit_count: 5
   name: Riverside Rate Limits

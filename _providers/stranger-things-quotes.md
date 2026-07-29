@@ -52,7 +52,7 @@ name: Stranger Things Quotes
 nav: Providers
 network: true
 overview: Stranger Things Quotes publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video and Public APIs.
-random_paper: 46
+random_paper: 18
 score:
   band: minimal
   composite: 5.0

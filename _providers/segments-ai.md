@@ -124,7 +124,7 @@ plans:
 - name: Segments Ai Plans Pricing
   plan_count: 3
   slug: segments-ai-plans-pricing
-random_paper: 77
+random_paper: 64
 rate_limits:
 - limit_count: 3
   name: Segments Ai Rate Limits

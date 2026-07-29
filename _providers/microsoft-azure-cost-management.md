@@ -114,7 +114,7 @@ plans:
 - name: Microsoft Azure Cost Management Plans Pricing
   plan_count: 3
   slug: microsoft-azure-cost-management-plans-pricing
-random_paper: 42
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Cost Management Rate Limits

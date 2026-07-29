@@ -192,7 +192,7 @@ plans:
 - name: Snowplow Plans Pricing
   plan_count: 3
   slug: snowplow-plans-pricing
-random_paper: 25
+random_paper: 14
 rate_limits:
 - limit_count: 5
   name: Snowplow Rate Limits

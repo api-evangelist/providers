@@ -91,7 +91,7 @@ overview: 'Gangkhar is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Gangkhar''s developer surface includes FAQ, support, engineering blog, YouTube channel, and 7 more developer resources.'
-random_paper: 35
+random_paper: 25
 score:
   band: minimal
   composite: 11.5

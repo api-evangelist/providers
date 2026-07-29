@@ -131,7 +131,7 @@ overview: 'COMSOL is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   COMSOL''s developer surface includes documentation, pricing, support, engineering blog, YouTube channel, GitHub presence, and 16 more developer resources.'
-random_paper: 13
+random_paper: 5
 score:
   band: minimal
   composite: 10.8

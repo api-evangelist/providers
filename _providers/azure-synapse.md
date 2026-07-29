@@ -213,7 +213,7 @@ plans:
 - name: Azure Synapse Plans Pricing
   plan_count: 3
   slug: azure-synapse-plans-pricing
-random_paper: 7
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Azure Synapse Rate Limits

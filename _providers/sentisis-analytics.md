@@ -71,7 +71,7 @@ overview: 'Sentisis Analytics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Sentisis Analytics'' developer surface includes documentation, engineering blog, support, and 4 more developer resources.'
-random_paper: 55
+random_paper: 32
 score:
   band: minimal
   composite: 12.3

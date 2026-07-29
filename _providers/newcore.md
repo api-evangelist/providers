@@ -87,7 +87,7 @@ overview: 'NewCore is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   NewCore''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 35
+random_paper: 26
 score:
   band: emerging
   composite: 14.2

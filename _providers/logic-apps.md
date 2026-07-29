@@ -113,7 +113,7 @@ plans:
 - name: Logic Apps Plans Pricing
   plan_count: 3
   slug: logic-apps-plans-pricing
-random_paper: 47
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Logic Apps Rate Limits

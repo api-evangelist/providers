@@ -227,7 +227,7 @@ overview: 'GoSpotCheck publishes 13 APIs on the [APIs.io](https://apis.io/) netw
 
 
   GoSpotCheck''s developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, authentication, and 26 more developer resources.'
-random_paper: 58
+random_paper: 44
 rate_limits:
 - limit_count: 0
   name: Gospotcheck Rate Limits

@@ -187,7 +187,7 @@ overview: 'Foxtons is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Foxtons'' developer surface includes engineering blog, pricing, and 30 more developer resources.'
-random_paper: 65
+random_paper: 56
 score:
   band: emerging
   composite: 20.5

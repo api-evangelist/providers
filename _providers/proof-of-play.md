@@ -143,7 +143,7 @@ overview: 'Proof of Play publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Proof of Play''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, and 15 more developer resources.'
-random_paper: 11
+random_paper: 76
 score:
   band: thin
   composite: 37.4

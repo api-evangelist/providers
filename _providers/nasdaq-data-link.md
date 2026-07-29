@@ -166,7 +166,7 @@ overview: 'Nasdaq Data Link publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Nasdaq Data Link''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, CLI, authentication, and 20 more developer resources.'
-random_paper: 42
+random_paper: 23
 rate_limits:
 - limit_count: 0
   name: Nasdaq Data Link Rate Limits

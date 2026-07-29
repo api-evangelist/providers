@@ -56,7 +56,7 @@ name: First West Credit Union
 nav: Providers
 network: true
 overview: First West Credit Union is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Banking, Canada, Credit Union, and Cooperative Bank.
-random_paper: 6
+random_paper: 58
 score:
   band: minimal
   composite: 7.0

@@ -39,7 +39,7 @@ name: Stonybrook Water Purification
 nav: Providers
 network: true
 overview: Stonybrook Water Purification is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 4
+random_paper: 47
 score:
   band: minimal
   composite: 4.1

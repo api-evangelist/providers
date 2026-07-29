@@ -83,7 +83,7 @@ overview: 'BirdBuddy is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   BirdBuddy''s developer surface includes support, engineering blog, pricing, and 7 more developer resources.'
-random_paper: 73
+random_paper: 62
 score:
   band: minimal
   composite: 12.6

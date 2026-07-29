@@ -84,7 +84,7 @@ plans:
 - name: Dati Comune Matera It Plans Pricing
   plan_count: 1
   slug: dati-comune-matera-it-plans-pricing
-random_paper: 55
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Dati Comune Matera It Rate Limits

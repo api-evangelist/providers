@@ -76,7 +76,7 @@ press:
 - date: '2026-05-25'
   title: Keurig Dr Pepper Launches New Corporate Responsibility ...
   url: https://www.prnewswire.com/news-releases/keurig-dr-pepper-launches-new-corporate-responsibility-strategy-and-commitments-300860122.html
-random_paper: 61
+random_paper: 35
 score:
   band: minimal
   composite: 5.0

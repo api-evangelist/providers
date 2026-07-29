@@ -293,7 +293,7 @@ overview: 'Depict.AI publishes 35 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Depict.AI''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 26 more developer resources.'
-random_paper: 35
+random_paper: 25
 scopes:
 - name: Depictai Scopes
   scope_count: 3

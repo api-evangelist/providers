@@ -83,7 +83,7 @@ overview: 'Kyros College Prep is profiled on the [APIs.io](https://apis.io/) net
 
 
   Kyros College Prep''s developer surface includes engineering blog, pricing, support, and 7 more developer resources.'
-random_paper: 8
+random_paper: 1
 score:
   band: emerging
   composite: 14.5

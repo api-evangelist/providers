@@ -39,7 +39,7 @@ name: Floor &amp; Decor Holdings
 nav: Providers
 network: true
 overview: Floor &amp; Decor Holdings is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 49
+random_paper: 20
 score:
   band: minimal
   composite: 2.6

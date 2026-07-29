@@ -116,7 +116,7 @@ plans:
 - name: Truepill Plans Pricing
   plan_count: 1
   slug: truepill-plans-pricing
-random_paper: 1
+random_paper: 71
 rate_limits:
 - limit_count: 3
   name: Truepill Rate Limits

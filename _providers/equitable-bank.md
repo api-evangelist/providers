@@ -75,7 +75,7 @@ overview: 'Equitable Bank publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Equitable Bank''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 53
+random_paper: 36
 score:
   band: emerging
   composite: 13.0

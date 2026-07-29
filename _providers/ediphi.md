@@ -91,7 +91,7 @@ overview: 'Ediphi publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Ediphi''s developer surface includes support, engineering blog, signup flow, and 8 more developer resources.'
-random_paper: 67
+random_paper: 60
 score:
   band: emerging
   composite: 17.3

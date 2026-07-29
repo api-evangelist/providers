@@ -114,7 +114,7 @@ plans:
 - name: Lf Ai And Data Plans Pricing
   plan_count: 3
   slug: lf-ai-and-data-plans-pricing
-random_paper: 64
+random_paper: 49
 rate_limits:
 - limit_count: 5
   name: Lf Ai And Data Rate Limits

@@ -91,7 +91,7 @@ overview: 'BrightGo is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BrightGo''s developer surface includes engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 54
+random_paper: 44
 score:
   band: minimal
   composite: 10.2

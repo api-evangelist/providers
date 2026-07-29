@@ -193,7 +193,7 @@ plans:
 - name: Bigml Plans Pricing
   plan_count: 4
   slug: bigml-plans-pricing
-random_paper: 43
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Bigml Rate Limits

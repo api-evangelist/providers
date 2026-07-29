@@ -68,7 +68,7 @@ name: Min Doktor
 nav: Providers
 network: true
 overview: Min Doktor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health Tech, Telemedicine, Digital Health, and Primary Care.
-random_paper: 68
+random_paper: 56
 score:
   band: emerging
   composite: 13.3

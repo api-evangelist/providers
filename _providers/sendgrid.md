@@ -748,7 +748,7 @@ plans:
 - name: Sendgrid Plans Pricing
   plan_count: 4
   slug: sendgrid-plans-pricing
-random_paper: 48
+random_paper: 38
 rate_limits:
 - limit_count: 5
   name: Sendgrid Rate Limits

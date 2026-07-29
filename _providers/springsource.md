@@ -52,7 +52,7 @@ name: SpringSource
 nav: Providers
 network: true
 overview: SpringSource is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Developer Tools, Java, Spring Framework, and Open Source.
-random_paper: 36
+random_paper: 20
 score:
   band: minimal
   composite: 6.7

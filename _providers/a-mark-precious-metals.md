@@ -125,7 +125,7 @@ press:
 - date: '2026-05-25'
   title: Global Privacy Policy
   url: https://www.amark.com/privacy-policy/
-random_paper: 19
+random_paper: 73
 rate_limits:
 - limit_count: 1
   name: A Mark Precious Metals Rate Limits

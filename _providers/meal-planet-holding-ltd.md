@@ -67,7 +67,7 @@ overview: 'MEAL PLANET HOLDING LTD is profiled on the [APIs.io](https://apis.io/
 
 
   MEAL PLANET HOLDING LTD''s developer surface includes signup flow, support, and 4 more developer resources.'
-random_paper: 19
+random_paper: 72
 score:
   band: minimal
   composite: 12.7

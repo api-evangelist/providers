@@ -83,7 +83,7 @@ overview: 'US Health Partners, LLC is profiled on the [APIs.io](https://apis.io/
 
 
   US Health Partners, LLC''s developer surface includes support and 9 more developer resources.'
-random_paper: 31
+random_paper: 4
 score:
   band: minimal
   composite: 12.8

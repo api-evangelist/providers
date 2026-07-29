@@ -161,7 +161,7 @@ overview: 'Paystone publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Paystone''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, signup flow, and 20 more developer resources.'
-random_paper: 3
+random_paper: 73
 score:
   band: developing
   composite: 46.6

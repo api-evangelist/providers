@@ -119,7 +119,7 @@ overview: 'HqO is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   HqO''s developer surface includes support, documentation, engineering blog, signup flow, and 15 more developer resources.'
-random_paper: 8
+random_paper: 4
 score:
   band: emerging
   composite: 23.4

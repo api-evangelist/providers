@@ -67,7 +67,7 @@ overview: 'DIVE studios is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   DIVE studios'' developer surface includes support and 5 more developer resources.'
-random_paper: 48
+random_paper: 33
 score:
   band: minimal
   composite: 11.9

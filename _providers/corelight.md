@@ -128,7 +128,7 @@ overview: 'Corelight publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Corelight''s developer surface includes documentation, engineering blog, support, pricing, CLI, authentication, and 14 more developer resources.'
-random_paper: 1
+random_paper: 70
 score:
   band: thin
   composite: 31.3

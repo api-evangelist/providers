@@ -63,7 +63,7 @@ overview: 'Xiaopangxiong is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Xiaopangxiong''s developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 44
+random_paper: 27
 score:
   band: minimal
   composite: 8.2

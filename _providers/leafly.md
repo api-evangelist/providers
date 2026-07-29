@@ -122,7 +122,7 @@ plans:
 - name: Leafly Plans Pricing
   plan_count: 2
   slug: leafly-plans-pricing
-random_paper: 77
+random_paper: 70
 rate_limits:
 - limit_count: 3
   name: Leafly Rate Limits

@@ -79,7 +79,7 @@ overview: 'Techstars Ventures is profiled on the [APIs.io](https://apis.io/) net
 
 
   Techstars Ventures'' developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 74
+random_paper: 51
 score:
   band: emerging
   composite: 13.1

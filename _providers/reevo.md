@@ -83,7 +83,7 @@ overview: 'Reevo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Reevo''s developer surface includes pricing, engineering blog, changelog, and 7 more developer resources.'
-random_paper: 65
+random_paper: 59
 score:
   band: emerging
   composite: 17.1

@@ -44,7 +44,7 @@ name: Swychd
 nav: Providers
 network: true
 overview: Swychd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 18
+random_paper: 10
 score:
   band: minimal
   composite: 3.2

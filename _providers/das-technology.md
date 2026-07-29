@@ -71,7 +71,7 @@ overview: 'DAS Technology is profiled on the [APIs.io](https://apis.io/) network
 
 
   DAS Technology''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 1
+random_paper: 64
 score:
   band: emerging
   composite: 13.1

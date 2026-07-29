@@ -79,7 +79,7 @@ overview: 'Toka is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Toka''s developer surface includes product news, YouTube channel, and 7 more developer resources.'
-random_paper: 31
+random_paper: 26
 score:
   band: emerging
   composite: 13.3

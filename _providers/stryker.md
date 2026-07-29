@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: Advanced Digital Healthcare
   url: https://www.stryker.com/us/en/portfolios/medical-surgical-equipment/advanced-digital-healthcare.html
-random_paper: 68
+random_paper: 59
 rules:
 - name: Stryker API Rules
   rule_count: 5

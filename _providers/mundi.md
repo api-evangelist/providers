@@ -60,7 +60,7 @@ name: Mundi
 nav: Providers
 network: true
 overview: Mundi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Trade Finance, Fintech, and Factoring.
-random_paper: 61
+random_paper: 55
 score:
   band: emerging
   composite: 13.3

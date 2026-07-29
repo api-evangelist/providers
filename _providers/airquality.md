@@ -48,7 +48,7 @@ name: airquality
 nav: Providers
 network: true
 overview: airquality is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Air Quality, Air Purification, Environmental, and Manufacturing.
-random_paper: 53
+random_paper: 40
 score:
   band: minimal
   composite: 5.0

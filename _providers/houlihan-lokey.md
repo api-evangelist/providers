@@ -65,7 +65,7 @@ plans:
 - name: Houlihan Lokey Plans Pricing
   plan_count: 1
   slug: houlihan-lokey-plans-pricing
-random_paper: 9
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Houlihan Lokey Rate Limits

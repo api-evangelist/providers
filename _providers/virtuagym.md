@@ -130,7 +130,7 @@ plans:
 - name: Virtuagym Plans Pricing
   plan_count: 3
   slug: virtuagym-plans-pricing
-random_paper: 40
+random_paper: 28
 rate_limits:
 - limit_count: 2
   name: Virtuagym Rate Limits

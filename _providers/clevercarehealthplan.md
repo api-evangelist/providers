@@ -153,7 +153,7 @@ overview: 'Clever Care Health Plan publishes 3 APIs on the [APIs.io](https://api
 
 
   Clever Care Health Plan''s developer surface includes getting-started guide, documentation, API reference, signup flow, authentication, and 17 more developer resources.'
-random_paper: 29
+random_paper: 3
 scopes:
 - name: Clevercarehealthplan Scopes
   scope_count: 4

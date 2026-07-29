@@ -108,7 +108,7 @@ plans:
 - name: Plixer Plans
   plan_count: 3
   slug: plixer-plans
-random_paper: 20
+random_paper: 12
 score:
   band: thin
   composite: 30.5

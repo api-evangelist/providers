@@ -39,7 +39,7 @@ name: Datrium
 nav: Providers
 network: true
 overview: Datrium is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hyperconverged Infrastructure, Data Storage, Disaster Recovery, and Cloud.
-random_paper: 38
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

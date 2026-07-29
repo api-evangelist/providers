@@ -268,7 +268,7 @@ overview: 'BrightEdge Technologies publishes 44 APIs on the [APIs.io](https://ap
 
 
   BrightEdge Technologies'' developer surface includes documentation, API reference, engineering blog, support, authentication, and 15 more developer resources.'
-random_paper: 54
+random_paper: 25
 score:
   band: thin
   composite: 36.3

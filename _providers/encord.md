@@ -127,7 +127,7 @@ plans:
 - name: Encord Plans Pricing
   plan_count: 3
   slug: encord-plans-pricing
-random_paper: 75
+random_paper: 68
 rate_limits:
 - limit_count: 3
   name: Encord Rate Limits

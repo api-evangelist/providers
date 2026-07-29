@@ -59,7 +59,7 @@ overview: 'Miruvor AI Inc. is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Miruvor AI Inc.''s developer surface includes support and 3 more developer resources.'
-random_paper: 34
+random_paper: 17
 score:
   band: minimal
   composite: 5.9

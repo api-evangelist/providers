@@ -48,7 +48,7 @@ name: Celltype
 nav: Providers
 network: true
 overview: Celltype is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Drug Discovery, Artificial Intelligence, and Machine Learning.
-random_paper: 66
+random_paper: 56
 score:
   band: minimal
   composite: 5.4

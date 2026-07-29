@@ -83,7 +83,7 @@ overview: 'Base Ai is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Base Ai''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 18
+random_paper: 10
 score:
   band: emerging
   composite: 17.0

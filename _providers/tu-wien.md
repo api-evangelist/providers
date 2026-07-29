@@ -106,7 +106,7 @@ plans:
 - name: Tu Wien Plans Pricing
   plan_count: 2
   slug: tu-wien-plans-pricing
-random_paper: 73
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Tu Wien Rate Limits

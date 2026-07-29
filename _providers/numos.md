@@ -64,7 +64,7 @@ name: Numos
 nav: Providers
 network: true
 overview: Numos is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Accounting, and Finance.
-random_paper: 2
+random_paper: 76
 score:
   band: minimal
   composite: 12.4

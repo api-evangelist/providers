@@ -120,7 +120,7 @@ overview: 'ALICE Technologies is profiled on the [APIs.io](https://apis.io/) net
 
 
   ALICE Technologies'' developer surface includes support, engineering blog, product news, YouTube channel, and 15 more developer resources.'
-random_paper: 15
+random_paper: 3
 score:
   band: minimal
   composite: 8.6

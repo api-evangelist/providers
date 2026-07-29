@@ -110,7 +110,7 @@ plans:
 - name: Mri Software Plans Pricing
   plan_count: 5
   slug: mri-software-plans-pricing
-random_paper: 48
+random_paper: 33
 rate_limits:
 - limit_count: 3
   name: Mri Software Rate Limits

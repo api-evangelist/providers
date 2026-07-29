@@ -164,7 +164,7 @@ plans:
 - name: Ptc Thingworx Plans Pricing
   plan_count: 1
   slug: ptc-thingworx-plans-pricing
-random_paper: 14
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Ptc Thingworx Rate Limits

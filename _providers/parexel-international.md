@@ -79,7 +79,7 @@ press:
 - date: '2026-05-25'
   title: Parexel Unveils New Industry Report
   url: https://newsroom.parexel.com/news-releases/news-release-details/parexel-unveils-new-industry-report-global-survey-more-500/
-random_paper: 38
+random_paper: 11
 score:
   band: minimal
   composite: 5.2

@@ -75,7 +75,7 @@ overview: 'BUX is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   BUX''s developer surface includes support, pricing, and 6 more developer resources.'
-random_paper: 15
+random_paper: 11
 score:
   band: emerging
   composite: 16.5

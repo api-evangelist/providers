@@ -39,7 +39,7 @@ name: FlowWise Networks
 nav: Providers
 network: true
 overview: FlowWise Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Networking, Networking Hardware, Router Acceleration, and Enterprise Networking.
-random_paper: 58
+random_paper: 36
 score:
   band: minimal
   composite: 5.0

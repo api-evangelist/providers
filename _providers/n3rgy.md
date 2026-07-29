@@ -167,7 +167,7 @@ overview: 'n3rgy publishes 1 API on the [APIs.io](https://apis.io/) network: Cus
 
 
   n3rgy''s developer surface includes authentication, documentation, signup flow, developer portal, pricing, support, changelog, and 15 more developer resources.'
-random_paper: 19
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: N3Rgy Rate Limits

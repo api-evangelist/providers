@@ -60,7 +60,7 @@ name: Photobox
 nav: Providers
 network: true
 overview: Photobox is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Photo Printing, Personalised Gifts, and E-commerce.
-random_paper: 3
+random_paper: 73
 score:
   band: minimal
   composite: 9.9

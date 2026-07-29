@@ -72,7 +72,7 @@ name: Quintoandar
 nav: Providers
 network: true
 overview: Quintoandar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Proptech, Real Estate, Rentals, and Marketplace.
-random_paper: 70
+random_paper: 56
 score:
   band: minimal
   composite: 10.3

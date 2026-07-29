@@ -44,7 +44,7 @@ name: RhyGaze
 nav: Providers
 network: true
 overview: RhyGaze is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Gene Therapy, and Ophthalmology.
-random_paper: 42
+random_paper: 33
 score:
   band: minimal
   composite: 4.3

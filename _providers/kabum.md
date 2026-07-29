@@ -96,7 +96,7 @@ overview: 'KaBum! publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   KaBum!''s developer surface includes documentation, signup flow, support, engineering blog, authentication, and 7 more developer resources.'
-random_paper: 48
+random_paper: 42
 score:
   band: emerging
   composite: 21.8

@@ -141,7 +141,7 @@ plans:
 - name: Cisco Directory Connector Plans Pricing
   plan_count: 3
   slug: cisco-directory-connector-plans-pricing
-random_paper: 11
+random_paper: 60
 rate_limits:
 - limit_count: 5
   name: Cisco Directory Connector Rate Limits

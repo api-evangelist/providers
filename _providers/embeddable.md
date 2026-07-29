@@ -161,7 +161,7 @@ overview: 'Embeddable publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Embeddable''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 53
+random_paper: 41
 score:
   band: developing
   composite: 42.8

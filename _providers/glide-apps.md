@@ -125,7 +125,7 @@ plans:
 - name: Glide Apps Plans Pricing
   plan_count: 5
   slug: glide-apps-plans-pricing
-random_paper: 38
+random_paper: 26
 rate_limits:
 - limit_count: 4
   name: Glide Apps Rate Limits

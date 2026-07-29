@@ -95,7 +95,7 @@ overview: 'Jeeva AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Jeeva AI''s developer surface includes signup flow, pricing, engineering blog, and 10 more developer resources.'
-random_paper: 50
+random_paper: 41
 score:
   band: emerging
   composite: 21.0

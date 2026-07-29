@@ -63,7 +63,7 @@ overview: 'EPO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   EPO''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 4
+random_paper: 0
 score:
   band: minimal
   composite: 6.2

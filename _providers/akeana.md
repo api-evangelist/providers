@@ -79,7 +79,7 @@ overview: 'Akeana is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Akeana''s developer surface includes documentation, support, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 49
+random_paper: 42
 score:
   band: emerging
   composite: 14.9

@@ -56,7 +56,7 @@ name: CheetahO
 nav: Providers
 network: true
 overview: CheetahO publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Photography and Public APIs.
-random_paper: 33
+random_paper: 23
 score:
   band: minimal
   composite: 5.7

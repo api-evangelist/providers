@@ -84,7 +84,7 @@ overview: 'Livsn Designs is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Livsn Designs'' developer surface includes authentication and 8 more developer resources.'
-random_paper: 70
+random_paper: 54
 score:
   band: emerging
   composite: 15.0

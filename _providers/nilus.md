@@ -79,7 +79,7 @@ overview: 'Nilus is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Nilus'' developer surface includes engineering blog, signup flow, and 7 more developer resources.'
-random_paper: 75
+random_paper: 69
 score:
   band: emerging
   composite: 18.7

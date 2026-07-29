@@ -39,7 +39,7 @@ name: Republic Project *
 nav: Providers
 network: true
 overview: Republic Project * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Enterprise.
-random_paper: 58
+random_paper: 38
 score:
   band: minimal
   composite: 4.1

@@ -39,7 +39,7 @@ name: OmniML
 nav: Providers
 network: true
 overview: OmniML is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Ai.
-random_paper: 12
+random_paper: 4
 score:
   band: minimal
   composite: 4.1

@@ -67,7 +67,7 @@ overview: 'Haseel is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Haseel''s developer surface includes support and 5 more developer resources.'
-random_paper: 66
+random_paper: 59
 score:
   band: minimal
   composite: 5.9

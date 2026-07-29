@@ -56,7 +56,7 @@ name: ModelPartFinder Error Codes
 nav: Providers
 network: true
 overview: ModelPartFinder Error Codes publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Open Data and Public APIs.
-random_paper: 50
+random_paper: 16
 score:
   band: minimal
   composite: 6.5

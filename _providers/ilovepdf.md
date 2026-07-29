@@ -56,7 +56,7 @@ name: iLovePDF
 nav: Providers
 network: true
 overview: iLovePDF publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Documents And Productivity and Public APIs.
-random_paper: 57
+random_paper: 47
 score:
   band: minimal
   composite: 5.7

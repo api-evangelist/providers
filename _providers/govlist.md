@@ -48,7 +48,7 @@ name: Govlist
 nav: Providers
 network: true
 overview: Govlist is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, GovTech, Government, Procurement, and Public Sector.
-random_paper: 56
+random_paper: 47
 score:
   band: minimal
   composite: 4.3

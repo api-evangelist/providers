@@ -418,7 +418,7 @@ plans:
 - name: Microsoft Excel Plans Pricing
   plan_count: 5
   slug: microsoft-excel-plans-pricing
-random_paper: 36
+random_paper: 17
 rate_limits:
 - limit_count: 3
   name: Microsoft Excel Rate Limits

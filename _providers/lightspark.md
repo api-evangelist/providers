@@ -360,7 +360,7 @@ overview: 'Lightspark publishes 22 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Lightspark''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 34 more developer resources.'
-random_paper: 41
+random_paper: 28
 rules:
 - name: Lightspark API Rules
   rule_count: 13

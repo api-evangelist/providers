@@ -246,7 +246,7 @@ press:
 - date: '2026-05-25'
   title: How Amex exploits new AI tools
   url: https://www.paymentsdive.com/news/how-amex-exploits-new-ai-tools/816000/
-random_paper: 55
+random_paper: 35
 rate_limits:
 - limit_count: 1
   name: American Express Rate Limits

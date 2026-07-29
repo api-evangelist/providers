@@ -456,7 +456,7 @@ plans:
 - name: Amazon Devops Guru Plans Pricing
   plan_count: 3
   slug: amazon-devops-guru-plans-pricing
-random_paper: 4
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Amazon Devops Guru Rate Limits

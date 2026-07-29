@@ -67,7 +67,7 @@ overview: 'Powerup Money is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Powerup Money''s developer surface includes engineering blog, signup flow, support, and 3 more developer resources.'
-random_paper: 23
+random_paper: 6
 score:
   band: minimal
   composite: 10.1

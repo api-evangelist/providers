@@ -82,7 +82,7 @@ overview: 'Klara is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Klara''s developer surface includes support, engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 43
+random_paper: 37
 score:
   band: emerging
   composite: 21.8

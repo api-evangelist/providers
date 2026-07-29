@@ -190,7 +190,7 @@ overview: 'Transit publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Transit''s developer surface includes authentication, developer portal, documentation, engineering blog, tooling, and 26 more developer resources.'
-random_paper: 19
+random_paper: 5
 score:
   band: thin
   composite: 31.4

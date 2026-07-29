@@ -44,7 +44,7 @@ name: Marklo AI
 nav: Providers
 network: true
 overview: Marklo AI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Ai.
-random_paper: 13
+random_paper: 2
 score:
   band: minimal
   composite: 4.1

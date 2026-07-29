@@ -91,7 +91,7 @@ overview: 'Stratasys is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Stratasys'' developer surface includes SDKs, documentation, support, engineering blog, and 8 more developer resources.'
-random_paper: 46
+random_paper: 34
 score:
   band: emerging
   composite: 17.5

@@ -163,7 +163,7 @@ overview: 'SuperOps publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   SuperOps'' developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, authentication, and 20 more developer resources.'
-random_paper: 17
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: Superops Rate Limits

@@ -84,7 +84,7 @@ overview: 'Owletcare is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Owletcare''s developer surface includes engineering blog, support, signup flow, authentication, and 6 more developer resources.'
-random_paper: 6
+random_paper: 75
 scopes:
 - name: Owletcare Scopes
   scope_count: 4

@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: The Scotts Miracle-Gro Company Case Study
   url: https://cloud.google.com/customers/scotts-gcp
-random_paper: 63
+random_paper: 41
 score:
   band: minimal
   composite: 2.6

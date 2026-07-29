@@ -56,7 +56,7 @@ name: IP2Location
 nav: Providers
 network: true
 overview: IP2Location publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 4
+random_paper: 71
 score:
   band: minimal
   composite: 5.7

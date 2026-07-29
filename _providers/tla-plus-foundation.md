@@ -121,7 +121,7 @@ plans:
 - name: Tla Plus Foundation Plans Pricing
   plan_count: 3
   slug: tla-plus-foundation-plans-pricing
-random_paper: 22
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Tla Plus Foundation Rate Limits

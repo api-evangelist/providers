@@ -87,7 +87,7 @@ overview: 'Fizz is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Fizz''s developer surface includes engineering blog, support, and 9 more developer resources.'
-random_paper: 51
+random_paper: 46
 score:
   band: emerging
   composite: 13.0

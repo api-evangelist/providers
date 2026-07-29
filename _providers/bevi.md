@@ -71,7 +71,7 @@ overview: 'Bevi is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Bevi''s developer surface includes engineering blog, pricing, support, and 4 more developer resources.'
-random_paper: 22
+random_paper: 17
 score:
   band: minimal
   composite: 12.6

@@ -67,7 +67,7 @@ overview: 'VSORA is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   VSORA''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 75
+random_paper: 69
 score:
   band: minimal
   composite: 11.5

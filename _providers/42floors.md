@@ -39,7 +39,7 @@ name: 42Floors
 nav: Providers
 network: true
 overview: 42Floors is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commercial Real Estate, Real Estate, PropTech, and Marketplace.
-random_paper: 43
+random_paper: 34
 score:
   band: minimal
   composite: 5.0

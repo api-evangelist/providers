@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: SAIC
   url: https://www.govconwire.com/s/company/saic/page/770
-random_paper: 10
+random_paper: 2
 score:
   band: minimal
   composite: 4.1

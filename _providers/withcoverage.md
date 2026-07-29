@@ -60,7 +60,7 @@ name: Withcoverage
 nav: Providers
 network: true
 overview: Withcoverage is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurtech, Insurance, Risk Management, and Commercial Insurance.
-random_paper: 8
+random_paper: 73
 score:
   band: emerging
   composite: 13.2

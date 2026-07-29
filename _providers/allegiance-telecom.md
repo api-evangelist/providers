@@ -39,7 +39,7 @@ name: Allegiance Telecom
 nav: Providers
 network: true
 overview: Allegiance Telecom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, CLEC, Voice, and Networking.
-random_paper: 59
+random_paper: 37
 score:
   band: minimal
   composite: 4.3

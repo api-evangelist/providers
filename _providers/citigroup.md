@@ -207,7 +207,7 @@ press:
 - date: '2026-05-25'
   title: Citi eyes AI productivity gains as it consolidates data systems
   url: https://www.ciodive.com/news/citigroup-data-compliance-modernization-generative-ai/745683/
-random_paper: 22
+random_paper: 10
 rate_limits:
 - limit_count: 2
   name: Citigroup Rate Limits

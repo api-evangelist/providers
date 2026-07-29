@@ -104,7 +104,7 @@ plans:
 - name: Turbotenant Plans Pricing
   plan_count: 3
   slug: turbotenant-plans-pricing
-random_paper: 6
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Turbotenant Rate Limits

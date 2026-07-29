@@ -249,7 +249,7 @@ overview: 'Viator publishes 9 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Viator''s developer surface includes authentication, documentation, developer portal, support, engineering blog, API reference, getting-started guide, and 35 more developer resources.'
-random_paper: 21
+random_paper: 13
 rate_limits:
 - limit_count: 0
   name: Viator Rate Limits

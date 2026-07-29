@@ -200,7 +200,7 @@ plans:
 - name: Telefonie Plans Pricing
   plan_count: 1
   slug: telefonie-plans-pricing
-random_paper: 75
+random_paper: 64
 rate_limits:
 - limit_count: 1
   name: Telefonie Rate Limits

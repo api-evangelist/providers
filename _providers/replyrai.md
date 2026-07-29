@@ -48,7 +48,7 @@ name: Replyr.ai
 nav: Providers
 network: true
 overview: Replyr.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Chatbots, Conversational AI, and Customer Engagement.
-random_paper: 72
+random_paper: 62
 score:
   band: minimal
   composite: 5.0

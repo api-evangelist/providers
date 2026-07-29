@@ -113,7 +113,7 @@ name: Blank Rome LLP
 nav: Providers
 network: true
 overview: Blank Rome LLP publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Am Law 100, Corporate Law, Government Affairs, Government Contracts, and Intellectual Property.
-random_paper: 40
+random_paper: 28
 score:
   band: minimal
   composite: 5.9

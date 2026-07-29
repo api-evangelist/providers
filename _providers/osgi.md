@@ -63,7 +63,7 @@ overview: 'OSGi is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   OSGi''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 34
+random_paper: 29
 score:
   band: minimal
   composite: 7.4

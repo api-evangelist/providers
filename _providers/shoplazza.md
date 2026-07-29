@@ -259,7 +259,7 @@ overview: 'Shoplazza publishes 20 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Shoplazza''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, signup flow, and 27 more developer resources.'
-random_paper: 28
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Shoplazza Rate Limits

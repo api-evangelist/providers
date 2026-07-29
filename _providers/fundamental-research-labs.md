@@ -219,7 +219,7 @@ plans:
 - name: Fundamental Research Labs Plans
   plan_count: 4
   slug: fundamental-research-labs-plans
-random_paper: 40
+random_paper: 9
 rate_limits:
 - limit_count: 5
   name: Fundamental Research Labs Rate Limits

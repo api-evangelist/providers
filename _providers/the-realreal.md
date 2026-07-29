@@ -52,7 +52,7 @@ name: The RealReal
 nav: Providers
 network: true
 overview: The RealReal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, E-commerce, Marketplace, and Luxury.
-random_paper: 6
+random_paper: 72
 score:
   band: minimal
   composite: 6.1

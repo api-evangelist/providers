@@ -71,7 +71,7 @@ overview: 'Moment Energy is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Moment Energy''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 71
+random_paper: 55
 score:
   band: minimal
   composite: 5.8

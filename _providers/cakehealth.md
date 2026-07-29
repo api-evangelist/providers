@@ -48,7 +48,7 @@ name: CakeHealth
 nav: Providers
 network: true
 overview: CakeHealth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Health Insurance, Medical Billing, and Personal Finance.
-random_paper: 74
+random_paper: 62
 score:
   band: minimal
   composite: 4.3

@@ -67,7 +67,7 @@ overview: 'Flovision (formerly FloWaste) is profiled on the [APIs.io](https://ap
 
 
   Flovision (formerly FloWaste)''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 24
+random_paper: 70
 score:
   band: minimal
   composite: 11.0

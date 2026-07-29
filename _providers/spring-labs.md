@@ -63,7 +63,7 @@ overview: 'Spring Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Spring Labs'' developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 2
+random_paper: 69
 score:
   band: minimal
   composite: 10.9

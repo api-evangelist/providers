@@ -79,7 +79,7 @@ overview: 'Notco is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Notco''s developer surface includes support and 8 more developer resources.'
-random_paper: 67
+random_paper: 61
 score:
   band: minimal
   composite: 7.4

@@ -171,7 +171,7 @@ overview: 'Graphy publishes 1 API on the [APIs.io](https://apis.io/) network: Ag
 
 
   Graphy''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, sandbox, and 21 more developer resources.'
-random_paper: 11
+random_paper: 3
 score:
   band: developing
   composite: 52.6

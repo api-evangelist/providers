@@ -391,7 +391,7 @@ plans:
 - name: Google Quantum Ai Plans Pricing
   plan_count: 3
   slug: google-quantum-ai-plans-pricing
-random_paper: 28
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: Google Quantum Ai Rate Limits

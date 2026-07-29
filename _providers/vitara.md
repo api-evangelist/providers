@@ -52,7 +52,7 @@ name: Vitara
 nav: Providers
 network: true
 overview: Vitara is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Technology, Medical Device, Neonatal Care, and Healthcare.
-random_paper: 7
+random_paper: 80
 score:
   band: minimal
   composite: 7.9

@@ -99,7 +99,7 @@ overview: 'Disperse is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Disperse''s developer surface includes engineering blog, support, pricing, signup flow, and 10 more developer resources.'
-random_paper: 63
+random_paper: 53
 score:
   band: emerging
   composite: 21.6

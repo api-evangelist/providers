@@ -192,7 +192,7 @@ overview: 'CipherOwl publishes 3 APIs on the [APIs.io](https://apis.io/) network
 
 
   CipherOwl''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 13
+random_paper: 1
 score:
   band: strong
   composite: 57.5

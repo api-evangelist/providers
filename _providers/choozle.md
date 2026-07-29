@@ -125,7 +125,7 @@ overview: 'Choozle publishes 3 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Choozle''s developer surface includes authentication, documentation, engineering blog, and 8 more developer resources.'
-random_paper: 36
+random_paper: 27
 rules:
 - name: Choozle API Rules
   rule_count: 5

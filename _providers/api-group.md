@@ -52,7 +52,7 @@ name: APi Group
 nav: Providers
 network: true
 overview: APi Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 500, Safety Services, Industrial Services, Specialty Services, and Contracting.
-random_paper: 36
+random_paper: 25
 score:
   band: minimal
   composite: 4.4

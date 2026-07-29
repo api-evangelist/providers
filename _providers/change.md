@@ -87,7 +87,7 @@ overview: 'Change.org is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Change.org''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 54
+random_paper: 47
 score:
   band: emerging
   composite: 13.7

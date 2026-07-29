@@ -80,7 +80,7 @@ plans:
 - name: Theranest Plans Pricing
   plan_count: 5
   slug: theranest-plans-pricing
-random_paper: 14
+random_paper: 2
 score:
   band: emerging
   composite: 13.6

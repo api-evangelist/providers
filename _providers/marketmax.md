@@ -39,7 +39,7 @@ name: MarketMAX
 nav: Providers
 network: true
 overview: MarketMAX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 10
+random_paper: 79
 score:
   band: minimal
   composite: 3.2

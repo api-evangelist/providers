@@ -83,7 +83,7 @@ overview: 'Rivia is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Rivia''s developer surface includes pricing, engineering blog, and 8 more developer resources.'
-random_paper: 59
+random_paper: 53
 score:
   band: emerging
   composite: 16.3

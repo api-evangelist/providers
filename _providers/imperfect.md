@@ -71,7 +71,7 @@ overview: 'Imperfect is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Imperfect''s developer surface includes engineering blog, signup flow, support, and 4 more developer resources.'
-random_paper: 79
+random_paper: 68
 score:
   band: emerging
   composite: 13.8

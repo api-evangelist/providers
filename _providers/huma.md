@@ -141,7 +141,7 @@ overview: 'Huma publishes 1 API on the [APIs.io](https://apis.io/) network: Inte
 
 
   Huma''s developer surface includes authentication, documentation, getting-started guide, signup flow, API reference, and 17 more developer resources.'
-random_paper: 27
+random_paper: 22
 score:
   band: thin
   composite: 40.3

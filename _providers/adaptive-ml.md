@@ -202,7 +202,7 @@ overview: 'Adaptive ML publishes 9 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Adaptive ML''s developer surface includes documentation, API reference, getting-started guide, engineering blog, signup flow, support, authentication, and 21 more developer resources.'
-random_paper: 68
+random_paper: 55
 score:
   band: developing
   composite: 45.7

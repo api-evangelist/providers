@@ -63,7 +63,7 @@ overview: 'Khmer Home is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Khmer Home''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 45
+random_paper: 33
 score:
   band: minimal
   composite: 7.5

@@ -67,7 +67,7 @@ overview: 'Acerta Analytics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Acerta Analytics'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 37
+random_paper: 17
 score:
   band: minimal
   composite: 8.4

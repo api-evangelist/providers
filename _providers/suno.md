@@ -115,7 +115,7 @@ plans:
 - name: Suno Plans Pricing
   plan_count: 2
   slug: suno-plans-pricing
-random_paper: 53
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Suno Rate Limits

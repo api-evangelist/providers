@@ -39,7 +39,7 @@ name: Park Hotels &amp; Resorts
 nav: Providers
 network: true
 overview: Park Hotels &amp; Resorts is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 73
+random_paper: 45
 score:
   band: minimal
   composite: 2.6

@@ -367,7 +367,7 @@ plans:
 - name: Wufoo Plans Pricing
   plan_count: 5
   slug: wufoo-plans-pricing
-random_paper: 0
+random_paper: 74
 rate_limits:
 - limit_count: 0
   name: Wufoo Rate Limits

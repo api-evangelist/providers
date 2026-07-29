@@ -119,7 +119,7 @@ plans:
 - name: Nexo Plans Pricing
   plan_count: 4
   slug: nexo-plans-pricing
-random_paper: 42
+random_paper: 37
 rate_limits:
 - limit_count: 0
   name: Nexo Rate Limits

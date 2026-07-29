@@ -83,7 +83,7 @@ overview: 'Makani * is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Makani *''s developer surface includes documentation and 9 more developer resources.'
-random_paper: 65
+random_paper: 58
 score:
   band: minimal
   composite: 10.6

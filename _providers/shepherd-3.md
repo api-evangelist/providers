@@ -63,7 +63,7 @@ overview: 'Shepherd 3 is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Shepherd 3''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 67
+random_paper: 56
 score:
   band: minimal
   composite: 6.7

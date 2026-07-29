@@ -52,7 +52,7 @@ name: RedNote (Xiaohongshu)
 nav: Providers
 network: true
 overview: RedNote (Xiaohongshu) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Technology, Social Media, E-Commerce, and Content.
-random_paper: 75
+random_paper: 51
 score:
   band: minimal
   composite: 6.7

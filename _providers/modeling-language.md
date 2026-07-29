@@ -44,7 +44,7 @@ name: Modeling Language
 nav: Providers
 network: true
 overview: Modeling Language is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Modeling Language, System Design, UML, SysML, and Architecture.
-random_paper: 48
+random_paper: 27
 score:
   band: minimal
   composite: 6.3

@@ -191,7 +191,7 @@ plans:
 - name: Payu Plans Pricing
   plan_count: 3
   slug: payu-plans-pricing
-random_paper: 47
+random_paper: 42
 rate_limits:
 - limit_count: 0
   name: Payu Rate Limits

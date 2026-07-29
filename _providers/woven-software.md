@@ -39,7 +39,7 @@ name: Woven Software
 nav: Providers
 network: true
 overview: Woven Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Calendar, Scheduling, Productivity, and Acquired.
-random_paper: 39
+random_paper: 21
 score:
   band: minimal
   composite: 5.0

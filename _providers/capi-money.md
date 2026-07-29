@@ -71,7 +71,7 @@ overview: 'Capi Money is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Capi Money''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 50
+random_paper: 38
 score:
   band: emerging
   composite: 13.3

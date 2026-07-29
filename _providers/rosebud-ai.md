@@ -75,7 +75,7 @@ overview: 'Rosebud AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Rosebud AI''s developer surface includes engineering blog, pricing, support, and 5 more developer resources.'
-random_paper: 43
+random_paper: 31
 score:
   band: minimal
   composite: 12.6

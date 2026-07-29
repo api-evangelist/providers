@@ -162,7 +162,7 @@ overview: 'Fyndiq publishes 2 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   Fyndiq''s developer surface includes documentation, API reference, support, authentication, sandbox, and 19 more developer resources.'
-random_paper: 11
+random_paper: 3
 score:
   band: thin
   composite: 39.4

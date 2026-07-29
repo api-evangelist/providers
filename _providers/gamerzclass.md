@@ -44,7 +44,7 @@ name: GamerzClass
 nav: Providers
 network: true
 overview: GamerzClass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Esports, Gaming, Coaching, and Education.
-random_paper: 60
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

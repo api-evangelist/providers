@@ -163,7 +163,7 @@ overview: 'Frame Payments publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Frame Payments'' developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, CLI, and 20 more developer resources.'
-random_paper: 9
+random_paper: 72
 score:
   band: developing
   composite: 49.8

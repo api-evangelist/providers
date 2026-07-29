@@ -48,7 +48,7 @@ name: Mint
 nav: Providers
 network: true
 overview: Mint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Personal Finance, Budgeting, and Money Management.
-random_paper: 40
+random_paper: 35
 score:
   band: minimal
   composite: 5.0

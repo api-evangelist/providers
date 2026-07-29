@@ -48,7 +48,7 @@ name: Mainframe
 nav: Providers
 network: true
 overview: Mainframe is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DeFi, Blockchain, Web3, and NFT.
-random_paper: 64
+random_paper: 53
 score:
   band: minimal
   composite: 5.0

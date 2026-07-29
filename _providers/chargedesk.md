@@ -182,7 +182,7 @@ plans:
 - name: Chargedesk Plans Pricing
   plan_count: 4
   slug: chargedesk-plans-pricing
-random_paper: 1
+random_paper: 69
 rate_limits:
 - limit_count: 0
   name: Chargedesk Rate Limits

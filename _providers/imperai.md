@@ -80,7 +80,7 @@ overview: 'Imper.AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Imper.AI''s developer surface includes documentation, engineering blog, support, and 6 more developer resources.'
-random_paper: 23
+random_paper: 14
 score:
   band: emerging
   composite: 14.1

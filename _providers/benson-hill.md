@@ -67,7 +67,7 @@ overview: 'Benson Hill * is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Benson Hill *''s developer surface includes support and 5 more developer resources.'
-random_paper: 75
+random_paper: 62
 score:
   band: minimal
   composite: 10.1

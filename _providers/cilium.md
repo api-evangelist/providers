@@ -201,7 +201,7 @@ plans:
 - name: Cilium Plans Pricing
   plan_count: 2
   slug: cilium-plans-pricing
-random_paper: 3
+random_paper: 76
 rate_limits:
 - limit_count: 3
   name: Cilium Rate Limits

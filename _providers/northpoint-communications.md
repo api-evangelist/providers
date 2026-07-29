@@ -48,7 +48,7 @@ name: Northpoint Communications
 nav: Providers
 network: true
 overview: Northpoint Communications is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Hardware.
-random_paper: 27
+random_paper: 75
 score:
   band: minimal
   composite: 4.1

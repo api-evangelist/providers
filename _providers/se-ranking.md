@@ -181,7 +181,7 @@ plans:
 - name: Se Ranking Plans Pricing
   plan_count: 6
   slug: se-ranking-plans-pricing
-random_paper: 47
+random_paper: 35
 rate_limits:
 - limit_count: 6
   name: Se Ranking Rate Limits

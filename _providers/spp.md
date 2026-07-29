@@ -187,7 +187,7 @@ overview: 'Southwest Power Pool publishes 1 API on the [APIs.io](https://apis.io
 
 
   Southwest Power Pool''s developer surface includes authentication, sandbox, code examples, developer portal, documentation, getting-started guide, signup flow, and 21 more developer resources.'
-random_paper: 19
+random_paper: 15
 rate_limits:
 - limit_count: 0
   name: Spp Rate Limits

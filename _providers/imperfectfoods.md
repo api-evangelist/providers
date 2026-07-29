@@ -75,7 +75,7 @@ overview: 'Imperfect Foods is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Imperfect Foods'' developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 58
+random_paper: 40
 score:
   band: emerging
   composite: 13.1

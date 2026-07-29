@@ -87,7 +87,7 @@ overview: 'hubs is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   hubs'' developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 34
+random_paper: 29
 score:
   band: emerging
   composite: 19.5

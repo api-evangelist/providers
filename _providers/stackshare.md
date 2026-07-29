@@ -139,7 +139,7 @@ plans:
 - name: Stackshare Plans Pricing
   plan_count: 3
   slug: stackshare-plans-pricing
-random_paper: 25
+random_paper: 12
 rate_limits:
 - limit_count: 5
   name: Stackshare Rate Limits

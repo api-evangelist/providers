@@ -111,7 +111,7 @@ overview: 'EventX is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   EventX''s developer surface includes documentation, support, engineering blog, pricing, and 12 more developer resources.'
-random_paper: 33
+random_paper: 21
 score:
   band: emerging
   composite: 24.8

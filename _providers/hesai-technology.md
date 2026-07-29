@@ -87,7 +87,7 @@ overview: 'Hesai Technology is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Hesai Technology''s developer surface includes support, engineering blog, and 9 more developer resources.'
-random_paper: 51
+random_paper: 31
 score:
   band: minimal
   composite: 12.9

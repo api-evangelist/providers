@@ -167,7 +167,7 @@ press:
 - date: '2026-05-25'
   title: 2023 ANNUAL REPORT
   url: https://investors.sysco.com/~/media/Files/S/Sysco-IR/documents/annual-reports/Sysco_2023-Annual-Report_Web.pdf
-random_paper: 1
+random_paper: 75
 rate_limits:
 - limit_count: 1
   name: Sysco Rate Limits

@@ -76,7 +76,7 @@ plans:
 - name: Conduent Plans Pricing
   plan_count: 1
   slug: conduent-plans-pricing
-random_paper: 64
+random_paper: 54
 rate_limits:
 - limit_count: 1
   name: Conduent Rate Limits

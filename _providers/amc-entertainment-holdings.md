@@ -216,7 +216,7 @@ plans:
 - name: Amc Entertainment Holdings Plans Pricing
   plan_count: 1
   slug: amc-entertainment-holdings-plans-pricing
-random_paper: 17
+random_paper: 65
 rate_limits:
 - limit_count: 2
   name: Amc Entertainment Holdings Rate Limits

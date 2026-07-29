@@ -120,7 +120,7 @@ overview: 'Akridata publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Akridata''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, signup flow, CLI, and 11 more developer resources.'
-random_paper: 33
+random_paper: 23
 score:
   band: thin
   composite: 29.0

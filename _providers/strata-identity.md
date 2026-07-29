@@ -149,7 +149,7 @@ overview: 'Strata Identity publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Strata Identity''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, changelog, authentication, and 18 more developer resources.'
-random_paper: 54
+random_paper: 35
 score:
   band: thin
   composite: 35.5

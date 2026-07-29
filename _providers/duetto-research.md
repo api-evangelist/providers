@@ -80,7 +80,7 @@ overview: 'Duetto Research is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Duetto Research''s developer surface includes support, engineering blog, signup flow, and 6 more developer resources.'
-random_paper: 31
+random_paper: 12
 score:
   band: emerging
   composite: 14.9

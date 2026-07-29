@@ -59,7 +59,7 @@ overview: 'Rollup AI publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Rollup AI''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 37
+random_paper: 26
 score:
   band: minimal
   composite: 7.3

@@ -188,7 +188,7 @@ overview: 'Bynder publishes 20 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Bynder''s developer surface includes authentication, engineering blog, documentation, API reference, pricing, support, and 12 more developer resources.'
-random_paper: 4
+random_paper: 77
 scopes:
 - name: Bynder Scopes
   scope_count: 7

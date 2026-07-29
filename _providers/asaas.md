@@ -225,7 +225,7 @@ overview: 'Asaas publishes 20 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Asaas'' developer surface includes signup flow, documentation, API reference, getting-started guide, authentication, sandbox, changelog, and 15 more developer resources.'
-random_paper: 41
+random_paper: 35
 score:
   band: emerging
   composite: 27.9

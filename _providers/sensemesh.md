@@ -52,7 +52,7 @@ name: Sensemesh
 nav: Providers
 network: true
 overview: Sensemesh is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Physical Security, Sensor Fusion, Computer Vision, and Drones.
-random_paper: 11
+random_paper: 80
 score:
   band: minimal
   composite: 9.2

@@ -48,7 +48,7 @@ name: PleasrDAO
 nav: Providers
 network: true
 overview: PleasrDAO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DAO, Web3, NFT, and Digital Art.
-random_paper: 75
+random_paper: 64
 score:
   band: minimal
   composite: 5.0

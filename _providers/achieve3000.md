@@ -48,7 +48,7 @@ name: Achieve3000
 nav: Providers
 network: true
 overview: Achieve3000 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Literacy, and Reading.
-random_paper: 40
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

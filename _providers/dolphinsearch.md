@@ -39,7 +39,7 @@ name: DolphinSearch
 nav: Providers
 network: true
 overview: DolphinSearch is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, eDiscovery, Compliance, Legal, and Information Governance.
-random_paper: 20
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

@@ -48,7 +48,7 @@ name: Friendly Data
 nav: Providers
 network: true
 overview: Friendly Data is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 36
+random_paper: 20
 score:
   band: minimal
   composite: 3.2

@@ -1415,7 +1415,7 @@ plans:
 - name: Oracle E Business Suite Plans Pricing
   plan_count: 4
   slug: oracle-e-business-suite-plans-pricing
-random_paper: 56
+random_paper: 28
 rate_limits:
 - limit_count: 3
   name: Oracle E Business Suite Rate Limits

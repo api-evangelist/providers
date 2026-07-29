@@ -92,7 +92,7 @@ overview: 'Cars24 is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Cars24''s developer surface includes engineering blog, support, and 10 more developer resources.'
-random_paper: 47
+random_paper: 41
 score:
   band: emerging
   composite: 13.7

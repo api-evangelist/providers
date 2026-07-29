@@ -255,7 +255,7 @@ overview: 'Inspectorio publishes 25 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Inspectorio''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 24 more developer resources.'
-random_paper: 79
+random_paper: 65
 score:
   band: developing
   composite: 55.3

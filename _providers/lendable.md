@@ -95,7 +95,7 @@ overview: 'Lendable is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Lendable''s developer surface includes support and 12 more developer resources.'
-random_paper: 23
+random_paper: 13
 score:
   band: emerging
   composite: 16.6

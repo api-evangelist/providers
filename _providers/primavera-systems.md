@@ -39,7 +39,7 @@ name: Primavera Systems
 nav: Providers
 network: true
 overview: Primavera Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Project Management, Project Portfolio Management, Construction, and Engineering.
-random_paper: 44
+random_paper: 22
 score:
   band: minimal
   composite: 5.0

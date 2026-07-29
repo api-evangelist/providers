@@ -68,7 +68,7 @@ overview: 'Zivtech is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Zivtech''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 45
+random_paper: 36
 score:
   band: minimal
   composite: 6.2

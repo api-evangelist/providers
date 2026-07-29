@@ -209,7 +209,7 @@ plans:
 - name: Agricultural Statistics Service Plans Pricing
   plan_count: 3
   slug: agricultural-statistics-service-plans-pricing
-random_paper: 37
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Agricultural Statistics Service Rate Limits

@@ -147,7 +147,7 @@ plans:
 - name: Clarivate Plans Pricing
   plan_count: 3
   slug: clarivate-plans-pricing
-random_paper: 75
+random_paper: 64
 rate_limits:
 - limit_count: 5
   name: Clarivate Rate Limits

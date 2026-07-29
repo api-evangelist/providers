@@ -48,7 +48,7 @@ name: Magna
 nav: Providers
 network: true
 overview: Magna is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Beverage, Health, and Wellness.
-random_paper: 36
+random_paper: 30
 score:
   band: minimal
   composite: 5.4

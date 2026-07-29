@@ -188,7 +188,7 @@ plans:
 - name: Opencart Plans Pricing
   plan_count: 2
   slug: opencart-plans-pricing
-random_paper: 60
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Opencart Rate Limits

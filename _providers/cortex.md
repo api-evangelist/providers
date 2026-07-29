@@ -161,7 +161,7 @@ plans:
 - name: Cortex Plans Pricing
   plan_count: 3
   slug: cortex-plans-pricing
-random_paper: 21
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Cortex Rate Limits

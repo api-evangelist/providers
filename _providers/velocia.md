@@ -79,7 +79,7 @@ overview: 'Velocia is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Velocia''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 19
+random_paper: 10
 score:
   band: emerging
   composite: 13.1

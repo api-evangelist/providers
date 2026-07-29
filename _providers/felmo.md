@@ -88,7 +88,7 @@ overview: 'Felmo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Felmo''s developer surface includes support and 10 more developer resources.'
-random_paper: 51
+random_paper: 45
 score:
   band: minimal
   composite: 10.1

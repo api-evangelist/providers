@@ -75,7 +75,7 @@ overview: 'Vennre is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Vennre''s developer surface includes signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 14
+random_paper: 6
 score:
   band: emerging
   composite: 14.7

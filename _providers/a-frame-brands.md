@@ -60,7 +60,7 @@ name: A-Frame Brands
 nav: Providers
 network: true
 overview: A-Frame Brands is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Consumer Packaged Goods, Beauty, and Personal Care.
-random_paper: 64
+random_paper: 48
 score:
   band: minimal
   composite: 7.1

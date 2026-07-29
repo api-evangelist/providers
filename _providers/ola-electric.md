@@ -48,7 +48,7 @@ name: Ola Electric
 nav: Providers
 network: true
 overview: Ola Electric is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Transportation, Electric Vehicles, Automotive, and Energy.
-random_paper: 4
+random_paper: 70
 score:
   band: minimal
   composite: 5.5

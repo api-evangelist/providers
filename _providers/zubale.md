@@ -107,7 +107,7 @@ overview: 'Zubale publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Zubale''s developer surface includes authentication and 5 more developer resources.'
-random_paper: 3
+random_paper: 76
 scopes:
 - name: Zubale Scopes
   scope_count: 0

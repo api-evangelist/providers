@@ -48,7 +48,7 @@ name: Nvp
 nav: Providers
 network: true
 overview: Nvp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Finance, Investment, and Norwest Venture Partners.
-random_paper: 20
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

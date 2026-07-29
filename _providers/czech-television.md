@@ -60,7 +60,7 @@ name: Czech Television
 nav: Providers
 network: true
 overview: Czech Television publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Video and Public APIs.
-random_paper: 60
+random_paper: 40
 score:
   band: minimal
   composite: 5.7

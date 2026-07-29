@@ -120,7 +120,7 @@ overview: 'HOLY publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   HOLY''s developer surface includes support, authentication, and 15 more developer resources.'
-random_paper: 44
+random_paper: 39
 scopes:
 - name: Holy Scopes
   scope_count: 4

@@ -48,7 +48,7 @@ name: Oblenio Bio
 nav: Providers
 network: true
 overview: Oblenio Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Immunotherapy, and Autoimmune.
-random_paper: 63
+random_paper: 50
 score:
   band: minimal
   composite: 5.4

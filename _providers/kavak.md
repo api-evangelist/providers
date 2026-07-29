@@ -108,7 +108,7 @@ overview: 'Kavak is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kavak''s developer surface includes engineering blog, YouTube channel, and 14 more developer resources.'
-random_paper: 46
+random_paper: 40
 score:
   band: minimal
   composite: 5.4

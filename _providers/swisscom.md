@@ -269,7 +269,7 @@ overview: 'Swisscom publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Swisscom''s developer surface includes CLI, changelog, sandbox, API reference, getting-started guide, support, engineering blog, and 37 more developer resources.'
-random_paper: 8
+random_paper: 78
 scopes:
 - name: Swisscom Scopes
   scope_count: 3

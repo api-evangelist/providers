@@ -126,7 +126,7 @@ overview: 'Pipefy publishes 1 API on the [APIs.io](https://apis.io/) network: Gr
 
 
   Pipefy''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 10 more developer resources.'
-random_paper: 13
+random_paper: 5
 score:
   band: thin
   composite: 34.0

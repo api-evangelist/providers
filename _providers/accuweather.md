@@ -729,7 +729,7 @@ plans:
 - name: Accuweather Plans Pricing
   plan_count: 3
   slug: accuweather-plans-pricing
-random_paper: 44
+random_paper: 30
 rate_limits:
 - limit_count: 5
   name: Accuweather Rate Limits

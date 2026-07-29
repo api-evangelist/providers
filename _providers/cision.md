@@ -116,7 +116,7 @@ plans:
 - name: Cision Plans Pricing
   plan_count: 5
   slug: cision-plans-pricing
-random_paper: 5
+random_paper: 78
 rate_limits:
 - limit_count: 2
   name: Cision Rate Limits

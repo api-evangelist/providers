@@ -96,7 +96,7 @@ press:
 - date: '2026-05-25'
   title: Voya celebrates success of 24/7 chatbot and emerging ...
   url: https://www.voya.com/news/2022/11/voya-celebrates-success-247-chatbot-and-emerging-artificial-intelligence-capabilities
-random_paper: 65
+random_paper: 48
 rules:
 - name: Voya Financial API Rules
   rule_count: 5

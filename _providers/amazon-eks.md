@@ -467,7 +467,7 @@ plans:
 - name: Amazon Eks Plans Pricing
   plan_count: 1
   slug: amazon-eks-plans-pricing
-random_paper: 54
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Amazon Eks Rate Limits

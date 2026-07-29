@@ -48,7 +48,7 @@ name: WebsitePros
 nav: Providers
 network: true
 overview: WebsitePros is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Website Builder, Web Hosting, Domains, and Small Business.
-random_paper: 7
+random_paper: 73
 score:
   band: minimal
   composite: 5.0

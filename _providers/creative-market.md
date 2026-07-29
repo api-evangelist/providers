@@ -75,7 +75,7 @@ overview: 'Creative Market is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Creative Market''s developer surface includes support, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 20
+random_paper: 1
 score:
   band: emerging
   composite: 13.1

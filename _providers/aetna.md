@@ -146,7 +146,7 @@ press:
 - date: '2026-05-25'
   title: Aetna Launches New AI and Digital Tools to Improve ...
   url: https://www.cvshealth.com/news/innovation/aetna-launches-new-ai-and-digital-tools-to-improve-access-and-care.html
-random_paper: 41
+random_paper: 35
 rate_limits:
 - limit_count: 5
   name: Aetna Rate Limits

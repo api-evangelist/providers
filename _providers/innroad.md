@@ -68,7 +68,7 @@ plans:
 - name: Innroad Plans Pricing
   plan_count: 3
   slug: innroad-plans-pricing
-random_paper: 27
+random_paper: 18
 score:
   band: minimal
   composite: 11.8

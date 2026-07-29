@@ -67,7 +67,7 @@ overview: 'Fibraweb, S.p.a. is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Fibraweb, S.p.a.''s developer surface includes support and 5 more developer resources.'
-random_paper: 3
+random_paper: 69
 score:
   band: emerging
   composite: 13.6

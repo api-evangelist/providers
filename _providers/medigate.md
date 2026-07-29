@@ -88,7 +88,7 @@ overview: 'Medigate publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Medigate''s developer surface includes API reference, authentication, and 8 more developer resources.'
-random_paper: 32
+random_paper: 22
 score:
   band: emerging
   composite: 20.4

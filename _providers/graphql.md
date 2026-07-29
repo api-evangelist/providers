@@ -112,7 +112,7 @@ overview: 'GraphQL is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   GraphQL''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, and 7 more developer resources.'
-random_paper: 31
+random_paper: 22
 rules:
 - name: GraphQL API Rules
   rule_count: 6

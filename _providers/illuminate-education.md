@@ -75,7 +75,7 @@ overview: 'Illuminate Education is profiled on the [APIs.io](https://apis.io/) n
 
 
   Illuminate Education''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 77
+random_paper: 52
 score:
   band: emerging
   composite: 13.3

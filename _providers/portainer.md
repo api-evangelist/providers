@@ -217,7 +217,7 @@ plans:
 - name: Portainer Plans Pricing
   plan_count: 3
   slug: portainer-plans-pricing
-random_paper: 20
+random_paper: 8
 rate_limits:
 - limit_count: 5
   name: Portainer Rate Limits

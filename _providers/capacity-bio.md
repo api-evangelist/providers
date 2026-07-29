@@ -44,7 +44,7 @@ name: Capacity Bio
 nav: Providers
 network: true
 overview: Capacity Bio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech Therapeutics, Mitophagy, Mitochondrial Biology, and Drug Development.
-random_paper: 5
+random_paper: 71
 score:
   band: minimal
   composite: 5.0

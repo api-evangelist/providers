@@ -132,7 +132,7 @@ overview: 'Minimus is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Minimus'' developer surface includes documentation, getting-started guide, support, engineering blog, pricing, signup flow, CLI, and 15 more developer resources.'
-random_paper: 50
+random_paper: 41
 score:
   band: thin
   composite: 30.9

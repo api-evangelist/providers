@@ -100,7 +100,7 @@ press:
 - date: '2026-05-25'
   title: 'Lennar: Statement on Land-Light Strategy'
   url: https://www.prnewswire.com/news-releases/lennar-statement-on-land-light-strategy-302728846.html
-random_paper: 0
+random_paper: 73
 rate_limits:
 - limit_count: 1
   name: Lennar Rate Limits

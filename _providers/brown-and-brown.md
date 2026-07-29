@@ -44,7 +44,7 @@ name: Brown AND Brown
 nav: Providers
 network: true
 overview: Brown AND Brown is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 61
+random_paper: 43
 score:
   band: minimal
   composite: 2.6

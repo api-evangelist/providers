@@ -207,7 +207,7 @@ plans:
 - name: Cloudflare R2 Plans Pricing
   plan_count: 3
   slug: cloudflare-r2-plans-pricing
-random_paper: 66
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Cloudflare R2 Rate Limits

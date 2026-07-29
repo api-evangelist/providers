@@ -56,7 +56,7 @@ name: Phisherman
 nav: Providers
 network: true
 overview: Phisherman publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anti Malware and Public APIs.
-random_paper: 31
+random_paper: 18
 score:
   band: minimal
   composite: 5.7

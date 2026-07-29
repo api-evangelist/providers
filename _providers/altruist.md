@@ -167,7 +167,7 @@ overview: 'Altruist publishes 2 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Altruist''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, support, and 21 more developer resources.'
-random_paper: 8
+random_paper: 78
 scopes:
 - name: Altruist Scopes
   scope_count: 1

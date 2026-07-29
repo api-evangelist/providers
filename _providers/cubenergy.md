@@ -67,7 +67,7 @@ overview: 'Cubenergy is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cubenergy''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 4
+random_paper: 73
 score:
   band: minimal
   composite: 8.4

@@ -79,7 +79,7 @@ overview: 'Tasso is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Tasso''s developer surface includes support and 8 more developer resources.'
-random_paper: 74
+random_paper: 68
 score:
   band: emerging
   composite: 14.1

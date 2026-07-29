@@ -87,7 +87,7 @@ overview: 'Thinglink is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Thinglink''s developer surface includes engineering blog, support, pricing, signup flow, and 7 more developer resources.'
-random_paper: 8
+random_paper: 77
 score:
   band: emerging
   composite: 18.4

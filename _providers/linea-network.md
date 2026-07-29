@@ -167,7 +167,7 @@ plans:
 - name: Linea Network Plans Pricing
   plan_count: 1
   slug: linea-network-plans-pricing
-random_paper: 64
+random_paper: 48
 rate_limits:
 - limit_count: 2
   name: Linea Network Rate Limits

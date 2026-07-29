@@ -65,7 +65,7 @@ plans:
 - name: Potlatch Plans Pricing
   plan_count: 1
   slug: potlatch-plans-pricing
-random_paper: 63
+random_paper: 53
 rate_limits:
 - limit_count: 1
   name: Potlatch Rate Limits

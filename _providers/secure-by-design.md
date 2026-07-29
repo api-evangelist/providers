@@ -44,7 +44,7 @@ name: Secure-By-Design
 nav: Providers
 network: true
 overview: Secure-By-Design is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Architecture, Best Practices, Cybersecurity, Design Principles, and Security.
-random_paper: 70
+random_paper: 51
 score:
   band: minimal
   composite: 5.9

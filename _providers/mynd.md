@@ -48,7 +48,7 @@ name: Mynd
 nav: Providers
 network: true
 overview: Mynd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Property Management, Real Estate, Single-Family Rental, and Proptech.
-random_paper: 40
+random_paper: 35
 score:
   band: minimal
   composite: 5.0

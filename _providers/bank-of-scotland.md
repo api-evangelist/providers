@@ -124,7 +124,7 @@ overview: 'Bank of Scotland publishes 4 APIs on the [APIs.io](https://apis.io/) 
 
 
   Bank of Scotland''s developer surface includes authentication, sandbox, documentation, and 15 more developer resources.'
-random_paper: 51
+random_paper: 32
 scopes:
 - name: Bank Of Scotland Scopes
   scope_count: 3

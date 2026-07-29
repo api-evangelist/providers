@@ -518,7 +518,7 @@ plans:
 - name: Acronis Plans Pricing
   plan_count: 4
   slug: acronis-plans-pricing
-random_paper: 31
+random_paper: 22
 rate_limits:
 - limit_count: 1
   name: Acronis Rate Limits

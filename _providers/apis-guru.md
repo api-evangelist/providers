@@ -218,7 +218,7 @@ plans:
 - name: Apis Guru Plans Pricing
   plan_count: 3
   slug: apis-guru-plans-pricing
-random_paper: 45
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Apis Guru Rate Limits

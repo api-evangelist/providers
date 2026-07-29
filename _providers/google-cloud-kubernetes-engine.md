@@ -163,7 +163,7 @@ plans:
 - name: Google Cloud Kubernetes Engine Plans Pricing
   plan_count: 3
   slug: google-cloud-kubernetes-engine-plans-pricing
-random_paper: 57
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Google Cloud Kubernetes Engine Rate Limits

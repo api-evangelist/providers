@@ -178,7 +178,7 @@ plans:
 - name: Beamable Plans Pricing
   plan_count: 5
   slug: beamable-plans-pricing
-random_paper: 9
+random_paper: 80
 rate_limits:
 - limit_count: 0
   name: Beamable Rate Limits

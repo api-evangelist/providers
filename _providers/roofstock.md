@@ -87,7 +87,7 @@ overview: 'Roofstock is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Roofstock''s developer surface includes getting-started guide, engineering blog, signup flow, support, and 7 more developer resources.'
-random_paper: 26
+random_paper: 14
 score:
   band: emerging
   composite: 16.0

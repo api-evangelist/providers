@@ -703,7 +703,7 @@ plans:
 - name: Aws Lambda Plans Pricing
   plan_count: 7
   slug: aws-lambda-plans-pricing
-random_paper: 25
+random_paper: 13
 rate_limits:
 - limit_count: 13
   name: Aws Lambda Rate Limits

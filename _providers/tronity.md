@@ -127,7 +127,7 @@ plans:
 - name: Tronity Plans Pricing
   plan_count: 5
   slug: tronity-plans-pricing
-random_paper: 73
+random_paper: 64
 rate_limits:
 - limit_count: 4
   name: Tronity Rate Limits

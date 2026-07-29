@@ -152,7 +152,7 @@ overview: 'Hi Health publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Hi Health''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 19 more developer resources.'
-random_paper: 4
+random_paper: 74
 score:
   band: thin
   composite: 39.7

@@ -122,7 +122,7 @@ plans:
 - name: Spark Hire Plans Pricing
   plan_count: 4
   slug: spark-hire-plans-pricing
-random_paper: 54
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Spark Hire Rate Limits

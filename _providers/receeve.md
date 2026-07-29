@@ -193,7 +193,7 @@ overview: 'Receeve publishes 14 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Receeve''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, and 17 more developer resources.'
-random_paper: 15
+random_paper: 6
 score:
   band: thin
   composite: 39.7

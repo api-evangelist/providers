@@ -174,7 +174,7 @@ plans:
 - name: Qliksense Plans Pricing
   plan_count: 3
   slug: qliksense-plans-pricing
-random_paper: 15
+random_paper: 3
 rate_limits:
 - limit_count: 5
   name: Qliksense Rate Limits

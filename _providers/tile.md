@@ -64,7 +64,7 @@ name: Tile
 nav: Providers
 network: true
 overview: Tile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Consumer Electronics, Bluetooth, and Tracking.
-random_paper: 30
+random_paper: 25
 score:
   band: minimal
   composite: 7.5

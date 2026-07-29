@@ -91,7 +91,7 @@ press:
 - date: '2026-05-25'
   title: Pernod Ricard Confirms Discussions With Brown-Forman
   url: https://aijourn.com/pernod-ricard-confirms-discussions-with-brown-forman/
-random_paper: 40
+random_paper: 25
 score:
   band: minimal
   composite: 10.3

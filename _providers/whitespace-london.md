@@ -197,7 +197,7 @@ overview: 'Whitespace publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Whitespace''s developer surface includes authentication, documentation, API reference, support, engineering blog, CLI, changelog, and 28 more developer resources.'
-random_paper: 4
+random_paper: 63
 score:
   band: developing
   composite: 46.9

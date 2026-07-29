@@ -114,7 +114,7 @@ plans:
 - name: Htmlcsstoimage Plans Pricing
   plan_count: 12
   slug: htmlcsstoimage-plans-pricing
-random_paper: 68
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Htmlcsstoimage Rate Limits

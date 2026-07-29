@@ -44,7 +44,7 @@ name: Tellgen
 nav: Providers
 network: true
 overview: Tellgen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, In Vitro Diagnostics, IVD, Medical Devices, and Diagnostics.
-random_paper: 27
+random_paper: 18
 score:
   band: minimal
   composite: 4.3

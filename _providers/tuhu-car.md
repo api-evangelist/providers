@@ -48,7 +48,7 @@ name: Tuhu Car
 nav: Providers
 network: true
 overview: Tuhu Car is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Automotive, Car Maintenance, and Aftermarket Services.
-random_paper: 9
+random_paper: 80
 score:
   band: minimal
   composite: 5.0

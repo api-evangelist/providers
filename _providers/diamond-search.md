@@ -112,7 +112,7 @@ plans:
 - name: Diamond Search Plans Pricing
   plan_count: 4
   slug: diamond-search-plans-pricing
-random_paper: 47
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: Diamond Search Rate Limits

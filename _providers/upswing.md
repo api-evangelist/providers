@@ -96,7 +96,7 @@ overview: 'Upswing is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Upswing''s developer surface includes engineering blog, authentication, support, and 10 more developer resources.'
-random_paper: 61
+random_paper: 52
 score:
   band: emerging
   composite: 13.1

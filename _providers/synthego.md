@@ -143,7 +143,7 @@ overview: 'Synthego publishes 1 API on the [APIs.io](https://apis.io/) network: 
 
 
   Synthego''s developer surface includes documentation, API reference, engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 1
+random_paper: 71
 score:
   band: thin
   composite: 32.7

@@ -52,7 +52,7 @@ name: medxtmc
 nav: Providers
 network: true
 overview: medxtmc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Precision Medicine, Companion Diagnostics, Molecular Diagnostics, and Biomarkers.
-random_paper: 34
+random_paper: 25
 score:
   band: minimal
   composite: 5.4

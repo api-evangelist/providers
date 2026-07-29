@@ -110,7 +110,7 @@ plans:
 - name: Starrocks Plans Pricing
   plan_count: 3
   slug: starrocks-plans-pricing
-random_paper: 28
+random_paper: 16
 rate_limits:
 - limit_count: 5
   name: Starrocks Rate Limits

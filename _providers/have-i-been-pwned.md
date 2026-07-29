@@ -156,7 +156,7 @@ overview: 'Have I Been Pwned publishes 14 APIs on the [APIs.io](https://apis.io/
 
 
   Have I Been Pwned''s developer surface includes authentication, documentation, pricing, signup flow, FAQ, engineering blog, and 7 more developer resources.'
-random_paper: 12
+random_paper: 73
 score:
   band: thin
   composite: 28.1

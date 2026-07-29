@@ -79,7 +79,7 @@ overview: 'Brit + Co is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Brit + Co''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 48
+random_paper: 40
 score:
   band: minimal
   composite: 12.4

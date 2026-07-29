@@ -99,7 +99,7 @@ press:
 - date: '2026-05-25'
   title: Par Pacific Holdings, Inc. (PARR) Q1 2026 Earnings Call ...
   url: https://seekingalpha.com/article/4899394-par-pacific-holdings-inc-parr-q1-2026-earnings-call-transcript
-random_paper: 47
+random_paper: 34
 score:
   band: minimal
   composite: 5.5

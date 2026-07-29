@@ -88,7 +88,7 @@ overview: 'Amperos Health is profiled on the [APIs.io](https://apis.io/) network
 
 
   Amperos Health''s developer surface includes engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 74
+random_paper: 57
 score:
   band: emerging
   composite: 14.2

@@ -68,7 +68,7 @@ name: Thermondo
 nav: Providers
 network: true
 overview: Thermondo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer; Climate Energy, Heat Pumps, Solar, and Home Energy.
-random_paper: 16
+random_paper: 4
 score:
   band: minimal
   composite: 8.2

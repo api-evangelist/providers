@@ -306,7 +306,7 @@ overview: 'Cube publishes 42 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Cube''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 24 more developer resources.'
-random_paper: 10
+random_paper: 75
 scopes:
 - name: Cubesoftware Scopes
   scope_count: 3

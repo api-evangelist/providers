@@ -48,7 +48,7 @@ name: refresh
 nav: Providers
 network: true
 overview: refresh is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Marketing, Marketing Agency, Branding, and Slovenia.
-random_paper: 31
+random_paper: 22
 score:
   band: minimal
   composite: 5.0

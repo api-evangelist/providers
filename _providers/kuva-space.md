@@ -141,7 +141,7 @@ overview: 'Kuva Space is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Kuva Space''s developer surface includes GitHub presence, YouTube channel, and 22 more developer resources.'
-random_paper: 48
+random_paper: 36
 score:
   band: minimal
   composite: 5.7

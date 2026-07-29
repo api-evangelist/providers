@@ -52,7 +52,7 @@ name: Office of Government Ethics
 nav: Providers
 network: true
 overview: Office of Government Ethics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Federal Government, Ethics, and Oversight.
-random_paper: 61
+random_paper: 28
 score:
   band: minimal
   composite: 4.1

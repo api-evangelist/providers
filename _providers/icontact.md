@@ -83,7 +83,7 @@ overview: 'iContact publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   iContact''s developer surface includes documentation, pricing, signup flow, engineering blog, and 5 more developer resources.'
-random_paper: 53
+random_paper: 43
 score:
   band: minimal
   composite: 11.8

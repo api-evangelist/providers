@@ -119,7 +119,7 @@ plans:
 - name: Shippit Plans Pricing
   plan_count: 3
   slug: shippit-plans-pricing
-random_paper: 49
+random_paper: 40
 rate_limits:
 - limit_count: 1
   name: Shippit Rate Limits

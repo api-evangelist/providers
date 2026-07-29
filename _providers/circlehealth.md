@@ -48,7 +48,7 @@ name: Circle Health Group
 nav: Providers
 network: true
 overview: Circle Health Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Private Hospitals, Medical, and Health Services.
-random_paper: 56
+random_paper: 41
 score:
   band: minimal
   composite: 5.4

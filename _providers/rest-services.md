@@ -72,7 +72,7 @@ overview: 'REST Services is profiled on the [APIs.io](https://apis.io/) network.
 
 
   The REST Services catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 79
+random_paper: 63
 score:
   band: minimal
   composite: 12.0

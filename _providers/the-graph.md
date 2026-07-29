@@ -131,7 +131,7 @@ plans:
 - name: The Graph Plans Pricing
   plan_count: 3
   slug: the-graph-plans-pricing
-random_paper: 16
+random_paper: 5
 rate_limits:
 - limit_count: 2
   name: The Graph Rate Limits

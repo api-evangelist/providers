@@ -87,7 +87,7 @@ plans:
 - name: Oracle Health Data Intelligence Plans Pricing
   plan_count: 3
   slug: oracle-health-data-intelligence-plans-pricing
-random_paper: 32
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Oracle Health Data Intelligence Rate Limits

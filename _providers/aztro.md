@@ -56,7 +56,7 @@ name: aztro
 nav: Providers
 network: true
 overview: aztro publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Social and Public APIs.
-random_paper: 0
+random_paper: 74
 score:
   band: minimal
   composite: 5.7

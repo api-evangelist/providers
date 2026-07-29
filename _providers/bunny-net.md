@@ -210,7 +210,7 @@ plans:
 - name: Bunny Net Plans Pricing
   plan_count: 1
   slug: bunny-net-plans-pricing
-random_paper: 48
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: Bunny Net Rate Limits

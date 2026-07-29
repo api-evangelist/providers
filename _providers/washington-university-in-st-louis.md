@@ -103,7 +103,7 @@ plans:
 - name: Washington University In St Louis Plans Pricing
   plan_count: 2
   slug: washington-university-in-st-louis-plans-pricing
-random_paper: 34
+random_paper: 73
 rate_limits:
 - limit_count: 1
   name: Washington University In St Louis Rate Limits

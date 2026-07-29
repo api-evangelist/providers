@@ -56,7 +56,7 @@ name: Tout
 nav: Providers
 network: true
 overview: Tout is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Sales Engagement, Email Tracking, and Marketing.
-random_paper: 60
+random_paper: 55
 score:
   band: minimal
   composite: 6.9

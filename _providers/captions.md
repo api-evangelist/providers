@@ -190,7 +190,7 @@ plans:
 - name: Captions Plans
   plan_count: 5
   slug: captions-plans
-random_paper: 65
+random_paper: 55
 score:
   band: developing
   composite: 51.7

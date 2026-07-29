@@ -67,7 +67,7 @@ overview: 'Enjoei is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Enjoei''s developer surface includes support, pricing, and 4 more developer resources.'
-random_paper: 74
+random_paper: 67
 score:
   band: minimal
   composite: 12.2

@@ -48,7 +48,7 @@ name: Votizen
 nav: Providers
 network: true
 overview: Votizen is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Civic Technology, Voting, Politics, and Social Network.
-random_paper: 63
+random_paper: 54
 score:
   band: minimal
   composite: 5.0

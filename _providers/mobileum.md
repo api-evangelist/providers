@@ -75,7 +75,7 @@ overview: 'Mobileum is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Mobileum''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 58
+random_paper: 48
 score:
   band: emerging
   composite: 13.5

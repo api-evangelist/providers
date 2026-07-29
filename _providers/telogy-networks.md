@@ -39,7 +39,7 @@ name: Telogy Networks
 nav: Providers
 network: true
 overview: Telogy Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Voice over IP, VoIP, and Media Gateway.
-random_paper: 78
+random_paper: 59
 score:
   band: minimal
   composite: 4.3

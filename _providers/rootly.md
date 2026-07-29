@@ -130,7 +130,7 @@ plans:
 - name: Rootly Plans Pricing
   plan_count: 3
   slug: rootly-plans-pricing
-random_paper: 41
+random_paper: 33
 rate_limits:
 - limit_count: 5
   name: Rootly Rate Limits

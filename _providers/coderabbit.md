@@ -122,7 +122,7 @@ plans:
 - name: Coderabbit Plans Pricing
   plan_count: 4
   slug: coderabbit-plans-pricing
-random_paper: 79
+random_paper: 67
 rate_limits:
 - limit_count: 4
   name: Coderabbit Rate Limits

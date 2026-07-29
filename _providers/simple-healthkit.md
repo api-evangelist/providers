@@ -56,7 +56,7 @@ name: Simple HealthKit
 nav: Providers
 network: true
 overview: Simple HealthKit is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Healthcare.
-random_paper: 53
+random_paper: 33
 score:
   band: minimal
   composite: 8.2

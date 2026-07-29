@@ -154,7 +154,7 @@ plans:
 - name: Missive Plans Pricing
   plan_count: 3
   slug: missive-plans-pricing
-random_paper: 48
+random_paper: 39
 rate_limits:
 - limit_count: 0
   name: Missive Rate Limits

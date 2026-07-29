@@ -169,7 +169,7 @@ overview: 'Logik.io publishes 11 APIs on the [APIs.io](https://apis.io/) network
 
 
   Logik.io''s developer surface includes documentation, API reference, authentication, sandbox, and 15 more developer resources.'
-random_paper: 30
+random_paper: 21
 score:
   band: thin
   composite: 35.7

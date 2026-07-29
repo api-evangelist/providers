@@ -207,7 +207,7 @@ overview: 'Yokoy publishes 22 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Yokoy''s developer surface includes documentation, API reference, getting-started guide, support, changelog, authentication, and 17 more developer resources.'
-random_paper: 11
+random_paper: 4
 scopes:
 - name: Yokoy Scopes
   scope_count: 0

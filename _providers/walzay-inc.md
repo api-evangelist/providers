@@ -52,7 +52,7 @@ name: Walzay Inc.
 nav: Providers
 network: true
 overview: Walzay Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Recruitment, Talent, Hiring, and Marketplace.
-random_paper: 63
+random_paper: 51
 score:
   band: minimal
   composite: 5.0

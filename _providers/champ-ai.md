@@ -84,7 +84,7 @@ overview: 'Champ Ai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Champ Ai''s developer surface includes engineering blog, pricing, and 8 more developer resources.'
-random_paper: 48
+random_paper: 39
 score:
   band: emerging
   composite: 18.5

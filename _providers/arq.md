@@ -75,7 +75,7 @@ overview: 'Arq is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Arq''s developer surface includes support, engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 4
+random_paper: 0
 score:
   band: emerging
   composite: 13.8

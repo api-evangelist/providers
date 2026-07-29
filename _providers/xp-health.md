@@ -64,7 +64,7 @@ name: XP Health
 nav: Providers
 network: true
 overview: XP Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthtech, Vision Benefits, Employee Benefits, and Eyewear.
-random_paper: 27
+random_paper: 16
 score:
   band: emerging
   composite: 14.8

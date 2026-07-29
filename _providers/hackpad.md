@@ -56,7 +56,7 @@ name: Hackpad
 nav: Providers
 network: true
 overview: Hackpad is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Collaboration, Documents, Wiki, and Real-Time Editing.
-random_paper: 76
+random_paper: 68
 score:
   band: minimal
   composite: 5.7

@@ -68,7 +68,7 @@ overview: 'CAMP4 Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   CAMP4 Therapeutics'' developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
-random_paper: 69
+random_paper: 64
 score:
   band: minimal
   composite: 7.6

@@ -119,7 +119,7 @@ plans:
 - name: Eclinicalworks Plans Pricing
   plan_count: 4
   slug: eclinicalworks-plans-pricing
-random_paper: 58
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Eclinicalworks Rate Limits

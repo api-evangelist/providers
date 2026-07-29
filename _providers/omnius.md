@@ -67,7 +67,7 @@ overview: 'Omnius is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Omnius'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 27
+random_paper: 19
 score:
   band: minimal
   composite: 12.1

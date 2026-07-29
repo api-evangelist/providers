@@ -140,7 +140,7 @@ plans:
 - name: Microsoft Power Platform Plans Pricing
   plan_count: 3
   slug: microsoft-power-platform-plans-pricing
-random_paper: 18
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Microsoft Power Platform Rate Limits

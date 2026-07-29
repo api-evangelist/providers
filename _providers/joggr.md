@@ -76,7 +76,7 @@ plans:
 - name: Joggr Plans Pricing
   plan_count: 3
   slug: joggr-plans-pricing
-random_paper: 57
+random_paper: 51
 rate_limits:
 - limit_count: 5
   name: Joggr Rate Limits

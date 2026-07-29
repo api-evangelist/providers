@@ -111,7 +111,7 @@ overview: 'Hone is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Hone''s developer surface includes documentation, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 26
+random_paper: 21
 score:
   band: emerging
   composite: 23.6

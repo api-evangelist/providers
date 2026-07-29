@@ -144,7 +144,7 @@ overview: 'Opsera publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Opsera''s developer surface includes documentation, getting-started guide, API reference, authentication, changelog, engineering blog, pricing, and 16 more developer resources.'
-random_paper: 10
+random_paper: 2
 scopes:
 - name: Opsera Scopes
   scope_count: 2

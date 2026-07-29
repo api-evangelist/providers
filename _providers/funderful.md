@@ -44,7 +44,7 @@ name: Funderful
 nav: Providers
 network: true
 overview: Funderful is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fundraising, Higher Education, Alumni, and Nonprofit.
-random_paper: 11
+random_paper: 80
 score:
   band: minimal
   composite: 5.0

@@ -67,7 +67,7 @@ overview: 'Turing Labs is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Turing Labs'' developer surface includes support and 5 more developer resources.'
-random_paper: 25
+random_paper: 17
 score:
   band: minimal
   composite: 12.7

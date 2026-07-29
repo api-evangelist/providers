@@ -44,7 +44,7 @@ name: Truebill
 nav: Providers
 network: true
 overview: Truebill is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Payments.
-random_paper: 67
+random_paper: 57
 score:
   band: minimal
   composite: 3.5

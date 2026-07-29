@@ -127,7 +127,7 @@ plans:
 - name: Tabby Ml Plans Pricing
   plan_count: 4
   slug: tabby-ml-plans-pricing
-random_paper: 72
+random_paper: 63
 rate_limits:
 - limit_count: 4
   name: Tabby Ml Rate Limits

@@ -103,7 +103,7 @@ overview: 'Pecan is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Pecan''s developer surface includes documentation, engineering blog, getting-started guide, pricing, and 11 more developer resources.'
-random_paper: 39
+random_paper: 33
 score:
   band: emerging
   composite: 25.2

@@ -207,7 +207,7 @@ plans:
 - name: Restream Plans Pricing
   plan_count: 5
   slug: restream-plans-pricing
-random_paper: 67
+random_paper: 57
 rate_limits:
 - limit_count: 2
   name: Restream Rate Limits

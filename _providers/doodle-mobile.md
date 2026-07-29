@@ -48,7 +48,7 @@ name: Doodle Mobile
 nav: Providers
 network: true
 overview: Doodle Mobile is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile Games, Gaming, Android, and Game Publishing.
-random_paper: 28
+random_paper: 12
 score:
   band: minimal
   composite: 5.0

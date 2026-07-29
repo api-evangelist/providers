@@ -76,7 +76,7 @@ plans:
 - name: Fusebit Plans Pricing
   plan_count: 3
   slug: fusebit-plans-pricing
-random_paper: 34
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: Fusebit Rate Limits

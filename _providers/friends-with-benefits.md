@@ -48,7 +48,7 @@ name: Friends with Benefits
 nav: Providers
 network: true
 overview: Friends with Benefits is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, DAO, Web3, Social, and Community.
-random_paper: 49
+random_paper: 23
 score:
   band: minimal
   composite: 5.0

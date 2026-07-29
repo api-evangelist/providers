@@ -80,7 +80,7 @@ plans:
 - name: Opendata Gov Me Plans Pricing
   plan_count: 1
   slug: opendata-gov-me-plans-pricing
-random_paper: 36
+random_paper: 18
 rate_limits:
 - limit_count: 1
   name: Opendata Gov Me Rate Limits

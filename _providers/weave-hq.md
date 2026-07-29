@@ -141,7 +141,7 @@ plans:
 - name: Weave Hq Plans Pricing
   plan_count: 4
   slug: weave-hq-plans-pricing
-random_paper: 78
+random_paper: 69
 rate_limits:
 - limit_count: 4
   name: Weave Hq Rate Limits

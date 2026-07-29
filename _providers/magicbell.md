@@ -279,7 +279,7 @@ plans:
 - name: Magicbell Plans Pricing
   plan_count: 3
   slug: magicbell-plans-pricing
-random_paper: 48
+random_paper: 37
 rate_limits:
 - limit_count: 4
   name: Magicbell Rate Limits

@@ -151,7 +151,7 @@ plans:
 - name: Google Earth Engine Plans Pricing
   plan_count: 3
   slug: google-earth-engine-plans-pricing
-random_paper: 49
+random_paper: 26
 rate_limits:
 - limit_count: 5
   name: Google Earth Engine Rate Limits

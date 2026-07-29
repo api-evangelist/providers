@@ -52,7 +52,7 @@ name: Caterwings
 nav: Providers
 network: true
 overview: Caterwings is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Marketplace, Catering, and Food Delivery.
-random_paper: 39
+random_paper: 26
 score:
   band: minimal
   composite: 6.1

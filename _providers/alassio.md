@@ -52,7 +52,7 @@ name: Alassio
 nav: Providers
 network: true
 overview: Alassio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Payroll, Human Resources, and HR Tech.
-random_paper: 28
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

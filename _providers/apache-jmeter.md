@@ -195,7 +195,7 @@ plans:
 - name: Apache Jmeter Plans Pricing
   plan_count: 3
   slug: apache-jmeter-plans-pricing
-random_paper: 22
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Apache Jmeter Rate Limits

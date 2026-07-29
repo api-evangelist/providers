@@ -87,7 +87,7 @@ overview: 'Chronicled is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Chronicled''s developer surface includes engineering blog, pricing, signup flow, support, and 7 more developer resources.'
-random_paper: 11
+random_paper: 79
 score:
   band: emerging
   composite: 20.7

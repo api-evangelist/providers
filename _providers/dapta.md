@@ -131,7 +131,7 @@ overview: 'Dapta is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Dapta''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 12 more developer resources.'
-random_paper: 42
+random_paper: 36
 score:
   band: thin
   composite: 41.5

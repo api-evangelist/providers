@@ -99,7 +99,7 @@ overview: 'Ellipsis Labs is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Ellipsis Labs'' developer surface includes documentation, CLI, and 12 more developer resources.'
-random_paper: 52
+random_paper: 36
 score:
   band: emerging
   composite: 14.8

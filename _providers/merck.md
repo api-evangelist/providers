@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: News releases
   url: https://www.merck.com/media/news/
-random_paper: 50
+random_paper: 44
 score:
   band: minimal
   composite: 5.2

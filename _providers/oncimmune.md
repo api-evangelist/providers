@@ -59,7 +59,7 @@ overview: 'Oncimmune is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Oncimmune''s developer surface includes support and 3 more developer resources.'
-random_paper: 11
+random_paper: 80
 score:
   band: minimal
   composite: 10.1

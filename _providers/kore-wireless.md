@@ -250,7 +250,7 @@ overview: 'KORE Wireless publishes 8 APIs on the [APIs.io](https://apis.io/) net
 
 
   KORE Wireless'' developer surface includes authentication, documentation, API reference, developer console, signup flow, engineering blog, product news, and 36 more developer resources.'
-random_paper: 76
+random_paper: 60
 scopes:
 - name: Kore Wireless Scopes
   scope_count: 0

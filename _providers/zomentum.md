@@ -128,7 +128,7 @@ overview: 'Zomentum publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Zomentum''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 13 more developer resources.'
-random_paper: 15
+random_paper: 4
 score:
   band: thin
   composite: 31.8

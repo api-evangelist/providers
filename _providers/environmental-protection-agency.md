@@ -111,7 +111,7 @@ plans:
 - name: Environmental Protection Agency Plans Pricing
   plan_count: 3
   slug: environmental-protection-agency-plans-pricing
-random_paper: 26
+random_paper: 67
 rate_limits:
 - limit_count: 5
   name: Environmental Protection Agency Rate Limits

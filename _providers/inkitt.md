@@ -52,7 +52,7 @@ name: Inkitt
 nav: Providers
 network: true
 overview: Inkitt is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Storytelling, Self Publishing, Fiction, and Reading Apps.
-random_paper: 19
+random_paper: 11
 score:
   band: minimal
   composite: 5.7

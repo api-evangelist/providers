@@ -993,7 +993,7 @@ plans:
 - name: Microsoft Azure Api Management Plans Pricing
   plan_count: 8
   slug: microsoft-azure-api-management-plans-pricing
-random_paper: 75
+random_paper: 38
 rate_limits:
 - limit_count: 4
   name: Microsoft Azure Api Management Rate Limits

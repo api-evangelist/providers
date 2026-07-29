@@ -79,7 +79,7 @@ overview: 'Digbi Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Digbi Health''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 66
+random_paper: 52
 score:
   band: emerging
   composite: 15.4

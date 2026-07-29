@@ -119,7 +119,7 @@ overview: 'Elementor is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Elementor''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 12 more developer resources.'
-random_paper: 11
+random_paper: 80
 score:
   band: thin
   composite: 28.4

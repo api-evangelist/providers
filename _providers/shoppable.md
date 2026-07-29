@@ -162,7 +162,7 @@ overview: 'Shoppable publishes 6 APIs on the [APIs.io](https://apis.io/) network
 
 
   Shoppable''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 15 more developer resources.'
-random_paper: 78
+random_paper: 67
 score:
   band: developing
   composite: 48.0

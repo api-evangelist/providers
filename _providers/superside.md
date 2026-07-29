@@ -83,7 +83,7 @@ overview: 'Superside is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Superside''s developer surface includes pricing, support, engineering blog, and 7 more developer resources.'
-random_paper: 20
+random_paper: 8
 score:
   band: emerging
   composite: 19.1

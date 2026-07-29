@@ -56,7 +56,7 @@ name: Seeqc
 nav: Providers
 network: true
 overview: Seeqc is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Quantum Computing, Superconducting, Semiconductors, and Deep Tech.
-random_paper: 49
+random_paper: 43
 score:
   band: minimal
   composite: 9.2

@@ -246,7 +246,7 @@ plans:
 - name: Unicef Data Plans Pricing
   plan_count: 3
   slug: unicef-data-plans-pricing
-random_paper: 49
+random_paper: 36
 rate_limits:
 - limit_count: 0
   name: Unicef Data Rate Limits

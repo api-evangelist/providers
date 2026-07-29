@@ -131,7 +131,7 @@ press:
 - date: '2026-05-25'
   title: Sycamore Partners Completes Acquisition of Chico's FAS, ...
   url: https://www.prnewswire.com/news-releases/sycamore-partners-completes-acquisition-of-chicos-fas-inc-302027189.html
-random_paper: 32
+random_paper: 20
 score:
   band: minimal
   composite: 9.2

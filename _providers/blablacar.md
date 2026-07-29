@@ -67,7 +67,7 @@ overview: 'BlaBlaCar publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   BlaBlaCar''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 36
+random_paper: 25
 score:
   band: minimal
   composite: 6.2

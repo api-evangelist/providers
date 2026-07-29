@@ -112,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: Swift Transportation
   url: https://www.facebook.com/DriveSwift/posts/we-are-thrilled-to-announce-swift-transportations-partnership-with-netradyneat-k/1082165473940179/
-random_paper: 66
+random_paper: 40
 rate_limits:
 - limit_count: 5
   name: Swift Transportation Rate Limits

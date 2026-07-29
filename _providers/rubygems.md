@@ -174,7 +174,7 @@ plans:
 - name: Rubygems Plans Pricing
   plan_count: 1
   slug: rubygems-plans-pricing
-random_paper: 78
+random_paper: 68
 rate_limits:
 - limit_count: 6
   name: Rubygems Rate Limits

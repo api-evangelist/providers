@@ -67,7 +67,7 @@ overview: 'Grove is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Grove''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 67
+random_paper: 61
 score:
   band: minimal
   composite: 12.3

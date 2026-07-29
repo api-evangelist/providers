@@ -63,7 +63,7 @@ overview: 'Orchestra Bio is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Orchestra Bio''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 50
+random_paper: 34
 score:
   band: minimal
   composite: 8.7

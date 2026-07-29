@@ -104,7 +104,7 @@ plans:
 - name: Crane Worldwide Plans Pricing
   plan_count: 3
   slug: crane-worldwide-plans-pricing
-random_paper: 23
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Crane Worldwide Rate Limits

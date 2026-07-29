@@ -111,7 +111,7 @@ overview: 'Panoply is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Panoply''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, engineering blog, changelog, and 10 more developer resources.'
-random_paper: 51
+random_paper: 42
 score:
   band: thin
   composite: 29.8

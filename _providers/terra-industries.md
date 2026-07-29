@@ -52,7 +52,7 @@ name: Terra Industries
 nav: Providers
 network: true
 overview: Terra Industries is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defense, Defense Technology, Autonomous Systems, and Drones.
-random_paper: 5
+random_paper: 65
 score:
   band: minimal
   composite: 5.0

@@ -116,7 +116,7 @@ overview: 'Data.gov publishes 4 APIs on the [APIs.io](https://apis.io/) network.
 
 
   Data.gov''s developer surface includes GitHub presence, developer portal, documentation, engineering blog, privacy policy, and 10 more developer resources.'
-random_paper: 67
+random_paper: 58
 score:
   band: emerging
   composite: 19.0

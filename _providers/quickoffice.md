@@ -39,7 +39,7 @@ name: Quickoffice
 nav: Providers
 network: true
 overview: Quickoffice is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Productivity, Office Suite, Documents, and Spreadsheets.
-random_paper: 41
+random_paper: 27
 score:
   band: minimal
   composite: 5.0

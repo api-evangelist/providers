@@ -60,7 +60,7 @@ name: 01 Advisors
 nav: Providers
 network: true
 overview: 01 Advisors is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Venture Capital, Venture Firm, Investor, and Startups.
-random_paper: 57
+random_paper: 45
 score:
   band: minimal
   composite: 5.0

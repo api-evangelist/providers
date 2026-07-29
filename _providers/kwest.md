@@ -57,7 +57,7 @@ name: Kwest
 nav: Providers
 network: true
 overview: Kwest is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Acquired, Climate Tech, Renewable Energy, and Solar.
-random_paper: 78
+random_paper: 72
 score:
   band: minimal
   composite: 5.7

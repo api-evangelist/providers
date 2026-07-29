@@ -140,7 +140,7 @@ overview: 'Chain publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Chain''s developer surface includes documentation, API reference, getting-started guide, authentication, sandbox, engineering blog, support, and 16 more developer resources.'
-random_paper: 35
+random_paper: 29
 score:
   band: thin
   composite: 33.9

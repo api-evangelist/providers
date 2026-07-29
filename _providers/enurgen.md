@@ -71,7 +71,7 @@ overview: 'Enurgen is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Enurgen''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 36
+random_paper: 27
 score:
   band: emerging
   composite: 14.0

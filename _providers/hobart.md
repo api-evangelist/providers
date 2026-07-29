@@ -65,7 +65,7 @@ plans:
 - name: Hobart Plans Pricing
   plan_count: 3
   slug: hobart-plans-pricing
-random_paper: 0
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Hobart Rate Limits

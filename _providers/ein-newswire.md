@@ -91,7 +91,7 @@ overview: 'EIN Newswire is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   EIN Newswire''s developer surface includes pricing, FAQ, engineering blog, and 9 more developer resources.'
-random_paper: 45
+random_paper: 30
 score:
   band: minimal
   composite: 7.8

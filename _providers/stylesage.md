@@ -48,7 +48,7 @@ name: StyleSage
 nav: Providers
 network: true
 overview: StyleSage is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Fashion, Market Intelligence, and Analytics.
-random_paper: 17
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

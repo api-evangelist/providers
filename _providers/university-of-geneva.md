@@ -163,7 +163,7 @@ plans:
 - name: University Of Geneva Plans Pricing
   plan_count: 2
   slug: university-of-geneva-plans-pricing
-random_paper: 55
+random_paper: 30
 rate_limits:
 - limit_count: 1
   name: University Of Geneva Rate Limits

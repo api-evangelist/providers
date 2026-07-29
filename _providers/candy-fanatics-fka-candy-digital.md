@@ -79,7 +79,7 @@ overview: 'Candy Fanatics (fka Candy Digital) is profiled on the [APIs.io](https
 
 
   Candy Fanatics (fka Candy Digital)''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 75
+random_paper: 37
 score:
   band: emerging
   composite: 13.8

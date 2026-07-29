@@ -446,7 +446,7 @@ plans:
 - name: Microsoft Quantum Plans Pricing
   plan_count: 9
   slug: microsoft-quantum-plans-pricing
-random_paper: 46
+random_paper: 24
 rate_limits:
 - limit_count: 8
   name: Microsoft Quantum Rate Limits

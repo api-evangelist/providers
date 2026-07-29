@@ -52,7 +52,7 @@ name: CityMall
 nav: Providers
 network: true
 overview: CityMall is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, E-Commerce, Social Commerce, and Retail.
-random_paper: 63
+random_paper: 53
 score:
   band: minimal
   composite: 7.1

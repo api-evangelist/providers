@@ -79,7 +79,7 @@ overview: 'Atari is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Atari''s developer surface includes documentation, support, engineering blog, and 6 more developer resources.'
-random_paper: 49
+random_paper: 43
 score:
   band: emerging
   composite: 14.1

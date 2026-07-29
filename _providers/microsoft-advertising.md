@@ -114,7 +114,7 @@ plans:
 - name: Microsoft Advertising Plans Pricing
   plan_count: 3
   slug: microsoft-advertising-plans-pricing
-random_paper: 51
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Microsoft Advertising Rate Limits

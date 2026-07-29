@@ -143,7 +143,7 @@ overview: 'Poynt publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Poynt''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 17 more developer resources.'
-random_paper: 10
+random_paper: 3
 score:
   band: thin
   composite: 38.3

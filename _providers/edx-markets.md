@@ -128,7 +128,7 @@ overview: 'EDX Markets publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   EDX Markets'' developer surface includes documentation, API reference, support, engineering blog, signup flow, pricing, authentication, and 13 more developer resources.'
-random_paper: 5
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Edx Markets Rate Limits

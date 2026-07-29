@@ -44,7 +44,7 @@ name: relateIQ
 nav: Providers
 network: true
 overview: relateIQ is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Collaboration.
-random_paper: 55
+random_paper: 45
 score:
   band: minimal
   composite: 4.1

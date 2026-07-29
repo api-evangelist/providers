@@ -48,7 +48,7 @@ name: Strella Biotechnology
 nav: Providers
 network: true
 overview: Strella Biotechnology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Agriculture, AgTech, and Supply Chain.
-random_paper: 42
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

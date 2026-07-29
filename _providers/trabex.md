@@ -131,7 +131,7 @@ plans:
 - name: Trabex Plans Pricing
   plan_count: 3
   slug: trabex-plans-pricing
-random_paper: 6
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Trabex Rate Limits

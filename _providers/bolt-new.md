@@ -161,7 +161,7 @@ plans:
 - name: Bolt New Plans Pricing
   plan_count: 4
   slug: bolt-new-plans-pricing
-random_paper: 8
+random_paper: 79
 rate_limits:
 - limit_count: 2
   name: Bolt New Rate Limits

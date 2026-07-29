@@ -79,7 +79,7 @@ overview: 'Asserts.ai is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Asserts.ai''s developer surface includes documentation, engineering blog, and 7 more developer resources.'
-random_paper: 15
+random_paper: 3
 score:
   band: emerging
   composite: 13.9

@@ -148,7 +148,7 @@ plans:
 - name: Completedns Plans Pricing
   plan_count: 3
   slug: completedns-plans-pricing
-random_paper: 62
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Completedns Rate Limits

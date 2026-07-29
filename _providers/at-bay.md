@@ -229,7 +229,7 @@ plans:
 - name: At Bay Plans Pricing
   plan_count: 4
   slug: at-bay-plans-pricing
-random_paper: 14
+random_paper: 7
 rate_limits:
 - limit_count: 0
   name: At Bay Rate Limits

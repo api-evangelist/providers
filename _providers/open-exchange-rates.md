@@ -196,7 +196,7 @@ plans:
 - name: Open Exchange Rates Plans Pricing
   plan_count: 5
   slug: open-exchange-rates-plans-pricing
-random_paper: 62
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Open Exchange Rates Rate Limits

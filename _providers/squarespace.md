@@ -196,7 +196,7 @@ plans:
 - name: Squarespace Plans Pricing
   plan_count: 1
   slug: squarespace-plans-pricing
-random_paper: 61
+random_paper: 47
 rate_limits:
 - limit_count: 3
   name: Squarespace Rate Limits

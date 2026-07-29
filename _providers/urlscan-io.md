@@ -67,7 +67,7 @@ overview: 'URLScan.io publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   URLScan.io''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 61
+random_paper: 49
 score:
   band: minimal
   composite: 6.2

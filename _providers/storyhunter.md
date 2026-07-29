@@ -83,7 +83,7 @@ overview: 'Glimmer (formerly Storyhunter) is profiled on the [APIs.io](https://a
 
 
   Glimmer (formerly Storyhunter)''s developer surface includes getting-started guide, signup flow, support, engineering blog, pricing, and 5 more developer resources.'
-random_paper: 39
+random_paper: 24
 score:
   band: emerging
   composite: 18.1

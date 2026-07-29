@@ -96,7 +96,7 @@ press:
 - date: '2025-12-05'
   title: Constellation Reaches Resolution with U.S. Department of Justice for Calpine Transaction
   url: https://www.calpine.com/constellation-reaches-resolution-with-u-s-department-of-justice-for-calpine-transaction/
-random_paper: 12
+random_paper: 3
 score:
   band: minimal
   composite: 5.8

@@ -170,7 +170,7 @@ plans:
 - name: Geotab Plans Pricing
   plan_count: 2
   slug: geotab-plans-pricing
-random_paper: 66
+random_paper: 59
 rate_limits:
 - limit_count: 0
   name: Geotab Rate Limits

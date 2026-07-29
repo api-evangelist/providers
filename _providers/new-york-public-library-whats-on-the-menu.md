@@ -133,7 +133,7 @@ plans:
 - name: New York Public Library Whats On The Menu Plans Pricing
   plan_count: 3
   slug: new-york-public-library-whats-on-the-menu-plans-pricing
-random_paper: 24
+random_paper: 55
 rate_limits:
 - limit_count: 5
   name: New York Public Library Whats On The Menu Rate Limits

@@ -132,7 +132,7 @@ plans:
 - name: Axonius Plans Pricing
   plan_count: 3
   slug: axonius-plans-pricing
-random_paper: 55
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Axonius Rate Limits

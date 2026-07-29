@@ -122,7 +122,7 @@ plans:
 - name: Detect Language Plans Pricing
   plan_count: 3
   slug: detect-language-plans-pricing
-random_paper: 74
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Detect Language Rate Limits

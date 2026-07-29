@@ -390,7 +390,7 @@ overview: 'HM Land Registry publishes 7 APIs on the [APIs.io](https://apis.io/) 
 
 
   HM Land Registry''s developer surface includes authentication, documentation, API reference, signup flow, support, sandbox, changelog, and 53 more developer resources.'
-random_paper: 7
+random_paper: 68
 score:
   band: strong
   composite: 56.2

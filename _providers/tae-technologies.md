@@ -96,7 +96,7 @@ overview: 'TAE Technologies is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   TAE Technologies'' developer surface includes product news, YouTube channel, engineering blog, and 10 more developer resources.'
-random_paper: 43
+random_paper: 23
 score:
   band: minimal
   composite: 5.4

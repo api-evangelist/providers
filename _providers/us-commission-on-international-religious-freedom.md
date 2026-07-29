@@ -148,7 +148,7 @@ plans:
 - name: Us Commission On International Religious Freedom Plans Pricing
   plan_count: 3
   slug: us-commission-on-international-religious-freedom-plans-pricing
-random_paper: 4
+random_paper: 24
 rate_limits:
 - limit_count: 5
   name: Us Commission On International Religious Freedom Rate Limits

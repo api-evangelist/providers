@@ -91,7 +91,7 @@ overview: 'Hackajob is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Hackajob''s developer surface includes engineering blog, signup flow, support, and 9 more developer resources.'
-random_paper: 19
+random_paper: 9
 score:
   band: emerging
   composite: 17.7

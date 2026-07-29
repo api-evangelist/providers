@@ -48,7 +48,7 @@ name: Endo Health
 nav: Providers
 network: true
 overview: Endo Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Weight Loss, and Women's Health.
-random_paper: 57
+random_paper: 44
 score:
   band: minimal
   composite: 4.3

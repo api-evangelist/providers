@@ -222,7 +222,7 @@ plans:
 - name: Argilla Plans Pricing
   plan_count: 2
   slug: argilla-plans-pricing
-random_paper: 12
+random_paper: 3
 rate_limits:
 - limit_count: 0
   name: Argilla Rate Limits

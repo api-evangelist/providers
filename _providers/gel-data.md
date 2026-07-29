@@ -144,7 +144,7 @@ overview: 'Gel Data is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Gel Data''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 17 more developer resources.'
-random_paper: 47
+random_paper: 38
 score:
   band: thin
   composite: 34.7

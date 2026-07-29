@@ -229,7 +229,7 @@ overview: 'Fat Zebra publishes 4 APIs on the [APIs.io](https://apis.io/) network
 
 
   Fat Zebra''s developer surface includes authentication, documentation, API reference, getting-started guide, changelog, pricing, engineering blog, and 34 more developer resources.'
-random_paper: 12
+random_paper: 1
 score:
   band: strong
   composite: 57.5

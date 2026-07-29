@@ -145,7 +145,7 @@ overview: 'Ladder publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Ladder''s developer surface includes documentation, signup flow, support, engineering blog, authentication, and 19 more developer resources.'
-random_paper: 60
+random_paper: 53
 score:
   band: emerging
   composite: 26.8

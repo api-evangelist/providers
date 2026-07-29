@@ -189,7 +189,7 @@ overview: 'IMB Bank publishes 7 APIs on the [APIs.io](https://apis.io/) network,
 
 
   IMB Bank''s developer surface includes authentication, sandbox, documentation, API reference, getting-started guide, signup flow, support, and 21 more developer resources.'
-random_paper: 49
+random_paper: 40
 scopes:
 - name: Imb Bank Scopes
   scope_count: 12

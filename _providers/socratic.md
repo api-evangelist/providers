@@ -48,7 +48,7 @@ name: Socratic
 nav: Providers
 network: true
 overview: Socratic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Learning, and Artificial Intelligence.
-random_paper: 56
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

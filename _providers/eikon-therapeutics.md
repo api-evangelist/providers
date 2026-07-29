@@ -79,7 +79,7 @@ overview: 'Eikon Therapeutics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Eikon Therapeutics'' developer surface includes product news and 8 more developer resources.'
-random_paper: 36
+random_paper: 13
 score:
   band: minimal
   composite: 7.9

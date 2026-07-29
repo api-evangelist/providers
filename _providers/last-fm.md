@@ -185,7 +185,7 @@ plans:
 - name: Last Fm Plans Pricing
   plan_count: 3
   slug: last-fm-plans-pricing
-random_paper: 52
+random_paper: 44
 rate_limits:
 - limit_count: 3
   name: Last Fm Rate Limits

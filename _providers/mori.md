@@ -100,7 +100,7 @@ overview: 'MORI is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   MORI''s developer surface includes engineering blog, support, authentication, and 10 more developer resources.'
-random_paper: 39
+random_paper: 34
 scopes:
 - name: Mori Scopes
   scope_count: 0

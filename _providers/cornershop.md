@@ -77,7 +77,7 @@ name: Cornershop by Uber
 nav: Providers
 network: true
 overview: Cornershop by Uber is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Grocery Delivery, On-Demand Delivery, Last Mile Delivery, Consumer Apps, and E-Commerce.
-random_paper: 51
+random_paper: 38
 score:
   band: minimal
   composite: 5.7

@@ -79,7 +79,7 @@ overview: 'Immersed is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Immersed''s developer surface includes getting-started guide, pricing, support, engineering blog, and 5 more developer resources.'
-random_paper: 54
+random_paper: 44
 score:
   band: emerging
   composite: 16.7

@@ -1976,7 +1976,7 @@ plans:
 - name: Datadog Plans Pricing
   plan_count: 7
   slug: datadog-plans-pricing
-random_paper: 4
+random_paper: 76
 rate_limits:
 - limit_count: 6
   name: Datadog Rate Limits

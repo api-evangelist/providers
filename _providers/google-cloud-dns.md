@@ -169,7 +169,7 @@ plans:
 - name: Google Cloud Dns Plans Pricing
   plan_count: 3
   slug: google-cloud-dns-plans-pricing
-random_paper: 67
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Google Cloud Dns Rate Limits

@@ -67,7 +67,7 @@ overview: 'Tezbor, Inc. publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Tezbor, Inc.''s developer surface includes documentation, signup flow, and 3 more developer resources.'
-random_paper: 61
+random_paper: 49
 score:
   band: minimal
   composite: 11.2

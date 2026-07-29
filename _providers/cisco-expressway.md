@@ -356,7 +356,7 @@ plans:
 - name: Cisco Expressway Plans Pricing
   plan_count: 1
   slug: cisco-expressway-plans-pricing
-random_paper: 9
+random_paper: 69
 rate_limits:
 - limit_count: 2
   name: Cisco Expressway Rate Limits

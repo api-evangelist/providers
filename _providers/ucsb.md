@@ -134,7 +134,7 @@ plans:
 - name: Ucsb Plans Pricing
   plan_count: 2
   slug: ucsb-plans-pricing
-random_paper: 29
+random_paper: 24
 rate_limits:
 - limit_count: 1
   name: Ucsb Rate Limits

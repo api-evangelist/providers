@@ -132,7 +132,7 @@ overview: 'HeadSpin publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   HeadSpin''s developer surface includes documentation, API reference, engineering blog, pricing, authentication, CLI, and 14 more developer resources.'
-random_paper: 44
+random_paper: 34
 score:
   band: thin
   composite: 28.0

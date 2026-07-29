@@ -166,7 +166,7 @@ overview: 'Redmine publishes 17 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Redmine''s developer surface includes authentication, documentation, engineering blog, and 11 more developer resources.'
-random_paper: 20
+random_paper: 11
 score:
   band: emerging
   composite: 23.7

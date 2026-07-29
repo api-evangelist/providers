@@ -48,7 +48,7 @@ name: Superjampad
 nav: Providers
 network: true
 overview: Superjampad is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, News, Social, and Media.
-random_paper: 60
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

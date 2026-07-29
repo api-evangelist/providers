@@ -56,7 +56,7 @@ name: Alchemize
 nav: Providers
 network: true
 overview: Alchemize publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Customs Brokerage, Trade Compliance, Supply Chain, and Logistics.
-random_paper: 66
+random_paper: 55
 score:
   band: minimal
   composite: 6.9

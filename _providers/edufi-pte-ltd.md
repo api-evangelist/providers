@@ -67,7 +67,7 @@ overview: 'EDUFI PTE. LTD is profiled on the [APIs.io](https://apis.io/) network
 
 
   EDUFI PTE. LTD''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 68
+random_paper: 53
 score:
   band: minimal
   composite: 10.5

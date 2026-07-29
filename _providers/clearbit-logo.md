@@ -67,7 +67,7 @@ overview: 'Clearbit Logo publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Clearbit Logo''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 36
+random_paper: 20
 score:
   band: minimal
   composite: 7.8

@@ -63,7 +63,7 @@ overview: 'Hytale publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Hytale''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 7
+random_paper: 80
 score:
   band: minimal
   composite: 6.2

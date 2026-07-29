@@ -39,7 +39,7 @@ name: BrightFunnel
 nav: Providers
 network: true
 overview: BrightFunnel is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Analytics, Attribution, and Revenue Intelligence.
-random_paper: 8
+random_paper: 73
 score:
   band: minimal
   composite: 5.0

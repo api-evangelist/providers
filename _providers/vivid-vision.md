@@ -56,7 +56,7 @@ name: Vivid Vision
 nav: Providers
 network: true
 overview: Vivid Vision is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Vision Care, Health, Virtual Reality, and Ophthalmology.
-random_paper: 55
+random_paper: 40
 score:
   band: minimal
   composite: 9.9

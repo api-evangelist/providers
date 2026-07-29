@@ -161,7 +161,7 @@ plans:
 - name: Google Contacts Plans Pricing
   plan_count: 3
   slug: google-contacts-plans-pricing
-random_paper: 25
+random_paper: 6
 rate_limits:
 - limit_count: 5
   name: Google Contacts Rate Limits

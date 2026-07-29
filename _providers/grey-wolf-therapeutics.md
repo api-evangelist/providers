@@ -63,7 +63,7 @@ overview: 'Grey Wolf Therapeutics is profiled on the [APIs.io](https://apis.io/)
 
 
   Grey Wolf Therapeutics'' developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 26
+random_paper: 79
 score:
   band: minimal
   composite: 8.4

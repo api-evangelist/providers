@@ -83,7 +83,7 @@ plans:
 - name: Dati Comune Roma It Plans Pricing
   plan_count: 0
   slug: dati-comune-roma-it-plans-pricing
-random_paper: 12
+random_paper: 70
 rate_limits:
 - limit_count: 0
   name: Dati Comune Roma It Rate Limits

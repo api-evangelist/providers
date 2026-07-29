@@ -167,7 +167,7 @@ overview: 'Cutover publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Cutover''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, changelog, and 20 more developer resources.'
-random_paper: 56
+random_paper: 47
 score:
   band: developing
   composite: 48.8

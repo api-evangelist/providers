@@ -209,7 +209,7 @@ plans:
 - name: Test Cases Plans Pricing
   plan_count: 3
   slug: test-cases-plans-pricing
-random_paper: 60
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Test Cases Rate Limits

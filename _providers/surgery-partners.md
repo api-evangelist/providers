@@ -84,7 +84,7 @@ name: Surgery Partners
 nav: Providers
 network: true
 overview: Surgery Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Healthcare, Surgery, Surgical Services, and Ambulatory Care.
-random_paper: 29
+random_paper: 8
 score:
   band: minimal
   composite: 9.2

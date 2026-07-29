@@ -83,7 +83,7 @@ plans:
 - name: Datacatalog Tusla Ie Plans Pricing
   plan_count: 0
   slug: datacatalog-tusla-ie-plans-pricing
-random_paper: 70
+random_paper: 46
 rate_limits:
 - limit_count: 0
   name: Datacatalog Tusla Ie Rate Limits

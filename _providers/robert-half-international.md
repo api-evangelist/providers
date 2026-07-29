@@ -107,7 +107,7 @@ press:
 - date: '2026-05-25'
   title: Annual Report
   url: https://www.roberthalf.com/content/dam/roberthalf/documents/us/en/indexed/investor-center/Robert%20Half_2023%20Annual%20Report.pdf
-random_paper: 75
+random_paper: 44
 score:
   band: emerging
   composite: 14.1

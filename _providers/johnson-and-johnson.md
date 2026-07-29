@@ -110,7 +110,7 @@ press:
 - date: '2026-05-25'
   title: JNJ Innovation - News & Events
   url: https://jnjinnovation.com/news
-random_paper: 11
+random_paper: 68
 rate_limits:
 - limit_count: 1
   name: Johnson And Johnson Rate Limits

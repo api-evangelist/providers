@@ -49,7 +49,7 @@ name: Leaba Semiconductor
 nav: Providers
 network: true
 overview: Leaba Semiconductor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Networking, Silicon, and ASIC.
-random_paper: 33
+random_paper: 9
 score:
   band: minimal
   composite: 5.0

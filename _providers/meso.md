@@ -68,7 +68,7 @@ name: Meso
 nav: Providers
 network: true
 overview: Meso is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Payments, Payment Infrastructure, and Cryptocurrency.
-random_paper: 36
+random_paper: 31
 score:
   band: minimal
   composite: 9.8

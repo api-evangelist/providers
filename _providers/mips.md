@@ -63,7 +63,7 @@ overview: 'Mips is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Mips'' developer surface includes engineering blog, developer portal, and 3 more developer resources.'
-random_paper: 41
+random_paper: 36
 score:
   band: minimal
   composite: 7.9

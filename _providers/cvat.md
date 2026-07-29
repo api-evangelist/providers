@@ -133,7 +133,7 @@ plans:
 - name: Cvat Plans Pricing
   plan_count: 5
   slug: cvat-plans-pricing
-random_paper: 30
+random_paper: 25
 rate_limits:
 - limit_count: 6
   name: Cvat Rate Limits

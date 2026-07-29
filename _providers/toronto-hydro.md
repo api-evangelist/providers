@@ -170,7 +170,7 @@ overview: 'Toronto Hydro publishes 1 API on the [APIs.io](https://apis.io/) netw
 
 
   Toronto Hydro''s developer surface includes authentication, documentation, signup flow, getting-started guide, legal docs, support, FAQ, and 25 more developer resources.'
-random_paper: 24
+random_paper: 7
 scopes:
 - name: Toronto Hydro Scopes
   scope_count: 0

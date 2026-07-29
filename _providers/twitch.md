@@ -410,7 +410,7 @@ plans:
 - name: Twitch Plans Pricing
   plan_count: 1
   slug: twitch-plans-pricing
-random_paper: 19
+random_paper: 11
 rate_limits:
 - limit_count: 4
   name: Twitch Rate Limits

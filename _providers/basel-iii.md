@@ -125,7 +125,7 @@ overview: 'Basel III is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   The Basel III catalog on APIs.io includes 1 JSON-LD context.'
-random_paper: 79
+random_paper: 69
 score:
   band: minimal
   composite: 9.5

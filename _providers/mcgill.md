@@ -149,7 +149,7 @@ plans:
 - name: Mcgill Plans Pricing
   plan_count: 2
   slug: mcgill-plans-pricing
-random_paper: 72
+random_paper: 65
 rate_limits:
 - limit_count: 1
   name: Mcgill Rate Limits

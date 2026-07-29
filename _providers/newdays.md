@@ -75,7 +75,7 @@ overview: 'NewDays is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   NewDays'' developer surface includes signup flow, engineering blog, and 6 more developer resources.'
-random_paper: 43
+random_paper: 34
 score:
   band: minimal
   composite: 10.5

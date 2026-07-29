@@ -91,7 +91,7 @@ overview: 'Enzyme is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Enzyme''s developer surface includes pricing, engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 24
+random_paper: 16
 score:
   band: emerging
   composite: 20.1

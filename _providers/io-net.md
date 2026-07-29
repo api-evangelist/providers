@@ -203,7 +203,7 @@ overview: 'io.net publishes 8 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   io.net''s developer surface includes developer portal, documentation, getting-started guide, API reference, signup flow, developer console, engineering blog, and 22 more developer resources.'
-random_paper: 28
+random_paper: 21
 score:
   band: emerging
   composite: 20.1

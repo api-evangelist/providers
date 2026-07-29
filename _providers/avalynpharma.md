@@ -63,7 +63,7 @@ overview: 'Avalynpharma is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Avalynpharma''s developer surface includes support and 4 more developer resources.'
-random_paper: 4
+random_paper: 69
 score:
   band: minimal
   composite: 11.2

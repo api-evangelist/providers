@@ -110,7 +110,7 @@ plans:
 - name: University Of Bern Plans Pricing
   plan_count: 2
   slug: university-of-bern-plans-pricing
-random_paper: 8
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: University Of Bern Rate Limits

@@ -153,7 +153,7 @@ plans:
 - name: Blue Yonder Plans Pricing
   plan_count: 1
   slug: blue-yonder-plans-pricing
-random_paper: 6
+random_paper: 73
 rate_limits:
 - limit_count: 1
   name: Blue Yonder Rate Limits

@@ -155,7 +155,7 @@ overview: 'CoroNet publishes 1 API on the [APIs.io](https://apis.io/) network: C
 
 
   CoroNet''s developer surface includes documentation, API reference, getting-started guide, changelog, engineering blog, pricing, signup flow, and 17 more developer resources.'
-random_paper: 42
+random_paper: 33
 score:
   band: developing
   composite: 45.2

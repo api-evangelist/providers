@@ -151,7 +151,7 @@ press:
 - date: '2026-05-25'
   title: Artificial intelligence has quickly emerged as a top concern ...
   url: https://www.facebook.com/ktvotv/posts/artificial-intelligence-has-quickly-emerged-as-a-top-concern-for-federal-officia/898647678943945/
-random_paper: 6
+random_paper: 65
 score:
   band: emerging
   composite: 14.6

@@ -48,7 +48,7 @@ name: Nimbus Therapeutics
 nav: Providers
 network: true
 overview: Nimbus Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Biotechnology, Pharmaceuticals, and Drug Discovery.
-random_paper: 76
+random_paper: 52
 score:
   band: minimal
   composite: 5.4

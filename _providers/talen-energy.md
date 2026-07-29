@@ -56,7 +56,7 @@ name: Talen Energy
 nav: Providers
 network: true
 overview: Talen Energy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Energy, Power Generation, and Utilities.
-random_paper: 27
+random_paper: 12
 score:
   band: minimal
   composite: 4.2

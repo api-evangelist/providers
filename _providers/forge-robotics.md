@@ -59,7 +59,7 @@ overview: 'Forge Robotics is profiled on the [APIs.io](https://apis.io/) network
 
 
   Forge Robotics'' developer surface includes product news and 3 more developer resources.'
-random_paper: 5
+random_paper: 68
 score:
   band: minimal
   composite: 6.1

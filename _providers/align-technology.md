@@ -48,7 +48,7 @@ name: Align Technology
 nav: Providers
 network: true
 overview: Align Technology is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 52
+random_paper: 32
 score:
   band: minimal
   composite: 3.3

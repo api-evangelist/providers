@@ -369,7 +369,7 @@ overview: 'Toolhouse publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Toolhouse''s developer surface includes authentication, documentation, engineering blog, pricing, YouTube channel, support, tooling, and 39 more developer resources.'
-random_paper: 34
+random_paper: 22
 rate_limits:
 - limit_count: 10
   name: Toolhouse Rate Limits

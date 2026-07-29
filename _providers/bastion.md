@@ -119,7 +119,7 @@ overview: 'Bastion publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Bastion''s developer surface includes documentation, API reference, getting-started guide, signup flow, and 14 more developer resources.'
-random_paper: 32
+random_paper: 23
 score:
   band: thin
   composite: 32.4

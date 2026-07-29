@@ -48,7 +48,7 @@ name: BuyWithMe (Gilt Groupe)
 nav: Providers
 network: true
 overview: BuyWithMe (Gilt Groupe) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Ecommerce, Group Buying, and Deals.
-random_paper: 10
+random_paper: 64
 score:
   band: minimal
   composite: 5.0

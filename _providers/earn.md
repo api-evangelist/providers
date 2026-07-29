@@ -48,7 +48,7 @@ name: Earn
 nav: Providers
 network: true
 overview: Earn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cryptocurrency, Bitcoin, Payments, and Acquired.
-random_paper: 22
+random_paper: 17
 score:
   band: minimal
   composite: 5.7

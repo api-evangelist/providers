@@ -63,7 +63,7 @@ overview: 'Mediacao Online is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Mediacao Online''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 69
+random_paper: 51
 score:
   band: minimal
   composite: 8.4

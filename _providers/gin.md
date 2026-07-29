@@ -72,7 +72,7 @@ plans:
 - name: Gin Plans Pricing
   plan_count: 3
   slug: gin-plans-pricing
-random_paper: 78
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Gin Rate Limits

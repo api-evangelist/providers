@@ -139,7 +139,7 @@ overview: 'UXPin is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   UXPin''s developer surface includes documentation, getting-started guide, pricing, engineering blog, changelog, signup flow, support, and 17 more developer resources.'
-random_paper: 4
+random_paper: 78
 score:
   band: thin
   composite: 33.1

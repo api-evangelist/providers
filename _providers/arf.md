@@ -87,7 +87,7 @@ overview: 'Arf is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Arf''s developer surface includes engineering blog, signup flow, support, and 8 more developer resources.'
-random_paper: 73
+random_paper: 70
 score:
   band: emerging
   composite: 16.7

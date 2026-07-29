@@ -48,7 +48,7 @@ name: EST
 nav: Providers
 network: true
 overview: EST is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Entertainment, Film, and Television.
-random_paper: 12
+random_paper: 8
 score:
   band: minimal
   composite: 5.0

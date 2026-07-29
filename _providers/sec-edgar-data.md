@@ -63,7 +63,7 @@ overview: 'SEC EDGAR Data publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   SEC EDGAR Data''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 50
+random_paper: 34
 score:
   band: minimal
   composite: 6.2

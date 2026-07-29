@@ -107,7 +107,7 @@ overview: 'ActivityHero publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   ActivityHero''s developer surface includes authentication, documentation, engineering blog, pricing, and 9 more developer resources.'
-random_paper: 27
+random_paper: 11
 score:
   band: thin
   composite: 34.2

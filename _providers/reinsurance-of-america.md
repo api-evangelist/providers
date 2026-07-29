@@ -103,7 +103,7 @@ plans:
 - name: Reinsurance Of America Plans Pricing
   plan_count: 3
   slug: reinsurance-of-america-plans-pricing
-random_paper: 48
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: Reinsurance Of America Rate Limits

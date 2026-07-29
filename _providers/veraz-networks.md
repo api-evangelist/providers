@@ -39,7 +39,7 @@ name: Veraz Networks
 nav: Providers
 network: true
 overview: Veraz Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, VoIP, Softswitch, and Media Gateway.
-random_paper: 50
+random_paper: 32
 score:
   band: minimal
   composite: 4.3

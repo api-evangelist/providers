@@ -80,7 +80,7 @@ press:
 - date: '2026-05-25'
   title: ON Semiconductor Narrows First-Quarter Loss on AI Data- ...
   url: https://www.wsj.com/business/earnings/on-semiconductor-narrows-first-quarter-loss-on-ai-data-center-demand-008e28d3
-random_paper: 73
+random_paper: 53
 score:
   band: minimal
   composite: 5.7

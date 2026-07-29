@@ -39,7 +39,7 @@ name: BloomThat
 nav: Providers
 network: true
 overview: BloomThat is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Flower Delivery, Gifting, E-commerce, and Same-Day Delivery.
-random_paper: 10
+random_paper: 79
 score:
   band: minimal
   composite: 5.0

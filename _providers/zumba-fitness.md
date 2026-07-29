@@ -53,7 +53,7 @@ name: Zumba Fitness
 nav: Providers
 network: true
 overview: Zumba Fitness is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 72
+random_paper: 56
 scopes:
 - name: Zumba Fitness Scopes
   scope_count: 0

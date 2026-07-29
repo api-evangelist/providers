@@ -48,7 +48,7 @@ name: Simple Feast
 nav: Providers
 network: true
 overview: Simple Feast is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food, Meal Kit, Meal Delivery, and Plant-Based.
-random_paper: 26
+random_paper: 11
 score:
   band: minimal
   composite: 5.0

@@ -150,7 +150,7 @@ plans:
 - name: Cartesia Plans Pricing
   plan_count: 1
   slug: cartesia-plans-pricing
-random_paper: 44
+random_paper: 34
 rate_limits:
 - limit_count: 2
   name: Cartesia Rate Limits

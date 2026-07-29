@@ -89,7 +89,7 @@ press:
 - date: '2026-05-25'
   title: Celanese's Chemille AI Assistant Revolutionizes Material ...
   url: https://www.linkedin.com/posts/useready_materialsscience-enterpriseai-chemicalindustry-activity-7433474582881259520-V9F8
-random_paper: 32
+random_paper: 22
 rate_limits:
 - limit_count: 2
   name: Celanese Rate Limits

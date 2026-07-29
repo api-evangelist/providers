@@ -39,7 +39,7 @@ name: RJMetrics
 nav: Providers
 network: true
 overview: RJMetrics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Business Intelligence, Data Pipeline, and Data Visualization.
-random_paper: 19
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

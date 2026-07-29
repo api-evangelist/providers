@@ -104,7 +104,7 @@ overview: 'Lily AI is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Lily AI''s developer surface includes engineering blog, pricing, signup flow, support, and 11 more developer resources.'
-random_paper: 49
+random_paper: 41
 score:
   band: emerging
   composite: 19.1

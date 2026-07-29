@@ -114,7 +114,7 @@ overview: 'Instapage publishes 1 API on the [APIs.io](https://apis.io/) network:
 
 
   Instapage''s developer surface includes authentication, documentation, pricing, signup flow, engineering blog, and 8 more developer resources.'
-random_paper: 76
+random_paper: 65
 score:
   band: thin
   composite: 29.8

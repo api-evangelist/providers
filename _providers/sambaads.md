@@ -52,7 +52,7 @@ name: SambaAds
 nav: Providers
 network: true
 overview: SambaAds is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, E-Commerce, Coupons, and Cashback.
-random_paper: 28
+random_paper: 18
 score:
   band: minimal
   composite: 7.1

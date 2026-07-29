@@ -84,7 +84,7 @@ plans:
 - name: Pebblely Ai Plans Pricing
   plan_count: 3
   slug: pebblely-ai-plans-pricing
-random_paper: 54
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Pebblely Ai Rate Limits

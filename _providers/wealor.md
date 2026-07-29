@@ -48,7 +48,7 @@ name: Wealor
 nav: Providers
 network: true
 overview: Wealor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Wealth Management, Fintech, Artificial Intelligence, and AI Agents.
-random_paper: 10
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

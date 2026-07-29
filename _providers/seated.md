@@ -100,7 +100,7 @@ plans:
 - name: Seated Plans Pricing
   plan_count: 3
   slug: seated-plans-pricing
-random_paper: 70
+random_paper: 63
 rate_limits:
 - limit_count: 2
   name: Seated Rate Limits

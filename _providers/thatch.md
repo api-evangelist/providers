@@ -185,7 +185,7 @@ overview: 'Thatch publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Thatch''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 76
+random_paper: 69
 score:
   band: developing
   composite: 46.7

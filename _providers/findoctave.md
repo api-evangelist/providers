@@ -91,7 +91,7 @@ overview: 'Findoctave is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Findoctave''s developer surface includes engineering blog, getting-started guide, pricing, support, and 8 more developer resources.'
-random_paper: 19
+random_paper: 6
 score:
   band: emerging
   composite: 19.0

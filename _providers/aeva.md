@@ -83,7 +83,7 @@ overview: 'Aeva is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Aeva''s developer surface includes developer portal, engineering blog, support, and 7 more developer resources.'
-random_paper: 13
+random_paper: 8
 score:
   band: emerging
   composite: 14.2

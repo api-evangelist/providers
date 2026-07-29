@@ -83,7 +83,7 @@ overview: 'AGENT.md is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   AGENT.md''s developer surface includes documentation and 4 more developer resources.'
-random_paper: 61
+random_paper: 52
 rules:
 - name: AGENT.md API Rules
   rule_count: 5

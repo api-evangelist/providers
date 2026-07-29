@@ -161,7 +161,7 @@ plans:
 - name: Usda Plans Pricing
   plan_count: 3
   slug: usda-plans-pricing
-random_paper: 29
+random_paper: 24
 rate_limits:
 - limit_count: 0
   name: Usda Rate Limits

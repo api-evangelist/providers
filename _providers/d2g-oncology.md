@@ -48,7 +48,7 @@ name: D2G Oncology
 nav: Providers
 network: true
 overview: D2G Oncology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Oncology, Healthcare, Biotechnology, and Therapeutics.
-random_paper: 52
+random_paper: 38
 score:
   band: minimal
   composite: 5.4

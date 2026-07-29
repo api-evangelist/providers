@@ -39,7 +39,7 @@ name: AgLocal
 nav: Providers
 network: true
 overview: AgLocal is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Agriculture, Food, Marketplace, and Meat.
-random_paper: 3
+random_paper: 75
 score:
   band: minimal
   composite: 5.0

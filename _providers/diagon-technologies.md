@@ -75,7 +75,7 @@ overview: 'Diagon Technologies is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Diagon Technologies'' developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 35
+random_paper: 11
 score:
   band: emerging
   composite: 13.9

@@ -148,7 +148,7 @@ overview: 'Pod Point publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Pod Point''s developer surface includes engineering blog, support, authentication, code examples, and 20 more developer resources.'
-random_paper: 42
+random_paper: 31
 score:
   band: emerging
   composite: 24.4

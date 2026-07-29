@@ -83,7 +83,7 @@ overview: 'Codewisp is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Codewisp''s developer surface includes documentation, engineering blog, FAQ, pricing, signup flow, support, and 4 more developer resources.'
-random_paper: 62
+random_paper: 52
 score:
   band: emerging
   composite: 17.0

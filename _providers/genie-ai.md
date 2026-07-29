@@ -96,7 +96,7 @@ overview: 'Genie AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Genie AI''s developer surface includes pricing, engineering blog, signup flow, support, and 9 more developer resources.'
-random_paper: 47
+random_paper: 38
 score:
   band: emerging
   composite: 19.5

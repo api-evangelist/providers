@@ -168,7 +168,7 @@ plans:
 - name: Department Of Justice Plans Pricing
   plan_count: 3
   slug: department-of-justice-plans-pricing
-random_paper: 58
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Department Of Justice Rate Limits

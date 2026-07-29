@@ -132,7 +132,7 @@ overview: 'Keyfactor is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Keyfactor''s developer surface includes documentation, getting-started guide, support, engineering blog, signup flow, CLI, authentication, and 14 more developer resources.'
-random_paper: 8
+random_paper: 77
 score:
   band: thin
   composite: 31.8

@@ -240,7 +240,7 @@ overview: 'openFDA publishes 6 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   openFDA''s developer surface includes authentication, developer portal, documentation, signup flow, getting-started guide, API reference, changelog, and 24 more developer resources.'
-random_paper: 13
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Openfda Rate Limits

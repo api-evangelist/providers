@@ -234,7 +234,7 @@ overview: 'Virgin Atlantic publishes 12 APIs on the [APIs.io](https://apis.io/) 
 
 
   Virgin Atlantic''s developer surface includes developer portal, documentation, API reference, signup flow, authentication, getting-started guide, changelog, and 29 more developer resources.'
-random_paper: 28
+random_paper: 9
 score:
   band: developing
   composite: 46.6

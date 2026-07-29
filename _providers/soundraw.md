@@ -88,7 +88,7 @@ plans:
 - name: Soundraw Plans Pricing
   plan_count: 1
   slug: soundraw-plans-pricing
-random_paper: 3
+random_paper: 73
 rate_limits:
 - limit_count: 2
   name: Soundraw Rate Limits

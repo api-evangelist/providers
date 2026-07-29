@@ -100,7 +100,7 @@ overview: 'Array is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Array''s developer surface includes documentation, pricing, support, engineering blog, and 10 more developer resources.'
-random_paper: 63
+random_paper: 57
 score:
   band: emerging
   composite: 18.9

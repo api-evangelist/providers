@@ -68,7 +68,7 @@ name: Elsewhere
 nav: Providers
 network: true
 overview: Elsewhere is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Games, Gaming, Video Games, and Game Studio.
-random_paper: 4
+random_paper: 73
 score:
   band: minimal
   composite: 7.5

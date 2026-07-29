@@ -48,7 +48,7 @@ name: OYO
 nav: Providers
 network: true
 overview: OYO is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Hospitality, Hotels, and Travel.
-random_paper: 23
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

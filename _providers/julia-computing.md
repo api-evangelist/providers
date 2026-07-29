@@ -124,7 +124,7 @@ overview: 'Julia Computing publishes 1 API on the [APIs.io](https://apis.io/) ne
 
 
   Julia Computing''s developer surface includes documentation, getting-started guide, engineering blog, pricing, authentication, and 14 more developer resources.'
-random_paper: 40
+random_paper: 21
 scopes:
 - name: Julia Computing Scopes
   scope_count: 5

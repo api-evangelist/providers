@@ -123,7 +123,7 @@ press:
 - date: '2026-05-25'
   title: Atmos Energy raises annual profit forecast on strong ...
   url: https://www.reuters.com/business/energy/atmos-energy-raises-annual-profit-forecast-strong-natural-gas-demand-2026-05-06/
-random_paper: 43
+random_paper: 28
 rate_limits:
 - limit_count: 1
   name: Atmos Energy Rate Limits

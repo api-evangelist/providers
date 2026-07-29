@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: PPL Corporation and Blackstone Infrastructure create joint ...
   url: https://www.prnewswire.com/news-releases/ppl-corporation-and-blackstone-infrastructure-create-joint-venture-to-build-natural-gas-generation-in-pennsylvania-in-support-of-data-center-development-302505948.html
-random_paper: 12
+random_paper: 8
 score:
   band: minimal
   composite: 5.5

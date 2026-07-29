@@ -309,7 +309,7 @@ overview: 'Patsnap publishes 47 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Patsnap''s developer surface includes documentation, API reference, getting-started guide, sandbox, support, engineering blog, signup flow, and 21 more developer resources.'
-random_paper: 39
+random_paper: 30
 score:
   band: developing
   composite: 45.9

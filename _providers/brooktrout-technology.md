@@ -39,7 +39,7 @@ name: Brooktrout Technology
 nav: Providers
 network: true
 overview: Brooktrout Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fax, Telephony, Voice, and Computer Telephony Integration.
-random_paper: 4
+random_paper: 57
 score:
   band: minimal
   composite: 4.3

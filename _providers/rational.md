@@ -95,7 +95,7 @@ overview: 'Rational is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Rational''s developer surface includes engineering blog, support, and 11 more developer resources.'
-random_paper: 58
+random_paper: 48
 score:
   band: minimal
   composite: 10.2

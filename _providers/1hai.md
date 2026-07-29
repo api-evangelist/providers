@@ -67,7 +67,7 @@ overview: '1hai is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   1hai''s developer surface includes support, signup flow, and 4 more developer resources.'
-random_paper: 35
+random_paper: 31
 score:
   band: minimal
   composite: 12.7

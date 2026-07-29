@@ -204,7 +204,7 @@ plans:
 - name: Val Town Plans Pricing
   plan_count: 4
   slug: val-town-plans-pricing
-random_paper: 24
+random_paper: 14
 rate_limits:
 - limit_count: 17
   name: Val Town Rate Limits

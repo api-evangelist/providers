@@ -77,7 +77,7 @@ name: Knoetic
 nav: Providers
 network: true
 overview: Knoetic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hr Tech, People Analytics, Human Resources, and Workforce Analytics.
-random_paper: 29
+random_paper: 20
 score:
   band: emerging
   composite: 13.3

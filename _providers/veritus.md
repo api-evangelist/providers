@@ -132,7 +132,7 @@ overview: 'Veritus publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Veritus'' developer surface includes documentation, signup flow, authentication, and 14 more developer resources.'
-random_paper: 66
+random_paper: 57
 score:
   band: developing
   composite: 45.0

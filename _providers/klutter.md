@@ -45,7 +45,7 @@ name: Klutter
 nav: Providers
 network: true
 overview: Klutter is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 59
+random_paper: 50
 score:
   band: minimal
   composite: 4.1

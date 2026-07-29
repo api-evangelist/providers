@@ -84,7 +84,7 @@ name: Lexoo
 nav: Providers
 network: true
 overview: Lexoo publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tagged areas include Legal, Legal Services, Contract Review, Compliance, and Professional Services.
-random_paper: 71
+random_paper: 65
 score:
   band: minimal
   composite: 7.6

@@ -242,7 +242,7 @@ overview: 'DataStax publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   DataStax''s developer surface includes documentation, API reference, getting-started guide, signup flow, support, pricing, engineering blog, and 25 more developer resources.'
-random_paper: 58
+random_paper: 48
 scopes:
 - name: Datastax Scopes
   scope_count: 15

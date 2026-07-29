@@ -48,7 +48,7 @@ name: S3 Graphics
 nav: Providers
 network: true
 overview: S3 Graphics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Graphics, GPU, Semiconductor, and Hardware.
-random_paper: 20
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

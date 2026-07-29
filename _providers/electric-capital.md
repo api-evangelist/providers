@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Electric Capital
 nav: Providers
 network: true
-random_paper: 22
+random_paper: 2
 slug: electric-capital
 tags:
 - Venture Capital

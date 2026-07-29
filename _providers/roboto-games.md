@@ -71,7 +71,7 @@ overview: 'Roboto Games is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Roboto Games'' developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 31
+random_paper: 16
 score:
   band: minimal
   composite: 9.7

@@ -93,7 +93,7 @@ name: Stori
 nav: Providers
 network: true
 overview: Stori is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Financial Services, Neobank, Digital Bank, Consumer Finance, and Credit Cards.
-random_paper: 1
+random_paper: 75
 score:
   band: minimal
   composite: 5.4

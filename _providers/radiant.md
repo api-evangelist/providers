@@ -48,7 +48,7 @@ name: Radiant
 nav: Providers
 network: true
 overview: Radiant is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Nuclear, Energy, Microreactor, and Clean Energy.
-random_paper: 19
+random_paper: 10
 score:
   band: minimal
   composite: 5.5

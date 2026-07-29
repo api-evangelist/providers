@@ -48,7 +48,7 @@ name: Kuwo Music
 nav: Providers
 network: true
 overview: Kuwo Music is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Streaming, Media, and Entertainment.
-random_paper: 54
+random_paper: 49
 score:
   band: minimal
   composite: 6.1

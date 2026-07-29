@@ -48,7 +48,7 @@ name: High Jump Software
 nav: Providers
 network: true
 overview: High Jump Software is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Supply Chain, Warehouse Management, Logistics, and Transportation Management.
-random_paper: 65
+random_paper: 43
 score:
   band: minimal
   composite: 5.0

@@ -259,7 +259,7 @@ overview: 'Knak publishes 21 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Knak''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 28 more developer resources.'
-random_paper: 21
+random_paper: 16
 scopes:
 - name: Knak Scopes
   scope_count: 1

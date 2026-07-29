@@ -81,7 +81,7 @@ overview: 'Butn is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Butn''s developer surface includes documentation, engineering blog, support, and 6 more developer resources.'
-random_paper: 41
+random_paper: 36
 score:
   band: emerging
   composite: 15.9

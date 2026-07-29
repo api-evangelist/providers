@@ -48,7 +48,7 @@ name: Kondor
 nav: Providers
 network: true
 overview: Kondor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Algorithmic Trading, Crypto, Expert Advisors, Financial, and Fintech.
-random_paper: 13
+random_paper: 5
 score:
   band: minimal
   composite: 5.8

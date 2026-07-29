@@ -165,7 +165,7 @@ overview: 'Delivery Hero publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   Delivery Hero''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 15 more developer resources.'
-random_paper: 63
+random_paper: 47
 scopes:
 - name: Delivery Hero Scopes
   scope_count: 1

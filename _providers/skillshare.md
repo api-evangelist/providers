@@ -120,7 +120,7 @@ overview: 'Skillshare is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Skillshare''s developer surface includes engineering blog, GitHub presence, YouTube channel, and 16 more developer resources.'
-random_paper: 34
+random_paper: 21
 score:
   band: minimal
   composite: 11.2

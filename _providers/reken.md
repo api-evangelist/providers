@@ -67,7 +67,7 @@ overview: 'Reken is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Reken''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 53
+random_paper: 47
 score:
   band: minimal
   composite: 11.8

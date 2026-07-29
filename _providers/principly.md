@@ -75,7 +75,7 @@ overview: 'Principly is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Principly''s developer surface includes pricing, engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 26
+random_paper: 14
 score:
   band: minimal
   composite: 11.0

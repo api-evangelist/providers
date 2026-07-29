@@ -81,7 +81,7 @@ plans:
 - name: Mend Health Plans Pricing
   plan_count: 2
   slug: mend-health-plans-pricing
-random_paper: 55
+random_paper: 42
 score:
   band: minimal
   composite: 12.5

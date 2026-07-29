@@ -105,7 +105,7 @@ plans:
 - name: Us Army Plans Pricing
   plan_count: 3
   slug: us-army-plans-pricing
-random_paper: 78
+random_paper: 70
 rate_limits:
 - limit_count: 5
   name: Us Army Rate Limits

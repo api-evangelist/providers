@@ -56,7 +56,7 @@ name: Dow
 nav: Providers
 network: true
 overview: Dow is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Materials Science, Chemicals, Manufacturing, and Fortune 500.
-random_paper: 10
+random_paper: 6
 score:
   band: minimal
   composite: 4.8

@@ -111,7 +111,7 @@ press:
 - date: '2026-05-25'
   title: Werner Enterprises and Kodiak Robotics Collaborate to ...
   url: https://www.prnewswire.com/news-releases/werner-enterprises-and-kodiak-robotics-collaborate-to-run-247-long-haul-autonomous-freight-operations-301636326.html
-random_paper: 68
+random_paper: 45
 score:
   band: minimal
   composite: 8.9

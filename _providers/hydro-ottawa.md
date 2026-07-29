@@ -157,7 +157,7 @@ overview: 'Hydro Ottawa publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Hydro Ottawa''s developer surface includes authentication, getting-started guide, signup flow, engineering blog, documentation, support, YouTube channel, and 22 more developer resources.'
-random_paper: 51
+random_paper: 36
 scopes:
 - name: Hydro Ottawa Scopes
   scope_count: 0

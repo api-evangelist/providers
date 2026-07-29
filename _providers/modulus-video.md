@@ -39,7 +39,7 @@ name: Modulus Video
 nav: Providers
 network: true
 overview: Modulus Video is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Hardware.
-random_paper: 77
+random_paper: 61
 score:
   band: minimal
   composite: 4.1

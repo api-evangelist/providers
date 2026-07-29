@@ -137,7 +137,7 @@ plans:
 - name: Pismo Plans Pricing
   plan_count: 1
   slug: pismo-plans-pricing
-random_paper: 72
+random_paper: 66
 rate_limits:
 - limit_count: 4
   name: Pismo Rate Limits

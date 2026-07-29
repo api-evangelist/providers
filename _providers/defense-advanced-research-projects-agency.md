@@ -84,7 +84,7 @@ plans:
 - name: Defense Advanced Research Projects Agency Plans Pricing
   plan_count: 3
   slug: defense-advanced-research-projects-agency-plans-pricing
-random_paper: 2
+random_paper: 32
 rate_limits:
 - limit_count: 5
   name: Defense Advanced Research Projects Agency Rate Limits

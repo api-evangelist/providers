@@ -92,7 +92,7 @@ press:
 - date: '2026-05-25'
   title: Schnitzer Reports Third Quarter Fiscal 2023 Financial Results
   url: http://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2023-6-27-schnitzer-reports-third-quarter-fiscal-2023-financial-results
-random_paper: 75
+random_paper: 42
 score:
   band: minimal
   composite: 9.5

@@ -138,7 +138,7 @@ plans:
 - name: Serpapi Plans Pricing
   plan_count: 3
   slug: serpapi-plans-pricing
-random_paper: 36
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Serpapi Rate Limits

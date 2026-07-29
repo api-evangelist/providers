@@ -167,7 +167,7 @@ overview: 'Materials Zone publishes 9 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Materials Zone''s developer surface includes documentation, API reference, getting-started guide, authentication, engineering blog, support, and 16 more developer resources.'
-random_paper: 11
+random_paper: 74
 score:
   band: thin
   composite: 40.7

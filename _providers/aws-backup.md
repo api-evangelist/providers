@@ -125,7 +125,7 @@ overview: 'AWS Backup publishes 10 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   AWS Backup''s developer surface includes authentication, documentation, pricing, signup flow, and 5 more developer resources.'
-random_paper: 46
+random_paper: 34
 score:
   band: thin
   composite: 28.4

@@ -132,7 +132,7 @@ overview: 'Ellipsis Drive publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Ellipsis Drive''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 14 more developer resources.'
-random_paper: 12
+random_paper: 75
 scopes:
 - name: Ellipsis Drive Scopes
   scope_count: 1

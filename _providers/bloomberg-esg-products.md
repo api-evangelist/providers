@@ -99,7 +99,7 @@ plans:
 - name: Bloomberg Esg Products Plans Pricing
   plan_count: 3
   slug: bloomberg-esg-products-plans-pricing
-random_paper: 6
+random_paper: 59
 rate_limits:
 - limit_count: 5
   name: Bloomberg Esg Products Rate Limits

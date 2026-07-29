@@ -119,7 +119,7 @@ plans:
 - name: Growthzone Plans Pricing
   plan_count: 3
   slug: growthzone-plans-pricing
-random_paper: 71
+random_paper: 58
 rate_limits:
 - limit_count: 3
   name: Growthzone Rate Limits

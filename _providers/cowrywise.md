@@ -104,7 +104,7 @@ plans:
 - name: Cowrywise Plans Pricing
   plan_count: 2
   slug: cowrywise-plans-pricing
-random_paper: 44
+random_paper: 32
 rate_limits:
 - limit_count: 3
   name: Cowrywise Rate Limits

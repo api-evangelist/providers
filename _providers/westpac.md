@@ -184,7 +184,7 @@ overview: 'Westpac Banking Corporation publishes 7 APIs on the [APIs.io](https:/
 
 
   Westpac Banking Corporation''s developer surface includes documentation, authentication, changelog, sandbox, getting-started guide, API reference, and 21 more developer resources.'
-random_paper: 39
+random_paper: 30
 score:
   band: developing
   composite: 48.0

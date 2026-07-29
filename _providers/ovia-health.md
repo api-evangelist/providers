@@ -56,7 +56,7 @@ name: Ovia Health
 nav: Providers
 network: true
 overview: Ovia Health is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Digital Health, Womens Health, and Femtech.
-random_paper: 66
+random_paper: 53
 score:
   band: minimal
   composite: 10.5

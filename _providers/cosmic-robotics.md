@@ -75,7 +75,7 @@ overview: 'Cosmic Robotics is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Cosmic Robotics'' developer surface includes YouTube channel and 7 more developer resources.'
-random_paper: 32
+random_paper: 13
 score:
   band: minimal
   composite: 6.9

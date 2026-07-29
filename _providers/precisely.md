@@ -108,7 +108,7 @@ plans:
 - name: Precisely Plans Pricing
   plan_count: 3
   slug: precisely-plans-pricing
-random_paper: 16
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Precisely Rate Limits

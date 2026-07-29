@@ -134,7 +134,7 @@ overview: 'Paysend publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Paysend''s developer surface includes documentation, API reference, authentication, engineering blog, getting-started guide, support, sandbox, and 14 more developer resources.'
-random_paper: 36
+random_paper: 27
 score:
   band: thin
   composite: 40.8

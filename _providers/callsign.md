@@ -111,7 +111,7 @@ overview: 'CallSign is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   CallSign''s developer surface includes documentation, API reference, authentication, support, engineering blog, and 12 more developer resources.'
-random_paper: 45
+random_paper: 35
 score:
   band: emerging
   composite: 23.8

@@ -80,7 +80,7 @@ plans:
 - name: Federal Student Aid Plans Pricing
   plan_count: 3
   slug: federal-student-aid-plans-pricing
-random_paper: 50
+random_paper: 27
 rate_limits:
 - limit_count: 5
   name: Federal Student Aid Rate Limits

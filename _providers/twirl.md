@@ -60,7 +60,7 @@ name: Twirl
 nav: Providers
 network: true
 overview: Twirl is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Saas, Data, Data Platform, and Data Pipelines.
-random_paper: 2
+random_paper: 76
 score:
   band: minimal
   composite: 7.5

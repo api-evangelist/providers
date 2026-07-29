@@ -196,7 +196,7 @@ overview: 'Involve Asia publishes 6 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Involve Asia''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 21 more developer resources.'
-random_paper: 30
+random_paper: 15
 score:
   band: developing
   composite: 47.2

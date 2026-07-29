@@ -259,7 +259,7 @@ overview: 'KolayIK publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   KolayIK''s developer surface includes documentation, API reference, signup flow, pricing, support, engineering blog, changelog, and 33 more developer resources.'
-random_paper: 36
+random_paper: 27
 score:
   band: developing
   composite: 52.8

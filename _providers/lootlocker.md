@@ -130,7 +130,7 @@ plans:
 - name: Lootlocker Plans Pricing
   plan_count: 4
   slug: lootlocker-plans-pricing
-random_paper: 46
+random_paper: 33
 rate_limits:
 - limit_count: 0
   name: Lootlocker Rate Limits

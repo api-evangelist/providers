@@ -48,7 +48,7 @@ name: Genesis Therapeutics
 nav: Providers
 network: true
 overview: Genesis Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Machine Learning, Drug Discovery, and Biotechnology.
-random_paper: 12
+random_paper: 67
 score:
   band: minimal
   composite: 5.4

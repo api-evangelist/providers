@@ -61,7 +61,7 @@ name: Onramp Payments
 nav: Providers
 network: true
 overview: Onramp Payments is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payments, Fintech, Trucking, and Fleet Management.
-random_paper: 59
+random_paper: 40
 score:
   band: minimal
   composite: 10.6

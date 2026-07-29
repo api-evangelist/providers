@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: Provider Newsletter
   url: https://www.molinahealthcare.com/-/media/Molina/PublicWebsite/PDF/Providers/ne/EN/2025-February-Provider-Newsletter_remediated.pdf
-random_paper: 46
+random_paper: 25
 score:
   band: minimal
   composite: 2.6

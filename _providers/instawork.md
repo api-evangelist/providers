@@ -120,7 +120,7 @@ overview: 'Instawork publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   Instawork''s developer surface includes authentication, documentation, support, engineering blog, pricing, signup flow, and 11 more developer resources.'
-random_paper: 34
+random_paper: 22
 scopes:
 - name: Instawork Scopes
   scope_count: 2

@@ -48,7 +48,7 @@ name: Mamut
 nav: Providers
 network: true
 overview: Mamut is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Accounting, ERP, and Business Software.
-random_paper: 68
+random_paper: 62
 score:
   band: minimal
   composite: 5.0

@@ -102,7 +102,7 @@ overview: 'Ellis Coffee Company is profiled on the [APIs.io](https://apis.io/) n
 
 
   Ellis Coffee Company''s developer surface includes engineering blog, YouTube channel, and 9 more developer resources.'
-random_paper: 78
+random_paper: 64
 score:
   band: minimal
   composite: 5.4

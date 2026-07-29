@@ -48,7 +48,7 @@ name: Sino Biological
 nav: Providers
 network: true
 overview: Sino Biological is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Life Sciences, Reagents, and Antibodies.
-random_paper: 46
+random_paper: 28
 score:
   band: minimal
   composite: 5.4

@@ -72,7 +72,7 @@ name: kelaHealth
 nav: Providers
 network: true
 overview: kelaHealth is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Surgery, Artificial Intelligence, and Predictive Analytics.
-random_paper: 3
+random_paper: 71
 score:
   band: emerging
   composite: 15.6

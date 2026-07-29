@@ -103,7 +103,7 @@ overview: 'Ent is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Ent''s developer surface includes engineering blog, support, legal docs, and 12 more developer resources.'
-random_paper: 7
+random_paper: 3
 score:
   band: emerging
   composite: 13.0

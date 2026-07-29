@@ -95,7 +95,7 @@ overview: 'All Sports API publishes 4 APIs on the [APIs.io](https://apis.io/) ne
 
 
   All Sports API''s developer surface includes documentation, pricing, signup flow, and 7 more developer resources.'
-random_paper: 40
+random_paper: 23
 score:
   band: emerging
   composite: 16.1

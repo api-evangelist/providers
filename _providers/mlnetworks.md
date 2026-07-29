@@ -60,7 +60,7 @@ name: MLnetworks
 nav: Providers
 network: true
 overview: MLnetworks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Telecommunications, Networks, Artificial Intelligence, and Machine Learning.
-random_paper: 70
+random_paper: 57
 score:
   band: minimal
   composite: 4.3

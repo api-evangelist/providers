@@ -164,7 +164,7 @@ overview: 'AlterEstate publishes 5 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   AlterEstate''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 18 more developer resources.'
-random_paper: 62
+random_paper: 48
 scopes:
 - name: Alterestate Scopes
   scope_count: 1

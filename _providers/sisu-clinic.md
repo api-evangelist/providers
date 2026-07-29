@@ -48,7 +48,7 @@ name: Sisu Clinic
 nav: Providers
 network: true
 overview: Sisu Clinic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Medical Aesthetics, Cosmetic Medicine, and Aesthetics.
-random_paper: 3
+random_paper: 70
 score:
   band: minimal
   composite: 5.4

@@ -158,7 +158,7 @@ plans:
 - name: Jotform Plans Pricing
   plan_count: 5
   slug: jotform-plans-pricing
-random_paper: 49
+random_paper: 40
 rate_limits:
 - limit_count: 9
   name: Jotform Rate Limits

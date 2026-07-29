@@ -79,7 +79,7 @@ overview: 'CO2 AI is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   CO2 AI''s developer surface includes signup flow, support, and 7 more developer resources.'
-random_paper: 27
+random_paper: 21
 score:
   band: emerging
   composite: 16.6

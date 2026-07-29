@@ -120,7 +120,7 @@ plans:
 - name: Usda Agricultural Research Service Ars  Plans Pricing
   plan_count: 3
   slug: usda-agricultural-research-service-ars--plans-pricing
-random_paper: 33
+random_paper: 66
 rate_limits:
 - limit_count: 5
   name: Usda Agricultural Research Service Ars  Rate Limits

@@ -64,7 +64,7 @@ overview: 'ConvenientPower is profiled on the [APIs.io](https://apis.io/) networ
 
 
   ConvenientPower''s developer surface includes support and 4 more developer resources.'
-random_paper: 38
+random_paper: 18
 score:
   band: minimal
   composite: 7.6

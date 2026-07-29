@@ -87,7 +87,7 @@ overview: 'Ridecell is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Ridecell''s developer surface includes engineering blog and 10 more developer resources.'
-random_paper: 36
+random_paper: 26
 score:
   band: emerging
   composite: 15.6

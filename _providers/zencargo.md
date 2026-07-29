@@ -119,7 +119,7 @@ plans:
 - name: Zencargo Plans Pricing
   plan_count: 1
   slug: zencargo-plans-pricing
-random_paper: 57
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: Zencargo Rate Limits

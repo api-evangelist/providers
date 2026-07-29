@@ -64,7 +64,7 @@ name: Hearst
 nav: Providers
 network: true
 overview: Hearst is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Media, Publishing, Broadcasting, Magazines, and Newspapers.
-random_paper: 52
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

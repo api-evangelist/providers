@@ -107,7 +107,7 @@ overview: 'Aside is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Aside''s developer surface includes documentation, getting-started guide, support, engineering blog, pricing, changelog, CLI, and 8 more developer resources.'
-random_paper: 38
+random_paper: 32
 score:
   band: emerging
   composite: 23.5

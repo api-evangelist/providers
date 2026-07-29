@@ -75,7 +75,7 @@ overview: 'Go To-U is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Go To-U''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: emerging
   composite: 14.6

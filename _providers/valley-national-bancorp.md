@@ -52,7 +52,7 @@ name: Valley National Bancorp
 nav: Providers
 network: true
 overview: Valley National Bancorp is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Banking, Financial Services, Regional Bank, Commercial Banking, and Consumer Banking.
-random_paper: 18
+random_paper: 70
 score:
   band: minimal
   composite: 4.9

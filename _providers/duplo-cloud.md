@@ -132,7 +132,7 @@ overview: 'Duplo Cloud is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Duplo Cloud''s developer surface includes documentation, getting-started guide, engineering blog, pricing, signup flow, support, authentication, and 14 more developer resources.'
-random_paper: 8
+random_paper: 75
 score:
   band: thin
   composite: 33.5

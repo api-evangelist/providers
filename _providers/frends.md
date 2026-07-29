@@ -80,7 +80,7 @@ plans:
 - name: Frends Plans Pricing
   plan_count: 3
   slug: frends-plans-pricing
-random_paper: 2
+random_paper: 75
 rate_limits:
 - limit_count: 5
   name: Frends Rate Limits

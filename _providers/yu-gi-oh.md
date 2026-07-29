@@ -284,7 +284,7 @@ overview: 'YGOPRODeck publishes 5 APIs on the [APIs.io](https://apis.io/) networ
 
 
   YGOPRODeck''s developer surface includes documentation, pricing, tooling, and 14 more developer resources.'
-random_paper: 31
+random_paper: 22
 rules:
 - name: YGOPRODeck API Rules
   rule_count: 5

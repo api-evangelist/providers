@@ -48,7 +48,7 @@ name: Welltok
 nav: Providers
 network: true
 overview: Welltok is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, SaaS, Consumer Engagement, and Consumer Activation.
-random_paper: 50
+random_paper: 41
 score:
   band: minimal
   composite: 5.4

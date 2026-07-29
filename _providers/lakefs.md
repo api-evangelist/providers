@@ -152,7 +152,7 @@ plans:
 - name: Lakefs Plans Pricing
   plan_count: 3
   slug: lakefs-plans-pricing
-random_paper: 70
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Lakefs Rate Limits

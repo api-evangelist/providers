@@ -255,7 +255,7 @@ plans:
 - name: Riot Games Plans Pricing
   plan_count: 3
   slug: riot-games-plans-pricing
-random_paper: 56
+random_paper: 44
 rate_limits:
 - limit_count: 5
   name: Riot Games Rate Limits

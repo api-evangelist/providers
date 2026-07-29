@@ -104,7 +104,7 @@ press:
 - date: '2025-10-24'
   title: Calumet Montana and Department of Revenue Finalize Property Tax Assessment
   url: https://calumet.com/calumet-montana-and-department-of-revenue-finalize-property-tax-assessment/
-random_paper: 19
+random_paper: 55
 score:
   band: minimal
   composite: 5.4

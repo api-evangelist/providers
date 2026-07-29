@@ -160,7 +160,7 @@ press:
 - date: '2026-05-25'
   title: WEC Energy Group announces plan to increase dividend by ...
   url: https://investor.wecenergygroup.com/investors/news-releases/press-release-details/2025/WEC-Energy-Group-announces-plan-to-increase-dividend-by-6-7-percent/default.aspx
-random_paper: 54
+random_paper: 42
 rate_limits:
 - limit_count: 1
   name: Wec Energy Rate Limits

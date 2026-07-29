@@ -44,7 +44,7 @@ name: Skillbridge
 nav: Providers
 network: true
 overview: Skillbridge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consulting, Freelance, Marketplace, and Talent.
-random_paper: 44
+random_paper: 30
 score:
   band: minimal
   composite: 5.0

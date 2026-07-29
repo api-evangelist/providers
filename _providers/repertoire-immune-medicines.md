@@ -71,7 +71,7 @@ overview: 'Repertoire Immune Medicines is profiled on the [APIs.io](https://apis
 
 
   Repertoire Immune Medicines'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 55
+random_paper: 21
 score:
   band: minimal
   composite: 12.3

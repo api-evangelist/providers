@@ -216,7 +216,7 @@ press:
 - date: '2026-05-25'
   title: Capital One reaps post-acquisition rewards
   url: https://www.bankingdive.com/news/capital-one-discover-integration-q3-earnings-auto-opportunity-profit-revenue-net-interest-income/803523/
-random_paper: 61
+random_paper: 48
 rate_limits:
 - limit_count: 1
   name: Capital One Rate Limits

@@ -71,7 +71,7 @@ overview: 'Clutter is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Clutter''s developer surface includes support, pricing, signup flow, and 4 more developer resources.'
-random_paper: 51
+random_paper: 42
 score:
   band: emerging
   composite: 14.8

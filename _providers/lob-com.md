@@ -67,7 +67,7 @@ overview: 'Lob.com publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Lob.com''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 41
+random_paper: 33
 score:
   band: minimal
   composite: 7.8

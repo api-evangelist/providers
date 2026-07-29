@@ -79,7 +79,7 @@ overview: 'Dil Mil is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Dil Mil''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 40
+random_paper: 32
 score:
   band: minimal
   composite: 11.3

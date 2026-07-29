@@ -59,7 +59,7 @@ overview: 'Rhoda Ai is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Rhoda Ai''s developer surface includes engineering blog, support, and 2 more developer resources.'
-random_paper: 53
+random_paper: 44
 score:
   band: minimal
   composite: 6.3

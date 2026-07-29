@@ -52,7 +52,7 @@ name: Yacob
 nav: Providers
 network: true
 overview: Yacob is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Nutrition, Education, Payments, and Cashless Payments.
-random_paper: 46
+random_paper: 40
 score:
   band: minimal
   composite: 6.3

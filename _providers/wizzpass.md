@@ -48,7 +48,7 @@ name: WizzPass
 nav: Providers
 network: true
 overview: WizzPass is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Visitor Management, Access Control, Workplace, and Security.
-random_paper: 27
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

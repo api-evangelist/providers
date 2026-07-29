@@ -79,7 +79,7 @@ overview: 'Tessera Labs is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Tessera Labs'' developer surface includes support and 8 more developer resources.'
-random_paper: 22
+random_paper: 7
 score:
   band: minimal
   composite: 10.1

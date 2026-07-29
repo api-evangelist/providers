@@ -48,7 +48,7 @@ name: Hortor Games
 nav: Providers
 network: true
 overview: Hortor Games is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Games, Gaming, Mobile Games, and Mini Games.
-random_paper: 75
+random_paper: 61
 score:
   band: minimal
   composite: 5.0

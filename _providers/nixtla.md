@@ -196,7 +196,7 @@ overview: 'Nixtla publishes 8 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Nixtla''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, pricing, and 22 more developer resources.'
-random_paper: 16
+random_paper: 8
 score:
   band: strong
   composite: 56.0

@@ -121,7 +121,7 @@ overview: 'Soda Health publishes 4 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Soda Health''s developer surface includes documentation, API reference, authentication, and 12 more developer resources.'
-random_paper: 58
+random_paper: 45
 score:
   band: thin
   composite: 29.0

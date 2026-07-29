@@ -246,7 +246,7 @@ overview: 'Huntress publishes 17 APIs on the [APIs.io](https://apis.io/) network
 
 
   Huntress'' developer surface includes documentation, API reference, support, engineering blog, pricing, signup flow, changelog, and 26 more developer resources.'
-random_paper: 12
+random_paper: 1
 scopes:
 - name: Huntress Scopes
   scope_count: 1

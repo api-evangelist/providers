@@ -119,7 +119,7 @@ overview: 'pfSense publishes 4 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   pfSense''s developer surface includes authentication, documentation, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 36
+random_paper: 27
 score:
   band: emerging
   composite: 27.4

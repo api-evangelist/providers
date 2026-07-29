@@ -66,7 +66,7 @@ overview: 'alexion-pharmaceuticals is profiled on the [APIs.io](https://apis.io/
 
 
   alexion-pharmaceuticals'' developer surface includes GitHub presence and 5 more developer resources.'
-random_paper: 67
+random_paper: 38
 score:
   band: minimal
   composite: 7.1

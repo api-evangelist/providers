@@ -79,7 +79,7 @@ overview: 'Geniebook is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Geniebook''s developer surface includes pricing, signup flow, engineering blog, support, and 5 more developer resources.'
-random_paper: 67
+random_paper: 56
 score:
   band: emerging
   composite: 15.2

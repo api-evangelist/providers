@@ -218,7 +218,7 @@ overview: 'BharatPe is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   BharatPe''s developer surface includes engineering blog and 35 more developer resources.'
-random_paper: 39
+random_paper: 29
 score:
   band: minimal
   composite: 12.1

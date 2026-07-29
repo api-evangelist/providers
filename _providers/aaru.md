@@ -84,7 +84,7 @@ overview: 'Aaru is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Aaru''s developer surface includes support and 9 more developer resources.'
-random_paper: 25
+random_paper: 20
 score:
   band: minimal
   composite: 10.6

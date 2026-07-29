@@ -48,7 +48,7 @@ name: Survata
 nav: Providers
 network: true
 overview: Survata is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Market Research, Survey, Brand Measurement, and Advertising.
-random_paper: 54
+random_paper: 45
 score:
   band: minimal
   composite: 5.0

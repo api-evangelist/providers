@@ -64,7 +64,7 @@ name: Melon Digital Insurance
 nav: Providers
 network: true
 overview: Melon Digital Insurance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Digital Insurance, and Saudi Arabia.
-random_paper: 11
+random_paper: 63
 score:
   band: minimal
   composite: 5.6

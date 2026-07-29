@@ -1159,7 +1159,7 @@ plans:
 - name: Amazon Connect Plans Pricing
   plan_count: 1
   slug: amazon-connect-plans-pricing
-random_paper: 77
+random_paper: 60
 rate_limits:
 - limit_count: 22
   name: Amazon Connect Rate Limits

@@ -104,7 +104,7 @@ overview: 'Wrapbook is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Wrapbook''s developer surface includes engineering blog, support, signup flow, authentication, changelog, and 10 more developer resources.'
-random_paper: 69
+random_paper: 59
 scopes:
 - name: Wrapbook Scopes
   scope_count: 21

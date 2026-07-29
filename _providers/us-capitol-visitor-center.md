@@ -69,7 +69,7 @@ plans:
 - name: Us Capitol Visitor Center Plans Pricing
   plan_count: 3
   slug: us-capitol-visitor-center-plans-pricing
-random_paper: 60
+random_paper: 29
 rate_limits:
 - limit_count: 5
   name: Us Capitol Visitor Center Rate Limits

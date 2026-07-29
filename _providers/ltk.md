@@ -100,7 +100,7 @@ overview: 'LTK publishes 1 API on the [APIs.io](https://apis.io/) network. Tagge
 
 
   LTK''s developer surface includes signup flow, support, authentication, and 10 more developer resources.'
-random_paper: 11
+random_paper: 7
 score:
   band: emerging
   composite: 21.7

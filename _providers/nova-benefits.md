@@ -71,7 +71,7 @@ overview: 'Nova Benefits is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Nova Benefits'' developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 49
+random_paper: 33
 score:
   band: emerging
   composite: 15.9

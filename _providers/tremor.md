@@ -39,7 +39,7 @@ name: Tremor
 nav: Providers
 network: true
 overview: Tremor is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Reinsurance, Insurance, Insurtech, and Marketplace.
-random_paper: 25
+random_paper: 17
 score:
   band: minimal
   composite: 4.3

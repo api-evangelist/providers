@@ -309,7 +309,7 @@ overview: 'Mend publishes 47 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mend''s developer surface includes authentication, changelog, CLI, documentation, API reference, getting-started guide, support, and 21 more developer resources.'
-random_paper: 20
+random_paper: 15
 score:
   band: developing
   composite: 50.0

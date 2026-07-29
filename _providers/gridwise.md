@@ -79,7 +79,7 @@ overview: 'Gridwise is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Gridwise''s developer surface includes support, engineering blog, and 7 more developer resources.'
-random_paper: 62
+random_paper: 52
 score:
   band: minimal
   composite: 11.3

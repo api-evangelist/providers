@@ -107,7 +107,7 @@ overview: 'United States Botanic Garden is profiled on the [APIs.io](https://api
 
 
   United States Botanic Garden''s developer surface includes engineering blog and 11 more developer resources.'
-random_paper: 5
+random_paper: 51
 rules:
 - name: United States Botanic Garden API Rules
   rule_count: 5

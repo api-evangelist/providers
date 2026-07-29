@@ -91,7 +91,7 @@ overview: 'TypeLaw is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   TypeLaw''s developer surface includes engineering blog, pricing, support, signup flow, and 8 more developer resources.'
-random_paper: 54
+random_paper: 45
 score:
   band: emerging
   composite: 17.8

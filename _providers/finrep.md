@@ -95,7 +95,7 @@ overview: 'Finrep is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Finrep''s developer surface includes documentation, engineering blog, pricing, signup flow, and 9 more developer resources.'
-random_paper: 4
+random_paper: 77
 score:
   band: emerging
   composite: 20.0

@@ -48,7 +48,7 @@ name: circanews
 nav: Providers
 network: true
 overview: circanews is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 79
+random_paper: 68
 score:
   band: minimal
   composite: 4.1

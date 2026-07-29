@@ -128,7 +128,7 @@ overview: 'Class Technologies publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Class Technologies'' developer surface includes documentation, API reference, support, engineering blog, signup flow, authentication, and 13 more developer resources.'
-random_paper: 23
+random_paper: 0
 scopes:
 - name: Class Technologies Scopes
   scope_count: 12

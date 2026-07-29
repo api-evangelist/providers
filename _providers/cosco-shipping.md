@@ -91,7 +91,7 @@ overview: 'COSCO Shipping is profiled on the [APIs.io](https://apis.io/) network
 
 
   COSCO Shipping''s developer surface includes product news and 11 more developer resources.'
-random_paper: 6
+random_paper: 69
 score:
   band: minimal
   composite: 9.3

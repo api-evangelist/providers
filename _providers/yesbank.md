@@ -44,7 +44,7 @@ name: Yesbank
 nav: Providers
 network: true
 overview: Yesbank is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Unknown.
-random_paper: 29
+random_paper: 20
 score:
   band: minimal
   composite: 4.1

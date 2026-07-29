@@ -932,7 +932,7 @@ overview: 'Amazon CodeStar publishes 18 APIs on the [APIs.io](https://apis.io/) 
 
 
   Amazon CodeStar''s developer surface includes authentication, developer portal, documentation, support, developer console, signup flow, and 15 more developer resources.'
-random_paper: 24
+random_paper: 5
 rules:
 - name: Amazon CodeStar API Rules
   rule_count: 5

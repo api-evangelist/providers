@@ -194,7 +194,7 @@ plans:
 - name: Warp Plans Pricing
   plan_count: 5
   slug: warp-plans-pricing
-random_paper: 42
+random_paper: 37
 rate_limits:
 - limit_count: 3
   name: Warp Rate Limits

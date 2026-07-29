@@ -152,7 +152,7 @@ overview: 'Intrinsic is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Intrinsic''s developer surface includes documentation, GitHub presence, engineering blog, YouTube channel, and 21 more developer resources.'
-random_paper: 26
+random_paper: 11
 score:
   band: emerging
   composite: 15.3

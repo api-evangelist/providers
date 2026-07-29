@@ -91,7 +91,7 @@ overview: 'Metricwire publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Metricwire''s developer surface includes support and 10 more developer resources.'
-random_paper: 43
+random_paper: 30
 score:
   band: emerging
   composite: 20.4

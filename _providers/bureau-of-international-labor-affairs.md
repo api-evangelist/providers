@@ -87,7 +87,7 @@ plans:
 - name: Bureau Of International Labor Affairs Plans Pricing
   plan_count: 3
   slug: bureau-of-international-labor-affairs-plans-pricing
-random_paper: 17
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Bureau Of International Labor Affairs Rate Limits

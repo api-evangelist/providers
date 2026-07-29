@@ -83,7 +83,7 @@ overview: 'Ritten is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Ritten''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 22
+random_paper: 14
 score:
   band: emerging
   composite: 19.2

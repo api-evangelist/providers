@@ -48,7 +48,7 @@ name: TRIANA Biomedicines
 nav: Providers
 network: true
 overview: TRIANA Biomedicines is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotech, Drug Discovery, Pharmaceuticals, and Life Sciences.
-random_paper: 23
+random_paper: 80
 score:
   band: minimal
   composite: 5.4

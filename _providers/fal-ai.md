@@ -471,7 +471,7 @@ plans:
 - name: Fal Ai Plans Pricing
   plan_count: 2
   slug: fal-ai-plans-pricing
-random_paper: 74
+random_paper: 68
 rate_limits:
 - limit_count: 5
   name: Fal Ai Rate Limits

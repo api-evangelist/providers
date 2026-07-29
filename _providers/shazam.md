@@ -152,7 +152,7 @@ plans:
 - name: Shazam Plans Pricing
   plan_count: 7
   slug: shazam-plans-pricing
-random_paper: 4
+random_paper: 77
 rate_limits:
 - limit_count: 11
   name: Shazam Rate Limits

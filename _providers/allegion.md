@@ -317,7 +317,7 @@ plans:
 - name: Allegion Plans Pricing
   plan_count: 3
   slug: allegion-plans-pricing
-random_paper: 43
+random_paper: 33
 rate_limits:
 - limit_count: 7
   name: Allegion Rate Limits

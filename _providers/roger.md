@@ -75,7 +75,7 @@ overview: 'Roger is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Roger''s developer surface includes pricing, support, engineering blog, and 5 more developer resources.'
-random_paper: 63
+random_paper: 57
 score:
   band: emerging
   composite: 15.6

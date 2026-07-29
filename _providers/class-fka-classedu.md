@@ -181,7 +181,7 @@ overview: 'Class (fka ClassEDU) publishes 7 APIs on the [APIs.io](https://apis.i
 
 
   Class (fka ClassEDU)''s developer surface includes authentication, documentation, API reference, support, engineering blog, and 21 more developer resources.'
-random_paper: 22
+random_paper: 0
 score:
   band: developing
   composite: 42.3

@@ -48,7 +48,7 @@ name: Cornami
 nav: Providers
 network: true
 overview: Cornami is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Semiconductors, High Performance Computing, and Fully Homomorphic Encryption.
-random_paper: 25
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

@@ -132,7 +132,7 @@ plans:
 - name: Skimmer Pool Plans Pricing
   plan_count: 3
   slug: skimmer-pool-plans-pricing
-random_paper: 47
+random_paper: 32
 rate_limits:
 - limit_count: 1
   name: Skimmer Pool Rate Limits

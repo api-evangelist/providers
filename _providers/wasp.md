@@ -123,7 +123,7 @@ overview: 'Wasp is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Wasp''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, CLI, changelog, and 13 more developer resources.'
-random_paper: 43
+random_paper: 38
 score:
   band: emerging
   composite: 25.9

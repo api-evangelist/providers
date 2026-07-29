@@ -1689,7 +1689,7 @@ plans:
 - name: Scaleway Plans Pricing
   plan_count: 2
   slug: scaleway-plans-pricing
-random_paper: 57
+random_paper: 47
 rate_limits:
 - limit_count: 2
   name: Scaleway Rate Limits

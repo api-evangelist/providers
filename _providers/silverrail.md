@@ -67,7 +67,7 @@ overview: 'SilverRail is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   SilverRail''s developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 45
+random_paper: 32
 score:
   band: minimal
   composite: 9.1

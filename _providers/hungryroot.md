@@ -71,7 +71,7 @@ overview: 'Hungryroot is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Hungryroot''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 1
+random_paper: 68
 score:
   band: minimal
   composite: 11.3

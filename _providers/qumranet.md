@@ -48,7 +48,7 @@ name: Qumranet
 nav: Providers
 network: true
 overview: Qumranet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Virtualization, KVM, SPICE, and Hypervisor.
-random_paper: 77
+random_paper: 67
 score:
   band: minimal
   composite: 5.0

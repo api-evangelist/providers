@@ -1437,7 +1437,7 @@ plans:
 - name: Amazon Incident Manager Plans Pricing
   plan_count: 3
   slug: amazon-incident-manager-plans-pricing
-random_paper: 73
+random_paper: 45
 rate_limits:
 - limit_count: 5
   name: Amazon Incident Manager Rate Limits

@@ -103,7 +103,7 @@ overview: 'Arm is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Arm''s developer surface includes documentation, getting-started guide, support, engineering blog, and 11 more developer resources.'
-random_paper: 0
+random_paper: 77
 score:
   band: emerging
   composite: 20.1

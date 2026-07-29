@@ -83,7 +83,7 @@ overview: 'Capim is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Capim''s developer surface includes pricing, signup flow, engineering blog, support, and 6 more developer resources.'
-random_paper: 42
+random_paper: 36
 score:
   band: emerging
   composite: 16.2

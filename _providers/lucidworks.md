@@ -230,7 +230,7 @@ plans:
 - name: Lucidworks Plans Pricing
   plan_count: 1
   slug: lucidworks-plans-pricing
-random_paper: 55
+random_paper: 42
 rate_limits:
 - limit_count: 2
   name: Lucidworks Rate Limits

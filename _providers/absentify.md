@@ -283,7 +283,7 @@ plans:
 - name: Absentify Plans Pricing
   plan_count: 3
   slug: absentify-plans-pricing
-random_paper: 5
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Absentify Rate Limits

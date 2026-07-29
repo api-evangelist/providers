@@ -163,7 +163,7 @@ overview: 'Kuru publishes 2 APIs on the [APIs.io](https://apis.io/) network: Gen
 
 
   Kuru''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 20 more developer resources.'
-random_paper: 55
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Kuru Rate Limits

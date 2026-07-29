@@ -167,7 +167,7 @@ plans:
 - name: Google Cloud Binary Authorization Plans Pricing
   plan_count: 3
   slug: google-cloud-binary-authorization-plans-pricing
-random_paper: 17
+random_paper: 56
 rate_limits:
 - limit_count: 5
   name: Google Cloud Binary Authorization Rate Limits

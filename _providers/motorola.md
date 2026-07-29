@@ -67,7 +67,7 @@ overview: 'Motorola is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Motorola''s developer surface includes support and 5 more developer resources.'
-random_paper: 77
+random_paper: 67
 score:
   band: minimal
   composite: 11.9

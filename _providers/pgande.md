@@ -55,7 +55,7 @@ name: pgande
 nav: Providers
 network: true
 overview: pgande is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 63
+random_paper: 56
 score:
   band: minimal
   composite: 4.2

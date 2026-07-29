@@ -39,7 +39,7 @@ name: Peerflix Media Network
 nav: Providers
 network: true
 overview: Peerflix Media Network is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Advertising, Video, and Movies.
-random_paper: 3
+random_paper: 56
 score:
   band: minimal
   composite: 5.0

@@ -121,7 +121,7 @@ plans:
 - name: Moodle Plans Pricing
   plan_count: 3
   slug: moodle-plans-pricing
-random_paper: 0
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Moodle Rate Limits

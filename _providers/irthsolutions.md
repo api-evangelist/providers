@@ -88,7 +88,7 @@ overview: 'Irth Solutions publishes 1 API on the [APIs.io](https://apis.io/) net
 
 
   Irth Solutions'' developer surface includes authentication, documentation, API reference, support, engineering blog, and 5 more developer resources.'
-random_paper: 7
+random_paper: 70
 score:
   band: emerging
   composite: 21.2

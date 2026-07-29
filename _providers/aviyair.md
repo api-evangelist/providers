@@ -72,7 +72,7 @@ plans:
 - name: Aviyair Plans Pricing
   plan_count: 3
   slug: aviyair-plans-pricing
-random_paper: 37
+random_paper: 28
 rate_limits:
 - limit_count: 5
   name: Aviyair Rate Limits

@@ -63,7 +63,7 @@ overview: 'AgadoLive is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   AgadoLive''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 60
+random_paper: 49
 score:
   band: minimal
   composite: 10.8

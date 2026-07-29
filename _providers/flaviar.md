@@ -120,7 +120,7 @@ overview: 'Flaviar publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Flaviar''s developer surface includes documentation, signup flow, pricing, authentication, and 13 more developer resources.'
-random_paper: 21
+random_paper: 12
 scopes:
 - name: Flaviar Scopes
   scope_count: 4

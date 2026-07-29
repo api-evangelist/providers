@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: Sack Kraft Paper Market Size Accelerating at 5.8% CAGR
   url: https://www.openpr.com/news/4493241/sack-kraft-paper-market-size-accelerating-at-5-8-cagr-by-key
-random_paper: 60
+random_paper: 26
 score:
   band: minimal
   composite: 5.0

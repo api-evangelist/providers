@@ -44,7 +44,7 @@ name: Merkle
 nav: Providers
 network: true
 overview: Merkle is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Crypto, Analytics, Risk Management, and Blockchain.
-random_paper: 0
+random_paper: 73
 score:
   band: minimal
   composite: 5.0

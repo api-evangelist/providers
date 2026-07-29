@@ -67,7 +67,7 @@ overview: 'ScoreBig (TicketNetwork) is profiled on the [APIs.io](https://apis.io
 
 
   ScoreBig (TicketNetwork)''s developer surface includes support and 5 more developer resources.'
-random_paper: 73
+random_paper: 45
 score:
   band: minimal
   composite: 10.1

@@ -67,7 +67,7 @@ overview: 'Tripitaca, Inc. is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Tripitaca, Inc.''s developer surface includes signup flow, pricing, and 4 more developer resources.'
-random_paper: 40
+random_paper: 24
 score:
   band: emerging
   composite: 13.9

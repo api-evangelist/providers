@@ -111,7 +111,7 @@ plans:
 - name: Cleanup Pictures Plans Pricing
   plan_count: 3
   slug: cleanup-pictures-plans-pricing
-random_paper: 68
+random_paper: 48
 rate_limits:
 - limit_count: 4
   name: Cleanup Pictures Rate Limits

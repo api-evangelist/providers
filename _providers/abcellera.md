@@ -88,7 +88,7 @@ name: AbCellera
 nav: Providers
 network: true
 overview: AbCellera is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Antibody Discovery, Biotech, Pharmaceuticals, Monoclonal Antibodies, and Bispecifics.
-random_paper: 43
+random_paper: 32
 score:
   band: minimal
   composite: 5.7

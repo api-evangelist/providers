@@ -64,7 +64,7 @@ name: ThreatTrack Security
 nav: Providers
 network: true
 overview: ThreatTrack Security is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, Threat Intelligence, Malware Analysis, and Sandboxing.
-random_paper: 34
+random_paper: 8
 score:
   band: minimal
   composite: 9.5

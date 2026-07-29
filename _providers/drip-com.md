@@ -180,7 +180,7 @@ overview: 'Drip publishes 2 APIs on the [APIs.io](https://apis.io/) network. Tag
 
 
   Drip''s developer surface includes developer portal, documentation, API reference, authentication, signup flow, developer console, support, and 16 more developer resources.'
-random_paper: 75
+random_paper: 66
 score:
   band: thin
   composite: 28.4

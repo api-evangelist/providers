@@ -123,7 +123,7 @@ plans:
 - name: Iconik Plans Pricing
   plan_count: 3
   slug: iconik-plans-pricing
-random_paper: 77
+random_paper: 70
 rate_limits:
 - limit_count: 3
   name: Iconik Rate Limits

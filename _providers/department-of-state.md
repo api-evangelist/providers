@@ -112,7 +112,7 @@ plans:
 - name: Department Of State Plans Pricing
   plan_count: 3
   slug: department-of-state-plans-pricing
-random_paper: 4
+random_paper: 61
 rate_limits:
 - limit_count: 5
   name: Department Of State Rate Limits

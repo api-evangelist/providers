@@ -846,7 +846,7 @@ plans:
 - name: Google Cloud Platform Plans Pricing
   plan_count: 5
   slug: google-cloud-platform-plans-pricing
-random_paper: 51
+random_paper: 25
 rate_limits:
 - limit_count: 7
   name: Google Cloud Platform Rate Limits

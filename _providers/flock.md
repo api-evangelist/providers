@@ -52,7 +52,7 @@ name: Flock
 nav: Providers
 network: true
 overview: Flock is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Insurance, Insurtech, Commercial Motor, and Fleet.
-random_paper: 47
+random_paper: 41
 score:
   band: minimal
   composite: 6.2

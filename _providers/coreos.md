@@ -49,7 +49,7 @@ name: CoreOS
 nav: Providers
 network: true
 overview: CoreOS is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Containers, Kubernetes, Cloud Native, and Linux.
-random_paper: 11
+random_paper: 3
 score:
   band: minimal
   composite: 5.7

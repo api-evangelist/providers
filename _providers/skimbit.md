@@ -189,7 +189,7 @@ overview: 'SkimBit publishes 8 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   SkimBit''s developer surface includes documentation, API reference, signup flow, support, engineering blog, authentication, and 21 more developer resources.'
-random_paper: 35
+random_paper: 26
 rate_limits:
 - limit_count: 0
   name: Skimbit Rate Limits

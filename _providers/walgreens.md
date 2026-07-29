@@ -188,7 +188,7 @@ press:
 - date: '2026-05-25'
   title: Walgreens Turns to Digital Transformation | AVI Blog
   url: https://www.avi.com/content-hub/walgreens-turns-to-digital-transformation-to-enhance-the-customer-experience/
-random_paper: 8
+random_paper: 77
 rate_limits:
 - limit_count: 1
   name: Walgreens Rate Limits

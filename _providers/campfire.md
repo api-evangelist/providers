@@ -211,7 +211,7 @@ overview: 'Campfire publishes 12 APIs on the [APIs.io](https://apis.io/) network
 
 
   Campfire''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, engineering blog, and 21 more developer resources.'
-random_paper: 39
+random_paper: 29
 scopes:
 - name: Campfire Scopes
   scope_count: 3

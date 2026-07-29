@@ -112,7 +112,7 @@ plans:
 - name: Synup Plans Pricing
   plan_count: 3
   slug: synup-plans-pricing
-random_paper: 15
+random_paper: 8
 rate_limits:
 - limit_count: 0
   name: Synup Rate Limits

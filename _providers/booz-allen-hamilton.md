@@ -133,7 +133,7 @@ press:
 - date: '2026-05-25'
   title: Booz Allen outlines tech strategy and key risks
   url: https://www.stocktitan.net/sec-filings/BAH/10-k-booz-allen-hamilton-holding-corp-files-annual-report-f81cdf47fedf.html
-random_paper: 76
+random_paper: 53
 score:
   band: minimal
   composite: 6.1

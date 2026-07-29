@@ -132,7 +132,7 @@ overview: 'Obot is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Obot''s developer surface includes developer portal, documentation, getting-started guide, engineering blog, support, authentication, CLI, and 14 more developer resources.'
-random_paper: 36
+random_paper: 31
 score:
   band: thin
   composite: 29.0

@@ -99,7 +99,7 @@ overview: 'Mosaic Ml is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Mosaic Ml''s developer surface includes documentation, getting-started guide, engineering blog, CLI, changelog, and 9 more developer resources.'
-random_paper: 18
+random_paper: 7
 score:
   band: emerging
   composite: 18.3

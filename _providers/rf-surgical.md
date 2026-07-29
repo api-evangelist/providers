@@ -39,7 +39,7 @@ name: Rf Surgical
 nav: Providers
 network: true
 overview: Rf Surgical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Healthcare, Surgical, and Patient Safety.
-random_paper: 79
+random_paper: 66
 score:
   band: minimal
   composite: 4.3

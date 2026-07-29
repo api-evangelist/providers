@@ -164,7 +164,7 @@ overview: 'Patients Know Best publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Patients Know Best''s developer surface includes documentation, API reference, support, engineering blog, signup flow, changelog, authentication, and 21 more developer resources.'
-random_paper: 79
+random_paper: 57
 score:
   band: thin
   composite: 41.4

@@ -602,7 +602,7 @@ plans:
 - name: Indeed Plans Pricing
   plan_count: 2
   slug: indeed-plans-pricing
-random_paper: 57
+random_paper: 50
 rate_limits:
 - limit_count: 1
   name: Indeed Rate Limits

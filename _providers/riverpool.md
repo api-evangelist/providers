@@ -48,7 +48,7 @@ name: Riverpool
 nav: Providers
 network: true
 overview: Riverpool is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Data, Data Stack, and Data Infrastructure.
-random_paper: 34
+random_paper: 22
 score:
   band: minimal
   composite: 5.0

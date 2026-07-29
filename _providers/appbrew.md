@@ -87,7 +87,7 @@ overview: 'Appbrew is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Appbrew''s developer surface includes documentation, support, pricing, engineering blog, signup flow, changelog, and 5 more developer resources.'
-random_paper: 33
+random_paper: 24
 score:
   band: emerging
   composite: 20.9

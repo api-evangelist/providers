@@ -190,7 +190,7 @@ overview: 'Exchange Data International publishes 24 APIs on the [APIs.io](https:
 
 
   Exchange Data International''s developer surface includes authentication, sandbox, API reference, developer portal, documentation, signup flow, engineering blog, and 11 more developer resources.'
-random_paper: 15
+random_paper: 62
 score:
   band: thin
   composite: 28.4

@@ -75,7 +75,7 @@ overview: 'AirPR is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   AirPR''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 62
+random_paper: 56
 score:
   band: emerging
   composite: 13.7

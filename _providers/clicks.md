@@ -99,7 +99,7 @@ overview: 'Clicks is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Clicks'' developer surface includes engineering blog, changelog, support, and 11 more developer resources.'
-random_paper: 73
+random_paper: 66
 score:
   band: emerging
   composite: 23.1

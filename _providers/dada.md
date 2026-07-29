@@ -56,7 +56,7 @@ name: Dada
 nav: Providers
 network: true
 overview: Dada is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Delivery, Logistics, and Instant Retail.
-random_paper: 74
+random_paper: 70
 score:
   band: minimal
   composite: 6.7

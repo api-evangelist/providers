@@ -67,7 +67,7 @@ overview: 'Chief is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Chief''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 31
+random_paper: 25
 score:
   band: minimal
   composite: 11.8

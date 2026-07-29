@@ -48,7 +48,7 @@ name: jiayuan
 nav: Providers
 network: true
 overview: jiayuan is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Online Dating, Matchmaking, Social, and Consumer.
-random_paper: 33
+random_paper: 24
 score:
   band: minimal
   composite: 5.0

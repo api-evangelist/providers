@@ -59,7 +59,7 @@ overview: 'Formation Bio is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Formation Bio''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 15
+random_paper: 3
 score:
   band: minimal
   composite: 8.3

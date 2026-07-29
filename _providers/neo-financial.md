@@ -75,7 +75,7 @@ overview: 'Neo Financial is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Neo Financial''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 20
+random_paper: 4
 score:
   band: minimal
   composite: 12.2

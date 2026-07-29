@@ -63,7 +63,7 @@ overview: 'Generalist AI is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Generalist AI''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 37
+random_paper: 21
 score:
   band: minimal
   composite: 7.0

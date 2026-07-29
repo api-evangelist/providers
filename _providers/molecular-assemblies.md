@@ -44,7 +44,7 @@ name: Molecular Assemblies
 nav: Providers
 network: true
 overview: Molecular Assemblies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Synthetic Biology, DNA Synthesis, and Life Sciences.
-random_paper: 73
+random_paper: 48
 score:
   band: minimal
   composite: 4.3

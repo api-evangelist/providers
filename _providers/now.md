@@ -112,7 +112,7 @@ overview: 'DNOW publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   DNOW''s developer surface includes developer portal and 8 more developer resources.'
-random_paper: 20
+random_paper: 16
 score:
   band: minimal
   composite: 7.7

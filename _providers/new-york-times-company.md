@@ -325,7 +325,7 @@ plans:
 - name: New York Times Company Plans Pricing
   plan_count: 1
   slug: new-york-times-company-plans-pricing
-random_paper: 63
+random_paper: 36
 rate_limits:
 - limit_count: 4
   name: New York Times Company Rate Limits

@@ -48,7 +48,7 @@ name: Blue Frog Gaming
 nav: Providers
 network: true
 overview: Blue Frog Gaming is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Video Games, Browser Games, and Social Games.
-random_paper: 51
+random_paper: 32
 score:
   band: minimal
   composite: 5.0

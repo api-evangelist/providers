@@ -612,7 +612,7 @@ plans:
 - name: Paytronix Plans Pricing
   plan_count: 2
   slug: paytronix-plans-pricing
-random_paper: 46
+random_paper: 34
 rate_limits:
 - limit_count: 2
   name: Paytronix Rate Limits

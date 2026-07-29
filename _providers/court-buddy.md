@@ -44,7 +44,7 @@ name: Court Buddy
 nav: Providers
 network: true
 overview: Court Buddy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Legal, Legal Services, Legal Tech, and Marketplace.
-random_paper: 18
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

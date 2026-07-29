@@ -203,7 +203,7 @@ overview: 'Cintoo publishes 21 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Cintoo''s developer surface includes documentation, support, engineering blog, authentication, sandbox, CLI, and 15 more developer resources.'
-random_paper: 12
+random_paper: 4
 scopes:
 - name: Cintoo Scopes
   scope_count: 0

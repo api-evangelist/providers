@@ -67,7 +67,7 @@ overview: 'Pickle Robot is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Pickle Robot''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 27
+random_paper: 12
 score:
   band: minimal
   composite: 9.1

@@ -157,7 +157,7 @@ overview: 'Wideo publishes 2 APIs on the [APIs.io](https://apis.io/) network: Au
 
 
   Wideo''s developer surface includes authentication, documentation, API reference, pricing, engineering blog, support, signup flow, and 15 more developer resources.'
-random_paper: 56
+random_paper: 50
 score:
   band: developing
   composite: 46.3

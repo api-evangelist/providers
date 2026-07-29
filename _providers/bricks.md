@@ -67,7 +67,7 @@ overview: 'BRICKS is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   BRICKS''s developer surface includes support, changelog, pricing, signup flow, and 2 more developer resources.'
-random_paper: 78
+random_paper: 71
 score:
   band: minimal
   composite: 12.7

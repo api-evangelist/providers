@@ -52,7 +52,7 @@ name: OpenEnglish
 nav: Providers
 network: true
 overview: OpenEnglish is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, Language Learning, EdTech, and English.
-random_paper: 60
+random_paper: 46
 score:
   band: minimal
   composite: 5.7

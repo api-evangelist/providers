@@ -52,7 +52,7 @@ name: Ubiquisys
 nav: Providers
 network: true
 overview: Ubiquisys is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Mobile, Femtocells, Small Cells, and Telecommunications.
-random_paper: 46
+random_paper: 34
 score:
   band: minimal
   composite: 6.1

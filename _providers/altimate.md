@@ -119,7 +119,7 @@ overview: 'Altimate is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Altimate''s developer surface includes documentation, engineering blog, pricing, signup flow, support, CLI, changelog, and 11 more developer resources.'
-random_paper: 49
+random_paper: 39
 score:
   band: thin
   composite: 28.1

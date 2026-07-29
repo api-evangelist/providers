@@ -63,7 +63,7 @@ overview: 'BlueLayer is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   BlueLayer''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 5
+random_paper: 74
 score:
   band: minimal
   composite: 10.2

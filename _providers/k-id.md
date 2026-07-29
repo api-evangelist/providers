@@ -167,7 +167,7 @@ overview: 'k-ID publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   k-ID''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 20 more developer resources.'
-random_paper: 37
+random_paper: 33
 score:
   band: developing
   composite: 49.6

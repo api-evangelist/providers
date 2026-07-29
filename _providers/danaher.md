@@ -112,7 +112,7 @@ press:
 - date: '2026-05-25'
   title: Danaher | Events and Presentations
   url: https://investors.danaher.com/events-presentations
-random_paper: 3
+random_paper: 75
 score:
   band: minimal
   composite: 5.4

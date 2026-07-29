@@ -71,7 +71,7 @@ overview: 'Moj.io is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Moj.io''s developer surface includes support, engineering blog, and 5 more developer resources.'
-random_paper: 62
+random_paper: 56
 score:
   band: minimal
   composite: 10.5

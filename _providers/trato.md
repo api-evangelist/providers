@@ -187,7 +187,7 @@ overview: 'Trato publishes 5 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Trato''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, authentication, and 22 more developer resources.'
-random_paper: 74
+random_paper: 68
 score:
   band: developing
   composite: 51.3

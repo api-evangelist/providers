@@ -71,7 +71,7 @@ overview: 'Vaya is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Vaya''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 33
+random_paper: 28
 score:
   band: minimal
   composite: 12.4

@@ -67,7 +67,7 @@ overview: 'Atmosfy is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Atmosfy''s developer surface includes support and 5 more developer resources.'
-random_paper: 51
+random_paper: 42
 score:
   band: minimal
   composite: 11.2

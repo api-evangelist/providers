@@ -48,7 +48,7 @@ name: Earendil Robotics
 nav: Providers
 network: true
 overview: Earendil Robotics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Defense, Drones, and Counter-UAS.
-random_paper: 70
+random_paper: 49
 score:
   band: minimal
   composite: 5.0

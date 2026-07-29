@@ -60,7 +60,7 @@ name: Nuvelar
 nav: Providers
 network: true
 overview: Nuvelar is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Signage, Digital Experience, Software Development, and Consulting.
-random_paper: 45
+random_paper: 36
 score:
   band: minimal
   composite: 9.5

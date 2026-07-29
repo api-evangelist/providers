@@ -1553,7 +1553,7 @@ plans:
 - name: Amazon Iam Access Analyzer Plans Pricing
   plan_count: 3
   slug: amazon-iam-access-analyzer-plans-pricing
-random_paper: 28
+random_paper: 77
 rate_limits:
 - limit_count: 5
   name: Amazon Iam Access Analyzer Rate Limits

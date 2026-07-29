@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Kennametal Announces Strategic Investment in CAM AI ...
   url: https://www.prnewswire.com/news-releases/kennametal-announces-strategic-investment-in-cam-ai-software-leader-toolpath-labs-to-advance-intelligent-machining-302463424.html
-random_paper: 16
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

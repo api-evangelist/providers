@@ -60,7 +60,7 @@ name: HTML5
 nav: Providers
 network: true
 overview: HTML5 is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Frontend, HTML5, Living Standard, Markup Language, and Multimedia.
-random_paper: 10
+random_paper: 4
 score:
   band: minimal
   composite: 6.3

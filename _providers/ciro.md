@@ -91,7 +91,7 @@ overview: 'Ciro is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Ciro''s developer surface includes engineering blog, signup flow, and 10 more developer resources.'
-random_paper: 29
+random_paper: 24
 score:
   band: emerging
   composite: 18.2

@@ -48,7 +48,7 @@ name: Good & Co.
 nav: Providers
 network: true
 overview: Good & Co. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Personality Assessment, Psychometrics, Hiring, and Human Resources.
-random_paper: 72
+random_paper: 60
 score:
   band: minimal
   composite: 5.0

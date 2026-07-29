@@ -83,7 +83,7 @@ overview: 'App Onboard is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   App Onboard''s developer surface includes pricing, engineering blog, support, and 7 more developer resources.'
-random_paper: 67
+random_paper: 54
 score:
   band: emerging
   composite: 15.2

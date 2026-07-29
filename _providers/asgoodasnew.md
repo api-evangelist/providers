@@ -48,7 +48,7 @@ name: asgoodasnew
 nav: Providers
 network: true
 overview: asgoodasnew is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Retail, Refurbished Electronics, and Consumer Electronics.
-random_paper: 59
+random_paper: 45
 score:
   band: minimal
   composite: 5.0

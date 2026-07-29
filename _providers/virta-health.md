@@ -79,7 +79,7 @@ overview: 'Virta Health is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Virta Health''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 25
+random_paper: 10
 score:
   band: emerging
   composite: 16.7

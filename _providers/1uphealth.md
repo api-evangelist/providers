@@ -220,7 +220,7 @@ overview: '1upHealth publishes 10 APIs on the [APIs.io](https://apis.io/) networ
 
 
   1upHealth''s developer surface includes documentation, engineering blog, support, signup flow, API reference, getting-started guide, authentication, and 26 more developer resources.'
-random_paper: 28
+random_paper: 17
 scopes:
 - name: 1Uphealth Scopes
   scope_count: 1

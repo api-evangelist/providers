@@ -52,7 +52,7 @@ name: Intelligence Factory
 nav: Providers
 network: true
 overview: Intelligence Factory is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Embodied AI, Foundation Models, and Robotic Manipulation.
-random_paper: 72
+random_paper: 47
 score:
   band: minimal
   composite: 5.0

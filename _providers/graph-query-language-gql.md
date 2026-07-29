@@ -67,7 +67,7 @@ overview: 'Graph Query Language (GQL) is profiled on the [APIs.io](https://apis.
 
 
   Graph Query Language (GQL)''s developer surface includes developer portal, documentation, and 4 more developer resources.'
-random_paper: 71
+random_paper: 42
 score:
   band: minimal
   composite: 9.2

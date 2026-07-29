@@ -56,7 +56,7 @@ name: Oto Capital
 nav: Providers
 network: true
 overview: Oto Capital is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Two-Wheeler, Financing, Fintech, and Lending.
-random_paper: 77
+random_paper: 64
 score:
   band: minimal
   composite: 9.2

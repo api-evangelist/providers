@@ -123,7 +123,7 @@ overview: 'Bosch publishes 5 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Bosch''s developer surface includes developer portal and 8 more developer resources.'
-random_paper: 47
+random_paper: 41
 score:
   band: minimal
   composite: 12.1

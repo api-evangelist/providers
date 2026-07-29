@@ -44,7 +44,7 @@ name: Juxta Labs
 nav: Providers
 network: true
 overview: Juxta Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Social, Mobile Apps, Gaming, and Consumer.
-random_paper: 59
+random_paper: 47
 score:
   band: minimal
   composite: 5.0

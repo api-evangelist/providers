@@ -87,7 +87,7 @@ overview: 'fuboTV is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   fuboTV''s developer surface includes signup flow, pricing, engineering blog, legal docs, and 7 more developer resources.'
-random_paper: 22
+random_paper: 14
 score:
   band: emerging
   composite: 15.2

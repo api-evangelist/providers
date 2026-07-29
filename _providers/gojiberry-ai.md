@@ -192,7 +192,7 @@ overview: 'Gojiberry AI publishes 8 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Gojiberry AI''s developer surface includes developer portal, documentation, API reference, authentication, pricing, signup flow, support, and 21 more developer resources.'
-random_paper: 20
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Gojiberry Ai Rate Limits

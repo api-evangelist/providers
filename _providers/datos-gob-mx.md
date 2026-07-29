@@ -84,7 +84,7 @@ plans:
 - name: Datos Gob Mx Plans Pricing
   plan_count: 1
   slug: datos-gob-mx-plans-pricing
-random_paper: 50
+random_paper: 36
 rate_limits:
 - limit_count: 1
   name: Datos Gob Mx Rate Limits

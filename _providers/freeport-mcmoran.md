@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: AI Mining Production Case Study | Tech and AI
   url: https://www.mckinsey.com/capabilities/tech-and-ai/how-we-help-clients/rewired-in-action/freeport-mcmoran-unlocking-new-mining-production-through-ai-transformation
-random_paper: 65
+random_paper: 45
 score:
   band: minimal
   composite: 5.0

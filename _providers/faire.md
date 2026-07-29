@@ -92,7 +92,7 @@ plans:
 - name: Faire Plans Pricing
   plan_count: 2
   slug: faire-plans-pricing
-random_paper: 39
+random_paper: 33
 rate_limits:
 - limit_count: 1
   name: Faire Rate Limits

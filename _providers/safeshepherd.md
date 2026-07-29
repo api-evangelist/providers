@@ -67,7 +67,7 @@ overview: 'SafeShepherd is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   SafeShepherd''s developer surface includes getting-started guide, signup flow, and 4 more developer resources.'
-random_paper: 66
+random_paper: 51
 score:
   band: emerging
   composite: 14.0

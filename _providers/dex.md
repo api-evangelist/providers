@@ -80,7 +80,7 @@ plans:
 - name: Dex Plans Pricing
   plan_count: 3
   slug: dex-plans-pricing
-random_paper: 1
+random_paper: 78
 rate_limits:
 - limit_count: 5
   name: Dex Rate Limits

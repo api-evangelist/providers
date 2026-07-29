@@ -64,7 +64,7 @@ name: Rigi
 nav: Providers
 network: true
 overview: Rigi is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Media, Entertainment, Streaming, and Video.
-random_paper: 27
+random_paper: 22
 score:
   band: minimal
   composite: 9.2

@@ -48,7 +48,7 @@ name: Eaze
 nav: Providers
 network: true
 overview: Eaze is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cannabis, Delivery, Marketplace, and E-Commerce.
-random_paper: 21
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

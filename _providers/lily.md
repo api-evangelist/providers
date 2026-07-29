@@ -71,7 +71,7 @@ overview: 'Lily Camera is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Lily Camera''s developer surface includes support, FAQ, signup flow, and 4 more developer resources.'
-random_paper: 42
+random_paper: 37
 score:
   band: minimal
   composite: 9.6

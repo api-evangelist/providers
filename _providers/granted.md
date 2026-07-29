@@ -83,7 +83,7 @@ overview: 'Granted is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Granted''s developer surface includes signup flow, engineering blog, support, and 7 more developer resources.'
-random_paper: 21
+random_paper: 12
 score:
   band: emerging
   composite: 18.1

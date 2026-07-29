@@ -80,7 +80,7 @@ name: Alterego
 nav: Providers
 network: true
 overview: Alterego is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, Wearables, Silent Speech, and Human-Computer Interaction.
-random_paper: 51
+random_paper: 41
 score:
   band: minimal
   composite: 9.2

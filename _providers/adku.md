@@ -39,7 +39,7 @@ name: Adku
 nav: Providers
 network: true
 overview: Adku is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, E-Commerce, Personalization, Machine Learning, and Big Data.
-random_paper: 21
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

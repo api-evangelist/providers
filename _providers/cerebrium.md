@@ -114,7 +114,7 @@ plans:
 - name: Cerebrium Plans Pricing
   plan_count: 4
   slug: cerebrium-plans-pricing
-random_paper: 78
+random_paper: 67
 rate_limits:
 - limit_count: 4
   name: Cerebrium Rate Limits

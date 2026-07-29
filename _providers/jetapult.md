@@ -71,7 +71,7 @@ overview: 'Jetapult is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Jetapult''s developer surface includes support and 6 more developer resources.'
-random_paper: 73
+random_paper: 63
 score:
   band: minimal
   composite: 5.9

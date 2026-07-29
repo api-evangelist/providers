@@ -116,7 +116,7 @@ overview: 'Isomorphic Labs is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Isomorphic Labs'' developer surface includes engineering blog and 17 more developer resources.'
-random_paper: 28
+random_paper: 9
 score:
   band: minimal
   composite: 6.3

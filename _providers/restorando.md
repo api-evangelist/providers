@@ -39,7 +39,7 @@ name: Restorando
 nav: Providers
 network: true
 overview: Restorando is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Restaurants, Reservations, and Latin America.
-random_paper: 49
+random_paper: 36
 score:
   band: minimal
   composite: 5.0

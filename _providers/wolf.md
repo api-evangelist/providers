@@ -92,7 +92,7 @@ overview: 'Wolf publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Wolf''s developer surface includes documentation, API reference, getting-started guide, authentication, and 6 more developer resources.'
-random_paper: 40
+random_paper: 35
 score:
   band: emerging
   composite: 18.2

@@ -71,7 +71,7 @@ overview: 'Prizeo is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Prizeo''s developer surface includes FAQ, support, and 5 more developer resources.'
-random_paper: 25
+random_paper: 17
 score:
   band: minimal
   composite: 11.9

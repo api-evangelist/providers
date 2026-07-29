@@ -39,7 +39,7 @@ name: Playdom
 nav: Providers
 network: true
 overview: Playdom is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Consumer.
-random_paper: 38
+random_paper: 29
 score:
   band: minimal
   composite: 4.1

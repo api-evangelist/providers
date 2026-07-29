@@ -99,7 +99,7 @@ overview: 'CeresAI is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   CeresAI''s developer surface includes documentation, engineering blog, pricing, signup flow, support, and 9 more developer resources.'
-random_paper: 12
+random_paper: 3
 score:
   band: emerging
   composite: 21.3

@@ -48,7 +48,7 @@ name: WorldOil.com, Inc./Wellogix
 nav: Providers
 network: true
 overview: WorldOil.com, Inc./Wellogix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Oil and Gas, Energy, Software, and Drilling.
-random_paper: 74
+random_paper: 44
 score:
   band: minimal
   composite: 4.9

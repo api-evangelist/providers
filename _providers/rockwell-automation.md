@@ -156,7 +156,7 @@ press:
 - date: '2026-05-25'
   title: Press Releases & News
   url: https://www.rockwellautomation.com/en-us/company/investor-relations/news.html
-random_paper: 1
+random_paper: 57
 rate_limits:
 - limit_count: 5
   name: Rockwell Automation Rate Limits

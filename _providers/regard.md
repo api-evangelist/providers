@@ -67,7 +67,7 @@ overview: 'Regard is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Regard''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 69
+random_paper: 62
 score:
   band: minimal
   composite: 10.7

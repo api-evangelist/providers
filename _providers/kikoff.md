@@ -115,7 +115,7 @@ overview: 'Kikoff publishes 1 API on the [APIs.io](https://apis.io/) network. Ta
 
 
   Kikoff''s developer surface includes engineering blog, pricing, support, getting-started guide, signup flow, and 12 more developer resources.'
-random_paper: 74
+random_paper: 67
 score:
   band: emerging
   composite: 23.8

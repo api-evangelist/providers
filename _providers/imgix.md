@@ -132,7 +132,7 @@ plans:
 - name: Imgix Plans Pricing
   plan_count: 6
   slug: imgix-plans-pricing
-random_paper: 62
+random_paper: 56
 rate_limits:
 - limit_count: 3
   name: Imgix Rate Limits

@@ -75,7 +75,7 @@ overview: 'Logixboard is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Logixboard''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 27
+random_paper: 14
 score:
   band: minimal
   composite: 9.1

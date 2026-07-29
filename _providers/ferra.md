@@ -71,7 +71,7 @@ overview: 'Ferra is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ferra''s developer surface includes engineering blog, signup flow, support, and 4 more developer resources.'
-random_paper: 48
+random_paper: 42
 score:
   band: emerging
   composite: 13.8

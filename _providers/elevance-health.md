@@ -128,7 +128,7 @@ plans:
 - name: Elevance Health Plans Pricing
   plan_count: 4
   slug: elevance-health-plans-pricing
-random_paper: 70
+random_paper: 52
 rate_limits:
 - limit_count: 4
   name: Elevance Health Rate Limits

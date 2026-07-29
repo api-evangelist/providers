@@ -52,7 +52,7 @@ name: PatientPing
 nav: Providers
 network: true
 overview: PatientPing is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Bio Healthcare, Care Coordination, Health IT, and Interoperability.
-random_paper: 67
+random_paper: 53
 score:
   band: minimal
   composite: 7.6

@@ -75,7 +75,7 @@ overview: 'Sabbar is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sabbar''s developer surface includes engineering blog, support, signup flow, and 5 more developer resources.'
-random_paper: 59
+random_paper: 52
 score:
   band: emerging
   composite: 13.1

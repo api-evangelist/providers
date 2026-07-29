@@ -39,7 +39,7 @@ name: Conexant Systems
 nav: Providers
 network: true
 overview: Conexant Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Semiconductors, Hardware, Audio, and Voice.
-random_paper: 21
+random_paper: 0
 score:
   band: minimal
   composite: 4.3

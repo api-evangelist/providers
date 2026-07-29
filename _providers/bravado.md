@@ -48,7 +48,7 @@ name: Bravado
 nav: Providers
 network: true
 overview: Bravado is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Sales, Community, Sales Enablement, and Careers.
-random_paper: 15
+random_paper: 6
 score:
   band: minimal
   composite: 5.0

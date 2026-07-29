@@ -209,7 +209,7 @@ overview: 'Kadence publishes 11 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Kadence''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 23 more developer resources.'
-random_paper: 75
+random_paper: 67
 scopes:
 - name: Kadence Scopes
   scope_count: 1

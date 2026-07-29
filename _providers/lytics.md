@@ -177,7 +177,7 @@ plans:
 - name: Lytics Plans Pricing
   plan_count: 3
   slug: lytics-plans-pricing
-random_paper: 24
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Lytics Rate Limits

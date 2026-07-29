@@ -63,7 +63,7 @@ overview: 'Heron Power is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Heron Power''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 22
+random_paper: 8
 score:
   band: minimal
   composite: 11.0

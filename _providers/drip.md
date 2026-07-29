@@ -137,7 +137,7 @@ overview: 'Drip publishes 10 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Drip''s developer surface includes authentication, documentation, signup flow, pricing, support, engineering blog, and 6 more developer resources.'
-random_paper: 31
+random_paper: 26
 score:
   band: thin
   composite: 31.4

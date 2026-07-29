@@ -219,7 +219,7 @@ overview: 'Daily publishes 13 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Daily''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 24 more developer resources.'
-random_paper: 51
+random_paper: 45
 score:
   band: strong
   composite: 58.2

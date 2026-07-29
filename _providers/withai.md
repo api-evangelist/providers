@@ -80,7 +80,7 @@ name: WithAI
 nav: Providers
 network: true
 overview: WithAI is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Investment Management, and Hedge Funds.
-random_paper: 6
+random_paper: 79
 score:
   band: minimal
   composite: 11.1

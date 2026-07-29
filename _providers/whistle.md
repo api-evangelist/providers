@@ -123,7 +123,7 @@ plans:
 - name: Whistle Plans Pricing
   plan_count: 3
   slug: whistle-plans-pricing
-random_paper: 48
+random_paper: 39
 rate_limits:
 - limit_count: 5
   name: Whistle Rate Limits

@@ -131,7 +131,7 @@ plans:
 - name: Microsoft Bot Framework Plans Pricing
   plan_count: 3
   slug: microsoft-bot-framework-plans-pricing
-random_paper: 51
+random_paper: 22
 rate_limits:
 - limit_count: 5
   name: Microsoft Bot Framework Rate Limits

@@ -118,7 +118,7 @@ plans:
 - name: Play Ht Plans Pricing
   plan_count: 4
   slug: play-ht-plans-pricing
-random_paper: 63
+random_paper: 55
 rate_limits:
 - limit_count: 3
   name: Play Ht Rate Limits

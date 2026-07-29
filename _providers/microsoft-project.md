@@ -357,7 +357,7 @@ plans:
 - name: Microsoft Project Plans Pricing
   plan_count: 6
   slug: microsoft-project-plans-pricing
-random_paper: 26
+random_paper: 4
 rate_limits:
 - limit_count: 3
   name: Microsoft Project Rate Limits

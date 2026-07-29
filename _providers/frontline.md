@@ -259,7 +259,7 @@ overview: 'Frontline publishes 33 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Frontline''s developer surface includes authentication, CLI, documentation, API reference, getting-started guide, pricing, signup flow, and 19 more developer resources.'
-random_paper: 17
+random_paper: 5
 rate_limits:
 - limit_count: 0
   name: Frontline Rate Limits

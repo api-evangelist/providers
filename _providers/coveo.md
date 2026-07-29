@@ -1258,7 +1258,7 @@ plans:
 - name: Coveo Plans Pricing
   plan_count: 3
   slug: coveo-plans-pricing
-random_paper: 60
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Coveo Rate Limits

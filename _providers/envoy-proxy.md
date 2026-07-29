@@ -243,7 +243,7 @@ plans:
 - name: Envoy Proxy Plans Pricing
   plan_count: 1
   slug: envoy-proxy-plans-pricing
-random_paper: 64
+random_paper: 50
 rate_limits:
 - limit_count: 2
   name: Envoy Proxy Rate Limits

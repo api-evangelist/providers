@@ -56,7 +56,7 @@ name: The Bot Company
 nav: Providers
 network: true
 overview: The Bot Company is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Robotics, Household Robots, Consumer Robotics, and Automation.
-random_paper: 55
+random_paper: 37
 score:
   band: minimal
   composite: 9.2

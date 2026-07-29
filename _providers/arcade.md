@@ -490,7 +490,7 @@ plans:
 - name: Arcade Plans Pricing
   plan_count: 4
   slug: arcade-plans-pricing
-random_paper: 48
+random_paper: 41
 rate_limits:
 - limit_count: 0
   name: Arcade Rate Limits

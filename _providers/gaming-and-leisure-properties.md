@@ -64,7 +64,7 @@ name: Gaming and Leisure Properties
 nav: Providers
 network: true
 overview: Gaming and Leisure Properties is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Casinos, Gaming, Hospitality, Real Estate, and REIT.
-random_paper: 51
+random_paper: 15
 score:
   band: minimal
   composite: 4.4

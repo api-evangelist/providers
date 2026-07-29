@@ -83,7 +83,7 @@ plans:
 - name: Opendata Maggioli Cloud Plans Pricing
   plan_count: 0
   slug: opendata-maggioli-cloud-plans-pricing
-random_paper: 70
+random_paper: 42
 rate_limits:
 - limit_count: 0
   name: Opendata Maggioli Cloud Rate Limits

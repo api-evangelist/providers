@@ -52,7 +52,7 @@ name: Standard Cognition
 nav: Providers
 network: true
 overview: Standard Cognition is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise Saas, Computer Vision, Artificial Intelligence, and Retail Technology.
-random_paper: 24
+random_paper: 1
 score:
   band: minimal
   composite: 5.7

@@ -48,7 +48,7 @@ name: Surfboard
 nav: Providers
 network: true
 overview: Surfboard is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Workforce Management, Customer Support, Contact Center, and Scheduling.
-random_paper: 8
+random_paper: 77
 score:
   band: minimal
   composite: 5.0

@@ -52,7 +52,7 @@ name: Lumius
 nav: Providers
 network: true
 overview: Lumius is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Imaging, Ultrasound, Healthcare, and Medical Devices.
-random_paper: 31
+random_paper: 23
 score:
   band: minimal
   composite: 4.3

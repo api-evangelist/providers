@@ -75,7 +75,7 @@ overview: 'Invesco is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Invesco''s developer surface includes GitHub presence and 7 more developer resources.'
-random_paper: 39
+random_paper: 30
 score:
   band: minimal
   composite: 5.7

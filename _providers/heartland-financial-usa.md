@@ -69,7 +69,7 @@ plans:
 - name: Heartland Financial Usa Plans Pricing
   plan_count: 1
   slug: heartland-financial-usa-plans-pricing
-random_paper: 59
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Heartland Financial Usa Rate Limits

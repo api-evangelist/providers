@@ -52,7 +52,7 @@ name: Talking Computers
 nav: Providers
 network: true
 overview: Talking Computers is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Infrastructure, Machine Learning, and GPU.
-random_paper: 25
+random_paper: 3
 score:
   band: minimal
   composite: 5.0

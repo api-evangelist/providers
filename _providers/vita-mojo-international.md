@@ -114,7 +114,7 @@ overview: 'Vita Mojo International is profiled on the [APIs.io](https://apis.io/
 
 
   Vita Mojo International''s developer surface includes documentation, support, engineering blog, pricing, and 12 more developer resources.'
-random_paper: 43
+random_paper: 14
 score:
   band: thin
   composite: 36.2

@@ -183,7 +183,7 @@ plans:
 - name: Betteruptime Plans Pricing
   plan_count: 3
   slug: betteruptime-plans-pricing
-random_paper: 26
+random_paper: 10
 rate_limits:
 - limit_count: 1
   name: Betteruptime Rate Limits

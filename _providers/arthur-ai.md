@@ -262,7 +262,7 @@ overview: 'Arthur AI publishes 30 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Arthur AI''s developer surface includes documentation, getting-started guide, engineering blog, pricing, support, authentication, changelog, and 22 more developer resources.'
-random_paper: 29
+random_paper: 18
 scopes:
 - name: Arthur Ai Scopes
   scope_count: 191

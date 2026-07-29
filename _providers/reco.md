@@ -88,7 +88,7 @@ plans:
 - name: Reco Plans Pricing
   plan_count: 3
   slug: reco-plans-pricing
-random_paper: 25
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Reco Rate Limits

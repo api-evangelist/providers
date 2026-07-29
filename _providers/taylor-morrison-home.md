@@ -180,7 +180,7 @@ press:
 - date: '2026-05-25'
   title: Taylor Morrison Announces Date for First Quarter 2026 Earnings ...
   url: https://www.barchart.com/story/news/939225/taylor-morrison-announces-date-for-first-quarter-2026-earnings-release-and-webcast-conference-call
-random_paper: 71
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Taylor Morrison Home Rate Limits

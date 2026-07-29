@@ -83,7 +83,7 @@ overview: 'Condor Energy is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Condor Energy''s developer surface includes legal docs and 9 more developer resources.'
-random_paper: 60
+random_paper: 44
 score:
   band: emerging
   composite: 13.6

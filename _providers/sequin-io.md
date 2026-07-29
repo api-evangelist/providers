@@ -124,7 +124,7 @@ plans:
 - name: Sequin Io Plans Pricing
   plan_count: 4
   slug: sequin-io-plans-pricing
-random_paper: 42
+random_paper: 31
 rate_limits:
 - limit_count: 5
   name: Sequin Io Rate Limits

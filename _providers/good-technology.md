@@ -39,7 +39,7 @@ name: Good Technology
 nav: Providers
 network: true
 overview: Good Technology is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Mobile Security, Enterprise Mobility, and Mobile Application Management.
-random_paper: 34
+random_paper: 15
 score:
   band: minimal
   composite: 5.0

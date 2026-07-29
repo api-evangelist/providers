@@ -39,7 +39,7 @@ name: MycroFriends
 nav: Providers
 network: true
 overview: MycroFriends is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Nutrition, Microbiome, and Wellness.
-random_paper: 21
+random_paper: 5
 score:
   band: minimal
   composite: 4.3

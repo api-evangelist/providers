@@ -56,7 +56,7 @@ name: Bible-api
 nav: Providers
 network: true
 overview: Bible-api publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Books and Public APIs.
-random_paper: 69
+random_paper: 59
 score:
   band: minimal
   composite: 5.7

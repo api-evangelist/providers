@@ -179,7 +179,7 @@ plans:
 - name: Kings College London Plans Pricing
   plan_count: 2
   slug: kings-college-london-plans-pricing
-random_paper: 11
+random_paper: 67
 rate_limits:
 - limit_count: 1
   name: Kings College London Rate Limits

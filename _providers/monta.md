@@ -123,7 +123,7 @@ plans:
 - name: Monta Plans Pricing
   plan_count: 2
   slug: monta-plans-pricing
-random_paper: 63
+random_paper: 57
 rate_limits:
 - limit_count: 4
   name: Monta Rate Limits

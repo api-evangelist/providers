@@ -87,7 +87,7 @@ overview: 'Optimal Dynamics is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Optimal Dynamics'' developer surface includes engineering blog, signup flow, and 9 more developer resources.'
-random_paper: 59
+random_paper: 39
 score:
   band: emerging
   composite: 17.5

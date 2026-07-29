@@ -95,7 +95,7 @@ overview: 'Branding Brand is profiled on the [APIs.io](https://apis.io/) network
 
 
   Branding Brand''s developer surface includes documentation, getting-started guide, engineering blog, support, signup flow, CLI, and 7 more developer resources.'
-random_paper: 41
+random_paper: 24
 score:
   band: emerging
   composite: 19.0

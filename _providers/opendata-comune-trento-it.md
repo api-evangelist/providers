@@ -83,7 +83,7 @@ plans:
 - name: Opendata Comune Trento It Plans Pricing
   plan_count: 0
   slug: opendata-comune-trento-it-plans-pricing
-random_paper: 35
+random_paper: 4
 rate_limits:
 - limit_count: 0
   name: Opendata Comune Trento It Rate Limits

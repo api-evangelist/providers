@@ -111,7 +111,7 @@ overview: 'Sirius XM Holdings is profiled on the [APIs.io](https://apis.io/) net
 
 
   Sirius XM Holdings'' developer surface includes engineering blog and 12 more developer resources.'
-random_paper: 6
+random_paper: 64
 score:
   band: minimal
   composite: 10.3

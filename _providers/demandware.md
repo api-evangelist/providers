@@ -183,7 +183,7 @@ overview: 'Demandware publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Demandware''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, pricing, signup flow, and 25 more developer resources.'
-random_paper: 8
+random_paper: 76
 scopes:
 - name: Demandware Scopes
   scope_count: 0

@@ -319,7 +319,7 @@ overview: 'Ripple Labs publishes 36 APIs on the [APIs.io](https://apis.io/) netw
 
 
   Ripple Labs'' developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, support, sandbox, and 30 more developer resources.'
-random_paper: 75
+random_paper: 62
 scopes:
 - name: Ripple Labs Scopes
   scope_count: 2

@@ -275,7 +275,7 @@ overview: 'Rillet publishes 28 APIs on the [APIs.io](https://apis.io/) network, 
 
 
   Rillet''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, changelog, and 25 more developer resources.'
-random_paper: 12
+random_paper: 4
 scopes:
 - name: Rillet Scopes
   scope_count: 2

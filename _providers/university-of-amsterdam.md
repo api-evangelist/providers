@@ -186,7 +186,7 @@ plans:
 - name: University Of Amsterdam Plans Pricing
   plan_count: 2
   slug: university-of-amsterdam-plans-pricing
-random_paper: 63
+random_paper: 34
 rate_limits:
 - limit_count: 1
   name: University Of Amsterdam Rate Limits

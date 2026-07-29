@@ -48,7 +48,7 @@ name: Opencare
 nav: Providers
 network: true
 overview: Opencare is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Dental, Healthcare, Marketplace, and Appointments.
-random_paper: 45
+random_paper: 35
 score:
   band: minimal
   composite: 5.4

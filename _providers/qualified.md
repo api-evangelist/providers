@@ -48,7 +48,7 @@ name: Qualified
 nav: Providers
 network: true
 overview: Qualified is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 68
+random_paper: 57
 score:
   band: minimal
   composite: 3.8

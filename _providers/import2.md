@@ -155,7 +155,7 @@ overview: 'Import2 publishes 2 APIs on the [APIs.io](https://apis.io/) network: 
 
 
   Import2''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, pricing, signup flow, and 18 more developer resources.'
-random_paper: 77
+random_paper: 69
 rate_limits:
 - limit_count: 0
   name: Import2 Rate Limits

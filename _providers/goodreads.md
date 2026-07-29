@@ -108,7 +108,7 @@ overview: 'Goodreads is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Goodreads'' developer surface includes API reference, documentation, support, engineering blog, signup flow, authentication, and 10 more developer resources.'
-random_paper: 72
+random_paper: 61
 score:
   band: emerging
   composite: 22.7

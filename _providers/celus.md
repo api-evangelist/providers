@@ -67,7 +67,7 @@ overview: 'Celus is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Celus'' developer surface includes signup flow, engineering blog, and 4 more developer resources.'
-random_paper: 60
+random_paper: 54
 score:
   band: minimal
   composite: 10.2

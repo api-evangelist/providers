@@ -155,7 +155,7 @@ plans:
 - name: Groq Plans Pricing
   plan_count: 4
   slug: groq-plans-pricing
-random_paper: 41
+random_paper: 36
 rate_limits:
 - limit_count: 6
   name: Groq Rate Limits

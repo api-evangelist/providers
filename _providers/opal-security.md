@@ -234,7 +234,7 @@ overview: 'Opal Security publishes 22 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Opal Security''s developer surface includes authentication, CLI, changelog, documentation, API reference, getting-started guide, engineering blog, and 21 more developer resources.'
-random_paper: 1
+random_paper: 65
 score:
   band: strong
   composite: 59.6

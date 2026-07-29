@@ -124,7 +124,7 @@ plans:
 - name: Gorilladesk Plans Pricing
   plan_count: 4
   slug: gorilladesk-plans-pricing
-random_paper: 49
+random_paper: 35
 rate_limits:
 - limit_count: 2
   name: Gorilladesk Rate Limits

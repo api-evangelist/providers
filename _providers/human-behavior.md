@@ -100,7 +100,7 @@ overview: 'Human Behavior is profiled on the [APIs.io](https://apis.io/) network
 
 
   Human Behavior''s developer surface includes documentation, getting-started guide, pricing, signup flow, support, authentication, and 8 more developer resources.'
-random_paper: 70
+random_paper: 53
 score:
   band: emerging
   composite: 21.2

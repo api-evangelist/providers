@@ -96,7 +96,7 @@ plans:
 - name: Walkme Plans Pricing
   plan_count: 1
   slug: walkme-plans-pricing
-random_paper: 1
+random_paper: 74
 rate_limits:
 - limit_count: 1
   name: Walkme Rate Limits

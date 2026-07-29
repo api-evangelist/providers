@@ -173,7 +173,7 @@ plans:
 - name: Lightsprint Plans Pricing
   plan_count: 3
   slug: lightsprint-plans-pricing
-random_paper: 8
+random_paper: 74
 scopes:
 - name: Lightsprint Scopes
   scope_count: 7

@@ -107,7 +107,7 @@ overview: 'Knight Fintech is profiled on the [APIs.io](https://apis.io/) network
 
 
   Knight Fintech''s developer surface includes engineering blog, FAQ, and 14 more developer resources.'
-random_paper: 67
+random_paper: 50
 score:
   band: emerging
   composite: 15.4

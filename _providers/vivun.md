@@ -71,7 +71,7 @@ overview: 'Vivun is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Vivun''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 8
+random_paper: 1
 score:
   band: minimal
   composite: 12.8

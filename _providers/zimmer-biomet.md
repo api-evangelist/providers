@@ -124,7 +124,7 @@ press:
 - date: '2026-05-25'
   title: Zimmer Biomet Debuts First-of-its-Kind Artificial Intelligence ...
   url: https://orthofeed.com/2022/05/10/zimmer-biomet-debuts-first-of-its-kind-artificial-intelligence-capabilities-for-omni-suite-intelligent-operating-room/
-random_paper: 65
+random_paper: 49
 score:
   band: minimal
   composite: 10.1

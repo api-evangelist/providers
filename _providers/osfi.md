@@ -359,7 +359,7 @@ plans:
 - name: Osfi Plans Pricing
   plan_count: 1
   slug: osfi-plans-pricing
-random_paper: 33
+random_paper: 28
 rate_limits:
 - limit_count: 3
   name: Osfi Rate Limits

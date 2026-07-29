@@ -144,7 +144,7 @@ overview: 'Nevis publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Nevis'' developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, authentication, sandbox, and 16 more developer resources.'
-random_paper: 69
+random_paper: 63
 score:
   band: thin
   composite: 32.8

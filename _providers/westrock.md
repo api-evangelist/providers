@@ -113,7 +113,7 @@ press:
 - date: '2026-05-25'
   title: Smurfit Westrock launches prototype of glueline-free ...
   url: https://www.smurfitwestrock.com/newsroom/press-releases/2026/smurfit-westrock-launches-prototype-of-glueline-free-packaging-solution
-random_paper: 2
+random_paper: 72
 score:
   band: emerging
   composite: 13.6

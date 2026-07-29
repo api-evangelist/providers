@@ -94,7 +94,7 @@ overview: 'Adobe Commerce publishes 2 APIs on the [APIs.io](https://apis.io/) ne
 
 
   Adobe Commerce''s developer surface includes documentation, signup flow, pricing, support, and 6 more developer resources.'
-random_paper: 35
+random_paper: 18
 score:
   band: emerging
   composite: 14.0

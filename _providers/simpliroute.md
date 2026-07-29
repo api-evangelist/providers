@@ -159,7 +159,7 @@ overview: 'Simpliroute publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   Simpliroute''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 18 more developer resources.'
-random_paper: 13
+random_paper: 79
 score:
   band: thin
   composite: 41.9

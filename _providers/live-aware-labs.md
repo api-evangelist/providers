@@ -91,7 +91,7 @@ overview: 'Live Aware Labs is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Live Aware Labs'' developer surface includes signup flow and 11 more developer resources.'
-random_paper: 28
+random_paper: 10
 score:
   band: emerging
   composite: 18.8

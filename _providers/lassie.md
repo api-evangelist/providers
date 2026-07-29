@@ -132,7 +132,7 @@ overview: 'Lassie is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Lassie''s developer surface includes support, pricing, signup flow, YouTube channel, and 18 more developer resources.'
-random_paper: 1
+random_paper: 74
 score:
   band: emerging
   composite: 23.8

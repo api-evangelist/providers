@@ -115,7 +115,7 @@ overview: 'justyo publishes 2 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   justyo''s developer surface includes documentation, signup flow, authentication, and 12 more developer resources.'
-random_paper: 46
+random_paper: 38
 rate_limits:
 - limit_count: 0
   name: Justyo Rate Limits

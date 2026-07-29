@@ -143,7 +143,7 @@ plans:
 - name: Microsoft Azure Stream Analytics Plans Pricing
   plan_count: 3
   slug: microsoft-azure-stream-analytics-plans-pricing
-random_paper: 8
+random_paper: 48
 rate_limits:
 - limit_count: 5
   name: Microsoft Azure Stream Analytics Rate Limits

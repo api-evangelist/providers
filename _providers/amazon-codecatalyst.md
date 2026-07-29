@@ -1508,7 +1508,7 @@ overview: 'Amazon CodeCatalyst publishes 4 APIs on the [APIs.io](https://apis.io
 
 
   Amazon CodeCatalyst''s developer surface includes authentication, getting-started guide, pricing, developer console, developer portal, documentation, engineering blog, and 20 more developer resources.'
-random_paper: 51
+random_paper: 27
 rules:
 - name: Amazon CodeCatalyst API Rules
   rule_count: 5

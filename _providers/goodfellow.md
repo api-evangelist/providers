@@ -75,7 +75,7 @@ overview: 'Goodfellow is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Goodfellow''s developer surface includes support, engineering blog, pricing, and 5 more developer resources.'
-random_paper: 34
+random_paper: 21
 score:
   band: minimal
   composite: 12.6

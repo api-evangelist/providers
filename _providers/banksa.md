@@ -177,7 +177,7 @@ overview: 'BankSA publishes 7 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   BankSA''s developer surface includes authentication, API reference, support, documentation, and 21 more developer resources.'
-random_paper: 64
+random_paper: 57
 scopes:
 - name: Banksa Scopes
   scope_count: 9

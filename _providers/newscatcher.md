@@ -206,7 +206,7 @@ plans:
 - name: Newscatcher Plans Pricing
   plan_count: 7
   slug: newscatcher-plans-pricing
-random_paper: 55
+random_paper: 41
 rate_limits:
 - limit_count: 11
   name: Newscatcher Rate Limits

@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: Russia strikes Kyiv with drones and hypersonic missile, in photos - AP News
   url: https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbThJREdLUzlHemk3YXFZaWdBRHA2akh2UkJxT0ZxVmlGN05nMndYUUZ2VWFJY0prc2EteWdoZ0lEeUJUUDBIZi1oTVhIeDN1UjdfVEI3ZWpadU9tTjlLaFZUVmdidE10X3dNbkc4Zi03aXhSYlBueVdWTzZMX3ZuRnJNVG5rVC1kMk40WURxbHBHV0JaYjJPVXhnZXRKUUVmaE90cmwydkx3V1duSFI4dF9XdFZjNXZNRG1lS3VrRW8?oc=5
-random_paper: 33
+random_paper: 23
 score:
   band: minimal
   composite: 4.9

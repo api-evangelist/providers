@@ -218,7 +218,7 @@ overview: 'COR publishes 27 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   COR''s developer surface includes authentication, documentation, API reference, getting-started guide, pricing, engineering blog, support, and 15 more developer resources.'
-random_paper: 4
+random_paper: 0
 score:
   band: developing
   composite: 45.0

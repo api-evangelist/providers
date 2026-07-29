@@ -48,7 +48,7 @@ name: GAGO Group
 nav: Providers
 network: true
 overview: GAGO Group is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Frontier Tech, Agriculture, Big Data, and Remote Sensing.
-random_paper: 56
+random_paper: 44
 score:
   band: minimal
   composite: 5.0

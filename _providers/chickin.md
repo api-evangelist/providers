@@ -48,7 +48,7 @@ name: Chickin
 nav: Providers
 network: true
 overview: Chickin is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Poultry, Agriculture, AgTech, and IoT.
-random_paper: 9
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

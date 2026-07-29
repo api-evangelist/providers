@@ -79,7 +79,7 @@ overview: 'Erasca is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Erasca''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 63
+random_paper: 56
 score:
   band: minimal
   composite: 11.6

@@ -39,7 +39,7 @@ name: EC Cubed
 nav: Providers
 network: true
 overview: EC Cubed is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 40
+random_paper: 31
 score:
   band: minimal
   composite: 3.2

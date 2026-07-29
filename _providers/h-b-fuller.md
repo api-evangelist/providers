@@ -65,7 +65,7 @@ plans:
 - name: H B Fuller Plans Pricing
   plan_count: 1
   slug: h-b-fuller-plans-pricing
-random_paper: 62
+random_paper: 51
 rate_limits:
 - limit_count: 1
   name: H B Fuller Rate Limits

@@ -48,7 +48,7 @@ name: Oasis Health Partners
 nav: Providers
 network: true
 overview: Oasis Health Partners is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Life Sciences, Health, Healthcare, and Digital Health.
-random_paper: 62
+random_paper: 36
 score:
   band: minimal
   composite: 5.4

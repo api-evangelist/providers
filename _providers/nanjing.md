@@ -104,7 +104,7 @@ plans:
 - name: Nanjing Plans Pricing
   plan_count: 2
   slug: nanjing-plans-pricing
-random_paper: 21
+random_paper: 12
 rate_limits:
 - limit_count: 1
   name: Nanjing Rate Limits

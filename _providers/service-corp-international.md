@@ -63,7 +63,7 @@ press:
 - date: '2026-05-25'
   title: Service Corporation International at 47th Annual Raymond ...
   url: https://www.investing.com/news/transcripts/service-corporation-international-at-47th-annual-raymond-james-strategic-insights-93CH-4538716
-random_paper: 39
+random_paper: 6
 score:
   band: minimal
   composite: 2.6

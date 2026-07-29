@@ -173,7 +173,7 @@ plans:
 - name: Google Cloud Security Command Center Plans Pricing
   plan_count: 3
   slug: google-cloud-security-command-center-plans-pricing
-random_paper: 16
+random_paper: 52
 rate_limits:
 - limit_count: 5
   name: Google Cloud Security Command Center Rate Limits

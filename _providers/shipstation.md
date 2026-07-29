@@ -328,7 +328,7 @@ plans:
 - name: Shipstation Plans Pricing
   plan_count: 3
   slug: shipstation-plans-pricing
-random_paper: 6
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Shipstation Rate Limits

@@ -52,7 +52,7 @@ name: RedCap
 nav: Providers
 network: true
 overview: RedCap is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Automotive, Dealership, Service, and Fixed Operations.
-random_paper: 63
+random_paper: 56
 score:
   band: minimal
   composite: 5.0

@@ -59,7 +59,7 @@ overview: 'Memora is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Memora''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 1
+random_paper: 74
 score:
   band: minimal
   composite: 9.7

@@ -75,7 +75,7 @@ overview: 'Janney Montgomery Scott is profiled on the [APIs.io](https://apis.io/
 
 
   Janney Montgomery Scott''s developer surface includes product news and 7 more developer resources.'
-random_paper: 77
+random_paper: 48
 score:
   band: minimal
   composite: 6.3

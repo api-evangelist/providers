@@ -266,7 +266,7 @@ plans:
 - name: Apache Ranger Plans Pricing
   plan_count: 3
   slug: apache-ranger-plans-pricing
-random_paper: 14
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Apache Ranger Rate Limits

@@ -2459,7 +2459,7 @@ plans:
 - name: Xero Plans Pricing
   plan_count: 1
   slug: xero-plans-pricing
-random_paper: 46
+random_paper: 41
 rate_limits:
 - limit_count: 1
   name: Xero Rate Limits

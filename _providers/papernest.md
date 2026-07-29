@@ -83,7 +83,7 @@ overview: 'Papernest is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Papernest''s developer surface includes signup flow, support, engineering blog, and 7 more developer resources.'
-random_paper: 18
+random_paper: 6
 score:
   band: emerging
   composite: 15.6

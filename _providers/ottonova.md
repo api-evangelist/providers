@@ -83,7 +83,7 @@ overview: 'Ottonova is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Ottonova''s developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 10
+random_paper: 80
 score:
   band: emerging
   composite: 15.6

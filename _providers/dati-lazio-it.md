@@ -84,7 +84,7 @@ plans:
 - name: Dati Lazio It Plans Pricing
   plan_count: 1
   slug: dati-lazio-it-plans-pricing
-random_paper: 72
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Dati Lazio It Rate Limits

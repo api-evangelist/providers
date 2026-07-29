@@ -126,7 +126,7 @@ plans:
 - name: Northbeam Plans Pricing
   plan_count: 3
   slug: northbeam-plans-pricing
-random_paper: 0
+random_paper: 69
 rate_limits:
 - limit_count: 7
   name: Northbeam Rate Limits

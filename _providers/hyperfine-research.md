@@ -63,7 +63,7 @@ overview: 'Hyperfine Research is profiled on the [APIs.io](https://apis.io/) net
 
 
   Hyperfine Research''s developer surface includes support, engineering blog, and 3 more developer resources.'
-random_paper: 20
+random_paper: 78
 score:
   band: minimal
   composite: 9.0

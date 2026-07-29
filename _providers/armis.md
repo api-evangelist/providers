@@ -112,7 +112,7 @@ overview: 'Armis is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Armis'' developer surface includes documentation, engineering blog, support, authentication, CLI, and 11 more developer resources.'
-random_paper: 60
+random_paper: 54
 score:
   band: emerging
   composite: 22.2

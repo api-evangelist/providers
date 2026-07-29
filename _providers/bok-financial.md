@@ -81,7 +81,7 @@ overview: 'BOK Financial is profiled on the [APIs.io](https://apis.io/) network.
 
 
   BOK Financial''s developer surface includes engineering blog, support, and 7 more developer resources.'
-random_paper: 14
+random_paper: 79
 score:
   band: minimal
   composite: 10.6

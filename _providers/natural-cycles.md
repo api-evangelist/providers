@@ -83,7 +83,7 @@ overview: 'Natural Cycles is profiled on the [APIs.io](https://apis.io/) network
 
 
   Natural Cycles'' developer surface includes engineering blog and 9 more developer resources.'
-random_paper: 7
+random_paper: 70
 score:
   band: emerging
   composite: 13.0

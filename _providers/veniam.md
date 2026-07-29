@@ -48,7 +48,7 @@ name: Veniam
 nav: Providers
 network: true
 overview: Veniam is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Internet of Things, Connected Vehicles, Telematics, and Mobility.
-random_paper: 0
+random_paper: 73
 score:
   band: minimal
   composite: 5.0

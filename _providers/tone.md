@@ -76,7 +76,7 @@ overview: 'Tone is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Tone''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 38
+random_paper: 33
 score:
   band: emerging
   composite: 14.5

@@ -131,7 +131,7 @@ plans:
 - name: Eppo Plans Pricing
   plan_count: 1
   slug: eppo-plans-pricing
-random_paper: 36
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Eppo Rate Limits

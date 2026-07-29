@@ -72,7 +72,7 @@ name: coachhub
 nav: Providers
 network: true
 overview: coachhub is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ai Enterprise Software, Digital Coaching, Learning And Development, and HR Tech.
-random_paper: 29
+random_paper: 19
 score:
   band: emerging
   composite: 14.8

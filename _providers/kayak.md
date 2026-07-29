@@ -103,7 +103,7 @@ overview: 'Kayak is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Kayak''s developer surface includes support, engineering blog, signup flow, and 12 more developer resources.'
-random_paper: 49
+random_paper: 43
 score:
   band: emerging
   composite: 18.9

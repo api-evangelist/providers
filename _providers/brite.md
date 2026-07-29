@@ -67,7 +67,7 @@ overview: 'Brite is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Brite''s developer surface includes pricing, engineering blog, signup flow, and 3 more developer resources.'
-random_paper: 54
+random_paper: 48
 score:
   band: minimal
   composite: 12.3

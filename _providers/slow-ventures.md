@@ -21,7 +21,7 @@ modified: '2026-07-17'
 name: Slow Ventures
 nav: Providers
 network: true
-random_paper: 30
+random_paper: 13
 slug: slow-ventures
 tags:
 - Venture Capital

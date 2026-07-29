@@ -67,7 +67,7 @@ overview: 'Payment24 is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Payment24''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 68
+random_paper: 58
 score:
   band: minimal
   composite: 12.2

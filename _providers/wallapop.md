@@ -182,7 +182,7 @@ overview: 'Wallapop publishes 6 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Wallapop''s developer surface includes documentation, API reference, getting-started guide, support, pricing, signup flow, changelog, and 20 more developer resources.'
-random_paper: 64
+random_paper: 54
 rate_limits:
 - limit_count: 3
   name: Wallapop Rate Limits

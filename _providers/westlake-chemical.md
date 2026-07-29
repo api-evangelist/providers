@@ -107,7 +107,7 @@ press:
 - date: '2026-05-25'
   title: Westlake Chemical Partners LP Announces First Quarter 2026 ...
   url: https://markets.chroniclejournal.com/chroniclejournal/article/bizwire-2026-5-5-westlake-chemical-partners-lp-announces-first-quarter-2026-results
-random_paper: 51
+random_paper: 30
 score:
   band: emerging
   composite: 13.5

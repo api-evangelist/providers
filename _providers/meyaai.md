@@ -122,7 +122,7 @@ overview: 'Meya.ai publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Meya.ai''s developer surface includes documentation, API reference, engineering blog, signup flow, changelog, CLI, and 11 more developer resources.'
-random_paper: 70
+random_paper: 63
 score:
   band: thin
   composite: 32.5

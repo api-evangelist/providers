@@ -56,7 +56,7 @@ name: SuperQuickQuestion
 nav: Providers
 network: true
 overview: SuperQuickQuestion is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Video, Fan Engagement, Sports, and Entertainment.
-random_paper: 68
+random_paper: 44
 score:
   band: minimal
   composite: 9.2

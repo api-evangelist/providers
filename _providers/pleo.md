@@ -276,7 +276,7 @@ plans:
 - name: Pleo Plans Pricing
   plan_count: 4
   slug: pleo-plans-pricing
-random_paper: 32
+random_paper: 27
 rate_limits:
 - limit_count: 3
   name: Pleo Rate Limits

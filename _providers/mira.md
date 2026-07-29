@@ -75,7 +75,7 @@ overview: 'Mira is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Mira''s developer surface includes pricing, support, and 6 more developer resources.'
-random_paper: 25
+random_paper: 20
 score:
   band: minimal
   composite: 12.2

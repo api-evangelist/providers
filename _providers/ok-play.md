@@ -44,7 +44,7 @@ name: OK Play
 nav: Providers
 network: true
 overview: OK Play is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 61
+random_paper: 53
 score:
   band: minimal
   composite: 3.2

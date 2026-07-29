@@ -187,7 +187,7 @@ overview: 'Zest publishes 8 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Zest''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, sandbox, engineering blog, and 18 more developer resources.'
-random_paper: 54
+random_paper: 49
 score:
   band: developing
   composite: 48.2

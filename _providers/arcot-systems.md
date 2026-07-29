@@ -52,7 +52,7 @@ name: Arcot Systems
 nav: Providers
 network: true
 overview: Arcot Systems is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Payment Security, Fraud Prevention, Authentication, and 3-D Secure.
-random_paper: 14
+random_paper: 78
 score:
   band: minimal
   composite: 5.7

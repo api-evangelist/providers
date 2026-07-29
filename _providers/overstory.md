@@ -75,7 +75,7 @@ overview: 'Overstory is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Overstory''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 61
+random_paper: 49
 score:
   band: emerging
   composite: 14.0

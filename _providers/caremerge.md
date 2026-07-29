@@ -52,7 +52,7 @@ name: CareMerge
 nav: Providers
 network: true
 overview: CareMerge is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Senior Living, Care Coordination, and Family Engagement.
-random_paper: 59
+random_paper: 48
 score:
   band: minimal
   composite: 6.0

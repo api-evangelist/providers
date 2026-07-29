@@ -87,7 +87,7 @@ overview: 'Continuum is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Continuum''s developer surface includes engineering blog, signup flow, support, and 8 more developer resources.'
-random_paper: 34
+random_paper: 22
 score:
   band: emerging
   composite: 17.0

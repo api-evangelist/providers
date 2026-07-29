@@ -181,7 +181,7 @@ plans:
 - name: Snov Io Plans Pricing
   plan_count: 7
   slug: snov-io-plans-pricing
-random_paper: 75
+random_paper: 67
 rate_limits:
 - limit_count: 3
   name: Snov Io Rate Limits

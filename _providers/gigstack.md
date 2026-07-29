@@ -171,7 +171,7 @@ overview: 'Gigstack publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Gigstack''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, signup flow, authentication, and 21 more developer resources.'
-random_paper: 45
+random_paper: 35
 score:
   band: developing
   composite: 44.3

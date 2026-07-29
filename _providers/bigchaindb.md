@@ -114,7 +114,7 @@ overview: 'Bigchaindb publishes 7 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Bigchaindb''s developer surface includes documentation, getting-started guide, engineering blog, and 9 more developer resources.'
-random_paper: 59
+random_paper: 47
 score:
   band: thin
   composite: 33.1

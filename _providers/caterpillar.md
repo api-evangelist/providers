@@ -136,7 +136,7 @@ press:
 - date: '2026-05-25'
   title: Corporate Press Releases
   url: https://www.caterpillar.com/en/news/corporate-press-releases.html
-random_paper: 51
+random_paper: 37
 rate_limits:
 - limit_count: 2
   name: Caterpillar Rate Limits

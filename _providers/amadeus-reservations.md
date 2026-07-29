@@ -2441,7 +2441,7 @@ overview: 'Amadeus Reservations publishes 1 API on the [APIs.io](https://apis.io
 
 
   Amadeus Reservations'' developer surface includes developer portal, getting-started guide, authentication, signup flow, pricing, engineering blog, FAQ, and 20 more developer resources.'
-random_paper: 18
+random_paper: 73
 rules:
 - name: Amadeus Reservations API Rules
   rule_count: 5

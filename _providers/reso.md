@@ -253,7 +253,7 @@ overview: 'RESO (Real Estate Standards Organization) publishes 2 APIs on the [AP
 
 
   RESO (Real Estate Standards Organization)''s developer surface includes documentation, pricing, engineering blog, API reference, getting-started guide, support, signup flow, and 43 more developer resources.'
-random_paper: 41
+random_paper: 36
 score:
   band: developing
   composite: 49.2

@@ -52,7 +52,7 @@ name: Massive Dynamic
 nav: Providers
 network: true
 overview: Massive Dynamic is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Advertising, Advertising Technology, Artificial Intelligence, and Marketing.
-random_paper: 26
+random_paper: 7
 score:
   band: minimal
   composite: 5.0

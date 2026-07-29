@@ -105,7 +105,7 @@ overview: 'Zoho CRM publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   Zoho CRM''s developer surface includes documentation, signup flow, pricing, engineering blog, and 7 more developer resources.'
-random_paper: 15
+random_paper: 5
 rules:
 - name: Zoho CRM API Rules
   rule_count: 7

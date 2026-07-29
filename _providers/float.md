@@ -48,7 +48,7 @@ name: float
 nav: Providers
 network: true
 overview: float is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Product Studio, Design, Software, and Video.
-random_paper: 54
+random_paper: 48
 score:
   band: minimal
   composite: 5.0

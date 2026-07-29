@@ -117,7 +117,7 @@ plans:
 - name: Mockserver Plans Pricing
   plan_count: 3
   slug: mockserver-plans-pricing
-random_paper: 49
+random_paper: 36
 rate_limits:
 - limit_count: 5
   name: Mockserver Rate Limits

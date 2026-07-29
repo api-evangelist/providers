@@ -75,7 +75,7 @@ overview: 'Pindrop is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Pindrop''s developer surface includes engineering blog, support, and 6 more developer resources.'
-random_paper: 44
+random_paper: 35
 score:
   band: emerging
   composite: 13.7

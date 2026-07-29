@@ -72,7 +72,7 @@ name: Blitzy
 nav: Providers
 network: true
 overview: Blitzy is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, AI, Artificial Intelligence, Software Development, and Code Generation.
-random_paper: 30
+random_paper: 22
 score:
   band: minimal
   composite: 10.6

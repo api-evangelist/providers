@@ -116,7 +116,7 @@ plans:
 - name: Florist One Plans Pricing
   plan_count: 3
   slug: florist-one-plans-pricing
-random_paper: 18
+random_paper: 4
 rate_limits:
 - limit_count: 5
   name: Florist One Rate Limits

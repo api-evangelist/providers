@@ -56,7 +56,7 @@ name: OpenLigaDB
 nav: Providers
 network: true
 overview: OpenLigaDB publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Sports And Fitness and Public APIs.
-random_paper: 5
+random_paper: 73
 score:
   band: minimal
   composite: 5.7

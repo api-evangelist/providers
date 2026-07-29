@@ -208,7 +208,7 @@ plans:
 - name: Tripetto Plans Pricing
   plan_count: 3
   slug: tripetto-plans-pricing
-random_paper: 11
+random_paper: 0
 rate_limits:
 - limit_count: 5
   name: Tripetto Rate Limits

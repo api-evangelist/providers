@@ -67,7 +67,7 @@ overview: 'Generation Lab is profiled on the [APIs.io](https://apis.io/) network
 
 
   Generation Lab''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
-random_paper: 56
+random_paper: 39
 score:
   band: minimal
   composite: 12.7

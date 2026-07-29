@@ -71,7 +71,7 @@ overview: 'Ceibo is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Ceibo''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 34
+random_paper: 28
 score:
   band: minimal
   composite: 10.5

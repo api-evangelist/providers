@@ -179,7 +179,7 @@ plans:
 - name: Planet Labs Plans Pricing
   plan_count: 1
   slug: planet-labs-plans-pricing
-random_paper: 67
+random_paper: 54
 rate_limits:
 - limit_count: 2
   name: Planet Labs Rate Limits

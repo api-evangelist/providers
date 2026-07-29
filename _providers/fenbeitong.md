@@ -131,7 +131,7 @@ overview: 'Fenbeitong publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Fenbeitong''s developer surface includes documentation, API reference, getting-started guide, support, signup flow, authentication, sandbox, and 12 more developer resources.'
-random_paper: 17
+random_paper: 4
 score:
   band: developing
   composite: 42.3

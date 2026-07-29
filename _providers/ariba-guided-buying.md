@@ -354,7 +354,7 @@ plans:
 - name: Ariba Guided Buying Plans Pricing
   plan_count: 3
   slug: ariba-guided-buying-plans-pricing
-random_paper: 41
+random_paper: 18
 rate_limits:
 - limit_count: 5
   name: Ariba Guided Buying Rate Limits

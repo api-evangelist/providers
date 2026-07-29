@@ -167,7 +167,7 @@ plans:
 - name: Varo Plans Pricing
   plan_count: 5
   slug: varo-plans-pricing
-random_paper: 40
+random_paper: 35
 rate_limits:
 - limit_count: 6
   name: Varo Rate Limits

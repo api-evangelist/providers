@@ -95,7 +95,7 @@ plans:
 - name: Fieldedge Plans Pricing
   plan_count: 2
   slug: fieldedge-plans-pricing
-random_paper: 41
+random_paper: 30
 score:
   band: emerging
   composite: 15.9

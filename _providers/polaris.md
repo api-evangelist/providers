@@ -44,7 +44,7 @@ name: Polaris
 nav: Providers
 network: true
 overview: Polaris is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Fortune 1000.
-random_paper: 42
+random_paper: 33
 score:
   band: minimal
   composite: 2.6

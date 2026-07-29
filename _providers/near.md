@@ -259,7 +259,7 @@ plans:
 - name: Nearblocks Api
   plan_count: 5
   slug: nearblocks-api
-random_paper: 22
+random_paper: 17
 rate_limits:
 - limit_count: 0
   name: Fastnear Api

@@ -116,7 +116,7 @@ overview: 'Tensor9 is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Tensor9''s developer surface includes documentation, getting-started guide, CLI, authentication, pricing, signup flow, support, and 11 more developer resources.'
-random_paper: 4
+random_paper: 76
 score:
   band: emerging
   composite: 26.5

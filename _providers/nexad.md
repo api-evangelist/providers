@@ -147,7 +147,7 @@ overview: 'Nexad publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Nexad''s developer surface includes documentation, API reference, getting-started guide, engineering blog, changelog, pricing, signup flow, and 16 more developer resources.'
-random_paper: 48
+random_paper: 42
 score:
   band: thin
   composite: 34.9

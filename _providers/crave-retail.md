@@ -60,7 +60,7 @@ name: Crave Retail
 nav: Providers
 network: true
 overview: Crave Retail is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Retail, Retail Technology, In-Store, and Smart Fitting Rooms.
-random_paper: 15
+random_paper: 0
 score:
   band: minimal
   composite: 10.0

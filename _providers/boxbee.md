@@ -75,7 +75,7 @@ overview: 'Boxbee is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Boxbee''s developer surface includes engineering blog, support, pricing, and 5 more developer resources.'
-random_paper: 69
+random_paper: 62
 score:
   band: emerging
   composite: 15.2

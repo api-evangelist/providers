@@ -100,7 +100,7 @@ overview: 'RealScout is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   RealScout''s developer surface includes pricing, support, engineering blog, authentication, and 9 more developer resources.'
-random_paper: 18
+random_paper: 6
 scopes:
 - name: Realscout Scopes
   scope_count: 1

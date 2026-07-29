@@ -177,7 +177,7 @@ overview: 'Mettle publishes 1 API on the [APIs.io](https://apis.io/) network: Op
 
 
   Mettle''s developer surface includes authentication, sandbox, documentation, engineering blog, support, and 22 more developer resources.'
-random_paper: 11
+random_paper: 3
 scopes:
 - name: Mettle Scopes
   scope_count: 4

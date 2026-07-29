@@ -52,7 +52,7 @@ name: Zefr
 nav: Providers
 network: true
 overview: Zefr is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Adtech, Brand Safety, Brand Suitability, and Content Intelligence.
-random_paper: 39
+random_paper: 34
 score:
   band: minimal
   composite: 7.6

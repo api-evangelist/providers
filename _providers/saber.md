@@ -75,7 +75,7 @@ overview: 'Saber is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Saber''s developer surface includes documentation and 7 more developer resources.'
-random_paper: 45
+random_paper: 39
 score:
   band: minimal
   composite: 11.2

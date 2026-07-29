@@ -174,7 +174,7 @@ overview: 'Metrobi publishes 1 API on the [APIs.io](https://apis.io/) network: D
 
 
   Metrobi''s developer surface includes documentation, API reference, getting-started guide, signup flow, pricing, support, engineering blog, and 20 more developer resources.'
-random_paper: 34
+random_paper: 25
 score:
   band: developing
   composite: 47.1

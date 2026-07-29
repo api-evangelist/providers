@@ -100,7 +100,7 @@ plans:
 - name: Bloomberg Tv Plans Pricing
   plan_count: 3
   slug: bloomberg-tv-plans-pricing
-random_paper: 32
+random_paper: 17
 rate_limits:
 - limit_count: 5
   name: Bloomberg Tv Rate Limits

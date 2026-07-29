@@ -155,7 +155,7 @@ overview: 'Beaconstac publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Beaconstac''s developer surface includes documentation, API reference, engineering blog, support, pricing, signup flow, authentication, and 18 more developer resources.'
-random_paper: 3
+random_paper: 71
 score:
   band: developing
   composite: 47.2

@@ -138,7 +138,7 @@ plans:
 - name: Openpay Plans Pricing
   plan_count: 2
   slug: openpay-plans-pricing
-random_paper: 44
+random_paper: 35
 rate_limits:
 - limit_count: 3
   name: Openpay Rate Limits

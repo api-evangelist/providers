@@ -79,7 +79,7 @@ overview: 'Cheerfy is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cheerfy''s developer surface includes documentation, API reference, pricing, engineering blog, support, and 4 more developer resources.'
-random_paper: 22
+random_paper: 13
 score:
   band: emerging
   composite: 16.1

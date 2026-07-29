@@ -59,7 +59,7 @@ overview: 'Deep Genomics is profiled on the [APIs.io](https://apis.io/) network.
 
 
   Deep Genomics'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 32
+random_paper: 16
 score:
   band: minimal
   composite: 8.3

@@ -127,7 +127,7 @@ overview: 'Morph publishes 2 APIs on the [APIs.io](https://apis.io/) network. Ta
 
 
   Morph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, authentication, changelog, CLI, and 12 more developer resources.'
-random_paper: 70
+random_paper: 64
 score:
   band: emerging
   composite: 26.6

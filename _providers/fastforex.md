@@ -176,7 +176,7 @@ plans:
 - name: Fastforex Plans Pricing
   plan_count: 4
   slug: fastforex-plans-pricing
-random_paper: 18
+random_paper: 6
 rate_limits:
 - limit_count: 9
   name: Fastforex Rate Limits

@@ -39,7 +39,7 @@ name: Frame
 nav: Providers
 network: true
 overview: Frame is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Software, Desktop Publishing, Technical Documentation, and Publishing.
-random_paper: 43
+random_paper: 37
 score:
   band: minimal
   composite: 5.0

@@ -81,7 +81,7 @@ plans:
 - name: Degreed Plans Pricing
   plan_count: 3
   slug: degreed-plans-pricing
-random_paper: 0
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Degreed Rate Limits

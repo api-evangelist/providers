@@ -87,7 +87,7 @@ overview: 'Groundswell is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Groundswell''s developer surface includes pricing, signup flow, engineering blog, support, and 7 more developer resources.'
-random_paper: 6
+random_paper: 72
 score:
   band: emerging
   composite: 18.4

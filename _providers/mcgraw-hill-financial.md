@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: McGraw Hill Announces Participation in Upcoming Investor ...
   url: https://lasvegassun.com/news/2026/may/06/mcgraw-hill-announces-participation-in-upcoming-in/
-random_paper: 9
+random_paper: 64
 score:
   band: minimal
   composite: 5.7

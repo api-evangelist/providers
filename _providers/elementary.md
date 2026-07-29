@@ -83,7 +83,7 @@ overview: 'Elementary is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Elementary''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 38
+random_paper: 25
 score:
   band: minimal
   composite: 8.4

@@ -48,7 +48,7 @@ name: Moveha
 nav: Providers
 network: true
 overview: Moveha is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Real Estate, Student Housing, Rental Marketplace, and Relocation.
-random_paper: 0
+random_paper: 73
 score:
   band: minimal
   composite: 5.7

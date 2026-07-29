@@ -56,7 +56,7 @@ name: '&Volume'
 nav: Providers
 network: true
 overview: '&Volume is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Digital Assets, Risk Management, Cryptocurrency, and Institutional Investing.'
-random_paper: 56
+random_paper: 44
 score:
   band: minimal
   composite: 5.0

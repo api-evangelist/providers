@@ -59,7 +59,7 @@ overview: 'Ermetic is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Ermetic''s developer surface includes API reference, engineering blog, and 2 more developer resources.'
-random_paper: 25
+random_paper: 16
 score:
   band: minimal
   composite: 6.7

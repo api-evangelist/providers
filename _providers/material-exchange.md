@@ -52,7 +52,7 @@ name: Material Exchange
 nav: Providers
 network: true
 overview: Material Exchange is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Sourcing, Supply Chain, and Product Development.
-random_paper: 47
+random_paper: 26
 score:
   band: minimal
   composite: 5.7

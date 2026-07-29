@@ -136,7 +136,7 @@ overview: 'Medidata Solutions publishes 1 API on the [APIs.io](https://apis.io/)
 
 
   Medidata Solutions'' developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, and 16 more developer resources.'
-random_paper: 38
+random_paper: 15
 score:
   band: thin
   composite: 30.9

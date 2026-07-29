@@ -153,7 +153,7 @@ overview: 'ShopUp publishes 3 APIs on the [APIs.io](https://apis.io/) network: A
 
 
   ShopUp''s developer surface includes documentation, API reference, getting-started guide, engineering blog, support, authentication, sandbox, and 15 more developer resources.'
-random_paper: 31
+random_paper: 23
 score:
   band: thin
   composite: 40.3

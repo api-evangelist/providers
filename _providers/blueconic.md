@@ -515,7 +515,7 @@ plans:
 - name: Blueconic Plans Pricing
   plan_count: 1
   slug: blueconic-plans-pricing
-random_paper: 68
+random_paper: 57
 rate_limits:
 - limit_count: 0
   name: Blueconic Rate Limits

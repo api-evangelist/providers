@@ -239,7 +239,7 @@ plans:
 - name: Xiaoman Plans
   plan_count: 4
   slug: xiaoman-plans
-random_paper: 29
+random_paper: 20
 rate_limits:
 - limit_count: 3
   name: Xiaoman Rate Limits

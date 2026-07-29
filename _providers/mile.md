@@ -190,7 +190,7 @@ overview: 'Mile publishes 18 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Mile''s developer surface includes documentation, API reference, engineering blog, signup flow, support, pricing, authentication, and 13 more developer resources.'
-random_paper: 23
+random_paper: 18
 score:
   band: developing
   composite: 43.2

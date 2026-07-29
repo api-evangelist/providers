@@ -121,7 +121,7 @@ plans:
 - name: Poolside Ai Plans Pricing
   plan_count: 3
   slug: poolside-ai-plans-pricing
-random_paper: 70
+random_paper: 57
 rate_limits:
 - limit_count: 3
   name: Poolside Ai Rate Limits

@@ -145,7 +145,7 @@ overview: 'Ordo publishes 6 APIs on the [APIs.io](https://apis.io/) network, inc
 
 
   Ordo''s developer surface includes authentication, API reference, getting-started guide, support, and 16 more developer resources.'
-random_paper: 36
+random_paper: 31
 score:
   band: thin
   composite: 39.9

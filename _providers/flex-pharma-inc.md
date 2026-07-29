@@ -63,7 +63,7 @@ overview: 'Flex Pharma, Inc. is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Flex Pharma, Inc.''s developer surface includes support and 4 more developer resources.'
-random_paper: 28
+random_paper: 10
 score:
   band: minimal
   composite: 12.1

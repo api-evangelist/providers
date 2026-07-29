@@ -40,7 +40,7 @@ name: Agito Networks
 nav: Providers
 network: true
 overview: Agito Networks is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Unified Communications, Enterprise Mobility, VoIP, and Telecommunications.
-random_paper: 30
+random_paper: 12
 score:
   band: minimal
   composite: 4.3

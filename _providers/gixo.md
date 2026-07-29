@@ -39,7 +39,7 @@ name: Gixo
 nav: Providers
 network: true
 overview: Gixo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Fitness, Health, and Streaming.
-random_paper: 39
+random_paper: 34
 score:
   band: minimal
   composite: 4.3

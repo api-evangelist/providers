@@ -71,7 +71,7 @@ overview: 'Focused Space, Inc. is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Focused Space, Inc.''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 73
+random_paper: 53
 score:
   band: emerging
   composite: 13.1

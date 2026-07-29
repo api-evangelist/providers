@@ -244,7 +244,7 @@ overview: 'N3XT publishes 11 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   N3XT''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 25 more developer resources.'
-random_paper: 77
+random_paper: 73
 scopes:
 - name: N3Xt Scopes
   scope_count: 8

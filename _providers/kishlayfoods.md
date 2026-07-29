@@ -48,7 +48,7 @@ name: Kishlay Foods
 nav: Providers
 network: true
 overview: Kishlay Foods is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Food, Snacks, Manufacturing, and Consumer Packaged Goods.
-random_paper: 16
+random_paper: 0
 score:
   band: minimal
   composite: 5.0

@@ -158,7 +158,7 @@ plans:
 - name: E2Open Plans Pricing
   plan_count: 3
   slug: e2open-plans-pricing
-random_paper: 25
+random_paper: 18
 rate_limits:
 - limit_count: 3
   name: E2Open Rate Limits

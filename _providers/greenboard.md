@@ -79,7 +79,7 @@ overview: 'Greenboard is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Greenboard''s developer surface includes engineering blog, support, signup flow, and 6 more developer resources.'
-random_paper: 9
+random_paper: 77
 score:
   band: emerging
   composite: 18.6

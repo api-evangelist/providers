@@ -111,7 +111,7 @@ plans:
 - name: Payhip Plans Pricing
   plan_count: 3
   slug: payhip-plans-pricing
-random_paper: 11
+random_paper: 3
 rate_limits:
 - limit_count: 2
   name: Payhip Rate Limits

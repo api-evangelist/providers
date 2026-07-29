@@ -55,7 +55,7 @@ overview: 'Barefoot Networks is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Barefoot Networks'' developer surface includes documentation and 2 more developer resources.'
-random_paper: 28
+random_paper: 6
 score:
   band: minimal
   composite: 7.4

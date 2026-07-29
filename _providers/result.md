@@ -55,7 +55,7 @@ overview: 'Result is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Result''s developer surface includes signup flow and 2 more developer resources.'
-random_paper: 31
+random_paper: 23
 score:
   band: minimal
   composite: 7.9

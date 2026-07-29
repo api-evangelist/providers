@@ -67,7 +67,7 @@ overview: 'Atticus is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Atticus'' developer surface includes support, engineering blog, and 4 more developer resources.'
-random_paper: 45
+random_paper: 36
 score:
   band: minimal
   composite: 10.5

@@ -56,7 +56,7 @@ name: IP2WHOIS Information Lookup
 nav: Providers
 network: true
 overview: IP2WHOIS Information Lookup publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Development and Public APIs.
-random_paper: 47
+random_paper: 13
 score:
   band: minimal
   composite: 5.7

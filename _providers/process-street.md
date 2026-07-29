@@ -239,7 +239,7 @@ overview: 'Process Street publishes 28 APIs on the [APIs.io](https://apis.io/) n
 
 
   Process Street''s developer surface includes documentation, API reference, authentication, engineering blog, support, pricing, signup flow, and 16 more developer resources.'
-random_paper: 35
+random_paper: 17
 score:
   band: developing
   composite: 53.6

@@ -83,7 +83,7 @@ overview: 'Sovryn is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Sovryn''s developer surface includes documentation, support, and 8 more developer resources.'
-random_paper: 49
+random_paper: 41
 score:
   band: minimal
   composite: 12.7

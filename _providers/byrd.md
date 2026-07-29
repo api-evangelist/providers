@@ -132,7 +132,7 @@ overview: 'Byrd publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Byrd''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, support, engineering blog, and 13 more developer resources.'
-random_paper: 33
+random_paper: 28
 rate_limits:
 - limit_count: 0
   name: Byrd Rate Limits

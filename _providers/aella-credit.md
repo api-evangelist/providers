@@ -72,7 +72,7 @@ overview: 'Aella Credit publishes 1 API on the [APIs.io](https://apis.io/) netwo
 
 
   Aella Credit''s developer surface includes signup flow and 5 more developer resources.'
-random_paper: 71
+random_paper: 57
 score:
   band: minimal
   composite: 11.9

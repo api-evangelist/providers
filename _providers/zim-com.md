@@ -124,7 +124,7 @@ overview: 'ZIM Integrated Shipping Services is profiled on the [APIs.io](https:/
 
 
   ZIM Integrated Shipping Services'' developer surface includes tooling, YouTube channel, and 18 more developer resources.'
-random_paper: 60
+random_paper: 52
 score:
   band: minimal
   composite: 6.7

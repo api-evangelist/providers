@@ -67,7 +67,7 @@ overview: 'Acclinate is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Acclinate''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 52
+random_paper: 41
 score:
   band: minimal
   composite: 11.6

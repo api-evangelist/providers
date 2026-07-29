@@ -63,7 +63,7 @@ overview: 'Cheddar is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cheddar''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 75
+random_paper: 67
 score:
   band: minimal
   composite: 9.7

@@ -67,7 +67,7 @@ overview: 'Meetup.com publishes 1 API on the [APIs.io](https://apis.io/) network
 
 
   Meetup.com''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 60
+random_paper: 48
 score:
   band: minimal
   composite: 6.2

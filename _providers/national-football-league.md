@@ -71,7 +71,7 @@ overview: 'National Football League is profiled on the [APIs.io](https://apis.io
 
 
   National Football League''s developer surface includes engineering blog and 6 more developer resources.'
-random_paper: 22
+random_paper: 73
 score:
   band: minimal
   composite: 5.2

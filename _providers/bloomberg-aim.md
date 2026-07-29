@@ -1000,7 +1000,7 @@ plans:
 - name: Bloomberg Aim Plans Pricing
   plan_count: 1
   slug: bloomberg-aim-plans-pricing
-random_paper: 29
+random_paper: 13
 rate_limits:
 - limit_count: 2
   name: Bloomberg Aim Rate Limits

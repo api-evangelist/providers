@@ -91,7 +91,7 @@ overview: 'GraphQL Inspector publishes 1 API on the [APIs.io](https://apis.io/) 
 
 
   GraphQL Inspector''s developer surface includes documentation, engineering blog, pricing, and 7 more developer resources.'
-random_paper: 19
+random_paper: 78
 score:
   band: emerging
   composite: 20.5

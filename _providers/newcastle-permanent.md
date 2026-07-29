@@ -203,7 +203,7 @@ overview: 'Newcastle Permanent Building Society publishes 14 APIs on the [APIs.i
 
 
   Newcastle Permanent Building Society''s developer surface includes getting-started guide, documentation, API reference, sandbox, authentication, support, and 22 more developer resources.'
-random_paper: 61
+random_paper: 37
 scopes:
 - name: Newcastle Permanent Scopes
   scope_count: 12

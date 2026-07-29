@@ -51,7 +51,7 @@ overview: 'Docker Swarm is profiled on the [APIs.io](https://apis.io/) network. 
 
 
   Docker Swarm''s developer surface includes documentation and 1 more developer resources.'
-random_paper: 31
+random_paper: 16
 score:
   band: minimal
   composite: 6.6

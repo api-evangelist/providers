@@ -72,7 +72,7 @@ plans:
 - name: Newman Plans Pricing
   plan_count: 3
   slug: newman-plans-pricing
-random_paper: 6
+random_paper: 79
 rate_limits:
 - limit_count: 5
   name: Newman Rate Limits

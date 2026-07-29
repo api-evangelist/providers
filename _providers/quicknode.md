@@ -155,7 +155,7 @@ plans:
 - name: Quicknode Plans Pricing
   plan_count: 5
   slug: quicknode-plans-pricing
-random_paper: 3
+random_paper: 72
 rate_limits:
 - limit_count: 5
   name: Quicknode Rate Limits

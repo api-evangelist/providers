@@ -75,7 +75,7 @@ overview: 'ArriVent is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   ArriVent''s developer surface includes support and 7 more developer resources.'
-random_paper: 75
+random_paper: 65
 score:
   band: minimal
   composite: 11.2

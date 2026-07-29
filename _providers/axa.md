@@ -103,7 +103,7 @@ name: AXA
 nav: Providers
 network: true
 overview: AXA is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Insurance, Financial Services, and Asset Management.
-random_paper: 74
+random_paper: 71
 score:
   band: emerging
   composite: 13.3

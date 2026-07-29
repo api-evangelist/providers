@@ -67,7 +67,7 @@ overview: 'Copperlane is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Copperlane''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 25
+random_paper: 12
 score:
   band: minimal
   composite: 9.7

@@ -63,7 +63,7 @@ overview: 'Packaging Corporation of America is profiled on the [APIs.io](https:/
 
 
   Packaging Corporation of America''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 3
+random_paper: 44
 score:
   band: minimal
   composite: 5.4

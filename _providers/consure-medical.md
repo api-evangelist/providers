@@ -63,7 +63,7 @@ overview: 'Consure Medical is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Consure Medical''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 11
+random_paper: 73
 score:
   band: minimal
   composite: 10.8

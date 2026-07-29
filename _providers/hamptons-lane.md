@@ -44,7 +44,7 @@ name: Hamptons Lane
 nav: Providers
 network: true
 overview: Hamptons Lane is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Subscription Box, Ecommerce, Food and Beverage, and Cooking.
-random_paper: 55
+random_paper: 39
 score:
   band: minimal
   composite: 4.1

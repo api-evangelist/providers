@@ -132,7 +132,7 @@ plans:
 - name: National Archives And Records Administration Nara  Plans Pricing
   plan_count: 3
   slug: national-archives-and-records-administration-nara--plans-pricing
-random_paper: 6
+random_paper: 25
 rate_limits:
 - limit_count: 5
   name: National Archives And Records Administration Nara  Rate Limits

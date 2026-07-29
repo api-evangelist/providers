@@ -56,7 +56,7 @@ name: icanhazdadjoke
 nav: Providers
 network: true
 overview: icanhazdadjoke publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Personality and Public APIs.
-random_paper: 16
+random_paper: 79
 score:
   band: minimal
   composite: 5.7

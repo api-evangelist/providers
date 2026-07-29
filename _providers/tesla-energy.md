@@ -307,7 +307,7 @@ plans:
 - name: Tesla Energy Plans Pricing
   plan_count: 5
   slug: tesla-energy-plans-pricing
-random_paper: 32
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Tesla Energy Rate Limits

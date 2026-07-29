@@ -48,7 +48,7 @@ name: Predictive Oncology  (Precision Therapeutics)
 nav: Providers
 network: true
 overview: Predictive Oncology  (Precision Therapeutics) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Oncology, Drug Discovery, and Artificial Intelligence.
-random_paper: 29
+random_paper: 56
 score:
   band: minimal
   composite: 5.4

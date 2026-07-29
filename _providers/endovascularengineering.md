@@ -56,7 +56,7 @@ name: Endovascularengineering
 nav: Providers
 network: true
 overview: Endovascularengineering is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Medical Devices, Endovascular, Thrombectomy, and Cardiovascular.
-random_paper: 50
+random_paper: 20
 score:
   band: minimal
   composite: 10.5

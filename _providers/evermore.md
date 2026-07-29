@@ -67,7 +67,7 @@ overview: 'Evermore is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Evermore''s developer surface includes documentation and 5 more developer resources.'
-random_paper: 69
+random_paper: 59
 score:
   band: minimal
   composite: 10.3

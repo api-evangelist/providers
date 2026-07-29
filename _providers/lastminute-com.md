@@ -115,7 +115,7 @@ overview: 'lastminute.com is profiled on the [APIs.io](https://apis.io/) network
 
 
   lastminute.com''s developer surface includes engineering blog and 17 more developer resources.'
-random_paper: 18
+random_paper: 0
 score:
   band: emerging
   composite: 13.9

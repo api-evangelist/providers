@@ -100,7 +100,7 @@ plans:
 - name: Tryton Plans Pricing
   plan_count: 2
   slug: tryton-plans-pricing
-random_paper: 48
+random_paper: 40
 rate_limits:
 - limit_count: 0
   name: Tryton Rate Limits

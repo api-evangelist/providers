@@ -44,7 +44,7 @@ name: Incognito Technologies
 nav: Providers
 network: true
 overview: Incognito Technologies is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IT Services, Software Development, Consulting, and Cloud.
-random_paper: 59
+random_paper: 31
 score:
   band: minimal
   composite: 5.0

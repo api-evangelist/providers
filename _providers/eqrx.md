@@ -48,7 +48,7 @@ name: EQRx
 nav: Providers
 network: true
 overview: EQRx is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biopharmaceutical, Pharmaceuticals, Biotechnology, and Oncology.
-random_paper: 48
+random_paper: 43
 score:
   band: minimal
   composite: 5.4

@@ -83,7 +83,7 @@ overview: 'NAVER Z is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   NAVER Z''s developer surface includes CLI, documentation, API reference, getting-started guide, pricing, and 5 more developer resources.'
-random_paper: 67
+random_paper: 59
 score:
   band: emerging
   composite: 15.8

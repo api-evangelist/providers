@@ -141,7 +141,7 @@ plans:
 - name: Travis Ci Plans Pricing
   plan_count: 6
   slug: travis-ci-plans-pricing
-random_paper: 34
+random_paper: 23
 rate_limits:
 - limit_count: 4
   name: Travis Ci Rate Limits

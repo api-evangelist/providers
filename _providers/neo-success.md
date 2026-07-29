@@ -48,7 +48,7 @@ name: NEO Success
 nav: Providers
 network: true
 overview: NEO Success is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Personal Finance, Money Management, and Neobank.
-random_paper: 8
+random_paper: 75
 score:
   band: minimal
   composite: 5.4

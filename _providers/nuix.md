@@ -1173,7 +1173,7 @@ plans:
 - name: Nuix Plans Pricing
   plan_count: 4
   slug: nuix-plans-pricing
-random_paper: 52
+random_paper: 47
 rate_limits:
 - limit_count: 4
   name: Nuix Rate Limits

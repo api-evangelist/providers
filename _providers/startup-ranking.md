@@ -87,7 +87,7 @@ overview: 'Startup Ranking is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Startup Ranking''s developer surface includes engineering blog and 8 more developer resources.'
-random_paper: 58
+random_paper: 39
 score:
   band: minimal
   composite: 12.3

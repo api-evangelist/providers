@@ -56,7 +56,7 @@ name: IP Geolocation
 nav: Providers
 network: true
 overview: IP Geolocation publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Geocoding and Public APIs.
-random_paper: 74
+random_paper: 57
 score:
   band: minimal
   composite: 5.7

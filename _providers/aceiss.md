@@ -75,7 +75,7 @@ overview: 'Aceiss is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Aceiss'' developer surface includes signup flow, pricing, support, and 5 more developer resources.'
-random_paper: 72
+random_paper: 65
 score:
   band: emerging
   composite: 15.5

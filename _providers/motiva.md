@@ -107,7 +107,7 @@ overview: 'Motiva is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Motiva''s developer surface includes documentation, support, getting-started guide, engineering blog, pricing, signup flow, and 10 more developer resources.'
-random_paper: 16
+random_paper: 8
 score:
   band: emerging
   composite: 25.2

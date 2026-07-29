@@ -60,7 +60,7 @@ name: Scanii
 nav: Providers
 network: true
 overview: Scanii publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Anti Malware and Public APIs.
-random_paper: 71
+random_paper: 64
 score:
   band: minimal
   composite: 7.3

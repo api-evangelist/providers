@@ -71,7 +71,7 @@ overview: 'Intellitech is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Intellitech''s developer surface includes engineering blog, signup flow, and 5 more developer resources.'
-random_paper: 53
+random_paper: 39
 score:
   band: minimal
   composite: 10.2

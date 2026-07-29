@@ -290,7 +290,7 @@ plans:
 - name: Microsoft Azure Health Data Services Plans
   plan_count: 5
   slug: microsoft-azure-health-data-services-plans
-random_paper: 26
+random_paper: 11
 rate_limits:
 - limit_count: 9
   name: Microsoft Azure Health Data Services Rate Limits

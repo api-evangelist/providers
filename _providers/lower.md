@@ -71,7 +71,7 @@ overview: 'Lower is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Lower''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 73
+random_paper: 67
 score:
   band: emerging
   composite: 13.1

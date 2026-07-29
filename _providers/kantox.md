@@ -99,7 +99,7 @@ overview: 'Kantox is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Kantox''s developer surface includes documentation, engineering blog, support, and 11 more developer resources.'
-random_paper: 21
+random_paper: 13
 score:
   band: emerging
   composite: 23.6

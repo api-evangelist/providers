@@ -48,7 +48,7 @@ name: Gigacatalyst
 nav: Providers
 network: true
 overview: Gigacatalyst is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, SaaS, Sales Enablement, and Solutions Engineering.
-random_paper: 77
+random_paper: 62
 score:
   band: minimal
   composite: 5.7

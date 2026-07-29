@@ -173,7 +173,7 @@ plans:
 - name: Lumos Plans Pricing
   plan_count: 3
   slug: lumos-plans-pricing
-random_paper: 0
+random_paper: 74
 rate_limits:
 - limit_count: 5
   name: Lumos Rate Limits

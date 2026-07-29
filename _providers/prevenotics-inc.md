@@ -55,7 +55,7 @@ overview: 'Prevenotics, Inc. is profiled on the [APIs.io](https://apis.io/) netw
 
 
   Prevenotics, Inc.''s developer surface includes support and 2 more developer resources.'
-random_paper: 41
+random_paper: 22
 score:
   band: minimal
   composite: 6.1

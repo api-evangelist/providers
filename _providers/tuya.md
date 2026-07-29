@@ -210,7 +210,7 @@ plans:
 - name: Tuya Plans Pricing
   plan_count: 1
   slug: tuya-plans-pricing
-random_paper: 51
+random_paper: 46
 rate_limits:
 - limit_count: 1
   name: Tuya Rate Limits

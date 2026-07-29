@@ -71,7 +71,7 @@ overview: 'Safqah Holdings Limited is profiled on the [APIs.io](https://apis.io/
 
 
   Safqah Holdings Limited''s developer surface includes engineering blog, support, signup flow, and 4 more developer resources.'
-random_paper: 78
+random_paper: 50
 score:
   band: emerging
   composite: 13.1

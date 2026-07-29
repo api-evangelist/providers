@@ -341,7 +341,7 @@ plans:
 - name: Clickup Plans Pricing
   plan_count: 4
   slug: clickup-plans-pricing
-random_paper: 27
+random_paper: 18
 rate_limits:
 - limit_count: 4
   name: Clickup Rate Limits

@@ -102,7 +102,7 @@ overview: 'Cheetah is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Cheetah''s developer surface includes engineering blog, signup flow, support, and 5 more developer resources.'
-random_paper: 2
+random_paper: 74
 score:
   band: minimal
   composite: 6.3

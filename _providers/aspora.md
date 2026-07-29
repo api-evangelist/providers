@@ -71,7 +71,7 @@ overview: 'Aspora is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Aspora''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 6
+random_paper: 79
 score:
   band: minimal
   composite: 12.2

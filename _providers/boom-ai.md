@@ -202,7 +202,7 @@ overview: 'Boom Ai publishes 10 APIs on the [APIs.io](https://apis.io/) network,
 
 
   Boom Ai''s developer surface includes authentication, documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, and 22 more developer resources.'
-random_paper: 36
+random_paper: 28
 score:
   band: developing
   composite: 48.6

@@ -135,7 +135,7 @@ plans:
 - name: Sanctions Io Plans Pricing
   plan_count: 5
   slug: sanctions-io-plans-pricing
-random_paper: 39
+random_paper: 24
 rate_limits:
 - limit_count: 6
   name: Sanctions Io Rate Limits

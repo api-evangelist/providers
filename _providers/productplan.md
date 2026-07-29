@@ -195,7 +195,7 @@ plans:
 - name: Productplan Plans Pricing
   plan_count: 1
   slug: productplan-plans-pricing
-random_paper: 76
+random_paper: 62
 rate_limits:
 - limit_count: 0
   name: Productplan Rate Limits

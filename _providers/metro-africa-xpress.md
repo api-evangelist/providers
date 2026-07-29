@@ -67,7 +67,7 @@ overview: 'Metro Africa Xpress is profiled on the [APIs.io](https://apis.io/) ne
 
 
   Metro Africa Xpress'' developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 12
+random_paper: 69
 score:
   band: minimal
   composite: 10.5

@@ -79,7 +79,7 @@ overview: 'GrowthHackers is profiled on the [APIs.io](https://apis.io/) network.
 
 
   GrowthHackers'' developer surface includes engineering blog, developer portal, signup flow, and 6 more developer resources.'
-random_paper: 44
+random_paper: 27
 score:
   band: minimal
   composite: 6.3

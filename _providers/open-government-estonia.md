@@ -56,7 +56,7 @@ name: Open Government, Estonia
 nav: Providers
 network: true
 overview: Open Government, Estonia publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Government and Public APIs.
-random_paper: 52
+random_paper: 23
 score:
   band: minimal
   composite: 6.5

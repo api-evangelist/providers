@@ -56,7 +56,7 @@ name: CoinRanking
 nav: Providers
 network: true
 overview: CoinRanking publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Cryptocurrency and Public APIs.
-random_paper: 51
+random_paper: 37
 score:
   band: minimal
   composite: 5.7

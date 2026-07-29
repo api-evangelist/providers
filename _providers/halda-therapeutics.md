@@ -39,7 +39,7 @@ name: Halda Therapeutics
 nav: Providers
 network: true
 overview: Halda Therapeutics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Biotechnology, Pharmaceuticals, Oncology, and Cancer Therapeutics.
-random_paper: 8
+random_paper: 66
 score:
   band: minimal
   composite: 4.3

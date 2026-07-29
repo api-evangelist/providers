@@ -112,7 +112,7 @@ overview: 'Strateos publishes 1 API on the [APIs.io](https://apis.io/) network. 
 
 
   Strateos'' developer surface includes documentation, API reference, getting-started guide, CLI, authentication, and 11 more developer resources.'
-random_paper: 5
+random_paper: 75
 score:
   band: emerging
   composite: 23.7

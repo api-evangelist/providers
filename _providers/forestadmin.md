@@ -124,7 +124,7 @@ plans:
 - name: Forestadmin Plans Pricing
   plan_count: 3
   slug: forestadmin-plans-pricing
-random_paper: 60
+random_paper: 46
 rate_limits:
 - limit_count: 4
   name: Forestadmin Rate Limits

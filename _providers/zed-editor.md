@@ -216,7 +216,7 @@ overview: 'Zed is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   Zed''s developer surface includes documentation, pricing, release notes, status page, engineering blog, support, FAQ, and 36 more developer resources.'
-random_paper: 55
+random_paper: 43
 score:
   band: emerging
   composite: 18.3

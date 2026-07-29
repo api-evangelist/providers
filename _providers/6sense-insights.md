@@ -107,7 +107,7 @@ overview: '6Sense Insights is profiled on the [APIs.io](https://apis.io/) networ
 
 
   6Sense Insights'' developer surface includes documentation, support, engineering blog, pricing, and 12 more developer resources.'
-random_paper: 74
+random_paper: 56
 score:
   band: emerging
   composite: 19.9

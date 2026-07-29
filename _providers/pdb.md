@@ -149,7 +149,7 @@ plans:
 - name: Pdb Plans Pricing
   plan_count: 1
   slug: pdb-plans-pricing
-random_paper: 70
+random_paper: 67
 rate_limits:
 - limit_count: 7
   name: Pdb Rate Limits

@@ -48,7 +48,7 @@ name: RPX
 nav: Providers
 network: true
 overview: RPX is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Patents, Intellectual Property, and Risk Management.
-random_paper: 26
+random_paper: 22
 score:
   band: minimal
   composite: 5.0

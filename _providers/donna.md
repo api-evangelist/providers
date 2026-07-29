@@ -92,7 +92,7 @@ overview: 'Donna is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Donna''s developer surface includes engineering blog, pricing, and 10 more developer resources.'
-random_paper: 48
+random_paper: 42
 score:
   band: emerging
   composite: 21.1

@@ -39,7 +39,7 @@ name: GMS
 nav: Providers
 network: true
 overview: GMS is profiled on the [APIs.io](https://apis.io/) network.
-random_paper: 7
+random_paper: 3
 score:
   band: minimal
   composite: 2.6

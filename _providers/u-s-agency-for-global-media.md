@@ -124,7 +124,7 @@ plans:
 - name: U S Agency For Global Media Plans Pricing
   plan_count: 3
   slug: u-s-agency-for-global-media-plans-pricing
-random_paper: 72
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: U S Agency For Global Media Rate Limits

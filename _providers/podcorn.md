@@ -44,7 +44,7 @@ name: Podcorn
 nav: Providers
 network: true
 overview: Podcorn is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 37
+random_paper: 28
 score:
   band: minimal
   composite: 3.2

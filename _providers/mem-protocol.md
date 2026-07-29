@@ -39,7 +39,7 @@ name: Mem Protocol
 nav: Providers
 network: true
 overview: Mem Protocol is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Decentralized Social, Social Graph, and Blockchain.
-random_paper: 46
+random_paper: 31
 score:
   band: minimal
   composite: 5.0

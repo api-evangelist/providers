@@ -128,7 +128,7 @@ plans:
 - name: Cms Blue Button Plans Pricing
   plan_count: 2
   slug: cms-blue-button-plans-pricing
-random_paper: 65
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Cms Blue Button Rate Limits

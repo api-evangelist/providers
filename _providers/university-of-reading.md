@@ -96,7 +96,7 @@ plans:
 - name: University Of Reading Plans Pricing
   plan_count: 2
   slug: university-of-reading-plans-pricing
-random_paper: 75
+random_paper: 49
 rate_limits:
 - limit_count: 1
   name: University Of Reading Rate Limits

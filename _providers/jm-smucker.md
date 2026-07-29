@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: GrayMatter Teams with Smucker's to Unlock Efficiency & Quality
   url: https://graymattersystems.com/smuckers-unlock-efficiency-quality-ai-digital-twins/
-random_paper: 62
+random_paper: 50
 score:
   band: minimal
   composite: 5.0

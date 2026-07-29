@@ -202,7 +202,7 @@ plans:
 - name: Linea Plans
   plan_count: 8
   slug: linea-plans
-random_paper: 41
+random_paper: 35
 rate_limits:
 - limit_count: 10
   name: Linea Rate Limits

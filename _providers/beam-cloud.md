@@ -125,7 +125,7 @@ plans:
 - name: Beam Cloud Plans Pricing
   plan_count: 5
   slug: beam-cloud-plans-pricing
-random_paper: 25
+random_paper: 13
 rate_limits:
 - limit_count: 4
   name: Beam Cloud Rate Limits

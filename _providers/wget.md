@@ -125,7 +125,7 @@ plans:
 - name: Wget Plans Pricing
   plan_count: 3
   slug: wget-plans-pricing
-random_paper: 39
+random_paper: 34
 rate_limits:
 - limit_count: 5
   name: Wget Rate Limits

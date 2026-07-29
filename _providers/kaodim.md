@@ -44,7 +44,7 @@ name: Kaodim
 nav: Providers
 network: true
 overview: Kaodim is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Home Services, Local Services, Marketplace, and On-Demand.
-random_paper: 69
+random_paper: 62
 score:
   band: minimal
   composite: 5.0

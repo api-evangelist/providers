@@ -143,7 +143,7 @@ plans:
 - name: Nmbrs Plans Pricing
   plan_count: 4
   slug: nmbrs-plans-pricing
-random_paper: 66
+random_paper: 60
 rate_limits:
 - limit_count: 2
   name: Nmbrs Rate Limits

@@ -201,7 +201,7 @@ press:
 - date: '2026-05-25'
   title: Vantiv and Worldpay Complete Combination to Form ...
   url: https://www.prnewswire.com/news-releases/vantiv-and-worldpay-complete-combination-to-form-worldpay-inc-300583008.html
-random_paper: 24
+random_paper: 16
 rate_limits:
 - limit_count: 1
   name: Vantiv Rate Limits

@@ -48,7 +48,7 @@ name: BBN
 nav: Providers
 network: true
 overview: BBN is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Defense, Research and Development, and Artificial Intelligence.
-random_paper: 66
+random_paper: 63
 score:
   band: minimal
   composite: 5.0

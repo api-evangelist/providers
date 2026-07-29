@@ -247,7 +247,7 @@ overview: 'Paraşüt publishes 24 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Paraşüt''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 21 more developer resources.'
-random_paper: 21
+random_paper: 14
 scopes:
 - name: Para T Scopes
   scope_count: 0

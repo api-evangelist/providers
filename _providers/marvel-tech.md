@@ -48,7 +48,7 @@ name: Marvel Tech (Mufan Power)
 nav: Providers
 network: true
 overview: Marvel Tech (Mufan Power) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Energy, Power Generation, Hydrogen, and Gas Turbine.
-random_paper: 72
+random_paper: 59
 score:
   band: minimal
   composite: 4.3

@@ -59,7 +59,7 @@ overview: 'Happs is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Happs'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 60
+random_paper: 54
 score:
   band: minimal
   composite: 5.4

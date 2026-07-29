@@ -111,7 +111,7 @@ overview: 'C++ is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   C++''s developer surface includes getting-started guide, FAQ, GitHub presence, Stack Overflow tag, engineering blog, and 12 more developer resources.'
-random_paper: 43
+random_paper: 31
 score:
   band: minimal
   composite: 8.3

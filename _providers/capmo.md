@@ -241,7 +241,7 @@ overview: 'Capmo publishes 23 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   Capmo''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, authentication, and 22 more developer resources.'
-random_paper: 48
+random_paper: 42
 score:
   band: developing
   composite: 48.6

@@ -55,7 +55,7 @@ overview: 'Property Capsule is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Property Capsule''s developer surface includes documentation, support, and 1 more developer resources.'
-random_paper: 15
+random_paper: 75
 score:
   band: minimal
   composite: 7.6

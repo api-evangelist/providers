@@ -140,7 +140,7 @@ overview: 'Kopperfield is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   Kopperfield''s developer surface includes pricing, signup flow, engineering blog, support, and 20 more developer resources.'
-random_paper: 53
+random_paper: 39
 score:
   band: emerging
   composite: 19.8

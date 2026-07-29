@@ -56,7 +56,7 @@ name: Materials Platform for Data Science
 nav: Providers
 network: true
 overview: Materials Platform for Data Science publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Science And Math and Public APIs.
-random_paper: 38
+random_paper: 76
 score:
   band: minimal
   composite: 5.7

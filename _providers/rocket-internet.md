@@ -52,7 +52,7 @@ name: Rocket Internet
 nav: Providers
 network: true
 overview: Rocket Internet is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer; Marketplace, Company Builder, Startup Incubator, and Venture Capital.
-random_paper: 46
+random_paper: 27
 score:
   band: minimal
   composite: 7.1

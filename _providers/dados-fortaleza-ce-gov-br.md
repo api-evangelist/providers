@@ -84,7 +84,7 @@ plans:
 - name: Dados Fortaleza Ce Gov Br Plans Pricing
   plan_count: 1
   slug: dados-fortaleza-ce-gov-br-plans-pricing
-random_paper: 15
+random_paper: 66
 rate_limits:
 - limit_count: 1
   name: Dados Fortaleza Ce Gov Br Rate Limits

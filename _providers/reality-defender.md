@@ -156,7 +156,7 @@ overview: 'Reality Defender publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   Reality Defender''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, authentication, and 19 more developer resources.'
-random_paper: 36
+random_paper: 16
 score:
   band: thin
   composite: 32.0

@@ -52,7 +52,7 @@ name: Heptio
 nav: Providers
 network: true
 overview: Heptio is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Open Source, Kubernetes, Cloud Native, and Containers.
-random_paper: 9
+random_paper: 1
 score:
   band: minimal
   composite: 5.7

@@ -67,7 +67,7 @@ overview: 'Paz Ai is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Paz Ai''s developer surface includes pricing, engineering blog, and 4 more developer resources.'
-random_paper: 18
+random_paper: 11
 score:
   band: minimal
   composite: 11.8

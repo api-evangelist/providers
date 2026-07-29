@@ -96,7 +96,7 @@ overview: 'Ambient.ai is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Ambient.ai''s developer surface includes documentation, engineering blog, support, signup flow, and 9 more developer resources.'
-random_paper: 58
+random_paper: 47
 score:
   band: emerging
   composite: 19.5

@@ -171,7 +171,7 @@ plans:
 - name: Coalesce Plans Pricing
   plan_count: 3
   slug: coalesce-plans-pricing
-random_paper: 31
+random_paper: 21
 rate_limits:
 - limit_count: 0
   name: Coalesce Rate Limits

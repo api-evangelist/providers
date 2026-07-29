@@ -147,7 +147,7 @@ overview: 'Microsoft 365 publishes 7 APIs on the [APIs.io](https://apis.io/) net
 
 
   Microsoft 365''s developer surface includes authentication, documentation, signup flow, pricing, and 11 more developer resources.'
-random_paper: 65
+random_paper: 51
 scopes:
 - name: Microsoft 365 Scopes
   scope_count: 8

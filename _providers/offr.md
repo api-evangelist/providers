@@ -99,7 +99,7 @@ overview: 'Offr is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Offr''s developer surface includes pricing, signup flow, support, engineering blog, and 10 more developer resources.'
-random_paper: 29
+random_paper: 24
 score:
   band: emerging
   composite: 17.6

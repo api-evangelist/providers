@@ -83,7 +83,7 @@ overview: 'TPP GROUP INC. is profiled on the [APIs.io](https://apis.io/) network
 
 
   TPP GROUP INC.''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 21
+random_paper: 5
 score:
   band: minimal
   composite: 10.3

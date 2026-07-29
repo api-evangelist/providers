@@ -192,7 +192,7 @@ overview: 'Algbra publishes 1 API on the [APIs.io](https://apis.io/) network: Ac
 
 
   Algbra''s developer surface includes authentication, sandbox, getting-started guide, documentation, signup flow, engineering blog, pricing, and 21 more developer resources.'
-random_paper: 57
+random_paper: 50
 scopes:
 - name: Algbra Scopes
   scope_count: 4

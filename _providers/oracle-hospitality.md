@@ -632,7 +632,7 @@ overview: 'Oracle Hospitality publishes 60 APIs on the [APIs.io](https://apis.io
 
 
   Oracle Hospitality''s developer surface includes authentication, developer portal, documentation, support, sandbox, changelog, API reference, and 39 more developer resources.'
-random_paper: 45
+random_paper: 22
 rate_limits:
 - limit_count: 0
   name: Oracle Hospitality Rate Limits

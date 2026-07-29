@@ -213,7 +213,7 @@ plans:
 - name: Ordway Plans Pricing
   plan_count: 1
   slug: ordway-plans-pricing
-random_paper: 22
+random_paper: 14
 rate_limits:
 - limit_count: 0
   name: Ordway Rate Limits

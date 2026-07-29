@@ -84,7 +84,7 @@ plans:
 - name: Admin Opendatani Gov Uk Plans Pricing
   plan_count: 1
   slug: admin-opendatani-gov-uk-plans-pricing
-random_paper: 31
+random_paper: 3
 rate_limits:
 - limit_count: 1
   name: Admin Opendatani Gov Uk Rate Limits

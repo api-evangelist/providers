@@ -115,7 +115,7 @@ overview: 'OpenFin is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   OpenFin''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, CLI, and 12 more developer resources.'
-random_paper: 31
+random_paper: 22
 score:
   band: emerging
   composite: 24.6

@@ -87,7 +87,7 @@ overview: 'Elevate is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Elevate''s developer surface includes engineering blog, support, signup flow, and 8 more developer resources.'
-random_paper: 22
+random_paper: 13
 score:
   band: emerging
   composite: 19.9

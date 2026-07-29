@@ -64,7 +64,7 @@ name: ELKROOM CO., LTD.
 nav: Providers
 network: true
 overview: ELKROOM CO., LTD. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile, Consumer Apps, and Game Launcher.
-random_paper: 25
+random_paper: 8
 score:
   band: minimal
   composite: 9.2

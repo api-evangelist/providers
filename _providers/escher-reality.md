@@ -39,7 +39,7 @@ name: Escher Reality
 nav: Providers
 network: true
 overview: Escher Reality is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Augmented Reality, Computer Vision, Mobile, and Gaming.
-random_paper: 1
+random_paper: 64
 score:
   band: minimal
   composite: 5.0

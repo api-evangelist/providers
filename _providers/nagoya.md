@@ -112,7 +112,7 @@ plans:
 - name: Nagoya Plans Pricing
   plan_count: 2
   slug: nagoya-plans-pricing
-random_paper: 79
+random_paper: 72
 rate_limits:
 - limit_count: 1
   name: Nagoya Rate Limits

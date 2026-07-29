@@ -115,7 +115,7 @@ plans:
 - name: Elsa Plans Pricing
   plan_count: 3
   slug: elsa-plans-pricing
-random_paper: 21
+random_paper: 16
 rate_limits:
 - limit_count: 4
   name: Elsa Rate Limits

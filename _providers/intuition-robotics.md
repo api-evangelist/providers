@@ -79,7 +79,7 @@ overview: 'Intuition Robotics is profiled on the [APIs.io](https://apis.io/) net
 
 
   Intuition Robotics'' developer surface includes engineering blog and 7 more developer resources.'
-random_paper: 69
+random_paper: 46
 score:
   band: emerging
   composite: 13.9

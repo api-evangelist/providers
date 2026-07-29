@@ -60,7 +60,7 @@ name: agavegames
 nav: Providers
 network: true
 overview: agavegames is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile Games, Puzzle Games, and Games.
-random_paper: 1
+random_paper: 69
 score:
   band: minimal
   composite: 7.1

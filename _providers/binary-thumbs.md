@@ -49,7 +49,7 @@ name: Binary Thumbs
 nav: Providers
 network: true
 overview: Binary Thumbs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Inactive, Y Combinator, Productivity, and Spreadsheets.
-random_paper: 69
+random_paper: 53
 score:
   band: minimal
   composite: 5.7

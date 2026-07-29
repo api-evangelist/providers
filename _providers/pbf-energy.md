@@ -88,7 +88,7 @@ press:
 - date: '2026-05-25'
   title: Unisys Stealth to Protect Critical Data at PBF Energy ...
   url: https://www.unisys.com/news-release/unisys-stealth-to-protect-critical-data-at-pbf-energy-locations/
-random_paper: 47
+random_paper: 35
 score:
   band: minimal
   composite: 5.5

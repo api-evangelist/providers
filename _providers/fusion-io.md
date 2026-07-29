@@ -39,7 +39,7 @@ name: Fusion-io
 nav: Providers
 network: true
 overview: Fusion-io is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Manufacturing, Storage, Flash Memory, and Enterprise Hardware.
-random_paper: 41
+random_paper: 30
 score:
   band: minimal
   composite: 5.0

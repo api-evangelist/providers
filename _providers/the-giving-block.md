@@ -128,7 +128,7 @@ overview: 'The Giving Block publishes 1 API on the [APIs.io](https://apis.io/) n
 
 
   The Giving Block''s developer surface includes developer portal, documentation, API reference, getting-started guide, support, authentication, sandbox, and 12 more developer resources.'
-random_paper: 58
+random_paper: 39
 score:
   band: emerging
   composite: 22.8

@@ -83,7 +83,7 @@ overview: 'Slang is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Slang''s developer surface includes pricing, engineering blog, support, and 7 more developer resources.'
-random_paper: 53
+random_paper: 47
 score:
   band: emerging
   composite: 16.9

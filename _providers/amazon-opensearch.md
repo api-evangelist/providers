@@ -3084,7 +3084,7 @@ plans:
 - name: Amazon Opensearch Plans Pricing
   plan_count: 3
   slug: amazon-opensearch-plans-pricing
-random_paper: 75
+random_paper: 54
 rate_limits:
 - limit_count: 5
   name: Amazon Opensearch Rate Limits

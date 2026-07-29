@@ -64,7 +64,7 @@ overview: 'ISO is profiled on the [APIs.io](https://apis.io/) network. Tagged ar
 
 
   The ISO catalog on APIs.io includes 1 JSON-LD context and 1 Spectral governance ruleset.'
-random_paper: 11
+random_paper: 7
 rules:
 - name: ISO API Rules
   rule_count: 0

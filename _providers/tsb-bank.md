@@ -166,7 +166,7 @@ overview: 'TSB Bank publishes 2 APIs on the [APIs.io](https://apis.io/) network:
 
 
   TSB Bank''s developer surface includes authentication, documentation, support, and 23 more developer resources.'
-random_paper: 66
+random_paper: 57
 scopes:
 - name: Tsb Bank Scopes
   scope_count: 9

@@ -68,7 +68,7 @@ overview: 'Field AI is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Field AI''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 78
+random_paper: 70
 score:
   band: minimal
   composite: 10.5

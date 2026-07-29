@@ -147,7 +147,7 @@ overview: 'Hull publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Hull''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, authentication, and 16 more developer resources.'
-random_paper: 37
+random_paper: 32
 score:
   band: thin
   composite: 41.2

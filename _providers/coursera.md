@@ -117,7 +117,7 @@ plans:
 - name: Coursera Plans Pricing
   plan_count: 2
   slug: coursera-plans-pricing
-random_paper: 68
+random_paper: 58
 rate_limits:
 - limit_count: 1
   name: Coursera Rate Limits

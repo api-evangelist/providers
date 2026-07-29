@@ -104,7 +104,7 @@ plans:
 - name: Kau Plans Pricing
   plan_count: 2
   slug: kau-plans-pricing
-random_paper: 1
+random_paper: 78
 rate_limits:
 - limit_count: 1
   name: Kau Rate Limits

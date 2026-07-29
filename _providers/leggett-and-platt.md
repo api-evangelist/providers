@@ -72,7 +72,7 @@ press:
 - date: '2026-05-25'
   title: Somnigroup to Acquire Leggett & Platt for $2.5 Billion | News
   url: https://www.clearygottlieb.com/news-and-insights/news-listing/somnigroup-to-acquire-leggett-and-platt
-random_paper: 14
+random_paper: 74
 score:
   band: minimal
   composite: 5.0

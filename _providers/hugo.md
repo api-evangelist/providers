@@ -71,7 +71,7 @@ overview: 'Hugo is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Hugo''s developer surface includes signup flow, support, and 5 more developer resources.'
-random_paper: 35
+random_paper: 30
 score:
   band: emerging
   composite: 14.0

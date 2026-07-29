@@ -104,7 +104,7 @@ plans:
 - name: Sure Plans Pricing
   plan_count: 2
   slug: sure-plans-pricing
-random_paper: 47
+random_paper: 42
 rate_limits:
 - limit_count: 0
   name: Sure Rate Limits

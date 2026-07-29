@@ -67,7 +67,7 @@ overview: 'Dreambound is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Dreambound''s developer surface includes engineering blog, signup flow, and 4 more developer resources.'
-random_paper: 17
+random_paper: 4
 score:
   band: minimal
   composite: 12.3

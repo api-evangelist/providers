@@ -156,7 +156,7 @@ overview: 'Incorta publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   Incorta''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, authentication, changelog, and 19 more developer resources.'
-random_paper: 32
+random_paper: 23
 score:
   band: thin
   composite: 34.1

@@ -44,7 +44,7 @@ name: Schematic Labs
 nav: Providers
 network: true
 overview: Schematic Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Music, Social, and Mobile.
-random_paper: 48
+random_paper: 31
 score:
   band: minimal
   composite: 5.0

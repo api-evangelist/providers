@@ -115,7 +115,7 @@ plans:
 - name: Inferless Plans Pricing
   plan_count: 4
   slug: inferless-plans-pricing
-random_paper: 11
+random_paper: 80
 rate_limits:
 - limit_count: 5
   name: Inferless Rate Limits

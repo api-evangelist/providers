@@ -83,7 +83,7 @@ plans:
 - name: Go Kit Plans Pricing
   plan_count: 3
   slug: go-kit-plans-pricing
-random_paper: 27
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Go Kit Rate Limits

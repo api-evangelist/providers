@@ -71,7 +71,7 @@ overview: 'TurbineOne is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   TurbineOne''s developer surface includes engineering blog, support, and 5 more developer resources.'
-random_paper: 43
+random_paper: 30
 score:
   band: minimal
   composite: 11.2

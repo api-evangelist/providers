@@ -156,7 +156,7 @@ overview: 'Korso is profiled on the [APIs.io](https://apis.io/) network. Tagged 
 
 
   Korso''s developer surface includes authentication, changelog, documentation, API reference, getting-started guide, support, signup flow, and 20 more developer resources.'
-random_paper: 78
+random_paper: 72
 score:
   band: thin
   composite: 32.7

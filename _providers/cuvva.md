@@ -136,7 +136,7 @@ overview: 'Cuvva publishes 1 API on the [APIs.io](https://apis.io/) network. Tag
 
 
   Cuvva''s developer surface includes documentation, API reference, support, authentication, and 18 more developer resources.'
-random_paper: 69
+random_paper: 63
 scopes:
 - name: Cuvva Scopes
   scope_count: 1

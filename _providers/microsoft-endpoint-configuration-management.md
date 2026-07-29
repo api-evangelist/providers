@@ -495,7 +495,7 @@ plans:
 - name: Microsoft Endpoint Configuration Management Plans Pricing
   plan_count: 3
   slug: microsoft-endpoint-configuration-management-plans-pricing
-random_paper: 35
+random_paper: 61
 rate_limits:
 - limit_count: 3
   name: Microsoft Endpoint Configuration Management Rate Limits

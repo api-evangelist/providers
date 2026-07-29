@@ -266,7 +266,7 @@ overview: 'Lytx publishes 37 APIs on the [APIs.io](https://apis.io/) network, in
 
 
   Lytx''s developer surface includes documentation, getting-started guide, authentication, API reference, support, and 18 more developer resources.'
-random_paper: 65
+random_paper: 60
 score:
   band: developing
   composite: 44.6

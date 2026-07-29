@@ -234,7 +234,7 @@ overview: 'Topograph publishes 7 APIs on the [APIs.io](https://apis.io/) network
 
 
   Topograph''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, authentication, and 28 more developer resources.'
-random_paper: 20
+random_paper: 8
 scopes:
 - name: Topograph Scopes
   scope_count: 7

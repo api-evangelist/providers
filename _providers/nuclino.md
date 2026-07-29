@@ -174,7 +174,7 @@ plans:
 - name: Nuclino Plans Pricing
   plan_count: 3
   slug: nuclino-plans-pricing
-random_paper: 40
+random_paper: 31
 rate_limits:
 - limit_count: 1
   name: Nuclino Rate Limits

@@ -48,7 +48,7 @@ name: nvxclouds
 nav: Providers
 network: true
 overview: nvxclouds is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, China, Hangzhou, Information Technology, and Cloud.
-random_paper: 38
+random_paper: 26
 score:
   band: minimal
   composite: 5.0

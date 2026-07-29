@@ -39,7 +39,7 @@ name: Domain-Driven Design
 nav: Providers
 network: true
 overview: Domain-Driven Design is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Business Logic, Design Patterns, Modeling, Software Architecture, and Strategic Design.
-random_paper: 4
+random_paper: 60
 score:
   band: minimal
   composite: 5.7

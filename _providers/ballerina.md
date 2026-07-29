@@ -286,7 +286,7 @@ plans:
 - name: Ballerina Plans Pricing
   plan_count: 3
   slug: ballerina-plans-pricing
-random_paper: 58
+random_paper: 47
 rate_limits:
 - limit_count: 5
   name: Ballerina Rate Limits

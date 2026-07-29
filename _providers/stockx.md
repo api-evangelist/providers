@@ -176,7 +176,7 @@ overview: 'StockX publishes 4 APIs on the [APIs.io](https://apis.io/) network, i
 
 
   StockX''s developer surface includes documentation, API reference, getting-started guide, authentication, changelog, engineering blog, support, and 20 more developer resources.'
-random_paper: 28
+random_paper: 20
 rate_limits:
 - limit_count: 2
   name: Stockx Rate Limits

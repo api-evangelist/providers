@@ -48,7 +48,7 @@ name: kaiheikeji
 nav: Providers
 network: true
 overview: kaiheikeji is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Esports, Social, and Mobile.
-random_paper: 78
+random_paper: 66
 score:
   band: minimal
   composite: 5.0

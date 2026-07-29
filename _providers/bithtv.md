@@ -59,7 +59,7 @@ overview: 'bith.tv is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   bith.tv''s developer surface includes pricing, signup flow, and 2 more developer resources.'
-random_paper: 17
+random_paper: 9
 score:
   band: minimal
   composite: 9.7

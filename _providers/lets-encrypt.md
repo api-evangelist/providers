@@ -113,7 +113,7 @@ plans:
 - name: Lets Encrypt Plans Pricing
   plan_count: 3
   slug: lets-encrypt-plans-pricing
-random_paper: 58
+random_paper: 43
 rate_limits:
 - limit_count: 5
   name: Lets Encrypt Rate Limits

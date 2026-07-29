@@ -44,7 +44,7 @@ name: Numerify
 nav: Providers
 network: true
 overview: Numerify is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, IT Analytics, DevOps, ITSM, and Machine Learning.
-random_paper: 79
+random_paper: 69
 score:
   band: minimal
   composite: 5.0

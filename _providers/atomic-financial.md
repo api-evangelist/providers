@@ -167,7 +167,7 @@ overview: 'Atomic publishes 7 APIs on the [APIs.io](https://apis.io/) network. T
 
 
   Atomic''s developer surface includes documentation, API reference, developer portal, signup flow, YouTube channel, support, engineering blog, and 8 more developer resources.'
-random_paper: 15
+random_paper: 76
 score:
   band: thin
   composite: 28.8

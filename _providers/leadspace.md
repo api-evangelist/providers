@@ -218,7 +218,7 @@ overview: 'Leadspace publishes 5 APIs on the [APIs.io](https://apis.io/) network
 
 
   Leadspace''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, signup flow, changelog, and 28 more developer resources.'
-random_paper: 50
+random_paper: 39
 rate_limits:
 - limit_count: 0
   name: Leadspace Rate Limits

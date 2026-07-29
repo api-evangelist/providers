@@ -80,7 +80,7 @@ overview: 'Pico publishes 1 API on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Pico''s developer surface includes documentation, API reference, getting-started guide, support, authentication, and 3 more developer resources.'
-random_paper: 27
+random_paper: 22
 score:
   band: emerging
   composite: 17.1

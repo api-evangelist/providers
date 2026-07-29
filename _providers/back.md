@@ -79,7 +79,7 @@ overview: 'Back is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Back''s developer surface includes pricing and 8 more developer resources.'
-random_paper: 1
+random_paper: 77
 score:
   band: emerging
   composite: 15.3

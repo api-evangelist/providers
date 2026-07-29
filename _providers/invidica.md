@@ -56,7 +56,7 @@ name: Invidica
 nav: Providers
 network: true
 overview: Invidica is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Ecommerce, Marketplace, Wholesale, and Retail.
-random_paper: 39
+random_paper: 29
 score:
   band: minimal
   composite: 5.0

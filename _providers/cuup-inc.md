@@ -67,7 +67,7 @@ overview: 'CUUP, Inc. is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   CUUP, Inc.''s developer surface includes support and 5 more developer resources.'
-random_paper: 4
+random_paper: 75
 score:
   band: minimal
   composite: 12.7

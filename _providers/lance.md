@@ -65,7 +65,7 @@ name: Lance
 nav: Providers
 network: true
 overview: Lance is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Artificial Intelligence, AI Agents, Hospitality, and Hotels.
-random_paper: 35
+random_paper: 29
 score:
   band: emerging
   composite: 13.7

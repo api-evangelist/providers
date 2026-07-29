@@ -44,7 +44,7 @@ name: OvaScience
 nav: Providers
 network: true
 overview: OvaScience is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biotechnology, Fertility, and Reproductive Health.
-random_paper: 16
+random_paper: 3
 score:
   band: minimal
   composite: 4.3

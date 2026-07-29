@@ -130,7 +130,7 @@ overview: 'SAP SuccessFactors publishes 8 APIs on the [APIs.io](https://apis.io/
 
 
   SAP SuccessFactors'' developer surface includes authentication, documentation, and 9 more developer resources.'
-random_paper: 44
+random_paper: 21
 scopes:
 - name: Sap Successfactors Scopes
   scope_count: 0

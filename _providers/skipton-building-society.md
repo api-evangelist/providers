@@ -134,7 +134,7 @@ overview: 'Skipton Building Society publishes 1 API on the [APIs.io](https://api
 
 
   Skipton Building Society''s developer surface includes support, engineering blog, authentication, and 16 more developer resources.'
-random_paper: 0
+random_paper: 50
 score:
   band: emerging
   composite: 27.6

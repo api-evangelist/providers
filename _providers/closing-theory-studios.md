@@ -68,7 +68,7 @@ name: Closing Theory Studios
 nav: Providers
 network: true
 overview: Closing Theory Studios is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Mobile Games, Game Studio, and Real Estate.
-random_paper: 47
+random_paper: 19
 score:
   band: minimal
   composite: 9.2

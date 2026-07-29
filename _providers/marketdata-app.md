@@ -241,7 +241,7 @@ plans:
 - name: Marketdata App Plans Pricing
   plan_count: 6
   slug: marketdata-app-plans-pricing
-random_paper: 60
+random_paper: 43
 rate_limits:
 - limit_count: 7
   name: Marketdata App Rate Limits

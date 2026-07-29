@@ -117,7 +117,7 @@ press:
 - date: '2026-05-25'
   title: California Community Colleges Launches Nation's Most ...
   url: https://www.facebook.com/CACommColleges/posts/press-release-california-community-colleges-launches-nations-most-ambitious-ai-i/1205811634924793/
-random_paper: 51
+random_paper: 46
 score:
   band: minimal
   composite: 11.6

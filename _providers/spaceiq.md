@@ -156,7 +156,7 @@ overview: 'SpaceIQ publishes 1 API on the [APIs.io](https://apis.io/) network. T
 
 
   SpaceIQ''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, support, authentication, and 19 more developer resources.'
-random_paper: 22
+random_paper: 13
 score:
   band: thin
   composite: 33.2

@@ -217,7 +217,7 @@ plans:
 - name: Enable Banking Plans Pricing
   plan_count: 3
   slug: enable-banking-plans-pricing
-random_paper: 30
+random_paper: 13
 rate_limits:
 - limit_count: 5
   name: Enable Banking Rate Limits

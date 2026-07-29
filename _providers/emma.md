@@ -67,7 +67,7 @@ overview: 'Emma is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Emma''s developer surface includes engineering blog, support, signup flow, and 3 more developer resources.'
-random_paper: 16
+random_paper: 11
 score:
   band: emerging
   composite: 13.1

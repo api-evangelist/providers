@@ -207,7 +207,7 @@ plans:
 - name: Seon Tech Plans Pricing
   plan_count: 3
   slug: seon-tech-plans-pricing
-random_paper: 22
+random_paper: 11
 rate_limits:
 - limit_count: 5
   name: Seon Tech Rate Limits

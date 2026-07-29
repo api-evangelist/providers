@@ -39,7 +39,7 @@ name: Lytmus
 nav: Providers
 network: true
 overview: Lytmus is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Hiring, Recruiting, Technical Interviews, and Coding Assessment.
-random_paper: 46
+random_paper: 38
 score:
   band: minimal
   composite: 5.0

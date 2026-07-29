@@ -48,7 +48,7 @@ name: AtmoSec
 nav: Providers
 network: true
 overview: AtmoSec is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, SaaS Security, Cybersecurity, Non-Human Identity, and SaaS-to-SaaS.
-random_paper: 28
+random_paper: 19
 score:
   band: minimal
   composite: 5.0

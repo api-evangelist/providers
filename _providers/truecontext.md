@@ -148,7 +148,7 @@ overview: 'TrueContext publishes 1 API on the [APIs.io](https://apis.io/) networ
 
 
   TrueContext''s developer surface includes documentation, API reference, getting-started guide, support, engineering blog, pricing, signup flow, and 18 more developer resources.'
-random_paper: 21
+random_paper: 6
 score:
   band: thin
   composite: 36.5

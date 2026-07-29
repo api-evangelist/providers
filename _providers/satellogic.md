@@ -198,7 +198,7 @@ overview: 'Satellogic publishes 6 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Satellogic''s developer surface includes developer portal, documentation, getting-started guide, authentication, signup flow, engineering blog, YouTube channel, and 23 more developer resources.'
-random_paper: 23
+random_paper: 10
 score:
   band: emerging
   composite: 21.2

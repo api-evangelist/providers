@@ -55,7 +55,7 @@ overview: 'Crosby is profiled on the [APIs.io](https://apis.io/) network. Tagged
 
 
   Crosby''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 18
+random_paper: 10
 score:
   band: minimal
   composite: 5.4

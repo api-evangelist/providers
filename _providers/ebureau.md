@@ -48,7 +48,7 @@ name: eBureau
 nav: Providers
 network: true
 overview: eBureau is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Predictive Analytics, Identity Verification, Fraud Prevention, and Credit Risk.
-random_paper: 25
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

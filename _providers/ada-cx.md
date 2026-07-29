@@ -141,7 +141,7 @@ plans:
 - name: Ada Cx Plans Pricing
   plan_count: 1
   slug: ada-cx-plans-pricing
-random_paper: 78
+random_paper: 72
 rate_limits:
 - limit_count: 2
   name: Ada Cx Rate Limits

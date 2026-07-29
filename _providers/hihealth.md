@@ -166,7 +166,7 @@ overview: 'hi.health publishes 2 APIs on the [APIs.io](https://apis.io/) network
 
 
   hi.health''s developer surface includes documentation, API reference, getting-started guide, support, authentication, sandbox, changelog, and 19 more developer resources.'
-random_paper: 39
+random_paper: 29
 rate_limits:
 - limit_count: 0
   name: Hihealth Rate Limits

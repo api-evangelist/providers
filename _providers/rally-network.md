@@ -60,7 +60,7 @@ name: Rally Network
 nav: Providers
 network: true
 overview: Rally Network publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Web3, Blockchain, SDK, and Mobile.
-random_paper: 11
+random_paper: 75
 score:
   band: minimal
   composite: 8.9

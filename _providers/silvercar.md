@@ -119,7 +119,7 @@ overview: 'silvercar publishes 1 API on the [APIs.io](https://apis.io/) network.
 
 
   silvercar''s developer surface includes documentation, API reference, getting-started guide, authentication, support, and 11 more developer resources.'
-random_paper: 11
+random_paper: 80
 score:
   band: thin
   composite: 37.9

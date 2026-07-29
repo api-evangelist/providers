@@ -83,7 +83,7 @@ overview: 'CloudTrucks is profiled on the [APIs.io](https://apis.io/) network. T
 
 
   CloudTrucks'' developer surface includes signup flow, pricing, engineering blog, support, and 6 more developer resources.'
-random_paper: 3
+random_paper: 69
 score:
   band: emerging
   composite: 15.2

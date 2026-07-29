@@ -96,7 +96,7 @@ overview: 'Earn.com is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Earn.com''s developer surface includes CLI, changelog, authentication, and 10 more developer resources.'
-random_paper: 21
+random_paper: 12
 score:
   band: emerging
   composite: 14.1

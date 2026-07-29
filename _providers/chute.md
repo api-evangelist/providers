@@ -44,7 +44,7 @@ name: Chute
 nav: Providers
 network: true
 overview: Chute is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Defunct, Visual Marketing, User Generated Content, and Digital Asset Management.
-random_paper: 57
+random_paper: 51
 score:
   band: minimal
   composite: 5.0

@@ -212,7 +212,7 @@ overview: 'Unito publishes 3 APIs on the [APIs.io](https://apis.io/) network: Re
 
 
   Unito''s developer surface includes authentication, documentation, API reference, getting-started guide, support, engineering blog, pricing, and 28 more developer resources.'
-random_paper: 79
+random_paper: 73
 score:
   band: strong
   composite: 57.3

@@ -56,7 +56,7 @@ name: VATComply.com
 nav: Providers
 network: true
 overview: VATComply.com publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Currency Exchange and Public APIs.
-random_paper: 75
+random_paper: 59
 score:
   band: minimal
   composite: 5.7

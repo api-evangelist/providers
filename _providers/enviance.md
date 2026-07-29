@@ -233,7 +233,7 @@ overview: 'Enviance publishes 39 APIs on the [APIs.io](https://apis.io/) network
 
 
   Enviance''s developer surface includes authentication, documentation, API reference, and 12 more developer resources.'
-random_paper: 41
+random_paper: 31
 score:
   band: emerging
   composite: 25.3

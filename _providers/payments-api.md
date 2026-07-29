@@ -44,7 +44,7 @@ name: Payments API
 nav: Providers
 network: true
 overview: Payments API is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Demo, Payments, and Reference.
-random_paper: 40
+random_paper: 25
 score:
   band: minimal
   composite: 3.5

@@ -156,7 +156,7 @@ overview: 'Shippingbo publishes 2 APIs on the [APIs.io](https://apis.io/) networ
 
 
   Shippingbo''s developer surface includes documentation, pricing, engineering blog, YouTube channel, and 18 more developer resources.'
-random_paper: 35
+random_paper: 22
 score:
   band: minimal
   composite: 12.0

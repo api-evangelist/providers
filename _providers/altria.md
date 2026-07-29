@@ -60,7 +60,7 @@ press:
 - date: '2026-05-25'
   title: Innovate With Us
   url: https://www.altria.com/en/innovate-with-us
-random_paper: 77
+random_paper: 70
 score:
   band: minimal
   composite: 2.6

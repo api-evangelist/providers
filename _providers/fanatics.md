@@ -48,7 +48,7 @@ name: Fanatics
 nav: Providers
 network: true
 overview: Fanatics is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Consumer, Sports, Retail, and Ecommerce.
-random_paper: 41
+random_paper: 31
 score:
   band: minimal
   composite: 5.0

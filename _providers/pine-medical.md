@@ -44,7 +44,7 @@ name: Pine Medical
 nav: Providers
 network: true
 overview: Pine Medical is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Telehealth, Weight Loss, and Digital Health.
-random_paper: 72
+random_paper: 58
 score:
   band: minimal
   composite: 4.3

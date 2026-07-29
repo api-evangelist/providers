@@ -39,7 +39,7 @@ name: Indigo
 nav: Providers
 network: true
 overview: Indigo is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Hardtech.
-random_paper: 74
+random_paper: 67
 score:
   band: minimal
   composite: 4.1

@@ -89,7 +89,7 @@ press:
 - date: '2026-05-25'
   title: Investment Firms Offer $10.5B for SunGard
   url: https://www.computerworld.com/article/1721035/investment-firms-offer-10-5b-for-sungard.html
-random_paper: 48
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Sungard Data Systems Rate Limits

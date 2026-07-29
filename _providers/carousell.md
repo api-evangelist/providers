@@ -48,7 +48,7 @@ name: Carousell
 nav: Providers
 network: true
 overview: Carousell is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketplace, Classifieds, Recommerce, and E-Commerce.
-random_paper: 10
+random_paper: 79
 score:
   band: minimal
   composite: 5.0

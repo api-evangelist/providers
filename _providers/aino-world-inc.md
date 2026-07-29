@@ -87,7 +87,7 @@ overview: 'Aino World Inc. is profiled on the [APIs.io](https://apis.io/) networ
 
 
   Aino World Inc.''s developer surface includes signup flow, pricing, engineering blog, support, YouTube channel, and 6 more developer resources.'
-random_paper: 19
+random_paper: 2
 score:
   band: emerging
   composite: 15.2

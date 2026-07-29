@@ -108,7 +108,7 @@ overview: 'OPNsense publishes 3 APIs on the [APIs.io](https://apis.io/) network:
 
 
   OPNsense''s developer surface includes authentication, documentation, and 8 more developer resources.'
-random_paper: 75
+random_paper: 65
 score:
   band: emerging
   composite: 26.4

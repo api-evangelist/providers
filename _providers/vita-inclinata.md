@@ -67,7 +67,7 @@ overview: 'Vita Inclinata is profiled on the [APIs.io](https://apis.io/) network
 
 
   Vita Inclinata''s developer surface includes engineering blog, support, and 4 more developer resources.'
-random_paper: 68
+random_paper: 51
 score:
   band: minimal
   composite: 10.5

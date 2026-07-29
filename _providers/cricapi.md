@@ -175,7 +175,7 @@ plans:
 - name: Cricapi Plans Pricing
   plan_count: 5
   slug: cricapi-plans-pricing
-random_paper: 11
+random_paper: 2
 rate_limits:
 - limit_count: 6
   name: Cricapi Rate Limits

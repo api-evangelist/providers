@@ -494,7 +494,7 @@ plans:
 - name: Cdata Plans Pricing
   plan_count: 3
   slug: cdata-plans-pricing
-random_paper: 29
+random_paper: 23
 rate_limits:
 - limit_count: 5
   name: Cdata Rate Limits

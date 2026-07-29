@@ -44,7 +44,7 @@ name: Adjoint
 nav: Providers
 network: true
 overview: Adjoint is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Financial Services, Treasury, Distributed Ledger, and Smart Contracts.
-random_paper: 25
+random_paper: 16
 score:
   band: minimal
   composite: 5.0

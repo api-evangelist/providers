@@ -83,7 +83,7 @@ overview: 'EverTrue is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   EverTrue''s developer surface includes support, engineering blog, and 8 more developer resources.'
-random_paper: 2
+random_paper: 72
 score:
   band: emerging
   composite: 14.6

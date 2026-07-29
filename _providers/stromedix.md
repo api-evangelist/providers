@@ -39,7 +39,7 @@ name: Stromedix
 nav: Providers
 network: true
 overview: Stromedix is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company and Unknown.
-random_paper: 31
+random_paper: 19
 score:
   band: minimal
   composite: 4.1

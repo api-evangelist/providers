@@ -392,7 +392,7 @@ plans:
 - name: Aws X Ray Plans Pricing
   plan_count: 3
   slug: aws-x-ray-plans-pricing
-random_paper: 73
+random_paper: 63
 rate_limits:
 - limit_count: 5
   name: Aws X Ray Rate Limits

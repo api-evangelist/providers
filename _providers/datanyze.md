@@ -52,7 +52,7 @@ name: Datanyze *
 nav: Providers
 network: true
 overview: Datanyze * is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Enterprise, Sales Intelligence, Technographics, and Data Enrichment.
-random_paper: 64
+random_paper: 54
 score:
   band: minimal
   composite: 5.7

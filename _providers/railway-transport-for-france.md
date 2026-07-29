@@ -56,7 +56,7 @@ name: Railway Transport for France
 nav: Providers
 network: true
 overview: Railway Transport for France publishes 1 API on the [APIs.io](https://apis.io/) network. Tagged areas include Transportation and Public APIs.
-random_paper: 51
+random_paper: 16
 score:
   band: minimal
   composite: 5.7

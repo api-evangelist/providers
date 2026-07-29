@@ -39,7 +39,7 @@ name: TheFind (Meta)
 nav: Providers
 network: true
 overview: TheFind (Meta) is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Commerce, Shopping Search, Ecommerce, and Product Discovery.
-random_paper: 6
+random_paper: 72
 score:
   band: minimal
   composite: 5.0

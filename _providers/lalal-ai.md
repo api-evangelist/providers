@@ -228,7 +228,7 @@ plans:
 - name: Lalal Ai Plans Pricing
   plan_count: 9
   slug: lalal-ai-plans-pricing
-random_paper: 45
+random_paper: 36
 rate_limits:
 - limit_count: 0
   name: Lalal Ai Rate Limits

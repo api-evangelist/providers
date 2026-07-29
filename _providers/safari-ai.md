@@ -79,7 +79,7 @@ overview: 'Safari Ai is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Safari Ai''s developer surface includes engineering blog, support, FAQ, and 6 more developer resources.'
-random_paper: 77
+random_paper: 67
 score:
   band: emerging
   composite: 13.1

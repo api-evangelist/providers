@@ -120,7 +120,7 @@ overview: 'Sportlogiq is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Sportlogiq''s developer surface includes GitHub presence, engineering blog, and 17 more developer resources.'
-random_paper: 68
+random_paper: 55
 score:
   band: minimal
   composite: 6.1

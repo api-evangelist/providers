@@ -44,7 +44,7 @@ name: Mine'd
 nav: Providers
 network: true
 overview: Mine'd is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company.
-random_paper: 45
+random_paper: 39
 score:
   band: minimal
   composite: 3.2

@@ -147,7 +147,7 @@ overview: 'Rainway publishes 1 API on the [APIs.io](https://apis.io/) network: P
 
 
   Rainway''s developer surface includes documentation, getting-started guide, API reference, signup flow, authentication, and 17 more developer resources.'
-random_paper: 43
+random_paper: 34
 score:
   band: thin
   composite: 38.5

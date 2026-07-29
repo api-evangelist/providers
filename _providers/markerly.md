@@ -63,7 +63,7 @@ overview: 'Markerly is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Markerly''s developer surface includes engineering blog, support, and 3 more developer resources.'
-random_paper: 71
+random_paper: 61
 score:
   band: minimal
   composite: 8.2

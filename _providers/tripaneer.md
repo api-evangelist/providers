@@ -55,7 +55,7 @@ overview: 'tripaneer is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   tripaneer''s developer surface includes engineering blog and 2 more developer resources.'
-random_paper: 10
+random_paper: 79
 score:
   band: minimal
   composite: 5.4

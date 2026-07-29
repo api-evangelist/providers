@@ -559,7 +559,7 @@ plans:
 - name: Weatherapi Plans Pricing
   plan_count: 5
   slug: weatherapi-plans-pricing
-random_paper: 26
+random_paper: 13
 rate_limits:
 - limit_count: 7
   name: Weatherapi Rate Limits

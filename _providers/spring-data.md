@@ -168,7 +168,7 @@ plans:
 - name: Spring Data Plans Pricing
   plan_count: 1
   slug: spring-data-plans-pricing
-random_paper: 74
+random_paper: 61
 rate_limits:
 - limit_count: 1
   name: Spring Data Rate Limits

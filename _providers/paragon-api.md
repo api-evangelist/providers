@@ -113,7 +113,7 @@ plans:
 - name: Paragon Api Plans Pricing
   plan_count: 3
   slug: paragon-api-plans-pricing
-random_paper: 63
+random_paper: 50
 rate_limits:
 - limit_count: 3
   name: Paragon Api Rate Limits

@@ -64,7 +64,7 @@ name: ThriveHive
 nav: Providers
 network: true
 overview: ThriveHive is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Marketing, Small Business, Advertising, and SaaS.
-random_paper: 46
+random_paper: 33
 score:
   band: minimal
   composite: 7.5

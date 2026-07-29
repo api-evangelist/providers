@@ -225,7 +225,7 @@ overview: 'Sign In Enterprise publishes 14 APIs on the [APIs.io](https://apis.io
 
 
   Sign In Enterprise''s developer surface includes documentation, API reference, pricing, engineering blog, support, authentication, and 24 more developer resources.'
-random_paper: 67
+random_paper: 45
 scopes:
 - name: Sign In Enterprise Scopes
   scope_count: 48

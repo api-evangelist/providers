@@ -123,7 +123,7 @@ plans:
 - name: Trulia Plans Pricing
   plan_count: 1
   slug: trulia-plans-pricing
-random_paper: 17
+random_paper: 9
 rate_limits:
 - limit_count: 2
   name: Trulia Rate Limits

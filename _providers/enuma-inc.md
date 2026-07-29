@@ -48,7 +48,7 @@ name: Enuma, Inc.
 nav: Providers
 network: true
 overview: Enuma, Inc. is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Education, EdTech, Early Childhood Education, and Learning Apps.
-random_paper: 13
+random_paper: 2
 score:
   band: minimal
   composite: 5.0

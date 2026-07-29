@@ -154,7 +154,7 @@ plans:
 - name: Openwallet Foundation Plans Pricing
   plan_count: 3
   slug: openwallet-foundation-plans-pricing
-random_paper: 47
+random_paper: 20
 rate_limits:
 - limit_count: 5
   name: Openwallet Foundation Rate Limits

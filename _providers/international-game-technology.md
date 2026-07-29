@@ -83,7 +83,7 @@ press:
 - date: '2026-05-25'
   title: 'Generation Next: AI Game Design, Skill-Based Elements ...'
   url: https://www.globalgamingexpo.com/en-us/learn/educationschedule/session-details.4465.251713.generation-next-ai-game-design-skill_based-elements-and-dynamic-payouts.html
-random_paper: 24
+random_paper: 68
 score:
   band: minimal
   composite: 5.9

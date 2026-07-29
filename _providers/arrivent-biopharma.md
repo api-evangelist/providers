@@ -48,7 +48,7 @@ name: ArriVent Biopharma
 nav: Providers
 network: true
 overview: ArriVent Biopharma is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Healthcare, Biopharmaceutical, Oncology, and Pharmaceuticals.
-random_paper: 27
+random_paper: 4
 score:
   band: minimal
   composite: 5.4

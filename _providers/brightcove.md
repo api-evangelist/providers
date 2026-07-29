@@ -288,7 +288,7 @@ plans:
 - name: Brightcove Plans Pricing
   plan_count: 2
   slug: brightcove-plans-pricing
-random_paper: 29
+random_paper: 16
 rate_limits:
 - limit_count: 0
   name: Brightcove Rate Limits

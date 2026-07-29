@@ -134,7 +134,7 @@ plans:
 - name: Testrail Plans Pricing
   plan_count: 4
   slug: testrail-plans-pricing
-random_paper: 72
+random_paper: 62
 rate_limits:
 - limit_count: 4
   name: Testrail Rate Limits

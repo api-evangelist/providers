@@ -128,7 +128,7 @@ overview: 'WhoAPI publishes 1 API on the [APIs.io](https://apis.io/) network: Do
 
 
   WhoAPI''s developer surface includes documentation, API reference, getting-started guide, engineering blog, pricing, signup flow, CLI, and 13 more developer resources.'
-random_paper: 8
+random_paper: 0
 score:
   band: developing
   composite: 45.7

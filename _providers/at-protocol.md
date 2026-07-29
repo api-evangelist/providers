@@ -164,7 +164,7 @@ plans:
 - name: At Protocol Plans Pricing
   plan_count: 1
   slug: at-protocol-plans-pricing
-random_paper: 20
+random_paper: 6
 rate_limits:
 - limit_count: 2
   name: At Protocol Rate Limits

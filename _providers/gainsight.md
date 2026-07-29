@@ -487,7 +487,7 @@ plans:
 - name: Gainsight Plans Pricing
   plan_count: 2
   slug: gainsight-plans-pricing
-random_paper: 78
+random_paper: 67
 rate_limits:
 - limit_count: 2
   name: Gainsight Rate Limits

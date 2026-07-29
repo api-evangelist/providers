@@ -126,7 +126,7 @@ plans:
 - name: Apigovernance Dev Plans Pricing
   plan_count: 3
   slug: apigovernance-dev-plans-pricing
-random_paper: 62
+random_paper: 41
 rate_limits:
 - limit_count: 5
   name: Apigovernance Dev Rate Limits

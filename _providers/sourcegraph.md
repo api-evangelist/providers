@@ -189,7 +189,7 @@ plans:
 - name: Sourcegraph Plans Pricing
   plan_count: 1
   slug: sourcegraph-plans-pricing
-random_paper: 67
+random_paper: 53
 rate_limits:
 - limit_count: 2
   name: Sourcegraph Rate Limits

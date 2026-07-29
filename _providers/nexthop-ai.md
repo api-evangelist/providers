@@ -87,7 +87,7 @@ overview: 'Nexthop AI is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   Nexthop AI''s developer surface includes engineering blog, product news, support, documentation, and 7 more developer resources.'
-random_paper: 61
+random_paper: 49
 score:
   band: emerging
   composite: 14.9

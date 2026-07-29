@@ -273,7 +273,7 @@ plans:
 - name: Span Io Plans Pricing
   plan_count: 3
   slug: span-io-plans-pricing
-random_paper: 55
+random_paper: 47
 rate_limits:
 - limit_count: 0
   name: Span Io Rate Limits

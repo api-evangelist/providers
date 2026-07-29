@@ -130,7 +130,7 @@ plans:
 - name: Signaturely Plans Pricing
   plan_count: 4
   slug: signaturely-plans-pricing
-random_paper: 7
+random_paper: 73
 rate_limits:
 - limit_count: 5
   name: Signaturely Rate Limits

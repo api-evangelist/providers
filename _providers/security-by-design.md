@@ -39,7 +39,7 @@ name: Security by Design
 nav: Providers
 network: true
 overview: Security by Design is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Best Practices, Development Methodology, Security, and Software Development.
-random_paper: 71
+random_paper: 49
 score:
   band: minimal
   composite: 4.3

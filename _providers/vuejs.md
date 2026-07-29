@@ -147,7 +147,7 @@ plans:
 - name: Vuejs Plans Pricing
   plan_count: 3
   slug: vuejs-plans-pricing
-random_paper: 77
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Vuejs Rate Limits

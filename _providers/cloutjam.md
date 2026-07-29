@@ -104,7 +104,7 @@ overview: 'CloutJam is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   CloutJam''s developer surface includes documentation, support, authentication, and 12 more developer resources.'
-random_paper: 63
+random_paper: 53
 scopes:
 - name: Cloutjam Scopes
   scope_count: 3

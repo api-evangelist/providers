@@ -166,7 +166,7 @@ plans:
 - name: Respeecher Plans Pricing
   plan_count: 6
   slug: respeecher-plans-pricing
-random_paper: 22
+random_paper: 9
 rate_limits:
 - limit_count: 0
   name: Respeecher Rate Limits

@@ -48,7 +48,7 @@ name: Bop.fm
 nav: Providers
 network: true
 overview: Bop.fm is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Music, Music Streaming, Playlists, and Music Discovery.
-random_paper: 52
+random_paper: 46
 score:
   band: minimal
   composite: 5.0

@@ -148,7 +148,7 @@ overview: 'Talkspace is profiled on the [APIs.io](https://apis.io/) network. Tag
 
 
   Talkspace''s developer surface includes engineering blog, YouTube channel, and 24 more developer resources.'
-random_paper: 72
+random_paper: 61
 score:
   band: emerging
   composite: 13.6

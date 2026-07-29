@@ -110,7 +110,7 @@ plans:
 - name: Arkham Intelligence Plans Pricing
   plan_count: 1
   slug: arkham-intelligence-plans-pricing
-random_paper: 20
+random_paper: 77
 rate_limits:
 - limit_count: 2
   name: Arkham Intelligence Rate Limits

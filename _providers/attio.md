@@ -97,7 +97,7 @@ overview: 'Attio publishes 1 API on the [APIs.io](https://apis.io/) network: RES
 
 
   Attio''s developer surface includes authentication, documentation, pricing, signup flow, and 8 more developer resources.'
-random_paper: 65
+random_paper: 59
 scopes:
 - name: Attio Scopes
   scope_count: 7

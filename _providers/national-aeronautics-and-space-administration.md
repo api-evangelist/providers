@@ -161,7 +161,7 @@ plans:
 - name: National Aeronautics And Space Administration Plans Pricing
   plan_count: 3
   slug: national-aeronautics-and-space-administration-plans-pricing
-random_paper: 77
+random_paper: 21
 rate_limits:
 - limit_count: 5
   name: National Aeronautics And Space Administration Rate Limits

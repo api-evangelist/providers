@@ -59,7 +59,7 @@ overview: 'Methodical Games is profiled on the [APIs.io](https://apis.io/) netwo
 
 
   Methodical Games'' developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 20
+random_paper: 0
 score:
   band: minimal
   composite: 6.6

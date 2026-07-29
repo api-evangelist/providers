@@ -52,7 +52,7 @@ name: Dognosis
 nav: Providers
 network: true
 overview: Dognosis is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Health, Healthcare, Diagnostics, and Cancer Detection.
-random_paper: 70
+random_paper: 60
 score:
   band: minimal
   composite: 6.9

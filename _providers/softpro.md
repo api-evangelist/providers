@@ -79,7 +79,7 @@ overview: 'SoftPro is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   SoftPro''s developer surface includes documentation, signup flow, support, engineering blog, and 5 more developer resources.'
-random_paper: 61
+random_paper: 52
 score:
   band: minimal
   composite: 10.7

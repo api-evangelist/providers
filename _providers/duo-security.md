@@ -126,7 +126,7 @@ plans:
 - name: Duo Security Plans Pricing
   plan_count: 3
   slug: duo-security-plans-pricing
-random_paper: 61
+random_paper: 46
 rate_limits:
 - limit_count: 5
   name: Duo Security Rate Limits

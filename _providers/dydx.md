@@ -74,7 +74,7 @@ overview: 'dYdX publishes 1 API on the [APIs.io](https://apis.io/) network: dYdX
 
 
   dYdX''s developer surface includes engineering blog and 3 more developer resources.'
-random_paper: 41
+random_paper: 36
 rules:
 - name: dYdX API Rules
   rule_count: 7

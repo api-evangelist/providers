@@ -91,7 +91,7 @@ press:
 - date: '2026-05-25'
   title: Lockheed Martin
   url: https://en.wikipedia.org/wiki/Lockheed_Martin
-random_paper: 7
+random_paper: 69
 score:
   band: minimal
   composite: 5.2

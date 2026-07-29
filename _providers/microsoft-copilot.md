@@ -559,7 +559,7 @@ plans:
 - name: Microsoft Copilot Plans Pricing
   plan_count: 7
   slug: microsoft-copilot-plans-pricing
-random_paper: 29
+random_paper: 7
 rate_limits:
 - limit_count: 5
   name: Microsoft Copilot Rate Limits

@@ -39,7 +39,7 @@ name: Outils De Gestion Des Risques
 nav: Providers
 network: true
 overview: Outils De Gestion Des Risques is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include France, Risk Management, Compliance, and Governance.
-random_paper: 30
+random_paper: 75
 score:
   band: minimal
   composite: 4.1

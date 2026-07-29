@@ -80,7 +80,7 @@ plans:
 - name: Podchaser Plans Pricing
   plan_count: 3
   slug: podchaser-plans-pricing
-random_paper: 73
+random_paper: 62
 rate_limits:
 - limit_count: 5
   name: Podchaser Rate Limits

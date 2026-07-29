@@ -63,7 +63,7 @@ overview: 'Virtusa is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Virtusa''s developer surface includes engineering blog and 4 more developer resources.'
-random_paper: 62
+random_paper: 53
 score:
   band: minimal
   composite: 9.7

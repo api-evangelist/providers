@@ -801,7 +801,7 @@ plans:
 - name: Jira Plans Pricing
   plan_count: 4
   slug: jira-plans-pricing
-random_paper: 22
+random_paper: 17
 rate_limits:
 - limit_count: 4
   name: Jira Rate Limits

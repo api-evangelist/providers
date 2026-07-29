@@ -48,7 +48,7 @@ name: Circa Labs
 nav: Providers
 network: true
 overview: Circa Labs is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Fintech, Proptech, Rentals, and Wealth.
-random_paper: 17
+random_paper: 5
 score:
   band: minimal
   composite: 5.0

@@ -87,7 +87,7 @@ overview: 'str8bat is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   str8bat''s developer surface includes engineering blog, support, and 8 more developer resources.'
-random_paper: 72
+random_paper: 64
 score:
   band: emerging
   composite: 14.1

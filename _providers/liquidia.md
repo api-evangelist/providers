@@ -119,7 +119,7 @@ overview: 'Liquidia is profiled on the [APIs.io](https://apis.io/) network. Tagg
 
 
   Liquidia''s developer surface includes support and 18 more developer resources.'
-random_paper: 50
+random_paper: 40
 score:
   band: minimal
   composite: 12.8

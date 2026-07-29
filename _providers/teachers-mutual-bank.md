@@ -170,7 +170,7 @@ overview: 'Teachers Mutual Bank publishes 7 APIs on the [APIs.io](https://apis.i
 
 
   Teachers Mutual Bank''s developer surface includes authentication, API reference, getting-started guide, documentation, support, and 20 more developer resources.'
-random_paper: 13
+random_paper: 69
 rate_limits:
 - limit_count: 2
   name: Teachers Mutual Bank Rate Limits

@@ -52,7 +52,7 @@ name: Defense.net
 nav: Providers
 network: true
 overview: Defense.net is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Cybersecurity, DDoS, DDoS Mitigation, and Network Security.
-random_paper: 17
+random_paper: 4
 score:
   band: minimal
   composite: 5.0

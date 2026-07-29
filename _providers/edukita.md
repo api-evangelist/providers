@@ -67,7 +67,7 @@ overview: 'Edukita is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Edukita''s developer surface includes engineering blog and 5 more developer resources.'
-random_paper: 23
+random_paper: 14
 score:
   band: minimal
   composite: 9.7

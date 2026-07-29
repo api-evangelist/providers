@@ -52,7 +52,7 @@ name: Torchdental
 nav: Providers
 network: true
 overview: Torchdental is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Dental, Healthcare, Procurement, and E-Commerce.
-random_paper: 56
+random_paper: 42
 score:
   band: minimal
   composite: 8.6

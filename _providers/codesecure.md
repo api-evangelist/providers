@@ -75,7 +75,7 @@ overview: 'CodeSecure is profiled on the [APIs.io](https://apis.io/) network. Ta
 
 
   CodeSecure''s developer surface includes developer portal, documentation, engineering blog, support, and 4 more developer resources.'
-random_paper: 18
+random_paper: 5
 score:
   band: minimal
   composite: 12.3

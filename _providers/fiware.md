@@ -144,7 +144,7 @@ plans:
 - name: Fiware Plans Pricing
   plan_count: 3
   slug: fiware-plans-pricing
-random_paper: 78
+random_paper: 71
 rate_limits:
 - limit_count: 5
   name: Fiware Rate Limits

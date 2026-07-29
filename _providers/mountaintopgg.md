@@ -39,7 +39,7 @@ name: Mountaintop.gg
 nav: Providers
 network: true
 overview: Mountaintop.gg is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Gaming, Video Games, Game Studio, and Esports.
-random_paper: 60
+random_paper: 43
 score:
   band: minimal
   composite: 5.0

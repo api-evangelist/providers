@@ -165,7 +165,7 @@ overview: 'AGL Energy publishes 3 APIs on the [APIs.io](https://apis.io/) networ
 
 
   AGL Energy''s developer surface includes authentication, changelog, API reference, documentation, support, and 22 more developer resources.'
-random_paper: 43
+random_paper: 31
 scopes:
 - name: Agl Energy Scopes
   scope_count: 11

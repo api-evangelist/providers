@@ -108,7 +108,7 @@ overview: 'Bold is profiled on the [APIs.io](https://apis.io/) network. Tagged a
 
 
   Bold''s developer surface includes signup flow, support, engineering blog, and 13 more developer resources.'
-random_paper: 17
+random_paper: 12
 score:
   band: emerging
   composite: 15.0

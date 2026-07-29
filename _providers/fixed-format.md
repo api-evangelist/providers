@@ -44,7 +44,7 @@ name: Fixed Format
 nav: Providers
 network: true
 overview: Fixed Format is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Data Exchange, Data Formats, File Formats, Fixed Format, and Fixed Width.
-random_paper: 22
+random_paper: 7
 score:
   band: minimal
   composite: 6.3

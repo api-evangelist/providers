@@ -166,7 +166,7 @@ overview: 'Travelport publishes 11 APIs on the [APIs.io](https://apis.io/) netwo
 
 
   Travelport''s developer surface includes authentication, getting-started guide, support, product news, and 12 more developer resources.'
-random_paper: 67
+random_paper: 54
 score:
   band: emerging
   composite: 26.2

@@ -84,7 +84,7 @@ press:
 - date: '2026-05-25'
   title: MWI - Furscription Asset Purchase Agreement.
   url: https://www.sec.gov/Archives/edgar/data/1842356/000184235625000088/furscription-assetpurchase.htm
-random_paper: 45
+random_paper: 18
 score:
   band: minimal
   composite: 10.0

@@ -48,7 +48,7 @@ name: Data.ai
 nav: Providers
 network: true
 overview: Data.ai is profiled on the [APIs.io](https://apis.io/) network. Tagged areas include Company, Analytics, Mobile, App Store, and Market Data.
-random_paper: 52
+random_paper: 45
 score:
   band: minimal
   composite: 5.8

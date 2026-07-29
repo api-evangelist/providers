@@ -68,7 +68,7 @@ press:
 - date: '2026-05-25'
   title: AI Tax Assist
   url: https://www.hrblock.com/tax-center/media-kit/ai-tax-assist/?srsltid=AfmBOoo9UfHXAtALeWIBQ8Fr2laaQ9u6R6b7PQNkNEAu7ef3T_RwB_E3
-random_paper: 53
+random_paper: 40
 score:
   band: minimal
   composite: 3.8

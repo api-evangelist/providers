@@ -59,7 +59,7 @@ overview: 'Equator Principles is profiled on the [APIs.io](https://apis.io/) net
 
 
   Equator Principles'' developer surface includes documentation, engineering blog, and 2 more developer resources.'
-random_paper: 55
+random_paper: 32
 score:
   band: minimal
   composite: 7.0

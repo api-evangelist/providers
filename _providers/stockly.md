@@ -75,7 +75,7 @@ overview: 'Stockly is profiled on the [APIs.io](https://apis.io/) network. Tagge
 
 
   Stockly''s developer surface includes support, engineering blog, and 6 more developer resources.'
-random_paper: 57
+random_paper: 48
 score:
   band: minimal
   composite: 11.9
